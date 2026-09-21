@@ -70,14 +70,16 @@ resilience modules `14/15/16/19/21/22/23` → `24_resilience_pipeline_check` →
   said she is unsure she wants to be first author. Unanswered. Nothing should go to
   coauthors until it is settled. Full record (project content only) is in the MS repo at
   `correspondence/EMILY_DONHAM_CORRESPONDENCE.md`.
-- **A newer draft exists than anything on disk** — `MPA_Kelp_MS_V7_EMDedits.docx`, attached
-  to the 2026-09-17 email, not yet saved into the MS repo.
+- **Emily's 2026-09-17 draft is now in the MS repo** at
+  `manuscript/from_emily/2026-09-17_MPA_Kelp_MS_V7_EMDedits.docx` (saved 2026-09-21), but
+  is not yet reconciled into the working copy.
 
 ## Open threads (resume here)
 
 - [ ] **Answer Emily's 2026-09-17 authorship email.** This is the only thing genuinely
       holding the paper, and the decision is hers.
-- [ ] **Save and diff `MPA_Kelp_MS_V7_EMDedits.docx`** into `manuscript/from_emily/`.
+- [ ] **Reconcile Emily's 2026-09-17 draft** into `MPA_Kelp_MS_V7_working.docx`. Saved
+      2026-09-21 to `manuscript/from_emily/`; delta is edit-level, not structural.
 - [ ] **`edonham@ucsb.edu` is dead** (since 2026-09-02) but is still the corresponding
       address in V7, and `front_matter_audit.md` marks it PASS. Use
       `emily.m.donham@gmail.com`, and make that gate catch dead addresses.
