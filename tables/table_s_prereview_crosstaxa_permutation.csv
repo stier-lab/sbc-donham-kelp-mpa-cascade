@@ -1,0 +1,7 @@
+"Relationship","k","slope_reproduced","slope_published","reproduces_published","p_parametric_published","permutation_mode","n_permutations","p_permutation","p_permutation_floor"
+"S. purpuratus density -> M. pyrifera biomass",11,-0.0522,0.0087,FALSE,0.9645,"monte-carlo(1e4)",10000,0.8472,1e-04
+"M. franciscanus density -> M. pyrifera biomass",10,-0.2992,-0.1668,FALSE,0.2088,"monte-carlo(1e4)",10000,0.0547,1e-04
+"P. interruptus density -> S. purpuratus density",11,0.2763,0.1539,FALSE,0.7146,"monte-carlo(1e4)",10000,0.5065,1e-04
+"S. pulcher density -> S. purpuratus density",11,0.025,-0.1247,FALSE,0.8596,"monte-carlo(1e4)",10000,0.9704,1e-04
+"P. interruptus biomass -> S. purpuratus biomass",4,-0.4215,-0.4215,TRUE,0.0539,"exact",24,0.25,0.0417
+"S. pulcher biomass -> S. purpuratus biomass",9,0.3653,0.2896,FALSE,0.2006,"monte-carlo(1e4)",10000,0.354,1e-04
