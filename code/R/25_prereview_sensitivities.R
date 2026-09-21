@@ -170,3 +170,51 @@ writeLines(sprintf("reconstruction_fidelity_exact_fraction,%.4f\nrows_compared,%
            "tables/table_s_prereview_offset_coverage.csv")
 cat("  wrote tables/table_s_prereview_offset_coverage.csv\n")
 cat("done\n")
+
+# --- E. Autocorrelation-inflated standard errors ------------------------------
+# A relative sensitivity, not a replacement for Table 2. The published joint
+# model could not be reproduced exactly from the per-combination snapshot (signs
+# and magnitudes agree, the details do not), so this fits ONE internally
+# consistent joint model twice: once with the reported standard errors, once
+# with each combination's SE inflated for residual autocorrelation. The quantity
+# of interest is how much the intervals widen, not the absolute estimates.
+#
+# rho is estimated from the Durbin-Watson statistic (rho ~= 1 - DW/2, floored at
+# zero) and the variance inflation factor is (1 + rho) / (1 - rho).
+cat("E. Autocorrelation-inflated SE sensitivity\n")
+d <- ms %>%
+  filter(!is.na(Mean), !is.na(SE), SE > 0) %>%
+  mutate(Response = ifelse(Resp == "Bio", "Biomass", "Density"),
+         rho = pmax(0, pmin(0.95, 1 - DW_stat / 2)),
+         rho = ifelse(is.na(rho), 0, rho),
+         vif = (1 + rho) / (1 - rho),
+         vi_raw = SE^2,
+         vi_ar1 = SE^2 * vif,
+         Taxa = factor(Taxa))
+
+rows <- list()
+for (rp in c("Biomass", "Density")) {
+  sub <- d %>% filter(Response == rp) %>% mutate(Taxa = droplevels(Taxa))
+  m0 <- rma.mv(yi = Mean, V = vi_raw, mods = ~ Taxa - 1,
+               random = ~ 1 | MPA / Source, data = sub, method = "REML")
+  m1 <- rma.mv(yi = Mean, V = vi_ar1, mods = ~ Taxa - 1,
+               random = ~ 1 | MPA / Source, data = sub, method = "REML")
+  nm <- gsub("^Taxa", "", rownames(m0$b))
+  for (i in seq_along(nm)) {
+    rows[[length(rows) + 1]] <- tibble(
+      Taxa = nm[i], Response = rp,
+      est_reported_se = round(m0$b[i], 3), ci_lo_reported = round(m0$ci.lb[i], 3),
+      ci_hi_reported = round(m0$ci.ub[i], 3), p_reported = round(m0$pval[i], 4),
+      est_ar1_se = round(m1$b[i], 3), ci_lo_ar1 = round(m1$ci.lb[i], 3),
+      ci_hi_ar1 = round(m1$ci.ub[i], 3), p_ar1 = round(m1$pval[i], 4),
+      ci_width_ratio = round((m1$ci.ub[i] - m1$ci.lb[i]) / (m0$ci.ub[i] - m0$ci.lb[i]), 3),
+      sign_flip = sign(m0$b[i]) != sign(m1$b[i]),
+      significance_flip = (m0$pval[i] < 0.05) != (m1$pval[i] < 0.05))
+  }
+}
+ar1_tbl <- bind_rows(rows)
+out(ar1_tbl, "table_s_prereview_ar1_inflation.csv")
+cat(sprintf("   median CI-width ratio %.3f; significance flips %d of %d; sign flips %d\n",
+            median(ar1_tbl$ci_width_ratio), sum(ar1_tbl$significance_flip),
+            nrow(ar1_tbl), sum(ar1_tbl$sign_flip)))
+cat(sprintf("   median rho across combinations = %.3f\n", median(d$rho)))
