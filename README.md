@@ -1,9 +1,13 @@
-# Restoration of Trophic Cascades in California MPA Kelp Forests
+# Partial Trophic-Cascade Recovery and Kelp Resilience in California MPAs
 
 [![R](https://img.shields.io/badge/R-%3E%3D4.0-blue.svg)](https://www.r-project.org/)
 [![Status](https://img.shields.io/badge/Status-In%20Preparation-yellow.svg)]()
 
-> **Manuscript Title:** Restoration of trophic cascades within kelp forests following the establishment of a network of marine protected areas
+> **Manuscript Title:** Partial trophic-cascade recovery and kelp resilience in a southern California marine protected-area network
+>
+> **Target journal:** Journal of Applied Ecology (Research Article)
+>
+> *README last updated: 2026-09-21 — title and author list synchronized with `MPA_Kelp_MS_V7_working.docx`.*
 
 ---
 
@@ -40,9 +44,20 @@ The analysis examines:
 
 ## Authors
 
-**Emily Donham**<sup>1</sup> & **Adrian Stier**<sup>1</sup>
+Emily Donham<sup>1</sup>\*, Tom Bell<sup>2</sup>, Jennifer E. Caselle<sup>3</sup>, Scott Gabara<sup>4</sup>,
+Scott Hamilton<sup>5</sup>, Li Kui<sup>3</sup>, Robert Miller<sup>3</sup>, Dan Pondella<sup>6</sup>,
+Peter Raimondi<sup>7</sup>, Daniel Reed<sup>3</sup>, and Adrian Stier<sup>1</sup>
 
-<sup>1</sup> Department of Ecology, Evolution, and Marine Biology, University of California, Santa Barbara
+<sup>1</sup> Department of Ecology, Evolution, and Marine Biology, University of California Santa Barbara, Santa Barbara, CA 93106, USA
+<sup>2</sup> Woods Hole Oceanographic Institution, Woods Hole, MA 02543, USA
+<sup>3</sup> Marine Science Institute, University of California Santa Barbara, Santa Barbara, CA 93106, USA
+<sup>4</sup> National Park Service
+<sup>5</sup> Moss Landing Marine Laboratories, San Jose State University, Moss Landing, CA 95039, USA
+<sup>6</sup> Occidental College, Los Angeles, CA 90041, USA
+<sup>7</sup> Department of Ecology and Evolutionary Biology, University of California Santa Cruz, Santa Cruz, CA 95060, USA
+
+\* Corresponding author. Author list follows `MPA_Kelp_MS_V7_working.docx`; confirm the
+current contact address with the author team before citing it.
 
 ---
 
