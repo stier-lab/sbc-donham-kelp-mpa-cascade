@@ -1,0 +1,62 @@
+{
+  "file": "CAkelpCanopyEnv_2021.nc",
+  "bytes": 207796876,
+  "md5": "6726ea874abbec5cf8b436a1f22c519b",
+  "global_attributes": [],
+  "attributes": {
+    "lat": [],
+    "lon": [],
+    "utm_x": [],
+    "utm_y": [],
+    "utm_zone": [],
+    "year": [],
+    "quarter": {
+      "Description": "1=Jan-Mar,2=Apr-June,3=Jul-Sep,4=Oct-Dec"
+    },
+    "depth": {
+      "Description": "depth of pixel",
+      "Units": "meters"
+    },
+    "area": {
+      "_FillValue": -1,
+      "Description": "kelp canopy area",
+      "Units": "m^2 canopy/900m^2 pixel"
+    },
+    "biomass": {
+      "_FillValue": -1,
+      "Description": "giant kelp canopy biomass",
+      "Units": "wet Kg/900m^2 pixel"
+    },
+    "temperature": {
+      "_FillValue": -1,
+      "Description": "sea surface temperature",
+      "Units": "degrees C"
+    },
+    "nitrate": {
+      "_FillValue": -1,
+      "Description": "sea surface nitrate",
+      "Units": "umol L-1"
+    },
+    "hsmax": {
+      "_FillValue": -1,
+      "Description": "maximum significant wave height",
+      "Units": "meters"
+    },
+    "parbttm_mean": {
+      "_FillValue": -1,
+      "Description": "mean par at bottom",
+      "Units": "einstein m-2 day-1"
+    },
+    "parbttm_max": {
+      "_FillValue": -1,
+      "Description": "maximum par at bottom",
+      "Units": "einstein m-2 day-1"
+    }
+  },
+  "n_stations": 332640,
+  "n_quarters": 152,
+  "year_range": [1984, 2021],
+  "quarter_values": [1, 2, 3, 4],
+  "coordinate_matching_precision": "6 decimal degrees",
+  "exact_annual_sum_matches": 6
+}

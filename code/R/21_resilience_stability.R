@@ -90,10 +90,9 @@ if (!is.null(pairs_df)) {
     geom_point(aes(color = site), size = 1.3) +
     facet_wrap(~ lab, nrow = 1, scales = "free_y") +
     scale_color_manual(values = c(Reference = "#D55E00", MPA = "#0072B2"), guide = "none") +
-    labs(x = NULL, y = "Temporal CV of annual abundance (lower = more stable)",
-         title = "Does MPA protection stabilize the kelp forest? (paired CV inside vs outside)") +
+    labs(x = NULL, y = "Temporal CV of annual abundance (lower = more stable)") +
     theme_mpa(base_size = 9) +
-    theme(axis.text.x = element_text(size = 7), plot.title = element_text(size = 9, face = "bold"))
+    theme(axis.text.x = element_text(size = 7))
   ggsave(here::here("plots", "fig_resilience_stability.pdf"), p, width = 180, height = 80, units = "mm", device = cairo_pdf)
   ggsave(here::here("plots", "fig_resilience_stability.png"), p, width = 180, height = 80, units = "mm", dpi = 600)
 }

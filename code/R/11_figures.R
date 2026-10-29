@@ -185,7 +185,7 @@ has_ggrepel <- require_pkgs("ggrepel", optional = TRUE)
 
 # Figure 1 (map) packages - optional but needed for Figure 1
 has_fig1_pkgs <- require_pkgs(c("sf", "ggspatial", "marmap", "ggnewscale",
-                                 "terra", "tidyterra", "elevatr", "rnaturalearth", "ggrepel"),
+                                 "terra", "tidyterra", "elevatr", "rnaturalearthdata", "ggrepel"),
                                optional = TRUE)
 if (!has_fig1_pkgs) {
   cat("  NOTE: Figure 1 packages not available - Figure 1 will be skipped\n")
@@ -509,8 +509,14 @@ if (has_fig1_pkgs) {
   )
 
   # --- 4. Load Coastline ---
-  coast <- rnaturalearth::ne_states(country = "united states of america", returnclass = "sf") %>%
-    filter(name == "California")
+  # Use the medium-resolution Natural Earth state layer bundled in
+  # rnaturalearthdata. rnaturalearth::ne_states() can try to install the
+  # optional rnaturalearthhires package at runtime, which is brittle in clean
+  # reviewer environments.
+  utils::data("states50", package = "rnaturalearthdata", envir = environment())
+  coast <- states50 %>%
+    dplyr::filter(name == "California") %>%
+    sf::st_transform(4326)
 
   # --- 5. Final retained MPA/source sites ---
   # Build the map layer from the analysis output used downstream by the
@@ -525,6 +531,20 @@ if (has_fig1_pkgs) {
   if (nrow(sites_source) == 0) {
     stop("Figure 1 has no retained MPA/source sites in SumStats.Final.")
   }
+
+  # The inherited Long Point coordinate lies outside its reserve polygon.
+  # Use an interior polygon point for display only, leaving model metadata unchanged.
+  long_point <- mpa[mpa$NAME == "Long Point SMR", ]
+  stopifnot(nrow(long_point) == 1L)
+  long_xy <- sf::st_coordinates(sf::st_transform(
+    suppressWarnings(sf::st_point_on_surface(sf::st_transform(long_point, 32611))), 4326))
+  write.csv(data.frame(MPA = "Long Point SMR", original_lon = -118.21, original_lat = 33.24,
+    display_lon = long_xy[1, 1], display_lat = long_xy[1, 2],
+    source = "Interior point of supplied CDFW reserve polygon; map display only"),
+    here::here("tables/table_s_map_coordinate_correction.csv"), row.names = FALSE)
+  sites_source <- sites_source %>% dplyr::mutate(
+    Lon = ifelse(CA_MPA_Name_Short == "Long Point SMR", long_xy[1, 1], Lon),
+    Lat = ifelse(CA_MPA_Name_Short == "Long Point SMR", long_xy[1, 2], Lat))
 
   source_offsets <- tibble::tibble(
     Source = source_levels,
@@ -599,62 +619,20 @@ if (has_fig1_pkgs) {
   )
 
 	  # --- 8. Build Main Map ---
-	  # The map is built layer by layer: ocean bathymetry (bottom) -> MPA boundaries
-	  # -> land hillshade -> coastline outline -> site markers -> labels (top).
-	  # Two new_scale_fill() calls allow three different fill scales (bathymetry,
-	  # MPA protection type, hillshade terrain).
-		  main_map <- ggplot() +
-		    # Layer 1: Ocean depth gradient (positive meters for readable legend)
-		    geom_raster(data = bathy_ocean, aes(x = lon, y = lat, fill = -depth),
-		                interpolate = TRUE, alpha = 0.85) +
-		    scale_fill_gradientn(
-		      colors = rev(ocean_colors),
-		      name = "Depth (m)",
-		      breaks = depth_breaks_m,
-		      labels = depth_breaks_m,
-		      limits = c(0, depth_max_m),
-		      oob = scales::squish,
-		      guide = guide_colorbar(
-		        direction = "horizontal",
-		        barwidth = unit(1.7, "cm"),
-		        barheight = unit(0.3, "cm"),
-		        title.position = "left",
-		        title.hjust = 0.5,
-		        title.theme = element_text(size = 7, face = "plain"),
-		        frame.colour = "grey60",
-		        frame.linewidth = 0.25,
-	        ticks = TRUE,
-	        ticks.colour = "grey40",
-		        ticks.linewidth = 0.35,
-		        label.position = "bottom",
-		        label.theme = element_text(size = 7, color = "grey25"),
-		        order = 3
-		      )
-		    ) +
-	    # Layer 2: Depth contour lines (subtle white lines at key depths)
-	    geom_contour(data = bathy_ocean, aes(x = lon, y = lat, z = depth),
-	                 breaks = c(-100, -200, -500, -1000, -2000, -3000), color = "white",
-	                 linewidth = 0.20, alpha = 0.25) +
-    # --- Switch to fill scale #2: MPA protection type ---
-    new_scale_fill() +
-    # Layer 3: MPA boundary polygons (dark = no-take, light = partial protection)
+  # Reserve boundaries are the focal layer; ocean-depth shading is omitted.
+  main_map <- ggplot() +
     geom_sf(data = mpa, aes(fill = mpa_group), color = fig1_map_colors$mpa_border,
-            alpha = 0.65, linewidth = 0.5, inherit.aes = FALSE) +
+            alpha = 0.85, linewidth = 0.5, inherit.aes = FALSE) +
     scale_fill_manual(name = NULL, values = mpa_fill_colors,
                       guide = guide_legend(order = 2, nrow = 1,
-                                           override.aes = list(alpha = 0.6))) +
-    # --- Switch to fill scale #3: land hillshade terrain ---
+                                           override.aes = list(alpha = 0.85))) +
+    # Land relief is retained without an ocean-depth scale.
     new_scale_fill() +
-    # Layer 4: Semi-transparent land base (behind hillshade)
     geom_sf(data = coast, fill = alpha("#F5F0E1", 0.50), color = NA, inherit.aes = FALSE) +
-    # Layer 5: Hillshade terrain relief (from multi-angle DEM)
     geom_spatraster(data = hillshade, maxcell = 1e6) +
     scale_fill_gradientn(colors = terrain_pal, na.value = NA, guide = "none") +
-    # Layer 6: Coastline outline (drawn on top of hillshade)
     geom_sf(data = coast, fill = NA, color = fig1_map_colors$coastline,
             linewidth = 0.4, inherit.aes = FALSE) +
-    # Layer 7: Retained MPA/source markers. Multiple source markers at the
-    # same MPA are offset slightly so no data source is hidden.
     geom_point(data = sites_base, aes(x = plot_lon, y = plot_lat, shape = program),
                size = 2.35, fill = "grey35", color = "white", stroke = 0.55) +
     scale_shape_manual(name = NULL, values = program_shapes,
@@ -878,9 +856,7 @@ p2a <- ggplot(sim_raw, aes(x = year, y = value, color = status, linetype = statu
                       name = "Site") +
   scale_linetype_manual(values = c("Inside" = "solid", "Outside" = "32"),
                         guide = "none") +
-  labs(title = expression(bold("(a)") ~ "Raw kelp biomass"),
-       subtitle = "Example: M. pyrifera biomass at Scorpion SMR (simulated)",
-       x = NULL,
+  labs(x = NULL,
        y = expression(Biomass ~ (g ~ m^{-2}))) +
   scale_x_continuous(breaks = sim_x_breaks, limits = sim_x_limits) +
   fig2_theme_step +
@@ -902,9 +878,7 @@ p2b <- ggplot(sim_prop, aes(x = year, y = prop, color = status, linetype = statu
                       name = "Site") +
   scale_linetype_manual(values = c("Inside" = "solid", "Outside" = "32"),
                         guide = "none") +
-  labs(title = expression(bold("(b)") ~ "Standardized"),
-       subtitle = "Example: M. pyrifera at Scorpion SMR, proportion of paired maximum",
-       x = NULL,
+  labs(x = NULL,
        y = "Proportion of paired max") +
   scale_x_continuous(breaks = sim_x_breaks, limits = sim_x_limits) +
   scale_y_continuous(breaks = seq(0, 1, by = 0.5)) +
@@ -960,9 +934,7 @@ p2c <- ggplot(sim_lnrr, aes(x = year, y = lnRR, shape = BA)) +
            hjust = 1, vjust = 1.5,
            size = 2.8, color = "grey25", lineheight = 1.1,
            fontface = "italic") +
-  labs(title = expression(bold("(c)") ~ "Estimated MPA effect"),
-       subtitle = "Example: M. pyrifera lnRR at Scorpion SMR with post-MPA trend",
-       x = "Year",
+  labs(x = "Year",
        y = "ln(MPA / Reference)") +
   scale_x_continuous(breaks = sim_x_breaks, limits = sim_x_limits) +
   fig2_theme_causal
@@ -972,16 +944,7 @@ p2c <- ggplot(sim_lnrr, aes(x = year, y = lnRR, shape = BA)) +
 # ----------------------------------------------------------
 fig2_final <- (p2a / p2b / p2c) +
   plot_layout(heights = c(1, 1, 1.35), guides = "collect") +
-  plot_annotation(
-    title = "MPAs increase kelp biomass via post-establishment divergence",
-    subtitle = "Illustrative example: M. pyrifera at Scorpion SMR (simulated data modeled on observed patterns)",
-    theme = theme(
-      plot.title = element_text(size = 10.5, color = "grey15", face = "bold",
-                                hjust = 0.5, margin = margin(b = 1)),
-      plot.subtitle = element_text(size = 8, color = "grey50", face = "plain",
-                                    hjust = 0.5, margin = margin(b = 4)),
-      plot.background = element_rect(fill = "white", colour = NA))
-  ) &
+  plot_annotation(tag_levels = list(c("(a)", "(b)", "(c)"))) &
   theme(
     legend.position = "bottom",
     legend.box = "horizontal",
@@ -1085,10 +1048,10 @@ rr_labels_fn <- function(x) {
 # Add panel tags to facet strip labels
 fig_s1_data$Taxa <- factor(fig_s1_data$Taxa,
   levels = taxa_levels,
-  labels = paste0("(", letters[seq_along(taxa_levels)], ")  ", taxa_levels))
+  labels = paste0("(", letters[seq_along(taxa_levels)], ")  ", taxon_display(taxa_levels)))
 meta_summary_s1$Taxa <- factor(meta_summary_s1$Taxa,
   levels = taxa_levels,
-  labels = paste0("(", letters[seq_along(taxa_levels)], ")  ", taxa_levels))
+  labels = paste0("(", letters[seq_along(taxa_levels)], ")  ", taxon_display(taxa_levels)))
 
 pd_s1 <- position_dodge(width = 0.55)
 # Build forest plot: each point = one MPA's effect size, faceted by species.
@@ -1137,7 +1100,7 @@ fig_s1 <- ggplot(
   # RR-labelled x-axis: data on lnRR scale, labels show back-transformed RR
   # where RR = 1 (lnRR = 0) means no MPA effect (free scale per panel)
   scale_x_continuous(breaks = rr_breaks_fn, labels = rr_labels_fn) +
-  labs(x = "MPA / Reference", y = NULL) +
+  labs(x = "Exponentiated design-specific contrast", y = NULL) +
   theme_mpa(base_size = 9) +
   theme(
     strip.text = element_text(face = "bold.italic", size = 10, margin = margin(3, 0, 3, 0)),
@@ -1319,13 +1282,13 @@ fig2 <- ggplot() +
   scale_shape_manual(name = NULL, values = fig2_shape_map) +
   scale_x_continuous(
     breaks = seq_along(fig2_trophic_levels),
-    labels = paste0("*", fig2_trophic_levels, "*<br>(", fig2_common_names[fig2_trophic_levels], ")"),
+    labels = paste0("*", taxon_display(fig2_trophic_levels), "*<br>(", fig2_common_names[fig2_trophic_levels], ")"),
     expand = expansion(mult = 0.08)
   ) +
-  # RR-labelled y-axis: data stays on lnRR (log response ratio) scale internally;
-  # tick labels show back-transformed RR values. RR = 1 (lnRR = 0) means no MPA
-  # effect; RR > 1 = higher inside MPA, RR < 1 = lower inside MPA.
-  scale_y_rr(fig2_y_min - 0.9, fig2_y_max + 0.7) +
+  # Inputs combine progressive before/after changes and post-only levels;
+  # exponentiating their pooled contrast does not give a common level ratio.
+  scale_y_rr(fig2_y_min - 0.9, fig2_y_max + 0.7,
+             name = "Exponentiated pooled contrast") +
   coord_cartesian(ylim = c(fig2_y_min - 0.9, fig2_y_max + 0.7),
                   clip = "off") +
   labs(x = NULL) +
@@ -1829,16 +1792,6 @@ for (i in seq_len(nrow(fig4_results_df))) {
 cat("Assembling supplemental 12-panel cascade figure...\n")
 
 # Add column headers to top-row panels only
-fig4_all_panels[["pr_bio_a"]] <- fig4_all_panels[["pr_bio_a"]] +
-  ggtitle("Sheephead \u2192 Urchin") +
-  theme(plot.title = element_text(size = 8, face = "bold", hjust = 0.5, margin = margin(b = 2)))
-fig4_all_panels[["pr_bio_b"]] <- fig4_all_panels[["pr_bio_b"]] +
-  ggtitle("Lobster \u2192 Urchin") +
-  theme(plot.title = element_text(size = 8, face = "bold", hjust = 0.5, margin = margin(b = 2)))
-fig4_all_panels[["pr_bio_c"]] <- fig4_all_panels[["pr_bio_c"]] +
-  ggtitle("Urchin \u2192 Kelp") +
-  theme(plot.title = element_text(size = 8, face = "bold", hjust = 0.5, margin = margin(b = 2)))
-
 # Add panel tags (a)-(l)
 panel_tags <- letters[1:12]
 panel_order <- c("pr_bio_a", "pr_bio_b", "pr_bio_c",
@@ -2108,8 +2061,9 @@ cat("  Tested:", sum(testable), " | Sig (raw):", sum(cascade_table$sig_raw == "*
 #     Row 3 (Producers):  M. pyrifera (e)    | [legend]
 #   Each panel shows individual MPA trajectories (faint spaghetti lines)
 #   behind population-level lmer predictions with 95% CI ribbons. A dotted
-#   vertical line marks t=11 years (the standardized comparison point used
-#   for effect size extraction in 08_effect_sizes.R).
+#   vertical line marks 11 calendar years since designation in the temporal
+#   model. This is not the observation-index horizon used by some primary
+#   pBACIPS effect-size routes in 08_effect_sizes.R.
 # DATA: All.RR.sub.trans (response ratios, after-period, t <= 15),
 #   lmer slope parameters from tables/table_s_lmer_prediction_params.csv
 #   (produced by 10_temporal_analysis.R)
@@ -2148,7 +2102,8 @@ fig5_species_colors <- setNames(
 # Build temporal datasets split by response type (biomass vs density)
 # NOTE: Separate columns allow response-specific lmer slopes from
 # 10_temporal_analysis.R (bio and den models). M. pyrifera has biomass only.
-fig5_data_all <- All.RR.sub.trans %>%
+source(here::here("code", "R", "temporal_uncertainty_utils.R"))
+fig5_data_all <- temporal_primary_data(All.RR.sub.trans, SumStats.Final) %>%
   dplyr::filter(BA == "After", time >= 0, time <= 15) %>%
   dplyr::mutate(
     Species = .data[[taxa_col]],
@@ -2345,14 +2300,14 @@ make_fig5_panel <- function(sp, tag_label, show_xlab = FALSE,
   lnRR_at_11 <- if (!is.na(sp_int)) sp_int + sp_slope * 11 else NA
 
   p <- ggplot(panel_data, aes(x = time, y = lnDiff)) +
-    # Individual MPA trajectories (faint spaghetti lines, one per MPA)
-    geom_line(aes(group = CA_MPA_Name_Short),
+    # Source-specific retained histories; do not join different programmes.
+    geom_line(aes(group = history),
               color = sp_color, alpha = 0.18, linewidth = 0.4) +
     # Horizontal reference at lnRR = 0 (RR = 1, no MPA effect)
     geom_hline(yintercept = 0, linetype = "dashed", color = "grey30",
                linewidth = 0.5) +
-    # Dotted vertical at t=11 years: the standardized time point used
-    # in 08_effect_sizes.R to extract comparable effect sizes across MPAs
+    # The temporal model uses calendar time, so this marks 11 elapsed years.
+    # Primary pBACIPS routes do not all use that calendar clock.
     geom_vline(xintercept = 11, linetype = "dotted", color = "grey50",
                linewidth = 0.5) +
     annotate("text", x = 11.3, y = Inf, label = "t = 11",
@@ -2364,24 +2319,14 @@ make_fig5_panel <- function(sp, tag_label, show_xlab = FALSE,
   # prediction variance: Var(pred) = Var(int) + t^2*Var(slope) + 2*t*Cov.
   # Falls back to simple OLS geom_smooth if lmer coefficients unavailable.
   if (!is.na(sp_int) && !is.na(sp_slope) && !is.na(sp_slope_se)) {
-    pred_df <- data.frame(
-      time_seq = seq(0, 15, length.out = 50)
-    )
-    pred_df$pred <- sp_int + sp_slope * pred_df$time_seq
-
-    # Prediction variance using vcov-derived parameters (preferred) or
-    # slope-only SE (fallback, produces narrower CI at t near 0)
-    if (!is.na(sp_int_se) && !is.na(sp_cov) && !is.na(sp_df)) {
-      pred_se <- sqrt(sp_int_se^2 +
-                      pred_df$time_seq^2 * sp_slope_se^2 +
-                      2 * pred_df$time_seq * sp_cov)
-      t_crit <- qt(0.975, sp_df)
-    } else {
-      pred_se <- sp_slope_se * pred_df$time_seq
-      t_crit <- 1.96
-    }
-    pred_df$ci_lb <- pred_df$pred - t_crit * pred_se
-    pred_df$ci_ub <- pred_df$pred + t_crit * pred_se
+    grid <- read.csv(here::here("tables", "table_s_temporal_predictions.csv"))
+    response <- unique(as.character(panel_data$resp))
+    pred_df <- grid[grid$Species == sp & grid$resp == response, ]
+    stopifnot(nrow(pred_df) == 151L, all(is.finite(pred_df$df)), all(pred_df$df > 0))
+    pred_df$time_seq <- pred_df$time
+    pred_df$pred <- pred_df$estimate
+    pred_df$ci_lb <- pred_df$ci_low
+    pred_df$ci_ub <- pred_df$ci_high
 
     p <- p +
       geom_ribbon(data = pred_df,
@@ -2420,14 +2365,11 @@ make_fig5_panel <- function(sp, tag_label, show_xlab = FALSE,
     # Sparse ticks to avoid crowding in compact panels.
     scale_y_rr(ylims$ymin, ylims$ymax, name = NULL, sparse = TRUE) +
     labs(
-      title = sp_abbrev,
-      x = if (show_xlab) "Years since MPA implementation" else NULL,
+    x = if (show_xlab) "Years since MPA designation" else NULL,
       y = NULL
     ) +
     theme_mpa(base_size = 9) +
     theme(
-      plot.title = element_text(face = "italic", size = 9, hjust = 0,
-                                margin = margin(b = 1)),
       plot.tag = element_text(size = 9, face = "bold"),
       plot.tag.position = c(0, 1),
       plot.margin = margin(3, 6, 3, 4, "pt")
@@ -2478,10 +2420,10 @@ p_fig4_spacer <- cowplot::ggdraw() +
   cowplot::draw_label("Population mean\n(lmer \u00b1 95% CI)", x = 0.25, y = 0.78,
                       size = 8, fontfamily = "Helvetica", hjust = 0,
                       lineheight = 0.9) +
-  # Individual MPA
+  # Individual retained history
   cowplot::draw_line(x = c(0.08, 0.22), y = c(0.45, 0.45),
                      color = "grey55", linewidth = 0.4) +
-  cowplot::draw_label("Individual MPA", x = 0.25, y = 0.45,
+  cowplot::draw_label("MPA-source history", x = 0.25, y = 0.45,
                       size = 8, fontfamily = "Helvetica", hjust = 0) +
   # t = 11
   cowplot::draw_line(x = c(0.15, 0.15), y = c(0.14, 0.26),
@@ -2540,8 +2482,7 @@ cat("Building dropped disk figure fig_s10: Biomass + density recovery grid...\n"
 
 # Helper to strip species title and y-axis from right (density) column panels
 strip_for_right <- function(p) {
-  p + labs(title = NULL) +
-    theme(axis.text.y = element_blank(), axis.ticks.y = element_blank())
+  p + theme(axis.text.y = element_blank(), axis.ticks.y = element_blank())
 }
 
 # Biomass column (left)
@@ -3109,14 +3050,11 @@ for (taxa_i in taxa_plot_order) {
     facet_wrap(~ CA_MPA_Name_Short, ncol = n_cols, scales = "fixed",
                labeller = label_wrap_gen(18)) +
     labs(
-      title = taxa_i,
       x = "Year",
       y = resp_label
     ) +
     theme_mpa(base_size = 9) +
     theme(
-      plot.title = element_text(size = 10, face = "italic",
-                                 margin = margin(b = 6)),
       strip.text = element_text(size = 8.5, face = "plain"),
       strip.background = element_blank(),
       axis.text = element_text(size = 8),
@@ -3169,15 +3107,15 @@ cat("  Site-level appendix complete. Dagger (\u2020) marks sites excluded from a
 # =============================================================================
 # === FIGURE 2 (Main Text): Trophic Cascade Case Studies ===
 # =============================================================================
-# WHAT: The narrative figure showing the trophic cascade unfolding at three
-#   Channel Islands MPAs chosen for cascade consistency and long time series
-#   (19-20 years post-MPA). Layout is a 3x3 grid:
+# WHAT: Three long paired records illustrating variation in trophic responses.
+#   Examples include aligned, mixed and opposing responses. Layout is a 3x3 grid:
 #     Rows: Predators (lobster + sheephead), Urchins (purple + red), Kelp
-#     Columns: Scorpion SMR, Gull Island SMR, SB Island SMR
+#     Columns: Scorpion SMR, Harris Point SMR, Naples SMCA
 #   Each panel shows annual mean lnRR before and after MPA implementation.
 #   Before-period data is faded; after-period has full color plus a linear
 #   trend with 95% CI. Predators trend upward, urchins downward, kelp
-#   upward: the signature of a recovering trophic cascade.
+#   upward at some sites, but not consistently across these illustrative records.
+#   The examples do not estimate how often a cascade occurs across the network.
 # DATA: All.RR.sub.trans (response ratios), Site (MPA start years)
 # SAVES: plots/fig_02_cascade_case_studies.pdf/.png
 # =============================================================================
@@ -3187,13 +3125,11 @@ FIG2_DIMS <- c(w = 17, h = 16)  # 170mm x 160mm, double-column
 if (should_render("fig02")) {
 cat("\n--- Figure 2 (Main Text): Trophic cascade case studies (3x3 grid) ---\n")
 
-# Sites selected based on cascade consistency analysis (table_s_cascade_consistency.csv)
-# and per-MPA slope analysis (table_s_per_mpa_slopes.csv):
-#   Scorpion SMR:       4/5 cascade score, strongest kelp recovery slope (+0.39/yr), 20 yr
-#   Gull Island SMR:    5/5 cascade score, dramatic kelp effect (lnRR=5.2), 19-20 yr
-#   Santa Barbara Island SMR: 5/5 cascade score, all 5 species consistent, 19 yr
-cascade_sites <- c("Scorpion SMR", "Gull Island SMR", "Santa Barbara Island SMR")
-cascade_site_labels <- c("Scorpion SMR", "Gull Island SMR", "SB Island SMR")
+# Dan Reed's October 2026 review requested examples beyond cascade-aligned sites.
+# Select long records spanning different response directions, rather than only
+# the strongest cascade scores. All histories remain in the full paired atlas.
+cascade_sites <- c("Scorpion SMR", "Harris Point SMR", "Naples SMCA")
+cascade_site_labels <- c("Scorpion SMR", "Harris Point SMR", "Naples SMCA")
 
 # Map full scientific names to abbreviations
 taxa_name_map_fig4 <- c(
@@ -3356,8 +3292,9 @@ make_fig4_panel <- function(site, species_vec, tag_label,
     theme(
       legend.position = "none",
       plot.tag = element_text(size = 8, face = "bold"),
-      plot.tag.position = c(0, 1),
-      plot.margin = margin(3, 6, 3, 4, "pt")
+      plot.tag.position = "topleft",
+      plot.tag.location = "margin",
+      plot.margin = margin(9, 6, 3, 8, "pt")
     ) +
     labs(tag = paste0("(", tag_label, ")"))
 
@@ -3432,7 +3369,7 @@ fig4_main <- cowplot::ggdraw() +
   cowplot::draw_label(cascade_site_labels[3], x = 0.84, y = 0.96,
                       size = 9, fontface = "bold", fontfamily = "Helvetica") +
   # Shared x-axis label
-  cowplot::draw_label("Years since MPA implementation", x = 0.54, y = 0.015,
+    cowplot::draw_label("Years since MPA designation", x = 0.54, y = 0.015,
                       size = 9, fontfamily = "Helvetica")
 
 # --- Species legend at bottom ---
@@ -3445,7 +3382,8 @@ fig4_legend_plot <- ggplot(fig4_legend_data,
                             aes(x = x, y = y, color = Taxa_Short)) +
   geom_point(size = 2) +
   geom_line(linewidth = 1.2) +
-  scale_color_taxa(name = NULL) +
+  scale_color_taxa(name = NULL,
+                   labels = function(x) gsub("S. pulcher", "B. pulcher", x, fixed = TRUE)) +
   guides(color = guide_legend(
     nrow = 1,
     override.aes = list(linewidth = 1.5, alpha = 1, size = 2)
@@ -3597,6 +3535,7 @@ pb <- ggplot(fail_counts, aes(x = Taxa, y = n, fill = fail_type)) +
             data = fail_counts %>%
               dplyr::distinct(Taxa, total)) +
   scale_fill_manual(values = col_diag, name = "Diagnostic result") +
+  scale_x_discrete(labels = taxon_display) +
   scale_y_continuous(expand = expansion(mult = c(0, 0.18))) +
   coord_flip() +
   labs(x = NULL, y = "Number of models") +
@@ -3628,6 +3567,7 @@ pc <- ggplot(diag, aes(x = Taxa, y = Shapiro_p)) +
                      name = "Shapiro-Wilk") +
   scale_y_sqrt(breaks = c(0, 0.05, 0.25, 0.5, 0.75, 1.0),
                limits = c(0, 1.05)) +
+  scale_x_discrete(labels = taxon_display) +
   labs(x = NULL, y = "Shapiro-Wilk p-value") +
   theme_mpa(base_size = 9) +
   theme(
@@ -3655,6 +3595,7 @@ pd <- ggplot(diag, aes(x = Taxa, y = R_Squared)) +
   scale_shape_manual(values = c("Pass" = 16, "Fail" = 1),
                      name = "All diagnostics") +
   scale_y_continuous(limits = c(0, 1), breaks = seq(0, 1, 0.25)) +
+  scale_x_discrete(labels = taxon_display) +
   labs(x = NULL, y = expression(R^2)) +
   theme_mpa(base_size = 9) +
   theme(
@@ -3797,7 +3738,7 @@ if (!exists("meta_biomass_full") || !exists("meta_density_full")) {
     geom_point(aes(color = taxa), size = 1.5, alpha = 0.7) +
     scale_color_taxa(name = "Taxa") +
     scale_y_reverse(name = "Standard error") +
-    labs(x = "Effect size (lnRR)", subtitle = "Biomass") +
+    labs(x = "Effect size (lnRR)", tag = "(a)") +
     annotate("text", x = Inf, y = Inf, label = egger_bio_text,
              hjust = 1.05, vjust = -0.5, size = 2.5, color = "grey30") +
     theme_mpa() +
@@ -3825,7 +3766,7 @@ if (!exists("meta_biomass_full") || !exists("meta_density_full")) {
     geom_point(aes(color = taxa), size = 1.5, alpha = 0.7) +
     scale_color_taxa(name = "Taxa") +
     scale_y_reverse(name = "Standard error") +
-    labs(x = "Effect size (lnRR)", subtitle = "Density") +
+    labs(x = "Effect size (lnRR)", tag = "(b)") +
     annotate("text", x = Inf, y = Inf, label = egger_den_text,
              hjust = 1.05, vjust = -0.5, size = 2.5, color = "grey30") +
     theme_mpa() +
@@ -3857,7 +3798,7 @@ if (!exists("meta_biomass_full") || !exists("meta_density_full")) {
 # =============================================================================
 # === SI FIGURE S10 (disk name fig_s13): lmer Residual Diagnostics ===
 # =============================================================================
-# WHAT: Standard four-panel residual diagnostics for the pooled lmer temporal
+# WHAT: Standard four-panel residual diagnostics for the Figure 4 biomass
 #   meta-regression (the model behind Figure 4's recovery trajectories):
 #     (a) Residuals vs fitted values (with loess smooth)
 #     (b) Normal Q-Q plot of standardized residuals
@@ -3896,10 +3837,10 @@ if (!file.exists(resid_path)) {
             paste(unique(resid_df$species[!resid_df$species %in% names(sp_map)]), collapse = ", "))
   }
   resid_df$species <- sp_map[resid_df$species]
-  # Use pooled model for main diagnostics
-  pooled <- resid_df[resid_df$model == "pooled", ]
+  # Diagnose the biomass fit actually used in main Figure 4.
+  pooled <- resid_df[resid_df$model == "bio", ]
   if (nrow(pooled) == 0) {
-    warning("fig_s13 / SI S10: No 'pooled' model data found. Available models: ",
+    warning("fig_s13 / SI S10: No 'bio' model data found. Available models: ",
             paste(unique(resid_df$model), collapse = ", "), ". Skipping figure.")
   } else {
   pooled$species <- factor(pooled$species, levels = names(col_taxa))
@@ -3911,7 +3852,7 @@ if (!file.exists(resid_path)) {
     geom_smooth(method = "loess", formula = y ~ x, se = FALSE,
                 color = "#B85A4C", linewidth = 0.6) +
     scale_color_taxa(name = "Taxa") +
-    labs(x = "Fitted values", y = "Residuals", subtitle = "Residuals vs. fitted") +
+    labs(x = "Fitted values", y = "Residuals", tag = "(a)") +
     theme_mpa() +
     theme(legend.position = "none")
 
@@ -3921,7 +3862,7 @@ if (!file.exists(resid_path)) {
     stat_qq_line(color = "black", linewidth = 0.4) +
     scale_color_taxa(name = "Taxa") +
     labs(x = "Theoretical quantiles", y = "Standardized residuals",
-         subtitle = "Normal Q-Q") +
+         tag = "(b)") +
     theme_mpa() +
     theme(legend.position = "none")
 
@@ -3933,14 +3874,14 @@ if (!file.exists(resid_path)) {
                 color = "#B85A4C", linewidth = 0.6) +
     scale_color_taxa(name = "Taxa") +
     labs(x = "Fitted values", y = expression(sqrt("|Standardized residuals|")),
-         subtitle = "Scale-location") +
+         tag = "(c)") +
     theme_mpa() +
     theme(legend.position = "none")
 
   # --- Panel (d): Random Effects QQ ---
   if (file.exists(ranef_path)) {
     ranef_df <- read.csv(ranef_path, stringsAsFactors = FALSE)
-    ranef_pooled <- ranef_df[ranef_df$model == "pooled", ]
+    ranef_pooled <- ranef_df[ranef_df$model == "bio", ]
     # The intercept column may be named "(Intercept)" or "X.Intercept."
     int_col <- grep("Intercept", names(ranef_pooled), value = TRUE)[1]
     if (!is.na(int_col)) {
@@ -3963,7 +3904,7 @@ if (!file.exists(resid_path)) {
           size = 2, max.overlaps = 10, segment.color = "grey60"
         ) +
         labs(x = "Theoretical quantiles", y = "MPA random intercept",
-             subtitle = "Random effects Q-Q") +
+             tag = "(d)") +
         theme_mpa()
     } else {
       warning("fig_s13 / SI S10 panel (d): No intercept column found in ranef CSV. ",
@@ -4044,7 +3985,8 @@ if (!file.exists(ms_path)) {
               size = 2.3, color = "grey10") +
     coord_flip() +
     scale_fill_manual(values = col_model[c("Linear", "Mean", "Sigmoid")], name = "NLS model") +
-    labs(x = NULL, y = "Number of effect sizes", subtitle = "Model selection") +
+    scale_x_discrete(labels = taxon_display) +
+    labs(x = NULL, y = "Number of effect sizes", tag = "(a)") +
     theme_mpa() +
     theme(axis.text.y = element_text(face = "italic"),
           legend.position = "bottom")
@@ -4061,8 +4003,9 @@ if (!file.exists(ms_path)) {
     scale_color_taxa(name = "Taxa", guide = "none") +
     scale_shape_manual(values = c("Linear" = 16, "Mean" = 15, "Sigmoid" = 17),
                        name = "Model type (shape)") +
+    scale_y_discrete(labels = taxon_display) +
     labs(x = "Durbin-Watson statistic", y = NULL,
-         subtitle = "Temporal autocorrelation") +
+         tag = "(b)") +
     theme_mpa() +
     theme(axis.text.y = element_text(face = "italic"),
           legend.position = "bottom")
@@ -4128,7 +4071,7 @@ if (!file.exists(audit_path) || !file.exists(outlier_path)) {
       ggrepel::geom_text_repel(aes(label = label), size = 2,
                                 max.overlaps = 8, segment.color = "grey60") +
       scale_color_taxa(name = "Taxa") +
-      labs(x = "Observation", y = "Cook's distance", subtitle = "Biomass") +
+      labs(x = "Observation", y = "Cook's distance", tag = "(a)") +
       theme_mpa() +
       theme(legend.position = "none")
   } else {
@@ -4152,7 +4095,7 @@ if (!file.exists(audit_path) || !file.exists(outlier_path)) {
       ggrepel::geom_text_repel(aes(label = label), size = 2,
                                 max.overlaps = 8, segment.color = "grey60") +
       scale_color_taxa(name = "Taxa") +
-      labs(x = "Observation", y = "Cook's distance", subtitle = "Density") +
+      labs(x = "Observation", y = "Cook's distance", tag = "(b)") +
       theme_mpa() +
       theme(legend.position = "none")
   } else {
@@ -4183,14 +4126,16 @@ if (!file.exists(audit_path) || !file.exists(outlier_path)) {
   outlier$t_crit <- qt(0.975, df = pmax(outlier$k - 1, 1))
 
   p_outlier <- ggplot(outlier, aes(x = Estimate, y = Taxa, color = Method)) +
+    scale_y_discrete(labels = taxon_display) +
     geom_vline(xintercept = 0, linetype = "dashed", color = "grey50", linewidth = 0.3) +
     geom_errorbar(aes(xmin = Estimate - t_crit * SE, xmax = Estimate + t_crit * SE),
                   width = 0.15, linewidth = 0.3, orientation = "y",
                   position = position_dodge(width = 0.5)) +
     geom_point(size = 1.5, position = position_dodge(width = 0.5)) +
     scale_color_manual(values = method_colors, name = "Outlier method") +
+    guides(color = guide_legend(nrow = 2, byrow = TRUE)) +
     labs(x = "Effect size estimate (lnRR)", y = NULL,
-         subtitle = "Outlier sensitivity") +
+         tag = "(c)") +
     theme_mpa() +
     theme(axis.text.y = element_text(face = "italic"),
           legend.position = "bottom")
@@ -4335,6 +4280,7 @@ if (!file.exists(audit_global_path) || !file.exists(audit_pertaxa_path) ||
 
   # Build panel (a) base plot, then add trophic annotations as separate grobs
   p_a <- ggplot(audit_g, aes(x = Taxa, y = Mean)) +
+    scale_x_discrete(labels = taxon_display) +
     geom_hline(yintercept = 0, linetype = "dashed", color = "grey50", linewidth = 0.3) +
     geom_hline(yintercept = grand_mean_val, linetype = "dotted",
                color = "grey40", linewidth = 0.3) +
@@ -4347,17 +4293,11 @@ if (!file.exists(audit_global_path) || !file.exists(audit_pertaxa_path) ||
                        name = "Global 4/n status") +
     scale_color_taxa(name = "Taxa") +
     facet_wrap(~ Response, ncol = 2) +
-    labs(x = NULL, y = "Effect size (lnRR)",
-         subtitle = expression(
-           bold(phantom("Predators") * "\u2191") ~
-           bold(phantom("Urchins") * "\u2193") ~
-           bold(phantom("Kelp") * "\u2191")
-         )) +
+    labs(x = NULL, y = "Effect size (lnRR)") +
     theme_mpa(base_size = 8) +
     theme(axis.text.x = element_text(face = "italic", angle = 35, hjust = 1, size = 6.5),
           legend.position = "none",
           strip.text = element_text(size = 8, face = "bold"),
-          plot.subtitle = element_blank(),
           plot.margin = margin(5, 5, 5, 5, "mm"))
 
   # Add colored trophic annotations using three separate geom_text layers (avoids scale conflict)
@@ -4426,6 +4366,7 @@ if (!file.exists(audit_global_path) || !file.exists(audit_pertaxa_path) ||
   flag_df <- merge(flag_df, k_per_taxa, by = "Taxa")
 
   p_c <- ggplot(flag_df, aes(x = Taxa, y = pct_flagged, fill = method)) +
+    scale_x_discrete(labels = taxon_display) +
     geom_col(position = position_dodge(width = 0.7), width = 0.3) +
     geom_text(aes(label = paste0(pct_flagged, "%")),
               position = position_dodge(width = 0.7),
@@ -4473,6 +4414,7 @@ if (!file.exists(audit_global_path) || !file.exists(audit_pertaxa_path) ||
   )
 
   p_d <- ggplot(sens_sub, aes(x = Estimate, y = Taxa, color = Method_short)) +
+    scale_y_discrete(labels = taxon_display) +
     geom_vline(xintercept = 0, linetype = "dashed", color = "grey50", linewidth = 0.3) +
     geom_errorbarh(aes(xmin = ci_lo, xmax = ci_hi),
                    height = 0.15, linewidth = 0.4,
@@ -4606,14 +4548,15 @@ if (!file.exists(audit_global_path)) {
                 method = "gam", formula = y ~ s(x, k = 5),
                 linewidth = 1.2, alpha = 0.15,
                 se = TRUE, level = 0.95) +
-    facet_wrap(~ facet_label, ncol = 2, scales = "free_y") +
+    facet_wrap(~ facet_label, ncol = 2, scales = "free_y",
+               labeller = labeller(facet_label = taxon_display)) +
     scale_color_manual(values = outlier_sp_colors, guide = "none") +
     scale_fill_manual(values = outlier_sp_colors, guide = "none") +
     scale_x_continuous(breaks = seq(0, 15, by = 5), limits = c(0, 16),
                        expand = c(0.02, 0)) +
     scale_y_rr_free() +
     labs(
-      x = "Years since MPA implementation",
+      x = "Years since MPA designation",
       y = "MPA / Reference"
     ) +
     theme_mpa(base_size = 9) +

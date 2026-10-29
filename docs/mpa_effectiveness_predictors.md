@@ -31,7 +31,7 @@ vs *fitting*.**
 
 | Target | k MPAs | in-sample pseudo-R² | RF out-of-bag R² | **LOO-CV R²** |
 |---|---|---|---|---|
-| Giant kelp effectiveness | 12 | 0.714 | **-0.256** | **0.401** |
+| Giant kelp effectiveness | 12 | 0.727 | **-0.263** | **0.389** |
 | Purple-urchin suppression | 10 | 0.000 | **-0.614** | **-4.664** |
 
 - **No predictor survives FDR** in the univariate screen (0 of 21).
@@ -80,6 +80,6 @@ grid for `cs_mean`, skips it if absent). Outputs:
 for giant-kelp effectiveness (per-MPA biomass lnRR); negative values indicate
 predictors that degrade out-of-bag prediction. (b) Leave-one-out cross-validated
 predictions vs observed kelp effectiveness (dotted = 1:1); the cross-validated R² is
-positive in this small-k linear LOO check (0.401), while the random-forest
+positive in this small-k linear LOO check (0.389), while the random-forest
 out-of-bag result remains negative. This supports only cautious, exploratory
 prediction language.

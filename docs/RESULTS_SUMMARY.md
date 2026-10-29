@@ -1,6 +1,6 @@
 # Results Summary: CA MPA Kelp Forest Analysis
 
-**Generated:** 2026-09-04 06:48:11
+**Generated:** 2026-10-29 10:35:23
 **Pipeline version:** Modular pBACIPS v2.0
 
 ---
@@ -8,41 +8,45 @@
 ## Overview
 
 This document summarizes the key results from the California MPA kelp forest
-pBACIPS analysis. Effect sizes are estimated as log response ratios (lnRR = ln[MPA/Reference])
-at t=11 years post-MPA implementation, and back-transformed to response ratios (RR = exp(lnRR)).
+pBACIPS/CI analysis. The primary synthesis combines before/after step contrasts,
+fitted changes from model time 0 to 11, and mean log response ratios over retained CI input years.
+Most diver models use survey indices; Landsat and Campus Point lobster biomass use calendar time.
+The numerical horizon does not standardize calendar duration, and CI means are not uniformly post-only.
+The legacy RR column exponentiates these contrasts; it is not a common MPA/reference level ratio.
+The kelp Biomass category combines diver biomass and satellite canopy-index contrasts.
 
 **Interpretation:**
-- **lnRR > 0 / RR > 1** = higher values inside MPA vs reference
-- **lnRR < 0 / RR < 1** = lower values inside MPA vs reference
-- **lnRR = 0 / RR = 1** = no difference
-- **% Change** = (RR - 1) x 100 (e.g., RR = 1.72 means +72% higher inside MPA)
+- **Estimate > 0 / exp(Estimate) > 1** = positive pooled design-specific contrast
+- **Estimate < 0 / exp(Estimate) < 1** = negative pooled design-specific contrast
+- **Estimate = 0 / exp(Estimate) = 1** = zero pooled contrast
+- **% Change** = (exp(Estimate) - 1) x 100, not a common percentage increase inside MPAs
 - Significance threshold: p < 0.05
 
 ---
 
 ## Meta-Analysis Results (Table 2)
 
-**Estimate** = log response ratio (lnRR). **RR** = back-transformed response ratio = exp(lnRR).
-RR > 1 means higher inside MPA; RR < 1 means lower inside MPA.
+**Estimate** = pooled log-scale contrast. **RR** = exp(Estimate), retaining the legacy column name.
+Values above or below 1 denote positive or negative pooled contrasts, not a common inside/reference difference.
 
 ### Biomass
 
 | Taxa | k | Estimate | RR | % Change | SE | t | p-value | p (FDR) | 95% CI (RR) | Effect |
 |------|---|----------|----|----------|----|----|---------|---------|-------------|--------|
-| S. purpuratus | 10 | -0.3891 | 0.678 | -32.2% | 0.2381 | -1.6344 | 0.1065 | 0.1597 | [0.422, 1.089] | negative |
-| M. franciscanus | 14 | 0.6518 | 1.919 | +91.9% | 0.2227 | 2.9268 | 0.0046** | 0.0097 | [1.231, 2.991] | positive |
-| M. pyrifera | 33 | 0.7392 | 2.094 | +109.4% | 0.2299 | 3.2152 | 0.0019** | 0.0058 | [1.324, 3.311] | positive |
-| P. interruptus | 5 | 0.2803 | 1.324 | +32.4% | 0.3061 | 0.9157 | 0.3629 | 0.4082 | [0.719, 2.436] | positive |
-| S. pulcher | 16 | 1.1608 | 3.192 | +219.2% | 0.2275 | 5.1036 | 0.0000*** | 0.0000 | [2.029, 5.024] | positive |
+| S. purpuratus | 10 | -0.6978 | 0.498 | -50.2% | 0.2419 | -2.8854 | 0.0051** | 0.0115 | [0.307, 0.806] | negative |
+| M. franciscanus | 14 | 0.5248 | 1.69 | +69% | 0.2247 | 2.3358 | 0.0222* | 0.0400 | [1.08, 2.644] | positive |
+| M. pyrifera | 33 | 1.1303 | 3.096 | +209.6% | 0.2345 | 4.8189 | 0.0000*** | 0.0001 | [1.94, 4.941] | positive |
+| P. interruptus | 5 | 0.3663 | 1.442 | +44.2% | 0.2899 | 1.2637 | 0.2103 | 0.2704 | [0.81, 2.57] | positive |
+| S. pulcher | 17 | 0.96 | 2.612 | +161.2% | 0.2305 | 4.1649 | 0.0001*** | 0.0004 | [1.65, 4.134] | positive |
 
 ### Density
 
 | Taxa | k | Estimate | RR | % Change | SE | t | p-value | p (FDR) | 95% CI (RR) | Effect |
 |------|---|----------|----|----------|----|----|---------|---------|-------------|--------|
-| S. purpuratus | 13 | -1.4692 | 0.23 | -77% | 0.3827 | -3.839 | 0.0003*** | 0.0013 | [0.107, 0.495] | negative |
-| M. franciscanus | 16 | -0.3991 | 0.671 | -32.9% | 0.3744 | -1.0659 | 0.2906 | 0.3736 | [0.317, 1.418] | negative |
-| P. interruptus | 17 | 1.0836 | 2.955 | +195.5% | 0.3756 | 2.8851 | 0.0054** | 0.0097 | [1.395, 6.261] | positive |
-| S. pulcher | 20 | -0.1728 | 0.841 | -15.9% | 0.3736 | -0.4625 | 0.6454 | 0.6454 | [0.399, 1.775] | negative |
+| S. purpuratus | 13 | -1.9902 | 0.137 | -86.3% | 0.5692 | -3.4963 | 0.0009*** | 0.0026 | [0.044, 0.426] | negative |
+| M. franciscanus | 16 | -0.6105 | 0.543 | -45.7% | 0.5636 | -1.0832 | 0.2829 | 0.3183 | [0.176, 1.676] | negative |
+| P. interruptus | 17 | 0.9515 | 2.59 | +159% | 0.5643 | 1.6861 | 0.0968 | 0.1452 | [0.838, 8.001] | positive |
+| S. pulcher | 20 | -0.3195 | 0.727 | -27.3% | 0.5631 | -0.5673 | 0.5725 | 0.5725 | [0.236, 2.239] | negative |
 
 *Significance: \*p<0.05, \*\*p<0.01, \*\*\*p<0.001 (uncorrected). p (FDR) = Benjamini-Hochberg adjusted p-values.*
 
@@ -52,27 +56,27 @@ tau2 and pseudo-I2 are shared across all taxa within each response type.
 
 | Response | tau2 | I2 (%) |
 |----------|------|--------|
-| Biomass | 0.2456 | 78.7 |
-| Density | 0.839 | 95.5 |
+| Biomass | 0.2742 | 79.7 |
+| Density | 1.358 | 97.2 |
 
 ---
 
 ## Replicate-Level Summary
 
-- **Significant increases inside MPA:** 61
-- **Significant decreases inside MPA:** 34
-- **Not significant:** 49
-- **Total MPA-level effect sizes:** 144
+- **Significant positive contrasts:** 64
+- **Significant negative contrasts:** 33
+- **Not significant:** 48
+- **Total MPA-level effect sizes:** 145
 
 ### Per-Taxa Breakdown
 
 | Taxa | n | Significant | Raw Mean lnRR |
 |------|---|-------------|---------------|
-| P. interruptus | 22 | 13 (59%) | 1.036 |
-| S. pulcher | 36 | 25 (69%) | 0.558 |
-| S. purpuratus | 23 | 18 (78%) | -1.22 |
-| M. franciscanus | 30 | 21 (70%) | -0.378 |
-| M. pyrifera | 33 | 18 (55%) | 1.17 |
+| P. interruptus | 22 | 13 (59%) | 1.08 |
+| S. pulcher | 37 | 26 (70%) | 0.529 |
+| S. purpuratus | 23 | 18 (78%) | -1.393 |
+| M. franciscanus | 30 | 21 (70%) | -0.348 |
+| M. pyrifera | 33 | 19 (58%) | 1.266 |
 
 *Raw Mean lnRR is the arithmetic mean of individual MPA effect sizes (bio + den combined), not the meta-analytic estimate. See Table 2 above for meta-analytic means.*
 
@@ -86,12 +90,12 @@ Knapp-Hartung meta-regressions testing whether predator MPA effects predict prey
 
 | Relationship | k | Slope | SE | p | Significant? |
 |-------------|---|-------|----|---|-------------|
-| S. purpuratus density -> M. pyrifera biomass | 11 | 0.009 | 0.19 | 0.965 | no |
-| M. franciscanus density -> M. pyrifera biomass | 10 | -0.167 | 0.122 | 0.209 | no |
-| P. interruptus density -> S. purpuratus density | 11 | 0.154 | 0.408 | 0.715 | no |
-| S. pulcher density -> S. purpuratus density | 11 | -0.125 | 0.685 | 0.860 | no |
-| P. interruptus biomass -> S. purpuratus biomass | 4 | -0.422 | 0.102 | 0.054 | no |
-| S. pulcher biomass -> S. purpuratus biomass | 9 | 0.29 | 0.205 | 0.201 | no |
+| S. purpuratus density -> M. pyrifera biomass | 11 | -0.41 | 0.247 | 0.131 | no |
+| M. franciscanus density -> M. pyrifera biomass | 10 | -0.146 | 0.133 | 0.304 | no |
+| P. interruptus density -> S. purpuratus density | 11 | -0.221 | 0.256 | 0.410 | no |
+| S. pulcher density -> S. purpuratus density | 11 | 0.541 | 0.458 | 0.268 | no |
+| P. interruptus biomass -> S. purpuratus biomass | 4 | -0.562 | 0.115 | 0.040 | **yes** |
+| S. pulcher biomass -> S. purpuratus biomass | 9 | 0.14 | 0.176 | 0.454 | no |
 
 ---
 
@@ -99,10 +103,10 @@ Knapp-Hartung meta-regressions testing whether predator MPA effects predict prey
 
 | Response | Component | Estimate | 95% CI |
 |----------|-----------|----------|--------|
-| Biomass | MPA | 0.1958 | [0.0308, 0.725] |
-| Biomass | Source | 0.0693 | [0, 7.4741] |
-| Density | MPA | 0.3996 | [0.0297, 1.9906] |
-| Density | Source | 0.7438 | [0, 21.4301] |
+| Biomass | MPA | 0.2087 | [0.0176, 0.9097] |
+| Biomass | Source | 0.5125 | [0, 20.0609] |
+| Density | MPA | 0.2706 | [0.0663, 1.0657] |
+| Density | Source | 0.6521 | [0.0279, 14.5858] |
 
 ---
 
@@ -112,22 +116,22 @@ Species-specific slopes from `lmer(lnRR ~ time*species + (1+time|MPA) + (1|sourc
 
 | Species | Slope (lnRR/yr) | SE | p |
 |---------|-----------------|-----|---|
-| P. interruptus | 0.1044 | 0.0184 | — |
-| S. pulcher | -0.0294 | 0.0127 | — |
-| S. purpuratus | -0.0819 | 0.0144 | — |
-| M. franciscanus | -0.0634 | 0.0144 | — |
-| M. pyrifera | 0.1388 | 0.0137 | — |
+| P. interruptus | 0.1155 | 0.0231 | < 0.001 |
+| S. pulcher | -0.0201 | 0.0205 | 0.343 |
+| S. purpuratus | -0.1106 | 0.0223 | < 0.001 |
+| M. franciscanus | -0.0672 | 0.0211 | 0.006 |
+| M. pyrifera | 0.1645 | 0.0239 | < 0.001 |
 
 ---
 
 ## Outlier Sensitivity
 
-The primary analysis uses the **full dataset** (no outlier removal, k = 144).
-A global Cook's D threshold of 4/n flagged **93 of 144** observations (65%) as influential.
+The primary analysis uses the **full dataset** (no outlier removal, k = 145).
+A global Cook's D threshold of 4/n flagged **92 of 145** observations (63%) as influential.
 These flagged observations span all taxa and arise primarily from between-taxon divergence
 (the expected trophic cascade signal) rather than within-taxon anomalies.
 
-A per-taxon Cook's D threshold (4/k) flagged only **14 of 144** observations,
+A per-taxon Cook's D threshold (4/k) flagged only **13 of 145** observations,
 confirming the global threshold's over-flagging.
 
 See Table S9 for 4-method sensitivity comparison and Figures S13-S15 for visualizations.

@@ -1,23 +1,37 @@
-# Partial Trophic-Cascade Recovery and Kelp Resilience in California MPAs
+# Kelp Resilience and Trophic Responses in California MPAs
 
 [![R](https://img.shields.io/badge/R-%3E%3D4.0-blue.svg)](https://www.r-project.org/)
 [![Status](https://img.shields.io/badge/Status-In%20Preparation-yellow.svg)]()
 
-> **Manuscript Title:** Partial trophic-cascade recovery and kelp resilience in a southern California marine protected-area network
+> **Manuscript Title:** Kelp resilience and trophic responses in a southern California marine protected-area network
 >
 > **Target journal:** Journal of Applied Ecology (Research Article)
 >
-> *README last updated: 2026-09-21 — title and author list synchronized with `MPA_Kelp_MS_V7_working.docx`.*
+> *Scientific overview updated: 2026-10-20. The primary synthesis retains 145 histories from 21 MPAs. Population patterns, trophic links and designation-related disturbance responses are separate questions; current framing is in `docs/SCIENTIFIC_APPROACH.md`.*
 
 ---
 
 > **For co-authors — the short version.** You don't need to run anything to write the
 > paper. Figures are in `plots/`, tables in `tables/`, and plain-language results
 > summaries in `docs/` (start with `docs/RESULTS_SUMMARY.md`). The main paper analyses
-> are scripts `08`–`13` plus the in-pipeline resilience modules `14/15/16/19/21/22/23`;
-> Figure 5 comes from script `22`. Script `24` checks that the resilience tables,
-> figures, and headline values still match the manuscript and supplement. A plain tour
-> is in `docs/RESILIENCE_SYNTHESIS.md`, and the audit trail is in
+> are scripts `08`-`13`, the in-pipeline resilience modules `14/15/16/19/21/22/23`,
+> and the PISCO-reference sensitivity in script `26`; Figure 5 comes from script `22`.
+> Scripts `27`-`30` add matched design/geography comparisons, a same-pair
+> historical heatwave comparison, the complete pair-history atlas and arithmetic checks.
+> Script `34` adds Gull Island KFM omissions and a common-cohort combined-predator check. See `docs/COAUTHOR_SENSITIVITY_INTEGRATION_2026-10-12.md` for methods, results and limits. Sheephead display names use Bodianus; historical analysis identifiers are unchanged.
+>
+> Modules `36` and `37` check exact primary-contrast and Figure 4 uncertainty. Following the singleton correction, calendar-HAC checks preserve all nine pooled directions, but adjusted support for purple-urchin biomass depends on bandwidth. Figure 4 uses 831 biomass observations in 63 retained diver histories; its full random-slope/source model is nonsingular. Same-row calendar AR1 retains a positive kelp slope, but the purple-urchin slope's interval includes zero. See `docs/BIOMASS_SINGLETON_REFIT_2026-10-18.md`; the retired pooled DW reconstruction is not primary-model validation.
+> Module `42` compares programme-separated and averaged pathways on identical MPAs and post-designation years. The broader PISCO/KFM comparison has five island MPAs for four density-based links; all full-cohort intervals include zero, with site-sensitive omissions. Strict primary-history and broader annual-record scopes are distinct; sparse LTER and biomass comparisons are explicitly unestimable. See `docs/PROGRAMME_PATHWAY_REFITS_2026-10-17.md`. Primary results are unchanged.
+> Module `44` tests the supplied PISCO sheephead lookup's 10 cm young-of-year size proxy, retaining the exact primary sampling and model routes. Removing fish <10 cm or <=10 cm preserves all nine pooled directions and BH classifications; local annual contributions can be larger than the pooled raw shares. These are size proxies, not verified ages or an adult-only cohort. See `docs/SHEEPHEAD_YOY_2026-10-19.md`.
+> Module `45` implements the non-target sessile-invertebrate comparability check on fixed legacy KFM reefs. Four core and three secondary taxa are matched to three kelp or four urchin MPA calendars. Sparse histories and heterogeneous starting differences do not establish reef equivalence; the check is not a siting correction or a network-wide test. See `docs/NONFISHED_COMPARISON_PLAN.md` and `docs/NONFISHED_COMPARISON_RESULTS.md`. Run `Rscript code/R/45_nonfished_comparators.R` and `Rscript code/tests/test_nonfished_comparators.R`; optional raw paths use `NONFISHED_KFM_COUNTS` and `NONFISHED_KFM_SITES`. Primary outputs are unchanged.
+> Scripts `31`-`32` check the six primary pathway displays and all 37 retained
+> pBACIPS fitted patterns. The October 10 refit leaves pooled lobster density
+> inconclusive; see `docs/STEP_DIRECTION_REFIT_2026-10-10.md`. The kelp disturbance
+> and resilience results are unchanged. Progressive models have source-specific
+> survey-index or calendar-time clocks, not one common eleven-year duration.
+> Script `24` checks that the resilience tables, figures, and headline values still
+> match the manuscript and supplement. A plain tour is in `docs/RESILIENCE_SYNTHESIS.md`,
+> and the audit trail is in
 > `docs/RESILIENCE_PIPELINE_INTEGRATION.md`. The `CLAUDE.md` file in the root is a technical config
 > for an AI coding assistant — you can ignore it. Questions on any of it — just ask Adrian.
 
@@ -25,7 +39,9 @@
 
 ## Overview
 
-This repository contains the complete analysis pipeline for evaluating the effects of California's Marine Protected Area (MPA) network on kelp forest ecosystems. Using the **progressive-change Before-After-Control-Impact-Pairs (pBACIPS)** methodology, we quantify how MPA protection has influenced trophic cascades—from predator recovery through urchin suppression to kelp restoration.
+This repository contains the analysis pipeline for comparing predator, urchin and kelp populations in southern California marine protected areas (MPAs) and reference reefs. The primary pBACIPS/CI synthesis combines different population contrasts; it is not a common percentage effect of designation. Separate analyses examine whether trophic responses covary, how diver-survey kelp performed during and after the 2014–2016 heatwave, and whether satellite-observed disturbance responses differed before and after designation.
+
+Some population directions match cascade predictions, and baseline-relative diver kelp biomass was higher inside MPAs during and after the heatwave. Cross-taxa links and a designation-related improvement in disturbance responses remain unresolved. Non-random siting, heterogeneous measurements and incomplete satellite-reference reconstruction limit attribution. These results do not establish either a complete predator-mediated cascade or its absence. See `docs/SCIENTIFIC_APPROACH.md` for the evidence hierarchy and remaining decisions.
 
 This is the public analysis/code repository. Current Word manuscripts, cover
 letters, Supporting Information construction, citation-audit working files, and
@@ -36,28 +52,31 @@ manuscript workspace.
 
 The analysis examines:
 - **Predator recovery** (lobster, sheephead) inside vs. outside MPAs
-- **Urchin population changes** in response to predator recovery
+- **Urchin population patterns**, including direct protection of harvested red urchins
 - **Kelp forest biomass** trajectories following MPA establishment
-- **Trophic cascade strength** across the California MPA network
+- **Covariation among trophic responses**, distinct from a causal test of a complete cascade
 
 ---
 
 ## Authors
 
-Emily Donham<sup>1</sup>\*, Tom Bell<sup>2</sup>, Jennifer E. Caselle<sup>3</sup>, Scott Gabara<sup>4</sup>,
-Scott Hamilton<sup>5</sup>, Li Kui<sup>3</sup>, Robert Miller<sup>3</sup>, Dan Pondella<sup>6</sup>,
-Peter Raimondi<sup>7</sup>, Daniel Reed<sup>3</sup>, and Adrian Stier<sup>1</sup>
+Adrian Stier<sup>1</sup>\*, Emily Donham<sup>1</sup>, Tom Bell<sup>2</sup>, Jennifer E. Caselle<sup>3</sup>, Scott Gabara<sup>4</sup>,
+Scott Hamilton<sup>5</sup>, Li Kui<sup>3</sup>, Hunter Lenihan<sup>8</sup>, Robert Miller<sup>3</sup>, Dan Pondella<sup>6</sup>,
+and Peter Raimondi<sup>7</sup>
 
 <sup>1</sup> Department of Ecology, Evolution, and Marine Biology, University of California Santa Barbara, Santa Barbara, CA 93106, USA
-<sup>2</sup> Woods Hole Oceanographic Institution, Woods Hole, MA 02543, USA
+<sup>2</sup> Department of Estuarine and Ocean Sciences, University of Massachusetts Dartmouth, New Bedford, MA 02744, USA
 <sup>3</sup> Marine Science Institute, University of California Santa Barbara, Santa Barbara, CA 93106, USA
 <sup>4</sup> National Park Service
 <sup>5</sup> Moss Landing Marine Laboratories, San Jose State University, Moss Landing, CA 95039, USA
 <sup>6</sup> Occidental College, Los Angeles, CA 90041, USA
 <sup>7</sup> Department of Ecology and Evolutionary Biology, University of California Santa Cruz, Santa Cruz, CA 95060, USA
+<sup>8</sup> Bren School of Environmental Science & Management, University of California Santa Barbara, Santa Barbara, CA 93106, USA
 
-\* Corresponding author. Author list follows `MPA_Kelp_MS_V7_working.docx`; confirm the
-current contact address with the author team before citing it.
+\* Corresponding author. Author order follows the current coauthor-review package; confirm
+final affiliations and CRediT roles with the author team before submission.
+
+Dan Reed is acknowledged for detailed comments and ecological advice, in accordance with his contributor preference; he is not listed as an author.
 
 ---
 
@@ -85,9 +104,18 @@ Donham-Stier-CA-MPA-2026/
 │       ├── 14-23_*.R                 # Resilience / heatwave robustness suite
 │       ├── resilience_modules.R      # Shared 14-23 module membership
 │       ├── 24_resilience_pipeline_check.R # Paper/SI resilience concordance gate
+│       ├── 25_prereview_sensitivities.R # Isolated temporal and permutation sensitivity checks
+│       ├── 26_pisco_control_sensitivity.R # PISCO reference-control dependence check
+│       ├── 27_design_geography_sensitivity.R # Same-history change versus level; source/region checks
+│       ├── 28_historical_heatwave_bacips.R # 1997-1998 versus 2014-2016 at the same Landsat pairs
+│       ├── 29_pair_history_atlas.R    # All 145 primary histories, kept source-specific
+│       ├── 30_review_concern_checks.R # Coverage, arithmetic and integration assertions
+│       ├── 31_primary_pathway_display.R # Primary consumer-prey fits and membership
+│       ├── 32_pbacips_shape_display.R # Verified selected fits and nonlinear comparison
+│       ├── run_review_concerns.R     # Rebuild these checks from tracked inputs
 │       ├── run_all.R                 # Pipeline orchestration
 │       ├── run_resilience.R          # Full resilience suite
-│       └── run_figures_only.R        # Fast figure regeneration (~1 min all figures)
+│       └── run_figures_only.R        # Fast cached regeneration for core figures
 │
 ├── data/
 │   ├── harmonized/                   # Analysis-ready CSVs (tracked in git)
@@ -116,6 +144,15 @@ This analysis integrates long-term monitoring data from three major programs:
 ### Data
 
 **No raw data is needed to run this analysis.** The harmonized CSVs in `data/harmonized/` are tracked in git (~1 MB total). Raw monitoring data (~1.3 GB) lives in the sibling [data-processing repo](https://github.com/stier-lab/Donham-Stier-CA-MPA-Data-2026).
+
+PISCO and LTER sheephead biomass use the same verified individual-mass equation:
+`W(g) = 0.0144 * TL(cm)^3.04` (Hamilton & Caselle 2015,
+https://doi.org/10.1098/rspb.2014.1817). Size-class counts weight the masses before
+aggregation. The original PISCO spreadsheet is retained; a documented override
+is applied during harmonization. `data/harmonized/sheephead_allometry.json`
+records the correction and input fingerprints, checked by module 35 before
+analysis and by the figures-only runner. See
+`docs/SHEEPHEAD_ALLOMETRY_REFIT_2026-10-12.md` for the before/after audit.
 
 ---
 
@@ -149,10 +186,10 @@ Package versions are captured in `renv.lock` for reproducibility. Key packages i
 ### 3. Run the Analysis
 
 ```r
-# Full pipeline (~5 min in the latest complete run)
+# Full pipeline (runtime depends on sensitivity and diagnostic fits)
 source(here::here("code", "R", "run_all.R"))
 
-# Or just regenerate figures (~1 min for all figures; selected figures are faster)
+# Or regenerate the cached core figure suite (selected figures are faster)
 source(here::here("code", "R", "run_figures_only.R"))
 ```
 
@@ -170,16 +207,16 @@ local development location.
 ### Full Pipeline
 
 ```r
-# Run complete analysis (~5 min in the latest complete run)
+# Run complete analysis (runtime depends on sensitivity and diagnostic fits)
 source(here::here("code", "R", "run_all.R"))
 ```
 
-The pipeline loads harmonized CSVs, calculates effect sizes, runs meta-analysis, generates figures, runs the in-pipeline resilience subset, checks resilience concordance against the manuscript/SI claims, and produces results summaries. Progress is logged to the console and a timestamped file in `logs/`.
+The pipeline loads harmonized CSVs, calculates effect sizes, runs meta-analysis, generates figures, runs the in-pipeline resilience subset, checks resilience concordance against the manuscript/SI claims, and produces results summaries. Prereview sensitivities run after the primary meta-analysis; the fitted-history displays verify reconstructed contrasts against the primary results before exporting. Progress is logged to the console and a timestamped file in `logs/`.
 
 ### Individual Scripts
 
 ```r
-# Fast figure regeneration (~1 min all figures; selected figures are faster)
+# Fast cached figure regeneration for the core figure suite
 source(here::here("code", "R", "run_figures_only.R"))
 
 # Render only specific figures
@@ -239,6 +276,11 @@ source(here::here("code", "R", "run_figures_only.R"))
   ┌─────────────────────────────────┐
   │ 24_resilience_pipeline_check.R  │
   │ Figure 5 + SI concordance gate  │
+  └───────────────┬─────────────────┘
+                  ▼
+  ┌─────────────────────────────────┐
+  │ 26_pisco_control_sensitivity.R  │
+  │ PISCO reference-dependence check│
   └───────────────┬─────────────────┘
                   ▼
   ┌─────────────────────────────────┐
@@ -316,6 +358,7 @@ Resilience outputs checked by `code/R/24_resilience_pipeline_check.R`:
 | `tables/table_s_methods_multiverse.csv` + `tables/table_s_methods_decomposition.csv` | Kumagai-style-to-ours method bridge and data-effect support | 15 |
 | `tables/table_s_env_moderators.csv` | Tests of environmental covariates mapped by Kumagai et al. | 16 |
 | `tables/table_resilience_stability.csv` + `tables/table_ecological_memory.csv` | Stability and reserve-level memory support | 21, 23 |
+| `tables/table_s_pisco_control_source_removal.csv` + `tables/table_s_pisco_control_leave_pair_out.csv` | PISCO reference-control dependence sensitivity | 26 |
 
 ---
 
@@ -343,7 +386,7 @@ Effect sizes are synthesized using multilevel meta-analysis (`metafor::rma.mv`) 
 
 ### Quality Control
 
-- Before-period linearity tests to verify parallel trends assumption
+- Before-period trend screening where applicable; a non-detected pretrend does not verify parallel untreated trajectories
 - Bootstrap uncertainty quantification for biomass estimates
 - Cross-validation of effect sizes across data sources
 
@@ -361,7 +404,7 @@ Effect sizes are synthesized using multilevel meta-analysis (`metafor::rma.mv`) 
 | `investr` | Nonlinear model inference |
 | `cowplot` | Figure composition |
 | `patchwork` | Multi-panel figure assembly |
-| `sf` / `rnaturalearth` | Geographic mapping |
+| `sf`, `terra`, `tidyterra`, `marmap`, `elevatr`, `rnaturalearthdata` | Geographic mapping |
 
 ---
 
@@ -389,34 +432,19 @@ The suite tests resilience across facets: core heatwave response (14), repeatabi
 across two heatwaves (19), resistance/recovery on the state variable (22), ecological
 memory/reserve-consistency (23), temporal stability (21), method-vs-data robustness
 (15), environmental moderators (16), generality across stressor types / sea-star
-wasting (20), predictability of effectiveness (18), and cross-study reproduction of
-Eisaguirre 2020 (17). **Theme:** robust, repeatable giant-kelp resilience to marine
-heatwaves — kelp *grows* inside reserves while it declines outside (resistance 2.18x
-vs 0.94x, recovery to 2.38x vs 0.83x), the *same* reserves respond in both heatwaves,
-and the result is method-invariant, not modulated by environmental gradients, and not
-driven by sea-star wasting. The less-resolved questions are consistent across the suite:
-the urchin-mediated mechanism, predator diversity, and *predicting which reserves are
-most effective* are sensitive to modeling choices or not yet explained (reserve
-effectiveness is repeatable across events but not predictable from the covariates we
-have), and protection does not clearly reduce year-to-year variability (the resilience
-shows up in the mean state, not the variance). These are honest limitations to note,
-not problems with the core result.
+wasting (20), predictability of effectiveness (18), and cross-study context (17). The modern diver-kelp advantage is an observed baseline-relative pattern, not a demonstrated effect of designation. Baseline, test, cohort and model choices matter. The historical satellite comparison and cross-taxa tests leave attribution unresolved. Disease and environmental-moderator checks do not remove confounding merely because they are non-significant. Full primary and sensitivity results are separated in `docs/SCIENTIFIC_APPROACH.md` and `docs/RESILIENCE_SYNTHESIS.md`.
 
 ### Related work (compare & contrast)
 
-We are comparing this analysis against **Kumagai et al. 2024** (*Global Change Biology*, [doi:10.1111/gcb.17620](https://doi.org/10.1111/gcb.17620)) — *"Marine Protected Areas That Preserve Trophic Cascades Promote Resilience of Kelp Forests to Marine Heatwaves."* It is a parallel study on an overlapping system/dataset (same PISCO/MLPA subtidal + T. Bell SBC LTER Landsat) with a convergent conclusion. We are using it to (1) cross-check our PISCO numbers, (2) contrast their GLMM/permutation, heatwave-resilience approach with our pBACIPS + meta-analysis, and (3) scope our own marine-heatwave (MHW) analysis. The small comparator files needed for those checks are vendored in `data/external/kumagai2024/`; see `docs/CONCORDANCE_AUDIT.md` for the manuscript-code ledger.
+Kumagai et al. (2024) and Ortiz-Villa et al. (2025) provide context for California kelp responses to protection and marine heatwaves. Our paired population contrasts, survey-based disturbance responses and historical-event comparison address related but distinct questions. Differences in observations, footprints, periods, response definitions and analytical aggregation prevent attributing agreement or disagreement to one methodological choice.
 
-A formal **method-vs-data decomposition** (`code/R/15_methods_comparison.R`, SI supplement `docs/methods_comparison_supplement.md`) runs an analytical multiverse — a 6-waypoint method bridge that flips one analytical choice at a time from the Kumagai-style endpoint to ours on a common dataset, plus the pooled waypoints run on both datasets — to measure how much of the between-study variation in MPA × heatwave effect sizes is driven by method versus data. Headline: giant-kelp resilience is method-invariant; the urchin inference hinges on whether temporal autocorrelation is modelled; and the dataset itself is the single largest lever.
+The method/data bridge (module 15) and environmental-moderator analysis (module 16) are supporting comparisons, not evidence that the result is method-invariant or free of environmental confounding. Non-detection after multiple-test correction does not establish that an environmental gradient has no effect or that omitted covariates cannot bias a contrast.
 
-A companion **environmental-moderator analysis** (`code/R/16_environmental_moderators.R`) tests the **full set** of predictors Kumagai et al. mapped in their PCA but never modeled — marine-heatwave and cold-spell intensity, latitude, MPA size, **wave exposure**, **nitrate (nutrients)**, and **human gravity** — as meta-regression moderators of our per-MPA effect sizes. Wave exposure (HSMAX), nitrate, temperature, npp, and depth are derived for **all 34 MPAs including the Channel Islands** from Bell's (2023) island-inclusive kelp-canopy-environment product (EDI `knb-lter-sbc.162`, the per-pixel NetCDF behind Kumagai's `hsmax` and Wanner et al. 2024's island analysis), and human gravity (a population-pressure index) from Kumagai's per-kelp-patch grid (`code/R/extract_kelp_env_covariates.R` → `data/per_mpa_kelp_env.csv`). The covariates recover the expected gradients (wave: San Miguel 4.9 m → Catalina lee 0.65 m; nitrate: cold upwelling 3.0 µM → warm San Diego 0.39 µM; gravity: remote islands 0 → urban mainland ~22,000). The result is a clean null across all 35 tests: no moderator survives FDR correction, and giant-kelp resilience is not modulated by any environmental gradient, indicating that omitting these covariates does not bias the headline conclusions.
+The Eisaguirre comparison (module 17) examines design-level patterns and size-structured interpretations using available PISCO records; differences in data, collinearity and specification limit mechanistic attribution. It is not a new demonstration of a complete causal cascade.
 
-We also **reproduce Eisaguirre et al. (2020, *Ecology*)** — the closest paired-design Channel-Islands analogue of our cascade claim — from the raw PISCO monitoring data we hold, since they archived no data or code (`code/R/17_eisaguirre_reproduction.R`, doc `docs/eisaguirre_reproduction.md`). The design-level results reproduce cleanly (post-disease top model identical; urchins higher outside MPAs; sheephead larger inside; bivariate sea-star→urchin, sheephead→urchin, and urchin→kelp signs all match), but the *partial* size-structured suppression does not survive once protection is in the model (sheephead–protection collinearity) — the same lesson as the Kumagai comparison: structural conclusions are robust, fine-grained partial-mechanism attribution is specification-sensitive.
+The sunflower-star comparison (module 20) is small and observational. No detected moderation by pre-disease star abundance does not rule out disease effects. The second-heatwave comparison (module 19) has a consistent kelp direction, but does not clearly distinguish the second event from the intervening period; it is not an independent causal replication of a protection benefit.
 
-We also test whether a **different stressor type** — the 2013–14 sea-star wasting disease (SSWD) — drove the cascade response (`code/R/20_compound_disturbance.R`, doc `docs/compound_disturbance.md`). The key check is the distribution of the sunflower star (*Pycnopodia*, the one sea star that is a major urchin predator): it is a cold-water species and was **patchy in Southern California — present at only ~1/3 of reserves (cold/northern/island) and essentially absent at the rest**. Because that pre-SSWD abundance varies among reserves while the heatwave hit them all, we can ask whether the cascade response scales with sunflower-star loss. It does not: kelp recovery is the same (+1.5 lnRR) whether or not a reserve ever had sunflower stars (interaction p=0.78). So in our system the cascade resilience is attributable to the **heatwave plus fishing protection, not to sea-star loss** — the keystone-removal mechanism Eisaguirre documented at the cold Channel Islands does not generalize where the sunflower star was absent. This removes a confound and reinforces the heatwave interpretation.
-
-Because our series runs to 2023, we can also test whether the resilience **repeats across two marine heatwaves** (`code/R/19_heatwave_replication.R`, doc `docs/heatwave_replication.md`) — the 2014–16 event and a second 2018–20 event ("Blob 2.0") that the single-event analysis had folded into a flat "after" baseline. Giant-kelp resilience repeats: it is strongly elevated inside reserves in *both* heatwaves (even more so in the second) and tracks heatwave intensity beyond ongoing recovery — the first demonstration that the response is not a one-off, which a single-event design cannot establish. Predator and urchin components remain recovery-driven or marginal, as in the single-event analysis.
-
-Finally, we test whether the among-MPA variation in **effectiveness** is *predictable* (`code/R/18_mpa_effectiveness_predictors.R`, doc `docs/mpa_effectiveness_predictors.md`): assembling environmental, reserve-design, and trophic predictors per MPA and validating with out-of-sample checks. The current result is weak and method-dependent: no univariate predictor survives FDR, random-forest out-of-bag R² is negative for kelp and purple urchin, purple-urchin LOO-CV R² is strongly negative, but a small-k top-three linear LOO model gives kelp LOO-CV R² = 0.401. The defensible statement is therefore the robust *average* MPA effect plus its meta-analytic heterogeneity, with cautious language about any attempt to predict which reserves are most effective.
+Finally, we test whether the among-MPA variation in **effectiveness** is *predictable* (`code/R/18_mpa_effectiveness_predictors.R`, doc `docs/mpa_effectiveness_predictors.md`): assembling environmental, reserve-design, and trophic predictors per MPA and validating with out-of-sample checks. The current result is weak and method-dependent: no univariate predictor survives FDR, random-forest out-of-bag R² is negative for kelp and purple urchin, purple-urchin LOO-CV R² is strongly negative, but a small-k top-three linear LOO model gives kelp LOO-CV R² = 0.389. The defensible statement is therefore the average MPA response plus its meta-analytic heterogeneity, with cautious language about any attempt to predict which reserves are most effective.
 
 ---
 
@@ -424,12 +452,17 @@ Finally, we test whether the among-MPA variation in **effectiveness** is *predic
 
 Key methodological caveats documented throughout the pipeline (see `docs/ANALYSIS_REVISIONS.md` for full details):
 
-- **Bio/Den non-independence**: Biomass and density are measured on the same individuals; the `(1|MPA)` random effect partially accounts for this but residual correlation may inflate effective sample sizes
+- **Kelp biomass calibration**: Diver biomass uses the twelve monthly dry-foliar
+  slopes in SBC 127.5 Macrocystis biomass relationships, model 1, applied before annual averaging. KFM
+  retains site-year matching of size and abundance surveys, which are not
+  necessarily from the same month. This is dry foliar mass, not whole-plant wet
+  mass or the satellite canopy index. See `docs/KELP_FIXED_COEFFICIENT_REFIT_2026-10-29.md`.
+- **Dependence**: Density and biomass derive from overlapping observations but are modelled separately. Shared references and reused cross-programme size-frequency pools can still induce dependence that MPA/source random effects do not fully resolve.
 - **Cross-taxa attenuation bias**: Cross-taxa meta-regressions (Table 3) use estimated effect sizes as moderators, introducing errors-in-variables bias
-- **Proportion-based lnRR**: Response ratios are computed on proportions (standardized by site total), not raw densities -- necessary to harmonize across monitoring programs with different transect areas
-- **Cross-program biomass bootstrap**: KFM and LTER urchin biomass is estimated by bootstrapping from PISCO size-frequency distributions
+- **Scaling and offsets**: Each paired history is divided by a common maximum, not a site total. Common scaling cancels in an uncorrected log ratio; the added zero offset affects comparisons near zero and does not remove habitat or survey differences.
+- **Cross-programme biomass bootstrap**: Missing sizes are drawn from matched MPA/status/year/species pools assembled across programmes. Separate count collection does not ensure independent biomass estimates.
 - **Climate/stressor attribution**: The core pBACIPS analysis is paired but observational; heatwave, environmental-moderator, and sea-star-wasting checks are now included in scripts 14–23, but ENSO and other overlapping regional drivers cannot be fully isolated
-- **Extreme kelp effect sizes**: Some MPA-taxa combinations reflect near-zero reference-site kelp, handled by inverse-variance weighting
+- **Near-zero references**: Some large contrasts reflect very low reference kelp. Weighting and omission checks describe their influence but do not establish suitable reference habitat or eliminate offset sensitivity.
 - **Reproducibility**: Package versions captured in `renv.lock`; tracked harmonized CSVs are the public analysis inputs; raw-data archiving is separate from this analysis repo
 
 ---
@@ -437,11 +470,9 @@ Key methodological caveats documented throughout the pipeline (see `docs/ANALYSI
 
 If you use this code or data, please cite:
 
-> Donham, E. & Stier, A. (2026). Restoration of trophic cascades within kelp forests following the establishment of a network of marine protected areas. Manuscript in preparation.
+> Stier, A., Donham, E., et al. (in preparation). Kelp resilience and trophic responses in a southern California marine protected-area network.
 
-Working title for the current Journal of Applied Ecology draft: *Partial
-trophic-cascade recovery and kelp resilience in a southern California marine
-protected-area network*.
+Working title for the current Journal of Applied Ecology draft: *Kelp resilience and trophic responses in a southern California marine protected-area network*.
 
 ---
 
@@ -451,11 +482,14 @@ This project is shared for academic collaboration and code review. No formal
 open-source reuse license has been assigned yet; please contact the authors
 before reusing code, data products, or figures for other purposes.
 
+The provider files in `data/external/sbc11215/` and `data/external/sbc1275/` retain their separate CC BY 4.0
+license; see that directory's README for attribution and reuse terms.
+
 ---
 
 ## Acknowledgments
 
-We thank the Partnership for Interdisciplinary Studies of Coastal Oceans (PISCO), the National Park Service Kelp Forest Monitoring Program, and the Santa Barbara Coastal LTER for data access. Funding was provided by [funding sources].
+We thank the Partnership for Interdisciplinary Studies of Coastal Oceans (PISCO), the National Park Service Kelp Forest Monitoring Program, and the Santa Barbara Coastal LTER for data access. Funding acknowledgements will accompany the final publication.
 
 ---
 
@@ -463,3 +497,5 @@ We thank the Partnership for Interdisciplinary Studies of Coastal Oceans (PISCO)
   <i>University of California, Santa Barbara</i><br>
   <i>Department of Ecology, Evolution, and Marine Biology</i>
 </p>
+
+Reference-selection history and remaining evidence gaps: [assignment audit](docs/REFERENCE_ASSIGNMENT_AUDIT.md), with one ledger row per primary history.

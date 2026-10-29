@@ -1,0 +1,13 @@
+{
+  "registry_sha256": "b0d370118996d6c6d883ad52c40c14c637911109f676d77c7bb35d868f06e329",
+  "histories": 145,
+  "mpa_program_comparisons": 39,
+  "source_counts": {
+    "KFM": 29,
+    "LTER": 11,
+    "Landsat": 16,
+    "PISCO": 89
+  },
+  "rule": "One row per durable primary-series key; all inherited assignments retained; code counts are not independent reef counts.",
+  "private_evidence": "Email and original draft-comment evidence is held separately in the manuscript repository."
+}

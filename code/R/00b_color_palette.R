@@ -33,6 +33,8 @@
 #
 # These values ensure adequate grayscale separation.
 
+source(here::here("code", "R", "taxon_display.R"))
+
 col_taxa <- c(
   "S. purpuratus"   = "#7B68A6",
     # Muted violet-purple. Echoes the animal's test color. Blue-shifted
@@ -394,13 +396,13 @@ theme_mpa <- function(base_size = 9, base_family = "Helvetica") {
 # correct palette without re-specifying hex codes.
 
 #' @describeIn scale_color_taxa Discrete color scale for taxa
-scale_color_taxa <- function(...) {
-  ggplot2::scale_color_manual(values = col_taxa, ...)
+scale_color_taxa <- function(..., labels = taxon_display) {
+  ggplot2::scale_color_manual(values = col_taxa, labels = labels, ...)
 }
 
 #' @describeIn scale_fill_taxa Discrete fill scale for taxa
-scale_fill_taxa <- function(...) {
-  ggplot2::scale_fill_manual(values = col_taxa, ...)
+scale_fill_taxa <- function(..., labels = taxon_display) {
+  ggplot2::scale_fill_manual(values = col_taxa, labels = labels, ...)
 }
 
 #' @describeIn scale_color_response Discrete color scale for response type
@@ -466,7 +468,7 @@ preview_palette <- function(save_path = NULL, width = 7, height = 8) {
     ggplot2::scale_fill_manual(values = col_taxa) +
     ggplot2::geom_text(ggplot2::aes(label = color), vjust = 2.8,
                         size = 2.5, colour = "grey30") +
-    ggplot2::labs(title = "A. Taxa", x = NULL, y = NULL) +
+    ggplot2::labs(x = NULL, y = NULL, tag = "(a)") +
     theme_mpa(base_size = 8) +
     ggplot2::theme(
       axis.text.y  = ggplot2::element_blank(),
@@ -485,7 +487,7 @@ preview_palette <- function(save_path = NULL, width = 7, height = 8) {
     ggplot2::scale_fill_manual(values = col_response_long) +
     ggplot2::geom_text(ggplot2::aes(label = color), vjust = 2.8,
                         size = 2.5, colour = "grey30") +
-    ggplot2::labs(title = "B. Response Type", x = NULL, y = NULL) +
+    ggplot2::labs(x = NULL, y = NULL, tag = "(b)") +
     theme_mpa(base_size = 8) +
     ggplot2::theme(
       axis.text.y  = ggplot2::element_blank(),
@@ -502,7 +504,7 @@ preview_palette <- function(save_path = NULL, width = 7, height = 8) {
     ggplot2::scale_fill_manual(values = col_site) +
     ggplot2::geom_text(ggplot2::aes(label = color), vjust = 2.8,
                         size = 2.5, colour = "grey30") +
-    ggplot2::labs(title = "C. MPA Status", x = NULL, y = NULL) +
+    ggplot2::labs(x = NULL, y = NULL, tag = "(c)") +
     theme_mpa(base_size = 8) +
     ggplot2::theme(
       axis.text.y  = ggplot2::element_blank(),
@@ -523,8 +525,7 @@ preview_palette <- function(save_path = NULL, width = 7, height = 8) {
                          shape = 21, size = 6, stroke = 1.2) +
     ggplot2::scale_colour_manual(values = col_ba) +
     ggplot2::scale_fill_manual(values = fill_ba, na.value = "white") +
-    ggplot2::labs(title = "D. Before / After (shape 21)", x = NULL,
-                   y = NULL) +
+    ggplot2::labs(x = NULL, y = NULL, tag = "(d)") +
     theme_mpa(base_size = 8) +
     ggplot2::theme(
       axis.text.y  = ggplot2::element_blank(),
@@ -545,7 +546,7 @@ preview_palette <- function(save_path = NULL, width = 7, height = 8) {
     ggplot2::scale_shape_manual(values = shape_source) +
     ggplot2::geom_text(ggplot2::aes(label = paste0("pch ", shape)),
                         vjust = 2.5, size = 2.5, colour = "grey40") +
-    ggplot2::labs(title = "E. Data Source Shapes", x = NULL, y = NULL) +
+    ggplot2::labs(x = NULL, y = NULL, tag = "(e)") +
     theme_mpa(base_size = 8) +
     ggplot2::theme(
       axis.text.y  = ggplot2::element_blank(),
@@ -562,7 +563,7 @@ preview_palette <- function(save_path = NULL, width = 7, height = 8) {
     ggplot2::scale_fill_manual(values = col_type) +
     ggplot2::geom_text(ggplot2::aes(label = color), vjust = 2.8,
                         size = 2.5, colour = "grey30") +
-    ggplot2::labs(title = "F. Analysis Type", x = NULL, y = NULL) +
+    ggplot2::labs(x = NULL, y = NULL, tag = "(f)") +
     theme_mpa(base_size = 8) +
     ggplot2::theme(
       axis.text.y  = ggplot2::element_blank(),

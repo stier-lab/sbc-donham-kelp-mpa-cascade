@@ -1,0 +1,5 @@
+"candidate","valid","convergence","pdHess","n_obs","n_history","n_mpa","logLik","max_abs_gradient","source_sd","ar1_process_sd","annual_error_sd","ar1_process_phi","conditional_lag1_correlation","warnings","selected"
+"correlated_slopes_source",FALSE,1,TRUE,831,63,15,NA,NA,NA,NA,NA,NA,NA,"Model convergence problem; singular convergence (7). See vignette('troubleshooting'), help('diagnose')",FALSE
+"independent_slopes_source",TRUE,0,TRUE,831,63,15,-1486.59647859748,0.00165414053903445,0.000872709606780929,1.45897620367533,0.7865094513929,0.689695333499623,0.534394592021974,"",TRUE
+"intercepts_source",TRUE,0,TRUE,831,63,15,-1488.92388549964,2.47503814732109e-06,0.000138267030852862,1.4746133283959,0.802191266212308,0.707591124099111,0.546007266762738,"",FALSE
+"intercepts",TRUE,0,TRUE,831,63,15,-1488.92388530274,6.49168366812639e-05,NA,1.47461353966319,0.802190993994291,0.707590940267148,0.546007245259226,"",FALSE

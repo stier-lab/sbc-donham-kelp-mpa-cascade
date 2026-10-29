@@ -1,0 +1,15 @@
+Taxa,Resp,AnalysisType,Model,n_estimates,n_mpa,MPA_source_keys
+M. franciscanus,Bio,CI,Linear,2,2,Abalone Cove SMCA|PISCO;Anacapa Island SMR 2003|KFM
+M. franciscanus,Den,CI,Linear,7,6,Abalone Cove SMCA|PISCO;Anacapa Island SMR 2003|KFM;Anacapa Island SMR 2003|PISCO;Campus Point SMCA|PISCO;Gull Island SMR|PISCO;Matlahuayl SMR|PISCO;Scorpion SMR|PISCO
+S. purpuratus,Den,CI,Linear,9,7,Abalone Cove SMCA|PISCO;Anacapa Island SMR 2003|KFM;Anacapa Island SMR 2003|PISCO;Campus Point SMCA|PISCO;Gull Island SMR|PISCO;Matlahuayl SMR|PISCO;Scorpion SMR|PISCO;South Point SMR|KFM;South Point SMR|PISCO
+S. purpuratus,Bio,CI,Mean,5,5,Abalone Cove SMCA|PISCO;Harris Point SMR|PISCO;Naples SMCA|PISCO;Point Vicente SMCA|PISCO;South Point SMR|KFM
+S. purpuratus,Bio,CI,Linear,5,5,Anacapa Island SMR 2003|KFM;Campus Point SMCA|PISCO;Gull Island SMR|PISCO;Scorpion SMR|PISCO;South Point SMR|PISCO
+M. franciscanus,Bio,CI,Mean,9,7,Campus Point SMCA|PISCO;Gull Island SMR|PISCO;Harris Point SMR|PISCO;Naples SMCA|LTER;Naples SMCA|PISCO;Point Vicente SMCA|PISCO;Scorpion SMR|PISCO;South Point SMR|KFM;South Point SMR|PISCO
+M. franciscanus,Bio,pBACIPS,Linear,1,1,Gull Island SMR|KFM
+M. franciscanus,Den,pBACIPS,Step,3,3,Gull Island SMR|KFM;Naples SMCA|LTER;Scorpion SMR|KFM
+M. franciscanus,Den,CI,Mean,5,4,Harris Point SMR|PISCO;Naples SMCA|PISCO;Point Vicente SMCA|PISCO;South Point SMR|PISCO;South Point SMR|KFM
+M. franciscanus,Den,pBACIPS,Linear,1,1,Harris Point SMR|KFM
+M. franciscanus,Bio,pBACIPS,Sigmoid,1,1,Harris Point SMR|KFM
+S. purpuratus,Den,CI,Mean,3,3,Harris Point SMR|PISCO;Naples SMCA|PISCO;Point Vicente SMCA|PISCO
+S. purpuratus,Den,pBACIPS,Step,1,1,Santa Barbara Island SMR|KFM
+M. franciscanus,Bio,pBACIPS,Step,1,1,Scorpion SMR|KFM

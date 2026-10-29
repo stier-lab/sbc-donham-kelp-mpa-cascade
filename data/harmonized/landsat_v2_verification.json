@@ -1,0 +1,119 @@
+{
+  "release": "landsat_v2_masks_2026_10_21",
+  "verified": true,
+  "years": [1984, 2021],
+  "mpa_arrays": 24,
+  "reference_arrays": 34,
+  "empty_groups": 14,
+  "input_rows": 60,
+  "confirmed_removed_slots": 6,
+  "max_abs_difference_kg": 0,
+  "required_files": [
+    {
+      "path": "data/harmonized/harmonized_landsat_rr.csv",
+      "bytes": 121600,
+      "md5": "aa1080e0127e5cacfb357ed073fe53ee",
+      "sha256": "8a74c9391f41839419d99ab864e991720ca32e8ed3563cfd29c9f18538dfad30"
+    },
+    {
+      "path": "data/harmonized/harmonized_landsat_annual_index.csv",
+      "bytes": 104039,
+      "md5": "01e3709a353cf63d0c4390fe85f6178f",
+      "sha256": "77c1ef6eb717e5c2666fa08ae0dd9d9dc487ad5d58abcb5dfb218c624cbddb53"
+    },
+    {
+      "path": "outputs/landsat_v2_verification/mask_array_checks.csv",
+      "bytes": 2597,
+      "md5": "59cb9d28e0168af2fc09df94af3a8634",
+      "sha256": "1193fb6b15390f32959c5b04413ea49cab90fb8922c28c7a525fbe84db4a6fcf"
+    },
+    {
+      "path": "outputs/landsat_v2_verification/input_checks.csv",
+      "bytes": 2420,
+      "md5": "0fd44ac3183d4e8f313fab9be39d7ca6",
+      "sha256": "a20ed6ecf3d07e0390fa358dfc880f1f8d707bfd1a50c683067f70f64b74358c"
+    }
+  ],
+  "local_source_files": [
+    {
+      "path": "local_archive/metadata_audit_2026-10-16/CAkelpCanopyEnv_2021.nc",
+      "bytes": 207796876,
+      "md5": "6726ea874abbec5cf8b436a1f22c519b",
+      "sha256": "230d269d57e8c28601c8744f7367360daaa81e1fd7524d3a4c5a528e4999fdf1"
+    },
+    {
+      "path": "data/LANDSAT/MPA_Runs_new.csv",
+      "bytes": 16311,
+      "md5": "503ee8bc832a8abef46cb0bbe8d9d895",
+      "sha256": "2d5a40bca55a40290ee1cd1fd3549086c3fd0821ac5beeaa37cce2c081484c15"
+    },
+    {
+      "path": "data/external/tom_bell_2026-10-20/03_Site_List.csv",
+      "bytes": 1043,
+      "md5": "87221e0fe2dc8a68448d81f4fc1d14cb",
+      "sha256": "6723f8d86749ffbef0b110b5ba852c17f94df0b0ddda74f5ff7c374c76ec44ec"
+    },
+    {
+      "path": "../Donham-Stier-CA-MPA-Data-2026/data/landsat_empty_reference_corrections.csv",
+      "bytes": 543,
+      "md5": "ba6eb2904bf8b2bdd568495e8ea0ef14",
+      "sha256": "ae6b2e371db33aa26c0907724422381c69a05824f0b71cd7df854d8e812ca2d6"
+    },
+    {
+      "path": "data/external/tom_bell_2026-10-21/MPA_Final_2022.mat",
+      "bytes": 39328816,
+      "md5": "254d38c451810fe91f18b3d481bfb0d1",
+      "sha256": "666f2fbbafed1c0c47ffcb89220c404d1a653b93094c3b56fc94db9bb9346c6b"
+    },
+    {
+      "path": "data/external/tom_bell_2026-10-21/MPA_Ref_Locations_v2.xlsx",
+      "bytes": 1262907,
+      "md5": "1b7de3a56836e0ef0a1ba1e373e30d2c",
+      "sha256": "bf07334eba96a407b196175562bed54e67e553a352204b073e42742ce52e8761"
+    },
+    {
+      "path": "data/external/tom_bell_2026-10-21/MPA_Runs_new.xlsx",
+      "bytes": 29162,
+      "md5": "f0f9a690b862abc00efb59941244c5d3",
+      "sha256": "e1f80a904f6e17f758042497a3bcab7d8e9821426166e62282171313a7b39fe6"
+    },
+    {
+      "path": "data/external/tom_bell_2026-10-21/reproduce_MPA_Runs_new.py",
+      "bytes": 3089,
+      "md5": "7c29cf8866728e618c5a0f739d3cc6af",
+      "sha256": "f25f3326df7cd8847206f37bc31122183bc50f6572bda3fda4a33d4c1cd5b244"
+    },
+    {
+      "path": "data/external/tom_bell_2026-10-21/MPA_Analysis_2022.m",
+      "bytes": 14517,
+      "md5": "e0b3c4311f8df656a53a9e38773baaca",
+      "sha256": "2cf638038cf4a156807888ec1cb39e7945456e5b5d8c91d2f3454a0cdd7f3a6d"
+    },
+    {
+      "path": "data/external/tom_bell_2026-10-21/p_poly_dist.m",
+      "bytes": 12850,
+      "md5": "1f648a35dbd557d0cf9a368c97cdd8a6",
+      "sha256": "aabfcb8226fb523897bad1c5f3e30b693808e72bf7260216659bc0be1e5d99fc"
+    },
+    {
+      "path": "data/external/tom_bell_2026-10-21/vline.m",
+      "bytes": 2937,
+      "md5": "eb48dea6a1d31be2f540b7652e09fc64",
+      "sha256": "70e626e86afc3ea96ffb385e8dc369c18a312daa95d2dc580cc4520fb82ed225"
+    },
+    {
+      "path": "data/external/tom_bell_2026-10-21/README.md",
+      "bytes": 5204,
+      "md5": "e3ca95f61002085351e5198b0afd28b7",
+      "sha256": "64c4d33df1f92e66a669c26abd72f93e1bfd30e5aa719dd13f0892691df36084"
+    },
+    {
+      "path": "data/external/tom_bell_2026-10-21/Mask_changes_v1_to_v2.csv",
+      "bytes": 814,
+      "md5": "c3afbe6c31fce28266d7daea272ab289",
+      "sha256": "0c4ea72907318b67ff06652bf53818a497b5432e531e0008b191d8b601d25d59"
+    }
+  ],
+  "reconstruction": "Independent R reconstruction from cached NetCDF; corrected masks reproduce delivered annual arrays including missingness. Empty masks are absent, not observed zeros.",
+  "limitation": "Some reference splits were recovered by the supplier against the delivered arrays. Reproduction does not establish unique historical clustering or resolve site eligibility."
+}

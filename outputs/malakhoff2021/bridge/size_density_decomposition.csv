@@ -1,0 +1,25 @@
+species,end_year,first_post,quantity,estimate,lower,upper,df,n_reserves,n_controls,n_before_years,n_after_years,uncertainty,eligible_for_manuscript
+red,2019,2004,density,0.159336095768102,-0.707995420307084,1.02666761184329,3.18000784286447,3,8,9,15,exploratory Welch interval among site-level changes; only three reserves,FALSE
+red,2019,2004,mean_mass,1.00893798057328,-0.245620539967758,2.26349650111432,2.66821166657159,3,8,9,15,exploratory Welch interval among site-level changes; only three reserves,FALSE
+red,2019,2004,biomass,1.16827407634138,0.288528032198037,2.04802012048473,4.17468714488257,3,8,9,15,exploratory Welch interval among site-level changes; only three reserves,FALSE
+red,2019,2005,density,0.383115433216347,-0.0501593864263294,0.816390252859023,8.99354639452704,3,8,10,14,exploratory Welch interval among site-level changes; only three reserves,FALSE
+red,2019,2005,mean_mass,0.948741703806714,-0.102791924751002,2.00027533236443,2.76817947483022,3,8,10,14,exploratory Welch interval among site-level changes; only three reserves,FALSE
+red,2019,2005,biomass,1.33185713702306,0.348608768654312,2.31510550539181,3.84441488182875,3,8,10,14,exploratory Welch interval among site-level changes; only three reserves,FALSE
+red,2022,2004,density,0.0765187239730793,-0.612586446608156,0.765623894554315,4.69984507778165,3,8,9,17,exploratory Welch interval among site-level changes; only three reserves,FALSE
+red,2022,2004,mean_mass,1.01493926020039,-0.528666662137397,2.55854518253818,2.35728322757812,3,8,9,17,exploratory Welch interval among site-level changes; only three reserves,FALSE
+red,2022,2004,biomass,1.09145798417347,-0.0650700014954191,2.24798596984236,3.43369148072449,3,8,9,17,exploratory Welch interval among site-level changes; only three reserves,FALSE
+red,2022,2005,density,0.282636926359914,-0.197852861991114,0.763126714710941,7.88938039140897,3,8,10,16,exploratory Welch interval among site-level changes; only three reserves,FALSE
+red,2022,2005,mean_mass,0.952998400843292,-0.420093281691693,2.32609008337828,2.37916889655769,3,8,10,16,exploratory Welch interval among site-level changes; only three reserves,FALSE
+red,2022,2005,biomass,1.23563532720321,-0.0432043834860434,2.51447503789245,3.26244828267582,3,8,10,16,exploratory Welch interval among site-level changes; only three reserves,FALSE
+purple,2019,2004,density,-0.403735408710824,-3.77822259154436,2.97075177412271,2.61890143877808,3,8,8,13,exploratory Welch interval among site-level changes; only three reserves,FALSE
+purple,2019,2004,mean_mass,0.711460895308067,-0.204418510737268,1.6273403013534,3.03911307722906,3,8,8,13,exploratory Welch interval among site-level changes; only three reserves,FALSE
+purple,2019,2004,biomass,0.307725486597243,-2.23866545767576,2.85411643087025,2.80915359301192,3,8,8,13,exploratory Welch interval among site-level changes; only three reserves,FALSE
+purple,2019,2005,density,-0.137057011384536,-2.4618284575779,2.18771443480883,3.20555492975032,3,8,9,12,exploratory Welch interval among site-level changes; only three reserves,FALSE
+purple,2019,2005,mean_mass,0.636226519394134,-0.213940987116484,1.48639402590475,2.90986247134481,3,8,9,12,exploratory Welch interval among site-level changes; only three reserves,FALSE
+purple,2019,2005,biomass,0.499169508009597,-1.01380362665996,2.01214264267915,4.05729187913824,3,8,9,12,exploratory Welch interval among site-level changes; only three reserves,FALSE
+purple,2022,2004,density,-0.509310052824614,-4.54106476684435,3.52244466119512,2.47431282162498,3,8,8,15,exploratory Welch interval among site-level changes; only three reserves,FALSE
+purple,2022,2004,mean_mass,0.740725456030086,-0.34779745555873,1.8292483676189,2.80679440229481,3,8,8,15,exploratory Welch interval among site-level changes; only three reserves,FALSE
+purple,2022,2004,biomass,0.231415403205473,-2.7775198223404,3.24035062875135,2.58208717016998,3,8,8,15,exploratory Welch interval among site-level changes; only three reserves,FALSE
+purple,2022,2005,density,-0.263753450943363,-3.36479007669018,2.83728317480345,2.79179422429546,3,8,9,14,exploratory Welch interval among site-level changes; only three reserves,FALSE
+purple,2022,2005,mean_mass,0.667347722126347,-0.361311650610993,1.69600709486369,2.71834797056423,3,8,9,14,exploratory Welch interval among site-level changes; only three reserves,FALSE
+purple,2022,2005,biomass,0.403594271182983,-1.66836857263957,2.47555711500553,3.15116083480634,3,8,9,14,exploratory Welch interval among site-level changes; only three reserves,FALSE

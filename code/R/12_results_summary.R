@@ -59,7 +59,7 @@ model_results <- data.frame()
 if (exists("Table2") && nrow(Table2) > 0) {
   # Reshape Table2 into a flat data frame with interpretive columns added:
   #   - RR_lower/RR_upper: back-transformed CIs on the response-ratio scale
-  #   - pct_change: percentage change inside MPA relative to reference
+  #   - pct_change: 100 * (exp(pooled contrast) - 1), not a common level difference
   #   - direction/qualitative_effect: plain-English interpretation
   #   - pval_fdr: Benjamini-Hochberg adjusted p-values across observed tests
   model_results <- data.frame(
@@ -82,9 +82,9 @@ if (exists("Table2") && nrow(Table2) > 0) {
     direction = ifelse(Table2$Estimate > 0, "positive",
                        ifelse(Table2$Estimate < 0, "negative", "neutral")),
     qualitative_effect = ifelse(
-      Table2$pval >= SIGNIFICANCE_ALPHA, "No significant effect",
-      ifelse(Table2$Estimate > 0, "Significant increase inside MPA",
-             "Significant decrease inside MPA")
+      Table2$pval >= SIGNIFICANCE_ALPHA, "Inconclusive contrast",
+      ifelse(Table2$Estimate > 0, "Significant positive contrast",
+             "Significant negative contrast")
     ),
     tau2 = round(Table2$tau2, 4),
     I2 = round(Table2$I2, 1),
@@ -146,8 +146,8 @@ if (exists("SumStats.Final")) {
       CI_Upper = round(CI_Upper, 4),
       # Significant if the 95% CI excludes zero (i.e., entirely positive or negative)
       Significant = (CI_Lower > 0 | CI_Upper < 0),
-      Direction = ifelse(Effect_Size > 0, "Increase inside MPA",
-                        ifelse(Effect_Size < 0, "Decrease inside MPA", "No change")),
+      Direction = ifelse(Effect_Size > 0, "Positive contrast",
+                        ifelse(Effect_Size < 0, "Negative contrast", "Zero contrast")),
       Qualitative = ifelse(!Significant, "Not significant",
                           ifelse(Effect_Size > 0, "Significant increase", "Significant decrease"))
     ) %>%
@@ -192,14 +192,18 @@ md_lines <- c(
   "## Overview",
   "",
   "This document summarizes the key results from the California MPA kelp forest",
-  "pBACIPS analysis. Effect sizes are estimated as log response ratios (lnRR = ln[MPA/Reference])",
-  "at t=11 years post-MPA implementation, and back-transformed to response ratios (RR = exp(lnRR)).",
+  "pBACIPS/CI analysis. The primary synthesis combines before/after step contrasts,",
+  "fitted changes from model time 0 to 11, and mean log response ratios over retained CI input years.",
+  "Most diver models use survey indices; Landsat and Campus Point lobster biomass use calendar time.",
+  "The numerical horizon does not standardize calendar duration, and CI means are not uniformly post-only.",
+  "The legacy RR column exponentiates these contrasts; it is not a common MPA/reference level ratio.",
+  "The kelp Biomass category combines diver biomass and satellite canopy-index contrasts.",
   "",
   "**Interpretation:**",
-  "- **lnRR > 0 / RR > 1** = higher values inside MPA vs reference",
-  "- **lnRR < 0 / RR < 1** = lower values inside MPA vs reference",
-  "- **lnRR = 0 / RR = 1** = no difference",
-  "- **% Change** = (RR - 1) x 100 (e.g., RR = 1.72 means +72% higher inside MPA)",
+  "- **Estimate > 0 / exp(Estimate) > 1** = positive pooled design-specific contrast",
+  "- **Estimate < 0 / exp(Estimate) < 1** = negative pooled design-specific contrast",
+  "- **Estimate = 0 / exp(Estimate) = 1** = zero pooled contrast",
+  "- **% Change** = (exp(Estimate) - 1) x 100, not a common percentage increase inside MPAs",
   paste0("- Significance threshold: p < ", SIGNIFICANCE_ALPHA),
   "",
   "---",
@@ -229,8 +233,8 @@ if (nrow(model_results) > 0) {
   md_lines <- c(md_lines,
     "## Meta-Analysis Results (Table 2)",
     "",
-    "**Estimate** = log response ratio (lnRR). **RR** = back-transformed response ratio = exp(lnRR).",
-    "RR > 1 means higher inside MPA; RR < 1 means lower inside MPA.",
+    "**Estimate** = pooled log-scale contrast. **RR** = exp(Estimate), retaining the legacy column name.",
+    "Values above or below 1 denote positive or negative pooled contrasts, not a common inside/reference difference.",
     "",
     "### Biomass",
     "",
@@ -282,8 +286,8 @@ if (!is.null(replicate_effects)) {
     "---", "",
     "## Replicate-Level Summary",
     "",
-    paste0("- **Significant increases inside MPA:** ", sig_positive),
-    paste0("- **Significant decreases inside MPA:** ", sig_negative),
+    paste0("- **Significant positive contrasts:** ", sig_positive),
+    paste0("- **Significant negative contrasts:** ", sig_negative),
     paste0("- **Not significant:** ", not_sig),
     paste0("- **Total MPA-level effect sizes:** ", nrow(replicate_effects)),
     "",

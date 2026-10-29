@@ -1242,12 +1242,12 @@ extract_meta_table <- function(model, data, response) {
     Taxa       = taxa_names,
     k          = k_per_taxa,
     n_MPAs     = n_mpas_per_taxa,
-    Estimate   = round(coef_table[, "estimate"], 4),
-    SE         = round(coef_table[, "se"], 4),
-    tval       = round(coef_table[, stat_col], 4),
+    Estimate   = coef_table[, "estimate"],
+    SE         = coef_table[, "se"],
+    tval       = coef_table[, stat_col],
     pval       = coef_table[, "pval"],  # Full precision for FDR correction
-    CI_lower   = round(coef_table[, "ci.lb"], 4),
-    CI_upper   = round(coef_table[, "ci.ub"], 4),
+    CI_lower   = coef_table[, "ci.lb"],
+    CI_upper   = coef_table[, "ci.ub"],
     tau2       = round(total_tau2, 4),
     I2         = pseudo_I2,
     QE         = model_QE,
@@ -1326,9 +1326,10 @@ if (nrow(very_low_k) > 0) {
 # lnRR = 0 -> RR = 1 -> no MPA effect
 # lnRR > 0 -> RR > 1 -> higher inside MPAs (e.g., RR = 2 means 2x more)
 # lnRR < 0 -> RR < 1 -> lower inside MPAs (e.g., RR = 0.5 means half as much)
-Table2$RR        <- round(exp(Table2$Estimate), 3)
-Table2$RR_lower  <- round(exp(Table2$CI_lower), 3)
-Table2$RR_upper  <- round(exp(Table2$CI_upper), 3)
+# Keep machine-readable estimates unrounded; round only at final display.
+Table2$RR        <- exp(Table2$Estimate)
+Table2$RR_lower  <- exp(Table2$CI_lower)
+Table2$RR_upper  <- exp(Table2$CI_upper)
 Table2$Pct_Change <- round((exp(Table2$Estimate) - 1) * 100, 1)
 
 # Correct for multiple testing across all observed taxon-response coefficients

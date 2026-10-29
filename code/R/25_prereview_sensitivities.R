@@ -6,13 +6,14 @@
 #
 #   A. Residual autocorrelation: the per-combination Durbin-Watson distribution,
 #      which the single pooled statistic in table_s_ar1_sensitivity.csv hides.
-#   B. Cross-taxa regressions: permutation test, because each regression puts one
-#      estimated effect size on another and the weights use only the response
-#      variance, so the slope is attenuated and its parametric p is optimistic.
-#   C. Point Conception SMR: the kelp meta-analysis refitted with the MPA that is
-#      currently excluded on the response variable.
+#   B. Cross-taxa permutations for inverse-variance-grouped reconstructions;
+#      most differ from the primary Table 3 fits. Estimated predictors and
+#      response-only weights do not necessarily make parametric P optimistic.
+#   C. Point Conception SMR: a post-only lnRR summary alongside the current
+#      pooled kelp coefficient, not a joint-model inclusion refit.
 #   D. Zero-offset constant: how far the annual lnRR series move when the adaptive
 #      offset (half the minimum non-zero proportion) is replaced by alternatives.
+#   E. SE inflation within separate grouped fits, not a reproduction of Table 2.
 #
 # Outputs: tables/table_s_prereview_*.csv
 # =============================================================================

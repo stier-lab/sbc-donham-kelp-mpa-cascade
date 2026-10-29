@@ -1,0 +1,161 @@
+"specification","MPA","Region","MPA_Start","metric","eligible","reason","modern_baseline_contains_designation","minimum_years_required","minimum_years_observed"
+"primary","Abalone Cove SMCA","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"primary","Abalone Cove SMCA","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",3
+"primary","Cabrillo SMR","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"primary","Cabrillo SMR","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",3
+"primary","Campus Point SMCA","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"primary","Campus Point SMCA","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",3
+"primary","Carrington Pt SMR","Islands",2003,"resistance",TRUE,"eligible",FALSE,"2",2
+"primary","Carrington Pt SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"2",3
+"primary","Farnsworth Onshore SMCA","Islands",2012,"resistance",FALSE,"incomplete window coverage",TRUE,"2",1
+"primary","Farnsworth Onshore SMCA","Islands",2012,"recovery",FALSE,"incomplete window coverage",TRUE,"2",1
+"primary","Gull Island SMR","Islands",2003,"resistance",TRUE,"eligible",FALSE,"2",2
+"primary","Gull Island SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"2",3
+"primary","Harris Point SMR","Islands",2003,"resistance",TRUE,"eligible",FALSE,"2",2
+"primary","Harris Point SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"2",3
+"primary","Naples SMCA","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"primary","Naples SMCA","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",3
+"primary","Point Dume SMCA","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"primary","Point Dume SMCA","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",3
+"primary","Point Dume SMR","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"primary","Point Dume SMR","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",3
+"primary","Point Vicente SMCA","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"primary","Point Vicente SMCA","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",2
+"primary","Santa Barbara Island SMR","Islands",2003,"resistance",FALSE,"zero or nonfinite window mean; log contrast undefined",FALSE,"2",2
+"primary","Santa Barbara Island SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"2",3
+"primary","Skunk Pt SMR","Islands",2003,"resistance",TRUE,"eligible",FALSE,"2",2
+"primary","Skunk Pt SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"2",3
+"primary","South La Jolla SMR","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"primary","South La Jolla SMR","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",3
+"primary","South Point SMR","Islands",2003,"resistance",TRUE,"eligible",FALSE,"2",2
+"primary","South Point SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"2",3
+"primary","Swamis SMCA","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"primary","Swamis SMCA","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",3
+"equal_event_duration","Abalone Cove SMCA","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"equal_event_duration","Abalone Cove SMCA","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",3
+"equal_event_duration","Cabrillo SMR","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"equal_event_duration","Cabrillo SMR","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",3
+"equal_event_duration","Campus Point SMCA","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"equal_event_duration","Campus Point SMCA","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",3
+"equal_event_duration","Carrington Pt SMR","Islands",2003,"resistance",TRUE,"eligible",FALSE,"2",2
+"equal_event_duration","Carrington Pt SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"2",3
+"equal_event_duration","Farnsworth Onshore SMCA","Islands",2012,"resistance",FALSE,"incomplete window coverage",TRUE,"2",1
+"equal_event_duration","Farnsworth Onshore SMCA","Islands",2012,"recovery",FALSE,"incomplete window coverage",TRUE,"2",1
+"equal_event_duration","Gull Island SMR","Islands",2003,"resistance",TRUE,"eligible",FALSE,"2",2
+"equal_event_duration","Gull Island SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"2",3
+"equal_event_duration","Harris Point SMR","Islands",2003,"resistance",TRUE,"eligible",FALSE,"2",2
+"equal_event_duration","Harris Point SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"2",3
+"equal_event_duration","Naples SMCA","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"equal_event_duration","Naples SMCA","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",3
+"equal_event_duration","Point Dume SMCA","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"equal_event_duration","Point Dume SMCA","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",3
+"equal_event_duration","Point Dume SMR","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"equal_event_duration","Point Dume SMR","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",3
+"equal_event_duration","Point Vicente SMCA","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"equal_event_duration","Point Vicente SMCA","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",2
+"equal_event_duration","Santa Barbara Island SMR","Islands",2003,"resistance",FALSE,"zero or nonfinite window mean; log contrast undefined",FALSE,"2",2
+"equal_event_duration","Santa Barbara Island SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"2",3
+"equal_event_duration","Skunk Pt SMR","Islands",2003,"resistance",TRUE,"eligible",FALSE,"2",2
+"equal_event_duration","Skunk Pt SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"2",3
+"equal_event_duration","South La Jolla SMR","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"equal_event_duration","South La Jolla SMR","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",3
+"equal_event_duration","South Point SMR","Islands",2003,"resistance",TRUE,"eligible",FALSE,"2",2
+"equal_event_duration","South Point SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"2",3
+"equal_event_duration","Swamis SMCA","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"equal_event_duration","Swamis SMCA","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",3
+"strict_complete_windows","Abalone Cove SMCA","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"all",2
+"strict_complete_windows","Abalone Cove SMCA","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"all",3
+"strict_complete_windows","Cabrillo SMR","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"all",2
+"strict_complete_windows","Cabrillo SMR","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"all",3
+"strict_complete_windows","Campus Point SMCA","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"all",2
+"strict_complete_windows","Campus Point SMCA","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"all",3
+"strict_complete_windows","Carrington Pt SMR","Islands",2003,"resistance",TRUE,"eligible",FALSE,"all",2
+"strict_complete_windows","Carrington Pt SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"all",3
+"strict_complete_windows","Farnsworth Onshore SMCA","Islands",2012,"resistance",FALSE,"incomplete window coverage",TRUE,"all",1
+"strict_complete_windows","Farnsworth Onshore SMCA","Islands",2012,"recovery",FALSE,"incomplete window coverage",TRUE,"all",1
+"strict_complete_windows","Gull Island SMR","Islands",2003,"resistance",TRUE,"eligible",FALSE,"all",2
+"strict_complete_windows","Gull Island SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"all",3
+"strict_complete_windows","Harris Point SMR","Islands",2003,"resistance",TRUE,"eligible",FALSE,"all",2
+"strict_complete_windows","Harris Point SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"all",3
+"strict_complete_windows","Naples SMCA","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"all",2
+"strict_complete_windows","Naples SMCA","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"all",3
+"strict_complete_windows","Point Dume SMCA","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"all",2
+"strict_complete_windows","Point Dume SMCA","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"all",3
+"strict_complete_windows","Point Dume SMR","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"all",2
+"strict_complete_windows","Point Dume SMR","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"all",3
+"strict_complete_windows","Point Vicente SMCA","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"all",2
+"strict_complete_windows","Point Vicente SMCA","Mainland",2012,"recovery",FALSE,"incomplete window coverage",TRUE,"all",2
+"strict_complete_windows","Santa Barbara Island SMR","Islands",2003,"resistance",FALSE,"zero or nonfinite window mean; log contrast undefined",FALSE,"all",2
+"strict_complete_windows","Santa Barbara Island SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"all",3
+"strict_complete_windows","Skunk Pt SMR","Islands",2003,"resistance",TRUE,"eligible",FALSE,"all",2
+"strict_complete_windows","Skunk Pt SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"all",3
+"strict_complete_windows","South La Jolla SMR","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"all",2
+"strict_complete_windows","South La Jolla SMR","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"all",3
+"strict_complete_windows","South Point SMR","Islands",2003,"resistance",TRUE,"eligible",FALSE,"all",2
+"strict_complete_windows","South Point SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"all",3
+"strict_complete_windows","Swamis SMCA","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"all",2
+"strict_complete_windows","Swamis SMCA","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"all",3
+"post_designation_baseline","Abalone Cove SMCA","Mainland",2012,"resistance",TRUE,"eligible",FALSE,"2",1
+"post_designation_baseline","Abalone Cove SMCA","Mainland",2012,"recovery",TRUE,"eligible",FALSE,"2",1
+"post_designation_baseline","Cabrillo SMR","Mainland",2012,"resistance",FALSE,"zero or nonfinite window mean; log contrast undefined",FALSE,"2",1
+"post_designation_baseline","Cabrillo SMR","Mainland",2012,"recovery",FALSE,"zero or nonfinite window mean; log contrast undefined",FALSE,"2",1
+"post_designation_baseline","Campus Point SMCA","Mainland",2012,"resistance",TRUE,"eligible",FALSE,"2",1
+"post_designation_baseline","Campus Point SMCA","Mainland",2012,"recovery",TRUE,"eligible",FALSE,"2",1
+"post_designation_baseline","Carrington Pt SMR","Islands",2003,"resistance",TRUE,"eligible",FALSE,"2",1
+"post_designation_baseline","Carrington Pt SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"2",1
+"post_designation_baseline","Farnsworth Onshore SMCA","Islands",2012,"resistance",FALSE,"incomplete window coverage",FALSE,"2",1
+"post_designation_baseline","Farnsworth Onshore SMCA","Islands",2012,"recovery",FALSE,"incomplete window coverage",FALSE,"2",1
+"post_designation_baseline","Gull Island SMR","Islands",2003,"resistance",TRUE,"eligible",FALSE,"2",1
+"post_designation_baseline","Gull Island SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"2",1
+"post_designation_baseline","Harris Point SMR","Islands",2003,"resistance",TRUE,"eligible",FALSE,"2",1
+"post_designation_baseline","Harris Point SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"2",1
+"post_designation_baseline","Naples SMCA","Mainland",2012,"resistance",TRUE,"eligible",FALSE,"2",1
+"post_designation_baseline","Naples SMCA","Mainland",2012,"recovery",TRUE,"eligible",FALSE,"2",1
+"post_designation_baseline","Point Dume SMCA","Mainland",2012,"resistance",TRUE,"eligible",FALSE,"2",1
+"post_designation_baseline","Point Dume SMCA","Mainland",2012,"recovery",TRUE,"eligible",FALSE,"2",1
+"post_designation_baseline","Point Dume SMR","Mainland",2012,"resistance",TRUE,"eligible",FALSE,"2",1
+"post_designation_baseline","Point Dume SMR","Mainland",2012,"recovery",TRUE,"eligible",FALSE,"2",1
+"post_designation_baseline","Point Vicente SMCA","Mainland",2012,"resistance",TRUE,"eligible",FALSE,"2",1
+"post_designation_baseline","Point Vicente SMCA","Mainland",2012,"recovery",TRUE,"eligible",FALSE,"2",1
+"post_designation_baseline","Santa Barbara Island SMR","Islands",2003,"resistance",FALSE,"zero or nonfinite window mean; log contrast undefined",FALSE,"2",1
+"post_designation_baseline","Santa Barbara Island SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"2",1
+"post_designation_baseline","Skunk Pt SMR","Islands",2003,"resistance",TRUE,"eligible",FALSE,"2",1
+"post_designation_baseline","Skunk Pt SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"2",1
+"post_designation_baseline","South La Jolla SMR","Mainland",2012,"resistance",TRUE,"eligible",FALSE,"2",1
+"post_designation_baseline","South La Jolla SMR","Mainland",2012,"recovery",TRUE,"eligible",FALSE,"2",1
+"post_designation_baseline","South Point SMR","Islands",2003,"resistance",TRUE,"eligible",FALSE,"2",1
+"post_designation_baseline","South Point SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"2",1
+"post_designation_baseline","Swamis SMCA","Mainland",2012,"resistance",TRUE,"eligible",FALSE,"2",1
+"post_designation_baseline","Swamis SMCA","Mainland",2012,"recovery",TRUE,"eligible",FALSE,"2",1
+"earlier_historical_baseline","Abalone Cove SMCA","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"earlier_historical_baseline","Abalone Cove SMCA","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",3
+"earlier_historical_baseline","Cabrillo SMR","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"earlier_historical_baseline","Cabrillo SMR","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",3
+"earlier_historical_baseline","Campus Point SMCA","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"earlier_historical_baseline","Campus Point SMCA","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",3
+"earlier_historical_baseline","Carrington Pt SMR","Islands",2003,"resistance",TRUE,"eligible",FALSE,"2",2
+"earlier_historical_baseline","Carrington Pt SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"2",3
+"earlier_historical_baseline","Farnsworth Onshore SMCA","Islands",2012,"resistance",FALSE,"incomplete window coverage",TRUE,"2",1
+"earlier_historical_baseline","Farnsworth Onshore SMCA","Islands",2012,"recovery",TRUE,"eligible",TRUE,"2",2
+"earlier_historical_baseline","Gull Island SMR","Islands",2003,"resistance",TRUE,"eligible",FALSE,"2",2
+"earlier_historical_baseline","Gull Island SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"2",3
+"earlier_historical_baseline","Harris Point SMR","Islands",2003,"resistance",TRUE,"eligible",FALSE,"2",2
+"earlier_historical_baseline","Harris Point SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"2",3
+"earlier_historical_baseline","Naples SMCA","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"earlier_historical_baseline","Naples SMCA","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",3
+"earlier_historical_baseline","Point Dume SMCA","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"earlier_historical_baseline","Point Dume SMCA","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",3
+"earlier_historical_baseline","Point Dume SMR","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"earlier_historical_baseline","Point Dume SMR","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",3
+"earlier_historical_baseline","Point Vicente SMCA","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"earlier_historical_baseline","Point Vicente SMCA","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",2
+"earlier_historical_baseline","Santa Barbara Island SMR","Islands",2003,"resistance",FALSE,"zero or nonfinite window mean; log contrast undefined",FALSE,"2",2
+"earlier_historical_baseline","Santa Barbara Island SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"2",3
+"earlier_historical_baseline","Skunk Pt SMR","Islands",2003,"resistance",TRUE,"eligible",FALSE,"2",2
+"earlier_historical_baseline","Skunk Pt SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"2",3
+"earlier_historical_baseline","South La Jolla SMR","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"earlier_historical_baseline","South La Jolla SMR","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",3
+"earlier_historical_baseline","South Point SMR","Islands",2003,"resistance",TRUE,"eligible",FALSE,"2",2
+"earlier_historical_baseline","South Point SMR","Islands",2003,"recovery",TRUE,"eligible",FALSE,"2",3
+"earlier_historical_baseline","Swamis SMCA","Mainland",2012,"resistance",TRUE,"eligible",TRUE,"2",2
+"earlier_historical_baseline","Swamis SMCA","Mainland",2012,"recovery",TRUE,"eligible",TRUE,"2",3

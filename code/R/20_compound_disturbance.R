@@ -183,10 +183,10 @@ if (have_swath) {
     geom_point(size = 1.6) +
     scale_color_manual(values = c("had sunflower stars" = "#0072B2", "~none" = "#D55E00"), name = NULL) +
     labs(x = expression("Pre-SSWD sunflower-star density (per 60 m"^2*", log)"), y = NULL,
-         title = "a  Sunflower star was patchy: present at ~1/3 of SoCal reserves, ~0 at the rest") +
+         tag = "(a)") +
     scale_x_log10() +
     theme_mpa(base_size = 8) + theme(legend.position = "bottom", axis.text.y = element_text(size = 5.5),
-                                     plot.title = element_text(size = 8, face = "bold"))
+                                     plot.tag = element_text(size = 8, face = "bold"))
 }
 if (!is.null(mod_tab)) {
   mt <- mod_tab[!grepl("INTERACTION|interaction", mod_tab$pyc_group), ]
@@ -197,9 +197,9 @@ if (!is.null(mod_tab)) {
     geom_point(position = position_dodge(0.5), size = 2.2) +
     scale_color_manual(values = c("had sunflower stars" = "#0072B2", "~none" = "#D55E00"), name = NULL) +
     labs(x = "After-before change in MPA effect (lnRR)", y = NULL,
-         title = "b  Is the cascade response stronger where sunflower stars were lost?") +
+         tag = "(b)") +
     theme_mpa(base_size = 8.5) + theme(legend.position = "bottom", axis.text.y = element_text(face = "italic"),
-                                       plot.title = element_text(size = 8.5, face = "bold"))
+                                       plot.tag = element_text(size = 8.5, face = "bold"))
 }
 fig <- if (length(plots) == 2) patchwork::wrap_plots(plots$a, plots$b, ncol = 1, heights = c(1.4, 1)) else plots[[1]]
 ggsave(here::here("plots", "fig_compound_disturbance.pdf"), fig, width = 180, height = 190, units = "mm", device = cairo_pdf)

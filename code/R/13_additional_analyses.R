@@ -357,14 +357,14 @@ if (nrow(ss_type) > 0) {
     ) +
     facet_grid(Resp ~ Taxa_abbrev, scales = "free_y",
                labeller = labeller(
-                 Taxa_abbrev = function(x) x,
+                 Taxa_abbrev = taxon_display,
                  Resp = c("Bio" = "Biomass", "Den" = "Density")
                )) +
     scale_color_manual(values = sp_color_abbrev, guide = "none") +
-    scale_y_rr(-5, 5, name = "MPA / Reference at t = 11") +
+    scale_y_rr(-5, 5, name = "Exponentiated contrast") +
     labs(
       x = "MPA protection level",
-      y = "MPA / Reference at t = 11"
+      y = "Exponentiated contrast"
     ) +
     theme_mpa(base_size = 9) +
     theme(
@@ -422,15 +422,18 @@ if (nrow(ss_region) > 0 && length(unique(ss_region$Location)) >= 2) {
     ) +
     facet_grid(Resp ~ Taxa_abbrev, scales = "free_y",
                labeller = labeller(
-                 Taxa_abbrev = function(x) x,
+                 Taxa_abbrev = taxon_display,
                  Resp = c("Bio" = "Biomass", "Den" = "Density")
                )) +
     scale_color_manual(values = sp_color_abbrev, guide = "none") +
-    scale_y_rr(-5, 5, name = "MPA / Reference at t = 11") +
+    scale_y_rr(-5, 5, name = "Exponentiated contrast") +
     labs(
       x = "Region",
-      y = "MPA / Reference at t = 11"
+      y = "Exponentiated contrast"
     ) +
+    scale_x_discrete(labels = function(x) {
+      ifelse(x == "Ch. Islands", "Ch.\nIslands", x)
+    }) +
     theme_mpa(base_size = 9) +
     theme(
       strip.text.x = element_text(face = "italic", size = 8),

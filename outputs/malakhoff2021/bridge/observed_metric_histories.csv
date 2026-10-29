@@ -1,0 +1,1915 @@
+site,year,species,status,quantity,value,metric,segment
+a-k-01,1991,purple,Control,density,0.1,Density (individuals / m2),1
+a-k-01,1992,purple,Control,density,0,Density (individuals / m2),1
+a-k-01,1994,purple,Control,density,0.375,Density (individuals / m2),2
+a-k-01,1995,purple,Control,density,0.325,Density (individuals / m2),2
+a-k-01,1996,purple,Control,density,0,Density (individuals / m2),2
+a-k-01,1997,purple,Control,density,0.25,Density (individuals / m2),2
+a-k-01,1998,purple,Control,density,0.5,Density (individuals / m2),2
+a-k-01,1999,purple,Control,density,2.875,Density (individuals / m2),2
+a-k-01,2000,purple,Control,density,6.66666666666667,Density (individuals / m2),2
+a-k-01,2001,purple,Control,density,5.04166666666667,Density (individuals / m2),2
+a-k-01,2002,purple,Control,density,1.33333333333333,Density (individuals / m2),2
+a-k-01,2004,purple,Control,density,2.70833333333333,Density (individuals / m2),3
+a-k-01,2005,purple,Control,density,0,Density (individuals / m2),3
+a-k-01,2006,purple,Control,density,0.0416666666666667,Density (individuals / m2),3
+a-k-01,2007,purple,Control,density,0.541666666666667,Density (individuals / m2),3
+a-k-01,2008,purple,Control,density,0.208333333333333,Density (individuals / m2),3
+a-k-01,2009,purple,Control,density,0.208333333333333,Density (individuals / m2),3
+a-k-01,2010,purple,Control,density,0.458333333333333,Density (individuals / m2),3
+a-k-01,2011,purple,Control,density,0.333333333333333,Density (individuals / m2),3
+a-k-01,2012,purple,Control,density,0.375,Density (individuals / m2),3
+a-k-01,2013,purple,Control,density,0.916666666666667,Density (individuals / m2),3
+a-k-01,2014,purple,Control,density,3.70833333333333,Density (individuals / m2),3
+a-k-01,2015,purple,Control,density,1,Density (individuals / m2),3
+a-k-01,2016,purple,Control,density,3.75,Density (individuals / m2),3
+a-k-01,2017,purple,Control,density,1.33333333333333,Density (individuals / m2),3
+a-k-01,2018,purple,Control,density,19.375,Density (individuals / m2),3
+a-k-01,2019,purple,Control,density,20,Density (individuals / m2),3
+a-k-01,2021,purple,Control,density,21.25,Density (individuals / m2),4
+a-k-01,2022,purple,Control,density,28.7916666666667,Density (individuals / m2),4
+a-k-01,1991,purple,Control,mean_mass,25.4570433522562,Mean individual wet mass (g),1
+a-k-01,1992,purple,Control,mean_mass,,Mean individual wet mass (g),1
+a-k-01,1994,purple,Control,mean_mass,18.0377703703083,Mean individual wet mass (g),2
+a-k-01,1995,purple,Control,mean_mass,29.7477722640951,Mean individual wet mass (g),2
+a-k-01,1996,purple,Control,mean_mass,37.3135475290092,Mean individual wet mass (g),2
+a-k-01,1997,purple,Control,mean_mass,30.781101829029,Mean individual wet mass (g),2
+a-k-01,1998,purple,Control,mean_mass,27.3845017810106,Mean individual wet mass (g),2
+a-k-01,1999,purple,Control,mean_mass,17.1309219801974,Mean individual wet mass (g),2
+a-k-01,2000,purple,Control,mean_mass,12.2423859061089,Mean individual wet mass (g),2
+a-k-01,2001,purple,Control,mean_mass,30.0613708923537,Mean individual wet mass (g),2
+a-k-01,2002,purple,Control,mean_mass,30.4998814455076,Mean individual wet mass (g),2
+a-k-01,2004,purple,Control,mean_mass,11.8864610510925,Mean individual wet mass (g),3
+a-k-01,2005,purple,Control,mean_mass,21.5022688353173,Mean individual wet mass (g),3
+a-k-01,2006,purple,Control,mean_mass,39.7216032831207,Mean individual wet mass (g),3
+a-k-01,2007,purple,Control,mean_mass,20.0538227980861,Mean individual wet mass (g),3
+a-k-01,2008,purple,Control,mean_mass,16.6022087147507,Mean individual wet mass (g),3
+a-k-01,2009,purple,Control,mean_mass,13.2929002381661,Mean individual wet mass (g),3
+a-k-01,2010,purple,Control,mean_mass,33.2962389918582,Mean individual wet mass (g),3
+a-k-01,2011,purple,Control,mean_mass,22.2835187517678,Mean individual wet mass (g),3
+a-k-01,2012,purple,Control,mean_mass,25.6283001010211,Mean individual wet mass (g),3
+a-k-01,2013,purple,Control,mean_mass,16.1173731641242,Mean individual wet mass (g),3
+a-k-01,2014,purple,Control,mean_mass,13.3010715412839,Mean individual wet mass (g),3
+a-k-01,2015,purple,Control,mean_mass,14.5029324517017,Mean individual wet mass (g),3
+a-k-01,2016,purple,Control,mean_mass,17.0643736759113,Mean individual wet mass (g),3
+a-k-01,2017,purple,Control,mean_mass,25.2919338190809,Mean individual wet mass (g),3
+a-k-01,2018,purple,Control,mean_mass,25.067354557901,Mean individual wet mass (g),3
+a-k-01,2019,purple,Control,mean_mass,21.8060359994929,Mean individual wet mass (g),3
+a-k-01,2021,purple,Control,mean_mass,14.8158517622652,Mean individual wet mass (g),4
+a-k-01,2022,purple,Control,mean_mass,12.1137392366356,Mean individual wet mass (g),4
+a-k-01,1991,purple,Control,biomass,2.54570433522562,Wet biomass (g / m2),1
+a-k-01,1992,purple,Control,biomass,0,Wet biomass (g / m2),1
+a-k-01,1994,purple,Control,biomass,6.7641638888656,Wet biomass (g / m2),2
+a-k-01,1995,purple,Control,biomass,9.6680259858309,Wet biomass (g / m2),2
+a-k-01,1996,purple,Control,biomass,0,Wet biomass (g / m2),2
+a-k-01,1997,purple,Control,biomass,7.69527545725724,Wet biomass (g / m2),2
+a-k-01,1998,purple,Control,biomass,13.6922508905053,Wet biomass (g / m2),2
+a-k-01,1999,purple,Control,biomass,49.2514006930676,Wet biomass (g / m2),2
+a-k-01,2000,purple,Control,biomass,81.6159060407258,Wet biomass (g / m2),2
+a-k-01,2001,purple,Control,biomass,151.559411582283,Wet biomass (g / m2),2
+a-k-01,2002,purple,Control,biomass,40.6665085940102,Wet biomass (g / m2),2
+a-k-01,2004,purple,Control,biomass,32.1924986800421,Wet biomass (g / m2),3
+a-k-01,2005,purple,Control,biomass,0,Wet biomass (g / m2),3
+a-k-01,2006,purple,Control,biomass,1.65506680346336,Wet biomass (g / m2),3
+a-k-01,2007,purple,Control,biomass,10.8624873489633,Wet biomass (g / m2),3
+a-k-01,2008,purple,Control,biomass,3.45879348223972,Wet biomass (g / m2),3
+a-k-01,2009,purple,Control,biomass,2.76935421628459,Wet biomass (g / m2),3
+a-k-01,2010,purple,Control,biomass,15.2607762046017,Wet biomass (g / m2),3
+a-k-01,2011,purple,Control,biomass,7.42783958392259,Wet biomass (g / m2),3
+a-k-01,2012,purple,Control,biomass,9.61061253788292,Wet biomass (g / m2),3
+a-k-01,2013,purple,Control,biomass,14.7742587337805,Wet biomass (g / m2),3
+a-k-01,2014,purple,Control,biomass,49.3248069655944,Wet biomass (g / m2),3
+a-k-01,2015,purple,Control,biomass,14.5029324517017,Wet biomass (g / m2),3
+a-k-01,2016,purple,Control,biomass,63.9914012846673,Wet biomass (g / m2),3
+a-k-01,2017,purple,Control,biomass,33.7225784254412,Wet biomass (g / m2),3
+a-k-01,2018,purple,Control,biomass,485.679994559332,Wet biomass (g / m2),3
+a-k-01,2019,purple,Control,biomass,436.120719989859,Wet biomass (g / m2),3
+a-k-01,2021,purple,Control,biomass,314.836849948136,Wet biomass (g / m2),4
+a-k-01,2022,purple,Control,biomass,348.774742188134,Wet biomass (g / m2),4
+a-k-01,1991,red,Control,density,0.6,Density (individuals / m2),1
+a-k-01,1992,red,Control,density,0.575,Density (individuals / m2),1
+a-k-01,1994,red,Control,density,0.45,Density (individuals / m2),2
+a-k-01,1995,red,Control,density,0.5,Density (individuals / m2),2
+a-k-01,1996,red,Control,density,0,Density (individuals / m2),2
+a-k-01,1997,red,Control,density,0.291666666666667,Density (individuals / m2),2
+a-k-01,1998,red,Control,density,1.54166666666667,Density (individuals / m2),2
+a-k-01,1999,red,Control,density,0.958333333333333,Density (individuals / m2),2
+a-k-01,2000,red,Control,density,1.875,Density (individuals / m2),2
+a-k-01,2001,red,Control,density,5.41666666666667,Density (individuals / m2),2
+a-k-01,2002,red,Control,density,6.125,Density (individuals / m2),2
+a-k-01,2004,red,Control,density,4.83333333333333,Density (individuals / m2),3
+a-k-01,2005,red,Control,density,0.333333333333333,Density (individuals / m2),3
+a-k-01,2006,red,Control,density,2.25,Density (individuals / m2),3
+a-k-01,2007,red,Control,density,0.208333333333333,Density (individuals / m2),3
+a-k-01,2008,red,Control,density,0.208333333333333,Density (individuals / m2),3
+a-k-01,2009,red,Control,density,0.416666666666667,Density (individuals / m2),3
+a-k-01,2010,red,Control,density,0.25,Density (individuals / m2),3
+a-k-01,2011,red,Control,density,1,Density (individuals / m2),3
+a-k-01,2012,red,Control,density,1.375,Density (individuals / m2),3
+a-k-01,2013,red,Control,density,2.04166666666667,Density (individuals / m2),3
+a-k-01,2014,red,Control,density,1.04166666666667,Density (individuals / m2),3
+a-k-01,2015,red,Control,density,0.333333333333333,Density (individuals / m2),3
+a-k-01,2016,red,Control,density,4.5,Density (individuals / m2),3
+a-k-01,2017,red,Control,density,0.583333333333333,Density (individuals / m2),3
+a-k-01,2018,red,Control,density,11.8333333333333,Density (individuals / m2),3
+a-k-01,2019,red,Control,density,5.5,Density (individuals / m2),3
+a-k-01,2021,red,Control,density,6.375,Density (individuals / m2),4
+a-k-01,2022,red,Control,density,8.83333333333333,Density (individuals / m2),4
+a-k-01,1991,red,Control,mean_mass,196.280049643105,Mean individual wet mass (g),1
+a-k-01,1992,red,Control,mean_mass,194.365259616851,Mean individual wet mass (g),1
+a-k-01,1994,red,Control,mean_mass,111.220188415224,Mean individual wet mass (g),2
+a-k-01,1995,red,Control,mean_mass,116.3940571145,Mean individual wet mass (g),2
+a-k-01,1996,red,Control,mean_mass,142.377135780837,Mean individual wet mass (g),2
+a-k-01,1997,red,Control,mean_mass,160.599692076184,Mean individual wet mass (g),2
+a-k-01,1998,red,Control,mean_mass,193.635761269601,Mean individual wet mass (g),2
+a-k-01,1999,red,Control,mean_mass,41.7978634091673,Mean individual wet mass (g),2
+a-k-01,2000,red,Control,mean_mass,70.9376747594981,Mean individual wet mass (g),2
+a-k-01,2001,red,Control,mean_mass,141.321114916814,Mean individual wet mass (g),2
+a-k-01,2002,red,Control,mean_mass,171.195520118641,Mean individual wet mass (g),2
+a-k-01,2004,red,Control,mean_mass,196.68712817174,Mean individual wet mass (g),3
+a-k-01,2005,red,Control,mean_mass,227.533088429573,Mean individual wet mass (g),3
+a-k-01,2006,red,Control,mean_mass,265.370880100984,Mean individual wet mass (g),3
+a-k-01,2007,red,Control,mean_mass,237.359546930815,Mean individual wet mass (g),3
+a-k-01,2008,red,Control,mean_mass,295.812617899171,Mean individual wet mass (g),3
+a-k-01,2009,red,Control,mean_mass,255.51033098683,Mean individual wet mass (g),3
+a-k-01,2010,red,Control,mean_mass,316.704188327547,Mean individual wet mass (g),3
+a-k-01,2011,red,Control,mean_mass,183.820769919777,Mean individual wet mass (g),3
+a-k-01,2012,red,Control,mean_mass,243.365233295332,Mean individual wet mass (g),3
+a-k-01,2013,red,Control,mean_mass,223.11115715896,Mean individual wet mass (g),3
+a-k-01,2014,red,Control,mean_mass,195.50286977734,Mean individual wet mass (g),3
+a-k-01,2015,red,Control,mean_mass,166.450853428073,Mean individual wet mass (g),3
+a-k-01,2016,red,Control,mean_mass,186.083946989826,Mean individual wet mass (g),3
+a-k-01,2017,red,Control,mean_mass,132.244240288921,Mean individual wet mass (g),3
+a-k-01,2018,red,Control,mean_mass,83.7338060728453,Mean individual wet mass (g),3
+a-k-01,2019,red,Control,mean_mass,82.5662780267295,Mean individual wet mass (g),3
+a-k-01,2021,red,Control,mean_mass,72.5474180870464,Mean individual wet mass (g),4
+a-k-01,2022,red,Control,mean_mass,63.813564323784,Mean individual wet mass (g),4
+a-k-01,1991,red,Control,biomass,117.768029785863,Wet biomass (g / m2),1
+a-k-01,1992,red,Control,biomass,111.760024279689,Wet biomass (g / m2),1
+a-k-01,1994,red,Control,biomass,50.0490847868507,Wet biomass (g / m2),2
+a-k-01,1995,red,Control,biomass,58.1970285572498,Wet biomass (g / m2),2
+a-k-01,1996,red,Control,biomass,0,Wet biomass (g / m2),2
+a-k-01,1997,red,Control,biomass,46.8415768555537,Wet biomass (g / m2),2
+a-k-01,1998,red,Control,biomass,298.521798623969,Wet biomass (g / m2),2
+a-k-01,1999,red,Control,biomass,40.0562857671187,Wet biomass (g / m2),2
+a-k-01,2000,red,Control,biomass,133.008140174059,Wet biomass (g / m2),2
+a-k-01,2001,red,Control,biomass,765.489372466073,Wet biomass (g / m2),2
+a-k-01,2002,red,Control,biomass,1048.57256072668,Wet biomass (g / m2),2
+a-k-01,2004,red,Control,biomass,950.654452830079,Wet biomass (g / m2),3
+a-k-01,2005,red,Control,biomass,75.8443628098576,Wet biomass (g / m2),3
+a-k-01,2006,red,Control,biomass,597.084480227214,Wet biomass (g / m2),3
+a-k-01,2007,red,Control,biomass,49.4499056105864,Wet biomass (g / m2),3
+a-k-01,2008,red,Control,biomass,61.6276287289939,Wet biomass (g / m2),3
+a-k-01,2009,red,Control,biomass,106.462637911179,Wet biomass (g / m2),3
+a-k-01,2010,red,Control,biomass,79.1760470818867,Wet biomass (g / m2),3
+a-k-01,2011,red,Control,biomass,183.820769919777,Wet biomass (g / m2),3
+a-k-01,2012,red,Control,biomass,334.627195781082,Wet biomass (g / m2),3
+a-k-01,2013,red,Control,biomass,455.518612532877,Wet biomass (g / m2),3
+a-k-01,2014,red,Control,biomass,203.648822684729,Wet biomass (g / m2),3
+a-k-01,2015,red,Control,biomass,55.4836178093578,Wet biomass (g / m2),3
+a-k-01,2016,red,Control,biomass,837.377761454219,Wet biomass (g / m2),3
+a-k-01,2017,red,Control,biomass,77.1424735018709,Wet biomass (g / m2),3
+a-k-01,2018,red,Control,biomass,990.850038528669,Wet biomass (g / m2),3
+a-k-01,2019,red,Control,biomass,454.114529147012,Wet biomass (g / m2),3
+a-k-01,2021,red,Control,biomass,462.489790304921,Wet biomass (g / m2),4
+a-k-01,2022,red,Control,biomass,563.686484860092,Wet biomass (g / m2),4
+a-k-02,1991,purple,Reserve,density,2.3,Density (individuals / m2),1
+a-k-02,1992,purple,Reserve,density,0.3,Density (individuals / m2),1
+a-k-02,1994,purple,Reserve,density,0.85,Density (individuals / m2),2
+a-k-02,1995,purple,Reserve,density,1.075,Density (individuals / m2),2
+a-k-02,1996,purple,Reserve,density,0.208333333333333,Density (individuals / m2),2
+a-k-02,1997,purple,Reserve,density,0.0416666666666667,Density (individuals / m2),2
+a-k-02,1998,purple,Reserve,density,3.33333333333333,Density (individuals / m2),2
+a-k-02,1999,purple,Reserve,density,5.5,Density (individuals / m2),2
+a-k-02,2000,purple,Reserve,density,30.2916666666667,Density (individuals / m2),2
+a-k-02,2001,purple,Reserve,density,10.0833333333333,Density (individuals / m2),2
+a-k-02,2002,purple,Reserve,density,4.54166666666667,Density (individuals / m2),2
+a-k-02,2004,purple,Reserve,density,5.375,Density (individuals / m2),3
+a-k-02,2005,purple,Reserve,density,0.5,Density (individuals / m2),3
+a-k-02,2006,purple,Reserve,density,0.458333333333333,Density (individuals / m2),3
+a-k-02,2007,purple,Reserve,density,1.33333333333333,Density (individuals / m2),3
+a-k-02,2008,purple,Reserve,density,0.541666666666667,Density (individuals / m2),3
+a-k-02,2009,purple,Reserve,density,0,Density (individuals / m2),3
+a-k-02,2010,purple,Reserve,density,0,Density (individuals / m2),3
+a-k-02,2011,purple,Reserve,density,0.208333333333333,Density (individuals / m2),3
+a-k-02,2012,purple,Reserve,density,0.625,Density (individuals / m2),3
+a-k-02,2013,purple,Reserve,density,1.25,Density (individuals / m2),3
+a-k-02,2014,purple,Reserve,density,20.875,Density (individuals / m2),3
+a-k-02,2015,purple,Reserve,density,34.4583333333333,Density (individuals / m2),3
+a-k-02,2016,purple,Reserve,density,60.125,Density (individuals / m2),3
+a-k-02,2017,purple,Reserve,density,93.625,Density (individuals / m2),3
+a-k-02,2018,purple,Reserve,density,139.666666666667,Density (individuals / m2),3
+a-k-02,2019,purple,Reserve,density,93.625,Density (individuals / m2),3
+a-k-02,2021,purple,Reserve,density,117.666666666667,Density (individuals / m2),4
+a-k-02,2022,purple,Reserve,density,89.875,Density (individuals / m2),4
+a-k-02,1991,purple,Reserve,mean_mass,11.5521118655098,Mean individual wet mass (g),1
+a-k-02,1992,purple,Reserve,mean_mass,6.4951402226278,Mean individual wet mass (g),1
+a-k-02,1994,purple,Reserve,mean_mass,15.5376830206005,Mean individual wet mass (g),2
+a-k-02,1995,purple,Reserve,mean_mass,9.61995497590253,Mean individual wet mass (g),2
+a-k-02,1996,purple,Reserve,mean_mass,4.97623466378132,Mean individual wet mass (g),2
+a-k-02,1997,purple,Reserve,mean_mass,10.922394695038,Mean individual wet mass (g),2
+a-k-02,1998,purple,Reserve,mean_mass,7.38126007535636,Mean individual wet mass (g),2
+a-k-02,1999,purple,Reserve,mean_mass,5.46546504913728,Mean individual wet mass (g),2
+a-k-02,2000,purple,Reserve,mean_mass,1.08149214289599,Mean individual wet mass (g),2
+a-k-02,2001,purple,Reserve,mean_mass,8.52340684428308,Mean individual wet mass (g),2
+a-k-02,2002,purple,Reserve,mean_mass,5.01980277978537,Mean individual wet mass (g),2
+a-k-02,2004,purple,Reserve,mean_mass,5.04781015546587,Mean individual wet mass (g),3
+a-k-02,2005,purple,Reserve,mean_mass,11.8199861485125,Mean individual wet mass (g),3
+a-k-02,2006,purple,Reserve,mean_mass,14.0798676357271,Mean individual wet mass (g),3
+a-k-02,2007,purple,Reserve,mean_mass,15.0022328036333,Mean individual wet mass (g),3
+a-k-02,2008,purple,Reserve,mean_mass,17.9973097552309,Mean individual wet mass (g),3
+a-k-02,2009,purple,Reserve,mean_mass,26.873318382077,Mean individual wet mass (g),3
+a-k-02,2010,purple,Reserve,mean_mass,15.6909776949747,Mean individual wet mass (g),3
+a-k-02,2011,purple,Reserve,mean_mass,9.85393901142905,Mean individual wet mass (g),3
+a-k-02,2012,purple,Reserve,mean_mass,9.27739348959139,Mean individual wet mass (g),3
+a-k-02,2013,purple,Reserve,mean_mass,3.68336377170884,Mean individual wet mass (g),3
+a-k-02,2014,purple,Reserve,mean_mass,3.73459494709285,Mean individual wet mass (g),3
+a-k-02,2015,purple,Reserve,mean_mass,5.81837543065832,Mean individual wet mass (g),3
+a-k-02,2016,purple,Reserve,mean_mass,6.33058660860457,Mean individual wet mass (g),3
+a-k-02,2017,purple,Reserve,mean_mass,5.32970152559973,Mean individual wet mass (g),3
+a-k-02,2018,purple,Reserve,mean_mass,3.29878880169942,Mean individual wet mass (g),3
+a-k-02,2019,purple,Reserve,mean_mass,4.00804728800086,Mean individual wet mass (g),3
+a-k-02,2021,purple,Reserve,mean_mass,4.89318099695746,Mean individual wet mass (g),4
+a-k-02,2022,purple,Reserve,mean_mass,3.5754225152895,Mean individual wet mass (g),4
+a-k-02,1991,purple,Reserve,biomass,26.5698572906725,Wet biomass (g / m2),1
+a-k-02,1992,purple,Reserve,biomass,1.94854206678834,Wet biomass (g / m2),1
+a-k-02,1994,purple,Reserve,biomass,13.2070305675104,Wet biomass (g / m2),2
+a-k-02,1995,purple,Reserve,biomass,10.3414515990952,Wet biomass (g / m2),2
+a-k-02,1996,purple,Reserve,biomass,1.03671555495444,Wet biomass (g / m2),2
+a-k-02,1997,purple,Reserve,biomass,0.455099778959917,Wet biomass (g / m2),2
+a-k-02,1998,purple,Reserve,biomass,24.6042002511879,Wet biomass (g / m2),2
+a-k-02,1999,purple,Reserve,biomass,30.060057770255,Wet biomass (g / m2),2
+a-k-02,2000,purple,Reserve,biomass,32.7601994952244,Wet biomass (g / m2),2
+a-k-02,2001,purple,Reserve,biomass,85.9443523465211,Wet biomass (g / m2),2
+a-k-02,2002,purple,Reserve,biomass,22.7982709581919,Wet biomass (g / m2),2
+a-k-02,2004,purple,Reserve,biomass,27.131979585629,Wet biomass (g / m2),3
+a-k-02,2005,purple,Reserve,biomass,5.90999307425624,Wet biomass (g / m2),3
+a-k-02,2006,purple,Reserve,biomass,6.45327266637493,Wet biomass (g / m2),3
+a-k-02,2007,purple,Reserve,biomass,20.0029770715111,Wet biomass (g / m2),3
+a-k-02,2008,purple,Reserve,biomass,9.74854278408341,Wet biomass (g / m2),3
+a-k-02,2009,purple,Reserve,biomass,0,Wet biomass (g / m2),3
+a-k-02,2010,purple,Reserve,biomass,0,Wet biomass (g / m2),3
+a-k-02,2011,purple,Reserve,biomass,2.05290396071439,Wet biomass (g / m2),3
+a-k-02,2012,purple,Reserve,biomass,5.79837093099462,Wet biomass (g / m2),3
+a-k-02,2013,purple,Reserve,biomass,4.60420471463605,Wet biomass (g / m2),3
+a-k-02,2014,purple,Reserve,biomass,77.9596695205633,Wet biomass (g / m2),3
+a-k-02,2015,purple,Reserve,biomass,200.491520048101,Wet biomass (g / m2),3
+a-k-02,2016,purple,Reserve,biomass,380.62651984235,Wet biomass (g / m2),3
+a-k-02,2017,purple,Reserve,biomass,498.993305334275,Wet biomass (g / m2),3
+a-k-02,2018,purple,Reserve,biomass,460.730835970685,Wet biomass (g / m2),3
+a-k-02,2019,purple,Reserve,biomass,375.25342733908,Wet biomass (g / m2),3
+a-k-02,2021,purple,Reserve,biomass,575.764297308661,Wet biomass (g / m2),4
+a-k-02,2022,purple,Reserve,biomass,321.341098561644,Wet biomass (g / m2),4
+a-k-02,1991,red,Reserve,density,11.2,Density (individuals / m2),1
+a-k-02,1992,red,Reserve,density,9.5,Density (individuals / m2),1
+a-k-02,1994,red,Reserve,density,9.25,Density (individuals / m2),2
+a-k-02,1995,red,Reserve,density,13.05,Density (individuals / m2),2
+a-k-02,1996,red,Reserve,density,10.0833333333333,Density (individuals / m2),2
+a-k-02,1997,red,Reserve,density,13.0833333333333,Density (individuals / m2),2
+a-k-02,1998,red,Reserve,density,11.7083333333333,Density (individuals / m2),2
+a-k-02,1999,red,Reserve,density,21.7916666666667,Density (individuals / m2),2
+a-k-02,2000,red,Reserve,density,14.75,Density (individuals / m2),2
+a-k-02,2001,red,Reserve,density,13.2083333333333,Density (individuals / m2),2
+a-k-02,2002,red,Reserve,density,13.0416666666667,Density (individuals / m2),2
+a-k-02,2004,red,Reserve,density,6.75,Density (individuals / m2),3
+a-k-02,2005,red,Reserve,density,7.45833333333333,Density (individuals / m2),3
+a-k-02,2006,red,Reserve,density,17.1666666666667,Density (individuals / m2),3
+a-k-02,2007,red,Reserve,density,10.25,Density (individuals / m2),3
+a-k-02,2008,red,Reserve,density,14.25,Density (individuals / m2),3
+a-k-02,2009,red,Reserve,density,11.3333333333333,Density (individuals / m2),3
+a-k-02,2010,red,Reserve,density,8.29166666666667,Density (individuals / m2),3
+a-k-02,2011,red,Reserve,density,15.4583333333333,Density (individuals / m2),3
+a-k-02,2012,red,Reserve,density,13.25,Density (individuals / m2),3
+a-k-02,2013,red,Reserve,density,15.8333333333333,Density (individuals / m2),3
+a-k-02,2014,red,Reserve,density,18.625,Density (individuals / m2),3
+a-k-02,2015,red,Reserve,density,18.75,Density (individuals / m2),3
+a-k-02,2016,red,Reserve,density,12.75,Density (individuals / m2),3
+a-k-02,2017,red,Reserve,density,12.2083333333333,Density (individuals / m2),3
+a-k-02,2018,red,Reserve,density,11.1666666666667,Density (individuals / m2),3
+a-k-02,2019,red,Reserve,density,11.1666666666667,Density (individuals / m2),3
+a-k-02,2021,red,Reserve,density,9.625,Density (individuals / m2),4
+a-k-02,2022,red,Reserve,density,13.125,Density (individuals / m2),4
+a-k-02,1991,red,Reserve,mean_mass,95.4912470797772,Mean individual wet mass (g),1
+a-k-02,1992,red,Reserve,mean_mass,94.8059860657311,Mean individual wet mass (g),1
+a-k-02,1994,red,Reserve,mean_mass,114.708598402689,Mean individual wet mass (g),2
+a-k-02,1995,red,Reserve,mean_mass,55.478227062641,Mean individual wet mass (g),2
+a-k-02,1996,red,Reserve,mean_mass,55.7486980583608,Mean individual wet mass (g),2
+a-k-02,1997,red,Reserve,mean_mass,53.8049119884601,Mean individual wet mass (g),2
+a-k-02,1998,red,Reserve,mean_mass,61.7753450982368,Mean individual wet mass (g),2
+a-k-02,1999,red,Reserve,mean_mass,44.7653579955581,Mean individual wet mass (g),2
+a-k-02,2000,red,Reserve,mean_mass,42.7192859968475,Mean individual wet mass (g),2
+a-k-02,2001,red,Reserve,mean_mass,64.9543551404047,Mean individual wet mass (g),2
+a-k-02,2002,red,Reserve,mean_mass,63.6038249434362,Mean individual wet mass (g),2
+a-k-02,2004,red,Reserve,mean_mass,76.0340030023869,Mean individual wet mass (g),3
+a-k-02,2005,red,Reserve,mean_mass,114.866848295553,Mean individual wet mass (g),3
+a-k-02,2006,red,Reserve,mean_mass,169.626732897063,Mean individual wet mass (g),3
+a-k-02,2007,red,Reserve,mean_mass,121.510718810958,Mean individual wet mass (g),3
+a-k-02,2008,red,Reserve,mean_mass,177.216865101364,Mean individual wet mass (g),3
+a-k-02,2009,red,Reserve,mean_mass,175.265680800639,Mean individual wet mass (g),3
+a-k-02,2010,red,Reserve,mean_mass,170.466184240515,Mean individual wet mass (g),3
+a-k-02,2011,red,Reserve,mean_mass,104.684514571794,Mean individual wet mass (g),3
+a-k-02,2012,red,Reserve,mean_mass,124.473040810113,Mean individual wet mass (g),3
+a-k-02,2013,red,Reserve,mean_mass,96.3323145616467,Mean individual wet mass (g),3
+a-k-02,2014,red,Reserve,mean_mass,103.829332298309,Mean individual wet mass (g),3
+a-k-02,2015,red,Reserve,mean_mass,105.540439330596,Mean individual wet mass (g),3
+a-k-02,2016,red,Reserve,mean_mass,57.6368025974843,Mean individual wet mass (g),3
+a-k-02,2017,red,Reserve,mean_mass,35.2678673357036,Mean individual wet mass (g),3
+a-k-02,2018,red,Reserve,mean_mass,29.4711058075675,Mean individual wet mass (g),3
+a-k-02,2019,red,Reserve,mean_mass,46.9742183955879,Mean individual wet mass (g),3
+a-k-02,2021,red,Reserve,mean_mass,23.0245135380261,Mean individual wet mass (g),4
+a-k-02,2022,red,Reserve,mean_mass,13.3110576369787,Mean individual wet mass (g),4
+a-k-02,1991,red,Reserve,biomass,1069.5019672935,Wet biomass (g / m2),1
+a-k-02,1992,red,Reserve,biomass,900.656867624445,Wet biomass (g / m2),1
+a-k-02,1994,red,Reserve,biomass,1061.05453522487,Wet biomass (g / m2),2
+a-k-02,1995,red,Reserve,biomass,723.990863167465,Wet biomass (g / m2),2
+a-k-02,1996,red,Reserve,biomass,562.132705421804,Wet biomass (g / m2),2
+a-k-02,1997,red,Reserve,biomass,703.947598515686,Wet biomass (g / m2),2
+a-k-02,1998,red,Reserve,biomass,723.286332191856,Wet biomass (g / m2),2
+a-k-02,1999,red,Reserve,biomass,975.511759653203,Wet biomass (g / m2),2
+a-k-02,2000,red,Reserve,biomass,630.109468453501,Wet biomass (g / m2),2
+a-k-02,2001,red,Reserve,biomass,857.938774146179,Wet biomass (g / m2),2
+a-k-02,2002,red,Reserve,biomass,829.499883637314,Wet biomass (g / m2),2
+a-k-02,2004,red,Reserve,biomass,513.229520266111,Wet biomass (g / m2),3
+a-k-02,2005,red,Reserve,biomass,856.715243537669,Wet biomass (g / m2),3
+a-k-02,2006,red,Reserve,biomass,2911.92558139958,Wet biomass (g / m2),3
+a-k-02,2007,red,Reserve,biomass,1245.48486781232,Wet biomass (g / m2),3
+a-k-02,2008,red,Reserve,biomass,2525.34032769444,Wet biomass (g / m2),3
+a-k-02,2009,red,Reserve,biomass,1986.34438240724,Wet biomass (g / m2),3
+a-k-02,2010,red,Reserve,biomass,1413.44877766094,Wet biomass (g / m2),3
+a-k-02,2011,red,Reserve,biomass,1618.24812108899,Wet biomass (g / m2),3
+a-k-02,2012,red,Reserve,biomass,1649.26779073399,Wet biomass (g / m2),3
+a-k-02,2013,red,Reserve,biomass,1525.26164722607,Wet biomass (g / m2),3
+a-k-02,2014,red,Reserve,biomass,1933.821314056,Wet biomass (g / m2),3
+a-k-02,2015,red,Reserve,biomass,1978.88323744868,Wet biomass (g / m2),3
+a-k-02,2016,red,Reserve,biomass,734.869233117925,Wet biomass (g / m2),3
+a-k-02,2017,red,Reserve,biomass,430.561880390048,Wet biomass (g / m2),3
+a-k-02,2018,red,Reserve,biomass,329.09401485117,Wet biomass (g / m2),3
+a-k-02,2019,red,Reserve,biomass,524.545438750732,Wet biomass (g / m2),3
+a-k-02,2021,red,Reserve,biomass,221.610942803501,Wet biomass (g / m2),4
+a-k-02,2022,red,Reserve,biomass,174.707631485345,Wet biomass (g / m2),4
+a-k-03,1991,purple,Control,density,0.25,Density (individuals / m2),1
+a-k-03,1992,purple,Control,density,0.175,Density (individuals / m2),1
+a-k-03,1994,purple,Control,density,0.45,Density (individuals / m2),2
+a-k-03,1995,purple,Control,density,0.35,Density (individuals / m2),2
+a-k-03,1996,purple,Control,density,0.0416666666666667,Density (individuals / m2),2
+a-k-03,1997,purple,Control,density,0.291666666666667,Density (individuals / m2),2
+a-k-03,1998,purple,Control,density,24.125,Density (individuals / m2),2
+a-k-03,1999,purple,Control,density,30.2083333333333,Density (individuals / m2),2
+a-k-03,2000,purple,Control,density,82.9583333333333,Density (individuals / m2),2
+a-k-03,2001,purple,Control,density,3.45833333333333,Density (individuals / m2),2
+a-k-03,2002,purple,Control,density,0,Density (individuals / m2),2
+a-k-03,2004,purple,Control,density,0.791666666666667,Density (individuals / m2),3
+a-k-03,2005,purple,Control,density,0,Density (individuals / m2),3
+a-k-03,2006,purple,Control,density,0.666666666666667,Density (individuals / m2),3
+a-k-03,2007,purple,Control,density,0.0833333333333333,Density (individuals / m2),3
+a-k-03,2008,purple,Control,density,0.0416666666666667,Density (individuals / m2),3
+a-k-03,2009,purple,Control,density,0.333333333333333,Density (individuals / m2),3
+a-k-03,2010,purple,Control,density,1.16666666666667,Density (individuals / m2),3
+a-k-03,2011,purple,Control,density,0.25,Density (individuals / m2),3
+a-k-03,2012,purple,Control,density,0.333333333333333,Density (individuals / m2),3
+a-k-03,2013,purple,Control,density,0.125,Density (individuals / m2),3
+a-k-03,2014,purple,Control,density,24.9583333333333,Density (individuals / m2),3
+a-k-03,2015,purple,Control,density,64.7083333333333,Density (individuals / m2),3
+a-k-03,2016,purple,Control,density,49.375,Density (individuals / m2),3
+a-k-03,2017,purple,Control,density,58.0416666666667,Density (individuals / m2),3
+a-k-03,2018,purple,Control,density,133.083333333333,Density (individuals / m2),3
+a-k-03,2019,purple,Control,density,79.875,Density (individuals / m2),3
+a-k-03,2021,purple,Control,density,77.0833333333334,Density (individuals / m2),4
+a-k-03,2022,purple,Control,density,68.7916666666667,Density (individuals / m2),4
+a-k-03,1991,purple,Control,mean_mass,35.0678169862676,Mean individual wet mass (g),1
+a-k-03,1992,purple,Control,mean_mass,23.358511589768,Mean individual wet mass (g),1
+a-k-03,1994,purple,Control,mean_mass,27.3515459759096,Mean individual wet mass (g),2
+a-k-03,1995,purple,Control,mean_mass,21.8701828604605,Mean individual wet mass (g),2
+a-k-03,1996,purple,Control,mean_mass,22.1309494180631,Mean individual wet mass (g),2
+a-k-03,1997,purple,Control,mean_mass,25.6222228376895,Mean individual wet mass (g),2
+a-k-03,1998,purple,Control,mean_mass,12.346136545431,Mean individual wet mass (g),2
+a-k-03,1999,purple,Control,mean_mass,22.8561005767071,Mean individual wet mass (g),2
+a-k-03,2000,purple,Control,mean_mass,12.2720041019174,Mean individual wet mass (g),2
+a-k-03,2001,purple,Control,mean_mass,23.384659552074,Mean individual wet mass (g),2
+a-k-03,2002,purple,Control,mean_mass,18.9144399757083,Mean individual wet mass (g),2
+a-k-03,2004,purple,Control,mean_mass,12.9105724399451,Mean individual wet mass (g),3
+a-k-03,2005,purple,Control,mean_mass,27.3235368336875,Mean individual wet mass (g),3
+a-k-03,2006,purple,Control,mean_mass,19.3251698032438,Mean individual wet mass (g),3
+a-k-03,2007,purple,Control,mean_mass,11.3345296684063,Mean individual wet mass (g),3
+a-k-03,2008,purple,Control,mean_mass,9.85669195771781,Mean individual wet mass (g),3
+a-k-03,2009,purple,Control,mean_mass,18.5170930183507,Mean individual wet mass (g),3
+a-k-03,2010,purple,Control,mean_mass,13.3441153916408,Mean individual wet mass (g),3
+a-k-03,2011,purple,Control,mean_mass,23.2680024266731,Mean individual wet mass (g),3
+a-k-03,2012,purple,Control,mean_mass,25.6060488835517,Mean individual wet mass (g),3
+a-k-03,2013,purple,Control,mean_mass,16.683345371067,Mean individual wet mass (g),3
+a-k-03,2014,purple,Control,mean_mass,14.2664487281219,Mean individual wet mass (g),3
+a-k-03,2015,purple,Control,mean_mass,21.5462745753397,Mean individual wet mass (g),3
+a-k-03,2016,purple,Control,mean_mass,18.7406974712557,Mean individual wet mass (g),3
+a-k-03,2017,purple,Control,mean_mass,9.17951758076585,Mean individual wet mass (g),3
+a-k-03,2018,purple,Control,mean_mass,5.04434176317163,Mean individual wet mass (g),3
+a-k-03,2019,purple,Control,mean_mass,5.7484649026222,Mean individual wet mass (g),3
+a-k-03,2021,purple,Control,mean_mass,8.84985195942392,Mean individual wet mass (g),4
+a-k-03,2022,purple,Control,mean_mass,9.54183549518078,Mean individual wet mass (g),4
+a-k-03,1991,purple,Control,biomass,8.76695424656689,Wet biomass (g / m2),1
+a-k-03,1992,purple,Control,biomass,4.08773952820939,Wet biomass (g / m2),1
+a-k-03,1994,purple,Control,biomass,12.3081956891593,Wet biomass (g / m2),2
+a-k-03,1995,purple,Control,biomass,7.65456400116119,Wet biomass (g / m2),2
+a-k-03,1996,purple,Control,biomass,0.922122892419296,Wet biomass (g / m2),2
+a-k-03,1997,purple,Control,biomass,7.47314832765945,Wet biomass (g / m2),2
+a-k-03,1998,purple,Control,biomass,297.850544158523,Wet biomass (g / m2),2
+a-k-03,1999,purple,Control,biomass,690.444704921362,Wet biomass (g / m2),2
+a-k-03,2000,purple,Control,biomass,1018.06500695489,Wet biomass (g / m2),2
+a-k-03,2001,purple,Control,biomass,80.8719476175894,Wet biomass (g / m2),2
+a-k-03,2002,purple,Control,biomass,0,Wet biomass (g / m2),2
+a-k-03,2004,purple,Control,biomass,10.2208698482898,Wet biomass (g / m2),3
+a-k-03,2005,purple,Control,biomass,0,Wet biomass (g / m2),3
+a-k-03,2006,purple,Control,biomass,12.8834465354958,Wet biomass (g / m2),3
+a-k-03,2007,purple,Control,biomass,0.944544139033861,Wet biomass (g / m2),3
+a-k-03,2008,purple,Control,biomass,0.410695498238242,Wet biomass (g / m2),3
+a-k-03,2009,purple,Control,biomass,6.17236433945023,Wet biomass (g / m2),3
+a-k-03,2010,purple,Control,biomass,15.5681346235809,Wet biomass (g / m2),3
+a-k-03,2011,purple,Control,biomass,5.81700060666827,Wet biomass (g / m2),3
+a-k-03,2012,purple,Control,biomass,8.53534962785058,Wet biomass (g / m2),3
+a-k-03,2013,purple,Control,biomass,2.08541817138338,Wet biomass (g / m2),3
+a-k-03,2014,purple,Control,biomass,356.066782839376,Wet biomass (g / m2),3
+a-k-03,2015,purple,Control,biomass,1394.22351731261,Wet biomass (g / m2),3
+a-k-03,2016,purple,Control,biomass,925.321937643252,Wet biomass (g / m2),3
+a-k-03,2017,purple,Control,biomass,532.794499583618,Wet biomass (g / m2),3
+a-k-03,2018,purple,Control,biomass,671.317816315424,Wet biomass (g / m2),3
+a-k-03,2019,purple,Control,biomass,459.158634096949,Wet biomass (g / m2),3
+a-k-03,2021,purple,Control,biomass,682.176088538927,Wet biomass (g / m2),4
+a-k-03,2022,purple,Control,biomass,656.398766772645,Wet biomass (g / m2),4
+a-k-03,1991,red,Control,density,0.45,Density (individuals / m2),1
+a-k-03,1992,red,Control,density,0.2,Density (individuals / m2),1
+a-k-03,1994,red,Control,density,0.275,Density (individuals / m2),2
+a-k-03,1995,red,Control,density,0.15,Density (individuals / m2),2
+a-k-03,1996,red,Control,density,0.416666666666667,Density (individuals / m2),2
+a-k-03,1997,red,Control,density,0.416666666666667,Density (individuals / m2),2
+a-k-03,1998,red,Control,density,0.791666666666667,Density (individuals / m2),2
+a-k-03,1999,red,Control,density,1.41666666666667,Density (individuals / m2),2
+a-k-03,2000,red,Control,density,5.375,Density (individuals / m2),2
+a-k-03,2001,red,Control,density,4.08333333333333,Density (individuals / m2),2
+a-k-03,2002,red,Control,density,1.54166666666667,Density (individuals / m2),2
+a-k-03,2004,red,Control,density,1.33333333333333,Density (individuals / m2),3
+a-k-03,2005,red,Control,density,0.625,Density (individuals / m2),3
+a-k-03,2006,red,Control,density,1.83333333333333,Density (individuals / m2),3
+a-k-03,2007,red,Control,density,0.958333333333333,Density (individuals / m2),3
+a-k-03,2008,red,Control,density,0.125,Density (individuals / m2),3
+a-k-03,2009,red,Control,density,0.25,Density (individuals / m2),3
+a-k-03,2010,red,Control,density,2.45833333333333,Density (individuals / m2),3
+a-k-03,2011,red,Control,density,0.583333333333333,Density (individuals / m2),3
+a-k-03,2012,red,Control,density,0.333333333333333,Density (individuals / m2),3
+a-k-03,2013,red,Control,density,0.25,Density (individuals / m2),3
+a-k-03,2014,red,Control,density,1.83333333333333,Density (individuals / m2),3
+a-k-03,2015,red,Control,density,4.375,Density (individuals / m2),3
+a-k-03,2016,red,Control,density,2.70833333333333,Density (individuals / m2),3
+a-k-03,2017,red,Control,density,3.04166666666667,Density (individuals / m2),3
+a-k-03,2018,red,Control,density,3.75,Density (individuals / m2),3
+a-k-03,2019,red,Control,density,3.33333333333333,Density (individuals / m2),3
+a-k-03,2021,red,Control,density,3,Density (individuals / m2),4
+a-k-03,2022,red,Control,density,2.70833333333333,Density (individuals / m2),4
+a-k-03,1991,red,Control,mean_mass,298.86400023531,Mean individual wet mass (g),1
+a-k-03,1992,red,Control,mean_mass,216.381960645274,Mean individual wet mass (g),1
+a-k-03,1994,red,Control,mean_mass,271.475737215407,Mean individual wet mass (g),2
+a-k-03,1995,red,Control,mean_mass,223.574098627784,Mean individual wet mass (g),2
+a-k-03,1996,red,Control,mean_mass,188.276490904852,Mean individual wet mass (g),2
+a-k-03,1997,red,Control,mean_mass,206.679974171095,Mean individual wet mass (g),2
+a-k-03,1998,red,Control,mean_mass,109.400132923056,Mean individual wet mass (g),2
+a-k-03,1999,red,Control,mean_mass,98.0364258833882,Mean individual wet mass (g),2
+a-k-03,2000,red,Control,mean_mass,101.942456281222,Mean individual wet mass (g),2
+a-k-03,2001,red,Control,mean_mass,131.639188399885,Mean individual wet mass (g),2
+a-k-03,2002,red,Control,mean_mass,142.877356887044,Mean individual wet mass (g),2
+a-k-03,2004,red,Control,mean_mass,250.638655355638,Mean individual wet mass (g),3
+a-k-03,2005,red,Control,mean_mass,217.128725732085,Mean individual wet mass (g),3
+a-k-03,2006,red,Control,mean_mass,176.494640065521,Mean individual wet mass (g),3
+a-k-03,2007,red,Control,mean_mass,243.205142135944,Mean individual wet mass (g),3
+a-k-03,2008,red,Control,mean_mass,218.390248731581,Mean individual wet mass (g),3
+a-k-03,2009,red,Control,mean_mass,188.411594368511,Mean individual wet mass (g),3
+a-k-03,2010,red,Control,mean_mass,181.650541182989,Mean individual wet mass (g),3
+a-k-03,2011,red,Control,mean_mass,243.001813005327,Mean individual wet mass (g),3
+a-k-03,2012,red,Control,mean_mass,155.062602246681,Mean individual wet mass (g),3
+a-k-03,2013,red,Control,mean_mass,177.717843778443,Mean individual wet mass (g),3
+a-k-03,2014,red,Control,mean_mass,137.136027840201,Mean individual wet mass (g),3
+a-k-03,2015,red,Control,mean_mass,105.269941799399,Mean individual wet mass (g),3
+a-k-03,2016,red,Control,mean_mass,97.1644742283519,Mean individual wet mass (g),3
+a-k-03,2017,red,Control,mean_mass,48.5249723244013,Mean individual wet mass (g),3
+a-k-03,2018,red,Control,mean_mass,58.7404676622929,Mean individual wet mass (g),3
+a-k-03,2019,red,Control,mean_mass,78.0999871224423,Mean individual wet mass (g),3
+a-k-03,2021,red,Control,mean_mass,81.7956445164229,Mean individual wet mass (g),4
+a-k-03,2022,red,Control,mean_mass,85.9738611312647,Mean individual wet mass (g),4
+a-k-03,1991,red,Control,biomass,134.488800105889,Wet biomass (g / m2),1
+a-k-03,1992,red,Control,biomass,43.2763921290548,Wet biomass (g / m2),1
+a-k-03,1994,red,Control,biomass,74.6558277342369,Wet biomass (g / m2),2
+a-k-03,1995,red,Control,biomass,33.5361147941676,Wet biomass (g / m2),2
+a-k-03,1996,red,Control,biomass,78.4485378770217,Wet biomass (g / m2),2
+a-k-03,1997,red,Control,biomass,86.1166559046231,Wet biomass (g / m2),2
+a-k-03,1998,red,Control,biomass,86.6084385640862,Wet biomass (g / m2),2
+a-k-03,1999,red,Control,biomass,138.884936668133,Wet biomass (g / m2),2
+a-k-03,2000,red,Control,biomass,547.940702511569,Wet biomass (g / m2),2
+a-k-03,2001,red,Control,biomass,537.526685966195,Wet biomass (g / m2),2
+a-k-03,2002,red,Control,biomass,220.269258534193,Wet biomass (g / m2),2
+a-k-03,2004,red,Control,biomass,334.184873807518,Wet biomass (g / m2),3
+a-k-03,2005,red,Control,biomass,135.705453582553,Wet biomass (g / m2),3
+a-k-03,2006,red,Control,biomass,323.573506786789,Wet biomass (g / m2),3
+a-k-03,2007,red,Control,biomass,233.071594546946,Wet biomass (g / m2),3
+a-k-03,2008,red,Control,biomass,27.2987810914476,Wet biomass (g / m2),3
+a-k-03,2009,red,Control,biomass,47.1028985921277,Wet biomass (g / m2),3
+a-k-03,2010,red,Control,biomass,446.557580408182,Wet biomass (g / m2),3
+a-k-03,2011,red,Control,biomass,141.751057586441,Wet biomass (g / m2),3
+a-k-03,2012,red,Control,biomass,51.6875340822269,Wet biomass (g / m2),3
+a-k-03,2013,red,Control,biomass,44.4294609446107,Wet biomass (g / m2),3
+a-k-03,2014,red,Control,biomass,251.416051040369,Wet biomass (g / m2),3
+a-k-03,2015,red,Control,biomass,460.555995372372,Wet biomass (g / m2),3
+a-k-03,2016,red,Control,biomass,263.153784368453,Wet biomass (g / m2),3
+a-k-03,2017,red,Control,biomass,147.596790820054,Wet biomass (g / m2),3
+a-k-03,2018,red,Control,biomass,220.276753733598,Wet biomass (g / m2),3
+a-k-03,2019,red,Control,biomass,260.333290408141,Wet biomass (g / m2),3
+a-k-03,2021,red,Control,biomass,245.386933549269,Wet biomass (g / m2),4
+a-k-03,2022,red,Control,biomass,232.845873897175,Wet biomass (g / m2),4
+a-k-04,1991,purple,Control,density,1.75,Density (individuals / m2),1
+a-k-04,1992,purple,Control,density,2.05,Density (individuals / m2),1
+a-k-04,1994,purple,Control,density,0.6,Density (individuals / m2),2
+a-k-04,1995,purple,Control,density,1.075,Density (individuals / m2),2
+a-k-04,1996,purple,Control,density,1.41666666666667,Density (individuals / m2),2
+a-k-04,1997,purple,Control,density,1.25,Density (individuals / m2),2
+a-k-04,1998,purple,Control,density,4.58333333333333,Density (individuals / m2),2
+a-k-04,1999,purple,Control,density,8.625,Density (individuals / m2),2
+a-k-04,2000,purple,Control,density,14.4583333333333,Density (individuals / m2),2
+a-k-04,2001,purple,Control,density,13.9166666666667,Density (individuals / m2),2
+a-k-04,2002,purple,Control,density,0.833333333333333,Density (individuals / m2),2
+a-k-04,2004,purple,Control,density,0.666666666666667,Density (individuals / m2),3
+a-k-04,2005,purple,Control,density,0.125,Density (individuals / m2),3
+a-k-04,2006,purple,Control,density,0.583333333333333,Density (individuals / m2),3
+a-k-04,2007,purple,Control,density,0.25,Density (individuals / m2),3
+a-k-04,2008,purple,Control,density,3.20833333333333,Density (individuals / m2),3
+a-k-04,2009,purple,Control,density,3.04166666666667,Density (individuals / m2),3
+a-k-04,2010,purple,Control,density,4.33333333333333,Density (individuals / m2),3
+a-k-04,2011,purple,Control,density,3.95833333333333,Density (individuals / m2),3
+a-k-04,2012,purple,Control,density,1.25,Density (individuals / m2),3
+a-k-04,2013,purple,Control,density,0.875,Density (individuals / m2),3
+a-k-04,2014,purple,Control,density,6.70833333333333,Density (individuals / m2),3
+a-k-04,2015,purple,Control,density,22.75,Density (individuals / m2),3
+a-k-04,2016,purple,Control,density,28.375,Density (individuals / m2),3
+a-k-04,2017,purple,Control,density,31.4583333333333,Density (individuals / m2),3
+a-k-04,2018,purple,Control,density,86.9166666666667,Density (individuals / m2),3
+a-k-04,2019,purple,Control,density,42.2083333333333,Density (individuals / m2),3
+a-k-04,2021,purple,Control,density,48.875,Density (individuals / m2),4
+a-k-04,2022,purple,Control,density,52.5416666666667,Density (individuals / m2),4
+a-k-04,1991,purple,Control,mean_mass,29.7569820315156,Mean individual wet mass (g),1
+a-k-04,1992,purple,Control,mean_mass,28.7052476605074,Mean individual wet mass (g),1
+a-k-04,1994,purple,Control,mean_mass,30.988459062639,Mean individual wet mass (g),2
+a-k-04,1995,purple,Control,mean_mass,20.67799560383,Mean individual wet mass (g),2
+a-k-04,1996,purple,Control,mean_mass,32.8847104693924,Mean individual wet mass (g),2
+a-k-04,1997,purple,Control,mean_mass,22.4075597369159,Mean individual wet mass (g),2
+a-k-04,1998,purple,Control,mean_mass,31.00443061694,Mean individual wet mass (g),2
+a-k-04,1999,purple,Control,mean_mass,21.4976443924876,Mean individual wet mass (g),2
+a-k-04,2000,purple,Control,mean_mass,12.6796058579132,Mean individual wet mass (g),2
+a-k-04,2001,purple,Control,mean_mass,27.6510197686121,Mean individual wet mass (g),2
+a-k-04,2002,purple,Control,mean_mass,24.9764600362704,Mean individual wet mass (g),2
+a-k-04,2004,purple,Control,mean_mass,13.95826600409,Mean individual wet mass (g),3
+a-k-04,2005,purple,Control,mean_mass,15.5929044942756,Mean individual wet mass (g),3
+a-k-04,2006,purple,Control,mean_mass,16.2873520042104,Mean individual wet mass (g),3
+a-k-04,2007,purple,Control,mean_mass,11.5131795782543,Mean individual wet mass (g),3
+a-k-04,2008,purple,Control,mean_mass,24.1003209854206,Mean individual wet mass (g),3
+a-k-04,2009,purple,Control,mean_mass,22.7800926228937,Mean individual wet mass (g),3
+a-k-04,2010,purple,Control,mean_mass,21.8948731794823,Mean individual wet mass (g),3
+a-k-04,2011,purple,Control,mean_mass,34.3319656916262,Mean individual wet mass (g),3
+a-k-04,2012,purple,Control,mean_mass,27.7422296249033,Mean individual wet mass (g),3
+a-k-04,2013,purple,Control,mean_mass,23.5064468095188,Mean individual wet mass (g),3
+a-k-04,2014,purple,Control,mean_mass,14.369297096599,Mean individual wet mass (g),3
+a-k-04,2015,purple,Control,mean_mass,17.0574335499556,Mean individual wet mass (g),3
+a-k-04,2016,purple,Control,mean_mass,17.3538449285799,Mean individual wet mass (g),3
+a-k-04,2017,purple,Control,mean_mass,5.86931345529928,Mean individual wet mass (g),3
+a-k-04,2018,purple,Control,mean_mass,4.17240960323246,Mean individual wet mass (g),3
+a-k-04,2019,purple,Control,mean_mass,4.43823139139146,Mean individual wet mass (g),3
+a-k-04,2021,purple,Control,mean_mass,4.30048979283672,Mean individual wet mass (g),4
+a-k-04,2022,purple,Control,mean_mass,4.73289517088053,Mean individual wet mass (g),4
+a-k-04,1991,purple,Control,biomass,52.0747185551523,Wet biomass (g / m2),1
+a-k-04,1992,purple,Control,biomass,58.8457577040402,Wet biomass (g / m2),1
+a-k-04,1994,purple,Control,biomass,18.5930754375834,Wet biomass (g / m2),2
+a-k-04,1995,purple,Control,biomass,22.2288452741173,Wet biomass (g / m2),2
+a-k-04,1996,purple,Control,biomass,46.5866731649726,Wet biomass (g / m2),2
+a-k-04,1997,purple,Control,biomass,28.0094496711449,Wet biomass (g / m2),2
+a-k-04,1998,purple,Control,biomass,142.103640327642,Wet biomass (g / m2),2
+a-k-04,1999,purple,Control,biomass,185.417182885206,Wet biomass (g / m2),2
+a-k-04,2000,purple,Control,biomass,183.325968028994,Wet biomass (g / m2),2
+a-k-04,2001,purple,Control,biomass,384.810025113185,Wet biomass (g / m2),2
+a-k-04,2002,purple,Control,biomass,20.813716696892,Wet biomass (g / m2),2
+a-k-04,2004,purple,Control,biomass,9.30551066939331,Wet biomass (g / m2),3
+a-k-04,2005,purple,Control,biomass,1.94911306178445,Wet biomass (g / m2),3
+a-k-04,2006,purple,Control,biomass,9.50095533578937,Wet biomass (g / m2),3
+a-k-04,2007,purple,Control,biomass,2.87829489456357,Wet biomass (g / m2),3
+a-k-04,2008,purple,Control,biomass,77.3218631615578,Wet biomass (g / m2),3
+a-k-04,2009,purple,Control,biomass,69.2894483946349,Wet biomass (g / m2),3
+a-k-04,2010,purple,Control,biomass,94.8777837777568,Wet biomass (g / m2),3
+a-k-04,2011,purple,Control,biomass,135.89736419602,Wet biomass (g / m2),3
+a-k-04,2012,purple,Control,biomass,34.6777870311291,Wet biomass (g / m2),3
+a-k-04,2013,purple,Control,biomass,20.5681409583289,Wet biomass (g / m2),3
+a-k-04,2014,purple,Control,biomass,96.3940346896852,Wet biomass (g / m2),3
+a-k-04,2015,purple,Control,biomass,388.056613261491,Wet biomass (g / m2),3
+a-k-04,2016,purple,Control,biomass,492.415349848454,Wet biomass (g / m2),3
+a-k-04,2017,purple,Control,biomass,184.638819114623,Wet biomass (g / m2),3
+a-k-04,2018,purple,Control,biomass,362.651934680955,Wet biomass (g / m2),3
+a-k-04,2019,purple,Control,biomass,187.330349978315,Wet biomass (g / m2),3
+a-k-04,2021,purple,Control,biomass,210.186438624895,Wet biomass (g / m2),4
+a-k-04,2022,purple,Control,biomass,248.674200436681,Wet biomass (g / m2),4
+a-k-04,1991,red,Control,density,0.475,Density (individuals / m2),1
+a-k-04,1992,red,Control,density,0.225,Density (individuals / m2),1
+a-k-04,1994,red,Control,density,0.2,Density (individuals / m2),2
+a-k-04,1995,red,Control,density,0.975,Density (individuals / m2),2
+a-k-04,1996,red,Control,density,0.75,Density (individuals / m2),2
+a-k-04,1997,red,Control,density,0,Density (individuals / m2),2
+a-k-04,1998,red,Control,density,2.58333333333333,Density (individuals / m2),2
+a-k-04,1999,red,Control,density,2.04166666666667,Density (individuals / m2),2
+a-k-04,2000,red,Control,density,1.54166666666667,Density (individuals / m2),2
+a-k-04,2001,red,Control,density,6.33333333333333,Density (individuals / m2),2
+a-k-04,2002,red,Control,density,1.70833333333333,Density (individuals / m2),2
+a-k-04,2004,red,Control,density,0.583333333333333,Density (individuals / m2),3
+a-k-04,2005,red,Control,density,0,Density (individuals / m2),3
+a-k-04,2006,red,Control,density,0.583333333333333,Density (individuals / m2),3
+a-k-04,2007,red,Control,density,0.583333333333334,Density (individuals / m2),3
+a-k-04,2008,red,Control,density,1.41666666666667,Density (individuals / m2),3
+a-k-04,2009,red,Control,density,0.333333333333333,Density (individuals / m2),3
+a-k-04,2010,red,Control,density,0.625,Density (individuals / m2),3
+a-k-04,2011,red,Control,density,0.916666666666667,Density (individuals / m2),3
+a-k-04,2012,red,Control,density,1.375,Density (individuals / m2),3
+a-k-04,2013,red,Control,density,3.41666666666667,Density (individuals / m2),3
+a-k-04,2014,red,Control,density,0.958333333333333,Density (individuals / m2),3
+a-k-04,2015,red,Control,density,5.54166666666667,Density (individuals / m2),3
+a-k-04,2016,red,Control,density,25.0416666666667,Density (individuals / m2),3
+a-k-04,2017,red,Control,density,3.04166666666667,Density (individuals / m2),3
+a-k-04,2018,red,Control,density,4.58333333333333,Density (individuals / m2),3
+a-k-04,2019,red,Control,density,1.33333333333333,Density (individuals / m2),3
+a-k-04,2021,red,Control,density,4.875,Density (individuals / m2),4
+a-k-04,2022,red,Control,density,6.29166666666667,Density (individuals / m2),4
+a-k-04,1991,red,Control,mean_mass,249.541267072686,Mean individual wet mass (g),1
+a-k-04,1992,red,Control,mean_mass,167.306316796587,Mean individual wet mass (g),1
+a-k-04,1994,red,Control,mean_mass,239.842443808457,Mean individual wet mass (g),2
+a-k-04,1995,red,Control,mean_mass,119.679186469277,Mean individual wet mass (g),2
+a-k-04,1996,red,Control,mean_mass,194.156439191665,Mean individual wet mass (g),2
+a-k-04,1997,red,Control,mean_mass,160.202362151671,Mean individual wet mass (g),2
+a-k-04,1998,red,Control,mean_mass,162.535078838523,Mean individual wet mass (g),2
+a-k-04,1999,red,Control,mean_mass,97.6208830150138,Mean individual wet mass (g),2
+a-k-04,2000,red,Control,mean_mass,72.7453108155062,Mean individual wet mass (g),2
+a-k-04,2001,red,Control,mean_mass,108.743624114204,Mean individual wet mass (g),2
+a-k-04,2002,red,Control,mean_mass,133.557829730288,Mean individual wet mass (g),2
+a-k-04,2004,red,Control,mean_mass,170.793851005626,Mean individual wet mass (g),3
+a-k-04,2005,red,Control,mean_mass,160.084825767923,Mean individual wet mass (g),3
+a-k-04,2006,red,Control,mean_mass,169.489515185506,Mean individual wet mass (g),3
+a-k-04,2007,red,Control,mean_mass,122.907002746693,Mean individual wet mass (g),3
+a-k-04,2008,red,Control,mean_mass,160.50377412331,Mean individual wet mass (g),3
+a-k-04,2009,red,Control,mean_mass,153.049486336362,Mean individual wet mass (g),3
+a-k-04,2010,red,Control,mean_mass,129.567783508384,Mean individual wet mass (g),3
+a-k-04,2011,red,Control,mean_mass,116.864673656281,Mean individual wet mass (g),3
+a-k-04,2012,red,Control,mean_mass,157.547374255512,Mean individual wet mass (g),3
+a-k-04,2013,red,Control,mean_mass,154.593561761936,Mean individual wet mass (g),3
+a-k-04,2014,red,Control,mean_mass,138.793363278213,Mean individual wet mass (g),3
+a-k-04,2015,red,Control,mean_mass,74.0779191249072,Mean individual wet mass (g),3
+a-k-04,2016,red,Control,mean_mass,104.298955744428,Mean individual wet mass (g),3
+a-k-04,2017,red,Control,mean_mass,76.5942476346526,Mean individual wet mass (g),3
+a-k-04,2018,red,Control,mean_mass,42.9153811637363,Mean individual wet mass (g),3
+a-k-04,2019,red,Control,mean_mass,20.446432699135,Mean individual wet mass (g),3
+a-k-04,2021,red,Control,mean_mass,19.3658476515252,Mean individual wet mass (g),4
+a-k-04,2022,red,Control,mean_mass,22.661653566171,Mean individual wet mass (g),4
+a-k-04,1991,red,Control,biomass,118.532101859526,Wet biomass (g / m2),1
+a-k-04,1992,red,Control,biomass,37.6439212792321,Wet biomass (g / m2),1
+a-k-04,1994,red,Control,biomass,47.9684887616914,Wet biomass (g / m2),2
+a-k-04,1995,red,Control,biomass,116.687206807545,Wet biomass (g / m2),2
+a-k-04,1996,red,Control,biomass,145.617329393749,Wet biomass (g / m2),2
+a-k-04,1997,red,Control,biomass,0,Wet biomass (g / m2),2
+a-k-04,1998,red,Control,biomass,419.882286999517,Wet biomass (g / m2),2
+a-k-04,1999,red,Control,biomass,199.30930282232,Wet biomass (g / m2),2
+a-k-04,2000,red,Control,biomass,112.149020840572,Wet biomass (g / m2),2
+a-k-04,2001,red,Control,biomass,688.709619389958,Wet biomass (g / m2),2
+a-k-04,2002,red,Control,biomass,228.161292455908,Wet biomass (g / m2),2
+a-k-04,2004,red,Control,biomass,99.6297464199485,Wet biomass (g / m2),3
+a-k-04,2005,red,Control,biomass,0,Wet biomass (g / m2),3
+a-k-04,2006,red,Control,biomass,98.868883858212,Wet biomass (g / m2),3
+a-k-04,2007,red,Control,biomass,71.6957516022374,Wet biomass (g / m2),3
+a-k-04,2008,red,Control,biomass,227.380346674689,Wet biomass (g / m2),3
+a-k-04,2009,red,Control,biomass,51.0164954454539,Wet biomass (g / m2),3
+a-k-04,2010,red,Control,biomass,80.9798646927398,Wet biomass (g / m2),3
+a-k-04,2011,red,Control,biomass,107.12595085159,Wet biomass (g / m2),3
+a-k-04,2012,red,Control,biomass,216.62763960133,Wet biomass (g / m2),3
+a-k-04,2013,red,Control,biomass,528.194669353283,Wet biomass (g / m2),3
+a-k-04,2014,red,Control,biomass,133.010306474954,Wet biomass (g / m2),3
+a-k-04,2015,red,Control,biomass,410.515135150527,Wet biomass (g / m2),3
+a-k-04,2016,red,Control,biomass,2611.81968343339,Wet biomass (g / m2),3
+a-k-04,2017,red,Control,biomass,232.974169888735,Wet biomass (g / m2),3
+a-k-04,2018,red,Control,biomass,196.695497000458,Wet biomass (g / m2),3
+a-k-04,2019,red,Control,biomass,27.2619102655133,Wet biomass (g / m2),3
+a-k-04,2021,red,Control,biomass,94.4085073011856,Wet biomass (g / m2),4
+a-k-04,2022,red,Control,biomass,142.579570353826,Wet biomass (g / m2),4
+a-k-06,1991,purple,Reserve,density,16.575,Density (individuals / m2),1
+a-k-06,1992,purple,Reserve,density,12,Density (individuals / m2),1
+a-k-06,1994,purple,Reserve,density,13.95,Density (individuals / m2),2
+a-k-06,1995,purple,Reserve,density,30.85,Density (individuals / m2),2
+a-k-06,1996,purple,Reserve,density,27.9166666666667,Density (individuals / m2),2
+a-k-06,1997,purple,Reserve,density,29.625,Density (individuals / m2),2
+a-k-06,1998,purple,Reserve,density,30.75,Density (individuals / m2),2
+a-k-06,1999,purple,Reserve,density,51.4583333333333,Density (individuals / m2),2
+a-k-06,2000,purple,Reserve,density,82,Density (individuals / m2),2
+a-k-06,2001,purple,Reserve,density,31.4583333333333,Density (individuals / m2),2
+a-k-06,2002,purple,Reserve,density,1.33333333333333,Density (individuals / m2),2
+a-k-06,2004,purple,Reserve,density,0.0416666666666667,Density (individuals / m2),3
+a-k-06,2005,purple,Reserve,density,0.333333333333333,Density (individuals / m2),3
+a-k-06,2006,purple,Reserve,density,0.666666666666667,Density (individuals / m2),3
+a-k-06,2007,purple,Reserve,density,2.08333333333333,Density (individuals / m2),3
+a-k-06,2008,purple,Reserve,density,3.33333333333333,Density (individuals / m2),3
+a-k-06,2009,purple,Reserve,density,1.66666666666667,Density (individuals / m2),3
+a-k-06,2010,purple,Reserve,density,5.75,Density (individuals / m2),3
+a-k-06,2011,purple,Reserve,density,36.7916666666667,Density (individuals / m2),3
+a-k-06,2012,purple,Reserve,density,23.4166666666667,Density (individuals / m2),3
+a-k-06,2013,purple,Reserve,density,14.75,Density (individuals / m2),3
+a-k-06,2014,purple,Reserve,density,12.6666666666667,Density (individuals / m2),3
+a-k-06,2015,purple,Reserve,density,4.875,Density (individuals / m2),3
+a-k-06,2016,purple,Reserve,density,5.375,Density (individuals / m2),3
+a-k-06,2017,purple,Reserve,density,3.70833333333333,Density (individuals / m2),3
+a-k-06,2018,purple,Reserve,density,5.16666666666667,Density (individuals / m2),3
+a-k-06,2019,purple,Reserve,density,4.91666666666667,Density (individuals / m2),3
+a-k-06,2021,purple,Reserve,density,4.58333333333333,Density (individuals / m2),4
+a-k-06,2022,purple,Reserve,density,1.83333333333333,Density (individuals / m2),4
+a-k-06,1991,purple,Reserve,mean_mass,16.1778290550203,Mean individual wet mass (g),1
+a-k-06,1992,purple,Reserve,mean_mass,13.5550768753376,Mean individual wet mass (g),1
+a-k-06,1994,purple,Reserve,mean_mass,14.3202426192063,Mean individual wet mass (g),2
+a-k-06,1995,purple,Reserve,mean_mass,14.541173200114,Mean individual wet mass (g),2
+a-k-06,1996,purple,Reserve,mean_mass,12.9285606774639,Mean individual wet mass (g),2
+a-k-06,1997,purple,Reserve,mean_mass,16.775209818281,Mean individual wet mass (g),2
+a-k-06,1998,purple,Reserve,mean_mass,9.08224680689303,Mean individual wet mass (g),2
+a-k-06,1999,purple,Reserve,mean_mass,7.41183596380723,Mean individual wet mass (g),2
+a-k-06,2000,purple,Reserve,mean_mass,2.59062763448839,Mean individual wet mass (g),2
+a-k-06,2001,purple,Reserve,mean_mass,3.14968043751167,Mean individual wet mass (g),2
+a-k-06,2002,purple,Reserve,mean_mass,8.98884089401627,Mean individual wet mass (g),2
+a-k-06,2004,purple,Reserve,mean_mass,18.9628687911334,Mean individual wet mass (g),3
+a-k-06,2005,purple,Reserve,mean_mass,27.6907400781556,Mean individual wet mass (g),3
+a-k-06,2006,purple,Reserve,mean_mass,22.3140171298063,Mean individual wet mass (g),3
+a-k-06,2007,purple,Reserve,mean_mass,16.0731140929045,Mean individual wet mass (g),3
+a-k-06,2008,purple,Reserve,mean_mass,22.917032766547,Mean individual wet mass (g),3
+a-k-06,2009,purple,Reserve,mean_mass,15.9722267393226,Mean individual wet mass (g),3
+a-k-06,2010,purple,Reserve,mean_mass,17.1372657730719,Mean individual wet mass (g),3
+a-k-06,2011,purple,Reserve,mean_mass,12.4983106067552,Mean individual wet mass (g),3
+a-k-06,2012,purple,Reserve,mean_mass,14.116999191945,Mean individual wet mass (g),3
+a-k-06,2013,purple,Reserve,mean_mass,14.1252830880046,Mean individual wet mass (g),3
+a-k-06,2014,purple,Reserve,mean_mass,9.9322169392305,Mean individual wet mass (g),3
+a-k-06,2015,purple,Reserve,mean_mass,6.58348182199187,Mean individual wet mass (g),3
+a-k-06,2016,purple,Reserve,mean_mass,14.8463060693981,Mean individual wet mass (g),3
+a-k-06,2017,purple,Reserve,mean_mass,22.8744066314524,Mean individual wet mass (g),3
+a-k-06,2018,purple,Reserve,mean_mass,13.6851717033274,Mean individual wet mass (g),3
+a-k-06,2019,purple,Reserve,mean_mass,20.605935660548,Mean individual wet mass (g),3
+a-k-06,2021,purple,Reserve,mean_mass,19.6167817850269,Mean individual wet mass (g),4
+a-k-06,2022,purple,Reserve,mean_mass,19.4086213586444,Mean individual wet mass (g),4
+a-k-06,1991,purple,Reserve,biomass,268.147516586961,Wet biomass (g / m2),1
+a-k-06,1992,purple,Reserve,biomass,162.660922504051,Wet biomass (g / m2),1
+a-k-06,1994,purple,Reserve,biomass,199.767384537927,Wet biomass (g / m2),2
+a-k-06,1995,purple,Reserve,biomass,448.595193223518,Wet biomass (g / m2),2
+a-k-06,1996,purple,Reserve,biomass,360.922318912535,Wet biomass (g / m2),2
+a-k-06,1997,purple,Reserve,biomass,496.965590866574,Wet biomass (g / m2),2
+a-k-06,1998,purple,Reserve,biomass,279.279089311961,Wet biomass (g / m2),2
+a-k-06,1999,purple,Reserve,biomass,381.40072563758,Wet biomass (g / m2),2
+a-k-06,2000,purple,Reserve,biomass,212.431466028048,Wet biomass (g / m2),2
+a-k-06,2001,purple,Reserve,biomass,99.0836970967214,Wet biomass (g / m2),2
+a-k-06,2002,purple,Reserve,biomass,11.9851211920217,Wet biomass (g / m2),2
+a-k-06,2004,purple,Reserve,biomass,0.790119532963893,Wet biomass (g / m2),3
+a-k-06,2005,purple,Reserve,biomass,9.23024669271855,Wet biomass (g / m2),3
+a-k-06,2006,purple,Reserve,biomass,14.8760114198709,Wet biomass (g / m2),3
+a-k-06,2007,purple,Reserve,biomass,33.4856543602177,Wet biomass (g / m2),3
+a-k-06,2008,purple,Reserve,biomass,76.3901092218232,Wet biomass (g / m2),3
+a-k-06,2009,purple,Reserve,biomass,26.6203778988709,Wet biomass (g / m2),3
+a-k-06,2010,purple,Reserve,biomass,98.5392781951632,Wet biomass (g / m2),3
+a-k-06,2011,purple,Reserve,biomass,459.8336777402,Wet biomass (g / m2),3
+a-k-06,2012,purple,Reserve,biomass,330.573064411379,Wet biomass (g / m2),3
+a-k-06,2013,purple,Reserve,biomass,208.347925548067,Wet biomass (g / m2),3
+a-k-06,2014,purple,Reserve,biomass,125.808081230253,Wet biomass (g / m2),3
+a-k-06,2015,purple,Reserve,biomass,32.0944738822104,Wet biomass (g / m2),3
+a-k-06,2016,purple,Reserve,biomass,79.7988951230148,Wet biomass (g / m2),3
+a-k-06,2017,purple,Reserve,biomass,84.825924591636,Wet biomass (g / m2),3
+a-k-06,2018,purple,Reserve,biomass,70.7067204671918,Wet biomass (g / m2),3
+a-k-06,2019,purple,Reserve,biomass,101.312516997694,Wet biomass (g / m2),3
+a-k-06,2021,purple,Reserve,biomass,89.91024984804,Wet biomass (g / m2),4
+a-k-06,2022,purple,Reserve,biomass,35.5824724908481,Wet biomass (g / m2),4
+a-k-06,1991,red,Reserve,density,0.5,Density (individuals / m2),1
+a-k-06,1992,red,Reserve,density,1.6,Density (individuals / m2),1
+a-k-06,1994,red,Reserve,density,2.625,Density (individuals / m2),2
+a-k-06,1995,red,Reserve,density,6.25,Density (individuals / m2),2
+a-k-06,1996,red,Reserve,density,5.66666666666667,Density (individuals / m2),2
+a-k-06,1997,red,Reserve,density,6.41666666666667,Density (individuals / m2),2
+a-k-06,1998,red,Reserve,density,5.54166666666667,Density (individuals / m2),2
+a-k-06,1999,red,Reserve,density,13.75,Density (individuals / m2),2
+a-k-06,2000,red,Reserve,density,10.1666666666667,Density (individuals / m2),2
+a-k-06,2001,red,Reserve,density,7.79166666666667,Density (individuals / m2),2
+a-k-06,2002,red,Reserve,density,0.5,Density (individuals / m2),2
+a-k-06,2004,red,Reserve,density,0.125,Density (individuals / m2),3
+a-k-06,2005,red,Reserve,density,0.375,Density (individuals / m2),3
+a-k-06,2006,red,Reserve,density,0.583333333333333,Density (individuals / m2),3
+a-k-06,2007,red,Reserve,density,1.33333333333333,Density (individuals / m2),3
+a-k-06,2008,red,Reserve,density,1.70833333333333,Density (individuals / m2),3
+a-k-06,2009,red,Reserve,density,0.875,Density (individuals / m2),3
+a-k-06,2010,red,Reserve,density,1.25,Density (individuals / m2),3
+a-k-06,2011,red,Reserve,density,6.25,Density (individuals / m2),3
+a-k-06,2012,red,Reserve,density,7.04166666666667,Density (individuals / m2),3
+a-k-06,2013,red,Reserve,density,5.875,Density (individuals / m2),3
+a-k-06,2014,red,Reserve,density,4.91666666666667,Density (individuals / m2),3
+a-k-06,2015,red,Reserve,density,3.375,Density (individuals / m2),3
+a-k-06,2016,red,Reserve,density,3.58333333333333,Density (individuals / m2),3
+a-k-06,2017,red,Reserve,density,4.04166666666667,Density (individuals / m2),3
+a-k-06,2018,red,Reserve,density,2.54166666666667,Density (individuals / m2),3
+a-k-06,2019,red,Reserve,density,3.16666666666667,Density (individuals / m2),3
+a-k-06,2021,red,Reserve,density,2.5,Density (individuals / m2),4
+a-k-06,2022,red,Reserve,density,2.79166666666667,Density (individuals / m2),4
+a-k-06,1991,red,Reserve,mean_mass,20.1872203466939,Mean individual wet mass (g),1
+a-k-06,1992,red,Reserve,mean_mass,88.6861802801455,Mean individual wet mass (g),1
+a-k-06,1994,red,Reserve,mean_mass,118.4685564432,Mean individual wet mass (g),2
+a-k-06,1995,red,Reserve,mean_mass,107.997158997375,Mean individual wet mass (g),2
+a-k-06,1996,red,Reserve,mean_mass,35.4690682078889,Mean individual wet mass (g),2
+a-k-06,1997,red,Reserve,mean_mass,48.3723761570176,Mean individual wet mass (g),2
+a-k-06,1998,red,Reserve,mean_mass,39.8654534595172,Mean individual wet mass (g),2
+a-k-06,1999,red,Reserve,mean_mass,20.194943576476,Mean individual wet mass (g),2
+a-k-06,2000,red,Reserve,mean_mass,16.5851800380289,Mean individual wet mass (g),2
+a-k-06,2001,red,Reserve,mean_mass,12.5243114963404,Mean individual wet mass (g),2
+a-k-06,2002,red,Reserve,mean_mass,97.2025733888222,Mean individual wet mass (g),2
+a-k-06,2004,red,Reserve,mean_mass,200.658806905962,Mean individual wet mass (g),3
+a-k-06,2005,red,Reserve,mean_mass,272.188844174312,Mean individual wet mass (g),3
+a-k-06,2006,red,Reserve,mean_mass,208.7249829307,Mean individual wet mass (g),3
+a-k-06,2007,red,Reserve,mean_mass,223.984756460757,Mean individual wet mass (g),3
+a-k-06,2008,red,Reserve,mean_mass,187.960467317201,Mean individual wet mass (g),3
+a-k-06,2009,red,Reserve,mean_mass,204.617000761175,Mean individual wet mass (g),3
+a-k-06,2010,red,Reserve,mean_mass,206.567295942771,Mean individual wet mass (g),3
+a-k-06,2011,red,Reserve,mean_mass,135.666079127391,Mean individual wet mass (g),3
+a-k-06,2012,red,Reserve,mean_mass,159.681756292074,Mean individual wet mass (g),3
+a-k-06,2013,red,Reserve,mean_mass,129.070067336166,Mean individual wet mass (g),3
+a-k-06,2014,red,Reserve,mean_mass,212.512922091234,Mean individual wet mass (g),3
+a-k-06,2015,red,Reserve,mean_mass,178.391855356813,Mean individual wet mass (g),3
+a-k-06,2016,red,Reserve,mean_mass,165.224588974693,Mean individual wet mass (g),3
+a-k-06,2017,red,Reserve,mean_mass,234.923256044744,Mean individual wet mass (g),3
+a-k-06,2018,red,Reserve,mean_mass,133.349811036113,Mean individual wet mass (g),3
+a-k-06,2019,red,Reserve,mean_mass,207.025217236733,Mean individual wet mass (g),3
+a-k-06,2021,red,Reserve,mean_mass,189.700332056925,Mean individual wet mass (g),4
+a-k-06,2022,red,Reserve,mean_mass,240.196584583406,Mean individual wet mass (g),4
+a-k-06,1991,red,Reserve,biomass,10.093610173347,Wet biomass (g / m2),1
+a-k-06,1992,red,Reserve,biomass,141.897888448233,Wet biomass (g / m2),1
+a-k-06,1994,red,Reserve,biomass,310.979960663399,Wet biomass (g / m2),2
+a-k-06,1995,red,Reserve,biomass,674.982243733592,Wet biomass (g / m2),2
+a-k-06,1996,red,Reserve,biomass,200.99138651137,Wet biomass (g / m2),2
+a-k-06,1997,red,Reserve,biomass,310.389413674196,Wet biomass (g / m2),2
+a-k-06,1998,red,Reserve,biomass,220.921054588158,Wet biomass (g / m2),2
+a-k-06,1999,red,Reserve,biomass,277.680474176545,Wet biomass (g / m2),2
+a-k-06,2000,red,Reserve,biomass,168.615997053294,Wet biomass (g / m2),2
+a-k-06,2001,red,Reserve,biomass,97.5852604089853,Wet biomass (g / m2),2
+a-k-06,2002,red,Reserve,biomass,48.6012866944111,Wet biomass (g / m2),2
+a-k-06,2004,red,Reserve,biomass,25.0823508632453,Wet biomass (g / m2),3
+a-k-06,2005,red,Reserve,biomass,102.070816565367,Wet biomass (g / m2),3
+a-k-06,2006,red,Reserve,biomass,121.756240042908,Wet biomass (g / m2),3
+a-k-06,2007,red,Reserve,biomass,298.646341947676,Wet biomass (g / m2),3
+a-k-06,2008,red,Reserve,biomass,321.099131666884,Wet biomass (g / m2),3
+a-k-06,2009,red,Reserve,biomass,179.039875666028,Wet biomass (g / m2),3
+a-k-06,2010,red,Reserve,biomass,258.209119928464,Wet biomass (g / m2),3
+a-k-06,2011,red,Reserve,biomass,847.912994546192,Wet biomass (g / m2),3
+a-k-06,2012,red,Reserve,biomass,1124.42570055669,Wet biomass (g / m2),3
+a-k-06,2013,red,Reserve,biomass,758.286645599976,Wet biomass (g / m2),3
+a-k-06,2014,red,Reserve,biomass,1044.8552002819,Wet biomass (g / m2),3
+a-k-06,2015,red,Reserve,biomass,602.072511829243,Wet biomass (g / m2),3
+a-k-06,2016,red,Reserve,biomass,592.054777159315,Wet biomass (g / m2),3
+a-k-06,2017,red,Reserve,biomass,949.48149318084,Wet biomass (g / m2),3
+a-k-06,2018,red,Reserve,biomass,338.930769716788,Wet biomass (g / m2),3
+a-k-06,2019,red,Reserve,biomass,655.579854582988,Wet biomass (g / m2),3
+a-k-06,2021,red,Reserve,biomass,474.250830142311,Wet biomass (g / m2),4
+a-k-06,2022,red,Reserve,biomass,670.548798628676,Wet biomass (g / m2),4
+a-k-08,1991,purple,Control,density,8.7,Density (individuals / m2),1
+a-k-08,1992,purple,Control,density,4,Density (individuals / m2),1
+a-k-08,1994,purple,Control,density,26.075,Density (individuals / m2),2
+a-k-08,1995,purple,Control,density,43.675,Density (individuals / m2),2
+a-k-08,1996,purple,Control,density,43.2916666666667,Density (individuals / m2),2
+a-k-08,1997,purple,Control,density,32.2916666666667,Density (individuals / m2),2
+a-k-08,1998,purple,Control,density,25.75,Density (individuals / m2),2
+a-k-08,1999,purple,Control,density,20,Density (individuals / m2),2
+a-k-08,2000,purple,Control,density,29.25,Density (individuals / m2),2
+a-k-08,2001,purple,Control,density,46.2083333333333,Density (individuals / m2),2
+a-k-08,2002,purple,Control,density,38.1666666666667,Density (individuals / m2),2
+a-k-08,2004,purple,Control,density,22.125,Density (individuals / m2),3
+a-k-08,2005,purple,Control,density,21.4166666666667,Density (individuals / m2),3
+a-k-08,2006,purple,Control,density,12.2083333333333,Density (individuals / m2),3
+a-k-08,2007,purple,Control,density,9.20833333333333,Density (individuals / m2),3
+a-k-08,2008,purple,Control,density,13.5,Density (individuals / m2),3
+a-k-08,2009,purple,Control,density,2.45833333333333,Density (individuals / m2),3
+a-k-08,2010,purple,Control,density,18.5833333333333,Density (individuals / m2),3
+a-k-08,2011,purple,Control,density,22.625,Density (individuals / m2),3
+a-k-08,2012,purple,Control,density,33.4166666666667,Density (individuals / m2),3
+a-k-08,2013,purple,Control,density,34.2916666666667,Density (individuals / m2),3
+a-k-08,2014,purple,Control,density,20.375,Density (individuals / m2),3
+a-k-08,2015,purple,Control,density,12.1666666666667,Density (individuals / m2),3
+a-k-08,2016,purple,Control,density,2.66666666666667,Density (individuals / m2),3
+a-k-08,2017,purple,Control,density,3.375,Density (individuals / m2),3
+a-k-08,2018,purple,Control,density,1.75,Density (individuals / m2),3
+a-k-08,2019,purple,Control,density,0.916666666666667,Density (individuals / m2),3
+a-k-08,2021,purple,Control,density,2.04166666666667,Density (individuals / m2),4
+a-k-08,2022,purple,Control,density,7.08333333333333,Density (individuals / m2),4
+a-k-08,1991,purple,Control,mean_mass,9.20479245662724,Mean individual wet mass (g),1
+a-k-08,1992,purple,Control,mean_mass,9.93521216655626,Mean individual wet mass (g),1
+a-k-08,1994,purple,Control,mean_mass,6.04266028352279,Mean individual wet mass (g),2
+a-k-08,1995,purple,Control,mean_mass,7.095769640138,Mean individual wet mass (g),2
+a-k-08,1996,purple,Control,mean_mass,4.93569190792929,Mean individual wet mass (g),2
+a-k-08,1997,purple,Control,mean_mass,8.99587263138112,Mean individual wet mass (g),2
+a-k-08,1998,purple,Control,mean_mass,5.80383568647869,Mean individual wet mass (g),2
+a-k-08,1999,purple,Control,mean_mass,7.74157119277674,Mean individual wet mass (g),2
+a-k-08,2000,purple,Control,mean_mass,7.39508786295284,Mean individual wet mass (g),2
+a-k-08,2001,purple,Control,mean_mass,6.24264574177747,Mean individual wet mass (g),2
+a-k-08,2002,purple,Control,mean_mass,7.5929314279255,Mean individual wet mass (g),2
+a-k-08,2004,purple,Control,mean_mass,11.0202015183064,Mean individual wet mass (g),3
+a-k-08,2005,purple,Control,mean_mass,7.67225651822833,Mean individual wet mass (g),3
+a-k-08,2006,purple,Control,mean_mass,10.53396210096,Mean individual wet mass (g),3
+a-k-08,2007,purple,Control,mean_mass,7.8235895591493,Mean individual wet mass (g),3
+a-k-08,2008,purple,Control,mean_mass,8.92723294769535,Mean individual wet mass (g),3
+a-k-08,2009,purple,Control,mean_mass,5.57027852431369,Mean individual wet mass (g),3
+a-k-08,2010,purple,Control,mean_mass,12.4349080289322,Mean individual wet mass (g),3
+a-k-08,2011,purple,Control,mean_mass,12.941851532899,Mean individual wet mass (g),3
+a-k-08,2012,purple,Control,mean_mass,11.4571560076452,Mean individual wet mass (g),3
+a-k-08,2013,purple,Control,mean_mass,8.3514576198182,Mean individual wet mass (g),3
+a-k-08,2014,purple,Control,mean_mass,10.6446381680166,Mean individual wet mass (g),3
+a-k-08,2015,purple,Control,mean_mass,9.24938911517435,Mean individual wet mass (g),3
+a-k-08,2016,purple,Control,mean_mass,13.5758160835543,Mean individual wet mass (g),3
+a-k-08,2017,purple,Control,mean_mass,9.67345118423898,Mean individual wet mass (g),3
+a-k-08,2018,purple,Control,mean_mass,13.6735048503505,Mean individual wet mass (g),3
+a-k-08,2019,purple,Control,mean_mass,14.3944573328693,Mean individual wet mass (g),3
+a-k-08,2021,purple,Control,mean_mass,14.0844625157743,Mean individual wet mass (g),4
+a-k-08,2022,purple,Control,mean_mass,8.02226669772731,Mean individual wet mass (g),4
+a-k-08,1991,purple,Control,biomass,80.081694372657,Wet biomass (g / m2),1
+a-k-08,1992,purple,Control,biomass,39.740848666225,Wet biomass (g / m2),1
+a-k-08,1994,purple,Control,biomass,157.562366892857,Wet biomass (g / m2),2
+a-k-08,1995,purple,Control,biomass,309.907739033027,Wet biomass (g / m2),2
+a-k-08,1996,purple,Control,biomass,213.674328847439,Wet biomass (g / m2),2
+a-k-08,1997,purple,Control,biomass,290.491720388349,Wet biomass (g / m2),2
+a-k-08,1998,purple,Control,biomass,149.448768926826,Wet biomass (g / m2),2
+a-k-08,1999,purple,Control,biomass,154.831423855535,Wet biomass (g / m2),2
+a-k-08,2000,purple,Control,biomass,216.306319991371,Wet biomass (g / m2),2
+a-k-08,2001,purple,Control,biomass,288.462255317967,Wet biomass (g / m2),2
+a-k-08,2002,purple,Control,biomass,289.79688283249,Wet biomass (g / m2),2
+a-k-08,2004,purple,Control,biomass,243.82195859253,Wet biomass (g / m2),3
+a-k-08,2005,purple,Control,biomass,164.314160432057,Wet biomass (g / m2),3
+a-k-08,2006,purple,Control,biomass,128.60212064922,Wet biomass (g / m2),3
+a-k-08,2007,purple,Control,biomass,72.0422205238331,Wet biomass (g / m2),3
+a-k-08,2008,purple,Control,biomass,120.517644793887,Wet biomass (g / m2),3
+a-k-08,2009,purple,Control,biomass,13.6936013722712,Wet biomass (g / m2),3
+a-k-08,2010,purple,Control,biomass,231.08204087099,Wet biomass (g / m2),3
+a-k-08,2011,purple,Control,biomass,292.809390931839,Wet biomass (g / m2),3
+a-k-08,2012,purple,Control,biomass,382.859963255478,Wet biomass (g / m2),3
+a-k-08,2013,purple,Control,biomass,286.385400879599,Wet biomass (g / m2),3
+a-k-08,2014,purple,Control,biomass,216.884502673338,Wet biomass (g / m2),3
+a-k-08,2015,purple,Control,biomass,112.534234234621,Wet biomass (g / m2),3
+a-k-08,2016,purple,Control,biomass,36.2021762228114,Wet biomass (g / m2),3
+a-k-08,2017,purple,Control,biomass,32.6478977468065,Wet biomass (g / m2),3
+a-k-08,2018,purple,Control,biomass,23.9286334881134,Wet biomass (g / m2),3
+a-k-08,2019,purple,Control,biomass,13.1949192217969,Wet biomass (g / m2),3
+a-k-08,2021,purple,Control,biomass,28.7557776363726,Wet biomass (g / m2),4
+a-k-08,2022,purple,Control,biomass,56.8243891089018,Wet biomass (g / m2),4
+a-k-08,1991,red,Control,density,2.225,Density (individuals / m2),1
+a-k-08,1992,red,Control,density,1.575,Density (individuals / m2),1
+a-k-08,1994,red,Control,density,4.6,Density (individuals / m2),2
+a-k-08,1995,red,Control,density,3.825,Density (individuals / m2),2
+a-k-08,1996,red,Control,density,1.79166666666667,Density (individuals / m2),2
+a-k-08,1997,red,Control,density,1.875,Density (individuals / m2),2
+a-k-08,1998,red,Control,density,2.25,Density (individuals / m2),2
+a-k-08,1999,red,Control,density,4.70833333333333,Density (individuals / m2),2
+a-k-08,2000,red,Control,density,4.16666666666667,Density (individuals / m2),2
+a-k-08,2001,red,Control,density,4.45833333333333,Density (individuals / m2),2
+a-k-08,2002,red,Control,density,2.29166666666667,Density (individuals / m2),2
+a-k-08,2004,red,Control,density,1.41666666666667,Density (individuals / m2),3
+a-k-08,2005,red,Control,density,1.95833333333333,Density (individuals / m2),3
+a-k-08,2006,red,Control,density,0.833333333333333,Density (individuals / m2),3
+a-k-08,2007,red,Control,density,2,Density (individuals / m2),3
+a-k-08,2008,red,Control,density,4,Density (individuals / m2),3
+a-k-08,2009,red,Control,density,0.791666666666667,Density (individuals / m2),3
+a-k-08,2010,red,Control,density,2.375,Density (individuals / m2),3
+a-k-08,2011,red,Control,density,4.04166666666667,Density (individuals / m2),3
+a-k-08,2012,red,Control,density,4.66666666666667,Density (individuals / m2),3
+a-k-08,2013,red,Control,density,4.04166666666667,Density (individuals / m2),3
+a-k-08,2014,red,Control,density,1.75,Density (individuals / m2),3
+a-k-08,2015,red,Control,density,2.16666666666667,Density (individuals / m2),3
+a-k-08,2016,red,Control,density,0.416666666666667,Density (individuals / m2),3
+a-k-08,2017,red,Control,density,1.29166666666667,Density (individuals / m2),3
+a-k-08,2018,red,Control,density,0.75,Density (individuals / m2),3
+a-k-08,2019,red,Control,density,0.541666666666667,Density (individuals / m2),3
+a-k-08,2021,red,Control,density,1.16666666666667,Density (individuals / m2),4
+a-k-08,2022,red,Control,density,4.45833333333333,Density (individuals / m2),4
+a-k-08,1991,red,Control,mean_mass,95.4377226215679,Mean individual wet mass (g),1
+a-k-08,1992,red,Control,mean_mass,68.4225470471852,Mean individual wet mass (g),1
+a-k-08,1994,red,Control,mean_mass,136.599435592893,Mean individual wet mass (g),2
+a-k-08,1995,red,Control,mean_mass,65.7567294556467,Mean individual wet mass (g),2
+a-k-08,1996,red,Control,mean_mass,55.2803001216374,Mean individual wet mass (g),2
+a-k-08,1997,red,Control,mean_mass,57.9749371620449,Mean individual wet mass (g),2
+a-k-08,1998,red,Control,mean_mass,59.0138795400585,Mean individual wet mass (g),2
+a-k-08,1999,red,Control,mean_mass,15.7787710115614,Mean individual wet mass (g),2
+a-k-08,2000,red,Control,mean_mass,17.3734488361796,Mean individual wet mass (g),2
+a-k-08,2001,red,Control,mean_mass,22.4363112014944,Mean individual wet mass (g),2
+a-k-08,2002,red,Control,mean_mass,25.4729706900738,Mean individual wet mass (g),2
+a-k-08,2004,red,Control,mean_mass,64.0639714167775,Mean individual wet mass (g),3
+a-k-08,2005,red,Control,mean_mass,35.3491570151845,Mean individual wet mass (g),3
+a-k-08,2006,red,Control,mean_mass,44.2560483617467,Mean individual wet mass (g),3
+a-k-08,2007,red,Control,mean_mass,44.3936823173891,Mean individual wet mass (g),3
+a-k-08,2008,red,Control,mean_mass,24.3626318252934,Mean individual wet mass (g),3
+a-k-08,2009,red,Control,mean_mass,43.5205802433856,Mean individual wet mass (g),3
+a-k-08,2010,red,Control,mean_mass,70.2069036555465,Mean individual wet mass (g),3
+a-k-08,2011,red,Control,mean_mass,60.9475618609283,Mean individual wet mass (g),3
+a-k-08,2012,red,Control,mean_mass,65.5402815971003,Mean individual wet mass (g),3
+a-k-08,2013,red,Control,mean_mass,86.9203848729203,Mean individual wet mass (g),3
+a-k-08,2014,red,Control,mean_mass,81.8269418654759,Mean individual wet mass (g),3
+a-k-08,2015,red,Control,mean_mass,64.2622920842777,Mean individual wet mass (g),3
+a-k-08,2016,red,Control,mean_mass,61.3467734535463,Mean individual wet mass (g),3
+a-k-08,2017,red,Control,mean_mass,34.6435025018522,Mean individual wet mass (g),3
+a-k-08,2018,red,Control,mean_mass,53.0848193032097,Mean individual wet mass (g),3
+a-k-08,2019,red,Control,mean_mass,71.3269180164633,Mean individual wet mass (g),3
+a-k-08,2021,red,Control,mean_mass,70.4059543425518,Mean individual wet mass (g),4
+a-k-08,2022,red,Control,mean_mass,46.2281037047567,Mean individual wet mass (g),4
+a-k-08,1991,red,Control,biomass,212.348932832989,Wet biomass (g / m2),1
+a-k-08,1992,red,Control,biomass,107.765511599317,Wet biomass (g / m2),1
+a-k-08,1994,red,Control,biomass,628.357403727306,Wet biomass (g / m2),2
+a-k-08,1995,red,Control,biomass,251.519490167849,Wet biomass (g / m2),2
+a-k-08,1996,red,Control,biomass,99.0438710512669,Wet biomass (g / m2),2
+a-k-08,1997,red,Control,biomass,108.703007178834,Wet biomass (g / m2),2
+a-k-08,1998,red,Control,biomass,132.781228965132,Wet biomass (g / m2),2
+a-k-08,1999,red,Control,biomass,74.2917135127684,Wet biomass (g / m2),2
+a-k-08,2000,red,Control,biomass,72.3893701507484,Wet biomass (g / m2),2
+a-k-08,2001,red,Control,biomass,100.028554106662,Wet biomass (g / m2),2
+a-k-08,2002,red,Control,biomass,58.3755578314192,Wet biomass (g / m2),2
+a-k-08,2004,red,Control,biomass,90.7572928404348,Wet biomass (g / m2),3
+a-k-08,2005,red,Control,biomass,69.2254324880696,Wet biomass (g / m2),3
+a-k-08,2006,red,Control,biomass,36.8800403014556,Wet biomass (g / m2),3
+a-k-08,2007,red,Control,biomass,88.7873646347781,Wet biomass (g / m2),3
+a-k-08,2008,red,Control,biomass,97.4505273011734,Wet biomass (g / m2),3
+a-k-08,2009,red,Control,biomass,34.4537926926802,Wet biomass (g / m2),3
+a-k-08,2010,red,Control,biomass,166.741396181923,Wet biomass (g / m2),3
+a-k-08,2011,red,Control,biomass,246.329729187919,Wet biomass (g / m2),3
+a-k-08,2012,red,Control,biomass,305.854647453135,Wet biomass (g / m2),3
+a-k-08,2013,red,Control,biomass,351.303222194719,Wet biomass (g / m2),3
+a-k-08,2014,red,Control,biomass,143.197148264583,Wet biomass (g / m2),3
+a-k-08,2015,red,Control,biomass,139.234966182602,Wet biomass (g / m2),3
+a-k-08,2016,red,Control,biomass,25.5611556056443,Wet biomass (g / m2),3
+a-k-08,2017,red,Control,biomass,44.7478573982257,Wet biomass (g / m2),3
+a-k-08,2018,red,Control,biomass,39.8136144774073,Wet biomass (g / m2),3
+a-k-08,2019,red,Control,biomass,38.6354139255843,Wet biomass (g / m2),3
+a-k-08,2021,red,Control,biomass,82.1402800663105,Wet biomass (g / m2),4
+a-k-08,2022,red,Control,biomass,206.100295683707,Wet biomass (g / m2),4
+a-k-09,1991,purple,Reserve,density,56.375,Density (individuals / m2),1
+a-k-09,1992,purple,Reserve,density,42.95,Density (individuals / m2),1
+a-k-09,1994,purple,Reserve,density,37.775,Density (individuals / m2),2
+a-k-09,1995,purple,Reserve,density,47.825,Density (individuals / m2),2
+a-k-09,1996,purple,Reserve,density,54.125,Density (individuals / m2),2
+a-k-09,1997,purple,Reserve,density,47.6666666666667,Density (individuals / m2),2
+a-k-09,1998,purple,Reserve,density,30,Density (individuals / m2),2
+a-k-09,1999,purple,Reserve,density,27.4166666666667,Density (individuals / m2),2
+a-k-09,2000,purple,Reserve,density,103.458333333333,Density (individuals / m2),2
+a-k-09,2001,purple,Reserve,density,102.833333333333,Density (individuals / m2),2
+a-k-09,2002,purple,Reserve,density,85.875,Density (individuals / m2),2
+a-k-09,2004,purple,Reserve,density,42.125,Density (individuals / m2),3
+a-k-09,2005,purple,Reserve,density,38.625,Density (individuals / m2),3
+a-k-09,2006,purple,Reserve,density,40.6666666666667,Density (individuals / m2),3
+a-k-09,2007,purple,Reserve,density,38.4583333333333,Density (individuals / m2),3
+a-k-09,2008,purple,Reserve,density,27.9583333333333,Density (individuals / m2),3
+a-k-09,2009,purple,Reserve,density,43.4166666666667,Density (individuals / m2),3
+a-k-09,2010,purple,Reserve,density,35.4583333333333,Density (individuals / m2),3
+a-k-09,2011,purple,Reserve,density,62,Density (individuals / m2),3
+a-k-09,2012,purple,Reserve,density,82.2083333333334,Density (individuals / m2),3
+a-k-09,2013,purple,Reserve,density,71.125,Density (individuals / m2),3
+a-k-09,2014,purple,Reserve,density,27.0833333333333,Density (individuals / m2),3
+a-k-09,2015,purple,Reserve,density,11.4583333333333,Density (individuals / m2),3
+a-k-09,2016,purple,Reserve,density,1.375,Density (individuals / m2),3
+a-k-09,2017,purple,Reserve,density,3.08333333333333,Density (individuals / m2),3
+a-k-09,2018,purple,Reserve,density,3.20833333333333,Density (individuals / m2),3
+a-k-09,2019,purple,Reserve,density,2.08333333333333,Density (individuals / m2),3
+a-k-09,2021,purple,Reserve,density,2.29166666666667,Density (individuals / m2),4
+a-k-09,2022,purple,Reserve,density,5.625,Density (individuals / m2),4
+a-k-09,1991,purple,Reserve,mean_mass,10.899479587218,Mean individual wet mass (g),1
+a-k-09,1992,purple,Reserve,mean_mass,7.76116511718843,Mean individual wet mass (g),1
+a-k-09,1994,purple,Reserve,mean_mass,7.32353260612938,Mean individual wet mass (g),2
+a-k-09,1995,purple,Reserve,mean_mass,8.93859629160142,Mean individual wet mass (g),2
+a-k-09,1996,purple,Reserve,mean_mass,4.61736918822421,Mean individual wet mass (g),2
+a-k-09,1997,purple,Reserve,mean_mass,7.88921564778115,Mean individual wet mass (g),2
+a-k-09,1998,purple,Reserve,mean_mass,8.60150989083042,Mean individual wet mass (g),2
+a-k-09,1999,purple,Reserve,mean_mass,7.64683274622094,Mean individual wet mass (g),2
+a-k-09,2000,purple,Reserve,mean_mass,2.70440356107354,Mean individual wet mass (g),2
+a-k-09,2001,purple,Reserve,mean_mass,3.07454186041641,Mean individual wet mass (g),2
+a-k-09,2002,purple,Reserve,mean_mass,3.70559365634653,Mean individual wet mass (g),2
+a-k-09,2004,purple,Reserve,mean_mass,8.56511529659521,Mean individual wet mass (g),3
+a-k-09,2005,purple,Reserve,mean_mass,9.79338680374615,Mean individual wet mass (g),3
+a-k-09,2006,purple,Reserve,mean_mass,6.66656525212767,Mean individual wet mass (g),3
+a-k-09,2007,purple,Reserve,mean_mass,12.4618189065974,Mean individual wet mass (g),3
+a-k-09,2008,purple,Reserve,mean_mass,11.8039984029001,Mean individual wet mass (g),3
+a-k-09,2009,purple,Reserve,mean_mass,10.2189283332412,Mean individual wet mass (g),3
+a-k-09,2010,purple,Reserve,mean_mass,16.1557946312625,Mean individual wet mass (g),3
+a-k-09,2011,purple,Reserve,mean_mass,11.2389790537441,Mean individual wet mass (g),3
+a-k-09,2012,purple,Reserve,mean_mass,14.0558570815271,Mean individual wet mass (g),3
+a-k-09,2013,purple,Reserve,mean_mass,8.52394527122316,Mean individual wet mass (g),3
+a-k-09,2014,purple,Reserve,mean_mass,12.2973627628614,Mean individual wet mass (g),3
+a-k-09,2015,purple,Reserve,mean_mass,18.5466392582063,Mean individual wet mass (g),3
+a-k-09,2016,purple,Reserve,mean_mass,25.2070940639259,Mean individual wet mass (g),3
+a-k-09,2017,purple,Reserve,mean_mass,25.0053829029227,Mean individual wet mass (g),3
+a-k-09,2018,purple,Reserve,mean_mass,27.3954449604488,Mean individual wet mass (g),3
+a-k-09,2019,purple,Reserve,mean_mass,31.5278060182476,Mean individual wet mass (g),3
+a-k-09,2021,purple,Reserve,mean_mass,24.3345377747178,Mean individual wet mass (g),4
+a-k-09,2022,purple,Reserve,mean_mass,27.3564661964094,Mean individual wet mass (g),4
+a-k-09,1991,purple,Reserve,biomass,614.458161729415,Wet biomass (g / m2),1
+a-k-09,1992,purple,Reserve,biomass,333.342041783243,Wet biomass (g / m2),1
+a-k-09,1994,purple,Reserve,biomass,276.646444196537,Wet biomass (g / m2),2
+a-k-09,1995,purple,Reserve,biomass,427.488367645838,Wet biomass (g / m2),2
+a-k-09,1996,purple,Reserve,biomass,249.915107312636,Wet biomass (g / m2),2
+a-k-09,1997,purple,Reserve,biomass,376.052612544235,Wet biomass (g / m2),2
+a-k-09,1998,purple,Reserve,biomass,258.045296724913,Wet biomass (g / m2),2
+a-k-09,1999,purple,Reserve,biomass,209.650664458891,Wet biomass (g / m2),2
+a-k-09,2000,purple,Reserve,biomass,279.7930850894,Wet biomass (g / m2),2
+a-k-09,2001,purple,Reserve,biomass,316.165387979488,Wet biomass (g / m2),2
+a-k-09,2002,purple,Reserve,biomass,318.217855238758,Wet biomass (g / m2),2
+a-k-09,2004,purple,Reserve,biomass,360.805481869073,Wet biomass (g / m2),3
+a-k-09,2005,purple,Reserve,biomass,378.269565294695,Wet biomass (g / m2),3
+a-k-09,2006,purple,Reserve,biomass,271.106986919859,Wet biomass (g / m2),3
+a-k-09,2007,purple,Reserve,biomass,479.26078544956,Wet biomass (g / m2),3
+a-k-09,2008,purple,Reserve,biomass,330.020122014414,Wet biomass (g / m2),3
+a-k-09,2009,purple,Reserve,biomass,443.67180513489,Wet biomass (g / m2),3
+a-k-09,2010,purple,Reserve,biomass,572.857551300183,Wet biomass (g / m2),3
+a-k-09,2011,purple,Reserve,biomass,696.816701332133,Wet biomass (g / m2),3
+a-k-09,2012,purple,Reserve,biomass,1155.50858424388,Wet biomass (g / m2),3
+a-k-09,2013,purple,Reserve,biomass,606.265607415747,Wet biomass (g / m2),3
+a-k-09,2014,purple,Reserve,biomass,333.053574827495,Wet biomass (g / m2),3
+a-k-09,2015,purple,Reserve,biomass,212.513574833614,Wet biomass (g / m2),3
+a-k-09,2016,purple,Reserve,biomass,34.6597543378981,Wet biomass (g / m2),3
+a-k-09,2017,purple,Reserve,biomass,77.0999306173449,Wet biomass (g / m2),3
+a-k-09,2018,purple,Reserve,biomass,87.8937192481066,Wet biomass (g / m2),3
+a-k-09,2019,purple,Reserve,biomass,65.6829292046825,Wet biomass (g / m2),3
+a-k-09,2021,purple,Reserve,biomass,55.7666490670616,Wet biomass (g / m2),4
+a-k-09,2022,purple,Reserve,biomass,153.880122354803,Wet biomass (g / m2),4
+a-k-09,1991,red,Reserve,density,0.4,Density (individuals / m2),1
+a-k-09,1992,red,Reserve,density,0.9,Density (individuals / m2),1
+a-k-09,1994,red,Reserve,density,0.6,Density (individuals / m2),2
+a-k-09,1995,red,Reserve,density,1.575,Density (individuals / m2),2
+a-k-09,1996,red,Reserve,density,1.25,Density (individuals / m2),2
+a-k-09,1997,red,Reserve,density,1.29166666666667,Density (individuals / m2),2
+a-k-09,1998,red,Reserve,density,1.25,Density (individuals / m2),2
+a-k-09,1999,red,Reserve,density,1.25,Density (individuals / m2),2
+a-k-09,2000,red,Reserve,density,2.83333333333333,Density (individuals / m2),2
+a-k-09,2001,red,Reserve,density,4.08333333333333,Density (individuals / m2),2
+a-k-09,2002,red,Reserve,density,2.79166666666667,Density (individuals / m2),2
+a-k-09,2004,red,Reserve,density,2.33333333333333,Density (individuals / m2),3
+a-k-09,2005,red,Reserve,density,3.04166666666667,Density (individuals / m2),3
+a-k-09,2006,red,Reserve,density,2.875,Density (individuals / m2),3
+a-k-09,2007,red,Reserve,density,4,Density (individuals / m2),3
+a-k-09,2008,red,Reserve,density,4.58333333333333,Density (individuals / m2),3
+a-k-09,2009,red,Reserve,density,3.70833333333333,Density (individuals / m2),3
+a-k-09,2010,red,Reserve,density,3.875,Density (individuals / m2),3
+a-k-09,2011,red,Reserve,density,6.79166666666667,Density (individuals / m2),3
+a-k-09,2012,red,Reserve,density,5.70833333333333,Density (individuals / m2),3
+a-k-09,2013,red,Reserve,density,5.25,Density (individuals / m2),3
+a-k-09,2014,red,Reserve,density,2.91666666666667,Density (individuals / m2),3
+a-k-09,2015,red,Reserve,density,0.708333333333333,Density (individuals / m2),3
+a-k-09,2016,red,Reserve,density,0.25,Density (individuals / m2),3
+a-k-09,2017,red,Reserve,density,0.958333333333333,Density (individuals / m2),3
+a-k-09,2018,red,Reserve,density,0.75,Density (individuals / m2),3
+a-k-09,2019,red,Reserve,density,0.708333333333333,Density (individuals / m2),3
+a-k-09,2021,red,Reserve,density,0.875,Density (individuals / m2),4
+a-k-09,2022,red,Reserve,density,0.666666666666667,Density (individuals / m2),4
+a-k-09,1991,red,Reserve,mean_mass,37.2540394358695,Mean individual wet mass (g),1
+a-k-09,1992,red,Reserve,mean_mass,21.4065952832615,Mean individual wet mass (g),1
+a-k-09,1994,red,Reserve,mean_mass,39.4820377780211,Mean individual wet mass (g),2
+a-k-09,1995,red,Reserve,mean_mass,65.4593524455247,Mean individual wet mass (g),2
+a-k-09,1996,red,Reserve,mean_mass,33.5666304375219,Mean individual wet mass (g),2
+a-k-09,1997,red,Reserve,mean_mass,28.1175131280107,Mean individual wet mass (g),2
+a-k-09,1998,red,Reserve,mean_mass,44.2714753414889,Mean individual wet mass (g),2
+a-k-09,1999,red,Reserve,mean_mass,45.3825352629556,Mean individual wet mass (g),2
+a-k-09,2000,red,Reserve,mean_mass,35.5914252196223,Mean individual wet mass (g),2
+a-k-09,2001,red,Reserve,mean_mass,27.489234299237,Mean individual wet mass (g),2
+a-k-09,2002,red,Reserve,mean_mass,37.7966240498303,Mean individual wet mass (g),2
+a-k-09,2004,red,Reserve,mean_mass,53.7664051899653,Mean individual wet mass (g),3
+a-k-09,2005,red,Reserve,mean_mass,51.9691507204211,Mean individual wet mass (g),3
+a-k-09,2006,red,Reserve,mean_mass,40.5418656198655,Mean individual wet mass (g),3
+a-k-09,2007,red,Reserve,mean_mass,60.4316706904496,Mean individual wet mass (g),3
+a-k-09,2008,red,Reserve,mean_mass,67.4080036368862,Mean individual wet mass (g),3
+a-k-09,2009,red,Reserve,mean_mass,60.0381284559598,Mean individual wet mass (g),3
+a-k-09,2010,red,Reserve,mean_mass,116.791192048806,Mean individual wet mass (g),3
+a-k-09,2011,red,Reserve,mean_mass,57.3061368836599,Mean individual wet mass (g),3
+a-k-09,2012,red,Reserve,mean_mass,70.2702242381652,Mean individual wet mass (g),3
+a-k-09,2013,red,Reserve,mean_mass,42.4351951843283,Mean individual wet mass (g),3
+a-k-09,2014,red,Reserve,mean_mass,56.4649458257825,Mean individual wet mass (g),3
+a-k-09,2015,red,Reserve,mean_mass,87.5498597661187,Mean individual wet mass (g),3
+a-k-09,2016,red,Reserve,mean_mass,120.791456855598,Mean individual wet mass (g),3
+a-k-09,2017,red,Reserve,mean_mass,132.816944696833,Mean individual wet mass (g),3
+a-k-09,2018,red,Reserve,mean_mass,131.311157413164,Mean individual wet mass (g),3
+a-k-09,2019,red,Reserve,mean_mass,156.428761321504,Mean individual wet mass (g),3
+a-k-09,2021,red,Reserve,mean_mass,149.47135339772,Mean individual wet mass (g),4
+a-k-09,2022,red,Reserve,mean_mass,258.781415673806,Mean individual wet mass (g),4
+a-k-09,1991,red,Reserve,biomass,14.9016157743478,Wet biomass (g / m2),1
+a-k-09,1992,red,Reserve,biomass,19.2659357549354,Wet biomass (g / m2),1
+a-k-09,1994,red,Reserve,biomass,23.6892226668127,Wet biomass (g / m2),2
+a-k-09,1995,red,Reserve,biomass,103.098480101701,Wet biomass (g / m2),2
+a-k-09,1996,red,Reserve,biomass,41.9582880469024,Wet biomass (g / m2),2
+a-k-09,1997,red,Reserve,biomass,36.3184544570138,Wet biomass (g / m2),2
+a-k-09,1998,red,Reserve,biomass,55.3393441768611,Wet biomass (g / m2),2
+a-k-09,1999,red,Reserve,biomass,56.7281690786945,Wet biomass (g / m2),2
+a-k-09,2000,red,Reserve,biomass,100.842371455597,Wet biomass (g / m2),2
+a-k-09,2001,red,Reserve,biomass,112.247706721885,Wet biomass (g / m2),2
+a-k-09,2002,red,Reserve,biomass,105.515575472443,Wet biomass (g / m2),2
+a-k-09,2004,red,Reserve,biomass,125.454945443252,Wet biomass (g / m2),3
+a-k-09,2005,red,Reserve,biomass,158.072833441281,Wet biomass (g / m2),3
+a-k-09,2006,red,Reserve,biomass,116.557863657113,Wet biomass (g / m2),3
+a-k-09,2007,red,Reserve,biomass,241.726682761798,Wet biomass (g / m2),3
+a-k-09,2008,red,Reserve,biomass,308.953350002395,Wet biomass (g / m2),3
+a-k-09,2009,red,Reserve,biomass,222.641393024184,Wet biomass (g / m2),3
+a-k-09,2010,red,Reserve,biomass,452.565869189123,Wet biomass (g / m2),3
+a-k-09,2011,red,Reserve,biomass,389.20417966819,Wet biomass (g / m2),3
+a-k-09,2012,red,Reserve,biomass,401.125863359526,Wet biomass (g / m2),3
+a-k-09,2013,red,Reserve,biomass,222.784774717724,Wet biomass (g / m2),3
+a-k-09,2014,red,Reserve,biomass,164.689425325199,Wet biomass (g / m2),3
+a-k-09,2015,red,Reserve,biomass,62.0144840010007,Wet biomass (g / m2),3
+a-k-09,2016,red,Reserve,biomass,30.1978642138995,Wet biomass (g / m2),3
+a-k-09,2017,red,Reserve,biomass,127.282905334465,Wet biomass (g / m2),3
+a-k-09,2018,red,Reserve,biomass,98.4833680598727,Wet biomass (g / m2),3
+a-k-09,2019,red,Reserve,biomass,110.803705936065,Wet biomass (g / m2),3
+a-k-09,2021,red,Reserve,biomass,130.787434223005,Wet biomass (g / m2),4
+a-k-09,2022,red,Reserve,biomass,172.520943782537,Wet biomass (g / m2),4
+a-k-10,1991,purple,Control,density,11.475,Density (individuals / m2),1
+a-k-10,1992,purple,Control,density,4.4,Density (individuals / m2),1
+a-k-10,1994,purple,Control,density,1.975,Density (individuals / m2),2
+a-k-10,1995,purple,Control,density,10.875,Density (individuals / m2),2
+a-k-10,1996,purple,Control,density,9.54166666666667,Density (individuals / m2),2
+a-k-10,1997,purple,Control,density,10.9583333333333,Density (individuals / m2),2
+a-k-10,1998,purple,Control,density,10.9166666666667,Density (individuals / m2),2
+a-k-10,1999,purple,Control,density,13.8333333333333,Density (individuals / m2),2
+a-k-10,2000,purple,Control,density,32.1666666666667,Density (individuals / m2),2
+a-k-10,2001,purple,Control,density,20.375,Density (individuals / m2),2
+a-k-10,2002,purple,Control,density,6.04166666666667,Density (individuals / m2),2
+a-k-10,2004,purple,Control,density,3.125,Density (individuals / m2),3
+a-k-10,2005,purple,Control,density,2.58333333333333,Density (individuals / m2),3
+a-k-10,2006,purple,Control,density,9.54166666666667,Density (individuals / m2),3
+a-k-10,2007,purple,Control,density,2.08333333333333,Density (individuals / m2),3
+a-k-10,2008,purple,Control,density,10.6666666666667,Density (individuals / m2),3
+a-k-10,2009,purple,Control,density,15.1666666666667,Density (individuals / m2),3
+a-k-10,2010,purple,Control,density,10.0833333333333,Density (individuals / m2),3
+a-k-10,2011,purple,Control,density,27.5833333333333,Density (individuals / m2),3
+a-k-10,2012,purple,Control,density,1.45833333333333,Density (individuals / m2),3
+a-k-10,2013,purple,Control,density,5.75,Density (individuals / m2),3
+a-k-10,2014,purple,Control,density,31.5416666666667,Density (individuals / m2),3
+a-k-10,2015,purple,Control,density,42.1666666666667,Density (individuals / m2),3
+a-k-10,2016,purple,Control,density,18.2916666666667,Density (individuals / m2),3
+a-k-10,2017,purple,Control,density,12.5416666666667,Density (individuals / m2),3
+a-k-10,2018,purple,Control,density,12.2083333333333,Density (individuals / m2),3
+a-k-10,2019,purple,Control,density,6.41666666666667,Density (individuals / m2),3
+a-k-10,2021,purple,Control,density,13.75,Density (individuals / m2),4
+a-k-10,2022,purple,Control,density,44.1666666666667,Density (individuals / m2),4
+a-k-10,1991,purple,Control,mean_mass,16.1672012651237,Mean individual wet mass (g),1
+a-k-10,1992,purple,Control,mean_mass,18.5943911904462,Mean individual wet mass (g),1
+a-k-10,1994,purple,Control,mean_mass,16.5355267758177,Mean individual wet mass (g),2
+a-k-10,1995,purple,Control,mean_mass,11.3975749377538,Mean individual wet mass (g),2
+a-k-10,1996,purple,Control,mean_mass,18.0697358479462,Mean individual wet mass (g),2
+a-k-10,1997,purple,Control,mean_mass,24.4016679055861,Mean individual wet mass (g),2
+a-k-10,1998,purple,Control,mean_mass,27.4154010596472,Mean individual wet mass (g),2
+a-k-10,1999,purple,Control,mean_mass,20.7505526738974,Mean individual wet mass (g),2
+a-k-10,2000,purple,Control,mean_mass,7.67708985388592,Mean individual wet mass (g),2
+a-k-10,2001,purple,Control,mean_mass,8.51328411380085,Mean individual wet mass (g),2
+a-k-10,2002,purple,Control,mean_mass,3.82031380021629,Mean individual wet mass (g),2
+a-k-10,2004,purple,Control,mean_mass,7.46244627639713,Mean individual wet mass (g),3
+a-k-10,2005,purple,Control,mean_mass,15.9910537525866,Mean individual wet mass (g),3
+a-k-10,2006,purple,Control,mean_mass,11.9400310552203,Mean individual wet mass (g),3
+a-k-10,2007,purple,Control,mean_mass,8.88445834449128,Mean individual wet mass (g),3
+a-k-10,2008,purple,Control,mean_mass,13.1316792659947,Mean individual wet mass (g),3
+a-k-10,2009,purple,Control,mean_mass,13.9590230640265,Mean individual wet mass (g),3
+a-k-10,2010,purple,Control,mean_mass,9.13331804473626,Mean individual wet mass (g),3
+a-k-10,2011,purple,Control,mean_mass,10.7299104666404,Mean individual wet mass (g),3
+a-k-10,2012,purple,Control,mean_mass,10.8276904480398,Mean individual wet mass (g),3
+a-k-10,2013,purple,Control,mean_mass,6.94326209953765,Mean individual wet mass (g),3
+a-k-10,2014,purple,Control,mean_mass,12.1698704423906,Mean individual wet mass (g),3
+a-k-10,2015,purple,Control,mean_mass,8.61770070940587,Mean individual wet mass (g),3
+a-k-10,2016,purple,Control,mean_mass,9.8998491058918,Mean individual wet mass (g),3
+a-k-10,2017,purple,Control,mean_mass,9.86996287222744,Mean individual wet mass (g),3
+a-k-10,2018,purple,Control,mean_mass,7.64353931106526,Mean individual wet mass (g),3
+a-k-10,2019,purple,Control,mean_mass,4.67764787262328,Mean individual wet mass (g),3
+a-k-10,2021,purple,Control,mean_mass,8.88572686874853,Mean individual wet mass (g),4
+a-k-10,2022,purple,Control,mean_mass,7.36526178325325,Mean individual wet mass (g),4
+a-k-10,1991,purple,Control,biomass,185.518634517294,Wet biomass (g / m2),1
+a-k-10,1992,purple,Control,biomass,81.8153212379634,Wet biomass (g / m2),1
+a-k-10,1994,purple,Control,biomass,32.6576653822399,Wet biomass (g / m2),2
+a-k-10,1995,purple,Control,biomass,123.948627448072,Wet biomass (g / m2),2
+a-k-10,1996,purple,Control,biomass,172.41539621582,Wet biomass (g / m2),2
+a-k-10,1997,purple,Control,biomass,267.401610798714,Wet biomass (g / m2),2
+a-k-10,1998,purple,Control,biomass,299.284794901149,Wet biomass (g / m2),2
+a-k-10,1999,purple,Control,biomass,287.049311988914,Wet biomass (g / m2),2
+a-k-10,2000,purple,Control,biomass,246.946390299997,Wet biomass (g / m2),2
+a-k-10,2001,purple,Control,biomass,173.458163818692,Wet biomass (g / m2),2
+a-k-10,2002,purple,Control,biomass,23.0810625429734,Wet biomass (g / m2),2
+a-k-10,2004,purple,Control,biomass,23.320144613741,Wet biomass (g / m2),3
+a-k-10,2005,purple,Control,biomass,41.3102221941819,Wet biomass (g / m2),3
+a-k-10,2006,purple,Control,biomass,113.92779631856,Wet biomass (g / m2),3
+a-k-10,2007,purple,Control,biomass,18.5092882176902,Wet biomass (g / m2),3
+a-k-10,2008,purple,Control,biomass,140.071245503943,Wet biomass (g / m2),3
+a-k-10,2009,purple,Control,biomass,211.711849804401,Wet biomass (g / m2),3
+a-k-10,2010,purple,Control,biomass,92.094290284424,Wet biomass (g / m2),3
+a-k-10,2011,purple,Control,biomass,295.966697038164,Wet biomass (g / m2),3
+a-k-10,2012,purple,Control,biomass,15.7903819033914,Wet biomass (g / m2),3
+a-k-10,2013,purple,Control,biomass,39.9237570723415,Wet biomass (g / m2),3
+a-k-10,2014,purple,Control,biomass,383.857996870403,Wet biomass (g / m2),3
+a-k-10,2015,purple,Control,biomass,363.379713246614,Wet biomass (g / m2),3
+a-k-10,2016,purple,Control,biomass,181.084739895271,Wet biomass (g / m2),3
+a-k-10,2017,purple,Control,biomass,123.785784355852,Wet biomass (g / m2),3
+a-k-10,2018,purple,Control,biomass,93.3148757559217,Wet biomass (g / m2),3
+a-k-10,2019,purple,Control,biomass,30.0149071826661,Wet biomass (g / m2),3
+a-k-10,2021,purple,Control,biomass,122.178744445292,Wet biomass (g / m2),4
+a-k-10,2022,purple,Control,biomass,325.299062093685,Wet biomass (g / m2),4
+a-k-10,1991,red,Control,density,2.225,Density (individuals / m2),1
+a-k-10,1992,red,Control,density,0.25,Density (individuals / m2),1
+a-k-10,1994,red,Control,density,0.4,Density (individuals / m2),2
+a-k-10,1995,red,Control,density,0.625,Density (individuals / m2),2
+a-k-10,1996,red,Control,density,0.375,Density (individuals / m2),2
+a-k-10,1997,red,Control,density,1.79166666666667,Density (individuals / m2),2
+a-k-10,1998,red,Control,density,1.91666666666667,Density (individuals / m2),2
+a-k-10,1999,red,Control,density,1.58333333333333,Density (individuals / m2),2
+a-k-10,2000,red,Control,density,4.45833333333333,Density (individuals / m2),2
+a-k-10,2001,red,Control,density,3,Density (individuals / m2),2
+a-k-10,2002,red,Control,density,0.708333333333333,Density (individuals / m2),2
+a-k-10,2004,red,Control,density,0.166666666666667,Density (individuals / m2),3
+a-k-10,2005,red,Control,density,0.0416666666666667,Density (individuals / m2),3
+a-k-10,2006,red,Control,density,1.20833333333333,Density (individuals / m2),3
+a-k-10,2007,red,Control,density,0.208333333333333,Density (individuals / m2),3
+a-k-10,2008,red,Control,density,1.375,Density (individuals / m2),3
+a-k-10,2009,red,Control,density,1.25,Density (individuals / m2),3
+a-k-10,2010,red,Control,density,1.04166666666667,Density (individuals / m2),3
+a-k-10,2011,red,Control,density,8.45833333333333,Density (individuals / m2),3
+a-k-10,2012,red,Control,density,2.66666666666667,Density (individuals / m2),3
+a-k-10,2013,red,Control,density,3.16666666666667,Density (individuals / m2),3
+a-k-10,2014,red,Control,density,9.91666666666667,Density (individuals / m2),3
+a-k-10,2015,red,Control,density,2.83333333333333,Density (individuals / m2),3
+a-k-10,2016,red,Control,density,0.375,Density (individuals / m2),3
+a-k-10,2017,red,Control,density,0.291666666666667,Density (individuals / m2),3
+a-k-10,2018,red,Control,density,1.125,Density (individuals / m2),3
+a-k-10,2019,red,Control,density,0.375,Density (individuals / m2),3
+a-k-10,2021,red,Control,density,2.625,Density (individuals / m2),4
+a-k-10,2022,red,Control,density,2.66666666666667,Density (individuals / m2),4
+a-k-10,1991,red,Control,mean_mass,119.142840656721,Mean individual wet mass (g),1
+a-k-10,1992,red,Control,mean_mass,170.956201126088,Mean individual wet mass (g),1
+a-k-10,1994,red,Control,mean_mass,216.753023415218,Mean individual wet mass (g),2
+a-k-10,1995,red,Control,mean_mass,133.088699789111,Mean individual wet mass (g),2
+a-k-10,1996,red,Control,mean_mass,138.172365092699,Mean individual wet mass (g),2
+a-k-10,1997,red,Control,mean_mass,142.264968480106,Mean individual wet mass (g),2
+a-k-10,1998,red,Control,mean_mass,92.005206173762,Mean individual wet mass (g),2
+a-k-10,1999,red,Control,mean_mass,69.901223889425,Mean individual wet mass (g),2
+a-k-10,2000,red,Control,mean_mass,19.266059713245,Mean individual wet mass (g),2
+a-k-10,2001,red,Control,mean_mass,43.0325737387529,Mean individual wet mass (g),2
+a-k-10,2002,red,Control,mean_mass,52.1220830310567,Mean individual wet mass (g),2
+a-k-10,2004,red,Control,mean_mass,104.847771810244,Mean individual wet mass (g),3
+a-k-10,2005,red,Control,mean_mass,86.8058736807508,Mean individual wet mass (g),3
+a-k-10,2006,red,Control,mean_mass,46.9114352615841,Mean individual wet mass (g),3
+a-k-10,2007,red,Control,mean_mass,54.1965818692639,Mean individual wet mass (g),3
+a-k-10,2008,red,Control,mean_mass,36.8079415121746,Mean individual wet mass (g),3
+a-k-10,2009,red,Control,mean_mass,38.7745546136175,Mean individual wet mass (g),3
+a-k-10,2010,red,Control,mean_mass,57.9463958754864,Mean individual wet mass (g),3
+a-k-10,2011,red,Control,mean_mass,37.3248244672141,Mean individual wet mass (g),3
+a-k-10,2012,red,Control,mean_mass,56.2824113818826,Mean individual wet mass (g),3
+a-k-10,2013,red,Control,mean_mass,65.5237966129148,Mean individual wet mass (g),3
+a-k-10,2014,red,Control,mean_mass,78.6834627733494,Mean individual wet mass (g),3
+a-k-10,2015,red,Control,mean_mass,62.0154726559171,Mean individual wet mass (g),3
+a-k-10,2016,red,Control,mean_mass,83.5839211160346,Mean individual wet mass (g),3
+a-k-10,2017,red,Control,mean_mass,102.450198660624,Mean individual wet mass (g),3
+a-k-10,2018,red,Control,mean_mass,85.36916716338,Mean individual wet mass (g),3
+a-k-10,2019,red,Control,mean_mass,180.161581678879,Mean individual wet mass (g),3
+a-k-10,2021,red,Control,mean_mass,39.1110208265213,Mean individual wet mass (g),4
+a-k-10,2022,red,Control,mean_mass,41.1444596212755,Mean individual wet mass (g),4
+a-k-10,1991,red,Control,biomass,265.092820461204,Wet biomass (g / m2),1
+a-k-10,1992,red,Control,biomass,42.7390502815221,Wet biomass (g / m2),1
+a-k-10,1994,red,Control,biomass,86.7012093660872,Wet biomass (g / m2),2
+a-k-10,1995,red,Control,biomass,83.1804373681947,Wet biomass (g / m2),2
+a-k-10,1996,red,Control,biomass,51.8146369097621,Wet biomass (g / m2),2
+a-k-10,1997,red,Control,biomass,254.89140186019,Wet biomass (g / m2),2
+a-k-10,1998,red,Control,biomass,176.343311833044,Wet biomass (g / m2),2
+a-k-10,1999,red,Control,biomass,110.676937824923,Wet biomass (g / m2),2
+a-k-10,2000,red,Control,biomass,85.8945162215507,Wet biomass (g / m2),2
+a-k-10,2001,red,Control,biomass,129.097721216259,Wet biomass (g / m2),2
+a-k-10,2002,red,Control,biomass,36.9198088136652,Wet biomass (g / m2),2
+a-k-10,2004,red,Control,biomass,17.4746286350407,Wet biomass (g / m2),3
+a-k-10,2005,red,Control,biomass,3.61691140336462,Wet biomass (g / m2),3
+a-k-10,2006,red,Control,biomass,56.6846509410808,Wet biomass (g / m2),3
+a-k-10,2007,red,Control,biomass,11.2909545560966,Wet biomass (g / m2),3
+a-k-10,2008,red,Control,biomass,50.6109195792401,Wet biomass (g / m2),3
+a-k-10,2009,red,Control,biomass,48.4681932670219,Wet biomass (g / m2),3
+a-k-10,2010,red,Control,biomass,60.360829036965,Wet biomass (g / m2),3
+a-k-10,2011,red,Control,biomass,315.705806951852,Wet biomass (g / m2),3
+a-k-10,2012,red,Control,biomass,150.086430351687,Wet biomass (g / m2),3
+a-k-10,2013,red,Control,biomass,207.492022607563,Wet biomass (g / m2),3
+a-k-10,2014,red,Control,biomass,780.277672502381,Wet biomass (g / m2),3
+a-k-10,2015,red,Control,biomass,175.710505858432,Wet biomass (g / m2),3
+a-k-10,2016,red,Control,biomass,31.343970418513,Wet biomass (g / m2),3
+a-k-10,2017,red,Control,biomass,29.881307942682,Wet biomass (g / m2),3
+a-k-10,2018,red,Control,biomass,96.0403130588025,Wet biomass (g / m2),3
+a-k-10,2019,red,Control,biomass,67.5605931295797,Wet biomass (g / m2),3
+a-k-10,2021,red,Control,biomass,102.666429669618,Wet biomass (g / m2),4
+a-k-10,2022,red,Control,biomass,109.718558990068,Wet biomass (g / m2),4
+a-k-11,1991,purple,Control,density,7.925,Density (individuals / m2),1
+a-k-11,1992,purple,Control,density,4.325,Density (individuals / m2),1
+a-k-11,1994,purple,Control,density,11.75,Density (individuals / m2),2
+a-k-11,1995,purple,Control,density,48.2,Density (individuals / m2),2
+a-k-11,1996,purple,Control,density,25,Density (individuals / m2),2
+a-k-11,1997,purple,Control,density,20.3333333333333,Density (individuals / m2),2
+a-k-11,1998,purple,Control,density,21.4166666666667,Density (individuals / m2),2
+a-k-11,1999,purple,Control,density,66.2916666666667,Density (individuals / m2),2
+a-k-11,2000,purple,Control,density,78.1666666666667,Density (individuals / m2),2
+a-k-11,2001,purple,Control,density,38.5833333333333,Density (individuals / m2),2
+a-k-11,2002,purple,Control,density,19.875,Density (individuals / m2),2
+a-k-11,2004,purple,Control,density,6.16666666666667,Density (individuals / m2),3
+a-k-11,2005,purple,Control,density,5.5,Density (individuals / m2),3
+a-k-11,2006,purple,Control,density,6.20833333333333,Density (individuals / m2),3
+a-k-11,2007,purple,Control,density,7.45833333333333,Density (individuals / m2),3
+a-k-11,2008,purple,Control,density,5.70833333333333,Density (individuals / m2),3
+a-k-11,2009,purple,Control,density,4.54166666666667,Density (individuals / m2),3
+a-k-11,2010,purple,Control,density,5.5,Density (individuals / m2),3
+a-k-11,2011,purple,Control,density,7.5,Density (individuals / m2),3
+a-k-11,2012,purple,Control,density,5.125,Density (individuals / m2),3
+a-k-11,2013,purple,Control,density,0.375,Density (individuals / m2),3
+a-k-11,2014,purple,Control,density,0.916666666666667,Density (individuals / m2),3
+a-k-11,2015,purple,Control,density,0.125,Density (individuals / m2),3
+a-k-11,2016,purple,Control,density,0.0833333333333333,Density (individuals / m2),3
+a-k-11,2017,purple,Control,density,1.83333333333333,Density (individuals / m2),3
+a-k-11,2018,purple,Control,density,16.5416666666667,Density (individuals / m2),3
+a-k-11,2019,purple,Control,density,13.375,Density (individuals / m2),3
+a-k-11,2021,purple,Control,density,27.0416666666667,Density (individuals / m2),4
+a-k-11,2022,purple,Control,density,25.4166666666667,Density (individuals / m2),4
+a-k-11,1991,purple,Control,mean_mass,21.2501992857898,Mean individual wet mass (g),1
+a-k-11,1992,purple,Control,mean_mass,24.3745408803399,Mean individual wet mass (g),1
+a-k-11,1994,purple,Control,mean_mass,37.3070481769328,Mean individual wet mass (g),2
+a-k-11,1995,purple,Control,mean_mass,11.5390036227909,Mean individual wet mass (g),2
+a-k-11,1996,purple,Control,mean_mass,10.6569182033139,Mean individual wet mass (g),2
+a-k-11,1997,purple,Control,mean_mass,7.18142682797841,Mean individual wet mass (g),2
+a-k-11,1998,purple,Control,mean_mass,14.8455114705039,Mean individual wet mass (g),2
+a-k-11,1999,purple,Control,mean_mass,9.97497102436153,Mean individual wet mass (g),2
+a-k-11,2000,purple,Control,mean_mass,5.26031189394469,Mean individual wet mass (g),2
+a-k-11,2001,purple,Control,mean_mass,3.85563771326385,Mean individual wet mass (g),2
+a-k-11,2002,purple,Control,mean_mass,6.16752777678898,Mean individual wet mass (g),2
+a-k-11,2004,purple,Control,mean_mass,8.08643460920952,Mean individual wet mass (g),3
+a-k-11,2005,purple,Control,mean_mass,10.064234289543,Mean individual wet mass (g),3
+a-k-11,2006,purple,Control,mean_mass,11.4879438738568,Mean individual wet mass (g),3
+a-k-11,2007,purple,Control,mean_mass,11.9528732510752,Mean individual wet mass (g),3
+a-k-11,2008,purple,Control,mean_mass,10.9970727452003,Mean individual wet mass (g),3
+a-k-11,2009,purple,Control,mean_mass,12.2241307289795,Mean individual wet mass (g),3
+a-k-11,2010,purple,Control,mean_mass,10.6275178989231,Mean individual wet mass (g),3
+a-k-11,2011,purple,Control,mean_mass,8.51620571300705,Mean individual wet mass (g),3
+a-k-11,2012,purple,Control,mean_mass,7.20892094639454,Mean individual wet mass (g),3
+a-k-11,2013,purple,Control,mean_mass,6.62834665674023,Mean individual wet mass (g),3
+a-k-11,2014,purple,Control,mean_mass,5.45389642738089,Mean individual wet mass (g),3
+a-k-11,2015,purple,Control,mean_mass,10.9882066997646,Mean individual wet mass (g),3
+a-k-11,2016,purple,Control,mean_mass,19.4219916306349,Mean individual wet mass (g),3
+a-k-11,2017,purple,Control,mean_mass,6.63419650955886,Mean individual wet mass (g),3
+a-k-11,2018,purple,Control,mean_mass,10.9829942718313,Mean individual wet mass (g),3
+a-k-11,2019,purple,Control,mean_mass,15.1348780060293,Mean individual wet mass (g),3
+a-k-11,2021,purple,Control,mean_mass,11.0642479074089,Mean individual wet mass (g),4
+a-k-11,2022,purple,Control,mean_mass,14.5772646134613,Mean individual wet mass (g),4
+a-k-11,1991,purple,Control,biomass,168.407829339884,Wet biomass (g / m2),1
+a-k-11,1992,purple,Control,biomass,105.41988930747,Wet biomass (g / m2),1
+a-k-11,1994,purple,Control,biomass,438.35781607896,Wet biomass (g / m2),2
+a-k-11,1995,purple,Control,biomass,556.179974618519,Wet biomass (g / m2),2
+a-k-11,1996,purple,Control,biomass,266.422955082848,Wet biomass (g / m2),2
+a-k-11,1997,purple,Control,biomass,146.022345502228,Wet biomass (g / m2),2
+a-k-11,1998,purple,Control,biomass,317.941370659959,Wet biomass (g / m2),2
+a-k-11,1999,purple,Control,biomass,661.257454156633,Wet biomass (g / m2),2
+a-k-11,2000,purple,Control,biomass,411.181046376676,Wet biomass (g / m2),2
+a-k-11,2001,purple,Control,biomass,148.76335510343,Wet biomass (g / m2),2
+a-k-11,2002,purple,Control,biomass,122.579614563681,Wet biomass (g / m2),2
+a-k-11,2004,purple,Control,biomass,49.866346756792,Wet biomass (g / m2),3
+a-k-11,2005,purple,Control,biomass,55.3532885924865,Wet biomass (g / m2),3
+a-k-11,2006,purple,Control,biomass,71.3209848835274,Wet biomass (g / m2),3
+a-k-11,2007,purple,Control,biomass,89.1485129976029,Wet biomass (g / m2),3
+a-k-11,2008,purple,Control,biomass,62.7749569205187,Wet biomass (g / m2),3
+a-k-11,2009,purple,Control,biomass,55.5179270607818,Wet biomass (g / m2),3
+a-k-11,2010,purple,Control,biomass,58.4513484440772,Wet biomass (g / m2),3
+a-k-11,2011,purple,Control,biomass,63.8715428475528,Wet biomass (g / m2),3
+a-k-11,2012,purple,Control,biomass,36.945719850272,Wet biomass (g / m2),3
+a-k-11,2013,purple,Control,biomass,2.48562999627759,Wet biomass (g / m2),3
+a-k-11,2014,purple,Control,biomass,4.99940505843248,Wet biomass (g / m2),3
+a-k-11,2015,purple,Control,biomass,1.37352583747058,Wet biomass (g / m2),3
+a-k-11,2016,purple,Control,biomass,1.61849930255291,Wet biomass (g / m2),3
+a-k-11,2017,purple,Control,biomass,12.1626936008579,Wet biomass (g / m2),3
+a-k-11,2018,purple,Control,biomass,181.677030246542,Wet biomass (g / m2),3
+a-k-11,2019,purple,Control,biomass,202.428993330642,Wet biomass (g / m2),3
+a-k-11,2021,purple,Control,biomass,299.195703829516,Wet biomass (g / m2),4
+a-k-11,2022,purple,Control,biomass,370.505475592141,Wet biomass (g / m2),4
+a-k-11,1991,red,Control,density,3.225,Density (individuals / m2),1
+a-k-11,1992,red,Control,density,6.25,Density (individuals / m2),1
+a-k-11,1994,red,Control,density,5.775,Density (individuals / m2),2
+a-k-11,1995,red,Control,density,9.9,Density (individuals / m2),2
+a-k-11,1996,red,Control,density,9.41666666666667,Density (individuals / m2),2
+a-k-11,1997,red,Control,density,7.58333333333333,Density (individuals / m2),2
+a-k-11,1998,red,Control,density,5.08333333333333,Density (individuals / m2),2
+a-k-11,1999,red,Control,density,8.79166666666667,Density (individuals / m2),2
+a-k-11,2000,red,Control,density,8,Density (individuals / m2),2
+a-k-11,2001,red,Control,density,7.625,Density (individuals / m2),2
+a-k-11,2002,red,Control,density,6.29166666666667,Density (individuals / m2),2
+a-k-11,2004,red,Control,density,3.75,Density (individuals / m2),3
+a-k-11,2005,red,Control,density,6.125,Density (individuals / m2),3
+a-k-11,2006,red,Control,density,10.4583333333333,Density (individuals / m2),3
+a-k-11,2007,red,Control,density,9.20833333333333,Density (individuals / m2),3
+a-k-11,2008,red,Control,density,8.54166666666667,Density (individuals / m2),3
+a-k-11,2009,red,Control,density,8.66666666666667,Density (individuals / m2),3
+a-k-11,2010,red,Control,density,7.75,Density (individuals / m2),3
+a-k-11,2011,red,Control,density,7.66666666666667,Density (individuals / m2),3
+a-k-11,2012,red,Control,density,7,Density (individuals / m2),3
+a-k-11,2013,red,Control,density,5.66666666666667,Density (individuals / m2),3
+a-k-11,2014,red,Control,density,3.25,Density (individuals / m2),3
+a-k-11,2015,red,Control,density,1.25,Density (individuals / m2),3
+a-k-11,2016,red,Control,density,1.375,Density (individuals / m2),3
+a-k-11,2017,red,Control,density,2.66666666666667,Density (individuals / m2),3
+a-k-11,2018,red,Control,density,3,Density (individuals / m2),3
+a-k-11,2019,red,Control,density,2.125,Density (individuals / m2),3
+a-k-11,2021,red,Control,density,6.54166666666667,Density (individuals / m2),4
+a-k-11,2022,red,Control,density,7.20833333333333,Density (individuals / m2),4
+a-k-11,1991,red,Control,mean_mass,211.375674883984,Mean individual wet mass (g),1
+a-k-11,1992,red,Control,mean_mass,138.819202342488,Mean individual wet mass (g),1
+a-k-11,1994,red,Control,mean_mass,155.720304256051,Mean individual wet mass (g),2
+a-k-11,1995,red,Control,mean_mass,115.492663043955,Mean individual wet mass (g),2
+a-k-11,1996,red,Control,mean_mass,61.7190003679308,Mean individual wet mass (g),2
+a-k-11,1997,red,Control,mean_mass,107.222464257287,Mean individual wet mass (g),2
+a-k-11,1998,red,Control,mean_mass,111.566447948997,Mean individual wet mass (g),2
+a-k-11,1999,red,Control,mean_mass,84.9682632924908,Mean individual wet mass (g),2
+a-k-11,2000,red,Control,mean_mass,56.4535675146414,Mean individual wet mass (g),2
+a-k-11,2001,red,Control,mean_mass,27.1353613481774,Mean individual wet mass (g),2
+a-k-11,2002,red,Control,mean_mass,21.947145305942,Mean individual wet mass (g),2
+a-k-11,2004,red,Control,mean_mass,24.0854894803959,Mean individual wet mass (g),3
+a-k-11,2005,red,Control,mean_mass,27.9418146751039,Mean individual wet mass (g),3
+a-k-11,2006,red,Control,mean_mass,55.2621194985711,Mean individual wet mass (g),3
+a-k-11,2007,red,Control,mean_mass,26.9951678610809,Mean individual wet mass (g),3
+a-k-11,2008,red,Control,mean_mass,64.3120148469919,Mean individual wet mass (g),3
+a-k-11,2009,red,Control,mean_mass,42.7038524885599,Mean individual wet mass (g),3
+a-k-11,2010,red,Control,mean_mass,38.8375530814076,Mean individual wet mass (g),3
+a-k-11,2011,red,Control,mean_mass,42.8996285667367,Mean individual wet mass (g),3
+a-k-11,2012,red,Control,mean_mass,43.8666234829612,Mean individual wet mass (g),3
+a-k-11,2013,red,Control,mean_mass,34.3077115299786,Mean individual wet mass (g),3
+a-k-11,2014,red,Control,mean_mass,43.7973339196074,Mean individual wet mass (g),3
+a-k-11,2015,red,Control,mean_mass,70.3273269264299,Mean individual wet mass (g),3
+a-k-11,2016,red,Control,mean_mass,129.417511651061,Mean individual wet mass (g),3
+a-k-11,2017,red,Control,mean_mass,59.0465079828335,Mean individual wet mass (g),3
+a-k-11,2018,red,Control,mean_mass,62.6691370483535,Mean individual wet mass (g),3
+a-k-11,2019,red,Control,mean_mass,135.552123457159,Mean individual wet mass (g),3
+a-k-11,2021,red,Control,mean_mass,66.5112854885001,Mean individual wet mass (g),4
+a-k-11,2022,red,Control,mean_mass,72.7956182721709,Mean individual wet mass (g),4
+a-k-11,1991,red,Control,biomass,681.686551500847,Wet biomass (g / m2),1
+a-k-11,1992,red,Control,biomass,867.620014640552,Wet biomass (g / m2),1
+a-k-11,1994,red,Control,biomass,899.284757078695,Wet biomass (g / m2),2
+a-k-11,1995,red,Control,biomass,1143.37736413515,Wet biomass (g / m2),2
+a-k-11,1996,red,Control,biomass,581.187253464682,Wet biomass (g / m2),2
+a-k-11,1997,red,Control,biomass,813.103687284428,Wet biomass (g / m2),2
+a-k-11,1998,red,Control,biomass,567.129443740736,Wet biomass (g / m2),2
+a-k-11,1999,red,Control,biomass,747.012648113148,Wet biomass (g / m2),2
+a-k-11,2000,red,Control,biomass,451.628540117131,Wet biomass (g / m2),2
+a-k-11,2001,red,Control,biomass,206.907130279852,Wet biomass (g / m2),2
+a-k-11,2002,red,Control,biomass,138.084122549885,Wet biomass (g / m2),2
+a-k-11,2004,red,Control,biomass,90.3205855514847,Wet biomass (g / m2),3
+a-k-11,2005,red,Control,biomass,171.143614885012,Wet biomass (g / m2),3
+a-k-11,2006,red,Control,biomass,577.949666422556,Wet biomass (g / m2),3
+a-k-11,2007,red,Control,biomass,248.58050405412,Wet biomass (g / m2),3
+a-k-11,2008,red,Control,biomass,549.331793484722,Wet biomass (g / m2),3
+a-k-11,2009,red,Control,biomass,370.100054900852,Wet biomass (g / m2),3
+a-k-11,2010,red,Control,biomass,300.991036380909,Wet biomass (g / m2),3
+a-k-11,2011,red,Control,biomass,328.897152344981,Wet biomass (g / m2),3
+a-k-11,2012,red,Control,biomass,307.066364380728,Wet biomass (g / m2),3
+a-k-11,2013,red,Control,biomass,194.410365336546,Wet biomass (g / m2),3
+a-k-11,2014,red,Control,biomass,142.341335238724,Wet biomass (g / m2),3
+a-k-11,2015,red,Control,biomass,87.9091586580374,Wet biomass (g / m2),3
+a-k-11,2016,red,Control,biomass,177.949078520209,Wet biomass (g / m2),3
+a-k-11,2017,red,Control,biomass,157.457354620889,Wet biomass (g / m2),3
+a-k-11,2018,red,Control,biomass,188.007411145061,Wet biomass (g / m2),3
+a-k-11,2019,red,Control,biomass,288.048262346463,Wet biomass (g / m2),3
+a-k-11,2021,red,Control,biomass,435.094659237272,Wet biomass (g / m2),4
+a-k-11,2022,red,Control,biomass,524.735081711898,Wet biomass (g / m2),4
+a-k-15,1991,purple,Control,density,59.5,Density (individuals / m2),1
+a-k-15,1992,purple,Control,density,58.85,Density (individuals / m2),1
+a-k-15,1994,purple,Control,density,19.75,Density (individuals / m2),2
+a-k-15,1995,purple,Control,density,133.75,Density (individuals / m2),2
+a-k-15,1996,purple,Control,density,96.125,Density (individuals / m2),2
+a-k-15,1997,purple,Control,density,58.4166666666667,Density (individuals / m2),2
+a-k-15,1998,purple,Control,density,18.7916666666667,Density (individuals / m2),2
+a-k-15,1999,purple,Control,density,50.25,Density (individuals / m2),2
+a-k-15,2000,purple,Control,density,126.791666666667,Density (individuals / m2),2
+a-k-15,2001,purple,Control,density,93.4166666666667,Density (individuals / m2),2
+a-k-15,2002,purple,Control,density,103.041666666667,Density (individuals / m2),2
+a-k-15,2004,purple,Control,density,46.0833333333333,Density (individuals / m2),3
+a-k-15,2005,purple,Control,density,68.0833333333333,Density (individuals / m2),3
+a-k-15,2006,purple,Control,density,74.7083333333333,Density (individuals / m2),3
+a-k-15,2007,purple,Control,density,82.6666666666667,Density (individuals / m2),3
+a-k-15,2008,purple,Control,density,132.625,Density (individuals / m2),3
+a-k-15,2009,purple,Control,density,139.583333333333,Density (individuals / m2),3
+a-k-15,2010,purple,Control,density,131.5,Density (individuals / m2),3
+a-k-15,2011,purple,Control,density,136.75,Density (individuals / m2),3
+a-k-15,2012,purple,Control,density,88.1666666666667,Density (individuals / m2),3
+a-k-15,2013,purple,Control,density,92,Density (individuals / m2),3
+a-k-15,2014,purple,Control,density,224.375,Density (individuals / m2),3
+a-k-15,2015,purple,Control,density,28.8333333333333,Density (individuals / m2),3
+a-k-15,2016,purple,Control,density,7.66666666666667,Density (individuals / m2),3
+a-k-15,2017,purple,Control,density,19.1666666666667,Density (individuals / m2),3
+a-k-15,2018,purple,Control,density,55.3333333333333,Density (individuals / m2),3
+a-k-15,2019,purple,Control,density,45,Density (individuals / m2),3
+a-k-15,2021,purple,Control,density,30.0416666666667,Density (individuals / m2),4
+a-k-15,2022,purple,Control,density,105.708333333333,Density (individuals / m2),4
+a-k-15,1991,purple,Control,mean_mass,9.27688784363284,Mean individual wet mass (g),1
+a-k-15,1992,purple,Control,mean_mass,7.12784510245352,Mean individual wet mass (g),1
+a-k-15,1994,purple,Control,mean_mass,7.17484083743043,Mean individual wet mass (g),2
+a-k-15,1995,purple,Control,mean_mass,2.05650194420269,Mean individual wet mass (g),2
+a-k-15,1996,purple,Control,mean_mass,2.86259071722118,Mean individual wet mass (g),2
+a-k-15,1997,purple,Control,mean_mass,7.18066733882686,Mean individual wet mass (g),2
+a-k-15,1998,purple,Control,mean_mass,10.1518130016312,Mean individual wet mass (g),2
+a-k-15,1999,purple,Control,mean_mass,6.4290565212905,Mean individual wet mass (g),2
+a-k-15,2000,purple,Control,mean_mass,1.12304550312411,Mean individual wet mass (g),2
+a-k-15,2001,purple,Control,mean_mass,3.55808777759237,Mean individual wet mass (g),2
+a-k-15,2002,purple,Control,mean_mass,5.42379228372175,Mean individual wet mass (g),2
+a-k-15,2004,purple,Control,mean_mass,4.03409328740457,Mean individual wet mass (g),3
+a-k-15,2005,purple,Control,mean_mass,4.88415954525388,Mean individual wet mass (g),3
+a-k-15,2006,purple,Control,mean_mass,3.85924917986138,Mean individual wet mass (g),3
+a-k-15,2007,purple,Control,mean_mass,2.43826428749399,Mean individual wet mass (g),3
+a-k-15,2008,purple,Control,mean_mass,1.79268455097417,Mean individual wet mass (g),3
+a-k-15,2009,purple,Control,mean_mass,1.67374319305276,Mean individual wet mass (g),3
+a-k-15,2010,purple,Control,mean_mass,2.14790277797895,Mean individual wet mass (g),3
+a-k-15,2011,purple,Control,mean_mass,2.93133638451214,Mean individual wet mass (g),3
+a-k-15,2012,purple,Control,mean_mass,2.87704997925301,Mean individual wet mass (g),3
+a-k-15,2013,purple,Control,mean_mass,2.96227220124887,Mean individual wet mass (g),3
+a-k-15,2014,purple,Control,mean_mass,2.31343548098884,Mean individual wet mass (g),3
+a-k-15,2015,purple,Control,mean_mass,5.02439182360382,Mean individual wet mass (g),3
+a-k-15,2016,purple,Control,mean_mass,11.9623121452937,Mean individual wet mass (g),3
+a-k-15,2017,purple,Control,mean_mass,10.3580085917966,Mean individual wet mass (g),3
+a-k-15,2018,purple,Control,mean_mass,11.1925843352261,Mean individual wet mass (g),3
+a-k-15,2019,purple,Control,mean_mass,13.7881817699806,Mean individual wet mass (g),3
+a-k-15,2021,purple,Control,mean_mass,8.12963177423495,Mean individual wet mass (g),4
+a-k-15,2022,purple,Control,mean_mass,2.93373247298552,Mean individual wet mass (g),4
+a-k-15,1991,purple,Control,biomass,551.974826696154,Wet biomass (g / m2),1
+a-k-15,1992,purple,Control,biomass,419.473684279389,Wet biomass (g / m2),1
+a-k-15,1994,purple,Control,biomass,141.703106539251,Wet biomass (g / m2),2
+a-k-15,1995,purple,Control,biomass,275.05713503711,Wet biomass (g / m2),2
+a-k-15,1996,purple,Control,biomass,275.166532692886,Wet biomass (g / m2),2
+a-k-15,1997,purple,Control,biomass,419.470650376469,Wet biomass (g / m2),2
+a-k-15,1998,purple,Control,biomass,190.769485988987,Wet biomass (g / m2),2
+a-k-15,1999,purple,Control,biomass,323.060090194848,Wet biomass (g / m2),2
+a-k-15,2000,purple,Control,biomass,142.392811083611,Wet biomass (g / m2),2
+a-k-15,2001,purple,Control,biomass,332.384699890087,Wet biomass (g / m2),2
+a-k-15,2002,purple,Control,biomass,558.876596568496,Wet biomass (g / m2),2
+a-k-15,2004,purple,Control,biomass,185.904465661227,Wet biomass (g / m2),3
+a-k-15,2005,purple,Control,biomass,332.529862372701,Wet biomass (g / m2),3
+a-k-15,2006,purple,Control,biomass,288.318074145477,Wet biomass (g / m2),3
+a-k-15,2007,purple,Control,biomass,201.563181099503,Wet biomass (g / m2),3
+a-k-15,2008,purple,Control,biomass,237.754788572949,Wet biomass (g / m2),3
+a-k-15,2009,purple,Control,biomass,233.626654030282,Wet biomass (g / m2),3
+a-k-15,2010,purple,Control,biomass,282.449215304232,Wet biomass (g / m2),3
+a-k-15,2011,purple,Control,biomass,400.860250582036,Wet biomass (g / m2),3
+a-k-15,2012,purple,Control,biomass,253.65990650414,Wet biomass (g / m2),3
+a-k-15,2013,purple,Control,biomass,272.529042514896,Wet biomass (g / m2),3
+a-k-15,2014,purple,Control,biomass,519.07708604687,Wet biomass (g / m2),3
+a-k-15,2015,purple,Control,biomass,144.869964247243,Wet biomass (g / m2),3
+a-k-15,2016,purple,Control,biomass,91.7110597805852,Wet biomass (g / m2),3
+a-k-15,2017,purple,Control,biomass,198.528498009434,Wet biomass (g / m2),3
+a-k-15,2018,purple,Control,biomass,619.32299988251,Wet biomass (g / m2),3
+a-k-15,2019,purple,Control,biomass,620.468179649127,Wet biomass (g / m2),3
+a-k-15,2021,purple,Control,biomass,244.227687884308,Wet biomass (g / m2),4
+a-k-15,2022,purple,Control,biomass,310.119970165177,Wet biomass (g / m2),4
+a-k-15,1991,red,Control,density,2.35,Density (individuals / m2),1
+a-k-15,1992,red,Control,density,3.1,Density (individuals / m2),1
+a-k-15,1994,red,Control,density,5,Density (individuals / m2),2
+a-k-15,1995,red,Control,density,11.35,Density (individuals / m2),2
+a-k-15,1996,red,Control,density,2.70833333333333,Density (individuals / m2),2
+a-k-15,1997,red,Control,density,3.75,Density (individuals / m2),2
+a-k-15,1998,red,Control,density,2.875,Density (individuals / m2),2
+a-k-15,1999,red,Control,density,14.2083333333333,Density (individuals / m2),2
+a-k-15,2000,red,Control,density,15.2083333333333,Density (individuals / m2),2
+a-k-15,2001,red,Control,density,7.875,Density (individuals / m2),2
+a-k-15,2002,red,Control,density,6.20833333333333,Density (individuals / m2),2
+a-k-15,2004,red,Control,density,33.0416666666667,Density (individuals / m2),3
+a-k-15,2005,red,Control,density,21.75,Density (individuals / m2),3
+a-k-15,2006,red,Control,density,18.3333333333333,Density (individuals / m2),3
+a-k-15,2007,red,Control,density,14.375,Density (individuals / m2),3
+a-k-15,2008,red,Control,density,13.125,Density (individuals / m2),3
+a-k-15,2009,red,Control,density,6.5,Density (individuals / m2),3
+a-k-15,2010,red,Control,density,6.70833333333333,Density (individuals / m2),3
+a-k-15,2011,red,Control,density,5.95833333333333,Density (individuals / m2),3
+a-k-15,2012,red,Control,density,7.33333333333333,Density (individuals / m2),3
+a-k-15,2013,red,Control,density,9.91666666666667,Density (individuals / m2),3
+a-k-15,2014,red,Control,density,5.25,Density (individuals / m2),3
+a-k-15,2015,red,Control,density,0.791666666666667,Density (individuals / m2),3
+a-k-15,2016,red,Control,density,0.291666666666667,Density (individuals / m2),3
+a-k-15,2017,red,Control,density,0.166666666666667,Density (individuals / m2),3
+a-k-15,2018,red,Control,density,1.25,Density (individuals / m2),3
+a-k-15,2019,red,Control,density,2.66666666666667,Density (individuals / m2),3
+a-k-15,2021,red,Control,density,1.16666666666667,Density (individuals / m2),4
+a-k-15,2022,red,Control,density,2.95833333333333,Density (individuals / m2),4
+a-k-15,1991,red,Control,mean_mass,90.6486591647015,Mean individual wet mass (g),1
+a-k-15,1992,red,Control,mean_mass,71.1552340533161,Mean individual wet mass (g),1
+a-k-15,1994,red,Control,mean_mass,49.8892752940659,Mean individual wet mass (g),2
+a-k-15,1995,red,Control,mean_mass,41.4306250593947,Mean individual wet mass (g),2
+a-k-15,1996,red,Control,mean_mass,85.4924557032397,Mean individual wet mass (g),2
+a-k-15,1997,red,Control,mean_mass,51.6773370296263,Mean individual wet mass (g),2
+a-k-15,1998,red,Control,mean_mass,97.1505755528727,Mean individual wet mass (g),2
+a-k-15,1999,red,Control,mean_mass,24.7614209674932,Mean individual wet mass (g),2
+a-k-15,2000,red,Control,mean_mass,24.4561982393405,Mean individual wet mass (g),2
+a-k-15,2001,red,Control,mean_mass,54.3238739773595,Mean individual wet mass (g),2
+a-k-15,2002,red,Control,mean_mass,35.7678672652973,Mean individual wet mass (g),2
+a-k-15,2004,red,Control,mean_mass,25.9691954905994,Mean individual wet mass (g),3
+a-k-15,2005,red,Control,mean_mass,50.6395393513195,Mean individual wet mass (g),3
+a-k-15,2006,red,Control,mean_mass,26.6781731230602,Mean individual wet mass (g),3
+a-k-15,2007,red,Control,mean_mass,22.432815348518,Mean individual wet mass (g),3
+a-k-15,2008,red,Control,mean_mass,32.1209421001862,Mean individual wet mass (g),3
+a-k-15,2009,red,Control,mean_mass,24.5765204528479,Mean individual wet mass (g),3
+a-k-15,2010,red,Control,mean_mass,53.3987484057013,Mean individual wet mass (g),3
+a-k-15,2011,red,Control,mean_mass,43.1914671809008,Mean individual wet mass (g),3
+a-k-15,2012,red,Control,mean_mass,25.7085353510888,Mean individual wet mass (g),3
+a-k-15,2013,red,Control,mean_mass,48.3568911671769,Mean individual wet mass (g),3
+a-k-15,2014,red,Control,mean_mass,27.0102454554158,Mean individual wet mass (g),3
+a-k-15,2015,red,Control,mean_mass,100.396650651845,Mean individual wet mass (g),3
+a-k-15,2016,red,Control,mean_mass,136.459637259014,Mean individual wet mass (g),3
+a-k-15,2017,red,Control,mean_mass,49.4609941875181,Mean individual wet mass (g),3
+a-k-15,2018,red,Control,mean_mass,52.4289147487156,Mean individual wet mass (g),3
+a-k-15,2019,red,Control,mean_mass,56.7026694308737,Mean individual wet mass (g),3
+a-k-15,2021,red,Control,mean_mass,68.3438587519997,Mean individual wet mass (g),4
+a-k-15,2022,red,Control,mean_mass,18.0743011110968,Mean individual wet mass (g),4
+a-k-15,1991,red,Control,biomass,213.024349037049,Wet biomass (g / m2),1
+a-k-15,1992,red,Control,biomass,220.58122556528,Wet biomass (g / m2),1
+a-k-15,1994,red,Control,biomass,249.44637647033,Wet biomass (g / m2),2
+a-k-15,1995,red,Control,biomass,470.23759442413,Wet biomass (g / m2),2
+a-k-15,1996,red,Control,biomass,231.542067529608,Wet biomass (g / m2),2
+a-k-15,1997,red,Control,biomass,193.790013861099,Wet biomass (g / m2),2
+a-k-15,1998,red,Control,biomass,279.307904714509,Wet biomass (g / m2),2
+a-k-15,1999,red,Control,biomass,351.818522913133,Wet biomass (g / m2),2
+a-k-15,2000,red,Control,biomass,371.93801488997,Wet biomass (g / m2),2
+a-k-15,2001,red,Control,biomass,427.800507571706,Wet biomass (g / m2),2
+a-k-15,2002,red,Control,biomass,222.058842605388,Wet biomass (g / m2),2
+a-k-15,2004,red,Control,biomass,858.065501001889,Wet biomass (g / m2),3
+a-k-15,2005,red,Control,biomass,1101.4099808912,Wet biomass (g / m2),3
+a-k-15,2006,red,Control,biomass,489.099840589438,Wet biomass (g / m2),3
+a-k-15,2007,red,Control,biomass,322.471720634947,Wet biomass (g / m2),3
+a-k-15,2008,red,Control,biomass,421.587365064944,Wet biomass (g / m2),3
+a-k-15,2009,red,Control,biomass,159.747382943512,Wet biomass (g / m2),3
+a-k-15,2010,red,Control,biomass,358.216603888246,Wet biomass (g / m2),3
+a-k-15,2011,red,Control,biomass,257.349158619534,Wet biomass (g / m2),3
+a-k-15,2012,red,Control,biomass,188.529259241318,Wet biomass (g / m2),3
+a-k-15,2013,red,Control,biomass,479.539170741171,Wet biomass (g / m2),3
+a-k-15,2014,red,Control,biomass,141.803788640933,Wet biomass (g / m2),3
+a-k-15,2015,red,Control,biomass,79.4806817660442,Wet biomass (g / m2),3
+a-k-15,2016,red,Control,biomass,39.800727533879,Wet biomass (g / m2),3
+a-k-15,2017,red,Control,biomass,8.24349903125303,Wet biomass (g / m2),3
+a-k-15,2018,red,Control,biomass,65.5361434358946,Wet biomass (g / m2),3
+a-k-15,2019,red,Control,biomass,151.20711848233,Wet biomass (g / m2),3
+a-k-15,2021,red,Control,biomass,79.7345018773329,Wet biomass (g / m2),4
+a-k-15,2022,red,Control,biomass,53.4698074536613,Wet biomass (g / m2),4
+a-k-16,1991,purple,Control,density,37.25,Density (individuals / m2),1
+a-k-16,1992,purple,Control,density,35.125,Density (individuals / m2),1
+a-k-16,1994,purple,Control,density,6.375,Density (individuals / m2),2
+a-k-16,1995,purple,Control,density,14.35,Density (individuals / m2),2
+a-k-16,1996,purple,Control,density,13.875,Density (individuals / m2),2
+a-k-16,1997,purple,Control,density,30.5416666666667,Density (individuals / m2),2
+a-k-16,1998,purple,Control,density,4.25,Density (individuals / m2),2
+a-k-16,1999,purple,Control,density,1.875,Density (individuals / m2),2
+a-k-16,2000,purple,Control,density,12.9583333333333,Density (individuals / m2),2
+a-k-16,2001,purple,Control,density,17.2083333333333,Density (individuals / m2),2
+a-k-16,2002,purple,Control,density,19.9583333333333,Density (individuals / m2),2
+a-k-16,2004,purple,Control,density,42.5833333333333,Density (individuals / m2),3
+a-k-16,2005,purple,Control,density,57.75,Density (individuals / m2),3
+a-k-16,2006,purple,Control,density,34.4166666666667,Density (individuals / m2),3
+a-k-16,2007,purple,Control,density,40.0833333333333,Density (individuals / m2),3
+a-k-16,2008,purple,Control,density,90.0416666666667,Density (individuals / m2),3
+a-k-16,2009,purple,Control,density,135.458333333333,Density (individuals / m2),3
+a-k-16,2010,purple,Control,density,35.4583333333333,Density (individuals / m2),3
+a-k-16,2011,purple,Control,density,79.7083333333333,Density (individuals / m2),3
+a-k-16,2012,purple,Control,density,63.9166666666667,Density (individuals / m2),3
+a-k-16,2013,purple,Control,density,49.9583333333333,Density (individuals / m2),3
+a-k-16,2014,purple,Control,density,44.1666666666667,Density (individuals / m2),3
+a-k-16,2015,purple,Control,density,20.6666666666667,Density (individuals / m2),3
+a-k-16,2016,purple,Control,density,0.458333333333333,Density (individuals / m2),3
+a-k-16,2017,purple,Control,density,0.708333333333333,Density (individuals / m2),3
+a-k-16,2018,purple,Control,density,1.75,Density (individuals / m2),3
+a-k-16,2019,purple,Control,density,1.79166666666667,Density (individuals / m2),3
+a-k-16,2021,purple,Control,density,1.75,Density (individuals / m2),4
+a-k-16,2022,purple,Control,density,1.75,Density (individuals / m2),4
+a-k-16,1991,purple,Control,mean_mass,19.3923467443872,Mean individual wet mass (g),1
+a-k-16,1992,purple,Control,mean_mass,26.9058258444419,Mean individual wet mass (g),1
+a-k-16,1994,purple,Control,mean_mass,22.8726198972175,Mean individual wet mass (g),2
+a-k-16,1995,purple,Control,mean_mass,27.4616234778993,Mean individual wet mass (g),2
+a-k-16,1996,purple,Control,mean_mass,29.2601910717146,Mean individual wet mass (g),2
+a-k-16,1997,purple,Control,mean_mass,34.0151608427046,Mean individual wet mass (g),2
+a-k-16,1998,purple,Control,mean_mass,32.1794703745564,Mean individual wet mass (g),2
+a-k-16,1999,purple,Control,mean_mass,13.1706264912876,Mean individual wet mass (g),2
+a-k-16,2000,purple,Control,mean_mass,8.08042462044637,Mean individual wet mass (g),2
+a-k-16,2001,purple,Control,mean_mass,11.5914419416654,Mean individual wet mass (g),2
+a-k-16,2002,purple,Control,mean_mass,17.1894420037125,Mean individual wet mass (g),2
+a-k-16,2004,purple,Control,mean_mass,5.69909183773817,Mean individual wet mass (g),3
+a-k-16,2005,purple,Control,mean_mass,5.657391292367,Mean individual wet mass (g),3
+a-k-16,2006,purple,Control,mean_mass,5.93399411843135,Mean individual wet mass (g),3
+a-k-16,2007,purple,Control,mean_mass,5.90568396510538,Mean individual wet mass (g),3
+a-k-16,2008,purple,Control,mean_mass,1.39593937682494,Mean individual wet mass (g),3
+a-k-16,2009,purple,Control,mean_mass,1.46131633692065,Mean individual wet mass (g),3
+a-k-16,2010,purple,Control,mean_mass,3.6143541277588,Mean individual wet mass (g),3
+a-k-16,2011,purple,Control,mean_mass,5.80217903902274,Mean individual wet mass (g),3
+a-k-16,2012,purple,Control,mean_mass,4.4405297482467,Mean individual wet mass (g),3
+a-k-16,2013,purple,Control,mean_mass,7.02088460022442,Mean individual wet mass (g),3
+a-k-16,2014,purple,Control,mean_mass,15.1732813595135,Mean individual wet mass (g),3
+a-k-16,2015,purple,Control,mean_mass,17.2473854563976,Mean individual wet mass (g),3
+a-k-16,2016,purple,Control,mean_mass,23.6820927067141,Mean individual wet mass (g),3
+a-k-16,2017,purple,Control,mean_mass,16.363073965241,Mean individual wet mass (g),3
+a-k-16,2018,purple,Control,mean_mass,24.7721295564037,Mean individual wet mass (g),3
+a-k-16,2019,purple,Control,mean_mass,23.6814843356307,Mean individual wet mass (g),3
+a-k-16,2021,purple,Control,mean_mass,18.3354319588966,Mean individual wet mass (g),4
+a-k-16,2022,purple,Control,mean_mass,22.2477474246981,Mean individual wet mass (g),4
+a-k-16,1991,purple,Control,biomass,722.364916228425,Wet biomass (g / m2),1
+a-k-16,1992,purple,Control,biomass,945.067132786022,Wet biomass (g / m2),1
+a-k-16,1994,purple,Control,biomass,145.812951844762,Wet biomass (g / m2),2
+a-k-16,1995,purple,Control,biomass,394.074296907854,Wet biomass (g / m2),2
+a-k-16,1996,purple,Control,biomass,405.98515112004,Wet biomass (g / m2),2
+a-k-16,1997,purple,Control,biomass,1038.87970407094,Wet biomass (g / m2),2
+a-k-16,1998,purple,Control,biomass,136.762749091865,Wet biomass (g / m2),2
+a-k-16,1999,purple,Control,biomass,24.6949246711643,Wet biomass (g / m2),2
+a-k-16,2000,purple,Control,biomass,104.708835706618,Wet biomass (g / m2),2
+a-k-16,2001,purple,Control,biomass,199.46939674616,Wet biomass (g / m2),2
+a-k-16,2002,purple,Control,biomass,343.072613324096,Wet biomass (g / m2),2
+a-k-16,2004,purple,Control,biomass,242.686327423684,Wet biomass (g / m2),3
+a-k-16,2005,purple,Control,biomass,326.714347134194,Wet biomass (g / m2),3
+a-k-16,2006,purple,Control,biomass,204.228297576012,Wet biomass (g / m2),3
+a-k-16,2007,purple,Control,biomass,236.719498934641,Wet biomass (g / m2),3
+a-k-16,2008,purple,Control,biomass,125.692708054946,Wet biomass (g / m2),3
+a-k-16,2009,purple,Control,biomass,197.947475472043,Wet biomass (g / m2),3
+a-k-16,2010,purple,Control,biomass,128.158973446781,Wet biomass (g / m2),3
+a-k-16,2011,purple,Control,biomass,462.482020902104,Wet biomass (g / m2),3
+a-k-16,2012,purple,Control,biomass,283.823859742102,Wet biomass (g / m2),3
+a-k-16,2013,purple,Control,biomass,350.751693152878,Wet biomass (g / m2),3
+a-k-16,2014,purple,Control,biomass,670.153260045181,Wet biomass (g / m2),3
+a-k-16,2015,purple,Control,biomass,356.445966098884,Wet biomass (g / m2),3
+a-k-16,2016,purple,Control,biomass,10.8542924905773,Wet biomass (g / m2),3
+a-k-16,2017,purple,Control,biomass,11.5905107253791,Wet biomass (g / m2),3
+a-k-16,2018,purple,Control,biomass,43.3512267237065,Wet biomass (g / m2),3
+a-k-16,2019,purple,Control,biomass,42.4293261013383,Wet biomass (g / m2),3
+a-k-16,2021,purple,Control,biomass,32.0870059280691,Wet biomass (g / m2),4
+a-k-16,2022,purple,Control,biomass,38.9335579932217,Wet biomass (g / m2),4
+a-k-16,1991,red,Control,density,1.7,Density (individuals / m2),1
+a-k-16,1992,red,Control,density,2.225,Density (individuals / m2),1
+a-k-16,1994,red,Control,density,4.35,Density (individuals / m2),2
+a-k-16,1995,red,Control,density,11.4,Density (individuals / m2),2
+a-k-16,1996,red,Control,density,11.9583333333333,Density (individuals / m2),2
+a-k-16,1997,red,Control,density,13.4166666666667,Density (individuals / m2),2
+a-k-16,1998,red,Control,density,7.5,Density (individuals / m2),2
+a-k-16,1999,red,Control,density,7.79166666666667,Density (individuals / m2),2
+a-k-16,2000,red,Control,density,9,Density (individuals / m2),2
+a-k-16,2001,red,Control,density,6.375,Density (individuals / m2),2
+a-k-16,2002,red,Control,density,4.04166666666667,Density (individuals / m2),2
+a-k-16,2004,red,Control,density,19.125,Density (individuals / m2),3
+a-k-16,2005,red,Control,density,16,Density (individuals / m2),3
+a-k-16,2006,red,Control,density,12.75,Density (individuals / m2),3
+a-k-16,2007,red,Control,density,10.875,Density (individuals / m2),3
+a-k-16,2008,red,Control,density,10.625,Density (individuals / m2),3
+a-k-16,2009,red,Control,density,7.875,Density (individuals / m2),3
+a-k-16,2010,red,Control,density,7.45833333333333,Density (individuals / m2),3
+a-k-16,2011,red,Control,density,11.3333333333333,Density (individuals / m2),3
+a-k-16,2012,red,Control,density,3.54166666666667,Density (individuals / m2),3
+a-k-16,2013,red,Control,density,2.08333333333333,Density (individuals / m2),3
+a-k-16,2014,red,Control,density,1.54166666666667,Density (individuals / m2),3
+a-k-16,2015,red,Control,density,2,Density (individuals / m2),3
+a-k-16,2016,red,Control,density,0.583333333333333,Density (individuals / m2),3
+a-k-16,2017,red,Control,density,0.958333333333333,Density (individuals / m2),3
+a-k-16,2018,red,Control,density,0.958333333333333,Density (individuals / m2),3
+a-k-16,2019,red,Control,density,1.125,Density (individuals / m2),3
+a-k-16,2021,red,Control,density,0.416666666666667,Density (individuals / m2),4
+a-k-16,2022,red,Control,density,0.875,Density (individuals / m2),4
+a-k-16,1991,red,Control,mean_mass,99.869195262763,Mean individual wet mass (g),1
+a-k-16,1992,red,Control,mean_mass,122.900112647254,Mean individual wet mass (g),1
+a-k-16,1994,red,Control,mean_mass,53.5227146241126,Mean individual wet mass (g),2
+a-k-16,1995,red,Control,mean_mass,70.512644006352,Mean individual wet mass (g),2
+a-k-16,1996,red,Control,mean_mass,133.975114073719,Mean individual wet mass (g),2
+a-k-16,1997,red,Control,mean_mass,136.190306366173,Mean individual wet mass (g),2
+a-k-16,1998,red,Control,mean_mass,125.009941444251,Mean individual wet mass (g),2
+a-k-16,1999,red,Control,mean_mass,122.205234140778,Mean individual wet mass (g),2
+a-k-16,2000,red,Control,mean_mass,118.863650463555,Mean individual wet mass (g),2
+a-k-16,2001,red,Control,mean_mass,105.705330540448,Mean individual wet mass (g),2
+a-k-16,2002,red,Control,mean_mass,115.104167946879,Mean individual wet mass (g),2
+a-k-16,2004,red,Control,mean_mass,56.0568398539997,Mean individual wet mass (g),3
+a-k-16,2005,red,Control,mean_mass,36.8808708009587,Mean individual wet mass (g),3
+a-k-16,2006,red,Control,mean_mass,25.5273133749462,Mean individual wet mass (g),3
+a-k-16,2007,red,Control,mean_mass,14.2146022041995,Mean individual wet mass (g),3
+a-k-16,2008,red,Control,mean_mass,15.9789655117475,Mean individual wet mass (g),3
+a-k-16,2009,red,Control,mean_mass,15.7912052829383,Mean individual wet mass (g),3
+a-k-16,2010,red,Control,mean_mass,19.0036240383517,Mean individual wet mass (g),3
+a-k-16,2011,red,Control,mean_mass,31.4775880948622,Mean individual wet mass (g),3
+a-k-16,2012,red,Control,mean_mass,31.9712486961873,Mean individual wet mass (g),3
+a-k-16,2013,red,Control,mean_mass,20.4465470017988,Mean individual wet mass (g),3
+a-k-16,2014,red,Control,mean_mass,57.4733706355639,Mean individual wet mass (g),3
+a-k-16,2015,red,Control,mean_mass,80.5365443177915,Mean individual wet mass (g),3
+a-k-16,2016,red,Control,mean_mass,161.09051736991,Mean individual wet mass (g),3
+a-k-16,2017,red,Control,mean_mass,140.782799326941,Mean individual wet mass (g),3
+a-k-16,2018,red,Control,mean_mass,158.076163107981,Mean individual wet mass (g),3
+a-k-16,2019,red,Control,mean_mass,180.474149715,Mean individual wet mass (g),3
+a-k-16,2021,red,Control,mean_mass,208.044858531637,Mean individual wet mass (g),4
+a-k-16,2022,red,Control,mean_mass,232.837543742386,Mean individual wet mass (g),4
+a-k-16,1991,red,Control,biomass,169.777631946697,Wet biomass (g / m2),1
+a-k-16,1992,red,Control,biomass,273.45275064014,Wet biomass (g / m2),1
+a-k-16,1994,red,Control,biomass,232.82380861489,Wet biomass (g / m2),2
+a-k-16,1995,red,Control,biomass,803.844141672413,Wet biomass (g / m2),2
+a-k-16,1996,red,Control,biomass,1602.11907246489,Wet biomass (g / m2),2
+a-k-16,1997,red,Control,biomass,1827.21994374615,Wet biomass (g / m2),2
+a-k-16,1998,red,Control,biomass,937.574560831879,Wet biomass (g / m2),2
+a-k-16,1999,red,Control,biomass,952.182449346892,Wet biomass (g / m2),2
+a-k-16,2000,red,Control,biomass,1069.77285417199,Wet biomass (g / m2),2
+a-k-16,2001,red,Control,biomass,673.871482195354,Wet biomass (g / m2),2
+a-k-16,2002,red,Control,biomass,465.212678785301,Wet biomass (g / m2),2
+a-k-16,2004,red,Control,biomass,1072.08706220774,Wet biomass (g / m2),3
+a-k-16,2005,red,Control,biomass,590.093932815339,Wet biomass (g / m2),3
+a-k-16,2006,red,Control,biomass,325.473245530564,Wet biomass (g / m2),3
+a-k-16,2007,red,Control,biomass,154.58379897067,Wet biomass (g / m2),3
+a-k-16,2008,red,Control,biomass,169.776508562317,Wet biomass (g / m2),3
+a-k-16,2009,red,Control,biomass,124.355741603139,Wet biomass (g / m2),3
+a-k-16,2010,red,Control,biomass,141.735362619373,Wet biomass (g / m2),3
+a-k-16,2011,red,Control,biomass,356.745998408438,Wet biomass (g / m2),3
+a-k-16,2012,red,Control,biomass,113.231505798997,Wet biomass (g / m2),3
+a-k-16,2013,red,Control,biomass,42.5969729204141,Wet biomass (g / m2),3
+a-k-16,2014,red,Control,biomass,88.6047797298277,Wet biomass (g / m2),3
+a-k-16,2015,red,Control,biomass,161.073088635583,Wet biomass (g / m2),3
+a-k-16,2016,red,Control,biomass,93.9694684657809,Wet biomass (g / m2),3
+a-k-16,2017,red,Control,biomass,134.916849354985,Wet biomass (g / m2),3
+a-k-16,2018,red,Control,biomass,151.489656311815,Wet biomass (g / m2),3
+a-k-16,2019,red,Control,biomass,203.033418429375,Wet biomass (g / m2),3
+a-k-16,2021,red,Control,biomass,86.6853577215155,Wet biomass (g / m2),4
+a-k-16,2022,red,Control,biomass,203.732850774588,Wet biomass (g / m2),4

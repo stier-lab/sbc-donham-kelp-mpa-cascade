@@ -1,0 +1,10 @@
+MPA,window,n_years,slope,raw_available_years,both_zero_years,analysis_status
+Gull Island SMR,full_1991_2003,12,0.152712323220436,6,1,post-hoc prewindow and zero-support diagnostic; no annual-iid inference
+Gull Island SMR,recent_1996_2003,7,0.808932478359865,6,1,post-hoc prewindow and zero-support diagnostic; no annual-iid inference
+Gull Island SMR,exclude_2003,11,0.201613137656203,5,1,post-hoc prewindow and zero-support diagnostic; no annual-iid inference
+Scorpion SMR,full_1991_2003,11,0.271892264367313,7,7,post-hoc prewindow and zero-support diagnostic; no annual-iid inference
+Scorpion SMR,recent_1996_2003,8,0,7,7,post-hoc prewindow and zero-support diagnostic; no annual-iid inference
+Scorpion SMR,exclude_2003,10,0.301017895964417,6,6,post-hoc prewindow and zero-support diagnostic; no annual-iid inference
+Santa Barbara Island SMR,full_1991_2003,12,0.299136885293399,4,2,post-hoc prewindow and zero-support diagnostic; no annual-iid inference
+Santa Barbara Island SMR,recent_1996_2003,7,0.690650670884008,4,2,post-hoc prewindow and zero-support diagnostic; no annual-iid inference
+Santa Barbara Island SMR,exclude_2003,11,0.260086283498131,3,2,post-hoc prewindow and zero-support diagnostic; no annual-iid inference

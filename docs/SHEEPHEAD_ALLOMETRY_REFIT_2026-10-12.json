@@ -1,0 +1,474 @@
+{
+  "scope": "PISCO sheephead biomass only",
+  "checks": [
+    "All record identities and non-target bytes preserved; satellite/site files unchanged",
+    "All 144 primary keys and sample counts retained; only PISCO sheephead biomass histories can change",
+    "Reference identities, exclusions and survey footprints retained after explicit fingerprint refresh",
+    "Nine-test BH adjustment independently reconstructed; inference changes reported explicitly",
+    "Six pathway memberships retained; the other five regressions are unchanged",
+    "Modern kelp resistance/recovery and historical Landsat results unchanged"
+  ],
+  "input_changes": {
+    "harmonized_raw_responses.csv": {
+      "rows": 6280,
+      "changed_rows": 398,
+      "target_rows": 408,
+      "non_target_rows_byte_preserved": 5872,
+      "after_md5": "c817b10fac60d714be510fc8547a2685"
+    },
+    "harmonized_response_ratios.csv": {
+      "rows": 3341,
+      "changed_rows": 204,
+      "target_rows": 204,
+      "non_target_rows_byte_preserved": 3137,
+      "after_md5": "a0654cdb05e8fccfd58ab1bd6b13b4c9"
+    }
+  },
+  "primary_changes": [
+    {
+      "key": [
+        "Abalone Cove SMCA",
+        "S. pulcher",
+        "PISCO",
+        "Bio"
+      ],
+      "before": {
+        "Mean": "2.3858663702546026",
+        "SE": "0.9246667749183077",
+        "Model": "Linear",
+        "AnalysisType": "CI"
+      },
+      "after": {
+        "Mean": "2.4378990953166455",
+        "SE": "0.9515629272436796",
+        "Model": "Linear",
+        "AnalysisType": "CI"
+      }
+    },
+    {
+      "key": [
+        "Anacapa Island SMR 2003",
+        "S. pulcher",
+        "PISCO",
+        "Bio"
+      ],
+      "before": {
+        "Mean": "0.38549559501251296",
+        "SE": "0.13061558223634653",
+        "Model": "Mean",
+        "AnalysisType": "CI"
+      },
+      "after": {
+        "Mean": "0.4053167041742197",
+        "SE": "0.13122926185720865",
+        "Model": "Mean",
+        "AnalysisType": "CI"
+      }
+    },
+    {
+      "key": [
+        "Blue Cavern Onshore SMCA",
+        "S. pulcher",
+        "PISCO",
+        "Bio"
+      ],
+      "before": {
+        "Mean": "1.701104879976435",
+        "SE": "0.5517979902118008",
+        "Model": "Mean",
+        "AnalysisType": "CI"
+      },
+      "after": {
+        "Mean": "1.7539076903908382",
+        "SE": "0.5634057880601602",
+        "Model": "Mean",
+        "AnalysisType": "CI"
+      }
+    },
+    {
+      "key": [
+        "Campus Point SMCA",
+        "S. pulcher",
+        "PISCO",
+        "Bio"
+      ],
+      "before": {
+        "Mean": "0.0533644218968162",
+        "SE": "0.28238819255957986",
+        "Model": "Mean",
+        "AnalysisType": "CI"
+      },
+      "after": {
+        "Mean": "0.061970191751035776",
+        "SE": "0.2909572745788671",
+        "Model": "Mean",
+        "AnalysisType": "CI"
+      }
+    },
+    {
+      "key": [
+        "Farnsworth Onshore SMCA",
+        "S. pulcher",
+        "PISCO",
+        "Bio"
+      ],
+      "before": {
+        "Mean": "0.4031616172908906",
+        "SE": "0.264642181881532",
+        "Model": "Mean",
+        "AnalysisType": "CI"
+      },
+      "after": {
+        "Mean": "0.4287429341628146",
+        "SE": "0.2742083666514146",
+        "Model": "Mean",
+        "AnalysisType": "CI"
+      }
+    },
+    {
+      "key": [
+        "Gull Island SMR",
+        "S. pulcher",
+        "PISCO",
+        "Bio"
+      ],
+      "before": {
+        "Mean": "0.6193411394355445",
+        "SE": "0.15511578813598664",
+        "Model": "Linear",
+        "AnalysisType": "CI"
+      },
+      "after": {
+        "Mean": "0.6441455580916469",
+        "SE": "0.16327048712081665",
+        "Model": "Linear",
+        "AnalysisType": "CI"
+      }
+    },
+    {
+      "key": [
+        "Harris Point SMR",
+        "S. pulcher",
+        "PISCO",
+        "Bio"
+      ],
+      "before": {
+        "Mean": "2.492121360672378",
+        "SE": "0.6157671734106868",
+        "Model": "Mean",
+        "AnalysisType": "CI"
+      },
+      "after": {
+        "Mean": "2.5566153332518264",
+        "SE": "0.6365613556606603",
+        "Model": "Mean",
+        "AnalysisType": "CI"
+      }
+    },
+    {
+      "key": [
+        "Long Point SMR",
+        "S. pulcher",
+        "PISCO",
+        "Bio"
+      ],
+      "before": {
+        "Mean": "1.4035353892337727",
+        "SE": "0.32675761115856705",
+        "Model": "Mean",
+        "AnalysisType": "CI"
+      },
+      "after": {
+        "Mean": "1.4507039463770122",
+        "SE": "0.3370482620529365",
+        "Model": "Mean",
+        "AnalysisType": "CI"
+      }
+    },
+    {
+      "key": [
+        "Matlahuayl SMR",
+        "S. pulcher",
+        "PISCO",
+        "Bio"
+      ],
+      "before": {
+        "Mean": "0.3191445988663803",
+        "SE": "0.45148326504813713",
+        "Model": "Mean",
+        "AnalysisType": "CI"
+      },
+      "after": {
+        "Mean": "0.32731748023558466",
+        "SE": "0.45694089986037184",
+        "Model": "Mean",
+        "AnalysisType": "CI"
+      }
+    },
+    {
+      "key": [
+        "Naples SMCA",
+        "S. pulcher",
+        "PISCO",
+        "Bio"
+      ],
+      "before": {
+        "Mean": "2.0181326821974666",
+        "SE": "0.2051217157986419",
+        "Model": "Mean",
+        "AnalysisType": "CI"
+      },
+      "after": {
+        "Mean": "2.052493408706139",
+        "SE": "0.21133420239175416",
+        "Model": "Mean",
+        "AnalysisType": "CI"
+      }
+    },
+    {
+      "key": [
+        "Point Vicente SMCA",
+        "S. pulcher",
+        "PISCO",
+        "Bio"
+      ],
+      "before": {
+        "Mean": "1.2722680378233566",
+        "SE": "0.3860061018976315",
+        "Model": "Linear",
+        "AnalysisType": "CI"
+      },
+      "after": {
+        "Mean": "1.3151558799411793",
+        "SE": "0.39507745560663693",
+        "Model": "Linear",
+        "AnalysisType": "CI"
+      }
+    },
+    {
+      "key": [
+        "Santa Barbara Island SMR",
+        "S. pulcher",
+        "PISCO",
+        "Bio"
+      ],
+      "before": {
+        "Mean": "0.5439191326203388",
+        "SE": "0.14949548173042704",
+        "Model": "Linear",
+        "AnalysisType": "CI"
+      },
+      "after": {
+        "Mean": "0.5863453729974916",
+        "SE": "0.15176288150844838",
+        "Model": "Linear",
+        "AnalysisType": "CI"
+      }
+    },
+    {
+      "key": [
+        "Scorpion SMR",
+        "S. pulcher",
+        "PISCO",
+        "Bio"
+      ],
+      "before": {
+        "Mean": "0.505743645547486",
+        "SE": "0.06855555546199661",
+        "Model": "Mean",
+        "AnalysisType": "CI"
+      },
+      "after": {
+        "Mean": "0.5352360705363237",
+        "SE": "0.07336738733935474",
+        "Model": "Mean",
+        "AnalysisType": "CI"
+      }
+    },
+    {
+      "key": [
+        "South Point SMR",
+        "S. pulcher",
+        "PISCO",
+        "Bio"
+      ],
+      "before": {
+        "Mean": "0.8559134382406488",
+        "SE": "0.10581518567263955",
+        "Model": "Mean",
+        "AnalysisType": "CI"
+      },
+      "after": {
+        "Mean": "0.8711107402171235",
+        "SE": "0.10690547699756214",
+        "Model": "Mean",
+        "AnalysisType": "CI"
+      }
+    },
+    {
+      "key": [
+        "Swamis SMCA",
+        "S. pulcher",
+        "PISCO",
+        "Bio"
+      ],
+      "before": {
+        "Mean": "3.08363626189205",
+        "SE": "0.7763757053616207",
+        "Model": "Mean",
+        "AnalysisType": "CI"
+      },
+      "after": {
+        "Mean": "3.1507093367637413",
+        "SE": "0.7879219337888825",
+        "Model": "Mean",
+        "AnalysisType": "CI"
+      }
+    }
+  ],
+  "model_or_design_changes": [],
+  "pooled_changes": [
+    {
+      "taxon": "S. purpuratus",
+      "response": "Biomass",
+      "old_estimate": -0.370411882334232,
+      "new_estimate": -0.363589790412974,
+      "new_ratio": 0.695176304246262,
+      "new_ci": [
+        0.42877801228190066,
+        1.1270869310988954
+      ],
+      "new_q": 0.2070559694806695,
+      "direction_changed": false,
+      "fdr_classification_changed": false
+    },
+    {
+      "taxon": "M. franciscanus",
+      "response": "Biomass",
+      "old_estimate": 0.745426734177849,
+      "new_estimate": 0.74793602844268,
+      "new_ratio": 2.1126350948782346,
+      "new_ci": [
+        1.3430063970235007,
+        3.32331033865737
+      ],
+      "new_q": 0.003470446131387435,
+      "direction_changed": false,
+      "fdr_classification_changed": false
+    },
+    {
+      "taxon": "M. pyrifera",
+      "response": "Biomass",
+      "old_estimate": 0.806823368106329,
+      "new_estimate": 0.811352206090163,
+      "new_ratio": 2.2509496775791953,
+      "new_ci": [
+        1.410469212958144,
+        3.5922616420442566
+      ],
+      "new_q": 0.002722600610480091,
+      "direction_changed": false,
+      "fdr_classification_changed": false
+    },
+    {
+      "taxon": "P. interruptus",
+      "response": "Biomass",
+      "old_estimate": 0.346955971731866,
+      "new_estimate": 0.350258717223504,
+      "new_ratio": 1.4194347333058506,
+      "new_ci": [
+        0.7660086784796593,
+        2.6302508296824136
+      ],
+      "new_q": 0.31825642708428525,
+      "direction_changed": false,
+      "fdr_classification_changed": false
+    },
+    {
+      "taxon": "S. pulcher",
+      "response": "Biomass",
+      "old_estimate": 1.20818052467989,
+      "new_estimate": 1.23448828121336,
+      "new_ratio": 3.4366194879239447,
+      "new_ci": [
+        2.1632468615486866,
+        5.459549584795667
+      ],
+      "new_q": 1.0007667448567468e-05,
+      "direction_changed": false,
+      "fdr_classification_changed": false
+    },
+    {
+      "taxon": "S. purpuratus",
+      "response": "Density",
+      "old_estimate": -1.99021365992736,
+      "new_estimate": -1.99021365992736,
+      "new_ratio": 0.13666622223074218,
+      "new_ci": [
+        0.04380152018191216,
+        0.4264157093464395
+      ],
+      "new_q": 0.002722600610480091,
+      "direction_changed": false,
+      "fdr_classification_changed": false
+    },
+    {
+      "taxon": "M. franciscanus",
+      "response": "Density",
+      "old_estimate": -0.610540450063269,
+      "new_estimate": -0.610540450063269,
+      "new_ratio": 0.5430572944013023,
+      "new_ci": [
+        0.17601174984420315,
+        1.675520101717661
+      ],
+      "new_q": 0.31825642708428525,
+      "direction_changed": false,
+      "fdr_classification_changed": false
+    },
+    {
+      "taxon": "P. interruptus",
+      "response": "Density",
+      "old_estimate": 0.951497106621133,
+      "new_estimate": 0.951497106621133,
+      "new_ratio": 2.589583641525772,
+      "new_ci": [
+        0.8381684483019053,
+        8.000710895338324
+      ],
+      "new_q": 0.17423371424605302,
+      "direction_changed": false,
+      "fdr_classification_changed": false
+    },
+    {
+      "taxon": "S. pulcher",
+      "response": "Density",
+      "old_estimate": -0.319457912970919,
+      "new_estimate": -0.319457912970919,
+      "new_ratio": 0.7265427797596276,
+      "new_ci": [
+        0.2357316071907221,
+        2.23926022102658
+      ],
+      "new_q": 0.572539363739219,
+      "direction_changed": false,
+      "fdr_classification_changed": false
+    }
+  ],
+  "pathway_changes": [
+    {
+      "relationship": "S. pulcher biomass -> S. purpuratus biomass",
+      "k": 9,
+      "before": {
+        "Slope_Est": 0.2884,
+        "Slope_pval": 0.200927107908735
+      },
+      "after": {
+        "Slope_Est": 0.2835,
+        "Slope_pval": 0.202055874754874
+      },
+      "nominal_classification_changed": false
+    }
+  ],
+  "status": "PASS"
+}

@@ -147,10 +147,9 @@ p <- ggplot(emm, aes(period, emmean, group = lab)) +
   facet_wrap(~ lab, nrow = 1) +
   scale_color_manual(values = c(heatwave = "#D55E00", `non-heatwave` = "#0072B2"), name = NULL) +
   scale_y_rr(yr[1], yr[2], name = "MPA effect on abundance  (RR = MPA / Reference)") +
-  labs(x = NULL, title = "Does MPA resilience repeat across two marine heatwaves? (Southern California)") +
+  labs(x = NULL) +
   theme_mpa(base_size = 9) +
-  theme(legend.position = "bottom", axis.text.x = element_text(size = 6),
-        plot.title = element_text(size = 9, face = "bold"))
+  theme(legend.position = "bottom", axis.text.x = element_text(size = 6))
 ggsave(here::here("plots", "fig_heatwave_replication.pdf"), p, width = 180, height = 90, units = "mm", device = cairo_pdf)
 ggsave(here::here("plots", "fig_heatwave_replication.png"), p, width = 180, height = 90, units = "mm", dpi = 600)
 

@@ -1,0 +1,65 @@
+species,quantity,reference_choice,before,after,step,n_before,n_after,end_year,first_post,n_reserves,eligible_for_manuscript,scope
+red,density,All eight controls: mean logs,0.59193339542956,0.964561933764362,0.372628538334802,9,15,2019,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,density,Two mapped controls: mean logs,0.749321627456338,1.34748653980275,0.598164912346415,9,15,2019,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,density,Two mapped controls: paired logs,0.749321627456338,1.34748653980275,0.598164912346415,9,15,2019,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,density,Two mapped controls: log arithmetic means,1.08525202107015,1.41153974152065,0.326287720450495,9,15,2019,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,biomass,All eight controls: mean logs,0.0202496788375582,1.07954040349657,1.05929072465901,9,15,2019,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,biomass,Two mapped controls: mean logs,0.373677702830531,1.14734043673528,0.773662733904745,9,15,2019,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,biomass,Two mapped controls: paired logs,0.373677702830531,1.14734043673528,0.773662733904745,9,15,2019,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,biomass,Two mapped controls: log arithmetic means,0.897720933056712,1.30075014932985,0.403029216273136,9,15,2019,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,density,All eight controls: mean logs,0.181009812474221,0.44026818114435,0.259258368670129,8,13,2019,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,density,Two mapped controls: mean logs,0.835125032290101,1.10172915326051,0.266604120970406,8,13,2019,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,density,Two mapped controls: paired logs,0.835125032290101,1.10172915326051,0.266604120970406,8,13,2019,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,density,Two mapped controls: log arithmetic means,0.68395124363491,1.32805033362484,0.644099089989933,8,13,2019,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,biomass,All eight controls: mean logs,-0.51662590137723,0.390707100173524,0.907333001550754,8,13,2019,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,biomass,Two mapped controls: mean logs,0.202812053978154,0.722542525851619,0.519730471873464,8,13,2019,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,biomass,Two mapped controls: paired logs,0.202812053978154,0.722542525851619,0.519730471873464,8,13,2019,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,biomass,Two mapped controls: log arithmetic means,0.479081085780639,0.906819907209121,0.427738821428482,8,13,2019,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,density,All eight controls: mean logs,0.574940939543942,1.00331572642086,0.428374786876918,10,14,2019,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,density,Two mapped controls: mean logs,0.716039330222954,1.41398567442277,0.697946344199816,10,14,2019,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,density,Two mapped controls: paired logs,0.716039330222954,1.41398567442277,0.697946344199816,10,14,2019,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,density,Two mapped controls: log arithmetic means,1.01411279583242,1.48565973957978,0.471546943747357,10,14,2019,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,biomass,All eight controls: mean logs,0.0359250402799509,1.14400733994193,1.10808229966198,10,14,2019,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,biomass,Two mapped controls: mean logs,0.321676451036471,1.23974581186709,0.918069360830615,10,14,2019,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,biomass,Two mapped controls: paired logs,0.321676451036471,1.23974581186709,0.918069360830615,10,14,2019,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,biomass,Two mapped controls: log arithmetic means,0.75905664166533,1.42858387291463,0.669527231249302,10,14,2019,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,density,All eight controls: mean logs,0.267774432766508,0.396799579980979,0.129025147214471,9,12,2019,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,density,Two mapped controls: mean logs,0.816186602715899,1.13814998552203,0.321963382806126,9,12,2019,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,density,Two mapped controls: paired logs,0.816186602715899,1.13814998552203,0.321963382806126,9,12,2019,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,density,Two mapped controls: log arithmetic means,0.680016980378053,1.38467595523331,0.704658974855261,9,12,2019,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,biomass,All eight controls: mean logs,-0.38342675311758,0.366418822441349,0.749845575558929,9,12,2019,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,biomass,Two mapped controls: mean logs,0.192548510546395,0.77355105608156,0.581002545535165,9,12,2019,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,biomass,Two mapped controls: paired logs,0.192548510546395,0.77355105608156,0.581002545535166,9,12,2019,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,biomass,Two mapped controls: log arithmetic means,0.463671065032419,0.954022324555993,0.490351259523574,9,12,2019,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,density,All eight controls: mean logs,0.59193339542956,0.850880340148594,0.258946944719034,9,17,2022,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,density,Two mapped controls: mean logs,0.749321627456338,1.14837176949093,0.399050142034593,9,17,2022,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,density,Two mapped controls: paired logs,0.749321627456338,1.14837176949093,0.399050142034593,9,17,2022,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,density,Two mapped controls: log arithmetic means,1.08525202107015,1.2671150265675,0.181863005497349,9,17,2022,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,biomass,All eight controls: mean logs,0.0202496788375582,0.951646557547571,0.931396878710013,9,17,2022,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,biomass,Two mapped controls: mean logs,0.373677702830531,0.964718476554053,0.591040773723522,9,17,2022,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,biomass,Two mapped controls: paired logs,0.373677702830531,0.964718476554052,0.591040773723522,9,17,2022,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,biomass,Two mapped controls: log arithmetic means,0.897720933056712,1.07528102632944,0.177560093272727,9,17,2022,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,density,All eight controls: mean logs,0.181009812474221,0.378665869946319,0.197656057472098,8,15,2022,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,density,Two mapped controls: mean logs,0.835125032290101,1.04599266362665,0.210867631336547,8,15,2022,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,density,Two mapped controls: paired logs,0.835125032290101,1.04599266362665,0.210867631336547,8,15,2022,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,density,Two mapped controls: log arithmetic means,0.68395124363491,1.32551924853246,0.641568004897552,8,15,2022,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,biomass,All eight controls: mean logs,-0.51662590137723,0.349355833854921,0.865981735232151,8,15,2022,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,biomass,Two mapped controls: mean logs,0.202812053978154,0.698879063984294,0.496067010006139,8,15,2022,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,biomass,Two mapped controls: paired logs,0.202812053978154,0.698879063984294,0.496067010006139,8,15,2022,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,biomass,Two mapped controls: log arithmetic means,0.479081085780639,0.837050941248798,0.357969855468158,8,15,2022,2004,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,density,All eight controls: mean logs,0.574940939543942,0.877684809122044,0.302743869578102,10,16,2022,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,density,Two mapped controls: mean logs,0.716039330222954,1.19411383913896,0.478074508916003,10,16,2022,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,density,Two mapped controls: paired logs,0.716039330222954,1.19411383913896,0.478074508916003,10,16,2022,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,density,Two mapped controls: log arithmetic means,1.01411279583242,1.32294348018467,0.308830684352248,10,16,2022,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,biomass,All eight controls: mean logs,0.0359250402799509,1.00006176156545,0.964136721285501,10,16,2022,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,biomass,Two mapped controls: mean logs,0.321676451036471,1.03415930728306,0.71248285624659,10,16,2022,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,biomass,Two mapped controls: paired logs,0.321676451036471,1.03415930728306,0.712482856246589,10,16,2022,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+red,biomass,Two mapped controls: log arithmetic means,0.75905664166533,1.1730437142786,0.41398707261327,10,16,2022,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,density,All eight controls: mean logs,0.267774432766508,0.337006903863571,0.0692324710970628,9,14,2022,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,density,Two mapped controls: mean logs,0.816186602715899,1.07322934201982,0.257042739303918,9,14,2022,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,density,Two mapped controls: paired logs,0.816186602715899,1.07322934201982,0.257042739303918,9,14,2022,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,density,Two mapped controls: log arithmetic means,0.680016980378053,1.37387470383312,0.693857723455072,9,14,2022,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,biomass,All eight controls: mean logs,-0.38342675311758,0.325583648204585,0.709010401322165,9,14,2022,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,biomass,Two mapped controls: mean logs,0.192548510546395,0.740910414048006,0.548361903501611,9,14,2022,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,biomass,Two mapped controls: paired logs,0.192548510546395,0.740910414048006,0.548361903501612,9,14,2022,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference
+purple,biomass,Two mapped controls: log arithmetic means,0.463671065032419,0.872526658548951,0.408855593516532,9,14,2022,2005,2,FALSE,descriptive reference/aggregation experiment; no network inference

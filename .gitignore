@@ -73,3 +73,6 @@ docs/*_style.css
 docs/supporting_information.*
 docs/MPA_Kelp_MS*.pdf
 literature/pdfs/
+# Contributor delivery and task-specific verification dependencies stay local.
+data/external/tom_bell_2026-10-21/
+tmp/tom_verification_deps/

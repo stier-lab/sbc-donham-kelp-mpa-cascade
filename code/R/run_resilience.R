@@ -43,6 +43,9 @@
 #'   source(here::here("code", "R", "run_resilience.R"))
 
 rm(list = ls())
+source(here::here("code", "R", "33_kelp_calibration_check.R"))
+source(here::here("code", "R", "35_sheephead_allometry_check.R"))
+check_sheephead_allometry_inputs()
 # Module membership is the single source of truth in resilience_modules.R (shared with run_all.R)
 source(here::here("code", "R", "resilience_modules.R"))
 modules <- RESILIENCE_MODULES_FULL_SUITE

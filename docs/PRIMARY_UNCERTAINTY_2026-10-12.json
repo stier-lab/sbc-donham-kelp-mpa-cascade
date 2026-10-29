@@ -1,0 +1,122 @@
+{
+  "scope": "Exact primary-contrast HAC and retained-diver temporal uncertainty",
+  "checks": [
+    "Annual/raw/satellite inputs, reference identities, all 145 primary effects, Tables 2/3 and modern/historical resilience results preserved",
+    "435 unique history/bandwidth records cover the exact cohort; contrasts/SEs reconstruct; bandwidth rule and conservative variance floor checked",
+    "Original-variance joint model reproduces Table 2; independent nine-test BH check and unchanged directions/detections in every bandwidth",
+    "Figure 4 uses 831 rows, 63 retained diver histories, 15 MPAs; response models retain converged nonsingular full random-slope/source structure",
+    "1,359 exact-contrast prediction rows have finite varying df; same-row AR1 rejects invalid fit and retains positive kelp but purple-urchin interval includes zero",
+    "AR1 process and independent annual-error SDs give the exported conditional lag-one correlation; near-zero source component is recorded separately"
+  ],
+  "automatic_hac": {
+    "individual_se_ratio_median": 1.03660744966608,
+    "individual_se_ratio_max": 1.53094043936398,
+    "n_floored": 64,
+    "pooled_ci_width_ratios": [
+      0.954106478279656,
+      0.915281626468535,
+      0.965635956054937,
+      1.03107659803733,
+      0.915424141309661,
+      0.9582809006143,
+      0.914323990456777,
+      0.987260812193348,
+      0.920946435064446
+    ]
+  },
+  "temporal_ar1": {
+    "process_phi": 0.677058318016252,
+    "process_sd": 1.49139664664163,
+    "annual_error_sd": 0.769678527382311,
+    "conditional_lag1_correlation": 0.534658640273595,
+    "source_sd": 0.00052971310892828,
+    "max_abs_gradient": 0.000153926010868387,
+    "slopes": [
+      {
+        "Species": "Panulirus interruptus",
+        "estimate": "0.0963177278779608",
+        "se": "0.10707927563799",
+        "ci_low": "-0.113553795863137",
+        "ci_high": "0.306189251619059",
+        "primary_slope": "0.145591383652799",
+        "primary_se": "0.0788051688817952",
+        "primary_ci_low": "-0.00929187509241369",
+        "primary_ci_high": "0.300474642398012",
+        "sign_changed": "FALSE",
+        "ar1_phi": "0.677058318016252",
+        "primary_df": "438.016380400339",
+        "uncertainty": "AR1 model-based Wald; primary exact-contrast Satterthwaite"
+      },
+      {
+        "Species": "Semicossyphus pulcher",
+        "estimate": "-0.00777024149356284",
+        "se": "0.0406973240389391",
+        "ci_low": "-0.0875355308770396",
+        "ci_high": "0.0719950478899139",
+        "primary_slope": "-0.00881250355133462",
+        "primary_se": "0.0304984378492876",
+        "primary_ci_low": "-0.071556865219309",
+        "primary_ci_high": "0.0539318581166398",
+        "sign_changed": "FALSE",
+        "ar1_phi": "0.677058318016252",
+        "primary_df": "25.5488266913995",
+        "uncertainty": "AR1 model-based Wald; primary exact-contrast Satterthwaite"
+      },
+      {
+        "Species": "Strongylocentrotus purpuratus",
+        "estimate": "-0.0909034968471675",
+        "se": "0.0472861457067218",
+        "ci_low": "-0.183582639400056",
+        "ci_high": "0.00177564570572049",
+        "primary_slope": "-0.106444195609352",
+        "primary_se": "0.0351471854554412",
+        "primary_ci_low": "-0.177378172994038",
+        "primary_ci_high": "-0.0355102182246653",
+        "sign_changed": "FALSE",
+        "ar1_phi": "0.677058318016252",
+        "primary_df": "41.9185068316713",
+        "uncertainty": "AR1 model-based Wald; primary exact-contrast Satterthwaite"
+      },
+      {
+        "Species": "Mesocentrotus franciscanus",
+        "estimate": "-0.0489510816669116",
+        "se": "0.0406007449657771",
+        "ci_low": "-0.128527079545331",
+        "ci_high": "0.0306249162115074",
+        "primary_slope": "-0.0533285972582315",
+        "primary_se": "0.0311854134050909",
+        "primary_ci_low": "-0.11750855373188",
+        "primary_ci_high": "0.010851359215417",
+        "sign_changed": "FALSE",
+        "ar1_phi": "0.677058318016252",
+        "primary_df": "25.3711230901003",
+        "uncertainty": "AR1 model-based Wald; primary exact-contrast Satterthwaite"
+      },
+      {
+        "Species": "Macrocystis pyrifera",
+        "estimate": "0.165246832673467",
+        "se": "0.0372666646114971",
+        "ci_low": "0.0922055122109993",
+        "ci_high": "0.238288153135935",
+        "primary_slope": "0.168746684509076",
+        "primary_se": "0.0289981550127532",
+        "primary_ci_low": "0.10817755986648",
+        "primary_ci_high": "0.229315809151672",
+        "sign_changed": "FALSE",
+        "ar1_phi": "0.677058318016252",
+        "primary_df": "19.5960626615512",
+        "uncertainty": "AR1 model-based Wald; primary exact-contrast Satterthwaite"
+      }
+    ]
+  },
+  "input_md5": {
+    "harmonized_raw_responses.csv": "c817b10fac60d714be510fc8547a2685",
+    "harmonized_response_ratios.csv": "a0654cdb05e8fccfd58ab1bd6b13b4c9",
+    "harmonized_landsat_rr.csv": "9e66b58886e848075d0ddcc24e76a829",
+    "harmonized_landsat_annual_index.csv": "0bc47dea0cfeda508de934063c7c9817",
+    "harmonized_site_metadata.csv": "2474b071b2f623c277ba46e94a03b7a1",
+    "reference_primary_keys.csv": "87152342fb2339482fac18d098a489bf",
+    "reference_sites.csv": "b8422d83fff7e369eaac6d42ae9bbfbf"
+  },
+  "status": "PASS"
+}

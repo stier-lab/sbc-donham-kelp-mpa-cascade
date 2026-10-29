@@ -204,8 +204,8 @@ if (!is.null(res_kelp$rf_importance)) {
   plots$imp <- ggplot(impdf, aes(importance, predictor)) +
     geom_col(fill = "#0072B2", width = 0.7) +
     labs(x = "Variable importance (% increase in MSE)", y = NULL,
-         title = "a  What predicts kelp effectiveness? (random forest)") +
-    theme_mpa(base_size = 9) + theme(plot.title = element_text(size = 9, face = "bold"))
+         tag = "(a)") +
+    theme_mpa(base_size = 9) + theme(plot.tag = element_text(size = 9, face = "bold"))
 }
 if (!is.null(res_kelp$loo_pred) && nrow(res_kelp$loo_pred) > 0) {
   lp <- res_kelp$loo_pred; rng <- range(c(lp$MPA_obs, lp$MPA_pred))
@@ -214,9 +214,8 @@ if (!is.null(res_kelp$loo_pred) && nrow(res_kelp$loo_pred) > 0) {
     geom_point(alpha = 0.6, size = 1.4, color = "#D55E00") +
     coord_equal(xlim = rng, ylim = rng) +
     labs(x = "Leave-one-out predicted kelp lnRR", y = "Observed kelp lnRR",
-         title = paste0("b  Can we predict it? LOO-CV R2 = ",
-                        ifelse(is.null(res_kelp$loo_cv_R2), "NA", res_kelp$loo_cv_R2))) +
-    theme_mpa(base_size = 9) + theme(plot.title = element_text(size = 9, face = "bold"))
+         tag = "(b)") +
+    theme_mpa(base_size = 9) + theme(plot.tag = element_text(size = 9, face = "bold"))
 }
 if (length(plots) == 2) {
   fig <- patchwork::wrap_plots(plots$imp, plots$cv, nrow = 1)

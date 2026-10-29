@@ -77,10 +77,8 @@ if (!is.null(pd)) {
     geom_smooth(method = "lm", se = TRUE, color = "grey30", linewidth = 0.6) +
     facet_wrap(~ lab) + scale_color_manual(values = setNames(col_taxa[c(5, 3)], short[taxa]), guide = "none") +
     coord_equal(xlim = rng, ylim = rng) +
-    labs(x = "Reserve response in MHW1 (2014-16), lnRR", y = "Reserve response in MHW2 (2018-20), lnRR",
-         title = "Ecological memory: do the same reserves respond in both heatwaves?") +
-    theme_mpa(base_size = 9) + theme(plot.title = element_text(size = 9, face = "bold"),
-                                     strip.text = element_text(face = "italic"))
+    labs(x = "Reserve response in MHW1 (2014-16), lnRR", y = "Reserve response in MHW2 (2018-20), lnRR") +
+    theme_mpa(base_size = 9) + theme(strip.text = element_text(face = "italic"))
   ggsave(here::here("plots", "fig_ecological_memory.pdf"), p, width = 150, height = 85, units = "mm", device = cairo_pdf)
   ggsave(here::here("plots", "fig_ecological_memory.png"), p, width = 150, height = 85, units = "mm", dpi = 600)
 }

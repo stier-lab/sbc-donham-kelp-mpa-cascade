@@ -1,0 +1,10 @@
+"Response","Taxa","n_full","n_pisco","n_non_pisco","non_pisco_estimable","interpretation","full_estimate","full_ci_lo","full_ci_hi","full_p","without_pisco_estimate","without_pisco_ci_lo","without_pisco_ci_hi","without_pisco_p"
+"Bio","M. franciscanus",14,8,6,TRUE,"Non-PISCO comparison available",0.5248,0.0771,0.9724,0.0222,0.744,-0.6819,2.1698,0.2951
+"Bio","M. pyrifera",33,10,23,TRUE,"Non-PISCO comparison available",1.1303,0.6629,1.5976,0,1.617,0.195,3.039,0.0272
+"Bio","P. interruptus",5,3,2,TRUE,"Sparse non-PISCO evidence: interpret source-removal estimate cautiously",0.3663,-0.2113,0.944,0.2103,0.6164,-0.913,2.1458,0.4169
+"Bio","S. pulcher",17,15,2,TRUE,"Sparse non-PISCO evidence: interpret source-removal estimate cautiously",0.96,0.5007,1.4192,1e-04,-3.6384,-6.3519,-0.9249,0.0103
+"Bio","S. purpuratus",10,8,2,TRUE,"Sparse non-PISCO evidence: interpret source-removal estimate cautiously",-0.6978,-1.1798,-0.2159,0.0051,-0.2715,-1.7411,1.198,0.7086
+"Den","M. franciscanus",16,10,6,TRUE,"Non-PISCO comparison available",-0.6105,-1.7372,0.5161,0.2829,-0.5171,-1.9913,0.9572,0.4694
+"Den","P. interruptus",17,10,7,TRUE,"Non-PISCO comparison available",0.9515,-0.1765,2.0795,0.0968,1.0029,-0.4672,2.473,0.1682
+"Den","S. pulcher",20,15,5,TRUE,"Non-PISCO comparison available",-0.3195,-1.4451,0.8061,0.5725,-0.5478,-2.0303,0.9347,0.4464
+"Den","S. purpuratus",13,10,3,TRUE,"Non-PISCO comparison available",-1.9902,-3.1281,-0.8523,9e-04,-2.4832,-4.0095,-0.957,0.0032

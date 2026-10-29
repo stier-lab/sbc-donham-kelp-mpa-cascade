@@ -1,0 +1,42 @@
+{
+  "doi": "10.6073/pasta/3a6272c195d7de89eb412cf1f0c4d63e",
+  "retrieved_utc": "2026-10-29T03:01:34.971929+00:00",
+  "entities": [
+    {
+      "file": "Algal_Biomass_Relationships_20261016.csv",
+      "pid": "https://pasta.lternet.edu/package/data/eml/knb-lter-sbc/127/5/944404e68c894b770bf3d12bb80c23a6",
+      "resolve_url": "https://cn.dataone.org/cn/v2/resolve/https:%2F%2Fpasta.lternet.edu%2Fpackage%2Fdata%2Feml%2Fknb-lter-sbc%2F127%2F5%2F944404e68c894b770bf3d12bb80c23a6",
+      "md5": "f68e6fed8ac56aaa961f5404b4e9d49e",
+      "sha256": "94ddbee56a2e961b7f280b59b9b6bcf14b984f961c96b3dbfd4e096df188eaa7",
+      "eml_md5": "f68e6fed8ac56aaa961f5404b4e9d49e",
+      "bytes": 14194
+    },
+    {
+      "file": "Macrocystis_Biomass_Relationships_20261016.csv",
+      "pid": "https://pasta.lternet.edu/package/data/eml/knb-lter-sbc/127/5/4c980ffcc3c0f5187c24995c27c74855",
+      "resolve_url": "https://cn.dataone.org/cn/v2/resolve/https:%2F%2Fpasta.lternet.edu%2Fpackage%2Fdata%2Feml%2Fknb-lter-sbc%2F127%2F5%2F4c980ffcc3c0f5187c24995c27c74855",
+      "md5": "8ddaf77458d21adfb6d0398cc1c51fda",
+      "sha256": "0059c8cae95f5513c51287943416d57840ffcd1e8c0331b70f2e7e9fc9a433a8",
+      "eml_md5": "8ddaf77458d21adfb6d0398cc1c51fda",
+      "bytes": 17530
+    },
+    {
+      "file": "Invertebrate_Biomass_Relationships_20261016.csv",
+      "pid": "https://pasta.lternet.edu/package/data/eml/knb-lter-sbc/127/5/1a313493d5a5dccd5339f62a2e16824e",
+      "resolve_url": "https://cn.dataone.org/cn/v2/resolve/https:%2F%2Fpasta.lternet.edu%2Fpackage%2Fdata%2Feml%2Fknb-lter-sbc%2F127%2F5%2F1a313493d5a5dccd5339f62a2e16824e",
+      "md5": "b51ce5c00c3192a98b62ba846b8f5392",
+      "sha256": "45abb35866a81f919bf9287f669a2a7eee6732115eaff081f6cc431e00d5932d",
+      "eml_md5": "b51ce5c00c3192a98b62ba846b8f5392",
+      "bytes": 21918
+    },
+    {
+      "file": "Fish_Biomass_relationships_20261016.csv",
+      "pid": "https://pasta.lternet.edu/package/data/eml/knb-lter-sbc/127/5/817be9b1c89d6d68cdd7c6e0a00130be",
+      "resolve_url": "https://cn.dataone.org/cn/v2/resolve/https:%2F%2Fpasta.lternet.edu%2Fpackage%2Fdata%2Feml%2Fknb-lter-sbc%2F127%2F5%2F817be9b1c89d6d68cdd7c6e0a00130be",
+      "md5": "c18d484cfc968631f1e968321318b235",
+      "sha256": "c82947d3e9775a4aafaf4d2356a8c237d8df439584bfc1f736238df53e356292",
+      "eml_md5": "c18d484cfc968631f1e968321318b235",
+      "bytes": 11545
+    }
+  ]
+}

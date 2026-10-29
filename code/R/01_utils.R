@@ -18,8 +18,8 @@
 # HOW EFFECT SIZES WORK:
 #   For a linear model (lnRR ~ time), the effect size is:
 #     predicted(t=11) - predicted(t=0)
-#   This is the estimated change in log response ratio over 11 years of
-#   MPA protection. emmeans::pairs() computes this with proper covariance
+#   This is the change over 11 model-time units: survey indices or calendar
+#   years, depending on the source-specific fit. emmeans computes covariance-aware
 #   handling (predictions at t=0 and t=11 share model parameters).
 #
 # NOTE: Data-processing functions (biomass conversion, bootstrap, response
@@ -85,6 +85,8 @@ EXCLUDED_KFM_SITES <- c(
   "a-k-31", "a-k-35"
 )
 
+# Legacy restricted-inclusion names, not a legal sheephead-only protection class.
+# No-take status and programme suitability are recorded separately in the source audit.
 SHEEPHEAD_ONLY_MPAS <- c(
   "Blue Cavern Onshore SMCA",
   "Painted Cave SMCA",

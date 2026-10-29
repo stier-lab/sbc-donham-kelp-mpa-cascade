@@ -1,0 +1,1281 @@
+"specification","MPA","metric","status","mean_index","n_years","years","window","expected_years","required_years"
+"primary","Abalone Cove SMCA","resistance","mpa",0.220365518074759,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Abalone Cove SMCA","resistance","reference",0.0855627549685891,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Abalone Cove SMCA","resistance","mpa",0.101351113640083,2,"1997,1998","historical_event",2,2
+"primary","Abalone Cove SMCA","resistance","reference",0.106650483283544,2,"1997,1998","historical_event",2,2
+"primary","Abalone Cove SMCA","resistance","mpa",0.200043747141522,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Abalone Cove SMCA","resistance","reference",0.191186098198566,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Abalone Cove SMCA","resistance","mpa",0.370878884152165,3,"2014,2015,2016","modern_event",3,2
+"primary","Abalone Cove SMCA","resistance","reference",0.173662385259355,3,"2014,2015,2016","modern_event",3,2
+"primary","Abalone Cove SMCA","recovery","mpa",0.220365518074759,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Abalone Cove SMCA","recovery","reference",0.0855627549685891,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Abalone Cove SMCA","recovery","mpa",0.0602650016239469,3,"1999,2000,2001","historical_recovery",3,2
+"primary","Abalone Cove SMCA","recovery","reference",0.251531787295075,3,"1999,2000,2001","historical_recovery",3,2
+"primary","Abalone Cove SMCA","recovery","mpa",0.200043747141522,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Abalone Cove SMCA","recovery","reference",0.191186098198566,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Abalone Cove SMCA","recovery","mpa",0.708335564029652,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Abalone Cove SMCA","recovery","reference",0.214982019312986,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Cabrillo SMR","resistance","mpa",0.000276637100279035,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Cabrillo SMR","resistance","reference",0.348201410546986,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Cabrillo SMR","resistance","mpa",0.00016103583568683,2,"1997,1998","historical_event",2,2
+"primary","Cabrillo SMR","resistance","reference",0.0247239119427641,2,"1997,1998","historical_event",2,2
+"primary","Cabrillo SMR","resistance","mpa",0.00270456588224366,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Cabrillo SMR","resistance","reference",0.258313619833732,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Cabrillo SMR","resistance","mpa",0.000363207923842928,3,"2014,2015,2016","modern_event",3,2
+"primary","Cabrillo SMR","resistance","reference",0.226175544810207,3,"2014,2015,2016","modern_event",3,2
+"primary","Cabrillo SMR","recovery","mpa",0.000276637100279035,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Cabrillo SMR","recovery","reference",0.348201410546986,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Cabrillo SMR","recovery","mpa",0.00245766441589242,3,"1999,2000,2001","historical_recovery",3,2
+"primary","Cabrillo SMR","recovery","reference",0.240258750721899,3,"1999,2000,2001","historical_recovery",3,2
+"primary","Cabrillo SMR","recovery","mpa",0.00270456588224366,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Cabrillo SMR","recovery","reference",0.258313619833732,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Cabrillo SMR","recovery","mpa",0.0034707915481355,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Cabrillo SMR","recovery","reference",0.134380786569474,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Campus Point SMCA","resistance","mpa",0.266499437523366,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Campus Point SMCA","resistance","reference",0.0344935265662203,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Campus Point SMCA","resistance","mpa",0.246461707964829,2,"1997,1998","historical_event",2,2
+"primary","Campus Point SMCA","resistance","reference",0.0329409203542359,2,"1997,1998","historical_event",2,2
+"primary","Campus Point SMCA","resistance","mpa",0.382630788988861,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Campus Point SMCA","resistance","reference",0.0515415579401511,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Campus Point SMCA","resistance","mpa",0.204740159960571,3,"2014,2015,2016","modern_event",3,2
+"primary","Campus Point SMCA","resistance","reference",0.010186503117822,3,"2014,2015,2016","modern_event",3,2
+"primary","Campus Point SMCA","recovery","mpa",0.266499437523366,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Campus Point SMCA","recovery","reference",0.0344935265662203,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Campus Point SMCA","recovery","mpa",0.26638070065186,3,"1999,2000,2001","historical_recovery",3,2
+"primary","Campus Point SMCA","recovery","reference",0.0324286008725659,3,"1999,2000,2001","historical_recovery",3,2
+"primary","Campus Point SMCA","recovery","mpa",0.382630788988861,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Campus Point SMCA","recovery","reference",0.0515415579401511,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Campus Point SMCA","recovery","mpa",0.63216669483616,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Campus Point SMCA","recovery","reference",0.0574378420117148,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Carrington Pt SMR","resistance","mpa",0.287203669869746,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Carrington Pt SMR","resistance","reference",0.107992093756863,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Carrington Pt SMR","resistance","mpa",0.0795976702665021,2,"1997,1998","historical_event",2,2
+"primary","Carrington Pt SMR","resistance","reference",0.0170407745841385,2,"1997,1998","historical_event",2,2
+"primary","Carrington Pt SMR","resistance","mpa",0.235728130924532,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Carrington Pt SMR","resistance","reference",0.205457185348557,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Carrington Pt SMR","resistance","mpa",0.479172197822597,3,"2014,2015,2016","modern_event",3,2
+"primary","Carrington Pt SMR","resistance","reference",0.0645648203331875,3,"2014,2015,2016","modern_event",3,2
+"primary","Carrington Pt SMR","recovery","mpa",0.287203669869746,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Carrington Pt SMR","recovery","reference",0.107992093756863,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Carrington Pt SMR","recovery","mpa",0.0583934308912421,3,"1999,2000,2001","historical_recovery",3,2
+"primary","Carrington Pt SMR","recovery","reference",0.00755578909718366,3,"1999,2000,2001","historical_recovery",3,2
+"primary","Carrington Pt SMR","recovery","mpa",0.235728130924532,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Carrington Pt SMR","recovery","reference",0.205457185348557,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Carrington Pt SMR","recovery","mpa",0.482103834363668,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Carrington Pt SMR","recovery","reference",0.022012336831785,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Farnsworth Onshore SMCA","resistance","mpa",0.125059735775178,1,"1994","historical_base",4,2
+"primary","Farnsworth Onshore SMCA","resistance","reference",0,1,"1994","historical_base",4,2
+"primary","Farnsworth Onshore SMCA","resistance","mpa",0,1,"1998","historical_event",2,2
+"primary","Farnsworth Onshore SMCA","resistance","reference",0,1,"1998","historical_event",2,2
+"primary","Farnsworth Onshore SMCA","resistance","mpa",0.354307655942489,3,"2010,2011,2013","modern_base",4,2
+"primary","Farnsworth Onshore SMCA","resistance","reference",0.258401547734666,3,"2010,2011,2013","modern_base",4,2
+"primary","Farnsworth Onshore SMCA","resistance","mpa",0.0155826871592492,3,"2014,2015,2016","modern_event",3,2
+"primary","Farnsworth Onshore SMCA","resistance","reference",0.00919802473703413,3,"2014,2015,2016","modern_event",3,2
+"primary","Farnsworth Onshore SMCA","recovery","mpa",0.125059735775178,1,"1994","historical_base",4,2
+"primary","Farnsworth Onshore SMCA","recovery","reference",0,1,"1994","historical_base",4,2
+"primary","Farnsworth Onshore SMCA","recovery","mpa",0.323588051817252,3,"1999,2000,2001","historical_recovery",3,2
+"primary","Farnsworth Onshore SMCA","recovery","reference",0.111565873786657,3,"1999,2000,2001","historical_recovery",3,2
+"primary","Farnsworth Onshore SMCA","recovery","mpa",0.354307655942489,3,"2010,2011,2013","modern_base",4,2
+"primary","Farnsworth Onshore SMCA","recovery","reference",0.258401547734666,3,"2010,2011,2013","modern_base",4,2
+"primary","Farnsworth Onshore SMCA","recovery","mpa",0.054917089313334,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Farnsworth Onshore SMCA","recovery","reference",0.16403636559836,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Gull Island SMR","resistance","mpa",0.258015444349847,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Gull Island SMR","resistance","reference",0.0460439932938951,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Gull Island SMR","resistance","mpa",0.0382196353880788,2,"1997,1998","historical_event",2,2
+"primary","Gull Island SMR","resistance","reference",0.0203452398196204,2,"1997,1998","historical_event",2,2
+"primary","Gull Island SMR","resistance","mpa",0.21514424333288,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Gull Island SMR","resistance","reference",0.0440864905350613,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Gull Island SMR","resistance","mpa",0.422913890322319,3,"2014,2015,2016","modern_event",3,2
+"primary","Gull Island SMR","resistance","reference",0.0244773752868074,3,"2014,2015,2016","modern_event",3,2
+"primary","Gull Island SMR","recovery","mpa",0.258015444349847,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Gull Island SMR","recovery","reference",0.0460439932938951,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Gull Island SMR","recovery","mpa",0.155469168151591,3,"1999,2000,2001","historical_recovery",3,2
+"primary","Gull Island SMR","recovery","reference",0.0734028291388891,3,"1999,2000,2001","historical_recovery",3,2
+"primary","Gull Island SMR","recovery","mpa",0.21514424333288,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Gull Island SMR","recovery","reference",0.0440864905350613,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Gull Island SMR","recovery","mpa",0.337652679828716,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Gull Island SMR","recovery","reference",0.0393325908178813,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Harris Point SMR","resistance","mpa",0.0614573519511639,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Harris Point SMR","resistance","reference",0.260678629477651,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Harris Point SMR","resistance","mpa",0.00181170056488066,2,"1997,1998","historical_event",2,2
+"primary","Harris Point SMR","resistance","reference",0.191829216763105,2,"1997,1998","historical_event",2,2
+"primary","Harris Point SMR","resistance","mpa",0.123983228498775,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Harris Point SMR","resistance","reference",0.32793457161518,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Harris Point SMR","resistance","mpa",0.044637507276868,3,"2014,2015,2016","modern_event",3,2
+"primary","Harris Point SMR","resistance","reference",0.277094158640944,3,"2014,2015,2016","modern_event",3,2
+"primary","Harris Point SMR","recovery","mpa",0.0614573519511639,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Harris Point SMR","recovery","reference",0.260678629477651,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Harris Point SMR","recovery","mpa",0.00346196899144157,3,"1999,2000,2001","historical_recovery",3,2
+"primary","Harris Point SMR","recovery","reference",0.163250328618846,3,"1999,2000,2001","historical_recovery",3,2
+"primary","Harris Point SMR","recovery","mpa",0.123983228498775,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Harris Point SMR","recovery","reference",0.32793457161518,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Harris Point SMR","recovery","mpa",0.00391168729134617,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Harris Point SMR","recovery","reference",0.0340512804600491,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Naples SMCA","resistance","mpa",0.27932144072019,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Naples SMCA","resistance","reference",0.0393139299118252,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Naples SMCA","resistance","mpa",0.285302740095331,2,"1997,1998","historical_event",2,2
+"primary","Naples SMCA","resistance","reference",0.0278345406144713,2,"1997,1998","historical_event",2,2
+"primary","Naples SMCA","resistance","mpa",0.432952052919,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Naples SMCA","resistance","reference",0.0400386338197745,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Naples SMCA","resistance","mpa",0.10406060024362,3,"2014,2015,2016","modern_event",3,2
+"primary","Naples SMCA","resistance","reference",0.00970917980631749,3,"2014,2015,2016","modern_event",3,2
+"primary","Naples SMCA","recovery","mpa",0.27932144072019,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Naples SMCA","recovery","reference",0.0393139299118252,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Naples SMCA","recovery","mpa",0.489322783973366,3,"1999,2000,2001","historical_recovery",3,2
+"primary","Naples SMCA","recovery","reference",0.0219613660626026,3,"1999,2000,2001","historical_recovery",3,2
+"primary","Naples SMCA","recovery","mpa",0.432952052919,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Naples SMCA","recovery","reference",0.0400386338197745,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Naples SMCA","recovery","mpa",0.433682814404755,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Naples SMCA","recovery","reference",0.0445751861852409,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Point Dume SMCA","resistance","mpa",0.195253496944086,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Point Dume SMCA","resistance","reference",0.201239518923252,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Point Dume SMCA","resistance","mpa",0.229756908933934,2,"1997,1998","historical_event",2,2
+"primary","Point Dume SMCA","resistance","reference",0.17739217315381,2,"1997,1998","historical_event",2,2
+"primary","Point Dume SMCA","resistance","mpa",0.38022041763341,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Point Dume SMCA","resistance","reference",0.370616523883929,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Point Dume SMCA","resistance","mpa",0.195301258298281,3,"2014,2015,2016","modern_event",3,2
+"primary","Point Dume SMCA","resistance","reference",0.179192742333659,3,"2014,2015,2016","modern_event",3,2
+"primary","Point Dume SMCA","recovery","mpa",0.195253496944086,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Point Dume SMCA","recovery","reference",0.201239518923252,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Point Dume SMCA","recovery","mpa",0.176850877806268,3,"1999,2000,2001","historical_recovery",3,2
+"primary","Point Dume SMCA","recovery","reference",0.136552489254034,3,"1999,2000,2001","historical_recovery",3,2
+"primary","Point Dume SMCA","recovery","mpa",0.38022041763341,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Point Dume SMCA","recovery","reference",0.370616523883929,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Point Dume SMCA","recovery","mpa",0.40126664466257,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Point Dume SMCA","recovery","reference",0.35012392208382,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Point Dume SMR","resistance","mpa",0.0404644939619747,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Point Dume SMR","resistance","reference",0.167545748891618,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Point Dume SMR","resistance","mpa",0.0218425971612457,2,"1997,1998","historical_event",2,2
+"primary","Point Dume SMR","resistance","reference",0.208254699143188,2,"1997,1998","historical_event",2,2
+"primary","Point Dume SMR","resistance","mpa",0.442023566846865,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Point Dume SMR","resistance","reference",0.554932209524701,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Point Dume SMR","resistance","mpa",0.0849852515873903,3,"2014,2015,2016","modern_event",3,2
+"primary","Point Dume SMR","resistance","reference",0.120921976875546,3,"2014,2015,2016","modern_event",3,2
+"primary","Point Dume SMR","recovery","mpa",0.0404644939619747,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Point Dume SMR","recovery","reference",0.167545748891618,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Point Dume SMR","recovery","mpa",0.127908414578659,3,"1999,2000,2001","historical_recovery",3,2
+"primary","Point Dume SMR","recovery","reference",0.0739587572676599,3,"1999,2000,2001","historical_recovery",3,2
+"primary","Point Dume SMR","recovery","mpa",0.442023566846865,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Point Dume SMR","recovery","reference",0.554932209524701,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Point Dume SMR","recovery","mpa",0.185504057164055,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Point Dume SMR","recovery","reference",0.144415591899358,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Point Vicente SMCA","resistance","mpa",0.0232488188671867,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Point Vicente SMCA","resistance","reference",0.0173894816336264,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Point Vicente SMCA","resistance","mpa",0.00215225065152983,2,"1997,1998","historical_event",2,2
+"primary","Point Vicente SMCA","resistance","reference",0.00145479682796819,2,"1997,1998","historical_event",2,2
+"primary","Point Vicente SMCA","resistance","mpa",0.406216765533051,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Point Vicente SMCA","resistance","reference",0.144484662998477,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Point Vicente SMCA","resistance","mpa",0.492824398834372,3,"2014,2015,2016","modern_event",3,2
+"primary","Point Vicente SMCA","resistance","reference",0.149243301542831,3,"2014,2015,2016","modern_event",3,2
+"primary","Point Vicente SMCA","recovery","mpa",0.0232488188671867,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Point Vicente SMCA","recovery","reference",0.0173894816336264,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Point Vicente SMCA","recovery","mpa",0.00817984157028895,2,"2000,2001","historical_recovery",3,2
+"primary","Point Vicente SMCA","recovery","reference",0.0226566410924646,2,"2000,2001","historical_recovery",3,2
+"primary","Point Vicente SMCA","recovery","mpa",0.406216765533051,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Point Vicente SMCA","recovery","reference",0.144484662998477,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Point Vicente SMCA","recovery","mpa",0.672233406310404,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Point Vicente SMCA","recovery","reference",0.23404691874193,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Santa Barbara Island SMR","resistance","mpa",0.17571974281363,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Santa Barbara Island SMR","resistance","reference",0.322942047653148,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Santa Barbara Island SMR","resistance","mpa",0,2,"1997,1998","historical_event",2,2
+"primary","Santa Barbara Island SMR","resistance","reference",0.0178251263853967,2,"1997,1998","historical_event",2,2
+"primary","Santa Barbara Island SMR","resistance","mpa",0.241053309509048,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Santa Barbara Island SMR","resistance","reference",0.100708131906011,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Santa Barbara Island SMR","resistance","mpa",0.0885942120610572,3,"2014,2015,2016","modern_event",3,2
+"primary","Santa Barbara Island SMR","resistance","reference",0.115071402950988,3,"2014,2015,2016","modern_event",3,2
+"primary","Santa Barbara Island SMR","recovery","mpa",0.17571974281363,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Santa Barbara Island SMR","recovery","reference",0.322942047653148,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Santa Barbara Island SMR","recovery","mpa",0.00189104634423551,3,"1999,2000,2001","historical_recovery",3,2
+"primary","Santa Barbara Island SMR","recovery","reference",0.198816361071645,3,"1999,2000,2001","historical_recovery",3,2
+"primary","Santa Barbara Island SMR","recovery","mpa",0.241053309509048,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Santa Barbara Island SMR","recovery","reference",0.100708131906011,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Santa Barbara Island SMR","recovery","mpa",0.299149346903923,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Santa Barbara Island SMR","recovery","reference",0.359235507845974,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Skunk Pt SMR","resistance","mpa",0.0818095349408952,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Skunk Pt SMR","resistance","reference",0.0456041254398091,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Skunk Pt SMR","resistance","mpa",0.0480334033266296,2,"1997,1998","historical_event",2,2
+"primary","Skunk Pt SMR","resistance","reference",0.06371539462919,2,"1997,1998","historical_event",2,2
+"primary","Skunk Pt SMR","resistance","mpa",0.455246272957734,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Skunk Pt SMR","resistance","reference",0.306731850442731,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Skunk Pt SMR","resistance","mpa",0.354014270034405,3,"2014,2015,2016","modern_event",3,2
+"primary","Skunk Pt SMR","resistance","reference",0.226338974443714,3,"2014,2015,2016","modern_event",3,2
+"primary","Skunk Pt SMR","recovery","mpa",0.0818095349408952,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Skunk Pt SMR","recovery","reference",0.0456041254398091,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Skunk Pt SMR","recovery","mpa",0.148349515084831,3,"1999,2000,2001","historical_recovery",3,2
+"primary","Skunk Pt SMR","recovery","reference",0.0521940413000753,3,"1999,2000,2001","historical_recovery",3,2
+"primary","Skunk Pt SMR","recovery","mpa",0.455246272957734,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Skunk Pt SMR","recovery","reference",0.306731850442731,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Skunk Pt SMR","recovery","mpa",0.458939729189085,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Skunk Pt SMR","recovery","reference",0.0621556591796678,3,"2017,2018,2019","modern_recovery",3,2
+"primary","South La Jolla SMR","resistance","mpa",0.123133324711427,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","South La Jolla SMR","resistance","reference",0.0530976156511106,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","South La Jolla SMR","resistance","mpa",0.027725632665005,2,"1997,1998","historical_event",2,2
+"primary","South La Jolla SMR","resistance","reference",0.00444909940273706,2,"1997,1998","historical_event",2,2
+"primary","South La Jolla SMR","resistance","mpa",0.444437596996441,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","South La Jolla SMR","resistance","reference",0.140918977598721,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","South La Jolla SMR","resistance","mpa",0.158403048845274,3,"2014,2015,2016","modern_event",3,2
+"primary","South La Jolla SMR","resistance","reference",0.161366371780066,3,"2014,2015,2016","modern_event",3,2
+"primary","South La Jolla SMR","recovery","mpa",0.123133324711427,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","South La Jolla SMR","recovery","reference",0.0530976156511106,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","South La Jolla SMR","recovery","mpa",0.336870709730909,3,"1999,2000,2001","historical_recovery",3,2
+"primary","South La Jolla SMR","recovery","reference",0.0131007683076157,3,"1999,2000,2001","historical_recovery",3,2
+"primary","South La Jolla SMR","recovery","mpa",0.444437596996441,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","South La Jolla SMR","recovery","reference",0.140918977598721,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","South La Jolla SMR","recovery","mpa",0.117060443914937,3,"2017,2018,2019","modern_recovery",3,2
+"primary","South La Jolla SMR","recovery","reference",0.0119068956087501,3,"2017,2018,2019","modern_recovery",3,2
+"primary","South Point SMR","resistance","mpa",0.27650126590481,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","South Point SMR","resistance","reference",0.102073944969546,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","South Point SMR","resistance","mpa",0.170178034887062,2,"1997,1998","historical_event",2,2
+"primary","South Point SMR","resistance","reference",0.0693654329479897,2,"1997,1998","historical_event",2,2
+"primary","South Point SMR","resistance","mpa",0.210716228682473,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","South Point SMR","resistance","reference",0.117654934928114,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","South Point SMR","resistance","mpa",0.127202634610608,3,"2014,2015,2016","modern_event",3,2
+"primary","South Point SMR","resistance","reference",0.0281569024122865,3,"2014,2015,2016","modern_event",3,2
+"primary","South Point SMR","recovery","mpa",0.27650126590481,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","South Point SMR","recovery","reference",0.102073944969546,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","South Point SMR","recovery","mpa",0.343036111250561,3,"1999,2000,2001","historical_recovery",3,2
+"primary","South Point SMR","recovery","reference",0.0623900945040397,3,"1999,2000,2001","historical_recovery",3,2
+"primary","South Point SMR","recovery","mpa",0.210716228682473,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","South Point SMR","recovery","reference",0.117654934928114,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","South Point SMR","recovery","mpa",0.129355378935339,3,"2017,2018,2019","modern_recovery",3,2
+"primary","South Point SMR","recovery","reference",0.0479566256257871,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Swamis SMCA","resistance","mpa",0.0711426179964358,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Swamis SMCA","resistance","reference",0.0187798415184057,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Swamis SMCA","resistance","mpa",0.021310855000315,2,"1997,1998","historical_event",2,2
+"primary","Swamis SMCA","resistance","reference",0.0110515063095135,2,"1997,1998","historical_event",2,2
+"primary","Swamis SMCA","resistance","mpa",0.37739196342848,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Swamis SMCA","resistance","reference",0.0769740622101384,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Swamis SMCA","resistance","mpa",0.377794718309418,3,"2014,2015,2016","modern_event",3,2
+"primary","Swamis SMCA","resistance","reference",0.0469277066289357,3,"2014,2015,2016","modern_event",3,2
+"primary","Swamis SMCA","recovery","mpa",0.0711426179964358,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Swamis SMCA","recovery","reference",0.0187798415184057,4,"1993,1994,1995,1996","historical_base",4,2
+"primary","Swamis SMCA","recovery","mpa",0.152147810450194,3,"1999,2000,2001","historical_recovery",3,2
+"primary","Swamis SMCA","recovery","reference",0.0539020456178753,3,"1999,2000,2001","historical_recovery",3,2
+"primary","Swamis SMCA","recovery","mpa",0.37739196342848,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Swamis SMCA","recovery","reference",0.0769740622101384,4,"2010,2011,2012,2013","modern_base",4,2
+"primary","Swamis SMCA","recovery","mpa",0.00424737237472178,3,"2017,2018,2019","modern_recovery",3,2
+"primary","Swamis SMCA","recovery","reference",0.00147562044697134,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Abalone Cove SMCA","resistance","mpa",0.220365518074759,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Abalone Cove SMCA","resistance","reference",0.0855627549685891,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Abalone Cove SMCA","resistance","mpa",0.101351113640083,2,"1997,1998","historical_event",2,2
+"equal_event_duration","Abalone Cove SMCA","resistance","reference",0.106650483283544,2,"1997,1998","historical_event",2,2
+"equal_event_duration","Abalone Cove SMCA","resistance","mpa",0.200043747141522,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Abalone Cove SMCA","resistance","reference",0.191186098198566,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Abalone Cove SMCA","resistance","mpa",0.242984778748067,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Abalone Cove SMCA","resistance","reference",0.241650949817746,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Abalone Cove SMCA","recovery","mpa",0.220365518074759,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Abalone Cove SMCA","recovery","reference",0.0855627549685891,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Abalone Cove SMCA","recovery","mpa",0.0602650016239469,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","Abalone Cove SMCA","recovery","reference",0.251531787295075,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","Abalone Cove SMCA","recovery","mpa",0.200043747141522,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Abalone Cove SMCA","recovery","reference",0.191186098198566,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Abalone Cove SMCA","recovery","mpa",0.708335564029652,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Abalone Cove SMCA","recovery","reference",0.214982019312986,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Cabrillo SMR","resistance","mpa",0.000276637100279035,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Cabrillo SMR","resistance","reference",0.348201410546986,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Cabrillo SMR","resistance","mpa",0.00016103583568683,2,"1997,1998","historical_event",2,2
+"equal_event_duration","Cabrillo SMR","resistance","reference",0.0247239119427641,2,"1997,1998","historical_event",2,2
+"equal_event_duration","Cabrillo SMR","resistance","mpa",0.00270456588224366,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Cabrillo SMR","resistance","reference",0.258313619833732,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Cabrillo SMR","resistance","mpa",0.00017015297245859,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Cabrillo SMR","resistance","reference",0.338839395540884,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Cabrillo SMR","recovery","mpa",0.000276637100279035,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Cabrillo SMR","recovery","reference",0.348201410546986,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Cabrillo SMR","recovery","mpa",0.00245766441589242,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","Cabrillo SMR","recovery","reference",0.240258750721899,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","Cabrillo SMR","recovery","mpa",0.00270456588224366,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Cabrillo SMR","recovery","reference",0.258313619833732,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Cabrillo SMR","recovery","mpa",0.0034707915481355,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Cabrillo SMR","recovery","reference",0.134380786569474,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Campus Point SMCA","resistance","mpa",0.266499437523366,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Campus Point SMCA","resistance","reference",0.0344935265662203,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Campus Point SMCA","resistance","mpa",0.246461707964829,2,"1997,1998","historical_event",2,2
+"equal_event_duration","Campus Point SMCA","resistance","reference",0.0329409203542359,2,"1997,1998","historical_event",2,2
+"equal_event_duration","Campus Point SMCA","resistance","mpa",0.382630788988861,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Campus Point SMCA","resistance","reference",0.0515415579401511,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Campus Point SMCA","resistance","mpa",0.241767904733444,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Campus Point SMCA","resistance","reference",0.0139383669758567,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Campus Point SMCA","recovery","mpa",0.266499437523366,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Campus Point SMCA","recovery","reference",0.0344935265662203,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Campus Point SMCA","recovery","mpa",0.26638070065186,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","Campus Point SMCA","recovery","reference",0.0324286008725659,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","Campus Point SMCA","recovery","mpa",0.382630788988861,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Campus Point SMCA","recovery","reference",0.0515415579401511,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Campus Point SMCA","recovery","mpa",0.63216669483616,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Campus Point SMCA","recovery","reference",0.0574378420117148,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Carrington Pt SMR","resistance","mpa",0.287203669869746,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Carrington Pt SMR","resistance","reference",0.107992093756863,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Carrington Pt SMR","resistance","mpa",0.0795976702665021,2,"1997,1998","historical_event",2,2
+"equal_event_duration","Carrington Pt SMR","resistance","reference",0.0170407745841385,2,"1997,1998","historical_event",2,2
+"equal_event_duration","Carrington Pt SMR","resistance","mpa",0.235728130924532,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Carrington Pt SMR","resistance","reference",0.205457185348557,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Carrington Pt SMR","resistance","mpa",0.486363939511208,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Carrington Pt SMR","resistance","reference",0.0900473601465363,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Carrington Pt SMR","recovery","mpa",0.287203669869746,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Carrington Pt SMR","recovery","reference",0.107992093756863,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Carrington Pt SMR","recovery","mpa",0.0583934308912421,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","Carrington Pt SMR","recovery","reference",0.00755578909718366,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","Carrington Pt SMR","recovery","mpa",0.235728130924532,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Carrington Pt SMR","recovery","reference",0.205457185348557,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Carrington Pt SMR","recovery","mpa",0.482103834363668,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Carrington Pt SMR","recovery","reference",0.022012336831785,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Farnsworth Onshore SMCA","resistance","mpa",0.125059735775178,1,"1994","historical_base",4,2
+"equal_event_duration","Farnsworth Onshore SMCA","resistance","reference",0,1,"1994","historical_base",4,2
+"equal_event_duration","Farnsworth Onshore SMCA","resistance","mpa",0,1,"1998","historical_event",2,2
+"equal_event_duration","Farnsworth Onshore SMCA","resistance","reference",0,1,"1998","historical_event",2,2
+"equal_event_duration","Farnsworth Onshore SMCA","resistance","mpa",0.354307655942489,3,"2010,2011,2013","modern_base",4,2
+"equal_event_duration","Farnsworth Onshore SMCA","resistance","reference",0.258401547734666,3,"2010,2011,2013","modern_base",4,2
+"equal_event_duration","Farnsworth Onshore SMCA","resistance","mpa",0.0145736021828608,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Farnsworth Onshore SMCA","resistance","reference",0.00253588000431639,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Farnsworth Onshore SMCA","recovery","mpa",0.125059735775178,1,"1994","historical_base",4,2
+"equal_event_duration","Farnsworth Onshore SMCA","recovery","reference",0,1,"1994","historical_base",4,2
+"equal_event_duration","Farnsworth Onshore SMCA","recovery","mpa",0.323588051817252,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","Farnsworth Onshore SMCA","recovery","reference",0.111565873786657,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","Farnsworth Onshore SMCA","recovery","mpa",0.354307655942489,3,"2010,2011,2013","modern_base",4,2
+"equal_event_duration","Farnsworth Onshore SMCA","recovery","reference",0.258401547734666,3,"2010,2011,2013","modern_base",4,2
+"equal_event_duration","Farnsworth Onshore SMCA","recovery","mpa",0.054917089313334,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Farnsworth Onshore SMCA","recovery","reference",0.16403636559836,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Gull Island SMR","resistance","mpa",0.258015444349847,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Gull Island SMR","resistance","reference",0.0460439932938951,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Gull Island SMR","resistance","mpa",0.0382196353880788,2,"1997,1998","historical_event",2,2
+"equal_event_duration","Gull Island SMR","resistance","reference",0.0203452398196204,2,"1997,1998","historical_event",2,2
+"equal_event_duration","Gull Island SMR","resistance","mpa",0.21514424333288,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Gull Island SMR","resistance","reference",0.0440864905350613,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Gull Island SMR","resistance","mpa",0.134370835483478,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Gull Island SMR","resistance","reference",0.016898324092422,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Gull Island SMR","recovery","mpa",0.258015444349847,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Gull Island SMR","recovery","reference",0.0460439932938951,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Gull Island SMR","recovery","mpa",0.155469168151591,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","Gull Island SMR","recovery","reference",0.0734028291388891,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","Gull Island SMR","recovery","mpa",0.21514424333288,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Gull Island SMR","recovery","reference",0.0440864905350613,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Gull Island SMR","recovery","mpa",0.337652679828716,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Gull Island SMR","recovery","reference",0.0393325908178813,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Harris Point SMR","resistance","mpa",0.0614573519511639,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Harris Point SMR","resistance","reference",0.260678629477651,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Harris Point SMR","resistance","mpa",0.00181170056488066,2,"1997,1998","historical_event",2,2
+"equal_event_duration","Harris Point SMR","resistance","reference",0.191829216763105,2,"1997,1998","historical_event",2,2
+"equal_event_duration","Harris Point SMR","resistance","mpa",0.123983228498775,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Harris Point SMR","resistance","reference",0.32793457161518,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Harris Point SMR","resistance","mpa",0.0642301162402659,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Harris Point SMR","resistance","reference",0.23444106505056,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Harris Point SMR","recovery","mpa",0.0614573519511639,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Harris Point SMR","recovery","reference",0.260678629477651,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Harris Point SMR","recovery","mpa",0.00346196899144157,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","Harris Point SMR","recovery","reference",0.163250328618846,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","Harris Point SMR","recovery","mpa",0.123983228498775,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Harris Point SMR","recovery","reference",0.32793457161518,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Harris Point SMR","recovery","mpa",0.00391168729134617,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Harris Point SMR","recovery","reference",0.0340512804600491,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Naples SMCA","resistance","mpa",0.27932144072019,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Naples SMCA","resistance","reference",0.0393139299118252,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Naples SMCA","resistance","mpa",0.285302740095331,2,"1997,1998","historical_event",2,2
+"equal_event_duration","Naples SMCA","resistance","reference",0.0278345406144713,2,"1997,1998","historical_event",2,2
+"equal_event_duration","Naples SMCA","resistance","mpa",0.432952052919,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Naples SMCA","resistance","reference",0.0400386338197745,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Naples SMCA","resistance","mpa",0.146753467639831,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Naples SMCA","resistance","reference",0.0128692064267254,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Naples SMCA","recovery","mpa",0.27932144072019,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Naples SMCA","recovery","reference",0.0393139299118252,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Naples SMCA","recovery","mpa",0.489322783973366,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","Naples SMCA","recovery","reference",0.0219613660626026,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","Naples SMCA","recovery","mpa",0.432952052919,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Naples SMCA","recovery","reference",0.0400386338197745,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Naples SMCA","recovery","mpa",0.433682814404755,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Naples SMCA","recovery","reference",0.0445751861852409,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Point Dume SMCA","resistance","mpa",0.195253496944086,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Point Dume SMCA","resistance","reference",0.201239518923252,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Point Dume SMCA","resistance","mpa",0.229756908933934,2,"1997,1998","historical_event",2,2
+"equal_event_duration","Point Dume SMCA","resistance","reference",0.17739217315381,2,"1997,1998","historical_event",2,2
+"equal_event_duration","Point Dume SMCA","resistance","mpa",0.38022041763341,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Point Dume SMCA","resistance","reference",0.370616523883929,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Point Dume SMCA","resistance","mpa",0.224542588494676,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Point Dume SMCA","resistance","reference",0.230089002775442,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Point Dume SMCA","recovery","mpa",0.195253496944086,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Point Dume SMCA","recovery","reference",0.201239518923252,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Point Dume SMCA","recovery","mpa",0.176850877806268,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","Point Dume SMCA","recovery","reference",0.136552489254034,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","Point Dume SMCA","recovery","mpa",0.38022041763341,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Point Dume SMCA","recovery","reference",0.370616523883929,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Point Dume SMCA","recovery","mpa",0.40126664466257,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Point Dume SMCA","recovery","reference",0.35012392208382,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Point Dume SMR","resistance","mpa",0.0404644939619747,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Point Dume SMR","resistance","reference",0.167545748891618,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Point Dume SMR","resistance","mpa",0.0218425971612457,2,"1997,1998","historical_event",2,2
+"equal_event_duration","Point Dume SMR","resistance","reference",0.208254699143188,2,"1997,1998","historical_event",2,2
+"equal_event_duration","Point Dume SMR","resistance","mpa",0.442023566846865,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Point Dume SMR","resistance","reference",0.554932209524701,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Point Dume SMR","resistance","mpa",0.107501341583321,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Point Dume SMR","resistance","reference",0.169348332655039,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Point Dume SMR","recovery","mpa",0.0404644939619747,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Point Dume SMR","recovery","reference",0.167545748891618,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Point Dume SMR","recovery","mpa",0.127908414578659,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","Point Dume SMR","recovery","reference",0.0739587572676599,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","Point Dume SMR","recovery","mpa",0.442023566846865,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Point Dume SMR","recovery","reference",0.554932209524701,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Point Dume SMR","recovery","mpa",0.185504057164055,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Point Dume SMR","recovery","reference",0.144415591899358,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Point Vicente SMCA","resistance","mpa",0.0232488188671867,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Point Vicente SMCA","resistance","reference",0.0173894816336264,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Point Vicente SMCA","resistance","mpa",0.00215225065152983,2,"1997,1998","historical_event",2,2
+"equal_event_duration","Point Vicente SMCA","resistance","reference",0.00145479682796819,2,"1997,1998","historical_event",2,2
+"equal_event_duration","Point Vicente SMCA","resistance","mpa",0.406216765533051,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Point Vicente SMCA","resistance","reference",0.144484662998477,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Point Vicente SMCA","resistance","mpa",0.53137494816766,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Point Vicente SMCA","resistance","reference",0.165672542072821,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Point Vicente SMCA","recovery","mpa",0.0232488188671867,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Point Vicente SMCA","recovery","reference",0.0173894816336264,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Point Vicente SMCA","recovery","mpa",0.00817984157028895,2,"2000,2001","historical_recovery",3,2
+"equal_event_duration","Point Vicente SMCA","recovery","reference",0.0226566410924646,2,"2000,2001","historical_recovery",3,2
+"equal_event_duration","Point Vicente SMCA","recovery","mpa",0.406216765533051,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Point Vicente SMCA","recovery","reference",0.144484662998477,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Point Vicente SMCA","recovery","mpa",0.672233406310404,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Point Vicente SMCA","recovery","reference",0.23404691874193,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Santa Barbara Island SMR","resistance","mpa",0.17571974281363,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Santa Barbara Island SMR","resistance","reference",0.322942047653148,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Santa Barbara Island SMR","resistance","mpa",0,2,"1997,1998","historical_event",2,2
+"equal_event_duration","Santa Barbara Island SMR","resistance","reference",0.0178251263853967,2,"1997,1998","historical_event",2,2
+"equal_event_duration","Santa Barbara Island SMR","resistance","mpa",0.241053309509048,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Santa Barbara Island SMR","resistance","reference",0.100708131906011,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Santa Barbara Island SMR","resistance","mpa",0.0657562494899969,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Santa Barbara Island SMR","resistance","reference",0.0307793912300089,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Santa Barbara Island SMR","recovery","mpa",0.17571974281363,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Santa Barbara Island SMR","recovery","reference",0.322942047653148,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Santa Barbara Island SMR","recovery","mpa",0.00189104634423551,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","Santa Barbara Island SMR","recovery","reference",0.198816361071645,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","Santa Barbara Island SMR","recovery","mpa",0.241053309509048,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Santa Barbara Island SMR","recovery","reference",0.100708131906011,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Santa Barbara Island SMR","recovery","mpa",0.299149346903923,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Santa Barbara Island SMR","recovery","reference",0.359235507845974,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Skunk Pt SMR","resistance","mpa",0.0818095349408952,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Skunk Pt SMR","resistance","reference",0.0456041254398091,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Skunk Pt SMR","resistance","mpa",0.0480334033266296,2,"1997,1998","historical_event",2,2
+"equal_event_duration","Skunk Pt SMR","resistance","reference",0.06371539462919,2,"1997,1998","historical_event",2,2
+"equal_event_duration","Skunk Pt SMR","resistance","mpa",0.455246272957734,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Skunk Pt SMR","resistance","reference",0.306731850442731,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Skunk Pt SMR","resistance","mpa",0.306995836675144,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Skunk Pt SMR","resistance","reference",0.234177954932915,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Skunk Pt SMR","recovery","mpa",0.0818095349408952,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Skunk Pt SMR","recovery","reference",0.0456041254398091,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Skunk Pt SMR","recovery","mpa",0.148349515084831,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","Skunk Pt SMR","recovery","reference",0.0521940413000753,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","Skunk Pt SMR","recovery","mpa",0.455246272957734,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Skunk Pt SMR","recovery","reference",0.306731850442731,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Skunk Pt SMR","recovery","mpa",0.458939729189085,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Skunk Pt SMR","recovery","reference",0.0621556591796678,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","South La Jolla SMR","resistance","mpa",0.123133324711427,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","South La Jolla SMR","resistance","reference",0.0530976156511106,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","South La Jolla SMR","resistance","mpa",0.027725632665005,2,"1997,1998","historical_event",2,2
+"equal_event_duration","South La Jolla SMR","resistance","reference",0.00444909940273706,2,"1997,1998","historical_event",2,2
+"equal_event_duration","South La Jolla SMR","resistance","mpa",0.444437596996441,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","South La Jolla SMR","resistance","reference",0.140918977598721,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","South La Jolla SMR","resistance","mpa",0.236606391706249,2,"2014,2015","modern_event",2,2
+"equal_event_duration","South La Jolla SMR","resistance","reference",0.24203949877987,2,"2014,2015","modern_event",2,2
+"equal_event_duration","South La Jolla SMR","recovery","mpa",0.123133324711427,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","South La Jolla SMR","recovery","reference",0.0530976156511106,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","South La Jolla SMR","recovery","mpa",0.336870709730909,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","South La Jolla SMR","recovery","reference",0.0131007683076157,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","South La Jolla SMR","recovery","mpa",0.444437596996441,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","South La Jolla SMR","recovery","reference",0.140918977598721,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","South La Jolla SMR","recovery","mpa",0.117060443914937,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","South La Jolla SMR","recovery","reference",0.0119068956087501,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","South Point SMR","resistance","mpa",0.27650126590481,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","South Point SMR","resistance","reference",0.102073944969546,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","South Point SMR","resistance","mpa",0.170178034887062,2,"1997,1998","historical_event",2,2
+"equal_event_duration","South Point SMR","resistance","reference",0.0693654329479897,2,"1997,1998","historical_event",2,2
+"equal_event_duration","South Point SMR","resistance","mpa",0.210716228682473,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","South Point SMR","resistance","reference",0.117654934928114,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","South Point SMR","resistance","mpa",0.0621387293527205,2,"2014,2015","modern_event",2,2
+"equal_event_duration","South Point SMR","resistance","reference",0.0335143447255865,2,"2014,2015","modern_event",2,2
+"equal_event_duration","South Point SMR","recovery","mpa",0.27650126590481,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","South Point SMR","recovery","reference",0.102073944969546,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","South Point SMR","recovery","mpa",0.343036111250561,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","South Point SMR","recovery","reference",0.0623900945040397,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","South Point SMR","recovery","mpa",0.210716228682473,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","South Point SMR","recovery","reference",0.117654934928114,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","South Point SMR","recovery","mpa",0.129355378935339,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","South Point SMR","recovery","reference",0.0479566256257871,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Swamis SMCA","resistance","mpa",0.0711426179964358,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Swamis SMCA","resistance","reference",0.0187798415184057,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Swamis SMCA","resistance","mpa",0.021310855000315,2,"1997,1998","historical_event",2,2
+"equal_event_duration","Swamis SMCA","resistance","reference",0.0110515063095135,2,"1997,1998","historical_event",2,2
+"equal_event_duration","Swamis SMCA","resistance","mpa",0.37739196342848,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Swamis SMCA","resistance","reference",0.0769740622101384,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Swamis SMCA","resistance","mpa",0.566692077464128,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Swamis SMCA","resistance","reference",0.0703915599434036,2,"2014,2015","modern_event",2,2
+"equal_event_duration","Swamis SMCA","recovery","mpa",0.0711426179964358,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Swamis SMCA","recovery","reference",0.0187798415184057,4,"1993,1994,1995,1996","historical_base",4,2
+"equal_event_duration","Swamis SMCA","recovery","mpa",0.152147810450194,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","Swamis SMCA","recovery","reference",0.0539020456178753,3,"1999,2000,2001","historical_recovery",3,2
+"equal_event_duration","Swamis SMCA","recovery","mpa",0.37739196342848,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Swamis SMCA","recovery","reference",0.0769740622101384,4,"2010,2011,2012,2013","modern_base",4,2
+"equal_event_duration","Swamis SMCA","recovery","mpa",0.00424737237472178,3,"2017,2018,2019","modern_recovery",3,2
+"equal_event_duration","Swamis SMCA","recovery","reference",0.00147562044697134,3,"2017,2018,2019","modern_recovery",3,2
+"strict_complete_windows","Abalone Cove SMCA","resistance","mpa",0.220365518074759,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Abalone Cove SMCA","resistance","reference",0.0855627549685891,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Abalone Cove SMCA","resistance","mpa",0.101351113640083,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","Abalone Cove SMCA","resistance","reference",0.106650483283544,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","Abalone Cove SMCA","resistance","mpa",0.200043747141522,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Abalone Cove SMCA","resistance","reference",0.191186098198566,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Abalone Cove SMCA","resistance","mpa",0.370878884152165,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Abalone Cove SMCA","resistance","reference",0.173662385259355,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Abalone Cove SMCA","recovery","mpa",0.220365518074759,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Abalone Cove SMCA","recovery","reference",0.0855627549685891,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Abalone Cove SMCA","recovery","mpa",0.0602650016239469,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","Abalone Cove SMCA","recovery","reference",0.251531787295075,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","Abalone Cove SMCA","recovery","mpa",0.200043747141522,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Abalone Cove SMCA","recovery","reference",0.191186098198566,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Abalone Cove SMCA","recovery","mpa",0.708335564029652,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Abalone Cove SMCA","recovery","reference",0.214982019312986,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Cabrillo SMR","resistance","mpa",0.000276637100279035,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Cabrillo SMR","resistance","reference",0.348201410546986,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Cabrillo SMR","resistance","mpa",0.00016103583568683,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","Cabrillo SMR","resistance","reference",0.0247239119427641,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","Cabrillo SMR","resistance","mpa",0.00270456588224366,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Cabrillo SMR","resistance","reference",0.258313619833732,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Cabrillo SMR","resistance","mpa",0.000363207923842928,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Cabrillo SMR","resistance","reference",0.226175544810207,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Cabrillo SMR","recovery","mpa",0.000276637100279035,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Cabrillo SMR","recovery","reference",0.348201410546986,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Cabrillo SMR","recovery","mpa",0.00245766441589242,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","Cabrillo SMR","recovery","reference",0.240258750721899,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","Cabrillo SMR","recovery","mpa",0.00270456588224366,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Cabrillo SMR","recovery","reference",0.258313619833732,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Cabrillo SMR","recovery","mpa",0.0034707915481355,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Cabrillo SMR","recovery","reference",0.134380786569474,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Campus Point SMCA","resistance","mpa",0.266499437523366,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Campus Point SMCA","resistance","reference",0.0344935265662203,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Campus Point SMCA","resistance","mpa",0.246461707964829,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","Campus Point SMCA","resistance","reference",0.0329409203542359,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","Campus Point SMCA","resistance","mpa",0.382630788988861,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Campus Point SMCA","resistance","reference",0.0515415579401511,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Campus Point SMCA","resistance","mpa",0.204740159960571,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Campus Point SMCA","resistance","reference",0.010186503117822,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Campus Point SMCA","recovery","mpa",0.266499437523366,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Campus Point SMCA","recovery","reference",0.0344935265662203,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Campus Point SMCA","recovery","mpa",0.26638070065186,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","Campus Point SMCA","recovery","reference",0.0324286008725659,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","Campus Point SMCA","recovery","mpa",0.382630788988861,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Campus Point SMCA","recovery","reference",0.0515415579401511,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Campus Point SMCA","recovery","mpa",0.63216669483616,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Campus Point SMCA","recovery","reference",0.0574378420117148,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Carrington Pt SMR","resistance","mpa",0.287203669869746,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Carrington Pt SMR","resistance","reference",0.107992093756863,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Carrington Pt SMR","resistance","mpa",0.0795976702665021,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","Carrington Pt SMR","resistance","reference",0.0170407745841385,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","Carrington Pt SMR","resistance","mpa",0.235728130924532,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Carrington Pt SMR","resistance","reference",0.205457185348557,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Carrington Pt SMR","resistance","mpa",0.479172197822597,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Carrington Pt SMR","resistance","reference",0.0645648203331875,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Carrington Pt SMR","recovery","mpa",0.287203669869746,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Carrington Pt SMR","recovery","reference",0.107992093756863,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Carrington Pt SMR","recovery","mpa",0.0583934308912421,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","Carrington Pt SMR","recovery","reference",0.00755578909718366,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","Carrington Pt SMR","recovery","mpa",0.235728130924532,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Carrington Pt SMR","recovery","reference",0.205457185348557,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Carrington Pt SMR","recovery","mpa",0.482103834363668,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Carrington Pt SMR","recovery","reference",0.022012336831785,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Farnsworth Onshore SMCA","resistance","mpa",0.125059735775178,1,"1994","historical_base",4,4
+"strict_complete_windows","Farnsworth Onshore SMCA","resistance","reference",0,1,"1994","historical_base",4,4
+"strict_complete_windows","Farnsworth Onshore SMCA","resistance","mpa",0,1,"1998","historical_event",2,2
+"strict_complete_windows","Farnsworth Onshore SMCA","resistance","reference",0,1,"1998","historical_event",2,2
+"strict_complete_windows","Farnsworth Onshore SMCA","resistance","mpa",0.354307655942489,3,"2010,2011,2013","modern_base",4,4
+"strict_complete_windows","Farnsworth Onshore SMCA","resistance","reference",0.258401547734666,3,"2010,2011,2013","modern_base",4,4
+"strict_complete_windows","Farnsworth Onshore SMCA","resistance","mpa",0.0155826871592492,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Farnsworth Onshore SMCA","resistance","reference",0.00919802473703413,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Farnsworth Onshore SMCA","recovery","mpa",0.125059735775178,1,"1994","historical_base",4,4
+"strict_complete_windows","Farnsworth Onshore SMCA","recovery","reference",0,1,"1994","historical_base",4,4
+"strict_complete_windows","Farnsworth Onshore SMCA","recovery","mpa",0.323588051817252,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","Farnsworth Onshore SMCA","recovery","reference",0.111565873786657,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","Farnsworth Onshore SMCA","recovery","mpa",0.354307655942489,3,"2010,2011,2013","modern_base",4,4
+"strict_complete_windows","Farnsworth Onshore SMCA","recovery","reference",0.258401547734666,3,"2010,2011,2013","modern_base",4,4
+"strict_complete_windows","Farnsworth Onshore SMCA","recovery","mpa",0.054917089313334,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Farnsworth Onshore SMCA","recovery","reference",0.16403636559836,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Gull Island SMR","resistance","mpa",0.258015444349847,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Gull Island SMR","resistance","reference",0.0460439932938951,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Gull Island SMR","resistance","mpa",0.0382196353880788,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","Gull Island SMR","resistance","reference",0.0203452398196204,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","Gull Island SMR","resistance","mpa",0.21514424333288,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Gull Island SMR","resistance","reference",0.0440864905350613,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Gull Island SMR","resistance","mpa",0.422913890322319,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Gull Island SMR","resistance","reference",0.0244773752868074,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Gull Island SMR","recovery","mpa",0.258015444349847,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Gull Island SMR","recovery","reference",0.0460439932938951,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Gull Island SMR","recovery","mpa",0.155469168151591,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","Gull Island SMR","recovery","reference",0.0734028291388891,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","Gull Island SMR","recovery","mpa",0.21514424333288,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Gull Island SMR","recovery","reference",0.0440864905350613,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Gull Island SMR","recovery","mpa",0.337652679828716,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Gull Island SMR","recovery","reference",0.0393325908178813,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Harris Point SMR","resistance","mpa",0.0614573519511639,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Harris Point SMR","resistance","reference",0.260678629477651,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Harris Point SMR","resistance","mpa",0.00181170056488066,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","Harris Point SMR","resistance","reference",0.191829216763105,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","Harris Point SMR","resistance","mpa",0.123983228498775,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Harris Point SMR","resistance","reference",0.32793457161518,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Harris Point SMR","resistance","mpa",0.044637507276868,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Harris Point SMR","resistance","reference",0.277094158640944,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Harris Point SMR","recovery","mpa",0.0614573519511639,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Harris Point SMR","recovery","reference",0.260678629477651,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Harris Point SMR","recovery","mpa",0.00346196899144157,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","Harris Point SMR","recovery","reference",0.163250328618846,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","Harris Point SMR","recovery","mpa",0.123983228498775,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Harris Point SMR","recovery","reference",0.32793457161518,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Harris Point SMR","recovery","mpa",0.00391168729134617,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Harris Point SMR","recovery","reference",0.0340512804600491,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Naples SMCA","resistance","mpa",0.27932144072019,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Naples SMCA","resistance","reference",0.0393139299118252,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Naples SMCA","resistance","mpa",0.285302740095331,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","Naples SMCA","resistance","reference",0.0278345406144713,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","Naples SMCA","resistance","mpa",0.432952052919,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Naples SMCA","resistance","reference",0.0400386338197745,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Naples SMCA","resistance","mpa",0.10406060024362,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Naples SMCA","resistance","reference",0.00970917980631749,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Naples SMCA","recovery","mpa",0.27932144072019,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Naples SMCA","recovery","reference",0.0393139299118252,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Naples SMCA","recovery","mpa",0.489322783973366,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","Naples SMCA","recovery","reference",0.0219613660626026,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","Naples SMCA","recovery","mpa",0.432952052919,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Naples SMCA","recovery","reference",0.0400386338197745,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Naples SMCA","recovery","mpa",0.433682814404755,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Naples SMCA","recovery","reference",0.0445751861852409,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Point Dume SMCA","resistance","mpa",0.195253496944086,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Point Dume SMCA","resistance","reference",0.201239518923252,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Point Dume SMCA","resistance","mpa",0.229756908933934,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","Point Dume SMCA","resistance","reference",0.17739217315381,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","Point Dume SMCA","resistance","mpa",0.38022041763341,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Point Dume SMCA","resistance","reference",0.370616523883929,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Point Dume SMCA","resistance","mpa",0.195301258298281,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Point Dume SMCA","resistance","reference",0.179192742333659,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Point Dume SMCA","recovery","mpa",0.195253496944086,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Point Dume SMCA","recovery","reference",0.201239518923252,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Point Dume SMCA","recovery","mpa",0.176850877806268,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","Point Dume SMCA","recovery","reference",0.136552489254034,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","Point Dume SMCA","recovery","mpa",0.38022041763341,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Point Dume SMCA","recovery","reference",0.370616523883929,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Point Dume SMCA","recovery","mpa",0.40126664466257,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Point Dume SMCA","recovery","reference",0.35012392208382,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Point Dume SMR","resistance","mpa",0.0404644939619747,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Point Dume SMR","resistance","reference",0.167545748891618,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Point Dume SMR","resistance","mpa",0.0218425971612457,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","Point Dume SMR","resistance","reference",0.208254699143188,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","Point Dume SMR","resistance","mpa",0.442023566846865,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Point Dume SMR","resistance","reference",0.554932209524701,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Point Dume SMR","resistance","mpa",0.0849852515873903,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Point Dume SMR","resistance","reference",0.120921976875546,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Point Dume SMR","recovery","mpa",0.0404644939619747,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Point Dume SMR","recovery","reference",0.167545748891618,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Point Dume SMR","recovery","mpa",0.127908414578659,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","Point Dume SMR","recovery","reference",0.0739587572676599,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","Point Dume SMR","recovery","mpa",0.442023566846865,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Point Dume SMR","recovery","reference",0.554932209524701,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Point Dume SMR","recovery","mpa",0.185504057164055,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Point Dume SMR","recovery","reference",0.144415591899358,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Point Vicente SMCA","resistance","mpa",0.0232488188671867,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Point Vicente SMCA","resistance","reference",0.0173894816336264,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Point Vicente SMCA","resistance","mpa",0.00215225065152983,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","Point Vicente SMCA","resistance","reference",0.00145479682796819,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","Point Vicente SMCA","resistance","mpa",0.406216765533051,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Point Vicente SMCA","resistance","reference",0.144484662998477,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Point Vicente SMCA","resistance","mpa",0.492824398834372,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Point Vicente SMCA","resistance","reference",0.149243301542831,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Point Vicente SMCA","recovery","mpa",0.0232488188671867,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Point Vicente SMCA","recovery","reference",0.0173894816336264,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Point Vicente SMCA","recovery","mpa",0.00817984157028895,2,"2000,2001","historical_recovery",3,3
+"strict_complete_windows","Point Vicente SMCA","recovery","reference",0.0226566410924646,2,"2000,2001","historical_recovery",3,3
+"strict_complete_windows","Point Vicente SMCA","recovery","mpa",0.406216765533051,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Point Vicente SMCA","recovery","reference",0.144484662998477,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Point Vicente SMCA","recovery","mpa",0.672233406310404,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Point Vicente SMCA","recovery","reference",0.23404691874193,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Santa Barbara Island SMR","resistance","mpa",0.17571974281363,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Santa Barbara Island SMR","resistance","reference",0.322942047653148,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Santa Barbara Island SMR","resistance","mpa",0,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","Santa Barbara Island SMR","resistance","reference",0.0178251263853967,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","Santa Barbara Island SMR","resistance","mpa",0.241053309509048,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Santa Barbara Island SMR","resistance","reference",0.100708131906011,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Santa Barbara Island SMR","resistance","mpa",0.0885942120610572,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Santa Barbara Island SMR","resistance","reference",0.115071402950988,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Santa Barbara Island SMR","recovery","mpa",0.17571974281363,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Santa Barbara Island SMR","recovery","reference",0.322942047653148,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Santa Barbara Island SMR","recovery","mpa",0.00189104634423551,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","Santa Barbara Island SMR","recovery","reference",0.198816361071645,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","Santa Barbara Island SMR","recovery","mpa",0.241053309509048,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Santa Barbara Island SMR","recovery","reference",0.100708131906011,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Santa Barbara Island SMR","recovery","mpa",0.299149346903923,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Santa Barbara Island SMR","recovery","reference",0.359235507845974,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Skunk Pt SMR","resistance","mpa",0.0818095349408952,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Skunk Pt SMR","resistance","reference",0.0456041254398091,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Skunk Pt SMR","resistance","mpa",0.0480334033266296,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","Skunk Pt SMR","resistance","reference",0.06371539462919,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","Skunk Pt SMR","resistance","mpa",0.455246272957734,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Skunk Pt SMR","resistance","reference",0.306731850442731,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Skunk Pt SMR","resistance","mpa",0.354014270034405,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Skunk Pt SMR","resistance","reference",0.226338974443714,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Skunk Pt SMR","recovery","mpa",0.0818095349408952,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Skunk Pt SMR","recovery","reference",0.0456041254398091,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Skunk Pt SMR","recovery","mpa",0.148349515084831,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","Skunk Pt SMR","recovery","reference",0.0521940413000753,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","Skunk Pt SMR","recovery","mpa",0.455246272957734,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Skunk Pt SMR","recovery","reference",0.306731850442731,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Skunk Pt SMR","recovery","mpa",0.458939729189085,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Skunk Pt SMR","recovery","reference",0.0621556591796678,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","South La Jolla SMR","resistance","mpa",0.123133324711427,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","South La Jolla SMR","resistance","reference",0.0530976156511106,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","South La Jolla SMR","resistance","mpa",0.027725632665005,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","South La Jolla SMR","resistance","reference",0.00444909940273706,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","South La Jolla SMR","resistance","mpa",0.444437596996441,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","South La Jolla SMR","resistance","reference",0.140918977598721,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","South La Jolla SMR","resistance","mpa",0.158403048845274,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","South La Jolla SMR","resistance","reference",0.161366371780066,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","South La Jolla SMR","recovery","mpa",0.123133324711427,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","South La Jolla SMR","recovery","reference",0.0530976156511106,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","South La Jolla SMR","recovery","mpa",0.336870709730909,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","South La Jolla SMR","recovery","reference",0.0131007683076157,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","South La Jolla SMR","recovery","mpa",0.444437596996441,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","South La Jolla SMR","recovery","reference",0.140918977598721,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","South La Jolla SMR","recovery","mpa",0.117060443914937,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","South La Jolla SMR","recovery","reference",0.0119068956087501,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","South Point SMR","resistance","mpa",0.27650126590481,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","South Point SMR","resistance","reference",0.102073944969546,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","South Point SMR","resistance","mpa",0.170178034887062,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","South Point SMR","resistance","reference",0.0693654329479897,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","South Point SMR","resistance","mpa",0.210716228682473,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","South Point SMR","resistance","reference",0.117654934928114,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","South Point SMR","resistance","mpa",0.127202634610608,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","South Point SMR","resistance","reference",0.0281569024122865,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","South Point SMR","recovery","mpa",0.27650126590481,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","South Point SMR","recovery","reference",0.102073944969546,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","South Point SMR","recovery","mpa",0.343036111250561,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","South Point SMR","recovery","reference",0.0623900945040397,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","South Point SMR","recovery","mpa",0.210716228682473,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","South Point SMR","recovery","reference",0.117654934928114,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","South Point SMR","recovery","mpa",0.129355378935339,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","South Point SMR","recovery","reference",0.0479566256257871,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Swamis SMCA","resistance","mpa",0.0711426179964358,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Swamis SMCA","resistance","reference",0.0187798415184057,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Swamis SMCA","resistance","mpa",0.021310855000315,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","Swamis SMCA","resistance","reference",0.0110515063095135,2,"1997,1998","historical_event",2,2
+"strict_complete_windows","Swamis SMCA","resistance","mpa",0.37739196342848,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Swamis SMCA","resistance","reference",0.0769740622101384,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Swamis SMCA","resistance","mpa",0.377794718309418,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Swamis SMCA","resistance","reference",0.0469277066289357,3,"2014,2015,2016","modern_event",3,3
+"strict_complete_windows","Swamis SMCA","recovery","mpa",0.0711426179964358,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Swamis SMCA","recovery","reference",0.0187798415184057,4,"1993,1994,1995,1996","historical_base",4,4
+"strict_complete_windows","Swamis SMCA","recovery","mpa",0.152147810450194,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","Swamis SMCA","recovery","reference",0.0539020456178753,3,"1999,2000,2001","historical_recovery",3,3
+"strict_complete_windows","Swamis SMCA","recovery","mpa",0.37739196342848,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Swamis SMCA","recovery","reference",0.0769740622101384,4,"2010,2011,2012,2013","modern_base",4,4
+"strict_complete_windows","Swamis SMCA","recovery","mpa",0.00424737237472178,3,"2017,2018,2019","modern_recovery",3,3
+"strict_complete_windows","Swamis SMCA","recovery","reference",0.00147562044697134,3,"2017,2018,2019","modern_recovery",3,3
+"post_designation_baseline","Abalone Cove SMCA","resistance","mpa",0.220365518074759,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Abalone Cove SMCA","resistance","reference",0.0855627549685891,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Abalone Cove SMCA","resistance","mpa",0.101351113640083,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","Abalone Cove SMCA","resistance","reference",0.106650483283544,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","Abalone Cove SMCA","resistance","mpa",0.0792068000801521,1,"2013","modern_base",1,1
+"post_designation_baseline","Abalone Cove SMCA","resistance","reference",0.133121327955188,1,"2013","modern_base",1,1
+"post_designation_baseline","Abalone Cove SMCA","resistance","mpa",0.370878884152165,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Abalone Cove SMCA","resistance","reference",0.173662385259355,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Abalone Cove SMCA","recovery","mpa",0.220365518074759,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Abalone Cove SMCA","recovery","reference",0.0855627549685891,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Abalone Cove SMCA","recovery","mpa",0.0602650016239469,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","Abalone Cove SMCA","recovery","reference",0.251531787295075,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","Abalone Cove SMCA","recovery","mpa",0.0792068000801521,1,"2013","modern_base",1,1
+"post_designation_baseline","Abalone Cove SMCA","recovery","reference",0.133121327955188,1,"2013","modern_base",1,1
+"post_designation_baseline","Abalone Cove SMCA","recovery","mpa",0.708335564029652,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Abalone Cove SMCA","recovery","reference",0.214982019312986,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Cabrillo SMR","resistance","mpa",0.000276637100279035,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Cabrillo SMR","resistance","reference",0.348201410546986,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Cabrillo SMR","resistance","mpa",0.00016103583568683,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","Cabrillo SMR","resistance","reference",0.0247239119427641,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","Cabrillo SMR","resistance","mpa",0,1,"2013","modern_base",1,1
+"post_designation_baseline","Cabrillo SMR","resistance","reference",0.529881440954904,1,"2013","modern_base",1,1
+"post_designation_baseline","Cabrillo SMR","resistance","mpa",0.000363207923842928,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Cabrillo SMR","resistance","reference",0.226175544810207,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Cabrillo SMR","recovery","mpa",0.000276637100279035,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Cabrillo SMR","recovery","reference",0.348201410546986,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Cabrillo SMR","recovery","mpa",0.00245766441589242,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","Cabrillo SMR","recovery","reference",0.240258750721899,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","Cabrillo SMR","recovery","mpa",0,1,"2013","modern_base",1,1
+"post_designation_baseline","Cabrillo SMR","recovery","reference",0.529881440954904,1,"2013","modern_base",1,1
+"post_designation_baseline","Cabrillo SMR","recovery","mpa",0.0034707915481355,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Cabrillo SMR","recovery","reference",0.134380786569474,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Campus Point SMCA","resistance","mpa",0.266499437523366,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Campus Point SMCA","resistance","reference",0.0344935265662203,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Campus Point SMCA","resistance","mpa",0.246461707964829,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","Campus Point SMCA","resistance","reference",0.0329409203542359,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","Campus Point SMCA","resistance","mpa",0.624513022524776,1,"2013","modern_base",1,1
+"post_designation_baseline","Campus Point SMCA","resistance","reference",0.0942261109703807,1,"2013","modern_base",1,1
+"post_designation_baseline","Campus Point SMCA","resistance","mpa",0.204740159960571,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Campus Point SMCA","resistance","reference",0.010186503117822,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Campus Point SMCA","recovery","mpa",0.266499437523366,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Campus Point SMCA","recovery","reference",0.0344935265662203,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Campus Point SMCA","recovery","mpa",0.26638070065186,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","Campus Point SMCA","recovery","reference",0.0324286008725659,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","Campus Point SMCA","recovery","mpa",0.624513022524776,1,"2013","modern_base",1,1
+"post_designation_baseline","Campus Point SMCA","recovery","reference",0.0942261109703807,1,"2013","modern_base",1,1
+"post_designation_baseline","Campus Point SMCA","recovery","mpa",0.63216669483616,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Campus Point SMCA","recovery","reference",0.0574378420117148,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Carrington Pt SMR","resistance","mpa",0.287203669869746,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Carrington Pt SMR","resistance","reference",0.107992093756863,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Carrington Pt SMR","resistance","mpa",0.0795976702665021,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","Carrington Pt SMR","resistance","reference",0.0170407745841385,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","Carrington Pt SMR","resistance","mpa",0.411824701614935,1,"2013","modern_base",1,1
+"post_designation_baseline","Carrington Pt SMR","resistance","reference",0.471969411521824,1,"2013","modern_base",1,1
+"post_designation_baseline","Carrington Pt SMR","resistance","mpa",0.479172197822597,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Carrington Pt SMR","resistance","reference",0.0645648203331875,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Carrington Pt SMR","recovery","mpa",0.287203669869746,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Carrington Pt SMR","recovery","reference",0.107992093756863,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Carrington Pt SMR","recovery","mpa",0.0583934308912421,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","Carrington Pt SMR","recovery","reference",0.00755578909718366,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","Carrington Pt SMR","recovery","mpa",0.411824701614935,1,"2013","modern_base",1,1
+"post_designation_baseline","Carrington Pt SMR","recovery","reference",0.471969411521824,1,"2013","modern_base",1,1
+"post_designation_baseline","Carrington Pt SMR","recovery","mpa",0.482103834363668,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Carrington Pt SMR","recovery","reference",0.022012336831785,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Farnsworth Onshore SMCA","resistance","mpa",0.125059735775178,1,"1994","historical_base",4,2
+"post_designation_baseline","Farnsworth Onshore SMCA","resistance","reference",0,1,"1994","historical_base",4,2
+"post_designation_baseline","Farnsworth Onshore SMCA","resistance","mpa",0,1,"1998","historical_event",2,2
+"post_designation_baseline","Farnsworth Onshore SMCA","resistance","reference",0,1,"1998","historical_event",2,2
+"post_designation_baseline","Farnsworth Onshore SMCA","resistance","mpa",0.163918821008494,1,"2013","modern_base",1,1
+"post_designation_baseline","Farnsworth Onshore SMCA","resistance","reference",0.209246712605405,1,"2013","modern_base",1,1
+"post_designation_baseline","Farnsworth Onshore SMCA","resistance","mpa",0.0155826871592492,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Farnsworth Onshore SMCA","resistance","reference",0.00919802473703413,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Farnsworth Onshore SMCA","recovery","mpa",0.125059735775178,1,"1994","historical_base",4,2
+"post_designation_baseline","Farnsworth Onshore SMCA","recovery","reference",0,1,"1994","historical_base",4,2
+"post_designation_baseline","Farnsworth Onshore SMCA","recovery","mpa",0.323588051817252,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","Farnsworth Onshore SMCA","recovery","reference",0.111565873786657,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","Farnsworth Onshore SMCA","recovery","mpa",0.163918821008494,1,"2013","modern_base",1,1
+"post_designation_baseline","Farnsworth Onshore SMCA","recovery","reference",0.209246712605405,1,"2013","modern_base",1,1
+"post_designation_baseline","Farnsworth Onshore SMCA","recovery","mpa",0.054917089313334,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Farnsworth Onshore SMCA","recovery","reference",0.16403636559836,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Gull Island SMR","resistance","mpa",0.258015444349847,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Gull Island SMR","resistance","reference",0.0460439932938951,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Gull Island SMR","resistance","mpa",0.0382196353880788,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","Gull Island SMR","resistance","reference",0.0203452398196204,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","Gull Island SMR","resistance","mpa",0.233524593993305,1,"2013","modern_base",1,1
+"post_designation_baseline","Gull Island SMR","resistance","reference",0.051392493795957,1,"2013","modern_base",1,1
+"post_designation_baseline","Gull Island SMR","resistance","mpa",0.422913890322319,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Gull Island SMR","resistance","reference",0.0244773752868074,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Gull Island SMR","recovery","mpa",0.258015444349847,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Gull Island SMR","recovery","reference",0.0460439932938951,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Gull Island SMR","recovery","mpa",0.155469168151591,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","Gull Island SMR","recovery","reference",0.0734028291388891,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","Gull Island SMR","recovery","mpa",0.233524593993305,1,"2013","modern_base",1,1
+"post_designation_baseline","Gull Island SMR","recovery","reference",0.051392493795957,1,"2013","modern_base",1,1
+"post_designation_baseline","Gull Island SMR","recovery","mpa",0.337652679828716,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Gull Island SMR","recovery","reference",0.0393325908178813,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Harris Point SMR","resistance","mpa",0.0614573519511639,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Harris Point SMR","resistance","reference",0.260678629477651,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Harris Point SMR","resistance","mpa",0.00181170056488066,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","Harris Point SMR","resistance","reference",0.191829216763105,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","Harris Point SMR","resistance","mpa",0.284812835558552,1,"2013","modern_base",1,1
+"post_designation_baseline","Harris Point SMR","resistance","reference",0.43634924464057,1,"2013","modern_base",1,1
+"post_designation_baseline","Harris Point SMR","resistance","mpa",0.044637507276868,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Harris Point SMR","resistance","reference",0.277094158640944,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Harris Point SMR","recovery","mpa",0.0614573519511639,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Harris Point SMR","recovery","reference",0.260678629477651,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Harris Point SMR","recovery","mpa",0.00346196899144157,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","Harris Point SMR","recovery","reference",0.163250328618846,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","Harris Point SMR","recovery","mpa",0.284812835558552,1,"2013","modern_base",1,1
+"post_designation_baseline","Harris Point SMR","recovery","reference",0.43634924464057,1,"2013","modern_base",1,1
+"post_designation_baseline","Harris Point SMR","recovery","mpa",0.00391168729134617,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Harris Point SMR","recovery","reference",0.0340512804600491,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Naples SMCA","resistance","mpa",0.27932144072019,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Naples SMCA","resistance","reference",0.0393139299118252,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Naples SMCA","resistance","mpa",0.285302740095331,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","Naples SMCA","resistance","reference",0.0278345406144713,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","Naples SMCA","resistance","mpa",0.536404043027387,1,"2013","modern_base",1,1
+"post_designation_baseline","Naples SMCA","resistance","reference",0.0910520989330665,1,"2013","modern_base",1,1
+"post_designation_baseline","Naples SMCA","resistance","mpa",0.10406060024362,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Naples SMCA","resistance","reference",0.00970917980631749,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Naples SMCA","recovery","mpa",0.27932144072019,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Naples SMCA","recovery","reference",0.0393139299118252,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Naples SMCA","recovery","mpa",0.489322783973366,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","Naples SMCA","recovery","reference",0.0219613660626026,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","Naples SMCA","recovery","mpa",0.536404043027387,1,"2013","modern_base",1,1
+"post_designation_baseline","Naples SMCA","recovery","reference",0.0910520989330665,1,"2013","modern_base",1,1
+"post_designation_baseline","Naples SMCA","recovery","mpa",0.433682814404755,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Naples SMCA","recovery","reference",0.0445751861852409,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Point Dume SMCA","resistance","mpa",0.195253496944086,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Point Dume SMCA","resistance","reference",0.201239518923252,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Point Dume SMCA","resistance","mpa",0.229756908933934,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","Point Dume SMCA","resistance","reference",0.17739217315381,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","Point Dume SMCA","resistance","mpa",0.44939166261542,1,"2013","modern_base",1,1
+"post_designation_baseline","Point Dume SMCA","resistance","reference",0.522726275004593,1,"2013","modern_base",1,1
+"post_designation_baseline","Point Dume SMCA","resistance","mpa",0.195301258298281,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Point Dume SMCA","resistance","reference",0.179192742333659,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Point Dume SMCA","recovery","mpa",0.195253496944086,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Point Dume SMCA","recovery","reference",0.201239518923252,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Point Dume SMCA","recovery","mpa",0.176850877806268,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","Point Dume SMCA","recovery","reference",0.136552489254034,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","Point Dume SMCA","recovery","mpa",0.44939166261542,1,"2013","modern_base",1,1
+"post_designation_baseline","Point Dume SMCA","recovery","reference",0.522726275004593,1,"2013","modern_base",1,1
+"post_designation_baseline","Point Dume SMCA","recovery","mpa",0.40126664466257,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Point Dume SMCA","recovery","reference",0.35012392208382,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Point Dume SMR","resistance","mpa",0.0404644939619747,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Point Dume SMR","resistance","reference",0.167545748891618,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Point Dume SMR","resistance","mpa",0.0218425971612457,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","Point Dume SMR","resistance","reference",0.208254699143188,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","Point Dume SMR","resistance","mpa",0.796369261354837,1,"2013","modern_base",1,1
+"post_designation_baseline","Point Dume SMR","resistance","reference",0.621897701120447,1,"2013","modern_base",1,1
+"post_designation_baseline","Point Dume SMR","resistance","mpa",0.0849852515873903,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Point Dume SMR","resistance","reference",0.120921976875546,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Point Dume SMR","recovery","mpa",0.0404644939619747,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Point Dume SMR","recovery","reference",0.167545748891618,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Point Dume SMR","recovery","mpa",0.127908414578659,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","Point Dume SMR","recovery","reference",0.0739587572676599,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","Point Dume SMR","recovery","mpa",0.796369261354837,1,"2013","modern_base",1,1
+"post_designation_baseline","Point Dume SMR","recovery","reference",0.621897701120447,1,"2013","modern_base",1,1
+"post_designation_baseline","Point Dume SMR","recovery","mpa",0.185504057164055,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Point Dume SMR","recovery","reference",0.144415591899358,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Point Vicente SMCA","resistance","mpa",0.0232488188671867,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Point Vicente SMCA","resistance","reference",0.0173894816336264,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Point Vicente SMCA","resistance","mpa",0.00215225065152983,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","Point Vicente SMCA","resistance","reference",0.00145479682796819,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","Point Vicente SMCA","resistance","mpa",0.350658405003405,1,"2013","modern_base",1,1
+"post_designation_baseline","Point Vicente SMCA","resistance","reference",0.105650960482809,1,"2013","modern_base",1,1
+"post_designation_baseline","Point Vicente SMCA","resistance","mpa",0.492824398834372,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Point Vicente SMCA","resistance","reference",0.149243301542831,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Point Vicente SMCA","recovery","mpa",0.0232488188671867,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Point Vicente SMCA","recovery","reference",0.0173894816336264,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Point Vicente SMCA","recovery","mpa",0.00817984157028895,2,"2000,2001","historical_recovery",3,2
+"post_designation_baseline","Point Vicente SMCA","recovery","reference",0.0226566410924646,2,"2000,2001","historical_recovery",3,2
+"post_designation_baseline","Point Vicente SMCA","recovery","mpa",0.350658405003405,1,"2013","modern_base",1,1
+"post_designation_baseline","Point Vicente SMCA","recovery","reference",0.105650960482809,1,"2013","modern_base",1,1
+"post_designation_baseline","Point Vicente SMCA","recovery","mpa",0.672233406310404,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Point Vicente SMCA","recovery","reference",0.23404691874193,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Santa Barbara Island SMR","resistance","mpa",0.17571974281363,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Santa Barbara Island SMR","resistance","reference",0.322942047653148,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Santa Barbara Island SMR","resistance","mpa",0,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","Santa Barbara Island SMR","resistance","reference",0.0178251263853967,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","Santa Barbara Island SMR","resistance","mpa",0.255821278198872,1,"2013","modern_base",1,1
+"post_designation_baseline","Santa Barbara Island SMR","resistance","reference",0.172228081695032,1,"2013","modern_base",1,1
+"post_designation_baseline","Santa Barbara Island SMR","resistance","mpa",0.0885942120610572,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Santa Barbara Island SMR","resistance","reference",0.115071402950988,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Santa Barbara Island SMR","recovery","mpa",0.17571974281363,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Santa Barbara Island SMR","recovery","reference",0.322942047653148,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Santa Barbara Island SMR","recovery","mpa",0.00189104634423551,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","Santa Barbara Island SMR","recovery","reference",0.198816361071645,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","Santa Barbara Island SMR","recovery","mpa",0.255821278198872,1,"2013","modern_base",1,1
+"post_designation_baseline","Santa Barbara Island SMR","recovery","reference",0.172228081695032,1,"2013","modern_base",1,1
+"post_designation_baseline","Santa Barbara Island SMR","recovery","mpa",0.299149346903923,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Santa Barbara Island SMR","recovery","reference",0.359235507845974,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Skunk Pt SMR","resistance","mpa",0.0818095349408952,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Skunk Pt SMR","resistance","reference",0.0456041254398091,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Skunk Pt SMR","resistance","mpa",0.0480334033266296,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","Skunk Pt SMR","resistance","reference",0.06371539462919,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","Skunk Pt SMR","resistance","mpa",0.643932951527291,1,"2013","modern_base",1,1
+"post_designation_baseline","Skunk Pt SMR","resistance","reference",1,1,"2013","modern_base",1,1
+"post_designation_baseline","Skunk Pt SMR","resistance","mpa",0.354014270034405,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Skunk Pt SMR","resistance","reference",0.226338974443714,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Skunk Pt SMR","recovery","mpa",0.0818095349408952,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Skunk Pt SMR","recovery","reference",0.0456041254398091,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Skunk Pt SMR","recovery","mpa",0.148349515084831,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","Skunk Pt SMR","recovery","reference",0.0521940413000753,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","Skunk Pt SMR","recovery","mpa",0.643932951527291,1,"2013","modern_base",1,1
+"post_designation_baseline","Skunk Pt SMR","recovery","reference",1,1,"2013","modern_base",1,1
+"post_designation_baseline","Skunk Pt SMR","recovery","mpa",0.458939729189085,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Skunk Pt SMR","recovery","reference",0.0621556591796678,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","South La Jolla SMR","resistance","mpa",0.123133324711427,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","South La Jolla SMR","resistance","reference",0.0530976156511106,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","South La Jolla SMR","resistance","mpa",0.027725632665005,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","South La Jolla SMR","resistance","reference",0.00444909940273706,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","South La Jolla SMR","resistance","mpa",0.516203565811269,1,"2013","modern_base",1,1
+"post_designation_baseline","South La Jolla SMR","resistance","reference",0.368001363828753,1,"2013","modern_base",1,1
+"post_designation_baseline","South La Jolla SMR","resistance","mpa",0.158403048845274,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","South La Jolla SMR","resistance","reference",0.161366371780066,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","South La Jolla SMR","recovery","mpa",0.123133324711427,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","South La Jolla SMR","recovery","reference",0.0530976156511106,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","South La Jolla SMR","recovery","mpa",0.336870709730909,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","South La Jolla SMR","recovery","reference",0.0131007683076157,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","South La Jolla SMR","recovery","mpa",0.516203565811269,1,"2013","modern_base",1,1
+"post_designation_baseline","South La Jolla SMR","recovery","reference",0.368001363828753,1,"2013","modern_base",1,1
+"post_designation_baseline","South La Jolla SMR","recovery","mpa",0.117060443914937,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","South La Jolla SMR","recovery","reference",0.0119068956087501,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","South Point SMR","resistance","mpa",0.27650126590481,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","South Point SMR","resistance","reference",0.102073944969546,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","South Point SMR","resistance","mpa",0.170178034887062,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","South Point SMR","resistance","reference",0.0693654329479897,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","South Point SMR","resistance","mpa",0.314076484078011,1,"2013","modern_base",1,1
+"post_designation_baseline","South Point SMR","resistance","reference",0.185416958175474,1,"2013","modern_base",1,1
+"post_designation_baseline","South Point SMR","resistance","mpa",0.127202634610608,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","South Point SMR","resistance","reference",0.0281569024122865,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","South Point SMR","recovery","mpa",0.27650126590481,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","South Point SMR","recovery","reference",0.102073944969546,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","South Point SMR","recovery","mpa",0.343036111250561,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","South Point SMR","recovery","reference",0.0623900945040397,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","South Point SMR","recovery","mpa",0.314076484078011,1,"2013","modern_base",1,1
+"post_designation_baseline","South Point SMR","recovery","reference",0.185416958175474,1,"2013","modern_base",1,1
+"post_designation_baseline","South Point SMR","recovery","mpa",0.129355378935339,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","South Point SMR","recovery","reference",0.0479566256257871,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Swamis SMCA","resistance","mpa",0.0711426179964358,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Swamis SMCA","resistance","reference",0.0187798415184057,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Swamis SMCA","resistance","mpa",0.021310855000315,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","Swamis SMCA","resistance","reference",0.0110515063095135,2,"1997,1998","historical_event",2,2
+"post_designation_baseline","Swamis SMCA","resistance","mpa",0.816894132943117,1,"2013","modern_base",1,1
+"post_designation_baseline","Swamis SMCA","resistance","reference",0.120478891304792,1,"2013","modern_base",1,1
+"post_designation_baseline","Swamis SMCA","resistance","mpa",0.377794718309418,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Swamis SMCA","resistance","reference",0.0469277066289357,3,"2014,2015,2016","modern_event",3,2
+"post_designation_baseline","Swamis SMCA","recovery","mpa",0.0711426179964358,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Swamis SMCA","recovery","reference",0.0187798415184057,4,"1993,1994,1995,1996","historical_base",4,2
+"post_designation_baseline","Swamis SMCA","recovery","mpa",0.152147810450194,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","Swamis SMCA","recovery","reference",0.0539020456178753,3,"1999,2000,2001","historical_recovery",3,2
+"post_designation_baseline","Swamis SMCA","recovery","mpa",0.816894132943117,1,"2013","modern_base",1,1
+"post_designation_baseline","Swamis SMCA","recovery","reference",0.120478891304792,1,"2013","modern_base",1,1
+"post_designation_baseline","Swamis SMCA","recovery","mpa",0.00424737237472178,3,"2017,2018,2019","modern_recovery",3,2
+"post_designation_baseline","Swamis SMCA","recovery","reference",0.00147562044697134,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Abalone Cove SMCA","resistance","mpa",0.154595667809293,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Abalone Cove SMCA","resistance","reference",0.0815445698223243,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Abalone Cove SMCA","resistance","mpa",0.101351113640083,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","Abalone Cove SMCA","resistance","reference",0.106650483283544,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","Abalone Cove SMCA","resistance","mpa",0.200043747141522,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Abalone Cove SMCA","resistance","reference",0.191186098198566,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Abalone Cove SMCA","resistance","mpa",0.370878884152165,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Abalone Cove SMCA","resistance","reference",0.173662385259355,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Abalone Cove SMCA","recovery","mpa",0.154595667809293,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Abalone Cove SMCA","recovery","reference",0.0815445698223243,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Abalone Cove SMCA","recovery","mpa",0.0602650016239469,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Abalone Cove SMCA","recovery","reference",0.251531787295075,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Abalone Cove SMCA","recovery","mpa",0.200043747141522,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Abalone Cove SMCA","recovery","reference",0.191186098198566,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Abalone Cove SMCA","recovery","mpa",0.708335564029652,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Abalone Cove SMCA","recovery","reference",0.214982019312986,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Cabrillo SMR","resistance","mpa",0.000724112217547578,5,"1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Cabrillo SMR","resistance","reference",0.280559947340224,5,"1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Cabrillo SMR","resistance","mpa",0.00016103583568683,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","Cabrillo SMR","resistance","reference",0.0247239119427641,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","Cabrillo SMR","resistance","mpa",0.00270456588224366,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Cabrillo SMR","resistance","reference",0.258313619833732,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Cabrillo SMR","resistance","mpa",0.000363207923842928,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Cabrillo SMR","resistance","reference",0.226175544810207,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Cabrillo SMR","recovery","mpa",0.000724112217547578,5,"1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Cabrillo SMR","recovery","reference",0.280559947340224,5,"1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Cabrillo SMR","recovery","mpa",0.00245766441589242,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Cabrillo SMR","recovery","reference",0.240258750721899,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Cabrillo SMR","recovery","mpa",0.00270456588224366,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Cabrillo SMR","recovery","reference",0.258313619833732,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Cabrillo SMR","recovery","mpa",0.0034707915481355,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Cabrillo SMR","recovery","reference",0.134380786569474,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Campus Point SMCA","resistance","mpa",0.298485001114838,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Campus Point SMCA","resistance","reference",0.0435861787682387,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Campus Point SMCA","resistance","mpa",0.246461707964829,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","Campus Point SMCA","resistance","reference",0.0329409203542359,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","Campus Point SMCA","resistance","mpa",0.382630788988861,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Campus Point SMCA","resistance","reference",0.0515415579401511,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Campus Point SMCA","resistance","mpa",0.204740159960571,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Campus Point SMCA","resistance","reference",0.010186503117822,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Campus Point SMCA","recovery","mpa",0.298485001114838,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Campus Point SMCA","recovery","reference",0.0435861787682387,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Campus Point SMCA","recovery","mpa",0.26638070065186,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Campus Point SMCA","recovery","reference",0.0324286008725659,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Campus Point SMCA","recovery","mpa",0.382630788988861,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Campus Point SMCA","recovery","reference",0.0515415579401511,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Campus Point SMCA","recovery","mpa",0.63216669483616,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Campus Point SMCA","recovery","reference",0.0574378420117148,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Carrington Pt SMR","resistance","mpa",0.25980779259691,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Carrington Pt SMR","resistance","reference",0.136373348671184,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Carrington Pt SMR","resistance","mpa",0.0795976702665021,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","Carrington Pt SMR","resistance","reference",0.0170407745841385,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","Carrington Pt SMR","resistance","mpa",0.235728130924532,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Carrington Pt SMR","resistance","reference",0.205457185348557,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Carrington Pt SMR","resistance","mpa",0.479172197822597,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Carrington Pt SMR","resistance","reference",0.0645648203331875,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Carrington Pt SMR","recovery","mpa",0.25980779259691,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Carrington Pt SMR","recovery","reference",0.136373348671184,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Carrington Pt SMR","recovery","mpa",0.0583934308912421,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Carrington Pt SMR","recovery","reference",0.00755578909718366,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Carrington Pt SMR","recovery","mpa",0.235728130924532,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Carrington Pt SMR","recovery","reference",0.205457185348557,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Carrington Pt SMR","recovery","mpa",0.482103834363668,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Carrington Pt SMR","recovery","reference",0.022012336831785,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Farnsworth Onshore SMCA","resistance","mpa",0.0671275956157797,2,"1992,1994","historical_base",6,2
+"earlier_historical_baseline","Farnsworth Onshore SMCA","resistance","reference",0.00398591777274199,2,"1992,1994","historical_base",6,2
+"earlier_historical_baseline","Farnsworth Onshore SMCA","resistance","mpa",0,1,"1998","historical_event",2,2
+"earlier_historical_baseline","Farnsworth Onshore SMCA","resistance","reference",0,1,"1998","historical_event",2,2
+"earlier_historical_baseline","Farnsworth Onshore SMCA","resistance","mpa",0.354307655942489,3,"2010,2011,2013","modern_base",4,2
+"earlier_historical_baseline","Farnsworth Onshore SMCA","resistance","reference",0.258401547734666,3,"2010,2011,2013","modern_base",4,2
+"earlier_historical_baseline","Farnsworth Onshore SMCA","resistance","mpa",0.0155826871592492,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Farnsworth Onshore SMCA","resistance","reference",0.00919802473703413,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Farnsworth Onshore SMCA","recovery","mpa",0.0671275956157797,2,"1992,1994","historical_base",6,2
+"earlier_historical_baseline","Farnsworth Onshore SMCA","recovery","reference",0.00398591777274199,2,"1992,1994","historical_base",6,2
+"earlier_historical_baseline","Farnsworth Onshore SMCA","recovery","mpa",0.323588051817252,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Farnsworth Onshore SMCA","recovery","reference",0.111565873786657,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Farnsworth Onshore SMCA","recovery","mpa",0.354307655942489,3,"2010,2011,2013","modern_base",4,2
+"earlier_historical_baseline","Farnsworth Onshore SMCA","recovery","reference",0.258401547734666,3,"2010,2011,2013","modern_base",4,2
+"earlier_historical_baseline","Farnsworth Onshore SMCA","recovery","mpa",0.054917089313334,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Farnsworth Onshore SMCA","recovery","reference",0.16403636559836,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Gull Island SMR","resistance","mpa",0.287568974402132,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Gull Island SMR","resistance","reference",0.046099422406602,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Gull Island SMR","resistance","mpa",0.0382196353880788,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","Gull Island SMR","resistance","reference",0.0203452398196204,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","Gull Island SMR","resistance","mpa",0.21514424333288,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Gull Island SMR","resistance","reference",0.0440864905350613,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Gull Island SMR","resistance","mpa",0.422913890322319,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Gull Island SMR","resistance","reference",0.0244773752868074,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Gull Island SMR","recovery","mpa",0.287568974402132,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Gull Island SMR","recovery","reference",0.046099422406602,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Gull Island SMR","recovery","mpa",0.155469168151591,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Gull Island SMR","recovery","reference",0.0734028291388891,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Gull Island SMR","recovery","mpa",0.21514424333288,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Gull Island SMR","recovery","reference",0.0440864905350613,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Gull Island SMR","recovery","mpa",0.337652679828716,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Gull Island SMR","recovery","reference",0.0393325908178813,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Harris Point SMR","resistance","mpa",0.0796744871005885,5,"1991,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Harris Point SMR","resistance","reference",0.333574974530328,5,"1991,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Harris Point SMR","resistance","mpa",0.00181170056488066,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","Harris Point SMR","resistance","reference",0.191829216763105,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","Harris Point SMR","resistance","mpa",0.123983228498775,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Harris Point SMR","resistance","reference",0.32793457161518,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Harris Point SMR","resistance","mpa",0.044637507276868,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Harris Point SMR","resistance","reference",0.277094158640944,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Harris Point SMR","recovery","mpa",0.0796744871005885,5,"1991,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Harris Point SMR","recovery","reference",0.333574974530328,5,"1991,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Harris Point SMR","recovery","mpa",0.00346196899144157,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Harris Point SMR","recovery","reference",0.163250328618846,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Harris Point SMR","recovery","mpa",0.123983228498775,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Harris Point SMR","recovery","reference",0.32793457161518,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Harris Point SMR","recovery","mpa",0.00391168729134617,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Harris Point SMR","recovery","reference",0.0340512804600491,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Naples SMCA","resistance","mpa",0.299369259121771,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Naples SMCA","resistance","reference",0.047411014770139,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Naples SMCA","resistance","mpa",0.285302740095331,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","Naples SMCA","resistance","reference",0.0278345406144713,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","Naples SMCA","resistance","mpa",0.432952052919,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Naples SMCA","resistance","reference",0.0400386338197745,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Naples SMCA","resistance","mpa",0.10406060024362,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Naples SMCA","resistance","reference",0.00970917980631749,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Naples SMCA","recovery","mpa",0.299369259121771,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Naples SMCA","recovery","reference",0.047411014770139,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Naples SMCA","recovery","mpa",0.489322783973366,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Naples SMCA","recovery","reference",0.0219613660626026,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Naples SMCA","recovery","mpa",0.432952052919,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Naples SMCA","recovery","reference",0.0400386338197745,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Naples SMCA","recovery","mpa",0.433682814404755,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Naples SMCA","recovery","reference",0.0445751861852409,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Point Dume SMCA","resistance","mpa",0.21429862485238,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Point Dume SMCA","resistance","reference",0.209958100081784,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Point Dume SMCA","resistance","mpa",0.229756908933934,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","Point Dume SMCA","resistance","reference",0.17739217315381,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","Point Dume SMCA","resistance","mpa",0.38022041763341,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Point Dume SMCA","resistance","reference",0.370616523883929,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Point Dume SMCA","resistance","mpa",0.195301258298281,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Point Dume SMCA","resistance","reference",0.179192742333659,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Point Dume SMCA","recovery","mpa",0.21429862485238,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Point Dume SMCA","recovery","reference",0.209958100081784,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Point Dume SMCA","recovery","mpa",0.176850877806268,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Point Dume SMCA","recovery","reference",0.136552489254034,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Point Dume SMCA","recovery","mpa",0.38022041763341,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Point Dume SMCA","recovery","reference",0.370616523883929,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Point Dume SMCA","recovery","mpa",0.40126664466257,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Point Dume SMCA","recovery","reference",0.35012392208382,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Point Dume SMR","resistance","mpa",0.0559540788334768,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Point Dume SMR","resistance","reference",0.130759354167192,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Point Dume SMR","resistance","mpa",0.0218425971612457,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","Point Dume SMR","resistance","reference",0.208254699143188,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","Point Dume SMR","resistance","mpa",0.442023566846865,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Point Dume SMR","resistance","reference",0.554932209524701,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Point Dume SMR","resistance","mpa",0.0849852515873903,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Point Dume SMR","resistance","reference",0.120921976875546,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Point Dume SMR","recovery","mpa",0.0559540788334768,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Point Dume SMR","recovery","reference",0.130759354167192,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Point Dume SMR","recovery","mpa",0.127908414578659,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Point Dume SMR","recovery","reference",0.0739587572676599,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Point Dume SMR","recovery","mpa",0.442023566846865,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Point Dume SMR","recovery","reference",0.554932209524701,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Point Dume SMR","recovery","mpa",0.185504057164055,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Point Dume SMR","recovery","reference",0.144415591899358,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Point Vicente SMCA","resistance","mpa",0.0286323996708512,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Point Vicente SMCA","resistance","reference",0.0196716712178863,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Point Vicente SMCA","resistance","mpa",0.00215225065152983,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","Point Vicente SMCA","resistance","reference",0.00145479682796819,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","Point Vicente SMCA","resistance","mpa",0.406216765533051,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Point Vicente SMCA","resistance","reference",0.144484662998477,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Point Vicente SMCA","resistance","mpa",0.492824398834372,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Point Vicente SMCA","resistance","reference",0.149243301542831,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Point Vicente SMCA","recovery","mpa",0.0286323996708512,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Point Vicente SMCA","recovery","reference",0.0196716712178863,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Point Vicente SMCA","recovery","mpa",0.00817984157028895,2,"2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Point Vicente SMCA","recovery","reference",0.0226566410924646,2,"2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Point Vicente SMCA","recovery","mpa",0.406216765533051,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Point Vicente SMCA","recovery","reference",0.144484662998477,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Point Vicente SMCA","recovery","mpa",0.672233406310404,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Point Vicente SMCA","recovery","reference",0.23404691874193,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Santa Barbara Island SMR","resistance","mpa",0.130293321904184,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Santa Barbara Island SMR","resistance","reference",0.278303350881247,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Santa Barbara Island SMR","resistance","mpa",0,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","Santa Barbara Island SMR","resistance","reference",0.0178251263853967,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","Santa Barbara Island SMR","resistance","mpa",0.241053309509048,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Santa Barbara Island SMR","resistance","reference",0.100708131906011,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Santa Barbara Island SMR","resistance","mpa",0.0885942120610572,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Santa Barbara Island SMR","resistance","reference",0.115071402950988,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Santa Barbara Island SMR","recovery","mpa",0.130293321904184,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Santa Barbara Island SMR","recovery","reference",0.278303350881247,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Santa Barbara Island SMR","recovery","mpa",0.00189104634423551,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Santa Barbara Island SMR","recovery","reference",0.198816361071645,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Santa Barbara Island SMR","recovery","mpa",0.241053309509048,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Santa Barbara Island SMR","recovery","reference",0.100708131906011,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Santa Barbara Island SMR","recovery","mpa",0.299149346903923,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Santa Barbara Island SMR","recovery","reference",0.359235507845974,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Skunk Pt SMR","resistance","mpa",0.149672536162083,5,"1991,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Skunk Pt SMR","resistance","reference",0.0364833003518473,5,"1991,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Skunk Pt SMR","resistance","mpa",0.0480334033266296,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","Skunk Pt SMR","resistance","reference",0.06371539462919,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","Skunk Pt SMR","resistance","mpa",0.455246272957734,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Skunk Pt SMR","resistance","reference",0.306731850442731,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Skunk Pt SMR","resistance","mpa",0.354014270034405,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Skunk Pt SMR","resistance","reference",0.226338974443714,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Skunk Pt SMR","recovery","mpa",0.149672536162083,5,"1991,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Skunk Pt SMR","recovery","reference",0.0364833003518473,5,"1991,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Skunk Pt SMR","recovery","mpa",0.148349515084831,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Skunk Pt SMR","recovery","reference",0.0521940413000753,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Skunk Pt SMR","recovery","mpa",0.455246272957734,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Skunk Pt SMR","recovery","reference",0.306731850442731,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Skunk Pt SMR","recovery","mpa",0.458939729189085,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Skunk Pt SMR","recovery","reference",0.0621556591796678,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","South La Jolla SMR","resistance","mpa",0.118259002053581,5,"1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","South La Jolla SMR","resistance","reference",0.043911288426267,5,"1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","South La Jolla SMR","resistance","mpa",0.027725632665005,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","South La Jolla SMR","resistance","reference",0.00444909940273706,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","South La Jolla SMR","resistance","mpa",0.444437596996441,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","South La Jolla SMR","resistance","reference",0.140918977598721,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","South La Jolla SMR","resistance","mpa",0.158403048845274,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","South La Jolla SMR","resistance","reference",0.161366371780066,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","South La Jolla SMR","recovery","mpa",0.118259002053581,5,"1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","South La Jolla SMR","recovery","reference",0.043911288426267,5,"1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","South La Jolla SMR","recovery","mpa",0.336870709730909,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","South La Jolla SMR","recovery","reference",0.0131007683076157,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","South La Jolla SMR","recovery","mpa",0.444437596996441,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","South La Jolla SMR","recovery","reference",0.140918977598721,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","South La Jolla SMR","recovery","mpa",0.117060443914937,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","South La Jolla SMR","recovery","reference",0.0119068956087501,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","South Point SMR","resistance","mpa",0.310485718649763,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","South Point SMR","resistance","reference",0.106192534193909,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","South Point SMR","resistance","mpa",0.170178034887062,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","South Point SMR","resistance","reference",0.0693654329479897,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","South Point SMR","resistance","mpa",0.210716228682473,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","South Point SMR","resistance","reference",0.117654934928114,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","South Point SMR","resistance","mpa",0.127202634610608,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","South Point SMR","resistance","reference",0.0281569024122865,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","South Point SMR","recovery","mpa",0.310485718649763,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","South Point SMR","recovery","reference",0.106192534193909,6,"1991,1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","South Point SMR","recovery","mpa",0.343036111250561,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","South Point SMR","recovery","reference",0.0623900945040397,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","South Point SMR","recovery","mpa",0.210716228682473,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","South Point SMR","recovery","reference",0.117654934928114,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","South Point SMR","recovery","mpa",0.129355378935339,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","South Point SMR","recovery","reference",0.0479566256257871,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Swamis SMCA","resistance","mpa",0.0668429149564449,5,"1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Swamis SMCA","resistance","reference",0.0187201636972752,5,"1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Swamis SMCA","resistance","mpa",0.021310855000315,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","Swamis SMCA","resistance","reference",0.0110515063095135,2,"1997,1998","historical_event",2,2
+"earlier_historical_baseline","Swamis SMCA","resistance","mpa",0.37739196342848,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Swamis SMCA","resistance","reference",0.0769740622101384,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Swamis SMCA","resistance","mpa",0.377794718309418,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Swamis SMCA","resistance","reference",0.0469277066289357,3,"2014,2015,2016","modern_event",3,2
+"earlier_historical_baseline","Swamis SMCA","recovery","mpa",0.0668429149564449,5,"1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Swamis SMCA","recovery","reference",0.0187201636972752,5,"1992,1993,1994,1995,1996","historical_base",6,2
+"earlier_historical_baseline","Swamis SMCA","recovery","mpa",0.152147810450194,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Swamis SMCA","recovery","reference",0.0539020456178753,3,"1999,2000,2001","historical_recovery",3,2
+"earlier_historical_baseline","Swamis SMCA","recovery","mpa",0.37739196342848,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Swamis SMCA","recovery","reference",0.0769740622101384,4,"2010,2011,2012,2013","modern_base",4,2
+"earlier_historical_baseline","Swamis SMCA","recovery","mpa",0.00424737237472178,3,"2017,2018,2019","modern_recovery",3,2
+"earlier_historical_baseline","Swamis SMCA","recovery","reference",0.00147562044697134,3,"2017,2018,2019","modern_recovery",3,2

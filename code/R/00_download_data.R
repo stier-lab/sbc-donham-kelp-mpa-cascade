@@ -25,6 +25,7 @@ HARMONIZED_FILES <- c(
   "harmonized_response_ratios.csv",
   "harmonized_raw_responses.csv",
   "harmonized_landsat_rr.csv",
+  "harmonized_landsat_annual_index.csv",
   "harmonized_site_metadata.csv"
 )
 

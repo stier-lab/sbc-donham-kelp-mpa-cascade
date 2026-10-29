@@ -1,0 +1,15 @@
+site,min_before,min_after,included,status,reason
+a-k-01,12,15,TRUE,Control,At least two before and after years for both species and boundaries
+a-k-02,13,15,TRUE,Reserve,At least two before and after years for both species and boundaries
+a-k-03,12,15,TRUE,Control,At least two before and after years for both species and boundaries
+a-k-04,13,15,TRUE,Control,At least two before and after years for both species and boundaries
+a-k-05,0,0,FALSE,Control,Insufficient original-window before/after size-supported biomass
+a-k-06,13,15,TRUE,Reserve,At least two before and after years for both species and boundaries
+a-k-07,0,0,FALSE,Control,Insufficient original-window before/after size-supported biomass
+a-k-08,13,15,TRUE,Control,At least two before and after years for both species and boundaries
+a-k-09,13,15,TRUE,Reserve,At least two before and after years for both species and boundaries
+a-k-10,13,15,TRUE,Control,At least two before and after years for both species and boundaries
+a-k-11,13,15,TRUE,Control,At least two before and after years for both species and boundaries
+a-k-14,0,15,FALSE,Reserve,Insufficient original-window before/after size-supported biomass
+a-k-15,13,15,TRUE,Control,At least two before and after years for both species and boundaries
+a-k-16,13,15,TRUE,Control,At least two before and after years for both species and boundaries

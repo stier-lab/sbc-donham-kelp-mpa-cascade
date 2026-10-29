@@ -1,0 +1,3057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-sbc.112.15"
+  system="https://pasta.edirepository.org"
+  xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+   <access
+    authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document"
+      system="https://pasta.edirepository.org">
+      <allow>
+         <principal>uid=SBC,o=EDI,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+      <allow>
+         <principal>uid=lkui,o=EDI,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+   </access>
+   <dataset>
+      <alternateIdentifier
+        system="https://doi.org">doi:10.6073/pasta/710844a10e2fe8873a4b49d97999d549</alternateIdentifier><shortName>Giant kelp NPP</shortName>
+      <title>SBC LTER: REEF: Net primary production, growth and standing crop of Macrocystis pyrifera in Southern California</title>
+      <creator>
+         <individualName>
+            <givenName>Andrew A</givenName>
+            <surName>Rassweiler</surName>
+         </individualName>
+         <address>
+            <deliveryPoint>Marine Science Institute University of California</deliveryPoint>
+            <city>Santa Barbara</city>
+            <administrativeArea>CA</administrativeArea>
+            <postalCode>93106-6150</postalCode>
+            <country>US</country>
+         </address>
+         <phone>805-893-7823</phone>
+         <electronicMailAddress>rassweiler@bio.fsu.edu</electronicMailAddress>
+         <userId
+        directory="https://orcid.org/">https://orcid.org/0000-0002-8760-3888</userId>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Shannon</givenName>
+            <surName>Harrer</surName>
+         </individualName>
+         <address>
+            <deliveryPoint>Marine Science Institute University of California</deliveryPoint>
+            <city>Santa Barbara</city>
+            <administrativeArea>CA</administrativeArea>
+            <postalCode>93106-6150</postalCode>
+            <country>US</country>
+         </address>
+         <electronicMailAddress>harrer@msi.ucsb.edu</electronicMailAddress>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Daniel C</givenName>
+            <surName>Reed</surName>
+         </individualName>
+         <address>
+            <deliveryPoint>Marine Science Institute University of California</deliveryPoint>
+            <city>Santa Barbara</city>
+            <administrativeArea>CA</administrativeArea>
+            <postalCode>93106-6150</postalCode>
+            <country>US</country>
+         </address>
+         <phone>805-893-8363</phone>
+         <electronicMailAddress>danreed@ucsb.edu</electronicMailAddress>
+         <userId
+        directory="https://orcid.org/">https://orcid.org/0000-0003-3015-8717</userId>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Clint J</givenName>
+            <surName>Nelson</surName>
+         </individualName>
+         <address>
+            <deliveryPoint>Marine Science Institute University of California</deliveryPoint>
+            <city>Santa Barbara</city>
+            <administrativeArea>CA</administrativeArea>
+            <postalCode>93106-6150</postalCode>
+            <country>US</country>
+         </address>
+         <phone>805-893-7295</phone>
+         <electronicMailAddress>scubaclint@ucsb.edu</electronicMailAddress>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Robert J</givenName>
+            <surName>Miller</surName>
+         </individualName>
+         <address>
+            <deliveryPoint>Marine Science Institute University of California</deliveryPoint>
+            <city>Santa Barbara</city>
+            <administrativeArea>CA</administrativeArea>
+            <postalCode>93106-6150</postalCode>
+            <country>US</country>
+         </address>
+         <phone>805-893-6174</phone>
+         <electronicMailAddress>rjmiller@ucsb.edu</electronicMailAddress>
+         <userId
+        directory="https://orcid.org/">https://orcid.org/0000-0002-8350-3759</userId>
+      </creator>
+      <associatedParty>
+         <organizationName>Santa Barbara Coastal LTER</organizationName>
+         <address>
+            <deliveryPoint>Marine Science Institute University of California</deliveryPoint>
+            <city>Santa Barbara</city>
+            <administrativeArea>CA</administrativeArea>
+            <postalCode>93106</postalCode>
+            <country>USA</country>
+         </address>
+         <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+         <role>publisher, curator</role>
+      </associatedParty>
+      <pubDate>2026-09-09</pubDate>
+      <language>English</language>
+      <abstract>
+         <section>
+            <para>
+      The giant kelp <emphasis>Macrocystis pyrifera</emphasis> forms
+      subtidal forests on shallow reefs in temperate regions of the
+      world. It is one of the fastest-growing multicellular autotrophs
+      on Earth and its high productivity supports diverse marine food
+      webs. In 2008, we published a method for estimating biomass and
+      net primary production (NPP) of giant kelp along with five years
+      of data, to provide a more integrated measure of NPP than those
+      yielded by previous methods. Our method combines monthly field
+      measurements of standing crop and loss rates with a model of kelp
+      biomass dynamics to estimate instantaneous mass-specific growth
+      rates and NPP for each season of each year. We have since improved
+      our approach to account for several previously unresolved sources
+      of biomass loss. These improvements have led to a near doubling of
+      our prior estimates of growth and NPP. At our site with the most
+      persistent stand of giant kelp, NPP averages ~5.2 kg dry mass
+      m<superscript>-2</superscript> y<superscript>-1</superscript> and
+      results from the rapid growth (~3.5% per day) of a relatively
+      small standing biomass (~ 0.4 kg dry mass
+      m<superscript>-2</superscript> on average) that turns over ~ 12
+      times annually. Here we provide revised estimates of seasonal
+      biomass, growth and NPP for the five years covered by our previous
+      publication (2002-2006), along with an additional data collect
+      since then (2007-present). We also present updated relationships
+      for predicting giant kelp biomass and NPP from much more easily
+      obtained measurements of frond density. These data can be used to
+      understand the mechanisms that drive variation in giant kelp NPP
+      at a wide range of temporal scales.
+    </para>
+         </section>
+      </abstract>
+      <keywordSet>
+         <keyword
+        keywordType="theme">populations</keyword>
+         <keyword
+        keywordType="theme">primary production</keyword>
+         <keywordThesaurus>LTER Core Research Areas</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword
+        keywordType="theme">algae</keyword>
+         <keyword
+        keywordType="theme">biomass</keyword>
+         <keyword
+        keywordType="theme">carbon</keyword>
+         <keyword
+        keywordType="theme">growth</keyword>
+         <keyword
+        keywordType="theme">long term ecological research</keyword>
+         <keyword
+        keywordType="theme">LTER</keyword>
+         <keyword
+        keywordType="theme">mass</keyword>
+         <keyword
+        keywordType="theme">net primary production</keyword>
+         <keyword
+        keywordType="theme">populations</keyword>
+         <keyword
+        keywordType="theme">productivity</keyword>
+         <keyword
+        keywordType="theme">Santa Barbara Coastal</keyword>
+         <keyword
+        keywordType="theme">seasonality</keyword>
+         <keyword
+        keywordType="theme">standing crop</keyword>
+         <keywordThesaurus>LTER Controlled Vocabulary v1</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword
+        keywordType="theme">Biogeochemistry</keyword>
+         <keyword
+        keywordType="theme">Community Structure</keyword>
+         <keyword
+        keywordType="theme">Ecosystem Processes</keyword>
+         <keyword
+        keywordType="theme">Kelp Forest</keyword>
+         <keyword
+        keywordType="theme">Nearshore Ocean</keyword>
+         <keyword
+        keywordType="theme">populations</keyword>
+         <keyword
+        keywordType="theme">Reef</keyword>
+         <keywordThesaurus>SBC-LTER Controlled Vocabulary</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword
+        keywordType="place">Arroyo Burro Reef</keyword>
+         <keyword
+        keywordType="place">Arroyo Quemada Reef</keyword>
+         <keyword
+        keywordType="place">Mohawk Reef</keyword>
+         <keywordThesaurus>Santa Barbara Coastal LTER Places</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword
+        keywordType="theme">algae</keyword>
+         <keyword
+        keywordType="theme">Biomass</keyword>
+         <keyword
+        keywordType="theme">Carbon</keyword>
+         <keyword
+        keywordType="theme">Dominant Species</keyword>
+         <keyword
+        keywordType="theme">Marine Plants</keyword>
+         <keywordThesaurus>Global Change Master Directory (GCMD) v6.0.0.0.0</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword
+        keywordType="theme">Biomass</keyword>
+         <keyword
+        keywordType="theme">Carbon</keyword>
+         <keywordThesaurus>Knowledge Network for Biocomplexity</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword
+        keywordType="theme">Biomass</keyword>
+         <keyword
+        keywordType="theme">Carbon</keyword>
+         <keyword
+        keywordType="theme">Fronds</keyword>
+         <keyword
+        keywordType="theme">Mass (property)</keyword>
+         <keyword
+        keywordType="theme">Primary production</keyword>
+         <keywordThesaurus>NBII Biocomplexity</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword
+        keywordType="theme">giant kelp</keyword>
+         <keyword
+        keywordType="theme">growth rate</keyword>
+         <keyword
+        keywordType="theme">marine algae</keyword>
+         <keyword
+        keywordType="theme">net primary production</keyword>
+         <keyword
+        keywordType="theme">standing crop</keyword>
+         <keywordThesaurus>Ecological Archives</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword
+        keywordType="theme">biomass</keyword>
+         <keyword
+        keywordType="taxonomic">giant kelp</keyword>
+         <keyword
+        keywordType="theme">growth rate</keyword>
+         <keyword
+        keywordType="theme">LTER</keyword>
+         <keyword
+        keywordType="taxonomic">Macrocystis pyrifera</keyword>
+         <keyword
+        keywordType="theme">Marine Plants</keyword>
+         <keyword
+          keywordType="theme">net primary production</keyword>
+         <keywordThesaurus>none</keywordThesaurus>
+      </keywordSet>
+      <intellectualRights>
+         <para>
+    This data package is released under the Creative Commons License
+    Attribution 4.0 International (CC BY 4.0, see
+    https://creativecommons.org/licenses/by/4.0/). This license states
+    that consumers ("Data Users" herein) may distribute,
+    adapt, reuse, remix, and build upon this work, as long as they give
+    appropriate credit, provide a link to the license, and indicate if
+    changes were made. If redistributed, a Data User may not apply
+    additional restrictions or technological measures that prevent
+    access.
+  </para>
+         <para>
+    The Data User has an ethical obligation to cite the data source
+    appropriately in any publication or product that results from its
+    use, and notify the data contact or creator. Communication,
+    collaboration, or co-authorship (as appropriate) with the creators
+    of this data package is encouraged to prevent duplicate research or
+    publication. The Data User is urged to contact the authors of these
+    data if any questions about methodology or results occur. The Data
+    User should realize that these data may be actively used by others
+    for ongoing research and that coordination may be necessary to
+    prevent duplication or inappropriate use. The Data User should
+    realize that misinterpretation may occur if data are used outside of
+    the context of the original study. The Data User should be aware
+    that data are updated periodically and it is the responsibility of
+    the Data User to check for new versions of the data.
+  </para>
+         <para>
+    While substantial efforts are made to ensure the accuracy of data
+    and associated documentation, complete accuracy of data sets cannot
+    be guaranteed. This data package (with its components) is made
+    available “as is” and with no warranty of accuracy or fitness for
+    use. The creators of this data package and the repository where
+    these data were obtained shall not be liable for any damages
+    resulting from misinterpretation, use or misuse of the data package
+    or its components.
+  </para>
+      </intellectualRights>
+      <distribution>
+         <online>
+            <url
+      function="information">https://sbclter.msi.ucsb.edu/</url>
+         </online>
+      </distribution>
+      <distribution
+      id="10.6073/pasta/710844a10e2fe8873a4b49d97999d549" scope="system"
+          system="https://pasta.edirepository.org"><online><url
+        function="information">https://doi.org/10.6073/pasta/710844a10e2fe8873a4b49d97999d549</url></online></distribution><coverage>
+         <geographicCoverage>
+            <geographicDescription>ABUR: Arroyo Burro Reef is located on the Santa Barbara Channel near the mouth of Arroyo Burro Creek and Beach. Depth ranges from 5.4 to 7 meters.</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-119.7445915</westBoundingCoordinate>
+               <eastBoundingCoordinate>-119.7445915</eastBoundingCoordinate>
+               <northBoundingCoordinate>34.400275</northBoundingCoordinate>
+               <southBoundingCoordinate>34.400275</southBoundingCoordinate>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <geographicCoverage>
+            <geographicDescription>AQUE: Arroyo Quemada Reef: Arroyo Quemada Reef depth range from 5.4 m to 10.7 m. Reference on Land is close to US101/Arroyo Quemada Ln.</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-120.11905</westBoundingCoordinate>
+               <eastBoundingCoordinate>-120.11905</eastBoundingCoordinate>
+               <northBoundingCoordinate>34.46774988</northBoundingCoordinate>
+               <southBoundingCoordinate>34.46774988</southBoundingCoordinate>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <geographicCoverage>
+            <geographicDescription>MOHK: Mohawk Reef: Mohawk Reef depth ranges from 4.5m to 6.0 m. Reference on land is Mohawk Rd / Edgewater Way.</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-119.72957</westBoundingCoordinate>
+               <eastBoundingCoordinate>-119.72957</eastBoundingCoordinate>
+               <northBoundingCoordinate>34.3940708</northBoundingCoordinate>
+               <southBoundingCoordinate>34.3940708</southBoundingCoordinate>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <temporalCoverage>
+            <rangeOfDates>
+               <beginDate>
+                  <calendarDate>2002-04-04</calendarDate>
+               </beginDate>
+               <endDate>
+                  <calendarDate>2026-08-04</calendarDate>
+               </endDate>
+            </rangeOfDates>
+         </temporalCoverage>
+      </coverage>
+      <contact>
+         <organizationName>Santa Barbara Coastal LTER</organizationName>
+         <address>
+            <deliveryPoint>Marine Science Institute</deliveryPoint>
+            <deliveryPoint>University of California</deliveryPoint>
+            <city>Santa Barbara</city>
+            <administrativeArea>California</administrativeArea>
+            <postalCode>93106-6150</postalCode>
+            <country>United States</country>
+         </address>
+         <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+         <onlineUrl>https://sbclter.msi.ucsb.edu/</onlineUrl>
+         <userId
+        directory="https://ror.org">https://ror.org/05hnkta08</userId>
+      </contact>
+      <publisher>
+         <organizationName>Environmental Data Initiative</organizationName>
+         <electronicMailAddress>info@edirepository.org</electronicMailAddress>
+         <onlineUrl>https://edirepository.org</onlineUrl>
+         <userId
+                directory="https://ror.org">0330j0z60</userId>
+      </publisher>
+      <pubPlace>Environmental Data Initiative</pubPlace>
+      <methods>
+         <methodStep>
+            <description>
+               <section>
+                  <para>
+      The method for <emphasis>Macrocystis pyrifera</emphasis> net
+      primary production, growth and standing crop can be seen in
+      protocol below.
+    </para>
+               </section>
+            </description>
+            <protocol>
+               <title>Net primary production, growth and standing crop of Macrocystis pyrifera in Southern California</title>
+               <creator>
+                  <individualName>
+                     <surName>Reed</surName>
+                  </individualName>
+               </creator>
+               <distribution>
+                  <online>
+                     <url
+        function="download">https://sbclter.msi.ucsb.edu/external/Reef/Protocols/Kelp_NPP/KelpNPP_protocol.pdf</url>
+                  </online>
+               </distribution>
+            </protocol>
+         </methodStep>
+      </methods>
+      <project>
+         <title>Santa Barbara Coastal Long Term Ecological Research Project</title>
+         <personnel
+          scope="document">
+            <individualName>
+               <salutation>Dr.</salutation>
+               <givenName>Robert</givenName>
+               <surName>Miller</surName>
+            </individualName>
+            <address
+        scope="document">
+               <deliveryPoint>Marine Science Institute</deliveryPoint>
+               <deliveryPoint>University of California</deliveryPoint>
+               <city>Santa Barbara</city>
+               <administrativeArea>California</administrativeArea>
+               <postalCode>93106-6150</postalCode>
+               <country>United States</country>
+            </address>
+            <electronicMailAddress>rjmiller@ucsb.edu</electronicMailAddress>
+            <role>Principal Investigator</role>
+         </personnel>
+         <personnel
+          scope="document">
+            <individualName>
+               <salutation>Dr.</salutation>
+               <givenName>Dan</givenName>
+               <surName>Reed</surName>
+            </individualName>
+            <address
+        scope="document">
+               <deliveryPoint>Marine Science Institute</deliveryPoint>
+               <deliveryPoint>University of California</deliveryPoint>
+               <city>Santa Barbara</city>
+               <administrativeArea>California</administrativeArea>
+               <postalCode>93106-6150</postalCode>
+               <country>United States</country>
+            </address>
+            <electronicMailAddress>dan.reed@lifesci.ucsb.edu</electronicMailAddress>
+            <role>Co-principal Investigator</role>
+         </personnel>
+         <personnel
+          scope="document">
+            <individualName>
+               <salutation>Dr.</salutation>
+               <givenName>Adrian</givenName>
+               <surName>Stier</surName>
+            </individualName>
+            <address
+        scope="document">
+               <deliveryPoint>Department of Ecology, Evolution and Marine Biology</deliveryPoint>
+               <deliveryPoint>University of California</deliveryPoint>
+               <city>Santa Barbara</city>
+               <administrativeArea>California</administrativeArea>
+               <postalCode>93106-9260</postalCode>
+               <country>United States</country>
+            </address>
+            <electronicMailAddress>adrian.stier@lifesci.ucsb.edu</electronicMailAddress>
+            <role>Co-principal Investigator</role>
+         </personnel>
+         <personnel
+          scope="document">
+            <individualName>
+               <salutation>Dr.</salutation>
+               <givenName>Gretchen</givenName>
+               <surName>Hoffman</surName>
+            </individualName>
+            <address
+        scope="document">
+               <deliveryPoint>Department of Ecology, Evolution and Marine Biology</deliveryPoint>
+               <deliveryPoint>University of California</deliveryPoint>
+               <city>Santa Barbara</city>
+               <administrativeArea>California</administrativeArea>
+               <postalCode>93106-9620</postalCode>
+               <country>United States</country>
+            </address>
+            <electronicMailAddress>hofmann@lifesci.ucsb.edu</electronicMailAddress>
+            <role>Co-principal Investigator</role>
+         </personnel>
+         <personnel
+          scope="document">
+            <individualName>
+               <salutation>Dr.</salutation>
+               <givenName>Nicholas</givenName>
+               <surName>Nidzieko</surName>
+            </individualName>
+            <address
+      scope="document">
+               <deliveryPoint>Department of Geography</deliveryPoint>
+               <deliveryPoint>University of California</deliveryPoint>
+               <city>Santa Barbara</city>
+               <administrativeArea>California</administrativeArea>
+               <postalCode>93106-3060</postalCode>
+               <country>United States</country>
+            </address>
+            <electronicMailAddress>nidzieko@ucsb.edu</electronicMailAddress>
+            <role>Co-principal Investigator</role>
+         </personnel>
+         <abstract>
+            <section>
+               <para>The Santa Barbara Coastal LTER (SBC LTER) is an interdisciplinary research and education program
+established in April 2000 with the goal of developing a predictive understanding of how environmental
+drivers interact with terrestrial and oceanic processes to alter material flows and influence the ecology of
+coastal ecosystems. SBC LTER's principal study domain is the semi-arid coast and nearshore waters of
+the Santa Barbara Channel in southern California, and its diverse and productive marine forests of giant
+kelp (<emphasis>Macrocystis pyrifera</emphasis>) serve as the focal study ecosystem. Analyses of our long-term data have
+identified many of the environmental drivers and ecological processes underlying the production and
+community dynamics of kelp forests. The research proposed to address this question is integrated in a conceptual framework
+that focuses on the causes and ecological consequences of the dynamics of a relatively short-lived
+foundation species in a setting of long-term environmental change and human use.</para>
+            </section>
+         </abstract>
+         <funding>
+            <para>SBC LTER is supported by the National Science Foundation.</para>
+         </funding>
+         <award>
+            <funderName>National Science Foundation</funderName>
+            <funderIdentifier>https://dx.doi.org/10.13039/100000001</funderIdentifier>
+            <awardNumber>2425417</awardNumber>
+            <title>LTER: Environmental drivers and ecological consequences of kelp forest dynamics on a changing planet (SBC V)</title>
+            <awardUrl>https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2425417</awardUrl>
+         </award>
+         <award>
+            <funderName>National Science Foundation</funderName>
+            <funderIdentifier>https://dx.doi.org/10.13039/100000001</funderIdentifier>
+            <awardNumber>1831937</awardNumber>
+            <title>LTER: Environmental drivers and ecological consequences of kelp forest dynamics (SBV IV)</title>
+            <awardUrl>https://www.nsf.gov/awardsearch/showAward?AWD_ID=1831937</awardUrl>
+         </award>
+         <award>
+            <funderName>National Science Foundation</funderName>
+            <funderIdentifier>https://dx.doi.org/10.13039/100000001</funderIdentifier>
+            <awardNumber>1232779</awardNumber>
+            <title>LTER: Land/Ocean Interactions and the Dynamics of Kelp Forest Ecosystems (SBC III)</title>
+            <awardUrl>https://www.nsf.gov/awardsearch/showAward?AWD_ID=1232779</awardUrl>
+         </award>
+         <award>
+            <funderName>National Science Foundation</funderName>
+            <funderIdentifier>https://dx.doi.org/10.13039/100000001</funderIdentifier>
+            <awardNumber>0620276</awardNumber>
+            <title>LTER: Land/Ocean Interactions and the Dynamics of Kelp Forest Communities</title>
+            <awardUrl>https://www.nsf.gov/awardsearch/showAward?AWD_ID=0620276</awardUrl>
+         </award>
+         <award>
+            <funderName>National Science Foundation</funderName>
+            <funderIdentifier>https://dx.doi.org/10.13039/100000001</funderIdentifier>
+            <awardNumber>9982105</awardNumber>
+            <title>LTER: Land/Ocean Interactions and the Dynamics of Kelp Forest Ecosystems</title>
+            <awardUrl>https://www.nsf.gov/awardsearch/showAward?AWD_ID=9982105</awardUrl>
+         </award>
+      </project>
+      <dataTable
+      id="6f24a9026ff356773b93d16390f998b1" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>Macrocystis pyrifera net primary production and growth with SE</entityName>
+         <entityDescription>Giant kelp net primary production and growth</entityDescription>
+         <physical>
+            <objectName>Macrocystis pyrifera net primary production and growth with SE_2026-09-09.csv</objectName>
+            <size
+          unit="byte">71947</size>
+            <authentication
+              method="MD5">3d842f0537d542edb1abc7f0f081b787</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                     <collapseDelimiters>no</collapseDelimiters>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+          function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-sbc/112/15/6f24a9026ff356773b93d16390f998b1</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute
+          id="Site-1">
+               <attributeName>Site</attributeName>
+               <attributeLabel>Site</attributeLabel>
+               <attributeDefinition>The name of the kelp forest sampled, ABUR = Arroyo Burro, AQUE = Arroyo Quemado, MOHK = Mohawk Reef.</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="Year-2">
+               <attributeName>Year</attributeName>
+               <attributeLabel>Year</attributeLabel>
+               <attributeDefinition>Sampling year</attributeDefinition>
+               <storageType>integer</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                     <dateTimePrecision>1</dateTimePrecision>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="Season-3">
+               <attributeName>Season</attributeName>
+               <attributeLabel>Season</attributeLabel>
+               <attributeDefinition>Season (winter, spring, summer and autumn as defined by the winter solstice, spring equinox, summer solstice and autumnal equinox) in which the site is sampled.</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="NPPdry-4">
+               <attributeName>NPP_dry</attributeName>
+               <attributeLabel>NPP dry</attributeLabel>
+               <attributeDefinition>The daily production of M. pyrifera dry mass (kg m-2 d-1) for each season of each year. This variable is calculated by integrating the instantaneous rate of production during each period and dividing by the number of days. Production for all days in each season is averaged.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquaredPerDay</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+          id="NPPcarbon-5">
+               <attributeName>NPP_carbon</attributeName>
+               <attributeLabel>NPP carbon</attributeLabel>
+               <attributeDefinition>The daily production of M. pyrifera carbon mass (kg m-2 d-1) in each season of each year. This variable is calculated by integrating the instantaneous rate of production during each period and dividing by the number of days. Production for all days in each season is averaged.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquaredPerDay</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+          id="NPPnitrogen-6">
+               <attributeName>NPP_nitrogen</attributeName>
+               <attributeLabel>NPP nitrogen</attributeLabel>
+               <attributeDefinition>The daily production of M. pyrifera nitrogen mass (kg m-2 d-1) in each season of each year. This variable is calculated by integrating the instantaneous rate of production during each period and dividing by the number of days. Production for all days in each season is averaged.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquaredPerDay</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+              id="Growthratedry-7">
+               <attributeName>Growth_rate_dry</attributeName>
+               <attributeLabel>Growth rate dry</attributeLabel>
+               <attributeDefinition>The instantaneous growth rate of M. pyrifera dry mass (d-1) for each season of each year. This variable is calculated as the growth rate necessary to explain the observed change in biomass during each period, given the initial biomass and the independently measured loss rates. Growth rates for all days in each season are averaged.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>reciprocalDay</customUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Reciprocal Day">http://qudt.org/vocab/unit/PER-DAY</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="Growthratecarbon-8">
+               <attributeName>Growth_rate_carbon</attributeName>
+               <attributeLabel>Growth rate carbon</attributeLabel>
+               <attributeDefinition>The instantaneous growth rate of M. pyrifera carbon mass (d-1) for each season of each year. This variable is calculated as the rate necessary to explain the observed change in biomass during each period, given the initial biomass and the independently measured loss rates. Growth rates for all days in each season are averaged</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>reciprocalDay</customUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Reciprocal Day">http://qudt.org/vocab/unit/PER-DAY</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="Growthratenitrogen-9">
+               <attributeName>Growth_rate_nitrogen</attributeName>
+               <attributeLabel>Growth rate nitrogen</attributeLabel>
+               <attributeDefinition>The instantaneous growth rate of M. pyrifera nitrogen mass (d-1) for each season of each year. This variable is calculated as the growth rate necessary to explain the observed change in biomass during each period, given the initial biomass and the independently measured loss rates. Growth rates for all days in each season are averaged.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>reciprocalDay</customUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Reciprocal Day">http://qudt.org/vocab/unit/PER-DAY</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+          id="SENPPdry-10">
+               <attributeName>SE_NPP_dry</attributeName>
+               <attributeLabel>SE NPP dry</attributeLabel>
+               <attributeDefinition>The standard error of NPP_dry. This error is produced using Monte Carlo methods. It incorporates errors in our estimates of biomass, plant loss,frond loss, cut loss, blade loss and dissolved loss rates.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquaredPerDay</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+          id="SENPPcarbon-11">
+               <attributeName>SE_NPP_carbon</attributeName>
+               <attributeLabel>SE NPP carbon</attributeLabel>
+               <attributeDefinition>The standard error of NPP_carbon. This error is produced using Monte Carlo methods. It incorporates errors in our estimates of biomass, plant loss, frond loss, cut loss, blade loss and dissolved loss rates.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquaredPerDay</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+          id="SENPPnitrogen-12">
+               <attributeName>SE_NPP_nitrogen</attributeName>
+               <attributeLabel>SE NPP nitrogen</attributeLabel>
+               <attributeDefinition>The standard error of NPP_nitrogen. This error is produced using Monte Carlo methods. It incorporates errors in our estimates of biomass, plant loss, frond loss, cut loss, blade loss and dissolved loss rates.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquaredPerDay</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+              id="SEgrowthratedry-13">
+               <attributeName>SE_growth_rate_dry</attributeName>
+               <attributeLabel>SE growth rate dry</attributeLabel>
+               <attributeDefinition>The standard error of Growth_rate_dry. These data are produced using Monte Carlo methods. The error in our estimate of growth incorporates errors in our calculations of biomass, plant loss, frond loss, cut loss, blade loss and dissolved loss rates.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>reciprocalDay</customUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Reciprocal Day">http://qudt.org/vocab/unit/PER-DAY</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="SEgrowthratecarbon-14">
+               <attributeName>SE_growth_rate_carbon</attributeName>
+               <attributeLabel>SE growth rate carbon</attributeLabel>
+               <attributeDefinition>The standard error of Growth_rate_carbon. These data are produced using Monte Carlo methods. The error in our estimate of growth incorporates errors in our calculations of biomass, plant loss, frond loss, cut loss, blade loss and dissolved loss rates.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>reciprocalDay</customUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Reciprocal Day">http://qudt.org/vocab/unit/PER-DAY</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="SEgrowthratenitrogen-15">
+               <attributeName>SE_growth_rate_nitrogen</attributeName>
+               <attributeLabel>SE growth rate nitrogen</attributeLabel>
+               <attributeDefinition>The standard error of Growth_rate_nitrogen. These data are produced using Monte Carlo methods. The error in our estimate of growth incorporates errors in our calculations of biomass, plant loss, frond loss, cut loss, blade loss and dissolved loss rates.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>reciprocalDay</customUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+      label="Reciprocal Day">http://qudt.org/vocab/unit/PER-DAY</valueURI>
+               </annotation>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>286</numberOfRecords>
+      </dataTable>
+      <dataTable
+      id="62685a4fb61873c1843433a3364fd08a" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>Macrocystis pyrifera standing crop, plant density, and loss rates with SE</entityName>
+         <entityDescription>Giant kelp standing crop, plant density, and loss rates</entityDescription>
+         <physical>
+            <objectName>Macrocystis pyrifera standing crop plant density and loss rates with SE_2026-09-09.csv</objectName>
+            <size
+          unit="byte">486257</size>
+            <authentication
+              method="MD5">e36228b66215f4e854ecaadb364c243f</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                     <collapseDelimiters>no</collapseDelimiters>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+          function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-sbc/112/15/62685a4fb61873c1843433a3364fd08a</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute
+          id="Site-16">
+               <attributeName>Site</attributeName>
+               <attributeLabel>Site</attributeLabel>
+               <attributeDefinition>The name of the kelp forest sampled, ABUR = Arroyo Burro, AQUE = Arroyo Quemado, MOHK = Mohawk Reef.</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="Date-17">
+               <attributeName>Date</attributeName>
+               <attributeLabel>Date</attributeLabel>
+               <attributeDefinition>Sampling date</attributeDefinition>
+               <storageType>dateTime</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                     <dateTimePrecision>1</dateTimePrecision>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+              id="FSCdry-18">
+               <attributeName>FSC_dry</attributeName>
+               <attributeLabel>FSC dry</attributeLabel>
+               <attributeDefinition>The dry mass of the foliar standing crop of M. pyrifera (kg m-2, excluding sporophylls and holdfast). These data are obtained by calculating the dry mass of each plant, measuring standing crop, and dividing the total dry mass of all plants in the plot by the area of the plot. Plants without at least one frond longer than 1m are excluded.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquared</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Kilogram per Square Meter">http://qudt.org/vocab/unit/KiloGM-PER-M2</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="FSCcarbon-19">
+               <attributeName>FSC_carbon</attributeName>
+               <attributeLabel>FSC carbon</attributeLabel>
+               <attributeDefinition>The carbon mass of the foliar standing crop of M. pyrifera (kg m-2, excluding sporophylls and holdfast). These data are obtained by calculating the carbon mass of each plant, measuring standing crop, and dividing the total carbon mass of all plants in the plot by the area of the plot. Plants without at least one frond longer than 1m are excluded.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquared</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Kilogram per Square Meter">http://qudt.org/vocab/unit/KiloGM-PER-M2</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="FSCnitrogen-20">
+               <attributeName>FSC_nitrogen</attributeName>
+               <attributeLabel>FSC nitrogen</attributeLabel>
+               <attributeDefinition>The nitrogen mass of the foliar standing crop of M. pyrifera (kg m-2, excluding sporophylls and holdfast). These data are obtained by calculating the nitrogen mass of each plant, measuring standing crop, and dividing the total nitrogen mass of all plants in the plot by the area of the plot. Plants without at least one frond longer than 1m are excluded.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquared</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Kilogram per Square Meter">http://qudt.org/vocab/unit/KiloGM-PER-M2</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="FSCfractioncanopy-21">
+               <attributeName>FSC_fraction_canopy</attributeName>
+               <attributeLabel>FSC fraction canopy</attributeLabel>
+               <attributeDefinition>The fraction of total foliar standing crop observed in the canopy section. This fraction is obtained by calculating the subsurface, water column and canopy mass of each plant, measuring standing crop, and dividing the canopy mass by the total (canopy mass + water column mass + subsurface mass).</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Unitless">http://qudt.org/vocab/unit/UNITLESS</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="Fronddensity-22">
+               <attributeName>Frond density</attributeName>
+               <attributeLabel>Frond density</attributeLabel>
+               <attributeDefinition>The density of M. pyrifera fronds longer than 1m.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>numberPerMeterSquared</standardUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Number per square metre">http://qudt.org/vocab/unit/NUM-PER-M2</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="Plantdensity-23">
+               <attributeName>Plant_density</attributeName>
+               <attributeLabel>Plant density</attributeLabel>
+               <attributeDefinition>The density of M. pyrifera plants (number m-2). Plants without at least one frond longer than 1m are excluded.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>numberPerMeterSquared</standardUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Number per square metre">http://qudt.org/vocab/unit/NUM-PER-M2</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="SurfaceIrradiance-24">
+               <attributeName>Surface_Irradiance</attributeName>
+               <attributeLabel>Surface Irradiance</attributeLabel>
+               <attributeDefinition>Mean daily instantaneous irradiance (µmol m-2 s-1) collected by PAR irradiance loggers. This mean is based on each 24 hour day over the course of the sampling period.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>micromolePerMeterSquaredPerSecond</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Micromoles per square metre per second">http://qudt.org/vocab/unit/MicroMOL-PER-M2-SEC</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="BottomIrradiance-25">
+               <attributeName>Bottom_Irradiance</attributeName>
+               <attributeLabel>Bottom Irradiance</attributeLabel>
+               <attributeDefinition>Mean daily instantaneous irradiance (µmol m-2 s-1) collected by PAR irradiance loggers mounted on the seafloor. This mean is based on each 24 hour day over the course of the sampling period.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>micromolePerMeterSquaredPerSecond</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Micromoles per square metre per second">http://qudt.org/vocab/unit/MicroMOL-PER-M2-SEC</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="SubsurfaceIrradiance-26">
+               <attributeName>Subsurface_Irradiance</attributeName>
+               <attributeLabel>Subsurface Irradiance</attributeLabel>
+               <attributeDefinition>Mean daily instantaneous irradiance (µmol m-2 s-1) calculated for the water column. Subsurface irradiance is calculated by integrating average surface and bottom irradiance over the water column depth (bottom irradiance is collected by mounted sensors on the seafloor at Mohawk and Arroyo Quemado). This mean is based on each 24 hour day over the course of the sampling period.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>micromolePerMeterSquaredPerSecond</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Micromoles per square metre per second">http://qudt.org/vocab/unit/MicroMOL-PER-M2-SEC</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="Plantlossrate-27">
+               <attributeName>Plant_loss_rate</attributeName>
+               <attributeLabel>Plant loss rate</attributeLabel>
+               <attributeDefinition>The loss rate of M. pyrifera plants during the sampling interval (fraction FSC lost as plants d-1). These data are based on losses of approximately 15 tagged plants.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>reciprocalDay</customUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Reciprocal Day">http://qudt.org/vocab/unit/PER-DAY</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="Frondlossrate-28">
+               <attributeName>Frond_loss_rate</attributeName>
+               <attributeLabel>Frond loss rate</attributeLabel>
+               <attributeDefinition>The mean loss rate of M. pyrifera fronds during the sampling interval (fraction of FSC lost as fronds d-1). This value is based on the mean proportional frond loss averaged among tagged plants that survived to the end of the sampling interval; losses of fronds on plants that did not survive to the end of the sampling interval are accounted for in the plant loss rate.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>reciprocalDay</customUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Reciprocal Day">http://qudt.org/vocab/unit/PER-DAY</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="Cutfrondlossrate-29">
+               <attributeName>Cut_frond_loss_rate</attributeName>
+               <attributeLabel>Cut frond loss rate</attributeLabel>
+               <attributeDefinition>The loss rate of M. pyrifera tissue cut by boat propellers during the sampling interval (fraction of FSC lost as cut fronds d-1).</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>reciprocalDay</customUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Reciprocal Day">http://qudt.org/vocab/unit/PER-DAY</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="Bladelossrate-30">
+               <attributeName>Blade_loss_rate</attributeName>
+               <attributeLabel>Blade loss rate</attributeLabel>
+               <attributeDefinition>The loss rate of M. pyrifera blade tissue during the sample interval (fraction of FSC lost as blades d-1).</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>reciprocalDay</customUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Reciprocal Day">http://qudt.org/vocab/unit/PER-DAY</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="Dissolvedlossrate-31">
+               <attributeName>Dissolved_loss_rate</attributeName>
+               <attributeLabel>Dissolved loss rate</attributeLabel>
+               <attributeDefinition>The loss rate of dissolved organic matter from M. pyrifera blades and stipes during the sampling interval (fraction of FSC lost as dissolved matter d-1).</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>reciprocalDay</customUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Reciprocal Day">http://qudt.org/vocab/unit/PER-DAY</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+          id="Carbonlostasplants-32">
+               <attributeName>Carbon_lost_as_plants</attributeName>
+               <attributeLabel>Carbon lost as plants</attributeLabel>
+               <attributeDefinition>The rate of carbon mass lost in the form of plants (kg m-2 d-1). These data are obtained by calculating the total carbon mass of plants lost for the period and dividing by the number of days elapsed.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquaredPerDay</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+          id="Carbonlostasfronds-33">
+               <attributeName>Carbon_lost_as_fronds</attributeName>
+               <attributeLabel>Carbon lost as fronds</attributeLabel>
+               <attributeDefinition>The rate of carbon mass lost in the form of fronds (kg m-2 d-1). These data are obtained by calculating the total carbon mass of fronds lost for the period and dividing by the number of days elapsed.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquaredPerDay</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+          id="Carbonlostascutfronds-34">
+               <attributeName>Carbon_lost_as_cut_fronds</attributeName>
+               <attributeLabel>Carbon lost as cut fronds</attributeLabel>
+               <attributeDefinition>The rate of carbon mass lost in the form of fronds cut by a propeller near the surface (kg m-2 d-1). These data are obtained by calculating the total carbon mass of cut fronds lost for the period and dividing by the number of days elapsed.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquaredPerDay</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+          id="Carbonlostasblades-35">
+               <attributeName>Carbon_lost_as_blades</attributeName>
+               <attributeLabel>Carbon lost as blades</attributeLabel>
+               <attributeDefinition>The rate of carbon mass lost in the form of deteriorating blades due to senescence (kg m-2 d-1). These data are obtained by calculating the total carbon mass of senescing blades lost for the period and dividing by the number of days elapsed.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquaredPerDay</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+          id="Carbonlostasdissolved-36">
+               <attributeName>Carbon_lost_as_dissolved</attributeName>
+               <attributeLabel>Carbon lost as dissolved</attributeLabel>
+               <attributeDefinition>The rate of carbon mass lost in the form of dissolved organic matter (kg m-2 d-1). These data are obtained by calculating the total carbon mass of dissolved matter lost for the period and dividing by the number of days elapsed. These data are equivalent to production and release of dissolved carbon by M. pyrifera.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquaredPerDay</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+              id="SEFSCdry-37">
+               <attributeName>SE_FSC_dry</attributeName>
+               <attributeLabel>SE FSC dry</attributeLabel>
+               <attributeDefinition>Standard error of FSC_dry. The error in dry mass includes two types of error. Observer error consists of errors made in the number of plants sampled and in the measurement of their size. Regression errors include variability in the allometric relationships used to calculate the size of the three plant sections, as well as uncertainty in the length:wet-mass and wet-mass:dry-mass conversion ratios.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquared</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Kilogram per Square Meter">http://qudt.org/vocab/unit/KiloGM-PER-M2</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="SEFSCcarbon-38">
+               <attributeName>SE_FSC_carbon</attributeName>
+               <attributeLabel>SE FSC carbon</attributeLabel>
+               <attributeDefinition>Standard error of FSC_carbon. The error in carbon mass includes observer and regression error. Observer error consists of errors made in the number of plants sampled and in the measurement of their size. Regression errors include variability in the allometric relationships used to calculate the size of the three plant sections, as well as uncertainty in the length:wet-mass, wet-mass:dry-mass and dry-mass:carbon-mass conversion ratios.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquared</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Kilogram per Square Meter">http://qudt.org/vocab/unit/KiloGM-PER-M2</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="SEFSCnitrogen-39">
+               <attributeName>SE_FSC_nitrogen</attributeName>
+               <attributeLabel>SE FSC nitrogen</attributeLabel>
+               <attributeDefinition>Standard error of FSC_nitrogen. The error in nitrogen mass includes two types of error. Observer error consists of errors made in the number of plants sampled and in the measurement of their size. Regression errors include variability in the allometric relationships used to calculate the size of the three plant sections, as well as uncertainty in the length:wet-mass, wet-mass:dry-mass and dry-mass:nitrogen-mass conversion ratios.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquared</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Kilogram per Square Meter">http://qudt.org/vocab/unit/KiloGM-PER-M2</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="SEfractioncanopy-40">
+               <attributeName>SE_fraction_canopy</attributeName>
+               <attributeLabel>SE fraction canopy</attributeLabel>
+               <attributeDefinition>Standard error of fraction_canopy. The error in fraction of total foliar standing crop observed in the canopy includes two types of error. Observer error consists of errors made in the number of plants sampled and in the measurement of their size. Regression errors include variability in the allometric relationships used to calculate the size of the three plant sections, as well as uncertainty in the length:wet-mass, wet-mass:dry-mass and dry-mass:nitrogen-mass conversion ratios.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Unitless">http://qudt.org/vocab/unit/UNITLESS</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="SEfronddensity-41">
+               <attributeName>SE_frond_density</attributeName>
+               <attributeLabel>SE frond density</attributeLabel>
+               <attributeDefinition>Standard error of Frond_density. Error in plant density reflects variation in the total number of plants sampled in a plot. This estimate is produced by comparing repeated sampling by different observers of a single plot.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>numberPerMeterSquared</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Number per square metre">http://qudt.org/vocab/unit/NUM-PER-M2</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="SEplantdensity-42">
+               <attributeName>SE_plant_density</attributeName>
+               <attributeLabel>SE plant density</attributeLabel>
+               <attributeDefinition>Standard error of Plant_density. Error in plant density reflects variation in the total number of plants sampled in a plot. This estimate is produced by comparing repeated sampling by different observers of a single plot.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>numberPerMeterSquared</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Number per square metre">http://qudt.org/vocab/unit/NUM-PER-M2</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="SEplantlossrate-43">
+               <attributeName>SE_plant_loss_rate</attributeName>
+               <attributeLabel>SE plant loss rate</attributeLabel>
+               <attributeDefinition>Standard error of Plant_loss_rate. This error is sampling error associated with calculating a mean loss rate for the entire plot based on 10 to15 tagged plants.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>reciprocalDay</customUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Reciprocal Day">http://qudt.org/vocab/unit/PER-DAY</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="SEfrondlossrate-44">
+               <attributeName>SE_frond_loss_rate</attributeName>
+               <attributeLabel>SE frond loss rate</attributeLabel>
+               <attributeDefinition>Standard error of frond_loss_rate. This error is sampling error associated with calculating a mean loss rate for the entire plot based on 10 to15 tagged plants.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>reciprocalDay</customUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Reciprocal Day">http://qudt.org/vocab/unit/PER-DAY</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="SEcutfrondlossrate-45">
+               <attributeName>SE_cut_frond_loss_rate</attributeName>
+               <attributeLabel>SE cut frond loss rate</attributeLabel>
+               <attributeDefinition>Standard error of Cut_frond_loss_rate</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>reciprocalDay</customUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Reciprocal Day">http://qudt.org/vocab/unit/PER-DAY</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="SEbladelossrate-46">
+               <attributeName>SE_blade_loss_rate</attributeName>
+               <attributeLabel>SE blade loss rate</attributeLabel>
+               <attributeDefinition>Standard error of Blade_loss_rate</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>reciprocalDay</customUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Reciprocal Day">http://qudt.org/vocab/unit/PER-DAY</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="SEdissolvedlossrate-47">
+               <attributeName>SE_dissolved_loss_rate</attributeName>
+               <attributeLabel>SE dissolved loss rate</attributeLabel>
+               <attributeDefinition>Standard error of Dissolved_loss_rate</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>reciprocalDay</customUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Reciprocal Day">http://qudt.org/vocab/unit/PER-DAY</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+          id="SEcarbonlostasplants-48">
+               <attributeName>SE_carbon_lost_as_plants</attributeName>
+               <attributeLabel>SE carbon lost as plants</attributeLabel>
+               <attributeDefinition>Standard error of Carbon_lost_as_plants</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquaredPerDay</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+          id="SEcarbonlostasfronds-49">
+               <attributeName>SE_carbon_lost_as_fronds</attributeName>
+               <attributeLabel>SE carbon lost as fronds</attributeLabel>
+               <attributeDefinition>Standard error of Carbon_lost_as_fronds</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquaredPerDay</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+          id="SEcarbonlostascut-50">
+               <attributeName>SE_carbon_lost_as_cut</attributeName>
+               <attributeLabel>SE carbon lost as cut</attributeLabel>
+               <attributeDefinition>Standard error of Carbon_lost_as_cut</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquaredPerDay</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+          id="SEcarbonlostasblades-51">
+               <attributeName>SE_carbon_lost_as_blades</attributeName>
+               <attributeLabel>SE carbon lost as blades</attributeLabel>
+               <attributeDefinition>Standard error of Carbon_lost_as_blades</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquaredPerDay</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+      id="SEcarbonlostasdissolved-52">
+               <attributeName>SE_carbon_lost_as_dissolved</attributeName>
+               <attributeLabel>SE carbon lost as dissolved</attributeLabel>
+               <attributeDefinition>Standard error of Carbon_lost_as_dissolved</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquaredPerDay</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>854</numberOfRecords>
+      </dataTable>
+      <dataTable
+      id="d23ff8674913610988f2aa8d32ac2df1" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>Census of fronds on marked plants</entityName>
+         <entityDescription>Census of fronds on marked plants</entityDescription>
+         <physical>
+            <objectName>Census of fronds on marked plants_2026-09-09.csv</objectName>
+            <size
+          unit="byte">301753</size>
+            <authentication
+              method="MD5">33813854703e6701cd098b18de5a80f4</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                     <collapseDelimiters>no</collapseDelimiters>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+          function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-sbc/112/15/d23ff8674913610988f2aa8d32ac2df1</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute
+          id="Site-53">
+               <attributeName>Site</attributeName>
+               <attributeLabel>Sampling site</attributeLabel>
+               <attributeDefinition>The name of the kelp forest sampled, ABUR = Arroyo Burro, AQUE = Arroyo Quemado, MOHK = Mohawk Reef.</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="PlantID-54">
+               <attributeName>Plant_ID</attributeName>
+               <attributeLabel>Plant ID</attributeLabel>
+               <attributeDefinition>A unique identification label for each plant sampled. The lettered prefix indicates the site where the plant is located; the number identifies the plant.</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="Date-55">
+               <attributeName>Date</attributeName>
+               <attributeLabel>Date</attributeLabel>
+               <attributeDefinition>Sampling date</attributeDefinition>
+               <storageType>dateTime</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                     <dateTimePrecision>1</dateTimePrecision>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+              id="Totalfronds-56">
+               <attributeName>Total_fronds</attributeName>
+               <attributeLabel>Total fronds</attributeLabel>
+               <attributeDefinition>The total number of fronds &gt; 1m in length on the plant at the time of sampling. These data include both tagged fronds remaining from previous sampling dates and any new fronds.</attributeDefinition>
+               <storageType>integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Number">http://qudt.org/vocab/unit/NUM</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="Newfronds-57">
+               <attributeName>New_fronds</attributeName>
+               <attributeLabel>New fronds</attributeLabel>
+               <attributeDefinition>Number of new fronds on the plant since the last sampling date</attributeDefinition>
+               <storageType>integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+      label="Number">http://qudt.org/vocab/unit/NUM</valueURI>
+               </annotation>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>9265</numberOfRecords>
+      </dataTable>
+      <dataTable
+      id="471d15f0059405e8639425408aee4153" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>Macrocystis pyrifera blade water, carbon, and nitrogen content</entityName>
+         <entityDescription>Giant kelp blade water, carbon, and nitrogen content</entityDescription>
+         <physical>
+            <objectName>Macrocystis pyrifera blade water carbon and nitrogen content_2026-09-09.csv</objectName>
+            <size
+          unit="byte">64440</size>
+            <authentication
+              method="MD5">610acc7c4ea71f0d78783fa537af8c07</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                     <collapseDelimiters>no</collapseDelimiters>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+          function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-sbc/112/15/471d15f0059405e8639425408aee4153</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute
+          id="Site-58">
+               <attributeName>Site</attributeName>
+               <attributeLabel>Site</attributeLabel>
+               <attributeDefinition>The name of the kelp forest sampled, ABUR = Arroyo Burro, AQUE = Arroyo Quemado, MOHK = Mohawk Reef.</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="Date-59">
+               <attributeName>Date</attributeName>
+               <attributeLabel>Date</attributeLabel>
+               <attributeDefinition>Sampling date</attributeDefinition>
+               <storageType>dateTime</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                     <dateTimePrecision>1</dateTimePrecision>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="Replicate-60">
+               <attributeName>Replicate</attributeName>
+               <attributeLabel>Replicate</attributeLabel>
+               <attributeDefinition>Identification label for replicate analytical sample from one composite field sample.</attributeDefinition>
+               <storageType>integer</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+              id="Drytowetratio-61">
+               <attributeName>Dry_to_wet_ratio</attributeName>
+               <attributeLabel>Dry to wet ratio</attributeLabel>
+               <attributeDefinition>The ratio of dry to wet mass of a composite sample of 15 kelp blades. These data are laboratory measurements from tissue samples obtained from 15 mature blades collected at each site on each sampling date.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Unitless">http://qudt.org/vocab/unit/UNITLESS</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="Percentcarbon-62">
+               <attributeName>Percent_carbon</attributeName>
+               <attributeLabel>Percent carbon</attributeLabel>
+               <attributeDefinition>The percentage of blade mass comprised of carbon. These data are laboratory measurements made using an elemental analyzer from tissue samples obtained from 15 mature blades collected at each site on each sampling date.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>percent</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Percent">http://qudt.org/vocab/unit/PERCENT</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="Percentnitrogen-63">
+               <attributeName>Percent_nitrogen</attributeName>
+               <attributeLabel>Percent nitrogen</attributeLabel>
+               <attributeDefinition>The percentage of blade mass comprised of nitrogen. These data are laboratory measurements made using an elemental analyzer from tissue samples obtained from 15 mature blades collected at each site on each sampling date.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>percent</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Percent">http://qudt.org/vocab/unit/PERCENT</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="Percenthydrogen-64">
+               <attributeName>Percent_hydrogen</attributeName>
+               <attributeLabel>Percent hydrogen</attributeLabel>
+               <attributeDefinition>The percentage of blade mass comprised of hydrogen. These data are laboratory measurements made using an elemental analyzer from tissue samples obtained from 15 mature blades collected at each site on each sampling date.</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>percent</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+      label="Percent">http://qudt.org/vocab/unit/PERCENT</valueURI>
+               </annotation>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>1532</numberOfRecords>
+      </dataTable>
+      <dataTable
+      id="6bc968141edf7b9e0a6bac923f5f78b2" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>Regression parameters to estimate biomass and production from frond density</entityName>
+         <entityDescription>Regression parameters to estimate biomass and production from frond density</entityDescription>
+         <physical>
+            <objectName>Regression parameters to estimate biomass and production from frond density_2026-09-09.csv</objectName>
+            <size
+          unit="byte">12864</size>
+            <authentication
+              method="MD5">50eda5d3664bf70780b3bead9674fac1</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                     <collapseDelimiters>no</collapseDelimiters>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+          function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-sbc/112/15/6bc968141edf7b9e0a6bac923f5f78b2</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute
+          id="Model-65">
+               <attributeName>Model</attributeName>
+               <attributeLabel>Model</attributeLabel>
+               <attributeDefinition>Identifier for linear regression</attributeDefinition>
+               <storageType>integer</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="Month-66">
+               <attributeName>Month</attributeName>
+               <attributeLabel>Month</attributeLabel>
+               <attributeDefinition>The modeled month</attributeDefinition>
+               <storageType>integer</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>MM</formatString>
+                     <dateTimePrecision>1</dateTimePrecision>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="Independentvariable-67">
+               <attributeName>Independent_variable</attributeName>
+               <attributeLabel>Independent variable</attributeLabel>
+               <attributeDefinition>The independent variables used in linear regressions performed between frond density (fronds &gt; 1 meter tall per m-2) in a specified month and monthly FSC, seasonal NPP, or annual NPP. These variables represent monthly measurements of frond density collected at 3 sites from 2002-2016.</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="Dependentvariable-68">
+               <attributeName>Dependent_variable</attributeName>
+               <attributeLabel>Dependent variable</attributeLabel>
+               <attributeDefinition>Dependent variable in a linear regression between frond density and FSC, seasonal NPP, or annual NPP</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+              id="Slope-69">
+               <attributeName>Slope</attributeName>
+               <attributeLabel>Slope</attributeLabel>
+               <attributeDefinition>Slope of a linear regression between frond density and FSC, seasonal NPP, or annual NPP</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>1e-05</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Number">http://qudt.org/vocab/unit/NUM</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="Intercept-70">
+               <attributeName>Intercept</attributeName>
+               <attributeLabel>Intercept</attributeLabel>
+               <attributeDefinition>Intercept of a linear regression between frond density and FSC, seasonal NPP, or annual NPP</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>1e-05</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Number">http://qudt.org/vocab/unit/NUM</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+          id="pvalue-71">
+               <attributeName>pvalue</attributeName>
+               <attributeLabel>pvalue</attributeLabel>
+               <attributeDefinition>P value of a linear regression between frond density and FSC, seasonal NPP, or annual NPP</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+              id="rsquare-72">
+               <attributeName>rsquare</attributeName>
+               <attributeLabel>rsquare</attributeLabel>
+               <attributeDefinition>Coefficient of determination of a linear regression between frond density and FSC, seasonal NPP, or annual NPP</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <precision>0.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Unitless">http://qudt.org/vocab/unit/UNITLESS</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="N-73">
+               <attributeName>N</attributeName>
+               <attributeLabel>N</attributeLabel>
+               <attributeDefinition>Sample size of a linear regression between frond density and FSC, seasonal NPP, or annual NPP</attributeDefinition>
+               <storageType>integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+      label="Number">http://qudt.org/vocab/unit/NUM</valueURI>
+               </annotation>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>108</numberOfRecords>
+      </dataTable>
+      <dataTable
+      id="7f0e482db57de30af1198177c62d706f" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>Macrocystis pyrifera plant abundance, size, and morphology</entityName>
+         <entityDescription>Macrocystis pyrifera plant abundance, size, and morphology</entityDescription>
+         <physical>
+            <objectName>Macrocystis pyrifera plant abundance size and morphology_2026-09-09.csv</objectName>
+            <size
+          unit="byte">8355789</size>
+            <authentication
+              method="MD5">965610ef44c1d15d55e24422006ef91b</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                     <collapseDelimiters>no</collapseDelimiters>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+          function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-sbc/112/15/7f0e482db57de30af1198177c62d706f</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute
+          id="YEAR-74">
+               <attributeName>YEAR</attributeName>
+               <attributeLabel>Year</attributeLabel>
+               <attributeDefinition>Sampling year</attributeDefinition>
+               <storageType>integer</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                     <dateTimePrecision>1</dateTimePrecision>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="MONTH-75">
+               <attributeName>MONTH</attributeName>
+               <attributeLabel>Month</attributeLabel>
+               <attributeDefinition>The modeled month</attributeDefinition>
+               <storageType>integer</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>MM</formatString>
+                     <dateTimePrecision>1</dateTimePrecision>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="DATE-76">
+               <attributeName>DATE</attributeName>
+               <attributeLabel>Date</attributeLabel>
+               <attributeDefinition>Sampling date</attributeDefinition>
+               <storageType>dateTime</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                     <dateTimePrecision>1</dateTimePrecision>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="SITE-77">
+               <attributeName>SITE</attributeName>
+               <attributeLabel>Sampling site</attributeLabel>
+               <attributeDefinition>Code for the kelp forest sampled, ABUR = Arroyo Burro, AQUE = Arroyo Quemado, MOHK = Mohawk Reef</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="TRANSECT-78">
+               <attributeName>TRANSECT</attributeName>
+               <attributeLabel>Transect</attributeLabel>
+               <attributeDefinition>Identification number of replicate transect sampled at a site</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="SIDE-79">
+               <attributeName>SIDE</attributeName>
+               <attributeLabel>Side</attributeLabel>
+               <attributeDefinition>Subsection of transect sampled (N=north, S = south)</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+              id="AREA-80">
+               <attributeName>AREA</attributeName>
+               <attributeLabel>AREA</attributeLabel>
+               <attributeDefinition>The area (m2) of the side of a transect that was sampled</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meterSquared</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Square Meter">http://qudt.org/vocab/unit/M2</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="DIST-81">
+               <attributeName>DIST</attributeName>
+               <attributeLabel>Distance</attributeLabel>
+               <attributeDefinition>Distance (m) from the start of each transect section where a kelp plant was recorded</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Meter">http://qudt.org/vocab/unit/M</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+          id="CPT-82">
+               <attributeName>C_P_T</attributeName>
+               <attributeLabel>C_P_T</attributeLabel>
+               <attributeDefinition>Code used to identify plants that 1) had canopy fronds cut by a boat propeller (=C), 2) had a holdfast that was partially within the transect and partially outside the transect (=P), and 3) had fronds that were tangled with other plants which required some of the plant metrics to be estimated (=T)</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+              id="F1M-83">
+               <attributeName>F_1M</attributeName>
+               <attributeLabel>F_1M</attributeLabel>
+               <attributeDefinition>The number of fronds on a plant extended to 1 m above the holdfast</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Number">http://qudt.org/vocab/unit/NUM</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="FSFC-84">
+               <attributeName>F_SFC</attributeName>
+               <attributeLabel>F_SFC</attributeLabel>
+               <attributeDefinition>The number of fronds on a plant that extended to the sea surface</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Number">http://qudt.org/vocab/unit/NUM</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="SFCLONG-85">
+               <attributeName>SFC_LONG</attributeName>
+               <attributeLabel>SFC_LONG</attributeLabel>
+               <attributeDefinition>The length (m) of the portion of the longest frond that was at the sea surface</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Meter">http://qudt.org/vocab/unit/M</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="MEANF-86">
+               <attributeName>MEAN_F</attributeName>
+               <attributeLabel>MEAN_F</attributeLabel>
+               <attributeDefinition>Average length of the fronds on plants that did not reach the sea surface</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Meter">http://qudt.org/vocab/unit/M</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="DEPTH-87">
+               <attributeName>DEPTH</attributeName>
+               <attributeLabel>DEPTH</attributeLabel>
+               <attributeDefinition>The depth (m) measured at the top of a holdfast of a plant</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Meter">http://qudt.org/vocab/unit/M</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="WETSUB-88">
+               <attributeName>WETSUB</attributeName>
+               <attributeLabel>WETSUB</attributeLabel>
+               <attributeDefinition>Wet mass of subsurface fronds that did not reach the sea surface</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquared</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Kilogram per Square Meter">http://qudt.org/vocab/unit/KiloGM-PER-M2</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="WETWC-89">
+               <attributeName>WETWC</attributeName>
+               <attributeLabel>WETWC</attributeLabel>
+               <attributeDefinition>Wet mass of the water column portion of fronds that reached the sea surface</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquared</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Kilogram per Square Meter">http://qudt.org/vocab/unit/KiloGM-PER-M2</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="WETCAN-90">
+               <attributeName>WETCAN</attributeName>
+               <attributeLabel>WETCAN</attributeLabel>
+               <attributeDefinition>Wet mass of the canopy portion of fronds that reached the sea surface</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquared</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Kilogram per Square Meter">http://qudt.org/vocab/unit/KiloGM-PER-M2</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="DRYSUB-91">
+               <attributeName>DRYSUB</attributeName>
+               <attributeLabel>DRYSUB</attributeLabel>
+               <attributeDefinition>Dry mass of subsurface fronds that did not reach the sea surface</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquared</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Kilogram per Square Meter">http://qudt.org/vocab/unit/KiloGM-PER-M2</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="DRYWC-92">
+               <attributeName>DRYWC</attributeName>
+               <attributeLabel>DRYWC</attributeLabel>
+               <attributeDefinition>Dry mass of the water column portion of fronds that reached the sea surface</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquared</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Kilogram per Square Meter">http://qudt.org/vocab/unit/KiloGM-PER-M2</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="DRYCAN-93">
+               <attributeName>DRYCAN</attributeName>
+               <attributeLabel>DRYCAN</attributeLabel>
+               <attributeDefinition>Dry mass of the canopy portion of fronds that reached the sea surface</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>kilogramPerMeterSquared</standardUnit>
+                     </unit>
+                     <precision>1e-06</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-99999</code>
+                  <codeExplanation>value not recorded or not available</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="Kilogram per Square Meter">http://qudt.org/vocab/unit/KiloGM-PER-M2</valueURI>
+               </annotation>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>61764</numberOfRecords>
+      </dataTable>
+   </dataset>
+   <additionalMetadata>
+      <metadata>
+         <unitList>
+            <unit
+          id="dimensionless" name="dimensionless"
+          unitType="dimensionless">
+               <description>a designation asserting the absence of an associated unit</description>
+            </unit>
+            <unit
+          abbreviation="kg/m2" id="kilogramPerMeterSquared"
+          multiplierToSI="1" name="kilogramPerMeterSquared"
+          parentSI="kilogramPerMeterSquared"
+          unitType="arealMassDensity">
+               <description>kilograms per square meter</description>
+            </unit>
+            <unit
+          abbreviation="kg m-2 d-1" constantToSI="0"
+          id="kilogramPerMeterSquaredPerDay"
+          name="kilogramPerMeterSquaredPerDay"
+          parentSI="kilogramPerMeterCubed"
+          unitType="areaMassDensityRate">
+               <description>areal primary production rate, may apply to DW, or to element content, e.g., Carbon or Nitrogen"</description>
+            </unit>
+            <unit
+          abbreviation="m" id="meter" multiplierToSI="1" name="meter"
+          unitType="length">
+               <description>SI unit of length</description>
+            </unit>
+            <unit
+          abbreviation="m2" constantToSI="0" id="meterSquared"
+          multiplierToSI="1" name="meterSquared" parentSI="meter"
+          unitType="area">
+               <description>area, meter squared from the LTER unit dictionary</description>
+            </unit>
+            <unit
+          abbreviation="umol/m2/sec" constantToSI="1"
+          id="micromolePerMeterSquaredPerSecond"
+          multiplierToSI="0.000001"
+          name="micromolePerMeterSquaredPerSecond"
+          parentSI="molePerMeterSquaredPerSecond"
+          unitType="amountOfSubstanceWeightFlux">
+               <description>areal flux rate</description>
+            </unit>
+            <unit
+          id="number" name="number"
+          unitType="dimensionless">
+               <description>a number</description>
+            </unit>
+            <unit
+          id="numberPerMeterSquared" multiplierToSI="1"
+          name="numberPerMeterSquared"
+          unitType="arealDensity">
+               <description>number per meter squared</description>
+            </unit>
+            <unit
+          abbreviation="%" id="percent" multiplierToSI="1"
+          name="percent"
+          unitType="dimensionless">
+               <description>ratio of two quantities as percent composition (1:100)</description>
+            </unit>
+            <unit
+          abbreviation="day^-1" id="reciprocalDay" name="reciprocalDay"
+          parentSI="second" unitType="timeReciprocal">
+               <description>per day, specific growth rate</description>
+            </unit>
+         </unitList>
+      </metadata>
+   </additionalMetadata>
+</eml:eml>

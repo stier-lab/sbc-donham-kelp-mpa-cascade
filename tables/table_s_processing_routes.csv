@@ -1,0 +1,146 @@
+MPA,Taxa,Source,Resp,file_label,model,paired_before_years,paired_after_years,three_years_each_side,construction_route,pretrend_failure_status
+Abalone Cove SMCA,P. interruptus,PISCO,Bio,CI,Mean,1,11,False,PISCO_direct_CI,not_established_by_processing_label
+Abalone Cove SMCA,M. pyrifera,PISCO,Bio,CI,Mean,2,11,False,PISCO_direct_CI,not_established_by_processing_label
+Abalone Cove SMCA,M. franciscanus,PISCO,Bio,CI,Linear,2,11,False,PISCO_direct_CI,not_established_by_processing_label
+Abalone Cove SMCA,M. franciscanus,PISCO,Den,CI,Linear,2,11,False,PISCO_direct_CI,not_established_by_processing_label
+Abalone Cove SMCA,S. pulcher,PISCO,Bio,CI,Linear,3,11,True,PISCO_direct_CI,not_established_by_processing_label
+Abalone Cove SMCA,P. interruptus,PISCO,Den,CI,Mean,2,11,False,PISCO_direct_CI,not_established_by_processing_label
+Abalone Cove SMCA,M. pyrifera,Landsat,Bio,pBACIPS,Linear,27,9,True,retained_pBACIPS,not_established_by_processing_label
+Abalone Cove SMCA,S. purpuratus,PISCO,Den,CI,Linear,2,11,False,PISCO_direct_CI,not_established_by_processing_label
+Abalone Cove SMCA,S. purpuratus,PISCO,Bio,CI,Mean,2,11,False,PISCO_direct_CI,not_established_by_processing_label
+Abalone Cove SMCA,S. pulcher,PISCO,Den,CI,Linear,3,11,True,PISCO_direct_CI,not_established_by_processing_label
+Anacapa Island SMR 2003,S. purpuratus,KFM,Den,CI,Linear,0,17,False,retained_CI,not_established_by_processing_label
+Anacapa Island SMR 2003,M. pyrifera,KFM,Bio,CI,Mean,0,17,False,retained_CI,not_established_by_processing_label
+Anacapa Island SMR 2003,P. interruptus,PISCO,Den,CI,Mean,0,16,False,PISCO_direct_CI,not_established_by_processing_label
+Anacapa Island SMR 2003,M. pyrifera,PISCO,Bio,CI,Mean,0,16,False,PISCO_direct_CI,not_established_by_processing_label
+Anacapa Island SMR 2003,S. pulcher,KFM,Den,CI,Linear,0,17,False,retained_CI,not_established_by_processing_label
+Anacapa Island SMR 2003,S. purpuratus,PISCO,Den,CI,Linear,0,16,False,PISCO_direct_CI,not_established_by_processing_label
+Anacapa Island SMR 2003,S. purpuratus,KFM,Bio,CI,Linear,0,17,False,retained_CI,not_established_by_processing_label
+Anacapa Island SMR 2003,M. franciscanus,KFM,Den,CI,Linear,0,17,False,retained_CI,not_established_by_processing_label
+Anacapa Island SMR 2003,P. interruptus,KFM,Den,CI,Mean,0,17,False,retained_CI,not_established_by_processing_label
+Anacapa Island SMR 2003,M. franciscanus,PISCO,Den,CI,Linear,0,16,False,PISCO_direct_CI,not_established_by_processing_label
+Anacapa Island SMR 2003,S. pulcher,PISCO,Bio,CI,Mean,0,19,False,PISCO_direct_CI,not_established_by_processing_label
+Anacapa Island SMR 2003,S. pulcher,PISCO,Den,CI,Linear,0,19,False,PISCO_direct_CI,not_established_by_processing_label
+Anacapa Island SMR 2003,M. franciscanus,KFM,Bio,CI,Linear,0,17,False,retained_CI,not_established_by_processing_label
+Blue Cavern Onshore SMCA,S. pulcher,PISCO,Bio,CI,Mean,2,6,False,PISCO_direct_CI,not_established_by_processing_label
+Blue Cavern Onshore SMCA,S. pulcher,PISCO,Den,CI,Linear,2,6,False,PISCO_direct_CI,not_established_by_processing_label
+Cabrillo SMR,M. pyrifera,Landsat,Bio,pBACIPS,Linear,25,9,True,retained_pBACIPS,not_established_by_processing_label
+Campus Point SMCA,S. pulcher,PISCO,Bio,CI,Mean,4,11,True,PISCO_direct_CI,not_established_by_processing_label
+Campus Point SMCA,S. pulcher,LTER,Den,pBACIPS,Linear,11,11,True,retained_pBACIPS,not_established_by_processing_label
+Campus Point SMCA,S. pulcher,LTER,Bio,pBACIPS,Linear,11,11,True,retained_pBACIPS,not_established_by_processing_label
+Campus Point SMCA,S. pulcher,PISCO,Den,CI,Mean,4,11,True,PISCO_direct_CI,not_established_by_processing_label
+Campus Point SMCA,P. interruptus,LTER,Den,CI,Mean,1,11,False,retained_CI,not_established_by_processing_label
+Campus Point SMCA,P. interruptus,LTER,Bio,pBACIPS,Linear,1,11,False,direct_CI_trend_with_pBACIPS_file_label,not_established_by_processing_label
+Campus Point SMCA,S. purpuratus,PISCO,Den,CI,Linear,3,11,True,PISCO_direct_CI,not_established_by_processing_label
+Campus Point SMCA,M. franciscanus,PISCO,Bio,CI,Mean,2,10,False,PISCO_direct_CI,not_established_by_processing_label
+Campus Point SMCA,P. interruptus,PISCO,Den,CI,Linear,3,11,True,PISCO_direct_CI,not_established_by_processing_label
+Campus Point SMCA,M. pyrifera,LTER,Bio,pBACIPS,Linear,12,11,True,retained_pBACIPS,not_established_by_processing_label
+Campus Point SMCA,M. pyrifera,Landsat,Bio,pBACIPS,Linear,28,9,True,retained_pBACIPS,not_established_by_processing_label
+Campus Point SMCA,S. purpuratus,PISCO,Bio,CI,Linear,2,11,False,PISCO_direct_CI,not_established_by_processing_label
+Campus Point SMCA,M. pyrifera,PISCO,Bio,CI,Linear,3,11,True,PISCO_direct_CI,not_established_by_processing_label
+Campus Point SMCA,M. franciscanus,PISCO,Den,CI,Linear,3,11,True,PISCO_direct_CI,not_established_by_processing_label
+Carrington Pt SMR,M. pyrifera,Landsat,Bio,pBACIPS,Linear,19,18,True,retained_pBACIPS,not_established_by_processing_label
+Farnsworth Onshore SMCA,S. pulcher,PISCO,Bio,CI,Mean,2,4,False,PISCO_direct_CI,not_established_by_processing_label
+Farnsworth Onshore SMCA,M. pyrifera,Landsat,Bio,pBACIPS,Linear,15,9,True,retained_pBACIPS,not_established_by_processing_label
+Farnsworth Onshore SMCA,S. pulcher,PISCO,Den,CI,Mean,2,4,False,PISCO_direct_CI,not_established_by_processing_label
+Gull Island SMR,M. franciscanus,KFM,Bio,pBACIPS,Linear,18,18,True,retained_pBACIPS,not_established_by_processing_label
+Gull Island SMR,P. interruptus,KFM,Den,pBACIPS,Sigmoid,18,18,True,retained_pBACIPS,not_established_by_processing_label
+Gull Island SMR,M. franciscanus,PISCO,Bio,CI,Mean,0,15,False,PISCO_direct_CI,not_established_by_processing_label
+Gull Island SMR,S. pulcher,PISCO,Bio,CI,Linear,1,19,False,PISCO_direct_CI,not_established_by_processing_label
+Gull Island SMR,S. pulcher,PISCO,Den,CI,Linear,1,19,False,PISCO_direct_CI,not_established_by_processing_label
+Gull Island SMR,M. franciscanus,PISCO,Den,CI,Linear,0,16,False,PISCO_direct_CI,not_established_by_processing_label
+Gull Island SMR,S. purpuratus,PISCO,Bio,CI,Linear,0,15,False,PISCO_direct_CI,not_established_by_processing_label
+Gull Island SMR,M. pyrifera,Landsat,Bio,pBACIPS,Linear,19,18,True,retained_pBACIPS,not_established_by_processing_label
+Gull Island SMR,M. pyrifera,KFM,Bio,pBACIPS,Linear,15,18,True,retained_pBACIPS,not_established_by_processing_label
+Gull Island SMR,M. pyrifera,PISCO,Bio,CI,Linear,0,16,False,PISCO_direct_CI,not_established_by_processing_label
+Gull Island SMR,S. purpuratus,PISCO,Den,CI,Linear,0,16,False,PISCO_direct_CI,not_established_by_processing_label
+Gull Island SMR,P. interruptus,PISCO,Den,CI,Mean,0,16,False,PISCO_direct_CI,not_established_by_processing_label
+Gull Island SMR,M. franciscanus,KFM,Den,pBACIPS,Step,18,18,True,retained_pBACIPS,not_established_by_processing_label
+Harris Point SMR,S. purpuratus,PISCO,Bio,CI,Mean,0,15,False,PISCO_direct_CI,not_established_by_processing_label
+Harris Point SMR,M. franciscanus,PISCO,Den,CI,Mean,0,17,False,PISCO_direct_CI,not_established_by_processing_label
+Harris Point SMR,M. pyrifera,Landsat,Bio,pBACIPS,Linear,18,18,True,retained_pBACIPS,not_established_by_processing_label
+Harris Point SMR,M. pyrifera,PISCO,Bio,CI,Mean,0,17,False,PISCO_direct_CI,not_established_by_processing_label
+Harris Point SMR,S. pulcher,PISCO,Bio,CI,Mean,0,17,False,PISCO_direct_CI,not_established_by_processing_label
+Harris Point SMR,P. interruptus,PISCO,Den,CI,Linear,0,17,False,PISCO_direct_CI,not_established_by_processing_label
+Harris Point SMR,M. franciscanus,PISCO,Bio,CI,Mean,0,15,False,PISCO_direct_CI,not_established_by_processing_label
+Harris Point SMR,M. franciscanus,KFM,Den,pBACIPS,Linear,22,18,True,retained_pBACIPS,not_established_by_processing_label
+Harris Point SMR,S. pulcher,PISCO,Den,CI,Mean,0,17,False,PISCO_direct_CI,not_established_by_processing_label
+Harris Point SMR,S. pulcher,KFM,Den,pBACIPS,Linear,19,18,True,retained_pBACIPS,not_established_by_processing_label
+Harris Point SMR,M. franciscanus,KFM,Bio,pBACIPS,Sigmoid,18,18,True,retained_pBACIPS,not_established_by_processing_label
+Harris Point SMR,S. purpuratus,PISCO,Den,CI,Mean,0,17,False,PISCO_direct_CI,not_established_by_processing_label
+Long Point SMR,S. pulcher,PISCO,Bio,CI,Mean,2,6,False,PISCO_direct_CI,not_established_by_processing_label
+Long Point SMR,S. pulcher,PISCO,Den,CI,Mean,2,6,False,PISCO_direct_CI,not_established_by_processing_label
+Matlahuayl SMR,S. pulcher,PISCO,Den,CI,Mean,2,5,False,PISCO_direct_CI,not_established_by_processing_label
+Matlahuayl SMR,S. pulcher,PISCO,Bio,CI,Mean,2,5,False,PISCO_direct_CI,not_established_by_processing_label
+Matlahuayl SMR,M. franciscanus,PISCO,Den,CI,Linear,2,5,False,PISCO_direct_CI,not_established_by_processing_label
+Matlahuayl SMR,M. pyrifera,PISCO,Bio,CI,Mean,2,5,False,PISCO_direct_CI,not_established_by_processing_label
+Matlahuayl SMR,S. purpuratus,PISCO,Den,CI,Linear,2,5,False,PISCO_direct_CI,not_established_by_processing_label
+Matlahuayl SMR,P. interruptus,PISCO,Den,CI,Mean,2,5,False,PISCO_direct_CI,not_established_by_processing_label
+Matlahuayl SMR,P. interruptus,PISCO,Bio,CI,Mean,2,5,False,PISCO_direct_CI,not_established_by_processing_label
+Naples SMCA,M. franciscanus,LTER,Den,pBACIPS,Step,12,11,True,retained_pBACIPS,not_established_by_processing_label
+Naples SMCA,M. franciscanus,LTER,Bio,CI,Mean,3,11,True,retained_CI,not_established_by_processing_label
+Naples SMCA,M. pyrifera,LTER,Bio,pBACIPS,Linear,12,11,True,retained_pBACIPS,not_established_by_processing_label
+Naples SMCA,P. interruptus,LTER,Den,CI,Mean,1,11,False,retained_CI,not_established_by_processing_label
+Naples SMCA,S. pulcher,PISCO,Den,CI,Mean,4,11,True,PISCO_direct_CI,not_established_by_processing_label
+Naples SMCA,S. pulcher,LTER,Bio,pBACIPS,Linear,12,11,True,retained_pBACIPS,not_established_by_processing_label
+Naples SMCA,S. purpuratus,PISCO,Den,CI,Mean,3,11,True,PISCO_direct_CI,not_established_by_processing_label
+Naples SMCA,S. pulcher,PISCO,Bio,CI,Mean,4,11,True,PISCO_direct_CI,not_established_by_processing_label
+Naples SMCA,P. interruptus,LTER,Bio,CI,Mean,1,11,False,retained_CI,not_established_by_processing_label
+Naples SMCA,M. pyrifera,Landsat,Bio,pBACIPS,Linear,28,9,True,retained_pBACIPS,not_established_by_processing_label
+Naples SMCA,M. franciscanus,PISCO,Bio,CI,Mean,2,11,False,PISCO_direct_CI,not_established_by_processing_label
+Naples SMCA,M. pyrifera,PISCO,Bio,CI,Linear,3,11,True,PISCO_direct_CI,not_established_by_processing_label
+Naples SMCA,M. franciscanus,PISCO,Den,CI,Mean,3,11,True,PISCO_direct_CI,not_established_by_processing_label
+Naples SMCA,P. interruptus,PISCO,Den,CI,Mean,3,11,True,PISCO_direct_CI,not_established_by_processing_label
+Naples SMCA,S. purpuratus,PISCO,Bio,CI,Mean,2,11,False,PISCO_direct_CI,not_established_by_processing_label
+Point Dume SMCA,M. pyrifera,Landsat,Bio,pBACIPS,Linear,28,9,True,retained_pBACIPS,not_established_by_processing_label
+Point Dume SMR,M. pyrifera,Landsat,Bio,pBACIPS,Linear,28,9,True,retained_pBACIPS,not_established_by_processing_label
+Point Vicente SMCA,M. franciscanus,PISCO,Den,CI,Mean,5,10,True,PISCO_direct_CI,not_established_by_processing_label
+Point Vicente SMCA,P. interruptus,PISCO,Den,CI,Mean,5,10,True,PISCO_direct_CI,not_established_by_processing_label
+Point Vicente SMCA,S. purpuratus,PISCO,Bio,CI,Mean,4,10,True,PISCO_direct_CI,not_established_by_processing_label
+Point Vicente SMCA,M. franciscanus,PISCO,Bio,CI,Mean,4,10,True,PISCO_direct_CI,not_established_by_processing_label
+Point Vicente SMCA,S. pulcher,PISCO,Den,CI,Mean,7,11,True,PISCO_direct_CI,not_established_by_processing_label
+Point Vicente SMCA,S. purpuratus,PISCO,Den,CI,Mean,5,10,True,PISCO_direct_CI,not_established_by_processing_label
+Point Vicente SMCA,M. pyrifera,PISCO,Bio,CI,Mean,5,10,True,PISCO_direct_CI,not_established_by_processing_label
+Point Vicente SMCA,S. pulcher,PISCO,Bio,CI,Linear,7,11,True,PISCO_direct_CI,not_established_by_processing_label
+Point Vicente SMCA,P. interruptus,PISCO,Bio,CI,Mean,2,10,False,PISCO_direct_CI,not_established_by_processing_label
+Point Vicente SMCA,M. pyrifera,Landsat,Bio,pBACIPS,Linear,26,9,True,retained_pBACIPS,not_established_by_processing_label
+Santa Barbara Island SMR,S. pulcher,PISCO,Den,CI,Mean,0,10,False,PISCO_direct_CI,not_established_by_processing_label
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,CI,Linear,18,19,True,retained_CI,not_established_by_processing_label
+Santa Barbara Island SMR,P. interruptus,KFM,Den,pBACIPS,Linear,21,19,True,retained_pBACIPS,not_established_by_processing_label
+Santa Barbara Island SMR,M. pyrifera,Landsat,Bio,pBACIPS,Linear,19,18,True,retained_pBACIPS,not_established_by_processing_label
+Santa Barbara Island SMR,S. pulcher,PISCO,Bio,CI,Linear,0,10,False,PISCO_direct_CI,not_established_by_processing_label
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,pBACIPS,Step,22,19,True,retained_pBACIPS,not_established_by_processing_label
+Scorpion SMR,S. pulcher,PISCO,Den,CI,Mean,0,20,False,PISCO_direct_CI,not_established_by_processing_label
+Scorpion SMR,S. pulcher,KFM,Den,pBACIPS,Step,19,19,True,retained_pBACIPS,not_established_by_processing_label
+Scorpion SMR,M. franciscanus,KFM,Den,pBACIPS,Step,22,18,True,retained_pBACIPS,not_established_by_processing_label
+Scorpion SMR,M. pyrifera,PISCO,Bio,CI,Linear,0,20,False,PISCO_direct_CI,not_established_by_processing_label
+Scorpion SMR,M. franciscanus,KFM,Bio,pBACIPS,Step,19,18,True,retained_pBACIPS,not_established_by_processing_label
+Scorpion SMR,M. franciscanus,PISCO,Bio,CI,Mean,0,18,False,PISCO_direct_CI,not_established_by_processing_label
+Scorpion SMR,P. interruptus,PISCO,Den,CI,Mean,0,20,False,PISCO_direct_CI,not_established_by_processing_label
+Scorpion SMR,P. interruptus,KFM,Den,pBACIPS,Linear,21,18,True,retained_pBACIPS,not_established_by_processing_label
+Scorpion SMR,S. purpuratus,PISCO,Den,CI,Linear,0,20,False,PISCO_direct_CI,not_established_by_processing_label
+Scorpion SMR,M. franciscanus,PISCO,Den,CI,Linear,0,20,False,PISCO_direct_CI,not_established_by_processing_label
+Scorpion SMR,M. pyrifera,KFM,Bio,pBACIPS,Sigmoid,18,18,True,retained_pBACIPS,not_established_by_processing_label
+Scorpion SMR,S. pulcher,PISCO,Bio,CI,Mean,0,20,False,PISCO_direct_CI,not_established_by_processing_label
+Scorpion SMR,S. purpuratus,PISCO,Bio,CI,Linear,0,18,False,PISCO_direct_CI,not_established_by_processing_label
+Skunk Pt SMR,M. pyrifera,Landsat,Bio,pBACIPS,Linear,18,18,True,retained_pBACIPS,not_established_by_processing_label
+South La Jolla SMR,M. pyrifera,Landsat,Bio,pBACIPS,Linear,26,9,True,retained_pBACIPS,not_established_by_processing_label
+South Point SMR,S. purpuratus,KFM,Den,CI,Linear,0,17,False,retained_CI,not_established_by_processing_label
+South Point SMR,S. purpuratus,PISCO,Den,CI,Linear,0,16,False,PISCO_direct_CI,not_established_by_processing_label
+South Point SMR,S. pulcher,PISCO,Bio,CI,Mean,0,20,False,PISCO_direct_CI,not_established_by_processing_label
+South Point SMR,M. pyrifera,PISCO,Bio,CI,Linear,0,16,False,PISCO_direct_CI,not_established_by_processing_label
+South Point SMR,S. pulcher,KFM,Den,CI,Mean,0,17,False,retained_CI,not_established_by_processing_label
+South Point SMR,M. franciscanus,KFM,Bio,CI,Mean,0,17,False,retained_CI,not_established_by_processing_label
+South Point SMR,M. franciscanus,PISCO,Den,CI,Mean,0,16,False,PISCO_direct_CI,not_established_by_processing_label
+South Point SMR,S. purpuratus,KFM,Bio,CI,Mean,0,17,False,retained_CI,not_established_by_processing_label
+South Point SMR,S. pulcher,PISCO,Den,CI,Mean,0,20,False,PISCO_direct_CI,not_established_by_processing_label
+South Point SMR,M. franciscanus,PISCO,Bio,CI,Mean,0,14,False,PISCO_direct_CI,not_established_by_processing_label
+South Point SMR,M. franciscanus,KFM,Den,CI,Mean,0,17,False,retained_CI,not_established_by_processing_label
+South Point SMR,P. interruptus,PISCO,Den,CI,Linear,0,16,False,PISCO_direct_CI,not_established_by_processing_label
+South Point SMR,P. interruptus,KFM,Den,CI,Mean,0,17,False,retained_CI,not_established_by_processing_label
+South Point SMR,M. pyrifera,KFM,Bio,CI,Linear,0,17,False,retained_CI,not_established_by_processing_label
+South Point SMR,S. purpuratus,PISCO,Bio,CI,Linear,0,14,False,PISCO_direct_CI,not_established_by_processing_label
+South Point SMR,M. pyrifera,Landsat,Bio,pBACIPS,Linear,19,18,True,retained_pBACIPS,not_established_by_processing_label
+Swamis SMCA,S. pulcher,PISCO,Bio,CI,Mean,2,5,False,PISCO_direct_CI,not_established_by_processing_label
+Swamis SMCA,S. pulcher,PISCO,Den,CI,Mean,2,5,False,PISCO_direct_CI,not_established_by_processing_label
+Swamis SMCA,M. pyrifera,Landsat,Bio,pBACIPS,Linear,28,9,True,retained_pBACIPS,not_established_by_processing_label

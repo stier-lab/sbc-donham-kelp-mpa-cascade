@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "checks": [
+    "harmonized_raw_responses.csv: 6,280 identical identities; 4,984 non-kelp records byte-preserved; 532 kelp records changed.",
+    "harmonized_response_ratios.csv: 3,341 identical identities; 2,599 non-kelp records byte-preserved; 354 kelp records changed.",
+    "Satellite inputs and site metadata are byte-identical to the checkpoint.",
+    "All 144 primary histories retain their membership, N, model selection, analysis design and designation date.",
+    "Non-kelp and Landsat individual primary contrasts and SEs are unchanged.",
+    "Explicit registry re-export retained all 857 reference rows and 144 primary keys; only source-definition fingerprint changed within reference rows.",
+    "Independent nine-test BH calculation reproduces all adjusted P values; all nine direction/detection classifications are unchanged.",
+    "Historical Landsat pair-level and summary results are unchanged."
+  ],
+  "input_changes": {
+    "harmonized_raw_responses.csv": {
+      "rows": 6280,
+      "changed_rows": 532,
+      "nonkelp_rows_byte_preserved": 4984,
+      "density_changes": 1,
+      "md5": "0d53b51ee87042c0bc5f056bcdfe55c1"
+    },
+    "harmonized_response_ratios.csv": {
+      "rows": 3341,
+      "changed_rows": 354,
+      "nonkelp_rows_byte_preserved": 2599,
+      "density_changes": 0,
+      "md5": "0167c2bb4aedb83ca068cc5e680336c2"
+    }
+  }
+}

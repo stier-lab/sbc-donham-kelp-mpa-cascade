@@ -1,0 +1,165 @@
+"site_number","pixel_group","method","MPA","status","rep","paired_finite_years","same_missing","max_abs_difference","mean_abs_difference"
+1,"MPA","sum","San Miguel Island SC","mpa",1,37,FALSE,799251,21601.3783783784
+1,"MPA","mean","San Miguel Island SC","mpa",1,37,FALSE,3581484.56921588,1769702.19275404
+1,"Ref_1","sum","San Miguel Island SC","reference",1,37,FALSE,23245,2447.05405405405
+1,"Ref_1","sum","San Miguel Island SC","reference",2,37,FALSE,17903936,2589546.21621622
+1,"Ref_1","mean","San Miguel Island SC","reference",1,37,FALSE,20804911.8022849,3131395.15353581
+1,"Ref_1","mean","San Miguel Island SC","reference",2,37,FALSE,3519845.10845631,1646474.81701223
+1,"Ref_2","sum","San Miguel Island SC","reference",1,37,FALSE,17881441,2587509.62162162
+1,"Ref_2","sum","San Miguel Island SC","reference",2,37,FALSE,5578,410.45945945946
+1,"Ref_2","mean","San Miguel Island SC","reference",1,37,FALSE,20806071.6161616,3130068.59219894
+1,"Ref_2","mean","San Miguel Island SC","reference",2,37,FALSE,3516103.23640961,1645148.24084759
+2,"MPA","sum","Harris Point SMR","mpa",1,36,FALSE,7568,300.638888888889
+2,"MPA","mean","Harris Point SMR","mpa",1,36,FALSE,2759040.05947137,327552.349711024
+2,"Ref_1","sum","Harris Point SMR","reference",1,37,FALSE,3645121,1159766.02702703
+2,"Ref_1","sum","Harris Point SMR","reference",2,36,FALSE,351642,10564.3888888889
+2,"Ref_1","mean","Harris Point SMR","reference",1,37,FALSE,4304793.25303867,1444570.44078018
+2,"Ref_1","mean","Harris Point SMR","reference",2,36,FALSE,4223873.57348066,694354.114810443
+2,"Ref_2","sum","Harris Point SMR","reference",1,37,FALSE,8568,465.405405405406
+2,"Ref_2","sum","Harris Point SMR","reference",2,36,FALSE,3645121,1151182.91666667
+2,"Ref_2","mean","Harris Point SMR","reference",1,37,FALSE,4304017.87673956,1444392.18629381
+2,"Ref_2","mean","Harris Point SMR","reference",2,36,FALSE,4227157.4013289,694221.660163862
+3,"MPA","sum","Carrington Pt SMR","mpa",1,37,FALSE,0,0
+3,"MPA","mean","Carrington Pt SMR","mpa",1,37,FALSE,919836.177339901,325838.553799584
+3,"Ref_1","sum","Carrington Pt SMR","reference",1,37,FALSE,0,0
+3,"Ref_1","sum","Carrington Pt SMR","reference",2,37,FALSE,2299423,380526.972972973
+3,"Ref_1","mean","Carrington Pt SMR","reference",1,37,FALSE,2324034.64795322,398551.000636162
+3,"Ref_1","mean","Carrington Pt SMR","reference",2,37,FALSE,97290.2081871345,25080.3108305669
+3,"Ref_2","sum","Carrington Pt SMR","reference",1,37,FALSE,2299423,380526.972972973
+3,"Ref_2","sum","Carrington Pt SMR","reference",2,37,FALSE,0,0
+3,"Ref_2","mean","Carrington Pt SMR","reference",1,37,FALSE,2326653.2443609,398922.872227739
+3,"Ref_2","mean","Carrington Pt SMR","reference",2,37,FALSE,97218.1390977444,25444.7683870557
+4,"MPA","sum","Skunk Pt SMR","mpa",1,36,FALSE,0,0
+4,"MPA","mean","Skunk Pt SMR","mpa",1,36,FALSE,160318.370588235,63968.4826480662
+4,"Ref_1","sum","Skunk Pt SMR","reference",1,37,FALSE,2249,96.1891891891892
+4,"Ref_1","sum","Skunk Pt SMR","reference",2,38,TRUE,248119,36009.3947368421
+4,"Ref_1","mean","Skunk Pt SMR","reference",1,37,FALSE,247346.043613707,33006.365400852
+4,"Ref_1","mean","Skunk Pt SMR","reference",2,38,TRUE,772.956386292835,112.263824732011
+5,"MPA","sum","South Point SMR","mpa",1,37,FALSE,0,0
+5,"MPA","mean","South Point SMR","mpa",1,37,FALSE,5613923.62204724,1618410.74266823
+5,"Ref_1","sum","South Point SMR","reference",1,37,FALSE,3893304,838748.054054054
+5,"Ref_1","sum","South Point SMR","reference",2,37,FALSE,0,0
+5,"Ref_1","mean","South Point SMR","reference",1,37,FALSE,4027148.14048059,1007611.21584872
+5,"Ref_1","mean","South Point SMR","reference",2,37,FALSE,779762.054794521,185089.702335207
+5,"Ref_2","sum","South Point SMR","reference",1,37,FALSE,0,0
+5,"Ref_2","sum","South Point SMR","reference",2,37,FALSE,3893304,838748.054054054
+5,"Ref_2","mean","South Point SMR","reference",1,37,FALSE,4024048.20615129,1007116.61436795
+5,"Ref_2","mean","South Point SMR","reference",2,37,FALSE,779090.039232781,184595.100854432
+6,"MPA","sum","Gull Island SMR","mpa",1,37,FALSE,0,0
+6,"MPA","mean","Gull Island SMR","mpa",1,37,FALSE,4685770.38963143,1418008.5351016
+6,"Ref_1","sum","Gull Island SMR","reference",1,37,FALSE,0,0
+6,"Ref_1","sum","Gull Island SMR","reference",2,33,FALSE,1750412,462648.939393939
+6,"Ref_1","mean","Gull Island SMR","reference",1,37,FALSE,1747681.24804992,451723.477425269
+6,"Ref_1","mean","Gull Island SMR","reference",2,33,FALSE,97974.1303030303,22373.4042731112
+6,"Ref_2","sum","Gull Island SMR","reference",1,37,FALSE,1750412,429806.513513514
+6,"Ref_2","sum","Gull Island SMR","reference",2,33,FALSE,0,0
+6,"Ref_2","mean","Gull Island SMR","reference",1,37,FALSE,1750412,451996.7830941
+6,"Ref_2","mean","Gull Island SMR","reference",2,33,FALSE,97293.0357142857,22522.8563695756
+8,"MPA","sum","Santa Barbara Island SMR","mpa",1,37,FALSE,0,0
+8,"MPA","mean","Santa Barbara Island SMR","mpa",1,37,FALSE,877280.650704225,156646.796615158
+8,"Ref_1","sum","Santa Barbara Island SMR","reference",1,38,TRUE,0,0
+8,"Ref_1","sum","Santa Barbara Island SMR","reference",2,38,TRUE,1311267,301257.368421053
+8,"Ref_1","mean","Santa Barbara Island SMR","reference",1,38,TRUE,1310078.18132366,300981.491185323
+8,"Ref_1","mean","Santa Barbara Island SMR","reference",2,38,TRUE,1188.81867633726,275.877235729243
+9,"MPA","sum","Arrow Point to Lion Head Point SMCA","mpa",1,38,TRUE,1868,49.1578947368421
+9,"MPA","mean","Arrow Point to Lion Head Point SMCA","mpa",1,38,TRUE,51850.3880597015,10207.7539892245
+9,"Ref_1","sum","Arrow Point to Lion Head Point SMCA","reference",1,38,TRUE,0,0
+9,"Ref_1","sum","Arrow Point to Lion Head Point SMCA","reference",2,38,TRUE,65282,14016.1315789474
+9,"Ref_1","mean","Arrow Point to Lion Head Point SMCA","reference",1,38,TRUE,46613.4821428571,6789.86357382848
+9,"Ref_1","mean","Arrow Point to Lion Head Point SMCA","reference",2,38,TRUE,70314.5,18330.4174585403
+9,"Ref_2","sum","Arrow Point to Lion Head Point SMCA","reference",1,38,TRUE,65282,14016.1315789474
+9,"Ref_2","sum","Arrow Point to Lion Head Point SMCA","reference",2,38,TRUE,0,0
+9,"Ref_2","mean","Arrow Point to Lion Head Point SMCA","reference",1,38,TRUE,46756.484375,6643.1640625
+9,"Ref_2","mean","Arrow Point to Lion Head Point SMCA","reference",2,38,TRUE,69305.90625,18172.8836348684
+10,"MPA","sum","Farnsworth Onshore SMCA","mpa",1,24,FALSE,34550,1933.54166666667
+10,"MPA","mean","Farnsworth Onshore SMCA","mpa",1,24,FALSE,256855.03030303,58834.4697734977
+10,"Ref_1","sum","Farnsworth Onshore SMCA","reference",1,38,TRUE,287894,98322.6052631579
+10,"Ref_1","sum","Farnsworth Onshore SMCA","reference",2,20,FALSE,61618,4036.45
+10,"Ref_1","mean","Farnsworth Onshore SMCA","reference",1,38,TRUE,100155.972972973,8696.36334429181
+10,"Ref_1","mean","Farnsworth Onshore SMCA","reference",2,20,FALSE,282243.972972973,98600.9491320091
+10,"Ref_2","sum","Farnsworth Onshore SMCA","reference",1,38,TRUE,0,0
+10,"Ref_2","sum","Farnsworth Onshore SMCA","reference",2,20,FALSE,251564,91531.6
+10,"Ref_2","mean","Farnsworth Onshore SMCA","reference",1,38,TRUE,100074.509803922,9310.82164740496
+10,"Ref_2","mean","Farnsworth Onshore SMCA","reference",2,20,FALSE,282162.509803922,99270.962745098
+11,"MPA","sum","Swamis SMCA","mpa",1,37,FALSE,0,0
+11,"MPA","mean","Swamis SMCA","mpa",1,37,FALSE,2394898.52692032,521448.0181603
+11,"Ref_1","sum","Swamis SMCA","reference",1,37,FALSE,0,0
+11,"Ref_1","sum","Swamis SMCA","reference",2,37,FALSE,354082,85895.7837837838
+11,"Ref_1","mean","Swamis SMCA","reference",1,37,FALSE,497770.483754513,88814.5594692165
+11,"Ref_1","mean","Swamis SMCA","reference",2,37,FALSE,688585.451263538,150142.812371939
+11,"Ref_2","sum","Swamis SMCA","reference",1,37,FALSE,354082,85895.7837837838
+11,"Ref_2","sum","Swamis SMCA","reference",2,37,FALSE,0,0
+11,"Ref_2","mean","Swamis SMCA","reference",1,37,FALSE,498962.666666667,88829.6065465466
+11,"Ref_2","mean","Swamis SMCA","reference",2,37,FALSE,688578.417777778,150128.745645646
+12,"MPA","sum","South La Jolla SMR","mpa",1,36,FALSE,0,0
+12,"MPA","mean","South La Jolla SMR","mpa",1,36,FALSE,7652889.51724138,1960890.56255753
+12,"Ref_1","sum","South La Jolla SMR","reference",1,35,FALSE,0,0
+12,"Ref_1","sum","South La Jolla SMR","reference",2,38,TRUE,5381300,834133.105263158
+12,"Ref_1","mean","South La Jolla SMR","reference",1,35,FALSE,5379422.36566643,833941.720865318
+12,"Ref_1","mean","South La Jolla SMR","reference",2,38,TRUE,1877.63433356595,291.044349359092
+13,"MPA","sum","Cabrillo SMR","mpa",1,34,FALSE,0,0
+13,"MPA","mean","Cabrillo SMR","mpa",1,34,FALSE,449576.243654822,28869.2373842938
+13,"Ref_1","sum","Cabrillo SMR","reference",1,34,FALSE,0,0
+13,"Ref_1","sum","Cabrillo SMR","reference",2,38,TRUE,9926362,2085598.68421053
+13,"Ref_1","mean","Cabrillo SMR","reference",1,34,FALSE,9924528.19951968,2228569.0112257
+13,"Ref_1","mean","Cabrillo SMR","reference",2,38,TRUE,1833.80048032514,385.913435695994
+14,"MPA","sum","Point Conception SMR","mpa",1,37,FALSE,0,0
+14,"MPA","mean","Point Conception SMR","mpa",1,37,FALSE,3036894.43097015,1262867.02777915
+14,"Ref_1","sum","Point Conception SMR","reference",1,37,FALSE,0,0
+14,"Ref_1","sum","Point Conception SMR","reference",2,37,FALSE,6160042,1585019.18918919
+14,"Ref_1","mean","Point Conception SMR","reference",1,37,FALSE,6210216.13579212,1678161.82070682
+14,"Ref_1","mean","Point Conception SMR","reference",2,37,FALSE,713339.428033473,93843.2192900808
+15,"MPA","sum","Naples SMCA","mpa",1,37,FALSE,0,0
+15,"MPA","mean","Naples SMCA","mpa",1,37,FALSE,2831942.52089137,1209547.98923836
+15,"Ref_1","sum","Naples SMCA","reference",1,37,FALSE,908770,224986.810810811
+15,"Ref_1","sum","Naples SMCA","reference",2,37,FALSE,0,0
+15,"Ref_1","mean","Naples SMCA","reference",1,37,FALSE,911775.427272727,243271.899900614
+15,"Ref_1","mean","Naples SMCA","reference",2,37,FALSE,81013.7545454545,18494.9269276412
+15,"Ref_2","sum","Naples SMCA","reference",1,37,FALSE,0,0
+15,"Ref_2","sum","Naples SMCA","reference",2,37,FALSE,908770,224986.810810811
+15,"Ref_2","mean","Naples SMCA","reference",1,37,FALSE,909500.467171717,242830.203411597
+15,"Ref_2","mean","Naples SMCA","reference",2,37,FALSE,80368.4242424242,18057.9338238276
+16,"MPA","sum","Campus Point SMCA","mpa",1,37,FALSE,0,0
+16,"MPA","mean","Campus Point SMCA","mpa",1,37,FALSE,4742563.35991494,1908535.06408247
+16,"Ref_1","sum","Campus Point SMCA","reference",1,37,FALSE,1302326,375870.297297297
+16,"Ref_1","sum","Campus Point SMCA","reference",2,37,FALSE,0,0
+16,"Ref_1","mean","Campus Point SMCA","reference",1,37,FALSE,1473641.46046512,442493.642111879
+16,"Ref_1","mean","Campus Point SMCA","reference",2,37,FALSE,252801.68372093,67469.2367064739
+16,"Ref_2","sum","Campus Point SMCA","reference",1,37,FALSE,0,0
+16,"Ref_2","sum","Campus Point SMCA","reference",2,37,FALSE,1302326,375870.297297297
+16,"Ref_2","mean","Campus Point SMCA","reference",1,37,FALSE,1471499.00199601,441924.78373085
+16,"Ref_2","mean","Campus Point SMCA","reference",2,37,FALSE,253191.644710579,66938.0305884856
+17,"MPA","sum","Judith Rk SMR","mpa",1,37,FALSE,0,0
+17,"MPA","mean","Judith Rk SMR","mpa",1,37,FALSE,4499403.4882227,1665973.16039599
+17,"Ref_1","sum","Judith Rk SMR","reference",1,37,FALSE,86546,2339.08108108108
+17,"Ref_1","sum","Judith Rk SMR","reference",2,37,FALSE,21841649,3724883.43243243
+17,"Ref_1","mean","Judith Rk SMR","reference",1,37,FALSE,23029588.1661881,4966807.44621322
+17,"Ref_1","mean","Judith Rk SMR","reference",2,37,FALSE,3315699.91434767,1543925.44739468
+17,"Ref_2","sum","Judith Rk SMR","reference",1,37,FALSE,21841649,3722544.35135135
+17,"Ref_2","sum","Judith Rk SMR","reference",2,37,FALSE,0,0
+17,"Ref_2","mean","Judith Rk SMR","reference",1,37,FALSE,23030424.4923928,4965546.69816866
+17,"Ref_2","mean","Judith Rk SMR","reference",2,37,FALSE,3312019.6969697,1542661.86033083
+18,"MPA","sum","Point Dume SMCA","mpa",1,37,FALSE,0,0
+18,"MPA","mean","Point Dume SMCA","mpa",1,37,FALSE,1227992.65651438,389673.19817491
+18,"Ref_1","sum","Point Dume SMCA","reference",1,37,FALSE,0,0
+18,"Ref_1","sum","Point Dume SMCA","reference",2,38,TRUE,1042316,375570.815789474
+18,"Ref_1","mean","Point Dume SMCA","reference",1,37,FALSE,1039984.19686801,381336.059085914
+18,"Ref_1","mean","Point Dume SMCA","reference",2,38,TRUE,2331.80313199105,735.52884133891
+19,"MPA","sum","Point Dume SMR","mpa",1,37,FALSE,0,0
+19,"MPA","mean","Point Dume SMR","mpa",1,37,FALSE,883115.528330781,225622.879965583
+19,"Ref_1","sum","Point Dume SMR","reference",1,37,FALSE,0,0
+19,"Ref_1","sum","Point Dume SMR","reference",2,38,TRUE,1110628,279915.078947368
+19,"Ref_1","mean","Point Dume SMR","reference",1,37,FALSE,1108458.8046875,286905.073135529
+19,"Ref_1","mean","Point Dume SMR","reference",2,38,TRUE,2169.1953125,546.79700455119
+20,"MPA","sum","Abalone Cove SMCA","mpa",1,36,FALSE,15753,437.583333333333
+20,"MPA","mean","Abalone Cove SMCA","mpa",1,36,FALSE,315067.389705882,86016.0946059001
+20,"Ref_1","sum","Abalone Cove SMCA","reference",1,38,TRUE,0,0
+20,"Ref_1","sum","Abalone Cove SMCA","reference",2,38,TRUE,362675,82625.1315789474
+20,"Ref_1","mean","Abalone Cove SMCA","reference",1,38,TRUE,386720.893023256,115809.039198558
+20,"Ref_1","mean","Abalone Cove SMCA","reference",2,38,TRUE,263421.893023256,54484.3837653112
+21,"MPA","sum","Point Vicente SMCA","mpa",1,35,FALSE,42844,1224.11428571429
+21,"MPA","mean","Point Vicente SMCA","mpa",1,35,FALSE,929158.93877551,260738.988290379
+21,"Ref_1","sum","Point Vicente SMCA","reference",1,38,TRUE,0,0
+21,"Ref_1","sum","Point Vicente SMCA","reference",2,36,FALSE,850820,177011.277777778
+21,"Ref_1","mean","Point Vicente SMCA","reference",1,38,TRUE,874699.708939709,200141.024117902
+21,"Ref_1","mean","Point Vicente SMCA","reference",2,36,FALSE,57362.0152671756,8852.83615730472

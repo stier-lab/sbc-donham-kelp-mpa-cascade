@@ -1,0 +1,285 @@
+"scope","Taxa","Resp","estimand","size","omitted","n_mpa","slope","ci_low","ci_high"
+"retained_membership","S. pulcher","Den","post_only_mean","all","Abalone Cove SMCA",9,0.495947529406821,-0.272953564984402,1.26484862379804
+"retained_membership","S. pulcher","Den","post_only_mean","all","Anacapa Island SMR 2003",9,0.292602046985086,-0.54884419038834,1.13404828435851
+"retained_membership","S. pulcher","Den","post_only_mean","all","Campus Point SMCA",9,0.481318276699212,-0.40999943621164,1.37263598961006
+"retained_membership","S. pulcher","Den","post_only_mean","all","Gull Island SMR",9,0.444312896084826,-0.489498122648024,1.37812391481768
+"retained_membership","S. pulcher","Den","post_only_mean","all","Harris Point SMR",9,0.406159642234763,-0.595439937358346,1.40775922182787
+"retained_membership","S. pulcher","Den","post_only_mean","all","Matlahuayl SMR",9,0.129476828739149,-0.682288426496846,0.941242083975144
+"retained_membership","S. pulcher","Den","post_only_mean","all","Naples SMCA",9,0.608237972790789,-0.537657879660111,1.75413382524169
+"retained_membership","S. pulcher","Den","post_only_mean","all","Point Vicente SMCA",9,0.402216913106533,-0.499441293680402,1.30387511989347
+"retained_membership","S. pulcher","Den","post_only_mean","all","Scorpion SMR",9,0.377804312242649,-0.551682078169018,1.30729070265432
+"retained_membership","S. pulcher","Den","post_only_mean","all","South Point SMR",9,0.410357330047953,-0.329333767872152,1.15004842796806
+"retained_membership","S. pulcher","Den","post_only_mean","all","shared_Naples_Campus",8,0.715481881634961,-0.541332186034818,1.97229594930474
+"retained_membership","S. pulcher","Den","post_only_mean","large","Abalone Cove SMCA",9,0.416158365661705,-0.348547639463803,1.18086437078721
+"retained_membership","S. pulcher","Den","post_only_mean","large","Anacapa Island SMR 2003",9,0.17809308506484,-0.589276862070077,0.945463032199757
+"retained_membership","S. pulcher","Den","post_only_mean","large","Campus Point SMCA",9,0.272135192862933,-0.597670835643263,1.14194122136913
+"retained_membership","S. pulcher","Den","post_only_mean","large","Gull Island SMR",9,0.215918698195538,-0.653767342852337,1.08560473924341
+"retained_membership","S. pulcher","Den","post_only_mean","large","Harris Point SMR",9,0.187814586509796,-0.714994426459293,1.09062359947888
+"retained_membership","S. pulcher","Den","post_only_mean","large","Matlahuayl SMR",9,-0.0844957954050401,-0.8496511280983,0.68065953728822
+"retained_membership","S. pulcher","Den","post_only_mean","large","Naples SMCA",9,0.394610008036988,-0.926481066423912,1.71570108249789
+"retained_membership","S. pulcher","Den","post_only_mean","large","Point Vicente SMCA",9,0.212332378403792,-0.663944091247482,1.08860884805507
+"retained_membership","S. pulcher","Den","post_only_mean","large","Scorpion SMR",9,0.197731023648194,-0.667392401096231,1.06285444839262
+"retained_membership","S. pulcher","Den","post_only_mean","large","South Point SMR",9,0.254265051118419,-0.473890228664546,0.982420330901384
+"retained_membership","S. pulcher","Den","post_only_mean","large","shared_Naples_Campus",8,0.479906185883965,-0.999140169711188,1.95895254147912
+"retained_membership","S. pulcher","Den","common_CI_route","all","Abalone Cove SMCA",9,0.866418102524736,0.292301133586486,1.44053507146299
+"retained_membership","S. pulcher","Den","common_CI_route","all","Anacapa Island SMR 2003",9,0.918476651541155,0.335885869408582,1.50106743367373
+"retained_membership","S. pulcher","Den","common_CI_route","all","Campus Point SMCA",9,0.801660257412065,0.428203484452705,1.17511703037143
+"retained_membership","S. pulcher","Den","common_CI_route","all","Gull Island SMR",9,0.947474650462294,0.480514116588929,1.41443518433566
+"retained_membership","S. pulcher","Den","common_CI_route","all","Harris Point SMR",9,0.893211546468916,0.326731681105415,1.45969141183242
+"retained_membership","S. pulcher","Den","common_CI_route","all","Matlahuayl SMR",9,1.04494903955624,0.388118502270413,1.70177957684206
+"retained_membership","S. pulcher","Den","common_CI_route","all","Naples SMCA",9,1.05161533018888,0.419934722508707,1.68329593786905
+"retained_membership","S. pulcher","Den","common_CI_route","all","Point Vicente SMCA",9,0.922275030064891,0.406951891883485,1.4375981682463
+"retained_membership","S. pulcher","Den","common_CI_route","all","Scorpion SMR",9,1.0032081221486,0.456485624941398,1.5499306193558
+"retained_membership","S. pulcher","Den","common_CI_route","all","South Point SMR",9,0.953556547205578,0.3860252842378,1.52108781017336
+"retained_membership","S. pulcher","Den","common_CI_route","all","shared_Naples_Campus",8,0.935533061836493,0.482347846451556,1.38871827722143
+"retained_membership","S. pulcher","Den","common_CI_route","large","Abalone Cove SMCA",9,0.793635542274758,0.158484231095629,1.42878685345389
+"retained_membership","S. pulcher","Den","common_CI_route","large","Anacapa Island SMR 2003",9,0.641087886540138,0.213738203431275,1.068437569649
+"retained_membership","S. pulcher","Den","common_CI_route","large","Campus Point SMCA",9,0.591376319433418,0.272294415698682,0.910458223168153
+"retained_membership","S. pulcher","Den","common_CI_route","large","Gull Island SMR",9,0.665907926041628,0.224658608366443,1.10715724371681
+"retained_membership","S. pulcher","Den","common_CI_route","large","Harris Point SMR",9,0.629980459406149,0.266562784171117,0.993398134641182
+"retained_membership","S. pulcher","Den","common_CI_route","large","Matlahuayl SMR",9,0.701048218905112,0.195287460501872,1.20680897730835
+"retained_membership","S. pulcher","Den","common_CI_route","large","Naples SMCA",9,0.704315396532222,0.203936654929638,1.20469413813481
+"retained_membership","S. pulcher","Den","common_CI_route","large","Point Vicente SMCA",9,0.674432923119375,0.27192678791975,1.076939058319
+"retained_membership","S. pulcher","Den","common_CI_route","large","Scorpion SMR",9,0.683110260904716,0.23265962719293,1.1335608946165
+"retained_membership","S. pulcher","Den","common_CI_route","large","South Point SMR",9,0.678037888025644,0.228581300680258,1.12749447537103
+"retained_membership","S. pulcher","Den","common_CI_route","large","shared_Naples_Campus",8,0.644138097137511,0.239659223557156,1.04861697071787
+"retained_membership","P. interruptus","Den","post_only_mean","all","Abalone Cove SMCA",9,-0.0259199145374036,-0.699486196598357,0.64764636752355
+"retained_membership","P. interruptus","Den","post_only_mean","all","Anacapa Island SMR 2003",9,-0.0417731293306762,-0.599300687566552,0.5157544289052
+"retained_membership","P. interruptus","Den","post_only_mean","all","Campus Point SMCA",9,-0.235173053251261,-0.884618188729697,0.414272082227176
+"retained_membership","P. interruptus","Den","post_only_mean","all","Gull Island SMR",9,-0.122849605191566,-0.777557998939765,0.531858788556632
+"retained_membership","P. interruptus","Den","post_only_mean","all","Harris Point SMR",9,-0.122904276901549,-0.758311661634652,0.512503107831554
+"retained_membership","P. interruptus","Den","post_only_mean","all","Matlahuayl SMR",9,-0.365691945831916,-0.892315552191623,0.160931660527791
+"retained_membership","P. interruptus","Den","post_only_mean","all","Naples SMCA",9,-0.137051156808905,-0.769318420320107,0.495216106702298
+"retained_membership","P. interruptus","Den","post_only_mean","all","Point Vicente SMCA",9,-0.138974506550962,-0.800539436807484,0.52259042370556
+"retained_membership","P. interruptus","Den","post_only_mean","all","Scorpion SMR",9,-0.0915669172772711,-0.819558233465519,0.636424398910976
+"retained_membership","P. interruptus","Den","post_only_mean","all","South Point SMR",9,-0.163583919856813,-0.708902537378408,0.381734697664782
+"retained_membership","P. interruptus","Den","post_only_mean","all","shared_Naples_Campus",8,-0.230536509673903,-0.95127308781523,0.490200068467424
+"retained_membership","P. interruptus","Den","post_only_mean","large","Abalone Cove SMCA",9,-0.502467130977955,-1.14405284601925,0.139118584063337
+"retained_membership","P. interruptus","Den","post_only_mean","large","Anacapa Island SMR 2003",9,-0.390773080513726,-0.937969303120399,0.156423142092948
+"retained_membership","P. interruptus","Den","post_only_mean","large","Campus Point SMCA",9,-0.513555978244365,-1.02257205847548,-0.0045398980132495
+"retained_membership","P. interruptus","Den","post_only_mean","large","Gull Island SMR",9,-0.498025586701728,-1.0429516258229,0.0469004524194451
+"retained_membership","P. interruptus","Den","post_only_mean","large","Harris Point SMR",9,-0.499085976698957,-1.05545245965289,0.0572805062549748
+"retained_membership","P. interruptus","Den","post_only_mean","large","Matlahuayl SMR",9,-0.580530148015668,-0.922757723638147,-0.238302572393189
+"retained_membership","P. interruptus","Den","post_only_mean","large","Naples SMCA",9,-0.497719436415912,-1.03525674429366,0.0398178714618405
+"retained_membership","P. interruptus","Den","post_only_mean","large","Point Vicente SMCA",9,-0.503904342591503,-1.03224638966618,0.0244377044831712
+"retained_membership","P. interruptus","Den","post_only_mean","large","Scorpion SMR",9,-0.646992073083494,-1.2930186622268,-0.000965483940188472
+"retained_membership","P. interruptus","Den","post_only_mean","large","South Point SMR",9,-0.429093798199982,-0.926638996464738,0.0684514000647738
+"retained_membership","P. interruptus","Den","post_only_mean","large","shared_Naples_Campus",8,-0.506931315318997,-1.0739002418867,0.0600376112487032
+"retained_membership","P. interruptus","Den","common_CI_route","all","Abalone Cove SMCA",9,-0.461068277793855,-1.07240288814329,0.150266332555585
+"retained_membership","P. interruptus","Den","common_CI_route","all","Anacapa Island SMR 2003",9,-0.547913859696295,-1.11719028102389,0.0213625616313048
+"retained_membership","P. interruptus","Den","common_CI_route","all","Campus Point SMCA",9,-0.42320298313298,-0.923477190164398,0.0770712238984385
+"retained_membership","P. interruptus","Den","common_CI_route","all","Gull Island SMR",9,-0.558962981872216,-1.13815837873154,0.0202324149871134
+"retained_membership","P. interruptus","Den","common_CI_route","all","Harris Point SMR",9,-0.51039201512525,-1.03918231897844,0.0183982887279363
+"retained_membership","P. interruptus","Den","common_CI_route","all","Matlahuayl SMR",9,-0.789514247049224,-1.12907428272436,-0.449954211374085
+"retained_membership","P. interruptus","Den","common_CI_route","all","Naples SMCA",9,-0.519937133896544,-1.06455135408956,0.0246770862964706
+"retained_membership","P. interruptus","Den","common_CI_route","all","Point Vicente SMCA",9,-0.53531704245,-1.12471057831305,0.0540764934130484
+"retained_membership","P. interruptus","Den","common_CI_route","all","Scorpion SMR",9,-0.532735769015586,-1.1708138700547,0.105342332023527
+"retained_membership","P. interruptus","Den","common_CI_route","all","South Point SMR",9,-0.610586191212857,-1.17784362365036,-0.0433287587753569
+"retained_membership","P. interruptus","Den","common_CI_route","all","shared_Naples_Campus",8,-0.404830404405306,-0.941381781644704,0.131720972834092
+"retained_membership","P. interruptus","Den","common_CI_route","large","Abalone Cove SMCA",9,-0.532191059351657,-1.33898039102273,0.274598272319417
+"retained_membership","P. interruptus","Den","common_CI_route","large","Anacapa Island SMR 2003",9,-0.659405703266909,-1.35317226341477,0.0343608568809566
+"retained_membership","P. interruptus","Den","common_CI_route","large","Campus Point SMCA",9,-0.581993887931017,-1.053577367312,-0.110410408550031
+"retained_membership","P. interruptus","Den","common_CI_route","large","Gull Island SMR",9,-0.616457880110463,-1.28844759757976,0.055531837358833
+"retained_membership","P. interruptus","Den","common_CI_route","large","Harris Point SMR",9,-0.565708315587064,-1.20451577175973,0.0730991405855999
+"retained_membership","P. interruptus","Den","common_CI_route","large","Matlahuayl SMR",9,-0.659564408294352,-1.24783736912724,-0.0712914474614593
+"retained_membership","P. interruptus","Den","common_CI_route","large","Naples SMCA",9,-0.584390182743931,-1.21879166738886,0.0500113019010016
+"retained_membership","P. interruptus","Den","common_CI_route","large","Point Vicente SMCA",9,-0.625486570352415,-1.23443485773105,-0.0165382829737826
+"retained_membership","P. interruptus","Den","common_CI_route","large","Scorpion SMR",9,-0.684440240533822,-1.54003505167272,0.171154570605071
+"retained_membership","P. interruptus","Den","common_CI_route","large","South Point SMR",9,-0.650227241989137,-1.30758042998152,0.00712594600325045
+"retained_membership","P. interruptus","Den","common_CI_route","large","shared_Naples_Campus",8,-0.556638515383354,-1.05795626587775,-0.0553207648889572
+"retained_membership","S. pulcher","Bio","post_only_mean","all","Abalone Cove SMCA",7,-0.302161175457359,-0.822294516545061,0.217972165630344
+"retained_membership","S. pulcher","Bio","post_only_mean","all","Campus Point SMCA",7,-0.364369995763528,-0.864370744915686,0.135630753388631
+"retained_membership","S. pulcher","Bio","post_only_mean","all","Gull Island SMR",7,-0.30773785454637,-0.786597314434742,0.171121605342003
+"retained_membership","S. pulcher","Bio","post_only_mean","all","Harris Point SMR",7,-0.228842827858387,-0.833074263801127,0.375388608084354
+"retained_membership","S. pulcher","Bio","post_only_mean","all","Naples SMCA",7,-0.308032701270112,-0.879522610701647,0.263457208161422
+"retained_membership","S. pulcher","Bio","post_only_mean","all","Point Vicente SMCA",7,-0.314348378972331,-0.791346366265558,0.162649608320897
+"retained_membership","S. pulcher","Bio","post_only_mean","all","Scorpion SMR",7,-0.380852963249523,-0.825162239005329,0.0634563125062835
+"retained_membership","S. pulcher","Bio","post_only_mean","all","South Point SMR",7,-0.230487442969645,-0.408534591881722,-0.0524402940575683
+"retained_membership","S. pulcher","Bio","post_only_mean","all","shared_Naples_Campus",6,-0.368676409978257,-1.07569655761227,0.338343737655761
+"retained_membership","S. pulcher","Bio","post_only_mean","large","Abalone Cove SMCA",7,-0.29471176547504,-0.716021366280068,0.126597835329988
+"retained_membership","S. pulcher","Bio","post_only_mean","large","Campus Point SMCA",7,-0.345907476816242,-0.741673495470298,0.0498585418378152
+"retained_membership","S. pulcher","Bio","post_only_mean","large","Gull Island SMR",7,-0.29412783224511,-0.684931870741788,0.0966762062515669
+"retained_membership","S. pulcher","Bio","post_only_mean","large","Harris Point SMR",7,-0.239901813779304,-0.713441564065373,0.233637936506765
+"retained_membership","S. pulcher","Bio","post_only_mean","large","Naples SMCA",7,-0.309847731545263,-0.778665815046181,0.158970351955655
+"retained_membership","S. pulcher","Bio","post_only_mean","large","Point Vicente SMCA",7,-0.293300913053181,-0.677960136956756,0.0913583108503938
+"retained_membership","S. pulcher","Bio","post_only_mean","large","Scorpion SMR",7,-0.336794207140947,-0.69015154386097,0.0165631295790765
+"retained_membership","S. pulcher","Bio","post_only_mean","large","South Point SMR",7,-0.208339549932686,-0.350030124979611,-0.0666489748857597
+"retained_membership","S. pulcher","Bio","post_only_mean","large","shared_Naples_Campus",6,-0.370639192241377,-0.93949797320356,0.198219588720805
+"retained_membership","S. pulcher","Bio","common_CI_route","all","Abalone Cove SMCA",7,0.303851448712607,-0.28952543035,0.897228327775215
+"retained_membership","S. pulcher","Bio","common_CI_route","all","Campus Point SMCA",7,0.221005811497979,-0.204728489553539,0.646740112549498
+"retained_membership","S. pulcher","Bio","common_CI_route","all","Gull Island SMR",7,0.347602728483276,-0.17640599326622,0.871611450232773
+"retained_membership","S. pulcher","Bio","common_CI_route","all","Harris Point SMR",7,0.449242914340412,-0.0363597796687437,0.934845608349569
+"retained_membership","S. pulcher","Bio","common_CI_route","all","Naples SMCA",7,0.398816963429177,-0.134174984042581,0.931808910900935
+"retained_membership","S. pulcher","Bio","common_CI_route","all","Point Vicente SMCA",7,0.416601170077222,0.00417845015358426,0.829023890000859
+"retained_membership","S. pulcher","Bio","common_CI_route","all","Scorpion SMR",7,0.454306182649048,-0.0598055533502542,0.96841791864835
+"retained_membership","S. pulcher","Bio","common_CI_route","all","South Point SMR",7,0.371251076161157,-0.161954543750987,0.9044566960733
+"retained_membership","S. pulcher","Bio","common_CI_route","all","shared_Naples_Campus",6,0.244083053190867,-0.27861230403452,0.766778410416254
+"retained_membership","S. pulcher","Bio","common_CI_route","large","Abalone Cove SMCA",7,0.264472255145717,-0.218818757043223,0.747763267334658
+"retained_membership","S. pulcher","Bio","common_CI_route","large","Campus Point SMCA",7,0.200337454860392,-0.12734081089112,0.528015720611903
+"retained_membership","S. pulcher","Bio","common_CI_route","large","Gull Island SMR",7,0.290173555314638,-0.135063669325084,0.715410779954361
+"retained_membership","S. pulcher","Bio","common_CI_route","large","Harris Point SMR",7,0.359347529013803,-0.0202168345550122,0.738911892582619
+"retained_membership","S. pulcher","Bio","common_CI_route","large","Naples SMCA",7,0.332432869613149,-0.090369496949032,0.75523523617533
+"retained_membership","S. pulcher","Bio","common_CI_route","large","Point Vicente SMCA",7,0.358291334873343,0.0462217148428837,0.670360954903803
+"retained_membership","S. pulcher","Bio","common_CI_route","large","Scorpion SMR",7,0.352161643194781,-0.0522455007195064,0.756568787109069
+"retained_membership","S. pulcher","Bio","common_CI_route","large","South Point SMR",7,0.308715034132672,-0.116327569864845,0.73375763813019
+"retained_membership","S. pulcher","Bio","common_CI_route","large","shared_Naples_Campus",6,0.216288997202787,-0.187941239864597,0.620519234270172
+"expanded_size_cohort","S. pulcher","Den","post_only_mean","all","Abalone Cove SMCA",9,0.495947529406821,-0.272953564984402,1.26484862379804
+"expanded_size_cohort","S. pulcher","Den","post_only_mean","all","Anacapa Island SMR 2003",9,0.292602046985086,-0.54884419038834,1.13404828435851
+"expanded_size_cohort","S. pulcher","Den","post_only_mean","all","Campus Point SMCA",9,0.481318276699212,-0.40999943621164,1.37263598961006
+"expanded_size_cohort","S. pulcher","Den","post_only_mean","all","Gull Island SMR",9,0.444312896084826,-0.489498122648024,1.37812391481768
+"expanded_size_cohort","S. pulcher","Den","post_only_mean","all","Harris Point SMR",9,0.406159642234763,-0.595439937358346,1.40775922182787
+"expanded_size_cohort","S. pulcher","Den","post_only_mean","all","Matlahuayl SMR",9,0.129476828739149,-0.682288426496846,0.941242083975144
+"expanded_size_cohort","S. pulcher","Den","post_only_mean","all","Naples SMCA",9,0.608237972790789,-0.537657879660111,1.75413382524169
+"expanded_size_cohort","S. pulcher","Den","post_only_mean","all","Point Vicente SMCA",9,0.402216913106533,-0.499441293680402,1.30387511989347
+"expanded_size_cohort","S. pulcher","Den","post_only_mean","all","Scorpion SMR",9,0.377804312242649,-0.551682078169018,1.30729070265432
+"expanded_size_cohort","S. pulcher","Den","post_only_mean","all","South Point SMR",9,0.410357330047953,-0.329333767872152,1.15004842796806
+"expanded_size_cohort","S. pulcher","Den","post_only_mean","all","shared_Naples_Campus",8,0.715481881634961,-0.541332186034818,1.97229594930474
+"expanded_size_cohort","S. pulcher","Den","post_only_mean","large","Abalone Cove SMCA",9,0.416158365661705,-0.348547639463803,1.18086437078721
+"expanded_size_cohort","S. pulcher","Den","post_only_mean","large","Anacapa Island SMR 2003",9,0.17809308506484,-0.589276862070077,0.945463032199757
+"expanded_size_cohort","S. pulcher","Den","post_only_mean","large","Campus Point SMCA",9,0.272135192862933,-0.597670835643263,1.14194122136913
+"expanded_size_cohort","S. pulcher","Den","post_only_mean","large","Gull Island SMR",9,0.215918698195538,-0.653767342852337,1.08560473924341
+"expanded_size_cohort","S. pulcher","Den","post_only_mean","large","Harris Point SMR",9,0.187814586509796,-0.714994426459293,1.09062359947888
+"expanded_size_cohort","S. pulcher","Den","post_only_mean","large","Matlahuayl SMR",9,-0.0844957954050401,-0.8496511280983,0.68065953728822
+"expanded_size_cohort","S. pulcher","Den","post_only_mean","large","Naples SMCA",9,0.394610008036988,-0.926481066423912,1.71570108249789
+"expanded_size_cohort","S. pulcher","Den","post_only_mean","large","Point Vicente SMCA",9,0.212332378403792,-0.663944091247482,1.08860884805507
+"expanded_size_cohort","S. pulcher","Den","post_only_mean","large","Scorpion SMR",9,0.197731023648194,-0.667392401096231,1.06285444839262
+"expanded_size_cohort","S. pulcher","Den","post_only_mean","large","South Point SMR",9,0.254265051118419,-0.473890228664546,0.982420330901384
+"expanded_size_cohort","S. pulcher","Den","post_only_mean","large","shared_Naples_Campus",8,0.479906185883965,-0.999140169711188,1.95895254147912
+"expanded_size_cohort","S. pulcher","Den","common_CI_route","all","Abalone Cove SMCA",9,0.866418102524736,0.292301133586486,1.44053507146299
+"expanded_size_cohort","S. pulcher","Den","common_CI_route","all","Anacapa Island SMR 2003",9,0.918476651541155,0.335885869408582,1.50106743367373
+"expanded_size_cohort","S. pulcher","Den","common_CI_route","all","Campus Point SMCA",9,0.801660257412065,0.428203484452705,1.17511703037143
+"expanded_size_cohort","S. pulcher","Den","common_CI_route","all","Gull Island SMR",9,0.947474650462294,0.480514116588929,1.41443518433566
+"expanded_size_cohort","S. pulcher","Den","common_CI_route","all","Harris Point SMR",9,0.893211546468916,0.326731681105415,1.45969141183242
+"expanded_size_cohort","S. pulcher","Den","common_CI_route","all","Matlahuayl SMR",9,1.04494903955624,0.388118502270413,1.70177957684206
+"expanded_size_cohort","S. pulcher","Den","common_CI_route","all","Naples SMCA",9,1.05161533018888,0.419934722508707,1.68329593786905
+"expanded_size_cohort","S. pulcher","Den","common_CI_route","all","Point Vicente SMCA",9,0.922275030064891,0.406951891883485,1.4375981682463
+"expanded_size_cohort","S. pulcher","Den","common_CI_route","all","Scorpion SMR",9,1.0032081221486,0.456485624941398,1.5499306193558
+"expanded_size_cohort","S. pulcher","Den","common_CI_route","all","South Point SMR",9,0.953556547205578,0.3860252842378,1.52108781017336
+"expanded_size_cohort","S. pulcher","Den","common_CI_route","all","shared_Naples_Campus",8,0.935533061836493,0.482347846451556,1.38871827722143
+"expanded_size_cohort","S. pulcher","Den","common_CI_route","large","Abalone Cove SMCA",9,0.793635542274758,0.158484231095629,1.42878685345389
+"expanded_size_cohort","S. pulcher","Den","common_CI_route","large","Anacapa Island SMR 2003",9,0.641087886540138,0.213738203431275,1.068437569649
+"expanded_size_cohort","S. pulcher","Den","common_CI_route","large","Campus Point SMCA",9,0.591376319433418,0.272294415698682,0.910458223168153
+"expanded_size_cohort","S. pulcher","Den","common_CI_route","large","Gull Island SMR",9,0.665907926041628,0.224658608366443,1.10715724371681
+"expanded_size_cohort","S. pulcher","Den","common_CI_route","large","Harris Point SMR",9,0.629980459406149,0.266562784171117,0.993398134641182
+"expanded_size_cohort","S. pulcher","Den","common_CI_route","large","Matlahuayl SMR",9,0.701048218905112,0.195287460501872,1.20680897730835
+"expanded_size_cohort","S. pulcher","Den","common_CI_route","large","Naples SMCA",9,0.704315396532222,0.203936654929638,1.20469413813481
+"expanded_size_cohort","S. pulcher","Den","common_CI_route","large","Point Vicente SMCA",9,0.674432923119375,0.27192678791975,1.076939058319
+"expanded_size_cohort","S. pulcher","Den","common_CI_route","large","Scorpion SMR",9,0.683110260904716,0.23265962719293,1.1335608946165
+"expanded_size_cohort","S. pulcher","Den","common_CI_route","large","South Point SMR",9,0.678037888025644,0.228581300680258,1.12749447537103
+"expanded_size_cohort","S. pulcher","Den","common_CI_route","large","shared_Naples_Campus",8,0.644138097137511,0.239659223557156,1.04861697071787
+"expanded_size_cohort","P. interruptus","Den","post_only_mean","all","Abalone Cove SMCA",9,-0.0259199145374036,-0.699486196598357,0.64764636752355
+"expanded_size_cohort","P. interruptus","Den","post_only_mean","all","Anacapa Island SMR 2003",9,-0.0417731293306762,-0.599300687566552,0.5157544289052
+"expanded_size_cohort","P. interruptus","Den","post_only_mean","all","Campus Point SMCA",9,-0.235173053251261,-0.884618188729697,0.414272082227176
+"expanded_size_cohort","P. interruptus","Den","post_only_mean","all","Gull Island SMR",9,-0.122849605191566,-0.777557998939765,0.531858788556632
+"expanded_size_cohort","P. interruptus","Den","post_only_mean","all","Harris Point SMR",9,-0.122904276901549,-0.758311661634652,0.512503107831554
+"expanded_size_cohort","P. interruptus","Den","post_only_mean","all","Matlahuayl SMR",9,-0.365691945831916,-0.892315552191623,0.160931660527791
+"expanded_size_cohort","P. interruptus","Den","post_only_mean","all","Naples SMCA",9,-0.137051156808905,-0.769318420320107,0.495216106702298
+"expanded_size_cohort","P. interruptus","Den","post_only_mean","all","Point Vicente SMCA",9,-0.138974506550962,-0.800539436807484,0.52259042370556
+"expanded_size_cohort","P. interruptus","Den","post_only_mean","all","Scorpion SMR",9,-0.0915669172772711,-0.819558233465519,0.636424398910976
+"expanded_size_cohort","P. interruptus","Den","post_only_mean","all","South Point SMR",9,-0.163583919856813,-0.708902537378408,0.381734697664782
+"expanded_size_cohort","P. interruptus","Den","post_only_mean","all","shared_Naples_Campus",8,-0.230536509673903,-0.95127308781523,0.490200068467424
+"expanded_size_cohort","P. interruptus","Den","post_only_mean","large","Abalone Cove SMCA",9,-0.502467130977955,-1.14405284601925,0.139118584063337
+"expanded_size_cohort","P. interruptus","Den","post_only_mean","large","Anacapa Island SMR 2003",9,-0.390773080513726,-0.937969303120399,0.156423142092948
+"expanded_size_cohort","P. interruptus","Den","post_only_mean","large","Campus Point SMCA",9,-0.513555978244365,-1.02257205847548,-0.0045398980132495
+"expanded_size_cohort","P. interruptus","Den","post_only_mean","large","Gull Island SMR",9,-0.498025586701728,-1.0429516258229,0.0469004524194451
+"expanded_size_cohort","P. interruptus","Den","post_only_mean","large","Harris Point SMR",9,-0.499085976698957,-1.05545245965289,0.0572805062549748
+"expanded_size_cohort","P. interruptus","Den","post_only_mean","large","Matlahuayl SMR",9,-0.580530148015668,-0.922757723638147,-0.238302572393189
+"expanded_size_cohort","P. interruptus","Den","post_only_mean","large","Naples SMCA",9,-0.497719436415912,-1.03525674429366,0.0398178714618405
+"expanded_size_cohort","P. interruptus","Den","post_only_mean","large","Point Vicente SMCA",9,-0.503904342591503,-1.03224638966618,0.0244377044831712
+"expanded_size_cohort","P. interruptus","Den","post_only_mean","large","Scorpion SMR",9,-0.646992073083494,-1.2930186622268,-0.000965483940188472
+"expanded_size_cohort","P. interruptus","Den","post_only_mean","large","South Point SMR",9,-0.429093798199982,-0.926638996464738,0.0684514000647738
+"expanded_size_cohort","P. interruptus","Den","post_only_mean","large","shared_Naples_Campus",8,-0.506931315318997,-1.0739002418867,0.0600376112487032
+"expanded_size_cohort","P. interruptus","Den","common_CI_route","all","Abalone Cove SMCA",9,-0.461068277793855,-1.07240288814329,0.150266332555585
+"expanded_size_cohort","P. interruptus","Den","common_CI_route","all","Anacapa Island SMR 2003",9,-0.547913859696295,-1.11719028102389,0.0213625616313048
+"expanded_size_cohort","P. interruptus","Den","common_CI_route","all","Campus Point SMCA",9,-0.42320298313298,-0.923477190164398,0.0770712238984385
+"expanded_size_cohort","P. interruptus","Den","common_CI_route","all","Gull Island SMR",9,-0.558962981872216,-1.13815837873154,0.0202324149871134
+"expanded_size_cohort","P. interruptus","Den","common_CI_route","all","Harris Point SMR",9,-0.51039201512525,-1.03918231897844,0.0183982887279363
+"expanded_size_cohort","P. interruptus","Den","common_CI_route","all","Matlahuayl SMR",9,-0.789514247049224,-1.12907428272436,-0.449954211374085
+"expanded_size_cohort","P. interruptus","Den","common_CI_route","all","Naples SMCA",9,-0.519937133896544,-1.06455135408956,0.0246770862964706
+"expanded_size_cohort","P. interruptus","Den","common_CI_route","all","Point Vicente SMCA",9,-0.53531704245,-1.12471057831305,0.0540764934130484
+"expanded_size_cohort","P. interruptus","Den","common_CI_route","all","Scorpion SMR",9,-0.532735769015586,-1.1708138700547,0.105342332023527
+"expanded_size_cohort","P. interruptus","Den","common_CI_route","all","South Point SMR",9,-0.610586191212857,-1.17784362365036,-0.0433287587753569
+"expanded_size_cohort","P. interruptus","Den","common_CI_route","all","shared_Naples_Campus",8,-0.404830404405306,-0.941381781644704,0.131720972834092
+"expanded_size_cohort","P. interruptus","Den","common_CI_route","large","Abalone Cove SMCA",9,-0.532191059351657,-1.33898039102273,0.274598272319417
+"expanded_size_cohort","P. interruptus","Den","common_CI_route","large","Anacapa Island SMR 2003",9,-0.659405703266909,-1.35317226341477,0.0343608568809566
+"expanded_size_cohort","P. interruptus","Den","common_CI_route","large","Campus Point SMCA",9,-0.581993887931017,-1.053577367312,-0.110410408550031
+"expanded_size_cohort","P. interruptus","Den","common_CI_route","large","Gull Island SMR",9,-0.616457880110463,-1.28844759757976,0.055531837358833
+"expanded_size_cohort","P. interruptus","Den","common_CI_route","large","Harris Point SMR",9,-0.565708315587064,-1.20451577175973,0.0730991405855999
+"expanded_size_cohort","P. interruptus","Den","common_CI_route","large","Matlahuayl SMR",9,-0.659564408294352,-1.24783736912724,-0.0712914474614593
+"expanded_size_cohort","P. interruptus","Den","common_CI_route","large","Naples SMCA",9,-0.584390182743931,-1.21879166738886,0.0500113019010016
+"expanded_size_cohort","P. interruptus","Den","common_CI_route","large","Point Vicente SMCA",9,-0.625486570352415,-1.23443485773105,-0.0165382829737826
+"expanded_size_cohort","P. interruptus","Den","common_CI_route","large","Scorpion SMR",9,-0.684440240533822,-1.54003505167272,0.171154570605071
+"expanded_size_cohort","P. interruptus","Den","common_CI_route","large","South Point SMR",9,-0.650227241989137,-1.30758042998152,0.00712594600325045
+"expanded_size_cohort","P. interruptus","Den","common_CI_route","large","shared_Naples_Campus",8,-0.556638515383354,-1.05795626587775,-0.0553207648889572
+"expanded_size_cohort","S. pulcher","Bio","post_only_mean","all","Abalone Cove SMCA",7,-0.302161175457359,-0.822294516545061,0.217972165630344
+"expanded_size_cohort","S. pulcher","Bio","post_only_mean","all","Campus Point SMCA",7,-0.364369995763528,-0.864370744915686,0.135630753388631
+"expanded_size_cohort","S. pulcher","Bio","post_only_mean","all","Gull Island SMR",7,-0.30773785454637,-0.786597314434742,0.171121605342003
+"expanded_size_cohort","S. pulcher","Bio","post_only_mean","all","Harris Point SMR",7,-0.228842827858387,-0.833074263801127,0.375388608084354
+"expanded_size_cohort","S. pulcher","Bio","post_only_mean","all","Naples SMCA",7,-0.308032701270112,-0.879522610701647,0.263457208161422
+"expanded_size_cohort","S. pulcher","Bio","post_only_mean","all","Point Vicente SMCA",7,-0.314348378972331,-0.791346366265558,0.162649608320897
+"expanded_size_cohort","S. pulcher","Bio","post_only_mean","all","Scorpion SMR",7,-0.380852963249523,-0.825162239005329,0.0634563125062835
+"expanded_size_cohort","S. pulcher","Bio","post_only_mean","all","South Point SMR",7,-0.230487442969645,-0.408534591881722,-0.0524402940575683
+"expanded_size_cohort","S. pulcher","Bio","post_only_mean","all","shared_Naples_Campus",6,-0.368676409978257,-1.07569655761227,0.338343737655761
+"expanded_size_cohort","S. pulcher","Bio","post_only_mean","large","Abalone Cove SMCA",7,-0.29471176547504,-0.716021366280068,0.126597835329988
+"expanded_size_cohort","S. pulcher","Bio","post_only_mean","large","Campus Point SMCA",7,-0.345907476816242,-0.741673495470298,0.0498585418378152
+"expanded_size_cohort","S. pulcher","Bio","post_only_mean","large","Gull Island SMR",7,-0.29412783224511,-0.684931870741788,0.0966762062515669
+"expanded_size_cohort","S. pulcher","Bio","post_only_mean","large","Harris Point SMR",7,-0.239901813779304,-0.713441564065373,0.233637936506765
+"expanded_size_cohort","S. pulcher","Bio","post_only_mean","large","Naples SMCA",7,-0.309847731545263,-0.778665815046181,0.158970351955655
+"expanded_size_cohort","S. pulcher","Bio","post_only_mean","large","Point Vicente SMCA",7,-0.293300913053181,-0.677960136956756,0.0913583108503938
+"expanded_size_cohort","S. pulcher","Bio","post_only_mean","large","Scorpion SMR",7,-0.336794207140947,-0.69015154386097,0.0165631295790765
+"expanded_size_cohort","S. pulcher","Bio","post_only_mean","large","South Point SMR",7,-0.208339549932686,-0.350030124979611,-0.0666489748857597
+"expanded_size_cohort","S. pulcher","Bio","post_only_mean","large","shared_Naples_Campus",6,-0.370639192241377,-0.93949797320356,0.198219588720805
+"expanded_size_cohort","S. pulcher","Bio","common_CI_route","all","Abalone Cove SMCA",7,0.303851448712607,-0.28952543035,0.897228327775215
+"expanded_size_cohort","S. pulcher","Bio","common_CI_route","all","Campus Point SMCA",7,0.221005811497979,-0.204728489553539,0.646740112549498
+"expanded_size_cohort","S. pulcher","Bio","common_CI_route","all","Gull Island SMR",7,0.347602728483276,-0.17640599326622,0.871611450232773
+"expanded_size_cohort","S. pulcher","Bio","common_CI_route","all","Harris Point SMR",7,0.449242914340412,-0.0363597796687437,0.934845608349569
+"expanded_size_cohort","S. pulcher","Bio","common_CI_route","all","Naples SMCA",7,0.398816963429177,-0.134174984042581,0.931808910900935
+"expanded_size_cohort","S. pulcher","Bio","common_CI_route","all","Point Vicente SMCA",7,0.416601170077222,0.00417845015358426,0.829023890000859
+"expanded_size_cohort","S. pulcher","Bio","common_CI_route","all","Scorpion SMR",7,0.454306182649048,-0.0598055533502542,0.96841791864835
+"expanded_size_cohort","S. pulcher","Bio","common_CI_route","all","South Point SMR",7,0.371251076161157,-0.161954543750987,0.9044566960733
+"expanded_size_cohort","S. pulcher","Bio","common_CI_route","all","shared_Naples_Campus",6,0.244083053190867,-0.27861230403452,0.766778410416254
+"expanded_size_cohort","S. pulcher","Bio","common_CI_route","large","Abalone Cove SMCA",7,0.264472255145717,-0.218818757043223,0.747763267334658
+"expanded_size_cohort","S. pulcher","Bio","common_CI_route","large","Campus Point SMCA",7,0.200337454860392,-0.12734081089112,0.528015720611903
+"expanded_size_cohort","S. pulcher","Bio","common_CI_route","large","Gull Island SMR",7,0.290173555314638,-0.135063669325084,0.715410779954361
+"expanded_size_cohort","S. pulcher","Bio","common_CI_route","large","Harris Point SMR",7,0.359347529013803,-0.0202168345550122,0.738911892582619
+"expanded_size_cohort","S. pulcher","Bio","common_CI_route","large","Naples SMCA",7,0.332432869613149,-0.090369496949032,0.75523523617533
+"expanded_size_cohort","S. pulcher","Bio","common_CI_route","large","Point Vicente SMCA",7,0.358291334873343,0.0462217148428837,0.670360954903803
+"expanded_size_cohort","S. pulcher","Bio","common_CI_route","large","Scorpion SMR",7,0.352161643194781,-0.0522455007195064,0.756568787109069
+"expanded_size_cohort","S. pulcher","Bio","common_CI_route","large","South Point SMR",7,0.308715034132672,-0.116327569864845,0.73375763813019
+"expanded_size_cohort","S. pulcher","Bio","common_CI_route","large","shared_Naples_Campus",6,0.216288997202787,-0.187941239864597,0.620519234270172
+"expanded_size_cohort","P. interruptus","Bio","post_only_mean","all","Abalone Cove SMCA",7,-0.0433236460202927,-0.441545222024834,0.354897929984248
+"expanded_size_cohort","P. interruptus","Bio","post_only_mean","all","Campus Point SMCA",7,-0.0857554892649041,-0.454806416811128,0.28329543828132
+"expanded_size_cohort","P. interruptus","Bio","post_only_mean","all","Gull Island SMR",7,-0.0562698321209092,-0.421229995076539,0.308690330834721
+"expanded_size_cohort","P. interruptus","Bio","post_only_mean","all","Harris Point SMR",7,-0.139433234489172,-0.462713031919832,0.183846562941488
+"expanded_size_cohort","P. interruptus","Bio","post_only_mean","all","Naples SMCA",7,-0.0816637180090726,-0.428850096817927,0.265522660799782
+"expanded_size_cohort","P. interruptus","Bio","post_only_mean","all","Point Vicente SMCA",7,-0.0723286388684571,-0.44305194857028,0.298394670833365
+"expanded_size_cohort","P. interruptus","Bio","post_only_mean","all","Scorpion SMR",7,-0.0348598846740529,-0.542716520063285,0.472996750715179
+"expanded_size_cohort","P. interruptus","Bio","post_only_mean","all","South Point SMR",7,0.00635395706698567,-0.16785634035676,0.180564254490732
+"expanded_size_cohort","P. interruptus","Bio","post_only_mean","all","shared_Naples_Campus",6,-0.0957851630011439,-0.523388315107882,0.331817989105595
+"expanded_size_cohort","P. interruptus","Bio","post_only_mean","large","Abalone Cove SMCA",7,-0.0814650369296972,-0.441156190691817,0.278226116832423
+"expanded_size_cohort","P. interruptus","Bio","post_only_mean","large","Campus Point SMCA",7,-0.103964663333831,-0.42429960285641,0.216370276188748
+"expanded_size_cohort","P. interruptus","Bio","post_only_mean","large","Gull Island SMR",7,-0.0873956145737492,-0.411166288970282,0.236375059822783
+"expanded_size_cohort","P. interruptus","Bio","post_only_mean","large","Harris Point SMR",7,-0.168659641116991,-0.443500637806044,0.106181355572062
+"expanded_size_cohort","P. interruptus","Bio","post_only_mean","large","Naples SMCA",7,-0.104739810753145,-0.412903418480303,0.203423796974013
+"expanded_size_cohort","P. interruptus","Bio","post_only_mean","large","Point Vicente SMCA",7,-0.0960294056864122,-0.41637654164167,0.224317730268846
+"expanded_size_cohort","P. interruptus","Bio","post_only_mean","large","Scorpion SMR",7,-0.112650203013022,-0.624286880087326,0.398986474061283
+"expanded_size_cohort","P. interruptus","Bio","post_only_mean","large","South Point SMR",7,0.00448151146638807,-0.160191387950053,0.169154410882829
+"expanded_size_cohort","P. interruptus","Bio","post_only_mean","large","shared_Naples_Campus",6,-0.11107011427666,-0.480457596187178,0.258317367633858
+"expanded_size_cohort","P. interruptus","Bio","common_CI_route","all","Abalone Cove SMCA",7,-0.399593363334512,-0.659250680321137,-0.139936046347886
+"expanded_size_cohort","P. interruptus","Bio","common_CI_route","all","Campus Point SMCA",7,-0.379086181904773,-0.565408870268131,-0.192763493541415
+"expanded_size_cohort","P. interruptus","Bio","common_CI_route","all","Gull Island SMR",7,-0.406136442069757,-0.659521171442602,-0.152751712696912
+"expanded_size_cohort","P. interruptus","Bio","common_CI_route","all","Harris Point SMR",7,-0.477022896682786,-0.666936202598679,-0.287109590766893
+"expanded_size_cohort","P. interruptus","Bio","common_CI_route","all","Naples SMCA",7,-0.373014198806449,-0.579908486893721,-0.166119910719176
+"expanded_size_cohort","P. interruptus","Bio","common_CI_route","all","Point Vicente SMCA",7,-0.387415328972572,-0.626691636323978,-0.148139021621166
+"expanded_size_cohort","P. interruptus","Bio","common_CI_route","all","Scorpion SMR",7,-0.424996503744089,-0.774570173886312,-0.0754228336018671
+"expanded_size_cohort","P. interruptus","Bio","common_CI_route","all","South Point SMR",7,-0.406174994441533,-0.649294185042122,-0.163055803840944
+"expanded_size_cohort","P. interruptus","Bio","common_CI_route","all","shared_Naples_Campus",6,-0.354529381940113,-0.527107253036627,-0.181951510843599
+"expanded_size_cohort","P. interruptus","Bio","common_CI_route","large","Abalone Cove SMCA",7,-0.33218176207437,-0.672318899935668,0.00795537578692773
+"expanded_size_cohort","P. interruptus","Bio","common_CI_route","large","Campus Point SMCA",7,-0.324208293235941,-0.554790966393994,-0.0936256200778889
+"expanded_size_cohort","P. interruptus","Bio","common_CI_route","large","Gull Island SMR",7,-0.341692942742712,-0.659374252825203,-0.0240116326602207
+"expanded_size_cohort","P. interruptus","Bio","common_CI_route","large","Harris Point SMR",7,-0.411183701891674,-0.700829449269934,-0.121537954513414
+"expanded_size_cohort","P. interruptus","Bio","common_CI_route","large","Naples SMCA",7,-0.315157906454708,-0.578312310758291,-0.0520035021511254
+"expanded_size_cohort","P. interruptus","Bio","common_CI_route","large","Point Vicente SMCA",7,-0.331092297920276,-0.589927080961221,-0.0722575148793315
+"expanded_size_cohort","P. interruptus","Bio","common_CI_route","large","Scorpion SMR",7,-0.391720716052918,-0.903182710001756,0.11974127789592
+"expanded_size_cohort","P. interruptus","Bio","common_CI_route","large","South Point SMR",7,-0.3495893659452,-0.642966879811161,-0.0562118520792377
+"expanded_size_cohort","P. interruptus","Bio","common_CI_route","large","shared_Naples_Campus",6,-0.302077913375728,-0.53992669452856,-0.0642291322228963

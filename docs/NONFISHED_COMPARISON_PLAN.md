@@ -1,0 +1,33 @@
+# Non-target KFM Reef Comparability Check
+
+Specified 19 October 2026 before calculating candidate response contrasts. This is a diagnostic of Bob Miller's reef-siting concern, not a correction to the primary analysis or a claim that candidate taxa are unaffected by protection.
+
+## Taxa and Scope
+
+The core panel comprises the tunicate Styela, sponge Tethya and gorgonians Leptogorgia and Muricea fruticosa. Project IDs and protocols are fixed in `data/external/nonfished_comparators.csv`. Hydrocoral Stylaster, anemone Urticina and Muricea californica are secondary. No species is selected by an effect estimate or P value. The classifications identify non-target sessile comparators; commercial/recreational effort on these particular taxa is not measured, and indirect protection effects cannot be excluded. Do not relabel them validated causal negative controls.
+
+The 1997 NPS KFM handbook documents the quadrat and band protocols and historical taxon names: https://irma.nps.gov/DataStore/DownloadFile/485444 (printed pp. 9-14, 35-41). Its site-selection section (printed p. 3) describes environmental representation, not random placement. The candidate panel uses the recorded project IDs, not joins on loose name matches. Muricea californica was formally added in 1991 after sporadic earlier observations. All analyses start in 1991; the latest common window ends in 2022. These choices precede result inspection.
+
+Fixed legacy sites are in `data/external/nonfished_legacy_pairs.csv`. These are the non-excluded historical impact/reference sites of the four KFM MPAs with long before records. Mapping is checked against the current source-site table and reference registry. Gull KFM remains included per the user's instruction, with omission reported. New post-designation stations are not mixed into the before/after roster. Anacapa and South Point lack before years in their primary KFM histories and cannot supply this check.
+
+Two distinct calendars are retained. The kelp-matched scope uses retained primary KFM kelp biomass years at Gull, Scorpion and Santa Barbara Island. The urchin-matched scope uses retained red-urchin density years at Harris, Gull and Scorpion, and retained purple-urchin density years at Santa Barbara Island. Harris has no retained primary KFM kelp history. Each panel intersects all required candidate records across the full fixed site roster and focal urchin count records within each MPA-year, using presence/effort validity, never abundance or significance. Missing rows are not zeros. Three-MPA and four-MPA scopes must not be described as network-wide tests.
+
+## Measurements and Contrasts
+
+Preserve explicit zeros. Missing, invalid or duplicate measurement keys stop processing or exclude a site-year with an audit reason. Compute count/recorded area within replicate, mean within transect/visit, mean across visits within site/year, and equal-site means within protection status. Export visit counts; multiple visits are never summed as if one sample. For current legacy 1991-2022 inputs, test that focal urchin status means reproduce their primary raw density values. If that fails, do not claim identical underlying annual measurement.
+
+The primary transformed contrast is log(density_inside + a) minus log(density_reference + a), with a = 0.5 individuals per nominal survey unit (2 m2 quadrat or 60 m2 band). Sensitivities use 0.1 and 1 individual per unit. These are explicit detection-scale offsets, not the primary paper's adaptive offset; estimates are not unshifted abundance ratios. Record sparse/all-zero histories without treating zeros as proof of equivalence.
+
+Calculate starting level (mean before-period contrast), before-period slope (contrast regressed on elapsed calendar year), after level, before/after change, and within-pair annual tracking (raw and linearly detrended log-density correlations). Use 2004 as first after year, matching current primary labels (2003 is before); check 2005 separately. Require at least six matched years in both periods, without a pretrend screen or significance-based selection. A common-panel calendar is also applied to focal urchin densities and, for the kelp scope, the existing primary kelp lnRRs. Kelp lnRR units/offsets are distinct from the new count-based offsets.
+
+## Uncertainty and Interpretation
+
+Use equal-MPA contrasts and the existing delete-reference-group jackknife, with t(G-1) intervals and leave-one-MPA-out estimates. Do not treat quadrats or annual observations as independent MPA replicates. Intervals remain approximate with three/four groups and possible shared environmental shocks. Exact MPA-level sign flips are descriptive sensitivities under symmetry/exchangeability, not randomized-design tests. Their small support precludes fine P-value resolution. Adjust core candidate tests separately for starting level, pretrend and change (four taxa per endpoint/scenario/scope); secondary taxa form a separate three-test family. Offset, period and panel variants are sensitivity analyses, not additional independent evidence.
+
+OLS pretrend fits supply point slopes only; population uncertainty is among MPA slopes. Export residual lag-one correlation and before-period density plots. Do not use an insignificant pretrend to assert parallel trajectories. Tracking correlations are descriptive, with no annual-iid P values. No pooling across species into a habitat score and no negative-control subtraction from kelp or primary results.
+
+Persistent candidate differences or poor tracking would flag limited reef comparability, but do not measure a single axis of 'reef quality'. Candidate changes could arise from habitat-specific environmental responses or indirect protection effects. Null results cannot validate siting. The analysis cannot estimate the fraction of the main kelp result caused by siting or resolve satellite-footprint comparability.
+
+## Post-result diagnostic amendment
+
+After observing positive full-preperiod primary kelp slopes at all three kelp MPAs, added explicitly post-hoc checks of 1996-2003, exclusion of designation year 2003 and leave-one-preyear-out slopes, with counts of raw-biomass available and both-zero years. These do not replace the frozen full-period estimator, supply annual-iid tests, or change comparator selection. All three windows are retained, including a flat recent-window Scorpion series. The current raw-response export omits some early kelp years whose lnRRs remain in the ratio export; mark those raw values unavailable rather than zero. Verify the stored lnRR identity but do not claim independent reconstruction of all early biomass. The purpose is to distinguish broad positive preperiod slopes from evidence for a stable linear counterfactual.

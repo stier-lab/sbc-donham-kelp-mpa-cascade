@@ -1,0 +1,313 @@
+"endpoint","MPA","site","status","window","metric","main_pair_eligible","n_years","n_before","excluded_mean","retained_mean","difference"
+"post_trend","Anacapa Island SMR 2003","ANACAPA_BLACK_SEA_BASS","mpa","early3","Nontargeted_warm",TRUE,3,0,0.119514764124302,1.28531614857383,-1.16580138444952
+"post_trend","Anacapa Island SMR 2003","ANACAPA_BLACK_SEA_BASS","mpa","early3","Targeted",TRUE,3,0,0.296337305268069,0.608301447352503,-0.311964142084434
+"post_trend","Anacapa Island SMR 2003","ANACAPA_BLACK_SEA_BASS","mpa","early3","Bottom_depth_m",TRUE,3,0,17.5,9.30555555555556,8.19444444444444
+"post_trend","Anacapa Island SMR 2003","ANACAPA_BLACK_SEA_BASS","mpa","all_overlap","Nontargeted_warm",TRUE,10,0,0.319391207231027,1.13418997469867,-0.81479876746764
+"post_trend","Anacapa Island SMR 2003","ANACAPA_BLACK_SEA_BASS","mpa","all_overlap","Targeted",TRUE,10,0,0.920422086979526,0.932031042061067,-0.0116089550815409
+"post_trend","Anacapa Island SMR 2003","ANACAPA_BLACK_SEA_BASS","mpa","all_overlap","Bottom_depth_m",TRUE,10,0,17.54,9.34041666666667,8.19958333333333
+"post_trend","Anacapa Island SMR 2003","ANACAPA_EAST_FISH_CAMP_CEN","reference","early3","Nontargeted_warm",TRUE,3,0,0.83056484620516,1.23049369362426,-0.399928847419104
+"post_trend","Anacapa Island SMR 2003","ANACAPA_EAST_FISH_CAMP_CEN","reference","early3","Targeted",TRUE,3,0,0.449459365747242,0.0733215063304189,0.376137859416823
+"post_trend","Anacapa Island SMR 2003","ANACAPA_EAST_FISH_CAMP_CEN","reference","early3","Bottom_depth_m",TRUE,3,0,12.0875,8.29027777777778,3.79722222222222
+"post_trend","Anacapa Island SMR 2003","ANACAPA_EAST_FISH_CAMP_CEN","reference","all_overlap","Nontargeted_warm",TRUE,8,0,0.711449851458053,1.27219312402542,-0.56074327256737
+"post_trend","Anacapa Island SMR 2003","ANACAPA_EAST_FISH_CAMP_CEN","reference","all_overlap","Targeted",TRUE,8,0,0.818678463118038,0.465981577946254,0.352696885171784
+"post_trend","Anacapa Island SMR 2003","ANACAPA_EAST_FISH_CAMP_CEN","reference","all_overlap","Bottom_depth_m",TRUE,8,0,13.10625,8.21770833333333,4.88854166666667
+"post_trend","Anacapa Island SMR 2003","ANACAPA_EAST_FISH_CAMP_E","reference","early3","Nontargeted_warm",TRUE,3,0,0.578773069419643,1.23049369362426,-0.651720624204621
+"post_trend","Anacapa Island SMR 2003","ANACAPA_EAST_FISH_CAMP_E","reference","early3","Targeted",TRUE,3,0,-0.374890096412539,0.0733215063304189,-0.448211602742958
+"post_trend","Anacapa Island SMR 2003","ANACAPA_EAST_FISH_CAMP_E","reference","early3","Bottom_depth_m",TRUE,3,0,13.8666666666667,8.29027777777778,5.57638888888889
+"post_trend","Anacapa Island SMR 2003","ANACAPA_EAST_FISH_CAMP_E","reference","all_overlap","Nontargeted_warm",TRUE,8,0,0.505935574089195,1.27219312402542,-0.766257549936228
+"post_trend","Anacapa Island SMR 2003","ANACAPA_EAST_FISH_CAMP_E","reference","all_overlap","Targeted",TRUE,8,0,0.00137990210925325,0.465981577946254,-0.464601675837001
+"post_trend","Anacapa Island SMR 2003","ANACAPA_EAST_FISH_CAMP_E","reference","all_overlap","Bottom_depth_m",TRUE,8,0,13.51875,8.21770833333333,5.30104166666667
+"post_trend","Anacapa Island SMR 2003","ANACAPA_EAST_FISH_CAMP_W","reference","early3","Nontargeted_warm",TRUE,3,0,0.594483628589784,1.23049369362426,-0.63601006503448
+"post_trend","Anacapa Island SMR 2003","ANACAPA_EAST_FISH_CAMP_W","reference","early3","Targeted",TRUE,3,0,0.471319067160403,0.0733215063304189,0.397997560829984
+"post_trend","Anacapa Island SMR 2003","ANACAPA_EAST_FISH_CAMP_W","reference","early3","Bottom_depth_m",TRUE,3,0,11.7833333333333,8.29027777777778,3.49305555555556
+"post_trend","Anacapa Island SMR 2003","ANACAPA_EAST_FISH_CAMP_W","reference","all_overlap","Nontargeted_warm",TRUE,8,0,0.678888578798584,1.27219312402542,-0.593304545226839
+"post_trend","Anacapa Island SMR 2003","ANACAPA_EAST_FISH_CAMP_W","reference","all_overlap","Targeted",TRUE,8,0,0.781858378162096,0.465981577946254,0.315876800215841
+"post_trend","Anacapa Island SMR 2003","ANACAPA_EAST_FISH_CAMP_W","reference","all_overlap","Bottom_depth_m",TRUE,8,0,10.8609375,8.21770833333333,2.64322916666667
+"post_trend","Blue Cavern Onshore SMCA","SCAI_WEST_QUARRY","mpa","early3","Nontargeted_warm",FALSE,1,1,2.0205561549058,1.82721359712314,0.193342557782666
+"post_trend","Blue Cavern Onshore SMCA","SCAI_WEST_QUARRY","mpa","early3","Targeted",FALSE,1,1,1.48480643116018,1.80470764137984,-0.319901210219662
+"post_trend","Blue Cavern Onshore SMCA","SCAI_WEST_QUARRY","mpa","early3","Bottom_depth_m",FALSE,1,1,13.16875,10.0916666666667,3.07708333333333
+"post_trend","Blue Cavern Onshore SMCA","SCAI_WEST_QUARRY","mpa","all_overlap","Nontargeted_warm",FALSE,1,1,2.0205561549058,1.82721359712314,0.193342557782666
+"post_trend","Blue Cavern Onshore SMCA","SCAI_WEST_QUARRY","mpa","all_overlap","Targeted",FALSE,1,1,1.48480643116018,1.80470764137984,-0.319901210219662
+"post_trend","Blue Cavern Onshore SMCA","SCAI_WEST_QUARRY","mpa","all_overlap","Bottom_depth_m",FALSE,1,1,13.16875,10.0916666666667,3.07708333333333
+"post_trend","Campus Point SMCA","CARP_REEF","reference","early3","Nontargeted_warm",TRUE,1,1,0.266715897588383,0.148196929898278,0.118518967690105
+"post_trend","Campus Point SMCA","CARP_REEF","reference","early3","Targeted",TRUE,1,1,-0.693147180559945,0.125964238612474,-0.81911141917242
+"post_trend","Campus Point SMCA","CARP_REEF","reference","early3","Bottom_depth_m",TRUE,1,1,4.9,9.9125,-5.0125
+"post_trend","Campus Point SMCA","CARP_REEF","reference","all_overlap","Nontargeted_warm",TRUE,1,1,0.266715897588383,0.148196929898278,0.118518967690105
+"post_trend","Campus Point SMCA","CARP_REEF","reference","all_overlap","Targeted",TRUE,1,1,-0.693147180559945,0.125964238612474,-0.81911141917242
+"post_trend","Campus Point SMCA","CARP_REEF","reference","all_overlap","Bottom_depth_m",TRUE,1,1,4.9,9.9125,-5.0125
+"post_trend","Campus Point SMCA","LEAD_BETTER_BEACH","reference","early3","Nontargeted_warm",TRUE,1,1,0.151888812556135,0.148196929898278,0.00369188265785769
+"post_trend","Campus Point SMCA","LEAD_BETTER_BEACH","reference","early3","Targeted",TRUE,1,1,-0.693147180559945,0.125964238612474,-0.81911141917242
+"post_trend","Campus Point SMCA","LEAD_BETTER_BEACH","reference","early3","Bottom_depth_m",TRUE,1,1,6.1875,9.9125,-3.725
+"post_trend","Campus Point SMCA","LEAD_BETTER_BEACH","reference","all_overlap","Nontargeted_warm",TRUE,1,1,0.151888812556135,0.148196929898278,0.00369188265785769
+"post_trend","Campus Point SMCA","LEAD_BETTER_BEACH","reference","all_overlap","Targeted",TRUE,1,1,-0.693147180559945,0.125964238612474,-0.81911141917242
+"post_trend","Campus Point SMCA","LEAD_BETTER_BEACH","reference","all_overlap","Bottom_depth_m",TRUE,1,1,6.1875,9.9125,-3.725
+"post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON","mpa","early3","Nontargeted_warm",TRUE,3,0,0.836759106218441,0.912807633957168,-0.0760485277387271
+"post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON","mpa","early3","Targeted",TRUE,3,0,-0.188958639158483,0.00397034540717619,-0.192928984565659
+"post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON","mpa","early3","Bottom_depth_m",TRUE,3,0,9,11.6868055555556,-2.68680555555556
+"post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON","mpa","all_overlap","Nontargeted_warm",TRUE,5,0,0.761538237501812,0.389417489527129,0.372120747974682
+"post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON","mpa","all_overlap","Targeted",TRUE,5,0,-0.301252268116858,-0.239999301187987,-0.0612529669288718
+"post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON","mpa","all_overlap","Bottom_depth_m",TRUE,5,0,9.20388888888889,10.5225,-1.31861111111111
+"post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N","mpa","early3","Nontargeted_warm",TRUE,3,0,-0.569783774713365,0.912807633957168,-1.48259140867053
+"post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N","mpa","early3","Targeted",TRUE,3,0,-0.693147180559945,0.00397034540717619,-0.697117525967122
+"post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N","mpa","early3","Bottom_depth_m",TRUE,3,0,15.5083333333333,11.6868055555556,3.82152777777778
+"post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N","mpa","all_overlap","Nontargeted_warm",TRUE,4,0,-0.60062462617501,0.864216825144151,-1.46484145131916
+"post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N","mpa","all_overlap","Targeted",TRUE,4,0,-0.665254236645669,-0.00635222529415912,-0.65890201135151
+"post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N","mpa","all_overlap","Bottom_depth_m",TRUE,4,0,15.796875,11.5947916666667,4.20208333333333
+"post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF_S","mpa","early3","Nontargeted_warm",TRUE,3,0,0.400404427913735,0.912807633957168,-0.512403206043433
+"post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF_S","mpa","early3","Targeted",TRUE,3,0,0.114795602797627,0.00397034540717619,0.110825257390451
+"post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF_S","mpa","early3","Bottom_depth_m",TRUE,3,0,18.4458333333333,11.6868055555556,6.75902777777778
+"post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF_S","mpa","all_overlap","Nontargeted_warm",TRUE,4,0,0.410597323519378,0.864216825144151,-0.453619501624773
+"post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF_S","mpa","all_overlap","Targeted",TRUE,4,0,0.141882589926772,-0.00635222529415912,0.148234815220932
+"post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF_S","mpa","all_overlap","Bottom_depth_m",TRUE,4,0,18.596875,11.5947916666667,7.00208333333333
+"post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_SEA_LION_CEN","mpa","early3","Nontargeted_warm",TRUE,3,0,0.429104640665203,0.912807633957168,-0.483702993291965
+"post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_SEA_LION_CEN","mpa","early3","Targeted",TRUE,3,0,-0.210985090627242,0.00397034540717619,-0.214955436034418
+"post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_SEA_LION_CEN","mpa","early3","Bottom_depth_m",TRUE,3,0,14.8416666666667,11.6868055555556,3.15486111111111
+"post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_SEA_LION_CEN","mpa","all_overlap","Nontargeted_warm",TRUE,4,0,0.444759343083647,0.864216825144151,-0.419457482060505
+"post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_SEA_LION_CEN","mpa","all_overlap","Targeted",TRUE,4,0,-0.275739725281866,-0.00635222529415912,-0.269387499987706
+"post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_SEA_LION_CEN","mpa","all_overlap","Bottom_depth_m",TRUE,4,0,14.70625,11.5947916666667,3.11145833333333
+"post_trend","Santa Barbara Island SMR","SBI_ARCH_POINT","reference","early3","Nontargeted_warm",TRUE,3,0,1.52617033224991,1.08513452034153,0.441035811908371
+"post_trend","Santa Barbara Island SMR","SBI_ARCH_POINT","reference","early3","Targeted",TRUE,3,0,-0.510045132448594,0.0143810536200184,-0.524426186068612
+"post_trend","Santa Barbara Island SMR","SBI_ARCH_POINT","reference","early3","Bottom_depth_m",TRUE,3,0,8.46666666666667,14.3708333333333,-5.90416666666667
+"post_trend","Santa Barbara Island SMR","SBI_ARCH_POINT","reference","all_overlap","Nontargeted_warm",TRUE,3,0,1.52617033224991,1.08513452034153,0.441035811908371
+"post_trend","Santa Barbara Island SMR","SBI_ARCH_POINT","reference","all_overlap","Targeted",TRUE,3,0,-0.510045132448594,0.0143810536200184,-0.524426186068612
+"post_trend","Santa Barbara Island SMR","SBI_ARCH_POINT","reference","all_overlap","Bottom_depth_m",TRUE,3,0,8.46666666666667,14.3708333333333,-5.90416666666667
+"post_trend","Santa Barbara Island SMR","SBI_ARCH_POINT_CEN","reference","early3","Nontargeted_warm",TRUE,3,0,0.827144289661263,1.08513452034153,-0.257990230680271
+"post_trend","Santa Barbara Island SMR","SBI_ARCH_POINT_CEN","reference","early3","Targeted",TRUE,3,0,-0.357330010469568,0.0143810536200184,-0.371711064089586
+"post_trend","Santa Barbara Island SMR","SBI_ARCH_POINT_CEN","reference","early3","Bottom_depth_m",TRUE,3,0,6.875,14.3708333333333,-7.49583333333333
+"post_trend","Santa Barbara Island SMR","SBI_ARCH_POINT_CEN","reference","all_overlap","Nontargeted_warm",TRUE,3,0,0.827144289661263,1.08513452034153,-0.257990230680271
+"post_trend","Santa Barbara Island SMR","SBI_ARCH_POINT_CEN","reference","all_overlap","Targeted",TRUE,3,0,-0.357330010469568,0.0143810536200184,-0.371711064089586
+"post_trend","Santa Barbara Island SMR","SBI_ARCH_POINT_CEN","reference","all_overlap","Bottom_depth_m",TRUE,3,0,6.875,14.3708333333333,-7.49583333333333
+"post_trend","Santa Barbara Island SMR","SBI_ARCH_POINT_S","reference","early3","Nontargeted_warm",TRUE,3,0,1.95146030799851,1.08513452034153,0.866325787656977
+"post_trend","Santa Barbara Island SMR","SBI_ARCH_POINT_S","reference","early3","Targeted",TRUE,3,0,-0.0809586643689792,0.0143810536200184,-0.0953397179889976
+"post_trend","Santa Barbara Island SMR","SBI_ARCH_POINT_S","reference","early3","Bottom_depth_m",TRUE,3,0,6.7,14.3708333333333,-7.67083333333333
+"post_trend","Santa Barbara Island SMR","SBI_ARCH_POINT_S","reference","all_overlap","Nontargeted_warm",TRUE,3,0,1.95146030799851,1.08513452034153,0.866325787656977
+"post_trend","Santa Barbara Island SMR","SBI_ARCH_POINT_S","reference","all_overlap","Targeted",TRUE,3,0,-0.0809586643689792,0.0143810536200184,-0.0953397179889976
+"post_trend","Santa Barbara Island SMR","SBI_ARCH_POINT_S","reference","all_overlap","Bottom_depth_m",TRUE,3,0,6.7,14.3708333333333,-7.67083333333333
+"post_trend","Santa Barbara Island SMR","SBI_CAT_CANYON_CEN","reference","early3","Nontargeted_warm",TRUE,3,0,0.411186482663095,1.60285066157151,-1.19166417890841
+"post_trend","Santa Barbara Island SMR","SBI_CAT_CANYON_CEN","reference","early3","Targeted",TRUE,3,0,-0.379585242573655,0.091862475049846,-0.471447717623501
+"post_trend","Santa Barbara Island SMR","SBI_CAT_CANYON_CEN","reference","early3","Bottom_depth_m",TRUE,3,0,11.5541666666667,13.9416666666667,-2.3875
+"post_trend","Santa Barbara Island SMR","SBI_CAT_CANYON_CEN","reference","all_overlap","Nontargeted_warm",TRUE,4,0,0.34065732915035,1.43082511732558,-1.09016778817523
+"post_trend","Santa Barbara Island SMR","SBI_CAT_CANYON_CEN","reference","all_overlap","Targeted",TRUE,4,0,-0.457975727070228,0.0355140081312538,-0.493489735201481
+"post_trend","Santa Barbara Island SMR","SBI_CAT_CANYON_CEN","reference","all_overlap","Bottom_depth_m",TRUE,4,0,11.215625,13.96875,-2.753125
+"post_trend","Santa Barbara Island SMR","SBI_WEBSTERS_ARCH_CEN","reference","early3","Nontargeted_warm",TRUE,3,0,0.961136010233167,1.60285066157151,-0.641714651338342
+"post_trend","Santa Barbara Island SMR","SBI_WEBSTERS_ARCH_CEN","reference","early3","Targeted",TRUE,3,0,0.0717564576100467,0.091862475049846,-0.0201060174397993
+"post_trend","Santa Barbara Island SMR","SBI_WEBSTERS_ARCH_CEN","reference","early3","Bottom_depth_m",TRUE,3,0,14.4027777777778,13.9416666666667,0.461111111111111
+"post_trend","Santa Barbara Island SMR","SBI_WEBSTERS_ARCH_CEN","reference","all_overlap","Nontargeted_warm",TRUE,4,0,1.06665023948788,1.43082511732558,-0.364174877837693
+"post_trend","Santa Barbara Island SMR","SBI_WEBSTERS_ARCH_CEN","reference","all_overlap","Targeted",TRUE,4,0,-0.0328260543624582,0.0355140081312538,-0.068340062493712
+"post_trend","Santa Barbara Island SMR","SBI_WEBSTERS_ARCH_CEN","reference","all_overlap","Bottom_depth_m",TRUE,4,0,14.0208333333333,13.96875,0.052083333333333
+"post_trend","Santa Barbara Island SMR","SBI_WEBSTERS_ARCH_E","reference","early3","Nontargeted_warm",TRUE,3,0,0.0658784566409739,1.60285066157151,-1.53697220493054
+"post_trend","Santa Barbara Island SMR","SBI_WEBSTERS_ARCH_E","reference","early3","Targeted",TRUE,3,0,-0.255929018452092,0.091862475049846,-0.347791493501938
+"post_trend","Santa Barbara Island SMR","SBI_WEBSTERS_ARCH_E","reference","early3","Bottom_depth_m",TRUE,3,0,12.0416666666667,13.9416666666667,-1.9
+"post_trend","Santa Barbara Island SMR","SBI_WEBSTERS_ARCH_E","reference","all_overlap","Nontargeted_warm",TRUE,4,0,-0.123877952659256,1.43082511732558,-1.55470306998483
+"post_trend","Santa Barbara Island SMR","SBI_WEBSTERS_ARCH_E","reference","all_overlap","Targeted",TRUE,4,0,-0.278590161409062,0.0355140081312538,-0.314104169540316
+"post_trend","Santa Barbara Island SMR","SBI_WEBSTERS_ARCH_E","reference","all_overlap","Bottom_depth_m",TRUE,4,0,12.8,13.96875,-1.16875
+"post_trend","Santa Barbara Island SMR","SBI_WEBSTERS_ARCH_N","reference","early3","Nontargeted_warm",TRUE,3,0,-0.0989889863963814,1.60285066157151,-1.70183964796789
+"post_trend","Santa Barbara Island SMR","SBI_WEBSTERS_ARCH_N","reference","early3","Targeted",TRUE,3,0,-0.693147180559945,0.091862475049846,-0.785009655609791
+"post_trend","Santa Barbara Island SMR","SBI_WEBSTERS_ARCH_N","reference","early3","Bottom_depth_m",TRUE,3,0,19.6083333333333,13.9416666666667,5.66666666666667
+"post_trend","Santa Barbara Island SMR","SBI_WEBSTERS_ARCH_N","reference","all_overlap","Nontargeted_warm",TRUE,4,0,-0.247528534937272,1.43082511732558,-1.67835365226285
+"post_trend","Santa Barbara Island SMR","SBI_WEBSTERS_ARCH_N","reference","all_overlap","Targeted",TRUE,4,0,-0.642464042046425,0.0355140081312538,-0.677978050177679
+"post_trend","Santa Barbara Island SMR","SBI_WEBSTERS_ARCH_N","reference","all_overlap","Bottom_depth_m",TRUE,4,0,19.80625,13.96875,5.8375
+"post_trend","Scorpion SMR","SCI_POTATO_PASTURE_E","mpa","early3","Nontargeted_warm",TRUE,3,0,1.26568711549553,1.32419150287891,-0.0585043873833826
+"post_trend","Scorpion SMR","SCI_POTATO_PASTURE_E","mpa","early3","Targeted",TRUE,3,0,1.06757112075789,1.02038664421007,0.0471844765478193
+"post_trend","Scorpion SMR","SCI_POTATO_PASTURE_E","mpa","early3","Bottom_depth_m",TRUE,3,0,9.74444444444445,12.0111111111111,-2.26666666666667
+"post_trend","Scorpion SMR","SCI_POTATO_PASTURE_E","mpa","all_overlap","Nontargeted_warm",TRUE,6,0,1.30749621007736,1.28463287546466,0.0228633346127007
+"post_trend","Scorpion SMR","SCI_POTATO_PASTURE_E","mpa","all_overlap","Targeted",TRUE,6,0,0.96096533021304,1.1525272333455,-0.191561903132457
+"post_trend","Scorpion SMR","SCI_POTATO_PASTURE_E","mpa","all_overlap","Bottom_depth_m",TRUE,6,0,9.33611111111111,11.5876543209877,-2.25154320987654
+"post_trend","Scorpion SMR","SCI_POTATO_PASTURE_W","mpa","early3","Nontargeted_warm",TRUE,3,0,0.543891072793588,1.32419150287891,-0.780300430085323
+"post_trend","Scorpion SMR","SCI_POTATO_PASTURE_W","mpa","early3","Targeted",TRUE,3,0,0.866537835977522,1.02038664421007,-0.153848808232551
+"post_trend","Scorpion SMR","SCI_POTATO_PASTURE_W","mpa","early3","Bottom_depth_m",TRUE,3,0,12.4259259259259,12.0111111111111,0.414814814814816
+"post_trend","Scorpion SMR","SCI_POTATO_PASTURE_W","mpa","all_overlap","Nontargeted_warm",TRUE,6,0,0.911180336758127,1.28463287546466,-0.373452538706529
+"post_trend","Scorpion SMR","SCI_POTATO_PASTURE_W","mpa","all_overlap","Targeted",TRUE,6,0,0.975653789028279,1.1525272333455,-0.176873444317218
+"post_trend","Scorpion SMR","SCI_POTATO_PASTURE_W","mpa","all_overlap","Bottom_depth_m",TRUE,6,0,12.3685185185185,11.5876543209877,0.780864197530865
+"post_trend","Scorpion SMR","SCI_SCORPION_ANCHORAGE","mpa","early3","Nontargeted_warm",TRUE,3,0,1.28166378050555,1.32419150287891,-0.042527722373364
+"post_trend","Scorpion SMR","SCI_SCORPION_ANCHORAGE","mpa","early3","Targeted",TRUE,3,0,0.958945950143979,1.02038664421007,-0.0614406940660945
+"post_trend","Scorpion SMR","SCI_SCORPION_ANCHORAGE","mpa","early3","Bottom_depth_m",TRUE,3,0,7.33888888888889,12.0111111111111,-4.67222222222222
+"post_trend","Scorpion SMR","SCI_SCORPION_ANCHORAGE","mpa","all_overlap","Nontargeted_warm",TRUE,6,0,1.22142971637428,1.28463287546466,-0.0632031590903714
+"post_trend","Scorpion SMR","SCI_SCORPION_ANCHORAGE","mpa","all_overlap","Targeted",TRUE,6,0,1.13361808843056,1.1525272333455,-0.018909144914934
+"post_trend","Scorpion SMR","SCI_SCORPION_ANCHORAGE","mpa","all_overlap","Bottom_depth_m",TRUE,6,0,8.10416666666667,11.5876543209877,-3.48348765432099
+"post_trend","Scorpion SMR","SCI_LITTLE_SCORPION_E","reference","early3","Nontargeted_warm",TRUE,3,0,1.42637615013038,1.37749957624512,0.0488765738852589
+"post_trend","Scorpion SMR","SCI_LITTLE_SCORPION_E","reference","early3","Targeted",TRUE,3,0,0.990110758680154,0.971386388277842,0.0187243704023125
+"post_trend","Scorpion SMR","SCI_LITTLE_SCORPION_E","reference","early3","Bottom_depth_m",TRUE,3,0,12.8777777777778,11.7104938271605,1.16728395061728
+"post_trend","Scorpion SMR","SCI_LITTLE_SCORPION_E","reference","all_overlap","Nontargeted_warm",TRUE,6,0,1.39044052729393,1.30449478382838,0.0859457434655443
+"post_trend","Scorpion SMR","SCI_LITTLE_SCORPION_E","reference","all_overlap","Targeted",TRUE,6,0,0.922693417666577,1.08736085268046,-0.164667435013883
+"post_trend","Scorpion SMR","SCI_LITTLE_SCORPION_E","reference","all_overlap","Bottom_depth_m",TRUE,6,0,12.2,11.5712962962963,0.628703703703704
+"post_trend","Scorpion SMR","SCI_LITTLE_SCORPION_W","reference","early3","Nontargeted_warm",TRUE,3,0,1.51644847198837,1.37749957624512,0.138948895743254
+"post_trend","Scorpion SMR","SCI_LITTLE_SCORPION_W","reference","early3","Targeted",TRUE,3,0,0.614106450666213,0.971386388277842,-0.357279937611629
+"post_trend","Scorpion SMR","SCI_LITTLE_SCORPION_W","reference","early3","Bottom_depth_m",TRUE,3,0,13.7453703703704,11.7104938271605,2.03487654320988
+"post_trend","Scorpion SMR","SCI_LITTLE_SCORPION_W","reference","all_overlap","Nontargeted_warm",TRUE,6,0,1.28934011546743,1.30449478382838,-0.0151546683609525
+"post_trend","Scorpion SMR","SCI_LITTLE_SCORPION_W","reference","all_overlap","Targeted",TRUE,6,0,0.580575909739098,1.08736085268046,-0.506784942941362
+"post_trend","Scorpion SMR","SCI_LITTLE_SCORPION_W","reference","all_overlap","Bottom_depth_m",TRUE,6,0,12.6726851851852,11.5712962962963,1.10138888888889
+"post_trend","Scorpion SMR","SCI_SAN_PEDRO_POINT_E","reference","early3","Nontargeted_warm",TRUE,3,0,1.38846727636803,1.37749957624512,0.0109677001229074
+"post_trend","Scorpion SMR","SCI_SAN_PEDRO_POINT_E","reference","early3","Targeted",TRUE,3,0,0.804802268723993,0.971386388277842,-0.166584119553849
+"post_trend","Scorpion SMR","SCI_SAN_PEDRO_POINT_E","reference","early3","Bottom_depth_m",TRUE,3,0,11.6444444444444,11.7104938271605,-0.0660493827160492
+"post_trend","Scorpion SMR","SCI_SAN_PEDRO_POINT_E","reference","all_overlap","Nontargeted_warm",TRUE,6,0,1.38241362057564,1.30449478382838,0.0779188367472581
+"post_trend","Scorpion SMR","SCI_SAN_PEDRO_POINT_E","reference","all_overlap","Targeted",TRUE,6,0,0.763029685778696,1.08736085268046,-0.324331166901764
+"post_trend","Scorpion SMR","SCI_SAN_PEDRO_POINT_E","reference","all_overlap","Bottom_depth_m",TRUE,6,0,10.8111111111111,11.5712962962963,-0.760185185185185
+"post_trend","Scorpion SMR","SCI_SAN_PEDRO_POINT_W","reference","early3","Nontargeted_warm",TRUE,3,0,1.38096383094881,1.37749957624512,0.00346425470369099
+"post_trend","Scorpion SMR","SCI_SAN_PEDRO_POINT_W","reference","early3","Targeted",TRUE,3,0,0.885458767649182,0.971386388277842,-0.0859276206286594
+"post_trend","Scorpion SMR","SCI_SAN_PEDRO_POINT_W","reference","early3","Bottom_depth_m",TRUE,3,0,11.9953703703704,11.7104938271605,0.284876543209877
+"post_trend","Scorpion SMR","SCI_SAN_PEDRO_POINT_W","reference","all_overlap","Nontargeted_warm",TRUE,6,0,1.52192534484945,1.30449478382838,0.217430561021063
+"post_trend","Scorpion SMR","SCI_SAN_PEDRO_POINT_W","reference","all_overlap","Targeted",TRUE,6,0,0.887813528146997,1.08736085268046,-0.199547324533463
+"post_trend","Scorpion SMR","SCI_SAN_PEDRO_POINT_W","reference","all_overlap","Bottom_depth_m",TRUE,6,0,11.4180555555556,11.5712962962963,-0.15324074074074
+"post_trend","South Point SMR","SRI_CHICKASAW_E","mpa","early3","Nontargeted_warm",TRUE,3,0,0.712327353519671,0.425633933923738,0.286693419595934
+"post_trend","South Point SMR","SRI_CHICKASAW_E","mpa","early3","Targeted",TRUE,3,0,0.155356123387372,0.210584692365603,-0.0552285689782307
+"post_trend","South Point SMR","SRI_CHICKASAW_E","mpa","early3","Bottom_depth_m",TRUE,3,0,10.8907407407407,11.9798611111111,-1.08912037037037
+"post_trend","South Point SMR","SRI_CHICKASAW_E","mpa","all_overlap","Nontargeted_warm",TRUE,6,0,0.696560476637438,0.448195137395324,0.248365339242114
+"post_trend","South Point SMR","SRI_CHICKASAW_E","mpa","all_overlap","Targeted",TRUE,6,0,0.0731315923486952,0.119126729803864,-0.0459951374551688
+"post_trend","South Point SMR","SRI_CHICKASAW_E","mpa","all_overlap","Bottom_depth_m",TRUE,6,0,10.5203703703704,11.8850694444444,-1.36469907407407
+"post_trend","South Point SMR","SRI_CHICKASAW_W","mpa","early3","Nontargeted_warm",TRUE,3,0,0.38299673794311,0.425633933923738,-0.0426371959806272
+"post_trend","South Point SMR","SRI_CHICKASAW_W","mpa","early3","Targeted",TRUE,3,0,0.128381432129926,0.210584692365603,-0.0822032602356774
+"post_trend","South Point SMR","SRI_CHICKASAW_W","mpa","early3","Bottom_depth_m",TRUE,3,0,11.8990740740741,11.9798611111111,-0.0807870370370362
+"post_trend","South Point SMR","SRI_CHICKASAW_W","mpa","all_overlap","Nontargeted_warm",TRUE,6,0,0.519762993351659,0.448195137395324,0.0715678559563354
+"post_trend","South Point SMR","SRI_CHICKASAW_W","mpa","all_overlap","Targeted",TRUE,6,0,0.0471727263710694,0.119126729803864,-0.0719540034327945
+"post_trend","South Point SMR","SRI_CHICKASAW_W","mpa","all_overlap","Bottom_depth_m",TRUE,6,0,11.1050925925926,11.8850694444444,-0.779976851851851
+"post_trend","South Point SMR","SRI_TRANCION_CANYON_E","mpa","early3","Nontargeted_warm",TRUE,3,0,0.0161697939510381,0.425633933923738,-0.4094641399727
+"post_trend","South Point SMR","SRI_TRANCION_CANYON_E","mpa","early3","Targeted",TRUE,3,0,0.0376529130328227,0.210584692365603,-0.17293177933278
+"post_trend","South Point SMR","SRI_TRANCION_CANYON_E","mpa","early3","Bottom_depth_m",TRUE,3,0,11.9875,11.9798611111111,0.0076388888888891
+"post_trend","South Point SMR","SRI_TRANCION_CANYON_E","mpa","all_overlap","Nontargeted_warm",TRUE,6,0,0.21193021081128,0.448195137395324,-0.236264926584044
+"post_trend","South Point SMR","SRI_TRANCION_CANYON_E","mpa","all_overlap","Targeted",TRUE,6,0,-0.0439091964634931,0.119126729803864,-0.163035926267357
+"post_trend","South Point SMR","SRI_TRANCION_CANYON_E","mpa","all_overlap","Bottom_depth_m",TRUE,6,0,11.8993055555556,11.8850694444444,0.0142361111111112
+"post_trend","South Point SMR","SRI_TRANCION_CANYON_W","mpa","early3","Nontargeted_warm",TRUE,3,0,0.00390810439255596,0.425633933923738,-0.421725829531182
+"post_trend","South Point SMR","SRI_TRANCION_CANYON_W","mpa","early3","Targeted",TRUE,3,0,-0.1912174668926,0.210584692365603,-0.401802159258203
+"post_trend","South Point SMR","SRI_TRANCION_CANYON_W","mpa","early3","Bottom_depth_m",TRUE,3,0,12.8013888888889,11.9798611111111,0.82152777777778
+"post_trend","South Point SMR","SRI_TRANCION_CANYON_W","mpa","all_overlap","Nontargeted_warm",TRUE,6,0,0.0974906481731875,0.448195137395324,-0.350704489222137
+"post_trend","South Point SMR","SRI_TRANCION_CANYON_W","mpa","all_overlap","Targeted",TRUE,6,0,-0.0950320298759191,0.119126729803864,-0.214158759679783
+"post_trend","South Point SMR","SRI_TRANCION_CANYON_W","mpa","all_overlap","Bottom_depth_m",TRUE,6,0,11.93125,11.8850694444444,0.0461805555555568
+"post_trend","South Point SMR","SRI_BEE_ROCK_E","reference","early3","Nontargeted_warm",TRUE,3,0,0.0118560806788274,0.202445498621224,-0.190589417942397
+"post_trend","South Point SMR","SRI_BEE_ROCK_E","reference","early3","Targeted",TRUE,3,0,-0.505756924787624,-0.0758949048854811,-0.429862019902143
+"post_trend","South Point SMR","SRI_BEE_ROCK_E","reference","early3","Bottom_depth_m",TRUE,3,0,15.5,14.143287037037,1.35671296296296
+"post_trend","South Point SMR","SRI_BEE_ROCK_E","reference","all_overlap","Nontargeted_warm",TRUE,3,0,0.0118560806788274,0.202445498621224,-0.190589417942397
+"post_trend","South Point SMR","SRI_BEE_ROCK_E","reference","all_overlap","Targeted",TRUE,3,0,-0.505756924787624,-0.0758949048854811,-0.429862019902143
+"post_trend","South Point SMR","SRI_BEE_ROCK_E","reference","all_overlap","Bottom_depth_m",TRUE,3,0,15.5,14.143287037037,1.35671296296296
+"post_trend","South Point SMR","SRI_BEE_ROCK_W","reference","early3","Nontargeted_warm",TRUE,3,0,-0.352532522817778,0.202445498621224,-0.554978021439002
+"post_trend","South Point SMR","SRI_BEE_ROCK_W","reference","early3","Targeted",TRUE,3,0,-0.564282199187698,-0.0758949048854811,-0.488387294302217
+"post_trend","South Point SMR","SRI_BEE_ROCK_W","reference","early3","Bottom_depth_m",TRUE,3,0,17.1333333333333,14.143287037037,2.9900462962963
+"post_trend","South Point SMR","SRI_BEE_ROCK_W","reference","all_overlap","Nontargeted_warm",TRUE,3,0,-0.352532522817778,0.202445498621224,-0.554978021439002
+"post_trend","South Point SMR","SRI_BEE_ROCK_W","reference","all_overlap","Targeted",TRUE,3,0,-0.564282199187698,-0.0758949048854811,-0.488387294302217
+"post_trend","South Point SMR","SRI_BEE_ROCK_W","reference","all_overlap","Bottom_depth_m",TRUE,3,0,17.1333333333333,14.143287037037,2.9900462962963
+"post_trend","South Point SMR","SRI_JOHNSONS_LEE_NORTH_E","reference","early3","Nontargeted_warm",TRUE,3,0,0.249379137860263,0.15401825422921,0.0953608836310529
+"post_trend","South Point SMR","SRI_JOHNSONS_LEE_NORTH_E","reference","early3","Targeted",TRUE,3,0,-0.0278852198985451,-0.0550996431226675,0.0272144232241224
+"post_trend","South Point SMR","SRI_JOHNSONS_LEE_NORTH_E","reference","early3","Bottom_depth_m",TRUE,3,0,11.4722222222222,14.5827546296296,-3.11053240740741
+"post_trend","South Point SMR","SRI_JOHNSONS_LEE_NORTH_E","reference","all_overlap","Nontargeted_warm",TRUE,6,0,0.385769187971039,0.16908678718109,0.216682400789949
+"post_trend","South Point SMR","SRI_JOHNSONS_LEE_NORTH_E","reference","all_overlap","Targeted",TRUE,6,0,-0.0529040713451511,-0.056137139953729,0.00323306860857788
+"post_trend","South Point SMR","SRI_JOHNSONS_LEE_NORTH_E","reference","all_overlap","Bottom_depth_m",TRUE,6,0,11.3902777777778,14.1967013888889,-2.80642361111111
+"post_trend","South Point SMR","SRI_JOHNSONS_LEE_NORTH_W","reference","early3","Nontargeted_warm",TRUE,3,0,0.331536514441693,0.15401825422921,0.177518260212483
+"post_trend","South Point SMR","SRI_JOHNSONS_LEE_NORTH_W","reference","early3","Targeted",TRUE,3,0,-0.182668584494676,-0.0550996431226675,-0.127568941372008
+"post_trend","South Point SMR","SRI_JOHNSONS_LEE_NORTH_W","reference","early3","Bottom_depth_m",TRUE,3,0,13.4712962962963,14.5827546296296,-1.11145833333333
+"post_trend","South Point SMR","SRI_JOHNSONS_LEE_NORTH_W","reference","all_overlap","Nontargeted_warm",TRUE,6,0,0.334874617580664,0.16908678718109,0.165787830399574
+"post_trend","South Point SMR","SRI_JOHNSONS_LEE_NORTH_W","reference","all_overlap","Targeted",TRUE,6,0,-0.343326221457395,-0.056137139953729,-0.287189081503666
+"post_trend","South Point SMR","SRI_JOHNSONS_LEE_NORTH_W","reference","all_overlap","Bottom_depth_m",TRUE,6,0,13.0787037037037,14.1967013888889,-1.11799768518518
+"post_trend","South Point SMR","SRI_JOLLA_VIEJA_E","reference","early3","Nontargeted_warm",TRUE,3,0,0.25788964663938,0.202445498621224,0.0554441480181561
+"post_trend","South Point SMR","SRI_JOLLA_VIEJA_E","reference","early3","Targeted",TRUE,3,0,-0.255153023374062,-0.0758949048854811,-0.179258118488581
+"post_trend","South Point SMR","SRI_JOLLA_VIEJA_E","reference","early3","Bottom_depth_m",TRUE,3,0,13.4768518518519,14.143287037037,-0.666435185185185
+"post_trend","South Point SMR","SRI_JOLLA_VIEJA_E","reference","all_overlap","Nontargeted_warm",TRUE,3,0,0.25788964663938,0.202445498621224,0.0554441480181561
+"post_trend","South Point SMR","SRI_JOLLA_VIEJA_E","reference","all_overlap","Targeted",TRUE,3,0,-0.255153023374062,-0.0758949048854811,-0.179258118488581
+"post_trend","South Point SMR","SRI_JOLLA_VIEJA_E","reference","all_overlap","Bottom_depth_m",TRUE,3,0,13.4768518518519,14.143287037037,-0.666435185185185
+"post_trend","South Point SMR","SRI_JOLLA_VIEJA_W","reference","early3","Nontargeted_warm",TRUE,3,0,-0.106148984037808,0.202445498621224,-0.308594482659033
+"post_trend","South Point SMR","SRI_JOLLA_VIEJA_W","reference","early3","Targeted",TRUE,3,0,-0.135155036036055,-0.0758949048854811,-0.0592601311505736
+"post_trend","South Point SMR","SRI_JOLLA_VIEJA_W","reference","early3","Bottom_depth_m",TRUE,3,0,11.4083333333333,14.143287037037,-2.7349537037037
+"post_trend","South Point SMR","SRI_JOLLA_VIEJA_W","reference","all_overlap","Nontargeted_warm",TRUE,3,0,-0.106148984037808,0.202445498621224,-0.308594482659033
+"post_trend","South Point SMR","SRI_JOLLA_VIEJA_W","reference","all_overlap","Targeted",TRUE,3,0,-0.135155036036055,-0.0758949048854811,-0.0592601311505736
+"post_trend","South Point SMR","SRI_JOLLA_VIEJA_W","reference","all_overlap","Bottom_depth_m",TRUE,3,0,11.4083333333333,14.143287037037,-2.7349537037037
+"post_trend","Swamis SMCA","SOUTH_CARLSBAD","reference","early3","Nontargeted_warm",FALSE,1,1,0.157537669943547,0.251475722640961,-0.0939380526974133
+"post_trend","Swamis SMCA","SOUTH_CARLSBAD","reference","early3","Targeted",FALSE,1,1,0.887711524954181,0.426616297953509,0.461095227000672
+"post_trend","Swamis SMCA","SOUTH_CARLSBAD","reference","early3","Bottom_depth_m",FALSE,1,1,7.91666666666667,7.89166666666667,0.0250000000000012
+"post_trend","Swamis SMCA","SOUTH_CARLSBAD","reference","all_overlap","Nontargeted_warm",FALSE,1,1,0.157537669943547,0.251475722640961,-0.0939380526974133
+"post_trend","Swamis SMCA","SOUTH_CARLSBAD","reference","all_overlap","Targeted",FALSE,1,1,0.887711524954181,0.426616297953509,0.461095227000672
+"post_trend","Swamis SMCA","SOUTH_CARLSBAD","reference","all_overlap","Bottom_depth_m",FALSE,1,1,7.91666666666667,7.89166666666667,0.0250000000000012
+"before_after","Abalone Cove SMCA","3_PALMS_EAST","reference","early3","Nontargeted_warm",FALSE,3,0,0.671808415213715,0.71023100250334,-0.0384225872896257
+"before_after","Abalone Cove SMCA","3_PALMS_EAST","reference","early3","Targeted",FALSE,3,0,0.87781971734895,0.573108713939492,0.304711003409458
+"before_after","Abalone Cove SMCA","3_PALMS_EAST","reference","early3","Bottom_depth_m",FALSE,3,0,15.1451388888889,11.7645833333333,3.38055555555556
+"before_after","Abalone Cove SMCA","3_PALMS_EAST","reference","all_overlap","Nontargeted_warm",FALSE,9,0,0.432394649371583,0.400558746181061,0.0318359031905217
+"before_after","Abalone Cove SMCA","3_PALMS_EAST","reference","all_overlap","Targeted",FALSE,9,0,0.541337250796146,0.569307881651578,-0.0279706308554322
+"before_after","Abalone Cove SMCA","3_PALMS_EAST","reference","all_overlap","Bottom_depth_m",FALSE,9,0,13.4157407407407,11.9328703703704,1.48287037037037
+"before_after","Abalone Cove SMCA","BUNKER_POINT","reference","early3","Nontargeted_warm",FALSE,3,1,1.2055989131464,0.513647332159133,0.691951580987268
+"before_after","Abalone Cove SMCA","BUNKER_POINT","reference","early3","Targeted",FALSE,3,1,0.9079273405184,0.477981058764898,0.429946281753502
+"before_after","Abalone Cove SMCA","BUNKER_POINT","reference","early3","Bottom_depth_m",FALSE,3,1,8.75833333333333,9.75,-0.991666666666666
+"before_after","Abalone Cove SMCA","BUNKER_POINT","reference","all_overlap","Nontargeted_warm",FALSE,12,1,0.741779333187108,0.428830892675579,0.312948440511529
+"before_after","Abalone Cove SMCA","BUNKER_POINT","reference","all_overlap","Targeted",FALSE,12,1,0.828216103746336,0.546476175929908,0.281739927816428
+"before_after","Abalone Cove SMCA","BUNKER_POINT","reference","all_overlap","Bottom_depth_m",FALSE,12,1,11.8564236111111,11.3871527777778,0.469270833333334
+"before_after","Blue Cavern Onshore SMCA","SCAI_BIRD_ROCK","mpa","early3","Nontargeted_warm",FALSE,3,0,1.90075086005972,1.70882414542196,0.191926714637758
+"before_after","Blue Cavern Onshore SMCA","SCAI_BIRD_ROCK","mpa","early3","Targeted",FALSE,3,0,1.60609384017394,1.74737968956878,-0.141285849394843
+"before_after","Blue Cavern Onshore SMCA","SCAI_BIRD_ROCK","mpa","early3","Bottom_depth_m",FALSE,3,0,15.9225694444444,13.4666666666667,2.45590277777778
+"before_after","Blue Cavern Onshore SMCA","SCAI_BIRD_ROCK","mpa","all_overlap","Nontargeted_warm",FALSE,7,0,1.79179021164764,1.90423920160584,-0.1124489899582
+"before_after","Blue Cavern Onshore SMCA","SCAI_BIRD_ROCK","mpa","all_overlap","Targeted",FALSE,7,0,1.41206054801848,1.70310137703513,-0.291040829016651
+"before_after","Blue Cavern Onshore SMCA","SCAI_BIRD_ROCK","mpa","all_overlap","Bottom_depth_m",FALSE,7,0,16.0084821428571,13.0940476190476,2.91443452380953
+"before_after","Blue Cavern Onshore SMCA","SCAI_WEST_QUARRY","mpa","early3","Nontargeted_warm",FALSE,1,1,2.0205561549058,1.82721359712314,0.193342557782666
+"before_after","Blue Cavern Onshore SMCA","SCAI_WEST_QUARRY","mpa","early3","Targeted",FALSE,1,1,1.48480643116018,1.80470764137984,-0.319901210219662
+"before_after","Blue Cavern Onshore SMCA","SCAI_WEST_QUARRY","mpa","early3","Bottom_depth_m",FALSE,1,1,13.16875,10.0916666666667,3.07708333333333
+"before_after","Blue Cavern Onshore SMCA","SCAI_WEST_QUARRY","mpa","all_overlap","Nontargeted_warm",FALSE,1,1,2.0205561549058,1.82721359712314,0.193342557782666
+"before_after","Blue Cavern Onshore SMCA","SCAI_WEST_QUARRY","mpa","all_overlap","Targeted",FALSE,1,1,1.48480643116018,1.80470764137984,-0.319901210219662
+"before_after","Blue Cavern Onshore SMCA","SCAI_WEST_QUARRY","mpa","all_overlap","Bottom_depth_m",FALSE,1,1,13.16875,10.0916666666667,3.07708333333333
+"before_after","Campus Point SMCA","CARP_REEF","reference","early3","Nontargeted_warm",TRUE,1,1,0.266715897588383,0.148196929898278,0.118518967690105
+"before_after","Campus Point SMCA","CARP_REEF","reference","early3","Targeted",TRUE,1,1,-0.693147180559945,0.125964238612474,-0.81911141917242
+"before_after","Campus Point SMCA","CARP_REEF","reference","early3","Bottom_depth_m",TRUE,1,1,4.9,9.9125,-5.0125
+"before_after","Campus Point SMCA","CARP_REEF","reference","all_overlap","Nontargeted_warm",TRUE,1,1,0.266715897588383,0.148196929898278,0.118518967690105
+"before_after","Campus Point SMCA","CARP_REEF","reference","all_overlap","Targeted",TRUE,1,1,-0.693147180559945,0.125964238612474,-0.81911141917242
+"before_after","Campus Point SMCA","CARP_REEF","reference","all_overlap","Bottom_depth_m",TRUE,1,1,4.9,9.9125,-5.0125
+"before_after","Campus Point SMCA","LEAD_BETTER_BEACH","reference","early3","Nontargeted_warm",TRUE,1,1,0.151888812556135,0.148196929898278,0.00369188265785769
+"before_after","Campus Point SMCA","LEAD_BETTER_BEACH","reference","early3","Targeted",TRUE,1,1,-0.693147180559945,0.125964238612474,-0.81911141917242
+"before_after","Campus Point SMCA","LEAD_BETTER_BEACH","reference","early3","Bottom_depth_m",TRUE,1,1,6.1875,9.9125,-3.725
+"before_after","Campus Point SMCA","LEAD_BETTER_BEACH","reference","all_overlap","Nontargeted_warm",TRUE,1,1,0.151888812556135,0.148196929898278,0.00369188265785769
+"before_after","Campus Point SMCA","LEAD_BETTER_BEACH","reference","all_overlap","Targeted",TRUE,1,1,-0.693147180559945,0.125964238612474,-0.81911141917242
+"before_after","Campus Point SMCA","LEAD_BETTER_BEACH","reference","all_overlap","Bottom_depth_m",TRUE,1,1,6.1875,9.9125,-3.725
+"before_after","Point Vicente SMCA","LONG_POINT_E","mpa","early3","Nontargeted_warm",TRUE,3,3,1.23254983160467,1.82565435620851,-0.593104524603838
+"before_after","Point Vicente SMCA","LONG_POINT_E","mpa","early3","Targeted",TRUE,3,3,0.472559076883871,0.653397280364915,-0.180838203481044
+"before_after","Point Vicente SMCA","LONG_POINT_E","mpa","early3","Bottom_depth_m",TRUE,3,3,11.1319444444444,11.9166666666667,-0.784722222222223
+"before_after","Point Vicente SMCA","LONG_POINT_E","mpa","all_overlap","Nontargeted_warm",TRUE,16,4,1.34809579458119,1.59101363742843,-0.242917842847242
+"before_after","Point Vicente SMCA","LONG_POINT_E","mpa","all_overlap","Targeted",TRUE,16,4,0.7096201011231,0.796840913262957,-0.0872208121398578
+"before_after","Point Vicente SMCA","LONG_POINT_E","mpa","all_overlap","Bottom_depth_m",TRUE,16,4,13.1173177083333,13.2740234375,-0.156705729166666
+"before_after","Point Vicente SMCA","FLAT_ROCK_N","reference","early3","Nontargeted_warm",TRUE,3,2,1.80238317156666,1.6388952193274,0.16348795223925
+"before_after","Point Vicente SMCA","FLAT_ROCK_N","reference","early3","Targeted",TRUE,3,2,1.04023717935067,0.557897056687886,0.482340122662785
+"before_after","Point Vicente SMCA","FLAT_ROCK_N","reference","early3","Bottom_depth_m",TRUE,3,2,10.3,12.1590277777778,-1.85902777777778
+"before_after","Point Vicente SMCA","FLAT_ROCK_N","reference","all_overlap","Nontargeted_warm",TRUE,11,2,0.953263647388433,0.654563573717946,0.298700073670488
+"before_after","Point Vicente SMCA","FLAT_ROCK_N","reference","all_overlap","Targeted",TRUE,11,2,0.75050064175746,0.518773376641014,0.231727265116447
+"before_after","Point Vicente SMCA","FLAT_ROCK_N","reference","all_overlap","Bottom_depth_m",TRUE,11,2,8.83068181818182,13.2117424242424,-4.38106060606061
+"before_after","Point Vicente SMCA","HAWTHORNE_REEF","reference","early3","Nontargeted_warm",TRUE,3,3,1.1889981508297,1.39801185239264,-0.209013701562937
+"before_after","Point Vicente SMCA","HAWTHORNE_REEF","reference","early3","Targeted",TRUE,3,3,0.676316223854328,0.847930127059202,-0.171613903204874
+"before_after","Point Vicente SMCA","HAWTHORNE_REEF","reference","early3","Bottom_depth_m",TRUE,3,3,14.5666666666667,13.5916666666667,0.974999999999999
+"before_after","Point Vicente SMCA","HAWTHORNE_REEF","reference","all_overlap","Nontargeted_warm",TRUE,15,3,1.27391159862692,0.605519444559579,0.66839215406734
+"before_after","Point Vicente SMCA","HAWTHORNE_REEF","reference","all_overlap","Targeted",TRUE,15,3,0.71925822815278,0.565807996880324,0.153450231272456
+"before_after","Point Vicente SMCA","HAWTHORNE_REEF","reference","all_overlap","Bottom_depth_m",TRUE,15,3,13.8306944444444,13.3666666666667,0.464027777777777
+"before_after","Point Vicente SMCA","LUNADA_BAY","reference","early3","Nontargeted_warm",TRUE,3,1,0.370423890288885,0.325223794171328,0.0452000961175574
+"before_after","Point Vicente SMCA","LUNADA_BAY","reference","early3","Targeted",TRUE,3,1,0.174983662606652,0.341316202736708,-0.166332540130055
+"before_after","Point Vicente SMCA","LUNADA_BAY","reference","early3","Bottom_depth_m",TRUE,3,1,13.0326388888889,12.7388888888889,0.293749999999999
+"before_after","Point Vicente SMCA","LUNADA_BAY","reference","all_overlap","Nontargeted_warm",TRUE,12,1,0.892098902691198,0.430201776558734,0.461897126132463
+"before_after","Point Vicente SMCA","LUNADA_BAY","reference","all_overlap","Targeted",TRUE,12,1,0.707355018608292,0.497414684935086,0.209940333673205
+"before_after","Point Vicente SMCA","LUNADA_BAY","reference","all_overlap","Bottom_depth_m",TRUE,12,1,13.4819444444444,13.2833333333333,0.198611111111111
+"before_after","Point Vicente SMCA","RESORT_POINT","reference","early3","Nontargeted_warm",TRUE,3,1,0.748749239051279,0.672354523390995,0.076394715660284
+"before_after","Point Vicente SMCA","RESORT_POINT","reference","early3","Targeted",TRUE,3,1,0.53170131014554,0.279472255838236,0.252229054307304
+"before_after","Point Vicente SMCA","RESORT_POINT","reference","early3","Bottom_depth_m",TRUE,3,1,12.375,13.2847222222222,-0.909722222222224
+"before_after","Point Vicente SMCA","RESORT_POINT","reference","all_overlap","Nontargeted_warm",TRUE,13,1,1.00388326650068,0.517504563712728,0.486378702787953
+"before_after","Point Vicente SMCA","RESORT_POINT","reference","all_overlap","Targeted",TRUE,13,1,0.749398085751552,0.468654850638705,0.280743235112847
+"before_after","Point Vicente SMCA","RESORT_POINT","reference","all_overlap","Bottom_depth_m",TRUE,13,1,12.6535256410256,13.3605769230769,-0.707051282051282
+"before_after","Point Vicente SMCA","RIDGES_N","reference","early3","Nontargeted_warm",TRUE,3,3,0.727161682899451,1.39801185239264,-0.670850169493186
+"before_after","Point Vicente SMCA","RIDGES_N","reference","early3","Targeted",TRUE,3,3,0.241482849935006,0.847930127059202,-0.606447277124195
+"before_after","Point Vicente SMCA","RIDGES_N","reference","early3","Bottom_depth_m",TRUE,3,3,15.6722222222222,13.5916666666667,2.08055555555556
+"before_after","Point Vicente SMCA","RIDGES_N","reference","all_overlap","Nontargeted_warm",TRUE,15,3,0.639654078754781,0.605519444559579,0.0341346341952026
+"before_after","Point Vicente SMCA","RIDGES_N","reference","all_overlap","Targeted",TRUE,15,3,0.575866887824902,0.565807996880324,0.0100588909445774
+"before_after","Point Vicente SMCA","RIDGES_N","reference","all_overlap","Bottom_depth_m",TRUE,15,3,14.6665277777778,13.3666666666667,1.29986111111111
+"before_after","Point Vicente SMCA","RIDGES_S","reference","early3","Nontargeted_warm",TRUE,3,2,0.460007841873303,0.934280880722808,-0.474273038849505
+"before_after","Point Vicente SMCA","RIDGES_S","reference","early3","Targeted",TRUE,3,2,-0.024789883094069,0.253174194126556,-0.277964077220625
+"before_after","Point Vicente SMCA","RIDGES_S","reference","early3","Bottom_depth_m",TRUE,3,2,15.9645833333333,12.5458333333333,3.41875
+"before_after","Point Vicente SMCA","RIDGES_S","reference","all_overlap","Nontargeted_warm",TRUE,14,2,0.526515725493108,0.564443248994453,-0.0379275235013451
+"before_after","Point Vicente SMCA","RIDGES_S","reference","all_overlap","Targeted",TRUE,14,2,0.354681695079662,0.478914936004821,-0.124233240925159
+"before_after","Point Vicente SMCA","RIDGES_S","reference","all_overlap","Bottom_depth_m",TRUE,14,2,14.4341765873016,13.133630952381,1.30054563492064
+"before_after","Point Vicente SMCA","ROCKY_POINT_S","reference","early3","Nontargeted_warm",TRUE,3,2,0.646122868542922,0.58715015150314,0.0589727170397812
+"before_after","Point Vicente SMCA","ROCKY_POINT_S","reference","early3","Targeted",TRUE,3,2,0.784932106622178,0.315018141025027,0.469913965597151
+"before_after","Point Vicente SMCA","ROCKY_POINT_S","reference","early3","Bottom_depth_m",TRUE,3,2,14.2375,12,2.2375
+"before_after","Point Vicente SMCA","ROCKY_POINT_S","reference","all_overlap","Nontargeted_warm",TRUE,14,2,0.856413432693351,0.490058092733096,0.366355339960255
+"before_after","Point Vicente SMCA","ROCKY_POINT_S","reference","all_overlap","Targeted",TRUE,14,2,0.780819020840583,0.492167210340208,0.288651810500375
+"before_after","Point Vicente SMCA","ROCKY_POINT_S","reference","all_overlap","Bottom_depth_m",TRUE,14,2,14.5108630952381,13.0166666666667,1.49419642857143
+"before_after","Point Vicente SMCA","UNDERWATER_ARCH","reference","early3","Nontargeted_warm",TRUE,3,0,1.46680882782571,0.693832212132976,0.772976615692738
+"before_after","Point Vicente SMCA","UNDERWATER_ARCH","reference","early3","Targeted",TRUE,3,0,0.884584128191093,0.533814973087411,0.350769155103682
+"before_after","Point Vicente SMCA","UNDERWATER_ARCH","reference","early3","Bottom_depth_m",TRUE,3,0,10.6986111111111,12.7409722222222,-2.04236111111111
+"before_after","Point Vicente SMCA","UNDERWATER_ARCH","reference","all_overlap","Nontargeted_warm",TRUE,11,0,1.04023664499175,0.396819117210374,0.64341752778138
+"before_after","Point Vicente SMCA","UNDERWATER_ARCH","reference","all_overlap","Targeted",TRUE,11,0,1.08533965559775,0.512205535659066,0.573134119938685
+"before_after","Point Vicente SMCA","UNDERWATER_ARCH","reference","all_overlap","Bottom_depth_m",TRUE,11,0,11.4689393939394,13.3704545454545,-1.90151515151515
+"before_after","Swamis SMCA","SOUTH_CARLSBAD","reference","early3","Nontargeted_warm",FALSE,1,1,0.157537669943547,0.251475722640961,-0.0939380526974133
+"before_after","Swamis SMCA","SOUTH_CARLSBAD","reference","early3","Targeted",FALSE,1,1,0.887711524954181,0.426616297953509,0.461095227000672
+"before_after","Swamis SMCA","SOUTH_CARLSBAD","reference","early3","Bottom_depth_m",FALSE,1,1,7.91666666666667,7.89166666666667,0.0250000000000012
+"before_after","Swamis SMCA","SOUTH_CARLSBAD","reference","all_overlap","Nontargeted_warm",FALSE,1,1,0.157537669943547,0.251475722640961,-0.0939380526974133
+"before_after","Swamis SMCA","SOUTH_CARLSBAD","reference","all_overlap","Targeted",FALSE,1,1,0.887711524954181,0.426616297953509,0.461095227000672
+"before_after","Swamis SMCA","SOUTH_CARLSBAD","reference","all_overlap","Bottom_depth_m",FALSE,1,1,7.91666666666667,7.89166666666667,0.0250000000000012

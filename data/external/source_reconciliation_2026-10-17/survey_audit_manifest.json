@@ -1,0 +1,42 @@
+{
+  "inputs": [
+    {
+      "file": "data/MBON/SBCMBON_kelp_forest_integrated_fish_20231022.csv",
+      "sha256": "2624834748b8cfbeb44aeeb3b4ff9faca3b7b91d5da0f9369f511d3c0898eb91",
+      "bytes": 779693784
+    },
+    {
+      "file": "data/MBON/SBCMBON_kelp_forest_integrated_quad_and_swath_20231022.csv",
+      "sha256": "7b0d27161fedf4f9740be6f99a2accbd2a52d51993f766350b1e2d3f12b42c23",
+      "bytes": 401998546
+    },
+    {
+      "file": "data/PISCO/MLPA_kelpforest_fish_2024.csv",
+      "sha256": "c4b56941ab7be079999a0a3af7e5faca0e11485587ee6e6fb3108cf148780efc",
+      "bytes": 79873218
+    },
+    {
+      "file": "data/PISCO/MLPA_kelpforest_swath_2024.csv",
+      "sha256": "9cdc478761f9e4851faaaf083539fd1ed2bf418b9e26f02baa92e133fdc3a4c0",
+      "bytes": 38880342
+    }
+  ],
+  "distance_threshold_km": 1,
+  "nearby_site_kind_pairs": 175,
+  "same_day_candidate_pairs": 17,
+  "scope": "All dated KFM benthic surveys, KFM visual fish surveys, and supplied PISCO fish/swath surveys; not a primary-cohort duplicate determination.",
+  "limitations": "Nearby same-day surveys are not verified duplicates; site centres do not identify transect footprints. Distinct dates do not establish ecological independence.",
+  "technical_report": {
+    "filename": "Kelp-Forest-Technical-Report-Narrative-v2.pdf",
+    "sha256": "956d32482499b067b21f32e8d947dc1814c2c816f4cde312504e0df5810c04f6",
+    "bytes": 31907294,
+    "url": "https://kelpforest.msi.ucsb.edu/assets/files/1658/Kelp%20Forest%20Technical%20Report%20Narrative_v2.pdf",
+    "title": "Monitoring and Evaluation of Kelp Forest Ecosystems in the MLPA Marine Protected Area Network",
+    "title_page_date": "2021-12-30",
+    "naples_reference_table_pdf_page": 116,
+    "verified_coefficient_pdf_pages": [
+      167,
+      177
+    ]
+  }
+}

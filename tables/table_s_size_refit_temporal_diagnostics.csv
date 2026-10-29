@@ -1,0 +1,9 @@
+"scope","Resp","size","n_obs","n_history","n_mpa","candidate","converged","singular","residual_sd","residual_shapiro_p","residual_spread_rho"
+"retained_membership","Bio","all",542,44,15,"correlated_slopes",TRUE,FALSE,1.31348636402716,1.44561516626368e-15,0.0884965593357489
+"retained_membership","Bio","large",542,44,15,"correlated_slopes",TRUE,FALSE,1.41224629898376,5.37533026068854e-15,0.133114875230206
+"retained_membership","Den","all",558,45,15,"correlated_slopes",TRUE,FALSE,1.0842219797699,6.59545514902904e-07,0.0870635764175128
+"retained_membership","Den","large",558,45,15,"intercepts",TRUE,FALSE,1.14102169246336,9.06344336370561e-05,0.099452117552244
+"expanded_size_cohort","Bio","all",634,51,15,"independent_slopes",TRUE,FALSE,1.4322072093339,2.82346076906868e-16,0.171219764348121
+"expanded_size_cohort","Bio","large",634,51,15,"independent_slopes",TRUE,FALSE,1.54725665417381,2.1347854689897e-15,0.236105458860042
+"expanded_size_cohort","Den","all",558,45,15,"correlated_slopes",TRUE,FALSE,1.0842219797699,6.59545514902904e-07,0.0870635764175128
+"expanded_size_cohort","Den","large",558,45,15,"intercepts",TRUE,FALSE,1.14102169246336,9.06344336370561e-05,0.099452117552244

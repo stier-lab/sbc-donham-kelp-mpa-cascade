@@ -4,19 +4,19 @@
 #
 # PURPOSE:
 #   Single source of truth for which scripts make up the resilience module
-#   (scripts 14-23). Both orchestrators source this file instead of hard-coding
+#   (scripts 14-23 plus the historical-event check 28). Both orchestrators source this file instead of hard-coding
 #   the list, so adding/removing a resilience analysis is a one-line edit here.
 #
 #   - run_all.R sources RESILIENCE_MODULES_IN_PIPELINE (the subset that is part of
 #     the main pBACIPS pipeline), then runs 24_resilience_pipeline_check.R as the
 #     manuscript/SI concordance gate.
-#   - run_resilience.R sources RESILIENCE_MODULES_FULL_SUITE (all ten, grouped by
+#   - run_resilience.R sources RESILIENCE_MODULES_FULL_SUITE (grouped by
 #     resilience facet; see docs/RESILIENCE_SYNTHESIS.md).
 #
-#   Data needs (documented in run_resilience.R): 14/19/21/22/23 use only the
-#   tracked harmonized CSVs; 15/16 run in the main pipeline but add comparison
-#   detail when the local Kumagai mirror is present; 17/18/20 read raw PISCO or
-#   other external comparison inputs and remain full-suite-only.
+#   Data needs (documented in run_resilience.R): 14/15/16/19/21/22/23 use
+#   tracked harmonized CSVs plus repo-vendored Kumagai comparator inputs for the
+#   paper-facing checks; 17/18/20 read raw PISCO or other external comparison
+#   inputs and remain full-suite-only.
 #
 # AUTHORS: Emily Donham & Adrian Stier
 # =============================================================================
@@ -29,7 +29,8 @@ RESILIENCE_MODULES_IN_PIPELINE <- c(
   "19_heatwave_replication.R",     # repeatability: resilience across TWO heatwaves
   "21_resilience_stability.R",     # stability: temporal CV inside vs outside
   "22_resistance_recovery.R",      # resistance/recovery on the state variable
-  "23_ecological_memory.R"         # memory: do the same reserves repeat?
+  "23_ecological_memory.R",        # memory: do the same reserves repeat?
+  "28_historical_heatwave_bacips.R" # same Landsat pairs before/after designation
 )
 
 # The full suite (run_resilience.R), grouped by resilience facet.
@@ -43,5 +44,6 @@ RESILIENCE_MODULES_FULL_SUITE <- c(
   "15_methods_comparison.R",           # ROBUSTNESS: method vs data (multiverse)
   "16_environmental_moderators.R",     # ROBUSTNESS: environmental moderators
   "18_mpa_effectiveness_predictors.R", # ROBUSTNESS: predictability of effectiveness
-  "17_eisaguirre_reproduction.R"       # CROSS-STUDY REPRODUCTION
+  "17_eisaguirre_reproduction.R",      # CROSS-STUDY REPRODUCTION
+  "28_historical_heatwave_bacips.R"    # PRE-/POST-DESIGNATION DISTURBANCE COMPARISON
 )

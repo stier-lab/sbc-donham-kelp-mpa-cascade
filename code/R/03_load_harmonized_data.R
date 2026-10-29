@@ -14,9 +14,9 @@
 #
 # OUTPUTS:
 #   Creates the same objects that scripts 03-07 previously produced:
-#   - All.RR.sub.trans: Combined response ratios (3,368 rows x 14 cols)
-#   - All.Resp.sub: Combined raw responses (6,244 rows x 9 cols)
-#   - Landsat.RR: Satellite kelp response ratios (719 rows x 14 cols)
+#   - All.RR.sub.trans: Combined response ratios
+#   - All.Resp.sub: Combined raw responses
+#   - Landsat.RR: Satellite kelp response ratios (718 rows x 14 cols)
 #   - Site: MPA site metadata (34 rows x 9 cols)
 #
 # AUTHORS: Emily Donham & Adrian Stier
@@ -48,6 +48,11 @@ if (!dir.exists(harmonized_dir)) {
 ####################################################################################################
 
 cat("Loading harmonized data from:", harmonized_dir, "\n")
+source(here::here("code", "R", "40_landsat_reference_check.R"))
+check_landsat_reference_inputs()
+source(here::here("code", "R", "33_kelp_calibration_check.R"))
+source(here::here("code", "R", "35_sheephead_allometry_check.R"))
+check_sheephead_allometry_inputs()
 
 All.RR.sub.trans <- read.csv(file.path(harmonized_dir, "harmonized_response_ratios.csv"),
                               stringsAsFactors = FALSE)
@@ -98,6 +103,12 @@ stopifnot("Site schema" =
 
 stopifnot("Landsat.RR schema" =
   all(c("CA_MPA_Name_Short", "year", "lnDiff", "BA", "time") %in% names(Landsat.RR)))
+
+# Regenerate Table 1 from the same inputs as the model pipeline.
+source(here::here("code", "R", "response_summary_utils.R"))
+dir.create(here::here("tables"), recursive = TRUE, showWarnings = FALSE)
+write.csv(summarise_raw_responses(All.Resp.sub),
+          here::here("tables", "average_responses.csv"), row.names = FALSE)
 
 ####################################################################################################
 ## Summary #########################################################################################

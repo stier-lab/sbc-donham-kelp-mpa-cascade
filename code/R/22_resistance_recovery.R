@@ -68,7 +68,7 @@ for (tx in taxa) {
   for (mt in c("resistance", "recovery", "recovery_recent")) {
     r <- paircmp(mt)
     rr_rows[[paste(tx, mt)]] <- data.frame(taxon = tx, metric = mt, n_mpa = unname(r["n"]),
-      inside = round(unname(r["inside"]), 2), outside = round(unname(r["outside"]), 2),
+      inside = unname(r["inside"]), outside = unname(r["outside"]),
       paired_p = signif(unname(r["p"]), 3))
   }
 }
@@ -136,29 +136,27 @@ p <- ggplot(tr, aes(year, abund, color = Site, fill = Site)) +
   geom_line(linewidth = 0.7) + geom_point(size = 1) +
   facet_wrap(~ lab, nrow = 1, scales = "free_y") +
   scale_color_manual(values = c(Reference = "#D55E00", MPA = "#0072B2"), name = NULL, aesthetics = c("color", "fill")) +
-  labs(x = NULL, y = "Abundance (kelp biomass / urchin density)",
-       title = "Resistance & recovery: kelp and urchin state trajectories inside vs outside MPAs") +
+  labs(x = NULL, y = "Abundance (kelp biomass / urchin density)") +
   theme_mpa(base_size = 9) +
-  theme(legend.position = "bottom", plot.title = element_text(size = 9, face = "bold"))
+  theme(legend.position = "bottom")
 ggsave(here::here("plots", "fig_resistance_recovery.pdf"), p, width = 170, height = 85, units = "mm", device = cairo_pdf)
 ggsave(here::here("plots", "fig_resistance_recovery.png"), p, width = 170, height = 85, units = "mm", dpi = 600)
 
-# Main-text single-panel: giant-kelp resistance & recovery (Journal of Applied Ecology, single column 80 mm)
+# Main-text trajectory panel; paired estimates are assembled below.
 trk <- tr[taxon_name == "Macrocystis pyrifera"]
 lab_pos <- trk[, .SD[which.max(year)], by = Site]
 p_kelp <- ggplot(trk, aes(year, abund, color = Site, fill = Site)) +
   annotate("rect", xmin = 2013.5, xmax = 2016.5, ymin = -Inf, ymax = Inf, alpha = 0.10, fill = "#D55E00") +
   annotate("text", x = 2015, y = max(trk$abund + trk$se), label = "2014-16\nMHW",
-           size = 2.3, color = "grey35", lineheight = 0.85, vjust = 1) +
+           size = 2.4, color = "grey35", lineheight = 0.95, vjust = 1) +
   geom_ribbon(aes(ymin = abund - se, ymax = abund + se), alpha = 0.18, color = NA) +
-  geom_line(linewidth = 0.7) + geom_point(size = 0.9) +
+  geom_line(linewidth = 0.5) + geom_point(size = 1.1) +
   geom_text(data = lab_pos, aes(label = Site), hjust = 0, nudge_x = 0.3, size = 2.7, fontface = "bold") +
   scale_color_manual(values = c(Reference = "#D55E00", MPA = "#0072B2"), aesthetics = c("color", "fill"), guide = "none") +
-  scale_x_continuous(limits = c(2008, 2028.5), breaks = seq(2008, 2024, 4)) +
-  labs(x = NULL, y = "Giant kelp biomass") +
-  theme_mpa(base_size = 8) + theme(plot.margin = margin(6, 10, 4, 4))
-ggsave(here::here("plots", "fig_kelp_resilience.pdf"), p_kelp, width = 80, height = 72, units = "mm", device = cairo_pdf)
-ggsave(here::here("plots", "fig_kelp_resilience.png"), p_kelp, width = 80, height = 72, units = "mm", dpi = 600)
+  scale_x_continuous(limits = c(2008, 2029), breaks = c(2008, 2012, 2016, 2020, 2023),
+                     expand = expansion(mult = c(0.02, 0))) +
+  labs(x = "Year", y = expression("Kelp biomass (g " * m^{-2} * ")")) +
+  theme_mpa(base_size = 9) + theme(plot.margin = margin(6, 6, 4, 4))
 
 # Per-reserve PAIRED view (each reserve vs its own control) -- shows the resistance/recovery
 # pattern is consistent across pairs, not a pooled-mean artifact. Ratios to 2010-13 baseline.
@@ -193,6 +191,12 @@ pair_count_tab <- pair_tab[, .(
 ), by = .(metric, period)]
 write.csv(as.data.frame(pair_count_tab),
           here::here("tables", "table_resistance_recovery_pair_counts.csv"), row.names = FALSE)
+source(here::here("code", "R", "figure5_resilience.R"), local = TRUE)
+figure5 <- build_figure5_resilience(kelp, pair_tab, p_kelp)
+ggsave(here::here("plots", "fig_kelp_resilience.pdf"), figure5$plot,
+       width = 170, height = 90, units = "mm", device = cairo_pdf)
+ggsave(here::here("plots", "fig_kelp_resilience.png"), figure5$plot,
+       width = 170, height = 90, units = "mm", dpi = 600, bg = "white")
 ordb <- wb[order(Res_in), CA_MPA_Name_Short]
 segb <- rbind(wb[, .(reserve = CA_MPA_Name_Short, metric = "Resistance (during)", out = Res_out, ins = Res_in)],
               wb[, .(reserve = CA_MPA_Name_Short, metric = "Recovery (2020-23)", out = Rec_out, ins = Rec_in)])
@@ -208,10 +212,9 @@ p_pair <- ggplot() +
   geom_point(data = ptsb, aes(value, reserve, color = Site), size = 1.8) +
   facet_wrap(~ metric) + scale_x_log10() +
   scale_color_manual(values = c(Reference = "#D55E00", MPA = "#0072B2"), name = NULL) +
-  labs(x = "Kelp biomass relative to 2010-13 baseline (log scale; >1 = above baseline)", y = NULL,
-       title = "Giant-kelp resilience in each reserve vs its paired control") +
+  labs(x = "Kelp biomass relative to 2010-13 baseline (log scale; >1 = above baseline)", y = NULL) +
   theme_mpa(base_size = 8) +
-  theme(legend.position = "bottom", axis.text.y = element_text(size = 6.5), plot.title = element_text(size = 9, face = "bold"))
+  theme(legend.position = "bottom", axis.text.y = element_text(size = 6.5))
 ggsave(here::here("plots", "fig_kelp_resilience_paired.pdf"), p_pair, width = 150, height = 82, units = "mm", device = cairo_pdf)
 ggsave(here::here("plots", "fig_kelp_resilience_paired.png"), p_pair, width = 150, height = 82, units = "mm", dpi = 600)
 

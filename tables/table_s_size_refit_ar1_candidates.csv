@@ -1,0 +1,13 @@
+"scope","Resp","size","candidate","valid","convergence","pdHess","max_gradient","warnings","selected"
+"retained_membership","Bio","all","independent_slopes",TRUE,0,TRUE,1.04716342264055e-07,"",TRUE
+"retained_membership","Bio","large","independent_slopes",TRUE,0,TRUE,0.000327272172517609,"",TRUE
+"retained_membership","Bio","paired_threshold_difference","independent_slopes",TRUE,0,TRUE,3.99820458995427e-06,"",TRUE
+"retained_membership","Den","all","independent_slopes",TRUE,0,TRUE,9.90198733661061e-05,"",TRUE
+"retained_membership","Den","large","independent_slopes",TRUE,0,TRUE,0.000169919668268171,"",TRUE
+"retained_membership","Den","paired_threshold_difference","independent_slopes",TRUE,0,TRUE,4.15509976542379e-05,"",TRUE
+"expanded_size_cohort","Bio","all","independent_slopes",TRUE,0,TRUE,0.000123528163664343,"",TRUE
+"expanded_size_cohort","Bio","large","independent_slopes",TRUE,0,TRUE,0.000672125325194534,"",TRUE
+"expanded_size_cohort","Bio","paired_threshold_difference","independent_slopes",TRUE,0,TRUE,2.04728790479686e-05,"",TRUE
+"expanded_size_cohort","Den","all","independent_slopes",TRUE,0,TRUE,9.90198733661061e-05,"",TRUE
+"expanded_size_cohort","Den","large","independent_slopes",TRUE,0,TRUE,0.000169919668268171,"",TRUE
+"expanded_size_cohort","Den","paired_threshold_difference","independent_slopes",TRUE,0,TRUE,4.15509976542379e-05,"",TRUE

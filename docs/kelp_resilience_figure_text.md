@@ -1,5 +1,10 @@
 # Proposed main-text addition: giant-kelp resilience to the marine heatwave
 
+**Historical drafting notes, not current manuscript wording.** Monthly calibration
+was adopted on 12 October 2026. Current estimates and retained caveats are in
+`MONTHLY_KELP_REFIT_2026-10-12.md` and the manuscript. The older robustness and
+causal statements below must not be copied into a current draft.
+
 *Conservative, robust addition for Donham & Stier (Journal of Applied Ecology). Figure:
 `plots/fig_kelp_resilience.{pdf,png}` (single column, 80 mm). Analysis:
 `code/R/22_resistance_recovery.R`; statistics from `tables/table_resistance_recovery.csv`.
@@ -18,7 +23,7 @@ pairs, *p* = 0.010), and the divergence widened rather than closed: by 2020–20
 remained at 2.1× baseline inside reserves but had dropped to 0.6× outside (*p* = 0.014).
 This was a within-pair effect, not a pooled-mean artifact: kelp held or grew more
 inside than at its **own** paired control in 9 of 10 reserves during the heatwave and
-8 of 10 reserves afterward (the lone resistance exception, Anacapa Island SMR,
+9 of 10 in 2017-2019 and 8 of 10 in 2020-2023 (the lone resistance exception, Anacapa Island SMR,
 recovered more slowly at the reserve than at its reference). Protection thus buffered
 the foundation species against the most severe marine heatwave in the satellite
 record, while unprotected reefs lost kelp and did not recover.

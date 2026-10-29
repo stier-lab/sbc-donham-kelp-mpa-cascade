@@ -1,4 +1,4 @@
 "model","model_type","n_obs","n_mpa","AIC","BIC","logLik","R2_marginal","R2_conditional","variance_components","singular_fit"
-"pooled","random-intercepts",2433,15,9399.42,9474.78,-4686.71,0.1358,0.2784,"CA_MPA_Name_Short|(Intercept): 0.5211; source|(Intercept): 0.0059; Residual|NA: 2.6671",FALSE
-"bio","random-intercepts",978,15,3941.28,4004.79,-1957.64,0.1273,0.2511,"CA_MPA_Name_Short|(Intercept): 0.5011; source|(Intercept): 0.0000; Residual|NA: 3.0292",TRUE
-"den","random-slopes",1091,15,3781.35,3846.28,-1877.67,0.206,0.4071,"CA_MPA_Name_Short|(Intercept): 0.4072; CA_MPA_Name_Short|time: 0.0011; CA_MPA_Name_Short|(Intercept): 0.0020; source|(Intercept): 0.0091; Residual|NA: 1.7068",FALSE
+"pooled","random-slopes",1750,15,6432.84,6514.85,-3201.42,0.2013,0.3859,"CA_MPA_Name_Short|(Intercept): 0.3391; CA_MPA_Name_Short|time: 0.0025; CA_MPA_Name_Short|(Intercept): 0.0021; source|(Intercept): 0.0019; Residual|NA: 2.1573",FALSE
+"bio","random-slopes",831,15,3235.14,3301.26,-1603.57,0.1781,0.3127,"CA_MPA_Name_Short|(Intercept): 0.0762; CA_MPA_Name_Short.1|time: 0.0041; source|(Intercept): 0.0176; Residual|NA: 2.5894",FALSE
+"den","random-slopes",919,15,3165.34,3228.04,-1569.67,0.2624,0.4756,"CA_MPA_Name_Short|(Intercept): 0.4808; CA_MPA_Name_Short|time: 0.0009; CA_MPA_Name_Short|(Intercept): 0.0003; source|(Intercept): 0.0827; Residual|NA: 1.6419",FALSE

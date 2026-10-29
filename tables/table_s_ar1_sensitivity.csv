@@ -1,2 +1,2 @@
-"diagnostic","statistic","p_value","note"
-"Durbin-Watson",2.15552477709129,1,"Weak autocorrelation; lmer results likely robust"
+"statistic","note"
+NA,"Retired pooled DW/nested reconstruction; use table_s_temporal_ar1_slopes and its exact retained-diver cohort."

@@ -8,7 +8,7 @@
 #' run to create the snapshot.
 #'
 #' Usage:
-#'   # Render all figures (~1 minute vs ~5 minutes for full pipeline)
+#'   # Render the cached core figure suite faster than the full pipeline
 #'   source(here::here("code", "R", "run_figures_only.R"))
 #'
 #'   # Render only specific figures
@@ -29,6 +29,7 @@
 #'   #   fig_s17 (from 11_figures.R, temporal outlier trajectories, = SI Fig S14)
 #'   #   fig_s18 (from 11_figures.R, raw data trajectories by outlier status, = SI Fig S15)
 #'   #   fig_s03, fig_s07, fig_s10 (from 11_figures.R, dropped from SI but still renderable)
+#'   #   pbacips_shape_display (script 32; named asset key, not an SI number)
 
 # Preserve RENDER_FIGURES across rm() using options (survives workspace clear)
 if (exists("RENDER_FIGURES", envir = .GlobalEnv)) {
@@ -60,6 +61,10 @@ source(here::here("code", "R", "00c_analysis_constants.R"))
 
 cat("Loading utility functions...\n")
 source(here::here("code", "R", "01_utils.R"))
+source(here::here("code", "R", "35_sheephead_allometry_check.R"))
+check_sheephead_allometry_inputs()
+source(here::here("code", "R", "40_landsat_reference_check.R"))
+check_landsat_reference_inputs()
 
 # --- 2. Load figures snapshot ---
 snapshot_path <- here::here("data", "cache", "figures_snapshot.rds")
@@ -70,6 +75,12 @@ if (!file.exists(snapshot_path)) {
 }
 
 snapshot <- readRDS(snapshot_path)
+if (!identical(unname(snapshot$harmonized_md5),
+               unname(tools::md5sum(here::here("data", "harmonized",
+                 c("harmonized_raw_responses.csv", "harmonized_response_ratios.csv",
+                   "harmonized_landsat_rr.csv", "harmonized_landsat_annual_index.csv")))))) {
+  stop("Figure snapshot predates the current harmonized inputs; rerun the full pipeline.")
+}
 cat("Loaded snapshot from: ", format(snapshot$snapshot_time, "%Y-%m-%d %H:%M:%S"), "\n")
 
 # Check staleness (use file modification time for reliability. Embedded snapshot_time
@@ -111,6 +122,18 @@ source(here::here("code", "R", "11_figures.R"))
 
 # --- 4. Additional analyses (S9 + moderator table) ---
 source(here::here("code", "R", "13_additional_analyses.R"))
+
+# Script 32 only renders a current MD5-verified cache here; never reconstructs.
+if (!exists("RENDER_FIGURES", inherits = FALSE) || is.null(RENDER_FIGURES) ||
+    "all" %in% RENDER_FIGURES || "pbacips_shape_display" %in% RENDER_FIGURES) {
+  (function() {
+    previous <- Sys.getenv("MPA_SHAPE_DISPLAY_MODE", unset = NA_character_)
+    on.exit(if (is.na(previous)) Sys.unsetenv("MPA_SHAPE_DISPLAY_MODE") else
+      Sys.setenv(MPA_SHAPE_DISPLAY_MODE = previous), add = TRUE)
+    Sys.setenv(MPA_SHAPE_DISPLAY_MODE = "render")
+    source(here::here("code", "R", "32_pbacips_shape_display.R"))
+  })()
+}
 
 elapsed <- round(difftime(Sys.time(), t0, units = "secs"), 1)
 cat("\n========================================================================\n")

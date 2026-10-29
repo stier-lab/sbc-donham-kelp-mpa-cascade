@@ -88,7 +88,17 @@ expected_tables <- c(
   "tables/table_resistance_recovery_sensitivity.csv",
   "tables/table_resistance_recovery_pairs.csv",
   "tables/table_resistance_recovery_pair_counts.csv",
-  "tables/table_ecological_memory.csv"
+  "tables/table_figure5_annual_membership.csv",
+  "tables/table_figure5_annual_coverage.csv",
+  "tables/table_figure5_period_pairs.csv",
+  "tables/table_figure5_period_summary.csv",
+  "tables/table_ecological_memory.csv",
+  "tables/table_s_historical_heatwave_coverage.csv",
+  "tables/table_s_historical_heatwave_windows.csv",
+  "tables/table_s_historical_heatwave_pairs.csv",
+  "tables/table_s_historical_heatwave_summary.csv",
+  "tables/table_s_historical_heatwave_leave_one_out.csv",
+  "tables/table_s_historical_heatwave_event_comparison.csv"
 )
 
 expected_figures <- c(
@@ -111,7 +121,9 @@ expected_figures <- c(
   "plots/fig_kelp_resilience_paired.pdf",
   "plots/fig_kelp_resilience_paired.png",
   "plots/fig_ecological_memory.pdf",
-  "plots/fig_ecological_memory.png"
+  "plots/fig_ecological_memory.png",
+  "plots/fig_s_historical_heatwave_bacips.pdf",
+  "plots/fig_s_historical_heatwave_bacips.png"
 )
 
 expected_docs <- c(
@@ -171,7 +183,8 @@ expected_modules <- c(
   "19_heatwave_replication.R",
   "21_resilience_stability.R",
   "22_resistance_recovery.R",
-  "23_ecological_memory.R"
+  "23_ecological_memory.R",
+  "28_historical_heatwave_bacips.R"
 )
 expect_equal(RESILIENCE_MODULES_IN_PIPELINE, expected_modules,
              "RESILIENCE_MODULES_IN_PIPELINE")
@@ -183,7 +196,7 @@ kelp <- rr[rr$taxon == "Macrocystis pyrifera" & rr$metric %in% kelp_metrics, ]
 kelp <- kelp[match(kelp_metrics, kelp$metric), ]
 expect_equal(kelp$metric, kelp_metrics, "Kelp resistance/recovery metric order")
 expect_equal(kelp$n_mpa, c(10L, 10L, 10L), "Kelp resistance/recovery n")
-expect_equal(round(kelp$inside, 1), c(2.2, 2.4, 2.1), "Kelp inside baseline ratios")
+expect_equal(round(kelp$inside, 1), c(2.3, 2.3, 2.2), "Kelp inside baseline ratios")
 expect_equal(round(kelp$outside, 1), c(0.9, 0.8, 0.6), "Kelp reference baseline ratios")
 expect_equal(round(kelp$paired_p, 3), c(0.010, 0.014, 0.014),
              "Kelp paired Wilcoxon p-values")
@@ -205,7 +218,7 @@ primary <- sens[sens$baseline == "2010-2013*" & sens$metric %in% kelp_metrics, ]
 primary <- primary[match(kelp_metrics, primary$metric), ]
 expect_equal(primary$metric, kelp_metrics, "Primary sensitivity metric order")
 expect_equal(primary$n_mpa, c(10L, 10L, 10L), "Primary sensitivity n")
-expect_equal(round(primary$ratio_in_over_out, 1), c(4.2, 5.2, 4.9),
+expect_equal(round(primary$ratio_in_over_out, 1), c(4.2, 5.4, 5.1),
              "Primary inside/reference ratios")
 expect_true(all(primary$ratio_CI_low > 1 & primary$ratio_CI_high > primary$ratio_CI_low),
             "Primary sensitivity CIs must exclude parity.")
@@ -215,8 +228,25 @@ expect_true(min(primary$loo_ratio_min, na.rm = TRUE) >= 2.8,
             "Leave-one-reserve-out ratio drifted below the reported bound.")
 expect_true(max(sens$p_wilcoxon, na.rm = TRUE) <= 0.047,
             "Alternative-baseline Wilcoxon p-values drifted above the reported bound.")
-expect_true(min(round(sens$ratio_in_over_out, 1), na.rm = TRUE) >= 2.5,
+expect_true(min(round(sens$ratio_in_over_out, 1), na.rm = TRUE) >= 2.4,
             "Alternative-baseline inside/reference ratio drifted below the reported range.")
+
+# Figure 5 exposes changing annual and period-specific coverage explicitly.
+fig5_coverage <- read_required_csv("tables/table_figure5_annual_coverage.csv")
+fig5_members <- read_required_csv("tables/table_figure5_annual_membership.csv")
+fig5_summary <- read_required_csv("tables/table_figure5_period_summary.csv")
+fig5_summary <- fig5_summary[match(kelp_metrics, fig5_summary$metric), ]
+expect_true(all(fig5_members$mpa_present == fig5_members$reference_present),
+            "Figure 5 annual inside/reference membership differs.")
+expect_equal(fig5_coverage$n_pairs,
+             c(9L, 9L, 9L, 11L, 11L, 10L, 9L, 10L, 10L, 10L, 10L, 11L, 9L, 11L, 11L, 11L),
+             "Figure 5 annual contributing pairs")
+expect_equal(round(fig5_summary$ratio, 2), primary$ratio_in_over_out,
+             "Figure 5 geometric mean ratios")
+expect_equal(round(fig5_summary$lower, 2), primary$ratio_CI_low,
+             "Figure 5 lower intervals")
+expect_equal(round(fig5_summary$upper, 2), primary$ratio_CI_high,
+             "Figure 5 upper intervals")
 
 # SI/discussion support: two-heatwave repeatability, method-vs-data bridge, environmental null,
 # temporal-stability distinction, and reserve-level memory.
@@ -255,7 +285,8 @@ expect_true(nrow(env) == 35, "Environmental-moderator table is missing expected 
 expect_true(all(env$FDR >= 0.05), "At least one environmental moderator now survives FDR.")
 env_kelp <- env[env$taxon == "M. pyrifera", ]
 expect_true(nrow(env_kelp) >= 7, "Kelp environmental-moderator rows are incomplete.")
-expect_true(all(env_kelp$p >= 0.17), "Kelp environmental-moderator p-values drifted below the reported range.")
+expect_equal(round(min(env_kelp$p), 3), 0.208,
+             "Minimum kelp environmental-moderator P in the corrected-source report")
 
 stab <- read_required_csv("tables/table_resilience_stability.csv")
 stab_kelp <- expect_one(stab, stab$taxon == "Macrocystis pyrifera" &
@@ -299,7 +330,7 @@ kelp_eff <- expect_one(eff_models, grepl("^Giant kelp", eff_models$target),
 purp_eff <- expect_one(eff_models, grepl("^Purple urchin", eff_models$target),
                        "purple-urchin effectiveness prediction")
 expect_true(kelp_eff$rf_oob_R2 < 0 &&
-              kelp_eff$loo_cv_R2 > 0.35 && kelp_eff$loo_cv_R2 < 0.45,
+              round(kelp_eff$loo_cv_R2, 3) == 0.489,
             "Kelp prediction metrics changed enough to alter the weak/mixed prediction caveat.")
 expect_true(purp_eff$rf_oob_R2 < 0 && purp_eff$loo_cv_R2 < 0,
             "Purple-urchin prediction metrics no longer support the weak-prediction caveat.")

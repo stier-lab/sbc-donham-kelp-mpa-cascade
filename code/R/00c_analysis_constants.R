@@ -74,12 +74,10 @@ KFM_RDFC_SURVEY_START_YEAR <- 1996
 #' RATIONALE: Sites with fewer years provide unreliable trend estimates
 MINIMUM_YEARS_OF_DATA <- 5
 
-#' Standardized time point for effect size extraction (years post-MPA implementation)
-#' RATIONALE: Using a fixed time point (t=11) rather than the maximum observed time
-#' allows for comparable effect sizes across MPAs with different establishment dates.
-#' We chose 11 years because it corresponds to the age of our youngest MPA in 2023
-#' (MLPA South Coast MPAs implemented in 2012). This controls for differences in
-#' effect size that could arise simply from longer protection duration.
+#' Fixed model-time endpoint for effect size extraction (legacy constant name).
+#' Originally motivated by the youngest MPA's age in 2023, but most diver fits
+#' use observation indices rather than calendar years. Only calendar-time fits
+#' interpret t=11 as eleven years. The endpoint does not standardize calendar duration.
 #' See: Thiault et al. (2017) Methods in Ecology and Evolution for pBACIPS methodology.
 EFFECT_SIZE_TIME_YEARS <- 11
 
@@ -146,7 +144,7 @@ COOKS_DISTANCE_NUMERATOR <- 4
 
 #' California sheephead (Semicossyphus pulcher) length-weight relationship
 #' biomass = a * length^b (where length is in cm and biomass in grams)
-#' Source: Published literature
+#' Source: Hamilton & Caselle (2015), Methods p. 2, doi:10.1098/rspb.2014.1817
 SHEEPHEAD_BIOMASS_ALLOMETRIC_A <- 0.0144
 SHEEPHEAD_BIOMASS_ALLOMETRIC_B <- 3.04
 

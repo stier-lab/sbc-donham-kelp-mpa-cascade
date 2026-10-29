@@ -1,0 +1,8 @@
+proj_taxon_id,taxon_name,sample_method,nominal_area,role,rationale,qualification
+t-k-030,Styela montereyensis,1mquad,2,core,Sessile tunicate outside focal grazer and harvested-shellfish endpoints,Potential indirect food-web and environmental responses; not a validated unaffected control
+t-k-043,Tethya aurantium,band,60,core,Sessile sponge outside focal grazer and harvested-shellfish endpoints,Retain export spelling and project ID; handbook uses Tethya aurantia; potential indirect effects
+t-k-046,Leptogorgia chilensis,band,60,core,Sessile gorgonian outside focal grazer and harvested-shellfish endpoints,Handbook uses Lophogorgia chilensis; recruitment and disturbance can differ among reefs
+t-k-047,Muricea fruticosa,band,60,core,Sessile gorgonian outside focal grazer and harvested-shellfish endpoints,Potential indirect effects and habitat-specific responses
+t-k-044,Stylaster californicus,band,60,secondary,Sessile hydrocoral habitat comparator,Localized occurrence can make paired histories sparse
+t-k-045,Urticina eques,band,60,secondary,Sessile anemone habitat comparator,Historical handbook name differs; retain project ID without claiming resolved taxonomy
+t-k-058,Muricea californica,band,60,secondary,Sessile gorgonian habitat comparator,Sporadic targeting before formal addition in 1991; restrict all analyses to 1991 onward

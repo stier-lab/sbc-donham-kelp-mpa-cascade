@@ -172,10 +172,9 @@ p <- ggplot(mt, aes(slope_perSD, taxon, colour = taxon)) +
   facet_wrap(~ moderator, nrow = 1) +
   scale_colour_manual(values = setNames(col_taxa, taxa), guide = "none") +
   scale_shape_manual(values = c("FDR < 0.05" = 16, "p < 0.05" = 17, "ns" = 1), name = NULL) +
-  labs(x = "Change in MPA effect (lnRR) per SD of moderator", y = NULL,
-       title = "MPA effect vs environmental gradients (Kumagai PCA covariates, here modeled)") +
+  labs(x = "Change in MPA effect (lnRR) per SD of moderator", y = NULL) +
   theme_mpa(base_size = 9) +
-  theme(legend.position = "bottom", plot.title = element_text(size = 9, face = "bold"),
+  theme(legend.position = "bottom",
         axis.text.y = element_text(face = "italic", size = 7),
         strip.text = element_text(size = 7))
 ggsave(here::here("plots", "fig_s_env_moderators.pdf"), p, width = 180, height = 80, units = "mm", device = cairo_pdf)

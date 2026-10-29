@@ -1,0 +1,789 @@
+{
+  "release": "lobster_singleton_sampling_2026_10_18",
+  "applied": true,
+  "scope": {
+    "programme": "PISCO",
+    "taxon": "Panulirus interruptus",
+    "response": "Bio"
+  },
+  "sampling": "Sample vector positions, not singleton numeric values; only singleton cached biomass replaced",
+  "a": 0.001352821,
+  "b": 2.913963113,
+  "length_unit": "mm",
+  "mass_unit": "g",
+  "files": {
+    "harmonized_raw_responses.csv": {
+      "rows": 6280,
+      "changed_rows": 6,
+      "changes": {
+        "PISCO/Bio": 6
+      },
+      "non_target_rows_preserved": 6218,
+      "before_md5": "c817b10fac60d714be510fc8547a2685",
+      "after_md5": "ec80b1522b88b81736f28810274003f9"
+    },
+    "harmonized_response_ratios.csv": {
+      "rows": 3341,
+      "changed_rows": 31,
+      "changes": {
+        "PISCO/Bio": 31
+      },
+      "non_target_rows_preserved": 3310,
+      "before_md5": "a0654cdb05e8fccfd58ab1bd6b13b4c9",
+      "after_md5": "43cbc08a104d22e6bfafc1b38ba8ac13"
+    }
+  },
+  "changed_records": {
+    "harmonized_raw_responses.csv": [
+      {
+        "key": [
+          "Abalone Cove SMCA",
+          "2016",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio",
+          "mpa"
+        ],
+        "before": {
+          "value": "0.156735525187098"
+        },
+        "after": {
+          "value": "0.570696210036814"
+        }
+      },
+      {
+        "key": [
+          "Abalone Cove SMCA",
+          "2017",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio",
+          "mpa"
+        ],
+        "before": {
+          "value": "0.259976460638117"
+        },
+        "after": {
+          "value": "0.894304598615332"
+        }
+      },
+      {
+        "key": [
+          "Abalone Cove SMCA",
+          "2023",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio",
+          "mpa"
+        ],
+        "before": {
+          "value": "0.226070423521575"
+        },
+        "after": {
+          "value": "0.894304598615332"
+        }
+      },
+      {
+        "key": [
+          "Matlahuayl SMR",
+          "2023",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio",
+          "mpa"
+        ],
+        "before": {
+          "value": "0.36964266403551"
+        },
+        "after": {
+          "value": "1.341456897923"
+        }
+      },
+      {
+        "key": [
+          "Point Vicente SMCA",
+          "2012",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio",
+          "mpa"
+        ],
+        "before": {
+          "value": "0.249736529818614"
+        },
+        "after": {
+          "value": "0.948189909278433"
+        }
+      },
+      {
+        "key": [
+          "Abalone Cove SMCA",
+          "2013",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio",
+          "reference"
+        ],
+        "before": {
+          "value": "0.112173155031274"
+        },
+        "after": {
+          "value": "0.439896598262487"
+        }
+      }
+    ],
+    "harmonized_response_ratios.csv": [
+      {
+        "key": [
+          "Abalone Cove SMCA",
+          "2012",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.00423521103840538",
+          "reference": "0.192761738286829",
+          "Diff": "0.0219712224845337",
+          "lnDiff": "-3.81802175077754"
+        },
+        "after": {
+          "mpa": "0.016608741442628",
+          "reference": "0.205135268691051",
+          "Diff": "0.0809648265196268",
+          "lnDiff": "-2.51374045911784"
+        }
+      },
+      {
+        "key": [
+          "Abalone Cove SMCA",
+          "2013",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.00423521103840538",
+          "reference": "0.0127056331152161",
+          "Diff": "0.333333333333333",
+          "lnDiff": "-1.09861228866811"
+        },
+        "after": {
+          "mpa": "0.016608741442628",
+          "reference": "0.049826224327884",
+          "Diff": "0.333333333333333",
+          "lnDiff": "-1.09861228866811"
+        }
+      },
+      {
+        "key": [
+          "Abalone Cove SMCA",
+          "2014",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.00423521103840538",
+          "reference": "0.236041979340506",
+          "Diff": "0.0179426178777116",
+          "lnDiff": "-4.02057650893318"
+        },
+        "after": {
+          "mpa": "0.016608741442628",
+          "reference": "0.248415509744728",
+          "Diff": "0.0668587136918107",
+          "lnDiff": "-2.70517363700549"
+        }
+      },
+      {
+        "key": [
+          "Abalone Cove SMCA",
+          "2015",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.00423521103840538",
+          "reference": "0.431521525114523",
+          "Diff": "0.00981459971731743",
+          "lnDiff": "-4.62388423483447"
+        },
+        "after": {
+          "mpa": "0.016608741442628",
+          "reference": "0.443895055518745",
+          "Diff": "0.0374159190018881",
+          "lnDiff": "-3.28565902335969"
+        }
+      },
+      {
+        "key": [
+          "Abalone Cove SMCA",
+          "2016",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.0160706279204141",
+          "reference": "0.490554411946258",
+          "Diff": "0.032760133288078",
+          "lnDiff": "-3.4185429513829"
+        },
+        "after": {
+          "mpa": "0.0597031678702373",
+          "reference": "0.502927942350481",
+          "Diff": "0.118711176776556",
+          "lnDiff": "-2.13106182192939"
+        }
+      },
+      {
+        "key": [
+          "Abalone Cove SMCA",
+          "2017",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.0238665600097905",
+          "reference": "0.153312022578806",
+          "Diff": "0.155673114269447",
+          "lnDiff": "-1.8599968915493"
+        },
+        "after": {
+          "mpa": "0.0841394925692475",
+          "reference": "0.165685552983029",
+          "Diff": "0.507826367805682",
+          "lnDiff": "-0.67761568548721"
+        }
+      },
+      {
+        "key": [
+          "Abalone Cove SMCA",
+          "2018",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.369624383767651",
+          "reference": "0.0815959576856542",
+          "Diff": "4.5299349900594",
+          "lnDiff": "1.5107075884117"
+        },
+        "after": {
+          "mpa": "0.381997914171874",
+          "reference": "0.0939694880898768",
+          "Diff": "4.06512711664996",
+          "lnDiff": "1.40244501351945"
+        }
+      },
+      {
+        "key": [
+          "Abalone Cove SMCA",
+          "2019",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.53168846647542",
+          "reference": "0.540125313609225",
+          "Diff": "0.984379833862205",
+          "lnDiff": "-0.0157434463900198"
+        },
+        "after": {
+          "mpa": "0.544061996879643",
+          "reference": "0.552498844013448",
+          "Diff": "0.984729656495717",
+          "lnDiff": "-0.0153881358916397"
+        }
+      },
+      {
+        "key": [
+          "Abalone Cove SMCA",
+          "2020",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.310643330206619",
+          "reference": "1.00423521103841",
+          "Diff": "0.309333238659702",
+          "lnDiff": "-1.17333614092109"
+        },
+        "after": {
+          "mpa": "0.323016860610842",
+          "reference": "1.01660874144263",
+          "Diff": "0.317739605654444",
+          "lnDiff": "-1.14652308178613"
+        }
+      },
+      {
+        "key": [
+          "Abalone Cove SMCA",
+          "2021",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.51581618849116",
+          "reference": "0.0836760613105082",
+          "Diff": "6.16444154292887",
+          "lnDiff": "1.81879754742465"
+        },
+        "after": {
+          "mpa": "0.528189718895382",
+          "reference": "0.0960495917147308",
+          "Diff": "5.49913549309107",
+          "lnDiff": "1.70459089680952"
+        }
+      },
+      {
+        "key": [
+          "Abalone Cove SMCA",
+          "2022",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.090424063893624",
+          "reference": "0.373003815540603",
+          "Diff": "0.24242128398223",
+          "lnDiff": "-1.41707822343441"
+        },
+        "after": {
+          "mpa": "0.102797594297847",
+          "reference": "0.385377345944826",
+          "Diff": "0.266745296213037",
+          "lnDiff": "-1.32146102264633"
+        }
+      },
+      {
+        "key": [
+          "Abalone Cove SMCA",
+          "2023",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.0213062464904903",
+          "reference": "0.144252063685515",
+          "Diff": "0.147701502121594",
+          "lnDiff": "-1.91256191941125"
+        },
+        "after": {
+          "mpa": "0.0841394925692475",
+          "reference": "0.156625594089737",
+          "Diff": "0.537201426486149",
+          "lnDiff": "-0.621382158926772"
+        }
+      },
+      {
+        "key": [
+          "Matlahuayl SMR",
+          "2011",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.256327274959728",
+          "reference": "0.247634866335973",
+          "Diff": "1.03510171549091",
+          "lnDiff": "0.0344996977252058"
+        },
+        "after": {
+          "mpa": "0.261435788468248",
+          "reference": "0.252743379844494",
+          "Diff": "1.03439223068514",
+          "lnDiff": "0.0338140375087332"
+        }
+      },
+      {
+        "key": [
+          "Matlahuayl SMR",
+          "2012",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "1.0019430920815",
+          "reference": "0.0706436787685582",
+          "Diff": "14.1830537359761",
+          "lnDiff": "2.6520478530648"
+        },
+        "after": {
+          "mpa": "1.00705160559002",
+          "reference": "0.075752192277079",
+          "Diff": "13.2940258930926",
+          "lnDiff": "2.58731475334523"
+        }
+      },
+      {
+        "key": [
+          "Matlahuayl SMR",
+          "2019",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.0563580557156604",
+          "reference": "0.2390080324922",
+          "Diff": "0.235799839561876",
+          "lnDiff": "-1.44477197127827"
+        },
+        "after": {
+          "mpa": "0.0614665692241811",
+          "reference": "0.244116546000721",
+          "Diff": "0.251791901168386",
+          "lnDiff": "-1.37915232163663"
+        }
+      },
+      {
+        "key": [
+          "Matlahuayl SMR",
+          "2020",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.0903581677968277",
+          "reference": "0.0738008384634113",
+          "Diff": "1.22435150708518",
+          "lnDiff": "0.202411321853303"
+        },
+        "after": {
+          "mpa": "0.0954666813053484",
+          "reference": "0.078909351971932",
+          "Diff": "1.20982721210669",
+          "lnDiff": "0.190477549499949"
+        }
+      },
+      {
+        "key": [
+          "Matlahuayl SMR",
+          "2021",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.216947543860636",
+          "reference": "0.151931743247906",
+          "Diff": "1.42792769452164",
+          "lnDiff": "0.356224228546957"
+        },
+        "after": {
+          "mpa": "0.222056057369157",
+          "reference": "0.157040256756426",
+          "Diff": "1.41400722308784",
+          "lnDiff": "0.346427675727136"
+        }
+      },
+      {
+        "key": [
+          "Matlahuayl SMR",
+          "2022",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.982719302522751",
+          "reference": "0.135530240755046",
+          "Diff": "7.25092272431576",
+          "lnDiff": "1.98112873308756"
+        },
+        "after": {
+          "mpa": "0.987827816031272",
+          "reference": "0.140638754263567",
+          "Diff": "7.02386636744529",
+          "lnDiff": "1.94931383101591"
+        }
+      },
+      {
+        "key": [
+          "Matlahuayl SMR",
+          "2023",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.0058292762444853",
+          "reference": "0.050443402415549",
+          "Diff": "0.115560726781754",
+          "lnDiff": "-2.15795911418829"
+        },
+        "after": {
+          "mpa": "0.0211548167700476",
+          "reference": "0.0555519159240697",
+          "Diff": "0.380811650114151",
+          "lnDiff": "-0.965450382745746"
+        }
+      },
+      {
+        "key": [
+          "Point Vicente SMCA",
+          "2011",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.0227033127110098",
+          "reference": "0.0148919222151076",
+          "Diff": "1.52453876558512",
+          "lnDiff": "0.42169191551587"
+        },
+        "after": {
+          "mpa": "0.0262737563070767",
+          "reference": "0.0184623658111745",
+          "Diff": "1.42309802415323",
+          "lnDiff": "0.352836202296165"
+        }
+      },
+      {
+        "key": [
+          "Point Vicente SMCA",
+          "2012",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.00461436439338099",
+          "reference": "0.0171339936161873",
+          "Diff": "0.269310500327348",
+          "lnDiff": "-1.31189028873516"
+        },
+        "after": {
+          "mpa": "0.0167883241482756",
+          "reference": "0.0207044372122542",
+          "Diff": "0.810856338482808",
+          "lnDiff": "-0.209664381763003"
+        }
+      },
+      {
+        "key": [
+          "Point Vicente SMCA",
+          "2013",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.00153812146446033",
+          "reference": "0.0355769209725831",
+          "Diff": "0.0432336869636826",
+          "lnDiff": "-3.14113529678499"
+        },
+        "after": {
+          "mpa": "0.00510856506052725",
+          "reference": "0.03914736456865",
+          "Diff": "0.130495759211804",
+          "lnDiff": "-2.03641454920868"
+        }
+      },
+      {
+        "key": [
+          "Point Vicente SMCA",
+          "2015",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "1.00153812146446",
+          "reference": "0.0767843919851371",
+          "Diff": "13.0435117811224",
+          "lnDiff": "2.5682908286098"
+        },
+        "after": {
+          "mpa": "1.00510856506053",
+          "reference": "0.0803548355812041",
+          "Diff": "12.508376848644",
+          "lnDiff": "2.52639856775095"
+        }
+      },
+      {
+        "key": [
+          "Point Vicente SMCA",
+          "2016",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.0199187363573189",
+          "reference": "0.047445085403439",
+          "Diff": "0.419827178894174",
+          "lnDiff": "-0.86791213120876"
+        },
+        "after": {
+          "mpa": "0.0234891799533859",
+          "reference": "0.0510155289995059",
+          "Diff": "0.460431958935746",
+          "lnDiff": "-0.775590188957665"
+        }
+      },
+      {
+        "key": [
+          "Point Vicente SMCA",
+          "2017",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.0964412484634677",
+          "reference": "0.0339306379190603",
+          "Diff": "2.84230578551229",
+          "lnDiff": "1.04461561907074"
+        },
+        "after": {
+          "mpa": "0.100011692059535",
+          "reference": "0.0375010815151273",
+          "Diff": "2.66690154040469",
+          "lnDiff": "0.980917326784876"
+        }
+      },
+      {
+        "key": [
+          "Point Vicente SMCA",
+          "2018",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.365380800923978",
+          "reference": "0.0379520792118444",
+          "Diff": "9.62742512431169",
+          "lnDiff": "2.26461580940446"
+        },
+        "after": {
+          "mpa": "0.368951244520045",
+          "reference": "0.0415225228079113",
+          "Diff": "8.88556907360524",
+          "lnDiff": "2.18442850835752"
+        }
+      },
+      {
+        "key": [
+          "Point Vicente SMCA",
+          "2019",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.051025809332798",
+          "reference": "0.0265934791339858",
+          "Diff": "1.9187338774184",
+          "lnDiff": "0.651665529669678"
+        },
+        "after": {
+          "mpa": "0.0545962529288649",
+          "reference": "0.0301639227300528",
+          "Diff": "1.80998517392666",
+          "lnDiff": "0.593318654043447"
+        }
+      },
+      {
+        "key": [
+          "Point Vicente SMCA",
+          "2020",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.117820067429701",
+          "reference": "0.0364802774456749",
+          "Diff": "3.22969219752108",
+          "lnDiff": "1.17238683780861"
+        },
+        "after": {
+          "mpa": "0.121390511025767",
+          "reference": "0.0400507210417418",
+          "Diff": "3.03091949079397",
+          "lnDiff": "1.10886603579415"
+        }
+      },
+      {
+        "key": [
+          "Point Vicente SMCA",
+          "2021",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.0117552515855148",
+          "reference": "0.0180042732439377",
+          "Diff": "0.652914529025657",
+          "lnDiff": "-0.426309047972882"
+        },
+        "after": {
+          "mpa": "0.0153256951815818",
+          "reference": "0.0215747168400046",
+          "Diff": "0.710354406745413",
+          "lnDiff": "-0.341991269057739"
+        }
+      },
+      {
+        "key": [
+          "Point Vicente SMCA",
+          "2022",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.304622390082082",
+          "reference": "0.0406082444390512",
+          "Diff": "7.50149124371256",
+          "lnDiff": "2.01510183327271"
+        },
+        "after": {
+          "mpa": "0.308192833678149",
+          "reference": "0.0441786880351182",
+          "Diff": "6.97605219587243",
+          "lnDiff": "1.94248316878517"
+        }
+      },
+      {
+        "key": [
+          "Point Vicente SMCA",
+          "2023",
+          "Panulirus interruptus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.0848801904681722",
+          "reference": "0.055473834993088",
+          "Diff": "1.53009415121107",
+          "lnDiff": "0.4253292702503"
+        },
+        "after": {
+          "mpa": "0.0884506340642391",
+          "reference": "0.059044278589155",
+          "Diff": "1.49803903405614",
+          "lnDiff": "0.404156942202892"
+        }
+      }
+    ]
+  }
+}

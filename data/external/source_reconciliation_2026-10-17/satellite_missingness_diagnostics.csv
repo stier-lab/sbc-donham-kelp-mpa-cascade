@@ -1,0 +1,83 @@
+"MPA","group","delivered_rep","paired_years","max_abs_finite_difference","reconstructed_missing_delivered_finite","of_those_delivered_zero","delivered_missing_reconstructed_finite","same_missingness","exact_after_all_missing_year_to_zero"
+"San Miguel Island SC","MPA",1,37,799251,0,0,1,FALSE,FALSE
+"San Miguel Island SC","Ref_1",1,37,23245,0,0,1,FALSE,FALSE
+"San Miguel Island SC","Ref_1",2,37,17903936,0,0,1,FALSE,FALSE
+"San Miguel Island SC","Ref_2",1,37,17881441,0,0,1,FALSE,FALSE
+"San Miguel Island SC","Ref_2",2,37,5578,0,0,1,FALSE,FALSE
+"Harris Point SMR","MPA",1,36,7568,0,0,2,FALSE,FALSE
+"Harris Point SMR","Ref_1",1,37,3645121,0,0,1,FALSE,FALSE
+"Harris Point SMR","Ref_1",2,36,351642,0,0,2,FALSE,FALSE
+"Harris Point SMR","Ref_2",1,37,8568,0,0,1,FALSE,FALSE
+"Harris Point SMR","Ref_2",2,36,3645121,0,0,2,FALSE,FALSE
+"Carrington Pt SMR","MPA",1,37,0,0,0,1,FALSE,FALSE
+"Carrington Pt SMR","Ref_1",1,37,0,0,0,1,FALSE,FALSE
+"Carrington Pt SMR","Ref_1",2,37,2299423,0,0,1,FALSE,FALSE
+"Carrington Pt SMR","Ref_2",1,37,2299423,0,0,1,FALSE,FALSE
+"Carrington Pt SMR","Ref_2",2,37,0,0,0,1,FALSE,FALSE
+"Skunk Pt SMR","MPA",1,36,0,0,0,2,FALSE,FALSE
+"Skunk Pt SMR","Ref_1",1,37,2249,0,0,1,FALSE,FALSE
+"Skunk Pt SMR","Ref_1",2,38,248119,0,0,0,TRUE,FALSE
+"South Point SMR","MPA",1,37,0,0,0,1,FALSE,FALSE
+"South Point SMR","Ref_1",1,37,3893304,0,0,1,FALSE,FALSE
+"South Point SMR","Ref_1",2,37,0,0,0,1,FALSE,FALSE
+"South Point SMR","Ref_2",1,37,0,0,0,1,FALSE,FALSE
+"South Point SMR","Ref_2",2,37,3893304,0,0,1,FALSE,FALSE
+"Gull Island SMR","MPA",1,37,0,0,0,1,FALSE,FALSE
+"Gull Island SMR","Ref_1",1,37,0,0,0,1,FALSE,FALSE
+"Gull Island SMR","Ref_1",2,33,1750412,0,0,5,FALSE,FALSE
+"Gull Island SMR","Ref_2",1,37,1750412,0,0,1,FALSE,FALSE
+"Gull Island SMR","Ref_2",2,33,0,0,0,5,FALSE,FALSE
+"Santa Barbara Island SMR","MPA",1,37,0,0,0,1,FALSE,FALSE
+"Santa Barbara Island SMR","Ref_1",1,38,0,0,0,0,TRUE,TRUE
+"Santa Barbara Island SMR","Ref_1",2,38,1311267,0,0,0,TRUE,FALSE
+"Arrow Point to Lion Head Point SMCA","MPA",1,38,1868,0,0,0,TRUE,FALSE
+"Arrow Point to Lion Head Point SMCA","Ref_1",1,38,0,0,0,0,TRUE,TRUE
+"Arrow Point to Lion Head Point SMCA","Ref_1",2,38,65282,0,0,0,TRUE,FALSE
+"Arrow Point to Lion Head Point SMCA","Ref_2",1,38,65282,0,0,0,TRUE,FALSE
+"Arrow Point to Lion Head Point SMCA","Ref_2",2,38,0,0,0,0,TRUE,TRUE
+"Farnsworth Onshore SMCA","MPA",1,24,34550,0,0,14,FALSE,FALSE
+"Farnsworth Onshore SMCA","Ref_1",1,38,287894,0,0,0,TRUE,FALSE
+"Farnsworth Onshore SMCA","Ref_1",2,20,61618,0,0,18,FALSE,FALSE
+"Farnsworth Onshore SMCA","Ref_2",1,38,0,0,0,0,TRUE,TRUE
+"Farnsworth Onshore SMCA","Ref_2",2,20,251564,0,0,18,FALSE,FALSE
+"Swamis SMCA","MPA",1,37,0,0,0,1,FALSE,FALSE
+"Swamis SMCA","Ref_1",1,37,0,0,0,1,FALSE,FALSE
+"Swamis SMCA","Ref_1",2,37,354082,0,0,1,FALSE,FALSE
+"Swamis SMCA","Ref_2",1,37,354082,0,0,1,FALSE,FALSE
+"Swamis SMCA","Ref_2",2,37,0,0,0,1,FALSE,FALSE
+"South La Jolla SMR","MPA",1,36,0,0,0,2,FALSE,FALSE
+"South La Jolla SMR","Ref_1",1,35,0,0,0,3,FALSE,FALSE
+"South La Jolla SMR","Ref_1",2,38,5381300,0,0,0,TRUE,FALSE
+"Cabrillo SMR","MPA",1,34,0,0,0,4,FALSE,FALSE
+"Cabrillo SMR","Ref_1",1,34,0,0,0,4,FALSE,FALSE
+"Cabrillo SMR","Ref_1",2,38,9926362,0,0,0,TRUE,FALSE
+"Point Conception SMR","MPA",1,37,0,0,0,1,FALSE,FALSE
+"Point Conception SMR","Ref_1",1,37,0,0,0,1,FALSE,FALSE
+"Point Conception SMR","Ref_1",2,37,6160042,0,0,1,FALSE,FALSE
+"Naples SMCA","MPA",1,37,0,0,0,1,FALSE,FALSE
+"Naples SMCA","Ref_1",1,37,908770,0,0,1,FALSE,FALSE
+"Naples SMCA","Ref_1",2,37,0,0,0,1,FALSE,FALSE
+"Naples SMCA","Ref_2",1,37,0,0,0,1,FALSE,FALSE
+"Naples SMCA","Ref_2",2,37,908770,0,0,1,FALSE,FALSE
+"Campus Point SMCA","MPA",1,37,0,0,0,1,FALSE,FALSE
+"Campus Point SMCA","Ref_1",1,37,1302326,0,0,1,FALSE,FALSE
+"Campus Point SMCA","Ref_1",2,37,0,0,0,1,FALSE,FALSE
+"Campus Point SMCA","Ref_2",1,37,0,0,0,1,FALSE,FALSE
+"Campus Point SMCA","Ref_2",2,37,1302326,0,0,1,FALSE,FALSE
+"Judith Rk SMR","MPA",1,37,0,0,0,1,FALSE,FALSE
+"Judith Rk SMR","Ref_1",1,37,86546,0,0,1,FALSE,FALSE
+"Judith Rk SMR","Ref_1",2,37,21841649,0,0,1,FALSE,FALSE
+"Judith Rk SMR","Ref_2",1,37,21841649,0,0,1,FALSE,FALSE
+"Judith Rk SMR","Ref_2",2,37,0,0,0,1,FALSE,FALSE
+"Point Dume SMCA","MPA",1,37,0,0,0,1,FALSE,FALSE
+"Point Dume SMCA","Ref_1",1,37,0,0,0,1,FALSE,FALSE
+"Point Dume SMCA","Ref_1",2,38,1042316,0,0,0,TRUE,FALSE
+"Point Dume SMR","MPA",1,37,0,0,0,1,FALSE,FALSE
+"Point Dume SMR","Ref_1",1,37,0,0,0,1,FALSE,FALSE
+"Point Dume SMR","Ref_1",2,38,1110628,0,0,0,TRUE,FALSE
+"Abalone Cove SMCA","MPA",1,36,15753,0,0,2,FALSE,FALSE
+"Abalone Cove SMCA","Ref_1",1,38,0,0,0,0,TRUE,TRUE
+"Abalone Cove SMCA","Ref_1",2,38,362675,0,0,0,TRUE,FALSE
+"Point Vicente SMCA","MPA",1,35,42844,0,0,3,FALSE,FALSE
+"Point Vicente SMCA","Ref_1",1,38,0,0,0,0,TRUE,TRUE
+"Point Vicente SMCA","Ref_1",2,36,850820,0,0,2,FALSE,FALSE

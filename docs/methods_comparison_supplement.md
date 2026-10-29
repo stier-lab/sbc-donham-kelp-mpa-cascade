@@ -184,28 +184,15 @@ Kumagai mapped in their PCA is now obtained per MPA** (island-inclusive) and tes
 (An earlier attempt used the mainland-only tabular product `knb-lter-sbc.144`, whose
 500-m coastline segments left the island MPAs 32–105 km from data; it is superseded.)
 
-The result is a clean null. **No environmental moderator survives FDR correction**
-(`table_s_env_moderators.csv`). The strongest signal is a decline in the red-urchin
-(*M. franciscanus*) effect with marine-heatwave intensity (−1.84 lnRR per SD,
-*p* = 0.003, FDR = 0.21) — suggestive but not robust, and directionally sensible
-(red urchins fared relatively worse inside the most heat-exposed reserves).
-**Wave exposure**, **nitrate**, and **human gravity** (all 34 MPAs incl. islands,
-*k* = 10–17) do not significantly modulate any taxon's effect either (none survive
-FDR; nitrate's only nominal signal, red urchin *p* = 0.04, mirrors its MHW signal
-because nitrate is SST-derived and tracks the cold-upwelling gradient; human gravity's
-nominal lobster signal, *p* = 0.07, is in the expected direction — weaker reserve
-benefit near cities — but does not survive correction).
-Critically, **giant kelp's effect is not detectably modulated by any gradient**
-(all *p* ≥ 0.17): its heatwave resilience is not an artifact of where reserves
-happen to sit thermally, biogeographically, by size, or by wave exposure. The Knapp–Hartung
-adjustment is essential here — without it the same *k* = 9–15 regressions return
-implausibly tiny *p*-values (down to 10⁻¹⁸) because inverse-variance weighting with
-a handful of high-precision MPAs is overconfident; these tests are exploratory
-and the thermal/biogeographic moderators are mutually collinear. The practical
-upshot for the main analysis is reassuring: incorporating the environmental
-covariates Kumagai only visualised does not reveal hidden modulation of the reserve
-effect, so their omission from the primary models does not appear to bias the
-headline conclusions.
+None of the 35 environmental-moderator tests survived BH correction
+(`table_s_env_moderators.csv`, corrected-reference refit of 16 October 2026).
+The red-urchin contrast declined with marine-heatwave intensity in the nominal
+test (slope -1.63 lnRR per SD, P = 0.00729), but its adjusted P was 0.209.
+Kelp moderator P values ranged from 0.167 to 0.966, with 12-19 MPAs per test.
+These exploratory regressions use Knapp-Hartung inference and correlated
+environmental predictors. They do not establish that environmental placement
+or unmeasured covariates are irrelevant, and they do not validate a causal
+protection effect.
 
 ---
 

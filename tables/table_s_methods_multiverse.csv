@@ -1,6 +1,5 @@
 "substrate","waypoint","taxon","role","lnRR_before","lnRR_during","lnRR_after","dDB","dDB_se","dDB_p","dAB","dAB_se","dAB_p"
 "OURS","WP0 pooled|raw|Tweedie-GLMM","Panulirus interruptus","Predator",1.064,0.9469,1.108,-0.1166,0.3306,0.7243,0.04477,0.2586,0.8626
-"OURS","WP1 pooled|prop|Tweedie-GLMM","Panulirus interruptus","Predator",0.7881,0.9891,1.275,0.201,0.2377,0.3979,0.4871,0.1834,0.007915
 "OURS","WP2 pooled|prop|LMM-log","Panulirus interruptus","Predator",0.6697,1.235,1.319,0.5649,0.271,0.03754,0.6494,0.2084,0.001923
 "OURS","WP3 paired|prop|LMM-lnRR","Panulirus interruptus","Predator",0.2404,0.897,1.104,0.6566,0.2145,0.002428,0.8632,0.1682,5.44e-07
 "OURS","WP4 paired|prop|AR1-LMM","Panulirus interruptus","Predator",-0.01951,0.4682,0.7389,0.4877,0.255,0.05581,0.7584,0.274,0.005646
@@ -22,7 +21,7 @@
 "OURS","WP3 paired|prop|LMM-lnRR","Mesocentrotus franciscanus","Herbivore",0.1817,-0.1377,-0.4704,-0.3194,0.1809,0.07839,-0.6522,0.1388,3.997e-06
 "OURS","WP4 paired|prop|AR1-LMM","Mesocentrotus franciscanus","Herbivore",0.004657,-0.2352,-0.4696,-0.2399,0.2401,0.3176,-0.4743,0.2921,0.1045
 "OURS","WP5 paired|prop|IV-meta","Mesocentrotus franciscanus","Herbivore",0.1699,-0.1643,-0.4319,-0.3343,0.1028,0.00291,-0.6019,0.09373,5.05e-07
-"OURS","WP0 pooled|raw|Tweedie-GLMM","Macrocystis pyrifera","Producer",-0.2307,0.5508,0.8255,0.7815,0.298,0.008722,1.056,0.2177,1.228e-06
+"OURS","WP0 pooled|raw|Tweedie-GLMM","Macrocystis pyrifera","Producer",-0.2307,0.5508,0.8255,0.7815,0.298,0.008722,1.056,0.2177,1.227e-06
 "OURS","WP1 pooled|prop|Tweedie-GLMM","Macrocystis pyrifera","Producer",-0.1094,0.5195,0.8032,0.6289,0.2712,0.02039,0.9126,0.2063,9.735e-06
 "OURS","WP2 pooled|prop|LMM-log","Macrocystis pyrifera","Producer",-0.1984,0.9472,1.228,1.146,0.4755,0.01629,1.426,0.3609,8.688e-05
 "OURS","WP3 paired|prop|LMM-lnRR","Macrocystis pyrifera","Producer",-0.2556,0.9517,1.266,1.207,0.3346,0.0003627,1.522,0.2564,8.136e-09

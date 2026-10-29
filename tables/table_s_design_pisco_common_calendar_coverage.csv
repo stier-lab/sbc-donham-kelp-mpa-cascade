@@ -1,0 +1,90 @@
+"series_id","MPA","Taxa","Source","Resp","Region","primary_design","primary_model","common_calendar_start","common_calendar_end","n_common_years","expected_years","observed_years","eligible","complete_calendar"
+"Abalone Cove SMCA|M. franciscanus|PISCO|Bio","Abalone Cove SMCA","M. franciscanus","PISCO","Bio","Mainland","CI","Linear",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Abalone Cove SMCA|M. franciscanus|PISCO|Den","Abalone Cove SMCA","M. franciscanus","PISCO","Den","Mainland","CI","Linear",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Abalone Cove SMCA|M. pyrifera|PISCO|Bio","Abalone Cove SMCA","M. pyrifera","PISCO","Bio","Mainland","CI","Mean",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Abalone Cove SMCA|P. interruptus|PISCO|Bio","Abalone Cove SMCA","P. interruptus","PISCO","Bio","Mainland","CI","Mean",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Abalone Cove SMCA|P. interruptus|PISCO|Den","Abalone Cove SMCA","P. interruptus","PISCO","Den","Mainland","CI","Mean",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Abalone Cove SMCA|S. pulcher|PISCO|Bio","Abalone Cove SMCA","S. pulcher","PISCO","Bio","Mainland","CI","Linear",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Abalone Cove SMCA|S. pulcher|PISCO|Den","Abalone Cove SMCA","S. pulcher","PISCO","Den","Mainland","CI","Linear",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Abalone Cove SMCA|S. purpuratus|PISCO|Bio","Abalone Cove SMCA","S. purpuratus","PISCO","Bio","Mainland","CI","Mean",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Abalone Cove SMCA|S. purpuratus|PISCO|Den","Abalone Cove SMCA","S. purpuratus","PISCO","Den","Mainland","CI","Linear",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Anacapa Island SMR 2003|M. franciscanus|PISCO|Den","Anacapa Island SMR 2003","M. franciscanus","PISCO","Den","Islands","CI","Linear",2013,2023,10,11,"2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,FALSE
+"Anacapa Island SMR 2003|M. pyrifera|PISCO|Bio","Anacapa Island SMR 2003","M. pyrifera","PISCO","Bio","Islands","CI","Mean",2013,2023,10,11,"2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,FALSE
+"Anacapa Island SMR 2003|P. interruptus|PISCO|Den","Anacapa Island SMR 2003","P. interruptus","PISCO","Den","Islands","CI","Mean",2013,2023,10,11,"2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,FALSE
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Bio","Anacapa Island SMR 2003","S. pulcher","PISCO","Bio","Islands","CI","Mean",2013,2023,10,11,"2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,FALSE
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Den","Anacapa Island SMR 2003","S. pulcher","PISCO","Den","Islands","CI","Linear",2013,2023,10,11,"2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,FALSE
+"Anacapa Island SMR 2003|S. purpuratus|PISCO|Den","Anacapa Island SMR 2003","S. purpuratus","PISCO","Den","Islands","CI","Linear",2013,2023,10,11,"2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,FALSE
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio","Blue Cavern Onshore SMCA","S. pulcher","PISCO","Bio","Islands","CI","Mean",2013,2023,6,11,"2016,2019,2020,2021,2022,2023",TRUE,FALSE
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den","Blue Cavern Onshore SMCA","S. pulcher","PISCO","Den","Islands","CI","Linear",2013,2023,6,11,"2016,2019,2020,2021,2022,2023",TRUE,FALSE
+"Campus Point SMCA|M. franciscanus|PISCO|Bio","Campus Point SMCA","M. franciscanus","PISCO","Bio","Mainland","CI","Mean",2013,2023,10,11,"2013,2014,2015,2016,2017,2018,2019,2021,2022,2023",TRUE,FALSE
+"Campus Point SMCA|M. franciscanus|PISCO|Den","Campus Point SMCA","M. franciscanus","PISCO","Den","Mainland","CI","Linear",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Campus Point SMCA|M. pyrifera|PISCO|Bio","Campus Point SMCA","M. pyrifera","PISCO","Bio","Mainland","CI","Linear",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Campus Point SMCA|P. interruptus|PISCO|Den","Campus Point SMCA","P. interruptus","PISCO","Den","Mainland","CI","Linear",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Campus Point SMCA","S. pulcher","PISCO","Bio","Mainland","CI","Mean",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Campus Point SMCA|S. pulcher|PISCO|Den","Campus Point SMCA","S. pulcher","PISCO","Den","Mainland","CI","Mean",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Campus Point SMCA|S. purpuratus|PISCO|Bio","Campus Point SMCA","S. purpuratus","PISCO","Bio","Mainland","CI","Linear",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Campus Point SMCA|S. purpuratus|PISCO|Den","Campus Point SMCA","S. purpuratus","PISCO","Den","Mainland","CI","Linear",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio","Farnsworth Onshore SMCA","S. pulcher","PISCO","Bio","Islands","CI","Mean",2013,2023,4,11,"2019,2021,2022,2023",TRUE,FALSE
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Den","Farnsworth Onshore SMCA","S. pulcher","PISCO","Den","Islands","CI","Mean",2013,2023,4,11,"2019,2021,2022,2023",TRUE,FALSE
+"Gull Island SMR|M. franciscanus|PISCO|Bio","Gull Island SMR","M. franciscanus","PISCO","Bio","Islands","CI","Mean",2013,2023,6,11,"2014,2015,2017,2018,2019,2021",TRUE,FALSE
+"Gull Island SMR|M. franciscanus|PISCO|Den","Gull Island SMR","M. franciscanus","PISCO","Den","Islands","CI","Linear",2013,2023,7,11,"2014,2015,2017,2018,2019,2021,2023",TRUE,FALSE
+"Gull Island SMR|M. pyrifera|PISCO|Bio","Gull Island SMR","M. pyrifera","PISCO","Bio","Islands","CI","Linear",2013,2023,7,11,"2014,2015,2017,2018,2019,2021,2023",TRUE,FALSE
+"Gull Island SMR|P. interruptus|PISCO|Den","Gull Island SMR","P. interruptus","PISCO","Den","Islands","CI","Mean",2013,2023,7,11,"2014,2015,2017,2018,2019,2021,2023",TRUE,FALSE
+"Gull Island SMR|S. pulcher|PISCO|Bio","Gull Island SMR","S. pulcher","PISCO","Bio","Islands","CI","Linear",2013,2023,10,11,"2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,FALSE
+"Gull Island SMR|S. pulcher|PISCO|Den","Gull Island SMR","S. pulcher","PISCO","Den","Islands","CI","Linear",2013,2023,10,11,"2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,FALSE
+"Gull Island SMR|S. purpuratus|PISCO|Bio","Gull Island SMR","S. purpuratus","PISCO","Bio","Islands","CI","Linear",2013,2023,6,11,"2014,2015,2017,2018,2019,2021",TRUE,FALSE
+"Gull Island SMR|S. purpuratus|PISCO|Den","Gull Island SMR","S. purpuratus","PISCO","Den","Islands","CI","Linear",2013,2023,7,11,"2014,2015,2017,2018,2019,2021,2023",TRUE,FALSE
+"Harris Point SMR|M. franciscanus|PISCO|Bio","Harris Point SMR","M. franciscanus","PISCO","Bio","Islands","CI","Mean",2013,2023,6,11,"2014,2016,2018,2019,2021,2022",TRUE,FALSE
+"Harris Point SMR|M. franciscanus|PISCO|Den","Harris Point SMR","M. franciscanus","PISCO","Den","Islands","CI","Mean",2013,2023,8,11,"2014,2016,2018,2019,2020,2021,2022,2023",TRUE,FALSE
+"Harris Point SMR|M. pyrifera|PISCO|Bio","Harris Point SMR","M. pyrifera","PISCO","Bio","Islands","CI","Mean",2013,2023,8,11,"2014,2016,2018,2019,2020,2021,2022,2023",TRUE,FALSE
+"Harris Point SMR|P. interruptus|PISCO|Den","Harris Point SMR","P. interruptus","PISCO","Den","Islands","CI","Linear",2013,2023,8,11,"2014,2016,2018,2019,2020,2021,2022,2023",TRUE,FALSE
+"Harris Point SMR|S. pulcher|PISCO|Bio","Harris Point SMR","S. pulcher","PISCO","Bio","Islands","CI","Mean",2013,2023,8,11,"2014,2016,2018,2019,2020,2021,2022,2023",TRUE,FALSE
+"Harris Point SMR|S. pulcher|PISCO|Den","Harris Point SMR","S. pulcher","PISCO","Den","Islands","CI","Mean",2013,2023,8,11,"2014,2016,2018,2019,2020,2021,2022,2023",TRUE,FALSE
+"Harris Point SMR|S. purpuratus|PISCO|Bio","Harris Point SMR","S. purpuratus","PISCO","Bio","Islands","CI","Mean",2013,2023,6,11,"2014,2016,2018,2019,2021,2022",TRUE,FALSE
+"Harris Point SMR|S. purpuratus|PISCO|Den","Harris Point SMR","S. purpuratus","PISCO","Den","Islands","CI","Mean",2013,2023,8,11,"2014,2016,2018,2019,2020,2021,2022,2023",TRUE,FALSE
+"Long Point SMR|S. pulcher|PISCO|Bio","Long Point SMR","S. pulcher","PISCO","Bio","Islands","CI","Mean",2013,2023,6,11,"2016,2019,2020,2021,2022,2023",TRUE,FALSE
+"Long Point SMR|S. pulcher|PISCO|Den","Long Point SMR","S. pulcher","PISCO","Den","Islands","CI","Mean",2013,2023,6,11,"2016,2019,2020,2021,2022,2023",TRUE,FALSE
+"Matlahuayl SMR|M. franciscanus|PISCO|Den","Matlahuayl SMR","M. franciscanus","PISCO","Den","Mainland","CI","Linear",2013,2023,5,11,"2019,2020,2021,2022,2023",TRUE,FALSE
+"Matlahuayl SMR|M. pyrifera|PISCO|Bio","Matlahuayl SMR","M. pyrifera","PISCO","Bio","Mainland","CI","Mean",2013,2023,5,11,"2019,2020,2021,2022,2023",TRUE,FALSE
+"Matlahuayl SMR|P. interruptus|PISCO|Bio","Matlahuayl SMR","P. interruptus","PISCO","Bio","Mainland","CI","Mean",2013,2023,5,11,"2019,2020,2021,2022,2023",TRUE,FALSE
+"Matlahuayl SMR|P. interruptus|PISCO|Den","Matlahuayl SMR","P. interruptus","PISCO","Den","Mainland","CI","Mean",2013,2023,5,11,"2019,2020,2021,2022,2023",TRUE,FALSE
+"Matlahuayl SMR|S. pulcher|PISCO|Bio","Matlahuayl SMR","S. pulcher","PISCO","Bio","Mainland","CI","Mean",2013,2023,5,11,"2019,2020,2021,2022,2023",TRUE,FALSE
+"Matlahuayl SMR|S. pulcher|PISCO|Den","Matlahuayl SMR","S. pulcher","PISCO","Den","Mainland","CI","Mean",2013,2023,5,11,"2019,2020,2021,2022,2023",TRUE,FALSE
+"Matlahuayl SMR|S. purpuratus|PISCO|Den","Matlahuayl SMR","S. purpuratus","PISCO","Den","Mainland","CI","Linear",2013,2023,5,11,"2019,2020,2021,2022,2023",TRUE,FALSE
+"Naples SMCA|M. franciscanus|PISCO|Bio","Naples SMCA","M. franciscanus","PISCO","Bio","Mainland","CI","Mean",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Naples SMCA|M. franciscanus|PISCO|Den","Naples SMCA","M. franciscanus","PISCO","Den","Mainland","CI","Mean",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Naples SMCA|M. pyrifera|PISCO|Bio","Naples SMCA","M. pyrifera","PISCO","Bio","Mainland","CI","Linear",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Naples SMCA|P. interruptus|PISCO|Den","Naples SMCA","P. interruptus","PISCO","Den","Mainland","CI","Mean",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Naples SMCA|S. pulcher|PISCO|Bio","Naples SMCA","S. pulcher","PISCO","Bio","Mainland","CI","Mean",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Naples SMCA|S. pulcher|PISCO|Den","Naples SMCA","S. pulcher","PISCO","Den","Mainland","CI","Mean",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Naples SMCA|S. purpuratus|PISCO|Bio","Naples SMCA","S. purpuratus","PISCO","Bio","Mainland","CI","Mean",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Naples SMCA|S. purpuratus|PISCO|Den","Naples SMCA","S. purpuratus","PISCO","Den","Mainland","CI","Mean",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Point Vicente SMCA|M. franciscanus|PISCO|Bio","Point Vicente SMCA","M. franciscanus","PISCO","Bio","Mainland","CI","Mean",2013,2023,10,11,"2013,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,FALSE
+"Point Vicente SMCA|M. franciscanus|PISCO|Den","Point Vicente SMCA","M. franciscanus","PISCO","Den","Mainland","CI","Mean",2013,2023,10,11,"2013,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,FALSE
+"Point Vicente SMCA|M. pyrifera|PISCO|Bio","Point Vicente SMCA","M. pyrifera","PISCO","Bio","Mainland","CI","Mean",2013,2023,10,11,"2013,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,FALSE
+"Point Vicente SMCA|P. interruptus|PISCO|Bio","Point Vicente SMCA","P. interruptus","PISCO","Bio","Mainland","CI","Mean",2013,2023,10,11,"2013,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,FALSE
+"Point Vicente SMCA|P. interruptus|PISCO|Den","Point Vicente SMCA","P. interruptus","PISCO","Den","Mainland","CI","Mean",2013,2023,10,11,"2013,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,FALSE
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Point Vicente SMCA","S. pulcher","PISCO","Bio","Mainland","CI","Linear",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Point Vicente SMCA","S. pulcher","PISCO","Den","Mainland","CI","Mean",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Point Vicente SMCA|S. purpuratus|PISCO|Bio","Point Vicente SMCA","S. purpuratus","PISCO","Bio","Mainland","CI","Mean",2013,2023,10,11,"2013,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,FALSE
+"Point Vicente SMCA|S. purpuratus|PISCO|Den","Point Vicente SMCA","S. purpuratus","PISCO","Den","Mainland","CI","Mean",2013,2023,10,11,"2013,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,FALSE
+"Santa Barbara Island SMR|S. pulcher|PISCO|Bio","Santa Barbara Island SMR","S. pulcher","PISCO","Bio","Islands","CI","Linear",2013,2023,4,11,"2019,2021,2022,2023",TRUE,FALSE
+"Santa Barbara Island SMR|S. pulcher|PISCO|Den","Santa Barbara Island SMR","S. pulcher","PISCO","Den","Islands","CI","Mean",2013,2023,4,11,"2019,2021,2022,2023",TRUE,FALSE
+"Scorpion SMR|M. franciscanus|PISCO|Bio","Scorpion SMR","M. franciscanus","PISCO","Bio","Islands","CI","Mean",2013,2023,9,11,"2013,2014,2015,2016,2017,2018,2019,2021,2022",TRUE,FALSE
+"Scorpion SMR|M. franciscanus|PISCO|Den","Scorpion SMR","M. franciscanus","PISCO","Den","Islands","CI","Linear",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Scorpion SMR|M. pyrifera|PISCO|Bio","Scorpion SMR","M. pyrifera","PISCO","Bio","Islands","CI","Linear",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Scorpion SMR|P. interruptus|PISCO|Den","Scorpion SMR","P. interruptus","PISCO","Den","Islands","CI","Mean",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Scorpion SMR|S. pulcher|PISCO|Bio","Scorpion SMR","S. pulcher","PISCO","Bio","Islands","CI","Mean",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Scorpion SMR|S. pulcher|PISCO|Den","Scorpion SMR","S. pulcher","PISCO","Den","Islands","CI","Mean",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"Scorpion SMR|S. purpuratus|PISCO|Bio","Scorpion SMR","S. purpuratus","PISCO","Bio","Islands","CI","Linear",2013,2023,9,11,"2013,2014,2015,2016,2017,2018,2019,2021,2022",TRUE,FALSE
+"Scorpion SMR|S. purpuratus|PISCO|Den","Scorpion SMR","S. purpuratus","PISCO","Den","Islands","CI","Linear",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"South Point SMR|M. franciscanus|PISCO|Bio","South Point SMR","M. franciscanus","PISCO","Bio","Islands","CI","Mean",2013,2023,7,11,"2014,2015,2016,2017,2018,2019,2021",TRUE,FALSE
+"South Point SMR|M. franciscanus|PISCO|Den","South Point SMR","M. franciscanus","PISCO","Den","Islands","CI","Mean",2013,2023,9,11,"2014,2015,2016,2017,2018,2019,2020,2021,2023",TRUE,FALSE
+"South Point SMR|M. pyrifera|PISCO|Bio","South Point SMR","M. pyrifera","PISCO","Bio","Islands","CI","Linear",2013,2023,9,11,"2014,2015,2016,2017,2018,2019,2020,2021,2023",TRUE,FALSE
+"South Point SMR|P. interruptus|PISCO|Den","South Point SMR","P. interruptus","PISCO","Den","Islands","CI","Linear",2013,2023,9,11,"2014,2015,2016,2017,2018,2019,2020,2021,2023",TRUE,FALSE
+"South Point SMR|S. pulcher|PISCO|Bio","South Point SMR","S. pulcher","PISCO","Bio","Islands","CI","Mean",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"South Point SMR|S. pulcher|PISCO|Den","South Point SMR","S. pulcher","PISCO","Den","Islands","CI","Mean",2013,2023,11,11,"2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023",TRUE,TRUE
+"South Point SMR|S. purpuratus|PISCO|Bio","South Point SMR","S. purpuratus","PISCO","Bio","Islands","CI","Linear",2013,2023,7,11,"2014,2015,2016,2017,2018,2019,2021",TRUE,FALSE
+"South Point SMR|S. purpuratus|PISCO|Den","South Point SMR","S. purpuratus","PISCO","Den","Islands","CI","Linear",2013,2023,9,11,"2014,2015,2016,2017,2018,2019,2020,2021,2023",TRUE,FALSE
+"Swamis SMCA|S. pulcher|PISCO|Bio","Swamis SMCA","S. pulcher","PISCO","Bio","Mainland","CI","Mean",2013,2023,5,11,"2019,2020,2021,2022,2023",TRUE,FALSE
+"Swamis SMCA|S. pulcher|PISCO|Den","Swamis SMCA","S. pulcher","PISCO","Den","Mainland","CI","Mean",2013,2023,5,11,"2019,2020,2021,2022,2023",TRUE,FALSE

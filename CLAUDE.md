@@ -39,6 +39,42 @@ absent.
 
 ## Data Inputs
 
+The 18 October 2026 singleton-resampling correction follows the monthly-kelp
+and sheephead releases. `lobster_bootstrap_correction.json` and
+`urchin_bootstrap_correction.json` pin the scoped input changes. Sampling must
+use vector positions: `a[sample.int(length(a), n, replace = TRUE)]`, never
+`sample(a, n, ...)` for a possible numeric singleton. The corrected primary
+cohort still has 145 histories; five biomass contrasts change. The subsequent SBC127.5 update retains all nine pooled directions but adds a
+negative purple-urchin biomass result, sensitive to selection of kelp contrast
+forms rather than the tested HAC bandwidths. The four-MPA lobster/urchin biomass association has
+a nominal negative interval but exact permutation P = 0.125. See
+`docs/BIOMASS_SINGLETON_REFIT_2026-10-18.md`. Do not restore stale bootstrap
+caches or claim every annual-uncertainty conclusion is unchanged.
+
+SBC 127.5 Macrocystis biomass relationships, model 1, is the adopted monthly dry foliar calibration.
+Harmonization applies recorded-month slopes before annual averaging; KFM
+resamples whole dated size records and retains site-year abundance matching.
+Do not replace the lookup with an unweighted mean or claim that monthly
+conversion preserves annual lnRRs. `33_kelp_calibration_check.R` verifies the
+adopted input fingerprints before loading. Source bytes are pinned in
+`data/external/sbc1275/`; see `docs/KELP_FIXED_COEFFICIENT_REFIT_2026-10-29.md`.
+The older SBC112.15 bytes remain only as a verified ancestor in the release chain.
+
+PISCO and LTER sheephead biomass use Hamilton & Caselle (2015),
+`W(g) = 0.0144 * TL(cm)^3.04`, multiplied by size-class abundance.
+The provider's original PISCO lookup is preserved; its SPUL coefficients are
+overridden during source-data processing. `data/harmonized/sheephead_allometry.json`
+records the sourced correction and its lineage from the monthly kelp release.
+`35_sheephead_allometry_check.R` blocks stale inputs, and the figures-only runner
+also requires the cache to match current input fingerprints.
+
+Adrian approved retaining Naples LTER sheephead biomass on 12 October 2026.
+The primary set has 145 histories (108 CI, 37 pBACIPS). The added history has
+23 paired years and retains the selected linear model; raw inputs and the
+other 144 effects are unchanged. Module 34 exports its former exclusion as
+a joint-model sensitivity. Do not restore the old omission or change Naples
+density as part of this decision. See `docs/NAPLES_BIOMASS_INCLUSION_2026-10-12.md`.
+
 The main pipeline is self-contained for code review:
 
 - `data/harmonized/*.csv` are the analysis-ready inputs.
@@ -64,9 +100,12 @@ Do not hard-code user-specific absolute paths in new code.
 - `01_utils.R`: helper functions and data loaders
 - `02_pBACIPS_function.R`: pBACIPS model fitting
 - `03_load_harmonized_data.R`: tracked harmonized-data import
+- `35_sheephead_allometry_check.R`: sourced sheephead formula/units and release checks before import
 - `08_effect_sizes.R`: per-MPA effect sizes
 - `09_meta_analysis.R`: multilevel meta-analysis
-- `10_temporal_analysis.R`: recovery trajectories and diagnostics
+- `10_temporal_analysis.R`: retained-diver trajectories; nonsingular candidate hierarchy and exact-contrast Satterthwaite predictions
+- `36_primary_uncertainty.R`: exact 145-history calendar-HAC covariance check, isolated after 09
+- `37_temporal_uncertainty.R`: same-row biomass calendar-AR1 sensitivity, isolated after 10
 - `11_figures.R`: main figures and most supplement figures
 - `13_additional_analyses.R`: reserve-design moderator checks
 - `14/15/16/19/21/22/23`: in-pipeline resilience modules

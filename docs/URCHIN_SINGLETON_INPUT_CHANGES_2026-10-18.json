@@ -1,0 +1,1326 @@
+{
+  "release": "urchin_singleton_sampling_2026_10_18",
+  "applied": true,
+  "scope": {
+    "programmes": [
+      "PISCO",
+      "LTER"
+    ],
+    "taxa": [
+      "Mesocentrotus franciscanus",
+      "Strongylocentrotus purpuratus"
+    ],
+    "response": "Bio"
+  },
+  "sampling": "Sample vector positions; replace only singleton cached biomass totals, preserving non-singleton draws",
+  "files": {
+    "harmonized_raw_responses.csv": {
+      "rows": 6280,
+      "changed_rows": 17,
+      "changes": {
+        "LTER/Bio": 10,
+        "PISCO/Bio": 7
+      },
+      "non_target_rows_preserved": 5668,
+      "before_md5": "ec80b1522b88b81736f28810274003f9",
+      "after_md5": "95db0b520f097497cc6f189a62329dec"
+    },
+    "harmonized_response_ratios.csv": {
+      "rows": 3341,
+      "changed_rows": 48,
+      "changes": {
+        "LTER/Bio": 31,
+        "PISCO/Bio": 17
+      },
+      "non_target_rows_preserved": 3035,
+      "before_md5": "43cbc08a104d22e6bfafc1b38ba8ac13",
+      "after_md5": "4ca8444a3bf4ab0fc720594cde63307e"
+    }
+  },
+  "changed_records": {
+    "harmonized_raw_responses.csv": [
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2008",
+          "Strongylocentrotus purpuratus",
+          "LTER",
+          "Bio",
+          "mpa"
+        ],
+        "before": {
+          "value": "0.681613620332214"
+        },
+        "after": {
+          "value": "2.74868885325172"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2016",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio",
+          "mpa"
+        ],
+        "before": {
+          "value": "0.0911416424657837"
+        },
+        "after": {
+          "value": "0.330964734274848"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2017",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio",
+          "mpa"
+        ],
+        "before": {
+          "value": "0.460053070445127"
+        },
+        "after": {
+          "value": "1.69326023071053"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2018",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio",
+          "mpa"
+        ],
+        "before": {
+          "value": "0.89774190833893"
+        },
+        "after": {
+          "value": "3.5245049562039"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2022",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio",
+          "mpa"
+        ],
+        "before": {
+          "value": "1.29064903487815"
+        },
+        "after": {
+          "value": "4.79261701837601"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2023",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio",
+          "mpa"
+        ],
+        "before": {
+          "value": "0.370243527769093"
+        },
+        "after": {
+          "value": "1.36408359797034"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2004",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio",
+          "reference"
+        ],
+        "before": {
+          "value": "0.1934479335271"
+        },
+        "after": {
+          "value": "0.775038002244478"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2009",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio",
+          "reference"
+        ],
+        "before": {
+          "value": "9.63354807348059"
+        },
+        "after": {
+          "value": "36.9857881551942"
+        }
+      },
+      {
+        "key": [
+          "Naples SMCA",
+          "2001",
+          "Strongylocentrotus purpuratus",
+          "LTER",
+          "Bio",
+          "reference"
+        ],
+        "before": {
+          "value": "5.98216785746002"
+        },
+        "after": {
+          "value": "23.7886526208695"
+        }
+      },
+      {
+        "key": [
+          "Naples SMCA",
+          "2010",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio",
+          "reference"
+        ],
+        "before": {
+          "value": "0.84619034641177"
+        },
+        "after": {
+          "value": "3.39079125981959"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2016",
+          "Mesocentrotus franciscanus",
+          "PISCO",
+          "Bio",
+          "mpa"
+        ],
+        "before": {
+          "value": "2.10895353253626"
+        },
+        "after": {
+          "value": "7.87696067574138"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2017",
+          "Mesocentrotus franciscanus",
+          "PISCO",
+          "Bio",
+          "mpa"
+        ],
+        "before": {
+          "value": "8.33216079279133"
+        },
+        "after": {
+          "value": "31.8050713335128"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2018",
+          "Mesocentrotus franciscanus",
+          "PISCO",
+          "Bio",
+          "mpa"
+        ],
+        "before": {
+          "value": "11.5678864053386"
+        },
+        "after": {
+          "value": "44.4087624481692"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2022",
+          "Mesocentrotus franciscanus",
+          "PISCO",
+          "Bio",
+          "mpa"
+        ],
+        "before": {
+          "value": "41.9567187795957"
+        },
+        "after": {
+          "value": "161.031931817434"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2023",
+          "Mesocentrotus franciscanus",
+          "PISCO",
+          "Bio",
+          "mpa"
+        ],
+        "before": {
+          "value": "5.08727184975293"
+        },
+        "after": {
+          "value": "19.4154565444446"
+        }
+      },
+      {
+        "key": [
+          "Matlahuayl SMR",
+          "2019",
+          "Mesocentrotus franciscanus",
+          "PISCO",
+          "Bio",
+          "mpa"
+        ],
+        "before": {
+          "value": "0.297709599729037"
+        },
+        "after": {
+          "value": "1.13656312950177"
+        }
+      },
+      {
+        "key": [
+          "Matlahuayl SMR",
+          "2012",
+          "Mesocentrotus franciscanus",
+          "PISCO",
+          "Bio",
+          "reference"
+        ],
+        "before": {
+          "value": "17.8579070054689"
+        },
+        "after": {
+          "value": "69.7760630155228"
+        }
+      }
+    ],
+    "harmonized_response_ratios.csv": [
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2012",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "1.00050375133982",
+          "reference": "0.310875512600508",
+          "Diff": "3.21834210411264",
+          "lnDiff": "1.16886635246375"
+        },
+        "after": {
+          "mpa": "1.00182928378085",
+          "reference": "0.312201045041542",
+          "Diff": "3.2089235436337",
+          "lnDiff": "1.16593553623893"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2013",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.881948736420787",
+          "reference": "0.737429304334823",
+          "Diff": "1.19597733808032",
+          "lnDiff": "0.178963707255548"
+        },
+        "after": {
+          "mpa": "0.88327426886182",
+          "reference": "0.738754836775857",
+          "Diff": "1.195625700018",
+          "lnDiff": "0.178669646695119"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2014",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.131527827878174",
+          "reference": "0.412926676372714",
+          "Diff": "0.318525867675973",
+          "lnDiff": "-1.14405159007485"
+        },
+        "after": {
+          "mpa": "0.132853360319208",
+          "reference": "0.414252208813748",
+          "Diff": "0.320706462132445",
+          "lnDiff": "-1.13722902240046"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2004",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.000503751339815261",
+          "reference": "0.00264217353766747",
+          "Diff": "0.190657930916974",
+          "lnDiff": "-1.65727439418909"
+        },
+        "after": {
+          "mpa": "0.00182928378084856",
+          "reference": "0.0103967491342401",
+          "Diff": "0.175947669529132",
+          "lnDiff": "-1.73756866037682"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2008",
+          "Strongylocentrotus purpuratus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.00807612408436288",
+          "reference": "0.0844929018732867",
+          "Diff": "0.0955834621051905",
+          "lnDiff": "-2.34775546442085"
+        },
+        "after": {
+          "mpa": "0.0259978159610113",
+          "reference": "0.0844929018732867",
+          "Diff": "0.307692307692308",
+          "lnDiff": "-1.17865499634165"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2009",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.000503751339815261",
+          "reference": "0.106995418988057",
+          "Diff": "0.00470815801816234",
+          "lnDiff": "-5.35845852639155"
+        },
+        "after": {
+          "mpa": "0.00182928378084856",
+          "reference": "0.410679504892393",
+          "Diff": "0.00445428554153895",
+          "lnDiff": "-5.41388860318997"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2011",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.40326598305439",
+          "reference": "0.542923248670001",
+          "Diff": "0.742767940113581",
+          "lnDiff": "-0.297371611294519"
+        },
+        "after": {
+          "mpa": "0.404591515495424",
+          "reference": "0.544248781111034",
+          "Diff": "0.743394435665041",
+          "lnDiff": "-0.296528506128111"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2018",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.0104276165873353",
+          "reference": "0.129454051604513",
+          "Diff": "0.0805507163205065",
+          "lnDiff": "-2.51886827653083"
+        },
+        "after": {
+          "mpa": "0.0407900495919276",
+          "reference": "0.130779584045546",
+          "Diff": "0.311899214924263",
+          "lnDiff": "-1.16507517244669"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2019",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.000503751339815261",
+          "reference": "0.106521299687453",
+          "Diff": "0.00472911371991642",
+          "lnDiff": "-5.3540174682599"
+        },
+        "after": {
+          "mpa": "0.00182928378084856",
+          "reference": "0.107846832128486",
+          "Diff": "0.0169618684642419",
+          "lnDiff": "-4.07678748580434"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2020",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.000503751339815261",
+          "reference": "0.0624770605217259",
+          "Diff": "0.00806298080621264",
+          "lnDiff": "-4.82047196375925"
+        },
+        "after": {
+          "mpa": "0.00182928378084856",
+          "reference": "0.0638025929627592",
+          "Diff": "0.0286709943264577",
+          "lnDiff": "-3.55186931791436"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2015",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.0551514669291037",
+          "reference": "0.134551975925414",
+          "Diff": "0.409889684263541",
+          "lnDiff": "-0.891867218259516"
+        },
+        "after": {
+          "mpa": "0.056476999370137",
+          "reference": "0.135877508366448",
+          "Diff": "0.41564641601923",
+          "lnDiff": "-0.877920341635188"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2016",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.00151125401944578",
+          "reference": "0.0130418158068094",
+          "Diff": "0.115877577312258",
+          "lnDiff": "-2.15522101316649"
+        },
+        "after": {
+          "mpa": "0.00548785134254568",
+          "reference": "0.0143673482478427",
+          "Diff": "0.381966891028044",
+          "lnDiff": "-0.962421346833312"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2017",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.00558929389430372",
+          "reference": "0.0238854155680351",
+          "Diff": "0.234004465125725",
+          "lnDiff": "-1.45241508207262"
+        },
+        "after": {
+          "mpa": "0.0205470090006142",
+          "reference": "0.0252109480090684",
+          "Diff": "0.815003426020448",
+          "lnDiff": "-0.204562962044038"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2022",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.0147709109599686",
+          "reference": "0.0618071461533425",
+          "Diff": "0.238983869653555",
+          "lnDiff": "-1.43135922031756"
+        },
+        "after": {
+          "mpa": "0.0548080798374306",
+          "reference": "0.0631326785943759",
+          "Diff": "0.868141207655225",
+          "lnDiff": "-0.141400895922564"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2021",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.000503751339815261",
+          "reference": "0.0103147927978381",
+          "Diff": "0.0488377565781879",
+          "lnDiff": "-3.01925156490217"
+        },
+        "after": {
+          "mpa": "0.00182928378084856",
+          "reference": "0.0116403252388714",
+          "Diff": "0.157150572970238",
+          "lnDiff": "-1.85055086973669"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2023",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.00459651658138152",
+          "reference": "0.0867226455011027",
+          "Diff": "0.0530024949633608",
+          "lnDiff": "-2.93741629175761"
+        },
+        "after": {
+          "mpa": "0.0169082075638066",
+          "reference": "0.088048177942136",
+          "Diff": "0.192033588416997",
+          "lnDiff": "-1.65008498258266"
+        }
+      },
+      {
+        "key": [
+          "Naples SMCA",
+          "2001",
+          "Strongylocentrotus purpuratus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.544767607641858",
+          "reference": "0.0438096702578927",
+          "Diff": "12.4348712153047",
+          "lnDiff": "2.52050472057163"
+        },
+        "after": {
+          "mpa": "0.544767607641858",
+          "reference": "0.165725691474194",
+          "Diff": "3.28716448726772",
+          "lnDiff": "1.19002533519083"
+        }
+      },
+      {
+        "key": [
+          "Naples SMCA",
+          "2010",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.0298975924537823",
+          "reference": "0.00346285103552331",
+          "Diff": "8.63380842753005",
+          "lnDiff": "2.15568570873911"
+        },
+        "after": {
+          "mpa": "0.0333686688080774",
+          "reference": "0.0138760800984084",
+          "Diff": "2.40476190476191",
+          "lnDiff": "0.877450898557891"
+        }
+      },
+      {
+        "key": [
+          "Naples SMCA",
+          "2011",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.635863195570324",
+          "reference": "0.0823134898860871",
+          "Diff": "7.72489656859755",
+          "lnDiff": "2.04444843351586"
+        },
+        "after": {
+          "mpa": "0.639334271924619",
+          "reference": "0.0857845662403822",
+          "Diff": "7.45278900324682",
+          "lnDiff": "2.0085883251871"
+        }
+      },
+      {
+        "key": [
+          "Naples SMCA",
+          "2012",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "1.00115428367851",
+          "reference": "0.534921759484392",
+          "Diff": "1.87159012683185",
+          "lnDiff": "0.626788404740531"
+        },
+        "after": {
+          "mpa": "1.0046253600328",
+          "reference": "0.538392835838687",
+          "Diff": "1.86597089180772",
+          "lnDiff": "0.623781503057888"
+        }
+      },
+      {
+        "key": [
+          "Naples SMCA",
+          "2013",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.692214144555486",
+          "reference": "0.38498967678897",
+          "Diff": "1.79800702795187",
+          "lnDiff": "0.586678844802561"
+        },
+        "after": {
+          "mpa": "0.695685220909781",
+          "reference": "0.388460753143265",
+          "Diff": "1.79087646636264",
+          "lnDiff": "0.582705146027821"
+        }
+      },
+      {
+        "key": [
+          "Naples SMCA",
+          "2014",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.825140859207267",
+          "reference": "0.446386500798717",
+          "Diff": "1.84848972298859",
+          "lnDiff": "0.61436893972997"
+        },
+        "after": {
+          "mpa": "0.828611935561562",
+          "reference": "0.449857577153012",
+          "Diff": "1.8419428228942",
+          "lnDiff": "0.610820896577288"
+        }
+      },
+      {
+        "key": [
+          "Naples SMCA",
+          "2015",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.373314583023164",
+          "reference": "0.183787435001175",
+          "Diff": "2.03123017098952",
+          "lnDiff": "0.708641605073874"
+        },
+        "after": {
+          "mpa": "0.376785659377459",
+          "reference": "0.18725851135547",
+          "Diff": "2.01211499893968",
+          "lnDiff": "0.699186407134777"
+        }
+      },
+      {
+        "key": [
+          "Naples SMCA",
+          "2016",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.239110619728317",
+          "reference": "0.0185217392316366",
+          "Diff": "12.9097282246527",
+          "lnDiff": "2.55798115309961"
+        },
+        "after": {
+          "mpa": "0.242581696082612",
+          "reference": "0.0219928155859317",
+          "Diff": "11.0300427489505",
+          "lnDiff": "2.40062270895604"
+        }
+      },
+      {
+        "key": [
+          "Naples SMCA",
+          "2017",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.0649225246229629",
+          "reference": "0.06112725779315",
+          "Diff": "1.0620879615221",
+          "lnDiff": "0.0602367456818391"
+        },
+        "after": {
+          "mpa": "0.0683936009772579",
+          "reference": "0.0645983341474451",
+          "Diff": "1.05875177556669",
+          "lnDiff": "0.0570906440232794"
+        }
+      },
+      {
+        "key": [
+          "Naples SMCA",
+          "2018",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.149183616173035",
+          "reference": "0.0564599841235274",
+          "Diff": "2.64228937519075",
+          "lnDiff": "0.971645728940574"
+        },
+        "after": {
+          "mpa": "0.15265469252733",
+          "reference": "0.0599310604778224",
+          "Diff": "2.5471715552876",
+          "lnDiff": "0.934983549554537"
+        }
+      },
+      {
+        "key": [
+          "Naples SMCA",
+          "2019",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.247423346305524",
+          "reference": "0.0425795076879826",
+          "Diff": "5.81085502722605",
+          "lnDiff": "1.75972772479106"
+        },
+        "after": {
+          "mpa": "0.250894422659819",
+          "reference": "0.0460505840422777",
+          "Diff": "5.44823541064062",
+          "lnDiff": "1.69529177838368"
+        }
+      },
+      {
+        "key": [
+          "Naples SMCA",
+          "2020",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.137907339806339",
+          "reference": "0.0932282274805865",
+          "Diff": "1.47924446847449",
+          "lnDiff": "0.391531463155463"
+        },
+        "after": {
+          "mpa": "0.141378416160634",
+          "reference": "0.0966993038348815",
+          "Diff": "1.46204171647444",
+          "lnDiff": "0.379833894760751"
+        }
+      },
+      {
+        "key": [
+          "Naples SMCA",
+          "2021",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.173917486252648",
+          "reference": "0.0458384551365551",
+          "Diff": "3.79413934729124",
+          "lnDiff": "1.33345759917026"
+        },
+        "after": {
+          "mpa": "0.177388562606943",
+          "reference": "0.0493095314908501",
+          "Diff": "3.59744976769571",
+          "lnDiff": "1.28022519656743"
+        }
+      },
+      {
+        "key": [
+          "Naples SMCA",
+          "2022",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.0756489985771438",
+          "reference": "0.0118676384727394",
+          "Diff": "6.37439358731004",
+          "lnDiff": "1.85228896296075"
+        },
+        "after": {
+          "mpa": "0.0791200749314389",
+          "reference": "0.0153387148270344",
+          "Diff": "5.15819453087361",
+          "lnDiff": "1.64058662114767"
+        }
+      },
+      {
+        "key": [
+          "Naples SMCA",
+          "2023",
+          "Mesocentrotus franciscanus",
+          "LTER",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.238136029904932",
+          "reference": "0.0498522091138018",
+          "Diff": "4.77684006663214",
+          "lnDiff": "1.56377925397132"
+        },
+        "after": {
+          "mpa": "0.241607106259227",
+          "reference": "0.0533232854680968",
+          "Diff": "4.53098686883764",
+          "lnDiff": "1.51093976760921"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2011",
+          "Mesocentrotus franciscanus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.242672688783748",
+          "reference": "0.116569696022128",
+          "Diff": "2.0817819473226",
+          "lnDiff": "0.733224232394132"
+        },
+        "after": {
+          "mpa": "0.245765798030945",
+          "reference": "0.119662805269324",
+          "Diff": "2.05381945942017",
+          "lnDiff": "0.719701210574143"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2012",
+          "Mesocentrotus franciscanus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.33336146206704",
+          "reference": "0.373789898847567",
+          "Diff": "0.891841815669252",
+          "lnDiff": "-0.114466498821802"
+        },
+        "after": {
+          "mpa": "0.336454571314237",
+          "reference": "0.376883008094763",
+          "Diff": "0.892729478612202",
+          "lnDiff": "-0.113471679484517"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2013",
+          "Mesocentrotus franciscanus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "1.00113093196861",
+          "reference": "0.74593110866497",
+          "Diff": "1.342122510161",
+          "lnDiff": "0.294252323623565"
+        },
+        "after": {
+          "mpa": "1.0042240412158",
+          "reference": "0.749024217912166",
+          "Diff": "1.34070970897975",
+          "lnDiff": "0.29319910732344"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2014",
+          "Mesocentrotus franciscanus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.141389032417404",
+          "reference": "0.0795974782970309",
+          "Diff": "1.77630039848483",
+          "lnDiff": "0.574532773557875"
+        },
+        "after": {
+          "mpa": "0.1444821416646",
+          "reference": "0.0826905875442274",
+          "Diff": "1.74726224538341",
+          "lnDiff": "0.558050131725654"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2015",
+          "Mesocentrotus franciscanus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.193691201352932",
+          "reference": "0.0749148430180528",
+          "Diff": "2.5854849793419",
+          "lnDiff": "0.949913103261514"
+        },
+        "after": {
+          "mpa": "0.196784310600128",
+          "reference": "0.0780079522652493",
+          "Diff": "2.52261859061504",
+          "lnDiff": "0.925297485268409"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2016",
+          "Mesocentrotus franciscanus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.00339279590581653",
+          "reference": "0.0291558329662103",
+          "Diff": "0.116367654793075",
+          "lnDiff": "-2.15100066208512"
+        },
+        "after": {
+          "mpa": "0.012672123647406",
+          "reference": "0.0322489422134068",
+          "Diff": "0.392946955083006",
+          "lnDiff": "-0.934080650566229"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2017",
+          "Mesocentrotus franciscanus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.0100672189590512",
+          "reference": "0.0172060136385554",
+          "Diff": "0.585098859650588",
+          "lnDiff": "-0.53597445517192"
+        },
+        "after": {
+          "mpa": "0.0383351502373376",
+          "reference": "0.0202991228857519",
+          "Diff": "1.88851264427022",
+          "lnDiff": "0.635789558551839"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2018",
+          "Mesocentrotus franciscanus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.0135375519753169",
+          "reference": "0.084329166254448",
+          "Diff": "0.160532263943767",
+          "lnDiff": "-1.82926033515768"
+        },
+        "after": {
+          "mpa": "0.0518526763317624",
+          "reference": "0.0874222755016445",
+          "Diff": "0.593128879730281",
+          "lnDiff": "-0.52234356847132"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2019",
+          "Mesocentrotus franciscanus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.0398987321375886",
+          "reference": "0.066403799790671",
+          "Diff": "0.600850136036852",
+          "lnDiff": "-0.509409733217511"
+        },
+        "after": {
+          "mpa": "0.0429918413847851",
+          "reference": "0.0694969090378675",
+          "Diff": "0.618615158285092",
+          "lnDiff": "-0.48027191485245"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2021",
+          "Mesocentrotus franciscanus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.0968946605575492",
+          "reference": "0.0171771026348684",
+          "Diff": "5.64091992795453",
+          "lnDiff": "1.73004716000269"
+        },
+        "after": {
+          "mpa": "0.0999877698047456",
+          "reference": "0.0202702118820649",
+          "Diff": "4.93274418572877",
+          "lnDiff": "1.59589546315887"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2022",
+          "Mesocentrotus franciscanus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.0461297371424413",
+          "reference": "0.0346799007257109",
+          "Diff": "1.33015770452427",
+          "lnDiff": "0.285297510034505"
+        },
+        "after": {
+          "mpa": "0.17693164889801",
+          "reference": "0.0377730099729074",
+          "Diff": "4.68407598507277",
+          "lnDiff": "1.54416866786537"
+        }
+      },
+      {
+        "key": [
+          "Campus Point SMCA",
+          "2023",
+          "Mesocentrotus franciscanus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.00658705822185056",
+          "reference": "0.0843199187881567",
+          "Diff": "0.0781198359357973",
+          "lnDiff": "-2.54951127313207"
+        },
+        "after": {
+          "mpa": "0.0250472221464667",
+          "reference": "0.0874130280353532",
+          "Diff": "0.286538776992563",
+          "lnDiff": "-1.24988140471698"
+        }
+      },
+      {
+        "key": [
+          "Matlahuayl SMR",
+          "2012",
+          "Mesocentrotus franciscanus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "1.00093794530782",
+          "reference": "0.113461962662077",
+          "Diff": "8.82179297646123",
+          "lnDiff": "2.1772251346721"
+        },
+        "after": {
+          "mpa": "1.00358078495059",
+          "reference": "0.443245014541775",
+          "Diff": "2.2641671130539",
+          "lnDiff": "0.817206970803229"
+        }
+      },
+      {
+        "key": [
+          "Matlahuayl SMR",
+          "2019",
+          "Mesocentrotus franciscanus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.00281383592345235",
+          "reference": "0.310214249520659",
+          "Diff": "0.00907062112008159",
+          "lnDiff": "-4.70271453648517"
+        },
+        "after": {
+          "mpa": "0.0107423548517558",
+          "reference": "0.312857089163427",
+          "Diff": "0.0343362999396327",
+          "lnDiff": "-3.37155217714468"
+        }
+      },
+      {
+        "key": [
+          "Matlahuayl SMR",
+          "2020",
+          "Mesocentrotus franciscanus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.000937945307817449",
+          "reference": "0.0930304878312075",
+          "Diff": "0.0100821282321903",
+          "lnDiff": "-4.59699090447873"
+        },
+        "after": {
+          "mpa": "0.00358078495058527",
+          "reference": "0.0956733274739753",
+          "Diff": "0.0374272019707824",
+          "lnDiff": "-3.28535751351262"
+        }
+      },
+      {
+        "key": [
+          "Matlahuayl SMR",
+          "2021",
+          "Mesocentrotus franciscanus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.0219951518094539",
+          "reference": "0.21985815155475",
+          "Diff": "0.100042466717349",
+          "lnDiff": "-2.30216051596614"
+        },
+        "after": {
+          "mpa": "0.0246379914522217",
+          "reference": "0.222500991197518",
+          "Diff": "0.110732052561286",
+          "lnDiff": "-2.2006419368117"
+        }
+      },
+      {
+        "key": [
+          "Matlahuayl SMR",
+          "2022",
+          "Mesocentrotus franciscanus",
+          "PISCO",
+          "Bio"
+        ],
+        "before": {
+          "mpa": "0.000937945307817449",
+          "reference": "0.328830165816599",
+          "Diff": "0.00285237002355975",
+          "lnDiff": "-5.85960504306471"
+        },
+        "after": {
+          "mpa": "0.00358078495058527",
+          "reference": "0.331473005459367",
+          "Diff": "0.0108026442322894",
+          "lnDiff": "-4.52796433849639"
+        }
+      }
+    ]
+  }
+}

@@ -600,12 +600,9 @@ run_pbacips_loop <- function(dat) {
 #' For each MPA in the data, fits lnDiff ~ time, calculates effect size at time 0 vs t=11,
 #' and also calculates the simple mean effect size. Returns two rows per MPA.
 #'
-#' The effect size represents the predicted change in lnRR from time 0 (MPA establishment)
-#' to 11 years post-implementation. We use a STANDARDIZED time point (t=11) rather than
-#' the maximum observed time to ensure effect sizes are comparable across MPAs with
-#' different establishment dates. The value of 11 years corresponds to the age of
-#' our youngest MPA in 2023 (MLPA South Coast MPAs implemented in 2012). This controls
-#' for differences in effect size that would arise from longer protection duration.
+#' The effect size is predicted lnRR at model time 11 minus model time 0.
+#' Most diver fits use observation indices; Landsat and Campus Point lobster
+#' biomass use calendar time. The endpoint does not standardize calendar duration.
 #'
 #' @param dat Dataframe subset with lnDiff, time columns
 #' @param taxa_name Character, species name for SumStats
@@ -671,7 +668,7 @@ run_ci_analysis <- function(dat, taxa_name, source_name, resp_name, time_var = "
 
       # Calculate linear effect size using contrast (properly handles covariance)
       # This uses emmeans::pairs() which correctly calculates Var(A-B) = Var(A) + Var(B) - 2*Cov(A,B)
-      # Use standardized t=11 years to ensure effect sizes are comparable across MPAs
+      # Use the fixed model-time endpoint; its units depend on the selected clock.
       # RATIONALE: Using a fixed time point controls for MPA age effects - older MPAs would
       # naturally show larger effect sizes simply due to longer protection duration.
       # t=11 corresponds to the youngest MPA age in 2023 (MLPA South Coast, implemented 2012).
@@ -810,11 +807,13 @@ add_step_effect_size <- function(dat, taxa_name, mpa_name, source_name, resp_nam
       ModelDiagnostics <<- rbind(ModelDiagnostics, diag_result)
     }
 
-    # Use pairs() for proper covariance-aware contrast estimation
-    # This correctly calculates Var(After - Before) accounting for shared model variance
-    # Note: pairs() works on emmeans objects (method dispatch), but can't be called as emmeans::pairs()
+    # Match weights to BA labels; character BA sorts After before Before.
     em <- emmeans::emmeans(mod1, ~ BA)
-    contrast_result <- pairs(em, reverse = TRUE)  # After - Before
+    ba_levels <- as.character(as.data.frame(em)$BA)
+    contrast_weights <- c(After = 1, Before = -1)[ba_levels]
+    contrast_result <- emmeans::contrast(
+      em, method = list("After - Before" = unname(contrast_weights))
+    )
     contrast_summary <- summary(contrast_result)
 
     # Extract effect size with proper SE from contrast
@@ -847,10 +846,9 @@ add_step_effect_size <- function(dat, taxa_name, mpa_name, source_name, resp_nam
 
 #' Add a single linear-model (pBACIPS) effect size row
 #'
-#' Calculates effect size as the predicted change from t=0 (before MPA) to t=11 years
-#' post-implementation. We use a STANDARDIZED time point (t=11) rather than the maximum
-#' observed time to ensure effect sizes are comparable across MPAs with different
-#' establishment dates. This controls for the confounding effect of protection duration.
+#' Calculates predicted lnRR at model time 11 minus model time 0. Most diver fits
+#' use observation indices rather than calendar years, so this endpoint does not
+#' control for differences in calendar duration.
 #'
 #' @param dat Dataframe for a single MPA with lnDiff and time.model columns
 #' @param taxa_name Character species name
@@ -882,7 +880,7 @@ add_linear_effect_size <- function(dat, taxa_name, mpa_name, source_name, resp_n
 
   # Wrap model fitting in tryCatch
   tryCatch({
-    # Use standardized t=11 years if not specified
+    # Use the fixed model-time endpoint if not specified.
     # RATIONALE: Using a fixed time point ensures effect sizes are comparable across MPAs
     # with different establishment dates. t=11 corresponds to the youngest MPA age in 2023
     # (MLPA South Coast MPAs, implemented 2012). This controls for the confounding effect
@@ -973,7 +971,7 @@ add_mean_effect_size <- function(dat, taxa_name, mpa_name, source_name, resp_nam
 #   3. Test for linear trend in the Before period (violates BACI assumptions if significant)
 #   4. Run pBACIPS model selection on MPAs that pass the before-trend test
 #   5. For each MPA, pick the best-fit model (step/linear/asymptotic/sigmoid) and
-#      extract effect size at t=0 (before) vs t=11 years (after MPA implementation)
+#      extract predicted lnRR at model time 11 minus model time 0
 #   6. Add one row to SumStats per MPA × taxa × response
 #
 # EXCLUSION LOGIC:
@@ -1057,9 +1055,40 @@ LTER.SPUL.bio <- add_time_columns(LTER.SPUL.bio)
 LinearBefore.spul.bio <- test_linear_before(LTER.SPUL.bio)
 pbacips.spul.bio <- run_pbacips_loop(LTER.SPUL.bio)
 
-# Campus Point (Naples biomass was linear in the before)
+# Campus Point
 LTER.cp.SPUL.bio <- dplyr::filter(LTER.SPUL.bio, CA_MPA_Name_Short == "Campus Point SMCA")
 SumStats <- rbind(SumStats, add_linear_effect_size(LTER.cp.SPUL.bio, "S. pulcher", "Campus Point SMCA", "LTER", "Bio"))
+
+# Approved 12 October 2026: the undocumented Naples biomass exclusion does not
+# reproduce the stated before-trend screen. Retain the selected linear fit;
+# module 34 reports the former exclusion as a sensitivity, not a selection rule.
+LTER.nap.SPUL.bio <- dplyr::filter(LTER.SPUL.bio, CA_MPA_Name_Short == "Naples SMCA")
+naples_biomass_before_p <- LinearBefore.spul.bio$pSlope[LinearBefore.spul.bio$site == "Naples SMCA"]
+naples_biomass_weights <- pbacips.spul.bio$likelihood[pbacips.spul.bio$likelihood$mpas == "Naples SMCA", 1:4]
+stopifnot(nrow(LTER.nap.SPUL.bio) == 23L,
+          !anyDuplicated(LTER.nap.SPUL.bio$year),
+          all(is.finite(LTER.nap.SPUL.bio$lnDiff)),
+          length(naples_biomass_before_p) == 1L, is.finite(naples_biomass_before_p),
+          naples_biomass_before_p >= 0.05,
+          nrow(naples_biomass_weights) == 1L,
+          which.max(unlist(naples_biomass_weights)) == 2L)
+naples_biomass_effect <- add_linear_effect_size(LTER.nap.SPUL.bio, "S. pulcher", "Naples SMCA", "LTER", "Bio")
+stopifnot(nrow(naples_biomass_effect) == 1L, is.finite(naples_biomass_effect$Mean),
+          is.finite(naples_biomass_effect$SE), naples_biomass_effect$SE > 0)
+SumStats <- rbind(SumStats, naples_biomass_effect)
+naples_biomass_reference <- subset(All.Resp.sub, CA_MPA_Name_Short == "Naples SMCA" &
+  source == "LTER" & taxon_name == "Semicossyphus pulcher" & resp == "Bio" &
+  status == "reference" & year %in% LTER.nap.SPUL.bio$year)
+stopifnot(nrow(naples_biomass_reference) == 23L, !anyDuplicated(naples_biomass_reference$year))
+write.csv(data.frame(MPA = "Naples SMCA", Source = "LTER", Taxa = "S. pulcher", Resp = "Bio",
+  N = nrow(LTER.nap.SPUL.bio), n_before = sum(LTER.nap.SPUL.bio$BA == "Before"),
+  n_after = sum(LTER.nap.SPUL.bio$BA == "After"), before_p = naples_biomass_before_p,
+  selected_model = "Linear", linear_weight_percent = naples_biomass_weights$Linear,
+  zero_reference_before = sum(naples_biomass_reference$value == 0 & naples_biomass_reference$BA == "Before"),
+  zero_reference_after = sum(naples_biomass_reference$value == 0 & naples_biomass_reference$BA == "After"),
+  Mean = naples_biomass_effect$Mean, SE = naples_biomass_effect$SE,
+  DW_stat = naples_biomass_effect$DW_stat, DW_pval = naples_biomass_effect$DW_pval),
+  here::here("tables", "table_s_naples_biomass_eligibility.csv"), row.names = FALSE)
 
 #----- P. interruptus Density (LTER) -- CI data only -----#
 LTER.PANINT.den <- subset(All.RR.sub.trans, source == "LTER" &
@@ -1926,9 +1955,7 @@ if (exists("ModelDiagnostics") && nrow(ModelDiagnostics) > 0) {
       p <- ggplot2::ggplot(diag_summary, ggplot2::aes(x = Status, y = Count, fill = Status)) +
         ggplot2::geom_bar(stat = "identity") +
         ggplot2::scale_fill_manual(values = c("Pass" = "#4CAF50", "Fail" = "#F44336", "NA" = "#9E9E9E")) +
-        ggplot2::labs(title = "Model Diagnostic Results",
-                      subtitle = sprintf("%d models tested with DHARMa", n_total),
-                      x = "", y = "Number of Models") +
+        ggplot2::labs(x = "", y = "Number of Models") +
         ggplot2::theme_minimal() +
         ggplot2::theme(legend.position = "none")
 

@@ -1,0 +1,29 @@
+"scope","Resp","size","candidate","formula","converged","singular","accepted","n_obs","n_mpa","n_history","warnings","selected"
+"retained_membership","Bio","all","correlated_slopes","lnDiff ~ Species * time + (1 + time | CA_MPA_Name_Short)",TRUE,FALSE,TRUE,542,15,44,"",TRUE
+"retained_membership","Bio","large","correlated_slopes","lnDiff ~ Species * time + (1 + time | CA_MPA_Name_Short)",TRUE,FALSE,TRUE,542,15,44,"",TRUE
+"retained_membership","Bio","paired_threshold_difference","correlated_slopes","lnDiff ~ Species * time + (1 + time | CA_MPA_Name_Short)",TRUE,TRUE,FALSE,200,15,18,"boundary (singular) fit: see help('isSingular')
+",FALSE
+"retained_membership","Bio","paired_threshold_difference","independent_slopes","lnDiff ~ Species * time + (1 + time || CA_MPA_Name_Short)",TRUE,TRUE,FALSE,200,15,18,"boundary (singular) fit: see help('isSingular')
+",FALSE
+"retained_membership","Bio","paired_threshold_difference","intercepts","lnDiff ~ Species * time + (1 | CA_MPA_Name_Short)",TRUE,FALSE,TRUE,200,15,18,"",TRUE
+"retained_membership","Den","all","correlated_slopes","lnDiff ~ Species * time + (1 + time | CA_MPA_Name_Short)",TRUE,FALSE,TRUE,558,15,45,"",TRUE
+"retained_membership","Den","large","correlated_slopes","lnDiff ~ Species * time + (1 + time | CA_MPA_Name_Short)",TRUE,TRUE,FALSE,558,15,45,"boundary (singular) fit: see help('isSingular')
+",FALSE
+"retained_membership","Den","large","independent_slopes","lnDiff ~ Species * time + (1 + time || CA_MPA_Name_Short)",TRUE,TRUE,FALSE,558,15,45,"boundary (singular) fit: see help('isSingular')
+",FALSE
+"retained_membership","Den","large","intercepts","lnDiff ~ Species * time + (1 | CA_MPA_Name_Short)",TRUE,FALSE,TRUE,558,15,45,"",TRUE
+"retained_membership","Den","paired_threshold_difference","correlated_slopes","lnDiff ~ Species * time + (1 + time | CA_MPA_Name_Short)",TRUE,FALSE,TRUE,292,15,25,"",TRUE
+"expanded_size_cohort","Bio","all","correlated_slopes","lnDiff ~ Species * time + (1 + time | CA_MPA_Name_Short)",TRUE,TRUE,FALSE,634,15,51,"boundary (singular) fit: see help('isSingular')
+",FALSE
+"expanded_size_cohort","Bio","all","independent_slopes","lnDiff ~ Species * time + (1 + time || CA_MPA_Name_Short)",TRUE,FALSE,TRUE,634,15,51,"",TRUE
+"expanded_size_cohort","Bio","large","correlated_slopes","lnDiff ~ Species * time + (1 + time | CA_MPA_Name_Short)",TRUE,TRUE,FALSE,634,15,51,"boundary (singular) fit: see help('isSingular')
+",FALSE
+"expanded_size_cohort","Bio","large","independent_slopes","lnDiff ~ Species * time + (1 + time || CA_MPA_Name_Short)",TRUE,FALSE,TRUE,634,15,51,"",TRUE
+"expanded_size_cohort","Bio","paired_threshold_difference","correlated_slopes","lnDiff ~ Species * time + (1 + time | CA_MPA_Name_Short)",TRUE,FALSE,TRUE,292,15,25,"",TRUE
+"expanded_size_cohort","Den","all","correlated_slopes","lnDiff ~ Species * time + (1 + time | CA_MPA_Name_Short)",TRUE,FALSE,TRUE,558,15,45,"",TRUE
+"expanded_size_cohort","Den","large","correlated_slopes","lnDiff ~ Species * time + (1 + time | CA_MPA_Name_Short)",TRUE,TRUE,FALSE,558,15,45,"boundary (singular) fit: see help('isSingular')
+",FALSE
+"expanded_size_cohort","Den","large","independent_slopes","lnDiff ~ Species * time + (1 + time || CA_MPA_Name_Short)",TRUE,TRUE,FALSE,558,15,45,"boundary (singular) fit: see help('isSingular')
+",FALSE
+"expanded_size_cohort","Den","large","intercepts","lnDiff ~ Species * time + (1 | CA_MPA_Name_Short)",TRUE,FALSE,TRUE,558,15,45,"",TRUE
+"expanded_size_cohort","Den","paired_threshold_difference","correlated_slopes","lnDiff ~ Species * time + (1 + time | CA_MPA_Name_Short)",TRUE,FALSE,TRUE,292,15,25,"",TRUE

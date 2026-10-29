@@ -266,9 +266,8 @@ p3 <- ggplot(g3dat, aes(PYCHEL, STRPURAD, color = protection)) +
   geom_smooth(method = "lm", formula = y ~ x, se = TRUE, linewidth = 0.7) +
   scale_color_manual(values = prot_cols, labels = c("Reference", "MPA"), name = NULL) +
   labs(x = expression("Sunflower sea star density (per 60 m"^2*")"),
-       y = expression("Purple urchin density (per 60 m"^2*")"),
-       title = "Reproduced Fig 3 (pre-disease 2010-2012): urchin ~ sunflower sea star") +
-  theme_mpa(base_size = 9) + theme(legend.position = "bottom", plot.title = element_text(size = 9, face = "bold"))
+       y = expression("Purple urchin density (per 60 m"^2*")")) +
+  theme_mpa(base_size = 9) + theme(legend.position = "bottom")
 ggsave(here::here("plots", "fig_s_eisaguirre_fig3_urchin_seastar.pdf"), p3, width = 120, height = 95, units = "mm", device = cairo_pdf)
 ggsave(here::here("plots", "fig_s_eisaguirre_fig3_urchin_seastar.png"), p3, width = 120, height = 95, units = "mm", dpi = 600)
 
@@ -284,9 +283,8 @@ p4 <- ggplot(g4, aes(sheep_dens, STRPURAD, color = protection)) +
   scale_color_manual(values = c(Reference = "#D55E00", MPA = "#0072B2"), name = NULL) +
   coord_cartesian(ylim = c(0, quantile(g4$STRPURAD, 0.98, na.rm = TRUE))) +
   labs(x = "CA sheephead density (adults >=15 cm, per transect)",
-       y = expression("Purple urchin density (per 60 m"^2*")"),
-       title = "Reproduced Fig 4 (post-disease): urchins vs sheephead density, by protection") +
-  theme_mpa(base_size = 9) + theme(legend.position = "bottom", plot.title = element_text(size = 8.5, face = "bold"))
+       y = expression("Purple urchin density (per 60 m"^2*")")) +
+  theme_mpa(base_size = 9) + theme(legend.position = "bottom")
 ggsave(here::here("plots", "fig_s_eisaguirre_fig4_urchin_sheephead.pdf"), p4, width = 150, height = 90, units = "mm", device = cairo_pdf)
 ggsave(here::here("plots", "fig_s_eisaguirre_fig4_urchin_sheephead.png"), p4, width = 150, height = 90, units = "mm", dpi = 600)
 

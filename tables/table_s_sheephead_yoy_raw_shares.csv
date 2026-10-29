@@ -1,0 +1,5 @@
+"scenario","rows","count","removed_rows","removed_count","count_fraction","biomass_fraction","at10_count","positive_missing_size_rows","positive_missing_size_count","missing_count_rows","zero_count_rows","population"
+"remove_lt10",29259,35079,1022,1417,0.0403945380427036,0.000452778113513833,715,8,26,0,0,"all_campus_SPUL"
+"remove_le10",29259,35079,1591,2132,0.0607771031101229,0.00102975447148933,715,8,26,0,0,"all_campus_SPUL"
+"remove_lt10",17762,20877,653,946,0.0453130239019016,0.000476958266473545,410,1,3,0,0,"retained_unique_SPUL"
+"remove_le10",17762,20877,993,1356,0.0649518608995545,0.00104458878197715,410,1,3,0,0,"retained_unique_SPUL"

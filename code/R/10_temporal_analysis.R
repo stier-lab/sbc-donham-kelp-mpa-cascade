@@ -4,7 +4,8 @@
 #
 # PURPOSE:
 #   The main meta-analysis (09_meta_analysis.R) estimates a single effect size
-#   per species per MPA, evaluated at a fixed time point (t = 11 years).
+#   per species per MPA, using model-time 11 minus 0 for progressive fits.
+#   Those fits have source-specific clocks, not a uniform calendar horizon.
 #   This script asks the follow-up question: HOW do MPA effects develop over
 #   time? Do predators recover first and urchins decline later, as a trophic
 #   cascade would predict? Or do all species respond simultaneously?
@@ -173,7 +174,8 @@ expected_direction <- c(
 # (Section C) does not include resp as a random effect because k=2 levels
 # is too few. Instead, Section C1b fits separate biomass-only and density-only
 # models to handle this non-independence properly.
-temporal_after <- All.RR.sub.trans %>%
+source(here::here("code", "R", "temporal_uncertainty_utils.R"))
+temporal_after <- temporal_primary_data(All.RR.sub.trans, SumStats.Final) %>%
   # Keep only post-MPA observations
   dplyr::filter(BA == "After", time >= 0) %>%
   # Add trophic level assignment and standardized species columns
@@ -414,14 +416,15 @@ fig_s03 <- ggplot(s03_data,
               linetype = "dashed",
               inherit.aes = FALSE)
   } +
-  facet_wrap(~ facet_label, ncol = 2, scales = "free_y") +
+  facet_wrap(~ facet_label, ncol = 2, scales = "free_y",
+             labeller = labeller(facet_label = taxon_display)) +
   scale_color_manual(values = species_colors, guide = "none") +
   scale_fill_manual(values = species_colors, guide = "none") +
   scale_x_continuous(breaks = seq(0, 15, by = 5), limits = c(0, 16),
                      expand = c(0.02, 0)) +
   scale_y_rr_free() +
   labs(
-    x = "Years since MPA implementation",
+      x = "Years since MPA designation",
     y = "MPA / Reference"
   ) +
   theme_mpa(base_size = 9) +
@@ -640,67 +643,13 @@ extract_lmer_diagnostics <- function(lmer_obj, species_levels, full_to_abbrev,
     stringsAsFactors = FALSE
   )
 
-  # --- Per-species derived slopes with proper SEs ---
-  # The lmer model parameterizes slopes as: reference species slope + interaction.
-  # For non-reference species, the total slope = beta_time + beta_Species:time.
-  # The SE of this sum comes from the vcov matrix (not just sqrt of summed variances).
-  # Get fixed effects with Satterthwaite p-values if available (degrades to
-  # plain lme4 summary if lmerTest cannot reconstruct the deviance. See
-  # safe_lmer_summary helper near the top of this file).
-  sm <- safe_lmer_summary(lmer_obj)
-  fe <- as.data.frame(coef(sm))
-  fe$Term <- rownames(fe)
-  if ("Pr(>|t|)" %in% names(fe)) names(fe)[names(fe) == "Pr(>|t|)"] <- "p_value"
-  names(fe)[names(fe) == "Std. Error"] <- "SE"
-  names(fe)[names(fe) == "t value"] <- "t_value"
-
-  vcov_mat <- as.matrix(vcov(lmer_obj))
-  term_names <- rownames(vcov_mat)
-
-  ref_slope <- fe$Estimate[fe$Term == "time"]
-  ref_se    <- fe$SE[fe$Term == "time"]
-  ref_df    <- if ("df" %in% names(fe)) fe$df[fe$Term == "time"] else NA_real_
-  ref_p     <- if ("p_value" %in% names(fe)) fe$p_value[fe$Term == "time"] else NA_real_
-
-  slope_rows <- list()
-  for (sp in species_levels) {
-    sp_abbrev <- full_to_abbrev[sp]
-    if (sp == species_levels[1]) {
-      sp_slope <- ref_slope
-      sp_se    <- ref_se
-      sp_df    <- ref_df
-      sp_t     <- sp_slope / sp_se
-      sp_p     <- ref_p
-    } else {
-      sp_clean <- gsub(" ", ".", sp)
-      int_term <- grep(paste0("Species", sp_clean, ":time|time:Species", sp_clean),
-                       term_names, value = TRUE)
-      if (length(int_term) == 0) next
-      int_term <- int_term[1]
-      sp_slope <- ref_slope + fe$Estimate[fe$Term == int_term]
-      v_sum    <- vcov_mat["time", "time"] + vcov_mat[int_term, int_term] +
-                  2 * vcov_mat["time", int_term]
-      sp_se    <- sqrt(max(v_sum, 0))
-      sp_t     <- sp_slope / sp_se
-      sp_df    <- if ("df" %in% names(fe)) fe$df[fe$Term == int_term] else NA_real_
-      # p-value from t-distribution if df available
-      sp_p     <- if (!is.na(sp_df)) 2 * pt(abs(sp_t), df = sp_df, lower.tail = FALSE) else NA_real_
-    }
-    slope_rows[[sp_abbrev]] <- data.frame(
-      model = model_label,
-      Species = sp,
-      Species_abbrev = sp_abbrev,
-      slope = round(sp_slope, 6),
-      SE = round(sp_se, 6),
-      t_value = round(sp_t, 4),
-      df = round(sp_df, 2),
-      p_value = sp_p,
-      CI_lower = round(sp_slope - qt(0.975, if (is.na(sp_df)) Inf else sp_df) * sp_se, 6),
-      CI_upper = round(sp_slope + qt(0.975, if (is.na(sp_df)) Inf else sp_df) * sp_se, 6),
-      stringsAsFactors = FALSE
-    )
-  }
-  species_slopes <- dplyr::bind_rows(slope_rows)
+  # Test each summed species slope, rather than borrowing the interaction's df.
+  species_slopes <- do.call(rbind, lapply(species_levels, function(sp) {
+    z <- temporal_contrast(lmer_obj, sp, slope = TRUE)
+    data.frame(model = model_label, Species = sp, Species_abbrev = full_to_abbrev[sp],
+      slope = z$estimate, SE = z$se, t_value = z$t_value, df = z$df,
+      p_value = z$p, CI_lower = z$ci_low, CI_upper = z$ci_high)
+  }))
 
   list(fit_stats = fit_stats, species_slopes = species_slopes)
 }
@@ -908,60 +857,11 @@ fit_resp_lmer <- function(resp_type, resp_label, species_levels) {
   cat(sprintf("    Species in %s data: %s\n", resp_label,
               paste(sp_present, collapse = ", ")))
 
-  # Attempt random-slopes model
-  resp_lmer <- tryCatch({
-    withCallingHandlers(
-      lme4::lmer(
-        lnDiff ~ Species * time +
-          (1 + time | CA_MPA_Name_Short) + (1 | source),
-        data = resp_data,
-        control = lme4::lmerControl(
-          optimizer = "bobyqa",
-          optCtrl = list(maxfun = 20000)
-        )
-      ),
-      warning = function(w) {
-        cat(sprintf("    WARNING (random slopes, %s): %s\n", resp_label, conditionMessage(w)))
-        invokeRestart("muffleWarning")
-      }
-    )
-  }, error = function(e) {
-    cat(sprintf("    ERROR (random slopes, %s): %s\n", resp_label, conditionMessage(e)))
-    NULL
-  })
-
-  # Check convergence; fall back to random-intercepts if needed
-  resp_fallback <- FALSE
-  if (is.null(resp_lmer)) {
-    resp_fallback <- TRUE
-  } else if (length(resp_lmer@optinfo$conv$lme4) > 0) {
-    cat(sprintf("    Convergence issues in %s; falling back to random-intercepts\n", resp_label))
-    resp_fallback <- TRUE
-  }
-
-  if (resp_fallback) {
-    cat(sprintf("    Fitting random-intercepts fallback (%s)...\n", resp_label))
-    resp_lmer <- tryCatch(
-      lme4::lmer(
-        lnDiff ~ Species * time +
-          (1 | CA_MPA_Name_Short) + (1 | source),
-        data = resp_data
-      ),
-      error = function(e) {
-        cat(sprintf("    ERROR (random intercepts, %s): %s\n", resp_label, conditionMessage(e)))
-        NULL
-      }
-    )
-  }
-
-  if (!is.null(resp_lmer) && lme4::isSingular(resp_lmer)) {
-    cat(sprintf("    NOTE: %s model has singular fit.\n", resp_label))
-  }
-
-  if (is.null(resp_lmer)) {
-    cat(sprintf("    WARNING: %s meta-regression model failed. Skipping.\n", resp_label))
-    return(NULL)
-  }
+  selection <- fit_temporal_candidates(resp_data)
+  resp_lmer <- selection$model
+  resp_fallback <- selection$is_fallback
+  write.csv(selection$audit,
+    here::here("tables", paste0("table_s_temporal_candidates_", tolower(resp_type), ".csv")), row.names = FALSE)
 
   # Extract fixed effects (same pattern as pooled model). See
   # safe_lmer_summary helper near top of file for fallback behavior.
@@ -998,31 +898,10 @@ fit_resp_lmer <- function(resp_type, resp_label, species_levels) {
     cat("      (Random-slopes model converged)\n")
   }
 
-  ref_slope_r <- resp_fixed$Estimate[resp_fixed$Term == "time"]
-  ref_se_r    <- resp_fixed$SE[resp_fixed$Term == "time"]
-  vcov_r      <- as.matrix(vcov(resp_lmer))
-  term_names_r <- rownames(vcov_r)
-
   for (sp in sp_present) {
-    sp_abbrev <- full_to_abbrev[sp]
-    if (sp == sp_present[1]) {
-      cat(sprintf("      %s: slope = %.4f +/- %.4f\n", sp_abbrev, ref_slope_r, ref_se_r))
-    } else {
-      sp_clean <- gsub(" ", ".", sp)
-      int_term <- grep(paste0("Species", sp_clean, ":time|time:Species", sp_clean),
-                       term_names_r, value = TRUE)
-      if (length(int_term) > 0) {
-        int_term <- int_term[1]
-        sp_slope_r <- ref_slope_r + resp_fixed$Estimate[resp_fixed$Term == int_term]
-        var_sum_r <- vcov_r["time", "time"] + vcov_r[int_term, int_term] +
-                     2 * vcov_r["time", int_term]
-        sp_se_r <- sqrt(max(var_sum_r, 0))
-        # Check significance
-        p_int <- resp_fixed$p_value[resp_fixed$Term == int_term]
-        sig_marker <- if (!is.null(p_int) && length(p_int) > 0 && !is.na(p_int) && p_int < 0.05) " *" else ""
-        cat(sprintf("      %s: slope = %.4f +/- %.4f%s\n", sp_abbrev, sp_slope_r, sp_se_r, sig_marker))
-      }
-    }
+    z <- temporal_contrast(resp_lmer, sp, slope = TRUE)
+    cat(sprintf("      %s: slope = %.4f +/- %.4f%s\n", full_to_abbrev[sp],
+      z$estimate, z$se, if (z$p < .05) " *" else ""))
   }
 
   # Extract diagnostics using shared helper
@@ -1094,8 +973,6 @@ extract_prediction_params <- function(lmer_obj, species_levels, resp_label) {
       sp_int_se <- sqrt(vcov_mat["(Intercept)", "(Intercept)"])
       sp_slope_se <- sqrt(vcov_mat["time", "time"])
       sp_cov    <- vcov_mat["(Intercept)", "time"]
-      # Satterthwaite df for the slope term
-      sp_df_slope <- if ("df" %in% names(fe)) fe$df[fe$Term == "time"] else NA_real_
     } else {
       # Non-reference species: add species main effect and interaction
       sp_clean <- gsub(" ", ".", sp)
@@ -1131,8 +1008,6 @@ extract_prediction_params <- function(lmer_obj, species_levels, resp_label) {
                 vcov_mat[sp_main_term, "time"] +
                 vcov_mat[sp_main_term, sp_int_term]
 
-      # Satterthwaite df for the interaction slope term
-      sp_df_slope <- if ("df" %in% names(fe)) fe$df[fe$Term == sp_int_term] else NA_real_
     }
 
     pred_rows[[sp]] <- data.frame(
@@ -1143,7 +1018,7 @@ extract_prediction_params <- function(lmer_obj, species_levels, resp_label) {
       slope = sp_slope,
       slope_se = sp_slope_se,
       cov_int_slope = sp_cov,
-      df_slope = sp_df_slope,
+      df_slope = temporal_contrast(lmer_obj, sp, slope = TRUE)$df,
       stringsAsFactors = FALSE
     )
   }
@@ -1172,6 +1047,12 @@ if (length(pred_params_list) > 0) {
             row.names = FALSE)
   cat("  Saved: tables/table_s_lmer_prediction_params.csv\n")
 }
+prediction_grid <- dplyr::bind_rows(
+  temporal_prediction_grid(temporal_lmer_bio, "Bio"),
+  temporal_prediction_grid(temporal_lmer_den, "Den"))
+write.csv(prediction_grid, here::here("tables", "table_s_temporal_predictions.csv"), row.names = FALSE)
+saveRDS(list(bio = temporal_lmer_bio, den = temporal_lmer_den, annual = temporal_after),
+  here::here("data", "cache", "temporal_primary_models.rds"))
 
 # ---- Export combined model diagnostics across all three lmer models ----
 # Stacks pooled + biomass + density model fits into a single summary table,
@@ -1284,404 +1165,11 @@ cat("  Saved: outputs/lmer_ranef_diagnostics.csv\n")
 
 
 # =============================================================================
-# Section C2: AR1 Autocorrelation Sensitivity. Are the lmer SEs trustworthy?
-# =============================================================================
-# WHAT: Re-fit the temporal model using nlme::lme() with an AR1 correlation
-#   structure, then compare the resulting slopes and standard errors to the
-#   lmer model from Section C.
-#
-# WHY (ecological motivation): Kelp forest populations measured annually
-#   over 10-20 years are likely autocorrelated. A big recruitment year
-#   tends to be followed by another good year (environmental persistence,
-#   demographic inertia). If this positive autocorrelation is ignored (as
-#   lmer does), the effective sample size is inflated and standard errors
-#   are too small, which could make non-significant trends look significant.
-#
-# HOW: The AR1 model estimates a correlation parameter (rho) between
-#   consecutive years within each MPA. If rho is near zero, autocorrelation
-#   is negligible and the lmer results are trustworthy. If rho is large
-#   (> 0.3), the lmer SEs are likely underestimated.
-#
-# DIAGNOSTIC: A Durbin-Watson (DW) test provides a quick initial check.
-#   DW near 2 = no autocorrelation; DW << 2 = positive autocorrelation.
-#
-# OUTPUT: SI Table S7 (table_s_ar1_sensitivity.csv)
-#
-# NOTE: nlme is a base R recommended package (always available). Its lme()
-#   formula syntax differs from lmer(). Random effects use a list
-#   specification and only support nested (not fully crossed) structures.
-# =============================================================================
+# Section C2: same-row calendar AR1 sensitivity is run by module 37.
+# The retired pooled DW and nested nlme reconstruction are not validation of
+# the response-specific models. The master runner invokes module 37 after
+# these exact model objects and annual rows have been saved.
 
-cat("\n--- AR1 Temporal Autocorrelation Sensitivity Analysis ---\n")
-
-if (!is.null(temporal_lmer)) {
-
-  # --- Step 1: Durbin-Watson diagnostic on lmer residuals ---
-  # Provides a quick test for autocorrelation in the pooled residuals.
-  # DW ~ 2 indicates no autocorrelation; DW < 2 indicates positive autocorrelation.
-  # NOTE: This DW test is computed on pooled cross-MPA residuals ordered by
-  # MPA then time. The diff() operation at MPA boundaries is meaningless,
-  # biasing DW toward 2 (anti-conservative for detecting autocorrelation).
-  # The AR1 model comparison in Step 3 below is the more reliable diagnostic.
-  cat("  Durbin-Watson test on lmer residuals:\n")
-  dw_result <- NA_real_
-  dw_pvalue <- NA_real_
-  tryCatch({
-    resids <- residuals(temporal_lmer)
-    # Order residuals by MPA then time for meaningful DW test
-    resid_df <- data.frame(
-      resid = resids,
-      MPA = temporal_after$CA_MPA_Name_Short,
-      time = temporal_after$time
-    )
-    resid_df <- resid_df[order(resid_df$MPA, resid_df$time), ]
-    # Compute DW statistic on ordered residuals
-    n <- nrow(resid_df)
-    dw_stat <- sum(diff(resid_df$resid)^2) / sum(resid_df$resid^2)
-    dw_result <<- dw_stat
-    cat(sprintf("    DW statistic (ordered by MPA, time) = %.4f\n", dw_stat))
-    cat(sprintf("    Interpretation: %s\n",
-                ifelse(dw_stat < 1.5, "Substantial positive autocorrelation (DW << 2)",
-                       ifelse(dw_stat < 1.8, "Moderate positive autocorrelation (DW < 2)",
-                              ifelse(dw_stat > 2.5, "Negative autocorrelation (DW > 2)",
-                                     "Weak or no autocorrelation (DW ~ 2)")))))
-    # Approximate p-value via permutation test (H0: no autocorrelation)
-    # NOTE: DW permutation shuffles residuals globally rather than within-MPA.
-    # This is anti-conservative (inflates Type I error) because it breaks
-    # within-MPA temporal correlation structure. Interpret permutation p-values
-    # as approximate. The parametric DW test results are the primary diagnostic.
-    set.seed(42L)  # Reproducibility for DW permutation test
-    n_perm <- 999
-    dw_perm <- replicate(n_perm, {
-      perm_resid <- sample(resid_df$resid)
-      sum(diff(perm_resid)^2) / sum(perm_resid^2)
-    })
-    # One-sided test: positive autocorrelation means DW < 2
-    dw_pvalue <<- (sum(dw_perm <= dw_stat) + 1) / (n_perm + 1)
-    cat(sprintf("    DW p-value (permutation, H0: no autocorrelation) = %.4f\n", dw_pvalue))
-  }, error = function(e) {
-    cat("    DW test failed:", conditionMessage(e), "\n")
-  })
-
-  # --- Step 2: Fit nlme::lme with AR1 correlation structure ---
-  # Strategy: try progressively simpler random effects structures until one
-  # converges. The key addition vs lmer is corAR1(form = ~ time | MPA),
-  # which estimates temporal autocorrelation within each MPA's time series.
-  cat("\n  Fitting nlme::lme model with AR1 correction...\n")
-
-  # Create factor versions of grouping variables (nlme requires factors)
-  temporal_after$source_f <- factor(temporal_after$source)
-  temporal_after$resp_f   <- factor(temporal_after$resp)
-  temporal_after$MPA_f    <- factor(temporal_after$CA_MPA_Name_Short)
-
-  # Remove any rows with NA in key columns (nlme is less tolerant than lmer)
-  ar1_data <- temporal_after %>%
-    dplyr::filter(!is.na(lnDiff), !is.na(Species), !is.na(time),
-                  !is.na(MPA_f), !is.na(source_f), !is.na(resp_f))
-
-  temporal_lme_ar1 <- NULL
-  ar1_model_description <- ""
-
-  # Attempt 1 (most complex): random slopes for MPA + random intercepts for
-  # source and response type. This matches the lmer structure as closely as
-  # possible, but nlme only supports nested (not crossed) random effects,
-  # so this attempt often fails.
-
-  # via pdBlocked or groupedData. For crossed designs we nest source and resp
-  # within a dummy grouping variable. nlme only supports nested (not
-  # fully crossed) random effects. We use the most important grouping (MPA with
-  # random slopes) plus source as a nested or additional intercept.
-  #
-  # Strategy: Use MPA as the primary grouping with random slopes, and add
-  # source and resp as fixed covariates rather than random effects if the full
-  # random structure won't converge. This is a pragmatic compromise. The key
-  # goal is estimating the AR1 coefficient (rho).
-
-  # NOTE: Attempt 1's random list is interpreted by nlme as nested (source > MPA > resp),
-  # not the intended crossed structure. This attempt is expected to fail for most datasets
-  # and serves as a "try the richest model first" step before the simpler Attempt 2.
-  temporal_lme_ar1 <- tryCatch({
-    cat("    Attempt 1: Random slopes (MPA) + random intercepts (source, resp)...\n")
-    nlme::lme(
-      fixed = lnDiff ~ Species * time,
-      random = list(
-        source_f = nlme::pdDiag(~ 1),
-        MPA_f = ~ 1 + time,
-        resp_f = nlme::pdDiag(~ 1)
-      ),
-      correlation = nlme::corAR1(form = ~ time | MPA_f),
-      data = ar1_data,
-      method = "REML",
-      control = nlme::lmeControl(
-        maxIter = 200, msMaxIter = 200,
-        opt = "optim", msVerbose = FALSE,
-        returnObject = TRUE
-      )
-    )
-  }, error = function(e) {
-    cat("    Attempt 1 failed:", conditionMessage(e), "\n")
-    NULL
-  })
-  # Check if AR1 model actually converged (returnObject=TRUE may return non-converged fit)
-  if (!is.null(temporal_lme_ar1) && inherits(temporal_lme_ar1$apVar, "character")) {
-    warning("AR1 model (attempt 1) returned non-positive-definite variance; treating as non-converged")
-    temporal_lme_ar1 <- NULL
-  }
-  if (!is.null(temporal_lme_ar1)) {
-    ar1_model_description <- "random slopes (MPA) + random intercepts (source, resp)"
-  }
-
-  # Attempt 2 (intermediate): random slopes for MPA only, dropping source and
-  # response type as random effects. This is the most common successful fit.
-  if (is.null(temporal_lme_ar1)) {
-    temporal_lme_ar1 <- tryCatch({
-      cat("    Attempt 2: Random slopes (MPA) only, AR1 within MPA...\n")
-      nlme::lme(
-        fixed = lnDiff ~ Species * time,
-        random = ~ 1 + time | MPA_f,
-        correlation = nlme::corAR1(form = ~ time | MPA_f),
-        data = ar1_data,
-        method = "REML",
-        control = nlme::lmeControl(
-          maxIter = 200, msMaxIter = 200,
-          opt = "optim", msVerbose = FALSE,
-          returnObject = TRUE
-        )
-      )
-    }, error = function(e) {
-      cat("    Attempt 2 failed:", conditionMessage(e), "\n")
-      NULL
-    })
-    # Check if AR1 model actually converged (returnObject=TRUE may return non-converged fit)
-    if (!is.null(temporal_lme_ar1) && inherits(temporal_lme_ar1$apVar, "character")) {
-      warning("AR1 model (attempt 2) returned non-positive-definite variance; treating as non-converged")
-      temporal_lme_ar1 <- NULL
-    }
-    if (!is.null(temporal_lme_ar1)) {
-      ar1_model_description <- "random slopes (MPA) only"
-    }
-  }
-
-  # Attempt 3 (simplest): random intercepts only for MPA. This drops the
-  # per-MPA slope variation but still estimates the AR1 autocorrelation.
-  if (is.null(temporal_lme_ar1)) {
-    temporal_lme_ar1 <- tryCatch({
-      cat("    Attempt 3: Random intercepts (MPA) only, AR1 within MPA...\n")
-      nlme::lme(
-        fixed = lnDiff ~ Species * time,
-        random = ~ 1 | MPA_f,
-        correlation = nlme::corAR1(form = ~ time | MPA_f),
-        data = ar1_data,
-        method = "REML",
-        control = nlme::lmeControl(
-          maxIter = 200, msMaxIter = 200,
-          opt = "optim", msVerbose = FALSE,
-          returnObject = TRUE
-        )
-      )
-    }, error = function(e) {
-      cat("    Attempt 3 failed:", conditionMessage(e), "\n")
-      NULL
-    })
-    # Check if AR1 model actually converged (returnObject=TRUE may return non-converged fit)
-    if (!is.null(temporal_lme_ar1) && inherits(temporal_lme_ar1$apVar, "character")) {
-      warning("AR1 model (attempt 3) returned non-positive-definite variance; treating as non-converged")
-      temporal_lme_ar1 <- NULL
-    }
-    if (!is.null(temporal_lme_ar1)) {
-      ar1_model_description <- "random intercepts (MPA) only"
-    }
-  }
-
-  # --- Step 3: Compare lmer vs AR1 model ---
-  if (!is.null(temporal_lme_ar1)) {
-    cat(sprintf("    AR1 model converged (%s)\n", ar1_model_description))
-
-    # Extract estimated AR1 coefficient (rho)
-    ar1_rho <- tryCatch({
-      cs <- coef(temporal_lme_ar1$modelStruct$corStruct,
-                 unconstrained = FALSE)
-      cs[1]
-    }, error = function(e) NA_real_)
-    cat(sprintf("    Estimated AR1 coefficient (rho) = %.4f\n",
-                ifelse(is.na(ar1_rho), NA_real_, ar1_rho)))
-    if (!is.na(ar1_rho)) {
-      cat(sprintf("    Interpretation: %s\n",
-                  ifelse(abs(ar1_rho) < 0.1,
-                         "Negligible autocorrelation; lmer results are robust",
-                         ifelse(ar1_rho > 0.3,
-                                "Substantial positive autocorrelation; lmer SEs likely underestimated",
-                                ifelse(ar1_rho > 0.1,
-                                       "Moderate positive autocorrelation; some SE inflation possible",
-                                       "Negative autocorrelation (unusual in ecology)")))))
-    }
-
-    # Extract AR1 fixed effects for comparison
-    ar1_summary <- summary(temporal_lme_ar1)
-    ar1_fixed <- as.data.frame(ar1_summary$tTable)
-    ar1_fixed$Term <- rownames(ar1_fixed)
-    rownames(ar1_fixed) <- NULL
-    names(ar1_fixed)[names(ar1_fixed) == "Value"] <- "Estimate"
-    names(ar1_fixed)[names(ar1_fixed) == "Std.Error"] <- "SE"
-    names(ar1_fixed)[names(ar1_fixed) == "t-value"] <- "t_value"
-    names(ar1_fixed)[names(ar1_fixed) == "p-value"] <- "p_value"
-
-    # --- Compare slopes side-by-side: lmer vs AR1 ---
-    # For each species, show the slope and SE from both models. The key column
-    # is SE_ratio = AR1_SE / lmer_SE. If SE_ratio > 1, the AR1 model gives
-    # larger (more conservative) SEs, meaning autocorrelation was inflating
-    # the lmer's apparent precision.
-    cat("\n  Comparison of species slopes: lmer vs AR1-corrected lme\n")
-    cat("  ---------------------------------------------------------------\n")
-    cat(sprintf("  %-20s %10s %8s | %10s %8s | %s\n",
-                "Species", "lmer_slope", "lmer_SE",
-                "AR1_slope", "AR1_SE", "SE_ratio"))
-    cat("  ---------------------------------------------------------------\n")
-
-    # Build comparison table for export
-    comparison_rows <- list()
-
-    for (sp in species_order_full) {
-      sp_abbrev <- full_to_abbrev[sp]
-
-      # lmer slope and SE
-      if (sp == species_order_full[1]) {
-        lmer_sl <- fixed_ef$Estimate[fixed_ef$Term == "time"]
-        lmer_se <- fixed_ef$SE[fixed_ef$Term == "time"]
-      } else {
-        sp_clean <- gsub(" ", ".", sp)
-        int_term <- grep(paste0("Species", sp_clean, ":time|time:Species", sp_clean),
-                         fixed_ef$Term, value = TRUE)
-        if (length(int_term) > 0) {
-          lmer_sl <- fixed_ef$Estimate[fixed_ef$Term == "time"] +
-                     fixed_ef$Estimate[fixed_ef$Term == int_term[1]]
-          # Proper SE from vcov
-          vm <- as.matrix(vcov(temporal_lmer))
-          v <- vm["time", "time"] + vm[int_term[1], int_term[1]] +
-               2 * vm["time", int_term[1]]
-          lmer_se <- sqrt(max(v, 0))
-        } else {
-          lmer_sl <- NA_real_; lmer_se <- NA_real_
-        }
-      }
-
-      # AR1 slope and SE
-      if (sp == species_order_full[1]) {
-        ar1_sl <- ar1_fixed$Estimate[ar1_fixed$Term == "time"]
-        ar1_se <- ar1_fixed$SE[ar1_fixed$Term == "time"]
-      } else {
-        sp_clean <- gsub(" ", ".", sp)
-        int_term_ar1 <- grep(paste0("Species", sp_clean, ":time|time:Species", sp_clean),
-                             ar1_fixed$Term, value = TRUE)
-        if (length(int_term_ar1) > 0) {
-          ar1_sl <- ar1_fixed$Estimate[ar1_fixed$Term == "time"] +
-                    ar1_fixed$Estimate[ar1_fixed$Term == int_term_ar1[1]]
-          # SE from nlme vcov
-          vm_ar1 <- vcov(temporal_lme_ar1)
-          v_ar1 <- vm_ar1["time", "time"] + vm_ar1[int_term_ar1[1], int_term_ar1[1]] +
-                   2 * vm_ar1["time", int_term_ar1[1]]
-          ar1_se <- sqrt(max(v_ar1, 0))
-        } else {
-          ar1_sl <- NA_real_; ar1_se <- NA_real_
-        }
-      }
-
-      se_ratio <- ifelse(!is.na(lmer_se) && !is.na(ar1_se) && lmer_se > 0,
-                         ar1_se / lmer_se, NA_real_)
-      cat(sprintf("  %-20s %10.4f %8.4f | %10.4f %8.4f | %.2f\n",
-                  sp_abbrev,
-                  ifelse(is.na(lmer_sl), NA_real_, lmer_sl),
-                  ifelse(is.na(lmer_se), NA_real_, lmer_se),
-                  ifelse(is.na(ar1_sl), NA_real_, ar1_sl),
-                  ifelse(is.na(ar1_se), NA_real_, ar1_se),
-                  ifelse(is.na(se_ratio), NA_real_, se_ratio)))
-
-      comparison_rows[[sp_abbrev]] <- data.frame(
-        Species = sp_abbrev,
-        lmer_slope = lmer_sl, lmer_SE = lmer_se,
-        AR1_slope = ar1_sl, AR1_SE = ar1_se,
-        SE_ratio = se_ratio,
-        stringsAsFactors = FALSE
-      )
-    }
-    cat("  ---------------------------------------------------------------\n")
-    cat("  SE_ratio > 1 means AR1 model has larger (more conservative) SEs\n")
-
-    comparison_df <- dplyr::bind_rows(comparison_rows)
-
-    # Assess whether conclusions change
-    # If the AR1 SE_ratio is substantially > 1 for most species, flag it
-    median_se_ratio <- median(comparison_df$SE_ratio, na.rm = TRUE)
-    cat(sprintf("\n  Median SE ratio (AR1 / lmer) = %.2f\n", median_se_ratio))
-    if (median_se_ratio > 1.3) {
-      cat("  CAUTION: AR1 correction substantially inflates SEs (>30%).\n")
-      cat("  Temporal autocorrelation is non-trivial; consider using AR1 model.\n")
-    } else if (median_se_ratio > 1.1) {
-      cat("  NOTE: AR1 correction moderately inflates SEs (10-30%).\n")
-      cat("  Results are qualitatively robust but SEs should be interpreted with care.\n")
-    } else {
-      cat("  GOOD: AR1 correction has minimal effect on SEs (<10%).\n")
-      cat("  Temporal autocorrelation does not materially affect conclusions.\n")
-    }
-
-    # --- Save AR1 comparison table -> SI Table S7 ---
-    ar1_comparison_out <- comparison_df
-    ar1_comparison_out$AR1_rho <- ar1_rho
-    ar1_comparison_out$DW_statistic <- ifelse(!is.na(dw_result), dw_result, NA_real_)
-    ar1_comparison_out$DW_pvalue <- ifelse(!is.na(dw_pvalue), dw_pvalue, NA_real_)
-    ar1_comparison_out$AR1_model <- ar1_model_description
-    write.csv(ar1_comparison_out,
-              here::here("tables", "table_s_ar1_sensitivity.csv"),
-              row.names = FALSE)
-    cat("  Saved: tables/table_s_ar1_sensitivity.csv\n")
-
-    # --- Save AR1 fixed effects table (parallel to lmer table) ---
-    ar1_fixed_out <- ar1_fixed[, intersect(c("Term", "Estimate", "SE",
-                                              "t_value", "DF", "p_value"),
-                                            names(ar1_fixed))]
-    write.csv(ar1_fixed_out,
-              here::here("tables", "table_s_temporal_meta_regression_ar1.csv"),
-              row.names = FALSE)
-    cat("  Saved: tables/table_s_temporal_meta_regression_ar1.csv\n")
-
-  } else {
-    cat("    WARNING: All AR1 model attempts failed to converge.\n")
-    cat("    Reporting Durbin-Watson diagnostic only.\n")
-    if (!is.na(dw_result)) {
-      cat(sprintf("    DW = %.4f. %s\n", dw_result,
-                  ifelse(dw_result < 1.5,
-                         "suggests positive autocorrelation (lmer SEs may be underestimated)",
-                         "suggests autocorrelation is not severe")))
-    }
-    # Save a minimal diagnostic CSV
-    dw_out <- data.frame(
-      diagnostic = "Durbin-Watson",
-      statistic = ifelse(!is.na(dw_result), dw_result, NA_real_),
-      p_value = ifelse(!is.na(dw_pvalue), dw_pvalue, NA_real_),
-      note = ifelse(!is.na(dw_result) && dw_result < 1.5,
-                    "Positive autocorrelation detected; AR1 model did not converge",
-                    "Weak autocorrelation; lmer results likely robust"),
-      stringsAsFactors = FALSE
-    )
-    write.csv(dw_out,
-              here::here("tables", "table_s_ar1_sensitivity.csv"),
-              row.names = FALSE)
-    cat("  Saved: tables/table_s_ar1_sensitivity.csv (DW diagnostic only)\n")
-  }
-
-} else {
-  cat("  Skipping AR1 analysis. lmer model did not fit.\n")
-}
-
-cat("=== AR1 sensitivity analysis complete ===\n")
-
-# ---- NOTE FOR FUTURE WORK ----
-# The main meta-analysis extracts effect sizes at a single time point (t = 11
-# years, the age of the youngest MPA). A useful sensitivity analysis would
-# extract at t = 8, 10, and 14 as well, to test whether conclusions depend
-# on this choice. This would require re-running 08_effect_sizes.R and
-# 09_meta_analysis.R with modified EFFECT_SIZE_TIME_YEARS. Not yet implemented;
-# should be noted as a limitation in the Discussion.
 
 
 # =============================================================================
@@ -1840,7 +1328,7 @@ build_phase_panel <- function(data, x_col, y_col, x_lab, y_lab,
       low  = col_heatmap["low"],   # brick red (early)
       high = col_heatmap["high"]   # steel blue (late)
     ) +
-    labs(x = x_lab, y = y_lab) +
+    labs(x = taxon_display(x_lab), y = taxon_display(y_lab)) +
     coord_cartesian(xlim = c(x_lo, x_hi), ylim = c(y_lo, y_hi),
                     clip = "off") +
     theme_mpa(base_size = 9) +
@@ -2083,13 +1571,11 @@ build_heatmap_panel <- function(sp_full, show_x_axis = FALSE,
     ) +
     ggplot2::scale_x_continuous(breaks = seq(0, 15, by = 3),
                                 expand = c(0, 0)) +
-    ggplot2::labs(title = sp_abbrev, y = NULL) +
+    ggplot2::labs(y = NULL) +
     theme_mpa(base_size = 9) +
     ggplot2::theme(
       axis.text.y = ggplot2::element_text(size = 8),
-      panel.grid  = ggplot2::element_blank(),
-      plot.title  = ggplot2::element_text(size = 9, face = "bold.italic",
-                                          hjust = 0)
+      panel.grid  = ggplot2::element_blank()
     )
 
   if (!show_x_axis) {
@@ -2097,7 +1583,7 @@ build_heatmap_panel <- function(sp_full, show_x_axis = FALSE,
       ggplot2::theme(axis.text.x = ggplot2::element_blank(),
                      axis.ticks.x = ggplot2::element_blank())
   } else {
-    p <- p + ggplot2::labs(x = "Years since MPA implementation")
+      p <- p + ggplot2::labs(x = "Years since MPA designation")
   }
 
   if (!show_legend) {
@@ -2277,6 +1763,7 @@ p_slopes <- ggplot2::ggplot(slope_data,
     position = ggplot2::position_nudge(x = 0.18)
   ) +
   ggplot2::scale_color_manual(values = sp_color_abbrev, guide = "none") +
+  ggplot2::scale_x_discrete(labels = taxon_display) +
   ggplot2::coord_flip() +
   ggplot2::labs(
     x = NULL,
@@ -2392,6 +1879,7 @@ p_cascade <- ggplot2::ggplot(
   ggplot2::aes(x = Species_dir, y = MPA_short, fill = fill_val)
 ) +
   ggplot2::geom_tile(color = "white", linewidth = 0.5) +
+  ggplot2::scale_x_discrete(labels = taxon_display) +
   ggplot2::scale_fill_manual(
     values = c(fill_cascade, "NA" = "grey90"),
     labels = c("FALSE" = "No", "TRUE" = "Yes", "NA" = "No data"),

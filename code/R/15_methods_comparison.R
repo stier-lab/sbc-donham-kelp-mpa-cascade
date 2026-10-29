@@ -369,10 +369,10 @@ pa <- ggplot(br, aes(wp, dAB, group = lab)) +
   scale_color_manual(values = c("Kumagai-style" = "#D55E00", "intermediate" = "grey50",
                                 "Our endpoint" = "#0072B2"), name = NULL) +
   scale_y_rr(yr1[1], yr1[2], name = "After-before change in MPA effect  (x-fold change in RR)") +
-  labs(x = NULL, title = "a  Method bridge (common dataset): one analytical flip per step") +
+  labs(x = NULL, tag = "(a)") +
   theme_mpa(base_size = 9) +
   theme(legend.position = "bottom", axis.text.x = element_text(size = 6, angle = 45, hjust = 1),
-        plot.title = element_text(size = 9, face = "bold"))
+        plot.tag = element_text(size = 9, face = "bold"))
 
 # Panel b: cross-substrate at the shared pooled waypoints (data effect)
 plist <- list(pa)
@@ -388,10 +388,10 @@ if (length(theirs_rows)) {
     scale_color_manual(values = c("OURS" = "#0072B2", "THEIRS" = "#009E73"), name = NULL) +
     scale_y_rr(min(c(cs$lo, 0), na.rm = TRUE), max(c(cs$hi, 0), na.rm = TRUE),
                name = "After-before change in MPA effect  (x-fold change in RR)") +
-    labs(x = NULL, title = "b  Data effect: same pooled methods on each dataset") +
+    labs(x = NULL, tag = "(b)") +
     theme_mpa(base_size = 9) +
     theme(legend.position = "bottom", axis.text.x = element_text(size = 6, angle = 45, hjust = 1),
-          plot.title = element_text(size = 9, face = "bold"))
+          plot.tag = element_text(size = 9, face = "bold"))
   plist <- list(pa, pb)
 }
 fig <- if (length(plist) == 2) patchwork::wrap_plots(plist, ncol = 1) else plist[[1]]
