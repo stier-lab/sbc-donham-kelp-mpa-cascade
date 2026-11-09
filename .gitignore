@@ -76,3 +76,20 @@ literature/pdfs/
 # Contributor delivery and task-specific verification dependencies stay local.
 data/external/tom_bell_2026-10-21/
 tmp/tom_verification_deps/
+
+data/external/scott_gabara_2026-11-02/
+
+outputs/lter_original_sizes_20261102/private/
+
+# scratch
+tmp/
+.playwright-cli/
+__pycache__/
+*.pyc
+# private correspondence and private review evidence (never publish)
+correspondence/
+outputs/**/private/
+outputs/integrated_review_20261103/stage/
+*email_draft*
+*SCOTT_DRAFT*
+draft_source_request_*
