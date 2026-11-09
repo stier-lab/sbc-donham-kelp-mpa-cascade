@@ -1,0 +1,93 @@
+Taxa,Resp,model,term,Source,estimate,se,low,high,comparisons,MPAs,between_MPA_variance,boundary,upper_boundary,program_weighting
+M. franciscanus,Bio,post_trend,recovery_slope,All programs,-0.14145297698046413,0.07144591472395252,-0.3006443953926009,0.017738441431672664,11,11,0.031263489017023825,False,False,equal program means; source fixed effects
+M. franciscanus,Bio,post_trend,recovery_slope,KFM,-0.10461988508128442,0.06186471332550868,-0.2763838655783577,0.06714409541578886,5,5,0.014099715270743739,False,False,within program
+M. franciscanus,Bio,post_trend,recovery_slope,PISCO,-0.2310453609580108,0.13507225859487482,-0.6609055712695957,0.1988148493535741,4,4,0.05685533126166792,False,False,within program
+M. franciscanus,Den,flat_before_after,average_observed_post_change,All programs,0.0077895170590008556,0.4582506053409688,-1.2645181330938577,1.2800971672118593,5,5,0.0,True,False,equal program means; source fixed effects
+M. franciscanus,Den,flat_before_after,average_observed_post_change,KFM,-0.38186271537525057,0.39649962018278617,-2.08786288849934,1.3241374577488392,3,3,0.0,True,False,within program
+M. franciscanus,Den,flat_before_after,level_change,All programs,0.3948384856361736,0.4417937565252048,-0.8317776271751771,1.6214545984475242,5,5,0.0,True,False,equal program means; source fixed effects
+M. franciscanus,Den,flat_before_after,level_change,KFM,0.09662468411557112,0.40175393050359526,-1.6319829616532986,1.8252323298844408,3,3,0.0,True,False,within program
+M. franciscanus,Den,flat_before_after,recovery_slope,All programs,-0.05733148399055027,0.06975191003595924,-0.2509938331880861,0.1363308652069856,5,5,0.0,True,False,equal program means; source fixed effects
+M. franciscanus,Den,flat_before_after,recovery_slope,KFM,-0.04563262218973616,0.0397980136463868,-0.21686965424396865,0.12560440986449634,3,3,0.0,True,False,within program
+M. franciscanus,Den,post_trend,recovery_slope,All programs,-0.10117109604166838,0.04650934437612881,-0.20250625226778918,0.0001640601844524331,19,13,0.01341854151913815,False,False,equal program means; source fixed effects
+M. franciscanus,Den,post_trend,recovery_slope,KFM,-0.07709652607585332,0.05395337095721373,-0.2268950987789302,0.07270204662722354,5,5,0.0,True,False,within program
+M. franciscanus,Den,post_trend,recovery_slope,PISCO,-0.08413543066111584,0.0374479489129532,-0.16655781049439564,-0.0017130508278360435,12,12,0.013188367806446468,False,False,within program
+M. franciscanus,Den,pretrend_sensitivity,average_observed_post_change,All programs,-0.33222101436113827,1.0614468776593038,-3.2792700022657932,2.614827973543517,5,5,0.0,True,False,equal program means; source fixed effects
+M. franciscanus,Den,pretrend_sensitivity,average_observed_post_change,KFM,0.14007071572300625,1.0878791913251344,-4.540695656469721,4.8208370879157325,3,3,0.0,True,False,within program
+M. franciscanus,Den,pretrend_sensitivity,level_change,All programs,0.2613895235378483,0.48386045986055937,-1.0820224818407551,1.6048015289164517,5,5,0.0,True,False,equal program means; source fixed effects
+M. franciscanus,Den,pretrend_sensitivity,level_change,KFM,0.10651359366607216,0.4510648044452937,-1.8342616184743779,2.047288805806522,3,3,0.0,True,False,within program
+M. franciscanus,Den,pretrend_sensitivity,slope_change,All programs,-0.11295868711814919,0.1442543767788566,-0.5134730454291638,0.2875556711928655,5,5,0.0,True,False,equal program means; source fixed effects
+M. franciscanus,Den,pretrend_sensitivity,slope_change,KFM,0.0162784971902188,0.10161241416510179,-0.42092443399368934,0.4534814283741269,3,3,0.0,True,False,within program
+M. pyrifera,Bio,flat_before_after,average_observed_post_change,All programs,1.7212561659731247,0.6213922657834017,0.4102330836781638,3.0322792482680856,21,18,0.2368234171356364,False,False,equal program means; source fixed effects
+M. pyrifera,Bio,flat_before_after,average_observed_post_change,Landsat,0.4873436516180025,0.19672835791156634,0.07029816317417742,0.9043891400618276,17,17,0.25016740909185275,False,False,within program
+M. pyrifera,Bio,flat_before_after,level_change,All programs,0.12165374247343233,0.5716389357892506,-1.084398989150787,1.3277064740976516,21,18,0.5168102459800589,False,False,equal program means; source fixed effects
+M. pyrifera,Bio,flat_before_after,level_change,Landsat,-0.03337663881536437,0.29324630815352953,-0.6550310414471006,0.5882777638163719,17,17,0.5005219763758764,False,False,within program
+M. pyrifera,Bio,flat_before_after,recovery_slope,All programs,0.234730093190659,0.08144350188181063,0.06289932420711797,0.4065608621742,21,18,0.013813545095124795,False,False,equal program means; source fixed effects
+M. pyrifera,Bio,flat_before_after,recovery_slope,Landsat,0.07894924026099297,0.04205610290034627,-0.010205715142045463,0.1681041956640314,17,17,0.013997405671398969,False,False,within program
+M. pyrifera,Bio,post_trend,recovery_slope,All programs,0.15613904751070556,0.05172691528099036,0.04787336956725202,0.2644047254541591,36,20,0.012513309258464647,False,False,equal program means; source fixed effects
+M. pyrifera,Bio,post_trend,recovery_slope,KFM,0.13638918046251333,0.10101668730212976,-0.14407810654078093,0.4168564674658076,5,5,0.0,True,False,within program
+M. pyrifera,Bio,post_trend,recovery_slope,Landsat,0.07813382873142474,0.04185239687956117,-0.01058928919866807,0.16685694666151757,17,17,0.015661493501331194,False,False,within program
+M. pyrifera,Bio,post_trend,recovery_slope,PISCO,0.11456174373322918,0.043483307304204986,0.01885562964496966,0.2102678578214887,12,12,0.0,True,False,within program
+M. pyrifera,Bio,pretrend_sensitivity,average_observed_post_change,All programs,0.9717544548082239,2.116378241441009,-3.4934133275714956,5.436922237187943,21,18,0.6760497151412738,False,False,equal program means; source fixed effects
+M. pyrifera,Bio,pretrend_sensitivity,average_observed_post_change,Landsat,0.9153791383866687,0.3519334719388776,0.16931350625010744,1.66144477052323,17,17,0.7395075506856873,False,False,within program
+M. pyrifera,Bio,pretrend_sensitivity,level_change,All programs,-0.0076008022523594565,0.7207343107605184,-1.528217278573859,1.51301567406914,21,18,1.2387769969519093,False,False,equal program means; source fixed effects
+M. pyrifera,Bio,pretrend_sensitivity,level_change,Landsat,0.26974055813779513,0.3905532779491864,-0.5581954054149165,1.097676521690507,17,17,1.3299382025720408,False,False,within program
+M. pyrifera,Bio,pretrend_sensitivity,slope_change,All programs,0.10407309532256549,0.2175439629143376,-0.3549045464976971,0.563050737142828,21,18,0.013265221936522402,False,False,equal program means; source fixed effects
+M. pyrifera,Bio,pretrend_sensitivity,slope_change,Landsat,0.10041295873950822,0.045004306170534025,0.005008091600817333,0.1958178258781991,17,17,0.01342275714790501,False,False,within program
+P. interruptus,Bio,post_trend,recovery_slope,All programs,0.06052621939974458,0.10090315812167658,-0.21962586006618334,0.34067829886567247,5,5,0.0,True,False,equal program means; source fixed effects
+P. interruptus,Bio,post_trend,recovery_slope,PISCO,-0.03423273779109468,0.07640283745843861,-0.36296761494225,0.2945021393600606,3,3,0.0,True,False,within program
+P. interruptus,Den,flat_before_after,average_observed_post_change,All programs,1.1367920755089664,1.0927331451897764,-3.56485917452954,5.838443325547473,3,3,3.57609248231113,False,False,equal program means; source fixed effects
+P. interruptus,Den,flat_before_after,average_observed_post_change,KFM,1.1367920755089664,1.0927331451897764,-3.56485917452954,5.838443325547473,3,3,3.57609248231113,False,False,within program
+P. interruptus,Den,flat_before_after,level_change,All programs,0.5737844159935682,0.5912103287189845,-1.969988318725247,3.1175571507123836,3,3,1.0380126722435348,False,False,equal program means; source fixed effects
+P. interruptus,Den,flat_before_after,level_change,KFM,0.5737844159935682,0.5912103287189845,-1.969988318725247,3.1175571507123836,3,3,1.0380126722435348,False,False,within program
+P. interruptus,Den,flat_before_after,recovery_slope,All programs,0.05993516929365848,0.05448871274859298,-0.17451083935460943,0.29438117794192636,3,3,0.008777312501645684,False,False,equal program means; source fixed effects
+P. interruptus,Den,flat_before_after,recovery_slope,KFM,0.05993516929365848,0.05448871274859298,-0.17451083935460943,0.29438117794192636,3,3,0.008777312501645684,False,False,within program
+P. interruptus,Den,post_trend,recovery_slope,All programs,0.06830261061953989,0.0674732929285452,-0.07870906567306947,0.21531428691214927,19,13,0.00581925434632776,False,False,equal program means; source fixed effects
+P. interruptus,Den,post_trend,recovery_slope,KFM,0.0183094599230865,0.04139485177843788,-0.09662107367754554,0.13323999352371854,5,5,0.008361275358517247,False,False,within program
+P. interruptus,Den,post_trend,recovery_slope,PISCO,0.0641159541910412,0.03565583107313373,-0.014362000871660452,0.14259390925374285,12,12,0.008391843257104842,False,False,within program
+P. interruptus,Den,pretrend_sensitivity,average_observed_post_change,All programs,1.1368174556718011,1.0927210385849147,-3.5647817038502483,5.838416615193851,3,3,3.5760127703937856,False,False,equal program means; source fixed effects
+P. interruptus,Den,pretrend_sensitivity,average_observed_post_change,KFM,1.1368174556718011,1.0927210385849147,-3.5647817038502483,5.838416615193851,3,3,3.5760127703937856,False,False,within program
+P. interruptus,Den,pretrend_sensitivity,level_change,All programs,0.5738011185053062,0.5912016794202812,-1.969934401284833,3.1175366382954453,3,3,1.0379818459927868,False,False,equal program means; source fixed effects
+P. interruptus,Den,pretrend_sensitivity,level_change,KFM,0.5738011185053062,0.5912016794202812,-1.969934401284833,3.1175366382954453,3,3,1.0379818459927868,False,False,within program
+P. interruptus,Den,pretrend_sensitivity,slope_change,All programs,0.05993604207319833,0.05448832851332926,-0.17450831334416322,0.2943803974905599,3,3,0.008777186489868222,False,False,equal program means; source fixed effects
+P. interruptus,Den,pretrend_sensitivity,slope_change,KFM,0.05993604207319833,0.05448832851332926,-0.17450831334416322,0.2943803974905599,3,3,0.008777186489868222,False,False,within program
+S. pulcher,Bio,flat_before_after,average_observed_post_change,All programs,-0.3075992466423243,0.6126764294454335,-2.9437331582488726,2.3285346649642236,3,3,0.0,True,False,equal program means; source fixed effects
+S. pulcher,Bio,flat_before_after,level_change,All programs,0.055987624436451555,0.6691420324648598,-2.8230981681385807,2.9350734170114836,3,3,0.0,True,False,equal program means; source fixed effects
+S. pulcher,Bio,flat_before_after,recovery_slope,All programs,-0.06353790495459402,0.10605254423541699,-0.5198451739059865,0.3927693639967984,3,3,0.0,True,False,equal program means; source fixed effects
+S. pulcher,Bio,post_trend,recovery_slope,All programs,-0.14518657241746125,0.10211239816177611,-0.36165518639680116,0.07128204156187865,19,17,0.011371143323785882,False,False,equal program means; source fixed effects
+S. pulcher,Bio,post_trend,recovery_slope,PISCO,-0.025014362282239355,0.03339358094894344,-0.09580559149587847,0.04577686693139976,17,17,0.011488694157894873,False,False,within program
+S. pulcher,Bio,pretrend_sensitivity,average_observed_post_change,All programs,-2.5129491308483254,1.2146865219680392,-7.739323410383989,2.7134251486873384,3,3,0.0,True,False,equal program means; source fixed effects
+S. pulcher,Bio,pretrend_sensitivity,level_change,All programs,-0.7098131305960724,0.8276629161757724,-4.27095923619216,2.8513329750000143,3,3,0.0,True,False,equal program means; source fixed effects
+S. pulcher,Bio,pretrend_sensitivity,slope_change,All programs,-0.32394734524231056,0.14102443251730928,-0.9307265047742801,0.28283181428965903,3,3,0.0,True,False,equal program means; source fixed effects
+S. pulcher,Den,flat_before_after,average_observed_post_change,All programs,0.15393458943255006,0.2641231357695446,-0.5250155457479455,0.8328847246130455,6,6,0.18976483247229212,False,False,equal program means; source fixed effects
+S. pulcher,Den,flat_before_after,average_observed_post_change,KFM,0.638171418460248,0.5704259882325189,-1.8161735169284339,3.09251635384893,3,3,0.5799223958423344,False,False,within program
+S. pulcher,Den,flat_before_after,level_change,All programs,0.31146298441099385,0.3689428105515179,-0.6369347027813481,1.2598606716033358,6,6,0.39571080919837887,False,False,equal program means; source fixed effects
+S. pulcher,Den,flat_before_after,level_change,KFM,1.3563847557691233,0.765660389520381,-1.93798600926178,4.650755520800026,3,3,1.0617494474309344,False,False,within program
+S. pulcher,Den,flat_before_after,recovery_slope,All programs,-0.010083824088011395,0.04917989447350273,-0.1365047675001083,0.1163371193240855,6,6,0.00824132850500005,False,False,equal program means; source fixed effects
+S. pulcher,Den,flat_before_after,recovery_slope,KFM,-0.07676470688959018,0.075022220677837,-0.39955926948095205,0.24602985570177166,3,3,0.012273851320778122,False,False,within program
+S. pulcher,Den,post_trend,recovery_slope,All programs,-0.03161766438906706,0.0375775145453028,-0.11127843660521824,0.048043107827084125,24,17,0.0032790913839454046,False,False,equal program means; source fixed effects
+S. pulcher,Den,post_trend,recovery_slope,KFM,-0.029672890256462418,0.05718799380771688,-0.18845221573997967,0.12910643522705484,5,5,0.014668045881199217,False,False,within program
+S. pulcher,Den,post_trend,recovery_slope,PISCO,-0.02400403525168513,0.016137427965503534,-0.058213854311557345,0.010205783808187083,17,17,0.0015740209883992537,False,False,within program
+S. pulcher,Den,pretrend_sensitivity,average_observed_post_change,All programs,0.7277542893757978,0.46923163827808684,-0.47844403668772184,1.9339526154393174,6,6,0.0,True,False,equal program means; source fixed effects
+S. pulcher,Den,pretrend_sensitivity,average_observed_post_change,KFM,2.7108380417964395,0.8191956920655334,-0.8138765388683278,6.235552622461206,3,3,0.0,True,False,within program
+S. pulcher,Den,pretrend_sensitivity,level_change,All programs,0.5507440502334543,0.3717912373295221,-0.4049757510945653,1.5064638515614739,6,6,0.2339812159855631,False,False,equal program means; source fixed effects
+S. pulcher,Den,pretrend_sensitivity,level_change,KFM,2.1964350003088424,0.7400679130573473,-0.9878202260073405,5.380690226625026,3,3,0.7778360429550213,False,False,within program
+S. pulcher,Den,pretrend_sensitivity,slope_change,All programs,0.02000477215525331,0.04925888298502273,-0.10661921768978083,0.14662876200028746,6,6,0.0,True,False,equal program means; source fixed effects
+S. pulcher,Den,pretrend_sensitivity,slope_change,KFM,0.054705503407629905,0.06158085523583594,-0.21025553147314602,0.31966653828840585,3,3,0.0012162400077566807,False,False,within program
+S. purpuratus,Bio,post_trend,recovery_slope,All programs,-0.07170609246150625,0.060027854153947964,-0.20749853270326563,0.06408634778025313,10,10,0.009927389457215188,False,False,equal program means; source fixed effects
+S. purpuratus,Bio,post_trend,recovery_slope,KFM,-0.0867912451682797,0.07114979398964179,-0.284334742426652,0.11075225209009264,5,5,0.0,True,False,within program
+S. purpuratus,Bio,post_trend,recovery_slope,PISCO,-0.03406900758963284,0.19861928801053497,-0.8886588293290557,0.8205208141497901,3,3,0.06877079943552095,False,False,within program
+S. purpuratus,Den,flat_before_after,average_observed_post_change,All programs,-0.5029659691965344,0.734621974523659,-2.542603554533485,1.5366716161404166,5,5,0.0,True,False,equal program means; source fixed effects
+S. purpuratus,Den,flat_before_after,average_observed_post_change,KFM,-0.7399571692424185,0.573598539160739,-3.2079524895426754,1.7280381510578386,3,3,0.0,True,False,within program
+S. purpuratus,Den,flat_before_after,level_change,All programs,0.1725388337559995,0.5286033178722498,-1.2950992607417218,1.6401769282537206,5,5,0.0,True,False,equal program means; source fixed effects
+S. purpuratus,Den,flat_before_after,level_change,KFM,-0.031206480654023278,0.5528133018514589,-2.4097701429070164,2.3473571815989698,3,3,0.0,True,False,within program
+S. purpuratus,Den,flat_before_after,recovery_slope,All programs,-0.09666813342485725,0.10834531499124538,-0.39748295290341357,0.20414668605369907,5,5,0.0,True,False,equal program means; source fixed effects
+S. purpuratus,Den,flat_before_after,recovery_slope,KFM,-0.07258129677361737,0.05679383805632637,-0.3169454591196189,0.1717828655723842,3,3,0.0,True,False,within program
+S. purpuratus,Den,post_trend,recovery_slope,All programs,-0.1015357544695706,0.038504682276946256,-0.18543025021684145,-0.01764125872229974,19,13,0.005583701331145385,False,False,equal program means; source fixed effects
+S. purpuratus,Den,post_trend,recovery_slope,KFM,-0.060635817851889276,0.05363892757925071,-0.20956135577735885,0.08828972007358028,5,5,0.0,True,False,within program
+S. purpuratus,Den,post_trend,recovery_slope,PISCO,-0.13165203534630618,0.046726300202857424,-0.23449592867878227,-0.028808142013830085,12,12,0.0,True,False,within program
+S. purpuratus,Den,pretrend_sensitivity,average_observed_post_change,All programs,-0.09630507441019462,1.2529021037255244,-3.574918987590945,3.3823088387705558,5,5,0.1519548726965755,False,False,equal program means; source fixed effects
+S. purpuratus,Den,pretrend_sensitivity,average_observed_post_change,KFM,0.4412903304558648,0.9951068346176553,-3.840308807904136,4.722889468815866,3,3,0.0,True,False,within program
+S. purpuratus,Den,pretrend_sensitivity,level_change,All programs,0.2410393984109088,0.5630935996870572,-1.322359070208427,1.8044378670302443,5,5,0.0,True,False,equal program means; source fixed effects
+S. purpuratus,Den,pretrend_sensitivity,level_change,KFM,0.1773927101440826,0.5739003344852606,-2.291901130633053,2.646686550921218,3,3,0.0,True,False,within program
+S. purpuratus,Den,pretrend_sensitivity,slope_change,All programs,-0.07017654747107946,0.18821370662949682,-0.5927415719736794,0.4523884770315204,5,5,0.01965514145619233,False,False,equal program means; source fixed effects
+S. purpuratus,Den,pretrend_sensitivity,slope_change,KFM,0.03720678356925633,0.1153166376081825,-0.45896066202111957,0.5333742291596322,3,3,0.019096561329677717,False,False,within program

@@ -1,0 +1,27 @@
+Source,Taxa,Resp,histories,post_years,changing_full,changing_post,single_reference,no_full_fixed,no_post_fixed,post_years_full_fixed,post_years_post_fixed
+KFM,M. franciscanus,Bio,5,87,0,0,2,0,0,87,87
+KFM,M. franciscanus,Den,5,89,1,1,2,0,0,89,89
+KFM,M. pyrifera,Bio,5,88,1,1,2,0,0,88,88
+KFM,P. interruptus,Den,5,89,1,1,2,0,0,89,89
+KFM,S. pulcher,Den,5,90,3,3,0,1,1,71,71
+KFM,S. purpuratus,Bio,5,87,0,0,2,0,0,87,87
+KFM,S. purpuratus,Den,5,89,1,1,2,0,0,89,89
+LTER,M. franciscanus,Bio,2,22,0,0,1,0,0,22,22
+LTER,M. franciscanus,Den,2,22,0,0,1,0,0,22,22
+LTER,M. pyrifera,Bio,2,22,0,0,1,0,0,22,22
+LTER,P. interruptus,Bio,2,22,0,0,2,0,0,22,22
+LTER,P. interruptus,Den,2,22,0,0,2,0,0,22,22
+LTER,S. pulcher,Bio,2,22,1,0,1,0,0,22,22
+LTER,S. pulcher,Den,2,22,1,0,1,0,0,22,22
+LTER,S. purpuratus,Bio,2,22,0,0,1,0,0,22,22
+LTER,S. purpuratus,Den,2,22,0,0,1,0,0,22,22
+Landsat,M. pyrifera,Bio,17,216,3,1,6,0,0,216,216
+PISCO,M. franciscanus,Bio,10,108,6,6,1,3,3,73,83
+PISCO,M. franciscanus,Den,12,137,9,8,2,3,2,100,110
+PISCO,M. pyrifera,Bio,12,137,9,8,2,3,2,100,110
+PISCO,P. interruptus,Bio,3,26,2,2,1,1,1,15,15
+PISCO,P. interruptus,Den,12,137,9,8,2,3,2,100,110
+PISCO,S. pulcher,Bio,17,180,6,6,6,2,1,160,171
+PISCO,S. pulcher,Den,17,181,6,6,6,2,1,161,172
+PISCO,S. purpuratus,Bio,10,109,6,6,1,3,3,74,84
+PISCO,S. purpuratus,Den,12,137,9,8,2,3,2,100,110

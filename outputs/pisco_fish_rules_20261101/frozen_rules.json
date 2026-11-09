@@ -1,0 +1,10 @@
+{
+  "decision_date": "2026-11-01",
+  "authorization": "Adrian: keep CRANE, average repeat surveys, leave incomplete passes out of combined response",
+  "keep_crane": true,
+  "complete_levels": "BOT plus MID or CNMD; no standalone CAN",
+  "repeat_aggregation": "Mean repeat dates within site/calendar-year/zone/transect number; then equal transect, zone and site means",
+  "missing_lengths": "Retain missing flag; do not zero-fill positive-count biomass",
+  "unchanged": "Researcher exclusions, site/year membership, allometry, ratio offsets, calendar clock, baseline eligibility and uncertainty",
+  "paper_updated": false
+}

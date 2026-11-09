@@ -176,6 +176,14 @@ should_render <- function(fig_name) {
 
 # --- save_fig(): save a ggplot/patchwork figure to PDF + PNG ---
 save_fig <- function(plot, name, w, h, dpi = 600) {
+  # Keep keys and explanations in companion captions (standing artwork preference).
+  if(inherits(plot,"patchwork")) {
+    plot <- plot & ggplot2::theme(legend.position="none",plot.title=ggplot2::element_blank(),
+      plot.subtitle=ggplot2::element_blank(),plot.caption=ggplot2::element_blank())
+  } else if(inherits(plot,"ggplot")) {
+    plot <- plot + ggplot2::theme(legend.position="none",plot.title=ggplot2::element_blank(),
+      plot.subtitle=ggplot2::element_blank(),plot.caption=ggplot2::element_blank())
+  }
   pdf_path <- here::here("plots", paste0(name, ".pdf"))
   png_path <- here::here("plots", paste0(name, ".png"))
 

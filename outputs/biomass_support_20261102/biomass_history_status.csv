@@ -1,0 +1,95 @@
+series_id,Source,MPA,Taxa,method,singleton_pools,sparse_pools_lt10,shared_role_years,support_status
+Abalone Cove SMCA|M. franciscanus|PISCO|Bio,PISCO,Abalone Cove SMCA,M. franciscanus,annual MPA/role/species pooled sizes,0.0,5.0,0.0,Pooled annual sizes; representativeness/shared uncertainty review required
+Abalone Cove SMCA|M. pyrifera|Landsat|Bio,Landsat,Abalone Cove SMCA,M. pyrifera,Satellite canopy biomass,,,,No diver size conversion; polygon/imagery support audited separately
+Abalone Cove SMCA|M. pyrifera|PISCO|Bio,PISCO,Abalone Cove SMCA,M. pyrifera,Direct stipes per counted plant; inherited May–October and zone filters,,,,Direct measurements found; no positive-biomass missing-size flag
+Abalone Cove SMCA|P. interruptus|PISCO|Bio,PISCO,Abalone Cove SMCA,P. interruptus,annual MPA/role/species pooled sizes,4.0,10.0,0.0,Sparse pooled sizes; uncertainty treatment required
+Abalone Cove SMCA|S. pulcher|PISCO|Bio,PISCO,Abalone Cove SMCA,S. pulcher,Direct counted-fish lengths; approved complete-pass events,,,,Direct measurements found; no positive-biomass missing-size flag
+Abalone Cove SMCA|S. purpuratus|PISCO|Bio,PISCO,Abalone Cove SMCA,S. purpuratus,annual MPA/role/species pooled sizes,0.0,2.0,0.0,Pooled annual sizes; representativeness/shared uncertainty review required
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,KFM,Anacapa Island SMR 2003,M. franciscanus,annual MPA/role/species pooled sizes,0.0,0.0,0.0,Pooled annual sizes; representativeness/shared uncertainty review required
+Anacapa Island SMR 2003|M. pyrifera|KFM|Bio,KFM,Anacapa Island SMR 2003,M. pyrifera,Separate same-site/year sampled plants; not the counted plants,,,,Same-site/year sampled stipes; temporal matching/uncertainty review required
+Anacapa Island SMR 2003|M. pyrifera|PISCO|Bio,PISCO,Anacapa Island SMR 2003,M. pyrifera,Direct stipes per counted plant; inherited May–October and zone filters,,,,Direct measurements found; no positive-biomass missing-size flag
+Anacapa Island SMR 2003|S. pulcher|PISCO|Bio,PISCO,Anacapa Island SMR 2003,S. pulcher,Direct counted-fish lengths; approved complete-pass events,,,,Direct measurements found; no positive-biomass missing-size flag
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,KFM,Anacapa Island SMR 2003,S. purpuratus,annual MPA/role/species pooled sizes,0.0,0.0,0.0,Pooled annual sizes; representativeness/shared uncertainty review required
+Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio,PISCO,Blue Cavern Onshore SMCA,S. pulcher,Direct counted-fish lengths; approved complete-pass events,,,,Direct measurements found; no positive-biomass missing-size flag
+Cabrillo SMR|M. pyrifera|Landsat|Bio,Landsat,Cabrillo SMR,M. pyrifera,Satellite canopy biomass,,,,No diver size conversion; polygon/imagery support audited separately
+Campus Point SMCA|M. franciscanus|LTER|Bio,LTER,Campus Point SMCA,M. franciscanus,annual MPA/role/species pooled sizes,7.0,17.0,23.0,Sparse pooled sizes; uncertainty treatment required
+Campus Point SMCA|M. franciscanus|PISCO|Bio,PISCO,Campus Point SMCA,M. franciscanus,annual MPA/role/species pooled sizes,5.0,15.0,22.0,Sparse pooled sizes; uncertainty treatment required
+Campus Point SMCA|M. pyrifera|LTER|Bio,LTER,Campus Point SMCA,M. pyrifera,Direct frond measurements; zero-frond rows not missing sizes,,,,Direct measurements found; no positive-biomass missing-size flag
+Campus Point SMCA|M. pyrifera|Landsat|Bio,Landsat,Campus Point SMCA,M. pyrifera,Satellite canopy biomass,,,,No diver size conversion; polygon/imagery support audited separately
+Campus Point SMCA|M. pyrifera|PISCO|Bio,PISCO,Campus Point SMCA,M. pyrifera,Direct stipes per counted plant; inherited May–October and zone filters,,,,Direct measurements found; no positive-biomass missing-size flag
+Campus Point SMCA|P. interruptus|LTER|Bio,LTER,Campus Point SMCA,P. interruptus,direct measured lengths,0.0,0.0,0.0,Direct lengths supported; five existing missing-length imputations retained
+Campus Point SMCA|S. pulcher|LTER|Bio,LTER,Campus Point SMCA,S. pulcher,Direct counted-fish lengths; count multiplicity preserved,,,,Direct measurements found; no positive-biomass missing-size flag
+Campus Point SMCA|S. pulcher|PISCO|Bio,PISCO,Campus Point SMCA,S. pulcher,Direct counted-fish lengths; approved complete-pass events,,,,Direct measurements found; no positive-biomass missing-size flag
+Campus Point SMCA|S. purpuratus|LTER|Bio,LTER,Campus Point SMCA,S. purpuratus,annual MPA/role/species pooled sizes,1.0,8.0,26.0,Sparse pooled sizes; uncertainty treatment required
+Campus Point SMCA|S. purpuratus|PISCO|Bio,PISCO,Campus Point SMCA,S. purpuratus,annual MPA/role/species pooled sizes,0.0,2.0,26.0,Pooled annual sizes; representativeness/shared uncertainty review required
+Carrington Pt SMR|M. pyrifera|Landsat|Bio,Landsat,Carrington Pt SMR,M. pyrifera,Satellite canopy biomass,,,,No diver size conversion; polygon/imagery support audited separately
+Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio,Landsat,Farnsworth Onshore SMCA,M. pyrifera,Satellite canopy biomass,,,,No diver size conversion; polygon/imagery support audited separately
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio,PISCO,Farnsworth Onshore SMCA,S. pulcher,Direct counted-fish lengths; approved complete-pass events,,,,Direct measurements found; no positive-biomass missing-size flag
+Gull Island SMR|M. franciscanus|PISCO|Bio,PISCO,Gull Island SMR,M. franciscanus,annual MPA/role/species pooled sizes,0.0,0.0,0.0,Pooled annual sizes; representativeness/shared uncertainty review required
+Gull Island SMR|M. pyrifera|Landsat|Bio,Landsat,Gull Island SMR,M. pyrifera,Satellite canopy biomass,,,,No diver size conversion; polygon/imagery support audited separately
+Gull Island SMR|M. pyrifera|PISCO|Bio,PISCO,Gull Island SMR,M. pyrifera,Direct stipes per counted plant; inherited May–October and zone filters,,,,Direct measurements found; no positive-biomass missing-size flag
+Gull Island SMR|S. pulcher|PISCO|Bio,PISCO,Gull Island SMR,S. pulcher,Direct counted-fish lengths; approved complete-pass events,,,,Direct measurements found; no positive-biomass missing-size flag
+Gull Island SMR|S. purpuratus|PISCO|Bio,PISCO,Gull Island SMR,S. purpuratus,annual MPA/role/species pooled sizes,0.0,1.0,0.0,Pooled annual sizes; representativeness/shared uncertainty review required
+Harris Point SMR|M. franciscanus|KFM|Bio,KFM,Harris Point SMR,M. franciscanus,annual MPA/role/species pooled sizes,0.0,0.0,30.0,Pooled annual sizes; representativeness/shared uncertainty review required
+Harris Point SMR|M. franciscanus|PISCO|Bio,PISCO,Harris Point SMR,M. franciscanus,annual MPA/role/species pooled sizes,0.0,0.0,30.0,Pooled annual sizes; representativeness/shared uncertainty review required
+Harris Point SMR|M. pyrifera|KFM|Bio,KFM,Harris Point SMR,M. pyrifera,Separate same-site/year sampled plants; not the counted plants,,,,Same-site/year sampled stipes; temporal matching/uncertainty review required
+Harris Point SMR|M. pyrifera|Landsat|Bio,Landsat,Harris Point SMR,M. pyrifera,Satellite canopy biomass,,,,No diver size conversion; polygon/imagery support audited separately
+Harris Point SMR|M. pyrifera|PISCO|Bio,PISCO,Harris Point SMR,M. pyrifera,Direct stipes per counted plant; inherited May–October and zone filters,,,,Direct measurements found; no positive-biomass missing-size flag
+Harris Point SMR|S. pulcher|PISCO|Bio,PISCO,Harris Point SMR,S. pulcher,Direct counted-fish lengths; approved complete-pass events,,,,Direct measurements found; no positive-biomass missing-size flag
+Harris Point SMR|S. purpuratus|KFM|Bio,KFM,Harris Point SMR,S. purpuratus,annual MPA/role/species pooled sizes,0.0,0.0,27.0,Pooled annual sizes; representativeness/shared uncertainty review required
+Harris Point SMR|S. purpuratus|PISCO|Bio,PISCO,Harris Point SMR,S. purpuratus,annual MPA/role/species pooled sizes,0.0,0.0,27.0,Pooled annual sizes; representativeness/shared uncertainty review required
+Judith Rk SMR|M. pyrifera|Landsat|Bio,Landsat,Judith Rk SMR,M. pyrifera,Satellite canopy biomass,,,,No diver size conversion; polygon/imagery support audited separately
+Long Point SMR|S. pulcher|PISCO|Bio,PISCO,Long Point SMR,S. pulcher,Direct counted-fish lengths; approved complete-pass events,,,,Direct measurements found; no positive-biomass missing-size flag
+Matlahuayl SMR|M. franciscanus|PISCO|Bio,PISCO,Matlahuayl SMR,M. franciscanus,annual MPA/role/species pooled sizes,2.0,6.0,0.0,Sparse pooled sizes; uncertainty treatment required
+Matlahuayl SMR|M. pyrifera|PISCO|Bio,PISCO,Matlahuayl SMR,M. pyrifera,Direct stipes per counted plant; inherited May–October and zone filters,,,,Direct measurements found; no positive-biomass missing-size flag
+Matlahuayl SMR|P. interruptus|PISCO|Bio,PISCO,Matlahuayl SMR,P. interruptus,annual MPA/role/species pooled sizes,1.0,4.0,0.0,Sparse pooled sizes; uncertainty treatment required
+Matlahuayl SMR|S. pulcher|PISCO|Bio,PISCO,Matlahuayl SMR,S. pulcher,Direct counted-fish lengths; approved complete-pass events,,,,Direct measurements found; no positive-biomass missing-size flag
+Matlahuayl SMR|S. purpuratus|PISCO|Bio,PISCO,Matlahuayl SMR,S. purpuratus,annual MPA/role/species pooled sizes,0.0,5.0,0.0,Pooled annual sizes; representativeness/shared uncertainty review required
+Naples SMCA|M. franciscanus|LTER|Bio,LTER,Naples SMCA,M. franciscanus,annual MPA/role/species pooled sizes,1.0,3.0,26.0,Sparse pooled sizes; uncertainty treatment required
+Naples SMCA|M. franciscanus|PISCO|Bio,PISCO,Naples SMCA,M. franciscanus,annual MPA/role/species pooled sizes,0.0,2.0,26.0,Pooled annual sizes; representativeness/shared uncertainty review required
+Naples SMCA|M. pyrifera|LTER|Bio,LTER,Naples SMCA,M. pyrifera,Direct frond measurements; zero-frond rows not missing sizes,,,,Direct measurements found; no positive-biomass missing-size flag
+Naples SMCA|M. pyrifera|Landsat|Bio,Landsat,Naples SMCA,M. pyrifera,Satellite canopy biomass,,,,No diver size conversion; polygon/imagery support audited separately
+Naples SMCA|M. pyrifera|PISCO|Bio,PISCO,Naples SMCA,M. pyrifera,Direct stipes per counted plant; inherited May–October and zone filters,,,,Direct measurements found; no positive-biomass missing-size flag
+Naples SMCA|P. interruptus|LTER|Bio,LTER,Naples SMCA,P. interruptus,direct measured lengths,0.0,1.0,0.0,Direct lengths supported; five existing missing-length imputations retained
+Naples SMCA|S. pulcher|LTER|Bio,LTER,Naples SMCA,S. pulcher,Direct counted-fish lengths; count multiplicity preserved,,,,Direct measurements found; no positive-biomass missing-size flag
+Naples SMCA|S. pulcher|PISCO|Bio,PISCO,Naples SMCA,S. pulcher,Direct counted-fish lengths; approved complete-pass events,,,,Direct measurements found; no positive-biomass missing-size flag
+Naples SMCA|S. purpuratus|LTER|Bio,LTER,Naples SMCA,S. purpuratus,annual MPA/role/species pooled sizes,1.0,6.0,26.0,Sparse pooled sizes; uncertainty treatment required
+Naples SMCA|S. purpuratus|PISCO|Bio,PISCO,Naples SMCA,S. purpuratus,annual MPA/role/species pooled sizes,0.0,0.0,26.0,Pooled annual sizes; representativeness/shared uncertainty review required
+Point Dume SMCA|M. franciscanus|PISCO|Bio,PISCO,Point Dume SMCA,M. franciscanus,annual MPA/role/species pooled sizes,0.0,0.0,0.0,Pooled annual sizes; representativeness/shared uncertainty review required
+Point Dume SMCA|M. pyrifera|Landsat|Bio,Landsat,Point Dume SMCA,M. pyrifera,Satellite canopy biomass,,,,No diver size conversion; polygon/imagery support audited separately
+Point Dume SMCA|M. pyrifera|PISCO|Bio,PISCO,Point Dume SMCA,M. pyrifera,Direct stipes per counted plant; inherited May–October and zone filters,,,,Direct measurements found; no positive-biomass missing-size flag
+Point Dume SMCA|S. pulcher|PISCO|Bio,PISCO,Point Dume SMCA,S. pulcher,Direct counted-fish lengths; approved complete-pass events,,,,Direct measurements found; no positive-biomass missing-size flag
+Point Dume SMCA|S. purpuratus|PISCO|Bio,PISCO,Point Dume SMCA,S. purpuratus,annual MPA/role/species pooled sizes,0.0,0.0,0.0,Pooled annual sizes; representativeness/shared uncertainty review required
+Point Dume SMR|M. pyrifera|Landsat|Bio,Landsat,Point Dume SMR,M. pyrifera,Satellite canopy biomass,,,,No diver size conversion; polygon/imagery support audited separately
+Point Dume SMR|M. pyrifera|PISCO|Bio,PISCO,Point Dume SMR,M. pyrifera,Direct stipes per counted plant; inherited May–October and zone filters,,,,Direct measurements found; no positive-biomass missing-size flag
+Point Dume SMR|S. pulcher|PISCO|Bio,PISCO,Point Dume SMR,S. pulcher,Direct counted-fish lengths; approved complete-pass events,,,,Direct measurements found; no positive-biomass missing-size flag
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,PISCO,Point Vicente SMCA,M. franciscanus,annual MPA/role/species pooled sizes,0.0,0.0,0.0,Pooled annual sizes; representativeness/shared uncertainty review required
+Point Vicente SMCA|M. pyrifera|Landsat|Bio,Landsat,Point Vicente SMCA,M. pyrifera,Satellite canopy biomass,,,,No diver size conversion; polygon/imagery support audited separately
+Point Vicente SMCA|M. pyrifera|PISCO|Bio,PISCO,Point Vicente SMCA,M. pyrifera,Direct stipes per counted plant; inherited May–October and zone filters,,,,Missing stipes currently represented as zero; review-only omission required
+Point Vicente SMCA|P. interruptus|PISCO|Bio,PISCO,Point Vicente SMCA,P. interruptus,annual MPA/role/species pooled sizes,1.0,3.0,0.0,Sparse pooled sizes; uncertainty treatment required
+Point Vicente SMCA|S. pulcher|PISCO|Bio,PISCO,Point Vicente SMCA,S. pulcher,Direct counted-fish lengths; approved complete-pass events,,,,Direct measurements found; no positive-biomass missing-size flag
+Point Vicente SMCA|S. purpuratus|PISCO|Bio,PISCO,Point Vicente SMCA,S. purpuratus,annual MPA/role/species pooled sizes,0.0,1.0,0.0,Pooled annual sizes; representativeness/shared uncertainty review required
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,KFM,Santa Barbara Island SMR,M. franciscanus,annual MPA/role/species pooled sizes,0.0,0.0,0.0,Pooled annual sizes; representativeness/shared uncertainty review required
+Santa Barbara Island SMR|M. pyrifera|KFM|Bio,KFM,Santa Barbara Island SMR,M. pyrifera,Separate same-site/year sampled plants; not the counted plants,,,,Same-site/year sampled stipes; temporal matching/uncertainty review required
+Santa Barbara Island SMR|M. pyrifera|Landsat|Bio,Landsat,Santa Barbara Island SMR,M. pyrifera,Satellite canopy biomass,,,,No diver size conversion; polygon/imagery support audited separately
+Santa Barbara Island SMR|S. pulcher|PISCO|Bio,PISCO,Santa Barbara Island SMR,S. pulcher,Direct counted-fish lengths; approved complete-pass events,,,,Direct measurements found; no positive-biomass missing-size flag
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,KFM,Santa Barbara Island SMR,S. purpuratus,annual MPA/role/species pooled sizes,0.0,0.0,0.0,Pooled annual sizes; representativeness/shared uncertainty review required
+Scorpion SMR|M. franciscanus|KFM|Bio,KFM,Scorpion SMR,M. franciscanus,annual MPA/role/species pooled sizes,0.0,0.0,36.0,Pooled annual sizes; representativeness/shared uncertainty review required
+Scorpion SMR|M. franciscanus|PISCO|Bio,PISCO,Scorpion SMR,M. franciscanus,annual MPA/role/species pooled sizes,0.0,0.0,36.0,Pooled annual sizes; representativeness/shared uncertainty review required
+Scorpion SMR|M. pyrifera|KFM|Bio,KFM,Scorpion SMR,M. pyrifera,Separate same-site/year sampled plants; not the counted plants,,,,Same-site/year sampled stipes; temporal matching/uncertainty review required
+Scorpion SMR|M. pyrifera|PISCO|Bio,PISCO,Scorpion SMR,M. pyrifera,Direct stipes per counted plant; inherited May–October and zone filters,,,,Direct measurements found; no positive-biomass missing-size flag
+Scorpion SMR|S. pulcher|PISCO|Bio,PISCO,Scorpion SMR,S. pulcher,Direct counted-fish lengths; approved complete-pass events,,,,Direct measurements found; no positive-biomass missing-size flag
+Scorpion SMR|S. purpuratus|KFM|Bio,KFM,Scorpion SMR,S. purpuratus,annual MPA/role/species pooled sizes,0.0,0.0,36.0,Pooled annual sizes; representativeness/shared uncertainty review required
+Scorpion SMR|S. purpuratus|PISCO|Bio,PISCO,Scorpion SMR,S. purpuratus,annual MPA/role/species pooled sizes,0.0,0.0,36.0,Pooled annual sizes; representativeness/shared uncertainty review required
+Skunk Pt SMR|M. pyrifera|Landsat|Bio,Landsat,Skunk Pt SMR,M. pyrifera,Satellite canopy biomass,,,,No diver size conversion; polygon/imagery support audited separately
+South La Jolla SMR|M. pyrifera|Landsat|Bio,Landsat,South La Jolla SMR,M. pyrifera,Satellite canopy biomass,,,,No diver size conversion; polygon/imagery support audited separately
+South Point SMR|M. franciscanus|KFM|Bio,KFM,South Point SMR,M. franciscanus,annual MPA/role/species pooled sizes,0.0,0.0,28.0,Pooled annual sizes; representativeness/shared uncertainty review required
+South Point SMR|M. franciscanus|PISCO|Bio,PISCO,South Point SMR,M. franciscanus,annual MPA/role/species pooled sizes,0.0,0.0,28.0,Pooled annual sizes; representativeness/shared uncertainty review required
+South Point SMR|M. pyrifera|KFM|Bio,KFM,South Point SMR,M. pyrifera,Separate same-site/year sampled plants; not the counted plants,,,,Same-site/year sampled stipes; temporal matching/uncertainty review required
+South Point SMR|M. pyrifera|Landsat|Bio,Landsat,South Point SMR,M. pyrifera,Satellite canopy biomass,,,,No diver size conversion; polygon/imagery support audited separately
+South Point SMR|M. pyrifera|PISCO|Bio,PISCO,South Point SMR,M. pyrifera,Direct stipes per counted plant; inherited May–October and zone filters,,,,Direct measurements found; no positive-biomass missing-size flag
+South Point SMR|S. pulcher|PISCO|Bio,PISCO,South Point SMR,S. pulcher,Direct counted-fish lengths; approved complete-pass events,,,,Direct measurements found; no positive-biomass missing-size flag
+South Point SMR|S. purpuratus|KFM|Bio,KFM,South Point SMR,S. purpuratus,annual MPA/role/species pooled sizes,0.0,0.0,28.0,Pooled annual sizes; representativeness/shared uncertainty review required
+South Point SMR|S. purpuratus|PISCO|Bio,PISCO,South Point SMR,S. purpuratus,annual MPA/role/species pooled sizes,0.0,0.0,28.0,Pooled annual sizes; representativeness/shared uncertainty review required
+Swamis SMCA|M. pyrifera|Landsat|Bio,Landsat,Swamis SMCA,M. pyrifera,Satellite canopy biomass,,,,No diver size conversion; polygon/imagery support audited separately
+Swamis SMCA|S. pulcher|PISCO|Bio,PISCO,Swamis SMCA,S. pulcher,Direct counted-fish lengths; approved complete-pass events,,,,Direct measurements found; no positive-biomass missing-size flag

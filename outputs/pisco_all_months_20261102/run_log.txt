@@ -1,0 +1,24 @@
+                                   series_id                          scenario  original_years  retained_years                                        lost_years
+ Abalone Cove SMCA|M. franciscanus|PISCO|Bio allmonths_sharedzones_visit_sizes              11               3           2013;2014;2015;2016;2019;2020;2022;2023
+ Abalone Cove SMCA|M. franciscanus|PISCO|Den allmonths_sharedzones_visit_sizes              11              11                                                  
+  Abalone Cove SMCA|P. interruptus|PISCO|Bio allmonths_sharedzones_visit_sizes              11               9                                         2014;2016
+  Abalone Cove SMCA|P. interruptus|PISCO|Den allmonths_sharedzones_visit_sizes              11              11                                                  
+   Abalone Cove SMCA|S. purpuratus|PISCO|Bio allmonths_sharedzones_visit_sizes              11               2      2013;2014;2015;2016;2018;2019;2020;2021;2022
+   Abalone Cove SMCA|S. purpuratus|PISCO|Den allmonths_sharedzones_visit_sizes              11              11                                                  
+Point Vicente SMCA|M. franciscanus|PISCO|Bio allmonths_sharedzones_visit_sizes              10               0 2013;2015;2016;2017;2018;2019;2020;2021;2022;2023
+Point Vicente SMCA|M. franciscanus|PISCO|Den allmonths_sharedzones_visit_sizes              10              10                                                  
+ Point Vicente SMCA|P. interruptus|PISCO|Bio allmonths_sharedzones_visit_sizes              10               7                                    2016;2018;2022
+ Point Vicente SMCA|P. interruptus|PISCO|Den allmonths_sharedzones_visit_sizes              10              10                                                  
+  Point Vicente SMCA|S. purpuratus|PISCO|Bio allmonths_sharedzones_visit_sizes              10               4                     2015;2016;2017;2018;2022;2023
+  Point Vicente SMCA|S. purpuratus|PISCO|Den allmonths_sharedzones_visit_sizes              10              10                                                  
+                                   series_id  estimate       low      high  n_years
+ Abalone Cove SMCA|M. franciscanus|PISCO|Bio -0.377416 -4.239172  3.484339        3
+ Abalone Cove SMCA|M. franciscanus|PISCO|Den -0.187976 -0.342802 -0.033150       11
+  Abalone Cove SMCA|P. interruptus|PISCO|Bio  0.182094 -0.059847  0.424036        9
+  Abalone Cove SMCA|P. interruptus|PISCO|Den  0.296859  0.095742  0.497975       11
+   Abalone Cove SMCA|S. purpuratus|PISCO|Den -0.278121 -0.553991 -0.002251       11
+Point Vicente SMCA|M. franciscanus|PISCO|Den -0.013340 -0.100447  0.073767       10
+ Point Vicente SMCA|P. interruptus|PISCO|Bio -0.094908 -0.362818  0.173003        7
+ Point Vicente SMCA|P. interruptus|PISCO|Den -0.009531 -0.151605  0.132543       10
+  Point Vicente SMCA|S. purpuratus|PISCO|Bio -0.085292 -0.425539  0.254955        4
+  Point Vicente SMCA|S. purpuratus|PISCO|Den -0.129832 -0.257910 -0.001754       10

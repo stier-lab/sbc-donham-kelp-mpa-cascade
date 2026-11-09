@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>VRG accepted source and audit</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">VRG accepted source and audit</h1>
+</header>
+<h1 id="vrg-size-records-archived-files-and-remaining-source-gap">VRG
+size records: archived files and remaining source gap</h1>
+<p>November 2, 2026. Updated with Adrian’s acceptance of the
+contributor-combined VRG delivery. No measured values, ecological
+exclusions, primary results or paper files changed.</p>
+<h2 id="what-we-could-reconcile">What we could reconcile</h2>
+<p>The project’s combined file contains 18,750 focal VRG size-frequency
+records representing 28,487 animals. Both copies in Emily’s Drive
+project—under <code>data</code> and
+<code>Github/MPA_Kelp/data</code>—are byte-identical to our combined
+file. This verifies that we preserved her delivered combined table; it
+does not independently verify the original VRG measurements or the steps
+used to assemble it.</p>
+<p>Emily’s hidden saved R workspace contains 18,284 VRG rows in
+<code>SizeFreq.south</code>. Every one matches the combined file
+exactly, including repeated rows. The remaining 466 records are entirely
+at three reference sites she explicitly excluded in her code following
+researcher advice:</p>
+<table>
+<thead>
+<tr>
+<th>Physical site</th>
+<th style="text-align: right;">Records removed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SBI_GRAVEYARD_CANYON</td>
+<td style="text-align: right;">97</td>
+</tr>
+<tr>
+<td>SBI_SUTIL</td>
+<td style="text-align: right;">283</td>
+</tr>
+<tr>
+<td>SCAI_SHIP_ROCK</td>
+<td style="text-align: right;">86</td>
+</tr>
+</tbody>
+</table>
+<p>These exclusions remain in place. All 18,750 focal rows have grouping
+labels consistent with the curated physical-site table; this check found
+no VRG counterpart to the Painted Cave alias problem.</p>
+<h2 id="what-the-archive-establishes-about-assembly">What the archive
+establishes about assembly</h2>
+<p>The visible analysis script starts by reading
+<code>ALL_sizefreq_2024.csv</code>. It then selects taxa, excludes
+reference sites, standardizes species labels, assigns comparison
+memberships and draws sizes for biomass. Its saved RStudio source copy
+follows the same downstream workflow. Neither provides the earlier
+import, unit conversion or row-binding steps that assembled the combined
+file.</p>
+<p>The workspace contains derived size tables and biomass objects. Those
+are useful checks of filtering and use, but are not independent source
+deliveries. The temporary workspace <code>.RDataTmp</code> cannot be
+read as a complete R save file. It was left untouched. The available
+command history and RStudio source buffers did not reveal an earlier VRG
+import or assembly recipe.</p>
+<p>The archived code describes VRG lobster lengths as collected from
+2011 onward on transects and roving dives, with sizes separate from
+transect counts. Emily’s notes likewise distinguish these measurements
+from UCSB swath lengths. The delivered VRG swath file has no recorded
+sizes for the focal lobsters or adult red/purple urchins, so it cannot
+reconstruct the separate size-frequency table.</p>
+<h2 id="search-scope">Search scope</h2>
+<p>We inspected the local Emily Donham project tree, including hidden
+RStudio files, both data directories, the GitHub scripts and saved
+workspace. Live Drive filename searches included sizefreq, VRG, Vantuna
+and broader size/frequency CSV/Excel/archive candidates; the broader
+search completed two pages (148 files). The separate historical
+urchin-size files found in Bart DiFiore’s archived project contain UCSB
+data, not VRG. They do not fill this gap. This is a search of the
+accessible material, not proof that the original VRG delivery no longer
+exists.</p>
+<h2 id="what-remains-unresolved">What remains unresolved</h2>
+<p>We still need the original VRG size-frequency delivery that supplied
+these records, its units and missing-value definitions, and any script
+or spreadsheet steps used to combine it with the other programs. The
+record ranges are red urchins 2004–2023, purple urchins 2007–2023 and
+lobsters 2011–2023.</p>
+<p>The practical follow-up is to ask Emily for that original delivery or
+its source email, plus any assembly script. If she no longer has it, the
+original VRG contributor may be able to provide a matching export and
+metadata. No email was sent during this audit.</p>
+<h2 id="pipeline-decision-accepted-by-adrian">Pipeline decision —
+accepted by Adrian</h2>
+<p>Adrian explicitly approved using Emily’s combined file on November 2,
+2026. The pipeline now accepts its 18,750 focal VRG records as a
+contributor-combined delivery, retaining their file hash and row
+identities. It removes the same 466 researcher-excluded records and
+passes the remaining 18,284 to candidate size inputs. Existing
+comparison exclusions remain in force. This clears the VRG source hold;
+no further original-file request is required to proceed under this
+decision.</p>
+<p>The data are labeled <code>user_accepted_contributor_combined</code>,
+not independently verified original measurements. Millimeters retain the
+interpretation used by Emily’s biomass workflow. Acceptance is limited
+to the VRG subset and exact file checksum; it does not restore a
+fallback for other programs. The original-delivery/assembly gap remains
+documented as a limitation rather than a blocker. Separate KFM source
+holds and biomass-matching/uncertainty work remain. No new model fit or
+paper change was made.</p>
+<p><a href="acceptance_decision.json">Recorded acceptance and
+scope</a></p>
+<h2 id="tables-and-reproduction">Tables and reproduction</h2>
+<ul>
+<li><a href="vrg_coverage.csv">Coverage by species</a></li>
+<li><a href="workspace_exclusions.csv">Reconciled workspace
+exclusions</a></li>
+<li><a href="source_inventory.csv">File hashes and evidence
+roles</a></li>
+<li><a href="workspace_inventory.csv">Workspace object
+inventory</a></li>
+<li><a href="verification.json">Verification summary</a></li>
+</ul>
+<p>Reproduce with
+<code>Rscript --vanilla code/tools/inspect_vrg_workspace.R</code>,
+followed by <code>python3 code/tools/reconcile_vrg_archive.py</code>.
+Workspace deserialization loads saved model namespaces but does not run
+the archived analysis scripts; unavailable package warnings are recorded
+during inspection. Source files are not rewritten.</p>
+</body>
+</html>

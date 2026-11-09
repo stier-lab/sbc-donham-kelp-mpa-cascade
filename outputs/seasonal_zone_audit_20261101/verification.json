@@ -1,0 +1,14 @@
+{
+  "individual_effects_checked": 2012,
+  "max_individual_error": 3.5473846082823e-12,
+  "pooled_points_checked": 236,
+  "max_pooled_error": 5.329070518200751e-15,
+  "protected_files_unchanged": 487,
+  "matched_cohorts_and_disjoint_groups": true,
+  "BH_and_interval_arithmetic": true,
+  "PISCO_verified_histories": 100,
+  "other_program_verified_fixed_histories": 29,
+  "Point_Dume_prior_ratios_verified": 9,
+  "all_source_hashes_match": true,
+  "single_history_influence_pools_verified": 2
+}

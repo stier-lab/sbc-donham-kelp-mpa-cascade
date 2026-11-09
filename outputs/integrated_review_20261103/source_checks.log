@@ -1,0 +1,73 @@
+python3 code/python/raw_sources.py build
+{
+  "original_kfm_rows": 253228,
+  "selected_rows": 158699,
+  "selected_animals": 206168,
+  "unresolved_kfm_groups": 4,
+  "missing_approved_groups": 0,
+  "lter_focal_rows": 2706,
+  "lter_available_size_rows": 1809,
+  "lter_missing_size_rows": 897,
+  "pisco_roving_verified_scope_rows": 3970,
+  "pisco_roving_selected_rows": 3638,
+  "pisco_alias_corrections": 99,
+  "vrg_accepted_rows": 18284,
+  "vrg_source_basis": "user_accepted_contributor_combined",
+  "all_sources_checked": 25,
+  "size_input_complete": true,
+  "required_kfm_holds": 0,
+  "deferred_kfm_holds": 4,
+  "blockers": [],
+  "input_manifest_sha256": "572bbf1cda86017e6972b4dffc46db1945948f09034db99bedb8cbbd88220a2a",
+  "scope_sha256": "f2f7c39f482867ca64827bc89f1cc44ae77ad1742b906ea7f5a4f16a2f33fb24",
+  "site_map_sha256": "fce9e9c887fe155e5152095191582716e957551e45bf6552029bad41f8d0acc5",
+  "builder_sha256": "9f7866c1d9b1903c8ba32d28a890fdea08022bf36d840cd96d1cf3d3b8b63147",
+  "configuration_sha256": {
+    "config/lter_physical_sites.csv": "263a50d3048658be7be69116bc513b6493d36b2b0522909e0a777bbd398ef974",
+    "config/lter_size_scope.json": "6a6cd7a6fc43428e17ccf2a54e5e4f6d926a95bc1f2197acacd23f22197a20ae",
+    "config/pisco_roving_scope.json": "6df8c54dff9b90c001da953f19a305cac681318971cff30dca0963a71e67652a",
+    "config/vrg_source_acceptance.json": "2507220b55c2e86ffb444af96e960c6c28f44ee693fc0ecc134d787f3889b7bf",
+    "config/deferred_kfm_source_groups.csv": "4b5c6f03460dc91e25dc02feda53706841d94691567fd59f618afe943755dff1"
+  }
+}
+python3 code/tests/test_raw_source_pipeline.py
+............
+----------------------------------------------------------------------
+Ran 12 tests in 3.393s
+
+OK
+Snapshotted and verified 1 sources
+Rscript code/tests/test_biomass_lineage.R
+Analysis constants loaded.
+Utility functions and constants loaded.
+$biomass
+[1] 0
+
+$se
+[1] 0
+
+$count
+[1] 0
+
+$biomass
+[1] NA
+
+$se
+[1] NA
+
+$count
+[1] NA
+
+Biomass lineage preserves RNG/results, duplicate animals and missingness; invalid inputs and incomplete source build stop.
+Deferred source scope blocks new2023biomass requests, not earlier years.
+Broad preparation retains deferred-year counts but no invented biomass.
+Rscript code/tests/test_size_identity.R
+Identity failure guards and permutation-invariant comparison memberships passed.
+Painted Cave/South Point alias conflict fails before donor matching.
+Physical membership is invariant to source campus; original source identity retained.
+Rscript code/tests/test_lobster_missing_lengths.R
+PASS: weighted mass, same-site/date restriction, no-donor failure, zero counts, raw length/count preservation and six source antenna-only records.
+Rscript code/tests/test_biomass_aggregation.R
+Area normalization and missing-count/size distinctions passed.
+Rscript code/tests/test_pisco_missingness.R
+Explicit missing values stay unknown; roster-only absences become zero; unknown stipes mask role-year biomass and stipe density.

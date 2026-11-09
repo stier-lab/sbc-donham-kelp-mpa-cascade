@@ -1,0 +1,6 @@
+{
+  "source": "outputs/dataset_inventory_20261101/comparison_decisions.csv",
+  "sha256": "a9f9443ef3b447b26321587357c2cf82f71a2c232fc874918c4ed5fb0ddec8a0",
+  "meaning": "Candidate assignments frozen before fitting; response-specific physical exclusions still apply; not all candidates are supported",
+  "authorization": "2026-11-03 available documented stations, shared zones, retain researcher exclusions"
+}

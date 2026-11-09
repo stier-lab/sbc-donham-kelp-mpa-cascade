@@ -143,7 +143,8 @@ def main():
             expected_md5 = followup["files"][name]["after_md5"]
         for marker, release in (("lobster_bootstrap_correction.json", "lobster_singleton_sampling_2026_10_18"),
                                 ("urchin_bootstrap_correction.json", "urchin_singleton_sampling_2026_10_18"),
-                                ("kelp_fixed_calibration.json", "kelp_fixed_sbc1275_2026_10_29")):
+                                ("kelp_fixed_calibration.json", "kelp_fixed_sbc1275_2026_10_29"),
+                                ("lobster_missing_lengths.json", "lobster_missing_lengths_2026_10_30")):
             child_path = ROOT / "data/harmonized" / marker
             if child_path.exists():
                 child = json.loads(child_path.read_text())

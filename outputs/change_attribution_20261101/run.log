@@ -1,0 +1,40 @@
+Warning messages:
+1: In nls(foSIG, start = parStart, algorithm = "port", lower = c(M = -50,  :
+  Convergence failure: singular convergence (7)
+2: In nls(foSIG, start = parStart, algorithm = "port", lower = c(M = -50,  :
+  Convergence failure: false convergence (8)
+3: In nls(foSIG, start = parStart, algorithm = "port", lower = c(M = -50,  :
+  Convergence failure: false convergence (8)
+                    scenario            Taxa Resp   estimate        se
+1 A0b_current_pool_HAC_floor M. franciscanus  Bio  0.5620864 0.2276885
+2 A0b_current_pool_HAC_floor     M. pyrifera  Bio  1.0795209 0.2382719
+3 A0b_current_pool_HAC_floor  P. interruptus  Bio  0.4984473 0.3035054
+4 A0b_current_pool_HAC_floor      S. pulcher  Bio  0.8960996 0.2342205
+5 A0b_current_pool_HAC_floor   S. purpuratus  Bio -0.6452186 0.2511797
+6 A0b_current_pool_HAC_floor M. franciscanus  Den -0.4739624 0.4334742
+7 A0b_current_pool_HAC_floor  P. interruptus  Den  1.0224811 0.4350060
+8 A0b_current_pool_HAC_floor      S. pulcher  Den -0.2460851 0.4324619
+9 A0b_current_pool_HAC_floor   S. purpuratus  Den -1.5305872 0.4418326
+      ci_low    ci_high            p            q                      stage
+1  0.1081977  1.0159751 1.593653e-02 0.0286857532 A0b_current_pool_HAC_floor
+2  0.6045344  1.5545073 2.282931e-05 0.0002054638 A0b_current_pool_HAC_floor
+3 -0.1065797  1.1034743 1.048885e-01 0.1348566100 A0b_current_pool_HAC_floor
+4  0.4291896  1.3630097 2.749313e-04 0.0012371908 A0b_current_pool_HAC_floor
+5 -1.1459361 -0.1445010 1.227956e-02 0.0276290118 A0b_current_pool_HAC_floor
+6 -1.3404649  0.3925401 2.784466e-01 0.3132523858 A0b_current_pool_HAC_floor
+7  0.1529165  1.8920457 2.194435e-02 0.0329165312 A0b_current_pool_HAC_floor
+8 -1.1105642  0.6183939 5.713894e-01 0.5713894074 A0b_current_pool_HAC_floor
+9 -2.4137980 -0.6473764 9.703275e-04 0.0029109824 A0b_current_pool_HAC_floor
+  metric
+1 Legacy
+2 Legacy
+3 Legacy
+4 Legacy
+5 Legacy
+6 Legacy
+7 Legacy
+8 Legacy
+9 Legacy
+Current table and proposed endpoint reproduced. Saved 285 pooled comparisons.
+    estimate          low         high            q 
+2.484851e-11 5.991652e-11 1.646860e-11 1.335870e-11 

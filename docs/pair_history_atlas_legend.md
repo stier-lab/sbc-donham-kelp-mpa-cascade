@@ -1,6 +1,6 @@
 # Pair-history atlas legend
 
-Annual paired histories for the 145 primary MPA/source/taxon/response series in `data/sumstats_final.csv`, covering all 21 final MPAs. Each of 37 pages contains four facets (A-D, top to bottom). Facet strips identify the full MPA name, source, abbreviated taxon and biomass or density response.
+Annual paired histories for the 143 primary MPA/source/taxon/response series in `data/sumstats_final.csv`, covering all 21 final MPAs. Each of 36 pages contains four facets (A-D, top to bottom). Facet strips identify the full MPA name, source, abbreviated taxon and biomass or density response.
 
 Blue (#0072B2) solid lines with circles denote MPA observations; grey (#707070) dashed lines with triangles denote paired reference observations. Direct labels identify the last observed values; thin dotted label leaders are annotations, not additional observations. Lines connect consecutive observed annual values only. Missing years and missing values break the lines; isolated observations remain visible as markers.
 
@@ -10,16 +10,16 @@ The vertical axis shows the actual `mpa` and `reference` proportions supplied in
 
 ## Coverage and index
 
-All 145 final primary keys have matched annual paired observations; there are no unmatched final series. The selected histories have 0 missing MPA values and 0 missing reference values. The atlas displays 2827 paired annual rows (5654 individual values), spanning 1982-2023. Annual paired counts match the final effect-size `N` for every series. 97 series contain internal missing calendar years.
+All 143 final primary keys have matched annual paired observations; there are no unmatched final series. The selected histories have 0 missing MPA values and 0 missing reference values. The atlas displays 2741 paired annual rows (5482 individual values), spanning 1982-2023. Annual paired counts match the final effect-size `N` for every series. 97 series contain internal missing calendar years.
 
-Exactly 50 harmonized series whose full key is absent from the final primary set are omitted, including rejected series and other responses. No raw-response or external data files are read.
+Exactly 52 harmonized series whose full key is absent from the final primary set are omitted, including rejected series and other responses. No raw-response or external data files are read.
 
-52 selected histories have no Before-period observations (year <= `MPA_Start`) in the supplied paired inputs. Their facets therefore show only the observed later history; no baseline is imputed.
+52 selected histories have no Before-period observations (as encoded in `BA`) in the supplied paired inputs. Their facets therefore show only the observed later history; no baseline is imputed.
 
 | Source | Response | Series |
 | --- | --- | ---: |
 | KFM | Biomass | 12 |
-| Landsat | Biomass | 16 |
+| Landsat | Biomass | 14 |
 | LTER | Biomass | 7 |
 | PISCO | Biomass | 44 |
 | KFM | Density | 17 |
@@ -28,7 +28,7 @@ Exactly 50 harmonized series whose full key is absent from the final primary set
 
 `tables/table_s_pair_history_atlas_index.csv` has one row per facet, keyed by `page` and `panel`. `png` and `pdf` are repository-relative paths to individual atlas pages. Include each distinct `png` once, sorted by `page`; QA PNGs in `plots/pair_history_atlas/qa/` are not atlas pages. Pages follow MPA name, source (KFM, LTER, PISCO, Landsat), response (Bio, Den) and taxon (predators through kelp) order.
 
-`dataset_year_min/max` describe the full input-file range; `year_min/max` describe each selected paired history. `n_before` counts finite annual pairs with year <= `MPA_Start`; `n_after` counts pairs with year > `MPA_Start`, matching the harmonized BA convention. `missing_years` lists absent internal calendar years separated by semicolons. The index also records the input dataset, full taxon name, final `N`, analysis type, selected model, missing-value counts, common scale and export specifications.
+`dataset_year_min/max` describe the full input-file range; `year_min/max` describe each selected paired history. `n_before` counts finite annual pairs with BA=Before; `n_after` counts pairs with BA=After under the documented program rule, matching the harmonized BA convention. `missing_years` lists absent internal calendar years separated by semicolons. The index also records the input dataset, full taxon name, final `N`, analysis type, selected model, missing-value counts, common scale and export specifications.
 
 ## Outputs and reproduction
 
@@ -45,7 +45,7 @@ Input MD5 checksums for this render:
 
 | Input | MD5 |
 | --- | --- |
-| `data/harmonized/harmonized_response_ratios.csv` | `e98d1e3eede110d30e1cfb4c5ec208af` |
+| `data/harmonized/harmonized_response_ratios.csv` | `b50a1301d5a66671de1c44d7f22cee7d` |
 | `data/harmonized/harmonized_landsat_rr.csv` | `aa1080e0127e5cacfb357ed073fe53ee` |
 | `data/harmonized/harmonized_site_metadata.csv` | `2474b071b2f623c277ba46e94a03b7a1` |
-| `data/sumstats_final.csv` | `153842a6bab8d85d1152a4be5a05b29c` |
+| `data/sumstats_final.csv` | `7d07174d93b4b3ee87b78d537b4886de` |

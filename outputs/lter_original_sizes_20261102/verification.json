@@ -1,0 +1,17 @@
+{
+  "package": "knb-lter-sbc.19.33",
+  "source": "/Users/adrianstier/sbc-sswd-kelp/data/source_archive/sbc_grit/candidate_data/Annual_Quad_Swath_All_Years_20260923.csv.gz",
+  "source_sha256": "90092ae6fa16a76e2ea94e31f7e8727818b703df8f9c07d2241657e771ea6f7d",
+  "compressed_sha256": "b18300adf0973e9c7a36edbb1f7f3221407e0bbdaa6dee31f1718a27c1167d86",
+  "eml_md5_verified": true,
+  "source_rows": 478384,
+  "selected_source_rows": 2706,
+  "combined_rows": 2706,
+  "counts_and_date_keys_equal": false,
+  "exact_rows_without_proxy": 2702,
+  "exact_rows_with_dates": 2702,
+  "small_original_missing_sizes": 0,
+  "source_unit": "cm; average size of individuals counted, not necessarily individual measurements",
+  "source_small_sizes": "2.49cm values already occur in original source; no added proxy in this comparison",
+  "all_rows_equal_without_day": true
+}

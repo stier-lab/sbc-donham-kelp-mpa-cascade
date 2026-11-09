@@ -1,0 +1,27 @@
+{
+  "received": "2026-11-02T19:20:50Z",
+  "sender": "Scott Gabara",
+  "file": "KFM Nat Hab Red Purp 2012-2022.xlsx",
+  "sha256": "c1bf620b67543bbb0f92b74c6247d3949e03fbc1e7a9d998f1e83b1836fa088e",
+  "bytes": 5792054,
+  "local_path": "data/external/scott_gabara_2026-11-02/KFM Nat Hab Red Purp 2012-2022.xlsx",
+  "scope": "Red and purple urchin size frequencies; receipt verified, alias reconciliation not yet complete",
+  "actual_years": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2021,
+    2022
+  ],
+  "nonempty_rows": 55142,
+  "source_sites": 33,
+  "numeric_site_key_present": false,
+  "bin_column_excel_dates": 4664,
+  "exact_mm_column_present": true,
+  "biomass_holds_cleared": false
+}

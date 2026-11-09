@@ -1,0 +1,13 @@
+{
+  "prior_fits_preserved_in_additions_only": 1333,
+  "non_KFM_kelp_fits_preserved_in_protocol_reconciliation": 1955,
+  "restored_candidate_histories": 22,
+  "new_primary_change_fits": 17,
+  "new_primary_post_fits": 21,
+  "figures_visually_checked": [
+    "pooled_changes.png",
+    "consistent_kfm/pooled_changes.png"
+  ],
+  "canonical_files_unchanged": 487,
+  "upstream_site_reconstruction": "Not completed; unresolved sites listed in UPSTREAM_AUDIT.md"
+}

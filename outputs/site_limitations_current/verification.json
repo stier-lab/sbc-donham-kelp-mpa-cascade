@@ -1,0 +1,14 @@
+{
+  "candidate_histories": 206,
+  "excluded": 31,
+  "protected_areas": 25,
+  "area_program_groups": 46,
+  "station_year_scope": "Supported annual values; before years excluded from post-only fits",
+  "inputs": {
+    "outputs/dataset_inventory_20261101/comparison_decisions.csv": "79d79a092840b6b2d78d9f41b22d6dcf06c3cf04a188a25b5b02d8cea5e158d5",
+    "outputs/integrated_review_20261103/annual_values.csv": "539e2198de9856392311f9aef2d9db5953a2db3e52154e7b3510dc2678870a3c",
+    "outputs/integrated_review_20261103/model_eligibility.csv": "1d45007114c5342960db67ea080f12649222a7da2323622eeff5e29b675d24cd",
+    "outputs/integrated_review_20261103/station_annual_values.csv": "af9f06279db566a26915cede381be7136d75e5f1709f3c97285fee86e5dc249e",
+    "outputs/dataset_inventory_20261101/unresolved_issues.csv": "dcaa0530af9869a957ff0e9c4bf22c04a93f59deac8d6649feb2673a262478d4"
+  }
+}

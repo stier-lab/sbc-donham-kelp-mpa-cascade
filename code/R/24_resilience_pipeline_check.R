@@ -285,8 +285,8 @@ expect_true(nrow(env) == 35, "Environmental-moderator table is missing expected 
 expect_true(all(env$FDR >= 0.05), "At least one environmental moderator now survives FDR.")
 env_kelp <- env[env$taxon == "M. pyrifera", ]
 expect_true(nrow(env_kelp) >= 7, "Kelp environmental-moderator rows are incomplete.")
-expect_equal(round(min(env_kelp$p), 3), 0.208,
-             "Minimum kelp environmental-moderator P in the corrected-source report")
+expect_equal(round(min(env_kelp$p), 3), 0.085,
+             "Minimum kelp environmental-moderator P with surveyed calendar endpoints")
 
 stab <- read_required_csv("tables/table_resilience_stability.csv")
 stab_kelp <- expect_one(stab, stab$taxon == "Macrocystis pyrifera" &

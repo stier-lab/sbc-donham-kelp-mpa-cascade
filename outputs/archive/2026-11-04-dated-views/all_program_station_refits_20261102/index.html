@@ -1,0 +1,149 @@
+<meta charset="utf-8"><title>All-program station and reference checks</title><style>body{font:16px system-ui;margin:30px;max-width:1350px}p{max-width:1050px}img{max-width:100%}td,th{padding:8px;text-align:left;border-bottom:1px solid #ddd}.scroll{overflow:auto}</style><h1>Station coverage and reference checks</h1><p>All175 retained review histories reconstructed.950 diagnostic fits and447 same-year reference omissions. Researcher exclusions retained; paper unchanged.</p><p><a href="README.md">Findings and limitations</a> · <a href="coverage_summary.csv">Every history and its reference support</a> · <a href="comparison_summary.csv">All model comparisons</a> · <a href="reference_omission.csv">All reference omissions and intervals</a> · <a href="reconstruction_checks.csv">Annual reconstruction checks</a></p><h2>Reference coverage</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>histories</th>
+      <th>changing_membership_full</th>
+      <th>changing_membership_post</th>
+      <th>single_reference</th>
+      <th>no_persistent_full</th>
+    </tr>
+    <tr>
+      <th>Source</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>KFM</th>
+      <td>35</td>
+      <td>7</td>
+      <td>7</td>
+      <td>12</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>LTER</th>
+      <td>18</td>
+      <td>2</td>
+      <td>0</td>
+      <td>11</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Landsat</th>
+      <td>17</td>
+      <td>3</td>
+      <td>1</td>
+      <td>6</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>PISCO</th>
+      <td>105</td>
+      <td>62</td>
+      <td>58</td>
+      <td>23</td>
+      <td>23</td>
+    </tr>
+  </tbody>
+</table><p>Full-record and post-protection membership changes are different. Histories are not independent sites.</p><img src="reference_influence.png"><p>Gray open points: all available references. Teal filled points: one reference omitted, on identical post-protection years. Bars: 95% calendar-gap HAC3 t intervals. Shown are the two largest absolute omission shifts per program among newly examined responses (previous PISCO sheephead results excluded from display selection). This selection highlights influence, not significant effects or recommended exclusions. Omitted references and exact years are listed in displayed_reference_omissions.csv; all447 checks are in reference_omission.csv. References share observations and these checks are not independent tests.</p><div class="scroll"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Source</th>
+      <th>MPA</th>
+      <th>Taxa</th>
+      <th>Resp</th>
+      <th>omitted_reference</th>
+      <th>n_years</th>
+      <th>before</th>
+      <th>after</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KFM</td>
+      <td>Santa Barbara Island SMR</td>
+      <td>S. purpuratus</td>
+      <td>Bio</td>
+      <td>a-k-15</td>
+      <td>17</td>
+      <td>-0.0681</td>
+      <td>0.1053</td>
+    </tr>
+    <tr>
+      <td>KFM</td>
+      <td>Santa Barbara Island SMR</td>
+      <td>S. purpuratus</td>
+      <td>Den</td>
+      <td>a-k-15</td>
+      <td>18</td>
+      <td>-0.0472</td>
+      <td>0.1259</td>
+    </tr>
+    <tr>
+      <td>LTER</td>
+      <td>Campus Point SMCA</td>
+      <td>M. franciscanus</td>
+      <td>Bio</td>
+      <td>a-l-08</td>
+      <td>11</td>
+      <td>-0.1557</td>
+      <td>0.1302</td>
+    </tr>
+    <tr>
+      <td>LTER</td>
+      <td>Campus Point SMCA</td>
+      <td>S. pulcher</td>
+      <td>Bio</td>
+      <td>GOLB</td>
+      <td>11</td>
+      <td>-0.4624</td>
+      <td>-0.2441</td>
+    </tr>
+    <tr>
+      <td>Landsat</td>
+      <td>Naples SMCA</td>
+      <td>M. pyrifera</td>
+      <td>Bio</td>
+      <td>Naples SMCA|reference|1</td>
+      <td>9</td>
+      <td>0.0092</td>
+      <td>0.4442</td>
+    </tr>
+    <tr>
+      <td>Landsat</td>
+      <td>Swamis SMCA</td>
+      <td>M. pyrifera</td>
+      <td>Bio</td>
+      <td>Swamis SMCA|reference|1</td>
+      <td>9</td>
+      <td>-0.3361</td>
+      <td>-0.1584</td>
+    </tr>
+    <tr>
+      <td>PISCO</td>
+      <td>Abalone Cove SMCA</td>
+      <td>S. purpuratus</td>
+      <td>Bio</td>
+      <td>POINT_FERMIN</td>
+      <td>11</td>
+      <td>-0.2213</td>
+      <td>-0.3637</td>
+    </tr>
+    <tr>
+      <td>PISCO</td>
+      <td>Naples SMCA</td>
+      <td>M. pyrifera</td>
+      <td>Bio</td>
+      <td>ARROYO_QUEMADO_W</td>
+      <td>10</td>
+      <td>0.1156</td>
+      <td>0.3032</td>
+    </tr>
+  </tbody>
+</table></div>

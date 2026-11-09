@@ -1,0 +1,13 @@
+{
+  "output": "outputs/joint_borrowed_biomass_20261102",
+  "tolerance": 7,
+  "seed": 20261104,
+  "pool_df": 2,
+  "bootstraps": 999,
+  "rhos": [
+    0,
+    0.3,
+    0.6
+  ],
+  "series": null
+}

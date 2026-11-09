@@ -1,0 +1,1996 @@
+"series_id","scenario","metric","max_cook","n","df"
+"Naples SMCA|M. franciscanus|LTER|Den","Nine_year","Change",0.181051585951149,20,17
+"Naples SMCA|M. franciscanus|LTER|Den","Nine_year","Post_slope",0.287240623389298,9,7
+"Naples SMCA|M. franciscanus|LTER|Den","Nine_year","BA_post_slope",0.287240623389298,9,7
+"Naples SMCA|M. franciscanus|LTER|Den","Nine_year","Slope_change",0.373617990574608,20,16
+"Naples SMCA|M. franciscanus|LTER|Den","Nine_year","Trend_adjusted_change",0.373617990574608,20,16
+"Naples SMCA|M. franciscanus|LTER|Den","Full","Change",0.135841571161419,22,19
+"Naples SMCA|M. franciscanus|LTER|Den","Full","Post_slope",0.218083489518171,11,9
+"Naples SMCA|M. franciscanus|LTER|Den","Full","BA_post_slope",0.218083489518171,11,9
+"Naples SMCA|M. franciscanus|LTER|Den","Full","Slope_change",0.411871947720975,22,18
+"Naples SMCA|M. franciscanus|LTER|Den","Full","Trend_adjusted_change",0.411871947720975,22,18
+"Naples SMCA|M. franciscanus|LTER|Den","Full_HAC1","Change",0.135841571161419,22,19
+"Naples SMCA|M. franciscanus|LTER|Den","Full_HAC1","Post_slope",0.218083489518171,11,9
+"Naples SMCA|M. franciscanus|LTER|Den","Full_HAC1","BA_post_slope",0.218083489518171,11,9
+"Naples SMCA|M. franciscanus|LTER|Den","Full_HAC1","Slope_change",0.411871947720975,22,18
+"Naples SMCA|M. franciscanus|LTER|Den","Full_HAC1","Trend_adjusted_change",0.411871947720975,22,18
+"Naples SMCA|M. franciscanus|LTER|Den","Full_HAC5","Change",0.135841571161419,22,19
+"Naples SMCA|M. franciscanus|LTER|Den","Full_HAC5","Post_slope",0.218083489518171,11,9
+"Naples SMCA|M. franciscanus|LTER|Den","Full_HAC5","BA_post_slope",0.218083489518171,11,9
+"Naples SMCA|M. franciscanus|LTER|Den","Full_HAC5","Slope_change",0.411871947720975,22,18
+"Naples SMCA|M. franciscanus|LTER|Den","Full_HAC5","Trend_adjusted_change",0.411871947720975,22,18
+"Naples SMCA|M. franciscanus|LTER|Bio","Nine_year","Post_slope",0.316748989394321,9,7
+"Naples SMCA|M. franciscanus|LTER|Bio","Nine_year","No_baseline_post_slope",0.316748989394321,9,7
+"Naples SMCA|M. franciscanus|LTER|Bio","Full","Post_slope",0.386698407895135,11,9
+"Naples SMCA|M. franciscanus|LTER|Bio","Full","No_baseline_post_slope",0.386698407895135,11,9
+"Naples SMCA|M. franciscanus|LTER|Bio","Full_HAC1","Post_slope",0.386698407895135,11,9
+"Naples SMCA|M. franciscanus|LTER|Bio","Full_HAC1","No_baseline_post_slope",0.386698407895135,11,9
+"Naples SMCA|M. franciscanus|LTER|Bio","Full_HAC5","Post_slope",0.386698407895135,11,9
+"Naples SMCA|M. franciscanus|LTER|Bio","Full_HAC5","No_baseline_post_slope",0.386698407895135,11,9
+"Abalone Cove SMCA|S. pulcher|PISCO|Bio","Nine_year","Post_slope",0.905580588625841,9,7
+"Abalone Cove SMCA|S. pulcher|PISCO|Bio","Nine_year","No_baseline_post_slope",0.905580588625841,9,7
+"Abalone Cove SMCA|S. pulcher|PISCO|Bio","Full","Post_slope",0.996160144192426,11,9
+"Abalone Cove SMCA|S. pulcher|PISCO|Bio","Full","No_baseline_post_slope",0.996160144192426,11,9
+"Abalone Cove SMCA|S. pulcher|PISCO|Bio","Full_HAC1","Post_slope",0.996160144192426,11,9
+"Abalone Cove SMCA|S. pulcher|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.996160144192426,11,9
+"Abalone Cove SMCA|S. pulcher|PISCO|Bio","Full_HAC5","Post_slope",0.996160144192426,11,9
+"Abalone Cove SMCA|S. pulcher|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.996160144192426,11,9
+"Abalone Cove SMCA|S. pulcher|PISCO|Den","Nine_year","Post_slope",1.15640619991656,9,7
+"Abalone Cove SMCA|S. pulcher|PISCO|Den","Nine_year","No_baseline_post_slope",1.15640619991656,9,7
+"Abalone Cove SMCA|S. pulcher|PISCO|Den","Full","Post_slope",1.20247597485828,11,9
+"Abalone Cove SMCA|S. pulcher|PISCO|Den","Full","No_baseline_post_slope",1.20247597485828,11,9
+"Abalone Cove SMCA|S. pulcher|PISCO|Den","Full_HAC1","Post_slope",1.20247597485828,11,9
+"Abalone Cove SMCA|S. pulcher|PISCO|Den","Full_HAC1","No_baseline_post_slope",1.20247597485828,11,9
+"Abalone Cove SMCA|S. pulcher|PISCO|Den","Full_HAC5","Post_slope",1.20247597485828,11,9
+"Abalone Cove SMCA|S. pulcher|PISCO|Den","Full_HAC5","No_baseline_post_slope",1.20247597485828,11,9
+"Abalone Cove SMCA|M. pyrifera|PISCO|Bio","Nine_year","Post_slope",0.657731434175659,9,7
+"Abalone Cove SMCA|M. pyrifera|PISCO|Bio","Nine_year","No_baseline_post_slope",0.657731434175659,9,7
+"Abalone Cove SMCA|M. pyrifera|PISCO|Bio","Full","Post_slope",0.6727234462434,11,9
+"Abalone Cove SMCA|M. pyrifera|PISCO|Bio","Full","No_baseline_post_slope",0.6727234462434,11,9
+"Abalone Cove SMCA|M. pyrifera|PISCO|Bio","Full_HAC1","Post_slope",0.6727234462434,11,9
+"Abalone Cove SMCA|M. pyrifera|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.6727234462434,11,9
+"Abalone Cove SMCA|M. pyrifera|PISCO|Bio","Full_HAC5","Post_slope",0.6727234462434,11,9
+"Abalone Cove SMCA|M. pyrifera|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.6727234462434,11,9
+"Abalone Cove SMCA|M. franciscanus|PISCO|Bio","Nine_year","Post_slope",0.965500075210874,9,7
+"Abalone Cove SMCA|M. franciscanus|PISCO|Bio","Nine_year","No_baseline_post_slope",0.965500075210874,9,7
+"Abalone Cove SMCA|M. franciscanus|PISCO|Bio","Full","Post_slope",0.311012058029597,11,9
+"Abalone Cove SMCA|M. franciscanus|PISCO|Bio","Full","No_baseline_post_slope",0.311012058029597,11,9
+"Abalone Cove SMCA|M. franciscanus|PISCO|Bio","Full_HAC1","Post_slope",0.311012058029597,11,9
+"Abalone Cove SMCA|M. franciscanus|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.311012058029597,11,9
+"Abalone Cove SMCA|M. franciscanus|PISCO|Bio","Full_HAC5","Post_slope",0.311012058029597,11,9
+"Abalone Cove SMCA|M. franciscanus|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.311012058029597,11,9
+"Abalone Cove SMCA|S. purpuratus|PISCO|Bio","Nine_year","Post_slope",0.388078297324272,9,7
+"Abalone Cove SMCA|S. purpuratus|PISCO|Bio","Nine_year","No_baseline_post_slope",0.388078297324272,9,7
+"Abalone Cove SMCA|S. purpuratus|PISCO|Bio","Full","Post_slope",0.198328854352208,11,9
+"Abalone Cove SMCA|S. purpuratus|PISCO|Bio","Full","No_baseline_post_slope",0.198328854352208,11,9
+"Abalone Cove SMCA|S. purpuratus|PISCO|Bio","Full_HAC1","Post_slope",0.198328854352208,11,9
+"Abalone Cove SMCA|S. purpuratus|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.198328854352208,11,9
+"Abalone Cove SMCA|S. purpuratus|PISCO|Bio","Full_HAC5","Post_slope",0.198328854352208,11,9
+"Abalone Cove SMCA|S. purpuratus|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.198328854352208,11,9
+"Abalone Cove SMCA|M. franciscanus|PISCO|Den","Nine_year","Post_slope",0.873697075455742,9,7
+"Abalone Cove SMCA|M. franciscanus|PISCO|Den","Nine_year","No_baseline_post_slope",0.873697075455742,9,7
+"Abalone Cove SMCA|M. franciscanus|PISCO|Den","Full","Post_slope",0.790393212176526,11,9
+"Abalone Cove SMCA|M. franciscanus|PISCO|Den","Full","No_baseline_post_slope",0.790393212176526,11,9
+"Abalone Cove SMCA|M. franciscanus|PISCO|Den","Full_HAC1","Post_slope",0.790393212176526,11,9
+"Abalone Cove SMCA|M. franciscanus|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.790393212176526,11,9
+"Abalone Cove SMCA|M. franciscanus|PISCO|Den","Full_HAC5","Post_slope",0.790393212176526,11,9
+"Abalone Cove SMCA|M. franciscanus|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.790393212176526,11,9
+"Abalone Cove SMCA|P. interruptus|PISCO|Den","Nine_year","Post_slope",0.833069840850189,9,7
+"Abalone Cove SMCA|P. interruptus|PISCO|Den","Nine_year","No_baseline_post_slope",0.833069840850189,9,7
+"Abalone Cove SMCA|P. interruptus|PISCO|Den","Full","Post_slope",0.309555201714512,11,9
+"Abalone Cove SMCA|P. interruptus|PISCO|Den","Full","No_baseline_post_slope",0.309555201714512,11,9
+"Abalone Cove SMCA|P. interruptus|PISCO|Den","Full_HAC1","Post_slope",0.309555201714512,11,9
+"Abalone Cove SMCA|P. interruptus|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.309555201714512,11,9
+"Abalone Cove SMCA|P. interruptus|PISCO|Den","Full_HAC5","Post_slope",0.309555201714512,11,9
+"Abalone Cove SMCA|P. interruptus|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.309555201714512,11,9
+"Abalone Cove SMCA|S. purpuratus|PISCO|Den","Nine_year","Post_slope",0.519540619710475,9,7
+"Abalone Cove SMCA|S. purpuratus|PISCO|Den","Nine_year","No_baseline_post_slope",0.519540619710475,9,7
+"Abalone Cove SMCA|S. purpuratus|PISCO|Den","Full","Post_slope",0.218131323999694,11,9
+"Abalone Cove SMCA|S. purpuratus|PISCO|Den","Full","No_baseline_post_slope",0.218131323999694,11,9
+"Abalone Cove SMCA|S. purpuratus|PISCO|Den","Full_HAC1","Post_slope",0.218131323999694,11,9
+"Abalone Cove SMCA|S. purpuratus|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.218131323999694,11,9
+"Abalone Cove SMCA|S. purpuratus|PISCO|Den","Full_HAC5","Post_slope",0.218131323999694,11,9
+"Abalone Cove SMCA|S. purpuratus|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.218131323999694,11,9
+"Abalone Cove SMCA|P. interruptus|PISCO|Bio","Nine_year","Post_slope",0.640861084661247,9,7
+"Abalone Cove SMCA|P. interruptus|PISCO|Bio","Nine_year","No_baseline_post_slope",0.640861084661247,9,7
+"Abalone Cove SMCA|P. interruptus|PISCO|Bio","Full","Post_slope",0.232102192522321,11,9
+"Abalone Cove SMCA|P. interruptus|PISCO|Bio","Full","No_baseline_post_slope",0.232102192522321,11,9
+"Abalone Cove SMCA|P. interruptus|PISCO|Bio","Full_HAC1","Post_slope",0.232102192522321,11,9
+"Abalone Cove SMCA|P. interruptus|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.232102192522321,11,9
+"Abalone Cove SMCA|P. interruptus|PISCO|Bio","Full_HAC5","Post_slope",0.232102192522321,11,9
+"Abalone Cove SMCA|P. interruptus|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.232102192522321,11,9
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Bio","Nine_year","Post_slope",0.429630525487029,9,7
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Bio","Nine_year","No_baseline_post_slope",0.429630525487029,9,7
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Bio","Full","Post_slope",0.508227330392659,19,17
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Bio","Full","No_baseline_post_slope",0.508227330392659,19,17
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Bio","Full_HAC1","Post_slope",0.508227330392659,19,17
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.508227330392659,19,17
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Bio","Full_HAC5","Post_slope",0.508227330392659,19,17
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.508227330392659,19,17
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Den","Nine_year","Post_slope",0.226571772131295,9,7
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Den","Nine_year","No_baseline_post_slope",0.226571772131295,9,7
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Den","Full","Post_slope",0.170625734394928,19,17
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Den","Full","No_baseline_post_slope",0.170625734394928,19,17
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Den","Full_HAC1","Post_slope",0.170625734394928,19,17
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.170625734394928,19,17
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Den","Full_HAC5","Post_slope",0.170625734394928,19,17
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.170625734394928,19,17
+"Anacapa Island SMR 2003|M. pyrifera|PISCO|Bio","Nine_year","Post_slope",1.24569340904057,6,4
+"Anacapa Island SMR 2003|M. pyrifera|PISCO|Bio","Nine_year","No_baseline_post_slope",1.24569340904057,6,4
+"Anacapa Island SMR 2003|M. pyrifera|PISCO|Bio","Full","Post_slope",0.203645737829333,16,14
+"Anacapa Island SMR 2003|M. pyrifera|PISCO|Bio","Full","No_baseline_post_slope",0.203645737829333,16,14
+"Anacapa Island SMR 2003|M. pyrifera|PISCO|Bio","Full_HAC1","Post_slope",0.203645737829333,16,14
+"Anacapa Island SMR 2003|M. pyrifera|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.203645737829333,16,14
+"Anacapa Island SMR 2003|M. pyrifera|PISCO|Bio","Full_HAC5","Post_slope",0.203645737829333,16,14
+"Anacapa Island SMR 2003|M. pyrifera|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.203645737829333,16,14
+"Anacapa Island SMR 2003|M. franciscanus|PISCO|Den","Nine_year","Post_slope",0.368228234919659,6,4
+"Anacapa Island SMR 2003|M. franciscanus|PISCO|Den","Nine_year","No_baseline_post_slope",0.368228234919659,6,4
+"Anacapa Island SMR 2003|M. franciscanus|PISCO|Den","Full","Post_slope",0.308151703110314,16,14
+"Anacapa Island SMR 2003|M. franciscanus|PISCO|Den","Full","No_baseline_post_slope",0.308151703110314,16,14
+"Anacapa Island SMR 2003|M. franciscanus|PISCO|Den","Full_HAC1","Post_slope",0.308151703110314,16,14
+"Anacapa Island SMR 2003|M. franciscanus|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.308151703110314,16,14
+"Anacapa Island SMR 2003|M. franciscanus|PISCO|Den","Full_HAC5","Post_slope",0.308151703110314,16,14
+"Anacapa Island SMR 2003|M. franciscanus|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.308151703110314,16,14
+"Anacapa Island SMR 2003|P. interruptus|PISCO|Den","Nine_year","Post_slope",0.723079666064829,6,4
+"Anacapa Island SMR 2003|P. interruptus|PISCO|Den","Nine_year","No_baseline_post_slope",0.723079666064829,6,4
+"Anacapa Island SMR 2003|P. interruptus|PISCO|Den","Full","Post_slope",0.245683823173573,16,14
+"Anacapa Island SMR 2003|P. interruptus|PISCO|Den","Full","No_baseline_post_slope",0.245683823173573,16,14
+"Anacapa Island SMR 2003|P. interruptus|PISCO|Den","Full_HAC1","Post_slope",0.245683823173573,16,14
+"Anacapa Island SMR 2003|P. interruptus|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.245683823173573,16,14
+"Anacapa Island SMR 2003|P. interruptus|PISCO|Den","Full_HAC5","Post_slope",0.245683823173573,16,14
+"Anacapa Island SMR 2003|P. interruptus|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.245683823173573,16,14
+"Anacapa Island SMR 2003|S. purpuratus|PISCO|Den","Nine_year","Post_slope",0.818964353762145,6,4
+"Anacapa Island SMR 2003|S. purpuratus|PISCO|Den","Nine_year","No_baseline_post_slope",0.818964353762145,6,4
+"Anacapa Island SMR 2003|S. purpuratus|PISCO|Den","Full","Post_slope",0.523375599597583,16,14
+"Anacapa Island SMR 2003|S. purpuratus|PISCO|Den","Full","No_baseline_post_slope",0.523375599597583,16,14
+"Anacapa Island SMR 2003|S. purpuratus|PISCO|Den","Full_HAC1","Post_slope",0.523375599597583,16,14
+"Anacapa Island SMR 2003|S. purpuratus|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.523375599597583,16,14
+"Anacapa Island SMR 2003|S. purpuratus|PISCO|Den","Full_HAC5","Post_slope",0.523375599597583,16,14
+"Anacapa Island SMR 2003|S. purpuratus|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.523375599597583,16,14
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Nine_year","Change",1.72155889740584,10,7
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Nine_year","Post_slope",2.85545539122145,7,5
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Nine_year","BA_post_slope",2.85545539122145,7,5
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Nine_year","Slope_change",2.11531840542885,10,6
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Nine_year","Trend_adjusted_change",2.11531840542885,10,6
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Full","Change",1.2435157747694,12,9
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Full","Post_slope",2.14868277770345,9,7
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Full","BA_post_slope",2.14868277770345,9,7
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Full","Slope_change",2.56402641776918,12,8
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Full","Trend_adjusted_change",2.56402641776918,12,8
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Full_HAC1","Change",1.2435157747694,12,9
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Full_HAC1","Post_slope",2.14868277770345,9,7
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Full_HAC1","BA_post_slope",2.14868277770345,9,7
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Full_HAC1","Slope_change",2.56402641776918,12,8
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Full_HAC1","Trend_adjusted_change",2.56402641776918,12,8
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Full_HAC5","Change",1.2435157747694,12,9
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Full_HAC5","Post_slope",2.14868277770345,9,7
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Full_HAC5","BA_post_slope",2.14868277770345,9,7
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Full_HAC5","Slope_change",2.56402641776918,12,8
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Full_HAC5","Trend_adjusted_change",2.56402641776918,12,8
+"Campus Point SMCA|S. pulcher|PISCO|Den","Nine_year","Change",2.73911490123982,10,7
+"Campus Point SMCA|S. pulcher|PISCO|Den","Nine_year","Post_slope",3.72130251752644,7,5
+"Campus Point SMCA|S. pulcher|PISCO|Den","Nine_year","BA_post_slope",3.72130251752644,7,5
+"Campus Point SMCA|S. pulcher|PISCO|Den","Nine_year","Slope_change",2.03457741006211,10,6
+"Campus Point SMCA|S. pulcher|PISCO|Den","Nine_year","Trend_adjusted_change",2.03457741006211,10,6
+"Campus Point SMCA|S. pulcher|PISCO|Den","Full","Change",2.15342970474963,12,9
+"Campus Point SMCA|S. pulcher|PISCO|Den","Full","Post_slope",3.07781371267084,9,7
+"Campus Point SMCA|S. pulcher|PISCO|Den","Full","BA_post_slope",3.07781371267084,9,7
+"Campus Point SMCA|S. pulcher|PISCO|Den","Full","Slope_change",1.62574097612619,12,8
+"Campus Point SMCA|S. pulcher|PISCO|Den","Full","Trend_adjusted_change",1.62574097612619,12,8
+"Campus Point SMCA|S. pulcher|PISCO|Den","Full_HAC1","Change",2.15342970474963,12,9
+"Campus Point SMCA|S. pulcher|PISCO|Den","Full_HAC1","Post_slope",3.07781371267084,9,7
+"Campus Point SMCA|S. pulcher|PISCO|Den","Full_HAC1","BA_post_slope",3.07781371267084,9,7
+"Campus Point SMCA|S. pulcher|PISCO|Den","Full_HAC1","Slope_change",1.62574097612619,12,8
+"Campus Point SMCA|S. pulcher|PISCO|Den","Full_HAC1","Trend_adjusted_change",1.62574097612619,12,8
+"Campus Point SMCA|S. pulcher|PISCO|Den","Full_HAC5","Change",2.15342970474963,12,9
+"Campus Point SMCA|S. pulcher|PISCO|Den","Full_HAC5","Post_slope",3.07781371267084,9,7
+"Campus Point SMCA|S. pulcher|PISCO|Den","Full_HAC5","BA_post_slope",3.07781371267084,9,7
+"Campus Point SMCA|S. pulcher|PISCO|Den","Full_HAC5","Slope_change",1.62574097612619,12,8
+"Campus Point SMCA|S. pulcher|PISCO|Den","Full_HAC5","Trend_adjusted_change",1.62574097612619,12,8
+"Campus Point SMCA|M. pyrifera|PISCO|Bio","Nine_year","Post_slope",1.01994332553553,9,7
+"Campus Point SMCA|M. pyrifera|PISCO|Bio","Nine_year","No_baseline_post_slope",1.01994332553553,9,7
+"Campus Point SMCA|M. pyrifera|PISCO|Bio","Full","Post_slope",0.988909623620715,11,9
+"Campus Point SMCA|M. pyrifera|PISCO|Bio","Full","No_baseline_post_slope",0.988909623620715,11,9
+"Campus Point SMCA|M. pyrifera|PISCO|Bio","Full_HAC1","Post_slope",0.988909623620715,11,9
+"Campus Point SMCA|M. pyrifera|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.988909623620715,11,9
+"Campus Point SMCA|M. pyrifera|PISCO|Bio","Full_HAC5","Post_slope",0.988909623620715,11,9
+"Campus Point SMCA|M. pyrifera|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.988909623620715,11,9
+"Campus Point SMCA|M. franciscanus|PISCO|Den","Nine_year","Post_slope",0.598391201748868,9,7
+"Campus Point SMCA|M. franciscanus|PISCO|Den","Nine_year","No_baseline_post_slope",0.598391201748868,9,7
+"Campus Point SMCA|M. franciscanus|PISCO|Den","Full","Post_slope",0.245761012439313,11,9
+"Campus Point SMCA|M. franciscanus|PISCO|Den","Full","No_baseline_post_slope",0.245761012439313,11,9
+"Campus Point SMCA|M. franciscanus|PISCO|Den","Full_HAC1","Post_slope",0.245761012439313,11,9
+"Campus Point SMCA|M. franciscanus|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.245761012439313,11,9
+"Campus Point SMCA|M. franciscanus|PISCO|Den","Full_HAC5","Post_slope",0.245761012439313,11,9
+"Campus Point SMCA|M. franciscanus|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.245761012439313,11,9
+"Campus Point SMCA|P. interruptus|PISCO|Den","Nine_year","Post_slope",0.382462964346796,9,7
+"Campus Point SMCA|P. interruptus|PISCO|Den","Nine_year","No_baseline_post_slope",0.382462964346796,9,7
+"Campus Point SMCA|P. interruptus|PISCO|Den","Full","Post_slope",0.145211048260597,11,9
+"Campus Point SMCA|P. interruptus|PISCO|Den","Full","No_baseline_post_slope",0.145211048260597,11,9
+"Campus Point SMCA|P. interruptus|PISCO|Den","Full_HAC1","Post_slope",0.145211048260597,11,9
+"Campus Point SMCA|P. interruptus|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.145211048260597,11,9
+"Campus Point SMCA|P. interruptus|PISCO|Den","Full_HAC5","Post_slope",0.145211048260597,11,9
+"Campus Point SMCA|P. interruptus|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.145211048260597,11,9
+"Campus Point SMCA|S. purpuratus|PISCO|Den","Nine_year","Post_slope",1.08080486258442,9,7
+"Campus Point SMCA|S. purpuratus|PISCO|Den","Nine_year","No_baseline_post_slope",1.08080486258442,9,7
+"Campus Point SMCA|S. purpuratus|PISCO|Den","Full","Post_slope",0.413222151196226,11,9
+"Campus Point SMCA|S. purpuratus|PISCO|Den","Full","No_baseline_post_slope",0.413222151196226,11,9
+"Campus Point SMCA|S. purpuratus|PISCO|Den","Full_HAC1","Post_slope",0.413222151196226,11,9
+"Campus Point SMCA|S. purpuratus|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.413222151196226,11,9
+"Campus Point SMCA|S. purpuratus|PISCO|Den","Full_HAC5","Post_slope",0.413222151196226,11,9
+"Campus Point SMCA|S. purpuratus|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.413222151196226,11,9
+"Campus Point SMCA|M. franciscanus|PISCO|Bio","Nine_year","Post_slope",1.73907754990441,8,6
+"Campus Point SMCA|M. franciscanus|PISCO|Bio","Nine_year","No_baseline_post_slope",1.73907754990441,8,6
+"Campus Point SMCA|M. franciscanus|PISCO|Bio","Full","Post_slope",0.816876742701533,10,8
+"Campus Point SMCA|M. franciscanus|PISCO|Bio","Full","No_baseline_post_slope",0.816876742701533,10,8
+"Campus Point SMCA|M. franciscanus|PISCO|Bio","Full_HAC1","Post_slope",0.816876742701533,10,8
+"Campus Point SMCA|M. franciscanus|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.816876742701533,10,8
+"Campus Point SMCA|M. franciscanus|PISCO|Bio","Full_HAC5","Post_slope",0.816876742701533,10,8
+"Campus Point SMCA|M. franciscanus|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.816876742701533,10,8
+"Campus Point SMCA|S. purpuratus|PISCO|Bio","Nine_year","Post_slope",0.516009478653188,9,7
+"Campus Point SMCA|S. purpuratus|PISCO|Bio","Nine_year","No_baseline_post_slope",0.516009478653188,9,7
+"Campus Point SMCA|S. purpuratus|PISCO|Bio","Full","Post_slope",0.514419383827137,11,9
+"Campus Point SMCA|S. purpuratus|PISCO|Bio","Full","No_baseline_post_slope",0.514419383827137,11,9
+"Campus Point SMCA|S. purpuratus|PISCO|Bio","Full_HAC1","Post_slope",0.514419383827137,11,9
+"Campus Point SMCA|S. purpuratus|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.514419383827137,11,9
+"Campus Point SMCA|S. purpuratus|PISCO|Bio","Full_HAC5","Post_slope",0.514419383827137,11,9
+"Campus Point SMCA|S. purpuratus|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.514419383827137,11,9
+"Gull Island SMR|S. pulcher|PISCO|Bio","Nine_year","Post_slope",0.553838967385885,9,7
+"Gull Island SMR|S. pulcher|PISCO|Bio","Nine_year","No_baseline_post_slope",0.553838967385885,9,7
+"Gull Island SMR|S. pulcher|PISCO|Bio","Full","Post_slope",0.414855826172296,19,17
+"Gull Island SMR|S. pulcher|PISCO|Bio","Full","No_baseline_post_slope",0.414855826172296,19,17
+"Gull Island SMR|S. pulcher|PISCO|Bio","Full_HAC1","Post_slope",0.414855826172296,19,17
+"Gull Island SMR|S. pulcher|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.414855826172296,19,17
+"Gull Island SMR|S. pulcher|PISCO|Bio","Full_HAC5","Post_slope",0.414855826172296,19,17
+"Gull Island SMR|S. pulcher|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.414855826172296,19,17
+"Gull Island SMR|S. pulcher|PISCO|Den","Nine_year","Post_slope",1.39160689015271,9,7
+"Gull Island SMR|S. pulcher|PISCO|Den","Nine_year","No_baseline_post_slope",1.39160689015271,9,7
+"Gull Island SMR|S. pulcher|PISCO|Den","Full","Post_slope",0.225958356571923,19,17
+"Gull Island SMR|S. pulcher|PISCO|Den","Full","No_baseline_post_slope",0.225958356571923,19,17
+"Gull Island SMR|S. pulcher|PISCO|Den","Full_HAC1","Post_slope",0.225958356571923,19,17
+"Gull Island SMR|S. pulcher|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.225958356571923,19,17
+"Gull Island SMR|S. pulcher|PISCO|Den","Full_HAC5","Post_slope",0.225958356571923,19,17
+"Gull Island SMR|S. pulcher|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.225958356571923,19,17
+"Gull Island SMR|M. pyrifera|PISCO|Bio","Nine_year","Post_slope",0.630849009050074,9,7
+"Gull Island SMR|M. pyrifera|PISCO|Bio","Nine_year","No_baseline_post_slope",0.630849009050074,9,7
+"Gull Island SMR|M. pyrifera|PISCO|Bio","Full","Post_slope",0.509805555712721,16,14
+"Gull Island SMR|M. pyrifera|PISCO|Bio","Full","No_baseline_post_slope",0.509805555712721,16,14
+"Gull Island SMR|M. pyrifera|PISCO|Bio","Full_HAC1","Post_slope",0.509805555712721,16,14
+"Gull Island SMR|M. pyrifera|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.509805555712721,16,14
+"Gull Island SMR|M. pyrifera|PISCO|Bio","Full_HAC5","Post_slope",0.509805555712721,16,14
+"Gull Island SMR|M. pyrifera|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.509805555712721,16,14
+"Gull Island SMR|M. franciscanus|PISCO|Bio","Nine_year","Post_slope",0.680538902922587,9,7
+"Gull Island SMR|M. franciscanus|PISCO|Bio","Nine_year","No_baseline_post_slope",0.680538902922587,9,7
+"Gull Island SMR|M. franciscanus|PISCO|Bio","Full","Post_slope",0.529756935318485,15,13
+"Gull Island SMR|M. franciscanus|PISCO|Bio","Full","No_baseline_post_slope",0.529756935318485,15,13
+"Gull Island SMR|M. franciscanus|PISCO|Bio","Full_HAC1","Post_slope",0.529756935318485,15,13
+"Gull Island SMR|M. franciscanus|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.529756935318485,15,13
+"Gull Island SMR|M. franciscanus|PISCO|Bio","Full_HAC5","Post_slope",0.529756935318485,15,13
+"Gull Island SMR|M. franciscanus|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.529756935318485,15,13
+"Gull Island SMR|S. purpuratus|PISCO|Bio","Nine_year","Post_slope",0.254542692269689,9,7
+"Gull Island SMR|S. purpuratus|PISCO|Bio","Nine_year","No_baseline_post_slope",0.254542692269689,9,7
+"Gull Island SMR|S. purpuratus|PISCO|Bio","Full","Post_slope",0.343700752336637,15,13
+"Gull Island SMR|S. purpuratus|PISCO|Bio","Full","No_baseline_post_slope",0.343700752336637,15,13
+"Gull Island SMR|S. purpuratus|PISCO|Bio","Full_HAC1","Post_slope",0.343700752336637,15,13
+"Gull Island SMR|S. purpuratus|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.343700752336637,15,13
+"Gull Island SMR|S. purpuratus|PISCO|Bio","Full_HAC5","Post_slope",0.343700752336637,15,13
+"Gull Island SMR|S. purpuratus|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.343700752336637,15,13
+"Gull Island SMR|M. franciscanus|PISCO|Den","Nine_year","Post_slope",0.786472527265768,9,7
+"Gull Island SMR|M. franciscanus|PISCO|Den","Nine_year","No_baseline_post_slope",0.786472527265768,9,7
+"Gull Island SMR|M. franciscanus|PISCO|Den","Full","Post_slope",0.378212253840927,16,14
+"Gull Island SMR|M. franciscanus|PISCO|Den","Full","No_baseline_post_slope",0.378212253840927,16,14
+"Gull Island SMR|M. franciscanus|PISCO|Den","Full_HAC1","Post_slope",0.378212253840927,16,14
+"Gull Island SMR|M. franciscanus|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.378212253840927,16,14
+"Gull Island SMR|M. franciscanus|PISCO|Den","Full_HAC5","Post_slope",0.378212253840927,16,14
+"Gull Island SMR|M. franciscanus|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.378212253840927,16,14
+"Gull Island SMR|P. interruptus|PISCO|Den","Nine_year","Post_slope",0.267973434611374,9,7
+"Gull Island SMR|P. interruptus|PISCO|Den","Nine_year","No_baseline_post_slope",0.267973434611374,9,7
+"Gull Island SMR|P. interruptus|PISCO|Den","Full","Post_slope",0.376197058855734,16,14
+"Gull Island SMR|P. interruptus|PISCO|Den","Full","No_baseline_post_slope",0.376197058855734,16,14
+"Gull Island SMR|P. interruptus|PISCO|Den","Full_HAC1","Post_slope",0.376197058855734,16,14
+"Gull Island SMR|P. interruptus|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.376197058855734,16,14
+"Gull Island SMR|P. interruptus|PISCO|Den","Full_HAC5","Post_slope",0.376197058855734,16,14
+"Gull Island SMR|P. interruptus|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.376197058855734,16,14
+"Gull Island SMR|S. purpuratus|PISCO|Den","Nine_year","Post_slope",0.221596201109436,9,7
+"Gull Island SMR|S. purpuratus|PISCO|Den","Nine_year","No_baseline_post_slope",0.221596201109436,9,7
+"Gull Island SMR|S. purpuratus|PISCO|Den","Full","Post_slope",0.325596229098289,16,14
+"Gull Island SMR|S. purpuratus|PISCO|Den","Full","No_baseline_post_slope",0.325596229098289,16,14
+"Gull Island SMR|S. purpuratus|PISCO|Den","Full_HAC1","Post_slope",0.325596229098289,16,14
+"Gull Island SMR|S. purpuratus|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.325596229098289,16,14
+"Gull Island SMR|S. purpuratus|PISCO|Den","Full_HAC5","Post_slope",0.325596229098289,16,14
+"Gull Island SMR|S. purpuratus|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.325596229098289,16,14
+"Harris Point SMR|M. pyrifera|PISCO|Bio","Nine_year","Post_slope",0.634917837047986,9,7
+"Harris Point SMR|M. pyrifera|PISCO|Bio","Nine_year","No_baseline_post_slope",0.634917837047986,9,7
+"Harris Point SMR|M. pyrifera|PISCO|Bio","Full","Post_slope",0.260015248675842,17,15
+"Harris Point SMR|M. pyrifera|PISCO|Bio","Full","No_baseline_post_slope",0.260015248675842,17,15
+"Harris Point SMR|M. pyrifera|PISCO|Bio","Full_HAC1","Post_slope",0.260015248675842,17,15
+"Harris Point SMR|M. pyrifera|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.260015248675842,17,15
+"Harris Point SMR|M. pyrifera|PISCO|Bio","Full_HAC5","Post_slope",0.260015248675842,17,15
+"Harris Point SMR|M. pyrifera|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.260015248675842,17,15
+"Harris Point SMR|M. franciscanus|PISCO|Bio","Nine_year","Post_slope",0.437150972477872,9,7
+"Harris Point SMR|M. franciscanus|PISCO|Bio","Nine_year","No_baseline_post_slope",0.437150972477872,9,7
+"Harris Point SMR|M. franciscanus|PISCO|Bio","Full","Post_slope",0.311514979826678,15,13
+"Harris Point SMR|M. franciscanus|PISCO|Bio","Full","No_baseline_post_slope",0.311514979826678,15,13
+"Harris Point SMR|M. franciscanus|PISCO|Bio","Full_HAC1","Post_slope",0.311514979826678,15,13
+"Harris Point SMR|M. franciscanus|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.311514979826678,15,13
+"Harris Point SMR|M. franciscanus|PISCO|Bio","Full_HAC5","Post_slope",0.311514979826678,15,13
+"Harris Point SMR|M. franciscanus|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.311514979826678,15,13
+"Harris Point SMR|S. pulcher|PISCO|Bio","Nine_year","Post_slope",0.331069302907629,9,7
+"Harris Point SMR|S. pulcher|PISCO|Bio","Nine_year","No_baseline_post_slope",0.331069302907629,9,7
+"Harris Point SMR|S. pulcher|PISCO|Bio","Full","Post_slope",0.220530533008181,17,15
+"Harris Point SMR|S. pulcher|PISCO|Bio","Full","No_baseline_post_slope",0.220530533008181,17,15
+"Harris Point SMR|S. pulcher|PISCO|Bio","Full_HAC1","Post_slope",0.220530533008181,17,15
+"Harris Point SMR|S. pulcher|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.220530533008181,17,15
+"Harris Point SMR|S. pulcher|PISCO|Bio","Full_HAC5","Post_slope",0.220530533008181,17,15
+"Harris Point SMR|S. pulcher|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.220530533008181,17,15
+"Harris Point SMR|S. purpuratus|PISCO|Bio","Nine_year","Post_slope",0.335174090426452,9,7
+"Harris Point SMR|S. purpuratus|PISCO|Bio","Nine_year","No_baseline_post_slope",0.335174090426452,9,7
+"Harris Point SMR|S. purpuratus|PISCO|Bio","Full","Post_slope",0.203404438400221,15,13
+"Harris Point SMR|S. purpuratus|PISCO|Bio","Full","No_baseline_post_slope",0.203404438400221,15,13
+"Harris Point SMR|S. purpuratus|PISCO|Bio","Full_HAC1","Post_slope",0.203404438400221,15,13
+"Harris Point SMR|S. purpuratus|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.203404438400221,15,13
+"Harris Point SMR|S. purpuratus|PISCO|Bio","Full_HAC5","Post_slope",0.203404438400221,15,13
+"Harris Point SMR|S. purpuratus|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.203404438400221,15,13
+"Harris Point SMR|M. franciscanus|PISCO|Den","Nine_year","Post_slope",0.460849478949958,9,7
+"Harris Point SMR|M. franciscanus|PISCO|Den","Nine_year","No_baseline_post_slope",0.460849478949958,9,7
+"Harris Point SMR|M. franciscanus|PISCO|Den","Full","Post_slope",0.425981126353538,17,15
+"Harris Point SMR|M. franciscanus|PISCO|Den","Full","No_baseline_post_slope",0.425981126353538,17,15
+"Harris Point SMR|M. franciscanus|PISCO|Den","Full_HAC1","Post_slope",0.425981126353538,17,15
+"Harris Point SMR|M. franciscanus|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.425981126353538,17,15
+"Harris Point SMR|M. franciscanus|PISCO|Den","Full_HAC5","Post_slope",0.425981126353538,17,15
+"Harris Point SMR|M. franciscanus|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.425981126353538,17,15
+"Harris Point SMR|P. interruptus|PISCO|Den","Nine_year","Post_slope",1.23684210526316,9,7
+"Harris Point SMR|P. interruptus|PISCO|Den","Nine_year","No_baseline_post_slope",1.23684210526316,9,7
+"Harris Point SMR|P. interruptus|PISCO|Den","Full","Post_slope",0.339831553471249,17,15
+"Harris Point SMR|P. interruptus|PISCO|Den","Full","No_baseline_post_slope",0.339831553471249,17,15
+"Harris Point SMR|P. interruptus|PISCO|Den","Full_HAC1","Post_slope",0.339831553471249,17,15
+"Harris Point SMR|P. interruptus|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.339831553471249,17,15
+"Harris Point SMR|P. interruptus|PISCO|Den","Full_HAC5","Post_slope",0.339831553471249,17,15
+"Harris Point SMR|P. interruptus|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.339831553471249,17,15
+"Harris Point SMR|S. pulcher|PISCO|Den","Nine_year","Post_slope",0.18230959704799,9,7
+"Harris Point SMR|S. pulcher|PISCO|Den","Nine_year","No_baseline_post_slope",0.18230959704799,9,7
+"Harris Point SMR|S. pulcher|PISCO|Den","Full","Post_slope",0.229603056656567,17,15
+"Harris Point SMR|S. pulcher|PISCO|Den","Full","No_baseline_post_slope",0.229603056656567,17,15
+"Harris Point SMR|S. pulcher|PISCO|Den","Full_HAC1","Post_slope",0.229603056656567,17,15
+"Harris Point SMR|S. pulcher|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.229603056656567,17,15
+"Harris Point SMR|S. pulcher|PISCO|Den","Full_HAC5","Post_slope",0.229603056656567,17,15
+"Harris Point SMR|S. pulcher|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.229603056656567,17,15
+"Harris Point SMR|S. purpuratus|PISCO|Den","Nine_year","Post_slope",0.343091969749246,9,7
+"Harris Point SMR|S. purpuratus|PISCO|Den","Nine_year","No_baseline_post_slope",0.343091969749246,9,7
+"Harris Point SMR|S. purpuratus|PISCO|Den","Full","Post_slope",0.21901558577389,17,15
+"Harris Point SMR|S. purpuratus|PISCO|Den","Full","No_baseline_post_slope",0.21901558577389,17,15
+"Harris Point SMR|S. purpuratus|PISCO|Den","Full_HAC1","Post_slope",0.21901558577389,17,15
+"Harris Point SMR|S. purpuratus|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.21901558577389,17,15
+"Harris Point SMR|S. purpuratus|PISCO|Den","Full_HAC5","Post_slope",0.21901558577389,17,15
+"Harris Point SMR|S. purpuratus|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.21901558577389,17,15
+"Matlahuayl SMR|M. pyrifera|PISCO|Bio","Nine_year","Post_slope",2.5,3,1
+"Matlahuayl SMR|M. pyrifera|PISCO|Bio","Nine_year","No_baseline_post_slope",2.5,3,1
+"Matlahuayl SMR|M. pyrifera|PISCO|Bio","Full","Post_slope",2.06294744101627,5,3
+"Matlahuayl SMR|M. pyrifera|PISCO|Bio","Full","No_baseline_post_slope",2.06294744101627,5,3
+"Matlahuayl SMR|M. pyrifera|PISCO|Bio","Full_HAC1","Post_slope",2.06294744101627,5,3
+"Matlahuayl SMR|M. pyrifera|PISCO|Bio","Full_HAC1","No_baseline_post_slope",2.06294744101627,5,3
+"Matlahuayl SMR|M. pyrifera|PISCO|Bio","Full_HAC5","Post_slope",2.06294744101627,5,3
+"Matlahuayl SMR|M. pyrifera|PISCO|Bio","Full_HAC5","No_baseline_post_slope",2.06294744101627,5,3
+"Matlahuayl SMR|P. interruptus|PISCO|Bio","Nine_year","Post_slope",2.5,3,1
+"Matlahuayl SMR|P. interruptus|PISCO|Bio","Nine_year","No_baseline_post_slope",2.5,3,1
+"Matlahuayl SMR|P. interruptus|PISCO|Bio","Full","Post_slope",2.09940929736021,5,3
+"Matlahuayl SMR|P. interruptus|PISCO|Bio","Full","No_baseline_post_slope",2.09940929736021,5,3
+"Matlahuayl SMR|P. interruptus|PISCO|Bio","Full_HAC1","Post_slope",2.09940929736021,5,3
+"Matlahuayl SMR|P. interruptus|PISCO|Bio","Full_HAC1","No_baseline_post_slope",2.09940929736021,5,3
+"Matlahuayl SMR|P. interruptus|PISCO|Bio","Full_HAC5","Post_slope",2.09940929736021,5,3
+"Matlahuayl SMR|P. interruptus|PISCO|Bio","Full_HAC5","No_baseline_post_slope",2.09940929736021,5,3
+"Matlahuayl SMR|S. pulcher|PISCO|Bio","Nine_year","Post_slope",2.5,3,1
+"Matlahuayl SMR|S. pulcher|PISCO|Bio","Nine_year","No_baseline_post_slope",2.5,3,1
+"Matlahuayl SMR|S. pulcher|PISCO|Bio","Full","Post_slope",1.71150414767486,5,3
+"Matlahuayl SMR|S. pulcher|PISCO|Bio","Full","No_baseline_post_slope",1.71150414767486,5,3
+"Matlahuayl SMR|S. pulcher|PISCO|Bio","Full_HAC1","Post_slope",1.71150414767486,5,3
+"Matlahuayl SMR|S. pulcher|PISCO|Bio","Full_HAC1","No_baseline_post_slope",1.71150414767486,5,3
+"Matlahuayl SMR|S. pulcher|PISCO|Bio","Full_HAC5","Post_slope",1.71150414767486,5,3
+"Matlahuayl SMR|S. pulcher|PISCO|Bio","Full_HAC5","No_baseline_post_slope",1.71150414767486,5,3
+"Matlahuayl SMR|M. franciscanus|PISCO|Den","Nine_year","Post_slope",2.5,3,1
+"Matlahuayl SMR|M. franciscanus|PISCO|Den","Nine_year","No_baseline_post_slope",2.5,3,1
+"Matlahuayl SMR|M. franciscanus|PISCO|Den","Full","Post_slope",0.644023874504813,5,3
+"Matlahuayl SMR|M. franciscanus|PISCO|Den","Full","No_baseline_post_slope",0.644023874504813,5,3
+"Matlahuayl SMR|M. franciscanus|PISCO|Den","Full_HAC1","Post_slope",0.644023874504813,5,3
+"Matlahuayl SMR|M. franciscanus|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.644023874504813,5,3
+"Matlahuayl SMR|M. franciscanus|PISCO|Den","Full_HAC5","Post_slope",0.644023874504813,5,3
+"Matlahuayl SMR|M. franciscanus|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.644023874504813,5,3
+"Matlahuayl SMR|P. interruptus|PISCO|Den","Nine_year","Post_slope",2.5,3,1
+"Matlahuayl SMR|P. interruptus|PISCO|Den","Nine_year","No_baseline_post_slope",2.5,3,1
+"Matlahuayl SMR|P. interruptus|PISCO|Den","Full","Post_slope",2.12638468977377,5,3
+"Matlahuayl SMR|P. interruptus|PISCO|Den","Full","No_baseline_post_slope",2.12638468977377,5,3
+"Matlahuayl SMR|P. interruptus|PISCO|Den","Full_HAC1","Post_slope",2.12638468977377,5,3
+"Matlahuayl SMR|P. interruptus|PISCO|Den","Full_HAC1","No_baseline_post_slope",2.12638468977377,5,3
+"Matlahuayl SMR|P. interruptus|PISCO|Den","Full_HAC5","Post_slope",2.12638468977377,5,3
+"Matlahuayl SMR|P. interruptus|PISCO|Den","Full_HAC5","No_baseline_post_slope",2.12638468977377,5,3
+"Matlahuayl SMR|S. pulcher|PISCO|Den","Nine_year","Post_slope",2.5,3,1
+"Matlahuayl SMR|S. pulcher|PISCO|Den","Nine_year","No_baseline_post_slope",2.5,3,1
+"Matlahuayl SMR|S. pulcher|PISCO|Den","Full","Post_slope",1.77678007305612,5,3
+"Matlahuayl SMR|S. pulcher|PISCO|Den","Full","No_baseline_post_slope",1.77678007305612,5,3
+"Matlahuayl SMR|S. pulcher|PISCO|Den","Full_HAC1","Post_slope",1.77678007305612,5,3
+"Matlahuayl SMR|S. pulcher|PISCO|Den","Full_HAC1","No_baseline_post_slope",1.77678007305612,5,3
+"Matlahuayl SMR|S. pulcher|PISCO|Den","Full_HAC5","Post_slope",1.77678007305612,5,3
+"Matlahuayl SMR|S. pulcher|PISCO|Den","Full_HAC5","No_baseline_post_slope",1.77678007305612,5,3
+"Matlahuayl SMR|S. purpuratus|PISCO|Den","Nine_year","Post_slope",2.5,3,1
+"Matlahuayl SMR|S. purpuratus|PISCO|Den","Nine_year","No_baseline_post_slope",2.5,3,1
+"Matlahuayl SMR|S. purpuratus|PISCO|Den","Full","Post_slope",0.599980520110474,5,3
+"Matlahuayl SMR|S. purpuratus|PISCO|Den","Full","No_baseline_post_slope",0.599980520110474,5,3
+"Matlahuayl SMR|S. purpuratus|PISCO|Den","Full_HAC1","Post_slope",0.599980520110474,5,3
+"Matlahuayl SMR|S. purpuratus|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.599980520110474,5,3
+"Matlahuayl SMR|S. purpuratus|PISCO|Den","Full_HAC5","Post_slope",0.599980520110474,5,3
+"Matlahuayl SMR|S. purpuratus|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.599980520110474,5,3
+"Naples SMCA|S. pulcher|PISCO|Bio","Nine_year","Change",0.538602908432156,11,8
+"Naples SMCA|S. pulcher|PISCO|Bio","Nine_year","Post_slope",0.942243355694687,8,6
+"Naples SMCA|S. pulcher|PISCO|Bio","Nine_year","BA_post_slope",0.942243355694687,8,6
+"Naples SMCA|S. pulcher|PISCO|Bio","Nine_year","Slope_change",0.540519880149145,11,7
+"Naples SMCA|S. pulcher|PISCO|Bio","Nine_year","Trend_adjusted_change",0.540519880149145,11,7
+"Naples SMCA|S. pulcher|PISCO|Bio","Full","Change",0.59710389155667,13,10
+"Naples SMCA|S. pulcher|PISCO|Bio","Full","Post_slope",1.02042244914913,10,8
+"Naples SMCA|S. pulcher|PISCO|Bio","Full","BA_post_slope",1.02042244914913,10,8
+"Naples SMCA|S. pulcher|PISCO|Bio","Full","Slope_change",0.546492757271564,13,9
+"Naples SMCA|S. pulcher|PISCO|Bio","Full","Trend_adjusted_change",0.546492757271564,13,9
+"Naples SMCA|S. pulcher|PISCO|Bio","Full_HAC1","Change",0.59710389155667,13,10
+"Naples SMCA|S. pulcher|PISCO|Bio","Full_HAC1","Post_slope",1.02042244914913,10,8
+"Naples SMCA|S. pulcher|PISCO|Bio","Full_HAC1","BA_post_slope",1.02042244914913,10,8
+"Naples SMCA|S. pulcher|PISCO|Bio","Full_HAC1","Slope_change",0.546492757271564,13,9
+"Naples SMCA|S. pulcher|PISCO|Bio","Full_HAC1","Trend_adjusted_change",0.546492757271564,13,9
+"Naples SMCA|S. pulcher|PISCO|Bio","Full_HAC5","Change",0.59710389155667,13,10
+"Naples SMCA|S. pulcher|PISCO|Bio","Full_HAC5","Post_slope",1.02042244914913,10,8
+"Naples SMCA|S. pulcher|PISCO|Bio","Full_HAC5","BA_post_slope",1.02042244914913,10,8
+"Naples SMCA|S. pulcher|PISCO|Bio","Full_HAC5","Slope_change",0.546492757271564,13,9
+"Naples SMCA|S. pulcher|PISCO|Bio","Full_HAC5","Trend_adjusted_change",0.546492757271564,13,9
+"Naples SMCA|S. pulcher|PISCO|Den","Nine_year","Change",0.778848795488408,11,8
+"Naples SMCA|S. pulcher|PISCO|Den","Nine_year","Post_slope",0.98593510829304,8,6
+"Naples SMCA|S. pulcher|PISCO|Den","Nine_year","BA_post_slope",0.98593510829304,8,6
+"Naples SMCA|S. pulcher|PISCO|Den","Nine_year","Slope_change",0.560052111384415,11,7
+"Naples SMCA|S. pulcher|PISCO|Den","Nine_year","Trend_adjusted_change",0.560052111384415,11,7
+"Naples SMCA|S. pulcher|PISCO|Den","Full","Change",0.89918643207178,13,10
+"Naples SMCA|S. pulcher|PISCO|Den","Full","Post_slope",1.17872615900418,10,8
+"Naples SMCA|S. pulcher|PISCO|Den","Full","BA_post_slope",1.17872615900418,10,8
+"Naples SMCA|S. pulcher|PISCO|Den","Full","Slope_change",0.650120498229304,13,9
+"Naples SMCA|S. pulcher|PISCO|Den","Full","Trend_adjusted_change",0.650120498229304,13,9
+"Naples SMCA|S. pulcher|PISCO|Den","Full_HAC1","Change",0.89918643207178,13,10
+"Naples SMCA|S. pulcher|PISCO|Den","Full_HAC1","Post_slope",1.17872615900418,10,8
+"Naples SMCA|S. pulcher|PISCO|Den","Full_HAC1","BA_post_slope",1.17872615900418,10,8
+"Naples SMCA|S. pulcher|PISCO|Den","Full_HAC1","Slope_change",0.650120498229304,13,9
+"Naples SMCA|S. pulcher|PISCO|Den","Full_HAC1","Trend_adjusted_change",0.650120498229304,13,9
+"Naples SMCA|S. pulcher|PISCO|Den","Full_HAC5","Change",0.89918643207178,13,10
+"Naples SMCA|S. pulcher|PISCO|Den","Full_HAC5","Post_slope",1.17872615900418,10,8
+"Naples SMCA|S. pulcher|PISCO|Den","Full_HAC5","BA_post_slope",1.17872615900418,10,8
+"Naples SMCA|S. pulcher|PISCO|Den","Full_HAC5","Slope_change",0.650120498229304,13,9
+"Naples SMCA|S. pulcher|PISCO|Den","Full_HAC5","Trend_adjusted_change",0.650120498229304,13,9
+"Naples SMCA|M. pyrifera|PISCO|Bio","Nine_year","Post_slope",1.70846812076695,9,7
+"Naples SMCA|M. pyrifera|PISCO|Bio","Nine_year","No_baseline_post_slope",1.70846812076695,9,7
+"Naples SMCA|M. pyrifera|PISCO|Bio","Full","Post_slope",1.56356529595265,11,9
+"Naples SMCA|M. pyrifera|PISCO|Bio","Full","No_baseline_post_slope",1.56356529595265,11,9
+"Naples SMCA|M. pyrifera|PISCO|Bio","Full_HAC1","Post_slope",1.56356529595265,11,9
+"Naples SMCA|M. pyrifera|PISCO|Bio","Full_HAC1","No_baseline_post_slope",1.56356529595265,11,9
+"Naples SMCA|M. pyrifera|PISCO|Bio","Full_HAC5","Post_slope",1.56356529595265,11,9
+"Naples SMCA|M. pyrifera|PISCO|Bio","Full_HAC5","No_baseline_post_slope",1.56356529595265,11,9
+"Naples SMCA|M. franciscanus|PISCO|Den","Nine_year","Post_slope",0.717796813856787,9,7
+"Naples SMCA|M. franciscanus|PISCO|Den","Nine_year","No_baseline_post_slope",0.717796813856787,9,7
+"Naples SMCA|M. franciscanus|PISCO|Den","Full","Post_slope",0.735211483814146,11,9
+"Naples SMCA|M. franciscanus|PISCO|Den","Full","No_baseline_post_slope",0.735211483814146,11,9
+"Naples SMCA|M. franciscanus|PISCO|Den","Full_HAC1","Post_slope",0.735211483814146,11,9
+"Naples SMCA|M. franciscanus|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.735211483814146,11,9
+"Naples SMCA|M. franciscanus|PISCO|Den","Full_HAC5","Post_slope",0.735211483814146,11,9
+"Naples SMCA|M. franciscanus|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.735211483814146,11,9
+"Naples SMCA|P. interruptus|PISCO|Den","Nine_year","Post_slope",0.314947083813243,9,7
+"Naples SMCA|P. interruptus|PISCO|Den","Nine_year","No_baseline_post_slope",0.314947083813243,9,7
+"Naples SMCA|P. interruptus|PISCO|Den","Full","Post_slope",0.449822367477708,11,9
+"Naples SMCA|P. interruptus|PISCO|Den","Full","No_baseline_post_slope",0.449822367477708,11,9
+"Naples SMCA|P. interruptus|PISCO|Den","Full_HAC1","Post_slope",0.449822367477708,11,9
+"Naples SMCA|P. interruptus|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.449822367477708,11,9
+"Naples SMCA|P. interruptus|PISCO|Den","Full_HAC5","Post_slope",0.449822367477708,11,9
+"Naples SMCA|P. interruptus|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.449822367477708,11,9
+"Naples SMCA|S. purpuratus|PISCO|Den","Nine_year","Post_slope",0.601385241666962,9,7
+"Naples SMCA|S. purpuratus|PISCO|Den","Nine_year","No_baseline_post_slope",0.601385241666962,9,7
+"Naples SMCA|S. purpuratus|PISCO|Den","Full","Post_slope",0.351264084676289,11,9
+"Naples SMCA|S. purpuratus|PISCO|Den","Full","No_baseline_post_slope",0.351264084676289,11,9
+"Naples SMCA|S. purpuratus|PISCO|Den","Full_HAC1","Post_slope",0.351264084676289,11,9
+"Naples SMCA|S. purpuratus|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.351264084676289,11,9
+"Naples SMCA|S. purpuratus|PISCO|Den","Full_HAC5","Post_slope",0.351264084676289,11,9
+"Naples SMCA|S. purpuratus|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.351264084676289,11,9
+"Naples SMCA|M. franciscanus|PISCO|Bio","Nine_year","Post_slope",0.690712925739618,9,7
+"Naples SMCA|M. franciscanus|PISCO|Bio","Nine_year","No_baseline_post_slope",0.690712925739618,9,7
+"Naples SMCA|M. franciscanus|PISCO|Bio","Full","Post_slope",0.394976239315054,11,9
+"Naples SMCA|M. franciscanus|PISCO|Bio","Full","No_baseline_post_slope",0.394976239315054,11,9
+"Naples SMCA|M. franciscanus|PISCO|Bio","Full_HAC1","Post_slope",0.394976239315054,11,9
+"Naples SMCA|M. franciscanus|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.394976239315054,11,9
+"Naples SMCA|M. franciscanus|PISCO|Bio","Full_HAC5","Post_slope",0.394976239315054,11,9
+"Naples SMCA|M. franciscanus|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.394976239315054,11,9
+"Naples SMCA|S. purpuratus|PISCO|Bio","Nine_year","Post_slope",0.774256395254818,9,7
+"Naples SMCA|S. purpuratus|PISCO|Bio","Nine_year","No_baseline_post_slope",0.774256395254818,9,7
+"Naples SMCA|S. purpuratus|PISCO|Bio","Full","Post_slope",0.433121598436319,11,9
+"Naples SMCA|S. purpuratus|PISCO|Bio","Full","No_baseline_post_slope",0.433121598436319,11,9
+"Naples SMCA|S. purpuratus|PISCO|Bio","Full_HAC1","Post_slope",0.433121598436319,11,9
+"Naples SMCA|S. purpuratus|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.433121598436319,11,9
+"Naples SMCA|S. purpuratus|PISCO|Bio","Full_HAC5","Post_slope",0.433121598436319,11,9
+"Naples SMCA|S. purpuratus|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.433121598436319,11,9
+"Point Vicente SMCA|M. pyrifera|PISCO|Bio","Nine_year","Post_slope",3.00756258276812,8,6
+"Point Vicente SMCA|M. pyrifera|PISCO|Bio","Nine_year","No_baseline_post_slope",3.00756258276812,8,6
+"Point Vicente SMCA|M. pyrifera|PISCO|Bio","Full","Post_slope",2.67383304278321,10,8
+"Point Vicente SMCA|M. pyrifera|PISCO|Bio","Full","No_baseline_post_slope",2.67383304278321,10,8
+"Point Vicente SMCA|M. pyrifera|PISCO|Bio","Full_HAC1","Post_slope",2.67383304278321,10,8
+"Point Vicente SMCA|M. pyrifera|PISCO|Bio","Full_HAC1","No_baseline_post_slope",2.67383304278321,10,8
+"Point Vicente SMCA|M. pyrifera|PISCO|Bio","Full_HAC5","Post_slope",2.67383304278321,10,8
+"Point Vicente SMCA|M. pyrifera|PISCO|Bio","Full_HAC5","No_baseline_post_slope",2.67383304278321,10,8
+"Point Vicente SMCA|M. franciscanus|PISCO|Den","Nine_year","Post_slope",2.64218638138516,8,6
+"Point Vicente SMCA|M. franciscanus|PISCO|Den","Nine_year","No_baseline_post_slope",2.64218638138516,8,6
+"Point Vicente SMCA|M. franciscanus|PISCO|Den","Full","Post_slope",1.96776106247641,10,8
+"Point Vicente SMCA|M. franciscanus|PISCO|Den","Full","No_baseline_post_slope",1.96776106247641,10,8
+"Point Vicente SMCA|M. franciscanus|PISCO|Den","Full_HAC1","Post_slope",1.96776106247641,10,8
+"Point Vicente SMCA|M. franciscanus|PISCO|Den","Full_HAC1","No_baseline_post_slope",1.96776106247641,10,8
+"Point Vicente SMCA|M. franciscanus|PISCO|Den","Full_HAC5","Post_slope",1.96776106247641,10,8
+"Point Vicente SMCA|M. franciscanus|PISCO|Den","Full_HAC5","No_baseline_post_slope",1.96776106247641,10,8
+"Point Vicente SMCA|P. interruptus|PISCO|Den","Nine_year","Post_slope",1.50835879471585,8,6
+"Point Vicente SMCA|P. interruptus|PISCO|Den","Nine_year","No_baseline_post_slope",1.50835879471585,8,6
+"Point Vicente SMCA|P. interruptus|PISCO|Den","Full","Post_slope",1.30034989494287,10,8
+"Point Vicente SMCA|P. interruptus|PISCO|Den","Full","No_baseline_post_slope",1.30034989494287,10,8
+"Point Vicente SMCA|P. interruptus|PISCO|Den","Full_HAC1","Post_slope",1.30034989494287,10,8
+"Point Vicente SMCA|P. interruptus|PISCO|Den","Full_HAC1","No_baseline_post_slope",1.30034989494287,10,8
+"Point Vicente SMCA|P. interruptus|PISCO|Den","Full_HAC5","Post_slope",1.30034989494287,10,8
+"Point Vicente SMCA|P. interruptus|PISCO|Den","Full_HAC5","No_baseline_post_slope",1.30034989494287,10,8
+"Point Vicente SMCA|S. purpuratus|PISCO|Den","Nine_year","Post_slope",2.68655477931262,8,6
+"Point Vicente SMCA|S. purpuratus|PISCO|Den","Nine_year","No_baseline_post_slope",2.68655477931262,8,6
+"Point Vicente SMCA|S. purpuratus|PISCO|Den","Full","Post_slope",2.27805665779968,10,8
+"Point Vicente SMCA|S. purpuratus|PISCO|Den","Full","No_baseline_post_slope",2.27805665779968,10,8
+"Point Vicente SMCA|S. purpuratus|PISCO|Den","Full_HAC1","Post_slope",2.27805665779968,10,8
+"Point Vicente SMCA|S. purpuratus|PISCO|Den","Full_HAC1","No_baseline_post_slope",2.27805665779968,10,8
+"Point Vicente SMCA|S. purpuratus|PISCO|Den","Full_HAC5","Post_slope",2.27805665779968,10,8
+"Point Vicente SMCA|S. purpuratus|PISCO|Den","Full_HAC5","No_baseline_post_slope",2.27805665779968,10,8
+"Point Vicente SMCA|M. franciscanus|PISCO|Bio","Nine_year","Post_slope",1.93484835251131,8,6
+"Point Vicente SMCA|M. franciscanus|PISCO|Bio","Nine_year","No_baseline_post_slope",1.93484835251131,8,6
+"Point Vicente SMCA|M. franciscanus|PISCO|Bio","Full","Post_slope",1.59912553330875,10,8
+"Point Vicente SMCA|M. franciscanus|PISCO|Bio","Full","No_baseline_post_slope",1.59912553330875,10,8
+"Point Vicente SMCA|M. franciscanus|PISCO|Bio","Full_HAC1","Post_slope",1.59912553330875,10,8
+"Point Vicente SMCA|M. franciscanus|PISCO|Bio","Full_HAC1","No_baseline_post_slope",1.59912553330875,10,8
+"Point Vicente SMCA|M. franciscanus|PISCO|Bio","Full_HAC5","Post_slope",1.59912553330875,10,8
+"Point Vicente SMCA|M. franciscanus|PISCO|Bio","Full_HAC5","No_baseline_post_slope",1.59912553330875,10,8
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Nine_year","Change",0.853336517786282,12,9
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Nine_year","Post_slope",1.02314054451512,9,7
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Nine_year","BA_post_slope",1.02314054451512,9,7
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Nine_year","Slope_change",0.574512581374718,12,8
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Nine_year","Trend_adjusted_change",0.574512581374718,12,8
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Full","Change",0.802012191480658,14,11
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Full","Post_slope",1.01098071066439,11,9
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Full","BA_post_slope",1.01098071066439,11,9
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Full","Slope_change",0.552117834015728,14,10
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Full","Trend_adjusted_change",0.552117834015728,14,10
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Full_HAC1","Change",0.802012191480658,14,11
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Full_HAC1","Post_slope",1.01098071066439,11,9
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Full_HAC1","BA_post_slope",1.01098071066439,11,9
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Full_HAC1","Slope_change",0.552117834015728,14,10
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Full_HAC1","Trend_adjusted_change",0.552117834015728,14,10
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Full_HAC5","Change",0.802012191480658,14,11
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Full_HAC5","Post_slope",1.01098071066439,11,9
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Full_HAC5","BA_post_slope",1.01098071066439,11,9
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Full_HAC5","Slope_change",0.552117834015728,14,10
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Full_HAC5","Trend_adjusted_change",0.552117834015728,14,10
+"Point Vicente SMCA|S. purpuratus|PISCO|Bio","Nine_year","Post_slope",2.67858826930031,8,6
+"Point Vicente SMCA|S. purpuratus|PISCO|Bio","Nine_year","No_baseline_post_slope",2.67858826930031,8,6
+"Point Vicente SMCA|S. purpuratus|PISCO|Bio","Full","Post_slope",2.28292153194259,10,8
+"Point Vicente SMCA|S. purpuratus|PISCO|Bio","Full","No_baseline_post_slope",2.28292153194259,10,8
+"Point Vicente SMCA|S. purpuratus|PISCO|Bio","Full_HAC1","Post_slope",2.28292153194259,10,8
+"Point Vicente SMCA|S. purpuratus|PISCO|Bio","Full_HAC1","No_baseline_post_slope",2.28292153194259,10,8
+"Point Vicente SMCA|S. purpuratus|PISCO|Bio","Full_HAC5","Post_slope",2.28292153194259,10,8
+"Point Vicente SMCA|S. purpuratus|PISCO|Bio","Full_HAC5","No_baseline_post_slope",2.28292153194259,10,8
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Nine_year","Change",0.46156490928427,12,9
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Nine_year","Post_slope",0.654533616190607,9,7
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Nine_year","BA_post_slope",0.654533616190607,9,7
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Nine_year","Slope_change",0.476526604960897,12,8
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Nine_year","Trend_adjusted_change",0.476526604960897,12,8
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Full","Change",0.482457405837882,14,11
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Full","Post_slope",0.712430050726324,11,9
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Full","BA_post_slope",0.712430050726324,11,9
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Full","Slope_change",0.563241819589442,14,10
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Full","Trend_adjusted_change",0.563241819589442,14,10
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Full_HAC1","Change",0.482457405837882,14,11
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Full_HAC1","Post_slope",0.712430050726324,11,9
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Full_HAC1","BA_post_slope",0.712430050726324,11,9
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Full_HAC1","Slope_change",0.563241819589442,14,10
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Full_HAC1","Trend_adjusted_change",0.563241819589442,14,10
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Full_HAC5","Change",0.482457405837882,14,11
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Full_HAC5","Post_slope",0.712430050726324,11,9
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Full_HAC5","BA_post_slope",0.712430050726324,11,9
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Full_HAC5","Slope_change",0.563241819589442,14,10
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Full_HAC5","Trend_adjusted_change",0.563241819589442,14,10
+"Point Vicente SMCA|P. interruptus|PISCO|Bio","Nine_year","Post_slope",1.50506007235674,8,6
+"Point Vicente SMCA|P. interruptus|PISCO|Bio","Nine_year","No_baseline_post_slope",1.50506007235674,8,6
+"Point Vicente SMCA|P. interruptus|PISCO|Bio","Full","Post_slope",1.15955644498132,10,8
+"Point Vicente SMCA|P. interruptus|PISCO|Bio","Full","No_baseline_post_slope",1.15955644498132,10,8
+"Point Vicente SMCA|P. interruptus|PISCO|Bio","Full_HAC1","Post_slope",1.15955644498132,10,8
+"Point Vicente SMCA|P. interruptus|PISCO|Bio","Full_HAC1","No_baseline_post_slope",1.15955644498132,10,8
+"Point Vicente SMCA|P. interruptus|PISCO|Bio","Full_HAC5","Post_slope",1.15955644498132,10,8
+"Point Vicente SMCA|P. interruptus|PISCO|Bio","Full_HAC5","No_baseline_post_slope",1.15955644498132,10,8
+"Scorpion SMR|M. pyrifera|PISCO|Bio","Nine_year","Post_slope",1.45208351352197,9,7
+"Scorpion SMR|M. pyrifera|PISCO|Bio","Nine_year","No_baseline_post_slope",1.45208351352197,9,7
+"Scorpion SMR|M. pyrifera|PISCO|Bio","Full","Post_slope",0.189139638556461,20,18
+"Scorpion SMR|M. pyrifera|PISCO|Bio","Full","No_baseline_post_slope",0.189139638556461,20,18
+"Scorpion SMR|M. pyrifera|PISCO|Bio","Full_HAC1","Post_slope",0.189139638556461,20,18
+"Scorpion SMR|M. pyrifera|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.189139638556461,20,18
+"Scorpion SMR|M. pyrifera|PISCO|Bio","Full_HAC5","Post_slope",0.189139638556461,20,18
+"Scorpion SMR|M. pyrifera|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.189139638556461,20,18
+"Scorpion SMR|M. franciscanus|PISCO|Bio","Nine_year","Post_slope",0.605080080655734,9,7
+"Scorpion SMR|M. franciscanus|PISCO|Bio","Nine_year","No_baseline_post_slope",0.605080080655734,9,7
+"Scorpion SMR|M. franciscanus|PISCO|Bio","Full","Post_slope",0.195945090474512,18,16
+"Scorpion SMR|M. franciscanus|PISCO|Bio","Full","No_baseline_post_slope",0.195945090474512,18,16
+"Scorpion SMR|M. franciscanus|PISCO|Bio","Full_HAC1","Post_slope",0.195945090474512,18,16
+"Scorpion SMR|M. franciscanus|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.195945090474512,18,16
+"Scorpion SMR|M. franciscanus|PISCO|Bio","Full_HAC5","Post_slope",0.195945090474512,18,16
+"Scorpion SMR|M. franciscanus|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.195945090474512,18,16
+"Scorpion SMR|S. pulcher|PISCO|Bio","Nine_year","Post_slope",0.900012631109043,9,7
+"Scorpion SMR|S. pulcher|PISCO|Bio","Nine_year","No_baseline_post_slope",0.900012631109043,9,7
+"Scorpion SMR|S. pulcher|PISCO|Bio","Full","Post_slope",0.217317761284588,20,18
+"Scorpion SMR|S. pulcher|PISCO|Bio","Full","No_baseline_post_slope",0.217317761284588,20,18
+"Scorpion SMR|S. pulcher|PISCO|Bio","Full_HAC1","Post_slope",0.217317761284588,20,18
+"Scorpion SMR|S. pulcher|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.217317761284588,20,18
+"Scorpion SMR|S. pulcher|PISCO|Bio","Full_HAC5","Post_slope",0.217317761284588,20,18
+"Scorpion SMR|S. pulcher|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.217317761284588,20,18
+"Scorpion SMR|S. purpuratus|PISCO|Bio","Nine_year","Post_slope",0.86601844497336,9,7
+"Scorpion SMR|S. purpuratus|PISCO|Bio","Nine_year","No_baseline_post_slope",0.86601844497336,9,7
+"Scorpion SMR|S. purpuratus|PISCO|Bio","Full","Post_slope",0.808712942295996,18,16
+"Scorpion SMR|S. purpuratus|PISCO|Bio","Full","No_baseline_post_slope",0.808712942295996,18,16
+"Scorpion SMR|S. purpuratus|PISCO|Bio","Full_HAC1","Post_slope",0.808712942295996,18,16
+"Scorpion SMR|S. purpuratus|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.808712942295996,18,16
+"Scorpion SMR|S. purpuratus|PISCO|Bio","Full_HAC5","Post_slope",0.808712942295996,18,16
+"Scorpion SMR|S. purpuratus|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.808712942295996,18,16
+"Scorpion SMR|M. franciscanus|PISCO|Den","Nine_year","Post_slope",0.548819069961035,9,7
+"Scorpion SMR|M. franciscanus|PISCO|Den","Nine_year","No_baseline_post_slope",0.548819069961035,9,7
+"Scorpion SMR|M. franciscanus|PISCO|Den","Full","Post_slope",0.342468619491925,20,18
+"Scorpion SMR|M. franciscanus|PISCO|Den","Full","No_baseline_post_slope",0.342468619491925,20,18
+"Scorpion SMR|M. franciscanus|PISCO|Den","Full_HAC1","Post_slope",0.342468619491925,20,18
+"Scorpion SMR|M. franciscanus|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.342468619491925,20,18
+"Scorpion SMR|M. franciscanus|PISCO|Den","Full_HAC5","Post_slope",0.342468619491925,20,18
+"Scorpion SMR|M. franciscanus|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.342468619491925,20,18
+"Scorpion SMR|P. interruptus|PISCO|Den","Nine_year","Post_slope",0.636527426463855,9,7
+"Scorpion SMR|P. interruptus|PISCO|Den","Nine_year","No_baseline_post_slope",0.636527426463855,9,7
+"Scorpion SMR|P. interruptus|PISCO|Den","Full","Post_slope",0.163650708251155,20,18
+"Scorpion SMR|P. interruptus|PISCO|Den","Full","No_baseline_post_slope",0.163650708251155,20,18
+"Scorpion SMR|P. interruptus|PISCO|Den","Full_HAC1","Post_slope",0.163650708251155,20,18
+"Scorpion SMR|P. interruptus|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.163650708251155,20,18
+"Scorpion SMR|P. interruptus|PISCO|Den","Full_HAC5","Post_slope",0.163650708251155,20,18
+"Scorpion SMR|P. interruptus|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.163650708251155,20,18
+"Scorpion SMR|S. pulcher|PISCO|Den","Nine_year","Post_slope",1.46812347015183,9,7
+"Scorpion SMR|S. pulcher|PISCO|Den","Nine_year","No_baseline_post_slope",1.46812347015183,9,7
+"Scorpion SMR|S. pulcher|PISCO|Den","Full","Post_slope",0.276723163729703,20,18
+"Scorpion SMR|S. pulcher|PISCO|Den","Full","No_baseline_post_slope",0.276723163729703,20,18
+"Scorpion SMR|S. pulcher|PISCO|Den","Full_HAC1","Post_slope",0.276723163729703,20,18
+"Scorpion SMR|S. pulcher|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.276723163729703,20,18
+"Scorpion SMR|S. pulcher|PISCO|Den","Full_HAC5","Post_slope",0.276723163729703,20,18
+"Scorpion SMR|S. pulcher|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.276723163729703,20,18
+"Scorpion SMR|S. purpuratus|PISCO|Den","Nine_year","Post_slope",0.842291338808537,9,7
+"Scorpion SMR|S. purpuratus|PISCO|Den","Nine_year","No_baseline_post_slope",0.842291338808537,9,7
+"Scorpion SMR|S. purpuratus|PISCO|Den","Full","Post_slope",0.737222272608018,20,18
+"Scorpion SMR|S. purpuratus|PISCO|Den","Full","No_baseline_post_slope",0.737222272608018,20,18
+"Scorpion SMR|S. purpuratus|PISCO|Den","Full_HAC1","Post_slope",0.737222272608018,20,18
+"Scorpion SMR|S. purpuratus|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.737222272608018,20,18
+"Scorpion SMR|S. purpuratus|PISCO|Den","Full_HAC5","Post_slope",0.737222272608018,20,18
+"Scorpion SMR|S. purpuratus|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.737222272608018,20,18
+"South Point SMR|S. pulcher|PISCO|Bio","Nine_year","Post_slope",0.62362994272593,9,7
+"South Point SMR|S. pulcher|PISCO|Bio","Nine_year","No_baseline_post_slope",0.62362994272593,9,7
+"South Point SMR|S. pulcher|PISCO|Bio","Full","Post_slope",0.172648457985466,20,18
+"South Point SMR|S. pulcher|PISCO|Bio","Full","No_baseline_post_slope",0.172648457985466,20,18
+"South Point SMR|S. pulcher|PISCO|Bio","Full_HAC1","Post_slope",0.172648457985466,20,18
+"South Point SMR|S. pulcher|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.172648457985466,20,18
+"South Point SMR|S. pulcher|PISCO|Bio","Full_HAC5","Post_slope",0.172648457985466,20,18
+"South Point SMR|S. pulcher|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.172648457985466,20,18
+"South Point SMR|S. pulcher|PISCO|Den","Nine_year","Post_slope",1.05959113716795,9,7
+"South Point SMR|S. pulcher|PISCO|Den","Nine_year","No_baseline_post_slope",1.05959113716795,9,7
+"South Point SMR|S. pulcher|PISCO|Den","Full","Post_slope",0.234565830763194,20,18
+"South Point SMR|S. pulcher|PISCO|Den","Full","No_baseline_post_slope",0.234565830763194,20,18
+"South Point SMR|S. pulcher|PISCO|Den","Full_HAC1","Post_slope",0.234565830763194,20,18
+"South Point SMR|S. pulcher|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.234565830763194,20,18
+"South Point SMR|S. pulcher|PISCO|Den","Full_HAC5","Post_slope",0.234565830763194,20,18
+"South Point SMR|S. pulcher|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.234565830763194,20,18
+"South Point SMR|M. pyrifera|PISCO|Bio","Nine_year","Post_slope",0.8403791228916,7,5
+"South Point SMR|M. pyrifera|PISCO|Bio","Nine_year","No_baseline_post_slope",0.8403791228916,7,5
+"South Point SMR|M. pyrifera|PISCO|Bio","Full","Post_slope",0.606932635148362,16,14
+"South Point SMR|M. pyrifera|PISCO|Bio","Full","No_baseline_post_slope",0.606932635148362,16,14
+"South Point SMR|M. pyrifera|PISCO|Bio","Full_HAC1","Post_slope",0.606932635148362,16,14
+"South Point SMR|M. pyrifera|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.606932635148362,16,14
+"South Point SMR|M. pyrifera|PISCO|Bio","Full_HAC5","Post_slope",0.606932635148362,16,14
+"South Point SMR|M. pyrifera|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.606932635148362,16,14
+"South Point SMR|M. franciscanus|PISCO|Bio","Nine_year","Post_slope",0.903683042692621,7,5
+"South Point SMR|M. franciscanus|PISCO|Bio","Nine_year","No_baseline_post_slope",0.903683042692621,7,5
+"South Point SMR|M. franciscanus|PISCO|Bio","Full","Post_slope",0.415205195943078,14,12
+"South Point SMR|M. franciscanus|PISCO|Bio","Full","No_baseline_post_slope",0.415205195943078,14,12
+"South Point SMR|M. franciscanus|PISCO|Bio","Full_HAC1","Post_slope",0.415205195943078,14,12
+"South Point SMR|M. franciscanus|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.415205195943078,14,12
+"South Point SMR|M. franciscanus|PISCO|Bio","Full_HAC5","Post_slope",0.415205195943078,14,12
+"South Point SMR|M. franciscanus|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.415205195943078,14,12
+"South Point SMR|S. purpuratus|PISCO|Bio","Nine_year","Post_slope",0.708750407287454,7,5
+"South Point SMR|S. purpuratus|PISCO|Bio","Nine_year","No_baseline_post_slope",0.708750407287454,7,5
+"South Point SMR|S. purpuratus|PISCO|Bio","Full","Post_slope",0.2120932596966,14,12
+"South Point SMR|S. purpuratus|PISCO|Bio","Full","No_baseline_post_slope",0.2120932596966,14,12
+"South Point SMR|S. purpuratus|PISCO|Bio","Full_HAC1","Post_slope",0.2120932596966,14,12
+"South Point SMR|S. purpuratus|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.2120932596966,14,12
+"South Point SMR|S. purpuratus|PISCO|Bio","Full_HAC5","Post_slope",0.2120932596966,14,12
+"South Point SMR|S. purpuratus|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.2120932596966,14,12
+"South Point SMR|M. franciscanus|PISCO|Den","Nine_year","Post_slope",0.913432970320814,7,5
+"South Point SMR|M. franciscanus|PISCO|Den","Nine_year","No_baseline_post_slope",0.913432970320814,7,5
+"South Point SMR|M. franciscanus|PISCO|Den","Full","Post_slope",0.301810882219335,16,14
+"South Point SMR|M. franciscanus|PISCO|Den","Full","No_baseline_post_slope",0.301810882219335,16,14
+"South Point SMR|M. franciscanus|PISCO|Den","Full_HAC1","Post_slope",0.301810882219335,16,14
+"South Point SMR|M. franciscanus|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.301810882219335,16,14
+"South Point SMR|M. franciscanus|PISCO|Den","Full_HAC5","Post_slope",0.301810882219335,16,14
+"South Point SMR|M. franciscanus|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.301810882219335,16,14
+"South Point SMR|P. interruptus|PISCO|Den","Nine_year","Post_slope",0.41866028708134,7,5
+"South Point SMR|P. interruptus|PISCO|Den","Nine_year","No_baseline_post_slope",0.41866028708134,7,5
+"South Point SMR|P. interruptus|PISCO|Den","Full","Post_slope",0.152790525306043,16,14
+"South Point SMR|P. interruptus|PISCO|Den","Full","No_baseline_post_slope",0.152790525306043,16,14
+"South Point SMR|P. interruptus|PISCO|Den","Full_HAC1","Post_slope",0.152790525306043,16,14
+"South Point SMR|P. interruptus|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.152790525306043,16,14
+"South Point SMR|P. interruptus|PISCO|Den","Full_HAC5","Post_slope",0.152790525306043,16,14
+"South Point SMR|P. interruptus|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.152790525306043,16,14
+"South Point SMR|S. purpuratus|PISCO|Den","Nine_year","Post_slope",0.680988687928909,7,5
+"South Point SMR|S. purpuratus|PISCO|Den","Nine_year","No_baseline_post_slope",0.680988687928909,7,5
+"South Point SMR|S. purpuratus|PISCO|Den","Full","Post_slope",0.428345985332297,16,14
+"South Point SMR|S. purpuratus|PISCO|Den","Full","No_baseline_post_slope",0.428345985332297,16,14
+"South Point SMR|S. purpuratus|PISCO|Den","Full_HAC1","Post_slope",0.428345985332297,16,14
+"South Point SMR|S. purpuratus|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.428345985332297,16,14
+"South Point SMR|S. purpuratus|PISCO|Den","Full_HAC5","Post_slope",0.428345985332297,16,14
+"South Point SMR|S. purpuratus|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.428345985332297,16,14
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Den","Nine_year","Post_slope",1.60874982843736,8,6
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Den","Nine_year","No_baseline_post_slope",1.60874982843736,8,6
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Den","Full","Post_slope",0.33854693143144,17,15
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Den","Full","No_baseline_post_slope",0.33854693143144,17,15
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Den","Full_HAC1","Post_slope",0.33854693143144,17,15
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Den","Full_HAC1","No_baseline_post_slope",0.33854693143144,17,15
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Den","Full_HAC5","Post_slope",0.33854693143144,17,15
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Den","Full_HAC5","No_baseline_post_slope",0.33854693143144,17,15
+"Anacapa Island SMR 2003|P. interruptus|KFM|Den","Nine_year","Post_slope",0.502689268711,8,6
+"Anacapa Island SMR 2003|P. interruptus|KFM|Den","Nine_year","No_baseline_post_slope",0.502689268711,8,6
+"Anacapa Island SMR 2003|P. interruptus|KFM|Den","Full","Post_slope",0.353021792292949,17,15
+"Anacapa Island SMR 2003|P. interruptus|KFM|Den","Full","No_baseline_post_slope",0.353021792292949,17,15
+"Anacapa Island SMR 2003|P. interruptus|KFM|Den","Full_HAC1","Post_slope",0.353021792292949,17,15
+"Anacapa Island SMR 2003|P. interruptus|KFM|Den","Full_HAC1","No_baseline_post_slope",0.353021792292949,17,15
+"Anacapa Island SMR 2003|P. interruptus|KFM|Den","Full_HAC5","Post_slope",0.353021792292949,17,15
+"Anacapa Island SMR 2003|P. interruptus|KFM|Den","Full_HAC5","No_baseline_post_slope",0.353021792292949,17,15
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Den","Nine_year","Post_slope",1.52555281416629,8,6
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Den","Nine_year","No_baseline_post_slope",1.52555281416629,8,6
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Den","Full","Post_slope",0.296735041303525,17,15
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Den","Full","No_baseline_post_slope",0.296735041303525,17,15
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Den","Full_HAC1","Post_slope",0.296735041303525,17,15
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Den","Full_HAC1","No_baseline_post_slope",0.296735041303525,17,15
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Den","Full_HAC5","Post_slope",0.296735041303525,17,15
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Den","Full_HAC5","No_baseline_post_slope",0.296735041303525,17,15
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Bio","Nine_year","Post_slope",0.640997097780536,8,6
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Bio","Nine_year","No_baseline_post_slope",0.640997097780536,8,6
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Bio","Full","Post_slope",0.416848918745419,17,15
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Bio","Full","No_baseline_post_slope",0.416848918745419,17,15
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Bio","Full_HAC1","Post_slope",0.416848918745419,17,15
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Bio","Full_HAC1","No_baseline_post_slope",0.416848918745419,17,15
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Bio","Full_HAC5","Post_slope",0.416848918745419,17,15
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Bio","Full_HAC5","No_baseline_post_slope",0.416848918745419,17,15
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Bio","Nine_year","Post_slope",1.0875209832847,8,6
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Bio","Nine_year","No_baseline_post_slope",1.0875209832847,8,6
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Bio","Full","Post_slope",0.170845521723198,17,15
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Bio","Full","No_baseline_post_slope",0.170845521723198,17,15
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Bio","Full_HAC1","Post_slope",0.170845521723198,17,15
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Bio","Full_HAC1","No_baseline_post_slope",0.170845521723198,17,15
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Bio","Full_HAC5","Post_slope",0.170845521723198,17,15
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Bio","Full_HAC5","No_baseline_post_slope",0.170845521723198,17,15
+"Harris Point SMR|M. franciscanus|KFM|Den","Nine_year","Change",1.07344299154045,30,27
+"Harris Point SMR|M. franciscanus|KFM|Den","Nine_year","Post_slope",1.35667697353794,9,7
+"Harris Point SMR|M. franciscanus|KFM|Den","Nine_year","BA_post_slope",1.35667697353794,9,7
+"Harris Point SMR|M. franciscanus|KFM|Den","Nine_year","Slope_change",0.776163988577498,30,26
+"Harris Point SMR|M. franciscanus|KFM|Den","Nine_year","Trend_adjusted_change",0.776163988577498,30,26
+"Harris Point SMR|M. franciscanus|KFM|Den","Full","Change",0.725456024910067,39,36
+"Harris Point SMR|M. franciscanus|KFM|Den","Full","Post_slope",0.849720130528418,18,16
+"Harris Point SMR|M. franciscanus|KFM|Den","Full","BA_post_slope",0.849720130528418,18,16
+"Harris Point SMR|M. franciscanus|KFM|Den","Full","Slope_change",0.529360172079198,39,35
+"Harris Point SMR|M. franciscanus|KFM|Den","Full","Trend_adjusted_change",0.529360172079198,39,35
+"Harris Point SMR|M. franciscanus|KFM|Den","Full_HAC1","Change",0.725456024910067,39,36
+"Harris Point SMR|M. franciscanus|KFM|Den","Full_HAC1","Post_slope",0.849720130528418,18,16
+"Harris Point SMR|M. franciscanus|KFM|Den","Full_HAC1","BA_post_slope",0.849720130528418,18,16
+"Harris Point SMR|M. franciscanus|KFM|Den","Full_HAC1","Slope_change",0.529360172079198,39,35
+"Harris Point SMR|M. franciscanus|KFM|Den","Full_HAC1","Trend_adjusted_change",0.529360172079198,39,35
+"Harris Point SMR|M. franciscanus|KFM|Den","Full_HAC5","Change",0.725456024910067,39,36
+"Harris Point SMR|M. franciscanus|KFM|Den","Full_HAC5","Post_slope",0.849720130528418,18,16
+"Harris Point SMR|M. franciscanus|KFM|Den","Full_HAC5","BA_post_slope",0.849720130528418,18,16
+"Harris Point SMR|M. franciscanus|KFM|Den","Full_HAC5","Slope_change",0.529360172079198,39,35
+"Harris Point SMR|M. franciscanus|KFM|Den","Full_HAC5","Trend_adjusted_change",0.529360172079198,39,35
+"Harris Point SMR|M. franciscanus|KFM|Bio","Nine_year","Change",1.12271402582663,26,23
+"Harris Point SMR|M. franciscanus|KFM|Bio","Nine_year","Post_slope",1.42977221164447,9,7
+"Harris Point SMR|M. franciscanus|KFM|Bio","Nine_year","BA_post_slope",1.42977221164447,9,7
+"Harris Point SMR|M. franciscanus|KFM|Bio","Nine_year","Slope_change",0.811489085581743,26,22
+"Harris Point SMR|M. franciscanus|KFM|Bio","Nine_year","Trend_adjusted_change",0.811489085581743,26,22
+"Harris Point SMR|M. franciscanus|KFM|Bio","Full","Change",0.774469082177181,35,32
+"Harris Point SMR|M. franciscanus|KFM|Bio","Full","Post_slope",0.932885424231429,18,16
+"Harris Point SMR|M. franciscanus|KFM|Bio","Full","BA_post_slope",0.932885424231429,18,16
+"Harris Point SMR|M. franciscanus|KFM|Bio","Full","Slope_change",0.565184456874923,35,31
+"Harris Point SMR|M. franciscanus|KFM|Bio","Full","Trend_adjusted_change",0.565184456874923,35,31
+"Harris Point SMR|M. franciscanus|KFM|Bio","Full_HAC1","Change",0.774469082177181,35,32
+"Harris Point SMR|M. franciscanus|KFM|Bio","Full_HAC1","Post_slope",0.932885424231429,18,16
+"Harris Point SMR|M. franciscanus|KFM|Bio","Full_HAC1","BA_post_slope",0.932885424231429,18,16
+"Harris Point SMR|M. franciscanus|KFM|Bio","Full_HAC1","Slope_change",0.565184456874923,35,31
+"Harris Point SMR|M. franciscanus|KFM|Bio","Full_HAC1","Trend_adjusted_change",0.565184456874923,35,31
+"Harris Point SMR|M. franciscanus|KFM|Bio","Full_HAC5","Change",0.774469082177181,35,32
+"Harris Point SMR|M. franciscanus|KFM|Bio","Full_HAC5","Post_slope",0.932885424231429,18,16
+"Harris Point SMR|M. franciscanus|KFM|Bio","Full_HAC5","BA_post_slope",0.932885424231429,18,16
+"Harris Point SMR|M. franciscanus|KFM|Bio","Full_HAC5","Slope_change",0.565184456874923,35,31
+"Harris Point SMR|M. franciscanus|KFM|Bio","Full_HAC5","Trend_adjusted_change",0.565184456874923,35,31
+"Scorpion SMR|P. interruptus|KFM|Den","Nine_year","Change",0.0771560238361709,29,26
+"Scorpion SMR|P. interruptus|KFM|Den","Nine_year","Post_slope",0.306099003031224,9,7
+"Scorpion SMR|P. interruptus|KFM|Den","Nine_year","BA_post_slope",0.306099003031224,9,7
+"Scorpion SMR|P. interruptus|KFM|Den","Nine_year","Slope_change",0.227906542373502,29,25
+"Scorpion SMR|P. interruptus|KFM|Den","Nine_year","Trend_adjusted_change",0.227906542373502,29,25
+"Scorpion SMR|P. interruptus|KFM|Den","Full","Change",0.0847995750818263,38,35
+"Scorpion SMR|P. interruptus|KFM|Den","Full","Post_slope",0.248841538164519,18,16
+"Scorpion SMR|P. interruptus|KFM|Den","Full","BA_post_slope",0.248841538164519,18,16
+"Scorpion SMR|P. interruptus|KFM|Den","Full","Slope_change",0.273185708364499,38,34
+"Scorpion SMR|P. interruptus|KFM|Den","Full","Trend_adjusted_change",0.273185708364499,38,34
+"Scorpion SMR|P. interruptus|KFM|Den","Full_HAC1","Change",0.0847995750818263,38,35
+"Scorpion SMR|P. interruptus|KFM|Den","Full_HAC1","Post_slope",0.248841538164519,18,16
+"Scorpion SMR|P. interruptus|KFM|Den","Full_HAC1","BA_post_slope",0.248841538164519,18,16
+"Scorpion SMR|P. interruptus|KFM|Den","Full_HAC1","Slope_change",0.273185708364499,38,34
+"Scorpion SMR|P. interruptus|KFM|Den","Full_HAC1","Trend_adjusted_change",0.273185708364499,38,34
+"Scorpion SMR|P. interruptus|KFM|Den","Full_HAC5","Change",0.0847995750818263,38,35
+"Scorpion SMR|P. interruptus|KFM|Den","Full_HAC5","Post_slope",0.248841538164519,18,16
+"Scorpion SMR|P. interruptus|KFM|Den","Full_HAC5","BA_post_slope",0.248841538164519,18,16
+"Scorpion SMR|P. interruptus|KFM|Den","Full_HAC5","Slope_change",0.273185708364499,38,34
+"Scorpion SMR|P. interruptus|KFM|Den","Full_HAC5","Trend_adjusted_change",0.273185708364499,38,34
+"Scorpion SMR|M. franciscanus|KFM|Den","Nine_year","Change",0.145873442494019,30,27
+"Scorpion SMR|M. franciscanus|KFM|Den","Nine_year","Post_slope",0.301415912807984,9,7
+"Scorpion SMR|M. franciscanus|KFM|Den","Nine_year","BA_post_slope",0.301415912807984,9,7
+"Scorpion SMR|M. franciscanus|KFM|Den","Nine_year","Slope_change",0.164504294790948,30,26
+"Scorpion SMR|M. franciscanus|KFM|Den","Nine_year","Trend_adjusted_change",0.164504294790948,30,26
+"Scorpion SMR|M. franciscanus|KFM|Den","Full","Change",0.458204595795759,39,36
+"Scorpion SMR|M. franciscanus|KFM|Den","Full","Post_slope",0.706275420278066,18,16
+"Scorpion SMR|M. franciscanus|KFM|Den","Full","BA_post_slope",0.706275420278066,18,16
+"Scorpion SMR|M. franciscanus|KFM|Den","Full","Slope_change",0.339048158490216,39,35
+"Scorpion SMR|M. franciscanus|KFM|Den","Full","Trend_adjusted_change",0.339048158490216,39,35
+"Scorpion SMR|M. franciscanus|KFM|Den","Full_HAC1","Change",0.458204595795759,39,36
+"Scorpion SMR|M. franciscanus|KFM|Den","Full_HAC1","Post_slope",0.706275420278066,18,16
+"Scorpion SMR|M. franciscanus|KFM|Den","Full_HAC1","BA_post_slope",0.706275420278066,18,16
+"Scorpion SMR|M. franciscanus|KFM|Den","Full_HAC1","Slope_change",0.339048158490216,39,35
+"Scorpion SMR|M. franciscanus|KFM|Den","Full_HAC1","Trend_adjusted_change",0.339048158490216,39,35
+"Scorpion SMR|M. franciscanus|KFM|Den","Full_HAC5","Change",0.458204595795759,39,36
+"Scorpion SMR|M. franciscanus|KFM|Den","Full_HAC5","Post_slope",0.706275420278066,18,16
+"Scorpion SMR|M. franciscanus|KFM|Den","Full_HAC5","BA_post_slope",0.706275420278066,18,16
+"Scorpion SMR|M. franciscanus|KFM|Den","Full_HAC5","Slope_change",0.339048158490216,39,35
+"Scorpion SMR|M. franciscanus|KFM|Den","Full_HAC5","Trend_adjusted_change",0.339048158490216,39,35
+"Scorpion SMR|M. franciscanus|KFM|Bio","Nine_year","Change",0.162851935957641,27,24
+"Scorpion SMR|M. franciscanus|KFM|Bio","Nine_year","Post_slope",0.593151352464124,9,7
+"Scorpion SMR|M. franciscanus|KFM|Bio","Nine_year","BA_post_slope",0.593151352464124,9,7
+"Scorpion SMR|M. franciscanus|KFM|Bio","Nine_year","Slope_change",0.124953877283312,27,23
+"Scorpion SMR|M. franciscanus|KFM|Bio","Nine_year","Trend_adjusted_change",0.124953877283312,27,23
+"Scorpion SMR|M. franciscanus|KFM|Bio","Full","Change",0.158899001849951,36,33
+"Scorpion SMR|M. franciscanus|KFM|Bio","Full","Post_slope",0.156847095752106,18,16
+"Scorpion SMR|M. franciscanus|KFM|Bio","Full","BA_post_slope",0.156847095752106,18,16
+"Scorpion SMR|M. franciscanus|KFM|Bio","Full","Slope_change",0.128609633833732,36,32
+"Scorpion SMR|M. franciscanus|KFM|Bio","Full","Trend_adjusted_change",0.128609633833732,36,32
+"Scorpion SMR|M. franciscanus|KFM|Bio","Full_HAC1","Change",0.158899001849951,36,33
+"Scorpion SMR|M. franciscanus|KFM|Bio","Full_HAC1","Post_slope",0.156847095752106,18,16
+"Scorpion SMR|M. franciscanus|KFM|Bio","Full_HAC1","BA_post_slope",0.156847095752106,18,16
+"Scorpion SMR|M. franciscanus|KFM|Bio","Full_HAC1","Slope_change",0.128609633833732,36,32
+"Scorpion SMR|M. franciscanus|KFM|Bio","Full_HAC1","Trend_adjusted_change",0.128609633833732,36,32
+"Scorpion SMR|M. franciscanus|KFM|Bio","Full_HAC5","Change",0.158899001849951,36,33
+"Scorpion SMR|M. franciscanus|KFM|Bio","Full_HAC5","Post_slope",0.156847095752106,18,16
+"Scorpion SMR|M. franciscanus|KFM|Bio","Full_HAC5","BA_post_slope",0.156847095752106,18,16
+"Scorpion SMR|M. franciscanus|KFM|Bio","Full_HAC5","Slope_change",0.128609633833732,36,32
+"Scorpion SMR|M. franciscanus|KFM|Bio","Full_HAC5","Trend_adjusted_change",0.128609633833732,36,32
+"South Point SMR|S. purpuratus|KFM|Den","Nine_year","Post_slope",0.416383433008914,8,6
+"South Point SMR|S. purpuratus|KFM|Den","Nine_year","No_baseline_post_slope",0.416383433008914,8,6
+"South Point SMR|S. purpuratus|KFM|Den","Full","Post_slope",0.206598288008285,17,15
+"South Point SMR|S. purpuratus|KFM|Den","Full","No_baseline_post_slope",0.206598288008285,17,15
+"South Point SMR|S. purpuratus|KFM|Den","Full_HAC1","Post_slope",0.206598288008285,17,15
+"South Point SMR|S. purpuratus|KFM|Den","Full_HAC1","No_baseline_post_slope",0.206598288008285,17,15
+"South Point SMR|S. purpuratus|KFM|Den","Full_HAC5","Post_slope",0.206598288008285,17,15
+"South Point SMR|S. purpuratus|KFM|Den","Full_HAC5","No_baseline_post_slope",0.206598288008285,17,15
+"South Point SMR|M. franciscanus|KFM|Den","Nine_year","Post_slope",2.04287235057855,8,6
+"South Point SMR|M. franciscanus|KFM|Den","Nine_year","No_baseline_post_slope",2.04287235057855,8,6
+"South Point SMR|M. franciscanus|KFM|Den","Full","Post_slope",0.589241012139161,17,15
+"South Point SMR|M. franciscanus|KFM|Den","Full","No_baseline_post_slope",0.589241012139161,17,15
+"South Point SMR|M. franciscanus|KFM|Den","Full_HAC1","Post_slope",0.589241012139161,17,15
+"South Point SMR|M. franciscanus|KFM|Den","Full_HAC1","No_baseline_post_slope",0.589241012139161,17,15
+"South Point SMR|M. franciscanus|KFM|Den","Full_HAC5","Post_slope",0.589241012139161,17,15
+"South Point SMR|M. franciscanus|KFM|Den","Full_HAC5","No_baseline_post_slope",0.589241012139161,17,15
+"South Point SMR|P. interruptus|KFM|Den","Nine_year","Post_slope",0.32949957221183,8,6
+"South Point SMR|P. interruptus|KFM|Den","Nine_year","No_baseline_post_slope",0.32949957221183,8,6
+"South Point SMR|P. interruptus|KFM|Den","Full","Post_slope",0.278005569581319,17,15
+"South Point SMR|P. interruptus|KFM|Den","Full","No_baseline_post_slope",0.278005569581319,17,15
+"South Point SMR|P. interruptus|KFM|Den","Full_HAC1","Post_slope",0.278005569581319,17,15
+"South Point SMR|P. interruptus|KFM|Den","Full_HAC1","No_baseline_post_slope",0.278005569581319,17,15
+"South Point SMR|P. interruptus|KFM|Den","Full_HAC5","Post_slope",0.278005569581319,17,15
+"South Point SMR|P. interruptus|KFM|Den","Full_HAC5","No_baseline_post_slope",0.278005569581319,17,15
+"South Point SMR|M. franciscanus|KFM|Bio","Nine_year","Post_slope",1.98601983862118,8,6
+"South Point SMR|M. franciscanus|KFM|Bio","Nine_year","No_baseline_post_slope",1.98601983862118,8,6
+"South Point SMR|M. franciscanus|KFM|Bio","Full","Post_slope",0.852084065487784,17,15
+"South Point SMR|M. franciscanus|KFM|Bio","Full","No_baseline_post_slope",0.852084065487784,17,15
+"South Point SMR|M. franciscanus|KFM|Bio","Full_HAC1","Post_slope",0.852084065487784,17,15
+"South Point SMR|M. franciscanus|KFM|Bio","Full_HAC1","No_baseline_post_slope",0.852084065487784,17,15
+"South Point SMR|M. franciscanus|KFM|Bio","Full_HAC5","Post_slope",0.852084065487784,17,15
+"South Point SMR|M. franciscanus|KFM|Bio","Full_HAC5","No_baseline_post_slope",0.852084065487784,17,15
+"South Point SMR|S. purpuratus|KFM|Bio","Nine_year","Post_slope",0.96276674836351,8,6
+"South Point SMR|S. purpuratus|KFM|Bio","Nine_year","No_baseline_post_slope",0.96276674836351,8,6
+"South Point SMR|S. purpuratus|KFM|Bio","Full","Post_slope",0.200677401235372,17,15
+"South Point SMR|S. purpuratus|KFM|Bio","Full","No_baseline_post_slope",0.200677401235372,17,15
+"South Point SMR|S. purpuratus|KFM|Bio","Full_HAC1","Post_slope",0.200677401235372,17,15
+"South Point SMR|S. purpuratus|KFM|Bio","Full_HAC1","No_baseline_post_slope",0.200677401235372,17,15
+"South Point SMR|S. purpuratus|KFM|Bio","Full_HAC5","Post_slope",0.200677401235372,17,15
+"South Point SMR|S. purpuratus|KFM|Bio","Full_HAC5","No_baseline_post_slope",0.200677401235372,17,15
+"Campus Point SMCA|P. interruptus|LTER|Bio","Nine_year","Post_slope",0.287955273756273,9,7
+"Campus Point SMCA|P. interruptus|LTER|Bio","Nine_year","No_baseline_post_slope",0.287955273756273,9,7
+"Campus Point SMCA|P. interruptus|LTER|Bio","Full","Post_slope",0.229286857257399,11,9
+"Campus Point SMCA|P. interruptus|LTER|Bio","Full","No_baseline_post_slope",0.229286857257399,11,9
+"Campus Point SMCA|P. interruptus|LTER|Bio","Full_HAC1","Post_slope",0.229286857257399,11,9
+"Campus Point SMCA|P. interruptus|LTER|Bio","Full_HAC1","No_baseline_post_slope",0.229286857257399,11,9
+"Campus Point SMCA|P. interruptus|LTER|Bio","Full_HAC5","Post_slope",0.229286857257399,11,9
+"Campus Point SMCA|P. interruptus|LTER|Bio","Full_HAC5","No_baseline_post_slope",0.229286857257399,11,9
+"Campus Point SMCA|P. interruptus|LTER|Den","Nine_year","Post_slope",0.280789337470685,9,7
+"Campus Point SMCA|P. interruptus|LTER|Den","Nine_year","No_baseline_post_slope",0.280789337470685,9,7
+"Campus Point SMCA|P. interruptus|LTER|Den","Full","Post_slope",0.225375021552888,11,9
+"Campus Point SMCA|P. interruptus|LTER|Den","Full","No_baseline_post_slope",0.225375021552888,11,9
+"Campus Point SMCA|P. interruptus|LTER|Den","Full_HAC1","Post_slope",0.225375021552888,11,9
+"Campus Point SMCA|P. interruptus|LTER|Den","Full_HAC1","No_baseline_post_slope",0.225375021552888,11,9
+"Campus Point SMCA|P. interruptus|LTER|Den","Full_HAC5","Post_slope",0.225375021552888,11,9
+"Campus Point SMCA|P. interruptus|LTER|Den","Full_HAC5","No_baseline_post_slope",0.225375021552888,11,9
+"Naples SMCA|P. interruptus|LTER|Bio","Nine_year","Post_slope",0.249599681948432,9,7
+"Naples SMCA|P. interruptus|LTER|Bio","Nine_year","No_baseline_post_slope",0.249599681948432,9,7
+"Naples SMCA|P. interruptus|LTER|Bio","Full","Post_slope",0.582649562144104,11,9
+"Naples SMCA|P. interruptus|LTER|Bio","Full","No_baseline_post_slope",0.582649562144104,11,9
+"Naples SMCA|P. interruptus|LTER|Bio","Full_HAC1","Post_slope",0.582649562144104,11,9
+"Naples SMCA|P. interruptus|LTER|Bio","Full_HAC1","No_baseline_post_slope",0.582649562144104,11,9
+"Naples SMCA|P. interruptus|LTER|Bio","Full_HAC5","Post_slope",0.582649562144104,11,9
+"Naples SMCA|P. interruptus|LTER|Bio","Full_HAC5","No_baseline_post_slope",0.582649562144104,11,9
+"Naples SMCA|P. interruptus|LTER|Den","Nine_year","Post_slope",0.208849356915159,9,7
+"Naples SMCA|P. interruptus|LTER|Den","Nine_year","No_baseline_post_slope",0.208849356915159,9,7
+"Naples SMCA|P. interruptus|LTER|Den","Full","Post_slope",0.68898950995281,11,9
+"Naples SMCA|P. interruptus|LTER|Den","Full","No_baseline_post_slope",0.68898950995281,11,9
+"Naples SMCA|P. interruptus|LTER|Den","Full_HAC1","Post_slope",0.68898950995281,11,9
+"Naples SMCA|P. interruptus|LTER|Den","Full_HAC1","No_baseline_post_slope",0.68898950995281,11,9
+"Naples SMCA|P. interruptus|LTER|Den","Full_HAC5","Post_slope",0.68898950995281,11,9
+"Naples SMCA|P. interruptus|LTER|Den","Full_HAC5","No_baseline_post_slope",0.68898950995281,11,9
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Nine_year","Change",0.154901120764657,20,17
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Nine_year","Post_slope",0.468870018477363,9,7
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Nine_year","BA_post_slope",0.468870018477363,9,7
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Nine_year","Slope_change",0.567118138888387,20,16
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Nine_year","Trend_adjusted_change",0.567118138888387,20,16
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Full","Change",0.278750888732298,22,19
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Full","Post_slope",0.91500271335842,11,9
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Full","BA_post_slope",0.91500271335842,11,9
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Full","Slope_change",0.518985526075118,22,18
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Full","Trend_adjusted_change",0.518985526075118,22,18
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Full_HAC1","Change",0.278750888732298,22,19
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Full_HAC1","Post_slope",0.91500271335842,11,9
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Full_HAC1","BA_post_slope",0.91500271335842,11,9
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Full_HAC1","Slope_change",0.518985526075118,22,18
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Full_HAC1","Trend_adjusted_change",0.518985526075118,22,18
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Full_HAC5","Change",0.278750888732298,22,19
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Full_HAC5","Post_slope",0.91500271335842,11,9
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Full_HAC5","BA_post_slope",0.91500271335842,11,9
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Full_HAC5","Slope_change",0.518985526075118,22,18
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Full_HAC5","Trend_adjusted_change",0.518985526075118,22,18
+"Naples SMCA|M. pyrifera|LTER|Bio","Nine_year","Change",0.309462450964149,20,17
+"Naples SMCA|M. pyrifera|LTER|Bio","Nine_year","Post_slope",1.71681053002229,9,7
+"Naples SMCA|M. pyrifera|LTER|Bio","Nine_year","BA_post_slope",1.71681053002229,9,7
+"Naples SMCA|M. pyrifera|LTER|Bio","Nine_year","Slope_change",0.778612400533621,20,16
+"Naples SMCA|M. pyrifera|LTER|Bio","Nine_year","Trend_adjusted_change",0.778612400533621,20,16
+"Naples SMCA|M. pyrifera|LTER|Bio","Full","Change",0.705535682932775,22,19
+"Naples SMCA|M. pyrifera|LTER|Bio","Full","Post_slope",1.54849786152387,11,9
+"Naples SMCA|M. pyrifera|LTER|Bio","Full","BA_post_slope",1.54849786152387,11,9
+"Naples SMCA|M. pyrifera|LTER|Bio","Full","Slope_change",0.635783477462874,22,18
+"Naples SMCA|M. pyrifera|LTER|Bio","Full","Trend_adjusted_change",0.635783477462874,22,18
+"Naples SMCA|M. pyrifera|LTER|Bio","Full_HAC1","Change",0.705535682932775,22,19
+"Naples SMCA|M. pyrifera|LTER|Bio","Full_HAC1","Post_slope",1.54849786152387,11,9
+"Naples SMCA|M. pyrifera|LTER|Bio","Full_HAC1","BA_post_slope",1.54849786152387,11,9
+"Naples SMCA|M. pyrifera|LTER|Bio","Full_HAC1","Slope_change",0.635783477462874,22,18
+"Naples SMCA|M. pyrifera|LTER|Bio","Full_HAC1","Trend_adjusted_change",0.635783477462874,22,18
+"Naples SMCA|M. pyrifera|LTER|Bio","Full_HAC5","Change",0.705535682932775,22,19
+"Naples SMCA|M. pyrifera|LTER|Bio","Full_HAC5","Post_slope",1.54849786152387,11,9
+"Naples SMCA|M. pyrifera|LTER|Bio","Full_HAC5","BA_post_slope",1.54849786152387,11,9
+"Naples SMCA|M. pyrifera|LTER|Bio","Full_HAC5","Slope_change",0.635783477462874,22,18
+"Naples SMCA|M. pyrifera|LTER|Bio","Full_HAC5","Trend_adjusted_change",0.635783477462874,22,18
+"Campus Point SMCA|S. pulcher|LTER|Den","Nine_year","Change",0.329337173241127,19,16
+"Campus Point SMCA|S. pulcher|LTER|Den","Nine_year","Post_slope",0.280871743394855,9,7
+"Campus Point SMCA|S. pulcher|LTER|Den","Nine_year","BA_post_slope",0.280871743394855,9,7
+"Campus Point SMCA|S. pulcher|LTER|Den","Nine_year","Slope_change",0.232087926429054,19,15
+"Campus Point SMCA|S. pulcher|LTER|Den","Nine_year","Trend_adjusted_change",0.232087926429054,19,15
+"Campus Point SMCA|S. pulcher|LTER|Den","Full","Change",0.29786222349175,21,18
+"Campus Point SMCA|S. pulcher|LTER|Den","Full","Post_slope",0.290010473433021,11,9
+"Campus Point SMCA|S. pulcher|LTER|Den","Full","BA_post_slope",0.290010473433021,11,9
+"Campus Point SMCA|S. pulcher|LTER|Den","Full","Slope_change",0.211460320554213,21,17
+"Campus Point SMCA|S. pulcher|LTER|Den","Full","Trend_adjusted_change",0.211460320554213,21,17
+"Campus Point SMCA|S. pulcher|LTER|Den","Full_HAC1","Change",0.29786222349175,21,18
+"Campus Point SMCA|S. pulcher|LTER|Den","Full_HAC1","Post_slope",0.290010473433021,11,9
+"Campus Point SMCA|S. pulcher|LTER|Den","Full_HAC1","BA_post_slope",0.290010473433021,11,9
+"Campus Point SMCA|S. pulcher|LTER|Den","Full_HAC1","Slope_change",0.211460320554213,21,17
+"Campus Point SMCA|S. pulcher|LTER|Den","Full_HAC1","Trend_adjusted_change",0.211460320554213,21,17
+"Campus Point SMCA|S. pulcher|LTER|Den","Full_HAC5","Change",0.29786222349175,21,18
+"Campus Point SMCA|S. pulcher|LTER|Den","Full_HAC5","Post_slope",0.290010473433021,11,9
+"Campus Point SMCA|S. pulcher|LTER|Den","Full_HAC5","BA_post_slope",0.290010473433021,11,9
+"Campus Point SMCA|S. pulcher|LTER|Den","Full_HAC5","Slope_change",0.211460320554213,21,17
+"Campus Point SMCA|S. pulcher|LTER|Den","Full_HAC5","Trend_adjusted_change",0.211460320554213,21,17
+"Campus Point SMCA|S. pulcher|LTER|Bio","Nine_year","Change",0.36858829174481,19,16
+"Campus Point SMCA|S. pulcher|LTER|Bio","Nine_year","Post_slope",0.407496310687951,9,7
+"Campus Point SMCA|S. pulcher|LTER|Bio","Nine_year","BA_post_slope",0.407496310687951,9,7
+"Campus Point SMCA|S. pulcher|LTER|Bio","Nine_year","Slope_change",0.263050488809492,19,15
+"Campus Point SMCA|S. pulcher|LTER|Bio","Nine_year","Trend_adjusted_change",0.263050488809492,19,15
+"Campus Point SMCA|S. pulcher|LTER|Bio","Full","Change",0.263302500024138,21,18
+"Campus Point SMCA|S. pulcher|LTER|Bio","Full","Post_slope",0.319069323318666,11,9
+"Campus Point SMCA|S. pulcher|LTER|Bio","Full","BA_post_slope",0.319069323318666,11,9
+"Campus Point SMCA|S. pulcher|LTER|Bio","Full","Slope_change",0.239700799532823,21,17
+"Campus Point SMCA|S. pulcher|LTER|Bio","Full","Trend_adjusted_change",0.239700799532823,21,17
+"Campus Point SMCA|S. pulcher|LTER|Bio","Full_HAC1","Change",0.263302500024138,21,18
+"Campus Point SMCA|S. pulcher|LTER|Bio","Full_HAC1","Post_slope",0.319069323318666,11,9
+"Campus Point SMCA|S. pulcher|LTER|Bio","Full_HAC1","BA_post_slope",0.319069323318666,11,9
+"Campus Point SMCA|S. pulcher|LTER|Bio","Full_HAC1","Slope_change",0.239700799532823,21,17
+"Campus Point SMCA|S. pulcher|LTER|Bio","Full_HAC1","Trend_adjusted_change",0.239700799532823,21,17
+"Campus Point SMCA|S. pulcher|LTER|Bio","Full_HAC5","Change",0.263302500024138,21,18
+"Campus Point SMCA|S. pulcher|LTER|Bio","Full_HAC5","Post_slope",0.319069323318666,11,9
+"Campus Point SMCA|S. pulcher|LTER|Bio","Full_HAC5","BA_post_slope",0.319069323318666,11,9
+"Campus Point SMCA|S. pulcher|LTER|Bio","Full_HAC5","Slope_change",0.239700799532823,21,17
+"Campus Point SMCA|S. pulcher|LTER|Bio","Full_HAC5","Trend_adjusted_change",0.239700799532823,21,17
+"Naples SMCA|S. pulcher|LTER|Bio","Nine_year","Change",0.385902208853047,20,17
+"Naples SMCA|S. pulcher|LTER|Bio","Nine_year","Post_slope",0.875923883802488,9,7
+"Naples SMCA|S. pulcher|LTER|Bio","Nine_year","BA_post_slope",0.875923883802488,9,7
+"Naples SMCA|S. pulcher|LTER|Bio","Nine_year","Slope_change",0.31407561618795,20,16
+"Naples SMCA|S. pulcher|LTER|Bio","Nine_year","Trend_adjusted_change",0.31407561618795,20,16
+"Naples SMCA|S. pulcher|LTER|Bio","Full","Change",0.315374125733443,22,19
+"Naples SMCA|S. pulcher|LTER|Bio","Full","Post_slope",0.601879109712287,11,9
+"Naples SMCA|S. pulcher|LTER|Bio","Full","BA_post_slope",0.601879109712287,11,9
+"Naples SMCA|S. pulcher|LTER|Bio","Full","Slope_change",0.265624288072957,22,18
+"Naples SMCA|S. pulcher|LTER|Bio","Full","Trend_adjusted_change",0.265624288072957,22,18
+"Naples SMCA|S. pulcher|LTER|Bio","Full_HAC1","Change",0.315374125733443,22,19
+"Naples SMCA|S. pulcher|LTER|Bio","Full_HAC1","Post_slope",0.601879109712287,11,9
+"Naples SMCA|S. pulcher|LTER|Bio","Full_HAC1","BA_post_slope",0.601879109712287,11,9
+"Naples SMCA|S. pulcher|LTER|Bio","Full_HAC1","Slope_change",0.265624288072957,22,18
+"Naples SMCA|S. pulcher|LTER|Bio","Full_HAC1","Trend_adjusted_change",0.265624288072957,22,18
+"Naples SMCA|S. pulcher|LTER|Bio","Full_HAC5","Change",0.315374125733443,22,19
+"Naples SMCA|S. pulcher|LTER|Bio","Full_HAC5","Post_slope",0.601879109712287,11,9
+"Naples SMCA|S. pulcher|LTER|Bio","Full_HAC5","BA_post_slope",0.601879109712287,11,9
+"Naples SMCA|S. pulcher|LTER|Bio","Full_HAC5","Slope_change",0.265624288072957,22,18
+"Naples SMCA|S. pulcher|LTER|Bio","Full_HAC5","Trend_adjusted_change",0.265624288072957,22,18
+"Anacapa Island SMR 2003|S. pulcher|KFM|Den","Nine_year","Post_slope",0.376888829502231,8,6
+"Anacapa Island SMR 2003|S. pulcher|KFM|Den","Nine_year","No_baseline_post_slope",0.376888829502231,8,6
+"Anacapa Island SMR 2003|S. pulcher|KFM|Den","Full","Post_slope",0.372681365608014,17,15
+"Anacapa Island SMR 2003|S. pulcher|KFM|Den","Full","No_baseline_post_slope",0.372681365608014,17,15
+"Anacapa Island SMR 2003|S. pulcher|KFM|Den","Full_HAC1","Post_slope",0.372681365608014,17,15
+"Anacapa Island SMR 2003|S. pulcher|KFM|Den","Full_HAC1","No_baseline_post_slope",0.372681365608014,17,15
+"Anacapa Island SMR 2003|S. pulcher|KFM|Den","Full_HAC5","Post_slope",0.372681365608014,17,15
+"Anacapa Island SMR 2003|S. pulcher|KFM|Den","Full_HAC5","No_baseline_post_slope",0.372681365608014,17,15
+"Harris Point SMR|S. pulcher|KFM|Den","Nine_year","Change",0.108573907713312,27,24
+"Harris Point SMR|S. pulcher|KFM|Den","Nine_year","Post_slope",0.452177208348661,9,7
+"Harris Point SMR|S. pulcher|KFM|Den","Nine_year","BA_post_slope",0.452177208348661,9,7
+"Harris Point SMR|S. pulcher|KFM|Den","Nine_year","Slope_change",0.209854260231246,27,23
+"Harris Point SMR|S. pulcher|KFM|Den","Nine_year","Trend_adjusted_change",0.209854260231246,27,23
+"Harris Point SMR|S. pulcher|KFM|Den","Full","Change",0.149714116949169,36,33
+"Harris Point SMR|S. pulcher|KFM|Den","Full","Post_slope",0.336773807163794,18,16
+"Harris Point SMR|S. pulcher|KFM|Den","Full","BA_post_slope",0.336773807163794,18,16
+"Harris Point SMR|S. pulcher|KFM|Den","Full","Slope_change",0.205897308282979,36,32
+"Harris Point SMR|S. pulcher|KFM|Den","Full","Trend_adjusted_change",0.205897308282979,36,32
+"Harris Point SMR|S. pulcher|KFM|Den","Full_HAC1","Change",0.149714116949169,36,33
+"Harris Point SMR|S. pulcher|KFM|Den","Full_HAC1","Post_slope",0.336773807163794,18,16
+"Harris Point SMR|S. pulcher|KFM|Den","Full_HAC1","BA_post_slope",0.336773807163794,18,16
+"Harris Point SMR|S. pulcher|KFM|Den","Full_HAC1","Slope_change",0.205897308282979,36,32
+"Harris Point SMR|S. pulcher|KFM|Den","Full_HAC1","Trend_adjusted_change",0.205897308282979,36,32
+"Harris Point SMR|S. pulcher|KFM|Den","Full_HAC5","Change",0.149714116949169,36,33
+"Harris Point SMR|S. pulcher|KFM|Den","Full_HAC5","Post_slope",0.336773807163794,18,16
+"Harris Point SMR|S. pulcher|KFM|Den","Full_HAC5","BA_post_slope",0.336773807163794,18,16
+"Harris Point SMR|S. pulcher|KFM|Den","Full_HAC5","Slope_change",0.205897308282979,36,32
+"Harris Point SMR|S. pulcher|KFM|Den","Full_HAC5","Trend_adjusted_change",0.205897308282979,36,32
+"Scorpion SMR|S. pulcher|KFM|Den","Nine_year","Change",0.183246582680913,27,24
+"Scorpion SMR|S. pulcher|KFM|Den","Nine_year","Post_slope",0.66673080877418,9,7
+"Scorpion SMR|S. pulcher|KFM|Den","Nine_year","BA_post_slope",0.66673080877418,9,7
+"Scorpion SMR|S. pulcher|KFM|Den","Nine_year","Slope_change",0.141023775308409,27,23
+"Scorpion SMR|S. pulcher|KFM|Den","Nine_year","Trend_adjusted_change",0.141023775308409,27,23
+"Scorpion SMR|S. pulcher|KFM|Den","Full","Change",0.131664345932485,37,34
+"Scorpion SMR|S. pulcher|KFM|Den","Full","Post_slope",0.283764504505007,19,17
+"Scorpion SMR|S. pulcher|KFM|Den","Full","BA_post_slope",0.283764504505007,19,17
+"Scorpion SMR|S. pulcher|KFM|Den","Full","Slope_change",0.16968264491194,37,33
+"Scorpion SMR|S. pulcher|KFM|Den","Full","Trend_adjusted_change",0.16968264491194,37,33
+"Scorpion SMR|S. pulcher|KFM|Den","Full_HAC1","Change",0.131664345932485,37,34
+"Scorpion SMR|S. pulcher|KFM|Den","Full_HAC1","Post_slope",0.283764504505007,19,17
+"Scorpion SMR|S. pulcher|KFM|Den","Full_HAC1","BA_post_slope",0.283764504505007,19,17
+"Scorpion SMR|S. pulcher|KFM|Den","Full_HAC1","Slope_change",0.16968264491194,37,33
+"Scorpion SMR|S. pulcher|KFM|Den","Full_HAC1","Trend_adjusted_change",0.16968264491194,37,33
+"Scorpion SMR|S. pulcher|KFM|Den","Full_HAC5","Change",0.131664345932485,37,34
+"Scorpion SMR|S. pulcher|KFM|Den","Full_HAC5","Post_slope",0.283764504505007,19,17
+"Scorpion SMR|S. pulcher|KFM|Den","Full_HAC5","BA_post_slope",0.283764504505007,19,17
+"Scorpion SMR|S. pulcher|KFM|Den","Full_HAC5","Slope_change",0.16968264491194,37,33
+"Scorpion SMR|S. pulcher|KFM|Den","Full_HAC5","Trend_adjusted_change",0.16968264491194,37,33
+"South Point SMR|S. pulcher|KFM|Den","Nine_year","Post_slope",1.13440246786851,8,6
+"South Point SMR|S. pulcher|KFM|Den","Nine_year","No_baseline_post_slope",1.13440246786851,8,6
+"South Point SMR|S. pulcher|KFM|Den","Full","Post_slope",0.204533865418664,17,15
+"South Point SMR|S. pulcher|KFM|Den","Full","No_baseline_post_slope",0.204533865418664,17,15
+"South Point SMR|S. pulcher|KFM|Den","Full_HAC1","Post_slope",0.204533865418664,17,15
+"South Point SMR|S. pulcher|KFM|Den","Full_HAC1","No_baseline_post_slope",0.204533865418664,17,15
+"South Point SMR|S. pulcher|KFM|Den","Full_HAC5","Post_slope",0.204533865418664,17,15
+"South Point SMR|S. pulcher|KFM|Den","Full_HAC5","No_baseline_post_slope",0.204533865418664,17,15
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio","Nine_year","Post_slope",0.41664968616887,4,2
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio","Nine_year","No_baseline_post_slope",0.41664968616887,4,2
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio","Full","Post_slope",0.302932818413746,6,4
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio","Full","No_baseline_post_slope",0.302932818413746,6,4
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio","Full_HAC1","Post_slope",0.302932818413746,6,4
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.302932818413746,6,4
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio","Full_HAC5","Post_slope",0.302932818413746,6,4
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.302932818413746,6,4
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den","Nine_year","Post_slope",1.26960834587929,4,2
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den","Nine_year","No_baseline_post_slope",1.26960834587929,4,2
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den","Full","Post_slope",0.874429416879048,6,4
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den","Full","No_baseline_post_slope",0.874429416879048,6,4
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den","Full_HAC1","Post_slope",0.874429416879048,6,4
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.874429416879048,6,4
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den","Full_HAC5","Post_slope",0.874429416879048,6,4
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.874429416879048,6,4
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio","Full","Post_slope",1.35106904847061,4,2
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio","Full","No_baseline_post_slope",1.35106904847061,4,2
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio","Full_HAC1","Post_slope",1.35106904847061,4,2
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio","Full_HAC1","No_baseline_post_slope",1.35106904847061,4,2
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio","Full_HAC5","Post_slope",1.35106904847061,4,2
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio","Full_HAC5","No_baseline_post_slope",1.35106904847061,4,2
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Den","Full","Post_slope",2.5752266088629,4,2
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Den","Full","No_baseline_post_slope",2.5752266088629,4,2
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Den","Full_HAC1","Post_slope",2.5752266088629,4,2
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Den","Full_HAC1","No_baseline_post_slope",2.5752266088629,4,2
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Den","Full_HAC5","Post_slope",2.5752266088629,4,2
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Den","Full_HAC5","No_baseline_post_slope",2.5752266088629,4,2
+"Long Point SMR|S. pulcher|PISCO|Bio","Nine_year","Post_slope",6.37114475525217,4,2
+"Long Point SMR|S. pulcher|PISCO|Bio","Nine_year","No_baseline_post_slope",6.37114475525217,4,2
+"Long Point SMR|S. pulcher|PISCO|Bio","Full","Post_slope",2.38037053170915,6,4
+"Long Point SMR|S. pulcher|PISCO|Bio","Full","No_baseline_post_slope",2.38037053170915,6,4
+"Long Point SMR|S. pulcher|PISCO|Bio","Full_HAC1","Post_slope",2.38037053170915,6,4
+"Long Point SMR|S. pulcher|PISCO|Bio","Full_HAC1","No_baseline_post_slope",2.38037053170915,6,4
+"Long Point SMR|S. pulcher|PISCO|Bio","Full_HAC5","Post_slope",2.38037053170915,6,4
+"Long Point SMR|S. pulcher|PISCO|Bio","Full_HAC5","No_baseline_post_slope",2.38037053170915,6,4
+"Long Point SMR|S. pulcher|PISCO|Den","Nine_year","Post_slope",6.31009367906727,4,2
+"Long Point SMR|S. pulcher|PISCO|Den","Nine_year","No_baseline_post_slope",6.31009367906727,4,2
+"Long Point SMR|S. pulcher|PISCO|Den","Full","Post_slope",0.836039584492292,6,4
+"Long Point SMR|S. pulcher|PISCO|Den","Full","No_baseline_post_slope",0.836039584492292,6,4
+"Long Point SMR|S. pulcher|PISCO|Den","Full_HAC1","Post_slope",0.836039584492292,6,4
+"Long Point SMR|S. pulcher|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.836039584492292,6,4
+"Long Point SMR|S. pulcher|PISCO|Den","Full_HAC5","Post_slope",0.836039584492292,6,4
+"Long Point SMR|S. pulcher|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.836039584492292,6,4
+"Santa Barbara Island SMR|S. pulcher|PISCO|Bio","Nine_year","Post_slope",5.11435282021488,6,4
+"Santa Barbara Island SMR|S. pulcher|PISCO|Bio","Nine_year","No_baseline_post_slope",5.11435282021488,6,4
+"Santa Barbara Island SMR|S. pulcher|PISCO|Bio","Full","Post_slope",0.461272739115522,10,8
+"Santa Barbara Island SMR|S. pulcher|PISCO|Bio","Full","No_baseline_post_slope",0.461272739115522,10,8
+"Santa Barbara Island SMR|S. pulcher|PISCO|Bio","Full_HAC1","Post_slope",0.461272739115522,10,8
+"Santa Barbara Island SMR|S. pulcher|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.461272739115522,10,8
+"Santa Barbara Island SMR|S. pulcher|PISCO|Bio","Full_HAC5","Post_slope",0.461272739115522,10,8
+"Santa Barbara Island SMR|S. pulcher|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.461272739115522,10,8
+"Santa Barbara Island SMR|S. pulcher|PISCO|Den","Nine_year","Post_slope",2.73554008237236,6,4
+"Santa Barbara Island SMR|S. pulcher|PISCO|Den","Nine_year","No_baseline_post_slope",2.73554008237236,6,4
+"Santa Barbara Island SMR|S. pulcher|PISCO|Den","Full","Post_slope",0.490802503914517,10,8
+"Santa Barbara Island SMR|S. pulcher|PISCO|Den","Full","No_baseline_post_slope",0.490802503914517,10,8
+"Santa Barbara Island SMR|S. pulcher|PISCO|Den","Full_HAC1","Post_slope",0.490802503914517,10,8
+"Santa Barbara Island SMR|S. pulcher|PISCO|Den","Full_HAC1","No_baseline_post_slope",0.490802503914517,10,8
+"Santa Barbara Island SMR|S. pulcher|PISCO|Den","Full_HAC5","Post_slope",0.490802503914517,10,8
+"Santa Barbara Island SMR|S. pulcher|PISCO|Den","Full_HAC5","No_baseline_post_slope",0.490802503914517,10,8
+"Swamis SMCA|S. pulcher|PISCO|Bio","Nine_year","Post_slope",2.5,3,1
+"Swamis SMCA|S. pulcher|PISCO|Bio","Nine_year","No_baseline_post_slope",2.5,3,1
+"Swamis SMCA|S. pulcher|PISCO|Bio","Full","Post_slope",1.96636527852376,5,3
+"Swamis SMCA|S. pulcher|PISCO|Bio","Full","No_baseline_post_slope",1.96636527852376,5,3
+"Swamis SMCA|S. pulcher|PISCO|Bio","Full_HAC1","Post_slope",1.96636527852376,5,3
+"Swamis SMCA|S. pulcher|PISCO|Bio","Full_HAC1","No_baseline_post_slope",1.96636527852376,5,3
+"Swamis SMCA|S. pulcher|PISCO|Bio","Full_HAC5","Post_slope",1.96636527852376,5,3
+"Swamis SMCA|S. pulcher|PISCO|Bio","Full_HAC5","No_baseline_post_slope",1.96636527852376,5,3
+"Swamis SMCA|S. pulcher|PISCO|Den","Nine_year","Post_slope",2.5,3,1
+"Swamis SMCA|S. pulcher|PISCO|Den","Nine_year","No_baseline_post_slope",2.5,3,1
+"Swamis SMCA|S. pulcher|PISCO|Den","Full","Post_slope",2.09500893503041,5,3
+"Swamis SMCA|S. pulcher|PISCO|Den","Full","No_baseline_post_slope",2.09500893503041,5,3
+"Swamis SMCA|S. pulcher|PISCO|Den","Full_HAC1","Post_slope",2.09500893503041,5,3
+"Swamis SMCA|S. pulcher|PISCO|Den","Full_HAC1","No_baseline_post_slope",2.09500893503041,5,3
+"Swamis SMCA|S. pulcher|PISCO|Den","Full_HAC5","Post_slope",2.09500893503041,5,3
+"Swamis SMCA|S. pulcher|PISCO|Den","Full_HAC5","No_baseline_post_slope",2.09500893503041,5,3
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Nine_year","Change",0.421314310850604,29,26
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Nine_year","Post_slope",0.743032796322635,9,7
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Nine_year","BA_post_slope",0.743032796322635,9,7
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Nine_year","Slope_change",0.329932359015672,29,25
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Nine_year","Trend_adjusted_change",0.329932359015672,29,25
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Full","Change",0.275493569170259,39,36
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Full","Post_slope",0.486225008828815,19,17
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Full","BA_post_slope",0.486225008828815,19,17
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Full","Slope_change",0.214027006051334,39,35
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Full","Trend_adjusted_change",0.214027006051334,39,35
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Full_HAC1","Change",0.275493569170259,39,36
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Full_HAC1","Post_slope",0.486225008828815,19,17
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Full_HAC1","BA_post_slope",0.486225008828815,19,17
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Full_HAC1","Slope_change",0.214027006051334,39,35
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Full_HAC1","Trend_adjusted_change",0.214027006051334,39,35
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Full_HAC5","Change",0.275493569170259,39,36
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Full_HAC5","Post_slope",0.486225008828815,19,17
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Full_HAC5","BA_post_slope",0.486225008828815,19,17
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Full_HAC5","Slope_change",0.214027006051334,39,35
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Full_HAC5","Trend_adjusted_change",0.214027006051334,39,35
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Nine_year","Change",0.902518649441791,30,27
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Nine_year","Post_slope",1.53172953757935,9,7
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Nine_year","BA_post_slope",1.53172953757935,9,7
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Nine_year","Slope_change",0.667172790272965,30,26
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Nine_year","Trend_adjusted_change",0.667172790272965,30,26
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Full","Change",0.262782563166195,40,37
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Full","Post_slope",0.40504380244474,19,17
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Full","BA_post_slope",0.40504380244474,19,17
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Full","Slope_change",0.578331535142544,40,36
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Full","Trend_adjusted_change",0.578331535142544,40,36
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Full_HAC1","Change",0.262782563166195,40,37
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Full_HAC1","Post_slope",0.40504380244474,19,17
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Full_HAC1","BA_post_slope",0.40504380244474,19,17
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Full_HAC1","Slope_change",0.578331535142544,40,36
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Full_HAC1","Trend_adjusted_change",0.578331535142544,40,36
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Full_HAC5","Change",0.262782563166195,40,37
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Full_HAC5","Post_slope",0.40504380244474,19,17
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Full_HAC5","BA_post_slope",0.40504380244474,19,17
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Full_HAC5","Slope_change",0.578331535142544,40,36
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Full_HAC5","Trend_adjusted_change",0.578331535142544,40,36
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Nine_year","Change",0.1826029347577,35,32
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Nine_year","Post_slope",0.299203767764829,9,7
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Nine_year","BA_post_slope",0.299203767764829,9,7
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Nine_year","Slope_change",0.133087443643212,35,31
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Nine_year","Trend_adjusted_change",0.133087443643212,35,31
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Full","Change",0.1826029347577,35,32
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Full","Post_slope",0.299203767764829,9,7
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Full","BA_post_slope",0.299203767764829,9,7
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Full","Slope_change",0.133087443643212,35,31
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Full","Trend_adjusted_change",0.133087443643212,35,31
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Change",0.1826029347577,35,32
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Post_slope",0.299203767764829,9,7
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","BA_post_slope",0.299203767764829,9,7
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Slope_change",0.133087443643212,35,31
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Trend_adjusted_change",0.133087443643212,35,31
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Change",0.1826029347577,35,32
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Post_slope",0.299203767764829,9,7
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","BA_post_slope",0.299203767764829,9,7
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Slope_change",0.133087443643212,35,31
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Trend_adjusted_change",0.133087443643212,35,31
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Nine_year","Change",0.349677983045946,33,30
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Nine_year","Post_slope",0.349485729516664,9,7
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Nine_year","BA_post_slope",0.349485729516664,9,7
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Nine_year","Slope_change",0.274247297901895,33,29
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Nine_year","Trend_adjusted_change",0.274247297901895,33,29
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Full","Change",0.349677983045946,33,30
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Full","Post_slope",0.349485729516664,9,7
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Full","BA_post_slope",0.349485729516664,9,7
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Full","Slope_change",0.274247297901895,33,29
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Full","Trend_adjusted_change",0.274247297901895,33,29
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Change",0.349677983045946,33,30
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Post_slope",0.349485729516664,9,7
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Full_HAC1","BA_post_slope",0.349485729516664,9,7
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Slope_change",0.274247297901895,33,29
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Trend_adjusted_change",0.274247297901895,33,29
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Change",0.349677983045946,33,30
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Post_slope",0.349485729516664,9,7
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Full_HAC5","BA_post_slope",0.349485729516664,9,7
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Slope_change",0.274247297901895,33,29
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Trend_adjusted_change",0.274247297901895,33,29
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Nine_year","Change",0.663064438240022,36,33
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Nine_year","Post_slope",0.764196096429413,9,7
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Nine_year","BA_post_slope",0.764196096429413,9,7
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Nine_year","Slope_change",0.484442009403012,36,32
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Nine_year","Trend_adjusted_change",0.484442009403012,36,32
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Full","Change",0.663064438240022,36,33
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Full","Post_slope",0.764196096429413,9,7
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Full","BA_post_slope",0.764196096429413,9,7
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Full","Slope_change",0.484442009403012,36,32
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Full","Trend_adjusted_change",0.484442009403012,36,32
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Change",0.663064438240022,36,33
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Post_slope",0.764196096429413,9,7
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","BA_post_slope",0.764196096429413,9,7
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Slope_change",0.484442009403012,36,32
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Trend_adjusted_change",0.484442009403012,36,32
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Change",0.663064438240022,36,33
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Post_slope",0.764196096429413,9,7
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","BA_post_slope",0.764196096429413,9,7
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Slope_change",0.484442009403012,36,32
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Trend_adjusted_change",0.484442009403012,36,32
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Nine_year","Change",0.304102512760642,27,24
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Nine_year","Post_slope",0.698454639891429,9,7
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Nine_year","BA_post_slope",0.698454639891429,9,7
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Nine_year","Slope_change",0.431769293908041,27,23
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Nine_year","Trend_adjusted_change",0.431769293908041,27,23
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Full","Change",0.488353288187962,36,33
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Full","Post_slope",0.757883368250181,18,16
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Full","BA_post_slope",0.757883368250181,18,16
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Full","Slope_change",0.392614179339027,36,32
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Full","Trend_adjusted_change",0.392614179339027,36,32
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Change",0.488353288187962,36,33
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Post_slope",0.757883368250181,18,16
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Full_HAC1","BA_post_slope",0.757883368250181,18,16
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Slope_change",0.392614179339027,36,32
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Trend_adjusted_change",0.392614179339027,36,32
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Change",0.488353288187962,36,33
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Post_slope",0.757883368250181,18,16
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Full_HAC5","BA_post_slope",0.757883368250181,18,16
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Slope_change",0.392614179339027,36,32
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Trend_adjusted_change",0.392614179339027,36,32
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Nine_year","Change",0.163623332873488,24,21
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Nine_year","Post_slope",0.56877868499616,9,7
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Nine_year","BA_post_slope",0.56877868499616,9,7
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Nine_year","Slope_change",0.29739101006932,24,20
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Nine_year","Trend_adjusted_change",0.29739101006932,24,20
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Full","Change",0.163623332873488,24,21
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Full","Post_slope",0.56877868499616,9,7
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Full","BA_post_slope",0.56877868499616,9,7
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Full","Slope_change",0.29739101006932,24,20
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Full","Trend_adjusted_change",0.29739101006932,24,20
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Change",0.163623332873488,24,21
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Post_slope",0.56877868499616,9,7
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","BA_post_slope",0.56877868499616,9,7
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Slope_change",0.29739101006932,24,20
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Trend_adjusted_change",0.29739101006932,24,20
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Change",0.163623332873488,24,21
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Post_slope",0.56877868499616,9,7
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","BA_post_slope",0.56877868499616,9,7
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Slope_change",0.29739101006932,24,20
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Trend_adjusted_change",0.29739101006932,24,20
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Nine_year","Change",0.371962103935898,27,24
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Nine_year","Post_slope",0.910517745919699,9,7
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Nine_year","BA_post_slope",0.910517745919699,9,7
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Nine_year","Slope_change",0.279468496764979,27,23
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Nine_year","Trend_adjusted_change",0.279468496764979,27,23
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Full","Change",0.119530363107333,36,33
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Full","Post_slope",0.23541550607602,18,16
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Full","BA_post_slope",0.23541550607602,18,16
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Full","Slope_change",0.182575261476585,36,32
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Full","Trend_adjusted_change",0.182575261476585,36,32
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Change",0.119530363107333,36,33
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Post_slope",0.23541550607602,18,16
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Full_HAC1","BA_post_slope",0.23541550607602,18,16
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Slope_change",0.182575261476585,36,32
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Trend_adjusted_change",0.182575261476585,36,32
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Change",0.119530363107333,36,33
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Post_slope",0.23541550607602,18,16
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Full_HAC5","BA_post_slope",0.23541550607602,18,16
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Slope_change",0.182575261476585,36,32
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Trend_adjusted_change",0.182575261476585,36,32
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Nine_year","Change",0.103242149343532,26,23
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Nine_year","Post_slope",0.498793619278754,9,7
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Nine_year","BA_post_slope",0.498793619278754,9,7
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Nine_year","Slope_change",0.500252388028763,26,22
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Nine_year","Trend_adjusted_change",0.500252388028763,26,22
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Full","Change",0.145584156735775,35,32
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Full","Post_slope",0.395866353208769,18,16
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Full","BA_post_slope",0.395866353208769,18,16
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Full","Slope_change",0.507829853062477,35,31
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Full","Trend_adjusted_change",0.507829853062477,35,31
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Change",0.145584156735775,35,32
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Post_slope",0.395866353208769,18,16
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Full_HAC1","BA_post_slope",0.395866353208769,18,16
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Slope_change",0.507829853062477,35,31
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Trend_adjusted_change",0.507829853062477,35,31
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Change",0.145584156735775,35,32
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Post_slope",0.395866353208769,18,16
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Full_HAC5","BA_post_slope",0.395866353208769,18,16
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Slope_change",0.507829853062477,35,31
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Trend_adjusted_change",0.507829853062477,35,31
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Nine_year","Change",0.253650376939426,27,24
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Nine_year","Post_slope",0.898727366694369,9,7
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Nine_year","BA_post_slope",0.898727366694369,9,7
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Nine_year","Slope_change",0.318525541289206,27,23
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Nine_year","Trend_adjusted_change",0.318525541289206,27,23
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Full","Change",0.361101105301702,36,33
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Full","Post_slope",0.777400336457894,18,16
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Full","BA_post_slope",0.777400336457894,18,16
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Full","Slope_change",0.326022220361296,36,32
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Full","Trend_adjusted_change",0.326022220361296,36,32
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Change",0.361101105301702,36,33
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Post_slope",0.777400336457894,18,16
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Full_HAC1","BA_post_slope",0.777400336457894,18,16
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Slope_change",0.326022220361296,36,32
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Trend_adjusted_change",0.326022220361296,36,32
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Change",0.361101105301702,36,33
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Post_slope",0.777400336457894,18,16
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Full_HAC5","BA_post_slope",0.777400336457894,18,16
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Slope_change",0.326022220361296,36,32
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Trend_adjusted_change",0.326022220361296,36,32
+"Naples SMCA|M. pyrifera|Landsat|Bio","Nine_year","Change",0.204694594998715,36,33
+"Naples SMCA|M. pyrifera|Landsat|Bio","Nine_year","Post_slope",0.649114550339291,9,7
+"Naples SMCA|M. pyrifera|Landsat|Bio","Nine_year","BA_post_slope",0.649114550339291,9,7
+"Naples SMCA|M. pyrifera|Landsat|Bio","Nine_year","Slope_change",0.168127953509702,36,32
+"Naples SMCA|M. pyrifera|Landsat|Bio","Nine_year","Trend_adjusted_change",0.168127953509702,36,32
+"Naples SMCA|M. pyrifera|Landsat|Bio","Full","Change",0.204694594998715,36,33
+"Naples SMCA|M. pyrifera|Landsat|Bio","Full","Post_slope",0.649114550339291,9,7
+"Naples SMCA|M. pyrifera|Landsat|Bio","Full","BA_post_slope",0.649114550339291,9,7
+"Naples SMCA|M. pyrifera|Landsat|Bio","Full","Slope_change",0.168127953509702,36,32
+"Naples SMCA|M. pyrifera|Landsat|Bio","Full","Trend_adjusted_change",0.168127953509702,36,32
+"Naples SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Change",0.204694594998715,36,33
+"Naples SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Post_slope",0.649114550339291,9,7
+"Naples SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","BA_post_slope",0.649114550339291,9,7
+"Naples SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Slope_change",0.168127953509702,36,32
+"Naples SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Trend_adjusted_change",0.168127953509702,36,32
+"Naples SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Change",0.204694594998715,36,33
+"Naples SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Post_slope",0.649114550339291,9,7
+"Naples SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","BA_post_slope",0.649114550339291,9,7
+"Naples SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Slope_change",0.168127953509702,36,32
+"Naples SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Trend_adjusted_change",0.168127953509702,36,32
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Nine_year","Change",0.307556974856705,36,33
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Nine_year","Post_slope",0.67402803398874,9,7
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Nine_year","BA_post_slope",0.67402803398874,9,7
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Nine_year","Slope_change",0.231171100702927,36,32
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Nine_year","Trend_adjusted_change",0.231171100702927,36,32
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Full","Change",0.307556974856705,36,33
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Full","Post_slope",0.67402803398874,9,7
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Full","BA_post_slope",0.67402803398874,9,7
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Full","Slope_change",0.231171100702927,36,32
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Full","Trend_adjusted_change",0.231171100702927,36,32
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Change",0.307556974856705,36,33
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Post_slope",0.67402803398874,9,7
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","BA_post_slope",0.67402803398874,9,7
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Slope_change",0.231171100702927,36,32
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Trend_adjusted_change",0.231171100702927,36,32
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Change",0.307556974856705,36,33
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Post_slope",0.67402803398874,9,7
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","BA_post_slope",0.67402803398874,9,7
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Slope_change",0.231171100702927,36,32
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Trend_adjusted_change",0.231171100702927,36,32
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Nine_year","Change",0.699059331103391,36,33
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Nine_year","Post_slope",0.513769968688174,9,7
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Nine_year","BA_post_slope",0.513769968688174,9,7
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Nine_year","Slope_change",0.543947983991896,36,32
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Nine_year","Trend_adjusted_change",0.543947983991896,36,32
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Full","Change",0.699059331103391,36,33
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Full","Post_slope",0.513769968688174,9,7
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Full","BA_post_slope",0.513769968688174,9,7
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Full","Slope_change",0.543947983991896,36,32
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Full","Trend_adjusted_change",0.543947983991896,36,32
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Change",0.699059331103391,36,33
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Post_slope",0.513769968688174,9,7
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Full_HAC1","BA_post_slope",0.513769968688174,9,7
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Slope_change",0.543947983991896,36,32
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Trend_adjusted_change",0.543947983991896,36,32
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Change",0.699059331103391,36,33
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Post_slope",0.513769968688174,9,7
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Full_HAC5","BA_post_slope",0.513769968688174,9,7
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Slope_change",0.543947983991896,36,32
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Trend_adjusted_change",0.543947983991896,36,32
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Nine_year","Change",0.065707515247504,34,31
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Nine_year","Post_slope",0.403566514340371,9,7
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Nine_year","BA_post_slope",0.403566514340371,9,7
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Nine_year","Slope_change",0.0976637053055585,34,30
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Nine_year","Trend_adjusted_change",0.0976637053055585,34,30
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Full","Change",0.065707515247504,34,31
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Full","Post_slope",0.403566514340371,9,7
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Full","BA_post_slope",0.403566514340371,9,7
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Full","Slope_change",0.0976637053055585,34,30
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Full","Trend_adjusted_change",0.0976637053055585,34,30
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Change",0.065707515247504,34,31
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Post_slope",0.403566514340371,9,7
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","BA_post_slope",0.403566514340371,9,7
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Slope_change",0.0976637053055585,34,30
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Trend_adjusted_change",0.0976637053055585,34,30
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Change",0.065707515247504,34,31
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Post_slope",0.403566514340371,9,7
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","BA_post_slope",0.403566514340371,9,7
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Slope_change",0.0976637053055585,34,30
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Trend_adjusted_change",0.0976637053055585,34,30
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Nine_year","Change",0.50887401300082,27,24
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Nine_year","Post_slope",0.770119929526058,9,7
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Nine_year","BA_post_slope",0.770119929526058,9,7
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Nine_year","Slope_change",0.584920515224236,27,23
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Nine_year","Trend_adjusted_change",0.584920515224236,27,23
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Full","Change",0.122776251011792,36,33
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Full","Post_slope",0.194221358819819,18,16
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Full","BA_post_slope",0.194221358819819,18,16
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Full","Slope_change",0.124840024283057,36,32
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Full","Trend_adjusted_change",0.124840024283057,36,32
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Change",0.122776251011792,36,33
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Post_slope",0.194221358819819,18,16
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Full_HAC1","BA_post_slope",0.194221358819819,18,16
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Slope_change",0.124840024283057,36,32
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Trend_adjusted_change",0.124840024283057,36,32
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Change",0.122776251011792,36,33
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Post_slope",0.194221358819819,18,16
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Full_HAC5","BA_post_slope",0.194221358819819,18,16
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Slope_change",0.124840024283057,36,32
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Trend_adjusted_change",0.124840024283057,36,32
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Nine_year","Change",0.212409895948503,26,23
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Nine_year","Post_slope",0.434729983620927,9,7
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Nine_year","BA_post_slope",0.434729983620927,9,7
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Nine_year","Slope_change",0.205787392678376,26,22
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Nine_year","Trend_adjusted_change",0.205787392678376,26,22
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Full","Change",0.400845192759189,35,32
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Full","Post_slope",0.99059292874465,18,16
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Full","BA_post_slope",0.99059292874465,18,16
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Full","Slope_change",0.294579108905806,35,31
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Full","Trend_adjusted_change",0.294579108905806,35,31
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Change",0.400845192759189,35,32
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Post_slope",0.99059292874465,18,16
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Full_HAC1","BA_post_slope",0.99059292874465,18,16
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Slope_change",0.294579108905806,35,31
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Trend_adjusted_change",0.294579108905806,35,31
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Change",0.400845192759189,35,32
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Post_slope",0.99059292874465,18,16
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Full_HAC5","BA_post_slope",0.99059292874465,18,16
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Slope_change",0.294579108905806,35,31
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Trend_adjusted_change",0.294579108905806,35,31
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Nine_year","Change",0.79533974343735,34,31
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Nine_year","Post_slope",0.931438576525476,9,7
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Nine_year","BA_post_slope",0.931438576525476,9,7
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Nine_year","Slope_change",0.592225011486234,34,30
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Nine_year","Trend_adjusted_change",0.592225011486234,34,30
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Full","Change",0.79533974343735,34,31
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Full","Post_slope",0.931438576525476,9,7
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Full","BA_post_slope",0.931438576525476,9,7
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Full","Slope_change",0.592225011486234,34,30
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Full","Trend_adjusted_change",0.592225011486234,34,30
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Change",0.79533974343735,34,31
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Post_slope",0.931438576525476,9,7
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Full_HAC1","BA_post_slope",0.931438576525476,9,7
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Slope_change",0.592225011486234,34,30
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Trend_adjusted_change",0.592225011486234,34,30
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Change",0.79533974343735,34,31
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Post_slope",0.931438576525476,9,7
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Full_HAC5","BA_post_slope",0.931438576525476,9,7
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Slope_change",0.592225011486234,34,30
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Trend_adjusted_change",0.592225011486234,34,30
+"South Point SMR|M. pyrifera|Landsat|Bio","Nine_year","Change",0.195834683507662,27,24
+"South Point SMR|M. pyrifera|Landsat|Bio","Nine_year","Post_slope",0.436047507255054,9,7
+"South Point SMR|M. pyrifera|Landsat|Bio","Nine_year","BA_post_slope",0.436047507255054,9,7
+"South Point SMR|M. pyrifera|Landsat|Bio","Nine_year","Slope_change",0.345642512706349,27,23
+"South Point SMR|M. pyrifera|Landsat|Bio","Nine_year","Trend_adjusted_change",0.345642512706349,27,23
+"South Point SMR|M. pyrifera|Landsat|Bio","Full","Change",0.176683919831844,36,33
+"South Point SMR|M. pyrifera|Landsat|Bio","Full","Post_slope",0.216201196213777,18,16
+"South Point SMR|M. pyrifera|Landsat|Bio","Full","BA_post_slope",0.216201196213777,18,16
+"South Point SMR|M. pyrifera|Landsat|Bio","Full","Slope_change",0.29797372549706,36,32
+"South Point SMR|M. pyrifera|Landsat|Bio","Full","Trend_adjusted_change",0.29797372549706,36,32
+"South Point SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Change",0.176683919831844,36,33
+"South Point SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Post_slope",0.216201196213777,18,16
+"South Point SMR|M. pyrifera|Landsat|Bio","Full_HAC1","BA_post_slope",0.216201196213777,18,16
+"South Point SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Slope_change",0.29797372549706,36,32
+"South Point SMR|M. pyrifera|Landsat|Bio","Full_HAC1","Trend_adjusted_change",0.29797372549706,36,32
+"South Point SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Change",0.176683919831844,36,33
+"South Point SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Post_slope",0.216201196213777,18,16
+"South Point SMR|M. pyrifera|Landsat|Bio","Full_HAC5","BA_post_slope",0.216201196213777,18,16
+"South Point SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Slope_change",0.29797372549706,36,32
+"South Point SMR|M. pyrifera|Landsat|Bio","Full_HAC5","Trend_adjusted_change",0.29797372549706,36,32
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Nine_year","Change",0.405594841255211,36,33
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Nine_year","Post_slope",0.924405973509034,9,7
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Nine_year","BA_post_slope",0.924405973509034,9,7
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Nine_year","Slope_change",0.35498565526175,36,32
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Nine_year","Trend_adjusted_change",0.35498565526175,36,32
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Full","Change",0.405594841255211,36,33
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Full","Post_slope",0.924405973509034,9,7
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Full","BA_post_slope",0.924405973509034,9,7
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Full","Slope_change",0.35498565526175,36,32
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Full","Trend_adjusted_change",0.35498565526175,36,32
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Change",0.405594841255211,36,33
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Post_slope",0.924405973509034,9,7
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","BA_post_slope",0.924405973509034,9,7
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Slope_change",0.35498565526175,36,32
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Full_HAC1","Trend_adjusted_change",0.35498565526175,36,32
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Change",0.405594841255211,36,33
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Post_slope",0.924405973509034,9,7
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","BA_post_slope",0.924405973509034,9,7
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Slope_change",0.35498565526175,36,32
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Full_HAC5","Trend_adjusted_change",0.35498565526175,36,32
+"Campus Point SMCA|M. franciscanus|LTER|Den","Nine_year","Change",0.24760289439612,20,17
+"Campus Point SMCA|M. franciscanus|LTER|Den","Nine_year","Post_slope",0.738017948353813,9,7
+"Campus Point SMCA|M. franciscanus|LTER|Den","Nine_year","BA_post_slope",0.738017948353813,9,7
+"Campus Point SMCA|M. franciscanus|LTER|Den","Nine_year","Slope_change",0.481335503236511,20,16
+"Campus Point SMCA|M. franciscanus|LTER|Den","Nine_year","Trend_adjusted_change",0.481335503236511,20,16
+"Campus Point SMCA|M. franciscanus|LTER|Den","Full","Change",0.266051715560275,22,19
+"Campus Point SMCA|M. franciscanus|LTER|Den","Full","Post_slope",0.779423403125942,11,9
+"Campus Point SMCA|M. franciscanus|LTER|Den","Full","BA_post_slope",0.779423403125942,11,9
+"Campus Point SMCA|M. franciscanus|LTER|Den","Full","Slope_change",0.514527151349987,22,18
+"Campus Point SMCA|M. franciscanus|LTER|Den","Full","Trend_adjusted_change",0.514527151349987,22,18
+"Campus Point SMCA|M. franciscanus|LTER|Den","Full_HAC1","Change",0.266051715560275,22,19
+"Campus Point SMCA|M. franciscanus|LTER|Den","Full_HAC1","Post_slope",0.779423403125942,11,9
+"Campus Point SMCA|M. franciscanus|LTER|Den","Full_HAC1","BA_post_slope",0.779423403125942,11,9
+"Campus Point SMCA|M. franciscanus|LTER|Den","Full_HAC1","Slope_change",0.514527151349987,22,18
+"Campus Point SMCA|M. franciscanus|LTER|Den","Full_HAC1","Trend_adjusted_change",0.514527151349987,22,18
+"Campus Point SMCA|M. franciscanus|LTER|Den","Full_HAC5","Change",0.266051715560275,22,19
+"Campus Point SMCA|M. franciscanus|LTER|Den","Full_HAC5","Post_slope",0.779423403125942,11,9
+"Campus Point SMCA|M. franciscanus|LTER|Den","Full_HAC5","BA_post_slope",0.779423403125942,11,9
+"Campus Point SMCA|M. franciscanus|LTER|Den","Full_HAC5","Slope_change",0.514527151349987,22,18
+"Campus Point SMCA|M. franciscanus|LTER|Den","Full_HAC5","Trend_adjusted_change",0.514527151349987,22,18
+"Campus Point SMCA|S. purpuratus|LTER|Den","Nine_year","Change",0.114023904841471,20,17
+"Campus Point SMCA|S. purpuratus|LTER|Den","Nine_year","Post_slope",0.629723111684466,9,7
+"Campus Point SMCA|S. purpuratus|LTER|Den","Nine_year","BA_post_slope",0.629723111684466,9,7
+"Campus Point SMCA|S. purpuratus|LTER|Den","Nine_year","Slope_change",0.20281980651971,20,16
+"Campus Point SMCA|S. purpuratus|LTER|Den","Nine_year","Trend_adjusted_change",0.20281980651971,20,16
+"Campus Point SMCA|S. purpuratus|LTER|Den","Full","Change",0.124771210727796,22,19
+"Campus Point SMCA|S. purpuratus|LTER|Den","Full","Post_slope",0.69650588015483,11,9
+"Campus Point SMCA|S. purpuratus|LTER|Den","Full","BA_post_slope",0.69650588015483,11,9
+"Campus Point SMCA|S. purpuratus|LTER|Den","Full","Slope_change",0.222493371954287,22,18
+"Campus Point SMCA|S. purpuratus|LTER|Den","Full","Trend_adjusted_change",0.222493371954287,22,18
+"Campus Point SMCA|S. purpuratus|LTER|Den","Full_HAC1","Change",0.124771210727796,22,19
+"Campus Point SMCA|S. purpuratus|LTER|Den","Full_HAC1","Post_slope",0.69650588015483,11,9
+"Campus Point SMCA|S. purpuratus|LTER|Den","Full_HAC1","BA_post_slope",0.69650588015483,11,9
+"Campus Point SMCA|S. purpuratus|LTER|Den","Full_HAC1","Slope_change",0.222493371954287,22,18
+"Campus Point SMCA|S. purpuratus|LTER|Den","Full_HAC1","Trend_adjusted_change",0.222493371954287,22,18
+"Campus Point SMCA|S. purpuratus|LTER|Den","Full_HAC5","Change",0.124771210727796,22,19
+"Campus Point SMCA|S. purpuratus|LTER|Den","Full_HAC5","Post_slope",0.69650588015483,11,9
+"Campus Point SMCA|S. purpuratus|LTER|Den","Full_HAC5","BA_post_slope",0.69650588015483,11,9
+"Campus Point SMCA|S. purpuratus|LTER|Den","Full_HAC5","Slope_change",0.222493371954287,22,18
+"Campus Point SMCA|S. purpuratus|LTER|Den","Full_HAC5","Trend_adjusted_change",0.222493371954287,22,18
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Nine_year","Change",0.41675603850751,14,11
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Nine_year","Post_slope",0.290687849132062,9,7
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Nine_year","BA_post_slope",0.290687849132062,9,7
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Nine_year","Slope_change",0.333300045755657,14,10
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Nine_year","Trend_adjusted_change",0.333300045755657,14,10
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Full","Change",0.438795477978595,16,13
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Full","Post_slope",0.362503782383236,11,9
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Full","BA_post_slope",0.362503782383236,11,9
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Full","Slope_change",0.310383846446751,16,12
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Full","Trend_adjusted_change",0.310383846446751,16,12
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Full_HAC1","Change",0.438795477978595,16,13
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Full_HAC1","Post_slope",0.362503782383236,11,9
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Full_HAC1","BA_post_slope",0.362503782383236,11,9
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Full_HAC1","Slope_change",0.310383846446751,16,12
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Full_HAC1","Trend_adjusted_change",0.310383846446751,16,12
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Full_HAC5","Change",0.438795477978595,16,13
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Full_HAC5","Post_slope",0.362503782383236,11,9
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Full_HAC5","BA_post_slope",0.362503782383236,11,9
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Full_HAC5","Slope_change",0.310383846446751,16,12
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Full_HAC5","Trend_adjusted_change",0.310383846446751,16,12
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Nine_year","Change",0.867907213348948,12,9
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Nine_year","Post_slope",0.522326210014814,9,7
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Nine_year","BA_post_slope",0.522326210014814,9,7
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Nine_year","Slope_change",23.1230627880571,12,8
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Nine_year","Trend_adjusted_change",23.1230627880571,12,8
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Full","Change",0.803306439205218,14,11
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Full","Post_slope",0.418497052469376,11,9
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Full","BA_post_slope",0.418497052469376,11,9
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Full","Slope_change",21.884516297431,14,10
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Full","Trend_adjusted_change",21.884516297431,14,10
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Full_HAC1","Change",0.803306439205218,14,11
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Full_HAC1","Post_slope",0.418497052469376,11,9
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Full_HAC1","BA_post_slope",0.418497052469376,11,9
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Full_HAC1","Slope_change",21.884516297431,14,10
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Full_HAC1","Trend_adjusted_change",21.884516297431,14,10
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Full_HAC5","Change",0.803306439205218,14,11
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Full_HAC5","Post_slope",0.418497052469376,11,9
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Full_HAC5","BA_post_slope",0.418497052469376,11,9
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Full_HAC5","Slope_change",21.884516297431,14,10
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Full_HAC5","Trend_adjusted_change",21.884516297431,14,10
+"Naples SMCA|S. purpuratus|LTER|Den","Nine_year","Change",0.175154056319635,20,17
+"Naples SMCA|S. purpuratus|LTER|Den","Nine_year","Post_slope",0.807242887189208,9,7
+"Naples SMCA|S. purpuratus|LTER|Den","Nine_year","BA_post_slope",0.807242887189208,9,7
+"Naples SMCA|S. purpuratus|LTER|Den","Nine_year","Slope_change",0.680302488277254,20,16
+"Naples SMCA|S. purpuratus|LTER|Den","Nine_year","Trend_adjusted_change",0.680302488277254,20,16
+"Naples SMCA|S. purpuratus|LTER|Den","Full","Change",0.194723398786966,22,19
+"Naples SMCA|S. purpuratus|LTER|Den","Full","Post_slope",0.826979576459357,11,9
+"Naples SMCA|S. purpuratus|LTER|Den","Full","BA_post_slope",0.826979576459357,11,9
+"Naples SMCA|S. purpuratus|LTER|Den","Full","Slope_change",0.760108519624823,22,18
+"Naples SMCA|S. purpuratus|LTER|Den","Full","Trend_adjusted_change",0.760108519624823,22,18
+"Naples SMCA|S. purpuratus|LTER|Den","Full_HAC1","Change",0.194723398786966,22,19
+"Naples SMCA|S. purpuratus|LTER|Den","Full_HAC1","Post_slope",0.826979576459357,11,9
+"Naples SMCA|S. purpuratus|LTER|Den","Full_HAC1","BA_post_slope",0.826979576459357,11,9
+"Naples SMCA|S. purpuratus|LTER|Den","Full_HAC1","Slope_change",0.760108519624823,22,18
+"Naples SMCA|S. purpuratus|LTER|Den","Full_HAC1","Trend_adjusted_change",0.760108519624823,22,18
+"Naples SMCA|S. purpuratus|LTER|Den","Full_HAC5","Change",0.194723398786966,22,19
+"Naples SMCA|S. purpuratus|LTER|Den","Full_HAC5","Post_slope",0.826979576459357,11,9
+"Naples SMCA|S. purpuratus|LTER|Den","Full_HAC5","BA_post_slope",0.826979576459357,11,9
+"Naples SMCA|S. purpuratus|LTER|Den","Full_HAC5","Slope_change",0.760108519624823,22,18
+"Naples SMCA|S. purpuratus|LTER|Den","Full_HAC5","Trend_adjusted_change",0.760108519624823,22,18
+"Naples SMCA|S. purpuratus|LTER|Bio","Nine_year","Change",0.202072802427107,18,15
+"Naples SMCA|S. purpuratus|LTER|Bio","Nine_year","Post_slope",0.463882536309952,9,7
+"Naples SMCA|S. purpuratus|LTER|Bio","Nine_year","BA_post_slope",0.463882536309952,9,7
+"Naples SMCA|S. purpuratus|LTER|Bio","Nine_year","Slope_change",1.14363304543864,18,14
+"Naples SMCA|S. purpuratus|LTER|Bio","Nine_year","Trend_adjusted_change",1.14363304543864,18,14
+"Naples SMCA|S. purpuratus|LTER|Bio","Full","Change",0.223182463171219,20,17
+"Naples SMCA|S. purpuratus|LTER|Bio","Full","Post_slope",0.591966282707836,11,9
+"Naples SMCA|S. purpuratus|LTER|Bio","Full","BA_post_slope",0.591966282707836,11,9
+"Naples SMCA|S. purpuratus|LTER|Bio","Full","Slope_change",1.26584718070978,20,16
+"Naples SMCA|S. purpuratus|LTER|Bio","Full","Trend_adjusted_change",1.26584718070978,20,16
+"Naples SMCA|S. purpuratus|LTER|Bio","Full_HAC1","Change",0.223182463171219,20,17
+"Naples SMCA|S. purpuratus|LTER|Bio","Full_HAC1","Post_slope",0.591966282707836,11,9
+"Naples SMCA|S. purpuratus|LTER|Bio","Full_HAC1","BA_post_slope",0.591966282707836,11,9
+"Naples SMCA|S. purpuratus|LTER|Bio","Full_HAC1","Slope_change",1.26584718070978,20,16
+"Naples SMCA|S. purpuratus|LTER|Bio","Full_HAC1","Trend_adjusted_change",1.26584718070978,20,16
+"Naples SMCA|S. purpuratus|LTER|Bio","Full_HAC5","Change",0.223182463171219,20,17
+"Naples SMCA|S. purpuratus|LTER|Bio","Full_HAC5","Post_slope",0.591966282707836,11,9
+"Naples SMCA|S. purpuratus|LTER|Bio","Full_HAC5","BA_post_slope",0.591966282707836,11,9
+"Naples SMCA|S. purpuratus|LTER|Bio","Full_HAC5","Slope_change",1.26584718070978,20,16
+"Naples SMCA|S. purpuratus|LTER|Bio","Full_HAC5","Trend_adjusted_change",1.26584718070978,20,16
+"Matlahuayl SMR|S. purpuratus|PISCO|Bio","Nine_year","Post_slope",2.5,3,1
+"Matlahuayl SMR|S. purpuratus|PISCO|Bio","Nine_year","No_baseline_post_slope",2.5,3,1
+"Matlahuayl SMR|S. purpuratus|PISCO|Bio","Full","Post_slope",0.49716348244009,4,2
+"Matlahuayl SMR|S. purpuratus|PISCO|Bio","Full","No_baseline_post_slope",0.49716348244009,4,2
+"Matlahuayl SMR|S. purpuratus|PISCO|Bio","Full_HAC1","Post_slope",0.49716348244009,4,2
+"Matlahuayl SMR|S. purpuratus|PISCO|Bio","Full_HAC1","No_baseline_post_slope",0.49716348244009,4,2
+"Matlahuayl SMR|S. purpuratus|PISCO|Bio","Full_HAC5","Post_slope",0.49716348244009,4,2
+"Matlahuayl SMR|S. purpuratus|PISCO|Bio","Full_HAC5","No_baseline_post_slope",0.49716348244009,4,2
+"Matlahuayl SMR|M. franciscanus|PISCO|Bio","Nine_year","Post_slope",2.5,3,1
+"Matlahuayl SMR|M. franciscanus|PISCO|Bio","Nine_year","No_baseline_post_slope",2.5,3,1
+"Matlahuayl SMR|M. franciscanus|PISCO|Bio","Full","Post_slope",2.17369871589439,4,2
+"Matlahuayl SMR|M. franciscanus|PISCO|Bio","Full","No_baseline_post_slope",2.17369871589439,4,2
+"Matlahuayl SMR|M. franciscanus|PISCO|Bio","Full_HAC1","Post_slope",2.17369871589439,4,2
+"Matlahuayl SMR|M. franciscanus|PISCO|Bio","Full_HAC1","No_baseline_post_slope",2.17369871589439,4,2
+"Matlahuayl SMR|M. franciscanus|PISCO|Bio","Full_HAC5","Post_slope",2.17369871589439,4,2
+"Matlahuayl SMR|M. franciscanus|PISCO|Bio","Full_HAC5","No_baseline_post_slope",2.17369871589439,4,2
+"Harris Point SMR|P. interruptus|KFM|Den","Full","Change",2.76047189819724,38,35
+"Harris Point SMR|P. interruptus|KFM|Den","Full","Post_slope",1.89289501590668,18,16
+"Harris Point SMR|P. interruptus|KFM|Den","Full","BA_post_slope",1.89289501590668,18,16
+"Harris Point SMR|P. interruptus|KFM|Den","Full","Slope_change",2.01120095440085,38,34
+"Harris Point SMR|P. interruptus|KFM|Den","Full","Trend_adjusted_change",2.01120095440085,38,34
+"Harris Point SMR|P. interruptus|KFM|Den","Full_HAC1","Change",2.76047189819724,38,35
+"Harris Point SMR|P. interruptus|KFM|Den","Full_HAC1","Post_slope",1.89289501590668,18,16
+"Harris Point SMR|P. interruptus|KFM|Den","Full_HAC1","BA_post_slope",1.89289501590668,18,16
+"Harris Point SMR|P. interruptus|KFM|Den","Full_HAC1","Slope_change",2.01120095440085,38,34
+"Harris Point SMR|P. interruptus|KFM|Den","Full_HAC1","Trend_adjusted_change",2.01120095440085,38,34
+"Harris Point SMR|P. interruptus|KFM|Den","Full_HAC5","Change",2.76047189819724,38,35
+"Harris Point SMR|P. interruptus|KFM|Den","Full_HAC5","Post_slope",1.89289501590668,18,16
+"Harris Point SMR|P. interruptus|KFM|Den","Full_HAC5","BA_post_slope",1.89289501590668,18,16
+"Harris Point SMR|P. interruptus|KFM|Den","Full_HAC5","Slope_change",2.01120095440085,38,34
+"Harris Point SMR|P. interruptus|KFM|Den","Full_HAC5","Trend_adjusted_change",2.01120095440085,38,34
+"Harris Point SMR|S. purpuratus|KFM|Den","Nine_year","Change",0.467310898782109,30,27
+"Harris Point SMR|S. purpuratus|KFM|Den","Nine_year","Post_slope",0.576136946663917,9,7
+"Harris Point SMR|S. purpuratus|KFM|Den","Nine_year","BA_post_slope",0.576136946663917,9,7
+"Harris Point SMR|S. purpuratus|KFM|Den","Nine_year","Slope_change",0.558993612208499,30,26
+"Harris Point SMR|S. purpuratus|KFM|Den","Nine_year","Trend_adjusted_change",0.558993612208499,30,26
+"Harris Point SMR|S. purpuratus|KFM|Den","Full","Change",0.239652583275784,39,36
+"Harris Point SMR|S. purpuratus|KFM|Den","Full","Post_slope",0.309791542713343,18,16
+"Harris Point SMR|S. purpuratus|KFM|Den","Full","BA_post_slope",0.309791542713343,18,16
+"Harris Point SMR|S. purpuratus|KFM|Den","Full","Slope_change",0.242804633416387,39,35
+"Harris Point SMR|S. purpuratus|KFM|Den","Full","Trend_adjusted_change",0.242804633416387,39,35
+"Harris Point SMR|S. purpuratus|KFM|Den","Full_HAC1","Change",0.239652583275784,39,36
+"Harris Point SMR|S. purpuratus|KFM|Den","Full_HAC1","Post_slope",0.309791542713343,18,16
+"Harris Point SMR|S. purpuratus|KFM|Den","Full_HAC1","BA_post_slope",0.309791542713343,18,16
+"Harris Point SMR|S. purpuratus|KFM|Den","Full_HAC1","Slope_change",0.242804633416387,39,35
+"Harris Point SMR|S. purpuratus|KFM|Den","Full_HAC1","Trend_adjusted_change",0.242804633416387,39,35
+"Harris Point SMR|S. purpuratus|KFM|Den","Full_HAC5","Change",0.239652583275784,39,36
+"Harris Point SMR|S. purpuratus|KFM|Den","Full_HAC5","Post_slope",0.309791542713343,18,16
+"Harris Point SMR|S. purpuratus|KFM|Den","Full_HAC5","BA_post_slope",0.309791542713343,18,16
+"Harris Point SMR|S. purpuratus|KFM|Den","Full_HAC5","Slope_change",0.242804633416387,39,35
+"Harris Point SMR|S. purpuratus|KFM|Den","Full_HAC5","Trend_adjusted_change",0.242804633416387,39,35
+"Harris Point SMR|S. purpuratus|KFM|Bio","Nine_year","Change",0.388653613537285,26,23
+"Harris Point SMR|S. purpuratus|KFM|Bio","Nine_year","Post_slope",0.437423917831106,9,7
+"Harris Point SMR|S. purpuratus|KFM|Bio","Nine_year","BA_post_slope",0.437423917831106,9,7
+"Harris Point SMR|S. purpuratus|KFM|Bio","Nine_year","Slope_change",0.462802718748571,26,22
+"Harris Point SMR|S. purpuratus|KFM|Bio","Nine_year","Trend_adjusted_change",0.462802718748571,26,22
+"Harris Point SMR|S. purpuratus|KFM|Bio","Full","Change",0.277872272500218,35,32
+"Harris Point SMR|S. purpuratus|KFM|Bio","Full","Post_slope",0.341514826005454,18,16
+"Harris Point SMR|S. purpuratus|KFM|Bio","Full","BA_post_slope",0.341514826005454,18,16
+"Harris Point SMR|S. purpuratus|KFM|Bio","Full","Slope_change",0.27308219189757,35,31
+"Harris Point SMR|S. purpuratus|KFM|Bio","Full","Trend_adjusted_change",0.27308219189757,35,31
+"Harris Point SMR|S. purpuratus|KFM|Bio","Full_HAC1","Change",0.277872272500218,35,32
+"Harris Point SMR|S. purpuratus|KFM|Bio","Full_HAC1","Post_slope",0.341514826005454,18,16
+"Harris Point SMR|S. purpuratus|KFM|Bio","Full_HAC1","BA_post_slope",0.341514826005454,18,16
+"Harris Point SMR|S. purpuratus|KFM|Bio","Full_HAC1","Slope_change",0.27308219189757,35,31
+"Harris Point SMR|S. purpuratus|KFM|Bio","Full_HAC1","Trend_adjusted_change",0.27308219189757,35,31
+"Harris Point SMR|S. purpuratus|KFM|Bio","Full_HAC5","Change",0.277872272500218,35,32
+"Harris Point SMR|S. purpuratus|KFM|Bio","Full_HAC5","Post_slope",0.341514826005454,18,16
+"Harris Point SMR|S. purpuratus|KFM|Bio","Full_HAC5","BA_post_slope",0.341514826005454,18,16
+"Harris Point SMR|S. purpuratus|KFM|Bio","Full_HAC5","Slope_change",0.27308219189757,35,31
+"Harris Point SMR|S. purpuratus|KFM|Bio","Full_HAC5","Trend_adjusted_change",0.27308219189757,35,31
+"Scorpion SMR|S. purpuratus|KFM|Den","Nine_year","Change",0.220598180061417,30,27
+"Scorpion SMR|S. purpuratus|KFM|Den","Nine_year","Post_slope",0.425094883993686,9,7
+"Scorpion SMR|S. purpuratus|KFM|Den","Nine_year","BA_post_slope",0.425094883993686,9,7
+"Scorpion SMR|S. purpuratus|KFM|Den","Nine_year","Slope_change",0.159320909463763,30,26
+"Scorpion SMR|S. purpuratus|KFM|Den","Nine_year","Trend_adjusted_change",0.159320909463763,30,26
+"Scorpion SMR|S. purpuratus|KFM|Den","Full","Change",0.193161963753814,39,36
+"Scorpion SMR|S. purpuratus|KFM|Den","Full","Post_slope",0.423397239929472,18,16
+"Scorpion SMR|S. purpuratus|KFM|Den","Full","BA_post_slope",0.423397239929472,18,16
+"Scorpion SMR|S. purpuratus|KFM|Den","Full","Slope_change",0.140847266502364,39,35
+"Scorpion SMR|S. purpuratus|KFM|Den","Full","Trend_adjusted_change",0.140847266502364,39,35
+"Scorpion SMR|S. purpuratus|KFM|Den","Full_HAC1","Change",0.193161963753814,39,36
+"Scorpion SMR|S. purpuratus|KFM|Den","Full_HAC1","Post_slope",0.423397239929472,18,16
+"Scorpion SMR|S. purpuratus|KFM|Den","Full_HAC1","BA_post_slope",0.423397239929472,18,16
+"Scorpion SMR|S. purpuratus|KFM|Den","Full_HAC1","Slope_change",0.140847266502364,39,35
+"Scorpion SMR|S. purpuratus|KFM|Den","Full_HAC1","Trend_adjusted_change",0.140847266502364,39,35
+"Scorpion SMR|S. purpuratus|KFM|Den","Full_HAC5","Change",0.193161963753814,39,36
+"Scorpion SMR|S. purpuratus|KFM|Den","Full_HAC5","Post_slope",0.423397239929472,18,16
+"Scorpion SMR|S. purpuratus|KFM|Den","Full_HAC5","BA_post_slope",0.423397239929472,18,16
+"Scorpion SMR|S. purpuratus|KFM|Den","Full_HAC5","Slope_change",0.140847266502364,39,35
+"Scorpion SMR|S. purpuratus|KFM|Den","Full_HAC5","Trend_adjusted_change",0.140847266502364,39,35
+"Scorpion SMR|S. purpuratus|KFM|Bio","Nine_year","Change",0.343800363865567,27,24
+"Scorpion SMR|S. purpuratus|KFM|Bio","Nine_year","Post_slope",0.395843644541406,9,7
+"Scorpion SMR|S. purpuratus|KFM|Bio","Nine_year","BA_post_slope",0.395843644541406,9,7
+"Scorpion SMR|S. purpuratus|KFM|Bio","Nine_year","Slope_change",0.341002193830344,27,23
+"Scorpion SMR|S. purpuratus|KFM|Bio","Nine_year","Trend_adjusted_change",0.341002193830344,27,23
+"Scorpion SMR|S. purpuratus|KFM|Bio","Full","Change",0.292522241044309,36,33
+"Scorpion SMR|S. purpuratus|KFM|Bio","Full","Post_slope",0.447370780223917,18,16
+"Scorpion SMR|S. purpuratus|KFM|Bio","Full","BA_post_slope",0.447370780223917,18,16
+"Scorpion SMR|S. purpuratus|KFM|Bio","Full","Slope_change",0.277339398241475,36,32
+"Scorpion SMR|S. purpuratus|KFM|Bio","Full","Trend_adjusted_change",0.277339398241475,36,32
+"Scorpion SMR|S. purpuratus|KFM|Bio","Full_HAC1","Change",0.292522241044309,36,33
+"Scorpion SMR|S. purpuratus|KFM|Bio","Full_HAC1","Post_slope",0.447370780223917,18,16
+"Scorpion SMR|S. purpuratus|KFM|Bio","Full_HAC1","BA_post_slope",0.447370780223917,18,16
+"Scorpion SMR|S. purpuratus|KFM|Bio","Full_HAC1","Slope_change",0.277339398241475,36,32
+"Scorpion SMR|S. purpuratus|KFM|Bio","Full_HAC1","Trend_adjusted_change",0.277339398241475,36,32
+"Scorpion SMR|S. purpuratus|KFM|Bio","Full_HAC5","Change",0.292522241044309,36,33
+"Scorpion SMR|S. purpuratus|KFM|Bio","Full_HAC5","Post_slope",0.447370780223917,18,16
+"Scorpion SMR|S. purpuratus|KFM|Bio","Full_HAC5","BA_post_slope",0.447370780223917,18,16
+"Scorpion SMR|S. purpuratus|KFM|Bio","Full_HAC5","Slope_change",0.277339398241475,36,32
+"Scorpion SMR|S. purpuratus|KFM|Bio","Full_HAC5","Trend_adjusted_change",0.277339398241475,36,32
+"Naples SMCA|S. pulcher|LTER|Den","Nine_year","Change",0.386212231262276,20,17
+"Naples SMCA|S. pulcher|LTER|Den","Nine_year","Post_slope",0.630802500548992,9,7
+"Naples SMCA|S. pulcher|LTER|Den","Nine_year","BA_post_slope",0.630802500548992,9,7
+"Naples SMCA|S. pulcher|LTER|Den","Nine_year","Slope_change",0.429461908259221,20,16
+"Naples SMCA|S. pulcher|LTER|Den","Nine_year","Trend_adjusted_change",0.429461908259221,20,16
+"Naples SMCA|S. pulcher|LTER|Den","Full","Change",0.727289248887572,22,19
+"Naples SMCA|S. pulcher|LTER|Den","Full","Post_slope",0.874694174657954,11,9
+"Naples SMCA|S. pulcher|LTER|Den","Full","BA_post_slope",0.874694174657954,11,9
+"Naples SMCA|S. pulcher|LTER|Den","Full","Slope_change",0.519170008555474,22,18
+"Naples SMCA|S. pulcher|LTER|Den","Full","Trend_adjusted_change",0.519170008555474,22,18
+"Naples SMCA|S. pulcher|LTER|Den","Full_HAC1","Change",0.727289248887572,22,19
+"Naples SMCA|S. pulcher|LTER|Den","Full_HAC1","Post_slope",0.874694174657954,11,9
+"Naples SMCA|S. pulcher|LTER|Den","Full_HAC1","BA_post_slope",0.874694174657954,11,9
+"Naples SMCA|S. pulcher|LTER|Den","Full_HAC1","Slope_change",0.519170008555474,22,18
+"Naples SMCA|S. pulcher|LTER|Den","Full_HAC1","Trend_adjusted_change",0.519170008555474,22,18
+"Naples SMCA|S. pulcher|LTER|Den","Full_HAC5","Change",0.727289248887572,22,19
+"Naples SMCA|S. pulcher|LTER|Den","Full_HAC5","Post_slope",0.874694174657954,11,9
+"Naples SMCA|S. pulcher|LTER|Den","Full_HAC5","BA_post_slope",0.874694174657954,11,9
+"Naples SMCA|S. pulcher|LTER|Den","Full_HAC5","Slope_change",0.519170008555474,22,18
+"Naples SMCA|S. pulcher|LTER|Den","Full_HAC5","Trend_adjusted_change",0.519170008555474,22,18
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Nine_year","Change",0.895399205053169,30,27
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Nine_year","Post_slope",1.73844331603827,9,7
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Nine_year","BA_post_slope",1.73844331603827,9,7
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Nine_year","Slope_change",1.36962494872026,30,26
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Nine_year","Trend_adjusted_change",1.36962494872026,30,26
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Full","Change",0.182862856552027,40,37
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Full","Post_slope",0.240255297018441,19,17
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Full","BA_post_slope",0.240255297018441,19,17
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Full","Slope_change",0.194468201169546,40,36
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Full","Trend_adjusted_change",0.194468201169546,40,36
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Full_HAC1","Change",0.182862856552027,40,37
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Full_HAC1","Post_slope",0.240255297018441,19,17
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Full_HAC1","BA_post_slope",0.240255297018441,19,17
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Full_HAC1","Slope_change",0.194468201169546,40,36
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Full_HAC1","Trend_adjusted_change",0.194468201169546,40,36
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Full_HAC5","Change",0.182862856552027,40,37
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Full_HAC5","Post_slope",0.240255297018441,19,17
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Full_HAC5","BA_post_slope",0.240255297018441,19,17
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Full_HAC5","Slope_change",0.194468201169546,40,36
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Full_HAC5","Trend_adjusted_change",0.194468201169546,40,36
+"Santa Barbara Island SMR|M. franciscanus|KFM|Bio","Nine_year","Post_slope",1.00145589978399,8,6
+"Santa Barbara Island SMR|M. franciscanus|KFM|Bio","Nine_year","No_baseline_post_slope",1.00145589978399,8,6
+"Santa Barbara Island SMR|M. franciscanus|KFM|Bio","Full","Post_slope",0.342091882914231,17,15
+"Santa Barbara Island SMR|M. franciscanus|KFM|Bio","Full","No_baseline_post_slope",0.342091882914231,17,15
+"Santa Barbara Island SMR|M. franciscanus|KFM|Bio","Full_HAC1","Post_slope",0.342091882914231,17,15
+"Santa Barbara Island SMR|M. franciscanus|KFM|Bio","Full_HAC1","No_baseline_post_slope",0.342091882914231,17,15
+"Santa Barbara Island SMR|M. franciscanus|KFM|Bio","Full_HAC5","Post_slope",0.342091882914231,17,15
+"Santa Barbara Island SMR|M. franciscanus|KFM|Bio","Full_HAC5","No_baseline_post_slope",0.342091882914231,17,15
+"Santa Barbara Island SMR|S. purpuratus|KFM|Bio","Nine_year","Post_slope",0.328678020397476,8,6
+"Santa Barbara Island SMR|S. purpuratus|KFM|Bio","Nine_year","No_baseline_post_slope",0.328678020397476,8,6
+"Santa Barbara Island SMR|S. purpuratus|KFM|Bio","Full","Post_slope",0.430396623484653,17,15
+"Santa Barbara Island SMR|S. purpuratus|KFM|Bio","Full","No_baseline_post_slope",0.430396623484653,17,15
+"Santa Barbara Island SMR|S. purpuratus|KFM|Bio","Full_HAC1","Post_slope",0.430396623484653,17,15
+"Santa Barbara Island SMR|S. purpuratus|KFM|Bio","Full_HAC1","No_baseline_post_slope",0.430396623484653,17,15
+"Santa Barbara Island SMR|S. purpuratus|KFM|Bio","Full_HAC5","Post_slope",0.430396623484653,17,15
+"Santa Barbara Island SMR|S. purpuratus|KFM|Bio","Full_HAC5","No_baseline_post_slope",0.430396623484653,17,15
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Nine_year","Change",0.556779889700524,27,24
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Nine_year","Post_slope",1.24758530030211,9,7
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Nine_year","BA_post_slope",1.24758530030211,9,7
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Nine_year","Slope_change",0.659385259932661,27,23
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Nine_year","Trend_adjusted_change",0.659385259932661,27,23
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Full","Change",0.395918500004336,37,34
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Full","Post_slope",0.78401247879666,19,17
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Full","BA_post_slope",0.78401247879666,19,17
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Full","Slope_change",0.413769045279385,37,33
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Full","Trend_adjusted_change",0.413769045279385,37,33
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Full_HAC1","Change",0.395918500004336,37,34
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Full_HAC1","Post_slope",0.78401247879666,19,17
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Full_HAC1","BA_post_slope",0.78401247879666,19,17
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Full_HAC1","Slope_change",0.413769045279385,37,33
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Full_HAC1","Trend_adjusted_change",0.413769045279385,37,33
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Full_HAC5","Change",0.395918500004336,37,34
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Full_HAC5","Post_slope",0.78401247879666,19,17
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Full_HAC5","BA_post_slope",0.78401247879666,19,17
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Full_HAC5","Slope_change",0.413769045279385,37,33
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Full_HAC5","Trend_adjusted_change",0.413769045279385,37,33
+"Anacapa Island SMR 2003|M. pyrifera|KFM|Bio","Nine_year","Post_slope",0.989430214039809,8,6
+"Anacapa Island SMR 2003|M. pyrifera|KFM|Bio","Nine_year","No_baseline_post_slope",0.989430214039809,8,6
+"Anacapa Island SMR 2003|M. pyrifera|KFM|Bio","Full","Post_slope",0.964077382816139,17,15
+"Anacapa Island SMR 2003|M. pyrifera|KFM|Bio","Full","No_baseline_post_slope",0.964077382816139,17,15
+"Anacapa Island SMR 2003|M. pyrifera|KFM|Bio","Full_HAC1","Post_slope",0.964077382816139,17,15
+"Anacapa Island SMR 2003|M. pyrifera|KFM|Bio","Full_HAC1","No_baseline_post_slope",0.964077382816139,17,15
+"Anacapa Island SMR 2003|M. pyrifera|KFM|Bio","Full_HAC5","Post_slope",0.964077382816139,17,15
+"Anacapa Island SMR 2003|M. pyrifera|KFM|Bio","Full_HAC5","No_baseline_post_slope",0.964077382816139,17,15
+"Harris Point SMR|M. pyrifera|KFM|Bio","Nine_year","Change",1.12797015908394,15,12
+"Harris Point SMR|M. pyrifera|KFM|Bio","Nine_year","Post_slope",1.21013646005076,9,7
+"Harris Point SMR|M. pyrifera|KFM|Bio","Nine_year","BA_post_slope",1.21013646005076,9,7
+"Harris Point SMR|M. pyrifera|KFM|Bio","Nine_year","Slope_change",0.840733218980299,15,11
+"Harris Point SMR|M. pyrifera|KFM|Bio","Nine_year","Trend_adjusted_change",0.840733218980299,15,11
+"Harris Point SMR|M. pyrifera|KFM|Bio","Full","Change",0.236227406206953,24,21
+"Harris Point SMR|M. pyrifera|KFM|Bio","Full","Post_slope",0.286225831722756,18,16
+"Harris Point SMR|M. pyrifera|KFM|Bio","Full","BA_post_slope",0.286225831722756,18,16
+"Harris Point SMR|M. pyrifera|KFM|Bio","Full","Slope_change",0.172864865501202,24,20
+"Harris Point SMR|M. pyrifera|KFM|Bio","Full","Trend_adjusted_change",0.172864865501202,24,20
+"Harris Point SMR|M. pyrifera|KFM|Bio","Full_HAC1","Change",0.236227406206953,24,21
+"Harris Point SMR|M. pyrifera|KFM|Bio","Full_HAC1","Post_slope",0.286225831722756,18,16
+"Harris Point SMR|M. pyrifera|KFM|Bio","Full_HAC1","BA_post_slope",0.286225831722756,18,16
+"Harris Point SMR|M. pyrifera|KFM|Bio","Full_HAC1","Slope_change",0.172864865501202,24,20
+"Harris Point SMR|M. pyrifera|KFM|Bio","Full_HAC1","Trend_adjusted_change",0.172864865501202,24,20
+"Harris Point SMR|M. pyrifera|KFM|Bio","Full_HAC5","Change",0.236227406206953,24,21
+"Harris Point SMR|M. pyrifera|KFM|Bio","Full_HAC5","Post_slope",0.286225831722756,18,16
+"Harris Point SMR|M. pyrifera|KFM|Bio","Full_HAC5","BA_post_slope",0.286225831722756,18,16
+"Harris Point SMR|M. pyrifera|KFM|Bio","Full_HAC5","Slope_change",0.172864865501202,24,20
+"Harris Point SMR|M. pyrifera|KFM|Bio","Full_HAC5","Trend_adjusted_change",0.172864865501202,24,20
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Nine_year","Change",1.24848312810254,12,9
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Nine_year","Post_slope",0.756756756756757,9,7
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Nine_year","BA_post_slope",0.756756756756757,9,7
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Nine_year","Slope_change",13.0804036828286,12,8
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Nine_year","Trend_adjusted_change",13.0804036828286,12,8
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Full","Change",0.91276050182817,22,19
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Full","Post_slope",0.208718092563162,19,17
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Full","BA_post_slope",0.208718092563162,19,17
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Full","Slope_change",2.6633520876307,22,18
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Full","Trend_adjusted_change",2.6633520876307,22,18
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Full_HAC1","Change",0.91276050182817,22,19
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Full_HAC1","Post_slope",0.208718092563162,19,17
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Full_HAC1","BA_post_slope",0.208718092563162,19,17
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Full_HAC1","Slope_change",2.6633520876307,22,18
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Full_HAC1","Trend_adjusted_change",2.6633520876307,22,18
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Full_HAC5","Change",0.91276050182817,22,19
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Full_HAC5","Post_slope",0.208718092563162,19,17
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Full_HAC5","BA_post_slope",0.208718092563162,19,17
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Full_HAC5","Slope_change",2.6633520876307,22,18
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Full_HAC5","Trend_adjusted_change",2.6633520876307,22,18
+"Scorpion SMR|M. pyrifera|KFM|Bio","Nine_year","Change",0.292215004478264,14,11
+"Scorpion SMR|M. pyrifera|KFM|Bio","Nine_year","Post_slope",0.239085003664034,8,6
+"Scorpion SMR|M. pyrifera|KFM|Bio","Nine_year","BA_post_slope",0.239085003664034,8,6
+"Scorpion SMR|M. pyrifera|KFM|Bio","Nine_year","Slope_change",0.199237503053362,14,10
+"Scorpion SMR|M. pyrifera|KFM|Bio","Nine_year","Trend_adjusted_change",0.199237503053362,14,10
+"Scorpion SMR|M. pyrifera|KFM|Bio","Full","Change",0.133418442568482,23,20
+"Scorpion SMR|M. pyrifera|KFM|Bio","Full","Post_slope",0.150095747889543,17,15
+"Scorpion SMR|M. pyrifera|KFM|Bio","Full","BA_post_slope",0.150095747889543,17,15
+"Scorpion SMR|M. pyrifera|KFM|Bio","Full","Slope_change",0.0950606403300437,23,19
+"Scorpion SMR|M. pyrifera|KFM|Bio","Full","Trend_adjusted_change",0.0950606403300437,23,19
+"Scorpion SMR|M. pyrifera|KFM|Bio","Full_HAC1","Change",0.133418442568482,23,20
+"Scorpion SMR|M. pyrifera|KFM|Bio","Full_HAC1","Post_slope",0.150095747889543,17,15
+"Scorpion SMR|M. pyrifera|KFM|Bio","Full_HAC1","BA_post_slope",0.150095747889543,17,15
+"Scorpion SMR|M. pyrifera|KFM|Bio","Full_HAC1","Slope_change",0.0950606403300437,23,19
+"Scorpion SMR|M. pyrifera|KFM|Bio","Full_HAC1","Trend_adjusted_change",0.0950606403300437,23,19
+"Scorpion SMR|M. pyrifera|KFM|Bio","Full_HAC5","Change",0.133418442568482,23,20
+"Scorpion SMR|M. pyrifera|KFM|Bio","Full_HAC5","Post_slope",0.150095747889543,17,15
+"Scorpion SMR|M. pyrifera|KFM|Bio","Full_HAC5","BA_post_slope",0.150095747889543,17,15
+"Scorpion SMR|M. pyrifera|KFM|Bio","Full_HAC5","Slope_change",0.0950606403300437,23,19
+"Scorpion SMR|M. pyrifera|KFM|Bio","Full_HAC5","Trend_adjusted_change",0.0950606403300437,23,19
+"South Point SMR|M. pyrifera|KFM|Bio","Nine_year","Post_slope",0.793839251827136,8,6
+"South Point SMR|M. pyrifera|KFM|Bio","Nine_year","No_baseline_post_slope",0.793839251827136,8,6
+"South Point SMR|M. pyrifera|KFM|Bio","Full","Post_slope",0.416000161951803,17,15
+"South Point SMR|M. pyrifera|KFM|Bio","Full","No_baseline_post_slope",0.416000161951803,17,15
+"South Point SMR|M. pyrifera|KFM|Bio","Full_HAC1","Post_slope",0.416000161951803,17,15
+"South Point SMR|M. pyrifera|KFM|Bio","Full_HAC1","No_baseline_post_slope",0.416000161951803,17,15
+"South Point SMR|M. pyrifera|KFM|Bio","Full_HAC5","Post_slope",0.416000161951803,17,15
+"South Point SMR|M. pyrifera|KFM|Bio","Full_HAC5","No_baseline_post_slope",0.416000161951803,17,15
+"Point Dume SMCA|M. franciscanus|PISCO|Den","Full","Post_slope",2.50000000000001,3,1
+"Point Dume SMCA|M. franciscanus|PISCO|Den","Full","No_baseline_post_slope",2.50000000000001,3,1
+"Point Dume SMCA|M. franciscanus|PISCO|Den","Full_HAC1","Post_slope",2.50000000000001,3,1
+"Point Dume SMCA|M. franciscanus|PISCO|Den","Full_HAC1","No_baseline_post_slope",2.50000000000001,3,1
+"Point Dume SMCA|M. franciscanus|PISCO|Den","Full_HAC5","Post_slope",2.50000000000001,3,1
+"Point Dume SMCA|M. franciscanus|PISCO|Den","Full_HAC5","No_baseline_post_slope",2.50000000000001,3,1
+"Point Dume SMCA|M. pyrifera|PISCO|Bio","Full","Post_slope",2.50000000000001,3,1
+"Point Dume SMCA|M. pyrifera|PISCO|Bio","Full","No_baseline_post_slope",2.50000000000001,3,1
+"Point Dume SMCA|M. pyrifera|PISCO|Bio","Full_HAC1","Post_slope",2.50000000000001,3,1
+"Point Dume SMCA|M. pyrifera|PISCO|Bio","Full_HAC1","No_baseline_post_slope",2.50000000000001,3,1
+"Point Dume SMCA|M. pyrifera|PISCO|Bio","Full_HAC5","Post_slope",2.50000000000001,3,1
+"Point Dume SMCA|M. pyrifera|PISCO|Bio","Full_HAC5","No_baseline_post_slope",2.50000000000001,3,1
+"Point Dume SMCA|P. interruptus|PISCO|Den","Full","Post_slope",2.50000000000001,3,1
+"Point Dume SMCA|P. interruptus|PISCO|Den","Full","No_baseline_post_slope",2.50000000000001,3,1
+"Point Dume SMCA|P. interruptus|PISCO|Den","Full_HAC1","Post_slope",2.50000000000001,3,1
+"Point Dume SMCA|P. interruptus|PISCO|Den","Full_HAC1","No_baseline_post_slope",2.50000000000001,3,1
+"Point Dume SMCA|P. interruptus|PISCO|Den","Full_HAC5","Post_slope",2.50000000000001,3,1
+"Point Dume SMCA|P. interruptus|PISCO|Den","Full_HAC5","No_baseline_post_slope",2.50000000000001,3,1
+"Point Dume SMCA|S. pulcher|PISCO|Bio","Nine_year","Post_slope",2.5,3,1
+"Point Dume SMCA|S. pulcher|PISCO|Bio","Nine_year","No_baseline_post_slope",2.5,3,1
+"Point Dume SMCA|S. pulcher|PISCO|Bio","Full","Post_slope",1.14026753894102,5,3
+"Point Dume SMCA|S. pulcher|PISCO|Bio","Full","No_baseline_post_slope",1.14026753894102,5,3
+"Point Dume SMCA|S. pulcher|PISCO|Bio","Full_HAC1","Post_slope",1.14026753894102,5,3
+"Point Dume SMCA|S. pulcher|PISCO|Bio","Full_HAC1","No_baseline_post_slope",1.14026753894102,5,3
+"Point Dume SMCA|S. pulcher|PISCO|Bio","Full_HAC5","Post_slope",1.14026753894102,5,3
+"Point Dume SMCA|S. pulcher|PISCO|Bio","Full_HAC5","No_baseline_post_slope",1.14026753894102,5,3
+"Point Dume SMCA|S. pulcher|PISCO|Den","Nine_year","Post_slope",2.5,3,1
+"Point Dume SMCA|S. pulcher|PISCO|Den","Nine_year","No_baseline_post_slope",2.5,3,1
+"Point Dume SMCA|S. pulcher|PISCO|Den","Full","Post_slope",1.26960824085866,5,3
+"Point Dume SMCA|S. pulcher|PISCO|Den","Full","No_baseline_post_slope",1.26960824085866,5,3
+"Point Dume SMCA|S. pulcher|PISCO|Den","Full_HAC1","Post_slope",1.26960824085866,5,3
+"Point Dume SMCA|S. pulcher|PISCO|Den","Full_HAC1","No_baseline_post_slope",1.26960824085866,5,3
+"Point Dume SMCA|S. pulcher|PISCO|Den","Full_HAC5","Post_slope",1.26960824085866,5,3
+"Point Dume SMCA|S. pulcher|PISCO|Den","Full_HAC5","No_baseline_post_slope",1.26960824085866,5,3
+"Point Dume SMCA|S. purpuratus|PISCO|Den","Full","Post_slope",2.50000000000001,3,1
+"Point Dume SMCA|S. purpuratus|PISCO|Den","Full","No_baseline_post_slope",2.50000000000001,3,1
+"Point Dume SMCA|S. purpuratus|PISCO|Den","Full_HAC1","Post_slope",2.50000000000001,3,1
+"Point Dume SMCA|S. purpuratus|PISCO|Den","Full_HAC1","No_baseline_post_slope",2.50000000000001,3,1
+"Point Dume SMCA|S. purpuratus|PISCO|Den","Full_HAC5","Post_slope",2.50000000000001,3,1
+"Point Dume SMCA|S. purpuratus|PISCO|Den","Full_HAC5","No_baseline_post_slope",2.50000000000001,3,1
+"Point Dume SMR|S. pulcher|PISCO|Bio","Nine_year","Post_slope",2.5,3,1
+"Point Dume SMR|S. pulcher|PISCO|Bio","Nine_year","No_baseline_post_slope",2.5,3,1
+"Point Dume SMR|S. pulcher|PISCO|Bio","Full","Post_slope",1.75873856552113,5,3
+"Point Dume SMR|S. pulcher|PISCO|Bio","Full","No_baseline_post_slope",1.75873856552113,5,3
+"Point Dume SMR|S. pulcher|PISCO|Bio","Full_HAC1","Post_slope",1.75873856552113,5,3
+"Point Dume SMR|S. pulcher|PISCO|Bio","Full_HAC1","No_baseline_post_slope",1.75873856552113,5,3
+"Point Dume SMR|S. pulcher|PISCO|Bio","Full_HAC5","Post_slope",1.75873856552113,5,3
+"Point Dume SMR|S. pulcher|PISCO|Bio","Full_HAC5","No_baseline_post_slope",1.75873856552113,5,3
+"Point Dume SMR|S. pulcher|PISCO|Den","Nine_year","Post_slope",2.5,3,1
+"Point Dume SMR|S. pulcher|PISCO|Den","Nine_year","No_baseline_post_slope",2.5,3,1
+"Point Dume SMR|S. pulcher|PISCO|Den","Full","Post_slope",1.70014356706109,5,3
+"Point Dume SMR|S. pulcher|PISCO|Den","Full","No_baseline_post_slope",1.70014356706109,5,3
+"Point Dume SMR|S. pulcher|PISCO|Den","Full_HAC1","Post_slope",1.70014356706109,5,3
+"Point Dume SMR|S. pulcher|PISCO|Den","Full_HAC1","No_baseline_post_slope",1.70014356706109,5,3
+"Point Dume SMR|S. pulcher|PISCO|Den","Full_HAC5","Post_slope",1.70014356706109,5,3
+"Point Dume SMR|S. pulcher|PISCO|Den","Full_HAC5","No_baseline_post_slope",1.70014356706109,5,3

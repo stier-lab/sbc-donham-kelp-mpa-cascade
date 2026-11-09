@@ -1,0 +1,427 @@
+<!doctype html><meta charset="utf-8"><title>PISCO fish effort audit</title><style>body{font:16px system-ui;margin:30px;max-width:1250px}table{border-collapse:collapse;font-size:13px}td,th{border-bottom:1px solid #ddd;padding:8px;text-align:left}img{max-width:100%}p{max-width:950px}.scroll{overflow:auto}</style><h1>PISCO fish effort audit</h1><p>Review only. Paper and canonical analyses unchanged. Repeat averaging affects fitted recovery at Abalone Cove and Point Vicente; strict MID-only filtering changes INNER-zone coverage across all17 comparisons.</p><p><a href="README.md">Full interpretation and recommendation</a> · <a href="effect_changes.csv">All effect changes</a> · <a href="coverage_changes.csv">Coverage changes</a></p><img src="repeat_recovery.png"><p>Repeat-survey figure: open gray points show the reconstructed annual-sum treatment; teal points show repeat observations averaged within transect and depth zone. Bars are 95% t intervals with calendar-gap HAC3 uncertainty. Identical years, offsets, stations and models are used in each before/after contrast. Only the two PISCO comparisons whose fitted recovery slopes change are shown. Positive values mean an increasing protected/reference ratio, not necessarily an increase inside alone.</p><div class="scroll"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>series_id</th>
+      <th>MPA</th>
+      <th>Resp</th>
+      <th>in_current_manuscript</th>
+      <th>repeat_site_years</th>
+      <th>unequal_level_site_years</th>
+      <th>nonstandard_site_years</th>
+      <th>annual_repeat_changes</th>
+      <th>repeat_changes_fitted_recovery</th>
+      <th>complete_level_changes_fitted_recovery</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Abalone Cove SMCA|S. pulcher|PISCO|Bio</td>
+      <td>Abalone Cove SMCA</td>
+      <td>Bio</td>
+      <td>True</td>
+      <td>4</td>
+      <td>4</td>
+      <td>0</td>
+      <td>2015;2019</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. pulcher|PISCO|Den</td>
+      <td>Abalone Cove SMCA</td>
+      <td>Den</td>
+      <td>True</td>
+      <td>4</td>
+      <td>4</td>
+      <td>0</td>
+      <td>2015;2019</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Anacapa Island SMR 2003|S. pulcher|PISCO|Bio</td>
+      <td>Anacapa Island SMR 2003</td>
+      <td>Bio</td>
+      <td>True</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2</td>
+      <td></td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Anacapa Island SMR 2003|S. pulcher|PISCO|Den</td>
+      <td>Anacapa Island SMR 2003</td>
+      <td>Den</td>
+      <td>True</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2</td>
+      <td></td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio</td>
+      <td>Blue Cavern Onshore SMCA</td>
+      <td>Bio</td>
+      <td>True</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2012</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den</td>
+      <td>Blue Cavern Onshore SMCA</td>
+      <td>Den</td>
+      <td>True</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2012</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Campus Point SMCA|S. pulcher|PISCO|Bio</td>
+      <td>Campus Point SMCA</td>
+      <td>Bio</td>
+      <td>True</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td></td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Campus Point SMCA|S. pulcher|PISCO|Den</td>
+      <td>Campus Point SMCA</td>
+      <td>Den</td>
+      <td>True</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td></td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio</td>
+      <td>Farnsworth Onshore SMCA</td>
+      <td>Bio</td>
+      <td>True</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td></td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Farnsworth Onshore SMCA|S. pulcher|PISCO|Den</td>
+      <td>Farnsworth Onshore SMCA</td>
+      <td>Den</td>
+      <td>True</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td></td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Gull Island SMR|S. pulcher|PISCO|Bio</td>
+      <td>Gull Island SMR</td>
+      <td>Bio</td>
+      <td>True</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td></td>
+      <td>False</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Gull Island SMR|S. pulcher|PISCO|Den</td>
+      <td>Gull Island SMR</td>
+      <td>Den</td>
+      <td>True</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td></td>
+      <td>False</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Harris Point SMR|S. pulcher|PISCO|Bio</td>
+      <td>Harris Point SMR</td>
+      <td>Bio</td>
+      <td>True</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0</td>
+      <td></td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Harris Point SMR|S. pulcher|PISCO|Den</td>
+      <td>Harris Point SMR</td>
+      <td>Den</td>
+      <td>True</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0</td>
+      <td></td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Long Point SMR|S. pulcher|PISCO|Bio</td>
+      <td>Long Point SMR</td>
+      <td>Bio</td>
+      <td>True</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td></td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Long Point SMR|S. pulcher|PISCO|Den</td>
+      <td>Long Point SMR</td>
+      <td>Den</td>
+      <td>True</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td></td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Matlahuayl SMR|S. pulcher|PISCO|Bio</td>
+      <td>Matlahuayl SMR</td>
+      <td>Bio</td>
+      <td>True</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td></td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Matlahuayl SMR|S. pulcher|PISCO|Den</td>
+      <td>Matlahuayl SMR</td>
+      <td>Den</td>
+      <td>True</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td></td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Naples SMCA|S. pulcher|PISCO|Bio</td>
+      <td>Naples SMCA</td>
+      <td>Bio</td>
+      <td>True</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td></td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Naples SMCA|S. pulcher|PISCO|Den</td>
+      <td>Naples SMCA</td>
+      <td>Den</td>
+      <td>True</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td></td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Point Dume SMCA|S. pulcher|PISCO|Bio</td>
+      <td>Point Dume SMCA</td>
+      <td>Bio</td>
+      <td>False</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td></td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Point Dume SMCA|S. pulcher|PISCO|Den</td>
+      <td>Point Dume SMCA</td>
+      <td>Den</td>
+      <td>False</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td></td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Point Dume SMR|S. pulcher|PISCO|Bio</td>
+      <td>Point Dume SMR</td>
+      <td>Bio</td>
+      <td>False</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0</td>
+      <td>2008</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Point Dume SMR|S. pulcher|PISCO|Den</td>
+      <td>Point Dume SMR</td>
+      <td>Den</td>
+      <td>False</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0</td>
+      <td>2008</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|S. pulcher|PISCO|Bio</td>
+      <td>Point Vicente SMCA</td>
+      <td>Bio</td>
+      <td>True</td>
+      <td>2</td>
+      <td>4</td>
+      <td>0</td>
+      <td>2010;2015</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|S. pulcher|PISCO|Den</td>
+      <td>Point Vicente SMCA</td>
+      <td>Den</td>
+      <td>True</td>
+      <td>2</td>
+      <td>4</td>
+      <td>0</td>
+      <td>2010;2015</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Santa Barbara Island SMR|S. pulcher|PISCO|Bio</td>
+      <td>Santa Barbara Island SMR</td>
+      <td>Bio</td>
+      <td>True</td>
+      <td>0</td>
+      <td>2</td>
+      <td>3</td>
+      <td></td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Santa Barbara Island SMR|S. pulcher|PISCO|Den</td>
+      <td>Santa Barbara Island SMR</td>
+      <td>Den</td>
+      <td>True</td>
+      <td>0</td>
+      <td>2</td>
+      <td>3</td>
+      <td></td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Scorpion SMR|S. pulcher|PISCO|Bio</td>
+      <td>Scorpion SMR</td>
+      <td>Bio</td>
+      <td>True</td>
+      <td>0</td>
+      <td>4</td>
+      <td>0</td>
+      <td></td>
+      <td>False</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Scorpion SMR|S. pulcher|PISCO|Den</td>
+      <td>Scorpion SMR</td>
+      <td>Den</td>
+      <td>True</td>
+      <td>0</td>
+      <td>4</td>
+      <td>0</td>
+      <td></td>
+      <td>False</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>South Point SMR|S. pulcher|PISCO|Bio</td>
+      <td>South Point SMR</td>
+      <td>Bio</td>
+      <td>True</td>
+      <td>0</td>
+      <td>2</td>
+      <td>4</td>
+      <td></td>
+      <td>False</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>South Point SMR|S. pulcher|PISCO|Den</td>
+      <td>South Point SMR</td>
+      <td>Den</td>
+      <td>True</td>
+      <td>0</td>
+      <td>2</td>
+      <td>4</td>
+      <td></td>
+      <td>False</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Swamis SMCA|S. pulcher|PISCO|Bio</td>
+      <td>Swamis SMCA</td>
+      <td>Bio</td>
+      <td>True</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td></td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Swamis SMCA|S. pulcher|PISCO|Den</td>
+      <td>Swamis SMCA</td>
+      <td>Den</td>
+      <td>True</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td></td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table></div><h2>Strict MID footprint sensitivity</h2><img src="strict_mid_footprint.png"><p>Strict-MID footprint figure: open gray points retain complete bottom plus MID-or-CNMD units; orange points retain only literal bottom-plus-MID units. Same paired years and station roster, different within-site survey footprint. Connecting lines show the change in point estimates; this is a diagnostic of changing the measurement population, not a test of statistical significance. Individual estimate intervals are in effects.csv. No new significance claim is made from this figure.
+</p>

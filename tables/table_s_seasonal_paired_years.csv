@@ -1,0 +1,2247 @@
+MPA,Taxa,Source,Resp,year,MPA_Start,protected_months,reference_months,n_common_months,same_month_set,date_coverage_complete,minimum_month_gap,protected_mean_month,reference_mean_month,period
+Abalone Cove SMCA,M. franciscanus,PISCO,Bio,2011,2012,8,5;6;7;8,1,FALSE,TRUE,0,8,6.66666666666667,Before
+Abalone Cove SMCA,M. franciscanus,PISCO,Bio,2012,2012,6,5;7,0,FALSE,TRUE,1,6,6.33333333333333,Before
+Abalone Cove SMCA,M. franciscanus,PISCO,Bio,2013,2012,6,6;9;10,1,FALSE,TRUE,0,6,8.33333333333333,After
+Abalone Cove SMCA,M. franciscanus,PISCO,Bio,2014,2012,7,7;9;10,1,FALSE,TRUE,0,7,8.66666666666667,After
+Abalone Cove SMCA,M. franciscanus,PISCO,Bio,2015,2012,9,5;7;10,0,FALSE,TRUE,1,9,8,After
+Abalone Cove SMCA,M. franciscanus,PISCO,Bio,2016,2012,6,5;6;9;10,1,FALSE,TRUE,0,6,6.83333333333333,After
+Abalone Cove SMCA,M. franciscanus,PISCO,Bio,2017,2012,6,9;10,0,FALSE,TRUE,3,6,9.5,After
+Abalone Cove SMCA,M. franciscanus,PISCO,Bio,2018,2012,7,10,0,FALSE,TRUE,3,7,10,After
+Abalone Cove SMCA,M. franciscanus,PISCO,Bio,2019,2012,6,7;8;9;10,0,FALSE,TRUE,1,6,8.83333333333333,After
+Abalone Cove SMCA,M. franciscanus,PISCO,Bio,2020,2012,6,9;10,0,FALSE,TRUE,3,6,9.5,After
+Abalone Cove SMCA,M. franciscanus,PISCO,Bio,2021,2012,6,6;7;10,1,FALSE,TRUE,0,6,7.66666666666667,After
+Abalone Cove SMCA,M. franciscanus,PISCO,Bio,2022,2012,7,6;7;8,1,FALSE,TRUE,0,7,6.75,After
+Abalone Cove SMCA,M. franciscanus,PISCO,Bio,2023,2012,6,6;8;9;10,1,FALSE,TRUE,0,6,8.25,After
+Abalone Cove SMCA,M. franciscanus,PISCO,Den,2011,2012,8,5;6;7;8,1,FALSE,TRUE,0,8,6.66666666666667,Before
+Abalone Cove SMCA,M. franciscanus,PISCO,Den,2012,2012,6,5;7,0,FALSE,TRUE,1,6,6.33333333333333,Before
+Abalone Cove SMCA,M. franciscanus,PISCO,Den,2013,2012,6,6;9;10,1,FALSE,TRUE,0,6,8.33333333333333,After
+Abalone Cove SMCA,M. franciscanus,PISCO,Den,2014,2012,7,7;9;10,1,FALSE,TRUE,0,7,8.66666666666667,After
+Abalone Cove SMCA,M. franciscanus,PISCO,Den,2015,2012,9,5;7;10,0,FALSE,TRUE,1,9,8,After
+Abalone Cove SMCA,M. franciscanus,PISCO,Den,2016,2012,6,5;6;9;10,1,FALSE,TRUE,0,6,6.83333333333333,After
+Abalone Cove SMCA,M. franciscanus,PISCO,Den,2017,2012,6,9;10,0,FALSE,TRUE,3,6,9.5,After
+Abalone Cove SMCA,M. franciscanus,PISCO,Den,2018,2012,7,10,0,FALSE,TRUE,3,7,10,After
+Abalone Cove SMCA,M. franciscanus,PISCO,Den,2019,2012,6,7;8;9;10,0,FALSE,TRUE,1,6,8.83333333333333,After
+Abalone Cove SMCA,M. franciscanus,PISCO,Den,2020,2012,6,9;10,0,FALSE,TRUE,3,6,9.5,After
+Abalone Cove SMCA,M. franciscanus,PISCO,Den,2021,2012,6,6;7;10,1,FALSE,TRUE,0,6,7.66666666666667,After
+Abalone Cove SMCA,M. franciscanus,PISCO,Den,2022,2012,7,6;7;8,1,FALSE,TRUE,0,7,6.75,After
+Abalone Cove SMCA,M. franciscanus,PISCO,Den,2023,2012,6,6;8;9;10,1,FALSE,TRUE,0,6,8.25,After
+Abalone Cove SMCA,M. pyrifera,PISCO,Bio,2011,2012,8,5;6;7;8,1,FALSE,TRUE,0,8,6.66666666666667,Before
+Abalone Cove SMCA,M. pyrifera,PISCO,Bio,2012,2012,6,5;7,0,FALSE,TRUE,1,6,6.33333333333333,Before
+Abalone Cove SMCA,M. pyrifera,PISCO,Bio,2013,2012,6,6;9;10,1,FALSE,TRUE,0,6,8.33333333333333,After
+Abalone Cove SMCA,M. pyrifera,PISCO,Bio,2014,2012,7,7;9;10,1,FALSE,TRUE,0,7,8.66666666666667,After
+Abalone Cove SMCA,M. pyrifera,PISCO,Bio,2015,2012,9,5;7;10,0,FALSE,TRUE,1,9,8,After
+Abalone Cove SMCA,M. pyrifera,PISCO,Bio,2016,2012,6,5;6;9;10,1,FALSE,TRUE,0,6,6.83333333333333,After
+Abalone Cove SMCA,M. pyrifera,PISCO,Bio,2017,2012,6,9;10,0,FALSE,TRUE,3,6,9.5,After
+Abalone Cove SMCA,M. pyrifera,PISCO,Bio,2018,2012,7,10,0,FALSE,TRUE,3,7,10,After
+Abalone Cove SMCA,M. pyrifera,PISCO,Bio,2019,2012,6,7;8;9;10,0,FALSE,TRUE,1,6,8.83333333333333,After
+Abalone Cove SMCA,M. pyrifera,PISCO,Bio,2020,2012,6,9;10,0,FALSE,TRUE,3,6,9.5,After
+Abalone Cove SMCA,M. pyrifera,PISCO,Bio,2021,2012,6,6;7;10,1,FALSE,TRUE,0,6,7.66666666666667,After
+Abalone Cove SMCA,M. pyrifera,PISCO,Bio,2022,2012,7,6;7;8,1,FALSE,TRUE,0,7,6.75,After
+Abalone Cove SMCA,M. pyrifera,PISCO,Bio,2023,2012,6,6;8;9;10,1,FALSE,TRUE,0,6,8.25,After
+Abalone Cove SMCA,P. interruptus,PISCO,Bio,2012,2012,6,5;7,0,FALSE,TRUE,1,6,6.33333333333333,Before
+Abalone Cove SMCA,P. interruptus,PISCO,Bio,2013,2012,6,6;9;10,1,FALSE,TRUE,0,6,8.33333333333333,After
+Abalone Cove SMCA,P. interruptus,PISCO,Bio,2014,2012,7,7;9;10,1,FALSE,TRUE,0,7,8.66666666666667,After
+Abalone Cove SMCA,P. interruptus,PISCO,Bio,2015,2012,9,5;7;10,0,FALSE,TRUE,1,9,8,After
+Abalone Cove SMCA,P. interruptus,PISCO,Bio,2016,2012,6,5;6;9;10,1,FALSE,TRUE,0,6,6.83333333333333,After
+Abalone Cove SMCA,P. interruptus,PISCO,Bio,2017,2012,6,9;10,0,FALSE,TRUE,3,6,9.5,After
+Abalone Cove SMCA,P. interruptus,PISCO,Bio,2018,2012,7,10,0,FALSE,TRUE,3,7,10,After
+Abalone Cove SMCA,P. interruptus,PISCO,Bio,2019,2012,6,7;8;9;10,0,FALSE,TRUE,1,6,8.83333333333333,After
+Abalone Cove SMCA,P. interruptus,PISCO,Bio,2020,2012,6,9;10,0,FALSE,TRUE,3,6,9.5,After
+Abalone Cove SMCA,P. interruptus,PISCO,Bio,2021,2012,6,6;7;10,1,FALSE,TRUE,0,6,7.66666666666667,After
+Abalone Cove SMCA,P. interruptus,PISCO,Bio,2022,2012,7,6;7;8,1,FALSE,TRUE,0,7,6.75,After
+Abalone Cove SMCA,P. interruptus,PISCO,Bio,2023,2012,6,6;8;9;10,1,FALSE,TRUE,0,6,8.25,After
+Abalone Cove SMCA,P. interruptus,PISCO,Den,2011,2012,8,5;6;7;8,1,FALSE,TRUE,0,8,6.66666666666667,Before
+Abalone Cove SMCA,P. interruptus,PISCO,Den,2012,2012,6,5;7,0,FALSE,TRUE,1,6,6.33333333333333,Before
+Abalone Cove SMCA,P. interruptus,PISCO,Den,2013,2012,6,6;9;10,1,FALSE,TRUE,0,6,8.33333333333333,After
+Abalone Cove SMCA,P. interruptus,PISCO,Den,2014,2012,7,7;9;10,1,FALSE,TRUE,0,7,8.66666666666667,After
+Abalone Cove SMCA,P. interruptus,PISCO,Den,2015,2012,9,5;7;10,0,FALSE,TRUE,1,9,8,After
+Abalone Cove SMCA,P. interruptus,PISCO,Den,2016,2012,6,5;6;9;10,1,FALSE,TRUE,0,6,6.83333333333333,After
+Abalone Cove SMCA,P. interruptus,PISCO,Den,2017,2012,6,9;10,0,FALSE,TRUE,3,6,9.5,After
+Abalone Cove SMCA,P. interruptus,PISCO,Den,2018,2012,7,10,0,FALSE,TRUE,3,7,10,After
+Abalone Cove SMCA,P. interruptus,PISCO,Den,2019,2012,6,7;8;9;10,0,FALSE,TRUE,1,6,8.83333333333333,After
+Abalone Cove SMCA,P. interruptus,PISCO,Den,2020,2012,6,9;10,0,FALSE,TRUE,3,6,9.5,After
+Abalone Cove SMCA,P. interruptus,PISCO,Den,2021,2012,6,6;7;10,1,FALSE,TRUE,0,6,7.66666666666667,After
+Abalone Cove SMCA,P. interruptus,PISCO,Den,2022,2012,7,6;7;8,1,FALSE,TRUE,0,7,6.75,After
+Abalone Cove SMCA,P. interruptus,PISCO,Den,2023,2012,6,6;8;9;10,1,FALSE,TRUE,0,6,8.25,After
+Abalone Cove SMCA,S. pulcher,PISCO,Bio,2010,2012,5,4;5,1,FALSE,TRUE,0,5,4.33333333333333,Before
+Abalone Cove SMCA,S. pulcher,PISCO,Bio,2011,2012,8,5;6;7;8,1,FALSE,TRUE,0,8,6.66666666666667,Before
+Abalone Cove SMCA,S. pulcher,PISCO,Bio,2012,2012,6,5;7;9,0,FALSE,TRUE,1,6,7.5,Before
+Abalone Cove SMCA,S. pulcher,PISCO,Bio,2013,2012,6,6;9;10;12,1,FALSE,TRUE,0,6,9.8,After
+Abalone Cove SMCA,S. pulcher,PISCO,Bio,2014,2012,7;12,7;9;10;12,2,FALSE,TRUE,0,9.5,10,After
+Abalone Cove SMCA,S. pulcher,PISCO,Bio,2015,2012,3;9,1;7;10;11,0,FALSE,TRUE,1,6,7.28571428571429,After
+Abalone Cove SMCA,S. pulcher,PISCO,Bio,2016,2012,6,5;6;9;10;12,1,FALSE,TRUE,0,6,7.57142857142857,After
+Abalone Cove SMCA,S. pulcher,PISCO,Bio,2017,2012,6;7,9;10;11;12,0,FALSE,TRUE,2,6.5,10.8,After
+Abalone Cove SMCA,S. pulcher,PISCO,Bio,2018,2012,7,10;11,0,FALSE,TRUE,3,7,10.6666666666667,After
+Abalone Cove SMCA,S. pulcher,PISCO,Bio,2019,2012,6,1;7;8;9;10,0,FALSE,TRUE,1,6,6.875,After
+Abalone Cove SMCA,S. pulcher,PISCO,Bio,2020,2012,6,9;10;11,0,FALSE,TRUE,3,6,10.4,After
+Abalone Cove SMCA,S. pulcher,PISCO,Bio,2021,2012,6,6;7;10;11,1,FALSE,TRUE,0,6,8.77777777777778,After
+Abalone Cove SMCA,S. pulcher,PISCO,Bio,2022,2012,7,6;7;8,1,FALSE,TRUE,0,7,6.75,After
+Abalone Cove SMCA,S. pulcher,PISCO,Bio,2023,2012,6,6;8;9;10;11,1,FALSE,TRUE,0,6,9.16666666666667,After
+Abalone Cove SMCA,S. pulcher,PISCO,Den,2010,2012,5,4;5,1,FALSE,TRUE,0,5,4.33333333333333,Before
+Abalone Cove SMCA,S. pulcher,PISCO,Den,2011,2012,8,5;6;7;8,1,FALSE,TRUE,0,8,6.66666666666667,Before
+Abalone Cove SMCA,S. pulcher,PISCO,Den,2012,2012,6,5;7;9,0,FALSE,TRUE,1,6,7.5,Before
+Abalone Cove SMCA,S. pulcher,PISCO,Den,2013,2012,6,6;9;10;12,1,FALSE,TRUE,0,6,9.8,After
+Abalone Cove SMCA,S. pulcher,PISCO,Den,2014,2012,7;12,7;9;10;12,2,FALSE,TRUE,0,9.5,10,After
+Abalone Cove SMCA,S. pulcher,PISCO,Den,2015,2012,3;9,1;7;10;11,0,FALSE,TRUE,1,6,7.28571428571429,After
+Abalone Cove SMCA,S. pulcher,PISCO,Den,2016,2012,6,5;6;9;10;12,1,FALSE,TRUE,0,6,7.57142857142857,After
+Abalone Cove SMCA,S. pulcher,PISCO,Den,2017,2012,6;7,9;10;11;12,0,FALSE,TRUE,2,6.5,10.8,After
+Abalone Cove SMCA,S. pulcher,PISCO,Den,2018,2012,7,10;11,0,FALSE,TRUE,3,7,10.6666666666667,After
+Abalone Cove SMCA,S. pulcher,PISCO,Den,2019,2012,6,1;7;8;9;10,0,FALSE,TRUE,1,6,6.875,After
+Abalone Cove SMCA,S. pulcher,PISCO,Den,2020,2012,6,9;10;11,0,FALSE,TRUE,3,6,10.4,After
+Abalone Cove SMCA,S. pulcher,PISCO,Den,2021,2012,6,6;7;10;11,1,FALSE,TRUE,0,6,8.77777777777778,After
+Abalone Cove SMCA,S. pulcher,PISCO,Den,2022,2012,7,6;7;8,1,FALSE,TRUE,0,7,6.75,After
+Abalone Cove SMCA,S. pulcher,PISCO,Den,2023,2012,6,6;8;9;10;11,1,FALSE,TRUE,0,6,9.16666666666667,After
+Abalone Cove SMCA,S. purpuratus,PISCO,Bio,2011,2012,8,5;6;7;8,1,FALSE,TRUE,0,8,6.66666666666667,Before
+Abalone Cove SMCA,S. purpuratus,PISCO,Bio,2012,2012,6,5;7,0,FALSE,TRUE,1,6,6.33333333333333,Before
+Abalone Cove SMCA,S. purpuratus,PISCO,Bio,2013,2012,6,6;9;10,1,FALSE,TRUE,0,6,8.33333333333333,After
+Abalone Cove SMCA,S. purpuratus,PISCO,Bio,2014,2012,7,7;9;10,1,FALSE,TRUE,0,7,8.66666666666667,After
+Abalone Cove SMCA,S. purpuratus,PISCO,Bio,2015,2012,9,5;7;10,0,FALSE,TRUE,1,9,8,After
+Abalone Cove SMCA,S. purpuratus,PISCO,Bio,2016,2012,6,5;6;9;10,1,FALSE,TRUE,0,6,6.83333333333333,After
+Abalone Cove SMCA,S. purpuratus,PISCO,Bio,2017,2012,6,9;10,0,FALSE,TRUE,3,6,9.5,After
+Abalone Cove SMCA,S. purpuratus,PISCO,Bio,2018,2012,7,10,0,FALSE,TRUE,3,7,10,After
+Abalone Cove SMCA,S. purpuratus,PISCO,Bio,2019,2012,6,7;8;9;10,0,FALSE,TRUE,1,6,8.83333333333333,After
+Abalone Cove SMCA,S. purpuratus,PISCO,Bio,2020,2012,6,9;10,0,FALSE,TRUE,3,6,9.5,After
+Abalone Cove SMCA,S. purpuratus,PISCO,Bio,2021,2012,6,6;7;10,1,FALSE,TRUE,0,6,7.66666666666667,After
+Abalone Cove SMCA,S. purpuratus,PISCO,Bio,2022,2012,7,6;7;8,1,FALSE,TRUE,0,7,6.75,After
+Abalone Cove SMCA,S. purpuratus,PISCO,Bio,2023,2012,6,6;8;9;10,1,FALSE,TRUE,0,6,8.25,After
+Abalone Cove SMCA,S. purpuratus,PISCO,Den,2011,2012,8,5;6;7;8,1,FALSE,TRUE,0,8,6.66666666666667,Before
+Abalone Cove SMCA,S. purpuratus,PISCO,Den,2012,2012,6,5;7,0,FALSE,TRUE,1,6,6.33333333333333,Before
+Abalone Cove SMCA,S. purpuratus,PISCO,Den,2013,2012,6,6;9;10,1,FALSE,TRUE,0,6,8.33333333333333,After
+Abalone Cove SMCA,S. purpuratus,PISCO,Den,2014,2012,7,7;9;10,1,FALSE,TRUE,0,7,8.66666666666667,After
+Abalone Cove SMCA,S. purpuratus,PISCO,Den,2015,2012,9,5;7;10,0,FALSE,TRUE,1,9,8,After
+Abalone Cove SMCA,S. purpuratus,PISCO,Den,2016,2012,6,5;6;9;10,1,FALSE,TRUE,0,6,6.83333333333333,After
+Abalone Cove SMCA,S. purpuratus,PISCO,Den,2017,2012,6,9;10,0,FALSE,TRUE,3,6,9.5,After
+Abalone Cove SMCA,S. purpuratus,PISCO,Den,2018,2012,7,10,0,FALSE,TRUE,3,7,10,After
+Abalone Cove SMCA,S. purpuratus,PISCO,Den,2019,2012,6,7;8;9;10,0,FALSE,TRUE,1,6,8.83333333333333,After
+Abalone Cove SMCA,S. purpuratus,PISCO,Den,2020,2012,6,9;10,0,FALSE,TRUE,3,6,9.5,After
+Abalone Cove SMCA,S. purpuratus,PISCO,Den,2021,2012,6,6;7;10,1,FALSE,TRUE,0,6,7.66666666666667,After
+Abalone Cove SMCA,S. purpuratus,PISCO,Den,2022,2012,7,6;7;8,1,FALSE,TRUE,0,7,6.75,After
+Abalone Cove SMCA,S. purpuratus,PISCO,Den,2023,2012,6,6;8;9;10,1,FALSE,TRUE,0,6,8.25,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Bio,2005,2003,10,9,0,FALSE,TRUE,1,10,9,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Bio,2006,2003,8,7;8,1,FALSE,TRUE,0,8,7.66666666666667,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Bio,2007,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Bio,2008,2003,7,6;8,0,FALSE,TRUE,1,7,6.66666666666667,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Bio,2009,2003,8,6;7;8,1,FALSE,TRUE,0,8,7,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Bio,2010,2003,8,5;6;8,1,FALSE,TRUE,0,8,6.33333333333333,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Bio,2011,2003,7,5;6,0,FALSE,TRUE,1,7,5.66666666666667,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Bio,2012,2003,8,5;9,0,FALSE,TRUE,1,8,6.33333333333333,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Bio,2013,2003,8,5;8,1,FALSE,TRUE,0,8,7,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Bio,2014,2003,6,5;7;9,0,FALSE,TRUE,1,6,7,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Bio,2015,2003,7,6;7,1,FALSE,TRUE,0,7,6.33333333333333,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Bio,2016,2003,9,6,0,FALSE,TRUE,3,9,6,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Bio,2017,2003,7,5;6;8,0,FALSE,TRUE,1,7,6.33333333333333,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Bio,2018,2003,8,5;8,1,FALSE,TRUE,0,8,6,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Bio,2019,2003,6,8,0,FALSE,TRUE,2,6,8,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Bio,2021,2003,8,7;8,1,FALSE,TRUE,0,8,7.33333333333333,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Bio,2022,2003,8,5;7,0,FALSE,TRUE,1,8,5.66666666666667,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Den,2005,2003,10,9,0,FALSE,TRUE,1,10,9,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Den,2006,2003,8,7;8,1,FALSE,TRUE,0,8,7.66666666666667,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Den,2007,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Den,2008,2003,7,6;8,0,FALSE,TRUE,1,7,6.66666666666667,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Den,2009,2003,8,6;7;8,1,FALSE,TRUE,0,8,7,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Den,2010,2003,8,5;6;8,1,FALSE,TRUE,0,8,6.33333333333333,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Den,2011,2003,7,5;6,0,FALSE,TRUE,1,7,5.66666666666667,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Den,2012,2003,8,5;9,0,FALSE,TRUE,1,8,6.33333333333333,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Den,2013,2003,8,5;8,1,FALSE,TRUE,0,8,7,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Den,2014,2003,6,5;7;9,0,FALSE,TRUE,1,6,7,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Den,2015,2003,7,6;7,1,FALSE,TRUE,0,7,6.33333333333333,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Den,2016,2003,9,6,0,FALSE,TRUE,3,9,6,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Den,2017,2003,7,5;6;8,0,FALSE,TRUE,1,7,6.33333333333333,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Den,2018,2003,8,5;8,1,FALSE,TRUE,0,8,6,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Den,2019,2003,6,8,0,FALSE,TRUE,2,6,8,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Den,2021,2003,8,7;8,1,FALSE,TRUE,0,8,7.33333333333333,After
+Anacapa Island SMR 2003,M. franciscanus,KFM,Den,2022,2003,8,5;7,0,FALSE,TRUE,1,8,5.66666666666667,After
+Anacapa Island SMR 2003,M. franciscanus,PISCO,Den,2007,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Anacapa Island SMR 2003,M. franciscanus,PISCO,Den,2008,2003,7,6,0,FALSE,TRUE,1,7,6,After
+Anacapa Island SMR 2003,M. franciscanus,PISCO,Den,2009,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Anacapa Island SMR 2003,M. franciscanus,PISCO,Den,2010,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Anacapa Island SMR 2003,M. franciscanus,PISCO,Den,2011,2003,6,7,0,FALSE,TRUE,1,6,7,After
+Anacapa Island SMR 2003,M. franciscanus,PISCO,Den,2012,2003,7,7;8,1,FALSE,TRUE,0,7,7.5,After
+Anacapa Island SMR 2003,M. franciscanus,PISCO,Den,2014,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Anacapa Island SMR 2003,M. franciscanus,PISCO,Den,2015,2003,6;7,6;7,2,TRUE,TRUE,0,6.5,6.5,After
+Anacapa Island SMR 2003,M. franciscanus,PISCO,Den,2016,2003,7,7;8,1,FALSE,TRUE,0,7,7.5,After
+Anacapa Island SMR 2003,M. franciscanus,PISCO,Den,2017,2003,7,6;7,1,FALSE,TRUE,0,7,6.4,After
+Anacapa Island SMR 2003,M. franciscanus,PISCO,Den,2018,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Anacapa Island SMR 2003,M. franciscanus,PISCO,Den,2019,2003,6;7;8,7,1,FALSE,TRUE,0,6.66666666666667,7,After
+Anacapa Island SMR 2003,M. franciscanus,PISCO,Den,2020,2003,6,6;7,1,FALSE,TRUE,0,6,6.75,After
+Anacapa Island SMR 2003,M. franciscanus,PISCO,Den,2021,2003,7;8,8,1,FALSE,TRUE,0,7.25,8,After
+Anacapa Island SMR 2003,M. franciscanus,PISCO,Den,2022,2003,6;7,7;8,1,FALSE,TRUE,0,6.33333333333333,7.5,After
+Anacapa Island SMR 2003,M. franciscanus,PISCO,Den,2023,2003,7;8,7;8,2,TRUE,TRUE,0,7.25,7.625,After
+Anacapa Island SMR 2003,M. pyrifera,KFM,Bio,2005,2003,10,9,0,FALSE,TRUE,1,10,9,After
+Anacapa Island SMR 2003,M. pyrifera,KFM,Bio,2006,2003,8,7;8,1,FALSE,TRUE,0,8,7.66666666666667,After
+Anacapa Island SMR 2003,M. pyrifera,KFM,Bio,2007,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Anacapa Island SMR 2003,M. pyrifera,KFM,Bio,2008,2003,7,6;8,0,FALSE,TRUE,1,7,6.66666666666667,After
+Anacapa Island SMR 2003,M. pyrifera,KFM,Bio,2009,2003,8,6;7;8,1,FALSE,TRUE,0,8,7,After
+Anacapa Island SMR 2003,M. pyrifera,KFM,Bio,2010,2003,8,5;6;8,1,FALSE,TRUE,0,8,6.33333333333333,After
+Anacapa Island SMR 2003,M. pyrifera,KFM,Bio,2011,2003,7,5;6,0,FALSE,TRUE,1,7,5.66666666666667,After
+Anacapa Island SMR 2003,M. pyrifera,KFM,Bio,2012,2003,8,5;9,0,FALSE,TRUE,1,8,6.33333333333333,After
+Anacapa Island SMR 2003,M. pyrifera,KFM,Bio,2013,2003,8,5;8,1,FALSE,TRUE,0,8,7,After
+Anacapa Island SMR 2003,M. pyrifera,KFM,Bio,2014,2003,6,5;7;9,0,FALSE,TRUE,1,6,7,After
+Anacapa Island SMR 2003,M. pyrifera,KFM,Bio,2015,2003,7,6;7,1,FALSE,TRUE,0,7,6.33333333333333,After
+Anacapa Island SMR 2003,M. pyrifera,KFM,Bio,2016,2003,9,6,0,FALSE,TRUE,3,9,6,After
+Anacapa Island SMR 2003,M. pyrifera,KFM,Bio,2017,2003,7,5;6;8,0,FALSE,TRUE,1,7,6.33333333333333,After
+Anacapa Island SMR 2003,M. pyrifera,KFM,Bio,2018,2003,8,5;8,1,FALSE,TRUE,0,8,6,After
+Anacapa Island SMR 2003,M. pyrifera,KFM,Bio,2019,2003,6,8,0,FALSE,TRUE,2,6,8,After
+Anacapa Island SMR 2003,M. pyrifera,KFM,Bio,2021,2003,8,7;8,1,FALSE,TRUE,0,8,7.33333333333333,After
+Anacapa Island SMR 2003,M. pyrifera,KFM,Bio,2022,2003,8,5;6;7,0,FALSE,TRUE,1,8,5.75,After
+Anacapa Island SMR 2003,M. pyrifera,PISCO,Bio,2007,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Anacapa Island SMR 2003,M. pyrifera,PISCO,Bio,2008,2003,7,6,0,FALSE,TRUE,1,7,6,After
+Anacapa Island SMR 2003,M. pyrifera,PISCO,Bio,2009,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Anacapa Island SMR 2003,M. pyrifera,PISCO,Bio,2010,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Anacapa Island SMR 2003,M. pyrifera,PISCO,Bio,2011,2003,6,7,0,FALSE,TRUE,1,6,7,After
+Anacapa Island SMR 2003,M. pyrifera,PISCO,Bio,2012,2003,7,7;8,1,FALSE,TRUE,0,7,7.5,After
+Anacapa Island SMR 2003,M. pyrifera,PISCO,Bio,2014,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Anacapa Island SMR 2003,M. pyrifera,PISCO,Bio,2015,2003,6;7,6;7,2,TRUE,TRUE,0,6.5,6.5,After
+Anacapa Island SMR 2003,M. pyrifera,PISCO,Bio,2016,2003,7,7;8,1,FALSE,TRUE,0,7,7.5,After
+Anacapa Island SMR 2003,M. pyrifera,PISCO,Bio,2017,2003,7,6;7,1,FALSE,TRUE,0,7,6.4,After
+Anacapa Island SMR 2003,M. pyrifera,PISCO,Bio,2018,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Anacapa Island SMR 2003,M. pyrifera,PISCO,Bio,2019,2003,6;7;8,7,1,FALSE,TRUE,0,6.66666666666667,7,After
+Anacapa Island SMR 2003,M. pyrifera,PISCO,Bio,2020,2003,6,6;7,1,FALSE,TRUE,0,6,6.75,After
+Anacapa Island SMR 2003,M. pyrifera,PISCO,Bio,2021,2003,7;8,8,1,FALSE,TRUE,0,7.25,8,After
+Anacapa Island SMR 2003,M. pyrifera,PISCO,Bio,2022,2003,6;7,7;8,1,FALSE,TRUE,0,6.33333333333333,7.5,After
+Anacapa Island SMR 2003,M. pyrifera,PISCO,Bio,2023,2003,7;8,7;8,2,TRUE,TRUE,0,7.25,7.625,After
+Anacapa Island SMR 2003,P. interruptus,KFM,Den,2005,2003,10,9,0,FALSE,TRUE,1,10,9,After
+Anacapa Island SMR 2003,P. interruptus,KFM,Den,2006,2003,8,7;8,1,FALSE,TRUE,0,8,7.66666666666667,After
+Anacapa Island SMR 2003,P. interruptus,KFM,Den,2007,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Anacapa Island SMR 2003,P. interruptus,KFM,Den,2008,2003,7,6;8,0,FALSE,TRUE,1,7,6.66666666666667,After
+Anacapa Island SMR 2003,P. interruptus,KFM,Den,2009,2003,8,6;7;8,1,FALSE,TRUE,0,8,7,After
+Anacapa Island SMR 2003,P. interruptus,KFM,Den,2010,2003,8,5;6;8,1,FALSE,TRUE,0,8,6.33333333333333,After
+Anacapa Island SMR 2003,P. interruptus,KFM,Den,2011,2003,7,5;6,0,FALSE,TRUE,1,7,5.66666666666667,After
+Anacapa Island SMR 2003,P. interruptus,KFM,Den,2012,2003,8,5;9,0,FALSE,TRUE,1,8,6.33333333333333,After
+Anacapa Island SMR 2003,P. interruptus,KFM,Den,2013,2003,8,5;8,1,FALSE,TRUE,0,8,7,After
+Anacapa Island SMR 2003,P. interruptus,KFM,Den,2014,2003,6,5;7;9,0,FALSE,TRUE,1,6,7,After
+Anacapa Island SMR 2003,P. interruptus,KFM,Den,2015,2003,7,6;7,1,FALSE,TRUE,0,7,6.33333333333333,After
+Anacapa Island SMR 2003,P. interruptus,KFM,Den,2016,2003,9,6,0,FALSE,TRUE,3,9,6,After
+Anacapa Island SMR 2003,P. interruptus,KFM,Den,2017,2003,7,5;6;8,0,FALSE,TRUE,1,7,6.33333333333333,After
+Anacapa Island SMR 2003,P. interruptus,KFM,Den,2018,2003,8,5;8,1,FALSE,TRUE,0,8,6,After
+Anacapa Island SMR 2003,P. interruptus,KFM,Den,2019,2003,6,8,0,FALSE,TRUE,2,6,8,After
+Anacapa Island SMR 2003,P. interruptus,KFM,Den,2021,2003,8,7;8,1,FALSE,TRUE,0,8,7.33333333333333,After
+Anacapa Island SMR 2003,P. interruptus,KFM,Den,2022,2003,8,5;7,0,FALSE,TRUE,1,8,5.66666666666667,After
+Anacapa Island SMR 2003,P. interruptus,PISCO,Den,2007,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Anacapa Island SMR 2003,P. interruptus,PISCO,Den,2008,2003,7,6,0,FALSE,TRUE,1,7,6,After
+Anacapa Island SMR 2003,P. interruptus,PISCO,Den,2009,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Anacapa Island SMR 2003,P. interruptus,PISCO,Den,2010,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Anacapa Island SMR 2003,P. interruptus,PISCO,Den,2011,2003,6,7,0,FALSE,TRUE,1,6,7,After
+Anacapa Island SMR 2003,P. interruptus,PISCO,Den,2012,2003,7,7;8,1,FALSE,TRUE,0,7,7.5,After
+Anacapa Island SMR 2003,P. interruptus,PISCO,Den,2014,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Anacapa Island SMR 2003,P. interruptus,PISCO,Den,2015,2003,6;7,6;7,2,TRUE,TRUE,0,6.5,6.5,After
+Anacapa Island SMR 2003,P. interruptus,PISCO,Den,2016,2003,7,7;8,1,FALSE,TRUE,0,7,7.5,After
+Anacapa Island SMR 2003,P. interruptus,PISCO,Den,2017,2003,7,6;7,1,FALSE,TRUE,0,7,6.4,After
+Anacapa Island SMR 2003,P. interruptus,PISCO,Den,2018,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Anacapa Island SMR 2003,P. interruptus,PISCO,Den,2019,2003,6;7;8,7,1,FALSE,TRUE,0,6.66666666666667,7,After
+Anacapa Island SMR 2003,P. interruptus,PISCO,Den,2020,2003,6,6;7,1,FALSE,TRUE,0,6,6.75,After
+Anacapa Island SMR 2003,P. interruptus,PISCO,Den,2021,2003,7;8,8,1,FALSE,TRUE,0,7.25,8,After
+Anacapa Island SMR 2003,P. interruptus,PISCO,Den,2022,2003,6;7,7;8,1,FALSE,TRUE,0,6.33333333333333,7.5,After
+Anacapa Island SMR 2003,P. interruptus,PISCO,Den,2023,2003,7;8,7;8,2,TRUE,TRUE,0,7.25,7.625,After
+Anacapa Island SMR 2003,S. pulcher,KFM,Den,2005,2003,10,8;9,0,FALSE,TRUE,1,10,8.66666666666667,After
+Anacapa Island SMR 2003,S. pulcher,KFM,Den,2006,2003,6;8,7;8;9,1,FALSE,TRUE,0,7,8,After
+Anacapa Island SMR 2003,S. pulcher,KFM,Den,2007,2003,8,7;8;9,1,FALSE,TRUE,0,8,8.16666666666667,After
+Anacapa Island SMR 2003,S. pulcher,KFM,Den,2008,2003,7,6;8,0,FALSE,TRUE,1,7,6.66666666666667,After
+Anacapa Island SMR 2003,S. pulcher,KFM,Den,2009,2003,7,6;7;8,1,FALSE,TRUE,0,7,7,After
+Anacapa Island SMR 2003,S. pulcher,KFM,Den,2010,2003,7,5;6;7,1,FALSE,TRUE,0,7,6,After
+Anacapa Island SMR 2003,S. pulcher,KFM,Den,2011,2003,7,5;7;10,1,FALSE,TRUE,0,7,7.33333333333333,After
+Anacapa Island SMR 2003,S. pulcher,KFM,Den,2012,2003,8,5;6;9,0,FALSE,TRUE,1,8,6.25,After
+Anacapa Island SMR 2003,S. pulcher,KFM,Den,2013,2003,8,5;7,0,FALSE,TRUE,1,8,5.66666666666667,After
+Anacapa Island SMR 2003,S. pulcher,KFM,Den,2014,2003,6;9,5;6;7;9,2,FALSE,TRUE,0,7.5,6.75,After
+Anacapa Island SMR 2003,S. pulcher,KFM,Den,2015,2003,7,6;7;9;10,1,FALSE,TRUE,0,7,7.83333333333333,After
+Anacapa Island SMR 2003,S. pulcher,KFM,Den,2016,2003,7,6;10,0,FALSE,TRUE,1,7,7.33333333333333,After
+Anacapa Island SMR 2003,S. pulcher,KFM,Den,2017,2003,7,5;6;8,0,FALSE,TRUE,1,7,6.33333333333333,After
+Anacapa Island SMR 2003,S. pulcher,KFM,Den,2018,2003,8,5;8,1,FALSE,TRUE,0,8,6,After
+Anacapa Island SMR 2003,S. pulcher,KFM,Den,2019,2003,8,7;8;9,1,FALSE,TRUE,0,8,8,After
+Anacapa Island SMR 2003,S. pulcher,KFM,Den,2021,2003,8,7;8,1,FALSE,TRUE,0,8,7.33333333333333,After
+Anacapa Island SMR 2003,S. pulcher,KFM,Den,2022,2003,6,5;6,1,FALSE,TRUE,0,6,5.33333333333333,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Bio,2004,2003,8;9,11,0,FALSE,TRUE,2,8.66666666666667,11,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Bio,2005,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Bio,2006,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Bio,2007,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Bio,2008,2003,9;10,8;10,1,FALSE,TRUE,0,9.33333333333333,8.33333333333333,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Bio,2009,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Bio,2010,2003,8,10,0,FALSE,TRUE,2,8,10,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Bio,2011,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Bio,2012,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Bio,2014,2003,9,9;10,1,FALSE,TRUE,0,9,9.6,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Bio,2015,2003,8,8;12,1,FALSE,TRUE,0,8,9.33333333333333,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Bio,2016,2003,8;9,8;10,1,FALSE,TRUE,0,8.33333333333333,9.5,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Bio,2017,2003,7;8,8,1,FALSE,TRUE,0,7.66666666666667,8,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Bio,2018,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Bio,2019,2003,8;9,11,0,FALSE,TRUE,2,8.33333333333333,11,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Bio,2020,2003,6,7,0,FALSE,TRUE,1,6,7,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Bio,2021,2003,9,10;12,0,FALSE,TRUE,1,9,11,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Bio,2022,2003,8;9,10;11,0,FALSE,TRUE,1,8.66666666666667,10.2857142857143,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Bio,2023,2003,8,8;10,1,FALSE,TRUE,0,8,9,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Den,2004,2003,8;9,11,0,FALSE,TRUE,2,8.66666666666667,11,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Den,2005,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Den,2006,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Den,2007,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Den,2008,2003,9;10,8;10,1,FALSE,TRUE,0,9.33333333333333,8.33333333333333,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Den,2009,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Den,2010,2003,8,10,0,FALSE,TRUE,2,8,10,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Den,2011,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Den,2012,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Den,2014,2003,9,9;10,1,FALSE,TRUE,0,9,9.6,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Den,2015,2003,8,8;12,1,FALSE,TRUE,0,8,9.33333333333333,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Den,2016,2003,8;9,8;10,1,FALSE,TRUE,0,8.33333333333333,9.5,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Den,2017,2003,7;8,8,1,FALSE,TRUE,0,7.66666666666667,8,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Den,2018,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Den,2019,2003,8;9,11,0,FALSE,TRUE,2,8.33333333333333,11,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Den,2020,2003,6,7,0,FALSE,TRUE,1,6,7,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Den,2021,2003,9,10;12,0,FALSE,TRUE,1,9,11,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Den,2022,2003,8;9,10;11,0,FALSE,TRUE,1,8.66666666666667,10.2857142857143,After
+Anacapa Island SMR 2003,S. pulcher,PISCO,Den,2023,2003,8,8;10,1,FALSE,TRUE,0,8,9,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Bio,2005,2003,10,9,0,FALSE,TRUE,1,10,9,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Bio,2006,2003,8,7;8,1,FALSE,TRUE,0,8,7.66666666666667,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Bio,2007,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Bio,2008,2003,7,6;8,0,FALSE,TRUE,1,7,6.66666666666667,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Bio,2009,2003,8,6;7;8,1,FALSE,TRUE,0,8,7,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Bio,2010,2003,8,5;6;8,1,FALSE,TRUE,0,8,6.33333333333333,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Bio,2011,2003,7,5;6,0,FALSE,TRUE,1,7,5.66666666666667,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Bio,2012,2003,8,5;9,0,FALSE,TRUE,1,8,6.33333333333333,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Bio,2013,2003,8,5;8,1,FALSE,TRUE,0,8,7,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Bio,2014,2003,6,5;7;9,0,FALSE,TRUE,1,6,7,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Bio,2015,2003,7,6;7,1,FALSE,TRUE,0,7,6.33333333333333,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Bio,2016,2003,9,6,0,FALSE,TRUE,3,9,6,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Bio,2017,2003,7,5;6;8,0,FALSE,TRUE,1,7,6.33333333333333,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Bio,2018,2003,8,5;8,1,FALSE,TRUE,0,8,6,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Bio,2019,2003,6,8,0,FALSE,TRUE,2,6,8,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Bio,2021,2003,8,7;8,1,FALSE,TRUE,0,8,7.33333333333333,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Bio,2022,2003,8,5;7,0,FALSE,TRUE,1,8,5.66666666666667,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Den,2005,2003,10,9,0,FALSE,TRUE,1,10,9,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Den,2006,2003,8,7;8,1,FALSE,TRUE,0,8,7.66666666666667,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Den,2007,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Den,2008,2003,7,6;8,0,FALSE,TRUE,1,7,6.66666666666667,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Den,2009,2003,8,6;7;8,1,FALSE,TRUE,0,8,7,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Den,2010,2003,8,5;6;8,1,FALSE,TRUE,0,8,6.33333333333333,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Den,2011,2003,7,5;6,0,FALSE,TRUE,1,7,5.66666666666667,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Den,2012,2003,8,5;9,0,FALSE,TRUE,1,8,6.33333333333333,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Den,2013,2003,8,5;8,1,FALSE,TRUE,0,8,7,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Den,2014,2003,6,5;7;9,0,FALSE,TRUE,1,6,7,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Den,2015,2003,7,6;7,1,FALSE,TRUE,0,7,6.33333333333333,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Den,2016,2003,9,6,0,FALSE,TRUE,3,9,6,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Den,2017,2003,7,5;6;8,0,FALSE,TRUE,1,7,6.33333333333333,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Den,2018,2003,8,5;8,1,FALSE,TRUE,0,8,6,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Den,2019,2003,6,8,0,FALSE,TRUE,2,6,8,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Den,2021,2003,8,7;8,1,FALSE,TRUE,0,8,7.33333333333333,After
+Anacapa Island SMR 2003,S. purpuratus,KFM,Den,2022,2003,8,5;7,0,FALSE,TRUE,1,8,5.66666666666667,After
+Anacapa Island SMR 2003,S. purpuratus,PISCO,Den,2007,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Anacapa Island SMR 2003,S. purpuratus,PISCO,Den,2008,2003,7,6,0,FALSE,TRUE,1,7,6,After
+Anacapa Island SMR 2003,S. purpuratus,PISCO,Den,2009,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Anacapa Island SMR 2003,S. purpuratus,PISCO,Den,2010,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Anacapa Island SMR 2003,S. purpuratus,PISCO,Den,2011,2003,6,7,0,FALSE,TRUE,1,6,7,After
+Anacapa Island SMR 2003,S. purpuratus,PISCO,Den,2012,2003,7,7;8,1,FALSE,TRUE,0,7,7.5,After
+Anacapa Island SMR 2003,S. purpuratus,PISCO,Den,2014,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Anacapa Island SMR 2003,S. purpuratus,PISCO,Den,2015,2003,6;7,6;7,2,TRUE,TRUE,0,6.5,6.5,After
+Anacapa Island SMR 2003,S. purpuratus,PISCO,Den,2016,2003,7,7;8,1,FALSE,TRUE,0,7,7.5,After
+Anacapa Island SMR 2003,S. purpuratus,PISCO,Den,2017,2003,7,6;7,1,FALSE,TRUE,0,7,6.4,After
+Anacapa Island SMR 2003,S. purpuratus,PISCO,Den,2018,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Anacapa Island SMR 2003,S. purpuratus,PISCO,Den,2019,2003,6;7;8,7,1,FALSE,TRUE,0,6.66666666666667,7,After
+Anacapa Island SMR 2003,S. purpuratus,PISCO,Den,2020,2003,6,6;7,1,FALSE,TRUE,0,6,6.75,After
+Anacapa Island SMR 2003,S. purpuratus,PISCO,Den,2021,2003,7;8,8,1,FALSE,TRUE,0,7.25,8,After
+Anacapa Island SMR 2003,S. purpuratus,PISCO,Den,2022,2003,6;7,7;8,1,FALSE,TRUE,0,6.33333333333333,7.5,After
+Anacapa Island SMR 2003,S. purpuratus,PISCO,Den,2023,2003,7;8,7;8,2,TRUE,TRUE,0,7.25,7.625,After
+Blue Cavern Onshore SMCA,S. pulcher,PISCO,Bio,2011,2012,7,9,0,FALSE,TRUE,2,7,9,Before
+Blue Cavern Onshore SMCA,S. pulcher,PISCO,Bio,2012,2012,1;9;10,9,1,FALSE,TRUE,0,6.66666666666667,9,Before
+Blue Cavern Onshore SMCA,S. pulcher,PISCO,Bio,2016,2012,12,11,0,FALSE,TRUE,1,12,11,After
+Blue Cavern Onshore SMCA,S. pulcher,PISCO,Bio,2019,2012,11,11,1,TRUE,TRUE,0,11,11,After
+Blue Cavern Onshore SMCA,S. pulcher,PISCO,Bio,2020,2012,11,10,0,FALSE,TRUE,1,11,10,After
+Blue Cavern Onshore SMCA,S. pulcher,PISCO,Bio,2021,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Blue Cavern Onshore SMCA,S. pulcher,PISCO,Bio,2022,2012,12,10,0,FALSE,TRUE,2,12,10,After
+Blue Cavern Onshore SMCA,S. pulcher,PISCO,Bio,2023,2012,8;9,8,1,FALSE,TRUE,0,8.5,8,After
+Blue Cavern Onshore SMCA,S. pulcher,PISCO,Den,2011,2012,7,9,0,FALSE,TRUE,2,7,9,Before
+Blue Cavern Onshore SMCA,S. pulcher,PISCO,Den,2012,2012,1;9;10,9,1,FALSE,TRUE,0,6.66666666666667,9,Before
+Blue Cavern Onshore SMCA,S. pulcher,PISCO,Den,2016,2012,12,11,0,FALSE,TRUE,1,12,11,After
+Blue Cavern Onshore SMCA,S. pulcher,PISCO,Den,2019,2012,11,11,1,TRUE,TRUE,0,11,11,After
+Blue Cavern Onshore SMCA,S. pulcher,PISCO,Den,2020,2012,11,10,0,FALSE,TRUE,1,11,10,After
+Blue Cavern Onshore SMCA,S. pulcher,PISCO,Den,2021,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Blue Cavern Onshore SMCA,S. pulcher,PISCO,Den,2022,2012,12,10,0,FALSE,TRUE,2,12,10,After
+Blue Cavern Onshore SMCA,S. pulcher,PISCO,Den,2023,2012,8;9,8,1,FALSE,TRUE,0,8.5,8,After
+Campus Point SMCA,M. franciscanus,PISCO,Bio,2011,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,M. franciscanus,PISCO,Bio,2012,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,M. franciscanus,PISCO,Bio,2013,2012,8;9,7;9,1,FALSE,TRUE,0,8.5,8,After
+Campus Point SMCA,M. franciscanus,PISCO,Bio,2014,2012,7,8,0,FALSE,TRUE,1,7,8,After
+Campus Point SMCA,M. franciscanus,PISCO,Bio,2015,2012,6,7;10,0,FALSE,TRUE,1,6,8,After
+Campus Point SMCA,M. franciscanus,PISCO,Bio,2016,2012,8,7,0,FALSE,TRUE,1,8,7,After
+Campus Point SMCA,M. franciscanus,PISCO,Bio,2017,2012,7;8,7,1,FALSE,TRUE,0,7.5,7,After
+Campus Point SMCA,M. franciscanus,PISCO,Bio,2018,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,M. franciscanus,PISCO,Bio,2019,2012,7,8,0,FALSE,TRUE,1,7,8,After
+Campus Point SMCA,M. franciscanus,PISCO,Bio,2021,2012,7;8,8,1,FALSE,TRUE,0,7.5,8,After
+Campus Point SMCA,M. franciscanus,PISCO,Bio,2022,2012,7,7;8,1,FALSE,TRUE,0,7,7.33333333333333,After
+Campus Point SMCA,M. franciscanus,PISCO,Bio,2023,2012,6;7;8,7,1,FALSE,TRUE,0,7,7,After
+Campus Point SMCA,M. franciscanus,PISCO,Den,2010,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,M. franciscanus,PISCO,Den,2011,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,M. franciscanus,PISCO,Den,2012,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,M. franciscanus,PISCO,Den,2013,2012,8;9,7;9,1,FALSE,TRUE,0,8.5,8,After
+Campus Point SMCA,M. franciscanus,PISCO,Den,2014,2012,7,8,0,FALSE,TRUE,1,7,8,After
+Campus Point SMCA,M. franciscanus,PISCO,Den,2015,2012,6,7;10,0,FALSE,TRUE,1,6,8,After
+Campus Point SMCA,M. franciscanus,PISCO,Den,2016,2012,8,7,0,FALSE,TRUE,1,8,7,After
+Campus Point SMCA,M. franciscanus,PISCO,Den,2017,2012,7;8,7,1,FALSE,TRUE,0,7.5,7,After
+Campus Point SMCA,M. franciscanus,PISCO,Den,2018,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,M. franciscanus,PISCO,Den,2019,2012,7,8,0,FALSE,TRUE,1,7,8,After
+Campus Point SMCA,M. franciscanus,PISCO,Den,2020,2012,7,7;8,1,FALSE,TRUE,0,7,7.5,After
+Campus Point SMCA,M. franciscanus,PISCO,Den,2021,2012,7;8,8,1,FALSE,TRUE,0,7.5,8,After
+Campus Point SMCA,M. franciscanus,PISCO,Den,2022,2012,7,7;8,1,FALSE,TRUE,0,7,7.33333333333333,After
+Campus Point SMCA,M. franciscanus,PISCO,Den,2023,2012,6;7;8,7,1,FALSE,TRUE,0,7,7,After
+Campus Point SMCA,M. pyrifera,LTER,Bio,2001,2012,8,8,1,TRUE,TRUE,0,8,8,Before
+Campus Point SMCA,M. pyrifera,LTER,Bio,2002,2012,8,8,1,TRUE,TRUE,0,8,8,Before
+Campus Point SMCA,M. pyrifera,LTER,Bio,2003,2012,8,8,1,TRUE,TRUE,0,8,8,Before
+Campus Point SMCA,M. pyrifera,LTER,Bio,2004,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,M. pyrifera,LTER,Bio,2005,2012,7,7;8,1,FALSE,TRUE,0,7,7.33333333333333,Before
+Campus Point SMCA,M. pyrifera,LTER,Bio,2006,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,M. pyrifera,LTER,Bio,2007,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,M. pyrifera,LTER,Bio,2008,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,M. pyrifera,LTER,Bio,2009,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,M. pyrifera,LTER,Bio,2010,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,M. pyrifera,LTER,Bio,2011,2012,7;10,7,1,FALSE,TRUE,0,8.5,7,Before
+Campus Point SMCA,M. pyrifera,LTER,Bio,2012,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,M. pyrifera,LTER,Bio,2013,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,M. pyrifera,LTER,Bio,2014,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,M. pyrifera,LTER,Bio,2015,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,M. pyrifera,LTER,Bio,2016,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,M. pyrifera,LTER,Bio,2017,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,M. pyrifera,LTER,Bio,2018,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,M. pyrifera,LTER,Bio,2019,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,M. pyrifera,LTER,Bio,2020,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,M. pyrifera,LTER,Bio,2021,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,M. pyrifera,LTER,Bio,2022,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,M. pyrifera,LTER,Bio,2023,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,M. pyrifera,PISCO,Bio,2010,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,M. pyrifera,PISCO,Bio,2011,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,M. pyrifera,PISCO,Bio,2012,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,M. pyrifera,PISCO,Bio,2013,2012,8;9,7;9,1,FALSE,TRUE,0,8.5,8,After
+Campus Point SMCA,M. pyrifera,PISCO,Bio,2014,2012,7,8,0,FALSE,TRUE,1,7,8,After
+Campus Point SMCA,M. pyrifera,PISCO,Bio,2015,2012,6,7;10,0,FALSE,TRUE,1,6,8,After
+Campus Point SMCA,M. pyrifera,PISCO,Bio,2016,2012,8,7,0,FALSE,TRUE,1,8,7,After
+Campus Point SMCA,M. pyrifera,PISCO,Bio,2017,2012,7;8,7,1,FALSE,TRUE,0,7.5,7,After
+Campus Point SMCA,M. pyrifera,PISCO,Bio,2018,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,M. pyrifera,PISCO,Bio,2019,2012,7,8,0,FALSE,TRUE,1,7,8,After
+Campus Point SMCA,M. pyrifera,PISCO,Bio,2020,2012,7,7;8,1,FALSE,TRUE,0,7,7.5,After
+Campus Point SMCA,M. pyrifera,PISCO,Bio,2021,2012,7;8,8,1,FALSE,TRUE,0,7.5,8,After
+Campus Point SMCA,M. pyrifera,PISCO,Bio,2022,2012,7,7;8,1,FALSE,TRUE,0,7,7.33333333333333,After
+Campus Point SMCA,M. pyrifera,PISCO,Bio,2023,2012,6;7;8,7,1,FALSE,TRUE,0,7,7,After
+Campus Point SMCA,P. interruptus,LTER,Bio,2012,2012,8,8,1,TRUE,TRUE,0,8,8,Before
+Campus Point SMCA,P. interruptus,LTER,Bio,2013,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,P. interruptus,LTER,Bio,2014,2012,8;9,8,1,FALSE,TRUE,0,8.5,8,After
+Campus Point SMCA,P. interruptus,LTER,Bio,2015,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,P. interruptus,LTER,Bio,2016,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,P. interruptus,LTER,Bio,2017,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,P. interruptus,LTER,Bio,2018,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,P. interruptus,LTER,Bio,2019,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,P. interruptus,LTER,Bio,2020,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,P. interruptus,LTER,Bio,2021,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,P. interruptus,LTER,Bio,2022,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,P. interruptus,LTER,Bio,2023,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,P. interruptus,LTER,Den,2012,2012,8,8,1,TRUE,TRUE,0,8,8,Before
+Campus Point SMCA,P. interruptus,LTER,Den,2013,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,P. interruptus,LTER,Den,2014,2012,8;9,8,1,FALSE,TRUE,0,8.5,8,After
+Campus Point SMCA,P. interruptus,LTER,Den,2015,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,P. interruptus,LTER,Den,2016,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,P. interruptus,LTER,Den,2017,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,P. interruptus,LTER,Den,2018,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,P. interruptus,LTER,Den,2019,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,P. interruptus,LTER,Den,2020,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,P. interruptus,LTER,Den,2021,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,P. interruptus,LTER,Den,2022,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,P. interruptus,LTER,Den,2023,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,P. interruptus,PISCO,Den,2010,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,P. interruptus,PISCO,Den,2011,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,P. interruptus,PISCO,Den,2012,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,P. interruptus,PISCO,Den,2013,2012,8;9,7;9,1,FALSE,TRUE,0,8.5,8,After
+Campus Point SMCA,P. interruptus,PISCO,Den,2014,2012,7,8,0,FALSE,TRUE,1,7,8,After
+Campus Point SMCA,P. interruptus,PISCO,Den,2015,2012,6,7;10,0,FALSE,TRUE,1,6,8,After
+Campus Point SMCA,P. interruptus,PISCO,Den,2016,2012,8,7,0,FALSE,TRUE,1,8,7,After
+Campus Point SMCA,P. interruptus,PISCO,Den,2017,2012,7;8,7,1,FALSE,TRUE,0,7.5,7,After
+Campus Point SMCA,P. interruptus,PISCO,Den,2018,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,P. interruptus,PISCO,Den,2019,2012,7,8,0,FALSE,TRUE,1,7,8,After
+Campus Point SMCA,P. interruptus,PISCO,Den,2020,2012,7,7;8,1,FALSE,TRUE,0,7,7.5,After
+Campus Point SMCA,P. interruptus,PISCO,Den,2021,2012,7;8,8,1,FALSE,TRUE,0,7.5,8,After
+Campus Point SMCA,P. interruptus,PISCO,Den,2022,2012,7,7;8,1,FALSE,TRUE,0,7,7.33333333333333,After
+Campus Point SMCA,P. interruptus,PISCO,Den,2023,2012,6;7;8,7,1,FALSE,TRUE,0,7,7,After
+Campus Point SMCA,S. pulcher,LTER,Bio,2001,2012,8,8,1,TRUE,TRUE,0,8,8,Before
+Campus Point SMCA,S. pulcher,LTER,Bio,2002,2012,8,8,1,TRUE,TRUE,0,8,8,Before
+Campus Point SMCA,S. pulcher,LTER,Bio,2003,2012,8,8,1,TRUE,TRUE,0,8,8,Before
+Campus Point SMCA,S. pulcher,LTER,Bio,2005,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,S. pulcher,LTER,Bio,2006,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,S. pulcher,LTER,Bio,2007,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,S. pulcher,LTER,Bio,2008,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,S. pulcher,LTER,Bio,2009,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,S. pulcher,LTER,Bio,2010,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,S. pulcher,LTER,Bio,2011,2012,7;10,7,1,FALSE,TRUE,0,8.5,7,Before
+Campus Point SMCA,S. pulcher,LTER,Bio,2012,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,S. pulcher,LTER,Bio,2013,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,S. pulcher,LTER,Bio,2014,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,S. pulcher,LTER,Bio,2015,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,S. pulcher,LTER,Bio,2016,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,S. pulcher,LTER,Bio,2017,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,S. pulcher,LTER,Bio,2018,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,S. pulcher,LTER,Bio,2019,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,S. pulcher,LTER,Bio,2020,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,S. pulcher,LTER,Bio,2021,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,S. pulcher,LTER,Bio,2022,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,S. pulcher,LTER,Bio,2023,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,S. pulcher,LTER,Den,2001,2012,8,8,1,TRUE,TRUE,0,8,8,Before
+Campus Point SMCA,S. pulcher,LTER,Den,2002,2012,8,8,1,TRUE,TRUE,0,8,8,Before
+Campus Point SMCA,S. pulcher,LTER,Den,2003,2012,8,8,1,TRUE,TRUE,0,8,8,Before
+Campus Point SMCA,S. pulcher,LTER,Den,2005,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,S. pulcher,LTER,Den,2006,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,S. pulcher,LTER,Den,2007,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,S. pulcher,LTER,Den,2008,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,S. pulcher,LTER,Den,2009,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,S. pulcher,LTER,Den,2010,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,S. pulcher,LTER,Den,2011,2012,7;10,7,1,FALSE,TRUE,0,8.5,7,Before
+Campus Point SMCA,S. pulcher,LTER,Den,2012,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,S. pulcher,LTER,Den,2013,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,S. pulcher,LTER,Den,2014,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,S. pulcher,LTER,Den,2015,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,S. pulcher,LTER,Den,2016,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,S. pulcher,LTER,Den,2017,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,S. pulcher,LTER,Den,2018,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,S. pulcher,LTER,Den,2019,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,S. pulcher,LTER,Den,2020,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,S. pulcher,LTER,Den,2021,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,S. pulcher,LTER,Den,2022,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,S. pulcher,LTER,Den,2023,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,S. pulcher,PISCO,Bio,2009,2012,9,10,0,FALSE,TRUE,1,9,10,Before
+Campus Point SMCA,S. pulcher,PISCO,Bio,2010,2012,9,9,1,TRUE,TRUE,0,9,9,Before
+Campus Point SMCA,S. pulcher,PISCO,Bio,2011,2012,9;10;11,10;11,2,FALSE,TRUE,0,10,10.3333333333333,Before
+Campus Point SMCA,S. pulcher,PISCO,Bio,2012,2012,9,11,0,FALSE,TRUE,2,9,11,Before
+Campus Point SMCA,S. pulcher,PISCO,Bio,2013,2012,8;9,7,0,FALSE,TRUE,1,8.5,7,After
+Campus Point SMCA,S. pulcher,PISCO,Bio,2016,2012,10,10;11,1,FALSE,TRUE,0,10,10.5,After
+Campus Point SMCA,S. pulcher,PISCO,Bio,2017,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,S. pulcher,PISCO,Bio,2018,2012,8,10,0,FALSE,TRUE,2,8,10,After
+Campus Point SMCA,S. pulcher,PISCO,Bio,2019,2012,8,9,0,FALSE,TRUE,1,8,9,After
+Campus Point SMCA,S. pulcher,PISCO,Bio,2020,2012,7;8,7;8;9,2,FALSE,TRUE,0,7.66666666666667,8,After
+Campus Point SMCA,S. pulcher,PISCO,Bio,2021,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,S. pulcher,PISCO,Bio,2022,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,S. pulcher,PISCO,Bio,2023,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,S. pulcher,PISCO,Den,2009,2012,9,10,0,FALSE,TRUE,1,9,10,Before
+Campus Point SMCA,S. pulcher,PISCO,Den,2010,2012,9,9,1,TRUE,TRUE,0,9,9,Before
+Campus Point SMCA,S. pulcher,PISCO,Den,2011,2012,9;10;11,10;11,2,FALSE,TRUE,0,10,10.3333333333333,Before
+Campus Point SMCA,S. pulcher,PISCO,Den,2012,2012,9,11,0,FALSE,TRUE,2,9,11,Before
+Campus Point SMCA,S. pulcher,PISCO,Den,2013,2012,8;9,7,0,FALSE,TRUE,1,8.5,7,After
+Campus Point SMCA,S. pulcher,PISCO,Den,2016,2012,10,10;11,1,FALSE,TRUE,0,10,10.5,After
+Campus Point SMCA,S. pulcher,PISCO,Den,2017,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,S. pulcher,PISCO,Den,2018,2012,8,10,0,FALSE,TRUE,2,8,10,After
+Campus Point SMCA,S. pulcher,PISCO,Den,2019,2012,8,9,0,FALSE,TRUE,1,8,9,After
+Campus Point SMCA,S. pulcher,PISCO,Den,2020,2012,7;8,7;8;9,2,FALSE,TRUE,0,7.66666666666667,8,After
+Campus Point SMCA,S. pulcher,PISCO,Den,2021,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,S. pulcher,PISCO,Den,2022,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,S. pulcher,PISCO,Den,2023,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Campus Point SMCA,S. purpuratus,PISCO,Bio,2011,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,S. purpuratus,PISCO,Bio,2012,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,S. purpuratus,PISCO,Bio,2013,2012,8;9,7;9,1,FALSE,TRUE,0,8.5,8,After
+Campus Point SMCA,S. purpuratus,PISCO,Bio,2014,2012,7,8,0,FALSE,TRUE,1,7,8,After
+Campus Point SMCA,S. purpuratus,PISCO,Bio,2015,2012,6,7;10,0,FALSE,TRUE,1,6,8,After
+Campus Point SMCA,S. purpuratus,PISCO,Bio,2016,2012,8,7,0,FALSE,TRUE,1,8,7,After
+Campus Point SMCA,S. purpuratus,PISCO,Bio,2017,2012,7;8,7,1,FALSE,TRUE,0,7.5,7,After
+Campus Point SMCA,S. purpuratus,PISCO,Bio,2018,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,S. purpuratus,PISCO,Bio,2019,2012,7,8,0,FALSE,TRUE,1,7,8,After
+Campus Point SMCA,S. purpuratus,PISCO,Bio,2020,2012,7,7;8,1,FALSE,TRUE,0,7,7.5,After
+Campus Point SMCA,S. purpuratus,PISCO,Bio,2021,2012,7;8,8,1,FALSE,TRUE,0,7.5,8,After
+Campus Point SMCA,S. purpuratus,PISCO,Bio,2022,2012,7,7;8,1,FALSE,TRUE,0,7,7.33333333333333,After
+Campus Point SMCA,S. purpuratus,PISCO,Bio,2023,2012,6;7;8,7,1,FALSE,TRUE,0,7,7,After
+Campus Point SMCA,S. purpuratus,PISCO,Den,2010,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,S. purpuratus,PISCO,Den,2011,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,S. purpuratus,PISCO,Den,2012,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Campus Point SMCA,S. purpuratus,PISCO,Den,2013,2012,8;9,7;9,1,FALSE,TRUE,0,8.5,8,After
+Campus Point SMCA,S. purpuratus,PISCO,Den,2014,2012,7,8,0,FALSE,TRUE,1,7,8,After
+Campus Point SMCA,S. purpuratus,PISCO,Den,2015,2012,6,7;10,0,FALSE,TRUE,1,6,8,After
+Campus Point SMCA,S. purpuratus,PISCO,Den,2016,2012,8,7,0,FALSE,TRUE,1,8,7,After
+Campus Point SMCA,S. purpuratus,PISCO,Den,2017,2012,7;8,7,1,FALSE,TRUE,0,7.5,7,After
+Campus Point SMCA,S. purpuratus,PISCO,Den,2018,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Campus Point SMCA,S. purpuratus,PISCO,Den,2019,2012,7,8,0,FALSE,TRUE,1,7,8,After
+Campus Point SMCA,S. purpuratus,PISCO,Den,2020,2012,7,7;8,1,FALSE,TRUE,0,7,7.5,After
+Campus Point SMCA,S. purpuratus,PISCO,Den,2021,2012,7;8,8,1,FALSE,TRUE,0,7.5,8,After
+Campus Point SMCA,S. purpuratus,PISCO,Den,2022,2012,7,7;8,1,FALSE,TRUE,0,7,7.33333333333333,After
+Campus Point SMCA,S. purpuratus,PISCO,Den,2023,2012,6;7;8,7,1,FALSE,TRUE,0,7,7,After
+Farnsworth Onshore SMCA,S. pulcher,PISCO,Bio,2011,2012,9,11,0,FALSE,TRUE,2,9,11,Before
+Farnsworth Onshore SMCA,S. pulcher,PISCO,Bio,2012,2012,11,11,1,TRUE,TRUE,0,11,11,Before
+Farnsworth Onshore SMCA,S. pulcher,PISCO,Bio,2019,2012,12,12,1,TRUE,TRUE,0,12,12,After
+Farnsworth Onshore SMCA,S. pulcher,PISCO,Bio,2021,2012,9,9,1,TRUE,TRUE,0,9,9,After
+Farnsworth Onshore SMCA,S. pulcher,PISCO,Bio,2022,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Farnsworth Onshore SMCA,S. pulcher,PISCO,Bio,2023,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Farnsworth Onshore SMCA,S. pulcher,PISCO,Den,2011,2012,9,11,0,FALSE,TRUE,2,9,11,Before
+Farnsworth Onshore SMCA,S. pulcher,PISCO,Den,2012,2012,11,11,1,TRUE,TRUE,0,11,11,Before
+Farnsworth Onshore SMCA,S. pulcher,PISCO,Den,2019,2012,12,12,1,TRUE,TRUE,0,12,12,After
+Farnsworth Onshore SMCA,S. pulcher,PISCO,Den,2021,2012,9,9,1,TRUE,TRUE,0,9,9,After
+Farnsworth Onshore SMCA,S. pulcher,PISCO,Den,2022,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Farnsworth Onshore SMCA,S. pulcher,PISCO,Den,2023,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Gull Island SMR,M. franciscanus,KFM,Bio,1986,2003,8,9,0,FALSE,TRUE,1,8,9,Before
+Gull Island SMR,M. franciscanus,KFM,Bio,1987,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Gull Island SMR,M. franciscanus,KFM,Bio,1988,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Gull Island SMR,M. franciscanus,KFM,Bio,1989,2003,8,10,0,FALSE,TRUE,2,8,10,Before
+Gull Island SMR,M. franciscanus,KFM,Bio,1990,2003,8,9,0,FALSE,TRUE,1,8,9,Before
+Gull Island SMR,M. franciscanus,KFM,Bio,1991,2003,9,8,0,FALSE,TRUE,1,9,8,Before
+Gull Island SMR,M. franciscanus,KFM,Bio,1992,2003,8,10,0,FALSE,TRUE,2,8,10,Before
+Gull Island SMR,M. franciscanus,KFM,Bio,1993,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Gull Island SMR,M. franciscanus,KFM,Bio,1994,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Gull Island SMR,M. franciscanus,KFM,Bio,1995,2003,6,7,0,FALSE,TRUE,1,6,7,Before
+Gull Island SMR,M. franciscanus,KFM,Bio,1996,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Gull Island SMR,M. franciscanus,KFM,Bio,1997,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Gull Island SMR,M. franciscanus,KFM,Bio,1998,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Gull Island SMR,M. franciscanus,KFM,Bio,1999,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Gull Island SMR,M. franciscanus,KFM,Bio,2000,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Gull Island SMR,M. franciscanus,KFM,Bio,2001,2003,7,6,0,FALSE,TRUE,1,7,6,Before
+Gull Island SMR,M. franciscanus,KFM,Bio,2002,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Gull Island SMR,M. franciscanus,KFM,Bio,2003,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Gull Island SMR,M. franciscanus,KFM,Bio,2004,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Gull Island SMR,M. franciscanus,KFM,Bio,2005,2003,6,8,0,FALSE,TRUE,2,6,8,After
+Gull Island SMR,M. franciscanus,KFM,Bio,2006,2003,7,8,0,FALSE,TRUE,1,7,8,After
+Gull Island SMR,M. franciscanus,KFM,Bio,2007,2003,7,6,0,FALSE,TRUE,1,7,6,After
+Gull Island SMR,M. franciscanus,KFM,Bio,2008,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Gull Island SMR,M. franciscanus,KFM,Bio,2009,2003,6,10,0,FALSE,TRUE,4,6,10,After
+Gull Island SMR,M. franciscanus,KFM,Bio,2010,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Gull Island SMR,M. franciscanus,KFM,Bio,2011,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Gull Island SMR,M. franciscanus,KFM,Bio,2012,2003,6,9,0,FALSE,TRUE,3,6,9,After
+Gull Island SMR,M. franciscanus,KFM,Bio,2013,2003,6,8,0,FALSE,TRUE,2,6,8,After
+Gull Island SMR,M. franciscanus,KFM,Bio,2014,2003,7,9,0,FALSE,TRUE,2,7,9,After
+Gull Island SMR,M. franciscanus,KFM,Bio,2015,2003,6,9,0,FALSE,TRUE,3,6,9,After
+Gull Island SMR,M. franciscanus,KFM,Bio,2016,2003,7,9,0,FALSE,TRUE,2,7,9,After
+Gull Island SMR,M. franciscanus,KFM,Bio,2017,2003,6,8,0,FALSE,TRUE,2,6,8,After
+Gull Island SMR,M. franciscanus,KFM,Bio,2018,2003,7,9,0,FALSE,TRUE,2,7,9,After
+Gull Island SMR,M. franciscanus,KFM,Bio,2019,2003,7,9,0,FALSE,TRUE,2,7,9,After
+Gull Island SMR,M. franciscanus,KFM,Bio,2021,2003,9,7,0,FALSE,TRUE,2,9,7,After
+Gull Island SMR,M. franciscanus,KFM,Bio,2022,2003,9,8,0,FALSE,TRUE,1,9,8,After
+Gull Island SMR,M. franciscanus,KFM,Den,1986,2003,8,9,0,FALSE,TRUE,1,8,9,Before
+Gull Island SMR,M. franciscanus,KFM,Den,1987,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Gull Island SMR,M. franciscanus,KFM,Den,1988,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Gull Island SMR,M. franciscanus,KFM,Den,1989,2003,8,10,0,FALSE,TRUE,2,8,10,Before
+Gull Island SMR,M. franciscanus,KFM,Den,1990,2003,8,9,0,FALSE,TRUE,1,8,9,Before
+Gull Island SMR,M. franciscanus,KFM,Den,1991,2003,9,8,0,FALSE,TRUE,1,9,8,Before
+Gull Island SMR,M. franciscanus,KFM,Den,1992,2003,8,10,0,FALSE,TRUE,2,8,10,Before
+Gull Island SMR,M. franciscanus,KFM,Den,1993,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Gull Island SMR,M. franciscanus,KFM,Den,1994,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Gull Island SMR,M. franciscanus,KFM,Den,1995,2003,6,7,0,FALSE,TRUE,1,6,7,Before
+Gull Island SMR,M. franciscanus,KFM,Den,1996,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Gull Island SMR,M. franciscanus,KFM,Den,1997,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Gull Island SMR,M. franciscanus,KFM,Den,1998,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Gull Island SMR,M. franciscanus,KFM,Den,1999,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Gull Island SMR,M. franciscanus,KFM,Den,2000,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Gull Island SMR,M. franciscanus,KFM,Den,2001,2003,7,6,0,FALSE,TRUE,1,7,6,Before
+Gull Island SMR,M. franciscanus,KFM,Den,2002,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Gull Island SMR,M. franciscanus,KFM,Den,2003,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Gull Island SMR,M. franciscanus,KFM,Den,2004,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Gull Island SMR,M. franciscanus,KFM,Den,2005,2003,6,8,0,FALSE,TRUE,2,6,8,After
+Gull Island SMR,M. franciscanus,KFM,Den,2006,2003,7,8,0,FALSE,TRUE,1,7,8,After
+Gull Island SMR,M. franciscanus,KFM,Den,2007,2003,7,6,0,FALSE,TRUE,1,7,6,After
+Gull Island SMR,M. franciscanus,KFM,Den,2008,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Gull Island SMR,M. franciscanus,KFM,Den,2009,2003,6,10,0,FALSE,TRUE,4,6,10,After
+Gull Island SMR,M. franciscanus,KFM,Den,2010,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Gull Island SMR,M. franciscanus,KFM,Den,2011,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Gull Island SMR,M. franciscanus,KFM,Den,2012,2003,6,9,0,FALSE,TRUE,3,6,9,After
+Gull Island SMR,M. franciscanus,KFM,Den,2013,2003,6,8,0,FALSE,TRUE,2,6,8,After
+Gull Island SMR,M. franciscanus,KFM,Den,2014,2003,7,9,0,FALSE,TRUE,2,7,9,After
+Gull Island SMR,M. franciscanus,KFM,Den,2015,2003,6,9,0,FALSE,TRUE,3,6,9,After
+Gull Island SMR,M. franciscanus,KFM,Den,2016,2003,7,9,0,FALSE,TRUE,2,7,9,After
+Gull Island SMR,M. franciscanus,KFM,Den,2017,2003,6,8,0,FALSE,TRUE,2,6,8,After
+Gull Island SMR,M. franciscanus,KFM,Den,2018,2003,7,9,0,FALSE,TRUE,2,7,9,After
+Gull Island SMR,M. franciscanus,KFM,Den,2019,2003,7,9,0,FALSE,TRUE,2,7,9,After
+Gull Island SMR,M. franciscanus,KFM,Den,2021,2003,9,7,0,FALSE,TRUE,2,9,7,After
+Gull Island SMR,M. franciscanus,KFM,Den,2022,2003,9,8,0,FALSE,TRUE,1,9,8,After
+Gull Island SMR,M. franciscanus,PISCO,Bio,2004,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Gull Island SMR,M. franciscanus,PISCO,Bio,2005,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Gull Island SMR,M. franciscanus,PISCO,Bio,2006,2003,8,7,0,FALSE,TRUE,1,8,7,After
+Gull Island SMR,M. franciscanus,PISCO,Bio,2007,2003,7;10,7,1,FALSE,TRUE,0,8,7,After
+Gull Island SMR,M. franciscanus,PISCO,Bio,2008,2003,8,7,0,FALSE,TRUE,1,8,7,After
+Gull Island SMR,M. franciscanus,PISCO,Bio,2009,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Gull Island SMR,M. franciscanus,PISCO,Bio,2010,2003,7;8,7,1,FALSE,TRUE,0,7.5,7,After
+Gull Island SMR,M. franciscanus,PISCO,Bio,2011,2003,9;10,7,0,FALSE,TRUE,2,9.33333333333333,7,After
+Gull Island SMR,M. franciscanus,PISCO,Bio,2012,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Gull Island SMR,M. franciscanus,PISCO,Bio,2014,2003,7;9,7,1,FALSE,TRUE,0,8.33333333333333,7,After
+Gull Island SMR,M. franciscanus,PISCO,Bio,2015,2003,7;10,7,1,FALSE,TRUE,0,8,7,After
+Gull Island SMR,M. franciscanus,PISCO,Bio,2017,2003,10,9;10,1,FALSE,TRUE,0,10,9.5,After
+Gull Island SMR,M. franciscanus,PISCO,Bio,2018,2003,8;9;10,9,1,FALSE,TRUE,0,9,9,After
+Gull Island SMR,M. franciscanus,PISCO,Bio,2019,2003,9;10,7;10,1,FALSE,TRUE,0,9.66666666666667,8,After
+Gull Island SMR,M. franciscanus,PISCO,Bio,2021,2003,7,7;10,1,FALSE,TRUE,0,7,8.5,After
+Gull Island SMR,M. franciscanus,PISCO,Den,2004,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Gull Island SMR,M. franciscanus,PISCO,Den,2005,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Gull Island SMR,M. franciscanus,PISCO,Den,2006,2003,8,7,0,FALSE,TRUE,1,8,7,After
+Gull Island SMR,M. franciscanus,PISCO,Den,2007,2003,7;10,7,1,FALSE,TRUE,0,8,7,After
+Gull Island SMR,M. franciscanus,PISCO,Den,2008,2003,8,7,0,FALSE,TRUE,1,8,7,After
+Gull Island SMR,M. franciscanus,PISCO,Den,2009,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Gull Island SMR,M. franciscanus,PISCO,Den,2010,2003,7;8,7,1,FALSE,TRUE,0,7.5,7,After
+Gull Island SMR,M. franciscanus,PISCO,Den,2011,2003,9;10,7,0,FALSE,TRUE,2,9.33333333333333,7,After
+Gull Island SMR,M. franciscanus,PISCO,Den,2012,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Gull Island SMR,M. franciscanus,PISCO,Den,2014,2003,7;9,7,1,FALSE,TRUE,0,8.33333333333333,7,After
+Gull Island SMR,M. franciscanus,PISCO,Den,2015,2003,7;10,7,1,FALSE,TRUE,0,8,7,After
+Gull Island SMR,M. franciscanus,PISCO,Den,2017,2003,10,9;10,1,FALSE,TRUE,0,10,9.5,After
+Gull Island SMR,M. franciscanus,PISCO,Den,2018,2003,8;9;10,9,1,FALSE,TRUE,0,9,9,After
+Gull Island SMR,M. franciscanus,PISCO,Den,2019,2003,9;10,7;10,1,FALSE,TRUE,0,9.66666666666667,8,After
+Gull Island SMR,M. franciscanus,PISCO,Den,2021,2003,7,7;10,1,FALSE,TRUE,0,7,8.5,After
+Gull Island SMR,M. franciscanus,PISCO,Den,2023,2003,8;10,8,1,FALSE,TRUE,0,8.66666666666667,8,After
+Gull Island SMR,M. pyrifera,KFM,Bio,1986,2003,8,9,0,FALSE,TRUE,1,8,9,Before
+Gull Island SMR,M. pyrifera,KFM,Bio,1987,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Gull Island SMR,M. pyrifera,KFM,Bio,1990,2003,8,9,0,FALSE,TRUE,1,8,9,Before
+Gull Island SMR,M. pyrifera,KFM,Bio,1991,2003,9,8,0,FALSE,TRUE,1,9,8,Before
+Gull Island SMR,M. pyrifera,KFM,Bio,1992,2003,8,10,0,FALSE,TRUE,2,8,10,Before
+Gull Island SMR,M. pyrifera,KFM,Bio,1993,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Gull Island SMR,M. pyrifera,KFM,Bio,1994,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Gull Island SMR,M. pyrifera,KFM,Bio,1995,2003,6,7,0,FALSE,TRUE,1,6,7,Before
+Gull Island SMR,M. pyrifera,KFM,Bio,1996,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Gull Island SMR,M. pyrifera,KFM,Bio,1997,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Gull Island SMR,M. pyrifera,KFM,Bio,1998,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Gull Island SMR,M. pyrifera,KFM,Bio,2000,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Gull Island SMR,M. pyrifera,KFM,Bio,2001,2003,7,6,0,FALSE,TRUE,1,7,6,Before
+Gull Island SMR,M. pyrifera,KFM,Bio,2002,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Gull Island SMR,M. pyrifera,KFM,Bio,2003,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Gull Island SMR,M. pyrifera,KFM,Bio,2004,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Gull Island SMR,M. pyrifera,KFM,Bio,2005,2003,6,8,0,FALSE,TRUE,2,6,8,After
+Gull Island SMR,M. pyrifera,KFM,Bio,2006,2003,7,8,0,FALSE,TRUE,1,7,8,After
+Gull Island SMR,M. pyrifera,KFM,Bio,2007,2003,7,6,0,FALSE,TRUE,1,7,6,After
+Gull Island SMR,M. pyrifera,KFM,Bio,2008,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Gull Island SMR,M. pyrifera,KFM,Bio,2009,2003,6,10,0,FALSE,TRUE,4,6,10,After
+Gull Island SMR,M. pyrifera,KFM,Bio,2010,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Gull Island SMR,M. pyrifera,KFM,Bio,2011,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Gull Island SMR,M. pyrifera,KFM,Bio,2012,2003,6,9,0,FALSE,TRUE,3,6,9,After
+Gull Island SMR,M. pyrifera,KFM,Bio,2013,2003,6,8,0,FALSE,TRUE,2,6,8,After
+Gull Island SMR,M. pyrifera,KFM,Bio,2014,2003,7,9,0,FALSE,TRUE,2,7,9,After
+Gull Island SMR,M. pyrifera,KFM,Bio,2015,2003,6,9,0,FALSE,TRUE,3,6,9,After
+Gull Island SMR,M. pyrifera,KFM,Bio,2016,2003,7,9,0,FALSE,TRUE,2,7,9,After
+Gull Island SMR,M. pyrifera,KFM,Bio,2017,2003,6,8,0,FALSE,TRUE,2,6,8,After
+Gull Island SMR,M. pyrifera,KFM,Bio,2018,2003,7,9,0,FALSE,TRUE,2,7,9,After
+Gull Island SMR,M. pyrifera,KFM,Bio,2019,2003,7,9,0,FALSE,TRUE,2,7,9,After
+Gull Island SMR,M. pyrifera,KFM,Bio,2021,2003,9,7,0,FALSE,TRUE,2,9,7,After
+Gull Island SMR,M. pyrifera,KFM,Bio,2022,2003,9,8,0,FALSE,TRUE,1,9,8,After
+Gull Island SMR,M. pyrifera,PISCO,Bio,2004,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Gull Island SMR,M. pyrifera,PISCO,Bio,2005,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Gull Island SMR,M. pyrifera,PISCO,Bio,2006,2003,8,7,0,FALSE,TRUE,1,8,7,After
+Gull Island SMR,M. pyrifera,PISCO,Bio,2007,2003,7;10,7,1,FALSE,TRUE,0,8,7,After
+Gull Island SMR,M. pyrifera,PISCO,Bio,2008,2003,8,7,0,FALSE,TRUE,1,8,7,After
+Gull Island SMR,M. pyrifera,PISCO,Bio,2009,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Gull Island SMR,M. pyrifera,PISCO,Bio,2010,2003,7;8,7,1,FALSE,TRUE,0,7.5,7,After
+Gull Island SMR,M. pyrifera,PISCO,Bio,2011,2003,9;10,7,0,FALSE,TRUE,2,9.33333333333333,7,After
+Gull Island SMR,M. pyrifera,PISCO,Bio,2012,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Gull Island SMR,M. pyrifera,PISCO,Bio,2014,2003,7;9,7,1,FALSE,TRUE,0,8.33333333333333,7,After
+Gull Island SMR,M. pyrifera,PISCO,Bio,2015,2003,7;10,7,1,FALSE,TRUE,0,8,7,After
+Gull Island SMR,M. pyrifera,PISCO,Bio,2017,2003,10,9;10,1,FALSE,TRUE,0,10,9.5,After
+Gull Island SMR,M. pyrifera,PISCO,Bio,2018,2003,8;9;10,9,1,FALSE,TRUE,0,9,9,After
+Gull Island SMR,M. pyrifera,PISCO,Bio,2019,2003,9;10,7;10,1,FALSE,TRUE,0,9.66666666666667,8,After
+Gull Island SMR,M. pyrifera,PISCO,Bio,2021,2003,7,7;10,1,FALSE,TRUE,0,7,8.5,After
+Gull Island SMR,M. pyrifera,PISCO,Bio,2023,2003,8;10,8,1,FALSE,TRUE,0,8.66666666666667,8,After
+Gull Island SMR,P. interruptus,KFM,Den,1986,2003,8,9,0,FALSE,TRUE,1,8,9,Before
+Gull Island SMR,P. interruptus,KFM,Den,1987,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Gull Island SMR,P. interruptus,KFM,Den,1988,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Gull Island SMR,P. interruptus,KFM,Den,1989,2003,8,10,0,FALSE,TRUE,2,8,10,Before
+Gull Island SMR,P. interruptus,KFM,Den,1990,2003,8,9,0,FALSE,TRUE,1,8,9,Before
+Gull Island SMR,P. interruptus,KFM,Den,1991,2003,9,8,0,FALSE,TRUE,1,9,8,Before
+Gull Island SMR,P. interruptus,KFM,Den,1992,2003,8,10,0,FALSE,TRUE,2,8,10,Before
+Gull Island SMR,P. interruptus,KFM,Den,1993,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Gull Island SMR,P. interruptus,KFM,Den,1994,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Gull Island SMR,P. interruptus,KFM,Den,1995,2003,6,7,0,FALSE,TRUE,1,6,7,Before
+Gull Island SMR,P. interruptus,KFM,Den,1996,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Gull Island SMR,P. interruptus,KFM,Den,1997,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Gull Island SMR,P. interruptus,KFM,Den,1998,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Gull Island SMR,P. interruptus,KFM,Den,1999,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Gull Island SMR,P. interruptus,KFM,Den,2000,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Gull Island SMR,P. interruptus,KFM,Den,2001,2003,7,6,0,FALSE,TRUE,1,7,6,Before
+Gull Island SMR,P. interruptus,KFM,Den,2002,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Gull Island SMR,P. interruptus,KFM,Den,2003,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Gull Island SMR,P. interruptus,KFM,Den,2004,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Gull Island SMR,P. interruptus,KFM,Den,2005,2003,6,8,0,FALSE,TRUE,2,6,8,After
+Gull Island SMR,P. interruptus,KFM,Den,2006,2003,7,8,0,FALSE,TRUE,1,7,8,After
+Gull Island SMR,P. interruptus,KFM,Den,2007,2003,7,6,0,FALSE,TRUE,1,7,6,After
+Gull Island SMR,P. interruptus,KFM,Den,2008,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Gull Island SMR,P. interruptus,KFM,Den,2009,2003,6,10,0,FALSE,TRUE,4,6,10,After
+Gull Island SMR,P. interruptus,KFM,Den,2010,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Gull Island SMR,P. interruptus,KFM,Den,2011,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Gull Island SMR,P. interruptus,KFM,Den,2012,2003,6,9,0,FALSE,TRUE,3,6,9,After
+Gull Island SMR,P. interruptus,KFM,Den,2013,2003,6,8,0,FALSE,TRUE,2,6,8,After
+Gull Island SMR,P. interruptus,KFM,Den,2014,2003,7,9,0,FALSE,TRUE,2,7,9,After
+Gull Island SMR,P. interruptus,KFM,Den,2015,2003,6,9,0,FALSE,TRUE,3,6,9,After
+Gull Island SMR,P. interruptus,KFM,Den,2016,2003,7,9,0,FALSE,TRUE,2,7,9,After
+Gull Island SMR,P. interruptus,KFM,Den,2017,2003,6,8,0,FALSE,TRUE,2,6,8,After
+Gull Island SMR,P. interruptus,KFM,Den,2018,2003,7,9,0,FALSE,TRUE,2,7,9,After
+Gull Island SMR,P. interruptus,KFM,Den,2019,2003,7,9,0,FALSE,TRUE,2,7,9,After
+Gull Island SMR,P. interruptus,KFM,Den,2021,2003,9,7,0,FALSE,TRUE,2,9,7,After
+Gull Island SMR,P. interruptus,KFM,Den,2022,2003,9,8,0,FALSE,TRUE,1,9,8,After
+Gull Island SMR,P. interruptus,PISCO,Den,2004,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Gull Island SMR,P. interruptus,PISCO,Den,2005,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Gull Island SMR,P. interruptus,PISCO,Den,2006,2003,8,7,0,FALSE,TRUE,1,8,7,After
+Gull Island SMR,P. interruptus,PISCO,Den,2007,2003,7;10,7,1,FALSE,TRUE,0,8,7,After
+Gull Island SMR,P. interruptus,PISCO,Den,2008,2003,8,7,0,FALSE,TRUE,1,8,7,After
+Gull Island SMR,P. interruptus,PISCO,Den,2009,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Gull Island SMR,P. interruptus,PISCO,Den,2010,2003,7;8,7,1,FALSE,TRUE,0,7.5,7,After
+Gull Island SMR,P. interruptus,PISCO,Den,2011,2003,9;10,7,0,FALSE,TRUE,2,9.33333333333333,7,After
+Gull Island SMR,P. interruptus,PISCO,Den,2012,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Gull Island SMR,P. interruptus,PISCO,Den,2014,2003,7;9,7,1,FALSE,TRUE,0,8.33333333333333,7,After
+Gull Island SMR,P. interruptus,PISCO,Den,2015,2003,7;10,7,1,FALSE,TRUE,0,8,7,After
+Gull Island SMR,P. interruptus,PISCO,Den,2017,2003,10,9;10,1,FALSE,TRUE,0,10,9.5,After
+Gull Island SMR,P. interruptus,PISCO,Den,2018,2003,8;9;10,9,1,FALSE,TRUE,0,9,9,After
+Gull Island SMR,P. interruptus,PISCO,Den,2019,2003,9;10,7;10,1,FALSE,TRUE,0,9.66666666666667,8,After
+Gull Island SMR,P. interruptus,PISCO,Den,2021,2003,7,7;10,1,FALSE,TRUE,0,7,8.5,After
+Gull Island SMR,P. interruptus,PISCO,Den,2023,2003,8;10,8,1,FALSE,TRUE,0,8.66666666666667,8,After
+Gull Island SMR,S. pulcher,PISCO,Bio,2003,2003,9,9,1,TRUE,TRUE,0,9,9,Before
+Gull Island SMR,S. pulcher,PISCO,Bio,2004,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Gull Island SMR,S. pulcher,PISCO,Bio,2005,2003,10,10,1,TRUE,TRUE,0,10,10,After
+Gull Island SMR,S. pulcher,PISCO,Bio,2006,2003,11;12,9,0,FALSE,TRUE,2,11.5,9,After
+Gull Island SMR,S. pulcher,PISCO,Bio,2007,2003,10,9,0,FALSE,TRUE,1,10,9,After
+Gull Island SMR,S. pulcher,PISCO,Bio,2008,2003,10,9,0,FALSE,TRUE,1,10,9,After
+Gull Island SMR,S. pulcher,PISCO,Bio,2009,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Gull Island SMR,S. pulcher,PISCO,Bio,2010,2003,11,9;11,1,FALSE,TRUE,0,11,10.3333333333333,After
+Gull Island SMR,S. pulcher,PISCO,Bio,2011,2003,9;10;11,8;9;11,2,FALSE,TRUE,0,9.75,9.33333333333333,After
+Gull Island SMR,S. pulcher,PISCO,Bio,2012,2003,9;12,9,1,FALSE,TRUE,0,10,9,After
+Gull Island SMR,S. pulcher,PISCO,Bio,2014,2003,9;12,9;12,2,TRUE,TRUE,0,10,10,After
+Gull Island SMR,S. pulcher,PISCO,Bio,2015,2003,9;12,9,1,FALSE,TRUE,0,10,9,After
+Gull Island SMR,S. pulcher,PISCO,Bio,2016,2003,12,12,1,TRUE,TRUE,0,12,12,After
+Gull Island SMR,S. pulcher,PISCO,Bio,2017,2003,10;11,9,0,FALSE,TRUE,1,10.5,9,After
+Gull Island SMR,S. pulcher,PISCO,Bio,2018,2003,8;9;10,9;10,2,FALSE,TRUE,0,9,9.33333333333333,After
+Gull Island SMR,S. pulcher,PISCO,Bio,2019,2003,9;10,9,1,FALSE,TRUE,0,9.66666666666667,9,After
+Gull Island SMR,S. pulcher,PISCO,Bio,2020,2003,11,8;9,0,FALSE,TRUE,2,11,8.33333333333333,After
+Gull Island SMR,S. pulcher,PISCO,Bio,2021,2003,11,9;10;11,1,FALSE,TRUE,0,11,10,After
+Gull Island SMR,S. pulcher,PISCO,Bio,2022,2003,11,11,1,TRUE,TRUE,0,11,11,After
+Gull Island SMR,S. pulcher,PISCO,Bio,2023,2003,10;11,8;12,0,FALSE,TRUE,1,10.6666666666667,9.33333333333333,After
+Gull Island SMR,S. pulcher,PISCO,Den,2003,2003,9,9,1,TRUE,TRUE,0,9,9,Before
+Gull Island SMR,S. pulcher,PISCO,Den,2004,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Gull Island SMR,S. pulcher,PISCO,Den,2005,2003,10,10,1,TRUE,TRUE,0,10,10,After
+Gull Island SMR,S. pulcher,PISCO,Den,2006,2003,11;12,9,0,FALSE,TRUE,2,11.5,9,After
+Gull Island SMR,S. pulcher,PISCO,Den,2007,2003,10,9,0,FALSE,TRUE,1,10,9,After
+Gull Island SMR,S. pulcher,PISCO,Den,2008,2003,10,9,0,FALSE,TRUE,1,10,9,After
+Gull Island SMR,S. pulcher,PISCO,Den,2009,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Gull Island SMR,S. pulcher,PISCO,Den,2010,2003,11,9;11,1,FALSE,TRUE,0,11,10.3333333333333,After
+Gull Island SMR,S. pulcher,PISCO,Den,2011,2003,9;10;11,8;9;11,2,FALSE,TRUE,0,9.75,9.33333333333333,After
+Gull Island SMR,S. pulcher,PISCO,Den,2012,2003,9;12,9,1,FALSE,TRUE,0,10,9,After
+Gull Island SMR,S. pulcher,PISCO,Den,2014,2003,9;12,9;12,2,TRUE,TRUE,0,10,10,After
+Gull Island SMR,S. pulcher,PISCO,Den,2015,2003,9;12,9,1,FALSE,TRUE,0,10,9,After
+Gull Island SMR,S. pulcher,PISCO,Den,2016,2003,12,12,1,TRUE,TRUE,0,12,12,After
+Gull Island SMR,S. pulcher,PISCO,Den,2017,2003,10;11,9,0,FALSE,TRUE,1,10.5,9,After
+Gull Island SMR,S. pulcher,PISCO,Den,2018,2003,8;9;10,9;10,2,FALSE,TRUE,0,9,9.33333333333333,After
+Gull Island SMR,S. pulcher,PISCO,Den,2019,2003,9;10,9,1,FALSE,TRUE,0,9.66666666666667,9,After
+Gull Island SMR,S. pulcher,PISCO,Den,2020,2003,11,8;9,0,FALSE,TRUE,2,11,8.33333333333333,After
+Gull Island SMR,S. pulcher,PISCO,Den,2021,2003,11,9;10;11,1,FALSE,TRUE,0,11,10,After
+Gull Island SMR,S. pulcher,PISCO,Den,2022,2003,11,11,1,TRUE,TRUE,0,11,11,After
+Gull Island SMR,S. pulcher,PISCO,Den,2023,2003,10;11,8;12,0,FALSE,TRUE,1,10.6666666666667,9.33333333333333,After
+Gull Island SMR,S. purpuratus,PISCO,Bio,2004,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Gull Island SMR,S. purpuratus,PISCO,Bio,2005,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Gull Island SMR,S. purpuratus,PISCO,Bio,2006,2003,8,7,0,FALSE,TRUE,1,8,7,After
+Gull Island SMR,S. purpuratus,PISCO,Bio,2007,2003,7;10,7,1,FALSE,TRUE,0,8,7,After
+Gull Island SMR,S. purpuratus,PISCO,Bio,2008,2003,8,7,0,FALSE,TRUE,1,8,7,After
+Gull Island SMR,S. purpuratus,PISCO,Bio,2009,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Gull Island SMR,S. purpuratus,PISCO,Bio,2010,2003,7;8,7,1,FALSE,TRUE,0,7.5,7,After
+Gull Island SMR,S. purpuratus,PISCO,Bio,2011,2003,9;10,7,0,FALSE,TRUE,2,9.33333333333333,7,After
+Gull Island SMR,S. purpuratus,PISCO,Bio,2012,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Gull Island SMR,S. purpuratus,PISCO,Bio,2014,2003,7;9,7,1,FALSE,TRUE,0,8.33333333333333,7,After
+Gull Island SMR,S. purpuratus,PISCO,Bio,2015,2003,7;10,7,1,FALSE,TRUE,0,8,7,After
+Gull Island SMR,S. purpuratus,PISCO,Bio,2017,2003,10,9;10,1,FALSE,TRUE,0,10,9.5,After
+Gull Island SMR,S. purpuratus,PISCO,Bio,2018,2003,8;9;10,9,1,FALSE,TRUE,0,9,9,After
+Gull Island SMR,S. purpuratus,PISCO,Bio,2019,2003,9;10,7;10,1,FALSE,TRUE,0,9.66666666666667,8,After
+Gull Island SMR,S. purpuratus,PISCO,Bio,2021,2003,7,7;10,1,FALSE,TRUE,0,7,8.5,After
+Gull Island SMR,S. purpuratus,PISCO,Den,2004,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Gull Island SMR,S. purpuratus,PISCO,Den,2005,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Gull Island SMR,S. purpuratus,PISCO,Den,2006,2003,8,7,0,FALSE,TRUE,1,8,7,After
+Gull Island SMR,S. purpuratus,PISCO,Den,2007,2003,7;10,7,1,FALSE,TRUE,0,8,7,After
+Gull Island SMR,S. purpuratus,PISCO,Den,2008,2003,8,7,0,FALSE,TRUE,1,8,7,After
+Gull Island SMR,S. purpuratus,PISCO,Den,2009,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Gull Island SMR,S. purpuratus,PISCO,Den,2010,2003,7;8,7,1,FALSE,TRUE,0,7.5,7,After
+Gull Island SMR,S. purpuratus,PISCO,Den,2011,2003,9;10,7,0,FALSE,TRUE,2,9.33333333333333,7,After
+Gull Island SMR,S. purpuratus,PISCO,Den,2012,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Gull Island SMR,S. purpuratus,PISCO,Den,2014,2003,7;9,7,1,FALSE,TRUE,0,8.33333333333333,7,After
+Gull Island SMR,S. purpuratus,PISCO,Den,2015,2003,7;10,7,1,FALSE,TRUE,0,8,7,After
+Gull Island SMR,S. purpuratus,PISCO,Den,2017,2003,10,9;10,1,FALSE,TRUE,0,10,9.5,After
+Gull Island SMR,S. purpuratus,PISCO,Den,2018,2003,8;9;10,9,1,FALSE,TRUE,0,9,9,After
+Gull Island SMR,S. purpuratus,PISCO,Den,2019,2003,9;10,7;10,1,FALSE,TRUE,0,9.66666666666667,8,After
+Gull Island SMR,S. purpuratus,PISCO,Den,2021,2003,7,7;10,1,FALSE,TRUE,0,7,8.5,After
+Gull Island SMR,S. purpuratus,PISCO,Den,2023,2003,8;10,8,1,FALSE,TRUE,0,8.66666666666667,8,After
+Harris Point SMR,M. franciscanus,KFM,Bio,1985,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Harris Point SMR,M. franciscanus,KFM,Bio,1986,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Harris Point SMR,M. franciscanus,KFM,Bio,1987,2003,8,8,1,TRUE,TRUE,0,8,8,Before
+Harris Point SMR,M. franciscanus,KFM,Bio,1988,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Harris Point SMR,M. franciscanus,KFM,Bio,1989,2003,8,8,1,TRUE,TRUE,0,8,8,Before
+Harris Point SMR,M. franciscanus,KFM,Bio,1990,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Harris Point SMR,M. franciscanus,KFM,Bio,1991,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Harris Point SMR,M. franciscanus,KFM,Bio,1992,2003,9,9,1,TRUE,TRUE,0,9,9,Before
+Harris Point SMR,M. franciscanus,KFM,Bio,1994,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Harris Point SMR,M. franciscanus,KFM,Bio,1995,2003,8,8,1,TRUE,TRUE,0,8,8,Before
+Harris Point SMR,M. franciscanus,KFM,Bio,1996,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Harris Point SMR,M. franciscanus,KFM,Bio,1997,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Harris Point SMR,M. franciscanus,KFM,Bio,1998,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Harris Point SMR,M. franciscanus,KFM,Bio,1999,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Harris Point SMR,M. franciscanus,KFM,Bio,2000,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Harris Point SMR,M. franciscanus,KFM,Bio,2001,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Harris Point SMR,M. franciscanus,KFM,Bio,2002,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Harris Point SMR,M. franciscanus,KFM,Bio,2003,2003,9,9,1,TRUE,TRUE,0,9,9,Before
+Harris Point SMR,M. franciscanus,KFM,Bio,2004,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. franciscanus,KFM,Bio,2005,2003,6,8,0,FALSE,TRUE,2,6,8,After
+Harris Point SMR,M. franciscanus,KFM,Bio,2006,2003,6,9,0,FALSE,TRUE,3,6,9,After
+Harris Point SMR,M. franciscanus,KFM,Bio,2007,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. franciscanus,KFM,Bio,2008,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Harris Point SMR,M. franciscanus,KFM,Bio,2009,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Harris Point SMR,M. franciscanus,KFM,Bio,2010,2003,9,7,0,FALSE,TRUE,2,9,7,After
+Harris Point SMR,M. franciscanus,KFM,Bio,2011,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Harris Point SMR,M. franciscanus,KFM,Bio,2012,2003,8,7,0,FALSE,TRUE,1,8,7,After
+Harris Point SMR,M. franciscanus,KFM,Bio,2013,2003,10,10,1,TRUE,TRUE,0,10,10,After
+Harris Point SMR,M. franciscanus,KFM,Bio,2014,2003,8,10,0,FALSE,TRUE,2,8,10,After
+Harris Point SMR,M. franciscanus,KFM,Bio,2015,2003,6,9,0,FALSE,TRUE,3,6,9,After
+Harris Point SMR,M. franciscanus,KFM,Bio,2016,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Harris Point SMR,M. franciscanus,KFM,Bio,2017,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. franciscanus,KFM,Bio,2018,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Harris Point SMR,M. franciscanus,KFM,Bio,2019,2003,10,9,0,FALSE,TRUE,1,10,9,After
+Harris Point SMR,M. franciscanus,KFM,Bio,2021,2003,8,10,0,FALSE,TRUE,2,8,10,After
+Harris Point SMR,M. franciscanus,KFM,Bio,2022,2003,10,10,1,TRUE,TRUE,0,10,10,After
+Harris Point SMR,M. franciscanus,KFM,Den,1982,2003,8,8,1,TRUE,TRUE,0,8,8,Before
+Harris Point SMR,M. franciscanus,KFM,Den,1983,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Harris Point SMR,M. franciscanus,KFM,Den,1984,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Harris Point SMR,M. franciscanus,KFM,Den,1985,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Harris Point SMR,M. franciscanus,KFM,Den,1986,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Harris Point SMR,M. franciscanus,KFM,Den,1987,2003,8,8,1,TRUE,TRUE,0,8,8,Before
+Harris Point SMR,M. franciscanus,KFM,Den,1988,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Harris Point SMR,M. franciscanus,KFM,Den,1989,2003,8,8,1,TRUE,TRUE,0,8,8,Before
+Harris Point SMR,M. franciscanus,KFM,Den,1990,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Harris Point SMR,M. franciscanus,KFM,Den,1991,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Harris Point SMR,M. franciscanus,KFM,Den,1992,2003,9,9,1,TRUE,TRUE,0,9,9,Before
+Harris Point SMR,M. franciscanus,KFM,Den,1993,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Harris Point SMR,M. franciscanus,KFM,Den,1994,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Harris Point SMR,M. franciscanus,KFM,Den,1995,2003,8,8,1,TRUE,TRUE,0,8,8,Before
+Harris Point SMR,M. franciscanus,KFM,Den,1996,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Harris Point SMR,M. franciscanus,KFM,Den,1997,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Harris Point SMR,M. franciscanus,KFM,Den,1998,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Harris Point SMR,M. franciscanus,KFM,Den,1999,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Harris Point SMR,M. franciscanus,KFM,Den,2000,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Harris Point SMR,M. franciscanus,KFM,Den,2001,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Harris Point SMR,M. franciscanus,KFM,Den,2002,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Harris Point SMR,M. franciscanus,KFM,Den,2003,2003,9,9,1,TRUE,TRUE,0,9,9,Before
+Harris Point SMR,M. franciscanus,KFM,Den,2004,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. franciscanus,KFM,Den,2005,2003,6,8,0,FALSE,TRUE,2,6,8,After
+Harris Point SMR,M. franciscanus,KFM,Den,2006,2003,6,9,0,FALSE,TRUE,3,6,9,After
+Harris Point SMR,M. franciscanus,KFM,Den,2007,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. franciscanus,KFM,Den,2008,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Harris Point SMR,M. franciscanus,KFM,Den,2009,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Harris Point SMR,M. franciscanus,KFM,Den,2010,2003,9,7,0,FALSE,TRUE,2,9,7,After
+Harris Point SMR,M. franciscanus,KFM,Den,2011,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Harris Point SMR,M. franciscanus,KFM,Den,2012,2003,8,7,0,FALSE,TRUE,1,8,7,After
+Harris Point SMR,M. franciscanus,KFM,Den,2013,2003,10,10,1,TRUE,TRUE,0,10,10,After
+Harris Point SMR,M. franciscanus,KFM,Den,2014,2003,8,10,0,FALSE,TRUE,2,8,10,After
+Harris Point SMR,M. franciscanus,KFM,Den,2015,2003,6,9,0,FALSE,TRUE,3,6,9,After
+Harris Point SMR,M. franciscanus,KFM,Den,2016,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Harris Point SMR,M. franciscanus,KFM,Den,2017,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. franciscanus,KFM,Den,2018,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Harris Point SMR,M. franciscanus,KFM,Den,2019,2003,10,9,0,FALSE,TRUE,1,10,9,After
+Harris Point SMR,M. franciscanus,KFM,Den,2021,2003,8,10,0,FALSE,TRUE,2,8,10,After
+Harris Point SMR,M. franciscanus,KFM,Den,2022,2003,10,10,1,TRUE,TRUE,0,10,10,After
+Harris Point SMR,M. franciscanus,PISCO,Bio,2004,2003,7;10,9,0,FALSE,TRUE,1,8,9,After
+Harris Point SMR,M. franciscanus,PISCO,Bio,2005,2003,8,8;9,1,FALSE,TRUE,0,8,8.5,After
+Harris Point SMR,M. franciscanus,PISCO,Bio,2006,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. franciscanus,PISCO,Bio,2007,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. franciscanus,PISCO,Bio,2008,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. franciscanus,PISCO,Bio,2009,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. franciscanus,PISCO,Bio,2010,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Harris Point SMR,M. franciscanus,PISCO,Bio,2011,2003,8;10,8;10,2,TRUE,TRUE,0,9,9,After
+Harris Point SMR,M. franciscanus,PISCO,Bio,2012,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. franciscanus,PISCO,Bio,2014,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. franciscanus,PISCO,Bio,2016,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Harris Point SMR,M. franciscanus,PISCO,Bio,2018,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Harris Point SMR,M. franciscanus,PISCO,Bio,2019,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. franciscanus,PISCO,Bio,2021,2003,6;9,6,1,FALSE,TRUE,0,7,6,After
+Harris Point SMR,M. franciscanus,PISCO,Bio,2022,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. franciscanus,PISCO,Den,2004,2003,7;10,9,0,FALSE,TRUE,1,8,9,After
+Harris Point SMR,M. franciscanus,PISCO,Den,2005,2003,8,8;9,1,FALSE,TRUE,0,8,8.5,After
+Harris Point SMR,M. franciscanus,PISCO,Den,2006,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. franciscanus,PISCO,Den,2007,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. franciscanus,PISCO,Den,2008,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. franciscanus,PISCO,Den,2009,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. franciscanus,PISCO,Den,2010,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Harris Point SMR,M. franciscanus,PISCO,Den,2011,2003,8;10,8;10,2,TRUE,TRUE,0,9,9,After
+Harris Point SMR,M. franciscanus,PISCO,Den,2012,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. franciscanus,PISCO,Den,2014,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. franciscanus,PISCO,Den,2016,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Harris Point SMR,M. franciscanus,PISCO,Den,2018,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Harris Point SMR,M. franciscanus,PISCO,Den,2019,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. franciscanus,PISCO,Den,2020,2003,9;10,10,1,FALSE,TRUE,0,9.66666666666667,10,After
+Harris Point SMR,M. franciscanus,PISCO,Den,2021,2003,6;9,6,1,FALSE,TRUE,0,7,6,After
+Harris Point SMR,M. franciscanus,PISCO,Den,2022,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. franciscanus,PISCO,Den,2023,2003,7,7;8;10,1,FALSE,TRUE,0,7,8.25,After
+Harris Point SMR,M. pyrifera,PISCO,Bio,2004,2003,7;10,9,0,FALSE,TRUE,1,8,9,After
+Harris Point SMR,M. pyrifera,PISCO,Bio,2005,2003,8,8;9,1,FALSE,TRUE,0,8,8.5,After
+Harris Point SMR,M. pyrifera,PISCO,Bio,2006,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. pyrifera,PISCO,Bio,2007,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. pyrifera,PISCO,Bio,2008,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. pyrifera,PISCO,Bio,2009,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. pyrifera,PISCO,Bio,2010,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Harris Point SMR,M. pyrifera,PISCO,Bio,2011,2003,8;10,8;10,2,TRUE,TRUE,0,9,9,After
+Harris Point SMR,M. pyrifera,PISCO,Bio,2012,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. pyrifera,PISCO,Bio,2014,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. pyrifera,PISCO,Bio,2016,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Harris Point SMR,M. pyrifera,PISCO,Bio,2018,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Harris Point SMR,M. pyrifera,PISCO,Bio,2019,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. pyrifera,PISCO,Bio,2020,2003,9;10,10,1,FALSE,TRUE,0,9.66666666666667,10,After
+Harris Point SMR,M. pyrifera,PISCO,Bio,2021,2003,6;9,6,1,FALSE,TRUE,0,7,6,After
+Harris Point SMR,M. pyrifera,PISCO,Bio,2022,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,M. pyrifera,PISCO,Bio,2023,2003,7,7;8;10,1,FALSE,TRUE,0,7,8.25,After
+Harris Point SMR,P. interruptus,PISCO,Den,2004,2003,7;10,9,0,FALSE,TRUE,1,8,9,After
+Harris Point SMR,P. interruptus,PISCO,Den,2005,2003,8,8;9,1,FALSE,TRUE,0,8,8.5,After
+Harris Point SMR,P. interruptus,PISCO,Den,2006,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,P. interruptus,PISCO,Den,2007,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,P. interruptus,PISCO,Den,2008,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,P. interruptus,PISCO,Den,2009,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,P. interruptus,PISCO,Den,2010,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Harris Point SMR,P. interruptus,PISCO,Den,2011,2003,8;10,8;10,2,TRUE,TRUE,0,9,9,After
+Harris Point SMR,P. interruptus,PISCO,Den,2012,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,P. interruptus,PISCO,Den,2014,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,P. interruptus,PISCO,Den,2016,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Harris Point SMR,P. interruptus,PISCO,Den,2018,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Harris Point SMR,P. interruptus,PISCO,Den,2019,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,P. interruptus,PISCO,Den,2020,2003,9;10,10,1,FALSE,TRUE,0,9.66666666666667,10,After
+Harris Point SMR,P. interruptus,PISCO,Den,2021,2003,6;9,6,1,FALSE,TRUE,0,7,6,After
+Harris Point SMR,P. interruptus,PISCO,Den,2022,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,P. interruptus,PISCO,Den,2023,2003,7,7;8;10,1,FALSE,TRUE,0,7,8.25,After
+Harris Point SMR,S. pulcher,KFM,Den,1985,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Harris Point SMR,S. pulcher,KFM,Den,1986,2003,7;8,7;8,2,TRUE,TRUE,0,7.5,7.5,Before
+Harris Point SMR,S. pulcher,KFM,Den,1987,2003,8;9,8;9,2,TRUE,TRUE,0,8.5,8.5,Before
+Harris Point SMR,S. pulcher,KFM,Den,1988,2003,7;9,7;9,2,TRUE,TRUE,0,8,8,Before
+Harris Point SMR,S. pulcher,KFM,Den,1989,2003,8;9,8;9,2,TRUE,TRUE,0,8.5,8.5,Before
+Harris Point SMR,S. pulcher,KFM,Den,1990,2003,7;9,7;9,2,TRUE,TRUE,0,8,8,Before
+Harris Point SMR,S. pulcher,KFM,Den,1991,2003,7;10,7;10,2,TRUE,TRUE,0,8.5,8.5,Before
+Harris Point SMR,S. pulcher,KFM,Den,1992,2003,7;9,9,1,FALSE,TRUE,0,8,9,Before
+Harris Point SMR,S. pulcher,KFM,Den,1993,2003,7;9,7;9,2,TRUE,TRUE,0,8,8,Before
+Harris Point SMR,S. pulcher,KFM,Den,1994,2003,7;9,7;9,2,TRUE,TRUE,0,8,8,Before
+Harris Point SMR,S. pulcher,KFM,Den,1995,2003,8;9,8;9,2,TRUE,TRUE,0,8.5,8.5,Before
+Harris Point SMR,S. pulcher,KFM,Den,1996,2003,8;9,7;9,1,FALSE,TRUE,0,8.5,8,Before
+Harris Point SMR,S. pulcher,KFM,Den,1997,2003,7,7;9,1,FALSE,TRUE,0,7,8,Before
+Harris Point SMR,S. pulcher,KFM,Den,1998,2003,7;9,7;9,2,TRUE,TRUE,0,8,8,Before
+Harris Point SMR,S. pulcher,KFM,Den,1999,2003,7;9,6;9,1,FALSE,TRUE,0,8,7.5,Before
+Harris Point SMR,S. pulcher,KFM,Den,2000,2003,6;8,6;8,2,TRUE,TRUE,0,7,7,Before
+Harris Point SMR,S. pulcher,KFM,Den,2001,2003,7;9,7;9,2,TRUE,TRUE,0,8,8,Before
+Harris Point SMR,S. pulcher,KFM,Den,2002,2003,7,7;9,1,FALSE,TRUE,0,7,8,Before
+Harris Point SMR,S. pulcher,KFM,Den,2003,2003,9,9,1,TRUE,TRUE,0,9,9,Before
+Harris Point SMR,S. pulcher,KFM,Den,2004,2003,7;9,7;9,2,TRUE,TRUE,0,8,8,After
+Harris Point SMR,S. pulcher,KFM,Den,2005,2003,6,8,0,FALSE,TRUE,2,6,8,After
+Harris Point SMR,S. pulcher,KFM,Den,2006,2003,6,9,0,FALSE,TRUE,3,6,9,After
+Harris Point SMR,S. pulcher,KFM,Den,2007,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,S. pulcher,KFM,Den,2008,2003,9,9;10,1,FALSE,TRUE,0,9,9.5,After
+Harris Point SMR,S. pulcher,KFM,Den,2009,2003,8,7;8,1,FALSE,TRUE,0,8,7.5,After
+Harris Point SMR,S. pulcher,KFM,Den,2010,2003,9,7,0,FALSE,TRUE,2,9,7,After
+Harris Point SMR,S. pulcher,KFM,Den,2011,2003,9,9;10,1,FALSE,TRUE,0,9,9.5,After
+Harris Point SMR,S. pulcher,KFM,Den,2012,2003,8,7,0,FALSE,TRUE,1,8,7,After
+Harris Point SMR,S. pulcher,KFM,Den,2013,2003,10,8;10,1,FALSE,TRUE,0,10,9,After
+Harris Point SMR,S. pulcher,KFM,Den,2014,2003,8,8;10,1,FALSE,TRUE,0,8,9,After
+Harris Point SMR,S. pulcher,KFM,Den,2015,2003,6,8;9,0,FALSE,TRUE,2,6,8.5,After
+Harris Point SMR,S. pulcher,KFM,Den,2016,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Harris Point SMR,S. pulcher,KFM,Den,2017,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,S. pulcher,KFM,Den,2018,2003,9,8;9,1,FALSE,TRUE,0,9,8.5,After
+Harris Point SMR,S. pulcher,KFM,Den,2019,2003,10,9,0,FALSE,TRUE,1,10,9,After
+Harris Point SMR,S. pulcher,KFM,Den,2021,2003,8,10,0,FALSE,TRUE,2,8,10,After
+Harris Point SMR,S. pulcher,KFM,Den,2022,2003,10,10,1,TRUE,TRUE,0,10,10,After
+Harris Point SMR,S. pulcher,PISCO,Bio,2004,2003,10,10,1,TRUE,TRUE,0,10,10,After
+Harris Point SMR,S. pulcher,PISCO,Bio,2005,2003,10,10,1,TRUE,TRUE,0,10,10,After
+Harris Point SMR,S. pulcher,PISCO,Bio,2006,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Harris Point SMR,S. pulcher,PISCO,Bio,2007,2003,10,10,1,TRUE,TRUE,0,10,10,After
+Harris Point SMR,S. pulcher,PISCO,Bio,2008,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Harris Point SMR,S. pulcher,PISCO,Bio,2009,2003,11,11,1,TRUE,TRUE,0,11,11,After
+Harris Point SMR,S. pulcher,PISCO,Bio,2010,2003,10,10,1,TRUE,TRUE,0,10,10,After
+Harris Point SMR,S. pulcher,PISCO,Bio,2011,2003,8;10,8;10,2,TRUE,TRUE,0,9,9,After
+Harris Point SMR,S. pulcher,PISCO,Bio,2012,2003,10,10,1,TRUE,TRUE,0,10,10,After
+Harris Point SMR,S. pulcher,PISCO,Bio,2014,2003,9;10,9;10,2,TRUE,TRUE,0,9.5,9.66666666666667,After
+Harris Point SMR,S. pulcher,PISCO,Bio,2016,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Harris Point SMR,S. pulcher,PISCO,Bio,2018,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Harris Point SMR,S. pulcher,PISCO,Bio,2019,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Harris Point SMR,S. pulcher,PISCO,Bio,2020,2003,10,9;10,1,FALSE,TRUE,0,10,9.5,After
+Harris Point SMR,S. pulcher,PISCO,Bio,2021,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Harris Point SMR,S. pulcher,PISCO,Bio,2022,2003,10;11,10;11,2,TRUE,TRUE,0,10.5,10.5,After
+Harris Point SMR,S. pulcher,PISCO,Bio,2023,2003,10,8;10,1,FALSE,TRUE,0,10,9.33333333333333,After
+Harris Point SMR,S. pulcher,PISCO,Den,2004,2003,10,10,1,TRUE,TRUE,0,10,10,After
+Harris Point SMR,S. pulcher,PISCO,Den,2005,2003,10,10,1,TRUE,TRUE,0,10,10,After
+Harris Point SMR,S. pulcher,PISCO,Den,2006,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Harris Point SMR,S. pulcher,PISCO,Den,2007,2003,10,10,1,TRUE,TRUE,0,10,10,After
+Harris Point SMR,S. pulcher,PISCO,Den,2008,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Harris Point SMR,S. pulcher,PISCO,Den,2009,2003,11,11,1,TRUE,TRUE,0,11,11,After
+Harris Point SMR,S. pulcher,PISCO,Den,2010,2003,10,10,1,TRUE,TRUE,0,10,10,After
+Harris Point SMR,S. pulcher,PISCO,Den,2011,2003,8;10,8;10,2,TRUE,TRUE,0,9,9,After
+Harris Point SMR,S. pulcher,PISCO,Den,2012,2003,10,10,1,TRUE,TRUE,0,10,10,After
+Harris Point SMR,S. pulcher,PISCO,Den,2014,2003,9;10,9;10,2,TRUE,TRUE,0,9.5,9.66666666666667,After
+Harris Point SMR,S. pulcher,PISCO,Den,2016,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Harris Point SMR,S. pulcher,PISCO,Den,2018,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Harris Point SMR,S. pulcher,PISCO,Den,2019,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Harris Point SMR,S. pulcher,PISCO,Den,2020,2003,10,9;10,1,FALSE,TRUE,0,10,9.5,After
+Harris Point SMR,S. pulcher,PISCO,Den,2021,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Harris Point SMR,S. pulcher,PISCO,Den,2022,2003,10;11,10;11,2,TRUE,TRUE,0,10.5,10.5,After
+Harris Point SMR,S. pulcher,PISCO,Den,2023,2003,10,8;10,1,FALSE,TRUE,0,10,9.33333333333333,After
+Harris Point SMR,S. purpuratus,PISCO,Bio,2004,2003,7;10,9,0,FALSE,TRUE,1,8,9,After
+Harris Point SMR,S. purpuratus,PISCO,Bio,2005,2003,8,8;9,1,FALSE,TRUE,0,8,8.5,After
+Harris Point SMR,S. purpuratus,PISCO,Bio,2006,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,S. purpuratus,PISCO,Bio,2007,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,S. purpuratus,PISCO,Bio,2008,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,S. purpuratus,PISCO,Bio,2009,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,S. purpuratus,PISCO,Bio,2010,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Harris Point SMR,S. purpuratus,PISCO,Bio,2011,2003,8;10,8;10,2,TRUE,TRUE,0,9,9,After
+Harris Point SMR,S. purpuratus,PISCO,Bio,2012,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,S. purpuratus,PISCO,Bio,2014,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,S. purpuratus,PISCO,Bio,2016,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Harris Point SMR,S. purpuratus,PISCO,Bio,2018,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Harris Point SMR,S. purpuratus,PISCO,Bio,2019,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,S. purpuratus,PISCO,Bio,2021,2003,6;9,6,1,FALSE,TRUE,0,7,6,After
+Harris Point SMR,S. purpuratus,PISCO,Bio,2022,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,S. purpuratus,PISCO,Den,2004,2003,7;10,9,0,FALSE,TRUE,1,8,9,After
+Harris Point SMR,S. purpuratus,PISCO,Den,2005,2003,8,8;9,1,FALSE,TRUE,0,8,8.5,After
+Harris Point SMR,S. purpuratus,PISCO,Den,2006,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,S. purpuratus,PISCO,Den,2007,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,S. purpuratus,PISCO,Den,2008,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,S. purpuratus,PISCO,Den,2009,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,S. purpuratus,PISCO,Den,2010,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Harris Point SMR,S. purpuratus,PISCO,Den,2011,2003,8;10,8;10,2,TRUE,TRUE,0,9,9,After
+Harris Point SMR,S. purpuratus,PISCO,Den,2012,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,S. purpuratus,PISCO,Den,2014,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,S. purpuratus,PISCO,Den,2016,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Harris Point SMR,S. purpuratus,PISCO,Den,2018,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Harris Point SMR,S. purpuratus,PISCO,Den,2019,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,S. purpuratus,PISCO,Den,2020,2003,9;10,10,1,FALSE,TRUE,0,9.66666666666667,10,After
+Harris Point SMR,S. purpuratus,PISCO,Den,2021,2003,6;9,6,1,FALSE,TRUE,0,7,6,After
+Harris Point SMR,S. purpuratus,PISCO,Den,2022,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Harris Point SMR,S. purpuratus,PISCO,Den,2023,2003,7,7;8;10,1,FALSE,TRUE,0,7,8.25,After
+Long Point SMR,S. pulcher,PISCO,Bio,2011,2012,9,11,0,FALSE,TRUE,2,9,11,Before
+Long Point SMR,S. pulcher,PISCO,Bio,2012,2012,9,9,1,TRUE,TRUE,0,9,9,Before
+Long Point SMR,S. pulcher,PISCO,Bio,2016,2012,11,11,1,TRUE,TRUE,0,11,11,After
+Long Point SMR,S. pulcher,PISCO,Bio,2019,2012,11,11,1,TRUE,TRUE,0,11,11,After
+Long Point SMR,S. pulcher,PISCO,Bio,2020,2012,12,12,1,TRUE,TRUE,0,12,12,After
+Long Point SMR,S. pulcher,PISCO,Bio,2021,2012,8,9,0,FALSE,TRUE,1,8,9,After
+Long Point SMR,S. pulcher,PISCO,Bio,2022,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Long Point SMR,S. pulcher,PISCO,Bio,2023,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Long Point SMR,S. pulcher,PISCO,Den,2011,2012,9,11,0,FALSE,TRUE,2,9,11,Before
+Long Point SMR,S. pulcher,PISCO,Den,2012,2012,9,9,1,TRUE,TRUE,0,9,9,Before
+Long Point SMR,S. pulcher,PISCO,Den,2016,2012,11,11,1,TRUE,TRUE,0,11,11,After
+Long Point SMR,S. pulcher,PISCO,Den,2019,2012,11,11,1,TRUE,TRUE,0,11,11,After
+Long Point SMR,S. pulcher,PISCO,Den,2020,2012,12,12,1,TRUE,TRUE,0,12,12,After
+Long Point SMR,S. pulcher,PISCO,Den,2021,2012,8,9,0,FALSE,TRUE,1,8,9,After
+Long Point SMR,S. pulcher,PISCO,Den,2022,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Long Point SMR,S. pulcher,PISCO,Den,2023,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Matlahuayl SMR,M. franciscanus,PISCO,Den,2011,2012,10,10,1,TRUE,TRUE,0,10,10,Before
+Matlahuayl SMR,M. franciscanus,PISCO,Den,2012,2012,10,10,1,TRUE,TRUE,0,10,10,Before
+Matlahuayl SMR,M. franciscanus,PISCO,Den,2019,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,M. franciscanus,PISCO,Den,2020,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,M. franciscanus,PISCO,Den,2021,2012,9,9,1,TRUE,TRUE,0,9,9,After
+Matlahuayl SMR,M. franciscanus,PISCO,Den,2022,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,M. franciscanus,PISCO,Den,2023,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,M. pyrifera,PISCO,Bio,2011,2012,10,10,1,TRUE,TRUE,0,10,10,Before
+Matlahuayl SMR,M. pyrifera,PISCO,Bio,2012,2012,10,10,1,TRUE,TRUE,0,10,10,Before
+Matlahuayl SMR,M. pyrifera,PISCO,Bio,2019,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,M. pyrifera,PISCO,Bio,2020,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,M. pyrifera,PISCO,Bio,2021,2012,9,9,1,TRUE,TRUE,0,9,9,After
+Matlahuayl SMR,M. pyrifera,PISCO,Bio,2022,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,M. pyrifera,PISCO,Bio,2023,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,P. interruptus,PISCO,Bio,2011,2012,10,10,1,TRUE,TRUE,0,10,10,Before
+Matlahuayl SMR,P. interruptus,PISCO,Bio,2012,2012,10,10,1,TRUE,TRUE,0,10,10,Before
+Matlahuayl SMR,P. interruptus,PISCO,Bio,2019,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,P. interruptus,PISCO,Bio,2020,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,P. interruptus,PISCO,Bio,2021,2012,9,9,1,TRUE,TRUE,0,9,9,After
+Matlahuayl SMR,P. interruptus,PISCO,Bio,2022,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,P. interruptus,PISCO,Bio,2023,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,P. interruptus,PISCO,Den,2011,2012,10,10,1,TRUE,TRUE,0,10,10,Before
+Matlahuayl SMR,P. interruptus,PISCO,Den,2012,2012,10,10,1,TRUE,TRUE,0,10,10,Before
+Matlahuayl SMR,P. interruptus,PISCO,Den,2019,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,P. interruptus,PISCO,Den,2020,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,P. interruptus,PISCO,Den,2021,2012,9,9,1,TRUE,TRUE,0,9,9,After
+Matlahuayl SMR,P. interruptus,PISCO,Den,2022,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,P. interruptus,PISCO,Den,2023,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,S. pulcher,PISCO,Bio,2011,2012,10,10,1,TRUE,TRUE,0,10,10,Before
+Matlahuayl SMR,S. pulcher,PISCO,Bio,2012,2012,10,10,1,TRUE,TRUE,0,10,10,Before
+Matlahuayl SMR,S. pulcher,PISCO,Bio,2019,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,S. pulcher,PISCO,Bio,2020,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,S. pulcher,PISCO,Bio,2021,2012,9,9,1,TRUE,TRUE,0,9,9,After
+Matlahuayl SMR,S. pulcher,PISCO,Bio,2022,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,S. pulcher,PISCO,Bio,2023,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,S. pulcher,PISCO,Den,2011,2012,10,10,1,TRUE,TRUE,0,10,10,Before
+Matlahuayl SMR,S. pulcher,PISCO,Den,2012,2012,10,10,1,TRUE,TRUE,0,10,10,Before
+Matlahuayl SMR,S. pulcher,PISCO,Den,2019,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,S. pulcher,PISCO,Den,2020,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,S. pulcher,PISCO,Den,2021,2012,9,9,1,TRUE,TRUE,0,9,9,After
+Matlahuayl SMR,S. pulcher,PISCO,Den,2022,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,S. pulcher,PISCO,Den,2023,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,S. purpuratus,PISCO,Den,2011,2012,10,10,1,TRUE,TRUE,0,10,10,Before
+Matlahuayl SMR,S. purpuratus,PISCO,Den,2012,2012,10,10,1,TRUE,TRUE,0,10,10,Before
+Matlahuayl SMR,S. purpuratus,PISCO,Den,2019,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,S. purpuratus,PISCO,Den,2020,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,S. purpuratus,PISCO,Den,2021,2012,9,9,1,TRUE,TRUE,0,9,9,After
+Matlahuayl SMR,S. purpuratus,PISCO,Den,2022,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Matlahuayl SMR,S. purpuratus,PISCO,Den,2023,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Naples SMCA,M. franciscanus,LTER,Bio,2010,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,M. franciscanus,LTER,Bio,2011,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,M. franciscanus,LTER,Bio,2012,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,M. franciscanus,LTER,Bio,2013,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,LTER,Bio,2014,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,LTER,Bio,2015,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,LTER,Bio,2016,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,LTER,Bio,2017,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,LTER,Bio,2018,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,LTER,Bio,2019,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,LTER,Bio,2020,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,LTER,Bio,2021,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,LTER,Bio,2022,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,LTER,Bio,2023,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,LTER,Den,2001,2012,8,8,1,TRUE,TRUE,0,8,8,Before
+Naples SMCA,M. franciscanus,LTER,Den,2002,2012,8,8,1,TRUE,TRUE,0,8,8,Before
+Naples SMCA,M. franciscanus,LTER,Den,2003,2012,8,8,1,TRUE,TRUE,0,8,8,Before
+Naples SMCA,M. franciscanus,LTER,Den,2004,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,M. franciscanus,LTER,Den,2005,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,M. franciscanus,LTER,Den,2006,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,M. franciscanus,LTER,Den,2007,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,M. franciscanus,LTER,Den,2008,2012,7;8,7,1,FALSE,TRUE,0,7.5,7,Before
+Naples SMCA,M. franciscanus,LTER,Den,2009,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,M. franciscanus,LTER,Den,2010,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,M. franciscanus,LTER,Den,2011,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,M. franciscanus,LTER,Den,2012,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,M. franciscanus,LTER,Den,2013,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,LTER,Den,2014,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,LTER,Den,2015,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,LTER,Den,2016,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,LTER,Den,2017,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,LTER,Den,2018,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,LTER,Den,2019,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,LTER,Den,2020,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,LTER,Den,2021,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,LTER,Den,2022,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,LTER,Den,2023,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,PISCO,Bio,2011,2012,8,7,0,FALSE,TRUE,1,8,7,Before
+Naples SMCA,M. franciscanus,PISCO,Bio,2012,2012,8,7,0,FALSE,TRUE,1,8,7,Before
+Naples SMCA,M. franciscanus,PISCO,Bio,2013,2012,8;9,7;9,1,FALSE,TRUE,0,8.33333333333333,8,After
+Naples SMCA,M. franciscanus,PISCO,Bio,2014,2012,7;8,8,1,FALSE,TRUE,0,7.33333333333333,8,After
+Naples SMCA,M. franciscanus,PISCO,Bio,2015,2012,7;10,7;10,2,TRUE,TRUE,0,8.5,8,After
+Naples SMCA,M. franciscanus,PISCO,Bio,2016,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,PISCO,Bio,2017,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,PISCO,Bio,2018,2012,6,7,0,FALSE,TRUE,1,6,7,After
+Naples SMCA,M. franciscanus,PISCO,Bio,2019,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,M. franciscanus,PISCO,Bio,2020,2012,7;8,7;8,2,TRUE,TRUE,0,7.66666666666667,7.5,After
+Naples SMCA,M. franciscanus,PISCO,Bio,2021,2012,7;8,8,1,FALSE,TRUE,0,7.66666666666667,8,After
+Naples SMCA,M. franciscanus,PISCO,Bio,2022,2012,8,7;8,1,FALSE,TRUE,0,8,7.33333333333333,After
+Naples SMCA,M. franciscanus,PISCO,Bio,2023,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,PISCO,Den,2010,2012,8,7,0,FALSE,TRUE,1,8,7,Before
+Naples SMCA,M. franciscanus,PISCO,Den,2011,2012,8,7,0,FALSE,TRUE,1,8,7,Before
+Naples SMCA,M. franciscanus,PISCO,Den,2012,2012,8,7,0,FALSE,TRUE,1,8,7,Before
+Naples SMCA,M. franciscanus,PISCO,Den,2013,2012,8;9,7;9,1,FALSE,TRUE,0,8.33333333333333,8,After
+Naples SMCA,M. franciscanus,PISCO,Den,2014,2012,7;8,8,1,FALSE,TRUE,0,7.33333333333333,8,After
+Naples SMCA,M. franciscanus,PISCO,Den,2015,2012,7;10,7;10,2,TRUE,TRUE,0,8.5,8,After
+Naples SMCA,M. franciscanus,PISCO,Den,2016,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,PISCO,Den,2017,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. franciscanus,PISCO,Den,2018,2012,6,7,0,FALSE,TRUE,1,6,7,After
+Naples SMCA,M. franciscanus,PISCO,Den,2019,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,M. franciscanus,PISCO,Den,2020,2012,7;8,7;8,2,TRUE,TRUE,0,7.66666666666667,7.5,After
+Naples SMCA,M. franciscanus,PISCO,Den,2021,2012,7;8,8,1,FALSE,TRUE,0,7.66666666666667,8,After
+Naples SMCA,M. franciscanus,PISCO,Den,2022,2012,8,7;8,1,FALSE,TRUE,0,8,7.33333333333333,After
+Naples SMCA,M. franciscanus,PISCO,Den,2023,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. pyrifera,LTER,Bio,2001,2012,8,8,1,TRUE,TRUE,0,8,8,Before
+Naples SMCA,M. pyrifera,LTER,Bio,2002,2012,8,8,1,TRUE,TRUE,0,8,8,Before
+Naples SMCA,M. pyrifera,LTER,Bio,2003,2012,8,8,1,TRUE,TRUE,0,8,8,Before
+Naples SMCA,M. pyrifera,LTER,Bio,2004,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,M. pyrifera,LTER,Bio,2005,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,M. pyrifera,LTER,Bio,2006,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,M. pyrifera,LTER,Bio,2007,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,M. pyrifera,LTER,Bio,2008,2012,7;8,7,1,FALSE,TRUE,0,7.5,7,Before
+Naples SMCA,M. pyrifera,LTER,Bio,2009,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,M. pyrifera,LTER,Bio,2010,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,M. pyrifera,LTER,Bio,2011,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,M. pyrifera,LTER,Bio,2012,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,M. pyrifera,LTER,Bio,2013,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. pyrifera,LTER,Bio,2014,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. pyrifera,LTER,Bio,2015,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. pyrifera,LTER,Bio,2016,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. pyrifera,LTER,Bio,2017,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. pyrifera,LTER,Bio,2018,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. pyrifera,LTER,Bio,2019,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. pyrifera,LTER,Bio,2020,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. pyrifera,LTER,Bio,2021,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. pyrifera,LTER,Bio,2022,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. pyrifera,LTER,Bio,2023,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. pyrifera,PISCO,Bio,2010,2012,8,7,0,FALSE,TRUE,1,8,7,Before
+Naples SMCA,M. pyrifera,PISCO,Bio,2011,2012,8,7,0,FALSE,TRUE,1,8,7,Before
+Naples SMCA,M. pyrifera,PISCO,Bio,2012,2012,8,7,0,FALSE,TRUE,1,8,7,Before
+Naples SMCA,M. pyrifera,PISCO,Bio,2013,2012,8;9,7;9,1,FALSE,TRUE,0,8.33333333333333,8,After
+Naples SMCA,M. pyrifera,PISCO,Bio,2014,2012,7;8,8,1,FALSE,TRUE,0,7.33333333333333,8,After
+Naples SMCA,M. pyrifera,PISCO,Bio,2015,2012,7;10,7;10,2,TRUE,TRUE,0,8.5,8,After
+Naples SMCA,M. pyrifera,PISCO,Bio,2016,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. pyrifera,PISCO,Bio,2017,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,M. pyrifera,PISCO,Bio,2018,2012,6,7,0,FALSE,TRUE,1,6,7,After
+Naples SMCA,M. pyrifera,PISCO,Bio,2019,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,M. pyrifera,PISCO,Bio,2020,2012,7;8,7;8,2,TRUE,TRUE,0,7.66666666666667,7.5,After
+Naples SMCA,M. pyrifera,PISCO,Bio,2021,2012,7;8,8,1,FALSE,TRUE,0,7.66666666666667,8,After
+Naples SMCA,M. pyrifera,PISCO,Bio,2022,2012,8,7;8,1,FALSE,TRUE,0,8,7.33333333333333,After
+Naples SMCA,M. pyrifera,PISCO,Bio,2023,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,P. interruptus,LTER,Bio,2012,2012,8,8,1,TRUE,TRUE,0,8,8,Before
+Naples SMCA,P. interruptus,LTER,Bio,2013,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,P. interruptus,LTER,Bio,2014,2012,8,9,0,FALSE,TRUE,1,8,9,After
+Naples SMCA,P. interruptus,LTER,Bio,2015,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,P. interruptus,LTER,Bio,2016,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,P. interruptus,LTER,Bio,2017,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,P. interruptus,LTER,Bio,2018,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,P. interruptus,LTER,Bio,2019,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,P. interruptus,LTER,Bio,2020,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,P. interruptus,LTER,Bio,2021,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,P. interruptus,LTER,Bio,2022,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,P. interruptus,LTER,Bio,2023,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,P. interruptus,LTER,Den,2012,2012,8,8,1,TRUE,TRUE,0,8,8,Before
+Naples SMCA,P. interruptus,LTER,Den,2013,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,P. interruptus,LTER,Den,2014,2012,8,9,0,FALSE,TRUE,1,8,9,After
+Naples SMCA,P. interruptus,LTER,Den,2015,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,P. interruptus,LTER,Den,2016,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,P. interruptus,LTER,Den,2017,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,P. interruptus,LTER,Den,2018,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,P. interruptus,LTER,Den,2019,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,P. interruptus,LTER,Den,2020,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,P. interruptus,LTER,Den,2021,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,P. interruptus,LTER,Den,2022,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,P. interruptus,LTER,Den,2023,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,P. interruptus,PISCO,Den,2010,2012,8,7,0,FALSE,TRUE,1,8,7,Before
+Naples SMCA,P. interruptus,PISCO,Den,2011,2012,8,7,0,FALSE,TRUE,1,8,7,Before
+Naples SMCA,P. interruptus,PISCO,Den,2012,2012,8,7,0,FALSE,TRUE,1,8,7,Before
+Naples SMCA,P. interruptus,PISCO,Den,2013,2012,8;9,7;9,1,FALSE,TRUE,0,8.33333333333333,8,After
+Naples SMCA,P. interruptus,PISCO,Den,2014,2012,7;8,8,1,FALSE,TRUE,0,7.33333333333333,8,After
+Naples SMCA,P. interruptus,PISCO,Den,2015,2012,7;10,7;10,2,TRUE,TRUE,0,8.5,8,After
+Naples SMCA,P. interruptus,PISCO,Den,2016,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,P. interruptus,PISCO,Den,2017,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,P. interruptus,PISCO,Den,2018,2012,6,7,0,FALSE,TRUE,1,6,7,After
+Naples SMCA,P. interruptus,PISCO,Den,2019,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,P. interruptus,PISCO,Den,2020,2012,7;8,7;8,2,TRUE,TRUE,0,7.66666666666667,7.5,After
+Naples SMCA,P. interruptus,PISCO,Den,2021,2012,7;8,8,1,FALSE,TRUE,0,7.66666666666667,8,After
+Naples SMCA,P. interruptus,PISCO,Den,2022,2012,8,7;8,1,FALSE,TRUE,0,8,7.33333333333333,After
+Naples SMCA,P. interruptus,PISCO,Den,2023,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,S. pulcher,LTER,Bio,2001,2012,8,8,1,TRUE,TRUE,0,8,8,Before
+Naples SMCA,S. pulcher,LTER,Bio,2002,2012,8,8,1,TRUE,TRUE,0,8,8,Before
+Naples SMCA,S. pulcher,LTER,Bio,2003,2012,8,8,1,TRUE,TRUE,0,8,8,Before
+Naples SMCA,S. pulcher,LTER,Bio,2004,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,S. pulcher,LTER,Bio,2005,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,S. pulcher,LTER,Bio,2006,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,S. pulcher,LTER,Bio,2007,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,S. pulcher,LTER,Bio,2008,2012,7;8,7,1,FALSE,TRUE,0,7.5,7,Before
+Naples SMCA,S. pulcher,LTER,Bio,2009,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,S. pulcher,LTER,Bio,2010,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,S. pulcher,LTER,Bio,2011,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,S. pulcher,LTER,Bio,2012,2012,7,7,1,TRUE,TRUE,0,7,7,Before
+Naples SMCA,S. pulcher,LTER,Bio,2013,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,S. pulcher,LTER,Bio,2014,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,S. pulcher,LTER,Bio,2015,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,S. pulcher,LTER,Bio,2016,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,S. pulcher,LTER,Bio,2017,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,S. pulcher,LTER,Bio,2018,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,S. pulcher,LTER,Bio,2019,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,S. pulcher,LTER,Bio,2020,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,S. pulcher,LTER,Bio,2021,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,S. pulcher,LTER,Bio,2022,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,S. pulcher,LTER,Bio,2023,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,S. pulcher,PISCO,Bio,2009,2012,9,10,0,FALSE,TRUE,1,9,10,Before
+Naples SMCA,S. pulcher,PISCO,Bio,2010,2012,9,9,1,TRUE,TRUE,0,9,9,Before
+Naples SMCA,S. pulcher,PISCO,Bio,2011,2012,9,10;11,0,FALSE,TRUE,1,9,10.3333333333333,Before
+Naples SMCA,S. pulcher,PISCO,Bio,2012,2012,8,11,0,FALSE,TRUE,3,8,11,Before
+Naples SMCA,S. pulcher,PISCO,Bio,2013,2012,8;9,7,0,FALSE,TRUE,1,8.33333333333333,7,After
+Naples SMCA,S. pulcher,PISCO,Bio,2015,2012,11,10;11,1,FALSE,TRUE,0,11,10.5,After
+Naples SMCA,S. pulcher,PISCO,Bio,2016,2012,9,10;11,0,FALSE,TRUE,1,9,10.5,After
+Naples SMCA,S. pulcher,PISCO,Bio,2017,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,S. pulcher,PISCO,Bio,2018,2012,8,10,0,FALSE,TRUE,2,8,10,After
+Naples SMCA,S. pulcher,PISCO,Bio,2019,2012,9,9,1,TRUE,TRUE,0,9,9,After
+Naples SMCA,S. pulcher,PISCO,Bio,2020,2012,7,7;8;9,1,FALSE,TRUE,0,7,8,After
+Naples SMCA,S. pulcher,PISCO,Bio,2021,2012,10,8,0,FALSE,TRUE,2,10,8,After
+Naples SMCA,S. pulcher,PISCO,Bio,2022,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,S. pulcher,PISCO,Bio,2023,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,S. pulcher,PISCO,Den,2009,2012,9,10,0,FALSE,TRUE,1,9,10,Before
+Naples SMCA,S. pulcher,PISCO,Den,2010,2012,9,9,1,TRUE,TRUE,0,9,9,Before
+Naples SMCA,S. pulcher,PISCO,Den,2011,2012,9,10;11,0,FALSE,TRUE,1,9,10.3333333333333,Before
+Naples SMCA,S. pulcher,PISCO,Den,2012,2012,8,11,0,FALSE,TRUE,3,8,11,Before
+Naples SMCA,S. pulcher,PISCO,Den,2013,2012,8;9,7,0,FALSE,TRUE,1,8.33333333333333,7,After
+Naples SMCA,S. pulcher,PISCO,Den,2015,2012,11,10;11,1,FALSE,TRUE,0,11,10.5,After
+Naples SMCA,S. pulcher,PISCO,Den,2016,2012,9,10;11,0,FALSE,TRUE,1,9,10.5,After
+Naples SMCA,S. pulcher,PISCO,Den,2017,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,S. pulcher,PISCO,Den,2018,2012,8,10,0,FALSE,TRUE,2,8,10,After
+Naples SMCA,S. pulcher,PISCO,Den,2019,2012,9,9,1,TRUE,TRUE,0,9,9,After
+Naples SMCA,S. pulcher,PISCO,Den,2020,2012,7,7;8;9,1,FALSE,TRUE,0,7,8,After
+Naples SMCA,S. pulcher,PISCO,Den,2021,2012,10,8,0,FALSE,TRUE,2,10,8,After
+Naples SMCA,S. pulcher,PISCO,Den,2022,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,S. pulcher,PISCO,Den,2023,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,S. purpuratus,PISCO,Bio,2011,2012,8,7,0,FALSE,TRUE,1,8,7,Before
+Naples SMCA,S. purpuratus,PISCO,Bio,2012,2012,8,7,0,FALSE,TRUE,1,8,7,Before
+Naples SMCA,S. purpuratus,PISCO,Bio,2013,2012,8;9,7;9,1,FALSE,TRUE,0,8.33333333333333,8,After
+Naples SMCA,S. purpuratus,PISCO,Bio,2014,2012,7;8,8,1,FALSE,TRUE,0,7.33333333333333,8,After
+Naples SMCA,S. purpuratus,PISCO,Bio,2015,2012,7;10,7;10,2,TRUE,TRUE,0,8.5,8,After
+Naples SMCA,S. purpuratus,PISCO,Bio,2016,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,S. purpuratus,PISCO,Bio,2017,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,S. purpuratus,PISCO,Bio,2018,2012,6,7,0,FALSE,TRUE,1,6,7,After
+Naples SMCA,S. purpuratus,PISCO,Bio,2019,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,S. purpuratus,PISCO,Bio,2020,2012,7;8,7;8,2,TRUE,TRUE,0,7.66666666666667,7.5,After
+Naples SMCA,S. purpuratus,PISCO,Bio,2021,2012,7;8,8,1,FALSE,TRUE,0,7.66666666666667,8,After
+Naples SMCA,S. purpuratus,PISCO,Bio,2022,2012,8,7;8,1,FALSE,TRUE,0,8,7.33333333333333,After
+Naples SMCA,S. purpuratus,PISCO,Bio,2023,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,S. purpuratus,PISCO,Den,2010,2012,8,7,0,FALSE,TRUE,1,8,7,Before
+Naples SMCA,S. purpuratus,PISCO,Den,2011,2012,8,7,0,FALSE,TRUE,1,8,7,Before
+Naples SMCA,S. purpuratus,PISCO,Den,2012,2012,8,7,0,FALSE,TRUE,1,8,7,Before
+Naples SMCA,S. purpuratus,PISCO,Den,2013,2012,8;9,7;9,1,FALSE,TRUE,0,8.33333333333333,8,After
+Naples SMCA,S. purpuratus,PISCO,Den,2014,2012,7;8,8,1,FALSE,TRUE,0,7.33333333333333,8,After
+Naples SMCA,S. purpuratus,PISCO,Den,2015,2012,7;10,7;10,2,TRUE,TRUE,0,8.5,8,After
+Naples SMCA,S. purpuratus,PISCO,Den,2016,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,S. purpuratus,PISCO,Den,2017,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Naples SMCA,S. purpuratus,PISCO,Den,2018,2012,6,7,0,FALSE,TRUE,1,6,7,After
+Naples SMCA,S. purpuratus,PISCO,Den,2019,2012,8,8,1,TRUE,TRUE,0,8,8,After
+Naples SMCA,S. purpuratus,PISCO,Den,2020,2012,7;8,7;8,2,TRUE,TRUE,0,7.66666666666667,7.5,After
+Naples SMCA,S. purpuratus,PISCO,Den,2021,2012,7;8,8,1,FALSE,TRUE,0,7.66666666666667,8,After
+Naples SMCA,S. purpuratus,PISCO,Den,2022,2012,8,7;8,1,FALSE,TRUE,0,8,7.33333333333333,After
+Naples SMCA,S. purpuratus,PISCO,Den,2023,2012,7,7,1,TRUE,TRUE,0,7,7,After
+Point Vicente SMCA,M. franciscanus,PISCO,Bio,2009,2012,5;9,8;9,1,FALSE,TRUE,0,7,8.5,Before
+Point Vicente SMCA,M. franciscanus,PISCO,Bio,2010,2012,7;8;9,6;7;8;9;10,3,FALSE,TRUE,0,7.75,7.5,Before
+Point Vicente SMCA,M. franciscanus,PISCO,Bio,2011,2012,8;10,5;6;8;9;10,2,FALSE,TRUE,0,8.66666666666667,7,Before
+Point Vicente SMCA,M. franciscanus,PISCO,Bio,2012,2012,8,5;6;7;8,1,FALSE,TRUE,0,8,6.54545454545455,Before
+Point Vicente SMCA,M. franciscanus,PISCO,Bio,2013,2012,6,6;7;8,1,FALSE,TRUE,0,6,6.75,After
+Point Vicente SMCA,M. franciscanus,PISCO,Bio,2015,2012,9;10,9;10,2,TRUE,TRUE,0,9.66666666666667,9.33333333333333,After
+Point Vicente SMCA,M. franciscanus,PISCO,Bio,2016,2012,6;8,6;8;9,2,FALSE,TRUE,0,7.33333333333333,7.25,After
+Point Vicente SMCA,M. franciscanus,PISCO,Bio,2017,2012,7;9,5;6;8;9;10,1,FALSE,TRUE,0,8,7.1,After
+Point Vicente SMCA,M. franciscanus,PISCO,Bio,2018,2012,7;8;9,6;7;8;9;10,3,FALSE,TRUE,0,8.25,7.93333333333333,After
+Point Vicente SMCA,M. franciscanus,PISCO,Bio,2019,2012,6;9,6;7;8;9,2,FALSE,TRUE,0,7.5,7.44444444444445,After
+Point Vicente SMCA,M. franciscanus,PISCO,Bio,2020,2012,8;9,6;7;8;9,2,FALSE,TRUE,0,8.5,7.18181818181818,After
+Point Vicente SMCA,M. franciscanus,PISCO,Bio,2021,2012,7,6;8;9;10,0,FALSE,TRUE,1,7,8.30769230769231,After
+Point Vicente SMCA,M. franciscanus,PISCO,Bio,2022,2012,7;9,6;7;8;9,2,FALSE,TRUE,0,8,7.18181818181818,After
+Point Vicente SMCA,M. franciscanus,PISCO,Bio,2023,2012,8;9;10,6;7;9,1,FALSE,TRUE,0,9,7.66666666666667,After
+Point Vicente SMCA,M. franciscanus,PISCO,Den,2008,2012,5;8;9,5;6;7;10,1,FALSE,TRUE,0,7.33333333333333,6.75,Before
+Point Vicente SMCA,M. franciscanus,PISCO,Den,2009,2012,5;9,8;9,1,FALSE,TRUE,0,7,8.5,Before
+Point Vicente SMCA,M. franciscanus,PISCO,Den,2010,2012,7;8;9,6;7;8;9;10,3,FALSE,TRUE,0,7.75,7.5,Before
+Point Vicente SMCA,M. franciscanus,PISCO,Den,2011,2012,8;10,5;6;8;9;10,2,FALSE,TRUE,0,8.66666666666667,7,Before
+Point Vicente SMCA,M. franciscanus,PISCO,Den,2012,2012,8,5;6;7;8,1,FALSE,TRUE,0,8,6.54545454545455,Before
+Point Vicente SMCA,M. franciscanus,PISCO,Den,2013,2012,6,6;7;8,1,FALSE,TRUE,0,6,6.75,After
+Point Vicente SMCA,M. franciscanus,PISCO,Den,2015,2012,9;10,9;10,2,TRUE,TRUE,0,9.66666666666667,9.33333333333333,After
+Point Vicente SMCA,M. franciscanus,PISCO,Den,2016,2012,6;8,6;8;9,2,FALSE,TRUE,0,7.33333333333333,7.25,After
+Point Vicente SMCA,M. franciscanus,PISCO,Den,2017,2012,7;9,5;6;8;9;10,1,FALSE,TRUE,0,8,7.1,After
+Point Vicente SMCA,M. franciscanus,PISCO,Den,2018,2012,7;8;9,6;7;8;9;10,3,FALSE,TRUE,0,8.25,7.93333333333333,After
+Point Vicente SMCA,M. franciscanus,PISCO,Den,2019,2012,6;9,6;7;8;9,2,FALSE,TRUE,0,7.5,7.44444444444445,After
+Point Vicente SMCA,M. franciscanus,PISCO,Den,2020,2012,8;9,6;7;8;9,2,FALSE,TRUE,0,8.5,7.18181818181818,After
+Point Vicente SMCA,M. franciscanus,PISCO,Den,2021,2012,7,6;8;9;10,0,FALSE,TRUE,1,7,8.30769230769231,After
+Point Vicente SMCA,M. franciscanus,PISCO,Den,2022,2012,7;9,6;7;8;9,2,FALSE,TRUE,0,8,7.18181818181818,After
+Point Vicente SMCA,M. franciscanus,PISCO,Den,2023,2012,8;9;10,6;7;9,1,FALSE,TRUE,0,9,7.66666666666667,After
+Point Vicente SMCA,M. pyrifera,PISCO,Bio,2008,2012,5;8;9,5;6;7;10,1,FALSE,TRUE,0,7.33333333333333,6.75,Before
+Point Vicente SMCA,M. pyrifera,PISCO,Bio,2009,2012,5;9,8;9,1,FALSE,TRUE,0,7,8.5,Before
+Point Vicente SMCA,M. pyrifera,PISCO,Bio,2010,2012,7;8;9,6;7;8;9;10,3,FALSE,TRUE,0,7.75,7.5,Before
+Point Vicente SMCA,M. pyrifera,PISCO,Bio,2011,2012,8;10,5;6;8;9;10,2,FALSE,TRUE,0,8.66666666666667,7,Before
+Point Vicente SMCA,M. pyrifera,PISCO,Bio,2012,2012,8,5;6;7;8,1,FALSE,TRUE,0,8,6.54545454545455,Before
+Point Vicente SMCA,M. pyrifera,PISCO,Bio,2013,2012,6,6;7;8,1,FALSE,TRUE,0,6,6.75,After
+Point Vicente SMCA,M. pyrifera,PISCO,Bio,2015,2012,9;10,9;10,2,TRUE,TRUE,0,9.66666666666667,9.33333333333333,After
+Point Vicente SMCA,M. pyrifera,PISCO,Bio,2016,2012,6;8,6;8;9,2,FALSE,TRUE,0,7.33333333333333,7.25,After
+Point Vicente SMCA,M. pyrifera,PISCO,Bio,2017,2012,7;9,5;6;8;9;10,1,FALSE,TRUE,0,8,7.1,After
+Point Vicente SMCA,M. pyrifera,PISCO,Bio,2018,2012,7;8;9,6;7;8;9;10,3,FALSE,TRUE,0,8.25,7.93333333333333,After
+Point Vicente SMCA,M. pyrifera,PISCO,Bio,2019,2012,6;9,6;7;8;9,2,FALSE,TRUE,0,7.5,7.44444444444445,After
+Point Vicente SMCA,M. pyrifera,PISCO,Bio,2020,2012,8;9,6;7;8;9,2,FALSE,TRUE,0,8.5,7.18181818181818,After
+Point Vicente SMCA,M. pyrifera,PISCO,Bio,2021,2012,7,6;8;9;10,0,FALSE,TRUE,1,7,8.30769230769231,After
+Point Vicente SMCA,M. pyrifera,PISCO,Bio,2022,2012,7;9,6;7;8;9,2,FALSE,TRUE,0,8,7.18181818181818,After
+Point Vicente SMCA,M. pyrifera,PISCO,Bio,2023,2012,8;9;10,6;7;9,1,FALSE,TRUE,0,9,7.66666666666667,After
+Point Vicente SMCA,P. interruptus,PISCO,Bio,2011,2012,8;10,5;6;8;9;10,2,FALSE,TRUE,0,8.66666666666667,7,Before
+Point Vicente SMCA,P. interruptus,PISCO,Bio,2012,2012,8,5;6;7;8,1,FALSE,TRUE,0,8,6.54545454545455,Before
+Point Vicente SMCA,P. interruptus,PISCO,Bio,2013,2012,6,6;7;8,1,FALSE,TRUE,0,6,6.75,After
+Point Vicente SMCA,P. interruptus,PISCO,Bio,2015,2012,9;10,9;10,2,TRUE,TRUE,0,9.66666666666667,9.33333333333333,After
+Point Vicente SMCA,P. interruptus,PISCO,Bio,2016,2012,6;8,6;8;9,2,FALSE,TRUE,0,7.33333333333333,7.25,After
+Point Vicente SMCA,P. interruptus,PISCO,Bio,2017,2012,7;9,5;6;8;9;10,1,FALSE,TRUE,0,8,7.1,After
+Point Vicente SMCA,P. interruptus,PISCO,Bio,2018,2012,7;8;9,6;7;8;9;10,3,FALSE,TRUE,0,8.25,7.93333333333333,After
+Point Vicente SMCA,P. interruptus,PISCO,Bio,2019,2012,6;9,6;7;8;9,2,FALSE,TRUE,0,7.5,7.44444444444445,After
+Point Vicente SMCA,P. interruptus,PISCO,Bio,2020,2012,8;9,6;7;8;9,2,FALSE,TRUE,0,8.5,7.18181818181818,After
+Point Vicente SMCA,P. interruptus,PISCO,Bio,2021,2012,7,6;8;9;10,0,FALSE,TRUE,1,7,8.30769230769231,After
+Point Vicente SMCA,P. interruptus,PISCO,Bio,2022,2012,7;9,6;7;8;9,2,FALSE,TRUE,0,8,7.18181818181818,After
+Point Vicente SMCA,P. interruptus,PISCO,Bio,2023,2012,8;9;10,6;7;9,1,FALSE,TRUE,0,9,7.66666666666667,After
+Point Vicente SMCA,P. interruptus,PISCO,Den,2008,2012,5;8;9,5;6;7;10,1,FALSE,TRUE,0,7.33333333333333,6.75,Before
+Point Vicente SMCA,P. interruptus,PISCO,Den,2009,2012,5;9,8;9,1,FALSE,TRUE,0,7,8.5,Before
+Point Vicente SMCA,P. interruptus,PISCO,Den,2010,2012,7;8;9,6;7;8;9;10,3,FALSE,TRUE,0,7.75,7.5,Before
+Point Vicente SMCA,P. interruptus,PISCO,Den,2011,2012,8;10,5;6;8;9;10,2,FALSE,TRUE,0,8.66666666666667,7,Before
+Point Vicente SMCA,P. interruptus,PISCO,Den,2012,2012,8,5;6;7;8,1,FALSE,TRUE,0,8,6.54545454545455,Before
+Point Vicente SMCA,P. interruptus,PISCO,Den,2013,2012,6,6;7;8,1,FALSE,TRUE,0,6,6.75,After
+Point Vicente SMCA,P. interruptus,PISCO,Den,2015,2012,9;10,9;10,2,TRUE,TRUE,0,9.66666666666667,9.33333333333333,After
+Point Vicente SMCA,P. interruptus,PISCO,Den,2016,2012,6;8,6;8;9,2,FALSE,TRUE,0,7.33333333333333,7.25,After
+Point Vicente SMCA,P. interruptus,PISCO,Den,2017,2012,7;9,5;6;8;9;10,1,FALSE,TRUE,0,8,7.1,After
+Point Vicente SMCA,P. interruptus,PISCO,Den,2018,2012,7;8;9,6;7;8;9;10,3,FALSE,TRUE,0,8.25,7.93333333333333,After
+Point Vicente SMCA,P. interruptus,PISCO,Den,2019,2012,6;9,6;7;8;9,2,FALSE,TRUE,0,7.5,7.44444444444445,After
+Point Vicente SMCA,P. interruptus,PISCO,Den,2020,2012,8;9,6;7;8;9,2,FALSE,TRUE,0,8.5,7.18181818181818,After
+Point Vicente SMCA,P. interruptus,PISCO,Den,2021,2012,7,6;8;9;10,0,FALSE,TRUE,1,7,8.30769230769231,After
+Point Vicente SMCA,P. interruptus,PISCO,Den,2022,2012,7;9,6;7;8;9,2,FALSE,TRUE,0,8,7.18181818181818,After
+Point Vicente SMCA,P. interruptus,PISCO,Den,2023,2012,8;9;10,6;7;9,1,FALSE,TRUE,0,9,7.66666666666667,After
+Point Vicente SMCA,S. pulcher,PISCO,Bio,2009,2012,5;9;11,8;9,1,FALSE,TRUE,0,8.33333333333333,8.66666666666667,Before
+Point Vicente SMCA,S. pulcher,PISCO,Bio,2010,2012,1;7;8;9,6;7;9;10,2,FALSE,TRUE,0,6.4,7.8,Before
+Point Vicente SMCA,S. pulcher,PISCO,Bio,2011,2012,8;10,3;5;8,1,FALSE,TRUE,0,8.66666666666667,5.33333333333333,Before
+Point Vicente SMCA,S. pulcher,PISCO,Bio,2012,2012,8,6;7;8,1,FALSE,TRUE,0,8,7,Before
+Point Vicente SMCA,S. pulcher,PISCO,Bio,2013,2012,3;4;6,4;6,2,FALSE,TRUE,0,4.33333333333333,5,After
+Point Vicente SMCA,S. pulcher,PISCO,Bio,2014,2012,4;12,6;10;11,0,FALSE,TRUE,1,8,9,After
+Point Vicente SMCA,S. pulcher,PISCO,Bio,2015,2012,1;9;10,9,1,FALSE,TRUE,0,7.5,9,After
+Point Vicente SMCA,S. pulcher,PISCO,Bio,2016,2012,6;8,6;9,1,FALSE,TRUE,0,7.33333333333333,7.5,After
+Point Vicente SMCA,S. pulcher,PISCO,Bio,2017,2012,7;9,6;9,1,FALSE,TRUE,0,8,7.5,After
+Point Vicente SMCA,S. pulcher,PISCO,Bio,2018,2012,7;8;9,6;7;9;10,2,FALSE,TRUE,0,8.25,7.6,After
+Point Vicente SMCA,S. pulcher,PISCO,Bio,2019,2012,6;9,6,1,FALSE,TRUE,0,7.5,6,After
+Point Vicente SMCA,S. pulcher,PISCO,Bio,2020,2012,8;9,7;8,1,FALSE,TRUE,0,8.5,7.33333333333333,After
+Point Vicente SMCA,S. pulcher,PISCO,Bio,2021,2012,7,6;8;9,0,FALSE,TRUE,1,7,7.66666666666667,After
+Point Vicente SMCA,S. pulcher,PISCO,Bio,2022,2012,7;9,7;9,2,TRUE,TRUE,0,8,7.66666666666667,After
+Point Vicente SMCA,S. pulcher,PISCO,Bio,2023,2012,8;9;10;11,7;11,1,FALSE,TRUE,0,9.5,9,After
+Point Vicente SMCA,S. pulcher,PISCO,Den,2009,2012,5;9;11,8;9,1,FALSE,TRUE,0,8.33333333333333,8.66666666666667,Before
+Point Vicente SMCA,S. pulcher,PISCO,Den,2010,2012,1;7;8;9,6;7;9;10,2,FALSE,TRUE,0,6.4,7.8,Before
+Point Vicente SMCA,S. pulcher,PISCO,Den,2011,2012,8;10,3;5;8,1,FALSE,TRUE,0,8.66666666666667,5.33333333333333,Before
+Point Vicente SMCA,S. pulcher,PISCO,Den,2012,2012,8,6;7;8,1,FALSE,TRUE,0,8,7,Before
+Point Vicente SMCA,S. pulcher,PISCO,Den,2013,2012,3;4;6,4;6,2,FALSE,TRUE,0,4.33333333333333,5,After
+Point Vicente SMCA,S. pulcher,PISCO,Den,2014,2012,4;12,6;10;11,0,FALSE,TRUE,1,8,9,After
+Point Vicente SMCA,S. pulcher,PISCO,Den,2015,2012,1;9;10,9,1,FALSE,TRUE,0,7.5,9,After
+Point Vicente SMCA,S. pulcher,PISCO,Den,2016,2012,6;8,6;9,1,FALSE,TRUE,0,7.33333333333333,7.5,After
+Point Vicente SMCA,S. pulcher,PISCO,Den,2017,2012,7;9,6;9,1,FALSE,TRUE,0,8,7.5,After
+Point Vicente SMCA,S. pulcher,PISCO,Den,2018,2012,7;8;9,6;7;9;10,2,FALSE,TRUE,0,8.25,7.6,After
+Point Vicente SMCA,S. pulcher,PISCO,Den,2019,2012,6;9,6,1,FALSE,TRUE,0,7.5,6,After
+Point Vicente SMCA,S. pulcher,PISCO,Den,2020,2012,8;9,7;8,1,FALSE,TRUE,0,8.5,7.33333333333333,After
+Point Vicente SMCA,S. pulcher,PISCO,Den,2021,2012,7,6;8;9,0,FALSE,TRUE,1,7,7.66666666666667,After
+Point Vicente SMCA,S. pulcher,PISCO,Den,2022,2012,7;9,7;9,2,TRUE,TRUE,0,8,7.66666666666667,After
+Point Vicente SMCA,S. pulcher,PISCO,Den,2023,2012,8;9;10;11,7;11,1,FALSE,TRUE,0,9.5,9,After
+Point Vicente SMCA,S. purpuratus,PISCO,Bio,2009,2012,5;9,8;9,1,FALSE,TRUE,0,7,8.5,Before
+Point Vicente SMCA,S. purpuratus,PISCO,Bio,2010,2012,7;8;9,6;7;8;9;10,3,FALSE,TRUE,0,7.75,7.5,Before
+Point Vicente SMCA,S. purpuratus,PISCO,Bio,2011,2012,8;10,5;6;8;9;10,2,FALSE,TRUE,0,8.66666666666667,7,Before
+Point Vicente SMCA,S. purpuratus,PISCO,Bio,2012,2012,8,5;6;7;8,1,FALSE,TRUE,0,8,6.54545454545455,Before
+Point Vicente SMCA,S. purpuratus,PISCO,Bio,2013,2012,6,6;7;8,1,FALSE,TRUE,0,6,6.75,After
+Point Vicente SMCA,S. purpuratus,PISCO,Bio,2015,2012,9;10,9;10,2,TRUE,TRUE,0,9.66666666666667,9.33333333333333,After
+Point Vicente SMCA,S. purpuratus,PISCO,Bio,2016,2012,6;8,6;8;9,2,FALSE,TRUE,0,7.33333333333333,7.25,After
+Point Vicente SMCA,S. purpuratus,PISCO,Bio,2017,2012,7;9,5;6;8;9;10,1,FALSE,TRUE,0,8,7.1,After
+Point Vicente SMCA,S. purpuratus,PISCO,Bio,2018,2012,7;8;9,6;7;8;9;10,3,FALSE,TRUE,0,8.25,7.93333333333333,After
+Point Vicente SMCA,S. purpuratus,PISCO,Bio,2019,2012,6;9,6;7;8;9,2,FALSE,TRUE,0,7.5,7.44444444444445,After
+Point Vicente SMCA,S. purpuratus,PISCO,Bio,2020,2012,8;9,6;7;8;9,2,FALSE,TRUE,0,8.5,7.18181818181818,After
+Point Vicente SMCA,S. purpuratus,PISCO,Bio,2021,2012,7,6;8;9;10,0,FALSE,TRUE,1,7,8.30769230769231,After
+Point Vicente SMCA,S. purpuratus,PISCO,Bio,2022,2012,7;9,6;7;8;9,2,FALSE,TRUE,0,8,7.18181818181818,After
+Point Vicente SMCA,S. purpuratus,PISCO,Bio,2023,2012,8;9;10,6;7;9,1,FALSE,TRUE,0,9,7.66666666666667,After
+Point Vicente SMCA,S. purpuratus,PISCO,Den,2008,2012,5;8;9,5;6;7;10,1,FALSE,TRUE,0,7.33333333333333,6.75,Before
+Point Vicente SMCA,S. purpuratus,PISCO,Den,2009,2012,5;9,8;9,1,FALSE,TRUE,0,7,8.5,Before
+Point Vicente SMCA,S. purpuratus,PISCO,Den,2010,2012,7;8;9,6;7;8;9;10,3,FALSE,TRUE,0,7.75,7.5,Before
+Point Vicente SMCA,S. purpuratus,PISCO,Den,2011,2012,8;10,5;6;8;9;10,2,FALSE,TRUE,0,8.66666666666667,7,Before
+Point Vicente SMCA,S. purpuratus,PISCO,Den,2012,2012,8,5;6;7;8,1,FALSE,TRUE,0,8,6.54545454545455,Before
+Point Vicente SMCA,S. purpuratus,PISCO,Den,2013,2012,6,6;7;8,1,FALSE,TRUE,0,6,6.75,After
+Point Vicente SMCA,S. purpuratus,PISCO,Den,2015,2012,9;10,9;10,2,TRUE,TRUE,0,9.66666666666667,9.33333333333333,After
+Point Vicente SMCA,S. purpuratus,PISCO,Den,2016,2012,6;8,6;8;9,2,FALSE,TRUE,0,7.33333333333333,7.25,After
+Point Vicente SMCA,S. purpuratus,PISCO,Den,2017,2012,7;9,5;6;8;9;10,1,FALSE,TRUE,0,8,7.1,After
+Point Vicente SMCA,S. purpuratus,PISCO,Den,2018,2012,7;8;9,6;7;8;9;10,3,FALSE,TRUE,0,8.25,7.93333333333333,After
+Point Vicente SMCA,S. purpuratus,PISCO,Den,2019,2012,6;9,6;7;8;9,2,FALSE,TRUE,0,7.5,7.44444444444445,After
+Point Vicente SMCA,S. purpuratus,PISCO,Den,2020,2012,8;9,6;7;8;9,2,FALSE,TRUE,0,8.5,7.18181818181818,After
+Point Vicente SMCA,S. purpuratus,PISCO,Den,2021,2012,7,6;8;9;10,0,FALSE,TRUE,1,7,8.30769230769231,After
+Point Vicente SMCA,S. purpuratus,PISCO,Den,2022,2012,7;9,6;7;8;9,2,FALSE,TRUE,0,8,7.18181818181818,After
+Point Vicente SMCA,S. purpuratus,PISCO,Den,2023,2012,8;9;10,6;7;9,1,FALSE,TRUE,0,9,7.66666666666667,After
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,1984,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,1985,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,1986,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,1987,2003,6,6;7,1,FALSE,TRUE,0,6,6.5,Before
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,1988,2003,10,6,0,FALSE,TRUE,4,10,6,Before
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,1990,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,1991,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,1992,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,1993,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,1994,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,1995,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,1996,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,1998,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,1999,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,2000,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,2001,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,2002,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,2003,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,2004,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,2005,2003,5,5,1,TRUE,TRUE,0,5,5,After
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,2006,2003,5,5;6,1,FALSE,TRUE,0,5,5.5,After
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,2007,2003,5,5;6,1,FALSE,TRUE,0,5,5.5,After
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,2008,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,2009,2003,6,5,0,FALSE,TRUE,1,6,5,After
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,2010,2003,6,5,0,FALSE,TRUE,1,6,5,After
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,2011,2003,5,5;6,1,FALSE,TRUE,0,5,5.5,After
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,2012,2003,6,5,0,FALSE,TRUE,1,6,5,After
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,2013,2003,5,5;6,1,FALSE,TRUE,0,5,5.5,After
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,2014,2003,6,5;6,1,FALSE,TRUE,0,6,5.5,After
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,2015,2003,5,5;7,1,FALSE,TRUE,0,5,6,After
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,2016,2003,6,5,0,FALSE,TRUE,1,6,5,After
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,2017,2003,5,5,1,TRUE,TRUE,0,5,5,After
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,2018,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,2019,2003,7,6,0,FALSE,TRUE,1,7,6,After
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,2021,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,2022,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Santa Barbara Island SMR,M. pyrifera,KFM,Bio,2023,2003,5,5,1,TRUE,TRUE,0,5,5,After
+Santa Barbara Island SMR,P. interruptus,KFM,Den,1983,2003,8,8,1,TRUE,TRUE,0,8,8,Before
+Santa Barbara Island SMR,P. interruptus,KFM,Den,1984,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Santa Barbara Island SMR,P. interruptus,KFM,Den,1985,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Santa Barbara Island SMR,P. interruptus,KFM,Den,1986,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,P. interruptus,KFM,Den,1987,2003,6,6;7,1,FALSE,TRUE,0,6,6.5,Before
+Santa Barbara Island SMR,P. interruptus,KFM,Den,1988,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,P. interruptus,KFM,Den,1989,2003,6,6;8,1,FALSE,TRUE,0,6,7,Before
+Santa Barbara Island SMR,P. interruptus,KFM,Den,1990,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,P. interruptus,KFM,Den,1991,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,P. interruptus,KFM,Den,1992,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,P. interruptus,KFM,Den,1993,2003,6,6;9,1,FALSE,TRUE,0,6,7.5,Before
+Santa Barbara Island SMR,P. interruptus,KFM,Den,1994,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,P. interruptus,KFM,Den,1995,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Santa Barbara Island SMR,P. interruptus,KFM,Den,1996,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,P. interruptus,KFM,Den,1997,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,P. interruptus,KFM,Den,1998,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,P. interruptus,KFM,Den,1999,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,P. interruptus,KFM,Den,2000,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,P. interruptus,KFM,Den,2001,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,P. interruptus,KFM,Den,2002,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,P. interruptus,KFM,Den,2003,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Santa Barbara Island SMR,P. interruptus,KFM,Den,2004,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Santa Barbara Island SMR,P. interruptus,KFM,Den,2005,2003,5,5,1,TRUE,TRUE,0,5,5,After
+Santa Barbara Island SMR,P. interruptus,KFM,Den,2006,2003,5,5;6,1,FALSE,TRUE,0,5,5.5,After
+Santa Barbara Island SMR,P. interruptus,KFM,Den,2007,2003,5,5;6,1,FALSE,TRUE,0,5,5.5,After
+Santa Barbara Island SMR,P. interruptus,KFM,Den,2008,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Santa Barbara Island SMR,P. interruptus,KFM,Den,2009,2003,6,5,0,FALSE,TRUE,1,6,5,After
+Santa Barbara Island SMR,P. interruptus,KFM,Den,2010,2003,6,5,0,FALSE,TRUE,1,6,5,After
+Santa Barbara Island SMR,P. interruptus,KFM,Den,2011,2003,5,5;6,1,FALSE,TRUE,0,5,5.5,After
+Santa Barbara Island SMR,P. interruptus,KFM,Den,2012,2003,6,5,0,FALSE,TRUE,1,6,5,After
+Santa Barbara Island SMR,P. interruptus,KFM,Den,2013,2003,5,5;6,1,FALSE,TRUE,0,5,5.5,After
+Santa Barbara Island SMR,P. interruptus,KFM,Den,2014,2003,6,5;6,1,FALSE,TRUE,0,6,5.5,After
+Santa Barbara Island SMR,P. interruptus,KFM,Den,2015,2003,5,5;7,1,FALSE,TRUE,0,5,6,After
+Santa Barbara Island SMR,P. interruptus,KFM,Den,2016,2003,6,5,0,FALSE,TRUE,1,6,5,After
+Santa Barbara Island SMR,P. interruptus,KFM,Den,2017,2003,5,5,1,TRUE,TRUE,0,5,5,After
+Santa Barbara Island SMR,P. interruptus,KFM,Den,2018,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Santa Barbara Island SMR,P. interruptus,KFM,Den,2019,2003,7,6,0,FALSE,TRUE,1,7,6,After
+Santa Barbara Island SMR,P. interruptus,KFM,Den,2021,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Santa Barbara Island SMR,P. interruptus,KFM,Den,2022,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Santa Barbara Island SMR,P. interruptus,KFM,Den,2023,2003,5,5,1,TRUE,TRUE,0,5,5,After
+Santa Barbara Island SMR,S. pulcher,PISCO,Bio,2004,2003,10,10,1,TRUE,TRUE,0,10,10,After
+Santa Barbara Island SMR,S. pulcher,PISCO,Bio,2005,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Santa Barbara Island SMR,S. pulcher,PISCO,Bio,2006,2003,10,10,1,TRUE,TRUE,0,10,10,After
+Santa Barbara Island SMR,S. pulcher,PISCO,Bio,2007,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Santa Barbara Island SMR,S. pulcher,PISCO,Bio,2008,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Santa Barbara Island SMR,S. pulcher,PISCO,Bio,2011,2003,11,11;12,1,FALSE,TRUE,0,11,11.5,After
+Santa Barbara Island SMR,S. pulcher,PISCO,Bio,2019,2003,10,10,1,TRUE,TRUE,0,10,10,After
+Santa Barbara Island SMR,S. pulcher,PISCO,Bio,2021,2003,9,8,0,FALSE,TRUE,1,9,8,After
+Santa Barbara Island SMR,S. pulcher,PISCO,Bio,2022,2003,11,10,0,FALSE,TRUE,1,11,10,After
+Santa Barbara Island SMR,S. pulcher,PISCO,Bio,2023,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Santa Barbara Island SMR,S. pulcher,PISCO,Den,2004,2003,10,10,1,TRUE,TRUE,0,10,10,After
+Santa Barbara Island SMR,S. pulcher,PISCO,Den,2005,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Santa Barbara Island SMR,S. pulcher,PISCO,Den,2006,2003,10,10,1,TRUE,TRUE,0,10,10,After
+Santa Barbara Island SMR,S. pulcher,PISCO,Den,2007,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Santa Barbara Island SMR,S. pulcher,PISCO,Den,2008,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Santa Barbara Island SMR,S. pulcher,PISCO,Den,2011,2003,11,11;12,1,FALSE,TRUE,0,11,11.5,After
+Santa Barbara Island SMR,S. pulcher,PISCO,Den,2019,2003,10,10,1,TRUE,TRUE,0,10,10,After
+Santa Barbara Island SMR,S. pulcher,PISCO,Den,2021,2003,9,8,0,FALSE,TRUE,1,9,8,After
+Santa Barbara Island SMR,S. pulcher,PISCO,Den,2022,2003,11,10,0,FALSE,TRUE,1,11,10,After
+Santa Barbara Island SMR,S. pulcher,PISCO,Den,2023,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,1982,2003,9,8,0,FALSE,TRUE,1,9,8,Before
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,1983,2003,8,8,1,TRUE,TRUE,0,8,8,Before
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,1984,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,1985,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,1986,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,1987,2003,6,6;7,1,FALSE,TRUE,0,6,6.5,Before
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,1988,2003,10,6,0,FALSE,TRUE,4,10,6,Before
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,1989,2003,6,6;8,1,FALSE,TRUE,0,6,7,Before
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,1990,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,1991,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,1992,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,1993,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,1994,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,1995,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,1996,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,1997,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,1998,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,1999,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,2000,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,2001,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,2002,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,2003,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,2004,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,2005,2003,5,5,1,TRUE,TRUE,0,5,5,After
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,2006,2003,5,5;6,1,FALSE,TRUE,0,5,5.5,After
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,2007,2003,5,5;6,1,FALSE,TRUE,0,5,5.5,After
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,2008,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,2009,2003,6,5,0,FALSE,TRUE,1,6,5,After
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,2010,2003,6,5,0,FALSE,TRUE,1,6,5,After
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,2011,2003,5,5;6,1,FALSE,TRUE,0,5,5.5,After
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,2012,2003,6,5,0,FALSE,TRUE,1,6,5,After
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,2013,2003,5,5;6,1,FALSE,TRUE,0,5,5.5,After
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,2014,2003,6,5;6,1,FALSE,TRUE,0,6,5.5,After
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,2015,2003,5,5;7,1,FALSE,TRUE,0,5,6,After
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,2016,2003,6,5,0,FALSE,TRUE,1,6,5,After
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,2017,2003,5,5,1,TRUE,TRUE,0,5,5,After
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,2018,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,2019,2003,7,6,0,FALSE,TRUE,1,7,6,After
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,2021,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,2022,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Santa Barbara Island SMR,S. purpuratus,KFM,Den,2023,2003,5,5,1,TRUE,TRUE,0,5,5,After
+Scorpion SMR,M. franciscanus,KFM,Bio,1985,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Scorpion SMR,M. franciscanus,KFM,Bio,1986,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Scorpion SMR,M. franciscanus,KFM,Bio,1987,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,M. franciscanus,KFM,Bio,1988,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,M. franciscanus,KFM,Bio,1989,2003,6,7,0,FALSE,TRUE,1,6,7,Before
+Scorpion SMR,M. franciscanus,KFM,Bio,1990,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,M. franciscanus,KFM,Bio,1991,2003,9,7,0,FALSE,TRUE,2,9,7,Before
+Scorpion SMR,M. franciscanus,KFM,Bio,1992,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,M. franciscanus,KFM,Bio,1993,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Scorpion SMR,M. franciscanus,KFM,Bio,1994,2003,8,8,1,TRUE,TRUE,0,8,8,Before
+Scorpion SMR,M. franciscanus,KFM,Bio,1995,2003,8,6,0,FALSE,TRUE,2,8,6,Before
+Scorpion SMR,M. franciscanus,KFM,Bio,1996,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,M. franciscanus,KFM,Bio,1997,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,M. franciscanus,KFM,Bio,1998,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Scorpion SMR,M. franciscanus,KFM,Bio,1999,2003,8,6,0,FALSE,TRUE,2,8,6,Before
+Scorpion SMR,M. franciscanus,KFM,Bio,2000,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,M. franciscanus,KFM,Bio,2001,2003,8,6,0,FALSE,TRUE,2,8,6,Before
+Scorpion SMR,M. franciscanus,KFM,Bio,2002,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Scorpion SMR,M. franciscanus,KFM,Bio,2003,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Scorpion SMR,M. franciscanus,KFM,Bio,2004,2003,8,7,0,FALSE,TRUE,1,8,7,After
+Scorpion SMR,M. franciscanus,KFM,Bio,2005,2003,9,6,0,FALSE,TRUE,3,9,6,After
+Scorpion SMR,M. franciscanus,KFM,Bio,2006,2003,8,7,0,FALSE,TRUE,1,8,7,After
+Scorpion SMR,M. franciscanus,KFM,Bio,2007,2003,9,6,0,FALSE,TRUE,3,9,6,After
+Scorpion SMR,M. franciscanus,KFM,Bio,2008,2003,9,7,0,FALSE,TRUE,2,9,7,After
+Scorpion SMR,M. franciscanus,KFM,Bio,2009,2003,10,9,0,FALSE,TRUE,1,10,9,After
+Scorpion SMR,M. franciscanus,KFM,Bio,2010,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Scorpion SMR,M. franciscanus,KFM,Bio,2011,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,M. franciscanus,KFM,Bio,2012,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,M. franciscanus,KFM,Bio,2013,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,M. franciscanus,KFM,Bio,2014,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Scorpion SMR,M. franciscanus,KFM,Bio,2015,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Scorpion SMR,M. franciscanus,KFM,Bio,2016,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,M. franciscanus,KFM,Bio,2017,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,M. franciscanus,KFM,Bio,2018,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,M. franciscanus,KFM,Bio,2019,2003,6,8,0,FALSE,TRUE,2,6,8,After
+Scorpion SMR,M. franciscanus,KFM,Bio,2021,2003,10,8,0,FALSE,TRUE,2,10,8,After
+Scorpion SMR,M. franciscanus,KFM,Bio,2022,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,M. franciscanus,KFM,Den,1982,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,M. franciscanus,KFM,Den,1983,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Scorpion SMR,M. franciscanus,KFM,Den,1984,2003,9,6,0,FALSE,TRUE,3,9,6,Before
+Scorpion SMR,M. franciscanus,KFM,Den,1985,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Scorpion SMR,M. franciscanus,KFM,Den,1986,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Scorpion SMR,M. franciscanus,KFM,Den,1987,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,M. franciscanus,KFM,Den,1988,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,M. franciscanus,KFM,Den,1989,2003,6,7,0,FALSE,TRUE,1,6,7,Before
+Scorpion SMR,M. franciscanus,KFM,Den,1990,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,M. franciscanus,KFM,Den,1991,2003,9,7,0,FALSE,TRUE,2,9,7,Before
+Scorpion SMR,M. franciscanus,KFM,Den,1992,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,M. franciscanus,KFM,Den,1993,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Scorpion SMR,M. franciscanus,KFM,Den,1994,2003,8,8,1,TRUE,TRUE,0,8,8,Before
+Scorpion SMR,M. franciscanus,KFM,Den,1995,2003,8,6,0,FALSE,TRUE,2,8,6,Before
+Scorpion SMR,M. franciscanus,KFM,Den,1996,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,M. franciscanus,KFM,Den,1997,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,M. franciscanus,KFM,Den,1998,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Scorpion SMR,M. franciscanus,KFM,Den,1999,2003,8,6,0,FALSE,TRUE,2,8,6,Before
+Scorpion SMR,M. franciscanus,KFM,Den,2000,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,M. franciscanus,KFM,Den,2001,2003,8,6,0,FALSE,TRUE,2,8,6,Before
+Scorpion SMR,M. franciscanus,KFM,Den,2002,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Scorpion SMR,M. franciscanus,KFM,Den,2003,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Scorpion SMR,M. franciscanus,KFM,Den,2004,2003,8,7,0,FALSE,TRUE,1,8,7,After
+Scorpion SMR,M. franciscanus,KFM,Den,2005,2003,9,6,0,FALSE,TRUE,3,9,6,After
+Scorpion SMR,M. franciscanus,KFM,Den,2006,2003,8,7,0,FALSE,TRUE,1,8,7,After
+Scorpion SMR,M. franciscanus,KFM,Den,2007,2003,9,6,0,FALSE,TRUE,3,9,6,After
+Scorpion SMR,M. franciscanus,KFM,Den,2008,2003,9,7,0,FALSE,TRUE,2,9,7,After
+Scorpion SMR,M. franciscanus,KFM,Den,2009,2003,10,9,0,FALSE,TRUE,1,10,9,After
+Scorpion SMR,M. franciscanus,KFM,Den,2010,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Scorpion SMR,M. franciscanus,KFM,Den,2011,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,M. franciscanus,KFM,Den,2012,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,M. franciscanus,KFM,Den,2013,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,M. franciscanus,KFM,Den,2014,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Scorpion SMR,M. franciscanus,KFM,Den,2015,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Scorpion SMR,M. franciscanus,KFM,Den,2016,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,M. franciscanus,KFM,Den,2017,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,M. franciscanus,KFM,Den,2018,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,M. franciscanus,KFM,Den,2019,2003,6,8,0,FALSE,TRUE,2,6,8,After
+Scorpion SMR,M. franciscanus,KFM,Den,2021,2003,10,8,0,FALSE,TRUE,2,10,8,After
+Scorpion SMR,M. franciscanus,KFM,Den,2022,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,M. franciscanus,PISCO,Bio,2004,2003,8,6;8,1,FALSE,TRUE,0,8,7,After
+Scorpion SMR,M. franciscanus,PISCO,Bio,2005,2003,7,6;7,1,FALSE,TRUE,0,7,6.5,After
+Scorpion SMR,M. franciscanus,PISCO,Bio,2006,2003,7,7;8,1,FALSE,TRUE,0,7,7.14285714285714,After
+Scorpion SMR,M. franciscanus,PISCO,Bio,2007,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Scorpion SMR,M. franciscanus,PISCO,Bio,2008,2003,6;7,6;7,2,TRUE,TRUE,0,6.5,6.16666666666667,After
+Scorpion SMR,M. franciscanus,PISCO,Bio,2009,2003,6;7,6;7,2,TRUE,TRUE,0,6.42857142857143,6.4,After
+Scorpion SMR,M. franciscanus,PISCO,Bio,2010,2003,6;7,6;7,2,TRUE,TRUE,0,6.33333333333333,6.66666666666667,After
+Scorpion SMR,M. franciscanus,PISCO,Bio,2011,2003,6,6;7,1,FALSE,TRUE,0,6,6.33333333333333,After
+Scorpion SMR,M. franciscanus,PISCO,Bio,2012,2003,6,6;7,1,FALSE,TRUE,0,6,6.83333333333333,After
+Scorpion SMR,M. franciscanus,PISCO,Bio,2013,2003,8;9,7;8;9;10,2,FALSE,TRUE,0,8.71428571428571,8.8,After
+Scorpion SMR,M. franciscanus,PISCO,Bio,2014,2003,7,6;7,1,FALSE,TRUE,0,7,6.66666666666667,After
+Scorpion SMR,M. franciscanus,PISCO,Bio,2015,2003,6;7,6;7,2,TRUE,TRUE,0,6.66666666666667,6.33333333333333,After
+Scorpion SMR,M. franciscanus,PISCO,Bio,2016,2003,6;7;9,6;7,2,FALSE,TRUE,0,7,6.16666666666667,After
+Scorpion SMR,M. franciscanus,PISCO,Bio,2017,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Scorpion SMR,M. franciscanus,PISCO,Bio,2018,2003,6;7,6;7,2,TRUE,TRUE,0,6.33333333333333,6.33333333333333,After
+Scorpion SMR,M. franciscanus,PISCO,Bio,2019,2003,7;8,6;7;8,2,FALSE,TRUE,0,7.5,7,After
+Scorpion SMR,M. franciscanus,PISCO,Bio,2021,2003,6;8,6;7;8,2,FALSE,TRUE,0,6.66666666666667,7,After
+Scorpion SMR,M. franciscanus,PISCO,Bio,2022,2003,6;7,6;7;9,2,FALSE,TRUE,0,6.33333333333333,6.83333333333333,After
+Scorpion SMR,M. franciscanus,PISCO,Den,2004,2003,8,6;8,1,FALSE,TRUE,0,8,7,After
+Scorpion SMR,M. franciscanus,PISCO,Den,2005,2003,7,6;7,1,FALSE,TRUE,0,7,6.5,After
+Scorpion SMR,M. franciscanus,PISCO,Den,2006,2003,7,7;8,1,FALSE,TRUE,0,7,7.14285714285714,After
+Scorpion SMR,M. franciscanus,PISCO,Den,2007,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Scorpion SMR,M. franciscanus,PISCO,Den,2008,2003,6;7,6;7,2,TRUE,TRUE,0,6.5,6.16666666666667,After
+Scorpion SMR,M. franciscanus,PISCO,Den,2009,2003,6;7,6;7,2,TRUE,TRUE,0,6.42857142857143,6.4,After
+Scorpion SMR,M. franciscanus,PISCO,Den,2010,2003,6;7,6;7,2,TRUE,TRUE,0,6.33333333333333,6.66666666666667,After
+Scorpion SMR,M. franciscanus,PISCO,Den,2011,2003,6,6;7,1,FALSE,TRUE,0,6,6.33333333333333,After
+Scorpion SMR,M. franciscanus,PISCO,Den,2012,2003,6,6;7,1,FALSE,TRUE,0,6,6.83333333333333,After
+Scorpion SMR,M. franciscanus,PISCO,Den,2013,2003,8;9,7;8;9;10,2,FALSE,TRUE,0,8.71428571428571,8.8,After
+Scorpion SMR,M. franciscanus,PISCO,Den,2014,2003,7,6;7,1,FALSE,TRUE,0,7,6.66666666666667,After
+Scorpion SMR,M. franciscanus,PISCO,Den,2015,2003,6;7,6;7,2,TRUE,TRUE,0,6.66666666666667,6.33333333333333,After
+Scorpion SMR,M. franciscanus,PISCO,Den,2016,2003,6;7;9,6;7,2,FALSE,TRUE,0,7,6.16666666666667,After
+Scorpion SMR,M. franciscanus,PISCO,Den,2017,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Scorpion SMR,M. franciscanus,PISCO,Den,2018,2003,6;7,6;7,2,TRUE,TRUE,0,6.33333333333333,6.33333333333333,After
+Scorpion SMR,M. franciscanus,PISCO,Den,2019,2003,7;8,6;7;8,2,FALSE,TRUE,0,7.5,7,After
+Scorpion SMR,M. franciscanus,PISCO,Den,2020,2003,7;8;9,6;7;8,2,FALSE,TRUE,0,8,7,After
+Scorpion SMR,M. franciscanus,PISCO,Den,2021,2003,6;8,6;7;8,2,FALSE,TRUE,0,6.66666666666667,7,After
+Scorpion SMR,M. franciscanus,PISCO,Den,2022,2003,6;7,6;7;9,2,FALSE,TRUE,0,6.33333333333333,6.83333333333333,After
+Scorpion SMR,M. franciscanus,PISCO,Den,2023,2003,6;7,7;8,1,FALSE,TRUE,0,6.75,7.85714285714286,After
+Scorpion SMR,M. pyrifera,KFM,Bio,1984,2003,9,6,0,FALSE,TRUE,3,9,6,Before
+Scorpion SMR,M. pyrifera,KFM,Bio,1985,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Scorpion SMR,M. pyrifera,KFM,Bio,1986,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Scorpion SMR,M. pyrifera,KFM,Bio,1987,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,M. pyrifera,KFM,Bio,1988,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,M. pyrifera,KFM,Bio,1989,2003,6,7,0,FALSE,TRUE,1,6,7,Before
+Scorpion SMR,M. pyrifera,KFM,Bio,1990,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,M. pyrifera,KFM,Bio,1991,2003,9,7,0,FALSE,TRUE,2,9,7,Before
+Scorpion SMR,M. pyrifera,KFM,Bio,1993,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Scorpion SMR,M. pyrifera,KFM,Bio,1994,2003,8,8,1,TRUE,TRUE,0,8,8,Before
+Scorpion SMR,M. pyrifera,KFM,Bio,1996,2003,7;9,7,1,FALSE,TRUE,0,8,7,Before
+Scorpion SMR,M. pyrifera,KFM,Bio,1997,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,M. pyrifera,KFM,Bio,1998,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Scorpion SMR,M. pyrifera,KFM,Bio,1999,2003,8,6,0,FALSE,TRUE,2,8,6,Before
+Scorpion SMR,M. pyrifera,KFM,Bio,2000,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,M. pyrifera,KFM,Bio,2001,2003,8,6,0,FALSE,TRUE,2,8,6,Before
+Scorpion SMR,M. pyrifera,KFM,Bio,2002,2003,8,7;8,1,FALSE,TRUE,0,8,7.5,Before
+Scorpion SMR,M. pyrifera,KFM,Bio,2003,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Scorpion SMR,M. pyrifera,KFM,Bio,2004,2003,8,7,0,FALSE,TRUE,1,8,7,After
+Scorpion SMR,M. pyrifera,KFM,Bio,2005,2003,9,6,0,FALSE,TRUE,3,9,6,After
+Scorpion SMR,M. pyrifera,KFM,Bio,2006,2003,8,7,0,FALSE,TRUE,1,8,7,After
+Scorpion SMR,M. pyrifera,KFM,Bio,2007,2003,9,6,0,FALSE,TRUE,3,9,6,After
+Scorpion SMR,M. pyrifera,KFM,Bio,2008,2003,9,7,0,FALSE,TRUE,2,9,7,After
+Scorpion SMR,M. pyrifera,KFM,Bio,2009,2003,10,9,0,FALSE,TRUE,1,10,9,After
+Scorpion SMR,M. pyrifera,KFM,Bio,2010,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Scorpion SMR,M. pyrifera,KFM,Bio,2011,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,M. pyrifera,KFM,Bio,2012,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,M. pyrifera,KFM,Bio,2013,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,M. pyrifera,KFM,Bio,2014,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Scorpion SMR,M. pyrifera,KFM,Bio,2015,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Scorpion SMR,M. pyrifera,KFM,Bio,2016,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,M. pyrifera,KFM,Bio,2017,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,M. pyrifera,KFM,Bio,2018,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,M. pyrifera,KFM,Bio,2019,2003,6,8,0,FALSE,TRUE,2,6,8,After
+Scorpion SMR,M. pyrifera,KFM,Bio,2021,2003,10,8,0,FALSE,TRUE,2,10,8,After
+Scorpion SMR,M. pyrifera,KFM,Bio,2022,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,M. pyrifera,PISCO,Bio,2004,2003,8,6;8,1,FALSE,TRUE,0,8,7,After
+Scorpion SMR,M. pyrifera,PISCO,Bio,2005,2003,7,6;7,1,FALSE,TRUE,0,7,6.5,After
+Scorpion SMR,M. pyrifera,PISCO,Bio,2006,2003,7,7;8,1,FALSE,TRUE,0,7,7.14285714285714,After
+Scorpion SMR,M. pyrifera,PISCO,Bio,2007,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Scorpion SMR,M. pyrifera,PISCO,Bio,2008,2003,6;7,6;7,2,TRUE,TRUE,0,6.5,6.16666666666667,After
+Scorpion SMR,M. pyrifera,PISCO,Bio,2009,2003,6;7,6;7,2,TRUE,TRUE,0,6.42857142857143,6.4,After
+Scorpion SMR,M. pyrifera,PISCO,Bio,2010,2003,6;7,6;7,2,TRUE,TRUE,0,6.33333333333333,6.66666666666667,After
+Scorpion SMR,M. pyrifera,PISCO,Bio,2011,2003,6,6;7,1,FALSE,TRUE,0,6,6.33333333333333,After
+Scorpion SMR,M. pyrifera,PISCO,Bio,2012,2003,6,6;7,1,FALSE,TRUE,0,6,6.83333333333333,After
+Scorpion SMR,M. pyrifera,PISCO,Bio,2013,2003,8;9,7;8;9;10,2,FALSE,TRUE,0,8.71428571428571,8.8,After
+Scorpion SMR,M. pyrifera,PISCO,Bio,2014,2003,7,6;7,1,FALSE,TRUE,0,7,6.66666666666667,After
+Scorpion SMR,M. pyrifera,PISCO,Bio,2015,2003,6;7,6;7,2,TRUE,TRUE,0,6.66666666666667,6.33333333333333,After
+Scorpion SMR,M. pyrifera,PISCO,Bio,2016,2003,6;7;9,6;7,2,FALSE,TRUE,0,7,6.16666666666667,After
+Scorpion SMR,M. pyrifera,PISCO,Bio,2017,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Scorpion SMR,M. pyrifera,PISCO,Bio,2018,2003,6;7,6;7,2,TRUE,TRUE,0,6.33333333333333,6.33333333333333,After
+Scorpion SMR,M. pyrifera,PISCO,Bio,2019,2003,7;8,6;7;8,2,FALSE,TRUE,0,7.5,7,After
+Scorpion SMR,M. pyrifera,PISCO,Bio,2020,2003,7;8;9,6;7;8,2,FALSE,TRUE,0,8,7,After
+Scorpion SMR,M. pyrifera,PISCO,Bio,2021,2003,6;8,6;7;8,2,FALSE,TRUE,0,6.66666666666667,7,After
+Scorpion SMR,M. pyrifera,PISCO,Bio,2022,2003,6;7,6;7;9,2,FALSE,TRUE,0,6.33333333333333,6.83333333333333,After
+Scorpion SMR,M. pyrifera,PISCO,Bio,2023,2003,6;7,7;8,1,FALSE,TRUE,0,6.75,7.85714285714286,After
+Scorpion SMR,P. interruptus,KFM,Den,1983,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Scorpion SMR,P. interruptus,KFM,Den,1984,2003,9,6,0,FALSE,TRUE,3,9,6,Before
+Scorpion SMR,P. interruptus,KFM,Den,1985,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Scorpion SMR,P. interruptus,KFM,Den,1986,2003,7,8,0,FALSE,TRUE,1,7,8,Before
+Scorpion SMR,P. interruptus,KFM,Den,1987,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,P. interruptus,KFM,Den,1988,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,P. interruptus,KFM,Den,1989,2003,6,7,0,FALSE,TRUE,1,6,7,Before
+Scorpion SMR,P. interruptus,KFM,Den,1990,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,P. interruptus,KFM,Den,1991,2003,9,7,0,FALSE,TRUE,2,9,7,Before
+Scorpion SMR,P. interruptus,KFM,Den,1992,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,P. interruptus,KFM,Den,1993,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Scorpion SMR,P. interruptus,KFM,Den,1994,2003,8,8,1,TRUE,TRUE,0,8,8,Before
+Scorpion SMR,P. interruptus,KFM,Den,1995,2003,8,6,0,FALSE,TRUE,2,8,6,Before
+Scorpion SMR,P. interruptus,KFM,Den,1996,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,P. interruptus,KFM,Den,1997,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,P. interruptus,KFM,Den,1998,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Scorpion SMR,P. interruptus,KFM,Den,1999,2003,8,6,0,FALSE,TRUE,2,8,6,Before
+Scorpion SMR,P. interruptus,KFM,Den,2000,2003,7,7,1,TRUE,TRUE,0,7,7,Before
+Scorpion SMR,P. interruptus,KFM,Den,2001,2003,8,6,0,FALSE,TRUE,2,8,6,Before
+Scorpion SMR,P. interruptus,KFM,Den,2002,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Scorpion SMR,P. interruptus,KFM,Den,2003,2003,8,7,0,FALSE,TRUE,1,8,7,Before
+Scorpion SMR,P. interruptus,KFM,Den,2004,2003,8,7,0,FALSE,TRUE,1,8,7,After
+Scorpion SMR,P. interruptus,KFM,Den,2005,2003,9,6,0,FALSE,TRUE,3,9,6,After
+Scorpion SMR,P. interruptus,KFM,Den,2006,2003,8,7,0,FALSE,TRUE,1,8,7,After
+Scorpion SMR,P. interruptus,KFM,Den,2007,2003,9,6,0,FALSE,TRUE,3,9,6,After
+Scorpion SMR,P. interruptus,KFM,Den,2008,2003,9,7,0,FALSE,TRUE,2,9,7,After
+Scorpion SMR,P. interruptus,KFM,Den,2009,2003,10,9,0,FALSE,TRUE,1,10,9,After
+Scorpion SMR,P. interruptus,KFM,Den,2010,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Scorpion SMR,P. interruptus,KFM,Den,2011,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,P. interruptus,KFM,Den,2012,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,P. interruptus,KFM,Den,2013,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,P. interruptus,KFM,Den,2014,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Scorpion SMR,P. interruptus,KFM,Den,2015,2003,9,9,1,TRUE,TRUE,0,9,9,After
+Scorpion SMR,P. interruptus,KFM,Den,2016,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,P. interruptus,KFM,Den,2017,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,P. interruptus,KFM,Den,2018,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,P. interruptus,KFM,Den,2019,2003,6,8,0,FALSE,TRUE,2,6,8,After
+Scorpion SMR,P. interruptus,KFM,Den,2021,2003,10,8,0,FALSE,TRUE,2,10,8,After
+Scorpion SMR,P. interruptus,KFM,Den,2022,2003,8,9,0,FALSE,TRUE,1,8,9,After
+Scorpion SMR,P. interruptus,PISCO,Den,2004,2003,8,6;8,1,FALSE,TRUE,0,8,7,After
+Scorpion SMR,P. interruptus,PISCO,Den,2005,2003,7,6;7,1,FALSE,TRUE,0,7,6.5,After
+Scorpion SMR,P. interruptus,PISCO,Den,2006,2003,7,7;8,1,FALSE,TRUE,0,7,7.14285714285714,After
+Scorpion SMR,P. interruptus,PISCO,Den,2007,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Scorpion SMR,P. interruptus,PISCO,Den,2008,2003,6;7,6;7,2,TRUE,TRUE,0,6.5,6.16666666666667,After
+Scorpion SMR,P. interruptus,PISCO,Den,2009,2003,6;7,6;7,2,TRUE,TRUE,0,6.42857142857143,6.4,After
+Scorpion SMR,P. interruptus,PISCO,Den,2010,2003,6;7,6;7,2,TRUE,TRUE,0,6.33333333333333,6.66666666666667,After
+Scorpion SMR,P. interruptus,PISCO,Den,2011,2003,6,6;7,1,FALSE,TRUE,0,6,6.33333333333333,After
+Scorpion SMR,P. interruptus,PISCO,Den,2012,2003,6,6;7,1,FALSE,TRUE,0,6,6.83333333333333,After
+Scorpion SMR,P. interruptus,PISCO,Den,2013,2003,8;9,7;8;9;10,2,FALSE,TRUE,0,8.71428571428571,8.8,After
+Scorpion SMR,P. interruptus,PISCO,Den,2014,2003,7,6;7,1,FALSE,TRUE,0,7,6.66666666666667,After
+Scorpion SMR,P. interruptus,PISCO,Den,2015,2003,6;7,6;7,2,TRUE,TRUE,0,6.66666666666667,6.33333333333333,After
+Scorpion SMR,P. interruptus,PISCO,Den,2016,2003,6;7;9,6;7,2,FALSE,TRUE,0,7,6.16666666666667,After
+Scorpion SMR,P. interruptus,PISCO,Den,2017,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Scorpion SMR,P. interruptus,PISCO,Den,2018,2003,6;7,6;7,2,TRUE,TRUE,0,6.33333333333333,6.33333333333333,After
+Scorpion SMR,P. interruptus,PISCO,Den,2019,2003,7;8,6;7;8,2,FALSE,TRUE,0,7.5,7,After
+Scorpion SMR,P. interruptus,PISCO,Den,2020,2003,7;8;9,6;7;8,2,FALSE,TRUE,0,8,7,After
+Scorpion SMR,P. interruptus,PISCO,Den,2021,2003,6;8,6;7;8,2,FALSE,TRUE,0,6.66666666666667,7,After
+Scorpion SMR,P. interruptus,PISCO,Den,2022,2003,6;7,6;7;9,2,FALSE,TRUE,0,6.33333333333333,6.83333333333333,After
+Scorpion SMR,P. interruptus,PISCO,Den,2023,2003,6;7,7;8,1,FALSE,TRUE,0,6.75,7.85714285714286,After
+Scorpion SMR,S. pulcher,KFM,Den,1985,2003,6,6,1,TRUE,TRUE,0,6,6,Before
+Scorpion SMR,S. pulcher,KFM,Den,1986,2003,7;8,8,1,FALSE,TRUE,0,7.5,8,Before
+Scorpion SMR,S. pulcher,KFM,Den,1987,2003,7;8,7;9,1,FALSE,TRUE,0,7.5,8,Before
+Scorpion SMR,S. pulcher,KFM,Den,1988,2003,7;9,7;8,1,FALSE,TRUE,0,8,7.5,Before
+Scorpion SMR,S. pulcher,KFM,Den,1989,2003,6;7,7;10,1,FALSE,TRUE,0,6.5,8.5,Before
+Scorpion SMR,S. pulcher,KFM,Den,1990,2003,7;10,7,1,FALSE,TRUE,0,8.5,7,Before
+Scorpion SMR,S. pulcher,KFM,Den,1991,2003,9;10,7;10,1,FALSE,TRUE,0,9.5,8.5,Before
+Scorpion SMR,S. pulcher,KFM,Den,1992,2003,7;10,7;8,1,FALSE,TRUE,0,8.5,7.5,Before
+Scorpion SMR,S. pulcher,KFM,Den,1993,2003,8;9,8;9,2,TRUE,TRUE,0,8.5,8.5,Before
+Scorpion SMR,S. pulcher,KFM,Den,1994,2003,8;9,8;9,2,TRUE,TRUE,0,8.5,8.5,Before
+Scorpion SMR,S. pulcher,KFM,Den,1995,2003,8;9,6;8,1,FALSE,TRUE,0,8.5,7,Before
+Scorpion SMR,S. pulcher,KFM,Den,1996,2003,7;10,7;10,2,TRUE,TRUE,0,8.5,8.5,Before
+Scorpion SMR,S. pulcher,KFM,Den,1997,2003,7;8,7;8,2,TRUE,TRUE,0,7.5,7.5,Before
+Scorpion SMR,S. pulcher,KFM,Den,1998,2003,8;9,7;8,1,FALSE,TRUE,0,8.5,7.5,Before
+Scorpion SMR,S. pulcher,KFM,Den,1999,2003,9;10,8;10,1,FALSE,TRUE,0,9.5,9,Before
+Scorpion SMR,S. pulcher,KFM,Den,2000,2003,8,8,1,TRUE,TRUE,0,8,8,Before
+Scorpion SMR,S. pulcher,KFM,Den,2001,2003,8,6;8,1,FALSE,TRUE,0,8,7,Before
+Scorpion SMR,S. pulcher,KFM,Den,2002,2003,7;8,8;9,1,FALSE,TRUE,0,7.5,8.5,Before
+Scorpion SMR,S. pulcher,KFM,Den,2003,2003,8;9,7;8,1,FALSE,TRUE,0,8.5,7.5,Before
+Scorpion SMR,S. pulcher,KFM,Den,2004,2003,8;9,7;9,1,FALSE,TRUE,0,8.5,8,After
+Scorpion SMR,S. pulcher,KFM,Den,2005,2003,8;9,6;8,1,FALSE,TRUE,0,8.66666666666667,7.5,After
+Scorpion SMR,S. pulcher,KFM,Den,2006,2003,6;8;9,7;8;9,2,FALSE,TRUE,0,7.75,8,After
+Scorpion SMR,S. pulcher,KFM,Den,2007,2003,6;9;10,6;8;9,2,FALSE,TRUE,0,8.6,7.5,After
+Scorpion SMR,S. pulcher,KFM,Den,2008,2003,7;9,6;7,1,FALSE,TRUE,0,7.66666666666667,6.5,After
+Scorpion SMR,S. pulcher,KFM,Den,2009,2003,6;9;10,6;7;9,2,FALSE,TRUE,0,8.33333333333333,7.75,After
+Scorpion SMR,S. pulcher,KFM,Den,2010,2003,7;8;9,6;7;9,2,FALSE,TRUE,0,7.75,7,After
+Scorpion SMR,S. pulcher,KFM,Den,2011,2003,6;8,5;6;9,1,FALSE,TRUE,0,7.33333333333333,6.5,After
+Scorpion SMR,S. pulcher,KFM,Den,2012,2003,6;7;8;10,5;6;8;9;10,3,FALSE,TRUE,0,8.5,8.28571428571429,After
+Scorpion SMR,S. pulcher,KFM,Den,2013,2003,8;9,6;7;9,1,FALSE,TRUE,0,8.33333333333333,7,After
+Scorpion SMR,S. pulcher,KFM,Den,2014,2003,6;7;8,5;6;8;9,2,FALSE,TRUE,0,7.25,7.33333333333333,After
+Scorpion SMR,S. pulcher,KFM,Den,2015,2003,5;8;9,5;7;9,2,FALSE,TRUE,0,7.33333333333333,7,After
+Scorpion SMR,S. pulcher,KFM,Den,2016,2003,7;8,6;7;8;9,2,FALSE,TRUE,0,7.33333333333333,7.5,After
+Scorpion SMR,S. pulcher,KFM,Den,2017,2003,6;8;9,6;8;9,3,TRUE,TRUE,0,7.66666666666667,7.25,After
+Scorpion SMR,S. pulcher,KFM,Den,2018,2003,5;8,5;9,1,FALSE,TRUE,0,7,7,After
+Scorpion SMR,S. pulcher,KFM,Den,2019,2003,6;7,5;6;8,1,FALSE,TRUE,0,6.33333333333333,6.25,After
+Scorpion SMR,S. pulcher,KFM,Den,2021,2003,7;8;10,7;8,2,FALSE,TRUE,0,8.33333333333333,7.5,After
+Scorpion SMR,S. pulcher,KFM,Den,2022,2003,5;6;8,5;9,1,FALSE,TRUE,0,6.75,7.66666666666667,After
+Scorpion SMR,S. pulcher,KFM,Den,2023,2003,5;6,5;6,2,TRUE,TRUE,0,5.66666666666667,5.5,After
+Scorpion SMR,S. pulcher,PISCO,Bio,2004,2003,8,8;9,1,FALSE,TRUE,0,8,8.28571428571429,After
+Scorpion SMR,S. pulcher,PISCO,Bio,2005,2003,9;11,9;10;11,2,FALSE,TRUE,0,10.3333333333333,9.5,After
+Scorpion SMR,S. pulcher,PISCO,Bio,2006,2003,8;9,8;9,2,TRUE,TRUE,0,8.66666666666667,8.9,After
+Scorpion SMR,S. pulcher,PISCO,Bio,2007,2003,8;9;10,8;9;10,3,TRUE,TRUE,0,9.5,8.9,After
+Scorpion SMR,S. pulcher,PISCO,Bio,2008,2003,8;9,8;9,2,TRUE,TRUE,0,8.66666666666667,8.1,After
+Scorpion SMR,S. pulcher,PISCO,Bio,2009,2003,8;10,8;9;10,2,FALSE,TRUE,0,8.66666666666667,8.9,After
+Scorpion SMR,S. pulcher,PISCO,Bio,2010,2003,9,9;10,1,FALSE,TRUE,0,9,9.33333333333333,After
+Scorpion SMR,S. pulcher,PISCO,Bio,2011,2003,8;9,8;9,2,TRUE,TRUE,0,8.66666666666667,8.33333333333333,After
+Scorpion SMR,S. pulcher,PISCO,Bio,2012,2003,8;9,8;9,2,TRUE,TRUE,0,8.66666666666667,8.33333333333333,After
+Scorpion SMR,S. pulcher,PISCO,Bio,2013,2003,8;9,7;8;9;10;12,2,FALSE,TRUE,0,8.83333333333333,9.63636363636364,After
+Scorpion SMR,S. pulcher,PISCO,Bio,2014,2003,9,8;9,1,FALSE,TRUE,0,9,8.16666666666667,After
+Scorpion SMR,S. pulcher,PISCO,Bio,2015,2003,9,8;9,1,FALSE,TRUE,0,9,8.83333333333333,After
+Scorpion SMR,S. pulcher,PISCO,Bio,2016,2003,10,8;10,1,FALSE,TRUE,0,10,9.33333333333333,After
+Scorpion SMR,S. pulcher,PISCO,Bio,2017,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Scorpion SMR,S. pulcher,PISCO,Bio,2018,2003,8,8;9,1,FALSE,TRUE,0,8,8.5,After
+Scorpion SMR,S. pulcher,PISCO,Bio,2019,2003,8;9,8;9,2,TRUE,TRUE,0,8.33333333333333,8.14285714285714,After
+Scorpion SMR,S. pulcher,PISCO,Bio,2020,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Scorpion SMR,S. pulcher,PISCO,Bio,2021,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Scorpion SMR,S. pulcher,PISCO,Bio,2022,2003,9;10,9;10;11,2,FALSE,TRUE,0,9.33333333333333,9.75,After
+Scorpion SMR,S. pulcher,PISCO,Bio,2023,2003,9,8;9;10,1,FALSE,TRUE,0,9,8.83333333333333,After
+Scorpion SMR,S. pulcher,PISCO,Den,2004,2003,8,8;9,1,FALSE,TRUE,0,8,8.28571428571429,After
+Scorpion SMR,S. pulcher,PISCO,Den,2005,2003,9;11,9;10;11,2,FALSE,TRUE,0,10.3333333333333,9.5,After
+Scorpion SMR,S. pulcher,PISCO,Den,2006,2003,8;9,8;9,2,TRUE,TRUE,0,8.66666666666667,8.9,After
+Scorpion SMR,S. pulcher,PISCO,Den,2007,2003,8;9;10,8;9;10,3,TRUE,TRUE,0,9.5,8.9,After
+Scorpion SMR,S. pulcher,PISCO,Den,2008,2003,8;9,8;9,2,TRUE,TRUE,0,8.66666666666667,8.1,After
+Scorpion SMR,S. pulcher,PISCO,Den,2009,2003,8;10,8;9;10,2,FALSE,TRUE,0,8.66666666666667,8.9,After
+Scorpion SMR,S. pulcher,PISCO,Den,2010,2003,9,9;10,1,FALSE,TRUE,0,9,9.33333333333333,After
+Scorpion SMR,S. pulcher,PISCO,Den,2011,2003,8;9,8;9,2,TRUE,TRUE,0,8.66666666666667,8.33333333333333,After
+Scorpion SMR,S. pulcher,PISCO,Den,2012,2003,8;9,8;9,2,TRUE,TRUE,0,8.66666666666667,8.33333333333333,After
+Scorpion SMR,S. pulcher,PISCO,Den,2013,2003,8;9,7;8;9;10;12,2,FALSE,TRUE,0,8.83333333333333,9.63636363636364,After
+Scorpion SMR,S. pulcher,PISCO,Den,2014,2003,9,8;9,1,FALSE,TRUE,0,9,8.16666666666667,After
+Scorpion SMR,S. pulcher,PISCO,Den,2015,2003,9,8;9,1,FALSE,TRUE,0,9,8.83333333333333,After
+Scorpion SMR,S. pulcher,PISCO,Den,2016,2003,10,8;10,1,FALSE,TRUE,0,10,9.33333333333333,After
+Scorpion SMR,S. pulcher,PISCO,Den,2017,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Scorpion SMR,S. pulcher,PISCO,Den,2018,2003,8,8;9,1,FALSE,TRUE,0,8,8.5,After
+Scorpion SMR,S. pulcher,PISCO,Den,2019,2003,8;9,8;9,2,TRUE,TRUE,0,8.33333333333333,8.14285714285714,After
+Scorpion SMR,S. pulcher,PISCO,Den,2020,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Scorpion SMR,S. pulcher,PISCO,Den,2021,2003,8,8,1,TRUE,TRUE,0,8,8,After
+Scorpion SMR,S. pulcher,PISCO,Den,2022,2003,9;10,9;10;11,2,FALSE,TRUE,0,9.33333333333333,9.75,After
+Scorpion SMR,S. pulcher,PISCO,Den,2023,2003,9,8;9;10,1,FALSE,TRUE,0,9,8.83333333333333,After
+Scorpion SMR,S. purpuratus,PISCO,Bio,2004,2003,8,6;8,1,FALSE,TRUE,0,8,7,After
+Scorpion SMR,S. purpuratus,PISCO,Bio,2005,2003,7,6;7,1,FALSE,TRUE,0,7,6.5,After
+Scorpion SMR,S. purpuratus,PISCO,Bio,2006,2003,7,7;8,1,FALSE,TRUE,0,7,7.14285714285714,After
+Scorpion SMR,S. purpuratus,PISCO,Bio,2007,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Scorpion SMR,S. purpuratus,PISCO,Bio,2008,2003,6;7,6;7,2,TRUE,TRUE,0,6.5,6.16666666666667,After
+Scorpion SMR,S. purpuratus,PISCO,Bio,2009,2003,6;7,6;7,2,TRUE,TRUE,0,6.42857142857143,6.4,After
+Scorpion SMR,S. purpuratus,PISCO,Bio,2010,2003,6;7,6;7,2,TRUE,TRUE,0,6.33333333333333,6.66666666666667,After
+Scorpion SMR,S. purpuratus,PISCO,Bio,2011,2003,6,6;7,1,FALSE,TRUE,0,6,6.33333333333333,After
+Scorpion SMR,S. purpuratus,PISCO,Bio,2012,2003,6,6;7,1,FALSE,TRUE,0,6,6.83333333333333,After
+Scorpion SMR,S. purpuratus,PISCO,Bio,2013,2003,8;9,7;8;9;10,2,FALSE,TRUE,0,8.71428571428571,8.8,After
+Scorpion SMR,S. purpuratus,PISCO,Bio,2014,2003,7,6;7,1,FALSE,TRUE,0,7,6.66666666666667,After
+Scorpion SMR,S. purpuratus,PISCO,Bio,2015,2003,6;7,6;7,2,TRUE,TRUE,0,6.66666666666667,6.33333333333333,After
+Scorpion SMR,S. purpuratus,PISCO,Bio,2016,2003,6;7;9,6;7,2,FALSE,TRUE,0,7,6.16666666666667,After
+Scorpion SMR,S. purpuratus,PISCO,Bio,2017,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Scorpion SMR,S. purpuratus,PISCO,Bio,2018,2003,6;7,6;7,2,TRUE,TRUE,0,6.33333333333333,6.33333333333333,After
+Scorpion SMR,S. purpuratus,PISCO,Bio,2019,2003,7;8,6;7;8,2,FALSE,TRUE,0,7.5,7,After
+Scorpion SMR,S. purpuratus,PISCO,Bio,2021,2003,6;8,6;7;8,2,FALSE,TRUE,0,6.66666666666667,7,After
+Scorpion SMR,S. purpuratus,PISCO,Bio,2022,2003,6;7,6;7;9,2,FALSE,TRUE,0,6.33333333333333,6.83333333333333,After
+Scorpion SMR,S. purpuratus,PISCO,Den,2004,2003,8,6;8,1,FALSE,TRUE,0,8,7,After
+Scorpion SMR,S. purpuratus,PISCO,Den,2005,2003,7,6;7,1,FALSE,TRUE,0,7,6.5,After
+Scorpion SMR,S. purpuratus,PISCO,Den,2006,2003,7,7;8,1,FALSE,TRUE,0,7,7.14285714285714,After
+Scorpion SMR,S. purpuratus,PISCO,Den,2007,2003,7,7,1,TRUE,TRUE,0,7,7,After
+Scorpion SMR,S. purpuratus,PISCO,Den,2008,2003,6;7,6;7,2,TRUE,TRUE,0,6.5,6.16666666666667,After
+Scorpion SMR,S. purpuratus,PISCO,Den,2009,2003,6;7,6;7,2,TRUE,TRUE,0,6.42857142857143,6.4,After
+Scorpion SMR,S. purpuratus,PISCO,Den,2010,2003,6;7,6;7,2,TRUE,TRUE,0,6.33333333333333,6.66666666666667,After
+Scorpion SMR,S. purpuratus,PISCO,Den,2011,2003,6,6;7,1,FALSE,TRUE,0,6,6.33333333333333,After
+Scorpion SMR,S. purpuratus,PISCO,Den,2012,2003,6,6;7,1,FALSE,TRUE,0,6,6.83333333333333,After
+Scorpion SMR,S. purpuratus,PISCO,Den,2013,2003,8;9,7;8;9;10,2,FALSE,TRUE,0,8.71428571428571,8.8,After
+Scorpion SMR,S. purpuratus,PISCO,Den,2014,2003,7,6;7,1,FALSE,TRUE,0,7,6.66666666666667,After
+Scorpion SMR,S. purpuratus,PISCO,Den,2015,2003,6;7,6;7,2,TRUE,TRUE,0,6.66666666666667,6.33333333333333,After
+Scorpion SMR,S. purpuratus,PISCO,Den,2016,2003,6;7;9,6;7,2,FALSE,TRUE,0,7,6.16666666666667,After
+Scorpion SMR,S. purpuratus,PISCO,Den,2017,2003,6,6,1,TRUE,TRUE,0,6,6,After
+Scorpion SMR,S. purpuratus,PISCO,Den,2018,2003,6;7,6;7,2,TRUE,TRUE,0,6.33333333333333,6.33333333333333,After
+Scorpion SMR,S. purpuratus,PISCO,Den,2019,2003,7;8,6;7;8,2,FALSE,TRUE,0,7.5,7,After
+Scorpion SMR,S. purpuratus,PISCO,Den,2020,2003,7;8;9,6;7;8,2,FALSE,TRUE,0,8,7,After
+Scorpion SMR,S. purpuratus,PISCO,Den,2021,2003,6;8,6;7;8,2,FALSE,TRUE,0,6.66666666666667,7,After
+Scorpion SMR,S. purpuratus,PISCO,Den,2022,2003,6;7,6;7;9,2,FALSE,TRUE,0,6.33333333333333,6.83333333333333,After
+Scorpion SMR,S. purpuratus,PISCO,Den,2023,2003,6;7,7;8,1,FALSE,TRUE,0,6.75,7.85714285714286,After
+South Point SMR,M. franciscanus,KFM,Bio,2005,2003,8;9,7;8,1,FALSE,TRUE,0,8.33333333333333,7.33333333333333,After
+South Point SMR,M. franciscanus,KFM,Bio,2006,2003,6;7,7;8,1,FALSE,TRUE,0,6.66666666666667,7.66666666666667,After
+South Point SMR,M. franciscanus,KFM,Bio,2007,2003,7;8,7;8;9,2,FALSE,TRUE,0,7.66666666666667,8,After
+South Point SMR,M. franciscanus,KFM,Bio,2008,2003,7;8,7;8;9,2,FALSE,TRUE,0,7.33333333333333,8,After
+South Point SMR,M. franciscanus,KFM,Bio,2009,2003,6;7,6;7;9,2,FALSE,TRUE,0,6.66666666666667,7.33333333333333,After
+South Point SMR,M. franciscanus,KFM,Bio,2010,2003,6;8,6;8;9,2,FALSE,TRUE,0,7.33333333333333,7.66666666666667,After
+South Point SMR,M. franciscanus,KFM,Bio,2011,2003,7;10,7;8,1,FALSE,TRUE,0,9,7.66666666666667,After
+South Point SMR,M. franciscanus,KFM,Bio,2012,2003,7;8,6;7;8,2,FALSE,TRUE,0,7.33333333333333,7,After
+South Point SMR,M. franciscanus,KFM,Bio,2013,2003,6;7,7;8,1,FALSE,TRUE,0,6.66666666666667,7.66666666666667,After
+South Point SMR,M. franciscanus,KFM,Bio,2014,2003,7,7,1,TRUE,TRUE,0,7,7,After
+South Point SMR,M. franciscanus,KFM,Bio,2015,2003,8,6;8,1,FALSE,TRUE,0,8,7.33333333333333,After
+South Point SMR,M. franciscanus,KFM,Bio,2016,2003,7;9,7;9,2,TRUE,TRUE,0,7.66666666666667,8.33333333333333,After
+South Point SMR,M. franciscanus,KFM,Bio,2017,2003,7;9,8;9,1,FALSE,TRUE,0,7.66666666666667,8.33333333333333,After
+South Point SMR,M. franciscanus,KFM,Bio,2018,2003,7;8,7;8,2,TRUE,TRUE,0,7.66666666666667,7.33333333333333,After
+South Point SMR,M. franciscanus,KFM,Bio,2019,2003,7;9,7;8;10,1,FALSE,TRUE,0,7.66666666666667,8.33333333333333,After
+South Point SMR,M. franciscanus,KFM,Bio,2021,2003,9;10,10,1,FALSE,TRUE,0,9.33333333333333,10,After
+South Point SMR,M. franciscanus,KFM,Bio,2022,2003,6;8,7;8,1,FALSE,TRUE,0,6.66666666666667,7.66666666666667,After
+South Point SMR,M. franciscanus,KFM,Den,2005,2003,8;9,7;8,1,FALSE,TRUE,0,8.33333333333333,7.33333333333333,After
+South Point SMR,M. franciscanus,KFM,Den,2006,2003,6;7,7;8,1,FALSE,TRUE,0,6.66666666666667,7.66666666666667,After
+South Point SMR,M. franciscanus,KFM,Den,2007,2003,7;8,7;8;9,2,FALSE,TRUE,0,7.66666666666667,8,After
+South Point SMR,M. franciscanus,KFM,Den,2008,2003,7;8,7;8;9,2,FALSE,TRUE,0,7.33333333333333,8,After
+South Point SMR,M. franciscanus,KFM,Den,2009,2003,6;7,6;7;9,2,FALSE,TRUE,0,6.66666666666667,7.33333333333333,After
+South Point SMR,M. franciscanus,KFM,Den,2010,2003,6;8,6;8;9,2,FALSE,TRUE,0,7.33333333333333,7.66666666666667,After
+South Point SMR,M. franciscanus,KFM,Den,2011,2003,7;10,7;8,1,FALSE,TRUE,0,9,7.66666666666667,After
+South Point SMR,M. franciscanus,KFM,Den,2012,2003,7;8,6;7;8,2,FALSE,TRUE,0,7.33333333333333,7,After
+South Point SMR,M. franciscanus,KFM,Den,2013,2003,6;7,7;8,1,FALSE,TRUE,0,6.66666666666667,7.66666666666667,After
+South Point SMR,M. franciscanus,KFM,Den,2014,2003,7,7,1,TRUE,TRUE,0,7,7,After
+South Point SMR,M. franciscanus,KFM,Den,2015,2003,8,6;8,1,FALSE,TRUE,0,8,7.33333333333333,After
+South Point SMR,M. franciscanus,KFM,Den,2016,2003,7;9,7;9,2,TRUE,TRUE,0,7.66666666666667,8.33333333333333,After
+South Point SMR,M. franciscanus,KFM,Den,2017,2003,7;9,8;9,1,FALSE,TRUE,0,7.66666666666667,8.33333333333333,After
+South Point SMR,M. franciscanus,KFM,Den,2018,2003,7;8,7;8,2,TRUE,TRUE,0,7.66666666666667,7.33333333333333,After
+South Point SMR,M. franciscanus,KFM,Den,2019,2003,7;9,7;8;10,1,FALSE,TRUE,0,7.66666666666667,8.33333333333333,After
+South Point SMR,M. franciscanus,KFM,Den,2021,2003,9;10,10,1,FALSE,TRUE,0,9.33333333333333,10,After
+South Point SMR,M. franciscanus,KFM,Den,2022,2003,6;8,7;8,1,FALSE,TRUE,0,6.66666666666667,7.66666666666667,After
+South Point SMR,M. franciscanus,PISCO,Bio,2005,2003,8,8;9,1,FALSE,TRUE,0,8,8.66666666666667,After
+South Point SMR,M. franciscanus,PISCO,Bio,2007,2003,7;8,7;8,2,TRUE,TRUE,0,7.66666666666667,7.33333333333333,After
+South Point SMR,M. franciscanus,PISCO,Bio,2008,2003,8,6;7,0,FALSE,TRUE,1,8,6.33333333333333,After
+South Point SMR,M. franciscanus,PISCO,Bio,2009,2003,6;8,6;8,2,TRUE,TRUE,0,7.33333333333333,7.33333333333333,After
+South Point SMR,M. franciscanus,PISCO,Bio,2010,2003,8,7;8,1,FALSE,TRUE,0,8,7.2,After
+South Point SMR,M. franciscanus,PISCO,Bio,2011,2003,7,7,1,TRUE,TRUE,0,7,7,After
+South Point SMR,M. franciscanus,PISCO,Bio,2012,2003,9,7;10,0,FALSE,TRUE,1,9,8.5,After
+South Point SMR,M. franciscanus,PISCO,Bio,2014,2003,8,8;10,1,FALSE,TRUE,0,8,8.66666666666667,After
+South Point SMR,M. franciscanus,PISCO,Bio,2015,2003,7;8,7;8,2,TRUE,TRUE,0,7.5,7.2,After
+South Point SMR,M. franciscanus,PISCO,Bio,2016,2003,6;8,6;8,2,TRUE,TRUE,0,7,7,After
+South Point SMR,M. franciscanus,PISCO,Bio,2017,2003,9,8;9,1,FALSE,TRUE,0,9,8.42857142857143,After
+South Point SMR,M. franciscanus,PISCO,Bio,2018,2003,8;9,8,1,FALSE,TRUE,0,8.5,8,After
+South Point SMR,M. franciscanus,PISCO,Bio,2019,2003,9,8;9;10,1,FALSE,TRUE,0,9,9,After
+South Point SMR,M. franciscanus,PISCO,Bio,2021,2003,9,6;9,1,FALSE,TRUE,0,9,7.5,After
+South Point SMR,M. franciscanus,PISCO,Den,2005,2003,8,8;9,1,FALSE,TRUE,0,8,8.66666666666667,After
+South Point SMR,M. franciscanus,PISCO,Den,2007,2003,7;8,7;8,2,TRUE,TRUE,0,7.66666666666667,7.33333333333333,After
+South Point SMR,M. franciscanus,PISCO,Den,2008,2003,8,6;7,0,FALSE,TRUE,1,8,6.33333333333333,After
+South Point SMR,M. franciscanus,PISCO,Den,2009,2003,6;8,6;8,2,TRUE,TRUE,0,7.33333333333333,7.33333333333333,After
+South Point SMR,M. franciscanus,PISCO,Den,2010,2003,8,7;8,1,FALSE,TRUE,0,8,7.2,After
+South Point SMR,M. franciscanus,PISCO,Den,2011,2003,7,7,1,TRUE,TRUE,0,7,7,After
+South Point SMR,M. franciscanus,PISCO,Den,2012,2003,9,7;10,0,FALSE,TRUE,1,9,8.5,After
+South Point SMR,M. franciscanus,PISCO,Den,2014,2003,8,8;10,1,FALSE,TRUE,0,8,8.66666666666667,After
+South Point SMR,M. franciscanus,PISCO,Den,2015,2003,7;8,7;8,2,TRUE,TRUE,0,7.5,7.2,After
+South Point SMR,M. franciscanus,PISCO,Den,2016,2003,6;8,6;8,2,TRUE,TRUE,0,7,7,After
+South Point SMR,M. franciscanus,PISCO,Den,2017,2003,9,8;9,1,FALSE,TRUE,0,9,8.42857142857143,After
+South Point SMR,M. franciscanus,PISCO,Den,2018,2003,8;9,8,1,FALSE,TRUE,0,8.5,8,After
+South Point SMR,M. franciscanus,PISCO,Den,2019,2003,9,8;9;10,1,FALSE,TRUE,0,9,9,After
+South Point SMR,M. franciscanus,PISCO,Den,2020,2003,8;9,9;10,1,FALSE,TRUE,0,8.33333333333333,9.5,After
+South Point SMR,M. franciscanus,PISCO,Den,2021,2003,9,6;9,1,FALSE,TRUE,0,9,7.5,After
+South Point SMR,M. franciscanus,PISCO,Den,2023,2003,7;9,7;9,2,TRUE,TRUE,0,8.33333333333333,7.66666666666667,After
+South Point SMR,M. pyrifera,KFM,Bio,2005,2003,8;9,7;8,1,FALSE,TRUE,0,8.33333333333333,7.33333333333333,After
+South Point SMR,M. pyrifera,KFM,Bio,2006,2003,6;7,7;8,1,FALSE,TRUE,0,6.66666666666667,7.66666666666667,After
+South Point SMR,M. pyrifera,KFM,Bio,2007,2003,7;8,7;8;9,2,FALSE,TRUE,0,7.66666666666667,8,After
+South Point SMR,M. pyrifera,KFM,Bio,2008,2003,7;8,7;8;9,2,FALSE,TRUE,0,7.33333333333333,8,After
+South Point SMR,M. pyrifera,KFM,Bio,2009,2003,6;7,6;7;9,2,FALSE,TRUE,0,6.66666666666667,7.33333333333333,After
+South Point SMR,M. pyrifera,KFM,Bio,2010,2003,6;8,6;8;9,2,FALSE,TRUE,0,7.33333333333333,7.66666666666667,After
+South Point SMR,M. pyrifera,KFM,Bio,2011,2003,7;10,7;8,1,FALSE,TRUE,0,9,7.66666666666667,After
+South Point SMR,M. pyrifera,KFM,Bio,2012,2003,7;8,6;7;8,2,FALSE,TRUE,0,7.33333333333333,7,After
+South Point SMR,M. pyrifera,KFM,Bio,2013,2003,6;7,7;8,1,FALSE,TRUE,0,6.66666666666667,7.66666666666667,After
+South Point SMR,M. pyrifera,KFM,Bio,2014,2003,7,7,1,TRUE,TRUE,0,7,7,After
+South Point SMR,M. pyrifera,KFM,Bio,2015,2003,8,6;8,1,FALSE,TRUE,0,8,7.33333333333333,After
+South Point SMR,M. pyrifera,KFM,Bio,2016,2003,7;9,7;9,2,TRUE,TRUE,0,7.66666666666667,8.33333333333333,After
+South Point SMR,M. pyrifera,KFM,Bio,2017,2003,7;9,8;9,1,FALSE,TRUE,0,7.66666666666667,8.33333333333333,After
+South Point SMR,M. pyrifera,KFM,Bio,2018,2003,7;8,7;8,2,TRUE,TRUE,0,7.66666666666667,7.33333333333333,After
+South Point SMR,M. pyrifera,KFM,Bio,2019,2003,7;9,7;8;10,1,FALSE,TRUE,0,7.66666666666667,8.33333333333333,After
+South Point SMR,M. pyrifera,KFM,Bio,2021,2003,9;10,10,1,FALSE,TRUE,0,9.33333333333333,10,After
+South Point SMR,M. pyrifera,KFM,Bio,2022,2003,6;8,7;8,1,FALSE,TRUE,0,6.66666666666667,7.66666666666667,After
+South Point SMR,M. pyrifera,PISCO,Bio,2005,2003,8,8;9,1,FALSE,TRUE,0,8,8.66666666666667,After
+South Point SMR,M. pyrifera,PISCO,Bio,2007,2003,7;8,7;8,2,TRUE,TRUE,0,7.66666666666667,7.33333333333333,After
+South Point SMR,M. pyrifera,PISCO,Bio,2008,2003,8,6;7,0,FALSE,TRUE,1,8,6.33333333333333,After
+South Point SMR,M. pyrifera,PISCO,Bio,2009,2003,6;8,6;8,2,TRUE,TRUE,0,7.33333333333333,7.33333333333333,After
+South Point SMR,M. pyrifera,PISCO,Bio,2010,2003,8,7;8,1,FALSE,TRUE,0,8,7.2,After
+South Point SMR,M. pyrifera,PISCO,Bio,2011,2003,7,7,1,TRUE,TRUE,0,7,7,After
+South Point SMR,M. pyrifera,PISCO,Bio,2012,2003,9,7;10,0,FALSE,TRUE,1,9,8.5,After
+South Point SMR,M. pyrifera,PISCO,Bio,2014,2003,8,8;10,1,FALSE,TRUE,0,8,8.66666666666667,After
+South Point SMR,M. pyrifera,PISCO,Bio,2015,2003,7;8,7;8,2,TRUE,TRUE,0,7.5,7.2,After
+South Point SMR,M. pyrifera,PISCO,Bio,2016,2003,6;8,6;8,2,TRUE,TRUE,0,7,7,After
+South Point SMR,M. pyrifera,PISCO,Bio,2017,2003,9,8;9,1,FALSE,TRUE,0,9,8.42857142857143,After
+South Point SMR,M. pyrifera,PISCO,Bio,2018,2003,8;9,8,1,FALSE,TRUE,0,8.5,8,After
+South Point SMR,M. pyrifera,PISCO,Bio,2019,2003,9,8;9;10,1,FALSE,TRUE,0,9,9,After
+South Point SMR,M. pyrifera,PISCO,Bio,2020,2003,8;9,9;10,1,FALSE,TRUE,0,8.33333333333333,9.5,After
+South Point SMR,M. pyrifera,PISCO,Bio,2021,2003,9,6;9,1,FALSE,TRUE,0,9,7.5,After
+South Point SMR,M. pyrifera,PISCO,Bio,2023,2003,7;9,7;9,2,TRUE,TRUE,0,8.33333333333333,7.66666666666667,After
+South Point SMR,P. interruptus,KFM,Den,2005,2003,8;9,7;8,1,FALSE,TRUE,0,8.33333333333333,7.33333333333333,After
+South Point SMR,P. interruptus,KFM,Den,2006,2003,6;7,7;8,1,FALSE,TRUE,0,6.66666666666667,7.66666666666667,After
+South Point SMR,P. interruptus,KFM,Den,2007,2003,7;8,7;8;9,2,FALSE,TRUE,0,7.66666666666667,8,After
+South Point SMR,P. interruptus,KFM,Den,2008,2003,7;8,7;8;9,2,FALSE,TRUE,0,7.33333333333333,8,After
+South Point SMR,P. interruptus,KFM,Den,2009,2003,6;7,6;7;9,2,FALSE,TRUE,0,6.66666666666667,7.33333333333333,After
+South Point SMR,P. interruptus,KFM,Den,2010,2003,6;8,6;8;9,2,FALSE,TRUE,0,7.33333333333333,7.66666666666667,After
+South Point SMR,P. interruptus,KFM,Den,2011,2003,7;10,7;8,1,FALSE,TRUE,0,9,7.66666666666667,After
+South Point SMR,P. interruptus,KFM,Den,2012,2003,7;8,6;7;8,2,FALSE,TRUE,0,7.33333333333333,7,After
+South Point SMR,P. interruptus,KFM,Den,2013,2003,6;7,7;8,1,FALSE,TRUE,0,6.66666666666667,7.66666666666667,After
+South Point SMR,P. interruptus,KFM,Den,2014,2003,7,7,1,TRUE,TRUE,0,7,7,After
+South Point SMR,P. interruptus,KFM,Den,2015,2003,8,6;8,1,FALSE,TRUE,0,8,7.33333333333333,After
+South Point SMR,P. interruptus,KFM,Den,2016,2003,7;9,7;9,2,TRUE,TRUE,0,7.66666666666667,8.33333333333333,After
+South Point SMR,P. interruptus,KFM,Den,2017,2003,7;9,8;9,1,FALSE,TRUE,0,7.66666666666667,8.33333333333333,After
+South Point SMR,P. interruptus,KFM,Den,2018,2003,7;8,7;8,2,TRUE,TRUE,0,7.66666666666667,7.33333333333333,After
+South Point SMR,P. interruptus,KFM,Den,2019,2003,7;9,7;8;10,1,FALSE,TRUE,0,7.66666666666667,8.33333333333333,After
+South Point SMR,P. interruptus,KFM,Den,2021,2003,9;10,10,1,FALSE,TRUE,0,9.33333333333333,10,After
+South Point SMR,P. interruptus,KFM,Den,2022,2003,6;8,7;8,1,FALSE,TRUE,0,6.66666666666667,7.66666666666667,After
+South Point SMR,P. interruptus,PISCO,Den,2005,2003,8,8;9,1,FALSE,TRUE,0,8,8.66666666666667,After
+South Point SMR,P. interruptus,PISCO,Den,2007,2003,7;8,7;8,2,TRUE,TRUE,0,7.66666666666667,7.33333333333333,After
+South Point SMR,P. interruptus,PISCO,Den,2008,2003,8,6;7,0,FALSE,TRUE,1,8,6.33333333333333,After
+South Point SMR,P. interruptus,PISCO,Den,2009,2003,6;8,6;8,2,TRUE,TRUE,0,7.33333333333333,7.33333333333333,After
+South Point SMR,P. interruptus,PISCO,Den,2010,2003,8,7;8,1,FALSE,TRUE,0,8,7.2,After
+South Point SMR,P. interruptus,PISCO,Den,2011,2003,7,7,1,TRUE,TRUE,0,7,7,After
+South Point SMR,P. interruptus,PISCO,Den,2012,2003,9,7;10,0,FALSE,TRUE,1,9,8.5,After
+South Point SMR,P. interruptus,PISCO,Den,2014,2003,8,8;10,1,FALSE,TRUE,0,8,8.66666666666667,After
+South Point SMR,P. interruptus,PISCO,Den,2015,2003,7;8,7;8,2,TRUE,TRUE,0,7.5,7.2,After
+South Point SMR,P. interruptus,PISCO,Den,2016,2003,6;8,6;8,2,TRUE,TRUE,0,7,7,After
+South Point SMR,P. interruptus,PISCO,Den,2017,2003,9,8;9,1,FALSE,TRUE,0,9,8.42857142857143,After
+South Point SMR,P. interruptus,PISCO,Den,2018,2003,8;9,8,1,FALSE,TRUE,0,8.5,8,After
+South Point SMR,P. interruptus,PISCO,Den,2019,2003,9,8;9;10,1,FALSE,TRUE,0,9,9,After
+South Point SMR,P. interruptus,PISCO,Den,2020,2003,8;9,9;10,1,FALSE,TRUE,0,8.33333333333333,9.5,After
+South Point SMR,P. interruptus,PISCO,Den,2021,2003,9,6;9,1,FALSE,TRUE,0,9,7.5,After
+South Point SMR,P. interruptus,PISCO,Den,2023,2003,7;9,7;9,2,TRUE,TRUE,0,8.33333333333333,7.66666666666667,After
+South Point SMR,S. pulcher,KFM,Den,2005,2003,8;9,7;8,1,FALSE,TRUE,0,8.66666666666667,7.33333333333333,After
+South Point SMR,S. pulcher,KFM,Den,2006,2003,6;7,7;8,1,FALSE,TRUE,0,6.66666666666667,7.66666666666667,After
+South Point SMR,S. pulcher,KFM,Den,2007,2003,7;8,7;8;9,2,FALSE,TRUE,0,7.66666666666667,8,After
+South Point SMR,S. pulcher,KFM,Den,2008,2003,7;8,7;8;10,2,FALSE,TRUE,0,7.33333333333333,8.33333333333333,After
+South Point SMR,S. pulcher,KFM,Den,2009,2003,6;7,7;9,1,FALSE,TRUE,0,6.66666666666667,7.66666666666667,After
+South Point SMR,S. pulcher,KFM,Den,2010,2003,6;8,6;7;8,2,FALSE,TRUE,0,7.33333333333333,7,After
+South Point SMR,S. pulcher,KFM,Den,2011,2003,7;10,7;8;10,2,FALSE,TRUE,0,9,8.33333333333333,After
+South Point SMR,S. pulcher,KFM,Den,2012,2003,7;8,6;7;8,2,FALSE,TRUE,0,7.33333333333333,7,After
+South Point SMR,S. pulcher,KFM,Den,2013,2003,6;7,6;7;8,2,FALSE,TRUE,0,6.66666666666667,7,After
+South Point SMR,S. pulcher,KFM,Den,2014,2003,7;10,7,1,FALSE,TRUE,0,8,7,After
+South Point SMR,S. pulcher,KFM,Den,2015,2003,8,8;9,1,FALSE,TRUE,0,8,8.33333333333333,After
+South Point SMR,S. pulcher,KFM,Den,2016,2003,7;9,9,1,FALSE,TRUE,0,7.66666666666667,9,After
+South Point SMR,S. pulcher,KFM,Den,2017,2003,7;9,8;9,1,FALSE,TRUE,0,7.66666666666667,8.33333333333333,After
+South Point SMR,S. pulcher,KFM,Den,2018,2003,7;8,7;8,2,TRUE,TRUE,0,7.66666666666667,7.33333333333333,After
+South Point SMR,S. pulcher,KFM,Den,2019,2003,7;9,7;8;10,1,FALSE,TRUE,0,7.66666666666667,8.33333333333333,After
+South Point SMR,S. pulcher,KFM,Den,2021,2003,9;10,9;10,2,TRUE,TRUE,0,9.33333333333333,9.66666666666667,After
+South Point SMR,S. pulcher,KFM,Den,2022,2003,6;8,7;8,1,FALSE,TRUE,0,6.66666666666667,7.66666666666667,After
+South Point SMR,S. pulcher,PISCO,Bio,2004,2003,8,9;10,0,FALSE,TRUE,1,8,9.5,After
+South Point SMR,S. pulcher,PISCO,Bio,2005,2003,8;10;11,8;9;10;11,3,FALSE,TRUE,0,9.66666666666667,9.83333333333333,After
+South Point SMR,S. pulcher,PISCO,Bio,2006,2003,11,10;11,1,FALSE,TRUE,0,11,10.3333333333333,After
+South Point SMR,S. pulcher,PISCO,Bio,2007,2003,9;10,9,1,FALSE,TRUE,0,9.25,9,After
+South Point SMR,S. pulcher,PISCO,Bio,2008,2003,8;10;11,10;11,2,FALSE,TRUE,0,9.77777777777778,10.25,After
+South Point SMR,S. pulcher,PISCO,Bio,2009,2003,9,8;9,1,FALSE,TRUE,0,9,8.5,After
+South Point SMR,S. pulcher,PISCO,Bio,2010,2003,10,9;10,1,FALSE,TRUE,0,10,9.5,After
+South Point SMR,S. pulcher,PISCO,Bio,2011,2003,11,8;11;12,1,FALSE,TRUE,0,11,10.1666666666667,After
+South Point SMR,S. pulcher,PISCO,Bio,2012,2003,9,9;10,1,FALSE,TRUE,0,9,9.5,After
+South Point SMR,S. pulcher,PISCO,Bio,2013,2003,10;12,10;12,2,TRUE,TRUE,0,10.6666666666667,11.1428571428571,After
+South Point SMR,S. pulcher,PISCO,Bio,2014,2003,8;11,10;11,1,FALSE,TRUE,0,10,10.75,After
+South Point SMR,S. pulcher,PISCO,Bio,2015,2003,8,8,1,TRUE,TRUE,0,8,8,After
+South Point SMR,S. pulcher,PISCO,Bio,2016,2003,9,9;10;12,1,FALSE,TRUE,0,9,9.8,After
+South Point SMR,S. pulcher,PISCO,Bio,2017,2003,9,8;9,1,FALSE,TRUE,0,9,8.66666666666667,After
+South Point SMR,S. pulcher,PISCO,Bio,2018,2003,8;9,8,1,FALSE,TRUE,0,8.5,8,After
+South Point SMR,S. pulcher,PISCO,Bio,2019,2003,9;10,9;10;11,2,FALSE,TRUE,0,9.66666666666667,10,After
+South Point SMR,S. pulcher,PISCO,Bio,2020,2003,8;9,9;10,1,FALSE,TRUE,0,8.33333333333333,9.5,After
+South Point SMR,S. pulcher,PISCO,Bio,2021,2003,9;11,9;11,2,TRUE,TRUE,0,10,10.3333333333333,After
+South Point SMR,S. pulcher,PISCO,Bio,2022,2003,10;11,10;11,2,TRUE,TRUE,0,10.6666666666667,10.3333333333333,After
+South Point SMR,S. pulcher,PISCO,Bio,2023,2003,9,9;10;12,1,FALSE,TRUE,0,9,10.25,After
+South Point SMR,S. pulcher,PISCO,Den,2004,2003,8,9;10,0,FALSE,TRUE,1,8,9.5,After
+South Point SMR,S. pulcher,PISCO,Den,2005,2003,8;10;11,8;9;10;11,3,FALSE,TRUE,0,9.66666666666667,9.83333333333333,After
+South Point SMR,S. pulcher,PISCO,Den,2006,2003,11,10;11,1,FALSE,TRUE,0,11,10.3333333333333,After
+South Point SMR,S. pulcher,PISCO,Den,2007,2003,9;10,9,1,FALSE,TRUE,0,9.25,9,After
+South Point SMR,S. pulcher,PISCO,Den,2008,2003,8;10;11,10;11,2,FALSE,TRUE,0,9.77777777777778,10.25,After
+South Point SMR,S. pulcher,PISCO,Den,2009,2003,9,8;9,1,FALSE,TRUE,0,9,8.5,After
+South Point SMR,S. pulcher,PISCO,Den,2010,2003,10,9;10,1,FALSE,TRUE,0,10,9.5,After
+South Point SMR,S. pulcher,PISCO,Den,2011,2003,11,8;11;12,1,FALSE,TRUE,0,11,10.1666666666667,After
+South Point SMR,S. pulcher,PISCO,Den,2012,2003,9,9;10,1,FALSE,TRUE,0,9,9.5,After
+South Point SMR,S. pulcher,PISCO,Den,2013,2003,10;12,10;12,2,TRUE,TRUE,0,10.6666666666667,11.1428571428571,After
+South Point SMR,S. pulcher,PISCO,Den,2014,2003,8;11,10;11,1,FALSE,TRUE,0,10,10.75,After
+South Point SMR,S. pulcher,PISCO,Den,2015,2003,8,8,1,TRUE,TRUE,0,8,8,After
+South Point SMR,S. pulcher,PISCO,Den,2016,2003,9,9;10;12,1,FALSE,TRUE,0,9,9.8,After
+South Point SMR,S. pulcher,PISCO,Den,2017,2003,9,8;9,1,FALSE,TRUE,0,9,8.66666666666667,After
+South Point SMR,S. pulcher,PISCO,Den,2018,2003,8;9,8,1,FALSE,TRUE,0,8.5,8,After
+South Point SMR,S. pulcher,PISCO,Den,2019,2003,9;10,9;10;11,2,FALSE,TRUE,0,9.66666666666667,10,After
+South Point SMR,S. pulcher,PISCO,Den,2020,2003,8;9,9;10,1,FALSE,TRUE,0,8.33333333333333,9.5,After
+South Point SMR,S. pulcher,PISCO,Den,2021,2003,9;11,9;11,2,TRUE,TRUE,0,10,10.3333333333333,After
+South Point SMR,S. pulcher,PISCO,Den,2022,2003,10;11,10;11,2,TRUE,TRUE,0,10.6666666666667,10.3333333333333,After
+South Point SMR,S. pulcher,PISCO,Den,2023,2003,9,9;10;12,1,FALSE,TRUE,0,9,10.25,After
+South Point SMR,S. purpuratus,KFM,Bio,2005,2003,8;9,7;8,1,FALSE,TRUE,0,8.33333333333333,7.33333333333333,After
+South Point SMR,S. purpuratus,KFM,Bio,2006,2003,6;7,7;8,1,FALSE,TRUE,0,6.66666666666667,7.66666666666667,After
+South Point SMR,S. purpuratus,KFM,Bio,2007,2003,7;8,7;8;9,2,FALSE,TRUE,0,7.66666666666667,8,After
+South Point SMR,S. purpuratus,KFM,Bio,2008,2003,7;8,7;8;9,2,FALSE,TRUE,0,7.33333333333333,8,After
+South Point SMR,S. purpuratus,KFM,Bio,2009,2003,6;7,6;7;9,2,FALSE,TRUE,0,6.66666666666667,7.33333333333333,After
+South Point SMR,S. purpuratus,KFM,Bio,2010,2003,6;8,6;8;9,2,FALSE,TRUE,0,7.33333333333333,7.66666666666667,After
+South Point SMR,S. purpuratus,KFM,Bio,2011,2003,7;10,7;8,1,FALSE,TRUE,0,9,7.66666666666667,After
+South Point SMR,S. purpuratus,KFM,Bio,2012,2003,7;8,6;7;8,2,FALSE,TRUE,0,7.33333333333333,7,After
+South Point SMR,S. purpuratus,KFM,Bio,2013,2003,6;7,7;8,1,FALSE,TRUE,0,6.66666666666667,7.66666666666667,After
+South Point SMR,S. purpuratus,KFM,Bio,2014,2003,7,7,1,TRUE,TRUE,0,7,7,After
+South Point SMR,S. purpuratus,KFM,Bio,2015,2003,8,6;8,1,FALSE,TRUE,0,8,7.33333333333333,After
+South Point SMR,S. purpuratus,KFM,Bio,2016,2003,7;9,7;9,2,TRUE,TRUE,0,7.66666666666667,8.33333333333333,After
+South Point SMR,S. purpuratus,KFM,Bio,2017,2003,7;9,8;9,1,FALSE,TRUE,0,7.66666666666667,8.33333333333333,After
+South Point SMR,S. purpuratus,KFM,Bio,2018,2003,7;8,7;8,2,TRUE,TRUE,0,7.66666666666667,7.33333333333333,After
+South Point SMR,S. purpuratus,KFM,Bio,2019,2003,7;9,7;8;10,1,FALSE,TRUE,0,7.66666666666667,8.33333333333333,After
+South Point SMR,S. purpuratus,KFM,Bio,2021,2003,9;10,10,1,FALSE,TRUE,0,9.33333333333333,10,After
+South Point SMR,S. purpuratus,KFM,Bio,2022,2003,6;8,7;8,1,FALSE,TRUE,0,6.66666666666667,7.66666666666667,After
+South Point SMR,S. purpuratus,KFM,Den,2005,2003,8;9,7;8,1,FALSE,TRUE,0,8.33333333333333,7.33333333333333,After
+South Point SMR,S. purpuratus,KFM,Den,2006,2003,6;7,7;8,1,FALSE,TRUE,0,6.66666666666667,7.66666666666667,After
+South Point SMR,S. purpuratus,KFM,Den,2007,2003,7;8,7;8;9,2,FALSE,TRUE,0,7.66666666666667,8,After
+South Point SMR,S. purpuratus,KFM,Den,2008,2003,7;8,7;8;9,2,FALSE,TRUE,0,7.33333333333333,8,After
+South Point SMR,S. purpuratus,KFM,Den,2009,2003,6;7,6;7;9,2,FALSE,TRUE,0,6.66666666666667,7.33333333333333,After
+South Point SMR,S. purpuratus,KFM,Den,2010,2003,6;8,6;8;9,2,FALSE,TRUE,0,7.33333333333333,7.66666666666667,After
+South Point SMR,S. purpuratus,KFM,Den,2011,2003,7;10,7;8,1,FALSE,TRUE,0,9,7.66666666666667,After
+South Point SMR,S. purpuratus,KFM,Den,2012,2003,7;8,6;7;8,2,FALSE,TRUE,0,7.33333333333333,7,After
+South Point SMR,S. purpuratus,KFM,Den,2013,2003,6;7,7;8,1,FALSE,TRUE,0,6.66666666666667,7.66666666666667,After
+South Point SMR,S. purpuratus,KFM,Den,2014,2003,7,7,1,TRUE,TRUE,0,7,7,After
+South Point SMR,S. purpuratus,KFM,Den,2015,2003,8,6;8,1,FALSE,TRUE,0,8,7.33333333333333,After
+South Point SMR,S. purpuratus,KFM,Den,2016,2003,7;9,7;9,2,TRUE,TRUE,0,7.66666666666667,8.33333333333333,After
+South Point SMR,S. purpuratus,KFM,Den,2017,2003,7;9,8;9,1,FALSE,TRUE,0,7.66666666666667,8.33333333333333,After
+South Point SMR,S. purpuratus,KFM,Den,2018,2003,7;8,7;8,2,TRUE,TRUE,0,7.66666666666667,7.33333333333333,After
+South Point SMR,S. purpuratus,KFM,Den,2019,2003,7;9,7;8;10,1,FALSE,TRUE,0,7.66666666666667,8.33333333333333,After
+South Point SMR,S. purpuratus,KFM,Den,2021,2003,9;10,10,1,FALSE,TRUE,0,9.33333333333333,10,After
+South Point SMR,S. purpuratus,KFM,Den,2022,2003,6;8,7;8,1,FALSE,TRUE,0,6.66666666666667,7.66666666666667,After
+South Point SMR,S. purpuratus,PISCO,Bio,2005,2003,8,8;9,1,FALSE,TRUE,0,8,8.66666666666667,After
+South Point SMR,S. purpuratus,PISCO,Bio,2007,2003,7;8,7;8,2,TRUE,TRUE,0,7.66666666666667,7.33333333333333,After
+South Point SMR,S. purpuratus,PISCO,Bio,2008,2003,8,6;7,0,FALSE,TRUE,1,8,6.33333333333333,After
+South Point SMR,S. purpuratus,PISCO,Bio,2009,2003,6;8,6;8,2,TRUE,TRUE,0,7.33333333333333,7.33333333333333,After
+South Point SMR,S. purpuratus,PISCO,Bio,2010,2003,8,7;8,1,FALSE,TRUE,0,8,7.2,After
+South Point SMR,S. purpuratus,PISCO,Bio,2011,2003,7,7,1,TRUE,TRUE,0,7,7,After
+South Point SMR,S. purpuratus,PISCO,Bio,2012,2003,9,7;10,0,FALSE,TRUE,1,9,8.5,After
+South Point SMR,S. purpuratus,PISCO,Bio,2014,2003,8,8;10,1,FALSE,TRUE,0,8,8.66666666666667,After
+South Point SMR,S. purpuratus,PISCO,Bio,2015,2003,7;8,7;8,2,TRUE,TRUE,0,7.5,7.2,After
+South Point SMR,S. purpuratus,PISCO,Bio,2016,2003,6;8,6;8,2,TRUE,TRUE,0,7,7,After
+South Point SMR,S. purpuratus,PISCO,Bio,2017,2003,9,8;9,1,FALSE,TRUE,0,9,8.42857142857143,After
+South Point SMR,S. purpuratus,PISCO,Bio,2018,2003,8;9,8,1,FALSE,TRUE,0,8.5,8,After
+South Point SMR,S. purpuratus,PISCO,Bio,2019,2003,9,8;9;10,1,FALSE,TRUE,0,9,9,After
+South Point SMR,S. purpuratus,PISCO,Bio,2021,2003,9,6;9,1,FALSE,TRUE,0,9,7.5,After
+South Point SMR,S. purpuratus,PISCO,Den,2005,2003,8,8;9,1,FALSE,TRUE,0,8,8.66666666666667,After
+South Point SMR,S. purpuratus,PISCO,Den,2007,2003,7;8,7;8,2,TRUE,TRUE,0,7.66666666666667,7.33333333333333,After
+South Point SMR,S. purpuratus,PISCO,Den,2008,2003,8,6;7,0,FALSE,TRUE,1,8,6.33333333333333,After
+South Point SMR,S. purpuratus,PISCO,Den,2009,2003,6;8,6;8,2,TRUE,TRUE,0,7.33333333333333,7.33333333333333,After
+South Point SMR,S. purpuratus,PISCO,Den,2010,2003,8,7;8,1,FALSE,TRUE,0,8,7.2,After
+South Point SMR,S. purpuratus,PISCO,Den,2011,2003,7,7,1,TRUE,TRUE,0,7,7,After
+South Point SMR,S. purpuratus,PISCO,Den,2012,2003,9,7;10,0,FALSE,TRUE,1,9,8.5,After
+South Point SMR,S. purpuratus,PISCO,Den,2014,2003,8,8;10,1,FALSE,TRUE,0,8,8.66666666666667,After
+South Point SMR,S. purpuratus,PISCO,Den,2015,2003,7;8,7;8,2,TRUE,TRUE,0,7.5,7.2,After
+South Point SMR,S. purpuratus,PISCO,Den,2016,2003,6;8,6;8,2,TRUE,TRUE,0,7,7,After
+South Point SMR,S. purpuratus,PISCO,Den,2017,2003,9,8;9,1,FALSE,TRUE,0,9,8.42857142857143,After
+South Point SMR,S. purpuratus,PISCO,Den,2018,2003,8;9,8,1,FALSE,TRUE,0,8.5,8,After
+South Point SMR,S. purpuratus,PISCO,Den,2019,2003,9,8;9;10,1,FALSE,TRUE,0,9,9,After
+South Point SMR,S. purpuratus,PISCO,Den,2020,2003,8;9,9;10,1,FALSE,TRUE,0,8.33333333333333,9.5,After
+South Point SMR,S. purpuratus,PISCO,Den,2021,2003,9,6;9,1,FALSE,TRUE,0,9,7.5,After
+South Point SMR,S. purpuratus,PISCO,Den,2023,2003,7;9,7;9,2,TRUE,TRUE,0,8.33333333333333,7.66666666666667,After
+Swamis SMCA,S. pulcher,PISCO,Bio,2011,2012,11,10,0,FALSE,TRUE,1,11,10,Before
+Swamis SMCA,S. pulcher,PISCO,Bio,2012,2012,12,12,1,TRUE,TRUE,0,12,12,Before
+Swamis SMCA,S. pulcher,PISCO,Bio,2019,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Swamis SMCA,S. pulcher,PISCO,Bio,2020,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Swamis SMCA,S. pulcher,PISCO,Bio,2021,2012,9;10,9;10,2,TRUE,TRUE,0,9.5,9.5,After
+Swamis SMCA,S. pulcher,PISCO,Bio,2022,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Swamis SMCA,S. pulcher,PISCO,Bio,2023,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Swamis SMCA,S. pulcher,PISCO,Den,2011,2012,11,10,0,FALSE,TRUE,1,11,10,Before
+Swamis SMCA,S. pulcher,PISCO,Den,2012,2012,12,12,1,TRUE,TRUE,0,12,12,Before
+Swamis SMCA,S. pulcher,PISCO,Den,2019,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Swamis SMCA,S. pulcher,PISCO,Den,2020,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Swamis SMCA,S. pulcher,PISCO,Den,2021,2012,9;10,9;10,2,TRUE,TRUE,0,9.5,9.5,After
+Swamis SMCA,S. pulcher,PISCO,Den,2022,2012,10,10,1,TRUE,TRUE,0,10,10,After
+Swamis SMCA,S. pulcher,PISCO,Den,2023,2012,10,10,1,TRUE,TRUE,0,10,10,After

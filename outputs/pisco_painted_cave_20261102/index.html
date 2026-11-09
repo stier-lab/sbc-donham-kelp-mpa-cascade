@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Painted Cave source correction</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Painted Cave source correction</h1>
+</header>
+<h1 id="painted-cave-size-records-and-emilys-biomass-workflow">Painted
+Cave size records and Emily’s biomass workflow</h1>
+<p>November 2, 2026. Original files retained; manuscript, supplement and
+frozen results unchanged.</p>
+<h2 id="what-happened">What happened</h2>
+<p>The original PISCO file identifies 99 size-frequency records as
+Painted Cave East in 2003. They represent 69 red urchins and 70 purple
+urchins. Emily’s archived combined size file already contains the
+conflicting South Point grouping label; her archived site table
+correctly assigns Painted Cave East to Painted Cave. The current
+combined file is byte-identical to that archived file. The code that
+originally assembled this combined file was not found among the archived
+GitHub scripts, so the exact editing operation that introduced the label
+remains unknown.</p>
+<p>This did <strong>not</strong> send these animals into South Point
+biomass. Emily’s code joins sizes to site metadata using physical site,
+grouping label and program together. The inconsistent combination
+matches neither site. Reproducing that join leaves all 99 records
+without a comparison assignment. Correcting the alias assigns all 99 to
+Painted Cave and none to South Point.</p>
+<h2 id="correction-and-exclusions">Correction and exclusions</h2>
+<p>The source adapter now reads the checksum-verified PISCO 1.11 roving
+file, converts centimeters to millimeters, and obtains the grouping
+label from the physical site and program in the checked site table. It
+does not copy the combined file’s erroneous grouping label. All 3,970
+historical UCSB measurement records match the original source with
+multiplicity.</p>
+<p>Painted Cave remains excluded under the existing ecological scope
+because lobster take is permitted. The selection ledger preserves all
+332 Painted Cave size rows in the historical source scope, including the
+99 corrected rows, but keeps them out of candidate size donors. The
+other 3,638 historical UCSB records enter the source-derived candidate
+table; existing physical reference exclusions remain applied by the
+production importer. Additional 2022–2024 source observations remain
+outside the approved replacement years. VRG originals remain
+unresolved.</p>
+<p>A new guard rejects a grouping label that conflicts with the physical
+site before comparison membership is assigned. Tests cover this exact
+Painted Cave/South Point failure, duplicate records, unknown mappings,
+source checksums and year/exclusion scope.</p>
+<h2 id="what-changes-in-results">What changes in results</h2>
+<p>The retained donor-membership table is identical before and after
+correcting the 99 labels. The correction only restores membership in an
+excluded comparison. It therefore changes no retained annual biomass
+inputs or fitted results through this pathway. No model rerun is needed
+for this identity-only correction; no new fit or total-uncertainty
+calculation is claimed. The independent-source adapter is also checked
+against the entire historical measurement multiset, rather than only
+these 99 rows.</p>
+<h2 id="how-emily-estimated-biomass">How Emily estimated biomass</h2>
+<p>The archived <code>Github/MPA_Kelp/code/pBACIPS_PISCO_V10.R</code>
+and <code>MPA_code_notes.docx</code> establish the following:</p>
+<ul>
+<li>The size table combines PISCO, VRG, KFM and LTER measurements.
+Researcher reference exclusions are applied before selecting donors
+(script lines 7–38).</li>
+<li>PISCO urchin donors are assigned to comparisons, restricted to
+diameters of at least 25 mm, and selected by comparison,
+protected/reference role, year and species (lines 294–336). Despite a
+nearby comment mentioning site/year/zone, the implemented donor
+selection does not require the same physical station, survey date, depth
+zone or monitoring program.</li>
+<li>Each recorded size is repeated according to its count. The code
+draws the number of animals recorded by the count survey, with
+replacement, 1,000 times; it converts each sampled animal’s size to
+mass, sums those masses and averages the totals (lines 338–373). This is
+the source of cross-program borrowing, not independent replication of
+each borrowed size sample.</li>
+<li>Red and purple urchins use separate allometric exponents. UCSB
+lobsters are calculated directly from swath lengths; VRG lobsters use
+roving size samples (lines 117–212). These measurement pathways must
+remain distinguishable.</li>
+<li>Her notes explicitly say that many size measurements used for PISCO
+biomass came from KFM’s separate size-frequency surveys. This
+corroborates the code; it does not by itself establish that every donor
+pool is seasonally or spatially representative.</li>
+</ul>
+<p>The source-first pipeline preserves these distinctions and logs donor
+identities. Matching of survey dates, depths, physical stations and
+shared-donor uncertainty remains a separate review. No legacy pooling or
+missing-data convention is silently endorsed by verifying the original
+files.</p>
+<h2 id="evidence-and-reproduction">Evidence and reproduction</h2>
+<ul>
+<li><a href="corrected_records.csv">Corrected records, including
+retained original labels</a></li>
+<li><a href="correction_summary.csv">Counts by species</a></li>
+<li><a href="membership_changes.csv">Before/after comparison
+memberships</a></li>
+<li><a href="pisco_roving_selection_ledger.csv">Source selection,
+including excluded and outside-scope rows</a></li>
+<li><a href="verification.json">Verification and archived-source
+hashes</a></li>
+</ul>
+<p>Run <code>python3 code/tools/audit_painted_cave_sizes.py</code> in
+the analysis repository. Run <code>make check</code> in the data
+repository to rebuild source inputs and test guards. Original files in
+Emily’s Drive folder are read-only evidence and were not edited.</p>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "candidate_rows": 206,
+  "retained_histories": 175,
+  "exclusions": 31,
+  "annual_rows": 3225,
+  "station_histories": 175,
+  "models_checked": 950,
+  "omission_checks": 447,
+  "exact_date_pair_checks": 1839,
+  "column_checks": 151,
+  "cells_compared": 31106,
+  "limits": "This validates numeric calculations and evidence transfer; historical metadata and unresolved habitat, timing, size-support assumptions are not newly confirmed."
+}

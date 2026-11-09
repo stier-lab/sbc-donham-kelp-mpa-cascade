@@ -1,0 +1,7 @@
+scenario,groups,ar_boundaries,variance_boundaries,upper_variance_boundaries,minimum_coefficient_eigenvalue,max_optimizer_attempts
+without_webster,60,13,36,0,-1.1302322758872306e-14,4
+without_miracle,60,13,36,0,-1.1302322758872306e-14,4
+without_wyckoff,60,11,36,0,-1.5527382149430333e-14,4
+without_flagged,60,12,38,0,-1.4660370686093272e-14,4
+matched_main_without_wyckoff,60,11,36,0,-1.5527382149430333e-14,4
+matched_main_without_flagged,60,11,36,0,-1.4660370686093272e-14,4

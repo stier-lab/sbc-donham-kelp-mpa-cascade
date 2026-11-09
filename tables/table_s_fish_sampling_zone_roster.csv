@@ -58,38 +58,17 @@
 "post_trend","Naples SMCA","NAPLES_CEN","OUTER",10
 "post_trend","Naples SMCA","NAPLES_E","OUTER",10
 "post_trend","Naples SMCA","NAPLES_W","OUTER",10
-"post_trend","Point Vicente SMCA","FLAT_ROCK_N","MID",9
-"post_trend","Point Vicente SMCA","HAWTHORNE_REEF","DEEP",9
-"post_trend","Point Vicente SMCA","HAWTHORNE_REEF","OUTER",9
-"post_trend","Point Vicente SMCA","HAWTHORNE_REEF","MID",9
-"post_trend","Point Vicente SMCA","LONG_POINT_E","INNER",9
-"post_trend","Point Vicente SMCA","LONG_POINT_E","MID",9
-"post_trend","Point Vicente SMCA","LONG_POINT_E","DEEP",9
-"post_trend","Point Vicente SMCA","LONG_POINT_E","OUTER",9
-"post_trend","Point Vicente SMCA","LUNADA_BAY","OUTER",9
-"post_trend","Point Vicente SMCA","LUNADA_BAY","DEEP",9
-"post_trend","Point Vicente SMCA","LUNADA_BAY","MID",9
-"post_trend","Point Vicente SMCA","POINT_VICENTE_W","INNER",9
-"post_trend","Point Vicente SMCA","POINT_VICENTE_W","MID",9
-"post_trend","Point Vicente SMCA","POINT_VICENTE_W","DEEP",9
-"post_trend","Point Vicente SMCA","POINT_VICENTE_W","OUTER",9
-"post_trend","Point Vicente SMCA","RESORT_POINT","DEEP",9
-"post_trend","Point Vicente SMCA","RESORT_POINT","OUTER",9
-"post_trend","Point Vicente SMCA","RESORT_POINT","MID",9
-"post_trend","Point Vicente SMCA","RIDGES_N","DEEP",9
-"post_trend","Point Vicente SMCA","RIDGES_N","MID",9
-"post_trend","Point Vicente SMCA","RIDGES_N","OUTER",9
-"post_trend","Point Vicente SMCA","RIDGES_S","MID",9
-"post_trend","Point Vicente SMCA","RIDGES_S","DEEP",9
-"post_trend","Point Vicente SMCA","RIDGES_S","OUTER",9
-"post_trend","Point Vicente SMCA","ROCKY_POINT_N","MID",9
-"post_trend","Point Vicente SMCA","ROCKY_POINT_N","DEEP",9
-"post_trend","Point Vicente SMCA","ROCKY_POINT_N","OUTER",9
-"post_trend","Point Vicente SMCA","ROCKY_POINT_S","DEEP",9
-"post_trend","Point Vicente SMCA","ROCKY_POINT_S","OUTER",9
-"post_trend","Point Vicente SMCA","ROCKY_POINT_S","MID",9
-"post_trend","Point Vicente SMCA","UNDERWATER_ARCH","MID",9
-"post_trend","Point Vicente SMCA","UNDERWATER_ARCH","OUTER",9
+"post_trend","Point Vicente SMCA","HAWTHORNE_REEF","DEEP",11
+"post_trend","Point Vicente SMCA","HAWTHORNE_REEF","MID",11
+"post_trend","Point Vicente SMCA","HAWTHORNE_REEF","OUTER",11
+"post_trend","Point Vicente SMCA","LONG_POINT_E","DEEP",11
+"post_trend","Point Vicente SMCA","LONG_POINT_E","OUTER",11
+"post_trend","Point Vicente SMCA","POINT_VICENTE_W","MID",11
+"post_trend","Point Vicente SMCA","POINT_VICENTE_W","OUTER",11
+"post_trend","Point Vicente SMCA","POINT_VICENTE_W","DEEP",11
+"post_trend","Point Vicente SMCA","RIDGES_N","DEEP",11
+"post_trend","Point Vicente SMCA","RIDGES_N","MID",11
+"post_trend","Point Vicente SMCA","RIDGES_N","OUTER",11
 "post_trend","Santa Barbara Island SMR","SBI_CAT_CANYON","MID",8
 "post_trend","Santa Barbara Island SMR","SBI_CAT_CANYON","OUTER",8
 "post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF","MID",8
@@ -147,6 +126,12 @@
 "before_after","Naples SMCA","NAPLES_CEN","OUTER",13
 "before_after","Naples SMCA","NAPLES_E","OUTER",13
 "before_after","Naples SMCA","NAPLES_W","OUTER",13
-"before_after","Point Vicente SMCA","POINT_VICENTE_W","MID",16
-"before_after","Point Vicente SMCA","ROCKY_POINT_N","MID",16
-"before_after","Point Vicente SMCA","ROCKY_POINT_N","OUTER",16
+"before_after","Point Vicente SMCA","HAWTHORNE_REEF","DEEP",14
+"before_after","Point Vicente SMCA","HAWTHORNE_REEF","MID",14
+"before_after","Point Vicente SMCA","HAWTHORNE_REEF","OUTER",14
+"before_after","Point Vicente SMCA","LONG_POINT_E","OUTER",14
+"before_after","Point Vicente SMCA","POINT_VICENTE_W","MID",14
+"before_after","Point Vicente SMCA","POINT_VICENTE_W","OUTER",14
+"before_after","Point Vicente SMCA","RIDGES_N","OUTER",14
+"before_after","Point Vicente SMCA","RIDGES_N","DEEP",14
+"before_after","Point Vicente SMCA","RIDGES_N","MID",14

@@ -1,0 +1,3 @@
+Error in validate_size_identity(x[!x$site %in% excluded_sites, ], reg,  : 
+  Unverified KFM size identities remain. See the physical-site audit; do not silently use or discard them.
+

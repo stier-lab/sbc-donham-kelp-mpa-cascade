@@ -1,0 +1,7 @@
+from pathlib import Path
+import pandas as pd,numpy as np,json,hashlib
+O=Path('outputs/kfm_remaining_sources_20261102');P=Path('/Users/adrianstier/sbc-donham-kelp-mpa-data/data/source_archive/kfm_size_feasibility_2026-10-29/legacy/Invertebrate Size Frequency.csv');l=pd.read_csv(P);z=l[l.Site.eq(2)&l.Year.eq(1987)&l.Species.eq(11006)];mm=z.Size*10
+edges=list(range(0,100,5))+[np.inf];counts,_=np.histogram(mm,bins=edges);pub=[2,0,2.9,19.6,56.9,10.8,1,2,3.9,0,0,1,0,0,0,0,0,0,0,0];assert len(z)==102 and len(pub)==len(counts);assert np.allclose(np.round(counts/len(z)*100,1),pub);assert mm.min()==3 and mm.max()==56
+pd.DataFrame(dict(lower_mm=edges[:-1],upper_exclusive_mm=edges[1:],legacy_count=counts,legacy_percent=np.round(counts/len(z)*100,1),published_percent=pub)).to_csv(O/'hare_1987_published_bin_check.csv',index=False)
+(O/'hare_1987_resolution.json').write_text(json.dumps(dict(status='Use original legacy measurements; independently supported by published frequency table',site='a-k-02',year=1987,classcode='Strongylocentrotus purpuratus',n=102,source_file=str(P),source_sha256=hashlib.sha256(P.read_bytes()).hexdigest(),published_url='https://irma.nps.gov/DataStore/DownloadFile/640174',pdf_page=274,printed_page='Appx.5-26',bin_checks=len(pub),scope='Frequency table corroborates totals and bins; exact sizes come from original legacy records, not reconstructed bin midpoints.'),indent=2))
+print('Hare1987:102original records match all20published bins and min/max.')

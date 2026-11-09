@@ -24,4 +24,4 @@ for (i in seq_len(nrow(primary))) {
   stopifnot(abs(x$estimate - primary$Mean[i]) < 1e-7,
     abs(x$iid_se - primary$SE[i]) < max(1e-7, primary$SE[i] * 1e-5))
 }
-cat("PASS: all 145 retained contrasts/SEs, library-equivalent HAC, calendar gaps, PSD and duplicate rejection.\n")
+cat("PASS: all 143 retained contrasts/SEs, library-equivalent HAC, calendar gaps, PSD and duplicate rejection.\n")

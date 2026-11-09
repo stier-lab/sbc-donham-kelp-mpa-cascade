@@ -1,0 +1,17 @@
+         histories  ...  no_persistent_reference
+Source              ...                         
+KFM             35  ...                        1
+LTER            18  ...                        0
+Landsat         17  ...                        0
+PISCO          105  ...                       23
+
+[4 rows x 4 columns]
+{
+  "annual_histories_verified": 175,
+  "previous_slopes_reproduced": 169,
+  "max_estimate_error": 2.842170943040401e-14,
+  "max_se_error": 4.0245584642661925e-14,
+  "protected_unchanged": 487,
+  "fits": 950,
+  "omission_comparisons": 447
+}

@@ -7,7 +7,7 @@ local({
     "data/harmonized/harmonized_landsat_rr.csv", "code/R/08_effect_sizes.R",
     "code/R/02_pBACIPS_function.R", "code/R/primary_uncertainty_utils.R")
   hashes <- unname(tools::md5sum(file.path(root, files)))
-  stopifnot(nrow(primary) == 145L, !anyDuplicated(uncertainty_key(primary)))
+  stopifnot(nrow(primary) == 143L, !anyDuplicated(uncertainty_key(primary)))
   annual <- uncertainty_annual(root, primary)
   definitions <- uncertainty_definitions(root)
   rows <- vector("list", nrow(primary))
@@ -54,6 +54,6 @@ local({
   write.csv(histories, file.path(root, "tables/table_s_primary_hac_histories.csv"), row.names = FALSE)
   write.csv(pooled, file.path(root, "tables/table_s_primary_hac_pooled.csv"), row.names = FALSE)
   write.csv(data.frame(path = files, md5 = hashes), file.path(root, "tables/table_s_primary_hac_inputs.csv"), row.names = FALSE)
-  cat("Exact primary uncertainty: all 145 contrasts and SEs reconstructed; joint baseline reproduces Table 2.\n")
+  cat("Exact primary uncertainty: all 143 contrasts and SEs reconstructed; joint baseline reproduces Table 2.\n")
   print(pooled[pooled$scenario == "calendar_HAC_automatic", c("Taxa", "Resp", "estimate", "ci_low", "ci_high", "q", "bh_detection_changed")])
 })

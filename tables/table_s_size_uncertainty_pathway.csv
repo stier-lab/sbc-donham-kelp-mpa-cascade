@@ -1,0 +1,40 @@
+scenario,k,slope,ci_low,ci_high,p,scheme,draw,detail
+baseline:0,4,-0.554901746276092,-1.03207556993803,-0.077727922614152,0.037699398635014,baseline,0,""
+singleton_joint_stress:-1,4,-0.475335620334171,-0.921962626335247,-0.028708614333094,0.0445277876108262,singleton_joint_stress,-1,protected/reference masses changed in opposite directions
+singleton_joint_stress:1,4,-0.546863405132975,-1.05915056269619,-0.0345762475697614,0.0442774918961175,singleton_joint_stress,1,protected/reference masses changed in opposite directions
+sparse_lt10_joint_stress:-1,4,-0.414488995132032,-0.822947765666377,-0.00603022459768604,0.0486594083796486,sparse_lt10_joint_stress,-1,protected/reference masses changed in opposite directions
+sparse_lt10_joint_stress:1,4,-0.651159911915307,-1.24838917786337,-0.053930645967242,0.0425597532560851,sparse_lt10_joint_stress,1,protected/reference masses changed in opposite directions
+sparse_one_pool_stress:11,4,-0.570129167792618,-1.04336472362505,-0.0968936119601877,0.0352599073326275,sparse_one_pool_stress,11,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;0.5
+sparse_one_pool_stress:14,4,-0.539530774769473,-1.01984027350611,-0.0592212760328399,0.0402427661060126,sparse_one_pool_stress,14,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;2
+sparse_one_pool_stress:21,4,-0.506798614463019,-0.990971399981865,-0.022625828944174,0.0459311075381748,sparse_one_pool_stress,21,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;0.5
+sparse_one_pool_stress:24,4,-0.567395281574495,-1.04139887014948,-0.0933916929995057,0.0356920229089501,sparse_one_pool_stress,24,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;2
+sparse_one_pool_stress:31,4,-0.570462166888785,-1.0436023502222,-0.0973219835553729,0.0352074489876116,sparse_one_pool_stress,31,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;0.5
+sparse_one_pool_stress:34,4,-0.539362334394904,-1.01970152006362,-0.0590231487261915,0.0402710883377508,sparse_one_pool_stress,34,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;2
+sparse_one_pool_stress:51,4,-0.506537572553576,-0.99072575521002,-0.0223493898971329,0.045977970525527,sparse_one_pool_stress,51,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5
+sparse_one_pool_stress:54,4,-0.568311976663001,-1.04206101062481,-0.0945629427011894,0.0355468451338055,sparse_one_pool_stress,54,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;2
+sparse_one_pool_stress:71,4,-0.542741245242206,-1.02246553334416,-0.0630169571402549,0.0397048165748943,sparse_one_pool_stress,71,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;0.5
+sparse_one_pool_stress:74,4,-0.569469501967942,-1.04289282042306,-0.0960461835128275,0.0353639387863302,sparse_one_pool_stress,74,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;2
+sparse_one_pool_stress:101,4,-0.567984998645876,-1.0418251744286,-0.0941448228631494,0.0355985958351202,sparse_one_pool_stress,101,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;0.5
+sparse_one_pool_stress:104,4,-0.540710925848928,-1.02080958458247,-0.0606122671153885,0.0400446054850198,sparse_one_pool_stress,104,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;2
+sparse_one_pool_stress:131,4,-0.53973362868632,-1.02000724069071,-0.0594600166819296,0.0402086704440529,sparse_one_pool_stress,131,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;0.5
+sparse_one_pool_stress:134,4,-0.571444549946509,-1.04430106781765,-0.0985880320753699,0.035052912873849,sparse_one_pool_stress,134,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;2
+sparse_one_pool_stress:151,4,-0.539292432567727,-1.01964390838609,-0.0589409567493641,0.040282844783375,sparse_one_pool_stress,151,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5
+sparse_one_pool_stress:154,4,-0.571704083472753,-1.04448508513839,-0.0989230818071188,0.0350121416113705,sparse_one_pool_stress,154,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;2
+sparse_one_pool_stress:171,4,-0.542035837556718,-1.02189186522341,-0.0621798098900311,0.0398227105501757,sparse_one_pool_stress,171,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;0.5
+sparse_one_pool_stress:174,4,-0.569967553506151,-1.04324925375328,-0.0966858532590235,0.0352853806262523,sparse_one_pool_stress,174,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;2
+sparse_one_pool_stress:191,4,-0.542741245242206,-1.02246553334416,-0.0630169571402549,0.0397048165748943,sparse_one_pool_stress,191,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;0.5
+sparse_one_pool_stress:194,4,-0.569469501967942,-1.04289282042306,-0.0960461835128275,0.0353639387863302,sparse_one_pool_stress,194,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;2
+sparse_one_pool_stress:1661,4,-0.554901746276092,-1.03207556993803,-0.077727922614152,0.037699398635014,sparse_one_pool_stress,1661,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;0.5
+sparse_one_pool_stress:1664,4,-0.554901746276092,-1.03207556993803,-0.077727922614152,0.037699398635014,sparse_one_pool_stress,1664,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;2
+sparse_one_pool_stress:1701,4,-0.554901746276092,-1.03207556993803,-0.077727922614152,0.037699398635014,sparse_one_pool_stress,1701,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;0.5
+sparse_one_pool_stress:1704,4,-0.554901746276092,-1.03207556993803,-0.077727922614152,0.037699398635014,sparse_one_pool_stress,1704,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;2
+sparse_one_pool_stress:1721,4,-0.554901746276092,-1.03207556993803,-0.077727922614152,0.037699398635014,sparse_one_pool_stress,1721,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;0.5
+sparse_one_pool_stress:1724,4,-0.554901746276092,-1.03207556993803,-0.077727922614152,0.037699398635014,sparse_one_pool_stress,1724,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;2
+sparse_one_pool_stress:1781,4,-0.554901746276092,-1.03207556993803,-0.077727922614152,0.037699398635014,sparse_one_pool_stress,1781,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;0.5
+sparse_one_pool_stress:1784,4,-0.554901746276092,-1.03207556993803,-0.077727922614152,0.037699398635014,sparse_one_pool_stress,1784,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;2
+sparse_one_pool_stress:2081,4,-0.554528933841234,-0.985758143212077,-0.123299724470391,0.0311477924413253,sparse_one_pool_stress,2081,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;0.5
+sparse_one_pool_stress:2084,4,-0.553466242045861,-1.06500975051044,-0.0419227335812765,0.0431769526966535,sparse_one_pool_stress,2084,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;2
+sparse_one_pool_stress:2131,4,-0.555028420336881,-1.00029929536208,-0.109757545311686,0.0330513599151699,sparse_one_pool_stress,2131,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5
+sparse_one_pool_stress:2134,4,-0.553264161385074,-1.06825264690017,-0.0382756758699773,0.0437526241067147,sparse_one_pool_stress,2134,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;2
+sparse_one_pool_stress:2231,4,-0.554275807599616,-0.981195328990928,-0.127356286208304,0.0305830727113035,sparse_one_pool_stress,2231,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5
+sparse_one_pool_stress:2234,4,-0.553349602161154,-1.06690162485259,-0.0397975794697235,0.0435119912294058,sparse_one_pool_stress,2234,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;2

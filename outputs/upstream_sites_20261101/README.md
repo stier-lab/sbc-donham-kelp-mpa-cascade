@@ -1,0 +1,88 @@
+# Anacapa, Painted Cave and Point Dume: reconstructed diver comparisons
+
+Review only. The manuscript, supplement, canonical inputs and canonical result tables are unchanged. The preceding comparison is outputs/diver_exclusion_refit_20261101/consistent_kfm, not the older mixed-estimand manuscript table.
+
+## What qualifies
+
+| Area | Added primary post-protection histories | Evidence retained |
+|---|---:|---|
+| Anacapa Island SMCA | 15 | Eight PISCO and seven KFM histories; no paired pre-protection baseline. |
+| Painted Cave SMCA | 6 | PISCO kelp biomass, sheephead biomass/density and lobster/red-urchin/purple-urchin density. KFM has no mapped protected station. |
+| Point Dume SMCA | 2 | PISCO sheephead biomass and density, with three primary post years (2019–2021). |
+| Point Dume SMR | 2 | PISCO sheephead biomass and density, with three primary post years (2019–2021). |
+
+The primary post-protection analysis grows from 166 to 191 histories. All 62 before–after histories and their pooled results remain unchanged. Point Dume satellite histories were already present and are not new additions. The annual candidate roster contains 206 histories; sparse candidates stay in the coverage audit but do not receive primary weights.
+
+Point Dume SMCA has three earlier benthic years, but only 2021 provides paired benthic observations within years 1–9 after protection. Its paired 2022–2023 observations are outside that primary window. Point Dume SMR has no paired benthic observations inside the primary window. Neither supplies a new before–after comparison. The fixed-station PISCO branch check also fails because adequate shared biomass coverage is absent. Longer follow-up results are exported separately rather than used to override the primary window.
+
+## What changes
+
+All values below are log protected/reference differences after designation, with 95% robust intervals. They describe observed differences and do not by themselves establish protection effects.
+
+| Response | Previous | Reconstructed additions | 95% interval | Adjusted p |
+|---|---:|---:|---|---:|
+| Red urchin biomass | 0.245 | 0.231 | -0.505 to 0.967 | 0.711 |
+| Red urchin density | 0.031 | 0.062 | -0.644 to 0.768 | 0.846 |
+| Kelp biomass | 0.285 | 0.152 | -0.383 to 0.687 | 0.711 |
+| Lobster biomass | 0.199 | 0.199 | -1.315 to 1.713 | 0.766 |
+| Lobster density | 0.684 | 0.658 | -0.134 to 1.450 | 0.276 |
+| Sheephead biomass | 1.166 | 1.209 | 0.616 to 1.803 | 0.006 |
+| Sheephead density | 0.630 | 0.655 | 0.247 to 1.062 | 0.018 |
+| Purple urchin biomass | -0.422 | -0.436 | -1.041 to 0.169 | 0.302 |
+| Purple urchin density | -0.304 | -0.274 | -0.852 to 0.304 | 0.551 |
+
+The pooled kelp difference becomes smaller and remains uncertain. Sheephead biomass and density remain higher inside the protected areas. Urchin and lobster differences remain uncertain after adjustment. The additions do not strengthen the before–after evidence for a trophic cascade, because none supplies a qualifying new baseline comparison.
+
+## Anacapa program differences
+
+Kelp differs strongly between programs. In the same six years (2007–2012), the KFM mean log ratio is +1.995 and the PISCO mean is −3.191. Sheephead density also differs in direction between programs. The disagreement cannot be explained by the different year sets alone. The programs use different survey footprints and methods; their ecological equivalence has not been newly established. Retain the separate results rather than choosing a program based on its direction. The companion omission of Anacapa KFM leaves the overall interpretation unchanged: the pooled kelp difference is 0.080 (−0.514 to 0.675), while sheephead biomass and density remain positive. See anacapa_common_years.csv and restored_histories.png.
+
+## Reconstruction and inclusion decisions
+
+- Kept the frozen protection scope: at least one focal predator protected from ordinary recreational and commercial take. Anacapa SMCA and Painted Cave protect sheephead but permit lobster fishing; they must not be labeled no-take or full lobster refuges. See PROTECTION.md for official sources. Point Dume SMR and SMCA are distinct areas.
+- Used source survey/site maps and the existing expert reference exclusions. The restored Keyhole KFM station has actual count and size records and passes coverage checks; its inherited benthic omission lacked a recovered method-specific justification. An explicit sensitivity omits this restored KFM comparison. No sites or responses were selected by trend, sign, p value or model result.
+- Rebuilt current source processing in an isolated stage. Used the adopted monthly SBC127.5 kelp coefficients and sheephead/urchin allometries, actual calendar years, modern KFM kelp quadrats, visual-fish KFM density, and existing PISCO survey filters. Roving fish counts were not substituted for transect density. No KFM predator biomass was invented from incompatible size records.
+- Reconstructed source identities before averaging. Duplicate PISCO lobster branch rows agreed in density and had at most one finite biomass value; they were reconciled by site/year/taxon identity rather than row order. Unassigned stations remain excluded.
+- Eleven sheephead at SCI_HAZARDS_W in 2000 lacked lengths. That station-year biomass is missing, not zero; its density remains usable. This year is not paired with a protected observation.
+- Repaired Anacapa size memberships: the original PISCO-based metadata attached shared KFM reference size records (a-k-11, a-k-32, a-k-34) to Anacapa SMR 2003, without also attaching them to their mapped SMCA comparison. This was not a lack of size measurements. Rebuilt all four source-mapped SMCA station memberships, including protected a-k-31, without duplicating records within a membership. The audit contains 12,700 source size rows. Existing SMR memberships and all prior analysis histories remain unchanged.
+- Recomputed candidate KFM urchin and kelp bootstraps, and candidate PISCO urchin biomass with the complete size pool. PISCO retains its >=25-mm size threshold; KFM uses the source unfiltered size pool. Shared size pools remain a limitation of biomass uncertainty.
+- The adaptive zero correction uses the complete valid unpaired annual domain before matching years. Missing values remain missing; no outcome interpolation is used. Primary eligibility requires at least three matched observations in years 1–9. Before–after eligibility additionally requires at least three prior years and the PISCO fixed-branch coverage check.
+- Retained the source five-year PISCO station screen; cross-checking the candidate-pair inventory found no otherwise primary-eligible pair lost from these sites by that screen. The inventory check is saved as station_filter_check.csv.
+- Kept existing MPAs together and connected new shared-reference footprints for robust uncertainty. Multiple programs at one MPA are not independent reserve replicates.
+
+## Verification
+
+- 354 reconstructed control values match current harmonized values to within 6.9e-13.
+- All 532 candidate PISCO urchin count cells used from the cache match fresh survey reconstruction. Biomass was recomputed; stale biomass values were not used.
+- Checked 9,241 focal KFM benthic records: no missing/negative counts or nonpositive survey areas. Candidate PISCO source counts also contain no missing or negative values.
+- All 2,043 prior individual fits and all prior annual outcomes reproduce unchanged.
+- Independent Python checks reproduce 2,518 individual contrasts/HAC errors and 360 pooled output rows, including pooled GLS estimates, robust interval/p arithmetic and adjustment.
+- All 487 protected artifacts and all pinned original raw/code/cache files remain unchanged. Statistical fitting logged no warnings.
+- Both final figures were visually inspected. No paper edits, source-data edits, sends, commits or pushes.
+
+## Figures
+
+pooled_changes.png: gray upper points show the previous consistent-KFM review; blue lower points include these reconstructed histories. Filled points have robust 95% intervals; hollow points have insufficient independent information for inference. The left panel is before–after change; the right is post-protection difference.
+
+restored_histories.png: orange triangles are PISCO; blue circles are KFM. Each point is the primary mean post-protection log ratio for one response history; intervals use its calendar-HAC standard error and residual t degrees of freedom. These are not pooled estimates or before–after effects. Sparse three-year comparisons have limited precision.
+
+## Reproduce
+
+From the analysis root, run the following. The data repository location can be set with MPA_DATA_REPO. The stage contains copies of code/cache files and read-only-use links to raw sources; it is excluded from version control.
+
+```sh
+python3 code/tools/reconstruct_upstream_sites.py
+cd outputs/upstream_sites_20261101/stage
+Rscript run_review.R
+Rscript ../../../code/tools/refresh_upstream_pisco_sizes.R
+cd ../../..
+python3 code/tools/check_upstream_raw_fields.py
+python3 code/tools/build_upstream_cohort.py
+Rscript code/tools/refit_common_estimand.R outputs/upstream_sites_20261101
+python3 code/tools/check_common_estimand.py outputs/upstream_sites_20261101
+Rscript code/tools/compare_diver_exclusions.R outputs/upstream_sites_20261101 outputs/diver_exclusion_refit_20261101/consistent_kfm
+Rscript code/tools/plot_upstream_histories.R
+python3 code/tools/summarize_upstream_sites.py
+```
+
+The station_filter_check.csv cross-check was a separate audit against the private manuscript candidate-pair inventory; it is not regenerated by these commands. Other historical candidates (including response restrictions at Blue Cavern/Long Point and unresolved reference assignments elsewhere) were outside this requested reconstruction. This report does not certify every historical site exclusion.

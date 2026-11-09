@@ -1,0 +1,38 @@
+{
+  "annual": {
+    "path": "outputs/integrated_review_20261103/annual_values.csv",
+    "sha256": "539e2198de9856392311f9aef2d9db5953a2db3e52154e7b3510dc2678870a3c"
+  },
+  "eligibility": {
+    "path": "outputs/integrated_review_20261103/model_eligibility.csv",
+    "sha256": "1d45007114c5342960db67ea080f12649222a7da2323622eeff5e29b675d24cd"
+  },
+  "series_models": {
+    "path": "outputs/integrated_review_20261103/model_results.csv",
+    "sha256": "d0254663eb986d33c1185fa6354368f59235659e0ebeb51da692009b314abc6e"
+  },
+  "joint_series": {
+    "path": "outputs/integrated_review_20261103/joint_model_results.csv",
+    "sha256": "78c56477762dea7bb77921b3ed1ff3c609b53c637f829425b2d592efc9dc5fcb"
+  },
+  "pooled": {
+    "path": "outputs/integrated_review_20261103/pooled_results.csv",
+    "sha256": "b1411997fa155d605352e6a56271141e68cf33eb71d0a7af84a263b2a061d0ee"
+  },
+  "heatwave": {
+    "path": "outputs/whole_dataset_biomass_update_20261105/heatwave_state_pairs.csv",
+    "sha256": "9ccf6adaecad2e6385f519447306af2cc931f790f1ef1ac4713ffe63c24d736b"
+  },
+  "shapefile": {
+    "path": "data/external/tom_bell_2026-10-20/02_MPA_CA.shp",
+    "sha256": "468107c74372d500ecbe0e7ced55a484bb6caf64f0a7e09c6ef1131b2ba9db05"
+  },
+  "land": {
+    "path": "outputs/dataset_inventory_20261101/site_map_payload.json",
+    "sha256": "9ab21c7569dc8e358921477d3806745919e840ebb5be44dff876ba58fac0628e"
+  },
+  "coast": {
+    "path": "outputs/main_figure_preview_20261106/california_coast.geojson",
+    "sha256": "01c464ce238d7457c78ebc87300e2371da8237bee6bbef03f421c518f40af03c"
+  }
+}

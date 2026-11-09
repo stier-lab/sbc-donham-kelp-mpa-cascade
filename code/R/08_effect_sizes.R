@@ -288,153 +288,47 @@ SumStats <- data.frame(
 ## Helper functions for repeated analysis patterns #################################################
 ####################################################################################################
 
-#' Compute SE of the difference f(t1) - f(t0) from an NLS model using the delta method
-#'
-#' For predictions from the same NLS model, Var(f(t1) - f(t0)) != Var(f(t1)) + Var(f(t0))
-#' because the predictions share parameters. The correct formula is:
-#'   Var(f(t1) - f(t0)) = g' * V * g
-#' where g = grad(f, t1) - grad(f, t0) is the gradient of the difference w.r.t. parameters,
-#' and V = vcov(model) is the parameter variance-covariance matrix.
-#'
-#' This function uses numerical differentiation to compute the gradient, then applies
-#' the delta method. Falls back to the independence assumption if the delta method fails.
-#'
-#' STATISTICAL CONTEXT (2026-02-12):
-#' Previously, the SE of the difference was computed as sqrt(SE_before^2 + SE_after^2),
-#' which assumes independence between predictions at t=0 and t=11. But because both
-#' predictions come from the same NLS model and share parameters, they have positive
-#' covariance. The independence assumption therefore OVERESTIMATES the SE, which
-#' systematically down-weights NLS effect sizes in the meta-analysis. The delta method
-#' correctly accounts for the shared parameter covariance.
-#'
-#' @param model Fitted NLS (or compatible) model object
-#' @param newdata_0 Data frame for the "before" prediction point
-#' @param newdata_1 Data frame for the "after" prediction point
-#' @param n_obs Integer, number of observations (for df calculation in fallback)
-#' @return List with components:
-#'   \item{se}{Standard error of the difference f(t1) - f(t0)}
-#'   \item{method}{Character: "delta_method" or "independence_fallback"}
+# Covariance-aware uncertainty for the difference between two fitted values.
+# Richardson differentiation avoids cancellation at small nonlinear contrasts.
 nls_difference_se <- function(model, newdata_0, newdata_1, n_obs) {
-  result <- tryCatch({
-    # Get the variance-covariance matrix of the estimated parameters
-    V <- vcov(model)
-    theta <- coef(model)
-    p <- length(theta)
-
-    # Numerical gradient of prediction w.r.t. parameters at each time point
-    # Uses central differences: df/dtheta_i approx (f(theta+h) - f(theta-h)) / (2h)
-    eps <- sqrt(.Machine$double.eps)  # approximately 1.5e-8
-
-    # We need a function that predicts from perturbed parameter values.
-    # For nls objects, we evaluate the RHS of the formula in a controlled environment.
-    grad_0 <- numeric(p)
-    grad_1 <- numeric(p)
-
-    # Get the model formula and its environment
-    model_env <- model$m$getEnv()
-
-    for (i in seq_len(p)) {
-      # Perturb parameter i by a small step h
-      h <- max(abs(theta[i]) * eps, eps)
-      theta_plus <- theta
-      theta_minus <- theta
-      theta_plus[i] <- theta[i] + h
-      theta_minus[i] <- theta[i] - h
-
-      # Create temporary environments with perturbed parameters
-      env_plus <- new.env(parent = model_env)
-      env_minus <- new.env(parent = model_env)
-
-      # Copy newdata variables and perturbed parameters into environments
-      for (nm in names(newdata_0)) {
-        assign(nm, newdata_0[[nm]], envir = env_plus)
-        assign(nm, newdata_0[[nm]], envir = env_minus)
-      }
-      for (j in seq_len(p)) {
-        assign(names(theta)[j], theta_plus[j], envir = env_plus)
-        assign(names(theta)[j], theta_minus[j], envir = env_minus)
-      }
-
-      # Evaluate model formula RHS at the "before" point with perturbed params
-      rhs <- model$m$formula()[[3]]
-      pred_0_plus <- base::eval(rhs, envir = env_plus)
-      pred_0_minus <- base::eval(rhs, envir = env_minus)
-      grad_0[i] <- (pred_0_plus - pred_0_minus) / (2 * h)
-
-      # Now evaluate at the "after" point
-      for (nm in names(newdata_1)) {
-        assign(nm, newdata_1[[nm]], envir = env_plus)
-        assign(nm, newdata_1[[nm]], envir = env_minus)
-      }
-      for (j in seq_len(p)) {
-        assign(names(theta)[j], theta_plus[j], envir = env_plus)
-        assign(names(theta)[j], theta_minus[j], envir = env_minus)
-      }
-
-      pred_1_plus <- base::eval(rhs, envir = env_plus)
-      pred_1_minus <- base::eval(rhs, envir = env_minus)
-      grad_1[i] <- (pred_1_plus - pred_1_minus) / (2 * h)
-    }
-
-    # Gradient of the difference f(t1) - f(t0) w.r.t. parameters
-    g <- grad_1 - grad_0
-
-    # Variance of the difference via delta method: g' V g
-    var_diff <- as.numeric(t(g) %*% V %*% g)
-
-    if (!is.finite(var_diff) || var_diff <= 0) {
-      stop("Non-positive variance from delta method")
-    }
-
-    list(se = sqrt(var_diff), method = "delta_method")
-  }, error = function(e) {
-    # Fallback: use predFit CIs and assume independence (conservative).
-    # This path is taken for non-NLS fallback models (lm, gam) where
-    # the delta method machinery above may not work.
-    warning("nls_difference_se: delta method failed (", e$message,
-            "), falling back to independence assumption (conservative)")
-
-    interval <- tryCatch({
-      rbind_data <- rbind(newdata_0, newdata_1)
-      data.frame(investr::predFit(model, newdata = rbind_data, interval = "confidence"))
-    }, error = function(e2) NULL)
-
-    if (!is.null(interval) && nrow(interval) == 2) {
-      n_params <- length(coef(model))
-      df_approx <- max(n_obs - n_params, 1)
-      t_crit <- qt(0.975, df_approx)
-      se_0 <- abs((interval$lwr[1] - interval$fit[1]) / t_crit)
-      se_1 <- abs((interval$lwr[2] - interval$fit[2]) / t_crit)
-      list(se = sqrt(se_0^2 + se_1^2), method = "independence_fallback")
-    } else {
-      warning("nls_difference_se: Both delta method and independence fallback failed. SE set to NA.")
-      list(se = NA, method = "failed")
-    }
-  })
-
-  result
+  if (!inherits(model,"nls") || !isTRUE(model$convInfo$isConv))
+    stop("A converged nonlinear fit is required")
+  theta <- coef(model)
+  nd <- rbind(newdata_0,newdata_1)
+  f <- function(par) {
+    e <- list2env(c(as.list(nd),as.list(setNames(par,names(theta)))),parent=model$m$getEnv())
+    diff(as.numeric(eval(model$m$formula()[[3]],e)))
+  }
+  g <- drop(numDeriv::jacobian(f,theta))
+  variance <- drop(t(g)%*%vcov(model)%*%g)
+  if (!is.finite(variance) || variance<=0) stop("Invalid nonlinear contrast covariance")
+  list(se=sqrt(variance),method="delta_method")
 }
 
-#' Add time.model and time.true columns to a subset of RR data
-#'
-#' time.model: 0 for Before period, sequential starting at 0 for After
-#' time.true: sequential index across all time points per MPA
-#'
-#' @param dat Dataframe with CA_MPA_Name_Short, BA, year columns
-#' @return Modified dataframe with time.model and time.true columns
+# Calendar years since designation, clipped at zero for the baseline period.
+# time.true remains a row index used only by legacy nonlinear initializers.
 add_time_columns <- function(dat) {
-  dat$time.model <- NA
-  dat$time.true <- NA
-  dat <- dat[order(as.numeric(dat$year), decreasing = FALSE), ]
-  mpas <- unique(dat$CA_MPA_Name_Short)
-  for (i in seq_along(mpas)) {
-    idx <- which(dat$CA_MPA_Name_Short == mpas[i])
-    n_before <- length(which(dat$BA[idx] == "Before"))
-    n_after <- length(which(dat$BA[idx] == "After"))
-    dat$time.model[idx] <- c(rep(0, n_before), seq(0, n_after - 1))
-    dat$time.true[idx] <- seq(1, length(idx))
-  }
+  dat <- dat[order(as.numeric(dat$year)), ]
+  clock <- if ("time" %in% names(dat)) dat$time else dat$input_time
+  if (length(clock) != nrow(dat) || any(!is.finite(clock)) || any(clock < 0))
+    stop("Missing calendar clock in annual data")
+  dat$time.model <- clock
+  dat$time.true <- ave(seq_len(nrow(dat)), dat$CA_MPA_Name_Short, FUN=seq_along)
   dat
+}
+
+# Use two surveyed post-designation years, at most eleven calendar years apart.
+# All observations still enter the fit. The start is not an unobserved year zero.
+observed_contrast_times <- function(dat, time_var="time.model", max_span=11) {
+  post <- dat[dat$BA == "After", , drop=FALSE]
+  if (nrow(post)<2 || anyDuplicated(post$year)) stop("Invalid post-designation years")
+  first <- min(post$year)
+  last <- max(post$year[post$year <= first + max_span])
+  if (last <= first) stop("No two surveyed years within contrast window")
+  ends <- post[[time_var]][match(c(first,last),post$year)]
+  if (length(ends)!=2 || any(!is.finite(ends)) || abs(diff(ends)-(last-first))>1e-8)
+    stop("Contrast must use elapsed calendar years")
+  ends
 }
 
 #' Test for linear trend in the Before period for each MPA
@@ -489,7 +383,7 @@ test_linear_before <- function(dat) {
 
   for (j in mpas) {
     temp <- subset(dat, CA_MPA_Name_Short == j & BA == "Before",
-                   select = c(CA_MPA_Name_Short, mpa, reference, lnDiff, time.true, time.model, BA))
+                   select = c(CA_MPA_Name_Short, mpa, reference, lnDiff, year, time.true, time.model, BA))
 
     # Skip if insufficient before data
     if (nrow(temp) < 3) {
@@ -498,7 +392,7 @@ test_linear_before <- function(dat) {
     }
 
     result <- tryCatch({
-      lmBefore <- lm(lnDiff ~ time.true, data = temp)
+      lmBefore <- lm(lnDiff ~ year, data = temp)
       coef_summary <- summary(lmBefore)$coefficients
       if (nrow(coef_summary) < 2) {
         warning("test_linear_before: no slope for ", j)
@@ -530,7 +424,7 @@ test_linear_before <- function(dat) {
 run_pbacips_loop <- function(dat) {
   mpas <- unique(dat$CA_MPA_Name_Short)
   likelihood.poly <- data.frame(matrix(ncol = 4, nrow = 0))
-  pvals.poly <- data.frame(matrix(ncol = 9, nrow = 0))
+  pvals.poly <- data.frame(matrix(ncol = 10, nrow = 0))
   Norm.poly <- data.frame(matrix(ncol = 9, nrow = 0))
   valid_mpas <- c()
 
@@ -567,10 +461,15 @@ run_pbacips_loop <- function(dat) {
       pl <- if (!is.null(result$linear)) summary(result$linear)$coefficients[, 4] else c(NA, NA)
       psi <- if (!is.null(result$sigmoid)) summary(result$sigmoid)$coefficients[, 4] else rep(NA, 4)
       pa <- if (!is.null(result$asymptotic)) summary(result$asymptotic)$coefficients[, 4] else rep(NA, 3)
-      c(ps, pl, psi, pa)
+      # Candidate fallbacks may have fewer coefficients; do not mislabel them.
+      if(length(ps)!=1) ps <- NA_real_
+      if(length(pl)!=2) pl <- rep(NA_real_,2)
+      if(length(psi)!=4) psi <- rep(NA_real_,4)
+      if(length(pa)!=3) pa <- rep(NA_real_,3)
+      c(ps, pl, pa, psi)
     }, error = function(e) {
       warning("run_pbacips_loop: p-value extraction failed for ", j, ": ", e$message)
-      rep(NA, 9)
+      rep(NA, 10)
     })
 
     likelihood.poly <- rbind(likelihood.poly, result$weights)
@@ -586,7 +485,7 @@ run_pbacips_loop <- function(dat) {
   }
 
   colnames(likelihood.poly) <- c("Step", "Linear", "Asymptotic", "Sigmoid")
-  colnames(pvals.poly) <- c("Step", "Linear", "Asymptotic M", "Asymptotic B", "Asymptotic L",
+  colnames(pvals.poly) <- c("Step", "Linear intercept", "Linear slope", "Asymptotic M", "Asymptotic B", "Asymptotic L",
                              "Sigmoid M", "Sigmoid B", "Sigmoid L", "Sigmoid K")
   if (nrow(likelihood.poly) > 0) {
     likelihood.poly <- cbind(likelihood.poly, mpas = valid_mpas)
@@ -597,19 +496,17 @@ run_pbacips_loop <- function(dat) {
 
 #' Run CI analysis: calculate both linear and mean effect sizes
 #'
-#' For each MPA in the data, fits lnDiff ~ time, calculates effect size at time 0 vs t=11,
+#' For each MPA, fits lnDiff ~ calendar time and calculates change between surveyed years,
 #' and also calculates the simple mean effect size. Returns two rows per MPA.
 #'
-#' The effect size is predicted lnRR at model time 11 minus model time 0.
-#' Most diver fits use observation indices; Landsat and Campus Point lobster
-#' biomass use calendar time. The endpoint does not standardize calendar duration.
+#' Trend contrasts span two surveyed post-designation years, up to eleven years apart.
 #'
 #' @param dat Dataframe subset with lnDiff, time columns
 #' @param taxa_name Character, species name for SumStats
 #' @param source_name Character, data source for SumStats
 #' @param resp_name Character, response type ("Den" or "Bio")
 #' @param time_var Character, name of the time variable to use (default "time")
-#' @param time_after Numeric, time point for "after" prediction (default = EFFECT_SIZE_TIME_YEARS = 11)
+#' @param time_after Deprecated; endpoints are selected from actual survey years.
 #' @param run_diagnostics Logical, whether to run DHARMa diagnostics (default TRUE)
 #' @return Dataframe with two rows per MPA (linear and mean effect sizes)
 run_ci_analysis <- function(dat, taxa_name, source_name, resp_name, time_var = "time",
@@ -666,20 +563,10 @@ run_ci_analysis <- function(dat, taxa_name, source_name, resp_name, time_var = "
 
       p <- coef_summary[2, 4]
 
-      # Calculate linear effect size using contrast (properly handles covariance)
-      # This uses emmeans::pairs() which correctly calculates Var(A-B) = Var(A) + Var(B) - 2*Cov(A,B)
-      # Use the fixed model-time endpoint; its units depend on the selected clock.
-      # RATIONALE: Using a fixed time point controls for MPA age effects - older MPAs would
-      # naturally show larger effect sizes simply due to longer protection duration.
-      # t=11 corresponds to the youngest MPA age in 2023 (MLPA South Coast, implemented 2012).
-      actual_time_after <- if (is.null(time_after)) EFFECT_SIZE_TIME_YEARS else time_after
-      # Flag if t=11 exceeds observed data range (extrapolation)
-      max_time_obs <- max(sub_dat[[time_var]], na.rm = TRUE)
-      if (actual_time_after > max_time_obs) {
-        cat(sprintf("    NOTE: %s extrapolating to t=%d (max observed t=%d)\n",
-                    mpas[i], actual_time_after, max_time_obs))
-      }
-      es <- calculate_effect_size_from_contrast(Lm.Ab, time_var, time_before = 0, time_after = actual_time_after)
+      ends <- observed_contrast_times(sub_dat, time_var)
+      if (!is.null(time_after)) stop("Explicit extrapolated endpoint is no longer supported")
+      es <- calculate_effect_size_from_contrast(Lm.Ab, time_var,
+        time_before=ends[1], time_after=ends[2])
       mean_val <- es$mean
 
       # --- EDGE CASE: Validate effect size is reasonable ---
@@ -748,15 +635,15 @@ run_ci_analysis <- function(dat, taxa_name, source_name, resp_name, time_var = "
 # - Step and linear models: SE from emmeans::pairs() contrast (uses t-distribution,
 #   accounts for model covariance structure). This is the preferred approach as it
 #   correctly handles Var(A-B) = Var(A) + Var(B) - 2*Cov(A,B).
-# - NLS models (asymptotic/sigmoid): SE of the difference f(t=11) - f(t=0) is
+# - NLS models (asymptotic/sigmoid): SE of the difference f(last surveyed year) - f(first surveyed year) is
 #   computed using the delta method with the NLS model's variance-covariance matrix.
 #   This correctly accounts for the positive covariance between predictions at
 #   different time points from the same model (shared parameters), yielding:
 #     Var(f(t1) - f(t0)) = g' * vcov(model) * g
 #   where g = grad(f, t1) - grad(f, t0) is the gradient of the difference with
-#   respect to model parameters. If the delta method fails (e.g., for fallback
-#   non-NLS model types), we fall back to the independence assumption
-#   (sqrt(SE_before^2 + SE_after^2)), which is conservative (overestimates SE).
+#   respect to model parameters. Invalid or nonconverged nonlinear fits and
+#   unavailable contrast variances stop the calculation rather than substitute
+#   an unrelated uncertainty estimate.
 # - HISTORY: Prior to 2026-02-12, NLS SEs used the independence assumption
 #   (sqrt(SE_before^2 + SE_after^2)), which overestimated SE because predictions
 #   from the same NLS model share parameters and thus have positive covariance.
@@ -844,11 +731,10 @@ add_step_effect_size <- function(dat, taxa_name, mpa_name, source_name, resp_nam
   })
 }
 
-#' Add a single linear-model (pBACIPS) effect size row
+#' Add a single linear-model effect size row with explicit design classification
 #'
-#' Calculates predicted lnRR at model time 11 minus model time 0. Most diver fits
-#' use observation indices rather than calendar years, so this endpoint does not
-#' control for differences in calendar duration.
+#' Calculates fitted lnRR change between surveyed post-designation years.
+#' All trend fits use calendar time; observed durations can differ.
 #'
 #' @param dat Dataframe for a single MPA with lnDiff and time.model columns
 #' @param taxa_name Character species name
@@ -856,12 +742,12 @@ add_step_effect_size <- function(dat, taxa_name, mpa_name, source_name, resp_nam
 #' @param source_name Character data source
 #' @param resp_name Character response type
 #' @param time_var Character, time variable name (default "time.model")
-#' @param time_after Numeric, the time point for "after" prediction (default = EFFECT_SIZE_TIME_YEARS = 11)
+#' @param time_after Deprecated; endpoints are selected from actual survey years.
 #' @param run_diagnostics Logical, whether to run DHARMa diagnostics (default TRUE)
 #' @return One-row dataframe with the same columns as SumStats
 add_linear_effect_size <- function(dat, taxa_name, mpa_name, source_name, resp_name,
                                     time_var = "time.model", time_after = NULL,
-                                    run_diagnostics = TRUE) {
+                                    run_diagnostics = TRUE, analysis_type = "pBACIPS") {
   # Validate input data
   if (is.null(dat) || nrow(dat) < 3) {
     warning("add_linear_effect_size: insufficient data for ", mpa_name, " (n=", nrow(dat), ")")
@@ -880,14 +766,8 @@ add_linear_effect_size <- function(dat, taxa_name, mpa_name, source_name, resp_n
 
   # Wrap model fitting in tryCatch
   tryCatch({
-    # Use the fixed model-time endpoint if not specified.
-    # RATIONALE: Using a fixed time point ensures effect sizes are comparable across MPAs
-    # with different establishment dates. t=11 corresponds to the youngest MPA age in 2023
-    # (MLPA South Coast MPAs, implemented 2012). This controls for the confounding effect
-    # of protection duration - older MPAs would naturally show larger effect sizes.
-    if (is.null(time_after)) {
-      time_after <- EFFECT_SIZE_TIME_YEARS
-    }
+    ends <- observed_contrast_times(dat, time_var)
+    if (!is.null(time_after)) stop("Explicit extrapolated endpoint is no longer supported")
     formula_str <- as.formula(paste("lnDiff ~", time_var))
     mod1 <- lm(formula_str, data = dat)
 
@@ -902,15 +782,15 @@ add_linear_effect_size <- function(dat, taxa_name, mpa_name, source_name, resp_n
 
     # Use covariance-aware effect size calculation
     # This properly accounts for correlation between predictions at different time points
-    es <- calculate_effect_size_from_contrast(mod1, time_var, time_before = 0, time_after = time_after)
+    es <- calculate_effect_size_from_contrast(mod1, time_var, time_before = ends[1], time_after = ends[2])
 
     # Approximate SD from SE and df for backward compatibility
     es_sd <- es$SE * sqrt(es$df + 1)
 
     data.frame(
       Taxa = taxa_name, MPA = mpa_name, Mean = es$mean, SE = es$SE, SD = es_sd, CI = es$CI,
-      Model = "Linear", Source = source_name, Resp = resp_name, BA = "Y", Primary = "Y",
-      Type = "pBACIPS", LinearBefore = "N", N = n_obs,
+      Model = "Linear", Source = source_name, Resp = resp_name, BA = ifelse(analysis_type == "CI", "N", "Y"), Primary = "Y",
+      Type = analysis_type, LinearBefore = ifelse(analysis_type == "CI", "NA", "N"), N = n_obs,
       DW_stat = dw_result$DW_stat, DW_pval = dw_result$DW_pval,
       stringsAsFactors = FALSE
     )
@@ -967,11 +847,11 @@ add_mean_effect_size <- function(dat, taxa_name, mpa_name, source_name, resp_nam
 # OVERVIEW: Each source section below (LTER, PISCO, KFM, Landsat) follows the same pattern:
 #
 #   1. Subset the response ratio data for one source × taxa × response type
-#   2. Add time columns (time.model = 0 for Before, 1,2,3... for After; time.true = sequential)
+#   2. Add time columns (time.model = elapsed calendar years, Before clipped to 0; time.true = initialization index)
 #   3. Test for linear trend in the Before period (violates BACI assumptions if significant)
 #   4. Run pBACIPS model selection on MPAs that pass the before-trend test
 #   5. For each MPA, pick the best-fit model (step/linear/asymptotic/sigmoid) and
-#      extract predicted lnRR at model time 11 minus model time 0
+#      extract predicted lnRR change between surveyed calendar years
 #   6. Add one row to SumStats per MPA × taxa × response
 #
 # EXCLUSION LOGIC:
@@ -983,7 +863,7 @@ add_mean_effect_size <- function(dat, taxa_name, mpa_name, source_name, resp_nam
 #
 # EFFECT SIZE TYPES:
 #   - add_step_effect_size():     Before vs After mean comparison (Step model won)
-#   - add_linear_effect_size():   Predicted value at t=11 minus t=0 from linear fit
+#   - add_linear_effect_size():   Fitted change between surveyed calendar years
 #   - add_nls_effect_size():      Same but from NLS sigmoid/asymptotic fit
 #   - add_mean_effect_size():     Simple mean of post-MPA lnRR (CI sites without Before data)
 #
@@ -1109,10 +989,10 @@ LTER.PANINT.bio <- subset(All.RR.sub.trans, source == "LTER" &
 # Campus Point (linear)
 LTER.cp.LOB.bio <- dplyr::filter(LTER.PANINT.bio, CA_MPA_Name_Short == "Campus Point SMCA")
 # NOTE: Campus Point P. interruptus biomass uses time_var = "time" (raw years-since-MPA)
-# rather than "time.model" because this is a CI-only site with no before-period data.
+# rather than "time.model": this CI series has only the designation-year baseline.
 # add_time_columns() was not applied since there is no Before/After structure to encode.
 SumStats <- rbind(SumStats, add_linear_effect_size(LTER.cp.LOB.bio, "P. interruptus", "Campus Point SMCA", "LTER", "Bio",
-                       time_var = "time"))
+                       time_var = "time", analysis_type = "CI"))
 
 # Naples (mean only)
 LTER.nap.LOB.bio <- dplyr::filter(LTER.PANINT.bio, CA_MPA_Name_Short == "Naples SMCA")
@@ -1123,7 +1003,8 @@ SumStats <- rbind(SumStats, add_mean_effect_size(LTER.nap.LOB.bio, "P. interrupt
 ## PISCO ANALYSES ##################################################################################
 ####################################################################################################
 #
-# PISCO sites are all CI (control-impact). They lack sufficient before-period data
+# PISCO benthic histories retain CI; eligible fixed-station fish histories use pBACIPS.
+# Station continuity is checked separately for fish and benthic surveys.
 # for a full pBACIPS analysis. For each taxa x response, we calculate BOTH a linear
 # and a mean effect size. The CI filter in the finalization step (line ~1640) selects
 # which one to keep based on whether the before period had a significant trend.
@@ -1179,15 +1060,17 @@ Pan.bio <- subset(Pan.bio,
 )
 SumStats <- rbind(SumStats, run_ci_analysis(Pan.bio, "P. interruptus", "PISCO", "Bio"))
 
+# Fixed-station sheephead histories use three strictly prior years; other histories retain CI.
+source(here::here("code/R/pisco_baseline_policy.R"))
 #----- S. pulcher Density (PISCO) -----#
 Sheep.den <- subset(All.RR.sub.trans, y == "Semicossyphus pulcher" &
                       resp == "Den" & source == "PISCO")
-SumStats <- rbind(SumStats, run_ci_analysis(Sheep.den, "S. pulcher", "PISCO", "Den"))
+SumStats <- rbind(SumStats, run_pisco_sheephead_analysis(Sheep.den, "Den"))
 
 #----- S. pulcher Biomass (PISCO) -----#
 Sheep.bio <- subset(All.RR.sub.trans, y == "Semicossyphus pulcher" &
                       resp == "Bio" & source == "PISCO")
-SumStats <- rbind(SumStats, run_ci_analysis(Sheep.bio, "S. pulcher", "PISCO", "Bio"))
+SumStats <- rbind(SumStats, run_pisco_sheephead_analysis(Sheep.bio, "Bio"))
 
 
 ####################################################################################################
@@ -1316,31 +1199,27 @@ if (nrow(KFM.mfran.harris) >= 5) {
               "'. Recording as '", model_label, "'.")
     }
 
-    # STATISTICAL FIX (2026-02-06): Extract effect size at standardized time point (t=11)
-    # rather than at maximum observed time to ensure comparability across MPAs.
-    # Create prediction data at time.model = 0 (before) and time.model = 11 (after)
+    # Compare surveyed post-designation endpoints within an eleven-year window.
     n_obs_original <- nrow(KFM.mfran.harris)
     time.model.of.impact_original <- max(which(KFM.mfran.harris$time.model == 0))
 
-    # Create standardized prediction points: time 0 (before) and time 11 (after)
+    # Predictions use elapsed calendar time at actual survey years.
     # Include time_offset for sigmoid models (time.model + 0.01 offset)
-    pred_data <- data.frame(
-      time.model = c(0, EFFECT_SIZE_TIME_YEARS),
-      time_offset = c(0.01, EFFECT_SIZE_TIME_YEARS + 0.01),
-      time.true = c(time.model.of.impact_original, time.model.of.impact_original + EFFECT_SIZE_TIME_YEARS)
-    )
+    ends <- observed_contrast_times(KFM.mfran.harris)
+    pred_data <- data.frame(time.model=ends, time_offset=ends+.01,
+      time.true=time.model.of.impact_original+ends)
 
-    # Get predictions at standardized times with confidence intervals
+    # Get predictions at surveyed endpoints with confidence intervals
     interval <- tryCatch({
       data.frame(predFit(sigmoid.Model, newdata = pred_data, interval = "confidence"))
     }, error = function(e) NULL)
 
     if (!is.null(interval) && nrow(interval) == 2) {
-      # Calculate effect size as difference between t=11 and t=0
+      # Calculate effect size as difference between the surveyed endpoints
       mean_es <- interval$fit[2] - interval$fit[1]
 
       # STATISTICAL FIX (2026-02-12): Use delta method to compute SE of the difference
-      # f(t=11) - f(t=0), properly accounting for shared parameter covariance.
+      # f(last surveyed year) - f(first surveyed year), properly accounting for shared parameter covariance.
       # The old approach (sqrt(se_before^2 + se_after^2)) assumed independence and
       # overestimated SE, systematically down-weighting NLS effect sizes in meta-analysis.
       n_params <- length(coef(sigmoid.Model))
@@ -1442,30 +1321,27 @@ if (nrow(KFM.macro.stipe) >= 5) {
               "'. Recording as '", model_label, "'.")
     }
 
-    # STATISTICAL FIX (2026-02-06): Extract effect size at standardized time point (t=11)
-    # rather than at maximum observed time to ensure comparability across MPAs.
+    # Compare surveyed post-designation endpoints within an eleven-year window.
     n_obs_original <- nrow(KFM.macro.stipe)
     time.model.of.impact_original <- max(which(KFM.macro.stipe$time.model == 0))
 
-    # Create standardized prediction points: time 0 (before) and time 11 (after)
+    # Predictions use elapsed calendar time at actual survey years.
     # Include time_offset for sigmoid models (time.model + 0.01 offset)
-    pred_data <- data.frame(
-      time.model = c(0, EFFECT_SIZE_TIME_YEARS),
-      time_offset = c(0.01, EFFECT_SIZE_TIME_YEARS + 0.01),
-      time.true = c(time.model.of.impact_original, time.model.of.impact_original + EFFECT_SIZE_TIME_YEARS)
-    )
+    ends <- observed_contrast_times(KFM.macro.stipe)
+    pred_data <- data.frame(time.model=ends, time_offset=ends+.01,
+      time.true=time.model.of.impact_original+ends)
 
-    # Get predictions at standardized times with confidence intervals
+    # Get predictions at surveyed endpoints with confidence intervals
     interval <- tryCatch({
       data.frame(predFit(sigmoid.Model, newdata = pred_data, interval = "confidence"))
     }, error = function(e) NULL)
 
     if (!is.null(interval) && nrow(interval) == 2) {
-      # Calculate effect size as difference between t=11 and t=0
+      # Calculate effect size as difference between the surveyed endpoints
       mean_es <- interval$fit[2] - interval$fit[1]
 
       # STATISTICAL FIX (2026-02-12): Use delta method to compute SE of the difference
-      # f(t=11) - f(t=0), properly accounting for shared parameter covariance.
+      # f(last surveyed year) - f(first surveyed year), properly accounting for shared parameter covariance.
       n_params <- length(coef(sigmoid.Model))
       df_approx <- max(n_obs_original - n_params, 1)
       t_crit <- qt(0.975, df_approx)
@@ -1544,30 +1420,27 @@ if (nrow(KFM.lob.gull) >= 5) {
               "'. Recording as '", model_label, "'.")
     }
 
-    # STATISTICAL FIX (2026-02-06): Extract effect size at standardized time point (t=11)
-    # rather than at maximum observed time to ensure comparability across MPAs.
+    # Compare surveyed post-designation endpoints within an eleven-year window.
     n_obs_original <- nrow(KFM.lob.gull)
     time.model.of.impact_original <- max(which(KFM.lob.gull$time.model == 0))
 
-    # Create standardized prediction points: time 0 (before) and time 11 (after)
+    # Predictions use elapsed calendar time at actual survey years.
     # Include time_offset for sigmoid models (time.model + 0.01 offset)
-    pred_data <- data.frame(
-      time.model = c(0, EFFECT_SIZE_TIME_YEARS),
-      time_offset = c(0.01, EFFECT_SIZE_TIME_YEARS + 0.01),
-      time.true = c(time.model.of.impact_original, time.model.of.impact_original + EFFECT_SIZE_TIME_YEARS)
-    )
+    ends <- observed_contrast_times(KFM.lob.gull)
+    pred_data <- data.frame(time.model=ends, time_offset=ends+.01,
+      time.true=time.model.of.impact_original+ends)
 
-    # Get predictions at standardized times with confidence intervals
+    # Get predictions at surveyed endpoints with confidence intervals
     interval <- tryCatch({
       data.frame(predFit(sigmoid.Model, newdata = pred_data, interval = "confidence"))
     }, error = function(e) NULL)
 
     if (!is.null(interval) && nrow(interval) == 2) {
-      # Calculate effect size as difference between t=11 and t=0
+      # Calculate effect size as difference between the surveyed endpoints
       mean_es <- interval$fit[2] - interval$fit[1]
 
       # STATISTICAL FIX (2026-02-12): Use delta method to compute SE of the difference
-      # f(t=11) - f(t=0), properly accounting for shared parameter covariance.
+      # f(last surveyed year) - f(first surveyed year), properly accounting for shared parameter covariance.
       n_params <- length(coef(sigmoid.Model))
       df_approx <- max(n_obs_original - n_params, 1)
       t_crit <- qt(0.975, df_approx)
@@ -1640,35 +1513,14 @@ SumStats <- rbind(SumStats, run_ci_analysis(KFM.sheep.CI, "S. pulcher", "KFM", "
 ####################################################################################################
 ## LANDSAT Kelp Biomass Effect Sizes ###############################################################
 ####################################################################################################
-#
-# WHAT THIS DOES:
-#   Adds M. pyrifera (giant kelp) biomass effect sizes from satellite-derived canopy data.
-#   Landsat imagery (30m resolution, 1984-2021) provides the longest time series and broadest
-#   spatial coverage of any data source. 20 MPAs with annual kelp canopy biomass estimates.
-#
-# WHY IT MATTERS:
-#   Landsat nearly doubles the M. pyrifera sample size (from k=17 to k=31) and adds 4 MPAs
-#   that have no diver-survey kelp data (Cabrillo, Point Dume SMCA/SMR, Skunk Pt).
-#   This substantially strengthens the kelp recovery signal.
-#
-# DATA SOURCE:
-#   Landsat.RR is loaded from data/harmonized/harmonized_landsat_rr.csv by 03_load_harmonized_data.R.
-#   It contains pre-computed log response ratios (lnDiff) with time columns already set:
-#     time = 0 for all Before-period years, 1, 2, 3, ... for After-period years
-#
-# METHOD:
-#   Simple linear model: lnDiff ~ time, then extract effect size as predicted(t=11) - predicted(t=0).
-#   This matches the approach used for other linear effect sizes throughout this script.
-#
-# NOTE ON BASE R SUBSETTING:
-#   We use base R (not dplyr::filter) because Landsat.RR has a column named "mpa" (containing
-#   biomass proportions). Using dplyr::filter(Landsat.RR, CA_MPA_Name_Short == mpa_name) would
-#   cause dplyr's data masking to match the "mpa" COLUMN instead of the loop variable, silently
-#   returning 0 rows. This was a bug discovered in March 2026.
-#
+# Apply the same calendar-year baseline screen to every satellite candidate.
+# Existing whole-MPA exclusions are applied below. Failed baselines do not enter CI.
+source(here::here("code/R/satellite_baseline_policy.R"))
 
 if (exists("Landsat.RR") && nrow(Landsat.RR) > 0) {
-  mpas_landsat <- unique(Landsat.RR$CA_MPA_Name_Short)
+  satellite_screen <- satellite_baseline_screen(Landsat.RR)
+  write.csv(satellite_screen, here::here("tables/table_s_satellite_baseline_screen.csv"), row.names = FALSE)
+  mpas_landsat <- satellite_screen$MPA[satellite_screen$baseline_eligible]
   for (mpa_name in mpas_landsat) {
     mpa_dat <- Landsat.RR[Landsat.RR$CA_MPA_Name_Short == mpa_name, ]
     if (nrow(mpa_dat) > 3) {

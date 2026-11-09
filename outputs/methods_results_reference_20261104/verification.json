@@ -1,0 +1,21 @@
+{
+  "candidate_histories": 206,
+  "excluded_histories": 31,
+  "retained_histories": 175,
+  "MPAs": 25,
+  "site_or_group_rows": 381,
+  "assigned_sites": 212,
+  "model_eligibility_rows": 175,
+  "input_hashes": {
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/dataset_inventory_20261101/comparison_decisions.csv": "79d79a092840b6b2d78d9f41b22d6dcf06c3cf04a188a25b5b02d8cea5e158d5",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/dataset_inventory_20261101/site_response_coverage.csv": "94923704afa74c132451decff81aa9e65140f78eb7f6dcfb1313056cd8d48fc1",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/dataset_inventory_20261101/mpa_metadata.csv": "7e1aec0da408550dcb9fd9bbcba8f9037e7becc208db09c95f1d63d7837b6c4a",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/dataset_inventory_20261101/current_rules.csv": "f077a01cac1996047f95902ee38f218ef9cd8c943ab242dbe57c741db79b8793",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/integrated_review_20261103/station_assignments.csv": "0c2d7d24b65bcc78e6543ccfc3e1662b1927aa65bb27126722be92c3c2789db0",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/integrated_review_20261103/comparison_year_roster.csv": "78c541bcb5a156abe73b1eecc8d913a837dd9ed0e31fea72c81a95ff17dc8276",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/integrated_review_20261103/model_eligibility.csv": "1d45007114c5342960db67ea080f12649222a7da2323622eeff5e29b675d24cd",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/integrated_review_20261103/annual_values.csv": "539e2198de9856392311f9aef2d9db5953a2db3e52154e7b3510dc2678870a3c",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/integrated_review_20261103/pooled_results.csv": "b1411997fa155d605352e6a56271141e68cf33eb71d0a7af84a263b2a061d0ee",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/biomass_policy_review_20261103/comparison_support.csv": "7c58ba9f8a45545e03f5aa8957dec1d0e5706d42adff5ea90e43d1e66905b4f3"
+  }
+}

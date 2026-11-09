@@ -1,0 +1,54 @@
+scenario                       Approved  Available_on_persistent_years  Log_station_adjusted  Log_station_unadjusted  Persistent_reference
+MPA                      Resp                                                                                                             
+Abalone Cove SMCA        Bio     0.3423                            NaN                0.2874                  0.2865                   NaN
+                         Den     0.1744                            NaN                0.1392                  0.1397                   NaN
+Anacapa Island SMR 2003  Bio    -0.0023                        -0.0023               -0.0147                 -0.0149               -0.0350
+                         Den    -0.0603                        -0.0603               -0.0663                 -0.0673               -0.0640
+Blue Cavern Onshore SMCA Bio     0.0756                         0.0756                0.0617                  0.0617                0.0756
+                         Den    -0.0075                        -0.0075               -0.0127                 -0.0127               -0.0075
+Campus Point SMCA        Bio    -0.1427                        -0.1427               -0.1318                 -0.1318               -0.1427
+                         Den    -0.0454                        -0.0454               -0.0470                 -0.0470               -0.0454
+Farnsworth Onshore SMCA  Bio     0.1029                         0.1029                0.1029                  0.1029                0.1029
+                         Den     0.0076                         0.0076                0.0076                  0.0076                0.0076
+Gull Island SMR          Bio     0.0461                         0.0461                0.0485                  0.0485                0.0461
+                         Den     0.0284                         0.0284                0.0290                  0.0290                0.0284
+Harris Point SMR         Bio    -0.1349                        -0.1349               -0.0249                 -0.0249               -0.1349
+                         Den    -0.0564                        -0.0564                0.0016                  0.0016               -0.0564
+Long Point SMR           Bio    -0.0805                        -0.0805               -0.0805                 -0.0805               -0.0805
+                         Den    -0.0430                        -0.0430               -0.0430                 -0.0430               -0.0430
+Matlahuayl SMR           Bio    -0.6231                        -0.6231               -0.6231                 -0.6231               -0.6231
+                         Den    -0.5286                        -0.5286               -0.5286                 -0.5286               -0.5286
+Naples SMCA              Bio    -0.0642                        -0.0642               -0.0492                 -0.0492               -0.0642
+                         Den    -0.0145                        -0.0145                0.0004                  0.0004               -0.0145
+Point Dume SMCA          Bio    -0.0502                        -0.0502               -0.1442                  0.0784               -0.1733
+                         Den     0.0250                         0.0250               -0.0641                  0.1076               -0.0870
+Point Dume SMR           Bio    -0.2708                        -0.2708               -0.3819                 -0.3819               -0.2708
+                         Den    -0.3133                        -0.3133               -0.3702                 -0.3702               -0.3133
+Point Vicente SMCA       Bio     0.1253                         0.1253                0.1167                  0.1167                0.1253
+                         Den     0.0700                         0.0700                0.0684                  0.0684                0.0700
+Santa Barbara Island SMR Bio     0.0501                            NaN                0.0321                  0.0503                   NaN
+                         Den    -0.0049                            NaN                0.0053                  0.0002                   NaN
+Scorpion SMR             Bio    -0.0065                        -0.0065               -0.0285                 -0.0081               -0.0037
+                         Den    -0.0066                        -0.0066               -0.0197                 -0.0088               -0.0080
+South Point SMR          Bio    -0.0188                        -0.0188               -0.0009                 -0.0158               -0.0156
+                         Den    -0.0075                        -0.0075                0.0020                 -0.0075                0.0035
+Swamis SMCA              Bio     0.0085                         0.0085                0.0085                  0.0085                0.0085
+                         Den    -0.1921                        -0.1921               -0.1921                 -0.1921               -0.1921
+                                    series_id                      MPA Resp  n_years constant_zones_every_station years_no_shared_zone
+       Abalone Cove SMCA|S. pulcher|PISCO|Den        Abalone Cove SMCA  Den       14                                         2010;2014
+ Anacapa Island SMR 2003|S. pulcher|PISCO|Den  Anacapa Island SMR 2003  Den       19                        OUTER                     
+Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den Blue Cavern Onshore SMCA  Den        8                    INNER;MID                     
+       Campus Point SMCA|S. pulcher|PISCO|Den        Campus Point SMCA  Den       13     INMID;INNER;OUTER;OUTMID                     
+ Farnsworth Onshore SMCA|S. pulcher|PISCO|Den  Farnsworth Onshore SMCA  Den        6              INNER;MID;OUTER                     
+         Gull Island SMR|S. pulcher|PISCO|Den          Gull Island SMR  Den       20           INMID;OUTER;OUTMID                     
+        Harris Point SMR|S. pulcher|PISCO|Den         Harris Point SMR  Den       17     INMID;INNER;OUTER;OUTMID                     
+          Long Point SMR|S. pulcher|PISCO|Den           Long Point SMR  Den        8              INNER;MID;OUTER                     
+          Matlahuayl SMR|S. pulcher|PISCO|Den           Matlahuayl SMR  Den        7                    INNER;MID                     
+             Naples SMCA|S. pulcher|PISCO|Den              Naples SMCA  Den       14                  INNER;OUTER                     
+         Point Dume SMCA|S. pulcher|PISCO|Den          Point Dume SMCA  Den        6                    INNER;MID                     
+          Point Dume SMR|S. pulcher|PISCO|Den           Point Dume SMR  Den        6                    INNER;MID                     
+      Point Vicente SMCA|S. pulcher|PISCO|Den       Point Vicente SMCA  Den       15                        OUTER                     
+Santa Barbara Island SMR|S. pulcher|PISCO|Den Santa Barbara Island SMR  Den        9                        INNER                     
+            Scorpion SMR|S. pulcher|PISCO|Den             Scorpion SMR  Den       20                  INNER;OUTER                     
+         South Point SMR|S. pulcher|PISCO|Den          South Point SMR  Den       20                        OUTER                     
+             Swamis SMCA|S. pulcher|PISCO|Den              Swamis SMCA  Den        7              INNER;MID;OUTER                     

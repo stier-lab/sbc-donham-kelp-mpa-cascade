@@ -1,0 +1,10 @@
+{
+  "outputs/point_dume_coverage_20261101/PLAN.md": "66fa6c0c04f9be8bd2eefe74e1254705ddd6c2cca2851819a638caade22c2242",
+  "outputs/full_followup_recovery_20261101/effects.csv": "8982a52e4071294811f8e3f909091b66a672b478c348e96906b96f8fe334c151",
+  "outputs/upstream_sites_20261101/candidate_eligibility.csv": "5db383b37724cd6a367af61bc2501b217eedc50b848bd9f7fcebdc1fc733f6bc",
+  "outputs/upstream_sites_20261101/pisco_selected_station_values.csv": "ff2f50ac68e510f1c77534adb8ec08c93b69b3ec2d4de0b017fd870456e67c42",
+  "code/tools/audit_point_dume_coverage.py": "3afeb33bf4653108d77a4a69db8202d31e04d0bc476018710da100b63f2d3fb0",
+  "code/tools/pool_coverage_rules.R": "4b6a6531fbdeea07fdd2763e3a629db23c89154619de50f395221ff0d943de68",
+  "code/tools/check_point_dume_coverage.py": "61fde05c5cdb232014e7e20c67da11749f818a7f772ad66a0d23b0448ad10231",
+  "code/tools/report_point_dume_coverage.py": "abd173ee9e3d45cc2518c08330df86bc2ad37a8247afceca45fc3db243517a14"
+}

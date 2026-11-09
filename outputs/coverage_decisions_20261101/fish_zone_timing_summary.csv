@@ -1,0 +1,35 @@
+series_id,MPA,Resp,n_years,constant_shared_zones,all_shared_zones,zone_set_changes,years_gap_over30,years_gap_over60,years_gap_over90
+Abalone Cove SMCA|S. pulcher|PISCO|Bio,Abalone Cove SMCA,Bio,14,INNER;MID,INNER;MID;OUTER,True,10,6,4
+Abalone Cove SMCA|S. pulcher|PISCO|Den,Abalone Cove SMCA,Den,14,INNER;MID,INNER;MID;OUTER,True,10,6,4
+Anacapa Island SMR 2003|S. pulcher|PISCO|Bio,Anacapa Island SMR 2003,Bio,19,INNER;OUTER,INNER;OUTER,False,5,1,0
+Anacapa Island SMR 2003|S. pulcher|PISCO|Den,Anacapa Island SMR 2003,Den,19,INNER;OUTER,INNER;OUTER,False,5,1,0
+Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio,Blue Cavern Onshore SMCA,Bio,8,INNER;MID,INNER;MID,False,3,1,0
+Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den,Blue Cavern Onshore SMCA,Den,8,INNER;MID,INNER;MID,False,3,1,0
+Campus Point SMCA|S. pulcher|PISCO|Bio,Campus Point SMCA,Bio,13,INMID;INNER;OUTER;OUTMID,INMID;INNER;OUTER;OUTMID,False,4,0,0
+Campus Point SMCA|S. pulcher|PISCO|Den,Campus Point SMCA,Den,13,INMID;INNER;OUTER;OUTMID,INMID;INNER;OUTER;OUTMID,False,4,0,0
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio,Farnsworth Onshore SMCA,Bio,6,INNER;MID;OUTER,INNER;MID;OUTER,False,1,0,0
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Den,Farnsworth Onshore SMCA,Den,6,INNER;MID;OUTER,INNER;MID;OUTER,False,1,0,0
+Gull Island SMR|S. pulcher|PISCO|Bio,Gull Island SMR,Bio,20,INMID;INNER;OUTER;OUTMID,INMID;INNER;OUTER;OUTMID,False,6,3,0
+Gull Island SMR|S. pulcher|PISCO|Den,Gull Island SMR,Den,20,INMID;INNER;OUTER;OUTMID,INMID;INNER;OUTER;OUTMID,False,6,3,0
+Harris Point SMR|S. pulcher|PISCO|Bio,Harris Point SMR,Bio,17,INMID;INNER;OUTER;OUTMID,INMID;INNER;OUTER;OUTMID,False,0,0,0
+Harris Point SMR|S. pulcher|PISCO|Den,Harris Point SMR,Den,17,INMID;INNER;OUTER;OUTMID,INMID;INNER;OUTER;OUTMID,False,0,0,0
+Long Point SMR|S. pulcher|PISCO|Bio,Long Point SMR,Bio,8,INNER;MID;OUTER,INNER;MID;OUTER,False,1,1,0
+Long Point SMR|S. pulcher|PISCO|Den,Long Point SMR,Den,8,INNER;MID;OUTER,INNER;MID;OUTER,False,1,1,0
+Matlahuayl SMR|S. pulcher|PISCO|Bio,Matlahuayl SMR,Bio,7,INNER;MID,INNER;MID,False,0,0,0
+Matlahuayl SMR|S. pulcher|PISCO|Den,Matlahuayl SMR,Den,7,INNER;MID,INNER;MID,False,0,0,0
+Naples SMCA|S. pulcher|PISCO|Bio,Naples SMCA,Bio,14,INNER;OUTER,INNER;OUTER,False,6,1,0
+Naples SMCA|S. pulcher|PISCO|Den,Naples SMCA,Den,14,INNER;OUTER,INNER;OUTER,False,6,1,0
+Point Dume SMCA|S. pulcher|PISCO|Bio,Point Dume SMCA,Bio,6,INNER;MID,INNER;MID,False,1,0,0
+Point Dume SMCA|S. pulcher|PISCO|Den,Point Dume SMCA,Den,6,INNER;MID,INNER;MID,False,1,0,0
+Point Dume SMR|S. pulcher|PISCO|Bio,Point Dume SMR,Bio,6,INNER;MID,INNER;MID,False,2,0,0
+Point Dume SMR|S. pulcher|PISCO|Den,Point Dume SMR,Den,6,INNER;MID,INNER;MID,False,2,0,0
+Point Vicente SMCA|S. pulcher|PISCO|Bio,Point Vicente SMCA,Bio,15,INNER;MID;OUTER,DEEP;INNER;MID;OUTER,True,6,1,0
+Point Vicente SMCA|S. pulcher|PISCO|Den,Point Vicente SMCA,Den,15,INNER;MID;OUTER,DEEP;INNER;MID;OUTER,True,6,1,0
+Santa Barbara Island SMR|S. pulcher|PISCO|Bio,Santa Barbara Island SMR,Bio,9,INNER;MID,DEEP;INNER;MID;OUTER,True,1,0,0
+Santa Barbara Island SMR|S. pulcher|PISCO|Den,Santa Barbara Island SMR,Den,9,INNER;MID,DEEP;INNER;MID;OUTER,True,1,0,0
+Scorpion SMR|S. pulcher|PISCO|Bio,Scorpion SMR,Bio,20,INNER;OUTER;OUTMID,INMID;INNER;OUTER;OUTMID,True,0,0,0
+Scorpion SMR|S. pulcher|PISCO|Den,Scorpion SMR,Den,20,INNER;OUTER;OUTMID,INMID;INNER;OUTER;OUTMID,True,0,0,0
+South Point SMR|S. pulcher|PISCO|Bio,South Point SMR,Bio,19,INNER;OUTER,INMID;INNER;MID;OUTER;OUTMID,True,2,0,0
+South Point SMR|S. pulcher|PISCO|Den,South Point SMR,Den,20,INNER;OUTER,INMID;INNER;MID;OUTER;OUTMID,True,2,0,0
+Swamis SMCA|S. pulcher|PISCO|Bio,Swamis SMCA,Bio,7,INNER;MID;OUTER,INNER;MID;OUTER,False,0,0,0
+Swamis SMCA|S. pulcher|PISCO|Den,Swamis SMCA,Den,7,INNER;MID;OUTER,INNER;MID;OUTER,False,0,0,0

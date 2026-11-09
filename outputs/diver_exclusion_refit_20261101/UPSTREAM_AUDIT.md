@@ -1,0 +1,18 @@
+# Scope of the historical diver exclusion audit
+
+The response-level audit covers all 22 omitted focal biomass/density histories in the current harmonized data, plus the alternative kelp-density and roving-diver response types. It does not establish that the entire historical candidate-site inventory is ready for inclusion. The copied 37-site evidence ledger records historical decisions, not newly certified eligibility.
+
+- Restore qualifying focal histories at Campus Point, Naples, Gull Island, Harris Point, Scorpion, Santa Barbara Island and Matlahuayl. Baseline slope or significance never decides membership. Use current reference assignments; Gull Island KFM remains explicitly contested and receives an omission sensitivity.
+- Do not add the 18 omitted kelp-density histories as additional independent evidence for kelp biomass. They are an alternative response, frequently from the same surveys. Six roving-diver sheephead histories are a different sampling method and cannot be treated as duplicate visual-transect density estimates.
+- Anacapa Island SMCA and Painted Cave SMCA: their lobster-take rationale does not by itself exclude them under the revised at-least-one-predator protection rule. They are candidates requiring reconstruction, not confirmed ineligible sites. Source code removes them before the corrected harmonized exports; available bootstrap caches are intermediate calculations, not verified paired annual histories. Reconstruct protected/reference assignments, response-specific survey coverage and corrected values before adding them.
+- Point Dume SMR and SMCA: candidate fish pairs have enough recent overlap to warrant reconstruction for post-protection associations. The inherited whole-MPA/curated sheephead filters are not an adequate current exclusion reason. Response-level corrected values and a fixed selected reference footprint remain to be reconstructed; the pair inventory alone is insufficient.
+- Blue Cavern Onshore and Long Point: sheephead is retained, but the restriction to sheephead alone is not justified by no-take status. Audit other response branches upstream. Blue Cavern legacy labels must not be silently merged with the onshore reserve.
+- South La Jolla: reference assignment remains unresolved; do not choose a convenient reference from candidate overlap alone.
+- Crystal Cove, Laguna Beach, Vandenberg and Casino Point: no verified usable protected/reference comparison recovered in the reviewed inventory. This is an evidence gap, not proof of absent surveys.
+- Old Anacapa 1978: recovered paired diver records begin after its primary years 1–9 window. Any full-period post-only association requires resolving the historical protected footprint separately from the 2003 reserve.
+- Begg Rock, Carrington, Cabrillo and Point Conception: the saved same-method candidate-pair audit did not establish adequate diver coverage. Do not confuse this with their satellite eligibility, or with proof that no future source search could recover observations.
+- Cat Harbor and Dana Point fail the focal-predator protection scope in the saved regulation audit. Arrow Point fails the same scope despite restrictions on recreational invertebrate harvest.
+
+The present refit is a complete test of recoverable response-level omissions, not a final certification of every upstream site exclusion. No manuscript or canonical data/result file is updated.
+
+Evidence: manuscript correspondence/coauthor_reviews/2026-10-31_selection_rule_check and 2026-10-31_selection_history; data-repository code/R/04_pisco_processing.R sections 10–17, 05_kfm_processing.R sections 3–11, and 01_utils.R exclusion/reinclusion constants. Current raw and ratio input hashes are frozen with this review.

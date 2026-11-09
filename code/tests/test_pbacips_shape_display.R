@@ -12,6 +12,7 @@ local({
     }
     code_names <- c(script, "02_pBACIPS_function.R", "08_effect_sizes.R", "00c_analysis_constants.R", "taxon_display.R")
     stopifnot(all(file.copy(file.path(repo, "code/R", code_names), file.path(fixture, "code/R", code_names))))
+    writeLines('{"MPAs":[]}',file.path(fixture,"data/harmonized/pisco_baseline_policy.json"))
     years <- c(2008:2014, 2016, 2018:2023)
     ba <- ifelse(years <= 2012, "Before", "After")
     index <- c(rep(0, sum(ba == "Before")), seq_len(sum(ba == "After")) - 1L)
@@ -19,24 +20,24 @@ local({
     noise <- rep(c(-0.01, 0.01, 0.02, -0.02), length.out = length(years))
     hill <- function(t) 0.3 + 1.7 * ((t + 0.01) / 5)^2 / (1 + ((t + 0.01) / 5)^2)
     definitions <- data.frame(
-      MPA = c("Index SMR", "Step SMR", "Satellite SMR", "Campus Point SMCA", "Scorpion SMR", "CI SMCA"),
+      MPA = c("Calendar SMR", "Step SMR", "Satellite SMR", "Campus Point SMCA", "Scorpion SMR", "CI SMCA"),
       Taxa = c("S. pulcher", "M. franciscanus", "M. pyrifera", "P. interruptus", "M. pyrifera", "S. pulcher"),
       y = c("Semicossyphus pulcher", "Mesocentrotus franciscanus", "Macrocystis pyrifera", "Panulirus interruptus", "Macrocystis pyrifera", "Semicossyphus pulcher"),
       Source = c("LTER", "KFM", "Landsat", "LTER", "KFM", "PISCO"),
       Resp = c("Bio", "Den", "Bio", "Bio", "Bio", "Den"),
       Model = c("Linear", "Step", "Linear", "Linear", "Sigmoid", "Mean"),
-      AnalysisType = c(rep("pBACIPS", 5), "CI"), stringsAsFactors = FALSE)
-    values <- list(0.2 + 0.1 * index + noise, ifelse(ba == "After", 1.2, 0.3) + noise,
-      0.5 + 0.08 * supplied + noise, 0.3 + 0.06 * supplied + noise, hill(index), 0.4 + noise)
+      AnalysisType = c("pBACIPS", "pBACIPS", "pBACIPS", "CI", "pBACIPS", "CI"), stringsAsFactors = FALSE)
+    values <- list(0.2 + 0.1 * supplied + noise, ifelse(ba == "After", 1.2, 0.3) + noise,
+      0.5 + 0.08 * supplied + noise, 0.3 + 0.06 * supplied + noise, hill(supplied), 0.4 + noise)
     annual <- do.call(rbind, lapply(seq_len(nrow(definitions)), function(i) {
       z <- definitions[i, ]
       data.frame(CA_MPA_Name_Short = z$MPA, year = years, y = z$y, source = z$Source,
         resp = z$Resp, lnDiff = values[[i]], BA = ba, time = supplied, stringsAsFactors = FALSE)
     }))
-    slope_effect <- function(y, x) sum((x - mean(x)) * (y - mean(y))) / sum((x - mean(x))^2) * 11
-    effects <- c(slope_effect(values[[1]], index),
+    slope_effect <- function(y, x) sum((x - mean(x)) * (y - mean(y))) / sum((x - mean(x))^2) * 10
+    effects <- c(slope_effect(values[[1]], supplied),
       mean(values[[2]][ba == "After"]) - mean(values[[2]][ba == "Before"]),
-      slope_effect(values[[3]], supplied), slope_effect(values[[4]], supplied), hill(11) - hill(0), mean(values[[6]]))
+      slope_effect(values[[3]], supplied), slope_effect(values[[4]], supplied), hill(11) - hill(1), mean(values[[6]]))
     primary <- definitions[c("MPA", "Taxa", "Source", "Resp", "Model", "AnalysisType")]
     primary$Mean <- effects
     primary$SE <- 0.1
@@ -77,15 +78,15 @@ local({
       membership$nonlinear_panel[membership$Model == "Sigmoid"] == "A",
       audit$clock[audit$MPA == "Satellite SMR"] == "supplied_time",
       audit$clock[audit$MPA == "Campus Point SMCA"] == "supplied_time",
-      audit$clock[audit$MPA == "Index SMR"] == "observation_index",
-      audit$first_after_model_time[audit$MPA == "Index SMR"] == 0,
+      audit$clock[audit$MPA == "Calendar SMR"] == "supplied_time",
+      audit$first_after_model_time[audit$MPA == "Calendar SMR"] == 1,
       audit$first_after_model_time[audit$MPA == "Satellite SMR"] == 1,
-      !audit$horizon_within_observed_clock[audit$MPA == "Index SMR"],
+      audit$horizon_within_observed_clock[audit$MPA == "Calendar SMR"],
       is.na(audit$horizon[audit$Model == "Step"]),
       all(audit$missing_years == "2015;2017"),
       all(abs(predictions$time.model[predictions$MPA == "Satellite SMR"] -
         pmax(predictions$year[predictions$MPA == "Satellite SMR"] - 2012, 0)) < 1e-10),
-      observations$time.model[observations$MPA == "Index SMR" & observations$year == 2016] == 2,
+      observations$time.model[observations$MPA == "Calendar SMR" & observations$year == 2016] == 4,
       observations$time.model[observations$MPA == "Satellite SMR" & observations$year == 2016] == 4)
     step_predictions <- predictions[predictions$MPA == "Step SMR", ]
     stopifnot(length(unique(step_predictions$fitted_lnRR[step_predictions$year <= 2012.5])) == 1L,
@@ -135,7 +136,7 @@ local({
     bad <- cache
     bad$predictions$time.model[1] <- bad$predictions$time.model[1] + 0.1
     saveRDS(bad, cache_path)
-    run("--check-cache", "native clock/model labels")
+    run("--check-cache", "calendar clock/model labels")
     saveRDS(cache, cache_path)
     bad <- cache
     bad$audit$reconstructed_effect[1] <- bad$audit$reconstructed_effect[1] + 1

@@ -39,9 +39,8 @@ uncertainty_reconstruct <- function(row, annual, definitions, horizon = 11) {
   if (nrow(d) != row$N) stop("Retained N mismatch: ", uncertainty_key(row))
   d$CA_MPA_Name_Short <- d$MPA
   d <- definitions$add_time_columns(d)
-  supplied <- row$AnalysisType == "CI" || row$Source == "Landsat" ||
-    uncertainty_key(row) == "Campus Point SMCA|P. interruptus|LTER|Bio"
-  if (supplied) d$time.model <- d$input_time
+  d$time.model <- pmax(d$year-row$MPA_Start,0)
+  ends <- definitions$observed_contrast_times(d)
   d$BA <- factor(d$BA, c("Before", "After"))
   fit <- switch(row$Model,
     Mean = lm(lnDiff ~ 1, data = d),
@@ -55,11 +54,11 @@ uncertainty_reconstruct <- function(row, annual, definitions, horizon = 11) {
   if (inherits(fit, "nls") && !isTRUE(fit$convInfo$isConv)) stop("Nonconverged retained nonlinear fit.")
   theta <- coef(fit)
   if (row$Model == "Mean") g <- setNames(1, names(theta))
-  if (row$Model == "Linear") g <- setNames(c(0, horizon), names(theta))
+  if (row$Model == "Linear") g <- setNames(c(0, diff(ends)), names(theta))
   if (row$Model == "Step") g <- setNames(c(0, 1), names(theta))
   if (row$Model == "Sigmoid") {
-    nd <- data.frame(time.model = c(0, horizon), time_offset = c(.01, horizon + .01),
-      time.true = max(which(d$time.model == 0)) + c(0, horizon))
+    nd <- data.frame(time.model = ends, time_offset = ends + .01,
+      time.true = max(which(d$time.model == 0)) + ends)
     f <- function(par, data) {
       e <- list2env(c(as.list(data), as.list(par)), parent = fit$m$getEnv())
       as.numeric(eval(fit$m$formula()[[3]], e))
@@ -72,7 +71,7 @@ uncertainty_reconstruct <- function(row, annual, definitions, horizon = 11) {
   if (abs(estimate - row$Mean) > 1e-7 || abs(iid_se - row$SE) > max(1e-7, row$SE * 1e-5))
     stop("Retained contrast/SE reconstruction mismatch: ", uncertainty_key(row))
   list(fit = fit, data = d, gradient = g, estimate = estimate, iid_se = iid_se,
-    clock = if (row$Model == "Mean") "not applicable" else if (supplied) "supplied calendar time" else "after observation index")
+    ends = ends, clock = if (row$Model %in% c("Mean","Step")) "not applicable" else "calendar years since designation")
 }
 
 uncertainty_hac <- function(fit, year, lag) {

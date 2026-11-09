@@ -1,0 +1,7 @@
+{
+  "simulations": 20,
+  "inner_bootstraps": 199,
+  "scope": "Conditional first-order Gaussian model checks, not nonlinear coverage certification",
+  "execution_complete": true,
+  "nominal_coverage_certified": false
+}

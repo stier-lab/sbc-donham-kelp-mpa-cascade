@@ -1,0 +1,24 @@
+Source,Taxa,Resp,paired_years,dates_both_sides,same_month_set,shared_month,no_shared_month,gap_at_least_two_months
+PISCO,M. franciscanus,Bio,114,114,38,94,20,4
+PISCO,M. franciscanus,Den,148,148,53,124,24,4
+PISCO,M. pyrifera,Bio,148,148,53,124,24,4
+PISCO,P. interruptus,Bio,31,31,8,24,7,3
+PISCO,P. interruptus,Den,148,148,53,124,24,4
+PISCO,S. pulcher,Bio,198,198,85,154,44,17
+PISCO,S. pulcher,Den,198,198,85,154,44,17
+PISCO,S. purpuratus,Bio,115,115,38,95,20,4
+PISCO,S. purpuratus,Den,148,148,53,124,24,4
+KFM,M. franciscanus,Bio,143,143,49,70,73,30
+KFM,M. franciscanus,Den,150,150,54,75,75,31
+KFM,M. pyrifera,Bio,140,140,43,73,67,24
+KFM,P. interruptus,Den,149,149,47,77,72,25
+KFM,S. pulcher,Den,109,109,29,96,13,5
+KFM,S. purpuratus,Bio,34,34,4,25,9,2
+KFM,S. purpuratus,Den,75,75,29,58,17,3
+LTER,M. pyrifera,Bio,46,46,43,46,0,0
+LTER,P. interruptus,Bio,24,24,22,23,1,0
+LTER,P. interruptus,Den,24,24,22,23,1,0
+LTER,S. pulcher,Bio,45,45,43,45,0,0
+LTER,S. pulcher,Den,22,22,21,22,0,0
+LTER,M. franciscanus,Bio,14,14,14,14,0,0
+LTER,M. franciscanus,Den,23,23,22,23,0,0

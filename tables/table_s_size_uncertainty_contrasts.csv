@@ -1,0 +1,586 @@
+scheme,draw,detail,key,estimate,se
+baseline,0,"",Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.03413178370747,0.444890297756516
+baseline,0,"",Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+baseline,0,"",Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+baseline,0,"",Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+baseline,0,"",Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+baseline,0,"",Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+baseline,0,"",Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+baseline,0,"",Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+baseline,0,"",Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+baseline,0,"",Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+baseline,0,"",Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+baseline,0,"",Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+baseline,0,"",Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+baseline,0,"",South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+baseline,0,"",South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+singleton_joint_stress,-1,protected/reference masses changed in opposite directions,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.35574621837297,0.498087210973174
+singleton_joint_stress,-1,protected/reference masses changed in opposite directions,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+singleton_joint_stress,-1,protected/reference masses changed in opposite directions,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+singleton_joint_stress,-1,protected/reference masses changed in opposite directions,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+singleton_joint_stress,-1,protected/reference masses changed in opposite directions,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+singleton_joint_stress,-1,protected/reference masses changed in opposite directions,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+singleton_joint_stress,-1,protected/reference masses changed in opposite directions,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+singleton_joint_stress,-1,protected/reference masses changed in opposite directions,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.310266631271488,0.594939015443884
+singleton_joint_stress,-1,protected/reference masses changed in opposite directions,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+singleton_joint_stress,-1,protected/reference masses changed in opposite directions,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+singleton_joint_stress,-1,protected/reference masses changed in opposite directions,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.488975901687341,0.421843052911947
+singleton_joint_stress,-1,protected/reference masses changed in opposite directions,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+singleton_joint_stress,-1,protected/reference masses changed in opposite directions,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+singleton_joint_stress,-1,protected/reference masses changed in opposite directions,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+singleton_joint_stress,-1,protected/reference masses changed in opposite directions,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+singleton_joint_stress,1,protected/reference masses changed in opposite directions,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.05688970584023,0.5235317894176
+singleton_joint_stress,1,protected/reference masses changed in opposite directions,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+singleton_joint_stress,1,protected/reference masses changed in opposite directions,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+singleton_joint_stress,1,protected/reference masses changed in opposite directions,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+singleton_joint_stress,1,protected/reference masses changed in opposite directions,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+singleton_joint_stress,1,protected/reference masses changed in opposite directions,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+singleton_joint_stress,1,protected/reference masses changed in opposite directions,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+singleton_joint_stress,1,protected/reference masses changed in opposite directions,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.466397728727904,0.49705863199121
+singleton_joint_stress,1,protected/reference masses changed in opposite directions,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+singleton_joint_stress,1,protected/reference masses changed in opposite directions,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+singleton_joint_stress,1,protected/reference masses changed in opposite directions,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.604820411390762,0.37271013232461
+singleton_joint_stress,1,protected/reference masses changed in opposite directions,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+singleton_joint_stress,1,protected/reference masses changed in opposite directions,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+singleton_joint_stress,1,protected/reference masses changed in opposite directions,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+singleton_joint_stress,1,protected/reference masses changed in opposite directions,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_lt10_joint_stress,-1,protected/reference masses changed in opposite directions,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.67964452283579,0.480512204957249
+sparse_lt10_joint_stress,-1,protected/reference masses changed in opposite directions,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_lt10_joint_stress,-1,protected/reference masses changed in opposite directions,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_lt10_joint_stress,-1,protected/reference masses changed in opposite directions,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_lt10_joint_stress,-1,protected/reference masses changed in opposite directions,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_lt10_joint_stress,-1,protected/reference masses changed in opposite directions,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_lt10_joint_stress,-1,protected/reference masses changed in opposite directions,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_lt10_joint_stress,-1,protected/reference masses changed in opposite directions,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.0289581027962355,0.660556753283839
+sparse_lt10_joint_stress,-1,protected/reference masses changed in opposite directions,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_lt10_joint_stress,-1,protected/reference masses changed in opposite directions,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_lt10_joint_stress,-1,protected/reference masses changed in opposite directions,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.38855279636153,0.455233519670177
+sparse_lt10_joint_stress,-1,protected/reference masses changed in opposite directions,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_lt10_joint_stress,-1,protected/reference masses changed in opposite directions,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_lt10_joint_stress,-1,protected/reference masses changed in opposite directions,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_lt10_joint_stress,-1,protected/reference masses changed in opposite directions,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_lt10_joint_stress,1,protected/reference masses changed in opposite directions,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-0.729823318911145,0.536767289287267
+sparse_lt10_joint_stress,1,protected/reference masses changed in opposite directions,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_lt10_joint_stress,1,protected/reference masses changed in opposite directions,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_lt10_joint_stress,1,protected/reference masses changed in opposite directions,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_lt10_joint_stress,1,protected/reference masses changed in opposite directions,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_lt10_joint_stress,1,protected/reference masses changed in opposite directions,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_lt10_joint_stress,1,protected/reference masses changed in opposite directions,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_lt10_joint_stress,1,protected/reference masses changed in opposite directions,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.73396298452609,0.437677519684647
+sparse_lt10_joint_stress,1,protected/reference masses changed in opposite directions,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_lt10_joint_stress,1,protected/reference masses changed in opposite directions,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_lt10_joint_stress,1,protected/reference masses changed in opposite directions,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.69714289342984,0.335363504257195
+sparse_lt10_joint_stress,1,protected/reference masses changed in opposite directions,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_lt10_joint_stress,1,protected/reference masses changed in opposite directions,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_lt10_joint_stress,1,protected/reference masses changed in opposite directions,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_lt10_joint_stress,1,protected/reference masses changed in opposite directions,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,11,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;0.5,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-0.982857352012308,0.432160397442387
+sparse_one_pool_stress,11,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;0.5,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,11,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;0.5,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,11,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;0.5,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,11,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;0.5,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,11,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;0.5,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,11,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;0.5,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,11,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;0.5,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+sparse_one_pool_stress,11,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;0.5,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,11,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;0.5,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,11,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;0.5,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,11,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;0.5,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,11,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;0.5,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,11,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;0.5,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,11,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;0.5,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,14,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;2,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.08845032920122,0.464209697711485
+sparse_one_pool_stress,14,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;2,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,14,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;2,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,14,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;2,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,14,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;2,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,14,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;2,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,14,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;2,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,14,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;2,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+sparse_one_pool_stress,14,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;2,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,14,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;2,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,14,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;2,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,14,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;2,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,14,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;2,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,14,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;2,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,14,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2012;reference;2,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,21,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;0.5,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.21377221540996,0.516869761638363
+sparse_one_pool_stress,21,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;0.5,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,21,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;0.5,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,21,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;0.5,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,21,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;0.5,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,21,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;0.5,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,21,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;0.5,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,21,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;0.5,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+sparse_one_pool_stress,21,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;0.5,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,21,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;0.5,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,21,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;0.5,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,21,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;0.5,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,21,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;0.5,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,21,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;0.5,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,21,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;0.5,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,24,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;2,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-0.991886262356755,0.419738787234837
+sparse_one_pool_stress,24,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;2,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,24,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;2,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,24,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;2,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,24,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;2,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,24,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;2,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,24,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;2,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,24,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;2,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+sparse_one_pool_stress,24,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;2,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,24,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;2,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,24,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;2,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,24,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;2,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,24,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;2,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,24,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;2,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,24,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2013;reference;2,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,31,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;0.5,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-0.981762731078945,0.42983581266068
+sparse_one_pool_stress,31,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;0.5,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,31,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;0.5,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,31,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;0.5,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,31,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;0.5,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,31,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;0.5,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,31,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;0.5,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,31,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;0.5,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+sparse_one_pool_stress,31,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;0.5,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,31,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;0.5,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,31,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;0.5,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,31,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;0.5,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,31,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;0.5,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,31,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;0.5,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,31,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;0.5,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,34,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;2,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.08906064114764,0.466511907678674
+sparse_one_pool_stress,34,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;2,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,34,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;2,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,34,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;2,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,34,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;2,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,34,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;2,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,34,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;2,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,34,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;2,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+sparse_one_pool_stress,34,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;2,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,34,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;2,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,34,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;2,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,34,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;2,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,34,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;2,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,34,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;2,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,34,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2014;reference;2,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,51,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.214829528153,0.500106532330664
+sparse_one_pool_stress,51,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,51,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,51,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,51,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,51,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,51,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,51,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+sparse_one_pool_stress,51,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,51,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,51,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,51,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,51,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,51,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,51,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,54,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-0.98885037797151,0.436974571959076
+sparse_one_pool_stress,54,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,54,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,54,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,54,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,54,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,54,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,54,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+sparse_one_pool_stress,54,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,54,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,54,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,54,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,54,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,54,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,54,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,71,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;0.5,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.07688166334564,0.443828609543306
+sparse_one_pool_stress,71,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;0.5,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,71,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;0.5,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,71,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;0.5,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,71,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;0.5,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,71,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;0.5,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,71,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;0.5,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,71,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;0.5,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+sparse_one_pool_stress,71,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;0.5,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,71,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;0.5,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,71,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;0.5,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,71,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;0.5,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,71,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;0.5,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,71,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;0.5,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,71,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;0.5,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,74,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;2,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-0.985029061419184,0.451133402971031
+sparse_one_pool_stress,74,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;2,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,74,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;2,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,74,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;2,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,74,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;2,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,74,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;2,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,74,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;2,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,74,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;2,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+sparse_one_pool_stress,74,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;2,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,74,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;2,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,74,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;2,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,74,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;2,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,74,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;2,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,74,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;2,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,74,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2017;mpa;2,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,101,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;0.5,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-0.989932276598612,0.468467685416327
+sparse_one_pool_stress,101,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;0.5,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,101,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;0.5,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,101,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;0.5,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,101,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;0.5,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,101,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;0.5,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,101,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;0.5,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,101,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;0.5,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+sparse_one_pool_stress,101,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;0.5,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,101,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;0.5,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,101,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;0.5,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,101,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;0.5,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,101,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;0.5,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,101,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;0.5,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,101,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;0.5,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,104,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;2,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.08418368009434,0.422207153408342
+sparse_one_pool_stress,104,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;2,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,104,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;2,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,104,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;2,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,104,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;2,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,104,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;2,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,104,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;2,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,104,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;2,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+sparse_one_pool_stress,104,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;2,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,104,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;2,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,104,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;2,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,104,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;2,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,104,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;2,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,104,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;2,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,104,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2018;reference;2,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,131,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;0.5,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.08771577220815,0.449325714773552
+sparse_one_pool_stress,131,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;0.5,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,131,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;0.5,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,131,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;0.5,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,131,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;0.5,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,131,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;0.5,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,131,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;0.5,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,131,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;0.5,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+sparse_one_pool_stress,131,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;0.5,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,131,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;0.5,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,131,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;0.5,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,131,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;0.5,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,131,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;0.5,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,131,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;0.5,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,131,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;0.5,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,134,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;2,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-0.978539937858288,0.44708145023186
+sparse_one_pool_stress,134,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;2,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,134,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;2,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,134,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;2,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,134,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;2,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,134,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;2,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,134,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;2,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,134,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;2,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+sparse_one_pool_stress,134,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;2,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,134,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;2,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,134,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;2,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,134,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;2,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,134,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;2,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,134,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;2,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,134,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2020;mpa;2,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,151,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.08931401596506,0.416526693638989
+sparse_one_pool_stress,151,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,151,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,151,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,151,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,151,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,151,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,151,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+sparse_one_pool_stress,151,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,151,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,151,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,151,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,151,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,151,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,151,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,154,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-0.977690121350209,0.47876731326973
+sparse_one_pool_stress,154,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,154,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,154,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,154,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,154,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,154,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,154,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+sparse_one_pool_stress,154,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,154,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,154,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,154,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,154,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,154,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,154,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,171,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;0.5,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.07941318944343,0.449825921266192
+sparse_one_pool_stress,171,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;0.5,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,171,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;0.5,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,171,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;0.5,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,171,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;0.5,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,171,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;0.5,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,171,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;0.5,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,171,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;0.5,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+sparse_one_pool_stress,171,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;0.5,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,171,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;0.5,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,171,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;0.5,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,171,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;0.5,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,171,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;0.5,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,171,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;0.5,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,171,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;0.5,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,174,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;2,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-0.983389004263442,0.444804809627045
+sparse_one_pool_stress,174,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;2,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,174,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;2,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,174,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;2,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,174,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;2,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,174,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;2,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,174,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;2,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,174,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;2,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+sparse_one_pool_stress,174,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;2,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,174,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;2,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,174,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;2,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,174,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;2,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,174,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;2,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,174,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;2,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,174,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2022;mpa;2,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,191,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;0.5,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.07688166334564,0.443335931336745
+sparse_one_pool_stress,191,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;0.5,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,191,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;0.5,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,191,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;0.5,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,191,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;0.5,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,191,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;0.5,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,191,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;0.5,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,191,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;0.5,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+sparse_one_pool_stress,191,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;0.5,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,191,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;0.5,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,191,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;0.5,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,191,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;0.5,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,191,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;0.5,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,191,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;0.5,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,191,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;0.5,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,194,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;2,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-0.985029061419184,0.451689480880035
+sparse_one_pool_stress,194,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;2,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,194,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;2,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,194,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;2,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,194,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;2,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,194,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;2,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,194,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;2,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,194,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;2,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+sparse_one_pool_stress,194,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;2,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,194,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;2,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,194,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;2,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,194,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;2,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,194,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;2,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,194,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;2,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,194,Abalone Cove SMCA|P. interruptus|PISCO|Bio;2023;mpa;2,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,1661,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;0.5,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.03413178370747,0.444890297756516
+sparse_one_pool_stress,1661,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;0.5,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,1661,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;0.5,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,1661,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;0.5,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,1661,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;0.5,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,1661,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;0.5,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,1661,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;0.5,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,1661,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;0.5,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.299459031847989,0.561822573672963
+sparse_one_pool_stress,1661,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;0.5,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,1661,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;0.5,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,1661,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;0.5,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,1661,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;0.5,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,1661,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;0.5,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,1661,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;0.5,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,1661,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;0.5,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,1664,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;2,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.03413178370747,0.444890297756516
+sparse_one_pool_stress,1664,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;2,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,1664,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;2,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,1664,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;2,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,1664,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;2,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,1664,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;2,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,1664,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;2,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,1664,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;2,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.491759178859676,0.541175909436081
+sparse_one_pool_stress,1664,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;2,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,1664,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;2,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,1664,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;2,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,1664,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;2,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,1664,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;2,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,1664,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;2,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,1664,Matlahuayl SMR|P. interruptus|PISCO|Bio;2011;mpa;2,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,1701,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;0.5,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.03413178370747,0.444890297756516
+sparse_one_pool_stress,1701,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;0.5,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,1701,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;0.5,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,1701,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;0.5,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,1701,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;0.5,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,1701,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;0.5,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,1701,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;0.5,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,1701,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;0.5,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.311171937260235,0.59285129492802
+sparse_one_pool_stress,1701,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;0.5,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,1701,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;0.5,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,1701,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;0.5,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,1701,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;0.5,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,1701,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;0.5,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,1701,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;0.5,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,1701,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;0.5,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,1704,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;2,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.03413178370747,0.444890297756516
+sparse_one_pool_stress,1704,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;2,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,1704,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;2,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,1704,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;2,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,1704,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;2,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,1704,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;2,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,1704,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;2,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,1704,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;2,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.485260015192175,0.49977025673519
+sparse_one_pool_stress,1704,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;2,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,1704,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;2,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,1704,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;2,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,1704,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;2,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,1704,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;2,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,1704,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;2,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,1704,Matlahuayl SMR|P. interruptus|PISCO|Bio;2019;mpa;2,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,1721,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;0.5,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.03413178370747,0.444890297756516
+sparse_one_pool_stress,1721,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;0.5,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,1721,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;0.5,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,1721,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;0.5,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,1721,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;0.5,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,1721,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;0.5,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,1721,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;0.5,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,1721,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;0.5,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.305837407685559,0.555935256776746
+sparse_one_pool_stress,1721,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;0.5,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,1721,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;0.5,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,1721,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;0.5,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,1721,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;0.5,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,1721,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;0.5,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,1721,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;0.5,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,1721,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;0.5,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,1724,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;2,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.03413178370747,0.444890297756516
+sparse_one_pool_stress,1724,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;2,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,1724,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;2,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,1724,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;2,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,1724,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;2,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,1724,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;2,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,1724,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;2,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,1724,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;2,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.488322967015369,0.545453554152619
+sparse_one_pool_stress,1724,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;2,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,1724,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;2,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,1724,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;2,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,1724,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;2,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,1724,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;2,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,1724,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;2,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,1724,Matlahuayl SMR|P. interruptus|PISCO|Bio;2020;mpa;2,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,1781,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;0.5,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.03413178370747,0.444890297756516
+sparse_one_pool_stress,1781,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;0.5,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,1781,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;0.5,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,1781,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;0.5,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,1781,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;0.5,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,1781,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;0.5,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,1781,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;0.5,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,1781,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;0.5,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.310266631271488,0.594939015443884
+sparse_one_pool_stress,1781,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;0.5,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,1781,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;0.5,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,1781,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;0.5,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,1781,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;0.5,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,1781,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;0.5,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,1781,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;0.5,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,1781,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;0.5,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,1784,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;2,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.03413178370747,0.444890297756516
+sparse_one_pool_stress,1784,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;2,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,1784,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;2,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,1784,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;2,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,1784,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;2,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,1784,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;2,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,1784,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;2,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,1784,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;2,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.466397728727904,0.49705863199121
+sparse_one_pool_stress,1784,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;2,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,1784,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;2,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,1784,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;2,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.560812084752338,0.37833991080344
+sparse_one_pool_stress,1784,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;2,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,1784,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;2,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,1784,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;2,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,1784,Matlahuayl SMR|P. interruptus|PISCO|Bio;2023;mpa;2,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,2081,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;0.5,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.03413178370747,0.444890297756516
+sparse_one_pool_stress,2081,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;0.5,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,2081,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;0.5,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,2081,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;0.5,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,2081,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;0.5,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,2081,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;0.5,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,2081,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;0.5,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,2081,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;0.5,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+sparse_one_pool_stress,2081,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;0.5,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,2081,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;0.5,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,2081,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;0.5,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.488975901687341,0.421843052911947
+sparse_one_pool_stress,2081,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;0.5,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,2081,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;0.5,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,2081,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;0.5,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,2081,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;0.5,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,2084,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;2,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.03413178370747,0.444890297756516
+sparse_one_pool_stress,2084,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;2,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,2084,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;2,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,2084,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;2,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,2084,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;2,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,2084,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;2,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,2084,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;2,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,2084,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;2,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+sparse_one_pool_stress,2084,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;2,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,2084,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;2,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,2084,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;2,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.604820411390762,0.37271013232461
+sparse_one_pool_stress,2084,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;2,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,2084,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;2,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,2084,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;2,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,2084,Point Vicente SMCA|P. interruptus|PISCO|Bio;2012;mpa;2,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,2131,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.03413178370747,0.444890297756516
+sparse_one_pool_stress,2131,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,2131,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,2131,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,2131,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,2131,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,2131,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,2131,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+sparse_one_pool_stress,2131,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,2131,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,2131,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.513471038030611,0.400341709517048
+sparse_one_pool_stress,2131,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,2131,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,2131,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,2131,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;0.5,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,2134,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.03413178370747,0.444890297756516
+sparse_one_pool_stress,2134,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,2134,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,2134,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,2134,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,2134,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,2134,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,2134,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+sparse_one_pool_stress,2134,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,2134,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,2134,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.608980817471881,0.365728271739842
+sparse_one_pool_stress,2134,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,2134,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,2134,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,2134,Point Vicente SMCA|P. interruptus|PISCO|Bio;2016;mpa;2,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,2231,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.03413178370747,0.444890297756516
+sparse_one_pool_stress,2231,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,2231,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,2231,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,2231,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,2231,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,2231,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,2231,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+sparse_one_pool_stress,2231,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,2231,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,2231,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.480729855719496,0.431292912160268
+sparse_one_pool_stress,2231,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,2231,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,2231,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,2231,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;0.5,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129
+sparse_one_pool_stress,2234,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,Abalone Cove SMCA|P. interruptus|PISCO|Bio,-1.03413178370747,0.444890297756516
+sparse_one_pool_stress,2234,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.2153752703698,0.470994634924494
+sparse_one_pool_stress,2234,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,-2.91032023529839,0.891709019998739
+sparse_one_pool_stress,2234,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,Campus Point SMCA|P. interruptus|LTER|Bio,1.5055947530008,0.637026225987991
+sparse_one_pool_stress,2234,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,Campus Point SMCA|S. purpuratus|PISCO|Bio,-1.42114389983537,0.633752005810513
+sparse_one_pool_stress,2234,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,Gull Island SMR|S. purpuratus|PISCO|Bio,-1.51733783502966,0.490857361439234
+sparse_one_pool_stress,2234,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,Harris Point SMR|S. purpuratus|PISCO|Bio,-1.03933690293982,0.241870101008451
+sparse_one_pool_stress,2234,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,Matlahuayl SMR|P. interruptus|PISCO|Bio,0.394677877530656,0.543253436513326
+sparse_one_pool_stress,2234,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,Naples SMCA|P. interruptus|LTER|Bio,0.850113656662467,0.313286406082492
+sparse_one_pool_stress,2234,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,Naples SMCA|S. purpuratus|PISCO|Bio,-0.726809190301072,0.158626646140456
+sparse_one_pool_stress,2234,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,Point Vicente SMCA|P. interruptus|PISCO|Bio,0.607250519092992,0.363393357015468
+sparse_one_pool_stress,2234,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,Point Vicente SMCA|S. purpuratus|PISCO|Bio,-0.483913317267191,0.288983905165062
+sparse_one_pool_stress,2234,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,Scorpion SMR|S. purpuratus|PISCO|Bio,-0.951943733734842,0.382209253244354
+sparse_one_pool_stress,2234,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,South Point SMR|S. purpuratus|PISCO|Bio,-1.38462587389749,0.53230532210155
+sparse_one_pool_stress,2234,Point Vicente SMCA|P. interruptus|PISCO|Bio;2021;mpa;2,South Point SMR|S. purpuratus|KFM|Bio,0.108772867618418,0.170969738816129

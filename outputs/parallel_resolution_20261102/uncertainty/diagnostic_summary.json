@@ -1,0 +1,23 @@
+{
+  "calibration_rows": 3208,
+  "calibration_models": 54,
+  "borrowed_visits": 139,
+  "borrowed_temporal_visits": 8,
+  "temporal_below_min_gap": 7,
+  "cross_site_below_min_gap": 12,
+  "overlapping_donor_target_pairs": 103,
+  "measured_visits": 624,
+  "singleton_measured_visits": 84,
+  "one_size_class_measured_visits": 95,
+  "kelp_raw_rows": 65215,
+  "kelp_exact_duplicates": 18413,
+  "kelp_unique_plant_keys": 46802,
+  "kelp_comparison_station_years": 296,
+  "kelp_unique_count_station_years": 296,
+  "kelp_supported_plant_station_years": 220,
+  "kelp_multi_visit_station_years": 4,
+  "raw_mean_max_error": 2.2737367544323206e-13,
+  "kelp_expected_max_error": 9.094947017729282e-13,
+  "independent_count_checks": 4236,
+  "count_max_error": 3.410605131648481e-13
+}

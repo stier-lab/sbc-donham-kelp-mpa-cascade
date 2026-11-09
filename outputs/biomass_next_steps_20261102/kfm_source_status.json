@@ -1,0 +1,8 @@
+{
+  "live_mail_check_date": "2026-11-02",
+  "query": "from:<email-redacted> after:2026/11/01",
+  "matched_messages": 0,
+  "limits": "Exact sender/date query; does not establish no response from another address or remote data delivery. Existing request already sent. No new messages sent.",
+  "density_retained": true,
+  "raw_sources_replaced": false
+}

@@ -1,0 +1,33 @@
+{
+  "release": "pisco_fixed_stations_strict3_2026_10_31",
+  "applied": true,
+  "minimum_before_years": 3,
+  "minimum_after_years": 4,
+  "baseline": "year < 2012",
+  "after": "year >= 2012",
+  "sensitivity_minimum": 4,
+  "taxon": "Semicossyphus pulcher",
+  "programme": "PISCO",
+  "MPAs": [
+    "Campus Point SMCA",
+    "Naples SMCA",
+    "Point Vicente SMCA"
+  ],
+  "effective_date": "2012-01-01",
+  "date_source": "https://wildlife.ca.gov/Conservation/Marine/MPAs/Statistics",
+  "files": {
+    "harmonized_response_ratios.csv": {
+      "before_md5": "a32a70e481d9a9afe423897cad0b8b65",
+      "after_md5": "b50a1301d5a66671de1c44d7f22cee7d",
+      "rows_before": 3341,
+      "rows": 3329
+    },
+    "harmonized_raw_responses.csv": {
+      "before_md5": "ab8363bfe2c84e5790abb3c6def2ef83",
+      "after_md5": "ff1c9faa1f328469a843d96029d51a37",
+      "rows_before": 6280,
+      "rows": 6256
+    }
+  },
+  "eligibility_unit": "fish and benthic branches separately; common station-years across retained responses"
+}

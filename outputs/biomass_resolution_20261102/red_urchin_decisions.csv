@@ -1,0 +1,18 @@
+series_id,n_source_rows,n_role_years,min_diameter_mm,max_diameter_mm,fraction_animals_below_25,fraction_same_count_site,fraction_complete_dates,n_original,n_supported,lost_years,next_action
+Abalone Cove SMCA|M. franciscanus|PISCO|Bio,1228,26,25.0,127.0,0.0,0.8455497382198953,1.0,11.0,11.0,,Check sparse pools and size coverage against count protocol
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,5047,31,2.0,128.0,0.228711162255466,0.9474252013808976,0.0525747986191024,17.0,17.0,,Recover original survey dates; assess count-size timing
+Campus Point SMCA|M. franciscanus|LTER|Bio,183,25,18.0,112.0,0.0219378427787934,0.4186471663619744,1.0,11.0,11.0,,Check sparse pools and size coverage against count protocol
+Campus Point SMCA|M. franciscanus|PISCO|Bio,255,24,25.0,125.0,0.0,0.6666666666666666,1.0,10.0,1.0,2013;2014;2015;2016;2017;2018;2019;2022;2023,Check sparse pools and size coverage against count protocol
+Gull Island SMR|M. franciscanus|PISCO|Bio,2783,30,25.0,139.0,0.0,0.0708677685950413,0.0708677685950413,15.0,0.0,2004;2005;2006;2007;2008;2009;2010;2011;2012;2014;2015;2017;2018;2019;2021,Recover original survey dates; assess count-size timing
+Harris Point SMR|M. franciscanus|KFM|Bio,8727,71,4.0,138.0,0.1138160514191456,0.9875433706842616,0.0124566293157385,18.0,18.0,,Recover original survey dates; assess count-size timing
+Harris Point SMR|M. franciscanus|PISCO|Bio,4632,30,25.0,138.0,0.0,0.0162647861692447,0.0162647861692447,15.0,0.0,2004;2005;2006;2007;2008;2009;2010;2011;2012;2014;2016;2018;2019;2021;2022,Recover original survey dates; assess count-size timing
+Matlahuayl SMR|M. franciscanus|PISCO|Bio,46,8,54.0,146.0,0.0,1.0,1.0,4.0,4.0,,Check sparse pools and size coverage against count protocol
+Naples SMCA|M. franciscanus|LTER|Bio,726,28,4.0,132.0,0.0563735801430374,0.6722759781236853,1.0,11.0,11.0,,Check sparse pools and size coverage against count protocol
+Naples SMCA|M. franciscanus|PISCO|Bio,658,26,25.0,132.0,0.0,0.3169861792242532,1.0,11.0,2.0,2013;2014;2015;2016;2017;2018;2019;2022;2023,Check sparse pools and size coverage against count protocol
+Point Dume SMCA|M. franciscanus|PISCO|Bio,81,1,25.0,104.0,0.0,0.0,1.0,,,,"No count-site size donors: retain density, keep biomass provisional"
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,3282,28,25.0,180.0,0.0,0.9535659312467932,1.0,10.0,10.0,,Check sparse pools and size coverage against count protocol
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,4958,34,2.0,130.0,0.245628877608573,1.0,0.0,17.0,17.0,,Recover original survey dates; assess count-size timing
+Scorpion SMR|M. franciscanus|KFM|Bio,5118,74,3.0,125.0,0.1141559541220845,0.9782156877838504,0.0217843122161496,18.0,18.0,,Recover original survey dates; assess count-size timing
+Scorpion SMR|M. franciscanus|PISCO|Bio,2664,36,25.0,117.0,0.0,0.0423247968103051,0.0423247968103051,18.0,0.0,2004;2005;2006;2007;2008;2009;2010;2011;2012;2013;2014;2015;2016;2017;2018;2019;2021;2022,Recover original survey dates; assess count-size timing
+South Point SMR|M. franciscanus|KFM|Bio,13164,34,4.0,152.0,0.1386334638567468,1.0,0.0,17.0,17.0,,Recover original survey dates; assess count-size timing
+South Point SMR|M. franciscanus|PISCO|Bio,9414,28,25.0,152.0,0.0,0.0,0.0,14.0,0.0,2005;2007;2008;2009;2010;2011;2012;2014;2015;2016;2017;2018;2019;2021,"No count-site size donors: retain density, keep biomass provisional"

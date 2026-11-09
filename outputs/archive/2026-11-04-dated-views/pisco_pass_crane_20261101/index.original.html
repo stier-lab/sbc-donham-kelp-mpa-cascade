@@ -1,0 +1,266 @@
+<!doctype html><meta charset="utf-8"><title>PISCO pass and CRANE audit</title><style>body{font:16px system-ui;margin:28px;max-width:1300px}table{border-collapse:collapse;font-size:14px}td,th{padding:9px;border-bottom:1px solid #ddd;text-align:left;vertical-align:top}p{max-width:1000px}.scroll{overflow:auto}</style><h1>PISCO single-pass and CRANE audit</h1><p>Recommendation: keep supported CRANE2004 records; omit incomplete units from the combined bottom+upper response while retaining the measured passes. Paper and primary analysis unchanged.</p><p><a href="README.md">Full evidence and recommendation</a> · <a href="single_pass_comparison_links.csv">Exact affected records</a> · <a href="crane_comparison_links.csv">CRANE membership</a></p><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>record_group</th>
+      <th>recommendation</th>
+      <th>evidence</th>
+      <th>handling</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2004 CRANE at retained sites</td>
+      <td>Keep, with original method label</td>
+      <td>144 complete bottom+upper survey units at9 contributing stations; preserves2004 in Anacapa2003, Santa Barbara Island and South Point. Shared protocol supported by2015 program report; upstream code retains CRANE and removes the duplicate VRG SBI copy.</td>
+      <td>Apply the same site, year, depth and measurement rules; no method-based blanket exclusion.</td>
+    </tr>
+    <tr>
+      <td>Single passes with explicit field explanation</td>
+      <td>Omit from combined bottom+upper response; retain measured pass</td>
+      <td>Three Cluster Point South2006 units say bottom surveys were not conducted because visibility was under1m. They are not zero sheephead observations.</td>
+      <td>Keep MID counts only for a separately defined response; do not manufacture bottom counts.</td>
+    </tr>
+    <tr>
+      <td>Other single-pass units</td>
+      <td>Omit from combined response pending completion evidence; preserve raw data</td>
+      <td>64 units in retained paired-year windows have no recorded opposite pass and no decisive explanation. All belong to the same67-unit audit across9 comparisons, not64 missing years.</td>
+      <td>Use completed BOT+(MID or CNMD) units consistently; request survey sheets/completion flags only if reinstatement matters.</td>
+    </tr>
+    <tr>
+      <td>Recorded NO_ORG pass</td>
+      <td>Keep as observed zero</td>
+      <td>The full source contains18,092 NO_ORG rows with count0 and LOOKEDFOR=yes. Empty observed passes are explicitly represented.</td>
+      <td>Absence of a pass record is not the same as a NO_ORG record.</td>
+    </tr>
+    <tr>
+      <td>BOT+CNMD</td>
+      <td>Keep as a recognized complete upper-water category</td>
+      <td>Shallow INNER-zone protocol; retaining it avoids a code-based habitat exclusion.</td>
+      <td>Keep protocol identity; separate CAN remains outside the current response.</td>
+    </tr>
+    <tr>
+      <td>Santa Barbara Island2005</td>
+      <td>Omit this paired year from the combined response</td>
+      <td>No complete support under the existing role/station roster. Bottom records also contain explicit overlap notes for Arch Point transects.</td>
+      <td>Retain bottom data and overlap flags for a separate analysis; do not drop the MPA.</td>
+    </tr>
+    <tr>
+      <td>South Point2005 biomass</td>
+      <td>Still unavailable independently of this audit</td>
+      <td>Previously identified missing sheephead lengths; density remains available.</td>
+      <td>Do not attribute this loss to CRANE or missing passes; preserve the separate missing-length flag.</td>
+    </tr>
+  </tbody>
+</table><h2>Affected single-pass comparisons</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>MPA</th>
+      <th>single_pass_units</th>
+      <th>station_years</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Abalone Cove SMCA</td>
+      <td>5</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>Gull Island SMR</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Harris Point SMR</td>
+      <td>3</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Dume SMCA</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Point Dume SMR</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA</td>
+      <td>9</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>Santa Barbara Island SMR</td>
+      <td>28</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Scorpion SMR</td>
+      <td>12</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>South Point SMR</td>
+      <td>4</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table><h2>Separate numerical contrasts</h2><p>Incomplete-pass effects use identical years; CRANE coverage effects deliberately add2004. Values are log-ratio changes or annual slopes, as labeled.</p><div class="scroll"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>contrast</th>
+      <th>MPA_before</th>
+      <th>Resp_before</th>
+      <th>metric</th>
+      <th>estimate_before</th>
+      <th>estimate_after</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Incomplete_passes</td>
+      <td>Abalone Cove SMCA</td>
+      <td>Bio</td>
+      <td>Post_slope</td>
+      <td>0.34121</td>
+      <td>0.34227</td>
+    </tr>
+    <tr>
+      <td>Incomplete_passes</td>
+      <td>Abalone Cove SMCA</td>
+      <td>Den</td>
+      <td>Post_slope</td>
+      <td>0.17405</td>
+      <td>0.17444</td>
+    </tr>
+    <tr>
+      <td>Incomplete_passes</td>
+      <td>Gull Island SMR</td>
+      <td>Bio</td>
+      <td>Post_slope</td>
+      <td>0.04487</td>
+      <td>0.04608</td>
+    </tr>
+    <tr>
+      <td>Incomplete_passes</td>
+      <td>Gull Island SMR</td>
+      <td>Den</td>
+      <td>Post_slope</td>
+      <td>0.02678</td>
+      <td>0.02843</td>
+    </tr>
+    <tr>
+      <td>Incomplete_passes</td>
+      <td>Point Vicente SMCA</td>
+      <td>Bio</td>
+      <td>Change</td>
+      <td>0.41668</td>
+      <td>0.47140</td>
+    </tr>
+    <tr>
+      <td>Incomplete_passes</td>
+      <td>Point Vicente SMCA</td>
+      <td>Bio</td>
+      <td>Post_slope</td>
+      <td>0.12522</td>
+      <td>0.12531</td>
+    </tr>
+    <tr>
+      <td>Incomplete_passes</td>
+      <td>Point Vicente SMCA</td>
+      <td>Den</td>
+      <td>Change</td>
+      <td>0.08937</td>
+      <td>0.14965</td>
+    </tr>
+    <tr>
+      <td>Incomplete_passes</td>
+      <td>Point Vicente SMCA</td>
+      <td>Den</td>
+      <td>Post_slope</td>
+      <td>0.06976</td>
+      <td>0.06996</td>
+    </tr>
+    <tr>
+      <td>Incomplete_passes</td>
+      <td>Scorpion SMR</td>
+      <td>Bio</td>
+      <td>Post_slope</td>
+      <td>-0.00632</td>
+      <td>-0.00651</td>
+    </tr>
+    <tr>
+      <td>Incomplete_passes</td>
+      <td>Scorpion SMR</td>
+      <td>Den</td>
+      <td>Post_slope</td>
+      <td>-0.00650</td>
+      <td>-0.00655</td>
+    </tr>
+    <tr>
+      <td>Incomplete_passes</td>
+      <td>South Point SMR</td>
+      <td>Bio</td>
+      <td>Post_slope</td>
+      <td>-0.01887</td>
+      <td>-0.01881</td>
+    </tr>
+    <tr>
+      <td>Incomplete_passes</td>
+      <td>South Point SMR</td>
+      <td>Den</td>
+      <td>Post_slope</td>
+      <td>-0.00766</td>
+      <td>-0.00755</td>
+    </tr>
+    <tr>
+      <td>CRANE_coverage</td>
+      <td>Anacapa Island SMR 2003</td>
+      <td>Bio</td>
+      <td>Post_slope</td>
+      <td>-0.02181</td>
+      <td>-0.00226</td>
+    </tr>
+    <tr>
+      <td>CRANE_coverage</td>
+      <td>Anacapa Island SMR 2003</td>
+      <td>Den</td>
+      <td>Post_slope</td>
+      <td>-0.06923</td>
+      <td>-0.06028</td>
+    </tr>
+    <tr>
+      <td>CRANE_coverage</td>
+      <td>Santa Barbara Island SMR</td>
+      <td>Bio</td>
+      <td>Post_slope</td>
+      <td>0.03506</td>
+      <td>0.05015</td>
+    </tr>
+    <tr>
+      <td>CRANE_coverage</td>
+      <td>Santa Barbara Island SMR</td>
+      <td>Den</td>
+      <td>Post_slope</td>
+      <td>-0.02174</td>
+      <td>-0.00486</td>
+    </tr>
+    <tr>
+      <td>CRANE_coverage</td>
+      <td>South Point SMR</td>
+      <td>Bio</td>
+      <td>Post_slope</td>
+      <td>-0.01908</td>
+      <td>-0.01881</td>
+    </tr>
+    <tr>
+      <td>CRANE_coverage</td>
+      <td>South Point SMR</td>
+      <td>Den</td>
+      <td>Post_slope</td>
+      <td>-0.00799</td>
+      <td>-0.00755</td>
+    </tr>
+  </tbody>
+</table></div>

@@ -1,0 +1,5 @@
+site,year,month,day,zone,transects,depth_min,depth_max,season_retained
+POINT_VICENTE_W,2013,4,24,INNER,2,4.9,4.9,False
+POINT_VICENTE_W,2013,4,24,MID,2,3.5,10.0,False
+POINT_VICENTE_W,2013,4,24,OUTER,2,18.0,18.5,False
+POINT_VICENTE_W,2013,6,11,DEEP,2,21.0,22.0,True

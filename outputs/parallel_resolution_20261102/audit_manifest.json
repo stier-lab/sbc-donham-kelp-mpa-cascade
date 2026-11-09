@@ -1,0 +1,16 @@
+{
+  "scope": "Four parallel audits; recommendations and independent checks before primary/paper changes",
+  "agents": {
+    "kfm": "01a19d51-c3f1-7f62-838a-e9e5bb9fc936",
+    "support": "01a19d51-c745-73a3-bfea-42ddd965a83d",
+    "uncertainty": "01a19d51-c8aa-7dd3-bf6e-50875cf1cd56",
+    "coverage": "01a19d51-ca58-7de0-85b7-c85b90a90f25"
+  },
+  "baseline_hashes": {
+    "outputs/dataset_inventory_20261101/current_rules.csv": "c8baeffb3d3625577b37d620bebaf24d5e78897752e4ed2e679c55b892526b3d",
+    "outputs/dataset_inventory_20261101/comparison_decisions.csv": "5f67c4acc39abab6edcd8199cec4fbfe454ecdb61272b603dc68574c32d986ef",
+    "outputs/dataset_inventory_20261101/measurement_support_current.csv": "9309a8e7fd84ab11eca66376e0b651dba7a0967eee7a418fa5ddb41328a776fe",
+    "outputs/dataset_inventory_20261101/unresolved_issues.csv": "95dc0761a5587c6c1532f5e5f273111a58b65b1e2f788569debd2bb6342371cd",
+    "outputs/dataset_inventory_20261101/README.md": "3c0ef344d76f723b02bccb4046b9aeef954dceeb1ee0800457587ceb2e50c996"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "lter_source_urchin_rows": 23236,
+  "all_areas_one_m2": true,
+  "missing_source_counts": 0,
+  "cached_transect_rows": 1156,
+  "missing_biomass_rows": 72,
+  "affected_site_year_species": 30,
+  "legacy_and_explicit_missing_selection_identical": true,
+  "maximum_area_conversion_change": 0.0,
+  "multi_date_transect_taxon_years": 0,
+  "physical_sites_in_both_lter_comparisons": [],
+  "source_sha256": "7b0d27161fedf4f9740be6f99a2accbd2a52d51993f766350b1e2d3f12b42c23",
+  "scope": "LTER source areas and cached aggregation; not a fresh biomass/model refit"
+}

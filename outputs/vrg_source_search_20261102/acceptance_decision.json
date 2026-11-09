@@ -1,0 +1,22 @@
+{
+  "decision": "accept_contributor_combined_subset",
+  "authorized_by": "Adrian Stier",
+  "date": "2026-11-02",
+  "source_id": "combined_sizes_audit_only",
+  "sha256": "711e2ff55973a3592ac7aa6a00f37cfbe33c482d9684eaeecc41519fc2552741",
+  "campus": "VRG",
+  "method": "SBTL_SIZEFREQ_VRG",
+  "taxa": [
+    "MESFRA",
+    "STRPUR",
+    "PANINT"
+  ],
+  "size_unit": "mm",
+  "unit_basis": "Inherited interpretation in contributor biomass workflow; not independently verified against original VRG metadata",
+  "excluded_physical_sites": [
+    "SBI_GRAVEYARD_CANYON",
+    "SBI_SUTIL",
+    "SCAI_SHIP_ROCK"
+  ],
+  "scope": "Accept existing VRG records only; no combined-file fallback for other programs; retain production comparison exclusions"
+}

@@ -1,0 +1,648 @@
+series_id,model,term,estimate,conditional_total_variance
+Abalone Cove SMCA|M. pyrifera|Landsat|Bio,post_trend,intercept,-0.3811951596846632,0.6628061061937068
+Abalone Cove SMCA|M. pyrifera|Landsat|Bio,post_trend,recovery_slope,0.23640612044991632,0.022126810272726175
+Abalone Cove SMCA|M. pyrifera|Landsat|Bio,flat_before_after,baseline,-0.5665606100539589,0.07899288171188763
+Abalone Cove SMCA|M. pyrifera|Landsat|Bio,flat_before_after,level_change,0.13371307645349706,0.6461862636580549
+Abalone Cove SMCA|M. pyrifera|Landsat|Bio,flat_before_after,recovery_slope,0.2441656449958488,0.020117840496859354
+Abalone Cove SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,baseline,-0.40214344139252245,0.31975767389765564
+Abalone Cove SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,pre_slope,0.0118095261183839,0.001230867649206835
+Abalone Cove SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,level_change,-0.005460103445872555,0.8349738189120948
+Abalone Cove SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,slope_change,0.2285638178545813,0.022821634461375896
+Abalone Cove SMCA|S. pulcher|PISCO|Bio,post_trend,intercept,-2.627051185325647,0.6668319088796486
+Abalone Cove SMCA|S. pulcher|PISCO|Bio,post_trend,recovery_slope,0.3954188965775407,0.014457388289369273
+Abalone Cove SMCA|S. pulcher|PISCO|Den,post_trend,intercept,-1.3311839531550762,0.4895971657240071
+Abalone Cove SMCA|S. pulcher|PISCO|Den,post_trend,recovery_slope,0.2290839401201751,0.010679301337728236
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,post_trend,intercept,0.6522375161473892,0.40278686874715613
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,post_trend,recovery_slope,-0.28270909325280147,0.002721579031133229
+Anacapa Island SMR 2003|M. franciscanus|KFM|Den,post_trend,intercept,-0.16032853338093744,0.2732320138851081
+Anacapa Island SMR 2003|M. franciscanus|KFM|Den,post_trend,recovery_slope,-0.26021230192656053,0.0020222328027589003
+Anacapa Island SMR 2003|M. franciscanus|PISCO|Den,post_trend,intercept,-0.23359095538999775,0.1499444454094426
+Anacapa Island SMR 2003|M. franciscanus|PISCO|Den,post_trend,recovery_slope,-0.10246208920730038,0.0008767430278463042
+Anacapa Island SMR 2003|M. pyrifera|KFM|Bio,post_trend,intercept,0.5658851625646066,5.113515882889199
+Anacapa Island SMR 2003|M. pyrifera|KFM|Bio,post_trend,recovery_slope,-0.041277733534809645,0.037433913723364916
+Anacapa Island SMR 2003|M. pyrifera|PISCO|Bio,post_trend,intercept,1.0683517838028944,1.6015658671127133
+Anacapa Island SMR 2003|M. pyrifera|PISCO|Bio,post_trend,recovery_slope,0.03474639365444121,0.009250260025071537
+Anacapa Island SMR 2003|P. interruptus|KFM|Den,post_trend,intercept,3.4128290651475215,0.779193458662028
+Anacapa Island SMR 2003|P. interruptus|KFM|Den,post_trend,recovery_slope,-0.013906543321595466,0.005641731512401332
+Anacapa Island SMR 2003|P. interruptus|PISCO|Den,post_trend,intercept,2.9044452340761797,0.615223477080859
+Anacapa Island SMR 2003|P. interruptus|PISCO|Den,post_trend,recovery_slope,-0.07339011584331923,0.0034967525895701844
+Anacapa Island SMR 2003|S. pulcher|KFM|Den,post_trend,intercept,-1.259211910267632,0.3691609023073615
+Anacapa Island SMR 2003|S. pulcher|KFM|Den,post_trend,recovery_slope,0.11557280734219143,0.0026859235569253576
+Anacapa Island SMR 2003|S. pulcher|PISCO|Bio,post_trend,intercept,1.1541477318837308,0.13529139545042237
+Anacapa Island SMR 2003|S. pulcher|PISCO|Bio,post_trend,recovery_slope,-0.04755832771390797,0.0008471447973309689
+Anacapa Island SMR 2003|S. pulcher|PISCO|Den,post_trend,intercept,0.7802068510592174,0.13916316816227958
+Anacapa Island SMR 2003|S. pulcher|PISCO|Den,post_trend,recovery_slope,-0.06343557164735358,0.0008886846064913953
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,post_trend,intercept,0.6402088022459047,3.0911969544018407
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,post_trend,recovery_slope,-0.37931722826246417,0.021626186338818236
+Anacapa Island SMR 2003|S. purpuratus|KFM|Den,post_trend,intercept,-1.3250539067415055,0.9370809653485835
+Anacapa Island SMR 2003|S. purpuratus|KFM|Den,post_trend,recovery_slope,-0.22666993344907227,0.007138480185957438
+Anacapa Island SMR 2003|S. purpuratus|PISCO|Den,post_trend,intercept,0.5262914287538738,0.3127445148490533
+Anacapa Island SMR 2003|S. purpuratus|PISCO|Den,post_trend,recovery_slope,-0.1916875488892662,0.0018251150475854508
+Cabrillo SMR|M. pyrifera|Landsat|Bio,post_trend,intercept,-5.319042326794266,6.261742915597714
+Cabrillo SMR|M. pyrifera|Landsat|Bio,post_trend,recovery_slope,-0.021259494225121855,0.2090391083778298
+Cabrillo SMR|M. pyrifera|Landsat|Bio,flat_before_after,baseline,-5.171205109967425,0.48816912369813253
+Cabrillo SMR|M. pyrifera|Landsat|Bio,flat_before_after,level_change,-0.2689390586519931,3.8021881997492613
+Cabrillo SMR|M. pyrifera|Landsat|Bio,flat_before_after,recovery_slope,-0.0030668606069554905,0.11783604246667365
+Cabrillo SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,baseline,-6.506219517059435,1.8382892912655338
+Cabrillo SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,pre_slope,-0.09937950304316989,0.007508830491217358
+Cabrillo SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,level_change,0.8616795977699958,4.735783167008087
+Cabrillo SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,slope_change,0.1270181787756588,0.12951534219036265
+Campus Point SMCA|M. franciscanus|LTER|Bio,post_trend,intercept,-0.23680349024587333,1.607087391797091
+Campus Point SMCA|M. franciscanus|LTER|Bio,post_trend,recovery_slope,-0.29609304021019067,0.032481155862599316
+Campus Point SMCA|M. franciscanus|LTER|Den,post_trend,intercept,0.22717355008537954,0.685955435149469
+Campus Point SMCA|M. franciscanus|LTER|Den,post_trend,recovery_slope,-0.25149537128650834,0.012717701390176965
+Campus Point SMCA|M. franciscanus|LTER|Den,flat_before_after,baseline,-2.785964857126557,0.29386775083924477
+Campus Point SMCA|M. franciscanus|LTER|Den,flat_before_after,level_change,2.885562097763953,1.2466691584476228
+Campus Point SMCA|M. franciscanus|LTER|Den,flat_before_after,recovery_slope,-0.22429057052401735,0.021472839997710328
+Campus Point SMCA|M. franciscanus|LTER|Den,pretrend_sensitivity,baseline,-1.020064435209381,1.0755188852406934
+Campus Point SMCA|M. franciscanus|LTER|Den,pretrend_sensitivity,pre_slope,0.3015722257993976,0.02392470631180654
+Campus Point SMCA|M. franciscanus|LTER|Den,pretrend_sensitivity,level_change,1.4627496287147448,1.580780033325067
+Campus Point SMCA|M. franciscanus|LTER|Den,pretrend_sensitivity,slope_change,-0.5637981394547551,0.047642863249011014
+Campus Point SMCA|M. pyrifera|LTER|Bio,post_trend,intercept,0.07161223846169884,0.15466096984902464
+Campus Point SMCA|M. pyrifera|LTER|Bio,post_trend,recovery_slope,0.07953495375150327,0.0036532922166050757
+Campus Point SMCA|M. pyrifera|LTER|Bio,flat_before_after,baseline,-0.4119334718877814,0.09883369507609115
+Campus Point SMCA|M. pyrifera|LTER|Bio,flat_before_after,level_change,0.13820211965993923,0.35693540904132964
+Campus Point SMCA|M. pyrifera|LTER|Bio,flat_before_after,recovery_slope,0.1267665650295339,0.007161594032895362
+Campus Point SMCA|M. pyrifera|LTER|Bio,pretrend_sensitivity,baseline,0.2704972341391494,0.3195323208963901
+Campus Point SMCA|M. pyrifera|LTER|Bio,pretrend_sensitivity,pre_slope,0.11774684068749772,0.006829260455217294
+Campus Point SMCA|M. pyrifera|LTER|Bio,pretrend_sensitivity,level_change,-0.4609038430339423,0.509425459509442
+Campus Point SMCA|M. pyrifera|LTER|Bio,pretrend_sensitivity,slope_change,-0.0019933013109425385,0.014554093387216131
+Campus Point SMCA|M. pyrifera|Landsat|Bio,post_trend,intercept,2.650397065497482,0.3169081286139729
+Campus Point SMCA|M. pyrifera|Landsat|Bio,post_trend,recovery_slope,-0.05382026152944319,0.01057951333043084
+Campus Point SMCA|M. pyrifera|Landsat|Bio,flat_before_after,baseline,2.1024041634780586,0.03380591044397448
+Campus Point SMCA|M. pyrifera|Landsat|Bio,flat_before_after,level_change,0.531262709712256,0.2787395536936796
+Campus Point SMCA|M. pyrifera|Landsat|Bio,flat_before_after,recovery_slope,-0.05130695326969836,0.008684235824343797
+Campus Point SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,baseline,1.9656053286452861,0.13872343318057015
+Campus Point SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,pre_slope,-0.009798177455522028,0.0005339502431785944
+Campus Point SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,level_change,0.6470534016299765,0.36019881278184956
+Campus Point SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,slope_change,-0.03835280856182921,0.009832222676570284
+Campus Point SMCA|P. interruptus|LTER|Bio,post_trend,intercept,-0.6229163389723852,0.3962206533122226
+Campus Point SMCA|P. interruptus|LTER|Bio,post_trend,recovery_slope,0.17283528195829573,0.007431613999957272
+Campus Point SMCA|P. interruptus|LTER|Den,post_trend,intercept,-0.646181748967139,0.3674326038443657
+Campus Point SMCA|P. interruptus|LTER|Den,post_trend,recovery_slope,0.13976842902024114,0.006931538487483041
+Campus Point SMCA|S. pulcher|LTER|Bio,post_trend,intercept,-0.13447631489879353,3.716223147695205
+Campus Point SMCA|S. pulcher|LTER|Bio,post_trend,recovery_slope,-0.22703835113672166,0.08085543594298887
+Campus Point SMCA|S. pulcher|LTER|Bio,flat_before_after,baseline,-0.4439762025400814,1.051136352815418
+Campus Point SMCA|S. pulcher|LTER|Bio,flat_before_after,level_change,0.09506905811744959,3.7762545388200293
+Campus Point SMCA|S. pulcher|LTER|Bio,flat_before_after,recovery_slope,-0.17761246756935567,0.0682087316468929
+Campus Point SMCA|S. pulcher|LTER|Bio,pretrend_sensitivity,baseline,0.5307285248396663,4.087396497560962
+Campus Point SMCA|S. pulcher|LTER|Bio,pretrend_sensitivity,pre_slope,0.16903767914864398,0.08886158174860792
+Campus Point SMCA|S. pulcher|LTER|Bio,pretrend_sensitivity,level_change,-0.8036928519135256,6.472195252794097
+Campus Point SMCA|S. pulcher|LTER|Bio,pretrend_sensitivity,slope_change,-0.3598818603714019,0.17477506378692884
+Campus Point SMCA|S. pulcher|LTER|Den,post_trend,intercept,-0.5308233933349755,0.7691749416341606
+Campus Point SMCA|S. pulcher|LTER|Den,post_trend,recovery_slope,-0.030135812893401337,0.016323450509497975
+Campus Point SMCA|S. pulcher|LTER|Den,flat_before_after,baseline,-0.3833964528750015,0.15657843540029093
+Campus Point SMCA|S. pulcher|LTER|Den,flat_before_after,level_change,-0.09348483454155665,0.5862914941416356
+Campus Point SMCA|S. pulcher|LTER|Den,flat_before_after,recovery_slope,-0.02906058079233073,0.01075237908871128
+Campus Point SMCA|S. pulcher|LTER|Den,pretrend_sensitivity,baseline,-0.5582823090621434,0.6187897275743856
+Campus Point SMCA|S. pulcher|LTER|Den,pretrend_sensitivity,pre_slope,-0.03002131141084524,0.013471278879086019
+Campus Point SMCA|S. pulcher|LTER|Den,pretrend_sensitivity,level_change,0.07192152084941417,1.0180918396530647
+Campus Point SMCA|S. pulcher|LTER|Den,pretrend_sensitivity,slope_change,0.002344391071509966,0.026671310811557408
+Campus Point SMCA|S. pulcher|PISCO|Bio,post_trend,intercept,1.0517104222104283,0.5616534944208844
+Campus Point SMCA|S. pulcher|PISCO|Bio,post_trend,recovery_slope,-0.07982816250981978,0.012538750277635137
+Campus Point SMCA|S. pulcher|PISCO|Bio,flat_before_after,baseline,0.48973436276803034,0.46173994332892193
+Campus Point SMCA|S. pulcher|PISCO|Bio,flat_before_after,level_change,0.5356943192135457,0.952938389564437
+Campus Point SMCA|S. pulcher|PISCO|Bio,flat_before_after,recovery_slope,-0.07691156346163355,0.011947942817821576
+Campus Point SMCA|S. pulcher|PISCO|Bio,pretrend_sensitivity,baseline,1.8945762573184748,3.443023300681761
+Campus Point SMCA|S. pulcher|PISCO|Bio,pretrend_sensitivity,pre_slope,0.6010950741745464,0.5462779668099419
+Campus Point SMCA|S. pulcher|PISCO|Bio,pretrend_sensitivity,level_change,-0.838382989148224,3.813017197583939
+Campus Point SMCA|S. pulcher|PISCO|Bio,pretrend_sensitivity,slope_change,-0.6818163305638416,0.5652140197703822
+Campus Point SMCA|S. pulcher|PISCO|Den,post_trend,intercept,0.5068575268471498,0.45613169428397493
+Campus Point SMCA|S. pulcher|PISCO|Den,post_trend,recovery_slope,-0.002367130935916173,0.010319075495442922
+Campus Point SMCA|S. pulcher|PISCO|Den,flat_before_after,baseline,-0.17290784078550878,0.36942410903001366
+Campus Point SMCA|S. pulcher|PISCO|Den,flat_before_after,level_change,0.6780612765452929,0.7468070532614002
+Campus Point SMCA|S. pulcher|PISCO|Den,flat_before_after,recovery_slope,-0.0029762018997898654,0.009286086434773673
+Campus Point SMCA|S. pulcher|PISCO|Den,pretrend_sensitivity,baseline,-0.9210353466130226,2.923859232481294
+Campus Point SMCA|S. pulcher|PISCO|Den,pretrend_sensitivity,pre_slope,-0.31464143058234484,0.4545164354365589
+Campus Point SMCA|S. pulcher|PISCO|Den,pretrend_sensitivity,level_change,1.4231488081010113,3.2184608951370657
+Campus Point SMCA|S. pulcher|PISCO|Den,pretrend_sensitivity,slope_change,0.31255146098397724,0.4701094064628082
+Campus Point SMCA|S. purpuratus|LTER|Bio,post_trend,intercept,0.4264311060305229,0.17696754249862073
+Campus Point SMCA|S. purpuratus|LTER|Bio,post_trend,recovery_slope,-0.1891389064612384,0.00391487368554474
+Campus Point SMCA|S. purpuratus|LTER|Den,post_trend,intercept,1.1092733004099113,0.28503952199750404
+Campus Point SMCA|S. purpuratus|LTER|Den,post_trend,recovery_slope,-0.2468951644327307,0.005303111012463831
+Campus Point SMCA|S. purpuratus|LTER|Den,flat_before_after,baseline,-1.4984273549907503,0.38749402596771004
+Campus Point SMCA|S. purpuratus|LTER|Den,flat_before_after,level_change,2.356087340067146,1.4328413978462946
+Campus Point SMCA|S. purpuratus|LTER|Den,flat_before_after,recovery_slope,-0.21850162810770266,0.024882929022658252
+Campus Point SMCA|S. purpuratus|LTER|Den,pretrend_sensitivity,baseline,0.07549791938783557,1.3619604743579512
+Campus Point SMCA|S. purpuratus|LTER|Den,pretrend_sensitivity,pre_slope,0.26902796177502997,0.029328631995136172
+Campus Point SMCA|S. purpuratus|LTER|Den,pretrend_sensitivity,level_change,0.9759317059085295,2.0897374438569507
+Campus Point SMCA|S. purpuratus|LTER|Den,pretrend_sensitivity,slope_change,-0.5064476464870622,0.056514170316484216
+Carrington Pt SMR|M. pyrifera|Landsat|Bio,post_trend,intercept,-1.1893668999066547,1.4640769509070304
+Carrington Pt SMR|M. pyrifera|Landsat|Bio,post_trend,recovery_slope,0.35591595808846843,0.012870279380571791
+Carrington Pt SMR|M. pyrifera|Landsat|Bio,flat_before_after,baseline,0.7605318837859678,0.45136383160091265
+Carrington Pt SMR|M. pyrifera|Landsat|Bio,flat_before_after,level_change,-1.7665912566655857,1.8139888945002542
+Carrington Pt SMR|M. pyrifera|Landsat|Bio,flat_before_after,recovery_slope,0.3414133243604799,0.012907426742390626
+Carrington Pt SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,baseline,0.9128498452647076,1.856729299249059
+Carrington Pt SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,pre_slope,0.016124819349900288,0.015599207969631214
+Carrington Pt SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,level_change,-1.9047802037430337,3.0136844830601284
+Carrington Pt SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,slope_change,0.3241706680939527,0.031128820998484144
+Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio,post_trend,intercept,0.43601633759579217,0.6520572034214522
+Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio,post_trend,recovery_slope,-0.138025027733789,0.019774196601043726
+Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio,flat_before_after,baseline,0.08082950035843851,0.07535188673877788
+Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio,flat_before_after,level_change,0.3199418371378566,0.48269625229669505
+Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio,flat_before_after,recovery_slope,-0.13298555613875435,0.012642033858057547
+Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,baseline,0.11773722155583216,0.22308512792902807
+Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,pre_slope,0.0036862223767971936,0.0014205520612109571
+Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,level_change,0.28501709154788246,0.6443362375321415
+Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,slope_change,-0.1369553123279693,0.015183274055265037
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio,post_trend,intercept,1.4756474370409416,0.24458610462064534
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio,post_trend,recovery_slope,-0.13947566570168718,0.004033471389370724
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Den,post_trend,intercept,0.4930168548553052,0.029015290135229674
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Den,post_trend,recovery_slope,-0.06536443805771035,0.0005154726793000863
+Gull Island SMR|M. franciscanus|PISCO|Den,post_trend,intercept,0.11550755201611063,0.07638801979217319
+Gull Island SMR|M. franciscanus|PISCO|Den,post_trend,recovery_slope,-0.09500378779535468,0.0005074920318354141
+Gull Island SMR|M. pyrifera|Landsat|Bio,post_trend,intercept,1.8336915305469308,0.22822182634947633
+Gull Island SMR|M. pyrifera|Landsat|Bio,post_trend,recovery_slope,0.027975613523565923,0.001992939758350821
+Gull Island SMR|M. pyrifera|Landsat|Bio,flat_before_after,baseline,0.9688316203544148,0.10958833545446227
+Gull Island SMR|M. pyrifera|Landsat|Bio,flat_before_after,level_change,0.8218029608156785,0.4173579450606979
+Gull Island SMR|M. pyrifera|Landsat|Bio,flat_before_after,recovery_slope,0.031359554353623365,0.0029116038101616787
+Gull Island SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,baseline,1.4017084495076748,0.4141709678540343
+Gull Island SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,pre_slope,0.04679242874339856,0.0035424848849029238
+Gull Island SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,level_change,0.42923826804199905,0.6720724708647755
+Gull Island SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,slope_change,-0.018601094299192544,0.0069875824426894285
+Gull Island SMR|M. pyrifera|PISCO|Bio,post_trend,intercept,-0.9349875886164849,0.4193596293670304
+Gull Island SMR|M. pyrifera|PISCO|Bio,post_trend,recovery_slope,0.1754479074430381,0.0029056149156252375
+Gull Island SMR|P. interruptus|PISCO|Den,post_trend,intercept,1.6382416536197484,0.4867133107363519
+Gull Island SMR|P. interruptus|PISCO|Den,post_trend,recovery_slope,0.056038115917888875,0.003310138752686092
+Gull Island SMR|S. pulcher|PISCO|Bio,post_trend,intercept,0.4516941156343255,0.04941063493622071
+Gull Island SMR|S. pulcher|PISCO|Bio,post_trend,recovery_slope,0.05931588919429104,0.0003470447718169634
+Gull Island SMR|S. pulcher|PISCO|Den,post_trend,intercept,0.9429822254567397,0.0205147378418526
+Gull Island SMR|S. pulcher|PISCO|Den,post_trend,recovery_slope,0.028579566340110107,0.00014463285982609637
+Gull Island SMR|S. purpuratus|PISCO|Den,post_trend,intercept,0.7241600078515833,0.24508496860115764
+Gull Island SMR|S. purpuratus|PISCO|Den,post_trend,recovery_slope,-0.15379182864241048,0.0016380287346518538
+Harris Point SMR|M. franciscanus|KFM|Bio,post_trend,intercept,3.991812592854305,0.5413566477227143
+Harris Point SMR|M. franciscanus|KFM|Bio,post_trend,recovery_slope,-0.23933032131559934,0.0036989008291840966
+Harris Point SMR|M. franciscanus|KFM|Den,post_trend,intercept,2.3236162018408155,0.596459918276954
+Harris Point SMR|M. franciscanus|KFM|Den,post_trend,recovery_slope,-0.05569465755804209,0.0046514918452415155
+Harris Point SMR|M. franciscanus|KFM|Den,flat_before_after,baseline,2.3269041487487265,0.10060180644046123
+Harris Point SMR|M. franciscanus|KFM|Den,flat_before_after,level_change,0.11268108419013112,0.4772601169888752
+Harris Point SMR|M. franciscanus|KFM|Den,flat_before_after,recovery_slope,-0.06583791079409118,0.003007505504882946
+Harris Point SMR|M. franciscanus|KFM|Den,pretrend_sensitivity,baseline,2.494389681017613,0.4205330555754959
+Harris Point SMR|M. franciscanus|KFM|Den,pretrend_sensitivity,pre_slope,0.01535789399968146,0.0026451188671179305
+Harris Point SMR|M. franciscanus|KFM|Den,pretrend_sensitivity,level_change,-0.04627227020559799,0.7627376696846218
+Harris Point SMR|M. franciscanus|KFM|Den,pretrend_sensitivity,slope_change,-0.08171550704302444,0.00605286182646229
+Harris Point SMR|M. franciscanus|PISCO|Den,post_trend,intercept,0.7712438946464579,0.06760805968735505
+Harris Point SMR|M. franciscanus|PISCO|Den,post_trend,recovery_slope,-0.023035620960451142,0.00045065212959631844
+Harris Point SMR|M. pyrifera|KFM|Bio,post_trend,intercept,-2.102359524104445,1.4965766883110916
+Harris Point SMR|M. pyrifera|KFM|Bio,post_trend,recovery_slope,-0.03345545718464893,0.012155522854964082
+Harris Point SMR|M. pyrifera|KFM|Bio,flat_before_after,baseline,-4.521188370646206,1.0892058868172525
+Harris Point SMR|M. pyrifera|KFM|Bio,flat_before_after,level_change,2.4034579675672187,2.288254859145607
+Harris Point SMR|M. pyrifera|KFM|Bio,flat_before_after,recovery_slope,-0.032256999190888425,0.010229563758224744
+Harris Point SMR|M. pyrifera|KFM|Bio,pretrend_sensitivity,baseline,-3.073120416043828,7.157717805562143
+Harris Point SMR|M. pyrifera|KFM|Bio,pretrend_sensitivity,pre_slope,0.32150417542075793,0.2975469432583088
+Harris Point SMR|M. pyrifera|KFM|Bio,pretrend_sensitivity,level_change,0.9781755407218071,8.20912141069695
+Harris Point SMR|M. pyrifera|KFM|Bio,pretrend_sensitivity,slope_change,-0.35549656408818375,0.31122102858662654
+Harris Point SMR|M. pyrifera|Landsat|Bio,post_trend,intercept,-0.7557163379100071,0.4533785828032469
+Harris Point SMR|M. pyrifera|Landsat|Bio,post_trend,recovery_slope,-0.08929430319767928,0.00398552072162992
+Harris Point SMR|M. pyrifera|Landsat|Bio,flat_before_after,baseline,-3.1470117973423024,0.21793551845953119
+Harris Point SMR|M. pyrifera|Landsat|Bio,flat_before_after,level_change,2.5577392619652484,0.8592616017793138
+Harris Point SMR|M. pyrifera|Landsat|Bio,flat_before_after,recovery_slope,-0.10246273956106644,0.006084910792575202
+Harris Point SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,baseline,-4.648888767140672,0.7831389874405282
+Harris Point SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,pre_slope,-0.15963013122328784,0.006582145706381618
+Harris Point SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,level_change,3.9203682152587245,1.2700966219696368
+Harris Point SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,slope_change,0.06818419502810502,0.013119863989883537
+Harris Point SMR|M. pyrifera|PISCO|Bio,post_trend,intercept,-0.7952475740961684,0.5267349186813814
+Harris Point SMR|M. pyrifera|PISCO|Bio,post_trend,recovery_slope,0.03186399467820007,0.0035790157644060754
+Harris Point SMR|P. interruptus|KFM|Den,post_trend,intercept,-3.6210659479214216e-10,1.975321773952218e-10
+Harris Point SMR|P. interruptus|KFM|Den,post_trend,recovery_slope,6.559058362258525e-11,1.9146899255302815e-12
+Harris Point SMR|P. interruptus|KFM|Den,flat_before_after,baseline,-1.397228121318475e-26,5e-11
+Harris Point SMR|P. interruptus|KFM|Den,flat_before_after,level_change,-3.6210659479214227e-10,2.475321773952218e-10
+Harris Point SMR|P. interruptus|KFM|Den,flat_before_after,recovery_slope,6.559058362258527e-11,1.9146899255302815e-12
+Harris Point SMR|P. interruptus|KFM|Den,pretrend_sensitivity,baseline,-2.0679515313825692e-25,2.157894736842104e-10
+Harris Point SMR|P. interruptus|KFM|Den,pretrend_sensitivity,pre_slope,3.2311742677852644e-26,1.5037593984962393e-12
+Harris Point SMR|P. interruptus|KFM|Den,pretrend_sensitivity,level_change,-3.621065947921429e-10,4.1332165107943253e-10
+Harris Point SMR|P. interruptus|KFM|Den,pretrend_sensitivity,slope_change,6.559058362258528e-11,3.418449324026521e-12
+Harris Point SMR|P. interruptus|PISCO|Den,post_trend,intercept,-0.22729824013118693,0.1492993988131724
+Harris Point SMR|P. interruptus|PISCO|Den,post_trend,recovery_slope,0.05692497366624215,0.0010580510522826946
+Harris Point SMR|S. pulcher|KFM|Den,post_trend,intercept,1.967450918739539,0.6999977749995984
+Harris Point SMR|S. pulcher|KFM|Den,post_trend,recovery_slope,-0.21986879441001025,0.0058034926187894
+Harris Point SMR|S. pulcher|KFM|Den,flat_before_after,baseline,-0.12863783743593243,0.24339355870926282
+Harris Point SMR|S. pulcher|KFM|Den,flat_before_after,level_change,2.096567827841583,0.9833610579611961
+Harris Point SMR|S. pulcher|KFM|Den,flat_before_after,recovery_slope,-0.21932557844803663,0.00659010453573404
+Harris Point SMR|S. pulcher|KFM|Den,pretrend_sensitivity,baseline,-1.5248021893785828,0.9187067547369145
+Harris Point SMR|S. pulcher|KFM|Den,pretrend_sensitivity,pre_slope,-0.1471917938116949,0.007671720994218289
+Harris Point SMR|S. pulcher|KFM|Den,pretrend_sensitivity,level_change,3.3648125192838068,1.494564570755381
+Harris Point SMR|S. pulcher|KFM|Den,pretrend_sensitivity,slope_change,-0.06259092943610928,0.014956345544233049
+Harris Point SMR|S. pulcher|PISCO|Bio,post_trend,intercept,3.7950670880650472,3.2515581385082695
+Harris Point SMR|S. pulcher|PISCO|Bio,post_trend,recovery_slope,-0.12483647637709783,0.022188538908785308
+Harris Point SMR|S. pulcher|PISCO|Den,post_trend,intercept,2.072132025932318,0.5811633689811109
+Harris Point SMR|S. pulcher|PISCO|Den,post_trend,recovery_slope,-0.05678096091927576,0.003963020643213684
+Harris Point SMR|S. purpuratus|KFM|Bio,post_trend,intercept,0.8862975779704603,1.2209313313198455
+Harris Point SMR|S. purpuratus|KFM|Bio,post_trend,recovery_slope,-0.04302419030579821,0.00869056816265854
+Harris Point SMR|S. purpuratus|KFM|Den,post_trend,intercept,0.36999187216625584,0.9781674509120991
+Harris Point SMR|S. purpuratus|KFM|Den,post_trend,recovery_slope,0.07887620448038507,0.0077214163480461675
+Harris Point SMR|S. purpuratus|KFM|Den,flat_before_after,baseline,2.49797664924367,0.23959166775063268
+Harris Point SMR|S. purpuratus|KFM|Den,flat_before_after,level_change,-2.012689574126228,1.0817517788349098
+Harris Point SMR|S. purpuratus|KFM|Den,flat_before_after,recovery_slope,0.07011386140103865,0.006998491293356379
+Harris Point SMR|S. purpuratus|KFM|Den,pretrend_sensitivity,baseline,0.17457409744343444,0.7750383425339397
+Harris Point SMR|S. purpuratus|KFM|Den,pretrend_sensitivity,pre_slope,-0.21290516337276433,0.004877327312363831
+Harris Point SMR|S. purpuratus|KFM|Den,pretrend_sensitivity,level_change,0.13678259970273476,1.3650778118638365
+Harris Point SMR|S. purpuratus|KFM|Den,pretrend_sensitivity,slope_change,0.29572851281307955,0.011042825368802921
+Harris Point SMR|S. purpuratus|PISCO|Den,post_trend,intercept,-0.46393419468632424,0.207707817725885
+Harris Point SMR|S. purpuratus|PISCO|Den,post_trend,recovery_slope,0.019604800874479182,0.0013320970535891017
+Judith Rk SMR|M. pyrifera|Landsat|Bio,post_trend,intercept,-1.2228841716190615,0.1414375391883621
+Judith Rk SMR|M. pyrifera|Landsat|Bio,post_trend,recovery_slope,0.03624074452162285,0.0012433367270752564
+Judith Rk SMR|M. pyrifera|Landsat|Bio,flat_before_after,baseline,-0.22624450126128606,0.05275744209773698
+Judith Rk SMR|M. pyrifera|Landsat|Bio,flat_before_after,level_change,-1.0339958021320281,0.2120272103956847
+Judith Rk SMR|M. pyrifera|Landsat|Bio,flat_before_after,recovery_slope,0.039196227610693773,0.0015086783021178165
+Judith Rk SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,baseline,0.23902893689582783,0.2083819541989481
+Judith Rk SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,pre_slope,0.049255190035265184,0.0017507094017441252
+Judith Rk SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,level_change,-1.456110475354412,0.3382277978291962
+Judith Rk SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,slope_change,-0.013473529028249387,0.003493608116910788
+Long Point SMR|S. pulcher|PISCO|Bio,post_trend,intercept,1.106290665827994,0.7781166780822336
+Long Point SMR|S. pulcher|PISCO|Bio,post_trend,recovery_slope,0.08057703777321945,0.01397616581175803
+Long Point SMR|S. pulcher|PISCO|Den,post_trend,intercept,0.6762530034853804,0.3124190608236767
+Long Point SMR|S. pulcher|PISCO|Den,post_trend,recovery_slope,0.006303610248167335,0.005629457114367648
+Matlahuayl SMR|M. franciscanus|PISCO|Bio,post_trend,intercept,5.448269315469823,0.5253728540030032
+Matlahuayl SMR|M. franciscanus|PISCO|Bio,post_trend,recovery_slope,-0.5895705070437819,0.009214932529082481
+Matlahuayl SMR|M. franciscanus|PISCO|Den,post_trend,intercept,4.651679159064999,1.1352756506127466
+Matlahuayl SMR|M. franciscanus|PISCO|Den,post_trend,recovery_slope,-0.4216097391175407,0.017897180867192008
+Matlahuayl SMR|M. pyrifera|PISCO|Bio,post_trend,intercept,3.877484571018213,0.8336225533263206
+Matlahuayl SMR|M. pyrifera|PISCO|Bio,post_trend,recovery_slope,-0.08828849981237186,0.01409628848075477
+Matlahuayl SMR|P. interruptus|PISCO|Bio,post_trend,intercept,2.6215878717207857,3.676290352661454
+Matlahuayl SMR|P. interruptus|PISCO|Bio,post_trend,recovery_slope,-0.19265992656202247,0.05768909066249368
+Matlahuayl SMR|P. interruptus|PISCO|Den,post_trend,intercept,1.15247785414278,2.453698797123761
+Matlahuayl SMR|P. interruptus|PISCO|Den,post_trend,recovery_slope,-0.07518265472021743,0.03901379187683388
+Matlahuayl SMR|S. pulcher|PISCO|Bio,post_trend,intercept,2.0321149250422517,1.7017161922719288
+Matlahuayl SMR|S. pulcher|PISCO|Bio,post_trend,recovery_slope,-0.18939896099437104,0.02654263514825044
+Matlahuayl SMR|S. pulcher|PISCO|Den,post_trend,intercept,1.5721606176576048,0.9254830080183992
+Matlahuayl SMR|S. pulcher|PISCO|Den,post_trend,recovery_slope,-0.14447155101578352,0.014494064146273336
+Matlahuayl SMR|S. purpuratus|PISCO|Bio,post_trend,intercept,-8.004844220760795e-09,2.0357142850697176e-08
+Matlahuayl SMR|S. purpuratus|PISCO|Bio,post_trend,recovery_slope,6.670703517300652e-10,2.1428571424095196e-10
+Matlahuayl SMR|S. purpuratus|PISCO|Den,post_trend,intercept,7.791032996859847e-08,2.0357141931427697e-08
+Matlahuayl SMR|S. purpuratus|PISCO|Den,post_trend,recovery_slope,-8.123413220589325e-09,2.142857048715658e-10
+Naples SMCA|M. franciscanus|LTER|Bio,post_trend,intercept,0.5261541458837979,0.22330637193276914
+Naples SMCA|M. franciscanus|LTER|Bio,post_trend,recovery_slope,0.10930004922634443,0.0034123304729725377
+Naples SMCA|M. franciscanus|LTER|Den,post_trend,intercept,0.963075311158609,0.3365927028453266
+Naples SMCA|M. franciscanus|LTER|Den,post_trend,recovery_slope,0.030571274215198452,0.007552456147946053
+Naples SMCA|M. franciscanus|LTER|Den,flat_before_after,baseline,2.203172991382275,0.10602863090779133
+Naples SMCA|M. franciscanus|LTER|Den,flat_before_after,level_change,-1.150725668114187,0.3429524349781429
+Naples SMCA|M. franciscanus|LTER|Den,flat_before_after,recovery_slope,0.05624035257312421,0.0062988242882094725
+Naples SMCA|M. franciscanus|LTER|Den,pretrend_sensitivity,baseline,1.6798289620628388,0.31939072675327956
+Naples SMCA|M. franciscanus|LTER|Den,pretrend_sensitivity,pre_slope,-0.09221011064248352,0.006531784729864313
+Naples SMCA|M. franciscanus|LTER|Den,pretrend_sensitivity,level_change,-0.6505795518718629,0.540450332446488
+Naples SMCA|M. franciscanus|LTER|Den,pretrend_sensitivity,slope_change,0.14944346797521058,0.01314254977939075
+Naples SMCA|M. franciscanus|PISCO|Den,post_trend,intercept,0.9718907495500515,0.2747541621161934
+Naples SMCA|M. franciscanus|PISCO|Den,post_trend,recovery_slope,0.08572267722058302,0.0062582227294959054
+Naples SMCA|M. pyrifera|LTER|Bio,post_trend,intercept,-1.0389511551773216,0.5978712234618739
+Naples SMCA|M. pyrifera|LTER|Bio,post_trend,recovery_slope,0.30199580460445796,0.014604385743478103
+Naples SMCA|M. pyrifera|LTER|Bio,flat_before_after,baseline,-1.3896200380996675,0.36349698088096954
+Naples SMCA|M. pyrifera|LTER|Bio,flat_before_after,level_change,0.3434372733367459,1.2074305406017454
+Naples SMCA|M. pyrifera|LTER|Bio,flat_before_after,recovery_slope,0.3111535502850763,0.02377675100678453
+Naples SMCA|M. pyrifera|LTER|Bio,pretrend_sensitivity,baseline,0.1500037276531625,1.4413755035903624
+Naples SMCA|M. pyrifera|LTER|Bio,pretrend_sensitivity,pre_slope,0.2584029728623227,0.030750979832882254
+Naples SMCA|M. pyrifera|LTER|Bio,pretrend_sensitivity,level_change,-1.022723644626498,2.0226028835356367
+Naples SMCA|M. pyrifera|LTER|Bio,pretrend_sensitivity,slope_change,0.032608684865952364,0.05853365068913994
+Naples SMCA|M. pyrifera|Landsat|Bio,post_trend,intercept,2.51560067065292,0.15452196526938528
+Naples SMCA|M. pyrifera|Landsat|Bio,post_trend,recovery_slope,-0.05916167154329499,0.005158489303114033
+Naples SMCA|M. pyrifera|Landsat|Bio,flat_before_after,baseline,2.2417180006680972,0.08214779429290295
+Naples SMCA|M. pyrifera|Landsat|Bio,flat_before_after,level_change,0.037527985785899,0.6773324312576917
+Naples SMCA|M. pyrifera|Landsat|Bio,flat_before_after,recovery_slope,-0.023655075552247884,0.0211025471149717
+Naples SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,baseline,2.8930241828894916,0.3217993568665684
+Naples SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,pre_slope,0.0466496191948077,0.001238614420888283
+Naples SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,level_change,-0.5137573637371209,0.8355599599230719
+Naples SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,slope_change,-0.0853304147195102,0.0228079918509954
+Naples SMCA|M. pyrifera|PISCO|Bio,post_trend,intercept,0.08180738949570565,1.5559568200062863
+Naples SMCA|M. pyrifera|PISCO|Bio,post_trend,recovery_slope,0.056057393245784154,0.0357619309853655
+Naples SMCA|P. interruptus|LTER|Bio,post_trend,intercept,-0.10846815297154944,0.6890333596544498
+Naples SMCA|P. interruptus|LTER|Bio,post_trend,recovery_slope,0.13661368040262656,0.013341791774745307
+Naples SMCA|P. interruptus|LTER|Den,post_trend,intercept,-0.16522510334583174,0.6748674132000194
+Naples SMCA|P. interruptus|LTER|Den,post_trend,recovery_slope,0.09024290982664807,0.013381225683217122
+Naples SMCA|P. interruptus|PISCO|Den,post_trend,intercept,1.8849873009595108,0.8341222425338459
+Naples SMCA|P. interruptus|PISCO|Den,post_trend,recovery_slope,-0.09105538109816108,0.01880547640676997
+Naples SMCA|S. pulcher|LTER|Bio,post_trend,intercept,6.33530019818341,2.1779686053375324
+Naples SMCA|S. pulcher|LTER|Bio,post_trend,recovery_slope,-0.43875591602619735,0.05484993803322259
+Naples SMCA|S. pulcher|LTER|Bio,flat_before_after,baseline,5.316025978236248,0.828439212305572
+Naples SMCA|S. pulcher|LTER|Bio,flat_before_after,level_change,0.998095966162075,2.795982247502669
+Naples SMCA|S. pulcher|LTER|Bio,flat_before_after,recovery_slope,-0.4490832918273935,0.05820685813584961
+Naples SMCA|S. pulcher|LTER|Bio,pretrend_sensitivity,baseline,7.352107042706667,2.8580440163539516
+Naples SMCA|S. pulcher|LTER|Bio,pretrend_sensitivity,pre_slope,0.34458929604377486,0.060454993167279744
+Naples SMCA|S. pulcher|LTER|Bio,pretrend_sensitivity,level_change,-0.7400227390508363,4.1937044059179
+Naples SMCA|S. pulcher|LTER|Bio,pretrend_sensitivity,slope_change,-0.8316847256772246,0.12795339672026476
+Naples SMCA|S. pulcher|LTER|Den,post_trend,intercept,2.6433872423024707,0.36759442010740395
+Naples SMCA|S. pulcher|LTER|Den,post_trend,recovery_slope,-0.08914532353529203,0.009925084911395272
+Naples SMCA|S. pulcher|LTER|Den,flat_before_after,baseline,2.556077233561225,0.10071451757213357
+Naples SMCA|S. pulcher|LTER|Den,flat_before_after,level_change,0.19533484388378808,0.34316725413247845
+Naples SMCA|S. pulcher|LTER|Den,flat_before_after,recovery_slope,-0.10230749561715591,0.00822081693823823
+Naples SMCA|S. pulcher|LTER|Den,pretrend_sensitivity,baseline,2.61695823568766,0.41903221238279237
+Naples SMCA|S. pulcher|LTER|Den,pretrend_sensitivity,pre_slope,0.01069676357523397,0.00845244891376668
+Naples SMCA|S. pulcher|LTER|Den,pretrend_sensitivity,level_change,0.13859355359812398,0.6004748886017344
+Naples SMCA|S. pulcher|LTER|Den,pretrend_sensitivity,slope_change,-0.11428313649496324,0.01909618306330874
+Naples SMCA|S. pulcher|PISCO|Bio,post_trend,intercept,3.3223950798142976,0.13357743445383186
+Naples SMCA|S. pulcher|PISCO|Bio,post_trend,recovery_slope,-0.14393766508743056,0.0036083638263152027
+Naples SMCA|S. pulcher|PISCO|Bio,flat_before_after,baseline,2.741264971492684,0.1818156132127746
+Naples SMCA|S. pulcher|PISCO|Bio,flat_before_after,level_change,0.656148508841695,0.3056162802771582
+Naples SMCA|S. pulcher|PISCO|Bio,flat_before_after,recovery_slope,-0.15294400219797355,0.004184943099280562
+Naples SMCA|S. pulcher|PISCO|Bio,pretrend_sensitivity,baseline,1.0279561596021907,0.9760701973692689
+Naples SMCA|S. pulcher|PISCO|Bio,pretrend_sensitivity,pre_slope,-0.8133446087640479,0.18076707962977462
+Naples SMCA|S. pulcher|PISCO|Bio,pretrend_sensitivity,level_change,2.3078074338905736,1.021271535024816
+Naples SMCA|S. pulcher|PISCO|Bio,pretrend_sensitivity,slope_change,0.6676753512551095,0.18830780136772124
+Naples SMCA|S. pulcher|PISCO|Den,post_trend,intercept,2.4181239549137787,0.2182446801566308
+Naples SMCA|S. pulcher|PISCO|Den,post_trend,recovery_slope,-0.09066047613245298,0.005403738025384081
+Naples SMCA|S. pulcher|PISCO|Den,flat_before_after,baseline,1.8392367489042232,0.33789813124338514
+Naples SMCA|S. pulcher|PISCO|Den,flat_before_after,level_change,0.7062812738382309,0.5558846364769677
+Naples SMCA|S. pulcher|PISCO|Den,flat_before_after,recovery_slope,-0.10613826458116327,0.007090259862268835
+Naples SMCA|S. pulcher|PISCO|Den,pretrend_sensitivity,baseline,-0.7682327327898903,1.4366950303854176
+Naples SMCA|S. pulcher|PISCO|Den,pretrend_sensitivity,pre_slope,-1.2255618695430215,0.25012362520404197
+Naples SMCA|S. pulcher|PISCO|Den,pretrend_sensitivity,level_change,3.189224324554111,1.4862629854203397
+Naples SMCA|S. pulcher|PISCO|Den,pretrend_sensitivity,slope_change,1.1343216501448943,0.26164387847824044
+Naples SMCA|S. purpuratus|LTER|Bio,post_trend,intercept,0.045201366237549556,0.2811037954031183
+Naples SMCA|S. purpuratus|LTER|Bio,post_trend,recovery_slope,0.02288668472298598,0.004445846752553318
+Naples SMCA|S. purpuratus|LTER|Den,post_trend,intercept,0.23353067287332863,0.22210519406906948
+Naples SMCA|S. purpuratus|LTER|Den,post_trend,recovery_slope,0.05635902437131829,0.0033887805938033534
+Naples SMCA|S. purpuratus|LTER|Den,flat_before_after,baseline,2.159396807927104,0.22671031445490467
+Naples SMCA|S. purpuratus|LTER|Den,flat_before_after,level_change,-1.7475226056001314,0.8307692809592198
+Naples SMCA|S. purpuratus|LTER|Den,flat_before_after,recovery_slope,0.023268522685923637,0.015425658355976927
+Naples SMCA|S. purpuratus|LTER|Den,pretrend_sensitivity,baseline,0.9107017803276678,0.756232396049748
+Naples SMCA|S. purpuratus|LTER|Den,pretrend_sensitivity,pre_slope,-0.21047669615150666,0.01577181085240888
+Naples SMCA|S. purpuratus|LTER|Den,pretrend_sensitivity,level_change,-0.6329901375923832,1.2052961826527657
+Naples SMCA|S. purpuratus|LTER|Den,pretrend_sensitivity,slope_change,0.24613578088090016,0.03137569904672631
+Naples SMCA|S. purpuratus|PISCO|Den,post_trend,intercept,-1.2542770375492962,0.1955656634182612
+Naples SMCA|S. purpuratus|PISCO|Den,post_trend,recovery_slope,0.0977150392943951,0.004437964502390806
+Point Dume SMCA|M. franciscanus|PISCO|Bio,post_trend,intercept,0.4453674225690083,1.8445328024613559
+Point Dume SMCA|M. franciscanus|PISCO|Bio,post_trend,recovery_slope,-0.058613890289864023,0.022189490468081788
+Point Dume SMCA|M. franciscanus|PISCO|Den,post_trend,intercept,-0.20945230429837514,0.1268985152048337
+Point Dume SMCA|M. franciscanus|PISCO|Den,post_trend,recovery_slope,-0.057541928184922014,0.002156536006633037
+Point Dume SMCA|M. franciscanus|PISCO|Den,flat_before_after,baseline,-1.8316545893267246,0.7721016798666237
+Point Dume SMCA|M. franciscanus|PISCO|Den,flat_before_after,level_change,1.3480861964736532,1.6924063935267308
+Point Dume SMCA|M. franciscanus|PISCO|Den,flat_before_after,recovery_slope,-0.0414037589840589,0.021913439307283747
+Point Dume SMCA|M. franciscanus|PISCO|Den,pretrend_sensitivity,baseline,1.5433710238229192,1.0683821368656308
+Point Dume SMCA|M. franciscanus|PISCO|Den,pretrend_sensitivity,pre_slope,1.3637640454329305,0.12951779199934382
+Point Dume SMCA|M. franciscanus|PISCO|Den,pretrend_sensitivity,level_change,-1.6550708517464825,1.2254280895342113
+Point Dume SMCA|M. franciscanus|PISCO|Den,pretrend_sensitivity,slope_change,-1.4411954012644297,0.14442378043357254
+Point Dume SMCA|M. pyrifera|Landsat|Bio,post_trend,intercept,0.14251040863800815,0.25394430985697686
+Point Dume SMCA|M. pyrifera|Landsat|Bio,post_trend,recovery_slope,-0.014146979981962581,0.008477558537589356
+Point Dume SMCA|M. pyrifera|Landsat|Bio,flat_before_after,baseline,-0.06702129510388932,0.042946786746999026
+Point Dume SMCA|M. pyrifera|Landsat|Bio,flat_before_after,level_change,0.338817632948411,0.3541087345982833
+Point Dume SMCA|M. pyrifera|Landsat|Bio,flat_before_after,recovery_slope,-0.03356907552848626,0.011032391054595511
+Point Dume SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,baseline,-0.35220396985014063,0.173908675193243
+Point Dume SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,pre_slope,-0.020426127589337387,0.000669379190531068
+Point Dume SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,level_change,0.5802049172112588,0.4515581606897298
+Point Dume SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,slope_change,-0.006563745829672302,0.012326027266002728
+Point Dume SMCA|M. pyrifera|PISCO|Bio,post_trend,intercept,-0.18293665259855518,0.24046164210868334
+Point Dume SMCA|M. pyrifera|PISCO|Bio,post_trend,recovery_slope,-0.02137469839261273,0.004191344572721583
+Point Dume SMCA|M. pyrifera|PISCO|Bio,flat_before_after,baseline,0.3238506360096095,0.12393077327399736
+Point Dume SMCA|M. pyrifera|PISCO|Bio,flat_before_after,level_change,-0.5340351521556698,0.25102969065838016
+Point Dume SMCA|M. pyrifera|PISCO|Bio,flat_before_after,recovery_slope,-0.01660320759783554,0.0030202542334202783
+Point Dume SMCA|M. pyrifera|PISCO|Bio,pretrend_sensitivity,baseline,0.581317943972022,0.5568713095778002
+Point Dume SMCA|M. pyrifera|PISCO|Bio,pretrend_sensitivity,pre_slope,0.10907798577993738,0.07382756027970959
+Point Dume SMCA|M. pyrifera|PISCO|Bio,pretrend_sensitivity,level_change,-0.7697878988268412,0.6201279256571921
+Point Dume SMCA|M. pyrifera|PISCO|Bio,pretrend_sensitivity,slope_change,-0.12889098979794905,0.08128314112884859
+Point Dume SMCA|P. interruptus|PISCO|Den,post_trend,intercept,1.006837524474083,4.200125309453297
+Point Dume SMCA|P. interruptus|PISCO|Den,post_trend,recovery_slope,-0.06932728311241895,0.0747959420398957
+Point Dume SMCA|P. interruptus|PISCO|Den,flat_before_after,baseline,0.47888860663671107,1.809696828606398
+Point Dume SMCA|P. interruptus|PISCO|Den,flat_before_after,level_change,0.35489921767415344,3.881633411706255
+Point Dume SMCA|P. interruptus|PISCO|Den,flat_before_after,recovery_slope,-0.046363089374145516,0.050576524517212854
+Point Dume SMCA|P. interruptus|PISCO|Den,pretrend_sensitivity,baseline,1.5389474690444773,8.703987366130766
+Point Dume SMCA|P. interruptus|PISCO|Den,pretrend_sensitivity,pre_slope,0.4319697334808812,1.0953090535813172
+Point Dume SMCA|P. interruptus|PISCO|Den,pretrend_sensitivity,level_change,-0.584807708301069,9.679503519703902
+Point Dume SMCA|P. interruptus|PISCO|Den,pretrend_sensitivity,slope_change,-0.49345807971883016,1.2260189303382087
+Point Dume SMCA|S. pulcher|PISCO|Bio,post_trend,intercept,9.702135089372579,37.57384166176584
+Point Dume SMCA|S. pulcher|PISCO|Bio,post_trend,recovery_slope,-1.1463730790956284,0.44912525308418993
+Point Dume SMCA|S. pulcher|PISCO|Den,post_trend,intercept,7.603849301611367,25.989065640622425
+Point Dume SMCA|S. pulcher|PISCO|Den,post_trend,recovery_slope,-0.8946445898769231,0.31086717278109827
+Point Dume SMCA|S. purpuratus|PISCO|Den,post_trend,intercept,1.6565969514877117,0.296730766041696
+Point Dume SMCA|S. purpuratus|PISCO|Den,post_trend,recovery_slope,-0.43000511907322125,0.005280912225980978
+Point Dume SMCA|S. purpuratus|PISCO|Den,flat_before_after,baseline,-1.6327232785933217,2.4160157118640466
+Point Dume SMCA|S. purpuratus|PISCO|Den,flat_before_after,level_change,2.6723287227309456,5.230242686829541
+Point Dume SMCA|S. purpuratus|PISCO|Den,flat_before_after,recovery_slope,-0.3641560313794231,0.06817569799330292
+Point Dume SMCA|S. purpuratus|PISCO|Den,pretrend_sensitivity,baseline,4.9121046031281494,2.000200711057268
+Point Dume SMCA|S. purpuratus|PISCO|Den,pretrend_sensitivity,pre_slope,2.674220588141791,0.24860071756359295
+Point Dume SMCA|S. purpuratus|PISCO|Den,pretrend_sensitivity,level_change,-3.1037602308329486,2.2746565630606908
+Point Dume SMCA|S. purpuratus|PISCO|Den,pretrend_sensitivity,slope_change,-3.1223380296869285,0.2782905164010596
+Point Dume SMR|M. franciscanus|PISCO|Den,post_trend,intercept,-6.94078932573607,48.96770903636675
+Point Dume SMR|M. franciscanus|PISCO|Den,post_trend,recovery_slope,0.841279682045097,0.5867232502182265
+Point Dume SMR|M. pyrifera|Landsat|Bio,post_trend,intercept,0.17948607770109348,3.1880798064468188
+Point Dume SMR|M. pyrifera|Landsat|Bio,post_trend,recovery_slope,0.02602193217021767,0.10642937104924824
+Point Dume SMR|M. pyrifera|Landsat|Bio,flat_before_after,baseline,-0.33977336217886334,0.17780457098797123
+Point Dume SMR|M. pyrifera|Landsat|Bio,flat_before_after,level_change,0.48003381210685425,1.4660503471862127
+Point Dume SMR|M. pyrifera|Landsat|Bio,flat_before_after,recovery_slope,0.03191463755319898,0.045675350975278285
+Point Dume SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,baseline,-1.0522708401257321,0.7130975591401779
+Point Dume SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,pre_slope,-0.051032428266178,0.0027447317758788614
+Point Dume SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,level_change,1.0831133342347807,1.8515753843549143
+Point Dume SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,slope_change,0.09938447710400555,0.050541814239232236
+Point Dume SMR|M. pyrifera|PISCO|Bio,post_trend,intercept,-9.32796760923678,0.8704265340221192
+Point Dume SMR|M. pyrifera|PISCO|Bio,post_trend,recovery_slope,0.999478498958958,0.012184098899388245
+Point Dume SMR|P. interruptus|PISCO|Den,post_trend,intercept,0.6967367211019422,15.088771152456781
+Point Dume SMR|P. interruptus|PISCO|Den,post_trend,recovery_slope,0.2924804575662989,0.17773142283614807
+Point Dume SMR|S. pulcher|PISCO|Bio,post_trend,intercept,2.565101487002835,15.59062683300912
+Point Dume SMR|S. pulcher|PISCO|Bio,post_trend,recovery_slope,0.10753146642360711,0.1879129839852146
+Point Dume SMR|S. pulcher|PISCO|Den,post_trend,intercept,3.2334019061908776,6.606006456424961
+Point Dume SMR|S. pulcher|PISCO|Den,post_trend,recovery_slope,-0.07541629389244697,0.08238605569602767
+Point Dume SMR|S. purpuratus|PISCO|Den,post_trend,intercept,1.6534568380875374,18.03800870673573
+Point Dume SMR|S. purpuratus|PISCO|Den,post_trend,recovery_slope,-0.15604514734068564,0.21281923153159016
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,post_trend,intercept,1.2638919990421698,0.4785139468631044
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,post_trend,recovery_slope,-0.1109652643404535,0.00922429635805558
+Point Vicente SMCA|M. franciscanus|PISCO|Den,post_trend,intercept,-0.054568831624677475,0.14201293098871695
+Point Vicente SMCA|M. franciscanus|PISCO|Den,post_trend,recovery_slope,0.014276894951272349,0.003372094504202946
+Point Vicente SMCA|M. franciscanus|PISCO|Den,flat_before_after,baseline,-0.3089015737563013,0.14279640826814186
+Point Vicente SMCA|M. franciscanus|PISCO|Den,flat_before_after,level_change,0.2915338321673341,0.23494319395057398
+Point Vicente SMCA|M. franciscanus|PISCO|Den,flat_before_after,recovery_slope,0.009643447865333136,0.003124009495147887
+Point Vicente SMCA|M. franciscanus|PISCO|Den,pretrend_sensitivity,baseline,-0.6963230623531493,0.7226102698820497
+Point Vicente SMCA|M. franciscanus|PISCO|Den,pretrend_sensitivity,pre_slope,-0.2011737603589958,0.15384744233226666
+Point Vicente SMCA|M. franciscanus|PISCO|Den,pretrend_sensitivity,level_change,0.6572739680245696,0.7511428157259035
+Point Vicente SMCA|M. franciscanus|PISCO|Den,pretrend_sensitivity,slope_change,0.2134862219403617,0.16190718939258777
+Point Vicente SMCA|M. pyrifera|Landsat|Bio,post_trend,intercept,0.9649139982716903,0.07088152596643446
+Point Vicente SMCA|M. pyrifera|Landsat|Bio,post_trend,recovery_slope,0.027902116102376362,0.0023662758424482554
+Point Vicente SMCA|M. pyrifera|Landsat|Bio,flat_before_after,baseline,0.10114342024297182,0.08603987440812312
+Point Vicente SMCA|M. pyrifera|Landsat|Bio,flat_before_after,level_change,0.6636807702167644,0.6829323877416517
+Point Vicente SMCA|M. pyrifera|Landsat|Bio,flat_before_after,recovery_slope,0.057960788252389206,0.02120302767468192
+Point Vicente SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,baseline,-0.0012191301773279983,0.34158070798329176
+Point Vicente SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,pre_slope,-0.007425311107773468,0.0013301985257574206
+Point Vicente SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,level_change,0.7503390311024363,0.8859018144773986
+Point Vicente SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,slope_change,0.06774529044601896,0.024189313934846537
+Point Vicente SMCA|M. pyrifera|PISCO|Bio,post_trend,intercept,-0.0621854673537694,0.19519020471935886
+Point Vicente SMCA|M. pyrifera|PISCO|Bio,post_trend,recovery_slope,-0.02093587757246078,0.004429315308497517
+Point Vicente SMCA|M. pyrifera|PISCO|Bio,flat_before_after,baseline,0.15845379902292756,0.1697602172674482
+Point Vicente SMCA|M. pyrifera|PISCO|Bio,flat_before_after,level_change,-0.24405568815862155,0.28692658500311197
+Point Vicente SMCA|M. pyrifera|PISCO|Bio,flat_before_after,recovery_slope,-0.01810186168574432,0.0037190181643491026
+Point Vicente SMCA|M. pyrifera|PISCO|Bio,pretrend_sensitivity,baseline,0.34266353587947496,0.8975694064313097
+Point Vicente SMCA|M. pyrifera|PISCO|Bio,pretrend_sensitivity,pre_slope,0.09215800112064354,0.17932364765415104
+Point Vicente SMCA|M. pyrifera|PISCO|Bio,pretrend_sensitivity,level_change,-0.4155924285013475,0.9335480388586762
+Point Vicente SMCA|M. pyrifera|PISCO|Bio,pretrend_sensitivity,slope_change,-0.11179320963199235,0.1893335673191841
+Point Vicente SMCA|P. interruptus|PISCO|Bio,post_trend,intercept,0.18454132072966045,1.4636274889500096
+Point Vicente SMCA|P. interruptus|PISCO|Bio,post_trend,recovery_slope,0.15183283947768245,0.034071630743015176
+Point Vicente SMCA|P. interruptus|PISCO|Den,post_trend,intercept,-0.3275817743867404,1.3055718136221874
+Point Vicente SMCA|P. interruptus|PISCO|Den,post_trend,recovery_slope,0.18517757519188682,0.02943965042211412
+Point Vicente SMCA|P. interruptus|PISCO|Den,flat_before_after,baseline,-0.0005899480726385686,1.201132018663007
+Point Vicente SMCA|P. interruptus|PISCO|Den,flat_before_after,level_change,-0.4906801393041724,2.137084642760271
+Point Vicente SMCA|P. interruptus|PISCO|Den,flat_before_after,recovery_slope,0.20578983020310537,0.028082562400284145
+Point Vicente SMCA|P. interruptus|PISCO|Den,pretrend_sensitivity,baseline,2.840593699040017,5.478680106777157
+Point Vicente SMCA|P. interruptus|PISCO|Den,pretrend_sensitivity,pre_slope,1.4451514734990756,1.132215647929778
+Point Vicente SMCA|P. interruptus|PISCO|Den,pretrend_sensitivity,level_change,-3.1546251499609337,5.851549258681089
+Point Vicente SMCA|P. interruptus|PISCO|Den,pretrend_sensitivity,slope_change,-1.2613841825579857,1.1914563693276248
+Point Vicente SMCA|S. purpuratus|PISCO|Bio,post_trend,intercept,0.07996642339778459,0.2614773621719636
+Point Vicente SMCA|S. purpuratus|PISCO|Bio,post_trend,recovery_slope,0.039632697276126005,0.007791868804871133
+Point Vicente SMCA|S. purpuratus|PISCO|Den,post_trend,intercept,-0.27275105767554525,0.2191982557552232
+Point Vicente SMCA|S. purpuratus|PISCO|Den,post_trend,recovery_slope,0.01455857832017858,0.005005474727655962
+Point Vicente SMCA|S. purpuratus|PISCO|Den,flat_before_after,baseline,-0.5780746376246249,0.28433674797826075
+Point Vicente SMCA|S. purpuratus|PISCO|Den,flat_before_after,level_change,0.43132124915353137,0.48939583911953877
+Point Vicente SMCA|S. purpuratus|PISCO|Den,flat_before_after,recovery_slope,-0.0020416584165293405,0.0064823310433291745
+Point Vicente SMCA|S. purpuratus|PISCO|Den,pretrend_sensitivity,baseline,-2.0207724177135598,1.1846940656866207
+Point Vicente SMCA|S. purpuratus|PISCO|Den,pretrend_sensitivity,pre_slope,-0.7238873746277865,0.23608905139618505
+Point Vicente SMCA|S. purpuratus|PISCO|Den,pretrend_sensitivity,level_change,1.7788329594876782,1.2492846128997068
+Point Vicente SMCA|S. purpuratus|PISCO|Den,pretrend_sensitivity,slope_change,0.7340805540737292,0.24973825384660625
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,post_trend,intercept,-1.1392679165358457,0.4392723275753933
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,post_trend,recovery_slope,0.03951401309253444,0.0034835904250574454
+Santa Barbara Island SMR|M. franciscanus|KFM|Den,post_trend,intercept,-0.5988264837843507,0.2666556328903532
+Santa Barbara Island SMR|M. franciscanus|KFM|Den,post_trend,recovery_slope,-0.025274613914930633,0.0021764687821892253
+Santa Barbara Island SMR|M. franciscanus|KFM|Den,flat_before_after,baseline,-0.15982092894442645,0.04528380595397132
+Santa Barbara Island SMR|M. franciscanus|KFM|Den,flat_before_after,level_change,-0.34365014107825576,0.20085650156740598
+Santa Barbara Island SMR|M. franciscanus|KFM|Den,flat_before_after,recovery_slope,-0.032732531513373686,0.0014098361505880193
+Santa Barbara Island SMR|M. franciscanus|KFM|Den,pretrend_sensitivity,baseline,-1.0998804653034995,0.14694434674783216
+Santa Barbara Island SMR|M. franciscanus|KFM|Den,pretrend_sensitivity,pre_slope,-0.08590661143971326,0.0009224168106429448
+Santa Barbara Island SMR|M. franciscanus|KFM|Den,pretrend_sensitivity,level_change,0.540266958541253,0.2578896645642397
+Santa Barbara Island SMR|M. franciscanus|KFM|Den,pretrend_sensitivity,slope_change,0.05743417771969403,0.0021943950493410933
+Santa Barbara Island SMR|M. pyrifera|KFM|Bio,post_trend,intercept,0.5180899734884603,0.9880523987460809
+Santa Barbara Island SMR|M. pyrifera|KFM|Bio,post_trend,recovery_slope,0.08203863385078436,0.0073131297941605704
+Santa Barbara Island SMR|M. pyrifera|KFM|Bio,flat_before_after,baseline,-0.24180746428281563,0.8882778813249463
+Santa Barbara Island SMR|M. pyrifera|KFM|Bio,flat_before_after,level_change,0.800423670174077,1.5489671747757587
+Santa Barbara Island SMR|M. pyrifera|KFM|Bio,flat_before_after,recovery_slope,0.07887837181604085,0.006173143147702533
+Santa Barbara Island SMR|M. pyrifera|KFM|Bio,pretrend_sensitivity,baseline,-0.5960697948795364,2.828730312972212
+Santa Barbara Island SMR|M. pyrifera|KFM|Bio,pretrend_sensitivity,pre_slope,-0.09930423601841687,0.14927536548270334
+Santa Barbara Island SMR|M. pyrifera|KFM|Bio,pretrend_sensitivity,level_change,1.131953089985231,3.2738058091995117
+Santa Barbara Island SMR|M. pyrifera|KFM|Bio,pretrend_sensitivity,slope_change,0.1799027362107406,0.16103022306138176
+Santa Barbara Island SMR|M. pyrifera|Landsat|Bio,post_trend,intercept,-2.845494892774511,1.0265896284780025
+Santa Barbara Island SMR|M. pyrifera|Landsat|Bio,post_trend,recovery_slope,0.21296304769295177,0.009024454158333509
+Santa Barbara Island SMR|M. pyrifera|Landsat|Bio,flat_before_after,baseline,-2.2558574694885376,0.2665190337493345
+Santa Barbara Island SMR|M. pyrifera|Landsat|Bio,flat_before_after,level_change,-0.5596006557985995,1.0959740379089926
+Santa Barbara Island SMR|M. pyrifera|Landsat|Bio,flat_before_after,recovery_slope,0.21058664643837222,0.007842062145865341
+Santa Barbara Island SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,baseline,-3.988822682963222,0.9513841762219397
+Santa Barbara Island SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,pre_slope,-0.1763021502075987,0.00732836285308172
+Santa Barbara Island SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,level_change,1.0118724701474937,1.5828282622935204
+Santa Barbara Island SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,slope_change,0.3996654710870714,0.015588538862653992
+Santa Barbara Island SMR|P. interruptus|KFM|Den,post_trend,intercept,-2.2535918382680475,0.7381003993822223
+Santa Barbara Island SMR|P. interruptus|KFM|Den,post_trend,recovery_slope,0.19786354435227738,0.0054686500393438505
+Santa Barbara Island SMR|P. interruptus|KFM|Den,flat_before_after,baseline,-1.7333526342032084,0.1857708370199697
+Santa Barbara Island SMR|P. interruptus|KFM|Den,flat_before_after,level_change,-0.5256311053843132,0.7915865282489336
+Santa Barbara Island SMR|P. interruptus|KFM|Den,flat_before_after,recovery_slope,0.19868231075961473,0.004746755363396484
+Santa Barbara Island SMR|P. interruptus|KFM|Den,pretrend_sensitivity,baseline,-2.5435536857517382,0.7592964221729239
+Santa Barbara Island SMR|P. interruptus|KFM|Den,pretrend_sensitivity,pre_slope,-0.07577538934751132,0.005024595320682721
+Santa Barbara Island SMR|P. interruptus|KFM|Den,pretrend_sensitivity,level_change,0.22651543895018822,1.279910465007355
+Santa Barbara Island SMR|P. interruptus|KFM|Den,pretrend_sensitivity,slope_change,0.2786715277412025,0.010306237837099056
+Santa Barbara Island SMR|S. pulcher|KFM|Den,post_trend,intercept,-1.0152754286669798,1.134614152404024
+Santa Barbara Island SMR|S. pulcher|KFM|Den,post_trend,recovery_slope,0.031183096169792285,0.008380855651838989
+Santa Barbara Island SMR|S. pulcher|KFM|Den,flat_before_after,baseline,-0.329545458881649,0.20545479117683427
+Santa Barbara Island SMR|S. pulcher|KFM|Den,flat_before_after,level_change,-0.4966450676620411,0.8035068337476842
+Santa Barbara Island SMR|S. pulcher|KFM|Den,flat_before_after,recovery_slope,0.014755567951551862,0.004767049775642519
+Santa Barbara Island SMR|S. pulcher|KFM|Den,pretrend_sensitivity,baseline,-1.5945014103002269,0.7886010354659615
+Santa Barbara Island SMR|S. pulcher|KFM|Den,pretrend_sensitivity,pre_slope,-0.13340089787415094,0.006602215284800469
+Santa Barbara Island SMR|S. pulcher|KFM|Den,pretrend_sensitivity,level_change,0.6672344050104506,1.261431411049109
+Santa Barbara Island SMR|S. pulcher|KFM|Den,pretrend_sensitivity,slope_change,0.1551459496569968,0.011891089475819176
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,post_trend,intercept,-1.4036607038222817,0.3113588006705962
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,post_trend,recovery_slope,-0.03519965245585266,0.00233873301150529
+Santa Barbara Island SMR|S. purpuratus|KFM|Den,post_trend,intercept,-1.7942511321487942,0.24569540443984628
+Santa Barbara Island SMR|S. purpuratus|KFM|Den,post_trend,recovery_slope,-0.06257610385291401,0.001831022918925092
+Santa Barbara Island SMR|S. purpuratus|KFM|Den,flat_before_after,baseline,-0.31115952113474044,0.06096965494431584
+Santa Barbara Island SMR|S. purpuratus|KFM|Den,flat_before_after,level_change,-1.2841958415414556,0.27577666996977035
+Santa Barbara Island SMR|S. purpuratus|KFM|Den,flat_before_after,recovery_slope,-0.07709305254455978,0.0016713585474373476
+Santa Barbara Island SMR|S. purpuratus|KFM|Den,pretrend_sensitivity,baseline,-0.8697600854273482,0.2567160921006847
+Santa Barbara Island SMR|S. purpuratus|KFM|Den,pretrend_sensitivity,pre_slope,-0.05022848631037069,0.0015824968275969123
+Santa Barbara Island SMR|S. purpuratus|KFM|Den,pretrend_sensitivity,level_change,-0.7592729304325587,0.44876969191916327
+Santa Barbara Island SMR|S. purpuratus|KFM|Den,pretrend_sensitivity,slope_change,-0.024411483941559453,0.00341325104493248
+Scorpion SMR|M. franciscanus|KFM|Bio,post_trend,intercept,1.0258245406851907,0.1056144195563041
+Scorpion SMR|M. franciscanus|KFM|Bio,post_trend,recovery_slope,-0.045296392534258656,0.0009094111138130912
+Scorpion SMR|M. franciscanus|KFM|Den,post_trend,intercept,0.8433184292643586,0.055362663523910206
+Scorpion SMR|M. franciscanus|KFM|Den,post_trend,recovery_slope,-0.07492194371126958,0.0005498521883089436
+Scorpion SMR|M. franciscanus|KFM|Den,flat_before_after,baseline,-0.4745367646997324,0.019239052590092023
+Scorpion SMR|M. franciscanus|KFM|Den,flat_before_after,level_change,1.2819654679618684,0.09468393430233192
+Scorpion SMR|M. franciscanus|KFM|Den,flat_before_after,recovery_slope,-0.07270899413833298,0.0007362526395600867
+Scorpion SMR|M. franciscanus|KFM|Den,pretrend_sensitivity,baseline,-0.5660491979408835,0.08237116568658819
+Scorpion SMR|M. franciscanus|KFM|Den,pretrend_sensitivity,pre_slope,-0.008273083859134167,0.0005126913531294403
+Scorpion SMR|M. franciscanus|KFM|Den,pretrend_sensitivity,level_change,1.368156576363465,0.15309668569001933
+Scorpion SMR|M. franciscanus|KFM|Den,pretrend_sensitivity,slope_change,-0.0640732097422938,0.00132495207155964
+Scorpion SMR|M. franciscanus|PISCO|Den,post_trend,intercept,0.5721411981343767,0.1686772530943943
+Scorpion SMR|M. franciscanus|PISCO|Den,post_trend,recovery_slope,-0.08618326746109185,0.0011512224617467846
+Scorpion SMR|M. pyrifera|KFM|Bio,post_trend,intercept,-0.74326897999204,1.0237454538150552
+Scorpion SMR|M. pyrifera|KFM|Bio,post_trend,recovery_slope,0.3730743402242708,0.008160862378642652
+Scorpion SMR|M. pyrifera|KFM|Bio,flat_before_after,baseline,-0.0646457080629782,0.6188916532144558
+Scorpion SMR|M. pyrifera|KFM|Bio,flat_before_after,level_change,-0.6787799350488548,1.232321323638777
+Scorpion SMR|M. pyrifera|KFM|Bio,flat_before_after,recovery_slope,0.37273362664085274,0.005944730621297278
+Scorpion SMR|M. pyrifera|KFM|Bio,pretrend_sensitivity,baseline,-0.20745599383903723,2.698872049578667
+Scorpion SMR|M. pyrifera|KFM|Bio,pretrend_sensitivity,pre_slope,-0.04139264485183958,0.1711229373606308
+Scorpion SMR|M. pyrifera|KFM|Bio,pretrend_sensitivity,level_change,-0.5432784640057378,3.0543590958004074
+Scorpion SMR|M. pyrifera|KFM|Bio,pretrend_sensitivity,slope_change,0.4147451854534001,0.18404251283624196
+Scorpion SMR|M. pyrifera|PISCO|Bio,post_trend,intercept,2.6746782069576103,1.0411697899647343
+Scorpion SMR|M. pyrifera|PISCO|Bio,post_trend,recovery_slope,0.10869318648038306,0.0070112925981730126
+Scorpion SMR|P. interruptus|KFM|Den,post_trend,intercept,1.5755119291917552,0.1014187355647795
+Scorpion SMR|P. interruptus|KFM|Den,post_trend,recovery_slope,0.17670575754398454,0.0007360691234982277
+Scorpion SMR|P. interruptus|KFM|Den,flat_before_after,baseline,7.545851135812933e-09,1.428571421271326e-10
+Scorpion SMR|P. interruptus|KFM|Den,flat_before_after,level_change,1.7342103458339366,0.03155338750534023
+Scorpion SMR|P. interruptus|KFM|Den,flat_before_after,recovery_slope,0.17274592148074275,0.00018745199802401778
+Scorpion SMR|P. interruptus|KFM|Den,pretrend_sensitivity,baseline,3.327947880857284e-08,1.4802904267884751e-09
+Scorpion SMR|P. interruptus|KFM|Den,pretrend_sensitivity,pre_slope,1.8961620432333934e-09,7.261410663478156e-12
+Scorpion SMR|P. interruptus|KFM|Den,pretrend_sensitivity,level_change,1.734210320100292,0.031553388842773485
+Scorpion SMR|P. interruptus|KFM|Den,pretrend_sensitivity,slope_change,0.1727459195845813,0.00018745200528542835
+Scorpion SMR|P. interruptus|PISCO|Den,post_trend,intercept,2.9135917559597395,1.6492624137322869
+Scorpion SMR|P. interruptus|PISCO|Den,post_trend,recovery_slope,-0.0029077234467337343,0.011143946811187515
+Scorpion SMR|S. pulcher|PISCO|Bio,post_trend,intercept,-0.07513989646392183,0.354350753029103
+Scorpion SMR|S. pulcher|PISCO|Bio,post_trend,recovery_slope,0.019374632227181658,0.0023921719394650568
+Scorpion SMR|S. pulcher|PISCO|Den,post_trend,intercept,-0.3804921464065034,0.2589004580395213
+Scorpion SMR|S. pulcher|PISCO|Den,post_trend,recovery_slope,0.020868163688461634,0.0017390552062574232
+Scorpion SMR|S. purpuratus|KFM|Bio,post_trend,intercept,1.3940000418276286,0.23757165810072725
+Scorpion SMR|S. purpuratus|KFM|Bio,post_trend,recovery_slope,-0.03733497025949761,0.0017459588706871545
+Scorpion SMR|S. purpuratus|KFM|Den,post_trend,intercept,1.2027946475017743,0.08944977659356042
+Scorpion SMR|S. purpuratus|KFM|Den,post_trend,recovery_slope,-0.0643181218116345,0.0007600027407233444
+Scorpion SMR|S. purpuratus|KFM|Den,flat_before_after,baseline,0.9025405411570325,0.03720893085107184
+Scorpion SMR|S. purpuratus|KFM|Den,flat_before_after,level_change,0.31207960081726016,0.1680339380757444
+Scorpion SMR|S. purpuratus|KFM|Den,flat_before_after,recovery_slope,-0.06514522902090818,0.001160195190075904
+Scorpion SMR|S. purpuratus|KFM|Den,pretrend_sensitivity,baseline,0.9493094014259573,0.15316664015827486
+Scorpion SMR|S. purpuratus|KFM|Den,pretrend_sensitivity,pre_slope,0.004329817032834443,0.0009747817296109289
+Scorpion SMR|S. purpuratus|KFM|Den,pretrend_sensitivity,level_change,0.2697704180060718,0.26962075344368647
+Scorpion SMR|S. purpuratus|KFM|Den,pretrend_sensitivity,slope_change,-0.06981117153087285,0.0023119532752624173
+Scorpion SMR|S. purpuratus|PISCO|Den,post_trend,intercept,0.2569423722280124,0.2238910601132152
+Scorpion SMR|S. purpuratus|PISCO|Den,post_trend,recovery_slope,-0.17001894608061058,0.0014766037786688223
+Skunk Pt SMR|M. pyrifera|Landsat|Bio,post_trend,intercept,-0.17078575210563152,0.814993939436712
+Skunk Pt SMR|M. pyrifera|Landsat|Bio,post_trend,recovery_slope,0.1881237283084417,0.007164377314703609
+Skunk Pt SMR|M. pyrifera|Landsat|Bio,flat_before_after,baseline,1.432921837937008,0.42445888552622424
+Skunk Pt SMR|M. pyrifera|Landsat|Bio,flat_before_after,level_change,-1.4137156286207229,1.6735281354573261
+Skunk Pt SMR|M. pyrifera|Landsat|Bio,flat_before_after,recovery_slope,0.17309224612092117,0.011851186404848835
+Skunk Pt SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,baseline,1.6452377930382953,1.7079021179603793
+Skunk Pt SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,pre_slope,0.022566444825677934,0.014354617472665608
+Skunk Pt SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,level_change,-1.6063464988398881,2.7698796068020326
+Skunk Pt SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,slope_change,0.1489683880206133,0.028612345771934552
+South La Jolla SMR|M. pyrifera|Landsat|Bio,post_trend,intercept,1.186702249922753,2.876395577161916
+South La Jolla SMR|M. pyrifera|Landsat|Bio,post_trend,recovery_slope,0.39117519611899554,0.0960242499410926
+South La Jolla SMR|M. pyrifera|Landsat|Bio,flat_before_after,baseline,1.468095164625077,0.18592568161660666
+South La Jolla SMR|M. pyrifera|Landsat|Bio,flat_before_after,level_change,-0.41654732361420965,1.470695935554875
+South La Jolla SMR|M. pyrifera|Landsat|Bio,flat_before_after,recovery_slope,0.41147888931706844,0.04564604453079339
+South La Jolla SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,baseline,0.8608110799713469,0.7218558648339123
+South La Jolla SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,pre_slope,-0.04461580844502161,0.0028828887950364235
+South La Jolla SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,level_change,0.09766152960258268,1.867999165649212
+South La Jolla SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,slope_change,0.470077008509068,0.05106486301101635
+South Point SMR|M. franciscanus|KFM|Bio,post_trend,intercept,0.6017719224665239,0.2711821421846319
+South Point SMR|M. franciscanus|KFM|Bio,post_trend,recovery_slope,0.050915189162635266,0.0015031019319382295
+South Point SMR|M. franciscanus|KFM|Den,post_trend,intercept,0.9051731810939696,0.09004136194979911
+South Point SMR|M. franciscanus|KFM|Den,post_trend,recovery_slope,-0.029001059556202136,0.0005774863250777961
+South Point SMR|M. pyrifera|KFM|Bio,post_trend,intercept,-0.6412859806406384,0.779290385017237
+South Point SMR|M. pyrifera|KFM|Bio,post_trend,recovery_slope,0.14621787994867008,0.0058057439776489864
+South Point SMR|M. pyrifera|Landsat|Bio,post_trend,intercept,0.2216591030100168,0.1842664617845367
+South Point SMR|M. pyrifera|Landsat|Bio,post_trend,recovery_slope,0.08099361701789315,0.001619833467248522
+South Point SMR|M. pyrifera|Landsat|Bio,flat_before_after,baseline,1.4474305153826852,0.058738536336822675
+South Point SMR|M. pyrifera|Landsat|Bio,flat_before_after,level_change,-1.2276860507401048,0.23606466702545947
+South Point SMR|M. pyrifera|Landsat|Bio,flat_before_after,recovery_slope,0.08114509633483397,0.0016797166758726306
+South Point SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,baseline,1.8979265204503406,0.23354521984479046
+South Point SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,pre_slope,0.04769080828611999,0.0019621171789376
+South Point SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,level_change,-1.6363940455821016,0.37907066234836345
+South Point SMR|M. pyrifera|Landsat|Bio,pretrend_sensitivity,slope_change,0.03014817063847519,0.003915480488050684
+South Point SMR|P. interruptus|KFM|Den,post_trend,intercept,-0.21076797453245488,0.38541677248093037
+South Point SMR|P. interruptus|KFM|Den,post_trend,recovery_slope,0.10769365934006114,0.0031233831606520355
+South Point SMR|S. pulcher|KFM|Den,post_trend,intercept,0.541869852635108,0.08787904600832928
+South Point SMR|S. pulcher|KFM|Den,post_trend,recovery_slope,-0.03187788744872923,0.0005920204332388785
+South Point SMR|S. purpuratus|KFM|Bio,post_trend,intercept,0.3124335001206828,0.5444897554034152
+South Point SMR|S. purpuratus|KFM|Bio,post_trend,recovery_slope,-0.034393368147473985,0.0030785985650220488
+South Point SMR|S. purpuratus|KFM|Den,post_trend,intercept,1.1407217201701654,0.09810411940386474
+South Point SMR|S. purpuratus|KFM|Den,post_trend,recovery_slope,-0.1170549885163173,0.0006425123186882159
+Swamis SMCA|M. pyrifera|Landsat|Bio,post_trend,intercept,2.3349138456504237,0.9873008378218159
+Swamis SMCA|M. pyrifera|Landsat|Bio,post_trend,recovery_slope,-0.3496455937059036,0.03295959122316255
+Swamis SMCA|M. pyrifera|Landsat|Bio,flat_before_after,baseline,1.2859235129556899,0.165643320721154
+Swamis SMCA|M. pyrifera|Landsat|Bio,flat_before_after,level_change,1.0609898371388586,1.3904124548517143
+Swamis SMCA|M. pyrifera|Landsat|Bio,flat_before_after,recovery_slope,-0.351448230108344,0.04338762785138479
+Swamis SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,baseline,0.00844651235543914,0.6068199126015921
+Swamis SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,pre_slope,-0.0889707504296498,0.002197070981605352
+Swamis SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,level_change,2.1418669955712204,1.6158048050153428
+Swamis SMCA|M. pyrifera|Landsat|Bio,pretrend_sensitivity,slope_change,-0.2329430907374308,0.04420010912601609
+Swamis SMCA|S. pulcher|PISCO|Bio,post_trend,intercept,4.248240385237357,0.20965091404411831
+Swamis SMCA|S. pulcher|PISCO|Bio,post_trend,recovery_slope,-0.04828766965557296,0.0038640500539794797
+Swamis SMCA|S. pulcher|PISCO|Den,post_trend,intercept,3.1678661167433715,0.06166746956698745
+Swamis SMCA|S. pulcher|PISCO|Den,post_trend,recovery_slope,-0.055165975461431316,0.001704586670155405

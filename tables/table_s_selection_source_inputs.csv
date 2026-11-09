@@ -1,0 +1,8 @@
+repository,input,md5
+data,data/PISCO/MLPA_kelpforest_swath_2024.csv,2f28e8d2eb04e73234b87f7090cd07a8
+data,data/PISCO/MLPA_kelpforest_fish_2024.csv,59344f6225b810f1c39c21f83de42249
+data,data/PISCO/master_site_table_Emilyedit.csv,53ffa708c3e3cf6899ba4a20e3620fce
+data,code/R/01_utils.R,9518ffc026b5c02763013a760bd74b35
+analysis,data/sumstats_final.csv,7d07174d93b4b3ee87b78d537b4886de
+analysis,data/harmonized/reference_primary_keys.csv,d2575fb1e41039a67eed188009352830
+analysis,code/tools/audit_selection_coverage.R,f1c7f70e347f9dabcbb71b7328d86f6d

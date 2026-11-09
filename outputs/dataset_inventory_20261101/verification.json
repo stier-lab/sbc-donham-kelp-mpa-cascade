@@ -1,0 +1,16 @@
+{
+  "unique_dataset_ids": 10,
+  "site_rows_checked": 1856,
+  "pair_intersections_checked": 1839,
+  "comparison_keys_checked": 206,
+  "current_paper_keys_preserved": 143,
+  "raw_annual_metadata_rows": 32927,
+  "hashed_inputs_unchanged": 41,
+  "protected_files_unchanged": 487,
+  "models_fitted": 0,
+  "checks": "Keys, joins, exact year intersections, gaps/spans, duration nesting, all candidate scope decisions, current paper membership, raw annual partitions and source/protected hashes passed",
+  "measurement_datasets_checked": 10,
+  "measurement_review_rows": 10,
+  "additional_analysis_checks": 6,
+  "measurement_checks": "Complete dataset linkage; direct LTER area/length checks; PISCO survey-support counts; measurement source hashes passed"
+}

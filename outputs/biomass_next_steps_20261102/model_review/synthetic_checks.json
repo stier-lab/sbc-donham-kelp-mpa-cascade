@@ -1,0 +1,45 @@
+{
+  "retry": {
+    "attempt_failed": 1,
+    "retried": 1,
+    "fallbacks": 0,
+    "final_success": true,
+    "diagnostic_misnamed_fallbacks": 1
+  },
+  "latent_years": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005
+  ],
+  "direct_years": [
+    2002,
+    2003,
+    2004,
+    2005
+  ],
+  "direct_admitted": true,
+  "direct_points_max_abs": 0.0,
+  "slope_mean_error": 6.245004513516506e-17,
+  "slope_low_error": 5.551115123125783e-17,
+  "heldout_rows": 37,
+  "missing_visit": "blocked: Incomplete or changed visit roster",
+  "unsupported_finite_mass": "blocked: ",
+  "inner_only": "Unidentified size-model design or no residual degrees of freedom",
+  "one_year": "Unidentified size-model design or no residual degrees of freedom",
+  "trend_n1": "At least four observed years required for this process diagnostic",
+  "trend_n2": "At least four observed years required for this process diagnostic",
+  "trend_n3": "At least four observed years required for this process diagnostic",
+  "empty_prediction_shapes": [
+    [
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "direct_mass_mc_mean": 99.80230101177051,
+  "single_year_functional_slope": 0.0
+}

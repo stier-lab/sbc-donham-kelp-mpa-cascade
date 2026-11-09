@@ -1,0 +1,23 @@
+{
+  "code/tools/audit_expanded_size_pools.R": "49f5275aac08577962827eeacd31b58cc33737ae4002ba75841119b51ed428f3",
+  "code/tools/audit_direct_biomass_support.py": "9a2aea793c9a0030c6d55c54b6ab2a4f63cba5d3ef2e29a2a78c23fdb187b537",
+  "code/tools/report_biomass_support.py": "6883168ed29cff10ffd886d1f252c070767a59735d66cfe7d0929916ee5c39b9",
+  "code/tools/write_biomass_support_report.py": "8f989747a8508f093f42d88d83504cb06313f03c701514a8ae944d9fe3b1cc38",
+  "code/tools/verify_biomass_missing_stipes.R": "929a2466de92419c9fd63f0e0c219823abbe99da2999527f030262767a502d13",
+  "outputs/biomass_support_20261102/animal_pool_inventory.csv": "2ad1ca5f683419a30787511f2d95e83d5fbb79949b4df1ae0bb92cdfc5318ff2",
+  "outputs/biomass_support_20261102/prior_inventory_check.csv": "6eb6aa6930c2680e810c1aa4392a1ee29aae1973730ae502269097ea2c7fafc7",
+  "outputs/biomass_support_20261102/donor_coverage_alternatives.csv": "7efd2c7067cac7e278cd9a67724961485db5148ef3fbccab4126858a9ba5f071",
+  "outputs/biomass_support_20261102/direct_audit.log": "4433f4de9511bb96dd1f5e295b8010a1ba5c2c81d9ec9c61141d0250b28a85f5",
+  "outputs/biomass_support_20261102/missing_stipe_sensitivity.csv": "f085c6f2e1a078fd659aa82a70da1d11a492f14901f050cd49760e826291a875",
+  "outputs/biomass_support_20261102/index.html": "dc2f50a3a62def556986ca9808ee304064c703e846e19b57f6994e8fe058c0d5",
+  "outputs/biomass_support_20261102/unresolved_direct_measurements.csv": "a954a6824266f35fafb15b2c5b95623d2617de7416cbe5fcbbcafc3662b1c624",
+  "outputs/biomass_support_20261102/direct_support_summary.csv": "443534fda6b9d707d234025b5f23ff63d68d8f7670d0e79153d4e2f0cff47988",
+  "outputs/biomass_support_20261102/README.md": "06cbbba7a70a2cd7bfbef6f377c648fa58b59e53e5fa9ead0517d23088f0e076",
+  "outputs/biomass_support_20261102/.gitignore": "7f1449aa6b5c22585727e0d7ef4b16a112119fb0b8f472d7ab4d3a974369dc6d",
+  "outputs/biomass_support_20261102/biomass_history_status.csv": "02a7dbb282f2d0659b611e6c36129f7c5ce0a3490fb8f0b41fac41c6c18f4686",
+  "outputs/biomass_support_20261102/animal_pool_summary.csv": "a46a6a8ce09ec06e40b05229db30e557e7e96b9f694f1c73c6d272c6e34bda83",
+  "outputs/biomass_support_20261102/verification.json": "180449d3c1ab4250445b630b6a42b116b670dcde0399c1b602bfec63a73ca661",
+  "outputs/biomass_support_20261102/input_hashes.json": "2303d3c2ccc75a9ec3a6f1cc8e33ae16da36877e90391353f5f0a0ae7f05eafe",
+  "outputs/biomass_support_20261102/direct_station_year_support.csv": "d7c9fa62bc32e82867aa59c6f7c75d67cc324f535a029e6e60def1b6cb69d526",
+  "outputs/biomass_support_20261102/pool_audit.log": "054dcd4728ee539f563931a71cdde227114ccd615c9df1d4c881025cef0b1be7"
+}

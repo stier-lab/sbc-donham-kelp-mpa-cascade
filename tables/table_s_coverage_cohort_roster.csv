@@ -24,8 +24,8 @@
 "Campus Point SMCA","M. pyrifera","Bio","Mainland",3,3,28,3,"Landsat;LTER;PISCO","polygon-label|Campus Point SMCA;site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|GOLB;site|MOHK",FALSE,"With before-after coverage",FALSE,"All programmes",3
 "Campus Point SMCA","P. interruptus","Bio","Mainland",1,0,1,1,"LTER","site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|GOLB;site|MOHK",TRUE,"Without sufficient before coverage",FALSE,"All programmes",3
 "Campus Point SMCA","P. interruptus","Den","Mainland",2,1,3,1,"LTER;PISCO","site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|GOLB;site|MOHK",TRUE,"With before-after coverage",TRUE,"All programmes",3
-"Campus Point SMCA","S. pulcher","Bio","Mainland",2,2,11,4,"LTER;PISCO","site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|CARP_REEF;site|GOLB;site|LEAD_BETTER_BEACH;site|MOHK",TRUE,"With before-after coverage",FALSE,"All programmes",3
-"Campus Point SMCA","S. pulcher","Den","Mainland",2,2,11,4,"LTER;PISCO","site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|CARP_REEF;site|GOLB;site|LEAD_BETTER_BEACH;site|MOHK",TRUE,"With before-after coverage",FALSE,"All programmes",3
+"Campus Point SMCA","S. pulcher","Bio","Mainland",2,2,11,3,"LTER;PISCO","site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|GOLB;site|MOHK",TRUE,"With before-after coverage",FALSE,"All programmes",3
+"Campus Point SMCA","S. pulcher","Den","Mainland",2,2,11,3,"LTER;PISCO","site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|GOLB;site|MOHK",TRUE,"With before-after coverage",FALSE,"All programmes",3
 "Campus Point SMCA","S. purpuratus","Bio","Mainland",1,0,2,2,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"Without sufficient before coverage",FALSE,"All programmes",3
 "Campus Point SMCA","S. purpuratus","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"All programmes",3
 "Carrington Pt SMR","M. pyrifera","Bio","Islands",1,1,19,19,"Landsat","polygon-label|Carrington Pt SMR",FALSE,"With before-after coverage",FALSE,"All programmes",3
@@ -62,8 +62,8 @@
 "Naples SMCA","M. pyrifera","Bio","Mainland",3,3,28,3,"Landsat;LTER;PISCO","polygon-label|Naples SMCA;site|a-l-03;site|AQUE;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",FALSE,"With before-after coverage",FALSE,"All programmes",3
 "Naples SMCA","P. interruptus","Bio","Mainland",1,0,1,1,"LTER","site|a-l-03;site|AQUE",TRUE,"Without sufficient before coverage",FALSE,"All programmes",3
 "Naples SMCA","P. interruptus","Den","Mainland",2,1,3,1,"LTER;PISCO","site|a-l-03;site|AQUE;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",TRUE,"All programmes",3
-"Naples SMCA","S. pulcher","Bio","Mainland",2,2,12,4,"LTER;PISCO","site|a-l-03;site|AQUE;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"All programmes",3
-"Naples SMCA","S. pulcher","Den","Mainland",1,1,4,4,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"All programmes",3
+"Naples SMCA","S. pulcher","Bio","Mainland",2,2,12,3,"LTER;PISCO","site|a-l-03;site|AQUE;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"All programmes",3
+"Naples SMCA","S. pulcher","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"All programmes",3
 "Naples SMCA","S. purpuratus","Bio","Mainland",1,0,2,2,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"Without sufficient before coverage",FALSE,"All programmes",3
 "Naples SMCA","S. purpuratus","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"All programmes",3
 "Point Dume SMCA","M. pyrifera","Bio","Mainland",1,1,28,28,"Landsat","polygon-label|Point Dume SMCA",FALSE,"With before-after coverage",FALSE,"All programmes",3
@@ -73,11 +73,11 @@
 "Point Vicente SMCA","M. pyrifera","Bio","Mainland",2,2,26,5,"Landsat;PISCO","polygon-label|Point Vicente SMCA;site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",FALSE,"With before-after coverage",FALSE,"All programmes",3
 "Point Vicente SMCA","P. interruptus","Bio","Mainland",1,0,2,2,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"Without sufficient before coverage",FALSE,"All programmes",3
 "Point Vicente SMCA","P. interruptus","Den","Mainland",1,1,5,5,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"All programmes",3
-"Point Vicente SMCA","S. pulcher","Bio","Mainland",1,1,7,7,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"All programmes",3
-"Point Vicente SMCA","S. pulcher","Den","Mainland",1,1,7,7,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"All programmes",3
+"Point Vicente SMCA","S. pulcher","Bio","Mainland",1,1,3,3,"PISCO","site|HAWTHORNE_REEF;site|RIDGES_N",TRUE,"With before-after coverage",FALSE,"All programmes",3
+"Point Vicente SMCA","S. pulcher","Den","Mainland",1,1,3,3,"PISCO","site|HAWTHORNE_REEF;site|RIDGES_N",TRUE,"With before-after coverage",FALSE,"All programmes",3
 "Point Vicente SMCA","S. purpuratus","Bio","Mainland",1,1,4,4,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"All programmes",3
 "Point Vicente SMCA","S. purpuratus","Den","Mainland",1,1,5,5,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"All programmes",3
-"Santa Barbara Island SMR","M. pyrifera","Bio","Islands",2,2,19,18,"KFM;Landsat","polygon-label|Santa Barbara Island SMR;site|a-k-15;site|a-k-16",FALSE,"With before-after coverage",FALSE,"All programmes",3
+"Santa Barbara Island SMR","M. pyrifera","Bio","Islands",1,1,18,18,"KFM","site|a-k-15;site|a-k-16",TRUE,"With before-after coverage",FALSE,"All programmes",3
 "Santa Barbara Island SMR","P. interruptus","Den","Islands",1,1,21,21,"KFM","site|a-k-15;site|a-k-16",TRUE,"With before-after coverage",FALSE,"All programmes",3
 "Santa Barbara Island SMR","S. pulcher","Bio","Islands",1,0,0,0,"PISCO","site|SBI_ARCH_POINT;site|SBI_ARCH_POINT_CEN;site|SBI_ARCH_POINT_S;site|SBI_CAT_CANYON;site|SBI_CAT_CANYON_CEN;site|SBI_WEBSTERS_ARCH_CEN;site|SBI_WEBSTERS_ARCH_E;site|SBI_WEBSTERS_ARCH_N",TRUE,"Without sufficient before coverage",FALSE,"All programmes",3
 "Santa Barbara Island SMR","S. pulcher","Den","Islands",1,0,0,0,"PISCO","site|SBI_ARCH_POINT;site|SBI_ARCH_POINT_CEN;site|SBI_ARCH_POINT_S;site|SBI_CAT_CANYON;site|SBI_CAT_CANYON_CEN;site|SBI_WEBSTERS_ARCH_CEN;site|SBI_WEBSTERS_ARCH_E;site|SBI_WEBSTERS_ARCH_N",TRUE,"Without sufficient before coverage",FALSE,"All programmes",3
@@ -100,7 +100,6 @@
 "South Point SMR","S. pulcher","Den","Islands",2,0,0,0,"KFM;PISCO","site|a-k-03;site|a-k-04;site|a-k-22;site|SRI_BEE_ROCK_E;site|SRI_BEE_ROCK_W;site|SRI_CLUSTER_POINT_N;site|SRI_CLUSTER_POINT_S;site|SRI_JOHNSONS_LEE_NORTH_E;site|SRI_JOHNSONS_LEE_NORTH_W;site|SRI_JOHNSONS_LEE_SOUTH_E;site|SRI_JOHNSONS_LEE_SOUTH_W;site|SRI_JOLLA_VIEJA_E;site|SRI_JOLLA_VIEJA_W",TRUE,"Without sufficient before coverage",FALSE,"All programmes",3
 "South Point SMR","S. purpuratus","Bio","Islands",2,0,0,0,"KFM;PISCO","site|a-k-03;site|a-k-04;site|a-k-22;site|SRI_CLUSTER_POINT_N;site|SRI_CLUSTER_POINT_S;site|SRI_JOHNSONS_LEE_NORTH_E;site|SRI_JOHNSONS_LEE_NORTH_W;site|SRI_JOHNSONS_LEE_SOUTH_E;site|SRI_JOHNSONS_LEE_SOUTH_W",TRUE,"Without sufficient before coverage",FALSE,"All programmes",3
 "South Point SMR","S. purpuratus","Den","Islands",2,0,0,0,"KFM;PISCO","site|a-k-03;site|a-k-04;site|a-k-22;site|SRI_CLUSTER_POINT_N;site|SRI_CLUSTER_POINT_S;site|SRI_JOHNSONS_LEE_NORTH_E;site|SRI_JOHNSONS_LEE_NORTH_W;site|SRI_JOHNSONS_LEE_SOUTH_E;site|SRI_JOHNSONS_LEE_SOUTH_W",TRUE,"Without sufficient before coverage",FALSE,"All programmes",3
-"Swamis SMCA","M. pyrifera","Bio","Mainland",1,1,28,28,"Landsat","polygon-label|Swamis SMCA",FALSE,"With before-after coverage",FALSE,"All programmes",3
 "Swamis SMCA","S. pulcher","Bio","Mainland",1,0,2,2,"PISCO","site|LEUCADIA;site|SOUTH_CARLSBAD",TRUE,"Without sufficient before coverage",FALSE,"All programmes",3
 "Swamis SMCA","S. pulcher","Den","Mainland",1,0,2,2,"PISCO","site|LEUCADIA;site|SOUTH_CARLSBAD",TRUE,"Without sufficient before coverage",FALSE,"All programmes",3
 "Abalone Cove SMCA","M. franciscanus","Bio","Mainland",1,1,2,2,"PISCO","site|3_PALMS_EAST;site|BUNKER_POINT;site|POINT_FERMIN;site|WHITES_POINT",TRUE,"With before-after coverage",FALSE,"All programmes",1
@@ -128,8 +127,8 @@
 "Campus Point SMCA","M. pyrifera","Bio","Mainland",3,3,28,3,"Landsat;LTER;PISCO","polygon-label|Campus Point SMCA;site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|GOLB;site|MOHK",FALSE,"With before-after coverage",FALSE,"All programmes",1
 "Campus Point SMCA","P. interruptus","Bio","Mainland",1,1,1,1,"LTER","site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|GOLB;site|MOHK",TRUE,"With before-after coverage",FALSE,"All programmes",1
 "Campus Point SMCA","P. interruptus","Den","Mainland",2,2,3,1,"LTER;PISCO","site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|GOLB;site|MOHK",TRUE,"With before-after coverage",FALSE,"All programmes",1
-"Campus Point SMCA","S. pulcher","Bio","Mainland",2,2,11,4,"LTER;PISCO","site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|CARP_REEF;site|GOLB;site|LEAD_BETTER_BEACH;site|MOHK",TRUE,"With before-after coverage",FALSE,"All programmes",1
-"Campus Point SMCA","S. pulcher","Den","Mainland",2,2,11,4,"LTER;PISCO","site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|CARP_REEF;site|GOLB;site|LEAD_BETTER_BEACH;site|MOHK",TRUE,"With before-after coverage",FALSE,"All programmes",1
+"Campus Point SMCA","S. pulcher","Bio","Mainland",2,2,11,3,"LTER;PISCO","site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|GOLB;site|MOHK",TRUE,"With before-after coverage",FALSE,"All programmes",1
+"Campus Point SMCA","S. pulcher","Den","Mainland",2,2,11,3,"LTER;PISCO","site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|GOLB;site|MOHK",TRUE,"With before-after coverage",FALSE,"All programmes",1
 "Campus Point SMCA","S. purpuratus","Bio","Mainland",1,1,2,2,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"All programmes",1
 "Campus Point SMCA","S. purpuratus","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"All programmes",1
 "Carrington Pt SMR","M. pyrifera","Bio","Islands",1,1,19,19,"Landsat","polygon-label|Carrington Pt SMR",FALSE,"With before-after coverage",FALSE,"All programmes",1
@@ -166,8 +165,8 @@
 "Naples SMCA","M. pyrifera","Bio","Mainland",3,3,28,3,"Landsat;LTER;PISCO","polygon-label|Naples SMCA;site|a-l-03;site|AQUE;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",FALSE,"With before-after coverage",FALSE,"All programmes",1
 "Naples SMCA","P. interruptus","Bio","Mainland",1,1,1,1,"LTER","site|a-l-03;site|AQUE",TRUE,"With before-after coverage",FALSE,"All programmes",1
 "Naples SMCA","P. interruptus","Den","Mainland",2,2,3,1,"LTER;PISCO","site|a-l-03;site|AQUE;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"All programmes",1
-"Naples SMCA","S. pulcher","Bio","Mainland",2,2,12,4,"LTER;PISCO","site|a-l-03;site|AQUE;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"All programmes",1
-"Naples SMCA","S. pulcher","Den","Mainland",1,1,4,4,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"All programmes",1
+"Naples SMCA","S. pulcher","Bio","Mainland",2,2,12,3,"LTER;PISCO","site|a-l-03;site|AQUE;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"All programmes",1
+"Naples SMCA","S. pulcher","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"All programmes",1
 "Naples SMCA","S. purpuratus","Bio","Mainland",1,1,2,2,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"All programmes",1
 "Naples SMCA","S. purpuratus","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"All programmes",1
 "Point Dume SMCA","M. pyrifera","Bio","Mainland",1,1,28,28,"Landsat","polygon-label|Point Dume SMCA",FALSE,"With before-after coverage",FALSE,"All programmes",1
@@ -177,11 +176,11 @@
 "Point Vicente SMCA","M. pyrifera","Bio","Mainland",2,2,26,5,"Landsat;PISCO","polygon-label|Point Vicente SMCA;site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",FALSE,"With before-after coverage",FALSE,"All programmes",1
 "Point Vicente SMCA","P. interruptus","Bio","Mainland",1,1,2,2,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"All programmes",1
 "Point Vicente SMCA","P. interruptus","Den","Mainland",1,1,5,5,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"All programmes",1
-"Point Vicente SMCA","S. pulcher","Bio","Mainland",1,1,7,7,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"All programmes",1
-"Point Vicente SMCA","S. pulcher","Den","Mainland",1,1,7,7,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"All programmes",1
+"Point Vicente SMCA","S. pulcher","Bio","Mainland",1,1,3,3,"PISCO","site|HAWTHORNE_REEF;site|RIDGES_N",TRUE,"With before-after coverage",FALSE,"All programmes",1
+"Point Vicente SMCA","S. pulcher","Den","Mainland",1,1,3,3,"PISCO","site|HAWTHORNE_REEF;site|RIDGES_N",TRUE,"With before-after coverage",FALSE,"All programmes",1
 "Point Vicente SMCA","S. purpuratus","Bio","Mainland",1,1,4,4,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"All programmes",1
 "Point Vicente SMCA","S. purpuratus","Den","Mainland",1,1,5,5,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"All programmes",1
-"Santa Barbara Island SMR","M. pyrifera","Bio","Islands",2,2,19,18,"KFM;Landsat","polygon-label|Santa Barbara Island SMR;site|a-k-15;site|a-k-16",FALSE,"With before-after coverage",FALSE,"All programmes",1
+"Santa Barbara Island SMR","M. pyrifera","Bio","Islands",1,1,18,18,"KFM","site|a-k-15;site|a-k-16",TRUE,"With before-after coverage",FALSE,"All programmes",1
 "Santa Barbara Island SMR","P. interruptus","Den","Islands",1,1,21,21,"KFM","site|a-k-15;site|a-k-16",TRUE,"With before-after coverage",FALSE,"All programmes",1
 "Santa Barbara Island SMR","S. pulcher","Bio","Islands",1,0,0,0,"PISCO","site|SBI_ARCH_POINT;site|SBI_ARCH_POINT_CEN;site|SBI_ARCH_POINT_S;site|SBI_CAT_CANYON;site|SBI_CAT_CANYON_CEN;site|SBI_WEBSTERS_ARCH_CEN;site|SBI_WEBSTERS_ARCH_E;site|SBI_WEBSTERS_ARCH_N",TRUE,"Without sufficient before coverage",FALSE,"All programmes",1
 "Santa Barbara Island SMR","S. pulcher","Den","Islands",1,0,0,0,"PISCO","site|SBI_ARCH_POINT;site|SBI_ARCH_POINT_CEN;site|SBI_ARCH_POINT_S;site|SBI_CAT_CANYON;site|SBI_CAT_CANYON_CEN;site|SBI_WEBSTERS_ARCH_CEN;site|SBI_WEBSTERS_ARCH_E;site|SBI_WEBSTERS_ARCH_N",TRUE,"Without sufficient before coverage",FALSE,"All programmes",1
@@ -204,7 +203,6 @@
 "South Point SMR","S. pulcher","Den","Islands",2,0,0,0,"KFM;PISCO","site|a-k-03;site|a-k-04;site|a-k-22;site|SRI_BEE_ROCK_E;site|SRI_BEE_ROCK_W;site|SRI_CLUSTER_POINT_N;site|SRI_CLUSTER_POINT_S;site|SRI_JOHNSONS_LEE_NORTH_E;site|SRI_JOHNSONS_LEE_NORTH_W;site|SRI_JOHNSONS_LEE_SOUTH_E;site|SRI_JOHNSONS_LEE_SOUTH_W;site|SRI_JOLLA_VIEJA_E;site|SRI_JOLLA_VIEJA_W",TRUE,"Without sufficient before coverage",FALSE,"All programmes",1
 "South Point SMR","S. purpuratus","Bio","Islands",2,0,0,0,"KFM;PISCO","site|a-k-03;site|a-k-04;site|a-k-22;site|SRI_CLUSTER_POINT_N;site|SRI_CLUSTER_POINT_S;site|SRI_JOHNSONS_LEE_NORTH_E;site|SRI_JOHNSONS_LEE_NORTH_W;site|SRI_JOHNSONS_LEE_SOUTH_E;site|SRI_JOHNSONS_LEE_SOUTH_W",TRUE,"Without sufficient before coverage",FALSE,"All programmes",1
 "South Point SMR","S. purpuratus","Den","Islands",2,0,0,0,"KFM;PISCO","site|a-k-03;site|a-k-04;site|a-k-22;site|SRI_CLUSTER_POINT_N;site|SRI_CLUSTER_POINT_S;site|SRI_JOHNSONS_LEE_NORTH_E;site|SRI_JOHNSONS_LEE_NORTH_W;site|SRI_JOHNSONS_LEE_SOUTH_E;site|SRI_JOHNSONS_LEE_SOUTH_W",TRUE,"Without sufficient before coverage",FALSE,"All programmes",1
-"Swamis SMCA","M. pyrifera","Bio","Mainland",1,1,28,28,"Landsat","polygon-label|Swamis SMCA",FALSE,"With before-after coverage",FALSE,"All programmes",1
 "Swamis SMCA","S. pulcher","Bio","Mainland",1,1,2,2,"PISCO","site|LEUCADIA;site|SOUTH_CARLSBAD",TRUE,"With before-after coverage",FALSE,"All programmes",1
 "Swamis SMCA","S. pulcher","Den","Mainland",1,1,2,2,"PISCO","site|LEUCADIA;site|SOUTH_CARLSBAD",TRUE,"With before-after coverage",FALSE,"All programmes",1
 "Abalone Cove SMCA","M. franciscanus","Bio","Mainland",1,0,2,2,"PISCO","site|3_PALMS_EAST;site|BUNKER_POINT;site|POINT_FERMIN;site|WHITES_POINT",TRUE,"Without sufficient before coverage",FALSE,"Divers only",3
@@ -231,8 +229,8 @@
 "Campus Point SMCA","M. pyrifera","Bio","Mainland",2,2,12,3,"LTER;PISCO","site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|GOLB;site|MOHK",TRUE,"With before-after coverage",FALSE,"Divers only",3
 "Campus Point SMCA","P. interruptus","Bio","Mainland",1,0,1,1,"LTER","site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|GOLB;site|MOHK",TRUE,"Without sufficient before coverage",FALSE,"Divers only",3
 "Campus Point SMCA","P. interruptus","Den","Mainland",2,1,3,1,"LTER;PISCO","site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|GOLB;site|MOHK",TRUE,"With before-after coverage",TRUE,"Divers only",3
-"Campus Point SMCA","S. pulcher","Bio","Mainland",2,2,11,4,"LTER;PISCO","site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|CARP_REEF;site|GOLB;site|LEAD_BETTER_BEACH;site|MOHK",TRUE,"With before-after coverage",FALSE,"Divers only",3
-"Campus Point SMCA","S. pulcher","Den","Mainland",2,2,11,4,"LTER;PISCO","site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|CARP_REEF;site|GOLB;site|LEAD_BETTER_BEACH;site|MOHK",TRUE,"With before-after coverage",FALSE,"Divers only",3
+"Campus Point SMCA","S. pulcher","Bio","Mainland",2,2,11,3,"LTER;PISCO","site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|GOLB;site|MOHK",TRUE,"With before-after coverage",FALSE,"Divers only",3
+"Campus Point SMCA","S. pulcher","Den","Mainland",2,2,11,3,"LTER;PISCO","site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|GOLB;site|MOHK",TRUE,"With before-after coverage",FALSE,"Divers only",3
 "Campus Point SMCA","S. purpuratus","Bio","Mainland",1,0,2,2,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"Without sufficient before coverage",FALSE,"Divers only",3
 "Campus Point SMCA","S. purpuratus","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"Divers only",3
 "Farnsworth Onshore SMCA","S. pulcher","Bio","Islands",1,0,2,2,"PISCO","site|SCAI_SALTA_VERDE",TRUE,"Without sufficient before coverage",FALSE,"Divers only",3
@@ -267,8 +265,8 @@
 "Naples SMCA","M. pyrifera","Bio","Mainland",2,2,12,3,"LTER;PISCO","site|a-l-03;site|AQUE;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"Divers only",3
 "Naples SMCA","P. interruptus","Bio","Mainland",1,0,1,1,"LTER","site|a-l-03;site|AQUE",TRUE,"Without sufficient before coverage",FALSE,"Divers only",3
 "Naples SMCA","P. interruptus","Den","Mainland",2,1,3,1,"LTER;PISCO","site|a-l-03;site|AQUE;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",TRUE,"Divers only",3
-"Naples SMCA","S. pulcher","Bio","Mainland",2,2,12,4,"LTER;PISCO","site|a-l-03;site|AQUE;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"Divers only",3
-"Naples SMCA","S. pulcher","Den","Mainland",1,1,4,4,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"Divers only",3
+"Naples SMCA","S. pulcher","Bio","Mainland",2,2,12,3,"LTER;PISCO","site|a-l-03;site|AQUE;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"Divers only",3
+"Naples SMCA","S. pulcher","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"Divers only",3
 "Naples SMCA","S. purpuratus","Bio","Mainland",1,0,2,2,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"Without sufficient before coverage",FALSE,"Divers only",3
 "Naples SMCA","S. purpuratus","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"Divers only",3
 "Point Vicente SMCA","M. franciscanus","Bio","Mainland",1,1,4,4,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"Divers only",3
@@ -276,8 +274,8 @@
 "Point Vicente SMCA","M. pyrifera","Bio","Mainland",1,1,5,5,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"Divers only",3
 "Point Vicente SMCA","P. interruptus","Bio","Mainland",1,0,2,2,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"Without sufficient before coverage",FALSE,"Divers only",3
 "Point Vicente SMCA","P. interruptus","Den","Mainland",1,1,5,5,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"Divers only",3
-"Point Vicente SMCA","S. pulcher","Bio","Mainland",1,1,7,7,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"Divers only",3
-"Point Vicente SMCA","S. pulcher","Den","Mainland",1,1,7,7,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"Divers only",3
+"Point Vicente SMCA","S. pulcher","Bio","Mainland",1,1,3,3,"PISCO","site|HAWTHORNE_REEF;site|RIDGES_N",TRUE,"With before-after coverage",FALSE,"Divers only",3
+"Point Vicente SMCA","S. pulcher","Den","Mainland",1,1,3,3,"PISCO","site|HAWTHORNE_REEF;site|RIDGES_N",TRUE,"With before-after coverage",FALSE,"Divers only",3
 "Point Vicente SMCA","S. purpuratus","Bio","Mainland",1,1,4,4,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"Divers only",3
 "Point Vicente SMCA","S. purpuratus","Den","Mainland",1,1,5,5,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"Divers only",3
 "Santa Barbara Island SMR","M. pyrifera","Bio","Islands",1,1,18,18,"KFM","site|a-k-15;site|a-k-16",TRUE,"With before-after coverage",FALSE,"Divers only",3
@@ -327,8 +325,8 @@
 "Campus Point SMCA","M. pyrifera","Bio","Mainland",2,2,12,3,"LTER;PISCO","site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|GOLB;site|MOHK",TRUE,"With before-after coverage",FALSE,"Divers only",1
 "Campus Point SMCA","P. interruptus","Bio","Mainland",1,1,1,1,"LTER","site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|GOLB;site|MOHK",TRUE,"With before-after coverage",FALSE,"Divers only",1
 "Campus Point SMCA","P. interruptus","Den","Mainland",2,2,3,1,"LTER;PISCO","site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|GOLB;site|MOHK",TRUE,"With before-after coverage",FALSE,"Divers only",1
-"Campus Point SMCA","S. pulcher","Bio","Mainland",2,2,11,4,"LTER;PISCO","site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|CARP_REEF;site|GOLB;site|LEAD_BETTER_BEACH;site|MOHK",TRUE,"With before-after coverage",FALSE,"Divers only",1
-"Campus Point SMCA","S. pulcher","Den","Mainland",2,2,11,4,"LTER;PISCO","site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|CARP_REEF;site|GOLB;site|LEAD_BETTER_BEACH;site|MOHK",TRUE,"With before-after coverage",FALSE,"Divers only",1
+"Campus Point SMCA","S. pulcher","Bio","Mainland",2,2,11,3,"LTER;PISCO","site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|GOLB;site|MOHK",TRUE,"With before-after coverage",FALSE,"Divers only",1
+"Campus Point SMCA","S. pulcher","Den","Mainland",2,2,11,3,"LTER;PISCO","site|a-l-01;site|a-l-06;site|a-l-08;site|ABUR;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|GOLB;site|MOHK",TRUE,"With before-after coverage",FALSE,"Divers only",1
 "Campus Point SMCA","S. purpuratus","Bio","Mainland",1,1,2,2,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"Divers only",1
 "Campus Point SMCA","S. purpuratus","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"Divers only",1
 "Farnsworth Onshore SMCA","S. pulcher","Bio","Islands",1,1,2,2,"PISCO","site|SCAI_SALTA_VERDE",TRUE,"With before-after coverage",FALSE,"Divers only",1
@@ -363,8 +361,8 @@
 "Naples SMCA","M. pyrifera","Bio","Mainland",2,2,12,3,"LTER;PISCO","site|a-l-03;site|AQUE;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"Divers only",1
 "Naples SMCA","P. interruptus","Bio","Mainland",1,1,1,1,"LTER","site|a-l-03;site|AQUE",TRUE,"With before-after coverage",FALSE,"Divers only",1
 "Naples SMCA","P. interruptus","Den","Mainland",2,2,3,1,"LTER;PISCO","site|a-l-03;site|AQUE;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"Divers only",1
-"Naples SMCA","S. pulcher","Bio","Mainland",2,2,12,4,"LTER;PISCO","site|a-l-03;site|AQUE;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"Divers only",1
-"Naples SMCA","S. pulcher","Den","Mainland",1,1,4,4,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"Divers only",1
+"Naples SMCA","S. pulcher","Bio","Mainland",2,2,12,3,"LTER;PISCO","site|a-l-03;site|AQUE;site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"Divers only",1
+"Naples SMCA","S. pulcher","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"Divers only",1
 "Naples SMCA","S. purpuratus","Bio","Mainland",1,1,2,2,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"Divers only",1
 "Naples SMCA","S. purpuratus","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"Divers only",1
 "Point Vicente SMCA","M. franciscanus","Bio","Mainland",1,1,4,4,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"Divers only",1
@@ -372,8 +370,8 @@
 "Point Vicente SMCA","M. pyrifera","Bio","Mainland",1,1,5,5,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"Divers only",1
 "Point Vicente SMCA","P. interruptus","Bio","Mainland",1,1,2,2,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"Divers only",1
 "Point Vicente SMCA","P. interruptus","Den","Mainland",1,1,5,5,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"Divers only",1
-"Point Vicente SMCA","S. pulcher","Bio","Mainland",1,1,7,7,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"Divers only",1
-"Point Vicente SMCA","S. pulcher","Den","Mainland",1,1,7,7,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"Divers only",1
+"Point Vicente SMCA","S. pulcher","Bio","Mainland",1,1,3,3,"PISCO","site|HAWTHORNE_REEF;site|RIDGES_N",TRUE,"With before-after coverage",FALSE,"Divers only",1
+"Point Vicente SMCA","S. pulcher","Den","Mainland",1,1,3,3,"PISCO","site|HAWTHORNE_REEF;site|RIDGES_N",TRUE,"With before-after coverage",FALSE,"Divers only",1
 "Point Vicente SMCA","S. purpuratus","Bio","Mainland",1,1,4,4,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"Divers only",1
 "Point Vicente SMCA","S. purpuratus","Den","Mainland",1,1,5,5,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"Divers only",1
 "Santa Barbara Island SMR","M. pyrifera","Bio","Islands",1,1,18,18,"KFM","site|a-k-15;site|a-k-16",TRUE,"With before-after coverage",FALSE,"Divers only",1
@@ -410,11 +408,9 @@
 "Point Dume SMCA","M. pyrifera","Bio","Mainland",1,1,28,28,"Landsat","polygon-label|Point Dume SMCA",FALSE,"With before-after coverage",FALSE,"Landsat only",3
 "Point Dume SMR","M. pyrifera","Bio","Mainland",1,1,28,28,"Landsat","polygon-label|Point Dume SMR",FALSE,"With before-after coverage",FALSE,"Landsat only",3
 "Point Vicente SMCA","M. pyrifera","Bio","Mainland",1,1,26,26,"Landsat","polygon-label|Point Vicente SMCA",FALSE,"With before-after coverage",FALSE,"Landsat only",3
-"Santa Barbara Island SMR","M. pyrifera","Bio","Islands",1,1,19,19,"Landsat","polygon-label|Santa Barbara Island SMR",FALSE,"With before-after coverage",FALSE,"Landsat only",3
 "Skunk Pt SMR","M. pyrifera","Bio","Islands",1,1,18,18,"Landsat","polygon-label|Skunk Pt SMR",FALSE,"With before-after coverage",FALSE,"Landsat only",3
 "South La Jolla SMR","M. pyrifera","Bio","Mainland",1,1,26,26,"Landsat","polygon-label|South La Jolla SMR",FALSE,"With before-after coverage",FALSE,"Landsat only",3
 "South Point SMR","M. pyrifera","Bio","Islands",1,1,19,19,"Landsat","polygon-label|South Point SMR",FALSE,"With before-after coverage",FALSE,"Landsat only",3
-"Swamis SMCA","M. pyrifera","Bio","Mainland",1,1,28,28,"Landsat","polygon-label|Swamis SMCA",FALSE,"With before-after coverage",FALSE,"Landsat only",3
 "Abalone Cove SMCA","M. pyrifera","Bio","Mainland",1,1,27,27,"Landsat","polygon-label|Abalone Cove SMCA",FALSE,"With before-after coverage",FALSE,"Landsat only",1
 "Cabrillo SMR","M. pyrifera","Bio","Mainland",1,1,25,25,"Landsat","polygon-label|Cabrillo SMR",FALSE,"With before-after coverage",FALSE,"Landsat only",1
 "Campus Point SMCA","M. pyrifera","Bio","Mainland",1,1,28,28,"Landsat","polygon-label|Campus Point SMCA",FALSE,"With before-after coverage",FALSE,"Landsat only",1
@@ -426,11 +422,9 @@
 "Point Dume SMCA","M. pyrifera","Bio","Mainland",1,1,28,28,"Landsat","polygon-label|Point Dume SMCA",FALSE,"With before-after coverage",FALSE,"Landsat only",1
 "Point Dume SMR","M. pyrifera","Bio","Mainland",1,1,28,28,"Landsat","polygon-label|Point Dume SMR",FALSE,"With before-after coverage",FALSE,"Landsat only",1
 "Point Vicente SMCA","M. pyrifera","Bio","Mainland",1,1,26,26,"Landsat","polygon-label|Point Vicente SMCA",FALSE,"With before-after coverage",FALSE,"Landsat only",1
-"Santa Barbara Island SMR","M. pyrifera","Bio","Islands",1,1,19,19,"Landsat","polygon-label|Santa Barbara Island SMR",FALSE,"With before-after coverage",FALSE,"Landsat only",1
 "Skunk Pt SMR","M. pyrifera","Bio","Islands",1,1,18,18,"Landsat","polygon-label|Skunk Pt SMR",FALSE,"With before-after coverage",FALSE,"Landsat only",1
 "South La Jolla SMR","M. pyrifera","Bio","Mainland",1,1,26,26,"Landsat","polygon-label|South La Jolla SMR",FALSE,"With before-after coverage",FALSE,"Landsat only",1
 "South Point SMR","M. pyrifera","Bio","Islands",1,1,19,19,"Landsat","polygon-label|South Point SMR",FALSE,"With before-after coverage",FALSE,"Landsat only",1
-"Swamis SMCA","M. pyrifera","Bio","Mainland",1,1,28,28,"Landsat","polygon-label|Swamis SMCA",FALSE,"With before-after coverage",FALSE,"Landsat only",1
 "Abalone Cove SMCA","M. franciscanus","Bio","Mainland",1,0,2,2,"PISCO","site|3_PALMS_EAST;site|BUNKER_POINT;site|POINT_FERMIN;site|WHITES_POINT",TRUE,"Without sufficient before coverage",FALSE,"PISCO only",3
 "Abalone Cove SMCA","M. franciscanus","Den","Mainland",1,0,2,2,"PISCO","site|3_PALMS_EAST;site|BUNKER_POINT;site|POINT_FERMIN;site|WHITES_POINT",TRUE,"Without sufficient before coverage",FALSE,"PISCO only",3
 "Abalone Cove SMCA","M. pyrifera","Bio","Mainland",1,0,2,2,"PISCO","site|3_PALMS_EAST;site|BUNKER_POINT;site|POINT_FERMIN;site|WHITES_POINT",TRUE,"Without sufficient before coverage",FALSE,"PISCO only",3
@@ -452,8 +446,8 @@
 "Campus Point SMCA","M. franciscanus","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",3
 "Campus Point SMCA","M. pyrifera","Bio","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",3
 "Campus Point SMCA","P. interruptus","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",3
-"Campus Point SMCA","S. pulcher","Bio","Mainland",1,1,4,4,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|CARP_REEF;site|LEAD_BETTER_BEACH",TRUE,"With before-after coverage",FALSE,"PISCO only",3
-"Campus Point SMCA","S. pulcher","Den","Mainland",1,1,4,4,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|CARP_REEF;site|LEAD_BETTER_BEACH",TRUE,"With before-after coverage",FALSE,"PISCO only",3
+"Campus Point SMCA","S. pulcher","Bio","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",3
+"Campus Point SMCA","S. pulcher","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",3
 "Campus Point SMCA","S. purpuratus","Bio","Mainland",1,0,2,2,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"Without sufficient before coverage",FALSE,"PISCO only",3
 "Campus Point SMCA","S. purpuratus","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",3
 "Farnsworth Onshore SMCA","S. pulcher","Bio","Islands",1,0,2,2,"PISCO","site|SCAI_SALTA_VERDE",TRUE,"Without sufficient before coverage",FALSE,"PISCO only",3
@@ -487,8 +481,8 @@
 "Naples SMCA","M. franciscanus","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",3
 "Naples SMCA","M. pyrifera","Bio","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",3
 "Naples SMCA","P. interruptus","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",3
-"Naples SMCA","S. pulcher","Bio","Mainland",1,1,4,4,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",3
-"Naples SMCA","S. pulcher","Den","Mainland",1,1,4,4,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",3
+"Naples SMCA","S. pulcher","Bio","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",3
+"Naples SMCA","S. pulcher","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",3
 "Naples SMCA","S. purpuratus","Bio","Mainland",1,0,2,2,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"Without sufficient before coverage",FALSE,"PISCO only",3
 "Naples SMCA","S. purpuratus","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",3
 "Point Vicente SMCA","M. franciscanus","Bio","Mainland",1,1,4,4,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"PISCO only",3
@@ -496,8 +490,8 @@
 "Point Vicente SMCA","M. pyrifera","Bio","Mainland",1,1,5,5,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"PISCO only",3
 "Point Vicente SMCA","P. interruptus","Bio","Mainland",1,0,2,2,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"Without sufficient before coverage",FALSE,"PISCO only",3
 "Point Vicente SMCA","P. interruptus","Den","Mainland",1,1,5,5,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"PISCO only",3
-"Point Vicente SMCA","S. pulcher","Bio","Mainland",1,1,7,7,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"PISCO only",3
-"Point Vicente SMCA","S. pulcher","Den","Mainland",1,1,7,7,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"PISCO only",3
+"Point Vicente SMCA","S. pulcher","Bio","Mainland",1,1,3,3,"PISCO","site|HAWTHORNE_REEF;site|RIDGES_N",TRUE,"With before-after coverage",FALSE,"PISCO only",3
+"Point Vicente SMCA","S. pulcher","Den","Mainland",1,1,3,3,"PISCO","site|HAWTHORNE_REEF;site|RIDGES_N",TRUE,"With before-after coverage",FALSE,"PISCO only",3
 "Point Vicente SMCA","S. purpuratus","Bio","Mainland",1,1,4,4,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"PISCO only",3
 "Point Vicente SMCA","S. purpuratus","Den","Mainland",1,1,5,5,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"PISCO only",3
 "Santa Barbara Island SMR","S. pulcher","Bio","Islands",1,0,0,0,"PISCO","site|SBI_ARCH_POINT;site|SBI_ARCH_POINT_CEN;site|SBI_ARCH_POINT_S;site|SBI_CAT_CANYON;site|SBI_CAT_CANYON_CEN;site|SBI_WEBSTERS_ARCH_CEN;site|SBI_WEBSTERS_ARCH_E;site|SBI_WEBSTERS_ARCH_N",TRUE,"Without sufficient before coverage",FALSE,"PISCO only",3
@@ -541,8 +535,8 @@
 "Campus Point SMCA","M. franciscanus","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",1
 "Campus Point SMCA","M. pyrifera","Bio","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",1
 "Campus Point SMCA","P. interruptus","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",1
-"Campus Point SMCA","S. pulcher","Bio","Mainland",1,1,4,4,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|CARP_REEF;site|LEAD_BETTER_BEACH",TRUE,"With before-after coverage",FALSE,"PISCO only",1
-"Campus Point SMCA","S. pulcher","Den","Mainland",1,1,4,4,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W;site|CARP_REEF;site|LEAD_BETTER_BEACH",TRUE,"With before-after coverage",FALSE,"PISCO only",1
+"Campus Point SMCA","S. pulcher","Bio","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",1
+"Campus Point SMCA","S. pulcher","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",1
 "Campus Point SMCA","S. purpuratus","Bio","Mainland",1,1,2,2,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",1
 "Campus Point SMCA","S. purpuratus","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",1
 "Farnsworth Onshore SMCA","S. pulcher","Bio","Islands",1,1,2,2,"PISCO","site|SCAI_SALTA_VERDE",TRUE,"With before-after coverage",FALSE,"PISCO only",1
@@ -576,8 +570,8 @@
 "Naples SMCA","M. franciscanus","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",1
 "Naples SMCA","M. pyrifera","Bio","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",1
 "Naples SMCA","P. interruptus","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",1
-"Naples SMCA","S. pulcher","Bio","Mainland",1,1,4,4,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",1
-"Naples SMCA","S. pulcher","Den","Mainland",1,1,4,4,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",1
+"Naples SMCA","S. pulcher","Bio","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",1
+"Naples SMCA","S. pulcher","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",1
 "Naples SMCA","S. purpuratus","Bio","Mainland",1,1,2,2,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",1
 "Naples SMCA","S. purpuratus","Den","Mainland",1,1,3,3,"PISCO","site|ARROYO_QUEMADO_E;site|ARROYO_QUEMADO_W",TRUE,"With before-after coverage",FALSE,"PISCO only",1
 "Point Vicente SMCA","M. franciscanus","Bio","Mainland",1,1,4,4,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"PISCO only",1
@@ -585,8 +579,8 @@
 "Point Vicente SMCA","M. pyrifera","Bio","Mainland",1,1,5,5,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"PISCO only",1
 "Point Vicente SMCA","P. interruptus","Bio","Mainland",1,1,2,2,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"PISCO only",1
 "Point Vicente SMCA","P. interruptus","Den","Mainland",1,1,5,5,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"PISCO only",1
-"Point Vicente SMCA","S. pulcher","Bio","Mainland",1,1,7,7,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"PISCO only",1
-"Point Vicente SMCA","S. pulcher","Den","Mainland",1,1,7,7,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"PISCO only",1
+"Point Vicente SMCA","S. pulcher","Bio","Mainland",1,1,3,3,"PISCO","site|HAWTHORNE_REEF;site|RIDGES_N",TRUE,"With before-after coverage",FALSE,"PISCO only",1
+"Point Vicente SMCA","S. pulcher","Den","Mainland",1,1,3,3,"PISCO","site|HAWTHORNE_REEF;site|RIDGES_N",TRUE,"With before-after coverage",FALSE,"PISCO only",1
 "Point Vicente SMCA","S. purpuratus","Bio","Mainland",1,1,4,4,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"PISCO only",1
 "Point Vicente SMCA","S. purpuratus","Den","Mainland",1,1,5,5,"PISCO","site|FLAT_ROCK_N;site|HAWTHORNE_REEF;site|LUNADA_BAY;site|RESORT_POINT;site|RIDGES_N;site|RIDGES_S;site|ROCKY_POINT_N;site|ROCKY_POINT_S;site|UNDERWATER_ARCH",TRUE,"With before-after coverage",FALSE,"PISCO only",1
 "Santa Barbara Island SMR","S. pulcher","Bio","Islands",1,0,0,0,"PISCO","site|SBI_ARCH_POINT;site|SBI_ARCH_POINT_CEN;site|SBI_ARCH_POINT_S;site|SBI_CAT_CANYON;site|SBI_CAT_CANYON_CEN;site|SBI_WEBSTERS_ARCH_CEN;site|SBI_WEBSTERS_ARCH_E;site|SBI_WEBSTERS_ARCH_N",TRUE,"Without sufficient before coverage",FALSE,"PISCO only",1

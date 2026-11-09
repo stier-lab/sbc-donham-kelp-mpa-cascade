@@ -1,0 +1,209 @@
+Source,Taxa,Resp,model,term,scenario,full_main,matched_main,omission,coverage_change,reference_change,total_change
+KFM,M. franciscanus,Den,post_trend,recovery_slope,without_wyckoff,-0.0770965260758533,-0.1024631131156189,-0.1024631131156189,-0.025366587039765603,0.0,-0.025366587039765603
+PISCO,S. purpuratus,Den,flat_before_after,level_change,without_wyckoff,0.1561455833557755,0.1561455833557755,0.1561455833557755,0.0,0.0,0.0
+All programs,S. purpuratus,Den,pretrend_sensitivity,slope_change,without_wyckoff,-0.3425385190060248,-0.3861169100730718,-0.3861169100730718,-0.04357839106704703,0.0,-0.04357839106704703
+PISCO,M. franciscanus,Den,flat_before_after,average_observed_post_change,without_wyckoff,-0.1827573528981887,-0.1827573528981887,-0.1827573528981887,0.0,0.0,0.0
+All programs,S. pulcher,Den,pretrend_sensitivity,slope_change,without_wyckoff,0.0300371618586308,0.0480770343997997,0.0480770343997997,0.018039872541168896,0.0,0.018039872541168896
+All programs,S. pulcher,Bio,pretrend_sensitivity,level_change,without_wyckoff,-0.113129451111007,-0.113129451111007,-0.113129451111007,0.0,0.0,0.0
+All programs,S. purpuratus,Den,flat_before_after,level_change,without_wyckoff,0.1670744169559248,0.1992819967774475,0.1992819967774475,0.032207579821522725,0.0,0.032207579821522725
+All programs,M. pyrifera,Bio,post_trend,recovery_slope,without_wyckoff,0.1561390475107055,0.1530249236451674,0.1530249236451674,-0.00311412386553811,0.0,-0.00311412386553811
+KFM,S. purpuratus,Bio,post_trend,recovery_slope,without_wyckoff,-0.0867912451682797,-0.0898656321697163,-0.0898656321697163,-0.0030743870014365987,0.0,-0.0030743870014365987
+All programs,S. pulcher,Den,flat_before_after,level_change,without_wyckoff,0.5401648707019839,0.4531922722401664,0.4531922722401664,-0.08697259846181754,0.0,-0.08697259846181754
+KFM,S. pulcher,Den,post_trend,recovery_slope,without_wyckoff,-0.0296728902564624,-0.0157668740700528,-0.0056344429680114,0.0139060161864096,0.0101324311020414,0.024038447288451
+All programs,M. franciscanus,Den,flat_before_after,recovery_slope,without_wyckoff,-0.044035883547865,-0.0456502051214898,-0.0456502051214898,-0.0016143215736247954,0.0,-0.0016143215736247954
+PISCO,M. pyrifera,Bio,pretrend_sensitivity,level_change,without_wyckoff,0.1300913059986385,0.1300913059986385,0.1300913059986385,0.0,0.0,0.0
+PISCO,P. interruptus,Den,flat_before_after,recovery_slope,without_wyckoff,0.1228276407653696,0.1228276407653696,0.1228276407653696,0.0,0.0,0.0
+Landsat,M. pyrifera,Bio,flat_before_after,level_change,without_wyckoff,-0.0333766388153644,-0.0333766388153644,-0.0333766388153644,0.0,0.0,0.0
+PISCO,M. franciscanus,Den,post_trend,recovery_slope,without_wyckoff,-0.0841354306611158,-0.0841354306611158,-0.0841354306611158,0.0,0.0,0.0
+PISCO,S. pulcher,Den,pretrend_sensitivity,level_change,without_wyckoff,0.9975347141562476,0.9975347141562476,0.9975347141562476,0.0,0.0,0.0
+All programs,M. franciscanus,Den,post_trend,recovery_slope,without_wyckoff,-0.1011710960416683,-0.1070908623735602,-0.1070908623735602,-0.00591976633189191,0.0,-0.00591976633189191
+Landsat,M. pyrifera,Bio,pretrend_sensitivity,average_observed_post_change,without_wyckoff,0.9153791383866688,0.9153791383866688,0.9153791383866688,0.0,0.0,0.0
+All programs,P. interruptus,Den,pretrend_sensitivity,slope_change,without_wyckoff,-0.0098664077353678,0.055323203604603,0.055323203604603,0.0651896113399708,0.0,0.0651896113399708
+PISCO,S. purpuratus,Den,pretrend_sensitivity,average_observed_post_change,without_wyckoff,-0.796670787950516,-0.796670787950516,-0.796670787950516,0.0,0.0,0.0
+PISCO,S. pulcher,Den,pretrend_sensitivity,slope_change,without_wyckoff,0.0810755107369779,0.0810755107369779,0.0810755107369779,0.0,0.0,0.0
+All programs,M. franciscanus,Den,flat_before_after,average_observed_post_change,without_wyckoff,-0.0607320787027872,0.0382834059576016,0.0382834059576016,0.0990154846603888,0.0,0.0990154846603888
+KFM,M. pyrifera,Bio,post_trend,recovery_slope,without_wyckoff,0.1363891804625133,0.1622325908536748,0.1622325908536748,0.025843410391161503,0.0,0.025843410391161503
+All programs,P. interruptus,Bio,post_trend,recovery_slope,without_wyckoff,0.0605262193997445,0.0605262193997445,0.0605262193997445,0.0,0.0,0.0
+PISCO,S. pulcher,Bio,pretrend_sensitivity,level_change,without_wyckoff,0.6915901201569209,0.6915901201569209,0.6915901201569209,0.0,0.0,0.0
+PISCO,S. purpuratus,Den,flat_before_after,recovery_slope,without_wyckoff,-0.1294842143779529,-0.1294842143779529,-0.1294842143779529,0.0,0.0,0.0
+PISCO,M. franciscanus,Den,pretrend_sensitivity,level_change,without_wyckoff,-0.3787631785274822,-0.3787631785274822,-0.3787631785274822,0.0,0.0,0.0
+All programs,P. interruptus,Den,pretrend_sensitivity,average_observed_post_change,without_wyckoff,0.1469485462952441,0.9469145338994184,0.9469145338994184,0.7999659876041743,0.0,0.7999659876041743
+PISCO,P. interruptus,Den,flat_before_after,average_observed_post_change,without_wyckoff,1.2658130528901124,1.2658130528901124,1.2658130528901124,0.0,0.0,0.0
+All programs,S. purpuratus,Den,pretrend_sensitivity,average_observed_post_change,without_wyckoff,-2.181486495198916,-2.5421035491926727,-2.5421035491926727,-0.36061705399375654,0.0,-0.36061705399375654
+PISCO,S. pulcher,Den,flat_before_after,level_change,without_wyckoff,0.5178079990257951,0.5178079990257951,0.5178079990257951,0.0,0.0,0.0
+All programs,S. purpuratus,Den,flat_before_after,recovery_slope,without_wyckoff,-0.1076068270758891,-0.1133735429494607,-0.1133735429494607,-0.005766715873571596,0.0,-0.005766715873571596
+PISCO,S. pulcher,Bio,pretrend_sensitivity,slope_change,without_wyckoff,-0.1198610248194919,-0.1198610248194919,-0.1198610248194919,0.0,0.0,0.0
+PISCO,M. franciscanus,Den,pretrend_sensitivity,slope_change,without_wyckoff,-0.3187324935271007,-0.3187324935271007,-0.3187324935271007,0.0,0.0,0.0
+All programs,S. pulcher,Den,pretrend_sensitivity,average_observed_post_change,without_wyckoff,1.1387698144642175,1.1413100991212453,1.1413100991212453,0.0025402846570277138,0.0,0.0025402846570277138
+All programs,S. pulcher,Den,flat_before_after,recovery_slope,without_wyckoff,-0.0613274369965852,-0.0393170493503813,-0.0393170493503813,0.022010387646203902,0.0,0.022010387646203902
+All programs,S. pulcher,Bio,pretrend_sensitivity,slope_change,without_wyckoff,-0.3508029661806318,-0.3508029661806318,-0.3508029661806318,0.0,0.0,0.0
+KFM,P. interruptus,Den,post_trend,recovery_slope,without_wyckoff,0.0183094599230864,0.10539459005626,0.10539459005626,0.08708513013317361,0.0,0.08708513013317361
+PISCO,S. purpuratus,Den,flat_before_after,average_observed_post_change,without_wyckoff,-0.6856030219299861,-0.6856030219299861,-0.6856030219299861,0.0,0.0,0.0
+All programs,S. pulcher,Bio,flat_before_after,level_change,without_wyckoff,0.7254028281481657,0.7254028281481657,0.7254028281481657,0.0,0.0,0.0
+All programs,M. pyrifera,Bio,pretrend_sensitivity,level_change,without_wyckoff,-0.050996121721971,-0.1685689379823363,-0.1685689379823363,-0.1175728162603653,0.0,-0.1175728162603653
+PISCO,S. pulcher,Bio,flat_before_after,level_change,without_wyckoff,0.7250110348427334,0.7250110348427334,0.7250110348427334,0.0,0.0,0.0
+Landsat,M. pyrifera,Bio,flat_before_after,recovery_slope,without_wyckoff,0.0789492402609929,0.0789492402609929,0.0789492402609929,0.0,0.0,0.0
+All programs,S. pulcher,Bio,pretrend_sensitivity,average_observed_post_change,without_wyckoff,-2.206604173518234,-2.206604173518234,-2.206604173518234,0.0,0.0,0.0
+PISCO,P. interruptus,Den,post_trend,recovery_slope,without_wyckoff,0.0641159541910412,0.0641159541910412,0.0641159541910412,0.0,0.0,0.0
+All programs,S. purpuratus,Den,flat_before_after,average_observed_post_change,without_wyckoff,-0.5638449867743516,-0.5634077839899923,-0.5634077839899923,0.00043720278435932514,0.0,0.00043720278435932514
+All programs,M. pyrifera,Bio,pretrend_sensitivity,slope_change,without_wyckoff,0.0147610895422924,0.0055985460345859,0.0055985460345859,-0.0091625435077065,0.0,-0.0091625435077065
+All programs,M. franciscanus,Bio,post_trend,recovery_slope,without_wyckoff,-0.1414529769804641,-0.1293543795000306,-0.1293543795000306,0.012098597480433515,0.0,0.012098597480433515
+Landsat,M. pyrifera,Bio,post_trend,recovery_slope,without_wyckoff,0.0781338287314247,0.0781338287314247,0.0781338287314247,0.0,0.0,0.0
+PISCO,M. pyrifera,Bio,pretrend_sensitivity,slope_change,without_wyckoff,0.0825362076740492,0.0825362076740492,0.0825362076740492,0.0,0.0,0.0
+All programs,S. pulcher,Den,flat_before_after,average_observed_post_change,without_wyckoff,0.1494952038943196,0.2894850740623409,0.2894850740623409,0.1399898701680213,0.0,0.1399898701680213
+All programs,M. franciscanus,Den,pretrend_sensitivity,level_change,without_wyckoff,0.0189883541143253,0.2366881918332614,0.2366881918332614,0.21769983771893608,0.0,0.21769983771893608
+All programs,P. interruptus,Den,flat_before_after,recovery_slope,without_wyckoff,0.091580719227756,0.1371623356286422,0.1371623356286422,0.04558161640088619,0.0,0.04558161640088619
+All programs,P. interruptus,Den,flat_before_after,level_change,without_wyckoff,0.57158384974623,0.622196758205124,0.622196758205124,0.05061290845889399,0.0,0.05061290845889399
+PISCO,P. interruptus,Bio,post_trend,recovery_slope,without_wyckoff,-0.0342327377910946,-0.0342327377910946,-0.0342327377910946,0.0,0.0,0.0
+PISCO,S. purpuratus,Den,post_trend,recovery_slope,without_wyckoff,-0.1316520353463062,-0.1316520353463061,-0.1316520353463061,1.1102230246251565e-16,0.0,1.1102230246251565e-16
+All programs,M. pyrifera,Bio,flat_before_after,level_change,without_wyckoff,0.2173129182544346,0.1563866086043534,0.1563866086043534,-0.060926309650081195,0.0,-0.060926309650081195
+PISCO,M. pyrifera,Bio,pretrend_sensitivity,average_observed_post_change,without_wyckoff,0.6716701791033282,0.6716701791033282,0.6716701791033282,0.0,0.0,0.0
+Landsat,M. pyrifera,Bio,flat_before_after,average_observed_post_change,without_wyckoff,0.4873436516180025,0.4873436516180025,0.4873436516180025,0.0,0.0,0.0
+PISCO,S. pulcher,Den,pretrend_sensitivity,average_observed_post_change,without_wyckoff,0.8501051594417616,0.8501051594417616,0.8501051594417616,0.0,0.0,0.0
+PISCO,S. pulcher,Den,flat_before_after,recovery_slope,without_wyckoff,-0.0527531581917541,-0.0527531581917541,-0.0527531581917541,0.0,0.0,0.0
+PISCO,M. pyrifera,Bio,post_trend,recovery_slope,without_wyckoff,0.1145617437332291,0.1145617437332291,0.1145617437332291,0.0,0.0,0.0
+PISCO,M. franciscanus,Den,flat_before_after,level_change,without_wyckoff,-0.1133984746527592,-0.1133984746527592,-0.1133984746527592,0.0,0.0,0.0
+All programs,P. interruptus,Den,flat_before_after,average_observed_post_change,without_wyckoff,1.1919065220147151,1.656744861836237,1.656744861836237,0.4648383398215219,0.0,0.4648383398215219
+PISCO,S. pulcher,Bio,pretrend_sensitivity,average_observed_post_change,without_wyckoff,-0.4963546116377366,-0.4963546116377366,-0.4963546116377366,0.0,0.0,0.0
+All programs,S. pulcher,Bio,flat_before_after,recovery_slope,without_wyckoff,-0.181407709732801,-0.181407709732801,-0.181407709732801,0.0,0.0,0.0
+PISCO,M. franciscanus,Den,pretrend_sensitivity,average_observed_post_change,without_wyckoff,-2.549520182644886,-2.549520182644886,-2.549520182644886,0.0,0.0,0.0
+PISCO,S. pulcher,Bio,flat_before_after,recovery_slope,without_wyckoff,-0.0687087898173624,-0.0687087898173624,-0.0687087898173624,0.0,0.0,0.0
+KFM,M. franciscanus,Bio,post_trend,recovery_slope,without_wyckoff,-0.1046198850812844,-0.0684600618074878,-0.0684600618074878,0.036159823273796604,0.0,0.036159823273796604
+All programs,S. purpuratus,Bio,post_trend,recovery_slope,without_wyckoff,-0.0717060924615062,-0.0719406691614251,-0.0719406691614251,-0.00023457669991890084,0.0,-0.00023457669991890084
+KFM,S. purpuratus,Den,post_trend,recovery_slope,without_wyckoff,-0.0606358178518892,-0.0870845562237165,-0.0870845562237165,-0.026448738371827298,0.0,-0.026448738371827298
+PISCO,S. pulcher,Den,flat_before_after,average_observed_post_change,without_wyckoff,0.1821798713910103,0.1821798713910103,0.1821798713910103,0.0,0.0,0.0
+All programs,S. pulcher,Bio,post_trend,recovery_slope,without_wyckoff,-0.1451865724174612,-0.1451865724174612,-0.1451865724174612,0.0,0.0,0.0
+PISCO,P. interruptus,Den,pretrend_sensitivity,level_change,without_wyckoff,-0.1567537047687303,-0.1567537047687303,-0.1567537047687303,0.0,0.0,0.0
+PISCO,M. pyrifera,Bio,flat_before_after,recovery_slope,without_wyckoff,0.0173156399092452,0.0173156399092452,0.0173156399092452,0.0,0.0,0.0
+PISCO,M. pyrifera,Bio,flat_before_after,level_change,without_wyckoff,0.0494096039751446,0.0494096039751446,0.0494096039751446,0.0,0.0,0.0
+All programs,S. pulcher,Bio,flat_before_after,average_observed_post_change,without_wyckoff,-0.3424129612294304,-0.3424129612294304,-0.3424129612294304,0.0,0.0,0.0
+All programs,M. pyrifera,Bio,pretrend_sensitivity,average_observed_post_change,without_wyckoff,0.0912090300498928,-0.0947642693217637,-0.0947642693217637,-0.1859732993716565,0.0,-0.1859732993716565
+PISCO,S. pulcher,Bio,flat_before_after,average_observed_post_change,without_wyckoff,0.399274048011585,0.399274048011585,0.399274048011585,0.0,0.0,0.0
+All programs,P. interruptus,Den,post_trend,recovery_slope,without_wyckoff,0.0683026106195398,0.0987409441004981,0.0987409441004981,0.0304383334809583,0.0,0.0304383334809583
+All programs,M. pyrifera,Bio,flat_before_after,recovery_slope,without_wyckoff,0.1652330438379988,0.1655857399148718,0.1655857399148718,0.00035269607687299365,0.0,0.00035269607687299365
+Landsat,M. pyrifera,Bio,pretrend_sensitivity,level_change,without_wyckoff,0.2697405581377951,0.2697405581377951,0.2697405581377951,0.0,0.0,0.0
+PISCO,P. interruptus,Den,pretrend_sensitivity,slope_change,without_wyckoff,-0.0770369326534547,-0.0770369326534547,-0.0770369326534547,0.0,0.0,0.0
+PISCO,S. purpuratus,Bio,post_trend,recovery_slope,without_wyckoff,-0.0340690075896328,-0.0340690075896328,-0.0340690075896328,0.0,0.0,0.0
+PISCO,M. franciscanus,Bio,post_trend,recovery_slope,without_wyckoff,-0.2310453609580108,-0.2310453609580108,-0.2310453609580108,0.0,0.0,0.0
+All programs,M. franciscanus,Den,pretrend_sensitivity,slope_change,without_wyckoff,-0.2356078757561824,-0.2407133039608122,-0.2407133039608122,-0.005105428204629808,0.0,-0.005105428204629808
+PISCO,S. purpuratus,Den,pretrend_sensitivity,level_change,without_wyckoff,0.7825207352926422,0.7825207352926422,0.7825207352926422,0.0,0.0,0.0
+All programs,M. franciscanus,Den,flat_before_after,level_change,without_wyckoff,0.2254261655398626,0.3198595453149077,0.3198595453149077,0.09443337977504507,0.0,0.09443337977504507
+PISCO,S. pulcher,Den,post_trend,recovery_slope,without_wyckoff,-0.0240040352516851,-0.0240040352516851,-0.0240040352516851,0.0,0.0,0.0
+Landsat,M. pyrifera,Bio,pretrend_sensitivity,slope_change,without_wyckoff,0.1004129587395082,0.1004129587395082,0.1004129587395082,0.0,0.0,0.0
+PISCO,P. interruptus,Den,pretrend_sensitivity,average_observed_post_change,without_wyckoff,-0.7972644591836231,-0.7972644591836231,-0.7972644591836231,0.0,0.0,0.0
+PISCO,M. franciscanus,Den,flat_before_after,recovery_slope,without_wyckoff,-0.0174446826624946,-0.0174446826624946,-0.0174446826624946,0.0,0.0,0.0
+All programs,S. purpuratus,Den,post_trend,recovery_slope,without_wyckoff,-0.1015357544695706,-0.1082576275152199,-0.1082576275152199,-0.006721873045649307,0.0,-0.006721873045649307
+All programs,M. franciscanus,Den,pretrend_sensitivity,average_observed_post_change,without_wyckoff,-1.419134591666018,-1.2388204119052526,-1.2388204119052526,0.18031417976076547,0.0,0.18031417976076547
+All programs,P. interruptus,Den,pretrend_sensitivity,level_change,without_wyckoff,0.2078095455356514,0.3919551029442902,0.3919551029442902,0.1841455574086388,0.0,0.1841455574086388
+PISCO,P. interruptus,Den,flat_before_after,level_change,without_wyckoff,0.5911348769063617,0.5911348769063617,0.5911348769063617,0.0,0.0,0.0
+PISCO,M. pyrifera,Bio,flat_before_after,average_observed_post_change,without_wyckoff,0.1908096303186284,0.1908096303186284,0.1908096303186284,0.0,0.0,0.0
+All programs,S. purpuratus,Den,pretrend_sensitivity,level_change,without_wyckoff,0.1178621527480635,0.1442127111877973,0.1442127111877973,0.0263505584397338,0.0,0.0263505584397338
+PISCO,S. purpuratus,Den,pretrend_sensitivity,slope_change,without_wyckoff,-0.1296499487873572,-0.1296499487873572,-0.1296499487873572,0.0,0.0,0.0
+All programs,S. pulcher,Den,post_trend,recovery_slope,without_wyckoff,-0.031617664389067,-0.0249181264796024,-0.0226869898695102,0.006699537909464596,0.0022311366100922006,0.008930674519556796
+All programs,M. pyrifera,Bio,flat_before_after,average_observed_post_change,without_wyckoff,1.33409382951735,1.366192740400822,1.366192740400822,0.032098910883472165,0.0,0.032098910883472165
+PISCO,S. pulcher,Bio,post_trend,recovery_slope,without_wyckoff,-0.0250143622822393,-0.0250143622822393,-0.0250143622822393,0.0,0.0,0.0
+All programs,S. pulcher,Den,pretrend_sensitivity,level_change,without_wyckoff,0.9032877932267684,0.7212756870975618,0.7212756870975618,-0.1820121061292066,0.0,-0.1820121061292066
+KFM,M. franciscanus,Den,post_trend,recovery_slope,without_flagged,-0.0770965260758533,-0.1024631131156189,-0.1024631131156189,-0.025366587039765603,0.0,-0.025366587039765603
+PISCO,S. purpuratus,Den,flat_before_after,level_change,without_flagged,0.1561455833557755,0.1561455833557755,0.1561455833557755,0.0,0.0,0.0
+All programs,S. purpuratus,Den,pretrend_sensitivity,slope_change,without_flagged,-0.3425385190060248,-0.3861169100730718,-0.3861169100730718,-0.04357839106704703,0.0,-0.04357839106704703
+PISCO,M. franciscanus,Den,flat_before_after,average_observed_post_change,without_flagged,-0.1827573528981887,-0.1827573528981887,-0.1827573528981887,0.0,0.0,0.0
+All programs,S. pulcher,Den,pretrend_sensitivity,slope_change,without_flagged,0.0300371618586308,0.0480770343997997,0.0411919332352396,0.018039872541168896,-0.006885101164560099,0.011154771376608797
+All programs,S. pulcher,Bio,pretrend_sensitivity,level_change,without_flagged,-0.113129451111007,-0.113129451111007,-0.113129451111007,0.0,0.0,0.0
+All programs,S. purpuratus,Den,flat_before_after,level_change,without_flagged,0.1670744169559248,0.1992819967774475,0.1992819967774475,0.032207579821522725,0.0,0.032207579821522725
+All programs,M. pyrifera,Bio,post_trend,recovery_slope,without_flagged,0.1561390475107055,0.1530249236451674,0.1530249236451674,-0.00311412386553811,0.0,-0.00311412386553811
+KFM,S. purpuratus,Bio,post_trend,recovery_slope,without_flagged,-0.0867912451682797,-0.0898656321697163,-0.0898656321697163,-0.0030743870014365987,0.0,-0.0030743870014365987
+All programs,S. pulcher,Den,flat_before_after,level_change,without_flagged,0.5401648707019839,0.4531922722401664,0.5454024064360123,-0.08697259846181754,0.09221013419584595,0.005237535734028409
+KFM,S. pulcher,Den,post_trend,recovery_slope,without_flagged,-0.0296728902564624,0.0232066734476011,0.0226031715479351,0.0528795637040635,-0.0006035018996660008,0.0522760618043975
+All programs,M. franciscanus,Den,flat_before_after,recovery_slope,without_flagged,-0.044035883547865,-0.0456502051214898,-0.0456502051214898,-0.0016143215736247954,0.0,-0.0016143215736247954
+PISCO,M. pyrifera,Bio,pretrend_sensitivity,level_change,without_flagged,0.1300913059986385,0.1300913059986385,0.1300913059986385,0.0,0.0,0.0
+PISCO,P. interruptus,Den,flat_before_after,recovery_slope,without_flagged,0.1228276407653696,0.1228276407653696,0.1228276407653696,0.0,0.0,0.0
+Landsat,M. pyrifera,Bio,flat_before_after,level_change,without_flagged,-0.0333766388153644,-0.0333766388153644,-0.0333766388153644,0.0,0.0,0.0
+PISCO,M. franciscanus,Den,post_trend,recovery_slope,without_flagged,-0.0841354306611158,-0.0841354306611158,-0.0841354306611158,0.0,0.0,0.0
+PISCO,S. pulcher,Den,pretrend_sensitivity,level_change,without_flagged,0.9975347141562476,0.9975347141562476,0.9975347141562476,0.0,0.0,0.0
+All programs,M. franciscanus,Den,post_trend,recovery_slope,without_flagged,-0.1011710960416683,-0.1070908623735602,-0.1070908623735602,-0.00591976633189191,0.0,-0.00591976633189191
+Landsat,M. pyrifera,Bio,pretrend_sensitivity,average_observed_post_change,without_flagged,0.9153791383866688,0.9153791383866688,0.9153791383866688,0.0,0.0,0.0
+All programs,P. interruptus,Den,pretrend_sensitivity,slope_change,without_flagged,-0.0098664077353678,0.055323203604603,0.055323203604603,0.0651896113399708,0.0,0.0651896113399708
+PISCO,S. purpuratus,Den,pretrend_sensitivity,average_observed_post_change,without_flagged,-0.796670787950516,-0.796670787950516,-0.796670787950516,0.0,0.0,0.0
+PISCO,S. pulcher,Den,pretrend_sensitivity,slope_change,without_flagged,0.0810755107369779,0.0810755107369779,0.0810755107369779,0.0,0.0,0.0
+All programs,M. franciscanus,Den,flat_before_after,average_observed_post_change,without_flagged,-0.0607320787027872,0.0382834059576016,0.0382834059576016,0.0990154846603888,0.0,0.0990154846603888
+KFM,M. pyrifera,Bio,post_trend,recovery_slope,without_flagged,0.1363891804625133,0.1622325908536748,0.1622325908536748,0.025843410391161503,0.0,0.025843410391161503
+All programs,P. interruptus,Bio,post_trend,recovery_slope,without_flagged,0.0605262193997445,0.0605262193997445,0.0605262193997445,0.0,0.0,0.0
+PISCO,S. pulcher,Bio,pretrend_sensitivity,level_change,without_flagged,0.6915901201569209,0.6915901201569209,0.6915901201569209,0.0,0.0,0.0
+PISCO,S. purpuratus,Den,flat_before_after,recovery_slope,without_flagged,-0.1294842143779529,-0.1294842143779529,-0.1294842143779529,0.0,0.0,0.0
+PISCO,M. franciscanus,Den,pretrend_sensitivity,level_change,without_flagged,-0.3787631785274822,-0.3787631785274822,-0.3787631785274822,0.0,0.0,0.0
+All programs,P. interruptus,Den,pretrend_sensitivity,average_observed_post_change,without_flagged,0.1469485462952441,0.9469145338994184,0.9469145338994184,0.7999659876041743,0.0,0.7999659876041743
+PISCO,P. interruptus,Den,flat_before_after,average_observed_post_change,without_flagged,1.2658130528901124,1.2658130528901124,1.2658130528901124,0.0,0.0,0.0
+All programs,S. purpuratus,Den,pretrend_sensitivity,average_observed_post_change,without_flagged,-2.181486495198916,-2.5421035491926727,-2.5421035491926727,-0.36061705399375654,0.0,-0.36061705399375654
+PISCO,S. pulcher,Den,flat_before_after,level_change,without_flagged,0.5178079990257951,0.5178079990257951,0.5178079990257951,0.0,0.0,0.0
+All programs,S. purpuratus,Den,flat_before_after,recovery_slope,without_flagged,-0.1076068270758891,-0.1133735429494607,-0.1133735429494607,-0.005766715873571596,0.0,-0.005766715873571596
+PISCO,S. pulcher,Bio,pretrend_sensitivity,slope_change,without_flagged,-0.1198610248194919,-0.1198610248194919,-0.1198610248194919,0.0,0.0,0.0
+PISCO,M. franciscanus,Den,pretrend_sensitivity,slope_change,without_flagged,-0.3187324935271007,-0.3187324935271007,-0.3187324935271007,0.0,0.0,0.0
+All programs,S. pulcher,Den,pretrend_sensitivity,average_observed_post_change,without_flagged,1.1387698144642175,1.1413100991212453,1.1147989161712788,0.0025402846570277138,-0.02651118294996646,-0.023970898292938747
+All programs,S. pulcher,Den,flat_before_after,recovery_slope,without_flagged,-0.0613274369965852,-0.0393170493503813,-0.041960663308845,0.022010387646203902,-0.0026436139584637003,0.019366773687740202
+All programs,S. pulcher,Bio,pretrend_sensitivity,slope_change,without_flagged,-0.3508029661806318,-0.3508029661806318,-0.3508029661806318,0.0,0.0,0.0
+KFM,P. interruptus,Den,post_trend,recovery_slope,without_flagged,0.0183094599230864,0.10539459005626,0.10539459005626,0.08708513013317361,0.0,0.08708513013317361
+PISCO,S. purpuratus,Den,flat_before_after,average_observed_post_change,without_flagged,-0.6856030219299861,-0.6856030219299861,-0.6856030219299861,0.0,0.0,0.0
+All programs,S. pulcher,Bio,flat_before_after,level_change,without_flagged,0.7254028281481657,0.7254028281481657,0.7254028281481657,0.0,0.0,0.0
+All programs,M. pyrifera,Bio,pretrend_sensitivity,level_change,without_flagged,-0.050996121721971,-0.1685689379823363,-0.1685689379823363,-0.1175728162603653,0.0,-0.1175728162603653
+PISCO,S. pulcher,Bio,flat_before_after,level_change,without_flagged,0.7250110348427334,0.7250110348427334,0.7250110348427334,0.0,0.0,0.0
+Landsat,M. pyrifera,Bio,flat_before_after,recovery_slope,without_flagged,0.0789492402609929,0.0789492402609929,0.0789492402609929,0.0,0.0,0.0
+All programs,S. pulcher,Bio,pretrend_sensitivity,average_observed_post_change,without_flagged,-2.206604173518234,-2.206604173518234,-2.206604173518234,0.0,0.0,0.0
+PISCO,P. interruptus,Den,post_trend,recovery_slope,without_flagged,0.0641159541910412,0.0641159541910412,0.0641159541910412,0.0,0.0,0.0
+All programs,S. purpuratus,Den,flat_before_after,average_observed_post_change,without_flagged,-0.5638449867743516,-0.5634077839899923,-0.5634077839899923,0.00043720278435932514,0.0,0.00043720278435932514
+All programs,M. pyrifera,Bio,pretrend_sensitivity,slope_change,without_flagged,0.0147610895422924,0.0055985460345859,0.0055985460345859,-0.0091625435077065,0.0,-0.0091625435077065
+All programs,M. franciscanus,Bio,post_trend,recovery_slope,without_flagged,-0.1414529769804641,-0.1293543795000306,-0.1293543795000306,0.012098597480433515,0.0,0.012098597480433515
+Landsat,M. pyrifera,Bio,post_trend,recovery_slope,without_flagged,0.0781338287314247,0.0781338287314247,0.0781338287314247,0.0,0.0,0.0
+PISCO,M. pyrifera,Bio,pretrend_sensitivity,slope_change,without_flagged,0.0825362076740492,0.0825362076740492,0.0825362076740492,0.0,0.0,0.0
+All programs,S. pulcher,Den,flat_before_after,average_observed_post_change,without_flagged,0.1494952038943196,0.2894850740623409,0.3616527571655009,0.1399898701680213,0.07216768310315996,0.21215755327118127
+All programs,M. franciscanus,Den,pretrend_sensitivity,level_change,without_flagged,0.0189883541143253,0.2366881918332614,0.2366881918332614,0.21769983771893608,0.0,0.21769983771893608
+All programs,P. interruptus,Den,flat_before_after,recovery_slope,without_flagged,0.091580719227756,0.1371623356286422,0.1371623356286422,0.04558161640088619,0.0,0.04558161640088619
+All programs,P. interruptus,Den,flat_before_after,level_change,without_flagged,0.57158384974623,0.622196758205124,0.622196758205124,0.05061290845889399,0.0,0.05061290845889399
+PISCO,P. interruptus,Bio,post_trend,recovery_slope,without_flagged,-0.0342327377910946,-0.0342327377910946,-0.0342327377910946,0.0,0.0,0.0
+PISCO,S. purpuratus,Den,post_trend,recovery_slope,without_flagged,-0.1316520353463062,-0.1316520353463062,-0.1316520353463062,0.0,0.0,0.0
+All programs,M. pyrifera,Bio,flat_before_after,level_change,without_flagged,0.2173129182544346,0.1563866086043534,0.1563866086043534,-0.060926309650081195,0.0,-0.060926309650081195
+PISCO,M. pyrifera,Bio,pretrend_sensitivity,average_observed_post_change,without_flagged,0.6716701791033282,0.6716701791033282,0.6716701791033282,0.0,0.0,0.0
+Landsat,M. pyrifera,Bio,flat_before_after,average_observed_post_change,without_flagged,0.4873436516180025,0.4873436516180025,0.4873436516180025,0.0,0.0,0.0
+PISCO,S. pulcher,Den,pretrend_sensitivity,average_observed_post_change,without_flagged,0.8501051594417616,0.8501051594417616,0.8501051594417616,0.0,0.0,0.0
+PISCO,S. pulcher,Den,flat_before_after,recovery_slope,without_flagged,-0.0527531581917541,-0.0527531581917541,-0.0527531581917541,0.0,0.0,0.0
+PISCO,M. pyrifera,Bio,post_trend,recovery_slope,without_flagged,0.1145617437332291,0.1145617437332291,0.1145617437332291,0.0,0.0,0.0
+PISCO,M. franciscanus,Den,flat_before_after,level_change,without_flagged,-0.1133984746527592,-0.1133984746527592,-0.1133984746527592,0.0,0.0,0.0
+All programs,P. interruptus,Den,flat_before_after,average_observed_post_change,without_flagged,1.1919065220147151,1.656744861836237,1.656744861836237,0.4648383398215219,0.0,0.4648383398215219
+PISCO,S. pulcher,Bio,pretrend_sensitivity,average_observed_post_change,without_flagged,-0.4963546116377366,-0.4963546116377366,-0.4963546116377366,0.0,0.0,0.0
+All programs,S. pulcher,Bio,flat_before_after,recovery_slope,without_flagged,-0.181407709732801,-0.181407709732801,-0.181407709732801,0.0,0.0,0.0
+PISCO,M. franciscanus,Den,pretrend_sensitivity,average_observed_post_change,without_flagged,-2.549520182644886,-2.549520182644886,-2.549520182644886,0.0,0.0,0.0
+PISCO,S. pulcher,Bio,flat_before_after,recovery_slope,without_flagged,-0.0687087898173624,-0.0687087898173624,-0.0687087898173624,0.0,0.0,0.0
+KFM,M. franciscanus,Bio,post_trend,recovery_slope,without_flagged,-0.1046198850812844,-0.0684600618074878,-0.0684600618074878,0.036159823273796604,0.0,0.036159823273796604
+All programs,S. purpuratus,Bio,post_trend,recovery_slope,without_flagged,-0.0717060924615062,-0.0719406691614251,-0.0719406691614251,-0.00023457669991890084,0.0,-0.00023457669991890084
+KFM,S. purpuratus,Den,post_trend,recovery_slope,without_flagged,-0.0606358178518892,-0.0870845562237165,-0.0870845562237165,-0.026448738371827298,0.0,-0.026448738371827298
+PISCO,S. pulcher,Den,flat_before_after,average_observed_post_change,without_flagged,0.1821798713910103,0.1821798713910103,0.1821798713910103,0.0,0.0,0.0
+All programs,S. pulcher,Bio,post_trend,recovery_slope,without_flagged,-0.1451865724174612,-0.1451865724174612,-0.1451865724174612,0.0,0.0,0.0
+PISCO,P. interruptus,Den,pretrend_sensitivity,level_change,without_flagged,-0.1567537047687303,-0.1567537047687303,-0.1567537047687303,0.0,0.0,0.0
+PISCO,M. pyrifera,Bio,flat_before_after,recovery_slope,without_flagged,0.0173156399092452,0.0173156399092452,0.0173156399092452,0.0,0.0,0.0
+PISCO,M. pyrifera,Bio,flat_before_after,level_change,without_flagged,0.0494096039751446,0.0494096039751446,0.0494096039751446,0.0,0.0,0.0
+All programs,S. pulcher,Bio,flat_before_after,average_observed_post_change,without_flagged,-0.3424129612294304,-0.3424129612294304,-0.3424129612294304,0.0,0.0,0.0
+All programs,M. pyrifera,Bio,pretrend_sensitivity,average_observed_post_change,without_flagged,0.0912090300498928,-0.0947642693217637,-0.0947642693217637,-0.1859732993716565,0.0,-0.1859732993716565
+PISCO,S. pulcher,Bio,flat_before_after,average_observed_post_change,without_flagged,0.399274048011585,0.399274048011585,0.399274048011585,0.0,0.0,0.0
+All programs,P. interruptus,Den,post_trend,recovery_slope,without_flagged,0.0683026106195398,0.0987409441004981,0.0987409441004981,0.0304383334809583,0.0,0.0304383334809583
+All programs,M. pyrifera,Bio,flat_before_after,recovery_slope,without_flagged,0.1652330438379988,0.1655857399148718,0.1655857399148718,0.00035269607687299365,0.0,0.00035269607687299365
+Landsat,M. pyrifera,Bio,pretrend_sensitivity,level_change,without_flagged,0.2697405581377951,0.2697405581377951,0.2697405581377951,0.0,0.0,0.0
+PISCO,P. interruptus,Den,pretrend_sensitivity,slope_change,without_flagged,-0.0770369326534547,-0.0770369326534547,-0.0770369326534547,0.0,0.0,0.0
+PISCO,S. purpuratus,Bio,post_trend,recovery_slope,without_flagged,-0.0340690075896328,-0.0340690075896328,-0.0340690075896328,0.0,0.0,0.0
+PISCO,M. franciscanus,Bio,post_trend,recovery_slope,without_flagged,-0.2310453609580108,-0.2310453609580108,-0.2310453609580108,0.0,0.0,0.0
+All programs,M. franciscanus,Den,pretrend_sensitivity,slope_change,without_flagged,-0.2356078757561824,-0.2407133039608122,-0.2407133039608122,-0.005105428204629808,0.0,-0.005105428204629808
+PISCO,S. purpuratus,Den,pretrend_sensitivity,level_change,without_flagged,0.7825207352926422,0.7825207352926422,0.7825207352926422,0.0,0.0,0.0
+All programs,M. franciscanus,Den,flat_before_after,level_change,without_flagged,0.2254261655398626,0.3198595453149077,0.3198595453149077,0.09443337977504507,0.0,0.09443337977504507
+PISCO,S. pulcher,Den,post_trend,recovery_slope,without_flagged,-0.0240040352516851,-0.0240040352516851,-0.0240040352516851,0.0,0.0,0.0
+Landsat,M. pyrifera,Bio,pretrend_sensitivity,slope_change,without_flagged,0.1004129587395082,0.1004129587395082,0.1004129587395082,0.0,0.0,0.0
+PISCO,P. interruptus,Den,pretrend_sensitivity,average_observed_post_change,without_flagged,-0.7972644591836231,-0.7972644591836231,-0.7972644591836231,0.0,0.0,0.0
+PISCO,M. franciscanus,Den,flat_before_after,recovery_slope,without_flagged,-0.0174446826624946,-0.0174446826624946,-0.0174446826624946,0.0,0.0,0.0
+All programs,S. purpuratus,Den,post_trend,recovery_slope,without_flagged,-0.1015357544695706,-0.1082576275152199,-0.1082576275152199,-0.006721873045649307,0.0,-0.006721873045649307
+All programs,M. franciscanus,Den,pretrend_sensitivity,average_observed_post_change,without_flagged,-1.419134591666018,-1.2388204119052526,-1.2388204119052526,0.18031417976076547,0.0,0.18031417976076547
+All programs,P. interruptus,Den,pretrend_sensitivity,level_change,without_flagged,0.2078095455356514,0.3919551029442902,0.3919551029442902,0.1841455574086388,0.0,0.1841455574086388
+PISCO,P. interruptus,Den,flat_before_after,level_change,without_flagged,0.5911348769063617,0.5911348769063617,0.5911348769063617,0.0,0.0,0.0
+PISCO,M. pyrifera,Bio,flat_before_after,average_observed_post_change,without_flagged,0.1908096303186284,0.1908096303186284,0.1908096303186284,0.0,0.0,0.0
+All programs,S. purpuratus,Den,pretrend_sensitivity,level_change,without_flagged,0.1178621527480635,0.1442127111877973,0.1442127111877973,0.0263505584397338,0.0,0.0263505584397338
+PISCO,S. purpuratus,Den,pretrend_sensitivity,slope_change,without_flagged,-0.1296499487873572,-0.1296499487873572,-0.1296499487873572,0.0,0.0,0.0
+All programs,S. pulcher,Den,post_trend,recovery_slope,without_flagged,-0.031617664389067,-0.0166435739184723,-0.0158898467509675,0.014974090470594698,0.0007537271675048009,0.0157278176380995
+All programs,M. pyrifera,Bio,flat_before_after,average_observed_post_change,without_flagged,1.33409382951735,1.366192740400822,1.366192740400822,0.032098910883472165,0.0,0.032098910883472165
+PISCO,S. pulcher,Bio,post_trend,recovery_slope,without_flagged,-0.0250143622822393,-0.0250143622822393,-0.0250143622822393,0.0,0.0,0.0
+All programs,S. pulcher,Den,pretrend_sensitivity,level_change,without_flagged,0.9032877932267684,0.7212756870975618,0.7663048766969365,-0.1820121061292066,0.04502918959937463,-0.13698291652983197

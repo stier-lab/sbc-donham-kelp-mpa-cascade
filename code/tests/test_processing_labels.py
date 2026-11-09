@@ -14,6 +14,13 @@ class ProcessingLabelsTest(unittest.TestCase):
         self.assertTrue(out['three_years_each_side'])
         self.assertEqual(out['construction_route'],'PISCO_direct_CI')
         self.assertEqual(out['pretrend_failure_status'],'not_established_by_processing_label')
+    def test_campus_trend_rejects_before_after_label(self):
+        row=dict(MPA='Campus Point SMCA',Taxa='P. interruptus',Source='LTER',Resp='Bio',AnalysisType='pBACIPS',Model='Linear')
+        coverage={**row,'primary_design':'pBACIPS','n_before':'1','n_after':'11'}
+        with self.assertRaises(ValueError):module.build_routes([row],[coverage])
+        row['AnalysisType']=coverage['primary_design']='CI'
+        self.assertEqual(module.build_routes([row],[coverage])[0]['construction_route'],'direct_CI_trend')
+
     def test_duplicate_identity_fails(self):
         row=dict(MPA='Example',Taxa='Example',Source='PISCO',Resp='Den',AnalysisType='CI',Model='Mean')
         coverage={**row,'primary_design':'CI','n_before':'4','n_after':'8'}

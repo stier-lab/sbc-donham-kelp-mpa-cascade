@@ -1,0 +1,19 @@
+{
+  "hare_published_bins": 20,
+  "hare_records": 102,
+  "primary_step_baseline_reproduced": true,
+  "primary_step_R_verified": true,
+  "post_rows_identical": true,
+  "source2023_current_uses": 0,
+  "protected_files_unchanged": 487,
+  "output_hashes": {
+    "legacy_sensitivity_review_annual.csv": "c191266dcc3ad220fb8513f7b67c516140ab0d02712891af6d254d90d99f05b7",
+    "scorpion_primary_step_sensitivity.csv": "7d22ad8a92d9a423eeebdd5cfd33683176bb3d1bdcf0863dd01db52fa178ca47",
+    "scorpion_primary_annual_sensitivity.csv": "2d057f19e88eff2b9d9ef0f2e017d961c24eb16c33c2d4c6d4069696c6ea1329",
+    "older_mass_comparison.csv": "ee45875ad71bd26872d664d6d6ecba5e35989a30f01d1e18edf5096267addfc9",
+    "exact_size_disagreements.csv": "41bac4260e02f714c90de99b5157305f601581d3b0b83525635aba0cbb719d1a",
+    "hare_1987_published_bin_check.csv": "32495595081567a2b8f0cb22905edfc04cb6a15dcbfdea1c732a04cade2de807",
+    "2023_analysis_use.csv": "24fecbd12ed1bfd9680060ae56b8c826d5bcb2700f2bdbc5380356fa9753a140",
+    "post_protection_slopes.csv": "c911f5382dbb91628c1e3d9615e92ca29b607470b90ffa5a2b4b91c53b7b75c6"
+  }
+}

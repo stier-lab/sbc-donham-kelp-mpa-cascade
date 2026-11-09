@@ -11,7 +11,7 @@ keys = {key(r) for r in primary}
 scenarios = sorted({r['scenario'] for r in series})
 for name in scenarios:
     subset = [r for r in series if r['scenario'] == name]
-    assert len(subset) == len(keys) == 145
+    assert len(subset) == len(keys) == 143
     assert {key(r) for r in subset} == keys
     for r in subset:
         b = next(x for x in primary if key(x) == key(r))
@@ -32,9 +32,9 @@ for row in primary:
     else:
         if row['Model']=='Step':x=[float(r['BA']=='After') for r in d];h=1
         else:
-            supplied=row['AnalysisType']=='CI' or row['Source']=='Landsat' or key(row)=='Campus Point SMCA|P. interruptus|LTER|Bio'
-            nb=sum(r['BA']=='Before' for r in d)
-            x=[float(r['time']) for r in d] if supplied else [0.]*nb+list(range(n-nb));h=11
+            x=[float(r['time']) for r in d]
+            post=[int(r['year']) for r in d if r['BA']=='After']
+            first=min(post);last=max(y for y in post if y<=first+11);h=last-first
         xm=sum(x)/n;ym=sum(y)/n;sxx=sum((v-xm)**2 for v in x)
         slope=sum((a-xm)*(b-ym) for a,b in zip(x,y))/sxx
         residual=sum((b-ym-slope*(a-xm))**2 for a,b in zip(x,y))
@@ -44,6 +44,13 @@ for row in primary:
     checked+=1
 for r in read('tables/table_s_routing_clock_inputs.csv'):
     assert hashlib.md5((ROOT/r['path']).read_bytes()).hexdigest()==r['md5'],r['path']
+changes=[]
 for r in read('tables/table_s_routing_clock_matched_clock_difference.csv'):
-    assert r['clock_direction_changed']=='FALSE' and r['clock_bh_changed']=='FALSE'
-print(f'PASS: {len(scenarios)} fixed 145-history scenarios; {checked} independent OLS reconstructions; current input hashes; matched-clock conclusions unchanged.')
+    assert r['clock_direction_changed']=='FALSE'
+    assert abs(float(r['estimate_calendar'])-float(r['base_estimate_calendar']))<1e-7
+    assert abs(float(r['q_calendar'])-float(r['base_q_calendar']))<1e-6
+    changed=(float(r['q_calendar'])<.05)!=(float(r['q_native'])<.05)
+    assert (r['clock_bh_changed']=='TRUE')==changed
+    if changed:changes.append((r['Taxa'],r['Resp'],r['uncertainty']))
+# Report threshold crossings; each flag is checked independently above.
+print(f'PASS: {len(scenarios)} fixed 143-history scenarios; {checked} independent OLS reconstructions; current input hashes; calendar contrasts reproduce primary; threshold crossings versus sequential-index fitting: {changes}.')

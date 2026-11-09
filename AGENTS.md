@@ -1,0 +1,13 @@
+<!-- shared-ai-workspace:begin -->
+## Shared Codex / Claude continuity
+
+Updated: 2026-10-30.
+
+- Read both `AGENTS.md` and `CLAUDE.md` in the current workspace once per session, when present. They are complementary instructions for the same working files; do not repeatedly follow cross-links, and read a shared symlink target only once.
+- Read `/Users/adrianstier/AI-Workspace/WORKFLOW.md`. Resolve this workspace in `/Users/adrianstier/AI-Workspace/projects.json`: prefer an explicit project named by Adrian, then an exact `canonical_path` match, then companion `canonical_roots`. Read only the matching handoff and relevant source documents automatically; do not ask Adrian to paste context already available locally.
+- Preserve repo-local conventions and existing authoritative source pointers. Newer explicit user decisions and dated primary evidence supersede stale summaries; neither filename has blanket precedence. If a substantive conflict remains unresolved, surface it before dependent work.
+- Before editing, inspect current changes and relevant status. Keep one active editor per working tree. For multi-folder projects, verify access and read applicable instructions in each folder before working there; do not confuse folder access with reviewed content.
+- Automatically follow `/Users/adrianstier/AI-Workspace/ACTIVITY-WORKFLOW.md`: at session start run `python3 /Users/adrianstier/AI-Workspace/activity.py start --project "EXACT PROJECT NAME" --tool codex` (Claude uses `--tool claude`), retain the session ID, and read each mapped root's `.ai-continuity/CURRENT.md` and recent activity. Before finishing or switching, update authoritative status/handoff, then run `finish` with truthful summary, next steps, tests, holds and source pointers. Do this without asking Adrian to remind you. If interrupted or only mechanically testing, use `abandon` without claiming review. Respect explicit read-only requests that prohibit record writes; report that limitation. Do not bypass an overlapping active session.
+- After substantive work or before switching tools, update the existing project status and concise shared handoff with dated verified changes, tests, holds, blockers and next steps. Update the authoritative instruction source when a durable rule changes; avoid maintaining duplicate project facts in both files. Do not overwrite unrelated instructions or create recursive imports.
+- Shared files provide continuity; chat history, sign-ins, schedules and app permissions do not synchronize automatically. Bypass permissions is Adrian's requested execution preference, not authorization to send messages, publish, submit, or execute a backlog without a request. Preserve all existing sending and privacy holds.
+<!-- shared-ai-workspace:end -->

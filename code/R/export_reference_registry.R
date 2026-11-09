@@ -75,6 +75,17 @@ local({
         (Source == "KFM" & Taxa != "S. pulcher" & site_id %in% kfm_exclusions) |
         (Source == "LTER" & site_id %in% lter_exclusions),
       exclusion_reason = ifelse(excluded, "upstream reference-site exclusion", ""))
+  policy_path<-here::here("data/harmonized/pisco_baseline_policy.json")
+  if(file.exists(policy_path)) {
+    selected<-read.csv(here::here("tables/table_s_pisco_fixed_coverage.csv")) %>% filter(scenario=="strict_min3",eligible)
+    for(i in which(reference_sites$Source=="PISCO" & reference_sites$Taxa=="S. pulcher" & reference_sites$MPA %in% selected$MPA)) {
+      allowed<-strsplit(selected$reference[match(reference_sites$MPA[i],selected$MPA)],";",fixed=TRUE)[[1]]
+      if(!reference_sites$site_id[i] %in% allowed) {
+        reference_sites$excluded[i]<-TRUE
+        reference_sites$exclusion_reason[i]<-"Not in coverage-selected fixed-station primary comparison"
+      }
+    }
+  }
   reference_sites$reference_years <- vapply(seq_len(nrow(reference_sites)), function(i) {
     z <- reference_sites[i, ]; years <- series_years[[z$series_id]]
     if (grepl("^unmapped\\|", z$reference_id)) years <- integer()

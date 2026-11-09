@@ -74,11 +74,8 @@ KFM_RDFC_SURVEY_START_YEAR <- 1996
 #' RATIONALE: Sites with fewer years provide unreliable trend estimates
 MINIMUM_YEARS_OF_DATA <- 5
 
-#' Fixed model-time endpoint for effect size extraction (legacy constant name).
-#' Originally motivated by the youngest MPA's age in 2023, but most diver fits
-#' use observation indices rather than calendar years. Only calendar-time fits
-#' interpret t=11 as eleven years. The endpoint does not standardize calendar duration.
-#' See: Thiault et al. (2017) Methods in Ecology and Evolution for pBACIPS methodology.
+#' Maximum elapsed calendar years between two surveyed post-designation endpoints.
+#' Shorter observed windows are retained and explicitly recorded.
 EFFECT_SIZE_TIME_YEARS <- 11
 
 

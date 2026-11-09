@@ -27,7 +27,7 @@ check_monthly_kelp_inputs <- function(root = here::here()) {
     }
     expected_md5 <- lobster_release_hash(root,name,expected_md5)
     if (unname(tools::md5sum(path)) != expected_md5 ||
-        nrow(utils::read.csv(path)) != z$files[[name]]$rows) {
+        nrow(utils::read.csv(path)) != current_release_rows(root,name,z$files[[name]]$rows)) {
       stop("Harmonized input differs from the checked monthly release: ", name)
     }
   }

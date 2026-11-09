@@ -19,3 +19,10 @@ for (module in c("27_design_geography_sensitivity.R", "28_historical_heatwave_ba
 
 # Fixed-cohort eligibility and clock sensitivity, preserving current primary effects.
 source(here::here("code", "R", "52_routing_clock_sensitivity.R"))
+source(here::here("code", "R", "53_kfm_site_continuity.R"))
+
+source(here::here("code", "R", "54_seasonal_coverage.R"))
+source(here::here("code", "R", "58_calendar_window_check.R"))
+
+# Fixed-station PISCO sensitivity requires the local provider fish source files.
+source(here::here("code", "R", "59_pisco_fixed_stations.R"))

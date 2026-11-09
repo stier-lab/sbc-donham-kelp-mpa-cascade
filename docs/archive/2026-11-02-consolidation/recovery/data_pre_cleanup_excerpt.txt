@@ -1,0 +1,40 @@
+## Current source-first pipeline — November 2, 2026
+
+Start with [the raw-to-biomass guide](docs/RAW_TO_BIOMASS.md). `make sources` rebuilds verified originals and selection ledgers; `make trace` exports source-to-mass records; `make check` validates them. `make harmonize` stops on unresolved originals and writes review outputs only. The old combined size file is audit-only, not a fallback. Current original-source coverage and outstanding scientific/source decisions are explicit in the guide. Earlier source inventories below describe the inherited delivery.
+
+November 2 source follow-up: Hare Rock purple1987 is now corroborated by the published NPS table and uses102original measurements. Five site-retained raw groups remain unresolved: Pelican red1995and four unused2023groups. The Scorpion primary Step sensitivity is1.253versus1.270with unchanged positive inference; paper unchanged. See companion `outputs/kfm_remaining_sources_20261102/README.md`.
+
+November 2, 2026: physical size-identity checks and explicit KFM/LTER comparison membership are required before biomass processing. Build the private bundle with `code/tools/build_kfm_identity_bundle.py` in the companion analysis repository. Five retained donor groups remain unresolved after the Hare Rock correction; the complete production build deliberately stops rather than silently using them. See the companion `outputs/kfm_pipeline_guard_20261102/README.md`. Tests: `Rscript code/tests/test_size_identity.R`. Researcher exclusions and numerical outputs unchanged. Identity-dependent urchin caches use source/mapping fingerprints.
+
+# CA MPA Kelp Forest: Data Processing
+
+October 30, 2026: LTER lobster processing now estimates mass for positive counts without measured lengths using mean individual mass from measured animals at the same site and survey date. Original counts and length codes are preserved; estimated contributions and donor sample sizes are flagged. Run `Rscript code/tests/test_lobster_missing_lengths.R` to check the rule. The record-level estimate ledger is a local audit file, not a public harmonized product.
+
+This repository processes raw monitoring data from three long-term kelp forest monitoring programs (PISCO, KFM/MBON, LTER) and satellite imagery (Landsat) into harmonized, analysis-ready CSVs.
+
+**Companion analysis repo:** [sbc-2026-donham-kelp-mpa-cascade](https://github.com/stier-lab/sbc-2026-donham-kelp-mpa-cascade). It consumes the harmonized CSVs produced here to run meta-analysis, generate figures, and produce manuscript tables.
+
+**GitHub status:** archived/read-only after the 2026-09-03 cleanup. This repo
+is provenance and harmonization support for the current analysis repo, not the
+final manuscript data/code release by itself.
+
+## Repository Scope
+
+This public repository is the source-data harmonization workspace. Keep raw data
+out of git, keep manuscript drafts/citation PDFs/cover letters in the private
+manuscript repo, and keep statistical models, figures, and result summaries in
+the companion analysis repo.
+
+## Quick Start
+
+```r
+# 1. Set up raw data (see Data Setup below)
+# 2. Run the pipeline
+source(here::here("code", "R", "run_all.R"))
+# 3. Find harmonized CSVs in output/harmonized/
+```
+
+## Data Setup
+
+Raw monitoring data are not tracked in this repository. To rerun harmonization,
+obtain the source files from the providers or project data stewards described

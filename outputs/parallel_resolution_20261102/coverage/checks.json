@@ -1,0 +1,19 @@
+{
+  "station_histories_checked": 175,
+  "reference_summary_all_fields_match": true,
+  "annual_ratio_cells_checked": 4082,
+  "max_annual_ratio_error": 4.440892098500626e-16,
+  "fish_station_zone_years_checked": 417,
+  "raw_pisco_histories_screened": 105,
+  "timing_pair_strata_checked": 8292,
+  "timing_pair_rows_checked": 4206,
+  "timing_coverage_rows_checked": 36,
+  "allmonth_status_scope_exactly_twelve_response_histories": true,
+  "rule_link_flags": {
+    "R05 missing for audited retained fish history": 34,
+    "Diver shared-zone rule attached to satellite polygon": 18,
+    "R04 missing for implemented density counterpart": 6
+  },
+  "raw_survey_year_groups_multiple_dates": 55,
+  "raw_survey_year_max_span_days": 293
+}

@@ -1,0 +1,23 @@
+{
+  "findings": 32,
+  "native_documents": 11,
+  "comment_threads": 220,
+  "comment_pagination_exhausted": true,
+  "protected_files_unchanged": 487,
+  "source_and_roster_checks": {
+    "outputs/dataset_inventory_20261101/comparison_decisions.csv": "unchanged",
+    "outputs/dataset_inventory_20261101/measurement_visit_support_detailed.csv": "unchanged",
+    "outputs/dataset_inventory_20261101/donor_attempts_current.csv": "unchanged",
+    "../sbc-donham-kelp-mpa-data/config/source_manifest.json": "unchanged"
+  },
+  "tests": [
+    "check_current_decisions.py PASS",
+    "check_documentation_consolidation.py PASS"
+  ],
+  "not_run": [
+    "new biomass analysis",
+    "full harmonization",
+    "new manuscript render"
+  ],
+  "scientific_changes": false
+}

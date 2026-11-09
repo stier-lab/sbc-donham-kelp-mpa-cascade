@@ -1,0 +1,38 @@
+series_id,Source,Taxa,role_years,role_years_with_borrowed_or_unresolved_sizes,role_years_without_complete_date_match,role_years_with_source_exclusion,max_nearest_date_gap_days,zone_evaluable_role_years,action
+Abalone Cove SMCA|M. franciscanus|PISCO|Bio,PISCO,M. franciscanus,26,6,12,0,290.0,26,Conditional resampling allowed; representativeness remains separate
+Abalone Cove SMCA|P. interruptus|PISCO|Bio,PISCO,P. interruptus,20,5,8,0,290.0,19,Conditional resampling allowed; representativeness remains separate
+Abalone Cove SMCA|S. purpuratus|PISCO|Bio,PISCO,S. purpuratus,26,6,11,0,290.0,25,Conditional resampling allowed; representativeness remains separate
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,KFM,M. franciscanus,31,2,23,0,128.0,0,Conditional resampling allowed; representativeness remains separate
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,KFM,S. purpuratus,33,2,25,0,128.0,0,Conditional resampling allowed; representativeness remains separate
+Campus Point SMCA|M. franciscanus|LTER|Bio,LTER,M. franciscanus,25,3,3,0,0.0,0,Conditional resampling allowed; representativeness remains separate
+Campus Point SMCA|M. franciscanus|PISCO|Bio,PISCO,M. franciscanus,24,22,23,0,93.0,3,Conditional resampling allowed; representativeness remains separate
+Campus Point SMCA|S. purpuratus|LTER|Bio,LTER,S. purpuratus,34,5,5,0,0.0,0,Conditional resampling allowed; representativeness remains separate
+Campus Point SMCA|S. purpuratus|PISCO|Bio,PISCO,S. purpuratus,26,26,26,0,93.0,4,Conditional resampling allowed; representativeness remains separate
+Gull Island SMR|M. franciscanus|PISCO|Bio,PISCO,M. franciscanus,30,30,30,0,5.0,2,Conditional resampling allowed; representativeness remains separate
+Gull Island SMR|S. purpuratus|PISCO|Bio,PISCO,S. purpuratus,30,30,30,0,5.0,2,Conditional resampling allowed; representativeness remains separate
+Harris Point SMR|M. franciscanus|KFM|Bio,KFM,M. franciscanus,71,35,59,35,176.0,0,Withhold joint resampling pending source reconciliation
+Harris Point SMR|M. franciscanus|PISCO|Bio,PISCO,M. franciscanus,30,30,30,15,0.0,1,Withhold joint resampling pending source reconciliation
+Harris Point SMR|S. purpuratus|KFM|Bio,KFM,S. purpuratus,67,33,57,33,176.0,0,Withhold joint resampling pending source reconciliation
+Harris Point SMR|S. purpuratus|PISCO|Bio,PISCO,S. purpuratus,30,30,30,15,0.0,1,Withhold joint resampling pending source reconciliation
+Matlahuayl SMR|M. franciscanus|PISCO|Bio,PISCO,M. franciscanus,8,0,0,0,0.0,8,Conditional resampling allowed; representativeness remains separate
+Matlahuayl SMR|P. interruptus|PISCO|Bio,PISCO,P. interruptus,14,0,0,0,0.0,14,Conditional resampling allowed; representativeness remains separate
+Matlahuayl SMR|S. purpuratus|PISCO|Bio,PISCO,S. purpuratus,5,0,0,0,0.0,5,Conditional resampling allowed; representativeness remains separate
+Naples SMCA|M. franciscanus|LTER|Bio,LTER,M. franciscanus,28,5,5,0,0.0,0,Conditional resampling allowed; representativeness remains separate
+Naples SMCA|M. franciscanus|PISCO|Bio,PISCO,M. franciscanus,26,26,26,0,72.0,4,Conditional resampling allowed; representativeness remains separate
+Naples SMCA|S. purpuratus|LTER|Bio,LTER,S. purpuratus,41,5,5,0,0.0,0,Conditional resampling allowed; representativeness remains separate
+Naples SMCA|S. purpuratus|PISCO|Bio,PISCO,S. purpuratus,26,26,26,0,72.0,4,Conditional resampling allowed; representativeness remains separate
+Point Dume SMCA|M. franciscanus|PISCO|Bio,PISCO,M. franciscanus,1,1,1,0,,0,Conditional resampling allowed; representativeness remains separate
+Point Dume SMCA|S. purpuratus|PISCO|Bio,PISCO,S. purpuratus,1,1,1,0,,0,Conditional resampling allowed; representativeness remains separate
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,PISCO,M. franciscanus,28,5,11,0,278.0,28,Conditional resampling allowed; representativeness remains separate
+Point Vicente SMCA|P. interruptus|PISCO|Bio,PISCO,P. interruptus,23,4,8,0,278.0,23,Conditional resampling allowed; representativeness remains separate
+Point Vicente SMCA|S. purpuratus|PISCO|Bio,PISCO,S. purpuratus,27,4,9,0,278.0,27,Conditional resampling allowed; representativeness remains separate
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,KFM,M. franciscanus,34,17,27,17,0.0,0,Withhold joint resampling pending source reconciliation
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,KFM,S. purpuratus,34,17,27,17,0.0,0,Withhold joint resampling pending source reconciliation
+Scorpion SMR|M. franciscanus|KFM|Bio,KFM,M. franciscanus,74,2,56,0,219.0,0,Conditional resampling allowed; representativeness remains separate
+Scorpion SMR|M. franciscanus|PISCO|Bio,PISCO,M. franciscanus,36,36,36,0,34.0,1,Conditional resampling allowed; representativeness remains separate
+Scorpion SMR|S. purpuratus|KFM|Bio,KFM,S. purpuratus,74,1,56,0,219.0,0,Conditional resampling allowed; representativeness remains separate
+Scorpion SMR|S. purpuratus|PISCO|Bio,PISCO,S. purpuratus,36,36,36,0,34.0,1,Conditional resampling allowed; representativeness remains separate
+South Point SMR|M. franciscanus|KFM|Bio,KFM,M. franciscanus,34,0,26,0,98.0,0,Conditional resampling allowed; representativeness remains separate
+South Point SMR|M. franciscanus|PISCO|Bio,PISCO,M. franciscanus,28,28,28,0,,0,Conditional resampling allowed; representativeness remains separate
+South Point SMR|S. purpuratus|KFM|Bio,KFM,S. purpuratus,34,0,26,0,98.0,0,Conditional resampling allowed; representativeness remains separate
+South Point SMR|S. purpuratus|PISCO|Bio,PISCO,S. purpuratus,28,28,28,0,,0,Conditional resampling allowed; representativeness remains separate

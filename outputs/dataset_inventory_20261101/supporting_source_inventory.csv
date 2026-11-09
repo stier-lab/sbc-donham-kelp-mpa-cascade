@@ -1,0 +1,7 @@
+source,role,exists,sha256,audit_status
+data/external/sbc1275/Macrocystis_Biomass_Relationships_20261016.csv,Kelp monthly conversion coefficients,True,0059c8cae95f5513c51287943416d57840ffcd1e8c0331b70f2e7e9fc9a433a8,Li confirmed SBC127.5 Table2 Model1; conversion does not remove ecological seasonality
+tables/table_s_kfm_size_inputs.csv,Separate KFM predator-size source manifest,True,5ecd8dac6a6f9145234d2eeb41427654388440743d5aa77fcd6b5fe62ad9fcb8,Previous raw matching audit; no new size reconstruction this turn
+tables/table_s_primary_size_inputs.csv,Lobster/purple-urchin pool source manifest,True,0b0636646bff3d664000fa0c719967a3d871f1bde6c1f99cb657b7f06b6c5be5,15 canonical histories; not all expanded candidates
+data/harmonized/landsat_v2_verification.json,Satellite pixel/mask reconstruction manifest,True,c86a895b43541aa39c90e84b921bd8c761e392441d23ba7fda50fc52a1ea69bb,Previously verified58 nonempty arrays; masks are not newly rerun here
+data/harmonized/lobster_missing_lengths.json,Five missing LTER lobster lengths correction,True,15d7df8fcdf68ddc9eb96bc52722bf53382c55cba0cc21a0144a49d2e2a3f4fd,"Missing flags retained; same-site/date mean mass, not recovered lengths"
+docs/PRIMARY_SIZE_UNCERTAINTY_2026-10-30.md,Size uncertainty propagation evidence,True,544afa119581e7c119c1a0da388d812bf74d912818ceab7abfcc541edeb893dd,Existing sensitivity; not a refit for newly proposed survey matching

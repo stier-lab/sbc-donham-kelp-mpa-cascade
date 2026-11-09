@@ -1,0 +1,14 @@
+{
+  "legacy_histories_reproduced": 34,
+  "independently_checked_effects": 672,
+  "max_estimate_error": 4.3298697960381105e-15,
+  "max_se_error": 6.078471059822732e-15,
+  "matched_contrast_years": true,
+  "same_event_keys_bottom_sensitivity": true,
+  "other_programs_unchanged": true,
+  "protected_files_unchanged": 487,
+  "hashed_inputs": 8,
+  "pooled_models": 96,
+  "pooled_optimizer_fallbacks": 4,
+  "limits": "Pooled REML not independently reimplemented; constrained source support is not validation of habitat equivalence or missing-pass meaning."
+}

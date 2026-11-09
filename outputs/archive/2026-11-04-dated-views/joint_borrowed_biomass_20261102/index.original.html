@@ -1,0 +1,165 @@
+<!doctype html><meta charset="utf-8"><style>body{font:16px system-ui;max-width:1200px;margin:32px auto;padding:0 20px}td,th{padding:8px;text-align:left}table{border-collapse:collapse}tr{border-bottom:1px solid #ccc}</style><h1>Joint biomass uncertainty review</h1><p>The conditional simulation check covered the true slope in 18–20 of 20 datasets per setting. These small simulation counts have wide Monte Carlo uncertainty. This small exercise does not certify nominal 95% coverage; nonlinear data generation remains untested.</p><p>Same supported years; review only. The manuscript and primary analysis are unchanged.</p><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Site</th>
+      <th>Taxon</th>
+      <th>Years</th>
+      <th>Existing_review</th>
+      <th>Joint_review</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Abalone Cove</td>
+      <td>Red urchin</td>
+      <td>8</td>
+      <td>-0.188 [-0.428, 0.052]</td>
+      <td>-0.165 [-0.522, 0.183]</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove</td>
+      <td>Lobster</td>
+      <td>10</td>
+      <td>0.192 [-0.028, 0.411]</td>
+      <td>0.208 [-0.161, 0.539]</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove</td>
+      <td>Purple urchin</td>
+      <td>7</td>
+      <td>-0.102 [-0.450, 0.247]</td>
+      <td>-0.081 [-0.722, 0.658]</td>
+    </tr>
+    <tr>
+      <td>Point Vicente</td>
+      <td>Red urchin</td>
+      <td>5</td>
+      <td>0.012 [-0.128, 0.152]</td>
+      <td>0.002 [-0.262, 0.232]</td>
+    </tr>
+    <tr>
+      <td>Point Vicente</td>
+      <td>Lobster</td>
+      <td>9</td>
+      <td>-0.053 [-0.225, 0.118]</td>
+      <td>-0.068 [-0.339, 0.271]</td>
+    </tr>
+    <tr>
+      <td>Point Vicente</td>
+      <td>Purple urchin</td>
+      <td>6</td>
+      <td>-0.113 [-0.330, 0.104]</td>
+      <td>-0.114 [-0.379, 0.198]</td>
+    </tr>
+  </tbody>
+</table><img src="same_year_trends.png" style="max-width:100%"><p>Recovery trends in the protected/reference biomass ratio for Abalone Cove (a) and Point Vicente (b). Gray circles show the existing seven-day borrowing sensitivity with conditional HAC intervals; blue squares show the joint working likelihood at calendar correlation zero with studentized bootstrap intervals. Each comparison uses identical years. Positive slopes mean increasing protected/reference biomass ratios. Interval methods differ; neither is total uncertainty. The seven-day scenario remains a review sensitivity.</p><p><a href="README.md">Methods, assumptions and limits</a> · <a href="diagnostics_summary.csv">Diagnostics</a> · <a href="joint_trends.csv">Correlation scenarios</a> · <a href="../dataset_inventory_20261101/index.html">Consolidated guide</a></p><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>series_id</th>
+      <th>converged</th>
+      <th>boundary_components</th>
+      <th>upper_boundary</th>
+      <th>condition</th>
+      <th>recentered_estimate</th>
+      <th>recenter_change</th>
+      <th>max_mean_curvature</th>
+      <th>max_q95_curvature</th>
+      <th>leave_year_min</th>
+      <th>leave_year_max</th>
+      <th>max_leave_year_change</th>
+      <th>diagnostic_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>True</td>
+      <td>3</td>
+      <td>False</td>
+      <td>9.577457</td>
+      <td>-0.164846</td>
+      <td>0.000325</td>
+      <td>0.051103</td>
+      <td>0.131311</td>
+      <td>-0.334725</td>
+      <td>-0.086289</td>
+      <td>0.169553</td>
+      <td>partial: conditional working likelihood; assess curvature, influence and boundary components</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|P. interruptus|PISCO|Bio</td>
+      <td>True</td>
+      <td>2</td>
+      <td>False</td>
+      <td>56.748217</td>
+      <td>0.207870</td>
+      <td>-0.000532</td>
+      <td>0.045827</td>
+      <td>0.123324</td>
+      <td>0.111734</td>
+      <td>0.324045</td>
+      <td>0.115643</td>
+      <td>partial: conditional working likelihood; assess curvature, influence and boundary components</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>True</td>
+      <td>1</td>
+      <td>False</td>
+      <td>106.254513</td>
+      <td>-0.081672</td>
+      <td>-0.000371</td>
+      <td>0.030126</td>
+      <td>0.123507</td>
+      <td>-0.197087</td>
+      <td>0.012663</td>
+      <td>0.115786</td>
+      <td>partial: conditional working likelihood; assess curvature, influence and boundary components</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>True</td>
+      <td>1</td>
+      <td>False</td>
+      <td>84.012764</td>
+      <td>0.013016</td>
+      <td>0.011330</td>
+      <td>0.087104</td>
+      <td>0.138024</td>
+      <td>-0.068774</td>
+      <td>0.081230</td>
+      <td>0.079544</td>
+      <td>partial: conditional working likelihood; assess curvature, influence and boundary components</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|P. interruptus|PISCO|Bio</td>
+      <td>True</td>
+      <td>1</td>
+      <td>False</td>
+      <td>22.450703</td>
+      <td>-0.066068</td>
+      <td>0.001768</td>
+      <td>0.073903</td>
+      <td>0.142031</td>
+      <td>-0.166135</td>
+      <td>0.023494</td>
+      <td>0.098300</td>
+      <td>partial: conditional working likelihood; assess curvature, influence and boundary components</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>True</td>
+      <td>1</td>
+      <td>False</td>
+      <td>51.733901</td>
+      <td>-0.113799</td>
+      <td>0.000542</td>
+      <td>0.019663</td>
+      <td>0.059520</td>
+      <td>-0.226831</td>
+      <td>-0.060005</td>
+      <td>0.112490</td>
+      <td>partial: conditional working likelihood; assess curvature, influence and boundary components</td>
+    </tr>
+  </tbody>
+</table>

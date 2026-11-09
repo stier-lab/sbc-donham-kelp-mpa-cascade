@@ -1,0 +1,33 @@
+{
+  "histories": 6,
+  "density_station_year_uses": 558,
+  "recovered_prior_station_year_uses": 33,
+  "recovered_prior_comparison_years": 6,
+  "post_comparison_years_preserved": 63,
+  "physical_units": 1406,
+  "species_units": 4218,
+  "biomass_shared_count_unit_uses": 2214,
+  "biomass_visit_uses": 1086,
+  "max_visit_error": 1.7763568394002505e-15,
+  "max_allmonth_ratio_error": 4.440892098500626e-16,
+  "unsupported_inner_mid_station_year_uses": 3,
+  "raw_exact_duplicate_rows": 0,
+  "missing_focal_counts": 0,
+  "input_hashes_unchanged": true,
+  "outputs": {
+    "primary_annual_comparison": 84,
+    "density_station_year_roster": 558,
+    "raw_count_unit_registry": 4218,
+    "density_count_unit_uses": 4218,
+    "per_visit_density": 2094,
+    "station_zone_eligibility": 558,
+    "annual_station_density_variants": 1674,
+    "annual_comparison_density_variants": 252,
+    "recovered_station_year_uses": 33,
+    "recovered_comparison_years": 18,
+    "baseline_coverage_diagnostic": 6,
+    "original_allmonth_ratio_identity": 78,
+    "biomass_roster_visit_identity": 1086,
+    "biomass_roster_count_units": 2214
+  }
+}

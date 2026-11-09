@@ -1,0 +1,11 @@
+file,rows,states
+lter_kelp_mass.csv,29526,
+ucsb_lobster_direct.csv,2305,"{""measured"": 2109, ""missing_or_invalid_size"": 196}"
+source_manifest.csv,19,
+lter_sheephead_direct.csv,1499,"{""measured"": 862, ""observed_zero"": 627, ""invalid_or_missing_count"": 10}"
+kfm_plant_mass.csv,65215,
+pisco_sheephead_direct.csv,29792,"{""measured"": 29784, ""missing_or_invalid_size"": 8}"
+pisco_kelp_mass.csv,84581,
+lter_lobster_donor_links.csv,968,
+kfm_original_size_mass.csv,158559,
+lter_lobster_direct_and_imputed.csv,8341,

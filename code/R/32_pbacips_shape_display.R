@@ -44,7 +44,7 @@ local({
       metadata = "data/harmonized/harmonized_site_metadata.csv",
       fitting_code = "code/R/02_pBACIPS_function.R",
       effect_code = "code/R/08_effect_sizes.R",
-      constants = "code/R/00c_analysis_constants.R")
+      constants = "code/R/00c_analysis_constants.R", pisco_policy = "data/harmonized/pisco_baseline_policy.json")
     inputs <- file.path(root, input_files)
     if (any(!file.exists(inputs))) stop("Shape display inputs missing: ", paste(input_files[!file.exists(inputs)], collapse = ", "))
     md5 <- stats::setNames(unname(tools::md5sum(inputs)), names(input_files))
@@ -97,7 +97,7 @@ local({
       stop("Annual input/primary N mismatch in the all-primary membership ledger")
     }
     primary <- primary[order(primary$MPA, primary$Source, primary$Resp, primary$Taxa), ]
-    selected <- primary[primary$AnalysisType == "pBACIPS", ]
+    selected <- primary[primary$AnalysisType == "pBACIPS" | primary$key == "Campus Point SMCA|P. interruptus|LTER|Bio", ]
     if (!nrow(selected) || any(!selected$Model %in% c("Step", "Linear", "Sigmoid", "Asymptotic"))) {
       stop("Unsupported retained pBACIPS model; revise the display deliberately")
     }
@@ -112,15 +112,17 @@ local({
     }
     definitions <- new.env(parent = asNamespace("stats"))
     add_time <- load_definition(inputs[7], "add_time_columns", definitions)
+    ends_fun <- load_definition(inputs[7], "observed_contrast_times", definitions)
     horizon <- load_definition(inputs[8], "EFFECT_SIZE_TIME_YEARS", definitions)
     if (length(horizon) != 1L || !is.finite(horizon) || horizon <= 0) stop("Invalid effect-size horizon")
+    policy<-jsonlite::fromJSON(file.path(root,"data/harmonized/pisco_baseline_policy.json"))
     observations <- do.call(rbind, lapply(seq_len(nrow(selected)), function(i) {
       row <- selected[i, ]
       d <- annual[annual$key == row$key, ]
       d <- d[order(d$year), ]
       if (nrow(d) != row$N || any(!is.finite(d$lnRR)) || any(!is.finite(d$year)) ||
           any(d$year != as.integer(d$year)) || !all(c("Before", "After") %in% d$BA) ||
-          any(d$BA != ifelse(d$year <= row$MPA_Start, "Before", "After"))) {
+          any(d$BA != ifelse(if(row$Source=="PISCO" && row$Taxa=="S. pulcher" && row$MPA %in% policy$MPAs) d$year < row$MPA_Start else d$year <= row$MPA_Start, "Before", "After"))) {
         stop("Annual input/primary N or designation mismatch: ", row$key)
       }
       d$CA_MPA_Name_Short <- d$MPA
@@ -128,7 +130,7 @@ local({
       d$CA_MPA_Name_Short <- NULL
       d$index_time <- d$time.model
       # Exact explicit routes in script 08; not a rule chosen from the outcome.
-      uses_input_time <- row$Source == "Landsat" || row$key == "Campus Point SMCA|P. interruptus|LTER|Bio"
+      uses_input_time <- TRUE
       d$clock <- if (uses_input_time) "supplied_time" else "observation_index"
       d$clock_units <- if (uses_input_time) "calendar_years_since_designation" else "after_observation_index"
       if (uses_input_time) d$time.model <- d$input_time
@@ -146,11 +148,12 @@ local({
     nonlinear <- selected[selected$Model %in% c("Sigmoid", "Asymptotic"), ]
     counts <- as.data.frame(table(selected$Model), stringsAsFactors = FALSE)
     names(counts) <- c("Model", "n_histories")
-    counts$n_pbacips <- nrow(selected)
+    counts$n_pbacips <- sum(selected$AnalysisType == "pBACIPS")
+    counts$n_fitted_histories <- nrow(selected)
     counts$n_primary <- nrow(primary)
     counts$primary_input_md5 <- md5[["primary"]]
     stable_inputs()
-    message("Retained labels: ", nrow(primary), " primary; ", nrow(selected), " pBACIPS; ",
+    message("Retained labels: ", nrow(primary), " primary; ", nrow(selected), " fitted histories (pBACIPS plus Campus Point CI); ",
       paste(paste(counts$Model, counts$n_histories, sep = "="), collapse = ", "))
     if (mode == "validate-only") return(invisible(NULL))
     cache_path <- file.path(root, "data/cache/pbacips_shape_display.rds")
@@ -178,6 +181,8 @@ local({
         d <- observations[observations$key == row$key, ]
         d$BA <- factor(d$BA, levels = c("Before", "After"))
         warnings <- character()
+        ends <- ends_fun(d)
+        horizon <- ends[2]
         effect <- NA_real_
         outcome <- tryCatch(withCallingHandlers({
           linear <- if (row$Model != "Step") {
@@ -200,17 +205,18 @@ local({
             BA = factor(rep(ba, length(t)), levels = c("Before", "After")))
           effect <- if (row$Model == "Step") {
             as.numeric(stats::predict(fit, newdata(0, "After")) - stats::predict(fit, newdata(0, "Before")))
-          } else diff(as.numeric(stats::predict(fit, newdata(c(0, horizon)))))
+          } else diff(as.numeric(stats::predict(fit, newdata(ends))))
           if (!is.finite(effect) || abs(effect - row$Mean) > tolerance) {
             stop("Reconstructed contrast does not match the primary effect")
           }
-          # Calendar display coordinates preserve each primary route's native clock.
+          # Display coordinates use the same calendar years as the fitted primary trend.
           post <- d[d$BA == "After", ]
-          years <- sort(unique(c(d$year, seq(min(d$year), max(d$year), length.out = 401L), row$MPA_Start + c(0.49, 0.51))))
+          boundary <- if(any(d$year==row$MPA_Start & d$BA=="After")) row$MPA_Start-0.5 else row$MPA_Start+0.5
+          years <- sort(unique(c(d$year, seq(min(d$year), max(d$year), length.out = 401L), boundary + c(-0.01, 0.01))))
           times <- if (d$clock[1] == "supplied_time") pmax(years - row$MPA_Start, 0) else
             stats::approx(post$year, post$time.model, xout = years, rule = 2)$y
           nd <- newdata(times)
-          nd$BA <- factor(ifelse(years <= row$MPA_Start + 0.5, "Before", "After"), levels = c("Before", "After"))
+          nd$BA <- factor(ifelse(years <= boundary, "Before", "After"), levels = c("Before", "After"))
           pred <- row[rep(1L, length(years)), c(key_columns, "key", "Model")]
           pred$year <- years
           pred$time.model <- times
@@ -230,7 +236,7 @@ local({
             N = nrow(d), primary_N = row$N, primary_effect = row$Mean, reconstructed_effect = effect,
             difference = effect - row$Mean, horizon = if (row$Model == "Step") NA_real_ else horizon,
             horizon_within_observed_clock = if (row$Model == "Step") NA else max(d$time.model) >= horizon,
-            contrast_definition = if (row$Model == "Step") "After minus Before" else paste0("f(model time ", horizon, ") minus f(model time 0)"),
+            contrast_definition = if (row$Model == "Step") "After minus Before" else paste0("f(model time ", horizon, ") minus f(model time ",ends[1],")"),
             calendar_year_at_horizon = if (row$Model == "Step" || !any(d$time.model[d$BA == "After"] == horizon)) NA_real_ else
               d$year[d$BA == "After" & d$time.model == horizon][1L],
             year_min = min(d$year), year_max = max(d$year), first_after_year = min(post$year),
@@ -248,7 +254,7 @@ local({
             N = nrow(d), primary_N = row$N, primary_effect = row$Mean, reconstructed_effect = effect,
             difference = effect - row$Mean, horizon = if (row$Model == "Step") NA_real_ else horizon,
             horizon_within_observed_clock = if (row$Model == "Step") NA else max(d$time.model) >= horizon,
-            contrast_definition = if (row$Model == "Step") "After minus Before" else paste0("f(model time ", horizon, ") minus f(model time 0)"),
+            contrast_definition = if (row$Model == "Step") "After minus Before" else paste0("f(model time ", horizon, ") minus f(model time ",ends[1],")"),
             calendar_year_at_horizon = if (row$Model == "Step" || !any(d$time.model[d$BA == "After"] == horizon)) NA_real_ else
               d$year[d$BA == "After" & d$time.model == horizon][1L],
             year_min = min(d$year), year_max = max(d$year), first_after_year = min(d$year[d$BA == "After"]),
@@ -302,10 +308,10 @@ local({
       if (any(p$Model != selected$Model[i]) || any(p$year < min(d$year) | p$year > max(d$year)) ||
           any(p$time.model < 0 | p$time.model > max(d$time.model)) ||
           any(abs(p$time.model - expected_time) > 1e-10) ||
-          any(p$BA != ifelse(p$year <= selected$MPA_Start[i] + 0.5, "Before", "After")) ||
+          any(p$BA != ifelse(p$year <= (selected$MPA_Start[i] + if(any(d$year==selected$MPA_Start[i] & d$BA=="After")) -0.5 else 0.5), "Before", "After")) ||
           any(p$clock != d$clock[1] | p$clock_units != d$clock_units[1]) ||
           audit$clock[a[i]] != d$clock[1] || audit$clock_units[a[i]] != d$clock_units[1]) {
-        stop("Cached curve exceeds observed support or native clock/model labels")
+        stop("Cached curve exceeds observed support or calendar clock/model labels")
       }
     }
     stable_inputs()
@@ -314,7 +320,7 @@ local({
     absent <- packages[!vapply(packages, requireNamespace, logical(1), quietly = TRUE)]
     if (length(absent)) stop("Required rendering packages missing: ", paste(absent, collapse = ", "))
     membership <- primary[c(key_columns, "key", "Model", "AnalysisType", "N", "MPA_Start")]
-    membership$display_scope <- ifelse(membership$AnalysisType == "pBACIPS", "all_pbacips", "not_displayed_ci")
+    membership$display_scope <- ifelse(membership$key %in% selected$key, "fitted_history", "not_displayed_ci")
     membership$nonlinear_comparison <- membership$key %in% nonlinear$key
     membership$nonlinear_panel <- LETTERS[match(membership$key, nonlinear$key)]
     membership$n_finite_annual_inputs <- unname(annual_n[membership$key])
@@ -335,7 +341,7 @@ local({
       last$label <- ifelse(last$curve == "Retained fit", row$Model, "Linear comparator")
       plot <- ggplot2::ggplot(d, ggplot2::aes(year, lnRR)) +
         ggplot2::geom_hline(yintercept = 0, color = "grey75", linewidth = 0.25, linetype = "dashed") +
-        ggplot2::geom_vline(xintercept = row$MPA_Start + 0.5, color = "grey55", linewidth = 0.3, linetype = "dotted") +
+        ggplot2::geom_vline(xintercept = row$MPA_Start + if(any(d$year==row$MPA_Start & d$BA=="After")) -0.5 else 0.5, color = "grey55", linewidth = 0.3, linetype = "dotted") +
         ggplot2::geom_line(data = p, ggplot2::aes(y = fitted_lnRR, color = curve, linetype = curve), linewidth = 0.65) +
         ggplot2::geom_point(ggplot2::aes(color = BA, shape = BA), size = 1.6, alpha = 0.85) +
         ggrepel::geom_text_repel(data = last, ggplot2::aes(x = max(d$year) + 0.5, y = fitted_lnRR, label = label, color = curve),
@@ -384,7 +390,7 @@ local({
     }
     provenance <- data.frame(input = input_files, md5 = unname(md5), stringsAsFactors = FALSE)
     utils::write.csv(provenance, file.path(table_dir, "table_s_pbacips_shape_provenance.csv"), row.names = FALSE)
-    message("Shape display saved: all ", nrow(selected), " retained pBACIPS histories and all ", nrow(nonlinear), " nonlinear comparisons. No model selection or primary estimates changed.")
+    message("Shape display saved: all ", nrow(selected), " retained fitted histories and all ", nrow(nonlinear), " nonlinear comparisons. No model selection or primary estimates changed.")
   }
   run_display()
 })

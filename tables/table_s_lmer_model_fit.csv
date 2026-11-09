@@ -1,4 +1,4 @@
 "model","model_type","n_obs","n_mpa","AIC","BIC","logLik","R2_marginal","R2_conditional","variance_components","singular_fit"
-"pooled","random-slopes",1750,15,6432.84,6514.85,-3201.42,0.2013,0.3859,"CA_MPA_Name_Short|(Intercept): 0.3391; CA_MPA_Name_Short|time: 0.0025; CA_MPA_Name_Short|(Intercept): 0.0021; source|(Intercept): 0.0019; Residual|NA: 2.1573",FALSE
-"bio","random-slopes",831,15,3235.14,3301.26,-1603.57,0.1781,0.3127,"CA_MPA_Name_Short|(Intercept): 0.0762; CA_MPA_Name_Short.1|time: 0.0041; source|(Intercept): 0.0176; Residual|NA: 2.5894",FALSE
-"den","random-slopes",919,15,3165.34,3228.04,-1569.67,0.2624,0.4756,"CA_MPA_Name_Short|(Intercept): 0.4808; CA_MPA_Name_Short|time: 0.0009; CA_MPA_Name_Short|(Intercept): 0.0003; source|(Intercept): 0.0827; Residual|NA: 1.6419",FALSE
+"pooled","random-intercepts",1750,15,6446.78,6517.86,-3210.39,0.2022,0.3733,"CA_MPA_Name_Short|(Intercept): 0.5986; source|(Intercept): 0.0002; Residual|NA: 2.1930",FALSE
+"bio","random-slopes",831,15,3234.1,3300.22,-1603.05,0.1767,0.3145,"CA_MPA_Name_Short|(Intercept): 0.0754; CA_MPA_Name_Short.1|time: 0.0042; source|(Intercept): 0.0202; Residual|NA: 2.5849",FALSE
+"den","random-slopes",919,15,3162.97,3225.67,-1568.48,0.2624,0.4756,"CA_MPA_Name_Short|(Intercept): 0.4873; CA_MPA_Name_Short|time: 0.0009; CA_MPA_Name_Short|(Intercept): -0.0001; source|(Intercept): 0.0778; Residual|NA: 1.6372",FALSE

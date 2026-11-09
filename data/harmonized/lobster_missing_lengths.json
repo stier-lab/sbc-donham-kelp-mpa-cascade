@@ -1,0 +1,106 @@
+{
+  "release": "lobster_missing_lengths_2026_10_30",
+  "scope": {
+    "programme": "LTER",
+    "taxon": "Panulirus interruptus",
+    "response": "Bio"
+  },
+  "method": "mean individual mass from measured lobsters at the same site and date; raw lengths and counts unchanged",
+  "applied": true,
+  "files": {
+    "harmonized_raw_responses.csv": {
+      "before_md5": "f1e34ac4621360f8c4bc83de33493bc1",
+      "after_md5": "ab8363bfe2c84e5790abb3c6def2ef83",
+      "rows": 6280,
+      "changed_rows": 2,
+      "changed_records": [
+        {
+          "key": [
+            "Campus Point SMCA",
+            "2017",
+            "Panulirus interruptus",
+            "LTER",
+            "Bio",
+            "mpa"
+          ],
+          "before": {
+            "value": "23.9703040097461"
+          },
+          "after": {
+            "value": "24.0099243469523"
+          }
+        },
+        {
+          "key": [
+            "Naples SMCA",
+            "2014",
+            "Panulirus interruptus",
+            "LTER",
+            "Bio",
+            "mpa"
+          ],
+          "before": {
+            "value": "7.15116584971534"
+          },
+          "after": {
+            "value": "7.3310693931044"
+          }
+        }
+      ]
+    },
+    "harmonized_response_ratios.csv": {
+      "before_md5": "e98d1e3eede110d30e1cfb4c5ec208af",
+      "after_md5": "a32a70e481d9a9afe423897cad0b8b65",
+      "rows": 3341,
+      "changed_rows": 2,
+      "changed_records": [
+        {
+          "key": [
+            "Campus Point SMCA",
+            "2017",
+            "Panulirus interruptus",
+            "LTER",
+            "Bio"
+          ],
+          "before": {
+            "mpa": "0.522587586810726",
+            "reference": "0.396206227418647",
+            "Diff": "1.31897873038361",
+            "lnDiff": "0.276857748043072"
+          },
+          "after": {
+            "mpa": "0.523437031411434",
+            "reference": "0.396206227418647",
+            "Diff": "1.32112267599053",
+            "lnDiff": "0.278481887231835"
+          }
+        },
+        {
+          "key": [
+            "Naples SMCA",
+            "2014",
+            "Panulirus interruptus",
+            "LTER",
+            "Bio"
+          ],
+          "before": {
+            "mpa": "0.524370822447776",
+            "reference": "0.387087232787628",
+            "Diff": "1.3546580151236",
+            "lnDiff": "0.303549035113959"
+          },
+          "after": {
+            "mpa": "0.537367634184058",
+            "reference": "0.387087232787628",
+            "Diff": "1.3882339397096",
+            "lnDiff": "0.32803239234196"
+          }
+        }
+      ]
+    }
+  },
+  "source_file": "data/LTER/Lobster_Abundance_All_Years_20230831.csv",
+  "source_md5": "7c60f8bd490283f81db1ceec26c6129d",
+  "source_helper": "code/R/lobster_missing_length_utils.R",
+  "source_helper_md5": "c321b4e0cda656a39d8af0a1ddb9a805"
+}

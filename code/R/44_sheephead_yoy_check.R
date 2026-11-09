@@ -116,6 +116,18 @@ yoy_annual_values <- function(site, eligible, env) {
   x <- site %>% dplyr::group_by(CA_MPA_Name_Short, year, y, site_status, site_designation) %>%
     dplyr::summarise(biomass = mean(biomass, na.rm = TRUE),
       density = mean(density, na.rm = TRUE), .groups = "drop")
+  original_mpa <- x
+  policy <- read.csv(here::here("tables/table_s_pisco_fixed_coverage.csv")) %>%
+    filter(scenario=="strict_min3",eligible)
+  fixed <- lapply(seq_len(nrow(policy)),function(i) {
+    z<-policy[i,];ss<-strsplit(paste(z$protected,z$reference,sep=";"),";",fixed=TRUE)[[1]]
+    yy<-as.integer(strsplit(z$years,";",fixed=TRUE)[[1]])
+    site %>% filter(CA_MPA_Name_Short==z$MPA,site %in% ss,year %in% yy) %>%
+      group_by(CA_MPA_Name_Short,year,y,site_status,site_designation) %>%
+      summarise(biomass=mean(biomass),density=mean(density),.groups="drop")
+  })
+  x<-bind_rows(filter(x,!CA_MPA_Name_Short %in% policy$MPA),bind_rows(fixed))
+  attr(x,"original_mpa")<-original_mpa
   long <- rbind(data.frame(x[c("CA_MPA_Name_Short", "year", "site_status")],
     resp = "Bio", value = x$biomass / env$PISCO_SWATH_AREA_M2),
     data.frame(x[c("CA_MPA_Name_Short", "year", "site_status")],
@@ -130,7 +142,17 @@ yoy_ratios <- function(mpa, env) {
     d <- subset(mpa, site_status != "")
     if (resp == "Bio") d <- subset(d, site_designation != "N/A")
     d <- d[is.finite(d[[col]]), ]
+    original <- attr(mpa,"original_mpa")
+    policy <- read.csv(here::here("tables/table_s_pisco_fixed_coverage.csv")) %>% filter(scenario=="strict_min3",eligible)
+    raw_d<-d
     d <- env$calculate_proportions(d, col)
+    for(m in policy$MPA) {
+      vals<-original[[col]][original$CA_MPA_Name_Short==m]
+      offset<-min(vals[is.finite(vals)&vals>0])/2
+      ii<-which(d$CA_MPA_Name_Short==m)
+      # Raw and normalized ratios are identical; retain the full-mixture offset.
+      d$PropCorr[ii]<-raw_d[[col]][ii]+offset
+    }
     d <- tidyr::spread(d[c("CA_MPA_Name_Short", "year", "y", "site_designation",
                           "site_status", "PropCorr")], site_status, PropCorr)
     d <- env$calculate_log_response_ratio(d)
@@ -139,11 +161,11 @@ yoy_ratios <- function(mpa, env) {
 }
 
 yoy_fixed_fit <- function(row, rebuilt, lnDiff) {
-  stopifnot(row$Model %in% c("Mean", "Linear"), length(lnDiff) == nrow(rebuilt$data),
+  stopifnot(row$Model %in% c("Mean", "Linear", "Step"), length(lnDiff) == nrow(rebuilt$data),
             all(is.finite(lnDiff)))
   d <- rebuilt$data
   d$lnDiff <- lnDiff
-  fit <- if (row$Model == "Mean") lm(lnDiff ~ 1, data = d) else lm(lnDiff ~ time.model, data = d)
+  fit <- switch(row$Model,Mean=lm(lnDiff~1,d),Linear=lm(lnDiff~time.model,d),Step=lm(lnDiff~BA,d))
   g <- rebuilt$gradient
   c(estimate = sum(g * coef(fit)), se = sqrt(drop(t(g) %*% vcov(fit) %*% g)))
 }
@@ -196,7 +218,7 @@ run_sheephead_yoy_check <- function(root = here::here(),
   annual <- uncertainty_annual(root, primary)
   definitions <- uncertainty_definitions(root)
   ix <- which(primary$Taxa == "S. pulcher" & primary$Source == "PISCO")
-  stopifnot(length(ix) > 0, all(primary$Model[ix] %in% c("Mean", "Linear")))
+  stopifnot(length(ix) > 0, all(primary$Model[ix] %in% c("Mean", "Linear", "Step")))
   rebuilt <- lapply(ix, function(i) uncertainty_reconstruct(primary[i, ], annual, definitions))
   base_ratios <- yoy_ratios(base_values$mpa, env)
   rrkeys <- c("MPA", "Resp", "year")
@@ -265,6 +287,11 @@ run_sheephead_yoy_check <- function(root = here::here(),
   cells <- unique(retained[c("CA_MPA_Name_Short", "year", "status")])
   names(cells)[3] <- "site_status"
   raw <- merge(raw, cells, by = c("CA_MPA_Name_Short", "year", "site_status"))
+  policy <- read.csv(file.path(root,"tables/table_s_pisco_fixed_coverage.csv")) %>% filter(scenario=="strict_min3",eligible)
+  for(i in seq_len(nrow(policy))) {
+    z<-policy[i,];ss<-strsplit(paste(z$protected,z$reference,sep=";"),";",fixed=TRUE)[[1]]
+    raw<-raw[raw$CA_MPA_Name_Short!=z$MPA | raw$site %in% ss,]
+  }
   raw <- raw[!duplicated(raw$raw_row), ]
   raw_summary <- do.call(rbind, lapply(list(all_campus_SPUL = subset(fish, classcode == "SPUL"),
                                            retained_unique_SPUL = raw), function(d) {

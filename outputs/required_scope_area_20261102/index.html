@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Source scope and area audit</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Source scope and area audit</h1>
+</header>
+<h1
+id="required-source-years-pelican-bay-area-and-missing-data">Required
+source years, Pelican Bay, area and missing data</h1>
+<p>November 2, 2026. Review only; paper and frozen results
+unchanged.</p>
+<h2 id="required-year-check-fixed">Required-year check: fixed</h2>
+<p>The four held KFM groups from 2023 remain unavailable but no longer
+block the audited current matched histories, which use none of them. The
+source build now reports one required hold (Pelican Bay red urchins,
+1995) and four deferred holds. The explicit group policy is
+hash-checked. A request to validate biomass support for a deferred group
+fails; broad preparation can retain its count with biomass marked
+missing, rather than halt unrelated histories or borrow around the
+source gap. A later extension needs a reviewed scope change and verified
+sources. This is not permission to add 2023 observations.</p>
+<h2 id="pelican-five-original-measurements-remain-unexplained">Pelican:
+five original measurements remain unexplained</h2>
+<p>All 140 original red-urchin rows are maximum test diameters from
+Pelican Bay on August 7, 1995. The combined file contains 135 animals
+and is an exact frequency subset of the original. It omits one
+measurement each at 51, 63, 105, 134 and 184 mm. This is not a general
+unit conversion or a single upper-size cutoff. Equal sizes are
+legitimate repeated observations; the data do not identify individual
+animals, so arbitrary deduplication would be unjustified.</p>
+<p>No recorded exclusion reason was recovered for these five
+measurements. Recommendation: prefer the original 140-row source under
+the source-first policy, with the 135-animal version as a sensitivity.
+The required source hold is retained pending that source choice; this
+audit does not claim the original version has been independently
+adjudicated.</p>
+<p>The existing same-data/same-model comparison changes the Scorpion
+red-urchin before–after estimate from 1.253 to 1.270 log units.
+Conditional 95% intervals are 0.704–1.803 and 0.719–1.822, respectively.
+Both remain positive; post-protection trends are unchanged because the
+affected observation is before protection. These are previously verified
+conditional fits, not a new joint-uncertainty analysis. The affected
+1995 reference-pool mean mass changes by 39.4%, so the small
+pooled-effect change should not be mistaken for a negligible input
+discrepancy.</p>
+<h2 id="lter-area-and-missing-size-handling-checked-and-clarified">LTER
+area and missing-size handling: checked and clarified</h2>
+<ul>
+<li>All 23,236 source LTER urchin observations have an area of 1 m² and
+a recorded nonnegative count. The suspected missing area conversion
+therefore causes no numerical difference in this dataset. The production
+calculation now explicitly divides total biomass by quadrat effort and
+area; invalid effort or missing counts cause an error.</li>
+<li>The existing 1,156-row bootstrap cache contains 72 missing biomass
+estimates. They affect 30 physical-site/year/species combinations.
+Previously the aggregation temporarily filled those values with zero
+before excluding unsupported biomass. The revised branch preserves
+missing biomass directly and produces the same retained numerical
+rows.</li>
+<li>Explicit area normalization changes the checked cached values by
+exactly zero. This is a source/aggregation comparison, not a fresh
+bootstrap or model refit.</li>
+<li>No repeated dates occur within LTER physical-transect/species/year
+groups, and no physical stations belong to both of these LTER comparison
+rosters. This resolves those particular concerns for this branch, not
+for every program.</li>
+</ul>
+<p>Density remains supported when sizes are unavailable; the source
+count is not changed to zero or removed because biomass is missing.
+Group-average size limitations and complete uncertainty remain separate
+issues.</p>
+<h2 id="broader-source-check-further-missing-data-cases">Broader source
+check: further missing-data cases</h2>
+<p>The inventory preserves program, survey method and actual area. KFM
+areas vary by method/year and must not be replaced by one blanket
+constant. No missing or nonpositive areas were found among the focal
+MBON rows checked.</p>
+<p>PISCO source records needing targeted handling are:</p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 30%" />
+<col style="width: 23%" />
+<col style="width: 23%" />
+</colgroup>
+<thead>
+<tr>
+<th>Site</th>
+<th style="text-align: right;">Year</th>
+<th>Recorded value missing</th>
+<th>Why it matters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cavern Point West</td>
+<td style="text-align: right;">2013</td>
+<td>Red-urchin count</td>
+<td>Scorpion protected station; unknown count must not become
+absence</td>
+</tr>
+<tr>
+<td>Little Dume West</td>
+<td style="text-align: right;">2011</td>
+<td>Kelp size/stipe count, with two plants recorded</td>
+<td>Point Dume; plant count does not determine stipes</td>
+</tr>
+<tr>
+<td>Underwater Arch</td>
+<td style="text-align: right;">2023</td>
+<td>Kelp size/stipe count, with two plants recorded</td>
+<td>Point Vicente reference; check use in final matched coverage</td>
+</tr>
+<tr>
+<td>Point Loma Central</td>
+<td style="text-align: right;">2023</td>
+<td>Kelp size/stipe count, with 18 plants recorded</td>
+<td>South La Jolla is outside the retained ecological scope</td>
+</tr>
+</tbody>
+</table>
+<p>These are documented, not numerically corrected here. The next
+targeted check should trace each retained record through PISCO’s
+completed survey grid and zero-filling step, retaining explicit unknown
+measurements separately from inferred species absences. VRG
+lobster/urchin swath sizes being blank is expected: their size
+measurements are in the separate accepted frequency table.</p>
+<p>Five MBON LTER kelp counts are also missing (Naples 2000 and four
+Santa Cruz Diablo 2004 rows). They are listed separately. The primary
+LTER kelp calculation uses the separate annual kelp delivery, so these
+are not automatically five errors in that primary response.</p>
+<h2 id="tables-and-reproduction">Tables and reproduction</h2>
+<ul>
+<li><a href="area_missing_verification.json">Area and missingness
+verification</a></li>
+<li><a href="lter_source_area.csv">LTER source areas</a></li>
+<li><a href="lter_missing_biomass.csv">Missing biomass rows</a></li>
+<li><a href="lter_area_comparison.csv">Explicit versus legacy area
+calculation</a></li>
+<li><a href="pelican_size_frequencies.csv">Pelican size
+frequencies</a></li>
+<li><a href="pelican_review.json">Pelican source inspection</a></li>
+<li><a href="mbon_area_missing_inventory.csv">Cross-program source-area
+inventory</a></li>
+<li><a href="pisco_missing_focal_values.csv">PISCO records with missing
+focal values</a></li>
+</ul>
+<p>Reproduce the area/missingness comparison with
+<code>code/tools/audit_area_missingness.py</code>; its cached-input CSV
+is an export of the existing LTER RDS, not a new fit. The data
+repository <code>make check</code> tests source gating, missing values
+and effort/area conversion. No manuscript, supplement or frozen primary
+output was changed.</p>
+</body>
+</html>

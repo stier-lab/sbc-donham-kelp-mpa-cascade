@@ -1,0 +1,259 @@
+                                           series_id                      MPA
+                                              <char>                   <char>
+ 1:      Abalone Cove SMCA|M. franciscanus|PISCO|Bio        Abalone Cove SMCA
+ 2:       Abalone Cove SMCA|P. interruptus|PISCO|Bio        Abalone Cove SMCA
+ 3:        Abalone Cove SMCA|S. purpuratus|PISCO|Bio        Abalone Cove SMCA
+ 4:  Anacapa Island SMR 2003|M. franciscanus|KFM|Bio  Anacapa Island SMR 2003
+ 5:    Anacapa Island SMR 2003|S. purpuratus|KFM|Bio  Anacapa Island SMR 2003
+ 6:       Campus Point SMCA|M. franciscanus|LTER|Bio        Campus Point SMCA
+ 7:      Campus Point SMCA|M. franciscanus|PISCO|Bio        Campus Point SMCA
+ 8:        Campus Point SMCA|P. interruptus|LTER|Bio        Campus Point SMCA
+ 9:         Campus Point SMCA|S. purpuratus|LTER|Bio        Campus Point SMCA
+10:        Campus Point SMCA|S. purpuratus|PISCO|Bio        Campus Point SMCA
+11:        Gull Island SMR|M. franciscanus|PISCO|Bio          Gull Island SMR
+12:          Gull Island SMR|S. purpuratus|PISCO|Bio          Gull Island SMR
+13:         Harris Point SMR|M. franciscanus|KFM|Bio         Harris Point SMR
+14:       Harris Point SMR|M. franciscanus|PISCO|Bio         Harris Point SMR
+15:           Harris Point SMR|S. purpuratus|KFM|Bio         Harris Point SMR
+16:         Harris Point SMR|S. purpuratus|PISCO|Bio         Harris Point SMR
+17:         Matlahuayl SMR|M. franciscanus|PISCO|Bio           Matlahuayl SMR
+18:          Matlahuayl SMR|P. interruptus|PISCO|Bio           Matlahuayl SMR
+19:           Matlahuayl SMR|S. purpuratus|PISCO|Bio           Matlahuayl SMR
+20:             Naples SMCA|M. franciscanus|LTER|Bio              Naples SMCA
+21:            Naples SMCA|M. franciscanus|PISCO|Bio              Naples SMCA
+22:              Naples SMCA|P. interruptus|LTER|Bio              Naples SMCA
+23:               Naples SMCA|S. purpuratus|LTER|Bio              Naples SMCA
+24:              Naples SMCA|S. purpuratus|PISCO|Bio              Naples SMCA
+25:        Point Dume SMCA|M. franciscanus|PISCO|Bio          Point Dume SMCA
+26:          Point Dume SMCA|S. purpuratus|PISCO|Bio          Point Dume SMCA
+27:     Point Vicente SMCA|M. franciscanus|PISCO|Bio       Point Vicente SMCA
+28:      Point Vicente SMCA|P. interruptus|PISCO|Bio       Point Vicente SMCA
+29:       Point Vicente SMCA|S. purpuratus|PISCO|Bio       Point Vicente SMCA
+30: Santa Barbara Island SMR|M. franciscanus|KFM|Bio Santa Barbara Island SMR
+31:   Santa Barbara Island SMR|S. purpuratus|KFM|Bio Santa Barbara Island SMR
+32:             Scorpion SMR|M. franciscanus|KFM|Bio             Scorpion SMR
+33:           Scorpion SMR|M. franciscanus|PISCO|Bio             Scorpion SMR
+34:               Scorpion SMR|S. purpuratus|KFM|Bio             Scorpion SMR
+35:             Scorpion SMR|S. purpuratus|PISCO|Bio             Scorpion SMR
+36:          South Point SMR|M. franciscanus|KFM|Bio          South Point SMR
+37:        South Point SMR|M. franciscanus|PISCO|Bio          South Point SMR
+38:            South Point SMR|S. purpuratus|KFM|Bio          South Point SMR
+39:          South Point SMR|S. purpuratus|PISCO|Bio          South Point SMR
+                                           series_id                      MPA
+                                              <char>                   <char>
+               Taxa Source                               method paired_years
+             <char> <char>                               <char>        <int>
+ 1: M. franciscanus  PISCO annual MPA/role/species pooled sizes           13
+ 2:  P. interruptus  PISCO annual MPA/role/species pooled sizes           12
+ 3:   S. purpuratus  PISCO annual MPA/role/species pooled sizes           13
+ 4: M. franciscanus    KFM annual MPA/role/species pooled sizes           17
+ 5:   S. purpuratus    KFM annual MPA/role/species pooled sizes           17
+ 6: M. franciscanus   LTER annual MPA/role/species pooled sizes           15
+ 7: M. franciscanus  PISCO annual MPA/role/species pooled sizes           12
+ 8:  P. interruptus   LTER              direct measured lengths           12
+ 9:   S. purpuratus   LTER annual MPA/role/species pooled sizes           17
+10:   S. purpuratus  PISCO annual MPA/role/species pooled sizes           13
+11: M. franciscanus  PISCO annual MPA/role/species pooled sizes           15
+12:   S. purpuratus  PISCO annual MPA/role/species pooled sizes           15
+13: M. franciscanus    KFM annual MPA/role/species pooled sizes           36
+14: M. franciscanus  PISCO annual MPA/role/species pooled sizes           15
+15:   S. purpuratus    KFM annual MPA/role/species pooled sizes           36
+16:   S. purpuratus  PISCO annual MPA/role/species pooled sizes           15
+17: M. franciscanus  PISCO annual MPA/role/species pooled sizes            5
+18:  P. interruptus  PISCO annual MPA/role/species pooled sizes            7
+19:   S. purpuratus  PISCO annual MPA/role/species pooled sizes            5
+20: M. franciscanus   LTER annual MPA/role/species pooled sizes           14
+21: M. franciscanus  PISCO annual MPA/role/species pooled sizes           13
+22:  P. interruptus   LTER              direct measured lengths           12
+23:   S. purpuratus   LTER annual MPA/role/species pooled sizes           21
+24:   S. purpuratus  PISCO annual MPA/role/species pooled sizes           13
+25: M. franciscanus  PISCO annual MPA/role/species pooled sizes            1
+26:   S. purpuratus  PISCO annual MPA/role/species pooled sizes            1
+27: M. franciscanus  PISCO annual MPA/role/species pooled sizes           14
+28:  P. interruptus  PISCO annual MPA/role/species pooled sizes           12
+29:   S. purpuratus  PISCO annual MPA/role/species pooled sizes           14
+30: M. franciscanus    KFM annual MPA/role/species pooled sizes           17
+31:   S. purpuratus    KFM annual MPA/role/species pooled sizes           17
+32: M. franciscanus    KFM annual MPA/role/species pooled sizes           37
+33: M. franciscanus  PISCO annual MPA/role/species pooled sizes           18
+34:   S. purpuratus    KFM annual MPA/role/species pooled sizes           37
+35:   S. purpuratus  PISCO annual MPA/role/species pooled sizes           18
+36: M. franciscanus    KFM annual MPA/role/species pooled sizes           17
+37: M. franciscanus  PISCO annual MPA/role/species pooled sizes           14
+38:   S. purpuratus    KFM annual MPA/role/species pooled sizes           17
+39:   S. purpuratus  PISCO annual MPA/role/species pooled sizes           14
+               Taxa Source                               method paired_years
+             <char> <char>                               <char>        <int>
+    positive_side_years singleton_side_years under10_side_years
+                  <int>                <int>              <int>
+ 1:                  26                    0                  5
+ 2:                  20                    4                 10
+ 3:                  26                    0                  2
+ 4:                  31                    0                  0
+ 5:                  33                    0                  0
+ 6:                  25                    7                 17
+ 7:                  24                    5                 15
+ 8:                  24                    0                  0
+ 9:                  34                    1                  8
+10:                  26                    0                  2
+11:                  30                    0                  0
+12:                  30                    0                  1
+13:                  71                    0                  0
+14:                  30                    0                  0
+15:                  67                    0                  0
+16:                  30                    0                  0
+17:                   8                    2                  6
+18:                  14                    1                  4
+19:                   5                    0                  5
+20:                  28                    1                  3
+21:                  26                    0                  2
+22:                  24                    0                  1
+23:                  41                    1                  6
+24:                  26                    0                  0
+25:                   1                    0                  0
+26:                   1                    0                  0
+27:                  28                    0                  0
+28:                  23                    1                  3
+29:                  27                    0                  1
+30:                  34                    0                  0
+31:                  34                    0                  0
+32:                  74                    0                  0
+33:                  36                    0                  0
+34:                  74                    0                  0
+35:                  36                    0                  0
+36:                  34                    0                  0
+37:                  28                    0                  0
+38:                  34                    0                  0
+39:                  28                    0                  0
+    positive_side_years singleton_side_years under10_side_years
+                  <int>                <int>              <int>
+    missing_support_side_years shared_side_years cross_program_side_years
+                         <int>             <int>                    <int>
+ 1:                          0                 0                        0
+ 2:                          0                 0                        0
+ 3:                          0                 0                        0
+ 4:                          0                 0                        2
+ 5:                          0                 0                        2
+ 6:                          0                23                        3
+ 7:                          0                22                       22
+ 8:                          0                 0                        0
+ 9:                          0                26                        5
+10:                          0                26                       26
+11:                          0                 0                       30
+12:                          0                 0                       30
+13:                          0                30                        2
+14:                          0                30                       30
+15:                          0                27                        2
+16:                          0                27                       30
+17:                          0                 0                        0
+18:                          0                 0                        0
+19:                          0                 0                        0
+20:                          0                26                        5
+21:                          0                26                       26
+22:                          0                 0                        0
+23:                          0                26                        5
+24:                          0                26                       26
+25:                          0                 0                        0
+26:                          0                 0                        0
+27:                          0                 0                        0
+28:                          0                 0                        0
+29:                          0                 0                        0
+30:                          0                 0                        0
+31:                          0                 0                        0
+32:                          0                36                        2
+33:                          0                36                       36
+34:                          0                36                        1
+35:                          0                36                       36
+36:                          0                28                        0
+37:                          0                28                       28
+38:                          0                28                        0
+39:                          0                28                       28
+    missing_support_side_years shared_side_years cross_program_side_years
+                         <int>             <int>                    <int>
+    outside_count_footprint_side_years incomplete_size_date_side_years
+                                 <int>                           <int>
+ 1:                                  6                               0
+ 2:                                  5                               0
+ 3:                                  6                               0
+ 4:                                  2                              31
+ 5:                                  2                              33
+ 6:                                  3                               0
+ 7:                                 22                               0
+ 8:                                  0                               0
+ 9:                                  5                               0
+10:                                 26                               0
+11:                                 30                              30
+12:                                 30                              30
+13:                                  2                              71
+14:                                 30                              30
+15:                                  2                              67
+16:                                 30                              30
+17:                                  0                               0
+18:                                  0                               0
+19:                                  0                               0
+20:                                  5                               0
+21:                                 26                               0
+22:                                  0                               0
+23:                                  5                               0
+24:                                 26                               0
+25:                                  1                               0
+26:                                  1                               0
+27:                                  5                               0
+28:                                  4                               0
+29:                                  4                               0
+30:                                  0                              34
+31:                                  0                              34
+32:                                  2                              74
+33:                                 36                              36
+34:                                  1                              74
+35:                                 36                              36
+36:                                  0                              34
+37:                                 28                              28
+38:                                  0                              34
+39:                                 28                              28
+    outside_count_footprint_side_years incomplete_size_date_side_years
+                                 <int>                           <int>
+    min_n_sized
+          <int>
+ 1:           2
+ 2:           1
+ 3:           2
+ 4:          23
+ 5:          11
+ 6:           1
+ 7:           1
+ 8:          15
+ 9:           1
+10:           4
+11:          28
+12:           4
+13:          74
+14:         127
+15:          10
+16:          16
+17:           1
+18:           1
+19:           3
+20:           1
+21:           3
+22:           6
+23:           1
+24:          37
+25:         142
+26:         150
+27:          23
+28:           1
+29:           8
+30:          62
+31:          60
+32:          32
+33:          78
+34:         101
+35:          79
+36:         598
+37:         464
+38:         186
+39:         168
+    min_n_sized
+          <int>
+Rows: 1222 histories: 39 prior mismatches: 0 

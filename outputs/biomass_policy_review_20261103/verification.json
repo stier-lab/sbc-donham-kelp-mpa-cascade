@@ -1,0 +1,13 @@
+{
+  "annual_rows": 3483,
+  "direct_only_lost_supported_years": 20,
+  "direct_only_retained_max_log_difference": 0,
+  "cv20_and_cv30_same_coverage": true,
+  "emily_archive_matched_pisco_urchin_years": 30,
+  "biomass_candidate_years": 1990,
+  "biomass_supported_years": 1449,
+  "matched_joint_arms": 4,
+  "matched_urchin_years": 30,
+  "non_target_annual_ratios_identical": true,
+  "archived_metadata_correction_numerical_hashes_unchanged": true
+}

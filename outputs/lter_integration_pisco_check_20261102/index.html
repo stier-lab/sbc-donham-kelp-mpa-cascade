@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>LTER and PISCO source audit</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">LTER and PISCO source audit</h1>
+</header>
+<h1 id="original-lter-integration-and-cached-pisco-check">Original LTER
+integration and cached PISCO check</h1>
+<p>November 2, 2026. Review outputs only; manuscript, supplement and
+frozen primary results are unchanged.</p>
+<h2 id="lter-integrated">LTER: integrated</h2>
+<ul>
+<li>SBC 19.33 and its metadata now enter through registered,
+checksum-verified source snapshots. Source units and the missing-value
+code are checked before processing.</li>
+<li>The existing scope contains 2,706 positive-count source rows: 1,809
+have group-average diameters and 897 have missing sizes. Missing sizes
+remain missing; their counts remain visible. They do not become size
+donors or zero biomass.</li>
+<li>The source records preserve dates, physical sites, transects,
+quadrats, sides, area, counts, raw sizes and row identifiers. Six
+existing stations and 2000–2023 are preserved; source availability does
+not add sites or override exclusions.</li>
+<li>Four Arroyo Quemado purple-urchin records now use July 27, 2022,
+rather than July 19. Counts and sizes agree with the original
+source.</li>
+<li>Across 203 annual site/species-size-class pools, the maximum
+difference in count-weighted mean mass proxy is 3.62e-09 g. This is
+numerical serialization precision, not a material annual biomass change.
+Visit-level joins can be affected by the four corrected dates.</li>
+</ul>
+<p>These sizes are survey-group means, not individual diameters.
+Converting a mean diameter to mass does not recover the average mass of
+the animals when the relationship is nonlinear. Group-level resampling
+cannot recover their unrecorded within-group size variation. The mass
+and donor ledgers retain this distinction. This comparison checks annual
+inputs and mass conversions; it does not claim a new model fit or total
+uncertainty estimate.</p>
+<h2 id="pisco-measurements-verified-adoption-held">PISCO: measurements
+verified; adoption held</h2>
+<ul>
+<li>The cached PISCO 1.11 size file passes its metadata checksum. All
+3,970 older UCSB roving records match with multiplicity after documented
+unit, method-label and blank-zone normalization. They represent 11,862
+animals.</li>
+<li>An old aggregation label assigns 99 physical Painted Cave East
+records from 2003 to South Point: 55 red-urchin and 44 purple-urchin
+records. The source measurements match; the site assignment needs
+correction and affected-donor tracing before promotion. Do not copy the
+erroneous alias into a new adapter.</li>
+<li>The cache contains 2,915 additional 2022–2024 urchin rows. These are
+listed separately and have not been added to analytical scope.</li>
+<li>No VRG records occur in this cache. It therefore does not resolve
+the full PISCO source requirement.</li>
+</ul>
+<h2 id="what-changes-now">What changes now</h2>
+<p>Original LTER data replace the opaque combined-file input at the
+source boundary. Missing and group-average sizes are explicit, and four
+dates are corrected. The annual mass proxies are effectively unchanged.
+PISCO receives a reproducible verification and alias-conflict table, not
+automatic adoption. Full harmonization remains guarded until missing
+PISCO sources and outstanding KFM source decisions are resolved.
+Downstream area normalization, donor matching and complete uncertainty
+still require review before primary promotion.</p>
+<h2 id="linked-records">Linked records</h2>
+<ul>
+<li><a href="lter_selection_ledger.csv">LTER selection and
+missingness</a></li>
+<li><a href="lter_date_differences.csv">LTER source-date
+differences</a></li>
+<li><a href="lter_annual_mass_comparison.csv">LTER annual mass
+comparison</a></li>
+<li><a href="pisco_exact_matches.csv">Verified PISCO measurement
+rows</a></li>
+<li><a href="pisco_alias_conflict.csv">PISCO alias conflict</a></li>
+<li><a href="pisco_unadopted_extensions.csv">Additional PISCO rows, not
+adopted</a></li>
+<li><a href="pisco_verification.json">PISCO checksum and match
+verification</a></li>
+</ul>
+<p>Reproduce with <code>make check</code> and <code>make trace</code> in
+the data repository; run
+<code>python3 code/tools/check_cached_pisco_sizes.py</code> and
+<code>python3 code/tools/report_lter_integration.py</code> in the
+analysis repository. The data repository’s
+<code>docs/RAW_TO_BIOMASS.md</code> is the workflow guide.</p>
+</body>
+</html>

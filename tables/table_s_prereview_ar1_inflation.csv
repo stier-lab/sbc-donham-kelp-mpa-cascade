@@ -1,10 +1,10 @@
 "Taxa","Response","est_reported_se","ci_lo_reported","ci_hi_reported","p_reported","est_ar1_se","ci_lo_ar1","ci_hi_ar1","p_ar1","ci_width_ratio","sign_flip","significance_flip"
-"M. franciscanus","Biomass",0.463,0.123,0.804,0.0076,0.478,0.131,0.825,0.0069,1.018,FALSE,FALSE
-"M. pyrifera","Biomass",1.021,0.674,1.367,0,0.911,0.541,1.282,0,1.068,FALSE,FALSE
-"P. interruptus","Biomass",0.342,-0.171,0.855,0.1911,0.35,-0.171,0.872,0.1878,1.017,FALSE,FALSE
-"S. pulcher","Biomass",0.847,0.504,1.19,0,0.839,0.485,1.193,0,1.032,FALSE,FALSE
-"S. purpuratus","Biomass",-0.809,-1.186,-0.432,0,-0.792,-1.202,-0.381,2e-04,1.089,FALSE,FALSE
-"M. franciscanus","Density",-0.227,-0.565,0.111,0.1879,-0.229,-0.57,0.113,0.1889,1.011,FALSE,FALSE
-"P. interruptus","Density",1.254,0.898,1.609,0,1.125,0.77,1.48,0,0.999,FALSE,FALSE
-"S. pulcher","Density",0.079,-0.253,0.411,0.6394,0.074,-0.258,0.406,0.6615,0.999,FALSE,FALSE
-"S. purpuratus","Density",-1.642,-2.01,-1.273,0,-1.608,-2.01,-1.207,0,1.089,FALSE,FALSE
+"M. franciscanus","Biomass",0.477,0.155,0.8,0.0037,0.496,0.16,0.831,0.0038,1.041,FALSE,FALSE
+"M. pyrifera","Biomass",0.982,0.656,1.309,0,0.87,0.517,1.224,0,1.083,FALSE,FALSE
+"P. interruptus","Biomass",0.372,-0.125,0.869,0.1423,0.376,-0.136,0.887,0.1499,1.029,FALSE,FALSE
+"S. pulcher","Biomass",0.738,0.41,1.067,0,0.757,0.412,1.102,0,1.05,FALSE,FALSE
+"S. purpuratus","Biomass",-0.689,-1.051,-0.326,2e-04,-0.684,-1.086,-0.282,8e-04,1.108,FALSE,FALSE
+"M. franciscanus","Density",-0.168,-0.465,0.129,0.2683,-0.175,-0.477,0.127,0.2551,1.016,FALSE,FALSE
+"P. interruptus","Density",1.256,0.939,1.574,0,1.113,0.794,1.432,0,1.005,FALSE,FALSE
+"S. pulcher","Density",0.068,-0.226,0.362,0.6484,0.089,-0.206,0.383,0.5556,1.003,FALSE,FALSE
+"S. purpuratus","Density",-1.281,-1.608,-0.954,0,-1.156,-1.512,-0.8,0,1.088,FALSE,FALSE

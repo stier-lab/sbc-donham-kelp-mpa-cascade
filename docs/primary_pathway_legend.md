@@ -18,19 +18,19 @@ Every fit must match Table 3 k, the intercept, slope, slope SE and slope CI endp
 
 Export dimensions: 170 x 210 mm; PNG 600 dpi; six facets in two columns.
 
-- Primary input: data/sumstats_final.csv; MD5 153842a6bab8d85d1152a4be5a05b29c
-- Verification input: tables/table_03_cross_taxa_meta_regression.csv; MD5 5ffc08496576b6aba43ed0f6965af2cd
+- Primary input: data/sumstats_final.csv; MD5 7d07174d93b4b3ee87b78d537b4886de
+- Verification input: tables/table_03_cross_taxa_meta_regression.csv; MD5 9734cffb37b2b28cdb5af7af13ba095b
 - Outputs: plots/fig_s_primary_pathway.pdf, plots/fig_s_primary_pathway.png, tables/table_s_primary_pathway_membership.csv, docs/primary_pathway_legend.md
 
 The membership CSV has one row per plotted MPA/panel, with both taxa/responses, individual primary source keys, source lists, source models/designs, source counts, equal-source means, variances and SEs. verified_slope and table3_slope document concordance. All primary values are read-only.
 
 | Panel | k | Verified slope | Table 3 slope |
 |---|---:|---:|---:|
-| a | 4 | -0.56160199 | -0.5616 |
-| b | 11 | -0.22103263 | -0.2210 |
-| c | 9 | 0.13946706 | 0.1395 |
-| d | 11 | 0.54127678 | 0.5413 |
-| e | 11 | -0.41042310 | -0.4104 |
-| f | 10 | -0.14575539 | -0.1458 |
+| a | 4 | -0.55490175 | -0.5549 |
+| b | 11 | -0.43377567 | -0.4338 |
+| c | 9 | 0.09292487 | 0.0929 |
+| d | 11 | -0.09070464 | -0.0907 |
+| e | 11 | -0.32758968 | -0.3276 |
+| f | 10 | -0.21014244 | -0.2101 |
 
 Available runtime: R version 4.6.2 (2026-10-29); dplyr 1.2.1; ggplot2 4.0.3; ggrepel 0.9.8; metafor 5.2.1; ragg 1.5.2; scales 1.4.0.

@@ -1,0 +1,65 @@
+program,MPA,site_id,source_namespace,inventory_record_type,record_link_status,linked_constituent_stations,resolved_group_scope
+PISCO,Anacapa Island SMCA,ANACAPA_WEST_ISLE,UCSB,Grouped-site label; not a sampled station,Confirmed grouped-site identifier; observed constituent stations,ANACAPA_WEST_ISLE_CEN;ANACAPA_WEST_ISLE_E;ANACAPA_WEST_ISLE_W,Real whole-MPA exclusion
+PISCO,Anacapa Island SMCA,a-k-31,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Anacapa Island SMR 1978,ANACAPA_EAST_FISH_CAMP,UCSB,Grouped-site label; not a sampled station,Confirmed grouped-site identifier; observed constituent stations,ANACAPA_EAST_FISH_CAMP_CEN;ANACAPA_EAST_FISH_CAMP_E;ANACAPA_EAST_FISH_CAMP_W,Real whole-MPA exclusion
+PISCO,Anacapa Island SMR 1978,ANACAPA_LIGHTHOUSE_REEF,UCSB,Grouped-site label; not a sampled station,Confirmed grouped-site identifier; observed constituent stations,ANACAPA_LIGHTHOUSE_REEF_CEN;ANACAPA_LIGHTHOUSE_REEF_E;ANACAPA_LIGHTHOUSE_REEF_W,Real whole-MPA exclusion
+PISCO,Anacapa Island SMR 1978,a-k-12,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Anacapa Island SMR 1978,a-k-13,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Anacapa Island SMR 2003,ANACAPA_EAST_FISH_CAMP,UCSB,Grouped-site label; not a sampled station,Confirmed grouped-site identifier; observed constituent stations,ANACAPA_EAST_FISH_CAMP_CEN;ANACAPA_EAST_FISH_CAMP_E;ANACAPA_EAST_FISH_CAMP_W,No whole-group exclusion found for this PISCO assignment
+PISCO,Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF,UCSB,Grouped-site label; not a sampled station,Confirmed grouped-site identifier; observed constituent stations,ANACAPA_LIGHTHOUSE_REEF_CEN;ANACAPA_LIGHTHOUSE_REEF_E;ANACAPA_LIGHTHOUSE_REEF_W,No whole-group exclusion found for this PISCO assignment
+PISCO,Anacapa Island SMR 2003,a-k-11,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Anacapa Island SMR 2003,a-k-32,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Anacapa Island SMR 2003,a-k-33,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Anacapa Island SMR 2003,a-k-34,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Campus Point SMCA,a-l-01,LTER,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Campus Point SMCA,a-l-06,LTER,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Campus Point SMCA,a-l-07,LTER,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Campus Point SMCA,a-l-08,LTER,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Carrington Point SMR,a-k-05,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Gull Island SMR,SCI_GULL_ISLE,UCSB,Grouped-site label; not a sampled station,Confirmed grouped-site identifier; observed constituent stations,SCI_GULL_ISLE_E;SCI_GULL_ISLE_W,No whole-group exclusion found for this PISCO assignment
+PISCO,Gull Island SMR,SCI_YELLOWBANKS,UCSB,Grouped-site label; not a sampled station,Confirmed grouped-site identifier; observed constituent stations,SCI_YELLOWBANKS_CEN;SCI_YELLOWBANKS_E;SCI_YELLOWBANKS_W,Real reference exclusion / short remaining branch
+PISCO,Gull Island SMR,a-k-06,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Gull Island SMR,a-k-10,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Harris Point SMR,SMI_HARRIS_PT_RESERVE,UCSB,Grouped-site label; not a sampled station,Confirmed grouped-site identifier; observed constituent stations,SMI_HARRIS_PT_RESERVE_E;SMI_HARRIS_PT_RESERVE_W,No whole-group exclusion found for this PISCO assignment
+PISCO,Harris Point SMR,SMI_TYLER_BIGHT,UCSB,Grouped-site label; not a sampled station,Confirmed grouped-site identifier; observed constituent stations,SMI_TYLER_BIGHT_E;SMI_TYLER_BIGHT_W,Real reference exclusion
+PISCO,Harris Point SMR,a-k-01,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Harris Point SMR,a-k-02,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Harris Point SMR,a-k-21,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,,SCI_TRAILER,UCSB,Unassigned map label; no records recovered,Unassigned map-only label; no source records recovered,,Not an eligible study assignment; reason for map entry unresolved
+PISCO,,SCI_WILLOWS,UCSB,Unassigned map label; no records recovered,Unassigned map-only label; no source records recovered,,Not an eligible study assignment; reason for map entry unresolved
+PISCO,Naples SMCA,a-l-03,LTER,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Naples SMCA,a-l-09,LTER,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Painted Cave SMCA,a-k-07,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Santa Barbara Island SMR,a-k-14,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Santa Barbara Island SMR,a-k-15,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Santa Barbara Island SMR,a-k-16,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Santa Barbara Island SMR,a-k-35,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Santa Barbara Island SMR,a-k-36,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Santa Barbara Island SMR,a-k-37,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Scorpion SMR,SCI_CAVERN_POINT,UCSB,Grouped-site label; not a sampled station,Confirmed grouped-site identifier; observed constituent stations,SCI_CAVERN_POINT_E;SCI_CAVERN_POINT_W,No whole-group exclusion found for this PISCO assignment
+PISCO,Scorpion SMR,SCI_COCHE_POINT,UCSB,Grouped-site label; not a sampled station,Confirmed grouped-site identifier; observed constituent stations,SCI_COCHE_POINT_E;SCI_COCHE_POINT_W,No whole-group exclusion found for this PISCO assignment
+PISCO,Scorpion SMR,SCI_LITTLE_SCORPION,UCSB,Grouped-site label; not a sampled station,Confirmed grouped-site identifier; observed constituent stations,SCI_LITTLE_SCORPION_E;SCI_LITTLE_SCORPION_W,No whole-group exclusion found for this PISCO assignment
+PISCO,Scorpion SMR,SCI_PELICAN,UCSB,Grouped-site label; not a sampled station,Confirmed grouped-site identifier; observed constituent stations,SCI_PELICAN_CEN;SCI_PELICAN_E;SCI_PELICAN_FAR_WEST;SCI_PELICAN_W,No whole-group exclusion found for this PISCO assignment
+PISCO,Scorpion SMR,SCI_POTATO_PASTURE,UCSB,Grouped-site label; not a sampled station,Confirmed grouped-site identifier; observed constituent stations,SCI_POTATO_PASTURE_E;SCI_POTATO_PASTURE_W,No whole-group exclusion found for this PISCO assignment
+PISCO,Scorpion SMR,SCI_SAN_PEDRO_POINT,UCSB,Grouped-site label; not a sampled station,Confirmed grouped-site identifier; observed constituent stations,SCI_SAN_PEDRO_POINT_E;SCI_SAN_PEDRO_POINT_W,No whole-group exclusion found for this PISCO assignment
+PISCO,Scorpion SMR,a-k-08,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Scorpion SMR,a-k-09,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Scorpion SMR,a-k-26,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Scorpion SMR,a-k-27,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Scorpion SMR,a-k-28,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Scorpion SMR,a-k-29,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,Scorpion SMR,a-k-30,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,South Point SMR,SRI_CHICKASAW,UCSB,Grouped-site label; not a sampled station,Confirmed grouped-site identifier; observed constituent stations,SRI_CHICKASAW_E;SRI_CHICKASAW_W,No whole-group exclusion found for this PISCO assignment
+PISCO,South Point SMR,SRI_CLUSTER_POINT,UCSB,Grouped-site label; not a sampled station,Confirmed grouped-site identifier; observed constituent stations,SRI_CLUSTER_POINT_N;SRI_CLUSTER_POINT_S,No whole-group exclusion found for this PISCO assignment
+PISCO,South Point SMR,SRI_SOUTH_POINT,UCSB,Grouped-site label; not a sampled station,Confirmed grouped-site identifier; observed constituent stations,SRI_SOUTH_POINT_E;SRI_SOUTH_POINT_W,No whole-group exclusion found for this PISCO assignment
+PISCO,South Point SMR,SRI_TRANCION_CANYON,UCSB,Grouped-site label; not a sampled station,Confirmed grouped-site identifier; observed constituent stations,SRI_TRANCION_CANYON_E;SRI_TRANCION_CANYON_W,No whole-group exclusion found for this PISCO assignment
+PISCO,South Point SMR,a-k-03,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,South Point SMR,a-k-04,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,South Point SMR,a-k-22,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,South Point SMR,a-k-23,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,South Point SMR,a-k-24,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,South Point SMR,a-k-25,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,[blank],a-k-17,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,[blank],a-k-18,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,[blank],a-k-19,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,
+PISCO,[blank],a-k-20,KFM,Cross-program map entry,Cross-program row in PISCO master map; not a missing PISCO survey,,

@@ -1,0 +1,45 @@
+{
+  "scope": "Diagnostic only; no final primary adoption",
+  "repo": "/Users/adrianstier/sbc-donham-kelp-mpa-cascade",
+  "data_root": "/Users/adrianstier/sbc-donham-kelp-mpa-data",
+  "tolerances_days": [
+    0,
+    3,
+    7,
+    14
+  ],
+  "source_script_sha256": "2906050c73767a3680625ad145e4be9672750d2400d3bbcd38f74bf436aa7e83",
+  "inputs": {
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/pisco_biomass_borrowing_20261102/visit_biomass_support.csv": "fdf8f5d7f5850ddc060503ee803a2b3ccec7aac54b7c7e62e73fb58b9320db63",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/pisco_timing_donors_20261102/size_sample_inventory.csv": "26a8c755cde14dcbcfe71a2e41173983931bf66837e45e8adfe3c040d651fb29",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/pisco_biomass_borrowing_20261102/outer_site_calibration.csv": "3391b10b55faa402bd60ed4ee2d6381001ba29e214e3e3d765a663c9959b03a1",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/pisco_biomass_borrowing_20261102/biomass_annual.csv": "24e05569e253056483aeea309cab0a91d809f30b188d2c58157a8dcca9980a23",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/pisco_biomass_borrowing_20261102/biomass_effects.csv": "402aecd98509cde96afa435a1766ce828b758bfffadec84ab3623d9aacb7573e",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/pisco_all_months_20261102/annual_values.csv": "77ec800ca628648048b72643e6744a897d0015a28262066eef55c9b7a39bfb9f",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/pisco_biomass_borrowing_20261102/selected_density_annual.csv": "b8bdafa6f19d581280287436be8b0f08733653f588dfb5242a2db0b8b8c4f714",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/all_program_station_refits_20261102/offsets.csv": "1df7a4b2ba4a7a5f72619c6bde7a3d76a1b69724c2b1fba860f6f1c163ab3b37",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-data/data/ALL_sizefreq_2024.csv": "711e2ff55973a3592ac7aa6a00f37cfbe33c482d9684eaeecc41519fc2552741",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/researcher_scope_20261101/protected_hashes.json": "b93f79f50c76e2bd8a7799af683a561482d7bb7962aa1b67113f494986abaa01"
+  },
+  "outputs": {
+    "effects.csv": "5e0455e5b0ac27500361b0fa7c5106c2d9b54bf4fcacd70bf47018a8e39f95bd",
+    "summary.csv": "b9ab3652f8a1d243abcf29af32233efe9d184b10aec164b2c8b65e1ba5d7421e",
+    "changed_visits_7days.csv": "6698c8e4a22dc4c0c76c7b82db1d6b735c95f9710f6d03228f47abeb84fba20f",
+    "tests.json": "28c31cee509eba52c7e76acadcccb3afa3711d50072730fc0e76a40ca6e4391b",
+    "protected_checks.csv": "0792ca3d800fef21e5e633b397da0cdf27bd123a3fe62f37c9d3e6025df560a1",
+    "report.md": "712979e7186827e3579b92c91d90c6c171a159bc37f318d49d560e4f1b734ae5",
+    "selected_density_annual.csv": "b8bdafa6f19d581280287436be8b0f08733653f588dfb5242a2db0b8b8c4f714",
+    "visit_support.csv": "c687fe61237e01fa8dd7580decc979328f89a1128ae1934d99b9ae99f9d71715",
+    "donor_attempts.csv": "5d6f19755f56c54143336881cf254a10f3870fd51cfea251331320374dd9a1db",
+    "outer_site_calibration.csv": "e9297d70a84222b0e6782f91262acd6e067a44395f5c45fbf13e89f34b143e57",
+    "input_hash_manifest.json": "1c9d3de5262190486f6bbabb5641104cc0d8e451c5d84940500be80af44c1d11",
+    "heldout_validation.csv": "95884e6e7ccb9d3f251820e6e39770272d43a3baa7146854b836077ef9e346d5",
+    "sample_diagnostics.csv": "b623637751fa051af25e6b39f8a0b9943a3c9a3246204a8d6216d6c374806880",
+    "annual.csv": "16190e36a5ab3c09102a332281bb324bd7176914271bb029d7340aac08cceb5f",
+    "recovered_post_years_7days.csv": "8fa09901b6d960773e94b131d4b061d56deeb76d1ea1d99d605e1a4ba3c5e37f"
+  },
+  "dependencies": {
+    "pandas": "3.0.6",
+    "numpy": "2.4.2"
+  }
+}

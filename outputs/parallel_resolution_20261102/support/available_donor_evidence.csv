@@ -1,0 +1,22 @@
+row_id,kind,donor_site,donor_date,zone,year,Taxa,n_animals,gap
+80,other_visit,POINT_FERMIN,2019-10-25,INNER,2019,M. franciscanus,4,294
+80,other_site,BUNKER_POINT,2019-08-16,INNER,2019,M. franciscanus,1,224
+358,other_site,POINT_VICENTE_W,2010-07-27,INNER,2010,M. franciscanus,8,6
+359,other_visit,LONG_POINT_E,2010-07-20,MID,2010,M. franciscanus,16,1
+359,other_site,POINT_VICENTE_W,2010-07-27,MID,2010,M. franciscanus,17,6
+409,other_site,LONG_POINT_E,2009-05-26,INNER,2009,M. franciscanus,1,161
+412,other_site,LONG_POINT_E,2011-08-12,INNER,2011,M. franciscanus,6,61
+413,other_site,LONG_POINT_E,2011-08-25,MID,2011,M. franciscanus,19,48
+414,other_site,LONG_POINT_E,2012-08-14,INNER,2012,M. franciscanus,18,4
+418,other_site,LONG_POINT_E,2015-10-14,INNER,2015,M. franciscanus,3,21
+426,other_site,LONG_POINT_E,2019-09-05,INNER,2019,M. franciscanus,2,83
+507,other_visit,ROCKY_POINT_N,2009-08-21,INNER,2009,M. franciscanus,28,2
+863,other_site,POINT_VICENTE_W,2009-09-25,MID,2009,S. purpuratus,10,122
+864,other_visit,LONG_POINT_E,2010-07-20,INNER,2010,S. purpuratus,7,1
+864,other_site,POINT_VICENTE_W,2010-07-27,INNER,2010,S. purpuratus,52,6
+876,other_site,POINT_VICENTE_W,2017-07-21,INNER,2017,S. purpuratus,2,49
+887,other_site,POINT_VICENTE_W,2022-07-28,MID,2022,S. purpuratus,37,41
+915,other_site,LONG_POINT_E,2009-05-26,INNER,2009,S. purpuratus,49,161
+927,other_site,LONG_POINT_E,2016-08-12,MID,2016,S. purpuratus,2,51
+940,other_site,LONG_POINT_E,2023-11-03,INNER,2023,S. purpuratus,5,77
+1013,other_visit,ROCKY_POINT_N,2009-08-21,INNER,2009,S. purpuratus,67,2

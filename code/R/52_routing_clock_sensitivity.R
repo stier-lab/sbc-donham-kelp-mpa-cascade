@@ -12,8 +12,9 @@ local({
   hashes <- tools::md5sum(file.path(root,files))
   write_out <- function(x,name) write.csv(x,file.path(root,'tables',paste0('table_s_routing_clock_',name,'.csv')),row.names=FALSE)
   primary <- read.csv(file.path(root,files[1])); primary$key <- uncertainty_key(primary)
-  stopifnot(nrow(primary)==145L,!anyDuplicated(primary$key))
+  stopifnot(nrow(primary)==143L,!anyDuplicated(primary$key))
   annual <- uncertainty_annual(root,primary); defs <- uncertainty_definitions(root)
+  source(file.path(root,'code/R/pisco_nonlinear_candidates.R'),local=TRUE)
   warnlog <- list(); safe <- function(expr,label) {
     w <- character();result <- tryCatch(withCallingHandlers(expr,warning=function(x){w<<-c(w,conditionMessage(x));invokeRestart('muffleWarning')}),error=identity)
     warnlog[[length(warnlog)+1L]] <<- data.frame(label=label,warnings=paste(unique(w),collapse=';'),error=if(inherits(result,'error'))conditionMessage(result) else '')
@@ -39,8 +40,8 @@ local({
   }
   fit_one<-function(d,model) {
     z<-switch(model,Mean=lm(lnDiff~1,d),Step=lm(lnDiff~BA,d),Linear=lm(lnDiff~time.model,d),
-      Sigmoid=defs$mySIGfun_standalone(d$lnDiff,d$time.model,max(which(d$time.model==0)),seq_len(nrow(d))),
-      Asymptotic=defs$myASYfun_standalone(d$lnDiff,d$time.model,max(which(d$time.model==0)),seq_len(nrow(d))))
+      Sigmoid=if(all(d$Source=='PISCO')) pisco_nonlinear_candidate(d,'Sigmoid')$fit else defs$mySIGfun_standalone(d$lnDiff,d$time.model,max(which(d$time.model==0)),seq_len(nrow(d))),
+      Asymptotic=if(all(d$Source=='PISCO')) pisco_nonlinear_candidate(d,'Asymptotic')$fit else defs$myASYfun_standalone(d$lnDiff,d$time.model,max(which(d$time.model==0)),seq_len(nrow(d))))
     if(is.null(z))stop('No fitted model')
     if(model %in% c('Sigmoid','Asymptotic') && (!inherits(z,'nls')||!isTRUE(z$convInfo$isConv)))stop('Nonlinear fallback rejected')
     if(any(!is.finite(coef(z)))||any(!is.finite(vcov(z))))stop('Invalid coefficients/covariance')
@@ -52,12 +53,12 @@ local({
     row<-primary[i,];r<-safe(uncertainty_reconstruct(row,annual,defs),row$key)
     if(is.null(r))stop('Primary reconstruction failed: ',row$key)
     rebuilt[[row$key]]<-r;d<-r$data;start<-row$MPA_Start
-    baseline_hac[i]<-contrast(r$fit,row$Model,year=d$year)$HAC_SE
-    pre<-d[d$BA=='Before',]; strict<-d[d$year<start,]
+    baseline_hac[i]<-contrast(r$fit,row$Model,ends=r$ends,year=d$year)$HAC_SE
+    pre<-d[d$BA=='Before',]; strict<-d[d$year<start,]; inclusive<-d[d$year<=start,]
     pretest<-function(x) {if(nrow(x)<3 || sd(x$lnDiff)==0)return(NA_real_);summary(lm(lnDiff~year,x))$coefficients[2,4]}
     pre_index_p<-if(nrow(pre)>=3 && sd(pre$lnDiff)>0)summary(lm(lnDiff~seq_len(nrow(pre)),pre))$coefficients[2,4] else NA_real_
     coverage[[i]]<-data.frame(row[c('key','MPA','Taxa','Source','Resp','Model','AnalysisType','MPA_Start')],
-      n_years=nrow(d),n_before=nrow(pre),n_strict_before=nrow(strict),n_after=sum(d$BA=='After'),
+      n_years=nrow(d),n_inclusive_before=nrow(inclusive),inclusive_pretrend_p=pretest(inclusive),n_before=nrow(pre),n_strict_before=nrow(strict),n_after=sum(d$BA=='After'),
       before_years=paste(pre$year,collapse=';'),strict_before_years=paste(strict$year,collapse=';'),
       designation_year_present=start %in% d$year,pretrend_p=pretest(pre),pretrend_index_p=pre_index_p,strict_pretrend_p=pretest(strict),
       constant_before=nrow(pre)>1 && sd(pre$lnDiff)==0,
@@ -84,16 +85,17 @@ local({
   for(boundary in c('legacy','strict')) {
     for(i in which(primary$Source=='PISCO')) {
       row<-primary[i,];cv<-coverage[coverage$key==row$key,];d<-rebuilt[[row$key]]$data
-      if(boundary=='strict')d$BA<-factor(ifelse(d$year<row$MPA_Start,'Before','After'),c('Before','After'))
+      d$BA<-factor(ifelse(if(boundary=='strict')d$year<row$MPA_Start else d$year<=row$MPA_Start,'Before','After'),c('Before','After'))
       d$time.model<-d$input_time
       nb<-sum(d$BA=='Before');na<-sum(d$BA=='After')
-      pt<-if(boundary=='legacy')cv$pretrend_p else cv$strict_pretrend_p
-      if(nb<3 || na<3 || !is.finite(pt) || pt<.05)next
+      pt<-if(boundary=='legacy')cv$inclusive_pretrend_p else cv$strict_pretrend_p
+      # Fit both boundaries where coverage permits; apply each trend screen at routing.
+      if(nb<3 || na<3)next
       fits<-list();aics<-numeric()
       for(model in c('Step','Linear','Asymptotic','Sigmoid')) {
         f<-safe(fit_one(d,model),paste('routing',boundary,row$key,model))
         if(is.null(f))next
-        cc<-safe(contrast(f,model,year=d$year),paste('contrast',boundary,row$key,model));if(is.null(cc))next
+        cc<-safe(contrast(f,model,ends=defs$observed_contrast_times(d),year=d$year),paste('contrast',boundary,row$key,model));if(is.null(cc))next
         k<-attr(logLik(f),'df');n<-nrow(d);aic<-if(n>k+1) AIC(f)+2*k*(k+1)/(n-k-1) else Inf
         if(!is.finite(aic))next
         fits[[model]]<-cc;aics[model]<-aic
@@ -105,8 +107,8 @@ local({
     for(minimum in c(3L,4L,5L)) {
       label<-paste0('PISCO_',boundary,'_min',minimum);x<-scenarios$retained_primary
       for(i in which(x$Source=='PISCO')) {
-        cv<-coverage[coverage$key==x$key[i],];nb<-if(boundary=='legacy')cv$n_before else cv$n_strict_before
-        pt<-if(boundary=='legacy')cv$pretrend_p else cv$strict_pretrend_p
+        cv<-coverage[coverage$key==x$key[i],];nb<-if(boundary=='legacy')cv$n_inclusive_before else cv$n_strict_before
+        pt<-if(boundary=='legacy')cv$inclusive_pretrend_p else cv$strict_pretrend_p
         eligible<-nb>=minimum && cv$n_after>=3 && is.finite(pt) && pt>=.05
         if(eligible) {z<-routefits[[paste(boundary,x$key[i])]];stopifnot(!is.null(z));x[i,c('Mean','SE','HAC_SE','Model')]<-z[1,c('Mean','SE','HAC_SE','Model')];x$AnalysisType[i]<-'pBACIPS_sensitivity'}
         decisions[[length(decisions)+1L]]<-data.frame(scenario=label,key=x$key[i],n_before=nb,pretrend_p=pt,
@@ -136,10 +138,12 @@ local({
     for(i in which(x$Model %in% c('Linear','Sigmoid','Asymptotic'))) {
       row<-primary[i,];r<-rebuilt[[row$key]];d<-r$data;au<-clock_audit[clock_audit$key==row$key,]
       calendar<-label!='native_observed_window'
-      if(calendar)d$time.model<-pmax(d$year-row$MPA_Start,0)
-      f<-if(calendar && !isTRUE(all.equal(d$time.model,r$data$time.model))) safe(fit_one(d,row$Model),paste(label,row$key)) else r$fit
+      if(calendar) d$time.model<-pmax(d$year-row$MPA_Start,0) else {
+        nb<-sum(d$BA=="Before");d$time.model<-c(rep(0,nb),seq_len(sum(d$BA=="After"))-1)
+      }
+      f<-if(!isTRUE(all.equal(d$time.model,r$data$time.model))) safe(fit_one(d,row$Model),paste(label,row$key)) else r$fit
       if(is.null(f))stop('Clock refit failed, no silent omission: ',row$key)
-      ends<-if(label=='calendar_fixed11') c(0,11) else if(calendar) c(au$matched_start_year,au$matched_end_year)-row$MPA_Start else c(au$native_start,au$native_end)
+      ends<-if(label=='calendar_fixed11') c(0,11) else if(calendar) c(au$matched_start_year,au$matched_end_year)-row$MPA_Start else d$time.model[match(c(au$matched_start_year,au$matched_end_year),d$year)]
       cc<-contrast(f,row$Model,ends,d$year);x[i,c('Mean','SE','HAC_SE')]<-cc[1,c('Mean','SE','HAC_SE')]
     }
     scenarios[[label]]<-x
@@ -200,6 +204,6 @@ local({
   write_out(bind_rows(series),'series');write_out(pooled,'pooled');write_out(pathways,'pathways');write_out(bind_rows(warnlog),'fit_log')
   stopifnot(identical(hashes,tools::md5sum(file.path(root,files))))
   write_out(data.frame(path=files,md5=unname(hashes)),'inputs')
-  cat('PASS: 145 histories reconstructed, fixed annual inputs and pathway memberships; primary Table 2 reproduced.\n')
+  cat('PASS: 143 histories reconstructed, fixed annual inputs and pathway memberships; primary Table 2 reproduced.\n')
   print(filter(pooled,uncertainty=='IID')%>%group_by(scenario)%>%summarise(direction_changes=sum(direction_changed),bh_changes=sum(bh_changed)))
 })

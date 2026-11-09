@@ -1,0 +1,17 @@
+{
+  "inputs": {
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/code/tools/refit_pisco_all_months.py": "3d944da5f5d51997a3cfc5c451305641a5203cb5922f7bbb96a9bf32a17dfcca",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/parallel_resolution_20261102/coverage/report.md": "49441b253878971f10d6660a4771b8dd9ccda79bcfe628b8e3d14fb53c779294",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/docs/PISCO_BASELINE_POLICY_2026-10-31.md": "8c3e68bbba6b95fb8cd535f64fad0181f0a77fb1d5585eab6808e9d2f8cafdd6",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/parallel_resolution_20261102/coverage/density_scope_differences.csv": "bfa193729ca651e62a6c8d5698f4db01bc0217835ee124844281834860febcfe",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/all_program_station_refits_20261102/verified_station_values.csv": "90fd1178e1b7ba71a8910caf54c436a1ba4d1f0d7acd9b6fe0ab80ac8dd3e420",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/all_program_station_refits_20261102/offsets.csv": "1df7a4b2ba4a7a5f72619c6bde7a3d76a1b69724c2b1fba860f6f1c163ab3b37",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/pisco_all_months_20261102/annual_values.csv": "77ec800ca628648048b72643e6744a897d0015a28262066eef55c9b7a39bfb9f",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/pisco_all_months_20261102/visit_values.csv": "cec5cb91d713b0c414848d395a388fccc92779d06e1aa57980322a94115ac315",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/data/harmonized/harmonized_response_ratios.csv": "d56bb4d00c92cbb7baf46e4caec45818ddc27924d3de00e37389fb72dd23df8c",
+    "/Users/adrianstier/Library/CloudStorage/GoogleDrive-<account>/My Drive/Stier Lab/People/Emily Donham/Projects/Kelp MPA/data/PISCO/MLPA_kelpforest_swath_2024.csv": "9cdc478761f9e4851faaaf083539fd1ed2bf418b9e26f02baa92e133fdc3a4c0"
+  },
+  "script_sha256": "e2b6a4e634d54e54db8e2d6fa0351f4945e17bc34ff13adc0cb82f36f8ff5cf1",
+  "raw_source_row_definition": "1-based data records excluding header",
+  "parent_session": "9901638869734200a6633d0f88ec31ef"
+}

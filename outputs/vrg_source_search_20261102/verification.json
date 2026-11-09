@@ -1,0 +1,16 @@
+{
+  "focal_rows": 18750,
+  "focal_animals": 28487,
+  "workspace_rows": 18284,
+  "workspace_exact_matches": 18284,
+  "removed_rows": 466,
+  "removed_sites": [
+    "SBI_GRAVEYARD_CANYON",
+    "SBI_SUTIL",
+    "SCAI_SHIP_ROCK"
+  ],
+  "alias_unresolved_rows": 0,
+  "independent_original_found": false,
+  "assembly_script_found": false,
+  "adopted": false
+}

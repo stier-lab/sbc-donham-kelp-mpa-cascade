@@ -1,0 +1,21 @@
+site,year,survey_year,month,day,zone,transect,depth_n,depth_min,depth_max,depth_center,bad,date,MPA,status
+3_PALMS_EAST,2015,2014,1,6,INNER,1,1,5.0,5.0,5.0,False,2015-01-06,Abalone Cove SMCA,reference
+3_PALMS_EAST,2015,2014,1,6,INNER,2,1,5.0,5.0,5.0,False,2015-01-06,Abalone Cove SMCA,reference
+3_PALMS_EAST,2015,2014,1,6,MID,1,1,10.0,10.0,10.0,False,2015-01-06,Abalone Cove SMCA,reference
+3_PALMS_EAST,2015,2014,1,6,MID,2,1,10.0,10.0,10.0,False,2015-01-06,Abalone Cove SMCA,reference
+BUNKER_POINT,2015,2014,1,6,INNER,1,1,5.0,5.0,5.0,False,2015-01-06,Abalone Cove SMCA,reference
+BUNKER_POINT,2015,2014,1,6,INNER,2,1,5.0,5.0,5.0,False,2015-01-06,Abalone Cove SMCA,reference
+BUNKER_POINT,2015,2014,1,6,MID,1,1,8.0,8.0,8.0,False,2015-01-06,Abalone Cove SMCA,reference
+BUNKER_POINT,2015,2014,1,6,MID,2,1,10.0,10.0,10.0,False,2015-01-06,Abalone Cove SMCA,reference
+LONG_POINT_E,2015,2014,1,8,INNER,1,1,5.0,5.0,5.0,False,2015-01-08,Point Vicente SMCA,mpa
+LONG_POINT_E,2015,2014,1,8,INNER,2,1,5.0,5.0,5.0,False,2015-01-08,Point Vicente SMCA,mpa
+LONG_POINT_E,2015,2014,1,8,MID,1,1,10.0,10.0,10.0,False,2015-01-08,Point Vicente SMCA,mpa
+LONG_POINT_E,2015,2014,1,8,MID,2,1,10.0,10.0,10.0,False,2015-01-08,Point Vicente SMCA,mpa
+POINT_FERMIN,2019,2018,1,4,INNER,1,1,6.1,6.1,6.1,False,2019-01-04,Abalone Cove SMCA,reference
+POINT_FERMIN,2019,2018,1,4,INNER,2,1,6.4,6.4,6.4,False,2019-01-04,Abalone Cove SMCA,reference
+POINT_FERMIN,2019,2018,1,4,MID,1,1,10.0,10.0,10.0,False,2019-01-04,Abalone Cove SMCA,reference
+POINT_FERMIN,2019,2018,1,4,MID,2,1,10.0,10.0,10.0,False,2019-01-04,Abalone Cove SMCA,reference
+WHITES_POINT,2019,2018,1,4,INNER,1,1,6.0,6.0,6.0,False,2019-01-04,Abalone Cove SMCA,reference
+WHITES_POINT,2019,2018,1,4,INNER,2,1,7.0,7.0,7.0,False,2019-01-04,Abalone Cove SMCA,reference
+WHITES_POINT,2019,2018,1,4,MID,1,1,10.0,10.0,10.0,False,2019-01-04,Abalone Cove SMCA,reference
+WHITES_POINT,2019,2018,1,4,MID,2,1,11.0,11.0,11.0,False,2019-01-04,Abalone Cove SMCA,reference

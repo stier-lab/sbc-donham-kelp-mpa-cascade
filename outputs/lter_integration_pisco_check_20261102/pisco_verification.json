@@ -1,0 +1,19 @@
+{
+  "source": "/Users/adrianstier/Documents/ChatGPT/SBC-Data-Catalogue/pisco-data-catalogue/data/raw/PISCO_kelpforest.1.11/PISCO_kelpforest_sizefreq.1.11.csv",
+  "sha256": "44e9c3db4534647af1619f01113e3a6ab1565377675a19f7d2eb5f4aca3464fa",
+  "system_metadata_checksum_verified": true,
+  "raw_rows": 19140,
+  "old_roving_rows": 3970,
+  "exact_matches": 3970,
+  "unadopted_new_rows": 2915,
+  "painted_cave_wrong_aggregation_alias_rows": 99,
+  "vrg_present": false,
+  "normalized_fields": [
+    "source cm to mm",
+    "method name",
+    "blank zone to NA",
+    "equivalent numeric serialization"
+  ],
+  "physical_source_identity_preserved": true,
+  "adopted": false
+}

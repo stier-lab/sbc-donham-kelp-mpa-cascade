@@ -1,0 +1,96 @@
+{
+  "scenarios": 4,
+  "matched_main_refits": 2,
+  "primary_unchanged": true,
+  "checks": [
+    {
+      "scenario": "without_webster",
+      "retained_units_unchanged": true,
+      "unaffected_annual_values_and_draws_unchanged": true,
+      "offsets_fixed": true,
+      "excluded_references_absent": true,
+      "ecological_reasons_preserved": true
+    },
+    {
+      "scenario": "without_miracle",
+      "retained_units_unchanged": true,
+      "unaffected_annual_values_and_draws_unchanged": true,
+      "offsets_fixed": true,
+      "excluded_references_absent": true,
+      "ecological_reasons_preserved": true
+    },
+    {
+      "scenario": "without_wyckoff",
+      "retained_units_unchanged": true,
+      "unaffected_annual_values_and_draws_unchanged": true,
+      "offsets_fixed": true,
+      "excluded_references_absent": true,
+      "ecological_reasons_preserved": true
+    },
+    {
+      "scenario": "without_flagged",
+      "retained_units_unchanged": true,
+      "unaffected_annual_values_and_draws_unchanged": true,
+      "offsets_fixed": true,
+      "excluded_references_absent": true,
+      "ecological_reasons_preserved": true
+    }
+  ],
+  "diagnostics": [
+    {
+      "scenario": "without_webster",
+      "groups": 60,
+      "ar_boundaries": 13,
+      "variance_boundaries": 36,
+      "upper_variance_boundaries": 0,
+      "minimum_coefficient_eigenvalue": -1.1302322758872306e-14,
+      "max_optimizer_attempts": 4
+    },
+    {
+      "scenario": "without_miracle",
+      "groups": 60,
+      "ar_boundaries": 13,
+      "variance_boundaries": 36,
+      "upper_variance_boundaries": 0,
+      "minimum_coefficient_eigenvalue": -1.1302322758872306e-14,
+      "max_optimizer_attempts": 4
+    },
+    {
+      "scenario": "without_wyckoff",
+      "groups": 60,
+      "ar_boundaries": 11,
+      "variance_boundaries": 36,
+      "upper_variance_boundaries": 0,
+      "minimum_coefficient_eigenvalue": -1.5527382149430333e-14,
+      "max_optimizer_attempts": 4
+    },
+    {
+      "scenario": "without_flagged",
+      "groups": 60,
+      "ar_boundaries": 12,
+      "variance_boundaries": 38,
+      "upper_variance_boundaries": 0,
+      "minimum_coefficient_eigenvalue": -1.4660370686093272e-14,
+      "max_optimizer_attempts": 4
+    },
+    {
+      "scenario": "matched_main_without_wyckoff",
+      "groups": 60,
+      "ar_boundaries": 11,
+      "variance_boundaries": 36,
+      "upper_variance_boundaries": 0,
+      "minimum_coefficient_eigenvalue": -1.5527382149430333e-14,
+      "max_optimizer_attempts": 4
+    },
+    {
+      "scenario": "matched_main_without_flagged",
+      "groups": 60,
+      "ar_boundaries": 11,
+      "variance_boundaries": 36,
+      "upper_variance_boundaries": 0,
+      "minimum_coefficient_eigenvalue": -1.4660370686093272e-14,
+      "max_optimizer_attempts": 4
+    }
+  ],
+  "metadata_note": "Ecological reasons preserved and dropped-row metadata scope clarified after initial numerical fits; neither change alters model inputs."
+}

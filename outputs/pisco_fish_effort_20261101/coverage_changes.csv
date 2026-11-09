@@ -1,0 +1,273 @@
+series_id,scenario,original_years,complete_years,lost_years,max_ratio_change
+Abalone Cove SMCA|S. pulcher|PISCO|Bio,Legacy,14,14,,3.9968028886505635e-15
+Abalone Cove SMCA|S. pulcher|PISCO|Bio,Visit_mean,14,14,,0.4629703132810956
+Abalone Cove SMCA|S. pulcher|PISCO|Bio,Standard_visits,14,14,,0.4629703132810956
+Abalone Cove SMCA|S. pulcher|PISCO|Bio,Complete_noncan,14,14,,0.4629703132810956
+Abalone Cove SMCA|S. pulcher|PISCO|Bio,Complete_BOT,14,14,,0.4629703132810956
+Abalone Cove SMCA|S. pulcher|PISCO|Bio,Matched_noncan,14,14,,1.0986122886681118
+Abalone Cove SMCA|S. pulcher|PISCO|Bio,Matched_BOT_MID,14,14,,1.0986122886681118
+Abalone Cove SMCA|S. pulcher|PISCO|Bio,Matched_BOT,14,14,,1.0371679561262148
+Abalone Cove SMCA|S. pulcher|PISCO|Den,Legacy,14,14,,1.9539925233402755e-14
+Abalone Cove SMCA|S. pulcher|PISCO|Den,Visit_mean,14,14,,0.2236207643989057
+Abalone Cove SMCA|S. pulcher|PISCO|Den,Standard_visits,14,14,,0.2236207643989057
+Abalone Cove SMCA|S. pulcher|PISCO|Den,Complete_noncan,14,14,,0.2236207643989057
+Abalone Cove SMCA|S. pulcher|PISCO|Den,Complete_BOT,14,14,,0.2236207643989057
+Abalone Cove SMCA|S. pulcher|PISCO|Den,Matched_noncan,14,14,,1.0986122886681717
+Abalone Cove SMCA|S. pulcher|PISCO|Den,Matched_BOT_MID,14,14,,1.0986122886681717
+Abalone Cove SMCA|S. pulcher|PISCO|Den,Matched_BOT,14,14,,1.0447876386543915
+Anacapa Island SMR 2003|S. pulcher|PISCO|Bio,Legacy,19,19,,3.3306690738754696e-15
+Anacapa Island SMR 2003|S. pulcher|PISCO|Bio,Visit_mean,19,19,,3.3306690738754696e-15
+Anacapa Island SMR 2003|S. pulcher|PISCO|Bio,Standard_visits,19,18,2004,3.3306690738754696e-15
+Anacapa Island SMR 2003|S. pulcher|PISCO|Bio,Complete_noncan,19,18,2004,3.3306690738754696e-15
+Anacapa Island SMR 2003|S. pulcher|PISCO|Bio,Complete_BOT,19,18,2004,0.07590074918853365
+Anacapa Island SMR 2003|S. pulcher|PISCO|Bio,Matched_noncan,19,18,2004,0.6692677994736487
+Anacapa Island SMR 2003|S. pulcher|PISCO|Bio,Matched_BOT_MID,19,18,2004,0.6692677994736487
+Anacapa Island SMR 2003|S. pulcher|PISCO|Bio,Matched_BOT,19,18,2004,0.6692677994736487
+Anacapa Island SMR 2003|S. pulcher|PISCO|Den,Legacy,19,19,,2.6645352591003757e-15
+Anacapa Island SMR 2003|S. pulcher|PISCO|Den,Visit_mean,19,19,,2.6645352591003757e-15
+Anacapa Island SMR 2003|S. pulcher|PISCO|Den,Standard_visits,19,18,2004,2.6645352591003757e-15
+Anacapa Island SMR 2003|S. pulcher|PISCO|Den,Complete_noncan,19,18,2004,2.6645352591003757e-15
+Anacapa Island SMR 2003|S. pulcher|PISCO|Den,Complete_BOT,19,18,2004,0.08252102368800363
+Anacapa Island SMR 2003|S. pulcher|PISCO|Den,Matched_noncan,19,18,2004,0.50172408920981
+Anacapa Island SMR 2003|S. pulcher|PISCO|Den,Matched_BOT_MID,19,18,2004,0.50172408920981
+Anacapa Island SMR 2003|S. pulcher|PISCO|Den,Matched_BOT,19,18,2004,0.50172408920981
+Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio,Legacy,8,8,,3.552713678800501e-15
+Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio,Visit_mean,8,8,,0.3291565098037026
+Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio,Standard_visits,8,8,,0.3291565098037026
+Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio,Complete_noncan,8,8,,0.3291565098037026
+Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio,Complete_BOT,8,8,,0.4108217016101374
+Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio,Matched_noncan,8,8,,0.6776908496104135
+Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio,Matched_BOT_MID,8,8,,0.6776908496104135
+Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio,Matched_BOT,8,8,,0.7810612221471872
+Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den,Legacy,8,8,,1.9539925233402755e-14
+Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den,Visit_mean,8,8,,0.3922301932410228
+Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den,Standard_visits,8,8,,0.3922301932410228
+Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den,Complete_noncan,8,8,,0.3922301932410228
+Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den,Complete_BOT,8,8,,0.4421811236464168
+Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den,Matched_noncan,8,8,,0.5644062162580556
+Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den,Matched_BOT_MID,8,8,,0.5644062162580556
+Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den,Matched_BOT,8,8,,0.592828731988958
+Campus Point SMCA|S. pulcher|PISCO|Bio,Legacy,13,13,,3.9968028886505635e-15
+Campus Point SMCA|S. pulcher|PISCO|Bio,Visit_mean,13,13,,3.9968028886505635e-15
+Campus Point SMCA|S. pulcher|PISCO|Bio,Standard_visits,13,13,,3.9968028886505635e-15
+Campus Point SMCA|S. pulcher|PISCO|Bio,Complete_noncan,13,13,,3.9968028886505635e-15
+Campus Point SMCA|S. pulcher|PISCO|Bio,Complete_BOT,13,13,,0.5395951236510077
+Campus Point SMCA|S. pulcher|PISCO|Bio,Matched_noncan,13,13,,0.2190262581151612
+Campus Point SMCA|S. pulcher|PISCO|Bio,Matched_BOT_MID,13,13,,0.2190262581151612
+Campus Point SMCA|S. pulcher|PISCO|Bio,Matched_BOT,13,13,,0.3727419697824475
+Campus Point SMCA|S. pulcher|PISCO|Den,Legacy,13,13,,5.129230373768223e-14
+Campus Point SMCA|S. pulcher|PISCO|Den,Visit_mean,13,13,,5.129230373768223e-14
+Campus Point SMCA|S. pulcher|PISCO|Den,Standard_visits,13,13,,5.129230373768223e-14
+Campus Point SMCA|S. pulcher|PISCO|Den,Complete_noncan,13,13,,5.129230373768223e-14
+Campus Point SMCA|S. pulcher|PISCO|Den,Complete_BOT,13,13,,0.298492988555996
+Campus Point SMCA|S. pulcher|PISCO|Den,Matched_noncan,13,13,,0.47957308026188217
+Campus Point SMCA|S. pulcher|PISCO|Den,Matched_BOT_MID,13,13,,0.47957308026188217
+Campus Point SMCA|S. pulcher|PISCO|Den,Matched_BOT,13,13,,0.47957308026188217
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio,Legacy,6,6,,9.992007221626409e-15
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio,Visit_mean,6,6,,9.992007221626409e-15
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio,Standard_visits,6,6,,9.992007221626409e-15
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio,Complete_noncan,6,6,,9.992007221626409e-15
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio,Complete_BOT,6,6,,0.19063998092609102
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio,Matched_noncan,6,6,,0.2598192587094638
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio,Matched_BOT_MID,6,6,,0.2598192587094638
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio,Matched_BOT,6,6,,0.2598192587094638
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Den,Legacy,6,6,,4.996003610813204e-16
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Den,Visit_mean,6,6,,4.996003610813204e-16
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Den,Standard_visits,6,6,,4.996003610813204e-16
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Den,Complete_noncan,6,6,,4.996003610813204e-16
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Den,Complete_BOT,6,6,,0.0893833056416165
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Den,Matched_noncan,6,6,,0.24256163717131163
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Den,Matched_BOT_MID,6,6,,0.24256163717131163
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Den,Matched_BOT,6,6,,0.24256163717131163
+Gull Island SMR|S. pulcher|PISCO|Bio,Legacy,20,20,,4.440892098500626e-15
+Gull Island SMR|S. pulcher|PISCO|Bio,Visit_mean,20,20,,4.440892098500626e-15
+Gull Island SMR|S. pulcher|PISCO|Bio,Standard_visits,20,20,,4.440892098500626e-15
+Gull Island SMR|S. pulcher|PISCO|Bio,Complete_noncan,20,20,,0.08396910277588579
+Gull Island SMR|S. pulcher|PISCO|Bio,Complete_BOT,20,20,,0.20286657700713207
+Gull Island SMR|S. pulcher|PISCO|Bio,Matched_noncan,20,20,,0.4688776676394489
+Gull Island SMR|S. pulcher|PISCO|Bio,Matched_BOT_MID,20,20,,0.4688776676394489
+Gull Island SMR|S. pulcher|PISCO|Bio,Matched_BOT,20,20,,0.4688776676394489
+Gull Island SMR|S. pulcher|PISCO|Den,Legacy,20,20,,8.43769498715119e-15
+Gull Island SMR|S. pulcher|PISCO|Den,Visit_mean,20,20,,8.43769498715119e-15
+Gull Island SMR|S. pulcher|PISCO|Den,Standard_visits,20,20,,8.43769498715119e-15
+Gull Island SMR|S. pulcher|PISCO|Den,Complete_noncan,20,20,,0.1151713862220839
+Gull Island SMR|S. pulcher|PISCO|Den,Complete_BOT,20,20,,0.11954515064977467
+Gull Island SMR|S. pulcher|PISCO|Den,Matched_noncan,20,20,,0.25857398829371037
+Gull Island SMR|S. pulcher|PISCO|Den,Matched_BOT_MID,20,20,,0.25857398829371037
+Gull Island SMR|S. pulcher|PISCO|Den,Matched_BOT,20,20,,0.25338919360514356
+Harris Point SMR|S. pulcher|PISCO|Bio,Legacy,17,17,,4.085620730620576e-14
+Harris Point SMR|S. pulcher|PISCO|Bio,Visit_mean,17,17,,4.085620730620576e-14
+Harris Point SMR|S. pulcher|PISCO|Bio,Standard_visits,17,17,,4.085620730620576e-14
+Harris Point SMR|S. pulcher|PISCO|Bio,Complete_noncan,17,17,,4.085620730620576e-14
+Harris Point SMR|S. pulcher|PISCO|Bio,Complete_BOT,17,17,,0.5527497953892431
+Harris Point SMR|S. pulcher|PISCO|Bio,Matched_noncan,17,17,,4.275461582112767
+Harris Point SMR|S. pulcher|PISCO|Bio,Matched_BOT_MID,17,17,,4.275461582112767
+Harris Point SMR|S. pulcher|PISCO|Bio,Matched_BOT,17,17,,4.1999614980059
+Harris Point SMR|S. pulcher|PISCO|Den,Legacy,17,17,,6.306066779870889e-14
+Harris Point SMR|S. pulcher|PISCO|Den,Visit_mean,17,17,,6.306066779870889e-14
+Harris Point SMR|S. pulcher|PISCO|Den,Standard_visits,17,17,,6.306066779870889e-14
+Harris Point SMR|S. pulcher|PISCO|Den,Complete_noncan,17,17,,6.306066779870889e-14
+Harris Point SMR|S. pulcher|PISCO|Den,Complete_BOT,17,17,,0.4274440148269587
+Harris Point SMR|S. pulcher|PISCO|Den,Matched_noncan,17,17,,1.1370785694959624
+Harris Point SMR|S. pulcher|PISCO|Den,Matched_BOT_MID,17,17,,1.1370785694959624
+Harris Point SMR|S. pulcher|PISCO|Den,Matched_BOT,17,17,,1.0169342576538989
+Long Point SMR|S. pulcher|PISCO|Bio,Legacy,8,8,,1.7763568394002505e-15
+Long Point SMR|S. pulcher|PISCO|Bio,Visit_mean,8,8,,1.7763568394002505e-15
+Long Point SMR|S. pulcher|PISCO|Bio,Standard_visits,8,8,,1.7763568394002505e-15
+Long Point SMR|S. pulcher|PISCO|Bio,Complete_noncan,8,8,,1.7763568394002505e-15
+Long Point SMR|S. pulcher|PISCO|Bio,Complete_BOT,8,8,,0.4815954984372941
+Long Point SMR|S. pulcher|PISCO|Bio,Matched_noncan,8,8,,0.952486076720378
+Long Point SMR|S. pulcher|PISCO|Bio,Matched_BOT_MID,8,8,,0.952486076720378
+Long Point SMR|S. pulcher|PISCO|Bio,Matched_BOT,8,8,,0.952486076720378
+Long Point SMR|S. pulcher|PISCO|Den,Legacy,8,8,,6.8833827526759706e-15
+Long Point SMR|S. pulcher|PISCO|Den,Visit_mean,8,8,,6.8833827526759706e-15
+Long Point SMR|S. pulcher|PISCO|Den,Standard_visits,8,8,,6.8833827526759706e-15
+Long Point SMR|S. pulcher|PISCO|Den,Complete_noncan,8,8,,6.8833827526759706e-15
+Long Point SMR|S. pulcher|PISCO|Den,Complete_BOT,8,8,,0.11122563511022532
+Long Point SMR|S. pulcher|PISCO|Den,Matched_noncan,8,8,,0.2851789422336621
+Long Point SMR|S. pulcher|PISCO|Den,Matched_BOT_MID,8,8,,0.2851789422336621
+Long Point SMR|S. pulcher|PISCO|Den,Matched_BOT,8,8,,0.2851789422336621
+Matlahuayl SMR|S. pulcher|PISCO|Bio,Legacy,7,7,,7.771561172376096e-16
+Matlahuayl SMR|S. pulcher|PISCO|Bio,Visit_mean,7,7,,7.771561172376096e-16
+Matlahuayl SMR|S. pulcher|PISCO|Bio,Standard_visits,7,7,,7.771561172376096e-16
+Matlahuayl SMR|S. pulcher|PISCO|Bio,Complete_noncan,7,7,,7.771561172376096e-16
+Matlahuayl SMR|S. pulcher|PISCO|Bio,Complete_BOT,7,7,,7.771561172376096e-16
+Matlahuayl SMR|S. pulcher|PISCO|Bio,Matched_noncan,7,7,,0.48286644091044306
+Matlahuayl SMR|S. pulcher|PISCO|Bio,Matched_BOT_MID,7,7,,0.48286644091044306
+Matlahuayl SMR|S. pulcher|PISCO|Bio,Matched_BOT,7,7,,0.48286644091044306
+Matlahuayl SMR|S. pulcher|PISCO|Den,Legacy,7,7,,1.84297022087776e-14
+Matlahuayl SMR|S. pulcher|PISCO|Den,Visit_mean,7,7,,1.84297022087776e-14
+Matlahuayl SMR|S. pulcher|PISCO|Den,Standard_visits,7,7,,1.84297022087776e-14
+Matlahuayl SMR|S. pulcher|PISCO|Den,Complete_noncan,7,7,,1.84297022087776e-14
+Matlahuayl SMR|S. pulcher|PISCO|Den,Complete_BOT,7,7,,1.84297022087776e-14
+Matlahuayl SMR|S. pulcher|PISCO|Den,Matched_noncan,7,7,,0.5025268209512975
+Matlahuayl SMR|S. pulcher|PISCO|Den,Matched_BOT_MID,7,7,,0.5025268209512975
+Matlahuayl SMR|S. pulcher|PISCO|Den,Matched_BOT,7,7,,0.5025268209512975
+Naples SMCA|S. pulcher|PISCO|Bio,Legacy,14,14,,5.329070518200751e-15
+Naples SMCA|S. pulcher|PISCO|Bio,Visit_mean,14,14,,5.329070518200751e-15
+Naples SMCA|S. pulcher|PISCO|Bio,Standard_visits,14,14,,5.329070518200751e-15
+Naples SMCA|S. pulcher|PISCO|Bio,Complete_noncan,14,14,,5.329070518200751e-15
+Naples SMCA|S. pulcher|PISCO|Bio,Complete_BOT,14,14,,0.5110433800010519
+Naples SMCA|S. pulcher|PISCO|Bio,Matched_noncan,14,14,,0.9724011087303321
+Naples SMCA|S. pulcher|PISCO|Bio,Matched_BOT_MID,14,14,,0.9724011087303321
+Naples SMCA|S. pulcher|PISCO|Bio,Matched_BOT,14,14,,0.9724011087303321
+Naples SMCA|S. pulcher|PISCO|Den,Legacy,14,14,,6.350475700855895e-14
+Naples SMCA|S. pulcher|PISCO|Den,Visit_mean,14,14,,6.350475700855895e-14
+Naples SMCA|S. pulcher|PISCO|Den,Standard_visits,14,14,,6.350475700855895e-14
+Naples SMCA|S. pulcher|PISCO|Den,Complete_noncan,14,14,,6.350475700855895e-14
+Naples SMCA|S. pulcher|PISCO|Den,Complete_BOT,14,14,,0.277631736598291
+Naples SMCA|S. pulcher|PISCO|Den,Matched_noncan,14,14,,0.49304129731276247
+Naples SMCA|S. pulcher|PISCO|Den,Matched_BOT_MID,14,14,,0.49304129731276247
+Naples SMCA|S. pulcher|PISCO|Den,Matched_BOT,14,14,,0.49304129731276247
+Point Dume SMCA|S. pulcher|PISCO|Bio,Legacy,6,6,,1.9984014443252818e-14
+Point Dume SMCA|S. pulcher|PISCO|Bio,Visit_mean,6,6,,1.9984014443252818e-14
+Point Dume SMCA|S. pulcher|PISCO|Bio,Standard_visits,6,6,,1.9984014443252818e-14
+Point Dume SMCA|S. pulcher|PISCO|Bio,Complete_noncan,6,6,,1.9984014443252818e-14
+Point Dume SMCA|S. pulcher|PISCO|Bio,Complete_BOT,6,6,,1.7712597267080736
+Point Dume SMCA|S. pulcher|PISCO|Bio,Matched_noncan,6,6,,3.0321936126119633
+Point Dume SMCA|S. pulcher|PISCO|Bio,Matched_BOT_MID,6,6,,3.0321936126119633
+Point Dume SMCA|S. pulcher|PISCO|Bio,Matched_BOT,6,6,,3.0321936126119633
+Point Dume SMCA|S. pulcher|PISCO|Den,Legacy,6,6,,6.106226635438361e-15
+Point Dume SMCA|S. pulcher|PISCO|Den,Visit_mean,6,6,,6.106226635438361e-15
+Point Dume SMCA|S. pulcher|PISCO|Den,Standard_visits,6,6,,6.106226635438361e-15
+Point Dume SMCA|S. pulcher|PISCO|Den,Complete_noncan,6,6,,6.106226635438361e-15
+Point Dume SMCA|S. pulcher|PISCO|Den,Complete_BOT,6,6,,0.5877866649021326
+Point Dume SMCA|S. pulcher|PISCO|Den,Matched_noncan,6,6,,2.5971876082904295
+Point Dume SMCA|S. pulcher|PISCO|Den,Matched_BOT_MID,6,6,,2.5971876082904295
+Point Dume SMCA|S. pulcher|PISCO|Den,Matched_BOT,6,6,,2.5971876082904295
+Point Dume SMR|S. pulcher|PISCO|Bio,Legacy,6,6,,2.6645352591003757e-15
+Point Dume SMR|S. pulcher|PISCO|Bio,Visit_mean,6,6,,0.06830022196714669
+Point Dume SMR|S. pulcher|PISCO|Bio,Standard_visits,6,6,,0.06830022196714669
+Point Dume SMR|S. pulcher|PISCO|Bio,Complete_noncan,6,6,,0.02124526422577122
+Point Dume SMR|S. pulcher|PISCO|Bio,Complete_BOT,6,6,,0.09687049515293289
+Point Dume SMR|S. pulcher|PISCO|Bio,Matched_noncan,6,6,,1.2158606320726577
+Point Dume SMR|S. pulcher|PISCO|Bio,Matched_BOT_MID,6,6,,1.2158606320726577
+Point Dume SMR|S. pulcher|PISCO|Bio,Matched_BOT,6,6,,1.2908117853135777
+Point Dume SMR|S. pulcher|PISCO|Den,Legacy,6,6,,2.6645352591003757e-15
+Point Dume SMR|S. pulcher|PISCO|Den,Visit_mean,6,6,,0.00488998529419149
+Point Dume SMR|S. pulcher|PISCO|Den,Standard_visits,6,6,,0.00488998529419149
+Point Dume SMR|S. pulcher|PISCO|Den,Complete_noncan,6,6,,0.09309042306601212
+Point Dume SMR|S. pulcher|PISCO|Den,Complete_BOT,6,6,,0.1248076505933462
+Point Dume SMR|S. pulcher|PISCO|Den,Matched_noncan,6,6,,0.7160153714636028
+Point Dume SMR|S. pulcher|PISCO|Den,Matched_BOT_MID,6,6,,0.7160153714636028
+Point Dume SMR|S. pulcher|PISCO|Den,Matched_BOT,6,6,,0.7485679745013512
+Point Vicente SMCA|S. pulcher|PISCO|Bio,Legacy,15,15,,4.440892098500626e-15
+Point Vicente SMCA|S. pulcher|PISCO|Bio,Visit_mean,15,15,,0.16402190272093697
+Point Vicente SMCA|S. pulcher|PISCO|Bio,Standard_visits,15,15,,0.16402190272093697
+Point Vicente SMCA|S. pulcher|PISCO|Bio,Complete_noncan,15,15,,0.331606514972021
+Point Vicente SMCA|S. pulcher|PISCO|Bio,Complete_BOT,15,15,,0.33521144142372145
+Point Vicente SMCA|S. pulcher|PISCO|Bio,Matched_noncan,15,15,,0.331606514972021
+Point Vicente SMCA|S. pulcher|PISCO|Bio,Matched_BOT_MID,15,15,,0.331606514972021
+Point Vicente SMCA|S. pulcher|PISCO|Bio,Matched_BOT,15,15,,0.33521144142372145
+Point Vicente SMCA|S. pulcher|PISCO|Den,Legacy,15,15,,3.552713678800501e-15
+Point Vicente SMCA|S. pulcher|PISCO|Den,Visit_mean,15,15,,0.18924199963852745
+Point Vicente SMCA|S. pulcher|PISCO|Den,Standard_visits,15,15,,0.18924199963852745
+Point Vicente SMCA|S. pulcher|PISCO|Den,Complete_noncan,15,15,,0.378732045911095
+Point Vicente SMCA|S. pulcher|PISCO|Den,Complete_BOT,15,15,,0.39322505321366197
+Point Vicente SMCA|S. pulcher|PISCO|Den,Matched_noncan,15,15,,0.378732045911095
+Point Vicente SMCA|S. pulcher|PISCO|Den,Matched_BOT_MID,15,15,,0.378732045911095
+Point Vicente SMCA|S. pulcher|PISCO|Den,Matched_BOT,15,15,,0.39322505321366197
+Santa Barbara Island SMR|S. pulcher|PISCO|Bio,Legacy,10,10,,5.551115123125783e-16
+Santa Barbara Island SMR|S. pulcher|PISCO|Bio,Visit_mean,10,10,,5.551115123125783e-16
+Santa Barbara Island SMR|S. pulcher|PISCO|Bio,Standard_visits,10,9,2004,3.3306690738754696e-16
+Santa Barbara Island SMR|S. pulcher|PISCO|Bio,Complete_noncan,10,8,2004;2005,0.24810155755509566
+Santa Barbara Island SMR|S. pulcher|PISCO|Bio,Complete_BOT,10,8,2004;2005,0.24810155755509566
+Santa Barbara Island SMR|S. pulcher|PISCO|Bio,Matched_noncan,10,8,2004;2005,0.24734665513955972
+Santa Barbara Island SMR|S. pulcher|PISCO|Bio,Matched_BOT_MID,10,8,2004;2005,0.24734665513955972
+Santa Barbara Island SMR|S. pulcher|PISCO|Bio,Matched_BOT,10,8,2004;2005,0.30378205393086705
+Santa Barbara Island SMR|S. pulcher|PISCO|Den,Legacy,10,10,,3.4416913763379853e-15
+Santa Barbara Island SMR|S. pulcher|PISCO|Den,Visit_mean,10,10,,3.4416913763379853e-15
+Santa Barbara Island SMR|S. pulcher|PISCO|Den,Standard_visits,10,9,2004,1.4432899320127035e-15
+Santa Barbara Island SMR|S. pulcher|PISCO|Den,Complete_noncan,10,8,2004;2005,0.19956295599526555
+Santa Barbara Island SMR|S. pulcher|PISCO|Den,Complete_BOT,10,8,2004;2005,0.19956295599526555
+Santa Barbara Island SMR|S. pulcher|PISCO|Den,Matched_noncan,10,8,2004;2005,0.33499086951303225
+Santa Barbara Island SMR|S. pulcher|PISCO|Den,Matched_BOT_MID,10,8,2004;2005,0.33499086951303225
+Santa Barbara Island SMR|S. pulcher|PISCO|Den,Matched_BOT,10,8,2004;2005,0.33499086951303225
+Scorpion SMR|S. pulcher|PISCO|Bio,Legacy,20,20,,3.1086244689504383e-15
+Scorpion SMR|S. pulcher|PISCO|Bio,Visit_mean,20,20,,3.1086244689504383e-15
+Scorpion SMR|S. pulcher|PISCO|Bio,Standard_visits,20,20,,3.1086244689504383e-15
+Scorpion SMR|S. pulcher|PISCO|Bio,Complete_noncan,20,20,,0.03953923348395599
+Scorpion SMR|S. pulcher|PISCO|Bio,Complete_BOT,20,20,,0.04521361969295218
+Scorpion SMR|S. pulcher|PISCO|Bio,Matched_noncan,20,20,,0.6788417939292269
+Scorpion SMR|S. pulcher|PISCO|Bio,Matched_BOT_MID,20,20,,0.6788417939292269
+Scorpion SMR|S. pulcher|PISCO|Bio,Matched_BOT,20,20,,0.6677359641793649
+Scorpion SMR|S. pulcher|PISCO|Den,Legacy,20,20,,2.6645352591003757e-15
+Scorpion SMR|S. pulcher|PISCO|Den,Visit_mean,20,20,,2.6645352591003757e-15
+Scorpion SMR|S. pulcher|PISCO|Den,Standard_visits,20,20,,2.6645352591003757e-15
+Scorpion SMR|S. pulcher|PISCO|Den,Complete_noncan,20,20,,0.02672307014075382
+Scorpion SMR|S. pulcher|PISCO|Den,Complete_BOT,20,20,,0.03465961973649028
+Scorpion SMR|S. pulcher|PISCO|Den,Matched_noncan,20,20,,0.3855833033796105
+Scorpion SMR|S. pulcher|PISCO|Den,Matched_BOT_MID,20,20,,0.3855833033796105
+Scorpion SMR|S. pulcher|PISCO|Den,Matched_BOT,20,20,,0.3774283142503042
+South Point SMR|S. pulcher|PISCO|Bio,Legacy,20,20,,4.6629367034256575e-15
+South Point SMR|S. pulcher|PISCO|Bio,Visit_mean,20,19,2005,0.07709576357710934
+South Point SMR|S. pulcher|PISCO|Bio,Standard_visits,20,18,2004;2005,0.07709576357710934
+South Point SMR|S. pulcher|PISCO|Bio,Complete_noncan,20,18,2004;2005,0.07709576357710934
+South Point SMR|S. pulcher|PISCO|Bio,Complete_BOT,20,18,2004;2005,0.11360991724075942
+South Point SMR|S. pulcher|PISCO|Bio,Matched_noncan,20,18,2004;2005,0.23772137292927642
+South Point SMR|S. pulcher|PISCO|Bio,Matched_BOT_MID,20,18,2004;2005,0.23772137292927642
+South Point SMR|S. pulcher|PISCO|Bio,Matched_BOT,20,18,2004;2005,0.2448504119485161
+South Point SMR|S. pulcher|PISCO|Den,Legacy,20,20,,6.439293542825908e-15
+South Point SMR|S. pulcher|PISCO|Den,Visit_mean,20,20,,6.439293542825908e-15
+South Point SMR|S. pulcher|PISCO|Den,Standard_visits,20,19,2004,6.439293542825908e-15
+South Point SMR|S. pulcher|PISCO|Den,Complete_noncan,20,19,2004,0.010204170174240357
+South Point SMR|S. pulcher|PISCO|Den,Complete_BOT,20,19,2004,0.04922150546147486
+South Point SMR|S. pulcher|PISCO|Den,Matched_noncan,20,19,2004,0.1923718926474563
+South Point SMR|S. pulcher|PISCO|Den,Matched_BOT_MID,20,19,2004,0.1923718926474563
+South Point SMR|S. pulcher|PISCO|Den,Matched_BOT,20,19,2004,0.1923718926474563
+Swamis SMCA|S. pulcher|PISCO|Bio,Legacy,7,7,,5.329070518200751e-15
+Swamis SMCA|S. pulcher|PISCO|Bio,Visit_mean,7,7,,5.329070518200751e-15
+Swamis SMCA|S. pulcher|PISCO|Bio,Standard_visits,7,7,,5.329070518200751e-15
+Swamis SMCA|S. pulcher|PISCO|Bio,Complete_noncan,7,7,,5.329070518200751e-15
+Swamis SMCA|S. pulcher|PISCO|Bio,Complete_BOT,7,7,,5.329070518200751e-15
+Swamis SMCA|S. pulcher|PISCO|Bio,Matched_noncan,7,7,,2.8418441891280772
+Swamis SMCA|S. pulcher|PISCO|Bio,Matched_BOT_MID,7,7,,2.8418441891280772
+Swamis SMCA|S. pulcher|PISCO|Bio,Matched_BOT,7,7,,2.8418441891280772
+Swamis SMCA|S. pulcher|PISCO|Den,Legacy,7,7,,6.039613253960852e-14
+Swamis SMCA|S. pulcher|PISCO|Den,Visit_mean,7,7,,6.039613253960852e-14
+Swamis SMCA|S. pulcher|PISCO|Den,Standard_visits,7,7,,6.039613253960852e-14
+Swamis SMCA|S. pulcher|PISCO|Den,Complete_noncan,7,7,,6.039613253960852e-14
+Swamis SMCA|S. pulcher|PISCO|Den,Complete_BOT,7,7,,6.039613253960852e-14
+Swamis SMCA|S. pulcher|PISCO|Den,Matched_noncan,7,7,,2.2094946699280964
+Swamis SMCA|S. pulcher|PISCO|Den,Matched_BOT_MID,7,7,,2.2094946699280964
+Swamis SMCA|S. pulcher|PISCO|Den,Matched_BOT,7,7,,2.2094946699280964

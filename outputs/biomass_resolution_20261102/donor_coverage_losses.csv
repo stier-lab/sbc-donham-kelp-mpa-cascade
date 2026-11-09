@@ -1,0 +1,106 @@
+series_id,scenario,n_original,n_supported,lost_years
+Abalone Cove SMCA|M. franciscanus|PISCO|Bio,current,11,11,
+Abalone Cove SMCA|M. franciscanus|PISCO|Bio,same_program,11,11,
+Abalone Cove SMCA|M. franciscanus|PISCO|Bio,same_count_site,11,11,
+Abalone Cove SMCA|P. interruptus|PISCO|Bio,current,11,11,
+Abalone Cove SMCA|P. interruptus|PISCO|Bio,same_program,11,11,
+Abalone Cove SMCA|P. interruptus|PISCO|Bio,same_count_site,11,10,2014
+Abalone Cove SMCA|S. purpuratus|PISCO|Bio,current,11,11,
+Abalone Cove SMCA|S. purpuratus|PISCO|Bio,same_program,11,11,
+Abalone Cove SMCA|S. purpuratus|PISCO|Bio,same_count_site,11,10,2018
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,current,17,17,
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,same_program,17,17,
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,same_count_site,17,17,
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,current,17,17,
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,same_program,17,17,
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,same_count_site,17,17,
+Campus Point SMCA|M. franciscanus|LTER|Bio,current,11,11,
+Campus Point SMCA|M. franciscanus|LTER|Bio,same_program,11,11,
+Campus Point SMCA|M. franciscanus|LTER|Bio,same_count_site,11,11,
+Campus Point SMCA|M. franciscanus|PISCO|Bio,current,10,10,
+Campus Point SMCA|M. franciscanus|PISCO|Bio,same_program,10,1,2013;2014;2015;2016;2017;2018;2019;2022;2023
+Campus Point SMCA|M. franciscanus|PISCO|Bio,same_count_site,10,1,2013;2014;2015;2016;2017;2018;2019;2022;2023
+Campus Point SMCA|S. purpuratus|LTER|Bio,current,11,11,
+Campus Point SMCA|S. purpuratus|LTER|Bio,same_program,11,11,
+Campus Point SMCA|S. purpuratus|LTER|Bio,same_count_site,11,11,
+Campus Point SMCA|S. purpuratus|PISCO|Bio,current,11,11,
+Campus Point SMCA|S. purpuratus|PISCO|Bio,same_program,11,1,2013;2014;2015;2016;2017;2018;2019;2020;2022;2023
+Campus Point SMCA|S. purpuratus|PISCO|Bio,same_count_site,11,1,2013;2014;2015;2016;2017;2018;2019;2020;2022;2023
+Gull Island SMR|M. franciscanus|PISCO|Bio,current,15,15,
+Gull Island SMR|M. franciscanus|PISCO|Bio,same_program,15,0,2004;2005;2006;2007;2008;2009;2010;2011;2012;2014;2015;2017;2018;2019;2021
+Gull Island SMR|M. franciscanus|PISCO|Bio,same_count_site,15,0,2004;2005;2006;2007;2008;2009;2010;2011;2012;2014;2015;2017;2018;2019;2021
+Gull Island SMR|S. purpuratus|PISCO|Bio,current,15,15,
+Gull Island SMR|S. purpuratus|PISCO|Bio,same_program,15,0,2004;2005;2006;2007;2008;2009;2010;2011;2012;2014;2015;2017;2018;2019;2021
+Gull Island SMR|S. purpuratus|PISCO|Bio,same_count_site,15,0,2004;2005;2006;2007;2008;2009;2010;2011;2012;2014;2015;2017;2018;2019;2021
+Harris Point SMR|M. franciscanus|KFM|Bio,current,18,18,
+Harris Point SMR|M. franciscanus|KFM|Bio,same_program,18,18,
+Harris Point SMR|M. franciscanus|KFM|Bio,same_count_site,18,18,
+Harris Point SMR|M. franciscanus|PISCO|Bio,current,15,15,
+Harris Point SMR|M. franciscanus|PISCO|Bio,same_program,15,0,2004;2005;2006;2007;2008;2009;2010;2011;2012;2014;2016;2018;2019;2021;2022
+Harris Point SMR|M. franciscanus|PISCO|Bio,same_count_site,15,0,2004;2005;2006;2007;2008;2009;2010;2011;2012;2014;2016;2018;2019;2021;2022
+Harris Point SMR|S. purpuratus|KFM|Bio,current,18,18,
+Harris Point SMR|S. purpuratus|KFM|Bio,same_program,18,18,
+Harris Point SMR|S. purpuratus|KFM|Bio,same_count_site,18,18,
+Harris Point SMR|S. purpuratus|PISCO|Bio,current,15,15,
+Harris Point SMR|S. purpuratus|PISCO|Bio,same_program,15,0,2004;2005;2006;2007;2008;2009;2010;2011;2012;2014;2016;2018;2019;2021;2022
+Harris Point SMR|S. purpuratus|PISCO|Bio,same_count_site,15,0,2004;2005;2006;2007;2008;2009;2010;2011;2012;2014;2016;2018;2019;2021;2022
+Matlahuayl SMR|M. franciscanus|PISCO|Bio,current,4,4,
+Matlahuayl SMR|M. franciscanus|PISCO|Bio,same_program,4,4,
+Matlahuayl SMR|M. franciscanus|PISCO|Bio,same_count_site,4,4,
+Matlahuayl SMR|P. interruptus|PISCO|Bio,current,5,5,
+Matlahuayl SMR|P. interruptus|PISCO|Bio,same_program,5,5,
+Matlahuayl SMR|P. interruptus|PISCO|Bio,same_count_site,5,5,
+Matlahuayl SMR|S. purpuratus|PISCO|Bio,current,4,4,
+Matlahuayl SMR|S. purpuratus|PISCO|Bio,same_program,4,4,
+Matlahuayl SMR|S. purpuratus|PISCO|Bio,same_count_site,4,4,
+Naples SMCA|M. franciscanus|LTER|Bio,current,11,11,
+Naples SMCA|M. franciscanus|LTER|Bio,same_program,11,11,
+Naples SMCA|M. franciscanus|LTER|Bio,same_count_site,11,11,
+Naples SMCA|M. franciscanus|PISCO|Bio,current,11,11,
+Naples SMCA|M. franciscanus|PISCO|Bio,same_program,11,2,2013;2014;2015;2016;2017;2018;2019;2022;2023
+Naples SMCA|M. franciscanus|PISCO|Bio,same_count_site,11,2,2013;2014;2015;2016;2017;2018;2019;2022;2023
+Naples SMCA|S. purpuratus|LTER|Bio,current,11,11,
+Naples SMCA|S. purpuratus|LTER|Bio,same_program,11,11,
+Naples SMCA|S. purpuratus|LTER|Bio,same_count_site,11,11,
+Naples SMCA|S. purpuratus|PISCO|Bio,current,11,11,
+Naples SMCA|S. purpuratus|PISCO|Bio,same_program,11,2,2013;2014;2015;2016;2017;2018;2019;2022;2023
+Naples SMCA|S. purpuratus|PISCO|Bio,same_count_site,11,2,2013;2014;2015;2016;2017;2018;2019;2022;2023
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,current,10,10,
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,same_program,10,10,
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,same_count_site,10,10,
+Point Vicente SMCA|P. interruptus|PISCO|Bio,current,10,10,
+Point Vicente SMCA|P. interruptus|PISCO|Bio,same_program,10,10,
+Point Vicente SMCA|P. interruptus|PISCO|Bio,same_count_site,10,10,
+Point Vicente SMCA|S. purpuratus|PISCO|Bio,current,10,10,
+Point Vicente SMCA|S. purpuratus|PISCO|Bio,same_program,10,10,
+Point Vicente SMCA|S. purpuratus|PISCO|Bio,same_count_site,10,10,
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,current,17,17,
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,same_program,17,17,
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,same_count_site,17,17,
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,current,17,17,
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,same_program,17,17,
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,same_count_site,17,17,
+Scorpion SMR|M. franciscanus|KFM|Bio,current,18,18,
+Scorpion SMR|M. franciscanus|KFM|Bio,same_program,18,18,
+Scorpion SMR|M. franciscanus|KFM|Bio,same_count_site,18,18,
+Scorpion SMR|M. franciscanus|PISCO|Bio,current,18,18,
+Scorpion SMR|M. franciscanus|PISCO|Bio,same_program,18,0,2004;2005;2006;2007;2008;2009;2010;2011;2012;2013;2014;2015;2016;2017;2018;2019;2021;2022
+Scorpion SMR|M. franciscanus|PISCO|Bio,same_count_site,18,0,2004;2005;2006;2007;2008;2009;2010;2011;2012;2013;2014;2015;2016;2017;2018;2019;2021;2022
+Scorpion SMR|S. purpuratus|KFM|Bio,current,18,18,
+Scorpion SMR|S. purpuratus|KFM|Bio,same_program,18,18,
+Scorpion SMR|S. purpuratus|KFM|Bio,same_count_site,18,18,
+Scorpion SMR|S. purpuratus|PISCO|Bio,current,18,18,
+Scorpion SMR|S. purpuratus|PISCO|Bio,same_program,18,0,2004;2005;2006;2007;2008;2009;2010;2011;2012;2013;2014;2015;2016;2017;2018;2019;2021;2022
+Scorpion SMR|S. purpuratus|PISCO|Bio,same_count_site,18,0,2004;2005;2006;2007;2008;2009;2010;2011;2012;2013;2014;2015;2016;2017;2018;2019;2021;2022
+South Point SMR|M. franciscanus|KFM|Bio,current,17,17,
+South Point SMR|M. franciscanus|KFM|Bio,same_program,17,17,
+South Point SMR|M. franciscanus|KFM|Bio,same_count_site,17,17,
+South Point SMR|M. franciscanus|PISCO|Bio,current,14,14,
+South Point SMR|M. franciscanus|PISCO|Bio,same_program,14,0,2005;2007;2008;2009;2010;2011;2012;2014;2015;2016;2017;2018;2019;2021
+South Point SMR|M. franciscanus|PISCO|Bio,same_count_site,14,0,2005;2007;2008;2009;2010;2011;2012;2014;2015;2016;2017;2018;2019;2021
+South Point SMR|S. purpuratus|KFM|Bio,current,17,17,
+South Point SMR|S. purpuratus|KFM|Bio,same_program,17,17,
+South Point SMR|S. purpuratus|KFM|Bio,same_count_site,17,17,
+South Point SMR|S. purpuratus|PISCO|Bio,current,14,14,
+South Point SMR|S. purpuratus|PISCO|Bio,same_program,14,0,2005;2007;2008;2009;2010;2011;2012;2014;2015;2016;2017;2018;2019;2021
+South Point SMR|S. purpuratus|PISCO|Bio,same_count_site,14,0,2005;2007;2008;2009;2010;2011;2012;2014;2015;2016;2017;2018;2019;2021

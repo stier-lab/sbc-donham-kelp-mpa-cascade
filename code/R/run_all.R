@@ -22,7 +22,7 @@
 #'   02_pBACIPS_function.R  - The core pBACIPS method (step/linear/asymptotic/sigmoid)
 #'   03_load_harmonized_data.R - Load the 4 harmonized CSVs into R objects
 #'   08_effect_sizes.R      - Calculate effect sizes for each MPA x taxa x response
-#'                            -> produces SumStats.Final (145 retained effect sizes)
+#'                            -> produces SumStats.Final (143 retained effect sizes)
 #'   09_meta_analysis.R     - Multilevel meta-analysis: Table 2, Table 3, variance components
 #'   10_temporal_analysis.R - Recovery trajectories, phase portraits, cascade consistency
 #'   36_primary_uncertainty.R - Exact primary-contrast calendar-HAC check (after 09)
@@ -54,12 +54,13 @@
 #'   39_predator_size_validation.R - Conditional size uncertainty, biomass reconciliation and Catalina omission
 #'   42_programme_pathway_refits.R - Matched-calendar programme-specific and averaged pathway checks
 #'   40_landsat_reference_check.R - Pin corrected empty-reference release before fitting (via 03)
+#'   54_seasonal_coverage.R - Recorded count/size survey months in retained histories
 #'   12_results_summary.R   - Summary CSVs, RESULTS_SUMMARY.md, data flow audit
 #'
 #' KEY OUTPUTS:
 #'   plots/          - All figures as PDF + PNG
 #'   tables/         - All manuscript tables as CSV
-#'   data/sumstats_final.csv - The 145 effect sizes used in meta-analysis
+#'   data/sumstats_final.csv - The 143 effect sizes used in meta-analysis
 #'   docs/RESULTS_SUMMARY.md - Auto-generated plain-English results summary
 
 ####################################################################################################
@@ -282,6 +283,10 @@ source_module("43_lobster_biomass_reconciliation.R", "43", isolated = TRUE)
 source_module("44_sheephead_yoy_check.R", "44", isolated = TRUE)
 source_module("51_kelp_selection_sensitivity.R", "51", isolated = TRUE)
 source_module("52_routing_clock_sensitivity.R", "52", isolated = TRUE)
+source_module("53_kfm_site_continuity.R", "53", isolated = TRUE)
+source_module("54_seasonal_coverage.R", "54", isolated = TRUE)
+source_module("58_calendar_window_check.R", "58", isolated = TRUE)
+source_module("59_pisco_fixed_stations.R", "59", isolated = TRUE)
 source_module("45_nonfished_comparators.R", "45", isolated = TRUE)
 source_module("46_satellite_siting.R", "46", isolated = TRUE)
 source_module("47_fish_siting.R", "47", isolated = TRUE)

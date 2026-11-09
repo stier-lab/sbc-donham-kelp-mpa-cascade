@@ -1,0 +1,55 @@
+here() starts at /Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/upstream_sites_20261101/stage
+Analysis constants loaded.
+Utility functions and constants loaded.
+Importing raw data files...
+  Loading ALL_sizefreq_2024.csv: 335498 rows x 19 cols
+  Filtered to target taxa: 140917 rows
+  After site exclusions: 113354 rows
+  Species codes standardized.
+  Loading MPAfeatures_subset.csv: 62 rows x 13 cols
+  Loading Site_List_All.csv: 34 rows x 9 cols
+  Merged site-MPA data: 34 rows
+    Note: 31 rows dropped due to missing location data
+  Loading SBCMBON_kelp_forest_site_geolocation_20210120_KFM_LTER.csv: 65 rows x 9 cols
+
+Running data validation checks...
+  [OK] SizeFreq: All sizes are positive
+  [OK] SizeFreq: All classcodes are expected values
+  [OK] Site: All MPA_Start years are valid
+  [OK] Sites2: All coordinates are within expected bounds
+  [INFO] Sites2: 6 sites without MPA assignment (may include reference sites)
+  All validation checks passed.
+
+Data import complete. Objects created:
+  - SizeFreq:        113354 rows (size frequency for biomass estimation)
+  - Site:            34 rows (site list with MPA features)
+  - Site.size:       62 rows (MPA features)
+  - sites.short.edit:34 rows (key MPA attributes)
+  - Sites2:          65 rows (MBON site coordinates)
+  Backfilled MPA metadata onto 3332 KFM/LTER urchin size rows (combined size pool)
+Restored Anacapa source size assignments: 12700 rows at 4 stations
+Processing KFM/MBON data...
+  MBON quad/swath data loaded: 2667360 rows, 17 columns
+  Split MBON: KFM = 534314 rows, LTER = 425082 rows
+  KFM after site filtering: 54235 rows
+  KFM target taxa rows: 8005 
+  KFM urchin bootstrap:  184  site-year-species combinations
+    Cached KFM urchin bootstrap results.
+  KFM urchin bootstrap complete: 184 rows
+  Removed 6 urchin rows with count > 0 but no biomass
+  KFM stipe data loaded: 46802 rows (after deduplication)
+  KFM Macrocystis bootstrap: 170 site-year combinations
+    Cached KFM Macrocystis bootstrap results.
+  KFM Macrocystis bootstrap complete: 170 rows
+  KFM combined taxa data: 275 rows
+  KFM response ratios: 149 rows (density + biomass)
+  KFM fish data loaded: 420703 rows
+  KFM fish response ratios: 323 rows
+KFM/MBON processing complete.
+  Outputs: KFM.join.ave (149 rows), KFM.resp (234 rows), kfm.fish (323 rows)
+Warning messages:
+1: In eval(ei, envir) : NAs introduced by coercion
+2: Merge INCREASED row count from 534314 to 619936 (+85622 rows). This may indicate a many-to-many join due to non-unique keys in Sites2. 
+3: Merge INCREASED row count from 46802 to 50818 (+4016 rows). This may indicate a many-to-many join due to non-unique keys in Sites2. 
+4: Merge INCREASED row count from 7293 to 8513 (+1220 rows). This may indicate a many-to-many join due to non-unique keys in Sites2. 
+5: In eval(ei, envir) : NAs introduced by coercion

@@ -1,0 +1,2 @@
+series_id,year,t,protected_biomass,reference_biomass,biomass_lnratio,local_only_lnratio,original_lnratio,supported,n_visits,n_reference_sites,n_protected_sites,unknown_visits,unknown_reference_visits,scenario,tolerance_days,supported_strict
+Abalone Cove SMCA|M. franciscanus|PISCO|Bio,2019,7,18.460340041295165,4.9995639309812,1.1885152540787367,,0.249012412591245,True,14,4,1,0,0,upper_gap_plus_7d_diagnostic,7,False

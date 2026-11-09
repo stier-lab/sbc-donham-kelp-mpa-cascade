@@ -1,0 +1,21 @@
+data_source,sample_method,taxon_name,rows,missing_count,invalid_area,area_values
+kfm,1mquad,Macrocystis pyrifera,27024,0,0,1;2
+kfm,1mquad,Mesocentrotus franciscanus,13711,0,0,1;2
+kfm,1mquad,Strongylocentrotus purpuratus,13712,0,0,1;2
+kfm,5mquad,Macrocystis pyrifera,29040,0,0,10
+kfm,band,Panulirus interruptus,11092,0,0,40;60
+lter,quad,Macrocystis pyrifera,5809,0,0,1
+lter,quad,Mesocentrotus franciscanus,11618,0,0,1
+lter,quad,Strongylocentrotus purpuratus,11618,0,0,1
+lter,swath,Macrocystis pyrifera,4312,5,0,20;40
+lter,swath,Panulirus interruptus,3866,0,0,20
+pisco,quad,Macrocystis pyrifera,13654,0,0,1
+pisco,quad,Mesocentrotus franciscanus,54616,0,0,1
+pisco,quad,Strongylocentrotus purpuratus,54616,0,0,1
+pisco,swath,Macrocystis pyrifera,5858,0,0,60
+pisco,swath,Mesocentrotus franciscanus,5858,1,0,60
+pisco,swath,Panulirus interruptus,5858,0,0,60
+pisco,swath,Strongylocentrotus purpuratus,5858,0,0,60
+sni,swath,Macrocystis pyrifera,4428,0,0,20
+sni,swath,Mesocentrotus franciscanus,2214,0,0,20
+sni,swath,Strongylocentrotus purpuratus,2214,0,0,20

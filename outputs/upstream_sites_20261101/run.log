@@ -1,0 +1,55 @@
+Saved 2518 effects; 360 pooled rows
+            Taxa Resp          metric  k n_mpa    estimate        low      high
+ M. franciscanus  Bio          Change  4     4  1.17453367  0.2034332 2.1456341
+      S. pulcher  Bio          Change  5     3  0.23738942         NA        NA
+     M. pyrifera  Bio          Change 24    19  0.32807249 -0.1285073 0.7846523
+   S. purpuratus  Bio          Change  5     5 -0.59724542 -1.5140193 0.3195285
+ M. franciscanus  Den          Change  6     6  0.05381209 -0.7817474 0.8893715
+      S. pulcher  Den          Change  9     7  0.27744106 -0.5614187 1.1163008
+   S. purpuratus  Den          Change  6     6 -1.13705157 -2.5422552 0.2681520
+  P. interruptus  Den          Change  3     3  0.97823979         NA        NA
+ M. franciscanus  Bio Post_difference 19    12  0.23100819 -0.5051803 0.9671967
+      S. pulcher  Bio Post_difference 20    18  1.20943957  0.6157602 1.8031190
+     M. pyrifera  Bio Post_difference 39    23  0.15225208 -0.3825504 0.6870546
+   S. purpuratus  Bio Post_difference 19    12 -0.43588458 -1.0412376 0.1694684
+  P. interruptus  Bio Post_difference  5     5  0.19897337 -1.3154133 1.7133600
+ M. franciscanus  Den Post_difference 21    13  0.06216535 -0.6441385 0.7684692
+      S. pulcher  Den Post_difference 27    18  0.65474932  0.2472622 1.0622364
+   S. purpuratus  Den Post_difference 21    13 -0.27414265 -0.8520436 0.3037583
+  P. interruptus  Den Post_difference 20    13  0.65803081 -0.1338500 1.4499116
+        df           q
+  2.231551 0.304998349
+  1.002082          NA
+ 15.129752 0.329752494
+  2.715922 0.329752494
+  3.719244 1.000000000
+  3.639389 0.717267474
+  3.744687 0.329752494
+  1.983378          NA
+  7.803280 0.711325835
+ 13.556186 0.006055472
+ 15.116918 0.711325835
+  7.583673 0.302059359
+  2.560450 0.765626119
+  8.662676 0.845875181
+ 13.132471 0.018481920
+  8.043474 0.550965661
+  8.316442 0.276154983
+                                                            status
+                        CR2: few effective degrees of freedom (<4)
+ Insufficient independent information: fewer than3clusters or df<2
+                                                               CR2
+                        CR2: few effective degrees of freedom (<4)
+                        CR2: few effective degrees of freedom (<4)
+                        CR2: few effective degrees of freedom (<4)
+                        CR2: few effective degrees of freedom (<4)
+ Insufficient independent information: fewer than3clusters or df<2
+                                                               CR2
+                                                               CR2
+                                                               CR2
+                                                               CR2
+                        CR2: few effective degrees of freedom (<4)
+                                                               CR2
+                                                               CR2
+                                                               CR2
+                                                               CR2

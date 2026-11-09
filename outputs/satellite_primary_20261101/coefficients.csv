@@ -1,0 +1,379 @@
+"MPA","window","model","term","coefficient"
+"Abalone Cove SMCA","Full","Stable","(Intercept)",-0.595321659919817
+"Abalone Cove SMCA","Full","Stable","post",0.607348243828295
+"Abalone Cove SMCA","Full","Stable","post_time",0.186632319363292
+"Abalone Cove SMCA","Full","Changing","(Intercept)",-0.536914976336153
+"Abalone Cove SMCA","Full","Changing","t",0.00446736673302808
+"Abalone Cove SMCA","Full","Changing","post",0.548941560244631
+"Abalone Cove SMCA","Full","Changing","post_time",0.182164952630264
+"Abalone Cove SMCA","10","Stable","(Intercept)",-0.477492113392679
+"Abalone Cove SMCA","10","Stable","post",0.489518697301157
+"Abalone Cove SMCA","10","Stable","post_time",0.186632319363292
+"Abalone Cove SMCA","10","Changing","(Intercept)",-0.360507361681768
+"Abalone Cove SMCA","10","Changing","t",0.0259966114913137
+"Abalone Cove SMCA","10","Changing","post",0.372533945590246
+"Abalone Cove SMCA","10","Changing","post_time",0.160635707871978
+"Abalone Cove SMCA","5","Stable","(Intercept)",-0.0433579508022974
+"Abalone Cove SMCA","5","Stable","post",0.0553845347107755
+"Abalone Cove SMCA","5","Stable","post_time",0.186632319363292
+"Abalone Cove SMCA","5","Changing","(Intercept)",-0.692749925235387
+"Abalone Cove SMCA","5","Changing","t",-0.324695987216545
+"Abalone Cove SMCA","5","Changing","post",0.704776509143866
+"Abalone Cove SMCA","5","Changing","post_time",0.511328306579837
+"Cabrillo SMR","Full","Stable","(Intercept)",-5.19048671673828
+"Cabrillo SMR","Full","Stable","post",-1.72339107629212
+"Cabrillo SMR","Full","Stable","post_time",0.247081736506752
+"Cabrillo SMR","Full","Changing","(Intercept)",-6.12459855020357
+"Cabrillo SMR","Full","Changing","t",-0.0750893756804893
+"Cabrillo SMR","Full","Changing","post",-0.789279242826835
+"Cabrillo SMR","Full","Changing","post_time",0.322171112187241
+"Cabrillo SMR","10","Stable","(Intercept)",-5.95255090072009
+"Cabrillo SMR","10","Stable","post",-0.961326892310309
+"Cabrillo SMR","10","Stable","post_time",0.247081736506752
+"Cabrillo SMR","10","Changing","(Intercept)",-4.36741256885903
+"Cabrillo SMR","10","Changing","t",0.352252962635792
+"Cabrillo SMR","10","Changing","post",-2.54646522417137
+"Cabrillo SMR","10","Changing","post_time",-0.10517122612904
+"Cabrillo SMR","5","Stable","(Intercept)",-5.41343990611292
+"Cabrillo SMR","5","Stable","post",-1.50043788691747
+"Cabrillo SMR","5","Stable","post_time",0.247081736506752
+"Cabrillo SMR","5","Changing","(Intercept)",-2.5758349176213
+"Cabrillo SMR","5","Changing","t",1.41880249424581
+"Cabrillo SMR","5","Changing","post",-4.3380428754091
+"Cabrillo SMR","5","Changing","post_time",-1.17172075773906
+"Campus Point SMCA","Full","Stable","(Intercept)",2.07055178946619
+"Campus Point SMCA","Full","Stable","post",0.84870103813598
+"Campus Point SMCA","Full","Stable","post_time",-0.0863502543909784
+"Campus Point SMCA","Full","Changing","(Intercept)",2.00580252939424
+"Campus Point SMCA","Full","Changing","t",-0.00479624148681088
+"Campus Point SMCA","Full","Changing","post",0.913450298207927
+"Campus Point SMCA","Full","Changing","post_time",-0.0815540129041676
+"Campus Point SMCA","10","Stable","(Intercept)",2.02608998346882
+"Campus Point SMCA","10","Stable","post",0.893162844133347
+"Campus Point SMCA","10","Stable","post_time",-0.0863502543909785
+"Campus Point SMCA","10","Changing","(Intercept)",2.28023557613803
+"Campus Point SMCA","10","Changing","t",0.0564767983709345
+"Campus Point SMCA","10","Changing","post",0.639017251464141
+"Campus Point SMCA","10","Changing","post_time",-0.142827052761913
+"Campus Point SMCA","5","Stable","(Intercept)",2.26717510938728
+"Campus Point SMCA","5","Stable","post",0.652077718214887
+"Campus Point SMCA","5","Stable","post_time",-0.0863502543909784
+"Campus Point SMCA","5","Changing","(Intercept)",1.8774319406121
+"Campus Point SMCA","5","Changing","t",-0.19487158438759
+"Campus Point SMCA","5","Changing","post",1.04182088699007
+"Campus Point SMCA","5","Changing","post_time",0.108521329996612
+"Carrington Pt SMR","Full","Stable","(Intercept)",0.685425388201469
+"Carrington Pt SMR","Full","Stable","post",-1.88669820867669
+"Carrington Pt SMR","Full","Stable","post_time",0.357418101960183
+"Carrington Pt SMR","Full","Changing","(Intercept)",0.770022375344221
+"Carrington Pt SMR","Full","Changing","t",0.00939966523808361
+"Carrington Pt SMR","Full","Changing","post",-1.97129519581944
+"Carrington Pt SMR","Full","Changing","post_time",0.348018436722099
+"Carrington Pt SMR","10","Stable","(Intercept)",0.991176218034985
+"Carrington Pt SMR","10","Stable","post",-2.19244903851021
+"Carrington Pt SMR","10","Stable","post_time",0.357418101960183
+"Carrington Pt SMR","10","Changing","(Intercept)",0.477880741172755
+"Carrington Pt SMR","10","Changing","t",-0.11406566152494
+"Carrington Pt SMR","10","Changing","post",-1.67915356164798
+"Carrington Pt SMR","10","Changing","post_time",0.471483763485123
+"Carrington Pt SMR","5","Stable","(Intercept)",1.42055167017973
+"Carrington Pt SMR","5","Stable","post",-2.62182449065495
+"Carrington Pt SMR","5","Stable","post_time",0.357418101960183
+"Carrington Pt SMR","5","Changing","(Intercept)",-1.29161959805402
+"Carrington Pt SMR","5","Changing","t",-1.35608563411687
+"Carrington Pt SMR","5","Changing","post",0.0903467775787971
+"Carrington Pt SMR","5","Changing","post_time",1.71350373607706
+"Farnsworth Onshore SMCA","Full","Stable","(Intercept)",0.668932581155243
+"Farnsworth Onshore SMCA","Full","Stable","post",-0.102728076640774
+"Farnsworth Onshore SMCA","Full","Stable","post_time",-0.158935061967901
+"Farnsworth Onshore SMCA","Full","Changing","(Intercept)",0.0212452904072498
+"Farnsworth Onshore SMCA","Full","Changing","t",-0.0643397970941715
+"Farnsworth Onshore SMCA","Full","Changing","post",0.544959214107219
+"Farnsworth Onshore SMCA","Full","Changing","post_time",-0.0945952648737299
+"Farnsworth Onshore SMCA","10","Stable","(Intercept)",0.317889247724211
+"Farnsworth Onshore SMCA","10","Stable","post",0.248315256790258
+"Farnsworth Onshore SMCA","10","Stable","post_time",-0.158935061967901
+"Farnsworth Onshore SMCA","10","Changing","(Intercept)",-0.195345622686068
+"Farnsworth Onshore SMCA","10","Changing","t",-0.100143389348347
+"Farnsworth Onshore SMCA","10","Changing","post",0.761550127200538
+"Farnsworth Onshore SMCA","10","Changing","post_time",-0.0587916726195543
+"Farnsworth Onshore SMCA","5","Stable","(Intercept)",0.18730547151702
+"Farnsworth Onshore SMCA","5","Stable","post",0.378899032997449
+"Farnsworth Onshore SMCA","5","Stable","post_time",-0.158935061967901
+"Farnsworth Onshore SMCA","5","Changing","(Intercept)",1.10349868164719
+"Farnsworth Onshore SMCA","5","Changing","t",0.458096605065083
+"Farnsworth Onshore SMCA","5","Changing","post",-0.537294177132717
+"Farnsworth Onshore SMCA","5","Changing","post_time",-0.617031667032985
+"Gull Island SMR","Full","Stable","(Intercept)",1.03956708837211
+"Gull Island SMR","Full","Stable","post",0.864288332977829
+"Gull Island SMR","Full","Stable","post_time",0.0225492923670408
+"Gull Island SMR","Full","Changing","(Intercept)",1.48199717631379
+"Gull Island SMR","Full","Changing","t",0.0491588986601873
+"Gull Island SMR","Full","Changing","post",0.421858245036143
+"Gull Island SMR","Full","Changing","post_time",-0.0266096062931465
+"Gull Island SMR","10","Stable","(Intercept)",1.19286194867443
+"Gull Island SMR","10","Stable","post",0.710993472675504
+"Gull Island SMR","10","Stable","post_time",0.0225492923670408
+"Gull Island SMR","10","Changing","(Intercept)",1.51044508148341
+"Gull Island SMR","10","Changing","t",0.0705740295131071
+"Gull Island SMR","10","Changing","post",0.393410339866522
+"Gull Island SMR","10","Changing","post_time",-0.0480247371460663
+"Gull Island SMR","5","Stable","(Intercept)",1.21037352639701
+"Gull Island SMR","5","Stable","post",0.693481894952926
+"Gull Island SMR","5","Stable","post_time",0.0225492923670407
+"Gull Island SMR","5","Changing","(Intercept)",2.1474767317054
+"Gull Island SMR","5","Changing","t",0.468551602654193
+"Gull Island SMR","5","Changing","post",-0.24362131035546
+"Gull Island SMR","5","Changing","post_time",-0.446002310287152
+"Harris Point SMR","Full","Stable","(Intercept)",-3.22396400805288
+"Harris Point SMR","Full","Stable","post",3.03317536599296
+"Harris Point SMR","Full","Stable","post_time",-0.132102976780387
+"Harris Point SMR","Full","Changing","(Intercept)",-4.28633134454207
+"Harris Point SMR","Full","Changing","t",-0.119516325355034
+"Harris Point SMR","Full","Changing","post",4.09554270248215
+"Harris Point SMR","Full","Changing","post_time",-0.0125866514253527
+"Harris Point SMR","10","Stable","(Intercept)",-3.87601332915935
+"Harris Point SMR","10","Stable","post",3.68522468709943
+"Harris Point SMR","10","Stable","post_time",-0.132102976780386
+"Harris Point SMR","10","Changing","(Intercept)",-4.57495204681417
+"Harris Point SMR","10","Changing","t",-0.155319715034405
+"Harris Point SMR","10","Changing","post",4.38416340475425
+"Harris Point SMR","10","Changing","post_time",0.0232167382540187
+"Harris Point SMR","5","Stable","(Intercept)",-4.09041748096462
+"Harris Point SMR","5","Stable","post",3.8996288389047
+"Harris Point SMR","5","Stable","post_time",-0.132102976780387
+"Harris Point SMR","5","Changing","(Intercept)",-4.17553319978338
+"Harris Point SMR","5","Changing","t",-0.0425578594093783
+"Harris Point SMR","5","Changing","post",3.98474455772345
+"Harris Point SMR","5","Changing","post_time",-0.0895451173710082
+"Judith Rk SMR","Full","Stable","(Intercept)",-0.289188192853125
+"Judith Rk SMR","Full","Stable","post",-1.01574446870437
+"Judith Rk SMR","Full","Stable","post_time",0.047885500770331
+"Judith Rk SMR","Full","Changing","(Intercept)",-0.0111270224693225
+"Judith Rk SMR","Full","Changing","t",0.0308956855982003
+"Judith Rk SMR","Full","Changing","post",-1.29380563908817
+"Judith Rk SMR","Full","Changing","post_time",0.0169898151721307
+"Judith Rk SMR","10","Stable","(Intercept)",-0.194838540534737
+"Judith Rk SMR","10","Stable","post",-1.11009412102275
+"Judith Rk SMR","10","Stable","post_time",0.047885500770331
+"Judith Rk SMR","10","Changing","(Intercept)",0.566995870062374
+"Judith Rk SMR","10","Changing","t",0.169296535688247
+"Judith Rk SMR","10","Changing","post",-1.87192853161986
+"Judith Rk SMR","10","Changing","post_time",-0.121411034917916
+"Judith Rk SMR","5","Stable","(Intercept)",0.329268050561529
+"Judith Rk SMR","5","Stable","post",-1.63420071211902
+"Judith Rk SMR","5","Stable","post_time",0.047885500770331
+"Judith Rk SMR","5","Changing","(Intercept)",-0.288289885916712
+"Judith Rk SMR","5","Changing","t",-0.30877896823912
+"Judith Rk SMR","5","Changing","post",-1.01664277564078
+"Judith Rk SMR","5","Changing","post_time",0.356664469009451
+"Naples SMCA","Full","Stable","(Intercept)",2.23321901775073
+"Naples SMCA","Full","Stable","post",-0.118605337711055
+"Naples SMCA","Full","Stable","post_time",0.00916115913889021
+"Naples SMCA","Full","Changing","(Intercept)",2.92079121335029
+"Naples SMCA","Full","Changing","t",0.0509312737481158
+"Naples SMCA","Full","Changing","post",-0.806177533310618
+"Naples SMCA","Full","Changing","post_time",-0.0417701146092257
+"Naples SMCA","10","Stable","(Intercept)",2.75512708103533
+"Naples SMCA","10","Stable","post",-0.640513400995655
+"Naples SMCA","10","Stable","post_time",0.00916115913889015
+"Naples SMCA","10","Changing","(Intercept)",3.02285638560898
+"Naples SMCA","10","Changing","t",0.0594954010163661
+"Naples SMCA","10","Changing","post",-0.908242705569302
+"Naples SMCA","10","Changing","post_time",-0.050334241877476
+"Naples SMCA","5","Stable","(Intercept)",2.90518971111259
+"Naples SMCA","5","Stable","post",-0.79057603107292
+"Naples SMCA","5","Stable","post_time",0.00916115913889018
+"Naples SMCA","5","Changing","(Intercept)",3.12014210486206
+"Naples SMCA","5","Changing","t",0.107476196874731
+"Naples SMCA","5","Changing","post",-1.00552842482238
+"Naples SMCA","5","Changing","post_time",-0.0983150377358405
+"Point Conception SMR","Full","Stable","(Intercept)",0.524722002598498
+"Point Conception SMR","Full","Stable","post",-0.188506403118856
+"Point Conception SMR","Full","Stable","post_time",0.0746454260540351
+"Point Conception SMR","Full","Changing","(Intercept)",0.316296461024493
+"Point Conception SMR","Full","Changing","t",-0.0154389290054819
+"Point Conception SMR","Full","Changing","post",0.0199191384551491
+"Point Conception SMR","Full","Changing","post_time",0.0900843550595171
+"Point Conception SMR","10","Stable","(Intercept)",-0.0830135746837947
+"Point Conception SMR","10","Stable","post",0.419229174163437
+"Point Conception SMR","10","Stable","post_time",0.0746454260540351
+"Point Conception SMR","10","Changing","(Intercept)",-0.0169543735686676
+"Point Conception SMR","10","Changing","t",0.0146798224700282
+"Point Conception SMR","10","Changing","post",0.353169973048309
+"Point Conception SMR","10","Changing","post_time",0.0599656035840069
+"Point Conception SMR","5","Stable","(Intercept)",0.0779417779773891
+"Point Conception SMR","5","Stable","post",0.258273821502253
+"Point Conception SMR","5","Stable","post_time",0.0746454260540351
+"Point Conception SMR","5","Changing","(Intercept)",-0.128906597756676
+"Point Conception SMR","5","Changing","t",-0.103424187867033
+"Point Conception SMR","5","Changing","post",0.465122197236318
+"Point Conception SMR","5","Changing","post_time",0.178069613921068
+"Point Dume SMCA","Full","Stable","(Intercept)",-0.0357730438049505
+"Point Dume SMCA","Full","Stable","post",-0.0716445620930607
+"Point Dume SMCA","Full","Stable","post_time",0.0324501966412086
+"Point Dume SMCA","Full","Changing","(Intercept)",-0.208334495752237
+"Point Dume SMCA","Full","Changing","t",-0.0127823297738731
+"Point Dume SMCA","Full","Changing","post",0.100916889854226
+"Point Dume SMCA","Full","Changing","post_time",0.0452325264150817
+"Point Dume SMCA","10","Stable","(Intercept)",-0.11986768609321
+"Point Dume SMCA","10","Stable","post",0.012450080195199
+"Point Dume SMCA","10","Stable","post_time",0.0324501966412086
+"Point Dume SMCA","10","Changing","(Intercept)",-0.0108750484808076
+"Point Dume SMCA","10","Changing","t",0.0242205861360894
+"Point Dume SMCA","10","Changing","post",-0.0965425574172036
+"Point Dume SMCA","10","Changing","post_time",0.00822961050511912
+"Point Dume SMCA","5","Stable","(Intercept)",-0.14031151035969
+"Point Dume SMCA","5","Stable","post",0.0328939044616791
+"Point Dume SMCA","5","Stable","post_time",0.0324501966412086
+"Point Dume SMCA","5","Changing","(Intercept)",-0.0237573070360021
+"Point Dume SMCA","5","Changing","t",0.0582771016618441
+"Point Dume SMCA","5","Changing","post",-0.0836602988620091
+"Point Dume SMCA","5","Changing","post_time",-0.0258269050206355
+"Point Dume SMR","Full","Stable","(Intercept)",-0.32961187623563
+"Point Dume SMR","Full","Stable","post",0.308156654248619
+"Point Dume SMR","Full","Stable","post_time",0.071429136533925
+"Point Dume SMR","Full","Changing","(Intercept)",-0.933457878442234
+"Point Dume SMR","Full","Changing","t",-0.0447293334967855
+"Point Dume SMR","Full","Changing","post",0.912002656455223
+"Point Dume SMR","Full","Changing","post_time",0.116158470030711
+"Point Dume SMR","10","Stable","(Intercept)",-0.692317259003746
+"Point Dume SMR","10","Stable","post",0.670862037016735
+"Point Dume SMR","10","Stable","post_time",0.071429136533925
+"Point Dume SMR","10","Changing","(Intercept)",-0.151685606563159
+"Point Dume SMR","10","Changing","t",0.120140367209019
+"Point Dume SMR","10","Changing","post",0.130230384576147
+"Point Dume SMR","10","Changing","post_time",-0.0487112306750943
+"Point Dume SMR","5","Stable","(Intercept)",-0.431852116820595
+"Point Dume SMR","5","Stable","post",0.410396894833584
+"Point Dume SMR","5","Stable","post_time",0.071429136533925
+"Point Dume SMR","5","Changing","(Intercept)",0.00256746025597086
+"Point Dume SMR","5","Changing","t",0.217209788538283
+"Point Dume SMR","5","Changing","post",-0.0240226822429822
+"Point Dume SMR","5","Changing","post_time",-0.145780652004358
+"Point Vicente SMCA","Full","Stable","(Intercept)",0.0308927369917826
+"Point Vicente SMCA","Full","Stable","post",1.24284931095352
+"Point Vicente SMCA","Full","Stable","post_time",-0.01655370694416
+"Point Vicente SMCA","Full","Changing","(Intercept)",0.0284370709825987
+"Point Vicente SMCA","Full","Changing","t",-0.000186143779121813
+"Point Vicente SMCA","Full","Changing","post",1.2453049769627
+"Point Vicente SMCA","Full","Changing","post_time",-0.0163675631650382
+"Point Vicente SMCA","10","Stable","(Intercept)",0.187644281266419
+"Point Vicente SMCA","10","Stable","post",1.08609776667888
+"Point Vicente SMCA","10","Stable","post_time",-0.01655370694416
+"Point Vicente SMCA","10","Changing","(Intercept)",0.960890951537576
+"Point Vicente SMCA","10","Changing","t",0.17183259339359
+"Point Vicente SMCA","10","Changing","post",0.312851096407727
+"Point Vicente SMCA","10","Changing","post_time",-0.18838630033775
+"Point Vicente SMCA","5","Stable","(Intercept)",1.07982949520893
+"Point Vicente SMCA","5","Stable","post",0.193912552736377
+"Point Vicente SMCA","5","Stable","post_time",-0.01655370694416
+"Point Vicente SMCA","5","Changing","(Intercept)",0.676001851232397
+"Point Vicente SMCA","5","Changing","t",-0.201913821988265
+"Point Vicente SMCA","5","Changing","post",0.597740196712906
+"Point Vicente SMCA","5","Changing","post_time",0.185360115044105
+"Santa Barbara Island SMR","Full","Stable","(Intercept)",-2.53475821222417
+"Santa Barbara Island SMR","Full","Stable","post",0.565368735694098
+"Santa Barbara Island SMR","Full","Stable","post_time",0.147627785006091
+"Santa Barbara Island SMR","Full","Changing","(Intercept)",-4.61447312971389
+"Santa Barbara Island SMR","Full","Changing","t",-0.22579761961317
+"Santa Barbara Island SMR","Full","Changing","post",2.64508365318382
+"Santa Barbara Island SMR","Full","Changing","post_time",0.373425404619261
+"Santa Barbara Island SMR","10","Stable","(Intercept)",-3.41909010098671
+"Santa Barbara Island SMR","10","Stable","post",1.44970062445664
+"Santa Barbara Island SMR","10","Stable","post_time",0.147627785006091
+"Santa Barbara Island SMR","10","Changing","(Intercept)",-5.39150682965607
+"Santa Barbara Island SMR","10","Changing","t",-0.438314828593192
+"Santa Barbara Island SMR","10","Changing","post",3.42211735312601
+"Santa Barbara Island SMR","10","Changing","post_time",0.585942613599283
+"Santa Barbara Island SMR","5","Stable","(Intercept)",-4.48622440496149
+"Santa Barbara Island SMR","5","Stable","post",2.51683492843142
+"Santa Barbara Island SMR","5","Stable","post_time",0.147627785006091
+"Santa Barbara Island SMR","5","Changing","(Intercept)",-4.69736501070666
+"Santa Barbara Island SMR","5","Changing","t",-0.105570302872584
+"Santa Barbara Island SMR","5","Changing","post",2.72797553417659
+"Santa Barbara Island SMR","5","Changing","post_time",0.253198087878675
+"Skunk Pt SMR","Full","Stable","(Intercept)",1.49773529221425
+"Skunk Pt SMR","Full","Stable","post",-2.09914545111337
+"Skunk Pt SMR","Full","Stable","post_time",0.208970539311553
+"Skunk Pt SMR","Full","Changing","(Intercept)",1.92482505540864
+"Skunk Pt SMR","Full","Changing","t",0.0480475983593686
+"Skunk Pt SMR","Full","Changing","post",-2.52623521430776
+"Skunk Pt SMR","Full","Changing","post_time",0.160922940952185
+"Skunk Pt SMR","10","Stable","(Intercept)",1.77397570636223
+"Skunk Pt SMR","10","Stable","post",-2.37538586526135
+"Skunk Pt SMR","10","Stable","post_time",0.208970539311553
+"Skunk Pt SMR","10","Changing","(Intercept)",0.790976222260332
+"Skunk Pt SMR","10","Changing","t",-0.218444329800422
+"Skunk Pt SMR","10","Changing","post",-1.39238638115945
+"Skunk Pt SMR","10","Changing","post_time",0.427414869111976
+"Skunk Pt SMR","5","Stable","(Intercept)",1.07387802991404
+"Skunk Pt SMR","5","Stable","post",-1.67528818881316
+"Skunk Pt SMR","5","Stable","post_time",0.208970539311553
+"Skunk Pt SMR","5","Changing","(Intercept)",1.02893911900332
+"Skunk Pt SMR","5","Changing","t",-0.0224694554553575
+"Skunk Pt SMR","5","Changing","post",-1.63034927790244
+"Skunk Pt SMR","5","Changing","post_time",0.231439994766911
+"South La Jolla SMR","Full","Stable","(Intercept)",1.56508865376886
+"South La Jolla SMR","Full","Stable","post",-2.35467542588522
+"South La Jolla SMR","Full","Stable","post_time",0.664473898502828
+"South La Jolla SMR","Full","Changing","(Intercept)",1.42815617363966
+"South La Jolla SMR","Full","Changing","t",-0.0106275954727145
+"South La Jolla SMR","Full","Changing","post",-2.21774294575602
+"South La Jolla SMR","Full","Changing","post_time",0.675101493975543
+"South La Jolla SMR","10","Stable","(Intercept)",1.05728967046481
+"South La Jolla SMR","10","Stable","post",-1.84687644258117
+"South La Jolla SMR","10","Stable","post_time",0.664473898502828
+"South La Jolla SMR","10","Changing","(Intercept)",2.73467779486292
+"South La Jolla SMR","10","Changing","t",0.372752916532912
+"South La Jolla SMR","10","Changing","post",-3.52426456697927
+"South La Jolla SMR","10","Changing","post_time",0.291720981969916
+"South La Jolla SMR","5","Stable","(Intercept)",1.93257115743191
+"South La Jolla SMR","5","Stable","post",-2.72215792954827
+"South La Jolla SMR","5","Stable","post_time",0.664473898502828
+"South La Jolla SMR","5","Changing","(Intercept)",3.9684495056934
+"South La Jolla SMR","5","Changing","t",1.01793917413075
+"South La Jolla SMR","5","Changing","post",-4.75803627780976
+"South La Jolla SMR","5","Changing","post_time",-0.353465275627919
+"South Point SMR","Full","Stable","(Intercept)",1.44678676955815
+"South Point SMR","Full","Stable","post",-1.48085842105794
+"South Point SMR","Full","Stable","post_time",0.100222478440179
+"South Point SMR","Full","Changing","(Intercept)",1.83345429927063
+"South Point SMR","Full","Changing","t",0.0429630588569423
+"South Point SMR","Full","Changing","post",-1.86752595077042
+"South Point SMR","Full","Changing","post_time",0.0572594195832369
+"South Point SMR","10","Stable","(Intercept)",1.60444417668772
+"South Point SMR","10","Stable","post",-1.63851582818751
+"South Point SMR","10","Stable","post_time",0.100222478440179
+"South Point SMR","10","Changing","(Intercept)",2.07897463342411
+"South Point SMR","10","Changing","t",0.105451212608085
+"South Point SMR","10","Changing","post",-2.11304628492389
+"South Point SMR","10","Changing","post_time",-0.00522873416790583
+"South Point SMR","5","Stable","(Intercept)",2.1091205982626
+"South Point SMR","5","Stable","post",-2.14319224976238
+"South Point SMR","5","Stable","post_time",0.100222478440179
+"South Point SMR","5","Changing","(Intercept)",1.54280691323449
+"South Point SMR","5","Changing","t",-0.283156842514055
+"South Point SMR","5","Changing","post",-1.57687856473427
+"South Point SMR","5","Changing","post_time",0.383379320954234
+"Swamis SMCA","Full","Stable","(Intercept)",1.24298331740395
+"Swamis SMCA","Full","Stable","post",1.15232068821828
+"Swamis SMCA","Full","Stable","post_time",-0.336133917402007
+"Swamis SMCA","Full","Changing","(Intercept)",0.261799720245434
+"Swamis SMCA","Full","Changing","t",-0.0713588070660738
+"Swamis SMCA","Full","Changing","post",2.1335042853768
+"Swamis SMCA","Full","Changing","post_time",-0.264775110335933
+"Swamis SMCA","10","Stable","(Intercept)",0.641377202402735
+"Swamis SMCA","10","Stable","post",1.75392680321949
+"Swamis SMCA","10","Stable","post_time",-0.336133917402007
+"Swamis SMCA","10","Changing","(Intercept)",1.40614624611778
+"Swamis SMCA","10","Changing","t",0.169948676381122
+"Swamis SMCA","10","Changing","post",0.989157759504445
+"Swamis SMCA","10","Changing","post_time",-0.506082593783129
+"Swamis SMCA","5","Stable","(Intercept)",1.40552461873817
+"Swamis SMCA","5","Stable","post",0.98977938688406
+"Swamis SMCA","5","Stable","post_time",-0.336133917402007
+"Swamis SMCA","5","Changing","(Intercept)",1.57796366576352
+"Swamis SMCA","5","Changing","t",0.0862195235126755
+"Swamis SMCA","5","Changing","post",0.817340339858709
+"Swamis SMCA","5","Changing","post_time",-0.422353440914682

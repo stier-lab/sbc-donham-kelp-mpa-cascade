@@ -1264,11 +1264,6 @@ fig2 <- ggplot() +
   geom_point(data = fig2_meta,
              aes(x = x_dodge, y = Estimate, color = Response, shape = Response),
              size = 4.5) +
-  # Sample size annotations below each point (k = number of MPAs)
-  geom_text(data = fig2_meta,
-            aes(x = x_dodge, y = fig2_label_y, label = paste0("k=", k),
-                color = Response),
-            size = 3.2, show.legend = FALSE) +
   # FDR-corrected significance stars (*, **, ***) above the upper CI limit
   geom_text(data = fig2_meta %>% dplyr::filter(sig_star != ""),
             aes(x = x_dodge, y = CI_upper + 0.25, label = sig_star),
@@ -2374,7 +2369,8 @@ make_fig5_panel <- function(sp, tag_label, show_xlab = FALSE,
       plot.tag.position = c(0, 1),
       plot.margin = margin(3, 6, 3, 4, "pt")
     ) +
-    labs(tag = paste0("(", tag_label, ")"))
+    labs(tag = paste0("(", tag_label, ")"), title=taxon_display(sp)) +
+    theme(plot.title=element_text(size=9,face="italic",hjust=.5))
 
   p
 }
@@ -2412,24 +2408,8 @@ p_fig4_e <- make_fig5_panel("Macrocystis pyrifera", "e", show_xlab = TRUE,
                              n_mpas_df = fig5_n_mpas_bio,
                              ylims_df = fig5_ylims_bio)
 
-# Bottom-right: legend in the empty spacer cell
-p_fig4_spacer <- cowplot::ggdraw() +
-  # Population mean
-  cowplot::draw_line(x = c(0.08, 0.22), y = c(0.78, 0.78),
-                     color = "grey30", linewidth = 1.2) +
-  cowplot::draw_label("Population mean\n(lmer \u00b1 95% CI)", x = 0.25, y = 0.78,
-                      size = 8, fontfamily = "Helvetica", hjust = 0,
-                      lineheight = 0.9) +
-  # Individual retained history
-  cowplot::draw_line(x = c(0.08, 0.22), y = c(0.45, 0.45),
-                     color = "grey55", linewidth = 0.4) +
-  cowplot::draw_label("MPA-source history", x = 0.25, y = 0.45,
-                      size = 8, fontfamily = "Helvetica", hjust = 0) +
-  # t = 11
-  cowplot::draw_line(x = c(0.15, 0.15), y = c(0.14, 0.26),
-                     color = "grey50", linewidth = 0.5, linetype = "dotted") +
-  cowplot::draw_label("t = 11 years", x = 0.25, y = 0.20,
-                      size = 8, fontfamily = "Helvetica", hjust = 0)
+# Explanatory keys are in the manuscript caption.
+p_fig4_spacer <- patchwork::plot_spacer()
 
 # --- Assemble 3×2 grid ---
 fig4_grid <- (p_fig4_a | p_fig4_b) /
@@ -3399,10 +3379,7 @@ fig4_legend_plot <- ggplot(fig4_legend_data,
   )
 fig4_legend_grob <- cowplot::get_legend(fig4_legend_plot)
 
-fig4_final <- cowplot::plot_grid(
-  fig4_main, fig4_legend_grob,
-  ncol = 1, rel_heights = c(1, 0.06)
-)
+fig4_final <- fig4_main
 
 save_fig(fig4_final, "fig_02_cascade_case_studies", FIG2_DIMS["w"], FIG2_DIMS["h"])
 cat("  Figure 2 saved: plots/fig_02_cascade_case_studies.pdf\n")

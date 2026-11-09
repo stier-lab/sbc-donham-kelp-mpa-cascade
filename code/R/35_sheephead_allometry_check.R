@@ -20,7 +20,7 @@ check_sheephead_allometry_inputs <- function(root = here::here()) {
     input <- file.path(root, "data/harmonized", name)
     expected_md5 <- lobster_release_hash(root,name,z$files[[name]]$after_md5)
     if (unname(tools::md5sum(input)) != expected_md5 ||
-        nrow(utils::read.csv(input)) != z$files[[name]]$rows) {
+        nrow(utils::read.csv(input)) != current_release_rows(root,name,z$files[[name]]$rows)) {
       stop("Stale or changed sheephead input: ", name)
     }
   }

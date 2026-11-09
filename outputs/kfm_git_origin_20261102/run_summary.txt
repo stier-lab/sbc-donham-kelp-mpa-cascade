@@ -1,0 +1,35 @@
+match_type
+combined     20
+single      538
+  site       expected_name               matched_source match_type  site_species_years  first_year  last_year
+a-k-01       Wyckoff Ledge Miracle Mile + Wyckoff Ledge   combined                  20        2012       2022
+a-k-02           Hare Rock                    Hare Rock     single                  20        2012       2022
+a-k-03 Johnson's Lee North          Johnson's Lee North     single                  20        2012       2022
+a-k-04 Johnson's Lee South          Johnson's Lee South     single                  20        2012       2022
+a-k-06         Gull Island            Gull Island South     single                  20        2012       2022
+a-k-08         Pelican Bay                  Pelican Bay     single                  20        2012       2022
+a-k-09  Scorpion Anchorage           Scorpion Anchorage     single                  20        2012       2022
+a-k-10        Yellow Banks                 Yellow Banks     single                  20        2012       2022
+a-k-11      Admiral's Reef               Admiral's Reef     single                  20        2012       2022
+a-k-12      Cathedral Cove               Cathedral Cove     single                  20        2012       2022
+a-k-13        Landing Cove                 Landing Cove     single                  20        2012       2022
+a-k-14  Southeast Sea Lion               Southeast Reef     single                  20        2012       2022
+a-k-15          Arch Point                   Arch Point     single                  20        2012       2022
+a-k-16          Cat Canyon                   Cat Canyon     single                  20        2012       2022
+a-k-22       Cluster Point                Cluster Point     single                  20        2012       2022
+a-k-23     Trancion Canyon              Trancion Canyon     single                  20        2012       2022
+a-k-24           Chickasaw                    Chickasaw     single                  20        2012       2022
+a-k-25         South Point                  South Point     single                  20        2012       2022
+a-k-26 Devil's Peak Member          Devil's Peak Member     single                  20        2012       2022
+a-k-27      Potato Pasture               Potato Pasture     single                  20        2012       2022
+a-k-28        Cavern Point                 Cavern Point     single                  20        2012       2022
+a-k-29     Little Scorpion              Little Scorpion     single                  20        2012       2022
+a-k-30          Pedro Reef                   Pedro Reef     single                  20        2012       2022
+a-k-31             Keyhole                      Keyhole     single                  20        2012       2022
+a-k-32      East Fish Camp               East Fish Camp     single                  20        2012       2022
+a-k-33  Black Seabass Reef          Black Sea Bass Reef     single                  20        2012       2022
+a-k-34          Lighthouse                   Lighthouse     single                  20        2012       2022
+a-k-36    Graveyard Canyon             Graveyard Canyon     single                  18        2012       2022
+                                                                                                                                                                   file                                                           sha256   rows  kfm_rows                                                  kfm_hist_sha256
+                                                                                                                                             data/ALL_sizefreq_2024.csv 711e2ff55973a3592ac7aa6a00f37cfbe33c482d9684eaeecc41519fc2552741 335498    265095 8c3f2ec84c15959a135d3e6f0c4006014e338459731d2fb498a4b791ec1ac9dc
+/Users/adrianstier/Library/CloudStorage/GoogleDrive-<account>/My Drive/Stier Lab/People/Emily Donham/Projects/Kelp MPA/Github/MPA_Kelp/data/ALL_sizefreq_2024.csv 711e2ff55973a3592ac7aa6a00f37cfbe33c482d9684eaeecc41519fc2552741 335498    265095 8c3f2ec84c15959a135d3e6f0c4006014e338459731d2fb498a4b791ec1ac9dc

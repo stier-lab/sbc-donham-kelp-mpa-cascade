@@ -1,0 +1,6 @@
+response,point_formula_source_in_pipeline,coefficient_sampling_covariance_available_in_current_files,action
+red_urchin,registered SBC LTER conversion constants,no,retain point conversion; do not imply estimated coefficient uncertainty
+purple_urchin,registered SBC LTER conversion constants,no,retain point conversion; do not imply estimated coefficient uncertainty
+lobster,registered SBC LTER coefficient data,no,retain point conversion; seek underlying regression data or covariance before probabilistic coefficient draws
+sheephead,Hamilton and Caselle 2015 formula,no,retain point conversion; seek fit uncertainty before probabilistic coefficient draws
+kelp_adult,observed-month SBC 127.5 slopes,no,retain month-specific coefficients; provider aggregate is a distinct response

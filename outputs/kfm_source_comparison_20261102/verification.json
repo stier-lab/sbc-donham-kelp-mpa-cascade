@@ -1,0 +1,16 @@
+{
+  "workbook_rows": 55142,
+  "workbook_normalization_checked": true,
+  "all_groups": 1482,
+  "source_only_groups": 288,
+  "verified_effective_groups": 1461,
+  "unresolved_groups": 21,
+  "protected_files_unchanged": 487,
+  "sources": {
+    "data/ALL_sizefreq_2024.csv": "711e2ff55973a3592ac7aa6a00f37cfbe33c482d9684eaeecc41519fc2552741",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-data/data/source_archive/kfm_size_feasibility_2026-10-29/legacy/Invertebrate Size Frequency.csv": "d9bfeaf4fb40711e9654da6e20822aaa9dbb68c6a0c522796fcf7a90951f278a",
+    "data/external/scott_gabara_2026-11-02/KFM Nat Hab Red Purp 2012-2022.xlsx": "c1bf620b67543bbb0f92b74c6247d3949e03fbc1e7a9d998f1e83b1836fa088e",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-data/data/verified_kfm_sizes/replacement.csv": "4b13781e8998ce3f8bfe94407bd6a1499fffca5c814df1a09b22a0c42fb897ec",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-data/data/verified_kfm_sizes/registry.csv": "818c0e498d058b1d1cb95ea98b9bdbd413bea190c36fad99c8b12f94fc24486e"
+  }
+}

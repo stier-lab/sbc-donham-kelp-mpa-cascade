@@ -148,8 +148,12 @@ local({
     final$MPA_Start <- designation
     pairs$MPA_Start <- final$MPA_Start[match(pairs$key, final$key)]
     expected_ba <- ifelse(pairs$year <= pairs$MPA_Start, "Before", "After")
+    policy<-jsonlite::fromJSON(file.path(root,"data/harmonized/pisco_baseline_policy.json"))
+    fixed_keys<-final$key[final$Source=="PISCO" & final$Taxa=="S. pulcher" & final$MPA %in% policy$MPAs]
+    ii<-pairs$key %in% fixed_keys
+    expected_ba[ii]<-ifelse(pairs$year[ii]<pairs$MPA_Start[ii],"Before","After")
     if (anyNA(pairs$BA) || any(pairs$BA != expected_ba)) {
-      stop("Harmonized BA conflicts with metadata (designation year belongs to Before)")
+      stop("Harmonized BA conflicts with the program-specific period rule")
     }
 
     width_mm <- 170
@@ -201,8 +205,8 @@ local({
         dataset_year_max = unique(d$dataset_year_max),
         year_min = min(d$year), year_max = max(d$year),
         n_annual_rows = nrow(d), n_pairs = sum(valid_pair),
-        n_before = sum(valid_pair & d$year <= final$MPA_Start[i]),
-        n_after = sum(valid_pair & d$year > final$MPA_Start[i]),
+        n_before = sum(valid_pair & d$BA == "Before"),
+        n_after = sum(valid_pair & d$BA == "After"),
         n_missing_years = length(absent_years),
         missing_years = paste(absent_years, collapse = ";"),
         n_missing_mpa = sum(!is.finite(d$mpa)),
@@ -450,8 +454,8 @@ local({
                      "primary set are omitted, including rejected series and other responses. ",
                      "No raw-response or external data files are read."), excluded_key_count),
       "",
-      sprintf(paste0("%d selected histories have no Before-period observations (year <= ",
-                     "`MPA_Start`) in the supplied paired inputs. Their facets therefore ",
+      sprintf(paste0("%d selected histories have no Before-period observations (as encoded in ",
+                     "`BA`) in the supplied paired inputs. Their facets therefore ",
                      "show only the observed later history; no baseline is imputed."),
               sum(manifest$n_before == 0L)),
       "",
@@ -465,7 +469,7 @@ local({
       "",
       paste0("`dataset_year_min/max` describe the full input-file range; `year_min/max` ",
              "describe each selected paired history. `n_before` counts finite annual pairs ",
-             "with year <= `MPA_Start`; `n_after` counts pairs with year > `MPA_Start`, ",
+             "with BA=Before; `n_after` counts pairs with BA=After under the documented program rule, ",
              "matching the harmonized BA convention. `missing_years` lists absent internal ",
              "calendar years separated by semicolons. The index also records the input ",
              "dataset, full taxon name, final `N`, analysis type, selected model, ",

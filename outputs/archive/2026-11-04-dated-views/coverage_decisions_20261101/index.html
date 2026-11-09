@@ -1,0 +1,233 @@
+<meta charset="utf-8"><title>Coverage decisions</title><style>body{font:16px system-ui;max-width:1250px;margin:30px}td,th{padding:8px;text-align:left;border-bottom:1px solid #ddd}table{border-collapse:collapse}p{max-width:950px}.scroll{overflow:auto}</style><h1>Coverage before choosing final rules</h1><p>Coverage screen only. No new biological models or paper changes.</p><p><a href="README.md">Findings, decisions and limitations</a> · <a href="pair_year_timing_zones.csv">All diver pair-year records</a> · <a href="fish_complete_pass_zone_timing.csv">Exact fish months and years</a> · <a href="fish_reference_means.csv">Reference means on the same years</a></p><h2>Requiring all historical reference stations: sheephead density</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>MPA</th>
+      <th>n_years</th>
+      <th>n_years_all_stations</th>
+      <th>n_persistent_reference_stations</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Abalone Cove SMCA</td>
+      <td>14</td>
+      <td>9</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Anacapa Island SMR 2003</td>
+      <td>19</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Dume SMCA</td>
+      <td>6</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Santa Barbara Island SMR</td>
+      <td>9</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Scorpion SMR</td>
+      <td>20</td>
+      <td>6</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>South Point SMR</td>
+      <td>20</td>
+      <td>6</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table><h2>Shared zones and timing: sheephead density</h2><p>Role-level availability, not certification of every contributing station. Timing columns count years flagged, not adopted exclusions.</p><div class="scroll"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>MPA</th>
+      <th>n_years</th>
+      <th>constant_shared_zones</th>
+      <th>all_shared_zones</th>
+      <th>zone_set_changes</th>
+      <th>years_gap_over30</th>
+      <th>years_gap_over60</th>
+      <th>years_gap_over90</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Abalone Cove SMCA</td>
+      <td>14</td>
+      <td>INNER;MID</td>
+      <td>INNER;MID;OUTER</td>
+      <td>True</td>
+      <td>10</td>
+      <td>6</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>Anacapa Island SMR 2003</td>
+      <td>19</td>
+      <td>INNER;OUTER</td>
+      <td>INNER;OUTER</td>
+      <td>False</td>
+      <td>5</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Blue Cavern Onshore SMCA</td>
+      <td>8</td>
+      <td>INNER;MID</td>
+      <td>INNER;MID</td>
+      <td>False</td>
+      <td>3</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Campus Point SMCA</td>
+      <td>13</td>
+      <td>INMID;INNER;OUTER;OUTMID</td>
+      <td>INMID;INNER;OUTER;OUTMID</td>
+      <td>False</td>
+      <td>4</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Farnsworth Onshore SMCA</td>
+      <td>6</td>
+      <td>INNER;MID;OUTER</td>
+      <td>INNER;MID;OUTER</td>
+      <td>False</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Gull Island SMR</td>
+      <td>20</td>
+      <td>INMID;INNER;OUTER;OUTMID</td>
+      <td>INMID;INNER;OUTER;OUTMID</td>
+      <td>False</td>
+      <td>6</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Harris Point SMR</td>
+      <td>17</td>
+      <td>INMID;INNER;OUTER;OUTMID</td>
+      <td>INMID;INNER;OUTER;OUTMID</td>
+      <td>False</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Long Point SMR</td>
+      <td>8</td>
+      <td>INNER;MID;OUTER</td>
+      <td>INNER;MID;OUTER</td>
+      <td>False</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Matlahuayl SMR</td>
+      <td>7</td>
+      <td>INNER;MID</td>
+      <td>INNER;MID</td>
+      <td>False</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Naples SMCA</td>
+      <td>14</td>
+      <td>INNER;OUTER</td>
+      <td>INNER;OUTER</td>
+      <td>False</td>
+      <td>6</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Point Dume SMCA</td>
+      <td>6</td>
+      <td>INNER;MID</td>
+      <td>INNER;MID</td>
+      <td>False</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Point Dume SMR</td>
+      <td>6</td>
+      <td>INNER;MID</td>
+      <td>INNER;MID</td>
+      <td>False</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA</td>
+      <td>15</td>
+      <td>INNER;MID;OUTER</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>True</td>
+      <td>6</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Santa Barbara Island SMR</td>
+      <td>9</td>
+      <td>INNER;MID</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>True</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Scorpion SMR</td>
+      <td>20</td>
+      <td>INNER;OUTER;OUTMID</td>
+      <td>INMID;INNER;OUTER;OUTMID</td>
+      <td>True</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>South Point SMR</td>
+      <td>20</td>
+      <td>INNER;OUTER</td>
+      <td>INMID;INNER;MID;OUTER;OUTMID</td>
+      <td>True</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Swamis SMCA</td>
+      <td>7</td>
+      <td>INNER;MID;OUTER</td>
+      <td>INNER;MID;OUTER</td>
+      <td>False</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table></div>

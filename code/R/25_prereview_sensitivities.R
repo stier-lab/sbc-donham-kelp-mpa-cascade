@@ -6,9 +6,9 @@
 #
 #   A. Residual autocorrelation: the per-combination Durbin-Watson distribution,
 #      which the single pooled statistic in table_s_ar1_sensitivity.csv hides.
-#   B. Cross-taxa permutations for inverse-variance-grouped reconstructions;
-#      most differ from the primary Table 3 fits. Estimated predictors and
-#      response-only weights do not necessarily make parametric P optimistic.
+#   B. Cross-taxa label permutations reproduce the equal-source Table 3 fits;
+#      responses remain paired with their own sampling uncertainties.
+#      Estimated predictors and shared references still limit inference.
 #   C. Point Conception SMR: a post-only lnRR summary alongside the current
 #      pooled kelp coefficient, not a joint-model inclusion refit.
 #   D. Zero-offset constant: how far the annual lnRR series move when the adaptive
@@ -52,12 +52,13 @@ out(dw_summary, "table_s_prereview_dw_distribution.csv")
 # parametric assumptions. With k = 4 the permutation distribution is enumerated
 # exhaustively, so the test is exact.
 cat("B. Cross-taxa permutation test\n")
+set.seed(20261030)
 t3 <- read.csv("tables/table_03_cross_taxa_meta_regression.csv", stringsAsFactors = FALSE)
 ms_es <- read.csv("tables/table_model_selection.csv", stringsAsFactors = FALSE)
 agg <- ms_es %>% filter(!is.na(Mean), !is.na(SE), SE > 0) %>%
   group_by(Taxa, MPA, Resp) %>%
-  summarise(es = sum(Mean / SE^2) / sum(1 / SE^2),
-            se = sqrt(1 / sum(1 / SE^2)), .groups = "drop")
+  summarise(es = mean(Mean),
+            se = sqrt(sum(SE^2)) / n(), .groups = "drop")
 defs <- list(c("S. purpuratus","Den","M. pyrifera","Bio"),
              c("M. franciscanus","Den","M. pyrifera","Bio"),
              c("P. interruptus","Den","S. purpuratus","Den"),
@@ -71,30 +72,36 @@ for (i in seq_along(defs)) {
   yy <- agg %>% filter(Taxa == d[3], Resp == d[4]) %>% select(MPA, y = es, yse = se)
   j <- inner_join(xx, yy, by = "MPA")
   if (nrow(j) < 4) next
-  fitslope <- function(yv) {
-    m <- try(rma(yi = yv, sei = j$yse, mods = ~ j$x, method = "REML", test = "knha"),
+  fitslope <- function(xv) {
+    # Shuffle predictors; each response stays paired with its sampling SE.
+    m <- try(rma(yi = j$y, sei = j$yse, mods = ~ xv, method = "REML", test = "knha"),
              silent = TRUE)
     if (inherits(m, "try-error")) NA_real_ else unname(m$b[2])
   }
-  obs <- fitslope(j$y)
+  obs <- fitslope(j$x)
+  stopifnot(abs(round(obs,4)-t3$Slope_Est[i]) < 1e-8)
   k <- nrow(j)
   if (k <= 7) {                      # exhaustive: k! <= 5040
     grid <- unique(as.matrix(expand.grid(rep(list(seq_len(k)), k))))
     grid <- grid[apply(grid, 1, function(r) length(unique(r)) == k), , drop = FALSE]
-    sl <- apply(grid, 1, function(r) fitslope(j$y[r]))
+    sl <- apply(grid, 1, function(r) fitslope(j$x[r]))
     mode <- "exact"
   } else {
-    sl <- replicate(10000, fitslope(sample(j$y)))
+    sl <- replicate(10000, fitslope(sample(j$x)))
     mode <- "monte-carlo(1e4)"
   }
-  sl <- sl[!is.na(sl)]
+  requested <- length(sl)
+  failed <- sum(!is.finite(sl))
+  stopifnot(failed/requested < .01)
+  sl <- sl[is.finite(sl)]
   perm_rows[[length(perm_rows) + 1]] <- tibble(
     Relationship = t3$Relationship[i], k = k,
     slope_reproduced = round(obs, 4),
     slope_published = round(t3$Slope_Est[i], 4),
-    reproduces_published = abs(obs - t3$Slope_Est[i]) < 0.005,
+    reproduces_published = abs(round(obs,4) - t3$Slope_Est[i]) < 1e-8,
     p_parametric_published = round(t3$Slope_pval[i], 4),
-    permutation_mode = mode, n_permutations = length(sl),
+    permutation_unit = "MPA predictor labels; response/SE pairs retained",
+    permutation_mode = mode, n_requested = requested, n_failed = failed, n_permutations = length(sl),
     p_permutation = round(mean(abs(sl) >= abs(obs) - 1e-12), 4),
     p_permutation_floor = round(1 / length(sl), 4))
 }

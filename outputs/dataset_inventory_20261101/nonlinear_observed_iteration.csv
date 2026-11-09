@@ -1,0 +1,13 @@
+series_id,rho,original,iterated,change,converged,iterations,interval_claim
+Abalone Cove SMCA|M. franciscanus|PISCO|Bio,0.0,-0.1651715690998606,-0.1645863965029821,0.0005851725968785,True,10,No new interval; iterated expansion diagnostic only
+Abalone Cove SMCA|M. franciscanus|PISCO|Bio,0.6,-0.1456715442283526,-0.1450288202690511,0.0006427239593015,True,10,No new interval; iterated expansion diagnostic only
+Abalone Cove SMCA|P. interruptus|PISCO|Bio,0.0,0.208401963882416,0.2074453455680616,-0.0009566183143544,True,10,No new interval; iterated expansion diagnostic only
+Abalone Cove SMCA|P. interruptus|PISCO|Bio,0.6,0.1361521259816591,0.13474769312018,-0.0014044328614791,True,10,No new interval; iterated expansion diagnostic only
+Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.0,-0.0813012669057829,-0.0820282191580628,-0.0007269522522798,True,10,No new interval; iterated expansion diagnostic only
+Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.6,-0.0326941524222031,-0.0328586721681956,-0.0001645197459924,True,10,No new interval; iterated expansion diagnostic only
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,0.0,0.0016861102077747,0.0102926524118745,0.0086065422040998,True,11,No new interval; iterated expansion diagnostic only
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,0.6,0.0019040315456542,0.0107056120245103,0.008801580478856,True,11,No new interval; iterated expansion diagnostic only
+Point Vicente SMCA|P. interruptus|PISCO|Bio,0.0,-0.0678353498224458,-0.0654799299789848,0.002355419843461,True,10,No new interval; iterated expansion diagnostic only
+Point Vicente SMCA|P. interruptus|PISCO|Bio,0.6,-0.0204682588979755,-0.0185326584098709,0.0019356004881046,True,10,No new interval; iterated expansion diagnostic only
+Point Vicente SMCA|S. purpuratus|PISCO|Bio,0.0,-0.1143409129372564,-0.1129378048848418,0.0014031080524146,True,10,No new interval; iterated expansion diagnostic only
+Point Vicente SMCA|S. purpuratus|PISCO|Bio,0.6,-0.0580945858502039,-0.0558052857869626,0.0022893000632412,True,10,No new interval; iterated expansion diagnostic only

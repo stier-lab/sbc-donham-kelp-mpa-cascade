@@ -1,0 +1,9 @@
+file,columns,depth_named_fields
+MBON/SBCMBON_kelp_forest_integrated_quad_and_swath_20231022.csv,data_source;sample_method;date;site_id;subsite_id;transect_id;replicate_id;proj_taxon_id;area;count;auth_taxon_id;auth_name;taxon_name;site_name;subsite_name;latitude;longitude,
+MBON/SBCMBON_kelp_forest_integrated_fish_20231022.csv,data_source;sample_method;sample_subtype;date;site_id;subsite_id;transect_id;replicate_id;proj_taxon_id;area;height;count;auth_taxon_id;auth_name;taxon_name;site_name;subsite_name;latitude;longitude,
+LTER/Annual_fish_comb_20240307.csv,YEAR;MONTH;DATE;SITE;TRANSECT;QUAD;SIDE;VIS;SP_CODE;SIZE;COUNT;AREA;SCIENTIFIC_NAME;COMMON_NAME;TAXON_KINGDOM;TAXON_PHYLUM;TAXON_CLASS;TAXON_ORDER;TAXON_FAMILY;TAXON_GENUS;GROUP;SURVEY;MOBILITY;GROWTH_MORPH,
+LTER/Annual_Kelp_All_Years_20240305.csv,YEAR;MONTH;DATE;SITE;TRANSECT;QUAD;SIDE;SP_CODE;FRONDS;HLD_DIAM;AREA;OBS_CODE;NOTES;SCIENTIFIC_NAME;COMMON_NAME;TAXON_KINGDOM;TAXON_PHYLUM;TAXON_CLASS;TAXON_ORDER;TAXON_FAMILY;TAXON_GENUS;GROUP;SURVEY;MOBILITY;GROWTH_MORPH,
+LTER/Lobster_Abundance_All_Years_20230831.csv,YEAR;MONTH;DATE;SITE;TRANSECT;REPLICATE;SIZE_MM;COUNT;NUM_AO;AREA,
+ALL_sizefreq_2024.csv,campus;method;survey_year;year;month;day;site_new;site;location;zone;transect;classcode;count;size;disease;depth;observer;notes;site_name_old,depth
+MBON/KFM_Macrocystis_RawData_1984-2023.csv,SiteNumber;IslandCode;IslandName;SiteCode;SiteName;SurveyYear;SurveyDate;PermanentObserverNumber;Species;ScientificName;Marker;Stipe_Count;Diameter_cm,
+LANDSAT/MPA_Runs_new.csv,ï»¿MPA;status;rep;lat;lon;1984;1985;1986;1987;1988;1989;1990;1991;1992;1993;1994;1995;1996;1997;1998;1999;2000;2001;2002;2003;2004;2005;2006;2007;2008;2009;2010;2011;2012;2013;2014;2015;2016;2017;2018;2019;2020;2021,

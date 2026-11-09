@@ -1,0 +1,23 @@
+{
+  "original_rows": 140,
+  "combined_animals": 135,
+  "date": [
+    "07AUG1995"
+  ],
+  "measurement": [
+    "Maximum test diameter"
+  ],
+  "duplicate_sizes_expected": 71,
+  "removed_mm": [
+    51.0,
+    63.0,
+    105.0,
+    134.0,
+    184.0
+  ],
+  "same_day_species_measurement": true,
+  "all_combined_frequencies_subset_original": true,
+  "missing_rows_distinguishable_by_unique_id": false,
+  "reason_for_omission_recovered": false,
+  "recommendation": "Prefer original 140 individual rows under source-first policy, retain 135-row sensitivity; source-version decision still required before primary promotion"
+}

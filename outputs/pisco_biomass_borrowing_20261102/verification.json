@@ -1,0 +1,10 @@
+{
+  "density_post_years": 63,
+  "local_only_biomass_post_years": 25,
+  "borrow_supported_post_years": 44,
+  "conditional_biomass_fits": 6,
+  "draws": 1000,
+  "outer_validation_attempts": 1248,
+  "calibration_rows": 3208,
+  "protected_unchanged": 487
+}

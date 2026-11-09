@@ -1,0 +1,18 @@
+{
+  "recent_exact_matches": 54,
+  "annual_corrections": 99,
+  "verified_zero": 1,
+  "cross_program_recent_records": 14,
+  "sparse_allowed_samples": 1,
+  "scope_unchanged": true,
+  "input_hashes": {
+    "outputs/biomass_resolution_20261102/review_annual_input.csv": "85379b4e42f27c127a1d2eca04a303cb13ecbf3ef62d16829ddeccd063c45c60",
+    "outputs/biomass_support_20261102/animal_pool_inventory.csv": "2ad1ca5f683419a30787511f2d95e83d5fbb79949b4df1ae0bb92cdfc5318ff2",
+    "outputs/biomass_support_20261102/private/pool_members.csv": "ef635d55c99f153619a82ec5c4f2efb6e207bb6575e93836f7fe2bfeb258dc77",
+    "outputs/all_program_station_refits_20261102/offsets.csv": "1df7a4b2ba4a7a5f72619c6bde7a3d76a1b69724c2b1fba860f6f1c163ab3b37",
+    "outputs/biomass_exclusion_reconciliation_20261102/annual_donor_corrections.csv": "940ea5e7ef37e2d278478abfb47a954766c65bdb5c062a60bd407c78b0cf17a5",
+    "outputs/biomass_next_steps_20261102/kfm_year_holds.csv": "105bc468a76bbc39ec44010a4a80d70938a331ad5e25d6df653e69d2dca07cfc",
+    "data/MBON/SBCMBON_kelp_forest_integrated_quad_and_swath_20231022.csv": "7b0d27161fedf4f9740be6f99a2accbd2a52d51993f766350b1e2d3f12b42c23",
+    "data/MBON/SBCMBON_kelp_forest_site_geolocation_20210120_KFM_LTER.csv": "c5a21d53b5f630348c5894f209627b25b3a190b0c28d3eef791bd2982dc1c059"
+  }
+}

@@ -1,0 +1,5 @@
+Rscript code/tools/verify_pisco_borrowing.R
+Verified 3208 outer calibration predictions, 428 held-out intervals, 6 biomass models and 18 draw regressions.
+Rscript code/tools/verify_biomass_joint.R
+Verified 34 baseline models, 306 draw regressions and 296 kelp station-year expectations.
+Both returned success (exit code 0).

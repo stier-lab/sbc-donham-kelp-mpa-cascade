@@ -1,0 +1,5 @@
+# Final disposition
+
+The reviewed split was retained. The original two-stage posterior-covariance shortcut is absent. After the independent review, the coordinator renamed retry counts, added run-start source hashes and completion status, direct point-identity assertions, finite-input checks, finite-year target years, direct log-bias/skew diagnostics and covariance-condition/upper-bound warnings. Latent covariance exports were renamed to distinguish them from direct sampling covariance. Original labels are archived inside each uncertainty output.
+
+All three final 800-draw runs completed, with 40 parameter bootstrap refits per size model and 500 direct-process bootstrap refits per correlation scenario. No fallback fits were used. Source hashes were checked unchanged during each final run. Independent R reproduces six direct GLS/REML fits; source/support/numerical checks and viewer checks pass. The review is not a calibration or total-coverage certificate. Full joint borrowed-biomass process inference, allometry, protected transfer validation and absent KFM originals remain open.

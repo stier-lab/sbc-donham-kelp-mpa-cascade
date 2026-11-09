@@ -166,8 +166,6 @@ local({
         max.overlaps = Inf, max.iter = 10000, max.time = Inf,
         box.padding = 0.5, point.padding = 0.3, min.segment.length = 0,
         segment.color = "grey45", segment.size = 0.25) +
-      ggplot2::geom_text(data = counts, ggplot2::aes(x = Inf, y = Inf, label = label),
-        inherit.aes = FALSE, hjust = 1.1, vjust = 1.3, size = 2.6) +
       ggplot2::facet_wrap(~ panel_name, ncol = 2, scales = "free", axes = "all") +
       ggplot2::scale_color_manual(values = region_colors) +
       ggplot2::scale_shape_manual(values = c(Islands = 16, Mainland = 17)) +
@@ -183,7 +181,7 @@ local({
         axis.text = ggplot2::element_text(size = 8, color = "grey20"),
         axis.title = ggplot2::element_text(size = 9),
         panel.spacing.x = grid::unit(4, "mm"), panel.spacing.y = grid::unit(4, "mm"),
-        legend.position = "bottom", legend.key.width = grid::unit(5, "mm"),
+        legend.position = "none", legend.key.width = grid::unit(5, "mm"),
         legend.margin = ggplot2::margin(0, 0, 0, 0),
         plot.margin = ggplot2::margin(3, 3, 3, 3, "mm"))
 

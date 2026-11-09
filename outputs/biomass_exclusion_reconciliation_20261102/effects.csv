@@ -1,0 +1,25 @@
+series_id,scope,scenario,n_reconciled_years,estimate,se,low,high,n_years,n_rows,df,rank
+Harris Point SMR|M. franciscanus|KFM|Bio,all_observed_post_years,current,8,-0.149851398473814,0.07734229153596707,-0.31380973215482577,0.014106935207197774,18,18,16,2
+Harris Point SMR|M. franciscanus|KFM|Bio,all_observed_post_years,allowed_original_sizes,8,-0.16046607886627312,0.07621398836854643,-0.3220325166835417,0.0011003589509955003,18,18,16,2
+Harris Point SMR|M. franciscanus|KFM|Bio,reconciled_years_only,current,8,0.3006844591192479,0.16496576560860324,-0.10297222778164816,0.704341146020144,8,8,6,2
+Harris Point SMR|M. franciscanus|KFM|Bio,reconciled_years_only,allowed_original_sizes,8,0.30136158039904326,0.15699303708996817,-0.0827865426036431,0.6855097034017297,8,8,6,2
+Harris Point SMR|M. franciscanus|PISCO|Bio,all_observed_post_years,current,8,-0.041199479604427054,0.02325614979041266,-0.09144133668163829,0.00904237747278417,15,15,13,2
+Harris Point SMR|M. franciscanus|PISCO|Bio,all_observed_post_years,allowed_original_sizes,8,-0.04946990331633404,0.02321299762122136,-0.09961853579976601,0.0006787291670979287,15,15,13,2
+Harris Point SMR|M. franciscanus|PISCO|Bio,reconciled_years_only,current,8,0.1295545938974317,0.03655840839842973,0.040099391128315884,0.21900979666654752,8,8,6,2
+Harris Point SMR|M. franciscanus|PISCO|Bio,reconciled_years_only,allowed_original_sizes,8,0.1364856324885071,0.041656664525188423,0.03455544638265291,0.23841581859436128,8,8,6,2
+Harris Point SMR|S. purpuratus|KFM|Bio,all_observed_post_years,current,7,0.02313525970664282,0.08204134264957279,-0.15078461733141327,0.1970551367446989,18,18,16,2
+Harris Point SMR|S. purpuratus|KFM|Bio,all_observed_post_years,allowed_original_sizes,7,0.0025456086251849364,0.07439845950217024,-0.15517207992736365,0.16026329717773352,18,18,16,2
+Harris Point SMR|S. purpuratus|KFM|Bio,reconciled_years_only,current,7,-0.5063815679992381,0.22198249149801882,-1.0770057284733379,0.06424259247486175,7,7,5,2
+Harris Point SMR|S. purpuratus|KFM|Bio,reconciled_years_only,allowed_original_sizes,7,-0.4645191130745598,0.20319122564890882,-0.9868387868883244,0.057800560739204865,7,7,5,2
+Harris Point SMR|S. purpuratus|PISCO|Bio,all_observed_post_years,current,8,0.010981674055084545,0.04232438964519446,-0.08045461073831188,0.10241795884848097,15,15,13,2
+Harris Point SMR|S. purpuratus|PISCO|Bio,all_observed_post_years,allowed_original_sizes,8,-0.01639548251582687,0.04306357843597888,-0.1094286876040426,0.07663772257238886,15,15,13,2
+Harris Point SMR|S. purpuratus|PISCO|Bio,reconciled_years_only,current,8,-0.33372334911711776,0.0903007414015452,-0.5546813034197368,-0.11276539481449874,8,8,6,2
+Harris Point SMR|S. purpuratus|PISCO|Bio,reconciled_years_only,allowed_original_sizes,8,-0.33080508497023253,0.09321088314772097,-0.5588838996000808,-0.10272627034038428,8,8,6,2
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,all_observed_post_years,current,7,-0.12253487077934011,0.033014916883431736,-0.19290450036722445,-0.05216524119145577,17,17,15,2
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,all_observed_post_years,allowed_original_sizes,7,-0.006369979807104742,0.016339451303096202,-0.04119669586178523,0.028456736247575748,17,17,15,2
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,reconciled_years_only,current,7,0.04571368237662221,0.13790373656405785,-0.3087791579013204,0.4002065226545648,7,7,5,2
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,reconciled_years_only,allowed_original_sizes,7,-0.027726196671960857,0.03660104144533766,-0.12181216897671777,0.06635977563279606,7,7,5,2
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,all_observed_post_years,current,7,-0.06811465704348618,0.06293745105112288,-0.20226265848509267,0.06603334439812031,17,17,15,2
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,all_observed_post_years,allowed_original_sizes,7,-0.007572046640918928,0.07148970302054332,-0.15994874165625933,0.14480464837442147,17,17,15,2
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,reconciled_years_only,current,7,0.20556185846525743,0.13871314125114678,-0.15101162279899488,0.5621353397295097,7,7,5,2
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,reconciled_years_only,allowed_original_sizes,7,0.35207435103205675,0.06309369151848987,0.1898868536713857,0.5142618483927278,7,7,5,2

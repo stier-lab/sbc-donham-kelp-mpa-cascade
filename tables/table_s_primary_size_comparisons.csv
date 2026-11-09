@@ -1,0 +1,16 @@
+series_id,MPA,Taxa,Source,method,paired_years,positive_side_years,min_measured_positive,median_measured_positive,singleton_side_years,under10_side_years,under20_side_years,shared_side_years,sparse_years,priority
+Abalone Cove SMCA|P. interruptus|PISCO|Bio,Abalone Cove SMCA,P. interruptus,PISCO,resampled size pool,12,20,1,10,4,10,14,0,"2012,2013,2014,2016,2017,2018,2020,2021,2022,2023",Singleton size samples
+Abalone Cove SMCA|S. purpuratus|PISCO|Bio,Abalone Cove SMCA,S. purpuratus,PISCO,resampled size pool,13,26,2,66,0,2,4,0,"2022,2023",Some small samples
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,Anacapa Island SMR 2003,S. purpuratus,KFM,resampled size pool,17,33,11,497,0,0,5,0,"",No sparse/shared flag at these thresholds
+Campus Point SMCA|P. interruptus|LTER|Bio,Campus Point SMCA,P. interruptus,LTER,direct measured lengths,12,24,15,174,0,0,1,0,"",No sparse/shared flag at these thresholds
+Campus Point SMCA|S. purpuratus|PISCO|Bio,Campus Point SMCA,S. purpuratus,PISCO,resampled size pool,13,26,4,64.5,0,2,2,2,"2017,2023",Some small samples
+Gull Island SMR|S. purpuratus|PISCO|Bio,Gull Island SMR,S. purpuratus,PISCO,resampled size pool,15,30,4,136.5,0,1,1,0,2005,Some small samples
+Harris Point SMR|S. purpuratus|PISCO|Bio,Harris Point SMR,S. purpuratus,PISCO,resampled size pool,15,30,16,92.5,0,0,2,0,"",No sparse/shared flag at these thresholds
+Matlahuayl SMR|P. interruptus|PISCO|Bio,Matlahuayl SMR,P. interruptus,PISCO,resampled size pool,7,14,1,14,1,4,9,0,"2011,2019,2020,2023",Singleton size samples
+Naples SMCA|P. interruptus|LTER|Bio,Naples SMCA,P. interruptus,LTER,direct measured lengths,12,24,6,58.5,0,1,3,0,2012,Some small samples
+Naples SMCA|S. purpuratus|PISCO|Bio,Naples SMCA,S. purpuratus,PISCO,resampled size pool,13,26,37,142.5,0,0,0,2,"",Shared measurements
+Point Vicente SMCA|P. interruptus|PISCO|Bio,Point Vicente SMCA,P. interruptus,PISCO,resampled size pool,12,23,1,30,1,3,5,0,"2012,2016,2021",Singleton size samples
+Point Vicente SMCA|S. purpuratus|PISCO|Bio,Point Vicente SMCA,S. purpuratus,PISCO,resampled size pool,14,27,8,161,0,1,3,0,2016,Some small samples
+Scorpion SMR|S. purpuratus|PISCO|Bio,Scorpion SMR,S. purpuratus,PISCO,resampled size pool,18,36,79,168.5,0,0,0,0,"",No sparse/shared flag at these thresholds
+South Point SMR|S. purpuratus|KFM|Bio,South Point SMR,S. purpuratus,KFM,resampled size pool,17,34,186,673.5,0,0,0,28,"",Shared measurements
+South Point SMR|S. purpuratus|PISCO|Bio,South Point SMR,S. purpuratus,PISCO,resampled size pool,14,28,168,416,0,0,0,28,"",Shared measurements

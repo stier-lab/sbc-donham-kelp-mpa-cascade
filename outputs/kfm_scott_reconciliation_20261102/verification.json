@@ -1,0 +1,18 @@
+{
+  "source_sha256": "c1bf620b67543bbb0f92b74c6247d3949e03fbc1e7a9d998f1e83b1836fa088e",
+  "exact_histograms": 54,
+  "historical_corrections": 45,
+  "verified_zero": 1,
+  "protected_files_unchanged": 487,
+  "output_hashes": {
+    "effects.csv": "2b119be110eb83789b28d0ba5dfc3101b380c57eb19dc4fff4734e1333cbbf31",
+    "index.html": "e08230a4a58f818e23bfa68bd8cd7bed5ad17f28c3669881842b96883a059085",
+    "all_corrections.csv": "edf9a2cfe3eaf157a76a5ff6a33d00c3eb64baa64fa9a5bf1f4f71e8b266945b",
+    "review_annual_input.csv": "1e71730de7ccb32ac1d10de5995ab3a40cac955e741ed0a4beb21890b7d89d57",
+    "recent_corrections.csv": "7fa47ae832ecc0787693902324b66e64eaac465d2f4d809ec0b43cb6631a3cf6",
+    "README.md": "dd141cf7079f06dc6b0a00349fb23af3a08d0ed75ee1db51b7a83cd4aca93066",
+    "comparison.csv": "4dce820d491a61a6a65a4299ffc315e296d12841752d82bec67e08a012345c08",
+    "kfm_current_holds.csv": "fb62085d076217418af84375fc41ddf3f63193ed86e04f2abd0ded12d4fb388f",
+    "effects.png": "985f90a130a8cb3004eeb984bd4b0dd759d4f070ec4c2bd44a1a4888a38170d3"
+  }
+}

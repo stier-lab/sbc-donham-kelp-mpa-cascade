@@ -1,0 +1,9 @@
+series_id,scope,scenario,estimate,se,low,high,n_years,n_rows,df,rank
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,all_observed_post_years,current,-0.12253487077934011,0.033014916883431736,-0.19290450036722445,-0.05216524119145577,17,17,15,2
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,all_observed_post_years,original_count_site_sizes,-0.006369979807104742,0.016339451303096202,-0.04119669586178523,0.028456736247575748,17,17,15,2
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,2005_2011_same_years,current,0.04571368237662221,0.13790373656405785,-0.3087791579013204,0.4002065226545648,7,7,5,2
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,2005_2011_same_years,original_count_site_sizes,-0.027726196671960857,0.03660104144533766,-0.12181216897671777,0.06635977563279606,7,7,5,2
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,all_observed_post_years,current,-0.06811465704348618,0.06293745105112288,-0.20226265848509267,0.06603334439812031,17,17,15,2
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,all_observed_post_years,original_count_site_sizes,-0.007572046640918928,0.07148970302054332,-0.15994874165625933,0.14480464837442147,17,17,15,2
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,2005_2011_same_years,current,0.20556185846525743,0.13871314125114678,-0.15101162279899488,0.5621353397295097,7,7,5,2
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,2005_2011_same_years,original_count_site_sizes,0.35207435103205675,0.06309369151848987,0.1898868536713857,0.5142618483927278,7,7,5,2

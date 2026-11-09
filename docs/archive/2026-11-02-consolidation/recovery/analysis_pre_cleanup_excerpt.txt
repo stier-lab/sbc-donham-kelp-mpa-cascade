@@ -1,0 +1,39 @@
+Current audit decisions and reproducibility guide: [consolidated tables](outputs/dataset_inventory_20261101/README.md). These describe review analyses; primary integration remains on hold.
+
+# Kelp Resilience and Trophic Responses in California MPAs
+
+**Ongoing audit record:** [Findings, decisions and unresolved questions](docs/AUDIT_FINDINGS_REGISTER.md). Recent review analyses are separate from the existing manuscript/canonical results summarized below; read the register for superseding review decisions and current limitations.
+
+November 1 satellite screening: the primary synthesis includes 143 histories (103 CI,40 pBACIPS). Santa Barbara Island and Swamis satellite histories fail the common baseline-trend screen; Naples passes. Naples LTER sheephead biomass remains included. Three population contrasts meet the primary adjusted threshold; three additional responses depend on uncertainty specification. [Current policy and results](docs/SATELLITE_BASELINE_POLICY_2026-11-01.md) supersede earlier numerical summaries below.
+
+October 30 calendar-window update: primary trends now use elapsed calendar years and compare actual post-designation surveys no more than 11 years apart. All 145 histories and their selected models are retained; 42 estimates change. Kelp, sheephead biomass and purple-urchin conclusions persist; red-urchin biomass is sensitive to uncertainty assumptions. See [the observed-window audit](docs/CALENDAR_OBSERVED_WINDOWS_2026-10-30.md).
+
+October 30 size-uncertainty check: shared lobster/purple-urchin size perturbations preserve the pooled conclusions, but the four-MPA lobster–urchin relationship's nominal interval often includes zero. These are conditional diagnostics, not replacement confidence intervals. See [methods, findings and limits](docs/PRIMARY_SIZE_UNCERTAINTY_2026-10-30.md); reproduce with `Rscript code/R/run_size_uncertainty.R` when the source files and caches are available.
+
+October 30 lobster correction: five retained antennae-only LTER sightings now receive mean individual mass from measured lobsters at the same site and survey date, with raw missing lengths and counts preserved. Only two annual biomass estimates change; pooled and predator–urchin conclusions remain unchanged. See [the treatment and reconstruction checks](docs/LOBSTER_MISSING_LENGTHS_2026-10-30.md).
+
+Selection criteria are audited against all 143 histories and exact PISCO station-year coverage in [the selection audit](docs/SELECTION_CRITERIA_AUDIT_2026-10-29.md). It separates program routing from coverage, confirms Judith/San Miguel mask overlap, and records remaining selection limitations. Run `python3 code/tests/check_selection_criteria.py /path/to/sbc-donham-kelp-mpa-data` to verify current inputs and reported coverage claims.
+
+October 29 reference-selection update: confirmed program-specific reasons are recorded in [the selection and continuity audit](docs/REFERENCE_REPLY_INTEGRATION_2026-10-29.md). Module 53 checks KFM sheephead station membership on matched years. Restricting to stations sampled before and after designation weakens Scorpion's estimated increase, but preserves all nine pooled directions and the same four adjusted conclusions. Primary estimates are unchanged; final station/routing policy and remaining source permissions are unresolved.
+
+[![R](https://img.shields.io/badge/R-%3E%3D4.0-blue.svg)](https://www.r-project.org/)
+[![Status](https://img.shields.io/badge/Status-In%20Preparation-yellow.svg)]()
+
+> **Manuscript Title:** Kelp resilience and trophic responses in a southern California marine protected-area network
+>
+> **Target journal:** Journal of Applied Ecology (Research Article)
+>
+> *Scientific overview updated: 2026-10-20. The primary synthesis retains 143 histories from 21 MPAs. Population patterns, trophic links and designation-related disturbance responses are separate questions; current framing is in `docs/SCIENTIFIC_APPROACH.md`.*
+
+---
+
+> **For co-authors — the short version.** You don't need to run anything to write the
+> paper. Figures are in `plots/`, tables in `tables/`, and plain-language results
+> summaries in `docs/` (start with `docs/RESULTS_SUMMARY.md`). The main paper analyses
+> are scripts `08`-`13`, the in-pipeline resilience modules `14/15/16/19/21/22/23`,
+> and the PISCO-reference sensitivity in script `26`; Figure 5 comes from script `22`.
+> Scripts `27`-`30` add matched design/geography comparisons, a same-pair
+> historical heatwave comparison, the complete pair-history atlas and arithmetic checks.
+> Script `34` adds Gull Island KFM omissions and a common-cohort combined-predator check. See `docs/COAUTHOR_SENSITIVITY_INTEGRATION_2026-10-12.md` for methods, results and limits. Sheephead display names use Bodianus; historical analysis identifiers are unchanged.
+>
+> Modules `36` and `37` check exact primary-contrast and Figure 4 uncertainty. Following the singleton correction, calendar-HAC checks preserve all nine pooled directions, but adjusted support for purple-urchin biomass depends on bandwidth. Figure 4 uses 831 biomass observations in 63 retained diver histories; its full random-slope/source model is nonsingular. Same-row calendar AR1 retains a positive kelp slope, but the purple-urchin slope's interval includes zero. See `docs/BIOMASS_SINGLETON_REFIT_2026-10-18.md`; the retired pooled DW reconstruction is not primary-model validation.

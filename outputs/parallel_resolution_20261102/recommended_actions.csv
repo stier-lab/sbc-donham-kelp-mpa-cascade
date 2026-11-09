@@ -1,0 +1,9 @@
+area,recommended_action,reason,disposition,evidence
+KFM,Retain density; keep six biomass holds,Need original recent site-specific sizes; request already sent,Existing hold; source-dependent,kfm/history_years.csv
+Biomass support,Expose exact failure reasons and both donor attempts,No-data versus calibration versus gap limitations are different,Documentation ready; scientific treatment unchanged,support/unsupported_use_trace.csv
+Biomass support,Test a consistent small date tolerance,"Four-day boundary excess restores one diagnostic year, 44 to45of63",Proposed; not adopted,support/point_fermin_diagnostic.json
+Uncertainty,Expose independent validation and singleton limitations,Eight temporal validation rows are two stations in one year;84singleton measured uses,Documentation ready; no new exclusion,uncertainty/report.md
+Uncertainty,Build coherent observation and temporal uncertainty,Couple shared records; separate transfer and sample noise; avoid variance double counting,Implementation proposal; no model adopted,uncertainty/report.md
+Coverage,Retain program-specific rules and reference sensitivities,Universal fixed references lose substantial coverage; missing depth is not proof of poor match,Recommendation; final broader policy pending,coverage/report.md
+Documentation,Correct rule-to-comparison links,R04density counterparts;R05fish histories;remove diver R03from satellite,Implemented; no scientific changes,../dataset_inventory_20261101/comparison_decisions.csv
+Coverage,Rebuild density-specific pre-protection roster,Biomass roster omits six earlier density comparison-years; all63post years remain,Verified issue; rebuild recommended before before–after integration,coverage/density_scope_differences.csv

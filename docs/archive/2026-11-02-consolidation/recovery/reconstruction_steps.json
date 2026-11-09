@@ -1,0 +1,146 @@
+[
+  {
+    "event_line": 59723,
+    "repo": "analysis",
+    "before_sha256": "530bc4842d12f0e921c393ff2f36160dddd728bba1b992b2df5a3e4c694ba68d",
+    "after_sha256": "b52890be3394450048a71953aa541cbf6e4c8f596775e52b1ad1acaee63d7f03",
+    "changed": true,
+    "code": "s=target.read_text();assert s.startswith('# Kelp Resilience and Trophic Responses in California MPAs\\n');target.write_text('# Kelp Resilience and Trophic Responses in California MPAs\\n'+\"\\nOctober 29 reference-selection update: confirmed program-specific reasons are recorded in [the selection and continuity audit](docs/REFERENCE_REPLY_INTEGRATION_2026-10-29.md). Module 53 checks KFM sheephead station membership on matched years. Restricting to stations sampled before and after designation weakens Scorpion's estimated increase, but preserves all nine pooled directions and the same five adjusted conclusions. Primary estimates are unchanged; final station/routing policy and remaining source permissions are unresolved.\\n\"+s[len('# Kelp Resilience and Trophic Responses in California MPAs\\n'):])"
+  },
+  {
+    "event_line": 60129,
+    "repo": "analysis",
+    "before_sha256": "b52890be3394450048a71953aa541cbf6e4c8f596775e52b1ad1acaee63d7f03",
+    "after_sha256": "940178e170f73ae5e785265c2fbe196c330472fc8c1701a94f22eac2e80db926",
+    "changed": true,
+    "code": "p=Path('/Users/adrianstier/sbc-donham-kelp-mpa-cascade/README.md');s=p.read_text();h,rest=s.split('\\n',1);p.write_text(h+'\\n\\nSelection criteria are audited against all 145 histories and exact PISCO station-year coverage in [the selection audit](docs/SELECTION_CRITERIA_AUDIT_2026-10-29.md). It separates program routing from coverage, confirms Judith/San Miguel mask overlap, and records remaining selection limitations. Run `python3 code/tests/check_selection_criteria.py /path/to/sbc-donham-kelp-mpa-data` to verify current inputs and reported coverage claims.\\n'+rest)"
+  },
+  {
+    "event_line": 60816,
+    "repo": "analysis",
+    "before_sha256": "940178e170f73ae5e785265c2fbe196c330472fc8c1701a94f22eac2e80db926",
+    "after_sha256": "9602e51db497d1762453d67b633f11d8e0932cbda04a0e41f2dc7823c18a2787",
+    "changed": true,
+    "code": "p=Path('README.md');p.write_text(p.read_text()+'\\nRecorded survey-month coverage for retained histories and separate size samples is audited by `code/R/54_seasonal_coverage.R`; see `docs/SEASONAL_COVERAGE_2026-10-30.md`. This audits seasonal matching without changing primary estimates.\\n')"
+  },
+  {
+    "event_line": 61433,
+    "repo": "analysis",
+    "before_sha256": "9602e51db497d1762453d67b633f11d8e0932cbda04a0e41f2dc7823c18a2787",
+    "after_sha256": "e60f305961e2926f08dd5fab9b0ad5d3183ed3b7a011ad764cb7f9b82bbdd5e5",
+    "changed": true,
+    "code": "with target.open('a') as f:f.write('\\n### Primary size-pool inventory (October 30)\\n\\nSee [the focused lobster/purple-urchin inventory](docs/PRIMARY_SIZE_POOL_INVENTORY_2026-10-30.md) for retained-pool sample sizes, exact shared measurements, missing LTER lobster lengths and recommended follow-up. Inventory only; current estimates are unchanged.\\n')"
+  },
+  {
+    "event_line": 61628,
+    "repo": "analysis",
+    "before_sha256": "e60f305961e2926f08dd5fab9b0ad5d3183ed3b7a011ad764cb7f9b82bbdd5e5",
+    "after_sha256": "fd56bbaa2dbd58e99ef38f6f29b39726a7d8e1cafd22a1ed6dfdf7d45210da74",
+    "changed": true,
+    "code": "with target.open('a') as f:f.write('\\n### Antennae-only lobster lengths (October 30)\\n\\n[Source verification and treatment comparisons](docs/LOBSTER_MISSING_LENGTHS_2026-10-30.md) confirm five retained animals were counted without measurable bodies. Five alternative treatments preserve the tested conclusions. Recommended expected-mass correction is not yet primary; module56 is diagnostic only.\\n')"
+  },
+  {
+    "event_line": 62108,
+    "repo": "analysis",
+    "before_sha256": "fd56bbaa2dbd58e99ef38f6f29b39726a7d8e1cafd22a1ed6dfdf7d45210da74",
+    "after_sha256": "497b9c6fb15140dc4bde14508a5037ec4fec935ec6580fc43faad862b1464a9b",
+    "changed": true,
+    "code": "s=target.read_text();a,b=s.split('\\n',1);target.write_text(a+'\\n\\n'+'October 30 lobster correction: five retained antennae-only LTER sightings now receive mean individual mass from measured lobsters at the same site and survey date, with raw missing lengths and counts preserved. Only two annual biomass estimates change; pooled and predator\u2013urchin conclusions remain unchanged. See [the treatment and reconstruction checks](docs/LOBSTER_MISSING_LENGTHS_2026-10-30.md).'+'\\n'+b)"
+  },
+  {
+    "event_line": 62918,
+    "repo": "analysis",
+    "before_sha256": "497b9c6fb15140dc4bde14508a5037ec4fec935ec6580fc43faad862b1464a9b",
+    "after_sha256": "bc04b74eadf120952af099f0b3efa5207c2ee0c71a29dce9ad8a824c0b44d5af",
+    "changed": true,
+    "code": "s=target.read_text();assert s.startswith('# Kelp Resilience and Trophic Responses in California MPAs\\n\\n');target.write_text('# Kelp Resilience and Trophic Responses in California MPAs\\n\\n'+\"October 30 size-uncertainty check: shared lobster/purple-urchin size perturbations preserve the pooled conclusions, but the four-MPA lobster\u2013urchin relationship's nominal interval often includes zero. These are conditional diagnostics, not replacement confidence intervals. See [methods, findings and limits](docs/PRIMARY_SIZE_UNCERTAINTY_2026-10-30.md); reproduce with `Rscript code/R/run_size_uncertainty.R` when the source files and caches are available.\\n\\n\"+s[len('# Kelp Resilience and Trophic Responses in California MPAs\\n\\n'):])"
+  },
+  {
+    "event_line": 63862,
+    "repo": "analysis",
+    "before_sha256": "bc04b74eadf120952af099f0b3efa5207c2ee0c71a29dce9ad8a824c0b44d5af",
+    "after_sha256": "da7f420ad2a0705acd2d4326af1860996a9e7872ea84cbbad4e2baee04119844",
+    "changed": true,
+    "code": "p=Path('README.md');s=p.read_text();i=s.index('\\n\\n')+2;s=s[:i]+'''October 30 calendar-window update: primary trends now use elapsed calendar years and compare actual post-designation surveys no more than11 years apart. All145 histories and their selected models are retained;42 estimates change. Kelp, sheephead biomass and purple-urchin conclusions persist; red-urchin biomass is sensitive to uncertainty assumptions. See [the observed-window audit](docs/CALENDAR_OBSERVED_WINDOWS_2026-10-30.md).\\n\\n'''+s[i:];p.write_text(s)"
+  },
+  {
+    "event_line": 64049,
+    "repo": "analysis",
+    "before_sha256": "da7f420ad2a0705acd2d4326af1860996a9e7872ea84cbbad4e2baee04119844",
+    "after_sha256": "e07b26a1dc316fd75a736f59586ebb78dcc8bb168c8a263f82c9fe305f284a08",
+    "changed": true,
+    "code": "p=Path('README.md');s=p.read_text().replace('all nine pooled directions and the same five adjusted conclusions','all nine pooled directions and the same four adjusted conclusions').replace('than11 years','than 11 years').replace('All145 histories','All 145 histories').replace('retained;42 estimates','retained; 42 estimates');p.write_text(s)"
+  },
+  {
+    "event_line": 67692,
+    "repo": "analysis",
+    "before_sha256": "e07b26a1dc316fd75a736f59586ebb78dcc8bb168c8a263f82c9fe305f284a08",
+    "after_sha256": "340188448e88bd073c982a68dd03b59ae7f1c913ed6cd42291af294676244d54",
+    "changed": true,
+    "code": "p=Path('README.md');s=p.read_text();s=s.replace('All 145 primary histories','All 143 primary histories').replace('against all 145 histories','against all 143 histories').replace('primary synthesis retains 145 histories','primary synthesis retains 143 histories');s=s.replace('\\n', '\\n\\nNovember 1 satellite screening: the primary synthesis includes143 histories (103CI,40pBACIPS). Santa Barbara Island and Swamis satellite histories fail the common baseline-trend screen; Naples passes. Naples LTER sheephead biomass remains included. Three population contrasts meet the primary adjusted threshold; three additional responses depend on uncertainty specification. [Current policy and results](docs/SATELLITE_BASELINE_POLICY_2026-11-01.md) supersede earlier numerical summaries below.\\n',1);p.write_text(s)"
+  },
+  {
+    "event_line": 68063,
+    "repo": "analysis",
+    "before_sha256": "340188448e88bd073c982a68dd03b59ae7f1c913ed6cd42291af294676244d54",
+    "after_sha256": "9b309f89309ccf333de521bebc20992952e7392e636cb8a35696bea7f0849761",
+    "changed": true,
+    "code": "for f in ['README.md']:\n p=Path(f);s=p.read_text()\n for a,b in [('includes143','includes 143'),('103CI','103 CI'),('40pBACIPS','40 pBACIPS'),('the143','the 143'),('in30.6%','in 30.6%'),('and50.3%','and 50.3%'),('in39.0%','in 39.0%'),('and58.6%','and 58.6%'),('most0.062','most 0.062'),('modules08','modules 08'),('modules24','modules 24'),('obsolete143','obsolete 143'),('unchanged143','unchanged 143'),('separate1000','separate 1000'),('and250','and 250')]:s=s.replace(a,b)\n p.write_text(s)"
+  },
+  {
+    "event_line": 71701,
+    "repo": "analysis",
+    "before_sha256": "9b309f89309ccf333de521bebc20992952e7392e636cb8a35696bea7f0849761",
+    "after_sha256": "46624b80095c0aac408f4e8aa8346a4845a883fdd2de5900263ee36a58baebb4",
+    "changed": true,
+    "code": "p=Path('README.md');s=p.read_text();first=s.index('\\n')+1\ns=s[:first]+'\\n**Ongoing audit record:** [Findings, decisions and unresolved questions](docs/AUDIT_FINDINGS_REGISTER.md). Recent review analyses are separate from the existing manuscript/canonical results summarized below; read the register for superseding review decisions and current limitations.\\n'+s[first:];p.write_text(s)"
+  },
+  {
+    "event_line": 76108,
+    "repo": "analysis",
+    "before_sha256": "46624b80095c0aac408f4e8aa8346a4845a883fdd2de5900263ee36a58baebb4",
+    "after_sha256": "2aba3850621317d754cc650c10d66f0f16c9110926a5eed8f6db70daa26a908f",
+    "changed": true,
+    "code": "p=Path('README.md');s=p.read_text();s='Current audit decisions and reproducibility guide: [consolidated tables](outputs/dataset_inventory_20261101/README.md). These describe review analyses; primary integration remains on hold.\\n\\n'+s;p.write_text(s)"
+  },
+  {
+    "event_line": 62156,
+    "repo": "data",
+    "before_sha256": "470198871586bde2bbeb5f2bf41c38ca54d2a7cdf4b9f59746760bb8e4229ec2",
+    "after_sha256": "a30bd7124e10e6c23d18c6bc161fe38597b5da3e487f61d7b0f3ea94a09680ea",
+    "changed": true,
+    "code": "p=Path('README.md');s=p.read_text();a,b=s.split('\\n',1);p.write_text(a+'\\n\\nOctober 30, 2026: LTER lobster processing now estimates mass for positive counts without measured lengths using mean individual mass from measured animals at the same site and survey date. Original counts and length codes are preserved; estimated contributions and donor sample sizes are flagged. Run `Rscript code/tests/test_lobster_missing_lengths.R` to check the rule. The record-level estimate ledger is a local audit file, not a public harmonized product.\\n'+b)"
+  },
+  {
+    "event_line": 78194,
+    "repo": "data",
+    "before_sha256": "a30bd7124e10e6c23d18c6bc161fe38597b5da3e487f61d7b0f3ea94a09680ea",
+    "after_sha256": "12128d4ad8a432141a55bdcc69641be84d1e4339db57b13c0b50121d2fc61698",
+    "changed": true,
+    "code": "p=Path('/Users/adrianstier/sbc-donham-kelp-mpa-data/README.md');s='''November 2, 2026: physical size-identity checks and explicit KFM/LTER comparison membership are required before biomass processing. Build the private bundle with `code/tools/build_kfm_identity_bundle.py` in the companion analysis repository. Six retained donor groups remain unresolved; the complete production build deliberately stops rather than silently using them. See the companion `outputs/kfm_pipeline_guard_20261102/README.md`. Tests: `Rscript code/tests/test_size_identity.R`. Researcher exclusions and numerical outputs unchanged. Identity-dependent urchin caches use source/mapping fingerprints.\\n\\n''';p.write_text(s+p.read_text())"
+  },
+  {
+    "event_line": 78503,
+    "repo": "data",
+    "before_sha256": "12128d4ad8a432141a55bdcc69641be84d1e4339db57b13c0b50121d2fc61698",
+    "after_sha256": "87e38b2d0feb73a38790a0c2288338431da8bd8ae01950e410c006c36914a518",
+    "changed": true,
+    "code": "p=Path('/Users/adrianstier/sbc-donham-kelp-mpa-data/README.md');s=p.read_text();s='November 2 source follow-up: Hare Rock purple1987 is now corroborated by the published NPS table and uses102original measurements. Five site-retained raw groups remain unresolved: Pelican red1995and four unused2023groups. The Scorpion primary Step sensitivity is1.253versus1.270with unchanged positive inference; paper unchanged. See companion `outputs/kfm_remaining_sources_20261102/README.md`.\\n\\n'+s;p.write_text(s)"
+  },
+  {
+    "event_line": 78544,
+    "repo": "data",
+    "before_sha256": "87e38b2d0feb73a38790a0c2288338431da8bd8ae01950e410c006c36914a518",
+    "after_sha256": "5964c5a97b19c31217f445a5d79630dbe716d885842fc072a1c206a775bf4ca3",
+    "changed": true,
+    "code": "p=Path('/Users/adrianstier/sbc-donham-kelp-mpa-data/README.md');s=p.read_text().replace('Six retained donor groups remain unresolved;', 'Five retained donor groups remain unresolved after the Hare Rock correction;');p.write_text(s)"
+  },
+  {
+    "event_line": 78901,
+    "repo": "data",
+    "before_sha256": "5964c5a97b19c31217f445a5d79630dbe716d885842fc072a1c206a775bf4ca3",
+    "after_sha256": "4db89a7f947c785b417ac6367e5cba2e82901eb3e1cd8e5e740b8de9ff659c64",
+    "changed": true,
+    "code": "for f in ['README.md']:\n p=target;s=p.read_text();s='''## Current source-first pipeline \u2014 November 2, 2026\n\nStart with [the raw-to-biomass guide](docs/RAW_TO_BIOMASS.md). `make sources` rebuilds verified originals and selection ledgers; `make trace` exports source-to-mass records; `make check` validates them. `make harmonize` stops on unresolved originals and writes review outputs only. The old combined size file is audit-only, not a fallback. Current original-source coverage and outstanding scientific/source decisions are explicit in the guide. Earlier source inventories below describe the inherited delivery.\n\n'''+s;p.write_text(s)\n"
+  }
+]

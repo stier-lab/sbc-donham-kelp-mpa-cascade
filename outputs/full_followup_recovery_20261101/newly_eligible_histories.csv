@@ -1,0 +1,8 @@
+series_id,MPA,Taxa,Resp,Source,cluster,scenario,metric,n,nb,na,estimate,se,vi,df,first_after,last_after,first_age,last_age,before_years,after_years
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio,Farnsworth Onshore SMCA,S. pulcher,Bio,PISCO,Farnsworth Onshore SMCA,Full,Post_slope,4,0,4,0.102933838547381,0.0723261587032239,0.0052310732327639,2,2019,2023,7,11,,2019;2021;2022;2023
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Den,Farnsworth Onshore SMCA,S. pulcher,Den,PISCO,Farnsworth Onshore SMCA,Full,Post_slope,4,0,4,0.0075911713110859,0.0168186034379584,0.0002828654216033,2,2019,2023,7,11,,2019;2021;2022;2023
+Harris Point SMR|P. interruptus|KFM|Den,Harris Point SMR,P. interruptus,Den,KFM,Harris Point SMR,Full,Post_slope,18,0,18,0.017782233421469,0.0122326128454347,0.0001496368170262,16,2004,2022,1,19,,2004;2005;2006;2007;2008;2009;2010;2011;2012;2013;2014;2015;2016;2017;2018;2019;2021;2022
+Point Dume SMCA|M. franciscanus|PISCO|Den,Point Dume SMCA,M. franciscanus,Den,PISCO,Point Dume SMCA,Full,Post_slope,3,0,3,0.661912964726431,0.106918845326301,0.0114316394859095,1,2021,2023,9,11,,2021;2022;2023
+Point Dume SMCA|M. pyrifera|PISCO|Bio,Point Dume SMCA,M. pyrifera,Bio,PISCO,Point Dume SMCA,Full,Post_slope,3,0,3,0.182482433478633,0.307828545072073,0.0947584131611892,1,2021,2023,9,11,,2021;2022;2023
+Point Dume SMCA|P. interruptus|PISCO|Den,Point Dume SMCA,P. interruptus,Den,PISCO,Point Dume SMCA,Full,Post_slope,3,0,3,-0.534420065167229,0.231461571619979,0.0535744591367905,1,2021,2023,9,11,,2021;2022;2023
+Point Dume SMCA|S. purpuratus|PISCO|Den,Point Dume SMCA,S. purpuratus,Den,PISCO,Point Dume SMCA,Full,Post_slope,3,0,3,2.25350296860044,0.386248083082805,0.149187581685141,1,2021,2023,9,11,,2021;2022;2023

@@ -1,0 +1,23 @@
+{
+  "outputs/biomass_next_steps_20261102/uncertainty/size_observation_registry.csv": "a6a8a61d2750941bf31d78c935f368f03f1fc28ba2d140c9b1c4a700be30116f",
+  "outputs/biomass_next_steps_20261102/borrowing/visit_support.csv": "c687fe61237e01fa8dd7580decc979328f89a1128ae1934d99b9ae99f9d71715",
+  "outputs/biomass_next_steps_20261102/density/biomass_roster_count_units.csv": "ce56692579068a18119f3eb62e90818aa3a8b61549f24603933e579ceab7771f",
+  "outputs/all_program_station_refits_20261102/offsets.csv": "1df7a4b2ba4a7a5f72619c6bde7a3d76a1b69724c2b1fba860f6f1c163ab3b37",
+  "outputs/joint_borrowed_biomass_20261102/fit_index.csv": "59d8e5ee3290ee99548622ad293a3ec7982b46499a2f916326a772a793b89fac",
+  "outputs/joint_borrowed_biomass_20261102/joint_trends.csv": "ed9046e8af271e2614f8eea12ca82f73f7f742ab386be5a6e31bd31a6fdef3ae",
+  "outputs/joint_borrowed_biomass_20261102/bootstrap_fits.csv": "dfe720928855c850ed9f73b0fdf90af8d167ea109a0a3863f6dfd10d2571bdd2",
+  "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/code/tools/nonlinear_biomass_calibration.py": "a12bb5cddadc33dd7b58fa4aa2ba16747cef000c007122b6cc490217f6da4efc",
+  "code/tools/joint_borrowed_biomass.py": "970bfd18683faae175cf4edf48711878ff9331aabb24191c3abee1c631b0e864",
+  "outputs/joint_borrowed_biomass_20261102/fits/s0_rho0.npz": "a0f6a839b2134565f1233446400362f7d4da5ee77ca5e7a63db823b56b9a3c64",
+  "outputs/joint_borrowed_biomass_20261102/fits/s0_rho0.6.npz": "422a01a18fbf8a235b1f3b380d8a7350bf9c8b61fec5e7a43c9d24d66f8942fb",
+  "outputs/joint_borrowed_biomass_20261102/fits/s1_rho0.npz": "7e4f067fddeafe14404e7871b255757229e6e16f548e720f85ac8cffd6d71804",
+  "outputs/joint_borrowed_biomass_20261102/fits/s1_rho0.6.npz": "22f1253825c13432395d44145cf1757b10af6ff837d2eda40f91bb2241cb74f4",
+  "outputs/joint_borrowed_biomass_20261102/fits/s2_rho0.npz": "eeb16ab39862745f28b5694b1ff9aec0bcf7ca69ff6c026398fe10acef472fcc",
+  "outputs/joint_borrowed_biomass_20261102/fits/s2_rho0.6.npz": "13b0a1c1bcbd51887562032790666105259029fbcde2cd4ed17b06dc25d83c27",
+  "outputs/joint_borrowed_biomass_20261102/fits/s3_rho0.npz": "7a857c65c7619974957b4023c2c77eadcebff5c46211748edd427eccdac88932",
+  "outputs/joint_borrowed_biomass_20261102/fits/s3_rho0.6.npz": "f6e8536722eb88e37cc96523a185edfe4ddaa607bf73cf42aae93864eb1cb2f5",
+  "outputs/joint_borrowed_biomass_20261102/fits/s4_rho0.npz": "7b51dfd58b267ec5aac3402fb44a97339dc9b6da6793192189bbaf5f262bb5c2",
+  "outputs/joint_borrowed_biomass_20261102/fits/s4_rho0.6.npz": "80d0e0c6c14e5a317565a52fdeda96c4c1ab9a689fd6bbd37100f847ac008ab3",
+  "outputs/joint_borrowed_biomass_20261102/fits/s5_rho0.npz": "8260a0ad8db5a1e371be0164e108785855c39beb4ec16664847f2f412c492877",
+  "outputs/joint_borrowed_biomass_20261102/fits/s5_rho0.6.npz": "913e9f02991fec0c69e2cb82766332a344217da68285993ececcd0f3b984b4e4"
+}

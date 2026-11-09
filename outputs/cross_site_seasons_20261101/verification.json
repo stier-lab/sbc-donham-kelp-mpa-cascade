@@ -1,0 +1,13 @@
+{
+  "local_fits": 2212,
+  "max_local_error": 6.356026815979021e-15,
+  "pooled_points": 2079,
+  "max_pooled_error": 5.689893001203927e-16,
+  "physical_date_gap_checks": 4201,
+  "coverage_rules": 230,
+  "before_after_unchanged": 55,
+  "protected_files_unchanged": 487,
+  "source_hashes_match": true,
+  "previous_audits_unchanged": true,
+  "unchanged_non_target_effects": true
+}

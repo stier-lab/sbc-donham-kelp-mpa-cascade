@@ -1,0 +1,5 @@
+/Users/adrianstier/sbc-donham-kelp-mpa-cascade/code/tools/extend_dataset_audit.py:6: DtypeWarning: Columns (23: site_name_old) have mixed types. Specify dtype option on import or set low_memory=False.
+  p=Path(p);used[str(p)]=hashlib.sha256(p.read_bytes()).hexdigest();return pd.read_csv(p,**kw)
+/Users/adrianstier/sbc-donham-kelp-mpa-cascade/code/tools/extend_dataset_audit.py:6: DtypeWarning: Columns (16: site_name_old) have mixed types. Specify dtype option on import or set low_memory=False.
+  p=Path(p);used[str(p)]=hashlib.sha256(p.read_bytes()).hexdigest();return pd.read_csv(p,**kw)
+Cross-program map rows 43 full satellite polygons 24 nonempty arrays 58 campaign/calendar differing metadata cells 130

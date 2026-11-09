@@ -1,0 +1,100 @@
+{
+  "scope": "KFM primary lobster and sheephead density site membership; fixed-site refit inputs only for two pBACIPS sheephead histories",
+  "inputs_sha256": {
+    "tables/table_s_kfm_size_site_year_matches.csv": "f6b52a3622b9dd4cb0856946ef97f7042436e0cb34cb89e1c95837f46180de97",
+    "data/harmonized/reference_primary_keys.csv": "4a59b314a14f55109c4cb670b856f778519031ad81e7073b7c2d7efa541615e8",
+    "data/harmonized/harmonized_response_ratios.csv": "d56bb4d00c92cbb7baf46e4caec45818ddc27924d3de00e37389fb72dd23df8c",
+    "data/sumstats_final.csv": "8f7aaad4ab767089284a9555e17fa2133d97c1b43cfbee32bf047bda429f1647"
+  },
+  "site_histories": 37,
+  "after_only_in_pbacips": [
+    {
+      "MPA": "Harris Point SMR",
+      "Taxa": "S. pulcher",
+      "AnalysisType": "pBACIPS",
+      "status": "reference",
+      "site_id": "a-k-21",
+      "site_name": "Miracle Mile",
+      "n_before": 0,
+      "n_after": 15,
+      "before_years": "",
+      "after_years": "2006;2008;2009;2010;2011;2012;2013;2014;2015;2016;2017;2018;2019;2021;2022",
+      "membership": "after_only"
+    },
+    {
+      "MPA": "Scorpion SMR",
+      "Taxa": "S. pulcher",
+      "AnalysisType": "pBACIPS",
+      "status": "mpa",
+      "site_id": "a-k-27",
+      "site_name": "Potato Pasture",
+      "n_before": 0,
+      "n_after": 18,
+      "before_years": "",
+      "after_years": "2005;2006;2007;2008;2009;2010;2011;2012;2013;2014;2015;2016;2017;2018;2019;2021;2022;2023",
+      "membership": "after_only"
+    },
+    {
+      "MPA": "Scorpion SMR",
+      "Taxa": "S. pulcher",
+      "AnalysisType": "pBACIPS",
+      "status": "mpa",
+      "site_id": "a-k-28",
+      "site_name": "Cavern Point",
+      "n_before": 0,
+      "n_after": 18,
+      "before_years": "",
+      "after_years": "2005;2006;2007;2008;2009;2010;2011;2012;2013;2014;2015;2016;2017;2018;2019;2021;2022;2023",
+      "membership": "after_only"
+    },
+    {
+      "MPA": "Scorpion SMR",
+      "Taxa": "S. pulcher",
+      "AnalysisType": "pBACIPS",
+      "status": "reference",
+      "site_id": "a-k-26",
+      "site_name": "Devil's Peak Member",
+      "n_before": 0,
+      "n_after": 18,
+      "before_years": "",
+      "after_years": "2005;2006;2007;2008;2009;2010;2011;2012;2013;2014;2015;2016;2017;2018;2019;2021;2022;2023",
+      "membership": "after_only"
+    },
+    {
+      "MPA": "Scorpion SMR",
+      "Taxa": "S. pulcher",
+      "AnalysisType": "pBACIPS",
+      "status": "reference",
+      "site_id": "a-k-29",
+      "site_name": "Little Scorpion",
+      "n_before": 0,
+      "n_after": 18,
+      "before_years": "",
+      "after_years": "2005;2006;2007;2008;2009;2010;2011;2012;2013;2014;2015;2016;2017;2018;2019;2021;2022;2023",
+      "membership": "after_only"
+    },
+    {
+      "MPA": "Scorpion SMR",
+      "Taxa": "S. pulcher",
+      "AnalysisType": "pBACIPS",
+      "status": "reference",
+      "site_id": "a-k-30",
+      "site_name": "Pedro Reef",
+      "n_before": 0,
+      "n_after": 17,
+      "before_years": "",
+      "after_years": "2005;2006;2007;2008;2009;2010;2011;2012;2013;2014;2015;2016;2017;2018;2019;2021;2022",
+      "membership": "after_only"
+    }
+  ],
+  "annual_lnRR_original_verified": 74,
+  "years_dropped_from_both_arms": [
+    {
+      "MPA": "Scorpion SMR",
+      "year": 2023,
+      "reason": "No persistent reference or protected site observed; omitted from both comparison arms"
+    }
+  ],
+  "method": "Retain sites with observations in both inherited before/after periods; compare original versus persistent membership over the same available paired years, retaining zeros, original offset, selected model and clock. No threshold or clock change.",
+  "limits": "Does not audit non-predator biomass contributions, habitat equivalence, or every source program. Persistent membership does not require sampling in every year."
+}

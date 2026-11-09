@@ -1,0 +1,33 @@
+here() starts at /Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/upstream_sites_20261101/stage
+Analysis constants loaded.
+Utility functions and constants loaded.
+Importing raw data files...
+  Loading ALL_sizefreq_2024.csv: 335498 rows x 19 cols
+  Filtered to target taxa: 140917 rows
+  After site exclusions: 113354 rows
+  Species codes standardized.
+  Loading MPAfeatures_subset.csv: 62 rows x 13 cols
+  Loading Site_List_All.csv: 34 rows x 9 cols
+  Merged site-MPA data: 34 rows
+    Note: 31 rows dropped due to missing location data
+  Loading SBCMBON_kelp_forest_site_geolocation_20210120_KFM_LTER.csv: 65 rows x 9 cols
+
+Running data validation checks...
+  [OK] SizeFreq: All sizes are positive
+  [OK] SizeFreq: All classcodes are expected values
+  [OK] Site: All MPA_Start years are valid
+  [OK] Sites2: All coordinates are within expected bounds
+  [INFO] Sites2: 6 sites without MPA assignment (may include reference sites)
+  All validation checks passed.
+
+Data import complete. Objects created:
+  - SizeFreq:        113354 rows (size frequency for biomass estimation)
+  - Site:            34 rows (site list with MPA features)
+  - Site.size:       62 rows (MPA features)
+  - sites.short.edit:34 rows (key MPA attributes)
+  - Sites2:          65 rows (MBON site coordinates)
+  Backfilled MPA metadata onto 3332 KFM/LTER urchin size rows (combined size pool)
+Error in print.default(m, ..., quote = quote, right = right, max = max) : 
+  invalid 'na.print' specification
+Calls: print -> print.data.frame -> print -> print.default
+Execution halted

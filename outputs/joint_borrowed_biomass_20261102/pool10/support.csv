@@ -1,0 +1,7 @@
+series_id,n_years,years,size_samples,visit_uses,borrowed_uses,methods
+Abalone Cove SMCA|M. franciscanus|PISCO|Bio,8,2013;2015;2016;2017;2018;2019;2020;2021,70,72,14,borrowed_other_site;borrowed_other_visit;measured_same_visit;zero_count
+Abalone Cove SMCA|P. interruptus|PISCO|Bio,10,2013;2015;2016;2017;2018;2019;2020;2021;2022;2023,49,88,3,borrowed_other_site;borrowed_other_visit;measured_same_visit;zero_count
+Abalone Cove SMCA|S. purpuratus|PISCO|Bio,7,2013;2015;2016;2017;2019;2020;2023,71,64,16,borrowed_other_site;borrowed_other_visit;measured_same_visit;zero_count
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,5,2013;2017;2018;2020;2023,161,102,16,borrowed_other_site;measured_same_visit;zero_count
+Point Vicente SMCA|P. interruptus|PISCO|Bio,9,2013;2015;2016;2017;2018;2019;2020;2021;2023,129,185,4,borrowed_other_site;measured_same_visit;zero_count
+Point Vicente SMCA|S. purpuratus|PISCO|Bio,6,2013;2015;2018;2019;2020;2021,202,125,5,borrowed_other_site;measured_same_visit;zero_count

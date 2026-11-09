@@ -1,0 +1,15 @@
+{
+  "effect_estimates_and_SEs_checked": 224,
+  "max_estimate_error": 4.3298697960381105e-15,
+  "max_se_error": 3.0808688933348094e-15,
+  "single_pass_units_in_comparison_windows": 67,
+  "confirmed_omitted_bottom": 3,
+  "unresolved_single_pass_units": 64,
+  "retained_crane_units": 144,
+  "proposed_valid_history_year_rows": 417,
+  "protected_files_unchanged": 487,
+  "previous_audit_artifacts_unchanged": 35,
+  "pools": 32,
+  "optimizer_fallbacks": 2,
+  "limits": "CRANE coverage contrast deliberately adds2004; incomplete-pass contrast uses identical years. Pooled fits not independently reimplemented."
+}

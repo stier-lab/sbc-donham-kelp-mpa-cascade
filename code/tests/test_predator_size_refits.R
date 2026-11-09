@@ -9,9 +9,9 @@ y <- c(2001, 2002, 2005, 2006, 2010, 2011)
 v <- .2 * (y - min(y)) + c(.1, -.1, .05, -.05, -.1, .1)
 linear <- size_refit_history(v, y, "Linear")
 fit <- lm(v ~ I(y - min(y)))
-stopifnot(abs(linear$estimate - coef(fit)[2] * 11) < 1e-12,
-  linear$variance >= (11 * summary(fit)$coef[2, 2])^2 - 1e-12,
-  linear$extrapolated_11, size_refit_history(v, y)$model == "Mean")
+stopifnot(abs(linear$estimate - coef(fit)[2] * 10) < 1e-12,
+  linear$variance >= (10 * summary(fit)$coef[2, 2])^2 - 1e-12,
+  !linear$extrapolated_11, linear$contrast_end_year == 2011, linear$elapsed_years == 10, size_refit_history(v, y)$model == "Mean")
 stopifnot(inherits(try(size_refit_history(v, rep(y[1], 6)), silent = TRUE), "try-error"))
 cat("PASS: paired size annual keys, zero/offset conventions, calendar time and conservative HAC contrasts.\n")
 

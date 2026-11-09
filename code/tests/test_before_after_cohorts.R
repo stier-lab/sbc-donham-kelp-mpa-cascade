@@ -2,7 +2,7 @@ suppressPackageStartupMessages({library(dplyr); library(here)})
 source(here("code/R/review_concern_utils.R"))
 read <- function(s) read.csv(here("tables", paste0("table_s_coverage_cohort_", s, ".csv")))
 s <- read("series"); r <- read("roster"); p <- read("pairs"); d <- read("difference")
-stopifnot(nrow(s) == 145L, sum(s$n_before >= 3 & s$n_after >= 3) == 60L,
+stopifnot(nrow(s) == 143L, sum(s$n_before >= 3 & s$n_after >= 3) == 58L,
   !anyDuplicated(r[c("MPA", "Taxa", "Resp", "source_subset", "min_before")]))
 for (m in c(1, 3)) {
   a <- filter(r, source_subset == "All programmes", min_before == m)

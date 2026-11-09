@@ -1,0 +1,512 @@
+series_id,site,year,classcode,species,size_dates,count_dates,n_size_dates,max_nearest_gap_days,all_size_dates_match_counts,n_size_rows
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-33,2005,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2005-09-19,2005-10-12,1,23,False,63
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-11,2005,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2005-09-05,2005-09-05,1,0,True,83
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-32,2005,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2005-10-03,2005-09-28,1,5,False,73
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-34,2005,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2005-10-03,2005-09-28,1,5,False,108
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-33,2006,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2006-08-03,2006-08-03,1,0,True,61
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-11,2006,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2006-09-25,2006-08-07,1,49,False,64
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-32,2006,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2006-08-21,2006-08-21,1,0,True,53
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-34,2006,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2006-07-20,2006-07-20,1,0,True,99
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-33,2007,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2007-08-20,2007-08-20,1,0,True,74
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-11,2007,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2007-08-06,2007-08-06,1,0,True,71
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-32,2007,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2007-08-06,2007-08-06,1,0,True,26
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-34,2007,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2007-08-29,2007-08-29,1,0,True,60
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-33,2008,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2008-07-09,2008-07-09,1,0,True,82
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-11,2008,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2008-08-25,2008-06-03,1,83,False,96
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-32,2008,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2008-06-03,2008-06-03,1,0,True,27
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-34,2008,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2008-08-19,2008-08-19,1,0,True,69
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-33,2009,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2009-08-31,2009-08-31,1,0,True,57
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-11,2009,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2009-06-15,2009-06-15,1,0,True,50
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-32,2009,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2009-08-31,2009-08-31,1,0,True,31
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-34,2009,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2009-07-28,2009-07-28,1,0,True,46
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-33,2010,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2010-08-30,2010-08-30,1,0,True,78
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-11,2010,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2010-06-14,2010-06-14,1,0,True,85
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-32,2010,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2010-08-30,2010-08-30,1,0,True,54
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-34,2010,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2010-05-17,2010-05-17,1,0,True,75
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-33,2011,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2011-07-14,2011-07-14,1,0,True,87
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-11,2011,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2011-07-25,2011-06-03,1,52,False,80
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-32,2011,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2011-05-31,2011-05-31,1,0,True,70
+Anacapa Island SMR 2003|M. franciscanus|KFM|Bio,a-k-34,2011,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2011-10-07,2011-06-01,1,128,False,59
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-33,2005,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2005-09-19,2005-10-12,1,23,False,4
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-11,2005,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2005-09-05,2005-09-05,1,0,True,55
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-32,2005,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2005-10-03,2005-09-28,1,5,False,40
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-34,2005,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2005-10-03,2005-09-28,1,5,False,73
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-33,2006,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2006-08-03,2006-08-03,1,0,True,29
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-11,2006,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2006-09-25,2006-08-07,1,49,False,42
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-32,2006,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2006-08-21,2006-08-21,1,0,True,23
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-34,2006,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2006-07-20,2006-07-20,1,0,True,86
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-33,2007,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2007-08-20,2007-08-20,1,0,True,62
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-11,2007,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2007-08-06,2007-08-06,1,0,True,57
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-32,2007,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2007-08-06,2007-08-06,1,0,True,22
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-34,2007,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2007-08-29,2007-08-29,1,0,True,74
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-33,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-07-09,2008-07-09,1,0,True,46
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-11,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-08-25,2008-06-03,1,83,False,60
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-32,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-06-03,2008-06-03,1,0,True,21
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-34,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-08-19,2008-08-19,1,0,True,68
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-33,2009,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2009-08-31,2009-08-31,1,0,True,35
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-11,2009,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2009-06-15,2009-06-15,1,0,True,34
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-32,2009,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2009-08-31,2009-08-31,1,0,True,27
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-34,2009,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2009-07-28,2009-07-28,1,0,True,41
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-33,2010,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2010-08-30,2010-08-30,1,0,True,74
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-11,2010,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2010-06-14,2010-06-14,1,0,True,55
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-32,2010,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2010-08-30,2010-08-30,1,0,True,44
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-34,2010,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2010-05-17,2010-05-17,1,0,True,58
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-33,2011,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2011-07-14,2011-07-14,1,0,True,72
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-11,2011,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2011-07-25,2011-06-03,1,52,False,54
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-32,2011,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2011-05-31,2011-05-31,1,0,True,56
+Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,a-k-34,2011,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2011-10-07,2011-06-01,1,128,False,38
+Gull Island SMR|M. franciscanus|PISCO|Bio,a-k-06,2004,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2004-09-27,2004-07-12,1,77,False,67
+Gull Island SMR|M. franciscanus|PISCO|Bio,a-k-10,2004,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2004-09-13,2004-07-12,1,63,False,125
+Gull Island SMR|M. franciscanus|PISCO|Bio,a-k-06,2005,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2005-06-27,2005-06-27,1,0,True,26
+Gull Island SMR|M. franciscanus|PISCO|Bio,a-k-10,2005,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2005-10-12,2005-08-22,1,51,False,31
+Gull Island SMR|M. franciscanus|PISCO|Bio,a-k-06,2006,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2006-07-10,2006-07-10,1,0,True,73
+Gull Island SMR|M. franciscanus|PISCO|Bio,a-k-10,2006,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2006-08-21,2006-08-21,1,0,True,80
+Gull Island SMR|M. franciscanus|PISCO|Bio,a-k-06,2007,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2007-07-23,2007-07-23,1,0,True,102
+Gull Island SMR|M. franciscanus|PISCO|Bio,a-k-10,2007,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2007-08-15,2007-06-18,1,58,False,46
+Gull Island SMR|M. franciscanus|PISCO|Bio,a-k-06,2008,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2008-08-25,2008-08-25,1,0,True,95
+Gull Island SMR|M. franciscanus|PISCO|Bio,a-k-10,2008,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2008-09-29,2008-09-29,1,0,True,88
+Gull Island SMR|M. franciscanus|PISCO|Bio,a-k-06,2009,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2009-06-29,2009-06-01,1,28,False,108
+Gull Island SMR|M. franciscanus|PISCO|Bio,a-k-10,2009,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2009-10-05,2009-10-05,1,0,True,117
+Gull Island SMR|M. franciscanus|PISCO|Bio,a-k-06,2010,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2010-07-26,2010-07-26,1,0,True,125
+Gull Island SMR|M. franciscanus|PISCO|Bio,a-k-10,2010,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2010-07-12,2010-07-12,1,0,True,154
+Gull Island SMR|M. franciscanus|PISCO|Bio,a-k-06,2011,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2011-08-15,2011-08-15,1,0,True,138
+Gull Island SMR|M. franciscanus|PISCO|Bio,a-k-10,2011,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2011-08-29,2011-08-29,1,0,True,103
+Gull Island SMR|S. purpuratus|PISCO|Bio,a-k-06,2004,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2004-09-27,2004-07-12,1,77,False,24
+Gull Island SMR|S. purpuratus|PISCO|Bio,a-k-10,2004,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2004-09-13,2004-07-12,1,63,False,79
+Gull Island SMR|S. purpuratus|PISCO|Bio,a-k-06,2005,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2005-06-27,2005-06-27,1,0,True,4
+Gull Island SMR|S. purpuratus|PISCO|Bio,a-k-10,2005,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2005-10-12,2005-08-22,1,51,False,78
+Gull Island SMR|S. purpuratus|PISCO|Bio,a-k-06,2006,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2006-07-10,2006-07-10,1,0,True,24
+Gull Island SMR|S. purpuratus|PISCO|Bio,a-k-10,2006,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2006-08-21,2006-08-21,1,0,True,129
+Gull Island SMR|S. purpuratus|PISCO|Bio,a-k-06,2007,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2007-07-23,2007-07-23,1,0,True,52
+Gull Island SMR|S. purpuratus|PISCO|Bio,a-k-10,2007,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2007-08-15,2007-06-18,1,58,False,100
+Gull Island SMR|S. purpuratus|PISCO|Bio,a-k-06,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-08-25,2008-08-25,1,0,True,41
+Gull Island SMR|S. purpuratus|PISCO|Bio,a-k-10,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-09-29,2008-09-29,1,0,True,65
+Gull Island SMR|S. purpuratus|PISCO|Bio,a-k-06,2009,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2009-06-29,2009-06-01,1,28,False,70
+Gull Island SMR|S. purpuratus|PISCO|Bio,a-k-10,2009,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2009-10-05,2009-10-05,1,0,True,125
+Gull Island SMR|S. purpuratus|PISCO|Bio,a-k-06,2010,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2010-07-26,2010-07-26,1,0,True,89
+Gull Island SMR|S. purpuratus|PISCO|Bio,a-k-10,2010,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2010-07-12,2010-07-12,1,0,True,138
+Gull Island SMR|S. purpuratus|PISCO|Bio,a-k-06,2011,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2011-08-15,2011-08-15,1,0,True,99
+Gull Island SMR|S. purpuratus|PISCO|Bio,a-k-10,2011,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2011-08-29,2011-08-29,1,0,True,74
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-02,1985,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1985-06-10,1985-06-26,1,16,False,47
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-01,1985,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1985-06-10,1985-06-26,1,16,False,55
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-02,1986,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1986-06-09,1986-07-08,1,29,False,44
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-01,1986,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1986-06-09,1986-07-08,1,29,False,52
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-02,1987,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1987-06-22,1987-08-11,1,50,False,45
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-01,1987,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1987-06-22,1987-08-11,1,50,False,52
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-02,1988,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1988-06-20,1988-07-27,1,37,False,46
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-01,1988,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1988-06-20,1988-07-27,1,37,False,48
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-02,1989,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1989-06-19,1989-08-16,1,58,False,56
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-01,1989,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1989-06-19,1989-08-16,1,58,False,65
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-02,1990,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1990-06-18,1990-07-24,1,36,False,44
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-01,1990,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1990-06-18,1990-07-24,1,36,False,58
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-02,1991,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1991-06-17,1991-07-23,1,36,False,41
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-01,1991,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1991-06-17,1991-07-23,1,36,False,43
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-02,1992,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1992-06-22,1992-09-16,1,86,False,60
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-01,1992,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1992-06-22,1992-09-16,1,86,False,64
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-02,1994,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1994-01-18,1994-07-13,1,176,False,89
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-01,1994,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1994-01-18,1994-07-12,1,175,False,68
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-02,1995,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1995-08-21,1995-08-21,1,0,True,64
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-01,1995,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1995-08-21,1995-08-21,1,0,True,110
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-02,1996,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1996-09-16,1996-08-05,1,42,False,73
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-02,1997,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1997-07-07,1997-07-07,1,0,True,66
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-01,1997,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1997-09-22,1997-07-07,1,77,False,114
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-02,1998,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1998-09-14,1998-07-06,1,70,False,63
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-01,1998,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1998-09-14,1998-07-06,1,70,False,103
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-02,1999,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1999-06-28,1999-06-28,1,0,True,57
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-01,1999,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1999-09-13,1999-06-28,1,77,False,87
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-02,2000,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2000-08-28,2000-06-26,1,63,False,66
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-01,2000,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2000-08-28,2000-06-26,1,63,False,68
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-02,2001,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2001-09-17,2001-07-16,1,63,False,115
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-01,2001,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2001-09-17,2001-07-16,1,63,False,110
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-02,2002,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2002-07-08,2002-07-08,1,0,True,66
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-01,2002,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2002-09-23,2002-07-22,1,63,False,93
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-02,2003,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2003-09-22,2003-09-08,1,14,False,119
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-01,2003,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2003-09-22,2003-09-09,1,13,False,108
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-02,2004,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2004-09-27,2004-07-26,1,63,False,115
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-02,2005,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2005-06-13,2005-06-13,1,0,True,104
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-02,2006,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2006-06-19,2006-06-19,1,0,True,122
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-02,2007,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2007-07-09,2007-07-09,1,0,True,129
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-02,2008,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2008-09-08,2008-09-08,1,0,True,77
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-02,2009,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2009-08-17,2009-08-17,1,0,True,59
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-02,2010,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2010-09-13,2010-09-13,1,0,True,100
+Harris Point SMR|M. franciscanus|KFM|Bio,a-k-02,2011,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2011-09-14,2011-09-14,1,0,True,131
+Harris Point SMR|M. franciscanus|PISCO|Bio,a-k-02,2004,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2004-09-27,2004-07-26,1,63,False,115
+Harris Point SMR|M. franciscanus|PISCO|Bio,a-k-02,2005,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2005-06-13,2005-06-13,1,0,True,104
+Harris Point SMR|M. franciscanus|PISCO|Bio,a-k-02,2006,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2006-06-19,2006-06-19,1,0,True,122
+Harris Point SMR|M. franciscanus|PISCO|Bio,a-k-02,2007,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2007-07-09,2007-07-09,1,0,True,129
+Harris Point SMR|M. franciscanus|PISCO|Bio,a-k-02,2008,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2008-09-08,2008-09-08,1,0,True,77
+Harris Point SMR|M. franciscanus|PISCO|Bio,a-k-02,2009,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2009-08-17,2009-08-17,1,0,True,59
+Harris Point SMR|M. franciscanus|PISCO|Bio,a-k-02,2010,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2010-09-13,2010-09-13,1,0,True,100
+Harris Point SMR|M. franciscanus|PISCO|Bio,a-k-02,2011,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2011-09-14,2011-09-14,1,0,True,131
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-02,1985,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1985-06-10,1985-06-26,1,16,False,30
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-01,1985,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1985-06-10,1985-06-26,1,16,False,45
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-02,1986,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1986-06-09,1986-07-08,1,29,False,36
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-01,1986,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1986-06-09,1986-07-08,1,29,False,45
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-01,1987,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1987-06-22,1987-08-11,1,50,False,37
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-02,1988,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1988-06-20,1988-07-27,1,37,False,35
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-01,1988,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1988-06-20,1988-07-27,1,37,False,38
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-02,1989,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1989-06-19,1989-08-16,1,58,False,41
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-01,1989,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1989-06-19,1989-08-16,1,58,False,39
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-02,1990,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1990-06-18,1990-07-24,1,36,False,31
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-01,1990,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1990-06-18,1990-07-24,1,36,False,12
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-02,1991,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1991-06-17,1991-07-23,1,36,False,39
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-01,1991,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1991-06-17,1991-07-23,1,36,False,9
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-02,1992,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1992-06-22,1992-09-16,1,86,False,30
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-02,1994,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1994-01-18,1994-07-13,1,176,False,29
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-01,1994,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1994-01-18,1994-07-12,1,175,False,37
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-02,1995,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1995-08-21,1995-08-21,1,0,True,35
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-01,1995,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1995-08-21,1995-08-21,1,0,True,68
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-02,1996,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1996-09-16,1996-08-05,1,42,False,37
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-02,1997,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1997-07-07,1997-07-07,1,0,True,39
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-01,1997,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1997-09-22,1997-07-07,1,77,False,63
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-02,1998,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1998-09-14,1998-07-06,1,70,False,34
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-01,1998,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1998-09-14,1998-07-06,1,70,False,34
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-02,1999,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1999-06-28,1999-06-28,1,0,True,38
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-01,1999,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1999-09-13,1999-06-28,1,77,False,74
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-02,2000,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2000-08-28,2000-06-26,1,63,False,21
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-01,2000,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2000-08-28,2000-06-26,1,63,False,53
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-02,2001,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2001-09-17,2001-07-16,1,63,False,74
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-01,2001,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2001-09-17,2001-07-16,1,63,False,51
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-02,2002,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2002-07-08,2002-07-08,1,0,True,37
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-01,2002,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2002-09-23,2002-07-22,1,63,False,45
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-02,2003,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2003-09-22,2003-09-08,1,14,False,33
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-01,2003,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2003-09-22,2003-09-09,1,13,False,20
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-02,2004,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2004-09-27,2004-07-26,1,63,False,81
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-02,2005,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2005-06-13,2005-06-13,1,0,True,46
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-02,2006,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2006-06-19,2006-06-19,1,0,True,26
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-02,2007,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2007-07-09,2007-07-09,1,0,True,62
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-02,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-09-08,2008-09-08,1,0,True,50
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-01,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-09-08,2008-09-08,1,0,True,42
+Harris Point SMR|S. purpuratus|KFM|Bio,a-k-02,2011,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2011-09-14,2011-09-14,1,0,True,77
+Harris Point SMR|S. purpuratus|PISCO|Bio,a-k-02,2004,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2004-09-27,2004-07-26,1,63,False,81
+Harris Point SMR|S. purpuratus|PISCO|Bio,a-k-02,2005,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2005-06-13,2005-06-13,1,0,True,46
+Harris Point SMR|S. purpuratus|PISCO|Bio,a-k-02,2006,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2006-06-19,2006-06-19,1,0,True,26
+Harris Point SMR|S. purpuratus|PISCO|Bio,a-k-02,2007,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2007-07-09,2007-07-09,1,0,True,62
+Harris Point SMR|S. purpuratus|PISCO|Bio,a-k-02,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-09-08,2008-09-08,1,0,True,50
+Harris Point SMR|S. purpuratus|PISCO|Bio,a-k-01,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-09-08,2008-09-08,1,0,True,42
+Harris Point SMR|S. purpuratus|PISCO|Bio,a-k-02,2009,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2009-08-17,2009-08-17,1,0,True,46
+Harris Point SMR|S. purpuratus|PISCO|Bio,a-k-02,2010,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2010-09-13,2010-09-13,1,0,True,54
+Harris Point SMR|S. purpuratus|PISCO|Bio,a-k-02,2011,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2011-09-14,2011-09-14,1,0,True,77
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,a-k-15,2005,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2005-05-16,2005-05-16,1,0,True,143
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,a-k-16,2005,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2005-05-16,2005-05-16,1,0,True,58
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,a-k-15,2006,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2006-05-22,2006-05-22,1,0,True,75
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,a-k-16,2006,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2006-06-19,2006-06-19,1,0,True,65
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,a-k-15,2007,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2007-05-22,2007-05-22,1,0,True,79
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,a-k-16,2007,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2007-06-04,2007-06-04,1,0,True,30
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,a-k-15,2008,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2008-06-09,2008-06-09,1,0,True,90
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,a-k-16,2008,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2008-06-09,2008-06-09,1,0,True,38
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,a-k-15,2009,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2009-05-18,2009-05-18,1,0,True,86
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,a-k-16,2009,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2009-05-18,2009-05-18,1,0,True,50
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,a-k-15,2010,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2010-05-17,2010-05-17,1,0,True,98
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,a-k-16,2010,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2010-05-17,2010-05-17,1,0,True,79
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,a-k-15,2011,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2011-05-16,2011-05-16,1,0,True,75
+Santa Barbara Island SMR|M. franciscanus|KFM|Bio,a-k-16,2011,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2011-06-14,2011-06-14,1,0,True,98
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,a-k-15,2005,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2005-05-16,2005-05-16,1,0,True,68
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,a-k-16,2005,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2005-05-16,2005-05-16,1,0,True,27
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,a-k-15,2006,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2006-05-22,2006-05-22,1,0,True,50
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,a-k-16,2006,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2006-06-19,2006-06-19,1,0,True,37
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,a-k-15,2007,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2007-05-22,2007-05-22,1,0,True,35
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,a-k-16,2007,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2007-06-04,2007-06-04,1,0,True,28
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,a-k-15,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-06-09,2008-06-09,1,0,True,65
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,a-k-16,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-06-09,2008-06-09,1,0,True,29
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,a-k-15,2009,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2009-05-18,2009-05-18,1,0,True,49
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,a-k-16,2009,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2009-05-18,2009-05-18,1,0,True,31
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,a-k-15,2010,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2010-05-17,2010-05-17,1,0,True,50
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,a-k-16,2010,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2010-05-17,2010-05-17,1,0,True,53
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,a-k-15,2011,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2011-05-16,2011-05-16,1,0,True,32
+Santa Barbara Island SMR|S. purpuratus|KFM|Bio,a-k-16,2011,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2011-06-14,2011-06-14,1,0,True,77
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,1985,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1985-06-10,1985-06-11,1,1,False,59
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-08,1985,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1985-06-10,1985-06-12,1,2,False,58
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,1986,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1986-06-09,1986-07-10,1,31,False,57
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-08,1986,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1986-06-09,1986-08-12,1,64,False,59
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,1987,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1987-06-22,1987-07-17,1,25,False,39
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-08,1987,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1987-06-22,1987-07-15,1,23,False,47
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,1988,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1988-06-20,1988-07-15,1,25,False,35
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-08,1988,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1988-06-20,1988-07-11,1,21,False,46
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,1989,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1989-06-19,1989-06-23,1,4,False,36
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-08,1989,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1989-06-19,1989-07-10,1,21,False,39
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,1990,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1990-06-18,1990-07-25,1,37,False,33
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-08,1990,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1990-06-18,1990-07-12,1,24,False,36
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,1991,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1991-06-17,1991-09-19,1,94,False,34
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-08,1991,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1991-06-17,1991-07-08,1,21,False,51
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,1992,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1992-06-22,1992-07-17,1,25,False,26
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-08,1992,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1992-06-22,1992-07-30,1,38,False,44
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,1993,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1993-06-21,1993-08-13,1,53,False,25
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-08,1993,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1993-06-21,1993-07-16,1,25,False,50
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,1994,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1994-01-18,1994-08-10,1,204,False,33
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-08,1994,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1994-01-18,1994-08-25,1,219,False,69
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,1995,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1995-09-11,1995-08-07,1,35,False,106
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,1996,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1996-09-30,1996-07-22,1,70,False,52
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-08,1996,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1996-07-22,1996-07-22,1,0,True,48
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,1997,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1997-08-18,1997-07-21,1,28,False,45
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-08,1997,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1997-08-18,1997-07-21,1,28,False,62
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,1998,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1998-09-14,1998-08-03,1,42,False,38
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-08,1998,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1998-08-03,1998-07-06,1,28,False,99
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,1999,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1999-08-02,1999-08-02,1,0,True,56
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-08,1999,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,1999-08-02,1999-06-28,1,35,False,46
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,2000,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2000-08-14,2000-07-31,1,14,False,85
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-08,2000,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2000-08-14,2000-07-31,1,14,False,44
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,2001,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2001-08-13,2001-08-13,1,0,True,76
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-08,2001,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2001-08-13,2001-06-25,1,49,False,76
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,2002,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2002-08-19,2002-08-05,1,14,False,78
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-08,2002,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2002-08-19,2002-07-22,1,28,False,67
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,2003,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2003-08-18,2003-08-18,1,0,True,67
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-08,2003,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2003-08-18,2003-07-21,1,28,False,70
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,2004,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2004-09-13,2004-08-09,1,35,False,55
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-08,2004,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2004-09-27,2004-07-12,1,77,False,70
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,2005,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2005-09-05,2005-09-05,1,0,True,64
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-08,2005,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2005-06-13,2005-06-13,1,0,True,68
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,2006,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2006-08-21,2006-08-21,1,0,True,28
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-08,2006,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2006-09-11,2006-07-24,1,49,False,57
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,2007,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2007-09-10,2007-09-10,1,0,True,87
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-08,2007,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2007-06-18,2007-06-18,1,0,True,75
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,2008,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2008-09-08,2008-09-08,1,0,True,58
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-08,2008,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2008-07-15,2008-07-15,1,0,True,89
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,2009,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2009-10-05,2009-10-05,1,0,True,45
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-08,2009,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2009-09-21,2009-09-21,1,0,True,57
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,2010,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2010-08-16,2010-08-16,1,0,True,102
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-08,2010,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2010-08-30,2010-08-30,1,0,True,100
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-09,2011,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2011-08-19,2011-08-19,1,0,True,95
+Scorpion SMR|M. franciscanus|KFM|Bio,a-k-08,2011,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2011-09-01,2011-09-01,1,0,True,76
+Scorpion SMR|M. franciscanus|PISCO|Bio,a-k-09,2004,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2004-09-13,2004-08-09,1,35,False,55
+Scorpion SMR|M. franciscanus|PISCO|Bio,a-k-08,2004,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2004-09-27,2004-07-12,1,77,False,70
+Scorpion SMR|M. franciscanus|PISCO|Bio,a-k-09,2005,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2005-09-05,2005-09-05,1,0,True,64
+Scorpion SMR|M. franciscanus|PISCO|Bio,a-k-08,2005,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2005-06-13,2005-06-13,1,0,True,68
+Scorpion SMR|M. franciscanus|PISCO|Bio,a-k-09,2006,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2006-08-21,2006-08-21,1,0,True,28
+Scorpion SMR|M. franciscanus|PISCO|Bio,a-k-08,2006,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2006-09-11,2006-07-24,1,49,False,57
+Scorpion SMR|M. franciscanus|PISCO|Bio,a-k-09,2007,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2007-09-10,2007-09-10,1,0,True,87
+Scorpion SMR|M. franciscanus|PISCO|Bio,a-k-08,2007,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2007-06-18,2007-06-18,1,0,True,75
+Scorpion SMR|M. franciscanus|PISCO|Bio,a-k-09,2008,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2008-09-08,2008-09-08,1,0,True,58
+Scorpion SMR|M. franciscanus|PISCO|Bio,a-k-08,2008,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2008-07-15,2008-07-15,1,0,True,89
+Scorpion SMR|M. franciscanus|PISCO|Bio,a-k-09,2009,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2009-10-05,2009-10-05,1,0,True,45
+Scorpion SMR|M. franciscanus|PISCO|Bio,a-k-08,2009,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2009-09-21,2009-09-21,1,0,True,57
+Scorpion SMR|M. franciscanus|PISCO|Bio,a-k-09,2010,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2010-08-16,2010-08-16,1,0,True,102
+Scorpion SMR|M. franciscanus|PISCO|Bio,a-k-08,2010,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2010-08-30,2010-08-30,1,0,True,100
+Scorpion SMR|M. franciscanus|PISCO|Bio,a-k-09,2011,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2011-08-19,2011-08-19,1,0,True,95
+Scorpion SMR|M. franciscanus|PISCO|Bio,a-k-08,2011,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2011-09-01,2011-09-01,1,0,True,76
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,1985,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1985-06-10,1985-06-11,1,1,False,31
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,1985,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1985-06-10,1985-06-12,1,2,False,33
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,1986,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1986-06-09,1986-07-10,1,31,False,37
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,1986,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1986-06-09,1986-08-12,1,64,False,35
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,1987,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1987-06-22,1987-07-17,1,25,False,22
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,1987,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1987-06-22,1987-07-15,1,23,False,27
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,1988,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1988-06-20,1988-07-15,1,25,False,17
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,1988,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1988-06-20,1988-07-11,1,21,False,30
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,1989,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1989-06-19,1989-06-23,1,4,False,15
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,1989,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1989-06-19,1989-07-10,1,21,False,25
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,1990,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1990-06-18,1990-07-25,1,37,False,27
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,1990,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1990-06-18,1990-07-12,1,24,False,26
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,1991,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1991-06-17,1991-09-19,1,94,False,21
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,1991,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1991-06-17,1991-07-08,1,21,False,21
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,1992,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1992-06-22,1992-07-17,1,25,False,17
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,1992,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1992-06-22,1992-07-30,1,38,False,33
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,1993,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1993-06-21,1993-08-13,1,53,False,49
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,1993,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1993-06-21,1993-07-16,1,25,False,38
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,1994,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1994-01-18,1994-08-10,1,204,False,43
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,1994,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1994-01-18,1994-08-25,1,219,False,77
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,1995,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1995-09-11,1995-08-07,1,35,False,45
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,1995,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1995-08-07,1995-06-19,1,49,False,72
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,1996,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1996-09-30,1996-07-22,1,70,False,32
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,1996,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1996-07-22,1996-07-22,1,0,True,35
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,1997,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1997-08-18,1997-07-21,1,28,False,19
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,1997,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1997-08-18,1997-07-21,1,28,False,28
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,1998,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1998-09-14,1998-08-03,1,42,False,29
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,1998,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1998-08-03,1998-07-06,1,28,False,15
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,1999,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1999-08-02,1999-08-02,1,0,True,36
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,1999,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,1999-08-02,1999-06-28,1,35,False,27
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,2000,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2000-08-14,2000-07-31,1,14,False,58
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,2000,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2000-08-14,2000-07-31,1,14,False,29
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,2001,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2001-08-13,2001-08-13,1,0,True,32
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,2001,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2001-08-13,2001-06-25,1,49,False,44
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,2002,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2002-08-19,2002-08-05,1,14,False,33
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,2002,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2002-08-19,2002-07-22,1,28,False,52
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,2003,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2003-08-18,2003-08-18,1,0,True,38
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,2003,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2003-08-18,2003-07-21,1,28,False,32
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,2004,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2004-09-13,2004-08-09,1,35,False,47
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,2004,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2004-09-27,2004-07-12,1,77,False,55
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,2005,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2005-09-05,2005-09-05,1,0,True,38
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,2005,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2005-06-13,2005-06-13,1,0,True,33
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,2006,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2006-08-21,2006-08-21,1,0,True,16
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,2006,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2006-09-11,2006-07-24,1,49,False,25
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,2007,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2007-09-10,2007-09-10,1,0,True,57
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,2007,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2007-06-18,2007-06-18,1,0,True,32
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-09-08,2008-09-08,1,0,True,50
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-07-15,2008-07-15,1,0,True,52
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,2009,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2009-10-05,2009-10-05,1,0,True,21
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,2009,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2009-09-21,2009-09-21,1,0,True,38
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,2010,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2010-08-16,2010-08-16,1,0,True,58
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,2010,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2010-08-30,2010-08-30,1,0,True,61
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-09,2011,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2011-08-19,2011-08-19,1,0,True,76
+Scorpion SMR|S. purpuratus|KFM|Bio,a-k-08,2011,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2011-09-01,2011-09-01,1,0,True,39
+Scorpion SMR|S. purpuratus|PISCO|Bio,a-k-09,2004,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2004-09-13,2004-08-09,1,35,False,47
+Scorpion SMR|S. purpuratus|PISCO|Bio,a-k-08,2004,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2004-09-27,2004-07-12,1,77,False,55
+Scorpion SMR|S. purpuratus|PISCO|Bio,a-k-09,2005,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2005-09-05,2005-09-05,1,0,True,38
+Scorpion SMR|S. purpuratus|PISCO|Bio,a-k-08,2005,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2005-06-13,2005-06-13,1,0,True,33
+Scorpion SMR|S. purpuratus|PISCO|Bio,a-k-09,2006,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2006-08-21,2006-08-21,1,0,True,16
+Scorpion SMR|S. purpuratus|PISCO|Bio,a-k-08,2006,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2006-09-11,2006-07-24,1,49,False,25
+Scorpion SMR|S. purpuratus|PISCO|Bio,a-k-09,2007,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2007-09-10,2007-09-10,1,0,True,57
+Scorpion SMR|S. purpuratus|PISCO|Bio,a-k-08,2007,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2007-06-18,2007-06-18,1,0,True,32
+Scorpion SMR|S. purpuratus|PISCO|Bio,a-k-09,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-09-08,2008-09-08,1,0,True,50
+Scorpion SMR|S. purpuratus|PISCO|Bio,a-k-08,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-07-15,2008-07-15,1,0,True,52
+Scorpion SMR|S. purpuratus|PISCO|Bio,a-k-09,2009,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2009-10-05,2009-10-05,1,0,True,21
+Scorpion SMR|S. purpuratus|PISCO|Bio,a-k-08,2009,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2009-09-21,2009-09-21,1,0,True,38
+Scorpion SMR|S. purpuratus|PISCO|Bio,a-k-09,2010,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2010-08-16,2010-08-16,1,0,True,58
+Scorpion SMR|S. purpuratus|PISCO|Bio,a-k-08,2010,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2010-08-30,2010-08-30,1,0,True,61
+Scorpion SMR|S. purpuratus|PISCO|Bio,a-k-09,2011,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2011-08-19,2011-08-19,1,0,True,76
+Scorpion SMR|S. purpuratus|PISCO|Bio,a-k-08,2011,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2011-09-01,2011-09-01,1,0,True,39
+South Point SMR|M. franciscanus|KFM|Bio,a-k-23,2005,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2005-09-19,2005-08-08,1,42,False,92
+South Point SMR|M. franciscanus|KFM|Bio,a-k-24,2005,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2005-08-22,2005-08-22,1,0,True,158
+South Point SMR|M. franciscanus|KFM|Bio,a-k-25,2005,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2005-09-19,2005-09-19,1,0,True,164
+South Point SMR|M. franciscanus|KFM|Bio,a-k-03,2005,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2005-09-19,2005-07-11,1,70,False,111
+South Point SMR|M. franciscanus|KFM|Bio,a-k-04,2005,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2005-09-19,2005-07-11,1,70,False,184
+South Point SMR|M. franciscanus|KFM|Bio,a-k-22,2005,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2005-08-22,2005-08-22,1,0,True,104
+South Point SMR|M. franciscanus|KFM|Bio,a-k-23,2006,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2006-07-10,2006-07-10,1,0,True,124
+South Point SMR|M. franciscanus|KFM|Bio,a-k-24,2006,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2006-07-10,2006-07-10,1,0,True,127
+South Point SMR|M. franciscanus|KFM|Bio,a-k-25,2006,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2006-06-05,2006-06-05,1,0,True,142
+South Point SMR|M. franciscanus|KFM|Bio,a-k-03,2006,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2006-09-25,2006-08-07,1,49,False,130
+South Point SMR|M. franciscanus|KFM|Bio,a-k-04,2006,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2006-09-11,2006-08-07,1,35,False,145
+South Point SMR|M. franciscanus|KFM|Bio,a-k-22,2006,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2006-07-24,2006-07-24,1,0,True,130
+South Point SMR|M. franciscanus|KFM|Bio,a-k-23,2007,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2007-08-20,2007-08-20,1,0,True,87
+South Point SMR|M. franciscanus|KFM|Bio,a-k-24,2007,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2007-08-20,2007-08-20,1,0,True,89
+South Point SMR|M. franciscanus|KFM|Bio,a-k-25,2007,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2007-07-23,2007-07-23,1,0,True,125
+South Point SMR|M. franciscanus|KFM|Bio,a-k-03,2007,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2007-09-24,2007-09-24,1,0,True,91
+South Point SMR|M. franciscanus|KFM|Bio,a-k-04,2007,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2007-07-23,2007-07-23,1,0,True,117
+South Point SMR|M. franciscanus|KFM|Bio,a-k-22,2007,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2007-09-24,2007-08-20,1,35,False,112
+South Point SMR|M. franciscanus|KFM|Bio,a-k-23,2008,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2008-08-11,2008-08-11,1,0,True,83
+South Point SMR|M. franciscanus|KFM|Bio,a-k-24,2008,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2008-07-28,2008-07-28,1,0,True,152
+South Point SMR|M. franciscanus|KFM|Bio,a-k-25,2008,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2008-07-28,2008-07-28,1,0,True,124
+South Point SMR|M. franciscanus|KFM|Bio,a-k-03,2008,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2008-10-20,2008-09-29,1,21,False,135
+South Point SMR|M. franciscanus|KFM|Bio,a-k-04,2008,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2008-08-11,2008-08-11,1,0,True,134
+South Point SMR|M. franciscanus|KFM|Bio,a-k-22,2008,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2008-07-28,2008-07-28,1,0,True,121
+South Point SMR|M. franciscanus|KFM|Bio,a-k-23,2009,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2009-06-29,2009-06-29,1,0,True,123
+South Point SMR|M. franciscanus|KFM|Bio,a-k-24,2009,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2009-07-13,2009-07-13,1,0,True,90
+South Point SMR|M. franciscanus|KFM|Bio,a-k-25,2009,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2009-07-13,2009-07-13,1,0,True,173
+South Point SMR|M. franciscanus|KFM|Bio,a-k-03,2009,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2009-07-13,2009-07-13,1,0,True,117
+South Point SMR|M. franciscanus|KFM|Bio,a-k-04,2009,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2009-09-21,2009-09-21,1,0,True,171
+South Point SMR|M. franciscanus|KFM|Bio,a-k-22,2009,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2009-06-29,2009-06-29,1,0,True,148
+South Point SMR|M. franciscanus|KFM|Bio,a-k-23,2010,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2010-06-28,2010-06-28,1,0,True,89
+South Point SMR|M. franciscanus|KFM|Bio,a-k-24,2010,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2010-08-16,2010-08-16,1,0,True,166
+South Point SMR|M. franciscanus|KFM|Bio,a-k-25,2010,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2010-08-16,2010-08-16,1,0,True,207
+South Point SMR|M. franciscanus|KFM|Bio,a-k-03,2010,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2010-08-16,2010-08-16,1,0,True,135
+South Point SMR|M. franciscanus|KFM|Bio,a-k-04,2010,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2010-09-13,2010-09-13,1,0,True,146
+South Point SMR|M. franciscanus|KFM|Bio,a-k-22,2010,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2010-10-04,2010-06-28,1,98,False,144
+South Point SMR|M. franciscanus|KFM|Bio,a-k-23,2011,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2011-10-04,2011-10-04,1,0,True,89
+South Point SMR|M. franciscanus|KFM|Bio,a-k-24,2011,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2011-10-18,2011-10-18,1,0,True,181
+South Point SMR|M. franciscanus|KFM|Bio,a-k-25,2011,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2011-07-27,2011-07-27,1,0,True,129
+South Point SMR|M. franciscanus|KFM|Bio,a-k-03,2011,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2011-08-16,2011-08-16,1,0,True,151
+South Point SMR|M. franciscanus|KFM|Bio,a-k-04,2011,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2011-08-17,2011-08-17,1,0,True,163
+South Point SMR|M. franciscanus|KFM|Bio,a-k-22,2011,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2011-07-28,2011-07-28,1,0,True,115
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-23,2005,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2005-09-19,2005-08-08,1,42,False,92
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-24,2005,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2005-08-22,2005-08-22,1,0,True,158
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-25,2005,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2005-09-19,2005-09-19,1,0,True,164
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-03,2005,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2005-09-19,2005-07-11,1,70,False,111
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-04,2005,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2005-09-19,2005-07-11,1,70,False,184
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-22,2005,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2005-08-22,2005-08-22,1,0,True,104
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-23,2007,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2007-08-20,2007-08-20,1,0,True,87
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-24,2007,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2007-08-20,2007-08-20,1,0,True,89
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-25,2007,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2007-07-23,2007-07-23,1,0,True,125
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-03,2007,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2007-09-24,2007-09-24,1,0,True,91
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-04,2007,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2007-07-23,2007-07-23,1,0,True,117
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-22,2007,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2007-09-24,2007-08-20,1,35,False,112
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-23,2008,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2008-08-11,2008-08-11,1,0,True,83
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-24,2008,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2008-07-28,2008-07-28,1,0,True,152
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-25,2008,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2008-07-28,2008-07-28,1,0,True,124
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-03,2008,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2008-10-20,2008-09-29,1,21,False,135
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-04,2008,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2008-08-11,2008-08-11,1,0,True,134
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-22,2008,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2008-07-28,2008-07-28,1,0,True,121
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-23,2009,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2009-06-29,2009-06-29,1,0,True,123
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-24,2009,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2009-07-13,2009-07-13,1,0,True,90
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-25,2009,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2009-07-13,2009-07-13,1,0,True,173
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-03,2009,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2009-07-13,2009-07-13,1,0,True,117
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-04,2009,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2009-09-21,2009-09-21,1,0,True,171
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-22,2009,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2009-06-29,2009-06-29,1,0,True,148
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-23,2010,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2010-06-28,2010-06-28,1,0,True,89
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-24,2010,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2010-08-16,2010-08-16,1,0,True,166
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-25,2010,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2010-08-16,2010-08-16,1,0,True,207
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-03,2010,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2010-08-16,2010-08-16,1,0,True,135
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-04,2010,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2010-09-13,2010-09-13,1,0,True,146
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-22,2010,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2010-10-04,2010-06-28,1,98,False,144
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-23,2011,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2011-10-04,2011-10-04,1,0,True,89
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-24,2011,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2011-10-18,2011-10-18,1,0,True,181
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-25,2011,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2011-07-27,2011-07-27,1,0,True,129
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-03,2011,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2011-08-16,2011-08-16,1,0,True,151
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-04,2011,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2011-08-17,2011-08-17,1,0,True,163
+South Point SMR|M. franciscanus|PISCO|Bio,a-k-22,2011,Strongylocentrotus franciscanus,Strongylocentrotus franciscanus,2011-07-28,2011-07-28,1,0,True,115
+South Point SMR|S. purpuratus|KFM|Bio,a-k-23,2005,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2005-09-19,2005-08-08,1,42,False,38
+South Point SMR|S. purpuratus|KFM|Bio,a-k-24,2005,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2005-08-22,2005-08-22,1,0,True,32
+South Point SMR|S. purpuratus|KFM|Bio,a-k-25,2005,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2005-09-19,2005-09-19,1,0,True,79
+South Point SMR|S. purpuratus|KFM|Bio,a-k-03,2005,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2005-09-19,2005-07-11,1,70,False,42
+South Point SMR|S. purpuratus|KFM|Bio,a-k-04,2005,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2005-09-19,2005-07-11,1,70,False,108
+South Point SMR|S. purpuratus|KFM|Bio,a-k-22,2005,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2005-08-22,2005-08-22,1,0,True,53
+South Point SMR|S. purpuratus|KFM|Bio,a-k-23,2006,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2006-07-10,2006-07-10,1,0,True,64
+South Point SMR|S. purpuratus|KFM|Bio,a-k-24,2006,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2006-07-10,2006-07-10,1,0,True,30
+South Point SMR|S. purpuratus|KFM|Bio,a-k-25,2006,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2006-06-05,2006-06-05,1,0,True,33
+South Point SMR|S. purpuratus|KFM|Bio,a-k-03,2006,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2006-09-25,2006-08-07,1,49,False,80
+South Point SMR|S. purpuratus|KFM|Bio,a-k-04,2006,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2006-09-11,2006-08-07,1,35,False,90
+South Point SMR|S. purpuratus|KFM|Bio,a-k-22,2006,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2006-07-24,2006-07-24,1,0,True,55
+South Point SMR|S. purpuratus|KFM|Bio,a-k-23,2007,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2007-08-20,2007-08-20,1,0,True,43
+South Point SMR|S. purpuratus|KFM|Bio,a-k-24,2007,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2007-08-20,2007-08-20,1,0,True,59
+South Point SMR|S. purpuratus|KFM|Bio,a-k-25,2007,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2007-07-23,2007-07-23,1,0,True,75
+South Point SMR|S. purpuratus|KFM|Bio,a-k-03,2007,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2007-09-24,2007-09-24,1,0,True,46
+South Point SMR|S. purpuratus|KFM|Bio,a-k-04,2007,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2007-07-23,2007-07-23,1,0,True,58
+South Point SMR|S. purpuratus|KFM|Bio,a-k-22,2007,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2007-09-24,2007-08-20,1,35,False,49
+South Point SMR|S. purpuratus|KFM|Bio,a-k-23,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-08-11,2008-08-11,1,0,True,44
+South Point SMR|S. purpuratus|KFM|Bio,a-k-24,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-07-28,2008-07-28,1,0,True,108
+South Point SMR|S. purpuratus|KFM|Bio,a-k-25,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-07-28,2008-07-28,1,0,True,81
+South Point SMR|S. purpuratus|KFM|Bio,a-k-03,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-10-20,2008-09-29,1,21,False,88
+South Point SMR|S. purpuratus|KFM|Bio,a-k-04,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-08-11,2008-08-11,1,0,True,101
+South Point SMR|S. purpuratus|KFM|Bio,a-k-22,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-07-28,2008-07-28,1,0,True,70
+South Point SMR|S. purpuratus|KFM|Bio,a-k-23,2009,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2009-06-29,2009-06-29,1,0,True,81
+South Point SMR|S. purpuratus|KFM|Bio,a-k-24,2009,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2009-07-13,2009-07-13,1,0,True,107
+South Point SMR|S. purpuratus|KFM|Bio,a-k-25,2009,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2009-07-13,2009-07-13,1,0,True,164
+South Point SMR|S. purpuratus|KFM|Bio,a-k-03,2009,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2009-07-13,2009-07-13,1,0,True,105
+South Point SMR|S. purpuratus|KFM|Bio,a-k-04,2009,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2009-09-21,2009-09-21,1,0,True,150
+South Point SMR|S. purpuratus|KFM|Bio,a-k-22,2009,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2009-06-29,2009-06-29,1,0,True,109
+South Point SMR|S. purpuratus|KFM|Bio,a-k-23,2010,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2010-06-28,2010-06-28,1,0,True,56
+South Point SMR|S. purpuratus|KFM|Bio,a-k-24,2010,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2010-08-16,2010-08-16,1,0,True,100
+South Point SMR|S. purpuratus|KFM|Bio,a-k-25,2010,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2010-08-16,2010-08-16,1,0,True,136
+South Point SMR|S. purpuratus|KFM|Bio,a-k-03,2010,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2010-08-16,2010-08-16,1,0,True,95
+South Point SMR|S. purpuratus|KFM|Bio,a-k-04,2010,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2010-09-13,2010-09-13,1,0,True,93
+South Point SMR|S. purpuratus|KFM|Bio,a-k-22,2010,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2010-10-04,2010-06-28,1,98,False,103
+South Point SMR|S. purpuratus|KFM|Bio,a-k-23,2011,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2011-10-04,2011-10-04,1,0,True,49
+South Point SMR|S. purpuratus|KFM|Bio,a-k-24,2011,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2011-10-18,2011-10-18,1,0,True,164
+South Point SMR|S. purpuratus|KFM|Bio,a-k-25,2011,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2011-07-27,2011-07-27,1,0,True,75
+South Point SMR|S. purpuratus|KFM|Bio,a-k-03,2011,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2011-08-16,2011-08-16,1,0,True,114
+South Point SMR|S. purpuratus|KFM|Bio,a-k-04,2011,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2011-08-17,2011-08-17,1,0,True,130
+South Point SMR|S. purpuratus|KFM|Bio,a-k-22,2011,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2011-07-28,2011-07-28,1,0,True,116
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-23,2005,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2005-09-19,2005-08-08,1,42,False,38
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-24,2005,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2005-08-22,2005-08-22,1,0,True,32
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-25,2005,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2005-09-19,2005-09-19,1,0,True,79
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-03,2005,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2005-09-19,2005-07-11,1,70,False,42
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-04,2005,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2005-09-19,2005-07-11,1,70,False,108
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-22,2005,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2005-08-22,2005-08-22,1,0,True,53
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-23,2007,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2007-08-20,2007-08-20,1,0,True,43
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-24,2007,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2007-08-20,2007-08-20,1,0,True,59
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-25,2007,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2007-07-23,2007-07-23,1,0,True,75
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-03,2007,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2007-09-24,2007-09-24,1,0,True,46
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-04,2007,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2007-07-23,2007-07-23,1,0,True,58
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-22,2007,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2007-09-24,2007-08-20,1,35,False,49
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-23,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-08-11,2008-08-11,1,0,True,44
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-24,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-07-28,2008-07-28,1,0,True,108
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-25,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-07-28,2008-07-28,1,0,True,81
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-03,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-10-20,2008-09-29,1,21,False,88
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-04,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-08-11,2008-08-11,1,0,True,101
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-22,2008,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2008-07-28,2008-07-28,1,0,True,70
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-23,2009,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2009-06-29,2009-06-29,1,0,True,81
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-24,2009,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2009-07-13,2009-07-13,1,0,True,107
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-25,2009,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2009-07-13,2009-07-13,1,0,True,164
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-03,2009,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2009-07-13,2009-07-13,1,0,True,105
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-04,2009,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2009-09-21,2009-09-21,1,0,True,150
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-22,2009,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2009-06-29,2009-06-29,1,0,True,109
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-23,2010,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2010-06-28,2010-06-28,1,0,True,56
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-24,2010,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2010-08-16,2010-08-16,1,0,True,100
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-25,2010,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2010-08-16,2010-08-16,1,0,True,136
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-03,2010,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2010-08-16,2010-08-16,1,0,True,95
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-04,2010,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2010-09-13,2010-09-13,1,0,True,93
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-22,2010,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2010-10-04,2010-06-28,1,98,False,103
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-23,2011,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2011-10-04,2011-10-04,1,0,True,49
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-24,2011,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2011-10-18,2011-10-18,1,0,True,164
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-25,2011,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2011-07-27,2011-07-27,1,0,True,75
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-03,2011,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2011-08-16,2011-08-16,1,0,True,114
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-04,2011,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2011-08-17,2011-08-17,1,0,True,130
+South Point SMR|S. purpuratus|PISCO|Bio,a-k-22,2011,Strongylocentrotus purpuratus,Strongylocentrotus purpuratus,2011-07-28,2011-07-28,1,0,True,116

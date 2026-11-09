@@ -1,0 +1,27 @@
+series_id,year,post,unsupported_uses,physical_site_dates,sites,roles,reasons,row_ids
+Abalone Cove SMCA|M. franciscanus|PISCO|Bio,2014,True,2,2,POINT_FERMIN;WHITES_POINT,reference,no eligible local or same-role donor data,74;94
+Abalone Cove SMCA|M. franciscanus|PISCO|Bio,2019,True,1,1,POINT_FERMIN,reference,date-gap guard,80
+Abalone Cove SMCA|M. franciscanus|PISCO|Bio,2022,True,1,1,ABALONE_COVE_KELP_W,mpa,no eligible local or same-role donor data,43
+Abalone Cove SMCA|M. franciscanus|PISCO|Bio,2023,True,1,1,BUNKER_POINT,reference,no eligible local or same-role donor data,68
+Abalone Cove SMCA|P. interruptus|PISCO|Bio,2014,True,1,1,WHITES_POINT,reference,no eligible local or same-role donor data,194
+Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2012,False,1,1,BUNKER_POINT,reference,no eligible local or same-role donor data,257
+Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2014,True,2,2,POINT_FERMIN;WHITES_POINT,reference,no eligible local or same-role donor data,282;302
+Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2018,True,2,1,3_PALMS_EAST,reference,no eligible local or same-role donor data,216;217
+Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2021,True,1,1,ABALONE_COVE_KELP_W,mpa,no eligible local or same-role donor data,249
+Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2022,True,1,1,ABALONE_COVE_KELP_W,mpa,no eligible local or same-role donor data,251
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,2009,False,2,2,POINT_VICENTE_W;ROCKY_POINT_N,mpa;reference,calibration guard,409;507
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,2010,False,2,1,LONG_POINT_E,mpa,calibration guard,358;359
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,2011,False,2,1,POINT_VICENTE_W,mpa,calibration guard,412;413
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,2012,False,1,1,POINT_VICENTE_W,mpa,calibration guard,414
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,2015,True,1,1,POINT_VICENTE_W,mpa,calibration guard,418
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,2016,True,2,2,LONG_POINT_E;POINT_VICENTE_W,mpa,no eligible local or same-role donor data,368;420
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,2019,True,1,1,POINT_VICENTE_W,mpa,calibration guard,426
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,2021,True,2,2,LONG_POINT_E;POINT_VICENTE_W,mpa,no eligible local or same-role donor data,378;430
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,2022,True,1,1,LONG_POINT_E,mpa,no eligible local or same-role donor data,380
+Point Vicente SMCA|P. interruptus|PISCO|Bio,2022,True,1,1,POINT_VICENTE_W,mpa,no eligible local or same-role donor data,685
+Point Vicente SMCA|S. purpuratus|PISCO|Bio,2009,False,3,3,LONG_POINT_E;POINT_VICENTE_W;ROCKY_POINT_N,mpa;reference,calibration guard,863;915;1013
+Point Vicente SMCA|S. purpuratus|PISCO|Bio,2010,False,1,1,LONG_POINT_E,mpa,calibration guard,864
+Point Vicente SMCA|S. purpuratus|PISCO|Bio,2016,True,3,2,LONG_POINT_E;POINT_VICENTE_W,mpa,calibration guard;no eligible local or same-role donor data,874;926;927
+Point Vicente SMCA|S. purpuratus|PISCO|Bio,2017,True,1,1,LONG_POINT_E,mpa,calibration guard,876
+Point Vicente SMCA|S. purpuratus|PISCO|Bio,2022,True,1,1,LONG_POINT_E,mpa,calibration guard,887
+Point Vicente SMCA|S. purpuratus|PISCO|Bio,2023,True,1,1,POINT_VICENTE_W,mpa,calibration guard,940

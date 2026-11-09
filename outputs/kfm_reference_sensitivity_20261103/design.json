@@ -1,0 +1,21 @@
+{
+  "scenarios": {
+    "without_webster": [
+      "a-k-35"
+    ],
+    "without_miracle": [
+      "a-k-21"
+    ],
+    "without_wyckoff": [
+      "a-k-01"
+    ],
+    "without_flagged": [
+      "a-k-01",
+      "a-k-21",
+      "a-k-35",
+      "a-k-05"
+    ]
+  },
+  "primary_changed": false,
+  "rules": "Original supported units, zones, offsets, draw keys and aggregation; only flagged KFM reference rows removed. No new reference added. Role-incomplete years omitted. Matched-main counterparts hold supported series and years fixed; diagnostics, not adopted exclusions."
+}

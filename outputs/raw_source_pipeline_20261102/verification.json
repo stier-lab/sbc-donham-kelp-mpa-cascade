@@ -1,0 +1,10 @@
+{
+  "source_checks": 7,
+  "r_lineage_tests": "passed",
+  "identity_tests": "passed",
+  "lobster_tests": "passed",
+  "trace": "/Users/adrianstier/sbc-donham-kelp-mpa-data/output/lineage/20261102T141017",
+  "trace_output_hashes_verified": true,
+  "primary_files_unchanged": 487,
+  "full_harmonization": "expected stop on unresolved raw inputs"
+}

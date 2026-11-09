@@ -1,0 +1,18 @@
+{
+  "review_outputs_verified": true,
+  "nominal_interval_coverage_certified": false,
+  "conditional_simulation_warning": false,
+  "primary_updated": false,
+  "raw_support_unchanged": true,
+  "model_source_sha256": "970bfd18683faae175cf4edf48711878ff9331aabb24191c3abee1c631b0e864",
+  "output_hashes": {
+    "joint_trends.csv": "ed9046e8af271e2614f8eea12ca82f73f7f742ab386be5a6e31bd31a6fdef3ae",
+    "same_year_comparison.csv": "ce11d3167e31ad800149a0948dfeee770b9021617e5c5b71568b5847d3474a45",
+    "diagnostics_summary.csv": "3a3f89a55c1b15c3625b2977e5614adfedb43d8a9d92b503353a7bb3bad739f0",
+    "sensitivity_comparison.csv": "34bc13c11d76d636a63ff37cba906eaac771b9dae618f6a05ead5c2d86efabf9",
+    "simulation_summary.csv": "617264dfd08182ffad017e8d2bae436ac25081bdd2af08e83b7e6852f670ba0d",
+    "independent_checks.json": "2dc2df709af7ab454ff15365f58bb3a5145b3e74c9b6ed5fe1032d12827b7919",
+    "diagnostic_checks.json": "4221ed88334bb7eff6f4ef47e9ee969878723056ea5e83ff4561fa68ecf2f5f0",
+    "support.csv": "2451a6ef91652ce1d78300ec62ae5ced044b46a700e40f5e006beb7fe3cdafbd"
+  }
+}

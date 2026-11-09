@@ -1,0 +1,101 @@
+                                                                         zone_groups  animals
+reason                                                                                       
+Zone present in raw swath but removed by retained month/program filters           43      613
+                                   series_id                   scenario  original_years  retained_years lost_years
+ Abalone Cove SMCA|M. franciscanus|PISCO|Bio remove_known_zone_mismatch              11              11           
+ Abalone Cove SMCA|M. franciscanus|PISCO|Bio             same_site_only              11              11           
+ Abalone Cove SMCA|M. franciscanus|PISCO|Bio         same_site_and_zone              11              11           
+ Abalone Cove SMCA|M. franciscanus|PISCO|Bio                same_season              11              11           
+ Abalone Cove SMCA|M. franciscanus|PISCO|Bio      same_site_zone_season              11              11           
+  Abalone Cove SMCA|P. interruptus|PISCO|Bio remove_known_zone_mismatch              11              11           
+  Abalone Cove SMCA|P. interruptus|PISCO|Bio             same_site_only              11              10       2014
+  Abalone Cove SMCA|P. interruptus|PISCO|Bio         same_site_and_zone              11              10       2014
+  Abalone Cove SMCA|P. interruptus|PISCO|Bio                same_season              11              10       2014
+  Abalone Cove SMCA|P. interruptus|PISCO|Bio      same_site_zone_season              11              10       2014
+   Abalone Cove SMCA|S. purpuratus|PISCO|Bio remove_known_zone_mismatch              11              11           
+   Abalone Cove SMCA|S. purpuratus|PISCO|Bio             same_site_only              11              10       2018
+   Abalone Cove SMCA|S. purpuratus|PISCO|Bio         same_site_and_zone              11              10       2018
+   Abalone Cove SMCA|S. purpuratus|PISCO|Bio                same_season              11              10       2018
+   Abalone Cove SMCA|S. purpuratus|PISCO|Bio      same_site_zone_season              11              10       2018
+Point Vicente SMCA|M. franciscanus|PISCO|Bio remove_known_zone_mismatch              10              10           
+Point Vicente SMCA|M. franciscanus|PISCO|Bio             same_site_only              10              10           
+Point Vicente SMCA|M. franciscanus|PISCO|Bio         same_site_and_zone              10               9       2013
+Point Vicente SMCA|M. franciscanus|PISCO|Bio                same_season              10               9       2013
+Point Vicente SMCA|M. franciscanus|PISCO|Bio      same_site_zone_season              10               9       2013
+ Point Vicente SMCA|P. interruptus|PISCO|Bio remove_known_zone_mismatch              10              10           
+ Point Vicente SMCA|P. interruptus|PISCO|Bio             same_site_only              10              10           
+ Point Vicente SMCA|P. interruptus|PISCO|Bio         same_site_and_zone              10              10           
+ Point Vicente SMCA|P. interruptus|PISCO|Bio                same_season              10              10           
+ Point Vicente SMCA|P. interruptus|PISCO|Bio      same_site_zone_season              10              10           
+  Point Vicente SMCA|S. purpuratus|PISCO|Bio remove_known_zone_mismatch              10              10           
+  Point Vicente SMCA|S. purpuratus|PISCO|Bio             same_site_only              10              10           
+  Point Vicente SMCA|S. purpuratus|PISCO|Bio         same_site_and_zone              10              10           
+  Point Vicente SMCA|S. purpuratus|PISCO|Bio                same_season              10              10           
+  Point Vicente SMCA|S. purpuratus|PISCO|Bio      same_site_zone_season              10              10           
+                                   series_id                                          scenario  estimate       low      high
+ Abalone Cove SMCA|M. franciscanus|PISCO|Bio                                 current_all_years -0.184133 -0.255836 -0.112429
+ Abalone Cove SMCA|M. franciscanus|PISCO|Bio remove_known_zone_mismatch__current_matched_years -0.184133 -0.255836 -0.112429
+ Abalone Cove SMCA|M. franciscanus|PISCO|Bio remove_known_zone_mismatch__revised_matched_years -0.185691 -0.257065 -0.114316
+ Abalone Cove SMCA|M. franciscanus|PISCO|Bio             same_site_only__current_matched_years -0.184133 -0.255836 -0.112429
+ Abalone Cove SMCA|M. franciscanus|PISCO|Bio             same_site_only__revised_matched_years -0.190030 -0.260798 -0.119262
+ Abalone Cove SMCA|M. franciscanus|PISCO|Bio         same_site_and_zone__current_matched_years -0.184133 -0.255836 -0.112429
+ Abalone Cove SMCA|M. franciscanus|PISCO|Bio         same_site_and_zone__revised_matched_years -0.190155 -0.258929 -0.121380
+ Abalone Cove SMCA|M. franciscanus|PISCO|Bio                same_season__current_matched_years -0.184133 -0.255836 -0.112429
+ Abalone Cove SMCA|M. franciscanus|PISCO|Bio                same_season__revised_matched_years -0.193230 -0.266518 -0.119942
+ Abalone Cove SMCA|M. franciscanus|PISCO|Bio      same_site_zone_season__current_matched_years -0.184133 -0.255836 -0.112429
+ Abalone Cove SMCA|M. franciscanus|PISCO|Bio      same_site_zone_season__revised_matched_years -0.193230 -0.266518 -0.119942
+  Abalone Cove SMCA|P. interruptus|PISCO|Bio                                 current_all_years  0.232028  0.007453  0.456603
+  Abalone Cove SMCA|P. interruptus|PISCO|Bio remove_known_zone_mismatch__current_matched_years  0.232028  0.007453  0.456603
+  Abalone Cove SMCA|P. interruptus|PISCO|Bio remove_known_zone_mismatch__revised_matched_years  0.222033  0.005251  0.438815
+  Abalone Cove SMCA|P. interruptus|PISCO|Bio             same_site_only__current_matched_years  0.190245 -0.057658  0.438147
+  Abalone Cove SMCA|P. interruptus|PISCO|Bio             same_site_only__revised_matched_years  0.195708 -0.043390  0.434807
+  Abalone Cove SMCA|P. interruptus|PISCO|Bio         same_site_and_zone__current_matched_years  0.190245 -0.057658  0.438147
+  Abalone Cove SMCA|P. interruptus|PISCO|Bio         same_site_and_zone__revised_matched_years  0.186181 -0.042387  0.414749
+  Abalone Cove SMCA|P. interruptus|PISCO|Bio                same_season__current_matched_years  0.190245 -0.057658  0.438147
+  Abalone Cove SMCA|P. interruptus|PISCO|Bio                same_season__revised_matched_years  0.183883 -0.037844  0.405609
+  Abalone Cove SMCA|P. interruptus|PISCO|Bio      same_site_zone_season__current_matched_years  0.190245 -0.057658  0.438147
+  Abalone Cove SMCA|P. interruptus|PISCO|Bio      same_site_zone_season__revised_matched_years  0.183883 -0.037844  0.405609
+   Abalone Cove SMCA|S. purpuratus|PISCO|Bio                                 current_all_years -0.221298 -0.433233 -0.009363
+   Abalone Cove SMCA|S. purpuratus|PISCO|Bio remove_known_zone_mismatch__current_matched_years -0.221298 -0.433233 -0.009363
+   Abalone Cove SMCA|S. purpuratus|PISCO|Bio remove_known_zone_mismatch__revised_matched_years -0.223797 -0.435155 -0.012439
+   Abalone Cove SMCA|S. purpuratus|PISCO|Bio             same_site_only__current_matched_years -0.221298 -0.363737 -0.078858
+   Abalone Cove SMCA|S. purpuratus|PISCO|Bio             same_site_only__revised_matched_years -0.217193 -0.359611 -0.074776
+   Abalone Cove SMCA|S. purpuratus|PISCO|Bio         same_site_and_zone__current_matched_years -0.221298 -0.363737 -0.078858
+   Abalone Cove SMCA|S. purpuratus|PISCO|Bio         same_site_and_zone__revised_matched_years -0.219668 -0.362956 -0.076379
+   Abalone Cove SMCA|S. purpuratus|PISCO|Bio                same_season__current_matched_years -0.221298 -0.363737 -0.078858
+   Abalone Cove SMCA|S. purpuratus|PISCO|Bio                same_season__revised_matched_years -0.221090 -0.363483 -0.078697
+   Abalone Cove SMCA|S. purpuratus|PISCO|Bio      same_site_zone_season__current_matched_years -0.221298 -0.363737 -0.078858
+   Abalone Cove SMCA|S. purpuratus|PISCO|Bio      same_site_zone_season__revised_matched_years -0.221090 -0.363483 -0.078697
+Point Vicente SMCA|M. franciscanus|PISCO|Bio                                 current_all_years  0.015546 -0.123503  0.154595
+Point Vicente SMCA|M. franciscanus|PISCO|Bio remove_known_zone_mismatch__current_matched_years  0.015546 -0.123503  0.154595
+Point Vicente SMCA|M. franciscanus|PISCO|Bio remove_known_zone_mismatch__revised_matched_years -0.025295 -0.111592  0.061002
+Point Vicente SMCA|M. franciscanus|PISCO|Bio             same_site_only__current_matched_years  0.015546 -0.123503  0.154595
+Point Vicente SMCA|M. franciscanus|PISCO|Bio             same_site_only__revised_matched_years  0.023919 -0.128377  0.176215
+Point Vicente SMCA|M. franciscanus|PISCO|Bio         same_site_and_zone__current_matched_years -0.061138 -0.151634  0.029357
+Point Vicente SMCA|M. franciscanus|PISCO|Bio         same_site_and_zone__revised_matched_years -0.060225 -0.155806  0.035356
+Point Vicente SMCA|M. franciscanus|PISCO|Bio                same_season__current_matched_years -0.061138 -0.151634  0.029357
+Point Vicente SMCA|M. franciscanus|PISCO|Bio                same_season__revised_matched_years -0.063488 -0.156854  0.029879
+Point Vicente SMCA|M. franciscanus|PISCO|Bio      same_site_zone_season__current_matched_years -0.061138 -0.151634  0.029357
+Point Vicente SMCA|M. franciscanus|PISCO|Bio      same_site_zone_season__revised_matched_years -0.063488 -0.156854  0.029879
+ Point Vicente SMCA|P. interruptus|PISCO|Bio                                 current_all_years  0.131107 -0.154046  0.416260
+ Point Vicente SMCA|P. interruptus|PISCO|Bio remove_known_zone_mismatch__current_matched_years  0.131107 -0.154046  0.416260
+ Point Vicente SMCA|P. interruptus|PISCO|Bio remove_known_zone_mismatch__revised_matched_years  0.139828 -0.139501  0.419157
+ Point Vicente SMCA|P. interruptus|PISCO|Bio             same_site_only__current_matched_years  0.131107 -0.154046  0.416260
+ Point Vicente SMCA|P. interruptus|PISCO|Bio             same_site_only__revised_matched_years  0.124771 -0.147456  0.396998
+ Point Vicente SMCA|P. interruptus|PISCO|Bio         same_site_and_zone__current_matched_years  0.131107 -0.154046  0.416260
+ Point Vicente SMCA|P. interruptus|PISCO|Bio         same_site_and_zone__revised_matched_years  0.133578 -0.132736  0.399892
+ Point Vicente SMCA|P. interruptus|PISCO|Bio                same_season__current_matched_years  0.131107 -0.154046  0.416260
+ Point Vicente SMCA|P. interruptus|PISCO|Bio                same_season__revised_matched_years  0.131456 -0.136820  0.399731
+ Point Vicente SMCA|P. interruptus|PISCO|Bio      same_site_zone_season__current_matched_years  0.131107 -0.154046  0.416260
+ Point Vicente SMCA|P. interruptus|PISCO|Bio      same_site_zone_season__revised_matched_years  0.131456 -0.136820  0.399731
+  Point Vicente SMCA|S. purpuratus|PISCO|Bio                                 current_all_years  0.088283 -0.312603  0.489168
+  Point Vicente SMCA|S. purpuratus|PISCO|Bio remove_known_zone_mismatch__current_matched_years  0.088283 -0.312603  0.489168
+  Point Vicente SMCA|S. purpuratus|PISCO|Bio remove_known_zone_mismatch__revised_matched_years  0.081179 -0.326152  0.488510
+  Point Vicente SMCA|S. purpuratus|PISCO|Bio             same_site_only__current_matched_years  0.088283 -0.312603  0.489168
+  Point Vicente SMCA|S. purpuratus|PISCO|Bio             same_site_only__revised_matched_years  0.088903 -0.310433  0.488239
+  Point Vicente SMCA|S. purpuratus|PISCO|Bio         same_site_and_zone__current_matched_years  0.088283 -0.312603  0.489168
+  Point Vicente SMCA|S. purpuratus|PISCO|Bio         same_site_and_zone__revised_matched_years  0.081736 -0.324109  0.487581
+  Point Vicente SMCA|S. purpuratus|PISCO|Bio                same_season__current_matched_years  0.088283 -0.312603  0.489168
+  Point Vicente SMCA|S. purpuratus|PISCO|Bio                same_season__revised_matched_years  0.083403 -0.321331  0.488136
+  Point Vicente SMCA|S. purpuratus|PISCO|Bio      same_site_zone_season__current_matched_years  0.088283 -0.312603  0.489168
+  Point Vicente SMCA|S. purpuratus|PISCO|Bio      same_site_zone_season__revised_matched_years  0.083403 -0.321331  0.488136

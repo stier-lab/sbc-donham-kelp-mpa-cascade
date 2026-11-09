@@ -1,0 +1,19 @@
+{
+  "combined_kfm_rows": 113382,
+  "combined_kfm_animals": 288488,
+  "overlap_site_year_species": 904,
+  "exact_histograms": 873,
+  "recovered_source_rows": 58369,
+  "recovered_animals": 159963,
+  "retained_histories": 18,
+  "retained_recovered_occurrences": 34972,
+  "retained_unique_recovered_records": 26015,
+  "ambiguous_exact_rows": 0,
+  "recovered_site_year_species": 873,
+  "date_groups_with_count_records": 873,
+  "all_dates_match_groups": 401,
+  "max_date_gap_days": 219.0,
+  "retained_date_group_uses": 511,
+  "retained_nonzero_date_gaps": 193,
+  "source_discrepancies_affecting_retained": 31
+}

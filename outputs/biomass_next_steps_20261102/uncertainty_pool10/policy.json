@@ -1,0 +1,25 @@
+{
+  "draws": 800,
+  "seed": 20261102,
+  "tolerance_days": 7,
+  "within_sample_pool_df": 10.0,
+  "size_model": "log sample mean mass + half sampling-log-variance ~ intercept + MID zone + calendar trend; random site, site-year and event; known partially pooled sampling variance",
+  "size_parameter_bootstraps": 40,
+  "trend_bootstraps": 500,
+  "process_correlation_scenarios": [
+    0,
+    0.3,
+    0.6
+  ],
+  "limits": [
+    "Exploratory hierarchical assumptions, not validated protected borrowing",
+    "No new supported biomass cells",
+    "Pooled within-sample variance treated as known",
+    "Allometry/offsets fixed",
+    "Independent counts and sizes conditional on measurements",
+    "Physical count weights shared across species; size model species/MPA/role-specific",
+    "Cross-year transect persistence not established; count weights event-specific",
+    "No process likelihood fitted to latent posterior summaries; direct-only working likelihood separate",
+    "Total uncertainty not claimed"
+  ]
+}

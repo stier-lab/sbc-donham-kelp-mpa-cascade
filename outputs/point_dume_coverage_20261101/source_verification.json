@@ -1,0 +1,20 @@
+{
+  "raw_source_sha256": "9cdc478761f9e4851faaaf083539fd1ed2bf418b9e26f02baa92e133fdc3a4c0",
+  "max_site_density_error": 3.552713678800501e-15,
+  "matched_site_year_taxa": 42,
+  "fixed_seasonal_zones": {
+    "LECHUZA": [
+      "MID"
+    ],
+    "NICHOLAS_CANYON_W": [
+      "OUTER"
+    ]
+  },
+  "all_month_common_zones": [
+    "INNER",
+    "MID"
+  ],
+  "missing_raw_focal_counts": 0,
+  "event_dates_unique": true,
+  "seasonal_ratio_reproduced": true
+}

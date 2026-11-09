@@ -1,0 +1,45 @@
+path,exists,matches_prior_hash
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/ALL_sizefreq_2024.csv,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/source_archive/kfm_size_feasibility_2026-10-29/CHIS_KFM_2015.zip,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/source_archive/kfm_size_feasibility_2026-10-29/KushnerEtAl2013-KFM-Data.zip,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/source_archive/kfm_size_feasibility_2026-10-29/2015/qryAppendixH_FSF_2015.xlsx,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/source_archive/kfm_size_feasibility_2026-10-29/2015/qryAppendixI_Gorgonians_height_2015.xlsx,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/source_archive/kfm_size_feasibility_2026-10-29/2015/qryAppendixG_RDFC_b_2015.xlsx,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/source_archive/kfm_size_feasibility_2026-10-29/2015/qryAppendixI_NHSF_2015.xlsx,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/source_archive/kfm_size_feasibility_2026-10-29/2015/qryAppendixI_Macrocystis_stipecount_2015.xlsx,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/source_archive/kfm_size_feasibility_2026-10-29/2015/qryAppendixG_RDFC_a_2015.xlsx,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/source_archive/kfm_size_feasibility_2026-10-29/2015/qryAppendixI_Macrocystis_diameter_2015.xlsx,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/source_archive/kfm_size_feasibility_2026-10-29/2015/qryAppendixI_Gorgonians_width_2015.xlsx,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/source_archive/kfm_size_feasibility_2026-10-29/2015/qryAppendixI_ARMS_2015.xlsx,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/source_archive/kfm_size_feasibility_2026-10-29/legacy/Fish size frequency data.csv,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/source_archive/kfm_size_feasibility_2026-10-29/legacy/Giant kelp size frequency.csv,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/source_archive/kfm_size_feasibility_2026-10-29/legacy/Subtidal temperature data.csv,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/source_archive/kfm_size_feasibility_2026-10-29/legacy/Fish Density Data.csv,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/source_archive/kfm_size_feasibility_2026-10-29/legacy/Artifical recruitment module data.csv,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/source_archive/kfm_size_feasibility_2026-10-29/legacy/Invertebrate Size Frequency.csv,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/source_archive/kfm_size_feasibility_2026-10-29/legacy/Benthic Cover Data.csv,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/source_archive/kfm_size_feasibility_2026-10-29/legacy/Giant kelp supplementary density data.csv,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/source_archive/kfm_size_feasibility_2026-10-29/legacy/RDFC data.csv,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/source_archive/kfm_size_feasibility_2026-10-29/legacy/Benthic Density Data.csv,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/source_archive/kfm_size_feasibility_2026-10-29/legacy/DiverList_1982-2011.csv,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/source_archive/kfm_size_feasibility_2026-10-29/invalid_downloads/CHIS_KFM_2014.zip.invalid,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/source_archive/kfm_size_feasibility_2026-10-29/invalid_downloads/CHIS_KFM_2013.xlsx.invalid,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/source_archive/kfm_size_feasibility_2026-10-29/invalid_downloads/CHIS_KFM_2017.zip.invalid,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/source_archive/kfm_size_feasibility_2026-10-29/invalid_downloads/CHIS_KFM_2016.zip.invalid,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/cache/kfm_urchin_bootstrap.rds,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/cache/kfm_macro_bootstrap_sbc11215.rds,True,True
+/Users/adrianstier/Donham-Stier-CA-MPA-Data-2026/data/cache/kfm_macro_bootstrap.rds,True,True
+/Users/adrianstier/sbc-donham-kelp-mpa-cascade/data/ALL_sizefreq_2024.csv,True,True
+/Users/adrianstier/sbc-donham-kelp-mpa-cascade/data/cache/kfm_urchin_bootstrap.rds,True,True
+/Users/adrianstier/sbc-donham-kelp-mpa-cascade/data/cache/kfm_macro_bootstrap.rds,True,True
+/Users/adrianstier/Library/CloudStorage/GoogleDrive-<account>/My Drive/Stier Lab/People/Emily Donham/Projects/Kelp MPA/Github/MPA_Kelp/data/ALL_sizefreq_2024.csv,True,True
+/Users/adrianstier/Library/CloudStorage/GoogleDrive-<account>/My Drive/Stier Lab/People/Emily Donham/Projects/Kelp MPA/Github/MPA_Kelp/data/MBON/KFM_Macrocystis_RawData_1984-2023.csv,True,True
+/Users/adrianstier/Library/CloudStorage/GoogleDrive-<account>/My Drive/Stier Lab/People/Emily Donham/Projects/Kelp MPA/Github/MPA_Kelp/data/MBON/SBCMBON_kelp_forest_site_geolocation_20210120_KFM_LTER.csv,True,True
+/Users/adrianstier/Library/CloudStorage/GoogleDrive-<account>/My Drive/Stier Lab/People/Emily Donham/Projects/Kelp MPA/Github/MPA_Kelp/data/MBON/SBCMBON_kelp_forest_integrated_quad_and_swath_20231022.csv,True,True
+/Users/adrianstier/Library/CloudStorage/GoogleDrive-<account>/My Drive/Stier Lab/People/Emily Donham/Projects/Kelp MPA/Github/MPA_Kelp/data/MBON/SBCMBON_kelp_forest_integrated_fish_20231022.csv,True,True
+/Users/adrianstier/Library/CloudStorage/GoogleDrive-<account>/My Drive/Stier Lab/People/Emily Donham/Projects/Kelp MPA/data/ALL_sizefreq_2024.csv,True,True
+/Users/adrianstier/Library/CloudStorage/GoogleDrive-<account>/My Drive/Stier Lab/People/Emily Donham/Projects/Kelp MPA/data/MBON/KFM_Macrocystis_RawData_1984-2023.csv,True,True
+/Users/adrianstier/Library/CloudStorage/GoogleDrive-<account>/My Drive/Stier Lab/People/Emily Donham/Projects/Kelp MPA/data/MBON/SBCMBON_kelp_forest_site_geolocation_20210120_KFM_LTER.csv,True,True
+/Users/adrianstier/Library/CloudStorage/GoogleDrive-<account>/My Drive/Stier Lab/People/Emily Donham/Projects/Kelp MPA/data/MBON/SBCMBON_kelp_forest_integrated_quad_and_swath_20231022.csv,True,True
+/Users/adrianstier/Library/CloudStorage/GoogleDrive-<account>/My Drive/Stier Lab/People/Emily Donham/Projects/Kelp MPA/data/MBON/SBCMBON_kelp_forest_integrated_fish_20231022.csv,True,True
+/Users/adrianstier/sbc-donham-kelp-mpa-manuscript/correspondence/coauthor_reviews/2026-10-29_reference_assignments/KFM_reference_comparisons_for_Scott_Gabara.csv,True,True

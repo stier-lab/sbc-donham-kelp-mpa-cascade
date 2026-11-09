@@ -1,0 +1,77 @@
+{
+  "passed": 16,
+  "failed": 0,
+  "checks": [
+    {
+      "test": "all_inputs_still_match_hash_manifest",
+      "passed": true,
+      "inputs": 10
+    },
+    {
+      "test": "independent_raw_count_and_surveyed_zero_reconstruction",
+      "passed": true,
+      "species_units": 4218,
+      "physical_units": 1406
+    },
+    {
+      "test": "physical_ids_shared_across_species_not_species_replicates",
+      "passed": true
+    },
+    {
+      "test": "stable_ids_independent_of_input_order",
+      "passed": true
+    },
+    {
+      "test": "delimiter_collision_resistance",
+      "passed": true
+    },
+    {
+      "test": "independent_all_biomass_visits_equal_mean_of_count_units",
+      "passed": true,
+      "visits": 1086,
+      "count_unit_uses": 2214
+    },
+    {
+      "test": "independent_annual_hierarchy_allmonths_full_available_zones",
+      "passed": true,
+      "comparison_years": 84
+    },
+    {
+      "test": "independent_annual_hierarchy_allmonths_shared_inner_mid",
+      "passed": true,
+      "comparison_years": 84
+    },
+    {
+      "test": "exact_six_prior_years_33_station_uses_restored",
+      "passed": true
+    },
+    {
+      "test": "all_63_post_shared_ratios_unchanged",
+      "passed": true
+    },
+    {
+      "test": "all_78_original_full_zone_allmonth_ratios_unchanged",
+      "passed": true
+    },
+    {
+      "test": "no_silent_drop_of_2008_DEEP_only_reference",
+      "passed": true
+    },
+    {
+      "test": "strict_missing_mean",
+      "passed": true
+    },
+    {
+      "test": "equal_visit_then_equal_zone_not_pooled_visits",
+      "passed": true
+    },
+    {
+      "test": "absent_shared_zone_remains_unknown",
+      "passed": true
+    },
+    {
+      "test": "no_claim_of_permanent_transect_ids",
+      "passed": true
+    }
+  ]
+}

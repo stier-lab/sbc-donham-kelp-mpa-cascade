@@ -10,7 +10,7 @@ Script 27 stops before fitting if a required input or derived-registry MD5 diffe
 
 PISCO uses exact declared site IDs, swath campus/zone and May-October filters, and fish campus/non-CAN filters (no fish seasonal filter). Source exclusion constants are parsed individually; the upstream pipeline is never sourced. KFM exclusions apply to non-sheephead series; LTER uses its declared exclusion list. Exact shared IDs connect groups; coordinates or outcome similarity never create identities. Landsat MPA labels are not global polygon IDs, so sharing/overlap remains unverified. PISCO biomass-specific missingness and MBON individual site contributions are not reconstructed.
 
-Registry rows: 861; primary series: 145.
+Registry rows: 859; primary series: 143.
 
 ```sh
 Rscript code/R/export_reference_registry.R /path/to/Donham-Stier-CA-MPA-Data-2026

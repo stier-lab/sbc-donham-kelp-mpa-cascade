@@ -1,0 +1,31 @@
+{
+  "original_kfm_rows": 253228,
+  "selected_rows": 158559,
+  "selected_animals": 206028,
+  "unresolved_kfm_groups": 5,
+  "missing_approved_groups": 0,
+  "all_sources_checked": 19,
+  "size_input_complete": false,
+  "blockers": [
+    "PISCO/LTER independent size adapters not yet verified; combined legacy file is audit-only",
+    "Pelican Bay 1995 source disagreement",
+    "2023 original KFM sizes not supplied; do not infer zero or extend coverage"
+  ],
+  "outputs": {
+    "unverified_derived_sizes.csv": "5f6fe39ca7fe4a57cbccfeef7d473ab3dc0581a9b06f8ea35b437e9fa8c6d4a4",
+    "source_ledger.csv": "22cdbc97de8e78c19c0782545b11a55831cc5bcd98266b8964e6a9e12c7fa76d",
+    "kfm_all_original_sizes.csv": "d99c6e63bb976775cd063d1463005cf2cf16407f12b1ce6968bcd99beeee2702",
+    "unresolved_kfm_groups.csv": "911c0514cc6427ae85e61182a911966342042b24740b1dcaeea608a0b725236c",
+    "scope_without_source.csv": "4bcb650df7b457b4ce8b0ce5eb7f98f9527630c3f7c30cf4579cddc403a0cdc3",
+    "kfm_selected_sizes.csv": "aa3d1a0b9ecb48359237b944dcdad3b38c036772004d391259cd2f584f6c5ede",
+    "ucsb_swath_sizes.csv": "5ea6ce3514a5efdcf13e0b60ede64f078e451c619b47a4818fde8bf18dc330cf",
+    "unverified_size_summary.csv": "0b0a090a9f1643d5359fb3da4fcc2e697d37acf93e053b0f53d61f202e1d79b4",
+    "analysis_sizes.csv": "da6890236fb0ced54f32579b37e3f6c42bf046e1719e90f41badd2fbb66f38be",
+    "selection_ledger.csv": "4b51b80564a2ba561a8caece4eb256f60d30e830b089ec330f8039a0b3820522",
+    "ucsb_survey_year_audit.csv": "706a863cd98b3ba3ece53b0e310cb3c2a76f08155b9faa91361143d88a4fcfc9"
+  },
+  "input_manifest_sha256": "bbd256ab15e3f23c14b2cdedffe44b78fd74e102341490dc38e430d4d4ef96fe",
+  "scope_sha256": "3068eaac2a4ec0b848bfd221cf72796b1b2278e99e31601e118da45fd6cdafd4",
+  "site_map_sha256": "fce9e9c887fe155e5152095191582716e957551e45bf6552029bad41f8d0acc5",
+  "builder_sha256": "0402f7a7e73c4142178d5f7e4bbbeffe613c74290e5354cb84ed67ec41fb7088"
+}

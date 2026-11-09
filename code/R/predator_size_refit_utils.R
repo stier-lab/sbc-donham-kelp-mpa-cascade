@@ -147,13 +147,16 @@ size_refit_history <- function(value, year, model = "Mean") {
   if (length(value) < 4 || anyDuplicated(year)) stop("Insufficient/nonunique paired years")
   time <- year - min(year)
   fit <- if (model == "Linear") lm(value ~ time) else lm(value ~ 1)
-  g <- if (model == "Linear") c(0, 11) else 1
+  end <- max(time[time<=11])
+  if(end<=0) stop("No two observed years within eleven-year window")
+  g <- if (model == "Linear") c(0, end) else 1
   estimate <- sum(g * coef(fit))
   iid <- drop(t(g) %*% vcov(fit) %*% g)
   hac <- drop(t(g) %*% uncertainty_hac(fit, year, lag = 1) %*% g)
   variance <- max(iid, hac)
   data.frame(estimate, variance, n_years = length(year), first_year = min(year),
-    last_year = max(year), model, extrapolated_11 = model == "Linear" && max(time) < 11)
+    last_year = max(year), contrast_end_year=min(year)+end,
+    elapsed_years=end, model, extrapolated_11=FALSE)
 }
 
 size_refit_pathways <- function(predators, resources, primary) {
@@ -223,6 +226,6 @@ size_refit_pathways <- function(predators, resources, primary) {
     mutate(q = p.adjust(p, "BH", n = 4)) %>% ungroup() %>%
     mutate(inference = "Conditional exploratory: ignores moderator/size-pool uncertainty and between-MPA shared references",
       quantity = ifelse(estimand == "post_only_mean", "Mean post-designation log ratio",
-        "Legacy route: mixture of mean levels and 11-year changes; conditional on IID selection; route locked across sizes"))
+        "Primary-form route: mean levels or changes between surveyed years up to eleven years apart; conditional on IID selection; route locked across sizes"))
   list(summary = summary, annual = bind_rows(annual), effects = bind_rows(effects), omissions = bind_rows(omissions))
 }

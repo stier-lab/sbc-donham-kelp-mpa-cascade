@@ -1,0 +1,36 @@
+{
+  "analysis": {
+    "successful_edits_replayed": 13,
+    "recovered_lines": 527,
+    "independent_excerpt_characters": 5378,
+    "sha256": "2aba3850621317d754cc650c10d66f0f16c9110926a5eed8f6db70daa26a908f",
+    "archive_entries_verified": 47,
+    "deleted_tracked_files": []
+  },
+  "data": {
+    "successful_edits_replayed": 5,
+    "recovered_lines": 100,
+    "independent_excerpt_characters": 3393,
+    "sha256": "4db89a7f947c785b417ac6367e5cba2e82901eb3e1cd8e5e740b8de9ff659c64",
+    "archive_entries_verified": 2,
+    "deleted_tracked_files": []
+  },
+  "original_archive_snapshots_unchanged": 47,
+  "protected_files_unchanged": 487,
+  "current_decision_evidence_hashes_verified": 75,
+  "registered_raw_sources_verified": 25,
+  "source_build_outputs_verified": 28,
+  "source_build_configurations_verified": 5,
+  "cleanup_index_collisions": [
+    "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/README.md",
+    "/Users/adrianstier/sbc-donham-kelp-mpa-data/README.md"
+  ],
+  "original_full_file_checksum_available": false,
+  "recovery_basis": "Pinned Git README bases plus all 18 identified successful root-README edits in this project chat; independent pre-cleanup readouts match. Failed edit 78187 excluded.",
+  "scope_limit": "No complete pre-cleanup checksum inventory exists for every ignored or untracked file. Checks cover all 49 archive entries, stable pointers, protected outputs, registered sources, source build products/configuration, decision evidence and tracked-file presence.",
+  "source_builder_registry_and_scope_hashes_verified": 4,
+  "git_base_commits": {
+    "analysis": "696c6abe64092798bb48d539f62fb437a44e5730",
+    "data": "3e878651bfcfb26ea1b1419965608fd41e438353"
+  }
+}

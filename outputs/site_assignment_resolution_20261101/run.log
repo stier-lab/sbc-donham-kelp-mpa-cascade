@@ -1,0 +1,23 @@
+{'assignments': 21, 'unique_group_labels': 19, 'resolved_group_assignments': 19, 'unique_resolved_groups': 17, 'remaining_unassigned_labels': 2, 'real_excluded_group_assignments': 5, 'not_whole_group_excluded_assignments': 14, 'unique_observed_pisco_child_stations': 40, 'child_dataset_assignment_checks': 138, 'all_children_already_in_inventory': True, 'protected_files_unchanged': 487, 'previous_inventory_unchanged': True, 'models_fitted': 0}
+         assigned_group                                                   analysis_status
+      ANACAPA_WEST_ISLE                                          Real whole-MPA exclusion
+ ANACAPA_EAST_FISH_CAMP                                          Real whole-MPA exclusion
+ANACAPA_LIGHTHOUSE_REEF                                          Real whole-MPA exclusion
+ ANACAPA_EAST_FISH_CAMP          No whole-group exclusion found for this PISCO assignment
+ANACAPA_LIGHTHOUSE_REEF          No whole-group exclusion found for this PISCO assignment
+          SCI_GULL_ISLE          No whole-group exclusion found for this PISCO assignment
+        SCI_YELLOWBANKS                 Real reference exclusion / short remaining branch
+  SMI_HARRIS_PT_RESERVE          No whole-group exclusion found for this PISCO assignment
+        SMI_TYLER_BIGHT                                          Real reference exclusion
+            SCI_TRAILER Not an eligible study assignment; reason for map entry unresolved
+            SCI_WILLOWS Not an eligible study assignment; reason for map entry unresolved
+       SCI_CAVERN_POINT          No whole-group exclusion found for this PISCO assignment
+        SCI_COCHE_POINT          No whole-group exclusion found for this PISCO assignment
+    SCI_LITTLE_SCORPION          No whole-group exclusion found for this PISCO assignment
+            SCI_PELICAN          No whole-group exclusion found for this PISCO assignment
+     SCI_POTATO_PASTURE          No whole-group exclusion found for this PISCO assignment
+    SCI_SAN_PEDRO_POINT          No whole-group exclusion found for this PISCO assignment
+          SRI_CHICKASAW          No whole-group exclusion found for this PISCO assignment
+      SRI_CLUSTER_POINT          No whole-group exclusion found for this PISCO assignment
+        SRI_SOUTH_POINT          No whole-group exclusion found for this PISCO assignment
+    SRI_TRANCION_CANYON          No whole-group exclusion found for this PISCO assignment

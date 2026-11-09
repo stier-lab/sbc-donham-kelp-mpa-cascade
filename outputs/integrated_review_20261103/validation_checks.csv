@@ -1,0 +1,19 @@
+check,passed,detail
+unique source units within species,True,
+positive areas,True,
+no negative density,True,
+no negative biomass,True,
+excluded physical sites absent from admitted uses,True,
+benthic exclusions not silently imposed on fish,True,
+one annual row per comparison/year,True,
+actual calendar clock,True,
+both roles in every admitted comparison/year,True,
+no silently discarded unknowns,True,
+every admitted row has explicit assignment,True,
+shared zones within comparison/year,True,
+unknown density survives zero handling,True,
+inputs match recorded hashes,True,[]
+canonical and manuscript hold,True,487 protected files
+joint coefficient covariance nonnegative,True,
+positive residual degrees of freedom,True,
+unsupported biomass retains supported density,True,

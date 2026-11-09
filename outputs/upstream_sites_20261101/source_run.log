@@ -1,0 +1,81 @@
+here() starts at /Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/upstream_sites_20261101/stage
+Analysis constants loaded.
+Utility functions and constants loaded.
+Importing raw data files...
+  Loading ALL_sizefreq_2024.csv: 335498 rows x 19 cols
+  Filtered to target taxa: 140917 rows
+  After site exclusions: 113354 rows
+  Species codes standardized.
+  Loading MPAfeatures_subset.csv: 62 rows x 13 cols
+  Loading Site_List_All.csv: 34 rows x 9 cols
+  Merged site-MPA data: 34 rows
+    Note: 31 rows dropped due to missing location data
+  Loading SBCMBON_kelp_forest_site_geolocation_20210120_KFM_LTER.csv: 65 rows x 9 cols
+
+Running data validation checks...
+  [OK] SizeFreq: All sizes are positive
+  [OK] SizeFreq: All classcodes are expected values
+  [OK] Site: All MPA_Start years are valid
+  [OK] Sites2: All coordinates are within expected bounds
+  [INFO] Sites2: 6 sites without MPA assignment (may include reference sites)
+  All validation checks passed.
+
+Data import complete. Objects created:
+  - SizeFreq:        113354 rows (size frequency for biomass estimation)
+  - Site:            34 rows (site list with MPA features)
+  - Site.size:       62 rows (MPA features)
+  - sites.short.edit:34 rows (key MPA attributes)
+  - Sites2:          65 rows (MBON site coordinates)
+Processing PISCO data...
+  Loaded swath data: 329195 rows
+  Swath taxa subset: 1800 rows
+  Processing UCSB lobster biomass...
+    UCSB lobster: 246 site-year records
+  Processing VRG lobster biomass (bootstrap resampling)...
+    Loading cached VRG lobster bootstrap results...
+    Removed 19 site-years with unsized lobsters (VRG)
+    VRG lobster: 321 site-year records
+  Combined swath + lobster: 2367 rows
+  Processing urchin biomass (bootstrap resampling)...
+  Backfilled MPA metadata onto 3332 KFM/LTER urchin size rows (combined size pool)
+    Loading cached urchin bootstrap results...
+    Removed 1021 site-year-species combos with unsized urchins
+  Processing PISCO fish data (sheephead)...
+  SPUL override: W(g) = 0.0144 * TL(cm)^3.04; original lookup preserved.
+  Loaded fish data: 517109 rows
+  Sheephead records: 530 
+  Combined all PISCO taxa: 2897 rows
+  Dropped 22 sites with < 5 years; kept 54 sites
+  After exclusions: 2485 rows, 13 MPAs
+  Calculating response ratios...
+  Biomass RR: 226 rows; Density RR: 352 rows
+  PISCO.resp: 1156 rows
+PISCO processing complete.
+  Output objects: Swath.join.sub (458 rows), PISCO.resp (1156 rows), All_PISCO.mpa (946 rows)
+Processing KFM/MBON data...
+  MBON quad/swath data loaded: 2667360 rows, 17 columns
+  Split MBON: KFM = 534314 rows, LTER = 425082 rows
+  KFM after site filtering: 54235 rows
+  KFM target taxa rows: 8005 
+  KFM urchin bootstrap:  184  site-year-species combinations
+    Loading cached KFM urchin bootstrap results...
+  KFM urchin bootstrap complete: 1484 rows
+  Removed 251 urchin rows with count > 0 but no biomass
+  KFM stipe data loaded: 46802 rows (after deduplication)
+  KFM Macrocystis bootstrap: 170 site-year combinations
+    Loading cached KFM Macrocystis bootstrap results...
+    Cache invalid, will recompute...
+    Cached KFM Macrocystis bootstrap results.
+  KFM Macrocystis bootstrap complete: 170 rows
+  KFM combined taxa data: 275 rows
+  KFM response ratios: 115 rows (density + biomass)
+  KFM fish data loaded: 420703 rows
+  KFM fish response ratios: 323 rows
+KFM/MBON processing complete.
+  Outputs: KFM.join.ave (115 rows), KFM.resp (166 rows), kfm.fish (323 rows)
+Warning messages:
+1: In eval(ei, envir) : NAs introduced by coercion
+2: Merge INCREASED row count from 534314 to 619936 (+85622 rows). This may indicate a many-to-many join due to non-unique keys in Sites2. 
+3: Merge INCREASED row count from 46802 to 50818 (+4016 rows). This may indicate a many-to-many join due to non-unique keys in Sites2. 
+4: Merge INCREASED row count from 7293 to 8513 (+1220 rows). This may indicate a many-to-many join due to non-unique keys in Sites2. 
+5: In eval(ei, envir) : NAs introduced by coercion

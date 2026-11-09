@@ -22,8 +22,6 @@
 "primary_years|bottom_mid|full|post_trend","Campus Point SMCA","IV_REEF_W",NA,TRUE
 "primary_years|bottom_mid|full|post_trend","Campus Point SMCA","ARROYO_QUEMADO_E",NA,TRUE
 "primary_years|bottom_mid|full|post_trend","Campus Point SMCA","ARROYO_QUEMADO_W",NA,TRUE
-"primary_years|bottom_mid|full|post_trend","Campus Point SMCA","CARP_REEF",NA,TRUE
-"primary_years|bottom_mid|full|post_trend","Campus Point SMCA","LEAD_BETTER_BEACH",NA,TRUE
 "primary_years|bottom_mid|full|post_trend","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",NA,TRUE
 "primary_years|bottom_mid|full|post_trend","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",NA,TRUE
 "primary_years|bottom_mid|full|post_trend","Gull Island SMR","SCI_GULL_ISLE_E",NA,TRUE
@@ -45,15 +43,8 @@
 "primary_years|bottom_mid|full|post_trend","Naples SMCA","ARROYO_QUEMADO_W",NA,TRUE
 "primary_years|bottom_mid|full|post_trend","Point Vicente SMCA","LONG_POINT_E",NA,TRUE
 "primary_years|bottom_mid|full|post_trend","Point Vicente SMCA","POINT_VICENTE_W",NA,TRUE
-"primary_years|bottom_mid|full|post_trend","Point Vicente SMCA","FLAT_ROCK_N",NA,TRUE
 "primary_years|bottom_mid|full|post_trend","Point Vicente SMCA","HAWTHORNE_REEF",NA,TRUE
-"primary_years|bottom_mid|full|post_trend","Point Vicente SMCA","LUNADA_BAY",NA,TRUE
-"primary_years|bottom_mid|full|post_trend","Point Vicente SMCA","RESORT_POINT",NA,TRUE
 "primary_years|bottom_mid|full|post_trend","Point Vicente SMCA","RIDGES_N",NA,TRUE
-"primary_years|bottom_mid|full|post_trend","Point Vicente SMCA","RIDGES_S",NA,TRUE
-"primary_years|bottom_mid|full|post_trend","Point Vicente SMCA","ROCKY_POINT_N",NA,TRUE
-"primary_years|bottom_mid|full|post_trend","Point Vicente SMCA","ROCKY_POINT_S",NA,TRUE
-"primary_years|bottom_mid|full|post_trend","Point Vicente SMCA","UNDERWATER_ARCH",NA,TRUE
 "primary_years|bottom_mid|full|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",NA,TRUE
 "primary_years|bottom_mid|full|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",NA,TRUE
 "primary_years|bottom_mid|full|post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",NA,TRUE
@@ -126,8 +117,6 @@
 "primary_years|bottom_mid|full|before_after","Campus Point SMCA","IV_REEF_W",NA,TRUE
 "primary_years|bottom_mid|full|before_after","Campus Point SMCA","ARROYO_QUEMADO_E",NA,TRUE
 "primary_years|bottom_mid|full|before_after","Campus Point SMCA","ARROYO_QUEMADO_W",NA,TRUE
-"primary_years|bottom_mid|full|before_after","Campus Point SMCA","CARP_REEF",NA,TRUE
-"primary_years|bottom_mid|full|before_after","Campus Point SMCA","LEAD_BETTER_BEACH",NA,TRUE
 "primary_years|bottom_mid|full|before_after","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",NA,TRUE
 "primary_years|bottom_mid|full|before_after","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",NA,TRUE
 "primary_years|bottom_mid|full|before_after","Gull Island SMR","SCI_GULL_ISLE_E",NA,TRUE
@@ -149,15 +138,8 @@
 "primary_years|bottom_mid|full|before_after","Naples SMCA","ARROYO_QUEMADO_W",NA,TRUE
 "primary_years|bottom_mid|full|before_after","Point Vicente SMCA","LONG_POINT_E",NA,TRUE
 "primary_years|bottom_mid|full|before_after","Point Vicente SMCA","POINT_VICENTE_W",NA,TRUE
-"primary_years|bottom_mid|full|before_after","Point Vicente SMCA","FLAT_ROCK_N",NA,TRUE
 "primary_years|bottom_mid|full|before_after","Point Vicente SMCA","HAWTHORNE_REEF",NA,TRUE
-"primary_years|bottom_mid|full|before_after","Point Vicente SMCA","LUNADA_BAY",NA,TRUE
-"primary_years|bottom_mid|full|before_after","Point Vicente SMCA","RESORT_POINT",NA,TRUE
 "primary_years|bottom_mid|full|before_after","Point Vicente SMCA","RIDGES_N",NA,TRUE
-"primary_years|bottom_mid|full|before_after","Point Vicente SMCA","RIDGES_S",NA,TRUE
-"primary_years|bottom_mid|full|before_after","Point Vicente SMCA","ROCKY_POINT_N",NA,TRUE
-"primary_years|bottom_mid|full|before_after","Point Vicente SMCA","ROCKY_POINT_S",NA,TRUE
-"primary_years|bottom_mid|full|before_after","Point Vicente SMCA","UNDERWATER_ARCH",NA,TRUE
 "primary_years|bottom_mid|full|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",NA,TRUE
 "primary_years|bottom_mid|full|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",NA,TRUE
 "primary_years|bottom_mid|full|before_after","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",NA,TRUE
@@ -229,13 +211,11 @@
 "primary_years|bottom_mid|core70|post_trend","Blue Cavern Onshore SMCA","SCAI_BIRD_ROCK",1,TRUE
 "primary_years|bottom_mid|core70|post_trend","Blue Cavern Onshore SMCA","SCAI_WEST_QUARRY",0,FALSE
 "primary_years|bottom_mid|core70|post_trend","Blue Cavern Onshore SMCA","SCAI_RIPPERS_COVE",1,TRUE
-"primary_years|bottom_mid|core70|post_trend","Campus Point SMCA","IV_REEF_E",0.818181818181818,TRUE
+"primary_years|bottom_mid|core70|post_trend","Campus Point SMCA","IV_REEF_E",1,TRUE
 "primary_years|bottom_mid|core70|post_trend","Campus Point SMCA","IV_REEF_W",1,TRUE
 "primary_years|bottom_mid|core70|post_trend","Campus Point SMCA","a-l-07",0,FALSE
-"primary_years|bottom_mid|core70|post_trend","Campus Point SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
+"primary_years|bottom_mid|core70|post_trend","Campus Point SMCA","ARROYO_QUEMADO_E",1,TRUE
 "primary_years|bottom_mid|core70|post_trend","Campus Point SMCA","ARROYO_QUEMADO_W",1,TRUE
-"primary_years|bottom_mid|core70|post_trend","Campus Point SMCA","CARP_REEF",0,FALSE
-"primary_years|bottom_mid|core70|post_trend","Campus Point SMCA","LEAD_BETTER_BEACH",0,FALSE
 "primary_years|bottom_mid|core70|post_trend","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",1,TRUE
 "primary_years|bottom_mid|core70|post_trend","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",1,TRUE
 "primary_years|bottom_mid|core70|post_trend","Gull Island SMR","SCI_GULL_ISLE",0,FALSE
@@ -262,19 +242,12 @@
 "primary_years|bottom_mid|core70|post_trend","Naples SMCA","NAPLES_E",1,TRUE
 "primary_years|bottom_mid|core70|post_trend","Naples SMCA","NAPLES_W",1,TRUE
 "primary_years|bottom_mid|core70|post_trend","Naples SMCA","a-l-09",0,FALSE
-"primary_years|bottom_mid|core70|post_trend","Naples SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
+"primary_years|bottom_mid|core70|post_trend","Naples SMCA","ARROYO_QUEMADO_E",1,TRUE
 "primary_years|bottom_mid|core70|post_trend","Naples SMCA","ARROYO_QUEMADO_W",1,TRUE
 "primary_years|bottom_mid|core70|post_trend","Point Vicente SMCA","LONG_POINT_E",1,TRUE
 "primary_years|bottom_mid|core70|post_trend","Point Vicente SMCA","POINT_VICENTE_W",1,TRUE
-"primary_years|bottom_mid|core70|post_trend","Point Vicente SMCA","FLAT_ROCK_N",0.818181818181818,TRUE
 "primary_years|bottom_mid|core70|post_trend","Point Vicente SMCA","HAWTHORNE_REEF",1,TRUE
-"primary_years|bottom_mid|core70|post_trend","Point Vicente SMCA","LUNADA_BAY",0.909090909090909,TRUE
-"primary_years|bottom_mid|core70|post_trend","Point Vicente SMCA","RESORT_POINT",1,TRUE
 "primary_years|bottom_mid|core70|post_trend","Point Vicente SMCA","RIDGES_N",1,TRUE
-"primary_years|bottom_mid|core70|post_trend","Point Vicente SMCA","RIDGES_S",1,TRUE
-"primary_years|bottom_mid|core70|post_trend","Point Vicente SMCA","ROCKY_POINT_N",1,TRUE
-"primary_years|bottom_mid|core70|post_trend","Point Vicente SMCA","ROCKY_POINT_S",1,TRUE
-"primary_years|bottom_mid|core70|post_trend","Point Vicente SMCA","UNDERWATER_ARCH",0.909090909090909,TRUE
 "primary_years|bottom_mid|core70|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",0.5,FALSE
 "primary_years|bottom_mid|core70|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",0.4,FALSE
 "primary_years|bottom_mid|core70|post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",0.8,TRUE
@@ -360,13 +333,11 @@
 "primary_years|bottom_mid|core70|before_after","Blue Cavern Onshore SMCA","SCAI_BIRD_ROCK",0,FALSE
 "primary_years|bottom_mid|core70|before_after","Blue Cavern Onshore SMCA","SCAI_WEST_QUARRY",0,FALSE
 "primary_years|bottom_mid|core70|before_after","Blue Cavern Onshore SMCA","SCAI_RIPPERS_COVE",1,TRUE
-"primary_years|bottom_mid|core70|before_after","Campus Point SMCA","IV_REEF_E",0.818181818181818,TRUE
+"primary_years|bottom_mid|core70|before_after","Campus Point SMCA","IV_REEF_E",1,TRUE
 "primary_years|bottom_mid|core70|before_after","Campus Point SMCA","IV_REEF_W",1,TRUE
 "primary_years|bottom_mid|core70|before_after","Campus Point SMCA","a-l-07",0,FALSE
-"primary_years|bottom_mid|core70|before_after","Campus Point SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
+"primary_years|bottom_mid|core70|before_after","Campus Point SMCA","ARROYO_QUEMADO_E",1,TRUE
 "primary_years|bottom_mid|core70|before_after","Campus Point SMCA","ARROYO_QUEMADO_W",1,TRUE
-"primary_years|bottom_mid|core70|before_after","Campus Point SMCA","CARP_REEF",0,FALSE
-"primary_years|bottom_mid|core70|before_after","Campus Point SMCA","LEAD_BETTER_BEACH",0,FALSE
 "primary_years|bottom_mid|core70|before_after","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",1,TRUE
 "primary_years|bottom_mid|core70|before_after","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",1,TRUE
 "primary_years|bottom_mid|core70|before_after","Gull Island SMR","SCI_GULL_ISLE",0,FALSE
@@ -393,19 +364,12 @@
 "primary_years|bottom_mid|core70|before_after","Naples SMCA","NAPLES_E",1,TRUE
 "primary_years|bottom_mid|core70|before_after","Naples SMCA","NAPLES_W",1,TRUE
 "primary_years|bottom_mid|core70|before_after","Naples SMCA","a-l-09",0,FALSE
-"primary_years|bottom_mid|core70|before_after","Naples SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
+"primary_years|bottom_mid|core70|before_after","Naples SMCA","ARROYO_QUEMADO_E",1,TRUE
 "primary_years|bottom_mid|core70|before_after","Naples SMCA","ARROYO_QUEMADO_W",1,TRUE
-"primary_years|bottom_mid|core70|before_after","Point Vicente SMCA","LONG_POINT_E",0.666666666666667,FALSE
+"primary_years|bottom_mid|core70|before_after","Point Vicente SMCA","LONG_POINT_E",1,TRUE
 "primary_years|bottom_mid|core70|before_after","Point Vicente SMCA","POINT_VICENTE_W",1,TRUE
-"primary_years|bottom_mid|core70|before_after","Point Vicente SMCA","FLAT_ROCK_N",0.333333333333333,FALSE
-"primary_years|bottom_mid|core70|before_after","Point Vicente SMCA","HAWTHORNE_REEF",0.666666666666667,FALSE
-"primary_years|bottom_mid|core70|before_after","Point Vicente SMCA","LUNADA_BAY",0.166666666666667,FALSE
-"primary_years|bottom_mid|core70|before_after","Point Vicente SMCA","RESORT_POINT",0.166666666666667,FALSE
-"primary_years|bottom_mid|core70|before_after","Point Vicente SMCA","RIDGES_N",0.666666666666667,FALSE
-"primary_years|bottom_mid|core70|before_after","Point Vicente SMCA","RIDGES_S",0.333333333333333,FALSE
-"primary_years|bottom_mid|core70|before_after","Point Vicente SMCA","ROCKY_POINT_N",0.833333333333333,TRUE
-"primary_years|bottom_mid|core70|before_after","Point Vicente SMCA","ROCKY_POINT_S",0.5,FALSE
-"primary_years|bottom_mid|core70|before_after","Point Vicente SMCA","UNDERWATER_ARCH",0.166666666666667,FALSE
+"primary_years|bottom_mid|core70|before_after","Point Vicente SMCA","HAWTHORNE_REEF",1,TRUE
+"primary_years|bottom_mid|core70|before_after","Point Vicente SMCA","RIDGES_N",1,TRUE
 "primary_years|bottom_mid|core70|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",0,FALSE
 "primary_years|bottom_mid|core70|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",0,FALSE
 "primary_years|bottom_mid|core70|before_after","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",0,FALSE
@@ -491,13 +455,11 @@
 "primary_years|bottom_mid|core80|post_trend","Blue Cavern Onshore SMCA","SCAI_BIRD_ROCK",1,TRUE
 "primary_years|bottom_mid|core80|post_trend","Blue Cavern Onshore SMCA","SCAI_WEST_QUARRY",0,FALSE
 "primary_years|bottom_mid|core80|post_trend","Blue Cavern Onshore SMCA","SCAI_RIPPERS_COVE",1,TRUE
-"primary_years|bottom_mid|core80|post_trend","Campus Point SMCA","IV_REEF_E",0.818181818181818,TRUE
+"primary_years|bottom_mid|core80|post_trend","Campus Point SMCA","IV_REEF_E",1,TRUE
 "primary_years|bottom_mid|core80|post_trend","Campus Point SMCA","IV_REEF_W",1,TRUE
 "primary_years|bottom_mid|core80|post_trend","Campus Point SMCA","a-l-07",0,FALSE
-"primary_years|bottom_mid|core80|post_trend","Campus Point SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
+"primary_years|bottom_mid|core80|post_trend","Campus Point SMCA","ARROYO_QUEMADO_E",1,TRUE
 "primary_years|bottom_mid|core80|post_trend","Campus Point SMCA","ARROYO_QUEMADO_W",1,TRUE
-"primary_years|bottom_mid|core80|post_trend","Campus Point SMCA","CARP_REEF",0,FALSE
-"primary_years|bottom_mid|core80|post_trend","Campus Point SMCA","LEAD_BETTER_BEACH",0,FALSE
 "primary_years|bottom_mid|core80|post_trend","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",1,TRUE
 "primary_years|bottom_mid|core80|post_trend","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",1,TRUE
 "primary_years|bottom_mid|core80|post_trend","Gull Island SMR","SCI_GULL_ISLE",0,FALSE
@@ -524,19 +486,12 @@
 "primary_years|bottom_mid|core80|post_trend","Naples SMCA","NAPLES_E",1,TRUE
 "primary_years|bottom_mid|core80|post_trend","Naples SMCA","NAPLES_W",1,TRUE
 "primary_years|bottom_mid|core80|post_trend","Naples SMCA","a-l-09",0,FALSE
-"primary_years|bottom_mid|core80|post_trend","Naples SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
+"primary_years|bottom_mid|core80|post_trend","Naples SMCA","ARROYO_QUEMADO_E",1,TRUE
 "primary_years|bottom_mid|core80|post_trend","Naples SMCA","ARROYO_QUEMADO_W",1,TRUE
 "primary_years|bottom_mid|core80|post_trend","Point Vicente SMCA","LONG_POINT_E",1,TRUE
 "primary_years|bottom_mid|core80|post_trend","Point Vicente SMCA","POINT_VICENTE_W",1,TRUE
-"primary_years|bottom_mid|core80|post_trend","Point Vicente SMCA","FLAT_ROCK_N",0.818181818181818,TRUE
 "primary_years|bottom_mid|core80|post_trend","Point Vicente SMCA","HAWTHORNE_REEF",1,TRUE
-"primary_years|bottom_mid|core80|post_trend","Point Vicente SMCA","LUNADA_BAY",0.909090909090909,TRUE
-"primary_years|bottom_mid|core80|post_trend","Point Vicente SMCA","RESORT_POINT",1,TRUE
 "primary_years|bottom_mid|core80|post_trend","Point Vicente SMCA","RIDGES_N",1,TRUE
-"primary_years|bottom_mid|core80|post_trend","Point Vicente SMCA","RIDGES_S",1,TRUE
-"primary_years|bottom_mid|core80|post_trend","Point Vicente SMCA","ROCKY_POINT_N",1,TRUE
-"primary_years|bottom_mid|core80|post_trend","Point Vicente SMCA","ROCKY_POINT_S",1,TRUE
-"primary_years|bottom_mid|core80|post_trend","Point Vicente SMCA","UNDERWATER_ARCH",0.909090909090909,TRUE
 "primary_years|bottom_mid|core80|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",0.5,FALSE
 "primary_years|bottom_mid|core80|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",0.4,FALSE
 "primary_years|bottom_mid|core80|post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",0.8,TRUE
@@ -622,13 +577,11 @@
 "primary_years|bottom_mid|core80|before_after","Blue Cavern Onshore SMCA","SCAI_BIRD_ROCK",0,FALSE
 "primary_years|bottom_mid|core80|before_after","Blue Cavern Onshore SMCA","SCAI_WEST_QUARRY",0,FALSE
 "primary_years|bottom_mid|core80|before_after","Blue Cavern Onshore SMCA","SCAI_RIPPERS_COVE",1,TRUE
-"primary_years|bottom_mid|core80|before_after","Campus Point SMCA","IV_REEF_E",0.818181818181818,TRUE
+"primary_years|bottom_mid|core80|before_after","Campus Point SMCA","IV_REEF_E",1,TRUE
 "primary_years|bottom_mid|core80|before_after","Campus Point SMCA","IV_REEF_W",1,TRUE
 "primary_years|bottom_mid|core80|before_after","Campus Point SMCA","a-l-07",0,FALSE
-"primary_years|bottom_mid|core80|before_after","Campus Point SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
+"primary_years|bottom_mid|core80|before_after","Campus Point SMCA","ARROYO_QUEMADO_E",1,TRUE
 "primary_years|bottom_mid|core80|before_after","Campus Point SMCA","ARROYO_QUEMADO_W",1,TRUE
-"primary_years|bottom_mid|core80|before_after","Campus Point SMCA","CARP_REEF",0,FALSE
-"primary_years|bottom_mid|core80|before_after","Campus Point SMCA","LEAD_BETTER_BEACH",0,FALSE
 "primary_years|bottom_mid|core80|before_after","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",1,TRUE
 "primary_years|bottom_mid|core80|before_after","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",1,TRUE
 "primary_years|bottom_mid|core80|before_after","Gull Island SMR","SCI_GULL_ISLE",0,FALSE
@@ -655,19 +608,12 @@
 "primary_years|bottom_mid|core80|before_after","Naples SMCA","NAPLES_E",1,TRUE
 "primary_years|bottom_mid|core80|before_after","Naples SMCA","NAPLES_W",1,TRUE
 "primary_years|bottom_mid|core80|before_after","Naples SMCA","a-l-09",0,FALSE
-"primary_years|bottom_mid|core80|before_after","Naples SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
+"primary_years|bottom_mid|core80|before_after","Naples SMCA","ARROYO_QUEMADO_E",1,TRUE
 "primary_years|bottom_mid|core80|before_after","Naples SMCA","ARROYO_QUEMADO_W",1,TRUE
-"primary_years|bottom_mid|core80|before_after","Point Vicente SMCA","LONG_POINT_E",0.666666666666667,FALSE
+"primary_years|bottom_mid|core80|before_after","Point Vicente SMCA","LONG_POINT_E",1,TRUE
 "primary_years|bottom_mid|core80|before_after","Point Vicente SMCA","POINT_VICENTE_W",1,TRUE
-"primary_years|bottom_mid|core80|before_after","Point Vicente SMCA","FLAT_ROCK_N",0.333333333333333,FALSE
-"primary_years|bottom_mid|core80|before_after","Point Vicente SMCA","HAWTHORNE_REEF",0.666666666666667,FALSE
-"primary_years|bottom_mid|core80|before_after","Point Vicente SMCA","LUNADA_BAY",0.166666666666667,FALSE
-"primary_years|bottom_mid|core80|before_after","Point Vicente SMCA","RESORT_POINT",0.166666666666667,FALSE
-"primary_years|bottom_mid|core80|before_after","Point Vicente SMCA","RIDGES_N",0.666666666666667,FALSE
-"primary_years|bottom_mid|core80|before_after","Point Vicente SMCA","RIDGES_S",0.333333333333333,FALSE
-"primary_years|bottom_mid|core80|before_after","Point Vicente SMCA","ROCKY_POINT_N",0.833333333333333,TRUE
-"primary_years|bottom_mid|core80|before_after","Point Vicente SMCA","ROCKY_POINT_S",0.5,FALSE
-"primary_years|bottom_mid|core80|before_after","Point Vicente SMCA","UNDERWATER_ARCH",0.166666666666667,FALSE
+"primary_years|bottom_mid|core80|before_after","Point Vicente SMCA","HAWTHORNE_REEF",1,TRUE
+"primary_years|bottom_mid|core80|before_after","Point Vicente SMCA","RIDGES_N",1,TRUE
 "primary_years|bottom_mid|core80|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",0,FALSE
 "primary_years|bottom_mid|core80|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",0,FALSE
 "primary_years|bottom_mid|core80|before_after","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",0,FALSE
@@ -753,13 +699,11 @@
 "primary_years|bottom_mid|core90|post_trend","Blue Cavern Onshore SMCA","SCAI_BIRD_ROCK",1,TRUE
 "primary_years|bottom_mid|core90|post_trend","Blue Cavern Onshore SMCA","SCAI_WEST_QUARRY",0,FALSE
 "primary_years|bottom_mid|core90|post_trend","Blue Cavern Onshore SMCA","SCAI_RIPPERS_COVE",1,TRUE
-"primary_years|bottom_mid|core90|post_trend","Campus Point SMCA","IV_REEF_E",0.818181818181818,FALSE
+"primary_years|bottom_mid|core90|post_trend","Campus Point SMCA","IV_REEF_E",1,TRUE
 "primary_years|bottom_mid|core90|post_trend","Campus Point SMCA","IV_REEF_W",1,TRUE
 "primary_years|bottom_mid|core90|post_trend","Campus Point SMCA","a-l-07",0,FALSE
-"primary_years|bottom_mid|core90|post_trend","Campus Point SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
+"primary_years|bottom_mid|core90|post_trend","Campus Point SMCA","ARROYO_QUEMADO_E",1,TRUE
 "primary_years|bottom_mid|core90|post_trend","Campus Point SMCA","ARROYO_QUEMADO_W",1,TRUE
-"primary_years|bottom_mid|core90|post_trend","Campus Point SMCA","CARP_REEF",0,FALSE
-"primary_years|bottom_mid|core90|post_trend","Campus Point SMCA","LEAD_BETTER_BEACH",0,FALSE
 "primary_years|bottom_mid|core90|post_trend","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",1,TRUE
 "primary_years|bottom_mid|core90|post_trend","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",1,TRUE
 "primary_years|bottom_mid|core90|post_trend","Gull Island SMR","SCI_GULL_ISLE",0,FALSE
@@ -786,19 +730,12 @@
 "primary_years|bottom_mid|core90|post_trend","Naples SMCA","NAPLES_E",1,TRUE
 "primary_years|bottom_mid|core90|post_trend","Naples SMCA","NAPLES_W",1,TRUE
 "primary_years|bottom_mid|core90|post_trend","Naples SMCA","a-l-09",0,FALSE
-"primary_years|bottom_mid|core90|post_trend","Naples SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
+"primary_years|bottom_mid|core90|post_trend","Naples SMCA","ARROYO_QUEMADO_E",1,TRUE
 "primary_years|bottom_mid|core90|post_trend","Naples SMCA","ARROYO_QUEMADO_W",1,TRUE
 "primary_years|bottom_mid|core90|post_trend","Point Vicente SMCA","LONG_POINT_E",1,TRUE
 "primary_years|bottom_mid|core90|post_trend","Point Vicente SMCA","POINT_VICENTE_W",1,TRUE
-"primary_years|bottom_mid|core90|post_trend","Point Vicente SMCA","FLAT_ROCK_N",0.818181818181818,FALSE
 "primary_years|bottom_mid|core90|post_trend","Point Vicente SMCA","HAWTHORNE_REEF",1,TRUE
-"primary_years|bottom_mid|core90|post_trend","Point Vicente SMCA","LUNADA_BAY",0.909090909090909,TRUE
-"primary_years|bottom_mid|core90|post_trend","Point Vicente SMCA","RESORT_POINT",1,TRUE
 "primary_years|bottom_mid|core90|post_trend","Point Vicente SMCA","RIDGES_N",1,TRUE
-"primary_years|bottom_mid|core90|post_trend","Point Vicente SMCA","RIDGES_S",1,TRUE
-"primary_years|bottom_mid|core90|post_trend","Point Vicente SMCA","ROCKY_POINT_N",1,TRUE
-"primary_years|bottom_mid|core90|post_trend","Point Vicente SMCA","ROCKY_POINT_S",1,TRUE
-"primary_years|bottom_mid|core90|post_trend","Point Vicente SMCA","UNDERWATER_ARCH",0.909090909090909,TRUE
 "primary_years|bottom_mid|core90|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",0.5,FALSE
 "primary_years|bottom_mid|core90|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",0.4,FALSE
 "primary_years|bottom_mid|core90|post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",0.8,FALSE
@@ -884,13 +821,11 @@
 "primary_years|bottom_mid|core90|before_after","Blue Cavern Onshore SMCA","SCAI_BIRD_ROCK",0,FALSE
 "primary_years|bottom_mid|core90|before_after","Blue Cavern Onshore SMCA","SCAI_WEST_QUARRY",0,FALSE
 "primary_years|bottom_mid|core90|before_after","Blue Cavern Onshore SMCA","SCAI_RIPPERS_COVE",1,TRUE
-"primary_years|bottom_mid|core90|before_after","Campus Point SMCA","IV_REEF_E",0.818181818181818,FALSE
+"primary_years|bottom_mid|core90|before_after","Campus Point SMCA","IV_REEF_E",1,TRUE
 "primary_years|bottom_mid|core90|before_after","Campus Point SMCA","IV_REEF_W",1,TRUE
 "primary_years|bottom_mid|core90|before_after","Campus Point SMCA","a-l-07",0,FALSE
-"primary_years|bottom_mid|core90|before_after","Campus Point SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
+"primary_years|bottom_mid|core90|before_after","Campus Point SMCA","ARROYO_QUEMADO_E",1,TRUE
 "primary_years|bottom_mid|core90|before_after","Campus Point SMCA","ARROYO_QUEMADO_W",1,TRUE
-"primary_years|bottom_mid|core90|before_after","Campus Point SMCA","CARP_REEF",0,FALSE
-"primary_years|bottom_mid|core90|before_after","Campus Point SMCA","LEAD_BETTER_BEACH",0,FALSE
 "primary_years|bottom_mid|core90|before_after","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",1,TRUE
 "primary_years|bottom_mid|core90|before_after","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",1,TRUE
 "primary_years|bottom_mid|core90|before_after","Gull Island SMR","SCI_GULL_ISLE",0,FALSE
@@ -917,19 +852,12 @@
 "primary_years|bottom_mid|core90|before_after","Naples SMCA","NAPLES_E",1,TRUE
 "primary_years|bottom_mid|core90|before_after","Naples SMCA","NAPLES_W",1,TRUE
 "primary_years|bottom_mid|core90|before_after","Naples SMCA","a-l-09",0,FALSE
-"primary_years|bottom_mid|core90|before_after","Naples SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
+"primary_years|bottom_mid|core90|before_after","Naples SMCA","ARROYO_QUEMADO_E",1,TRUE
 "primary_years|bottom_mid|core90|before_after","Naples SMCA","ARROYO_QUEMADO_W",1,TRUE
-"primary_years|bottom_mid|core90|before_after","Point Vicente SMCA","LONG_POINT_E",0.666666666666667,FALSE
+"primary_years|bottom_mid|core90|before_after","Point Vicente SMCA","LONG_POINT_E",1,TRUE
 "primary_years|bottom_mid|core90|before_after","Point Vicente SMCA","POINT_VICENTE_W",1,TRUE
-"primary_years|bottom_mid|core90|before_after","Point Vicente SMCA","FLAT_ROCK_N",0.333333333333333,FALSE
-"primary_years|bottom_mid|core90|before_after","Point Vicente SMCA","HAWTHORNE_REEF",0.666666666666667,FALSE
-"primary_years|bottom_mid|core90|before_after","Point Vicente SMCA","LUNADA_BAY",0.166666666666667,FALSE
-"primary_years|bottom_mid|core90|before_after","Point Vicente SMCA","RESORT_POINT",0.166666666666667,FALSE
-"primary_years|bottom_mid|core90|before_after","Point Vicente SMCA","RIDGES_N",0.666666666666667,FALSE
-"primary_years|bottom_mid|core90|before_after","Point Vicente SMCA","RIDGES_S",0.333333333333333,FALSE
-"primary_years|bottom_mid|core90|before_after","Point Vicente SMCA","ROCKY_POINT_N",0.833333333333333,FALSE
-"primary_years|bottom_mid|core90|before_after","Point Vicente SMCA","ROCKY_POINT_S",0.5,FALSE
-"primary_years|bottom_mid|core90|before_after","Point Vicente SMCA","UNDERWATER_ARCH",0.166666666666667,FALSE
+"primary_years|bottom_mid|core90|before_after","Point Vicente SMCA","HAWTHORNE_REEF",1,TRUE
+"primary_years|bottom_mid|core90|before_after","Point Vicente SMCA","RIDGES_N",1,TRUE
 "primary_years|bottom_mid|core90|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",0,FALSE
 "primary_years|bottom_mid|core90|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",0,FALSE
 "primary_years|bottom_mid|core90|before_after","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",0,FALSE
@@ -1016,8 +944,6 @@
 "primary_years|bottom_recovered|full|post_trend","Campus Point SMCA","IV_REEF_W",NA,TRUE
 "primary_years|bottom_recovered|full|post_trend","Campus Point SMCA","ARROYO_QUEMADO_E",NA,TRUE
 "primary_years|bottom_recovered|full|post_trend","Campus Point SMCA","ARROYO_QUEMADO_W",NA,TRUE
-"primary_years|bottom_recovered|full|post_trend","Campus Point SMCA","CARP_REEF",NA,TRUE
-"primary_years|bottom_recovered|full|post_trend","Campus Point SMCA","LEAD_BETTER_BEACH",NA,TRUE
 "primary_years|bottom_recovered|full|post_trend","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",NA,TRUE
 "primary_years|bottom_recovered|full|post_trend","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",NA,TRUE
 "primary_years|bottom_recovered|full|post_trend","Gull Island SMR","SCI_GULL_ISLE_E",NA,TRUE
@@ -1039,15 +965,8 @@
 "primary_years|bottom_recovered|full|post_trend","Naples SMCA","ARROYO_QUEMADO_W",NA,TRUE
 "primary_years|bottom_recovered|full|post_trend","Point Vicente SMCA","LONG_POINT_E",NA,TRUE
 "primary_years|bottom_recovered|full|post_trend","Point Vicente SMCA","POINT_VICENTE_W",NA,TRUE
-"primary_years|bottom_recovered|full|post_trend","Point Vicente SMCA","FLAT_ROCK_N",NA,TRUE
 "primary_years|bottom_recovered|full|post_trend","Point Vicente SMCA","HAWTHORNE_REEF",NA,TRUE
-"primary_years|bottom_recovered|full|post_trend","Point Vicente SMCA","LUNADA_BAY",NA,TRUE
-"primary_years|bottom_recovered|full|post_trend","Point Vicente SMCA","RESORT_POINT",NA,TRUE
 "primary_years|bottom_recovered|full|post_trend","Point Vicente SMCA","RIDGES_N",NA,TRUE
-"primary_years|bottom_recovered|full|post_trend","Point Vicente SMCA","RIDGES_S",NA,TRUE
-"primary_years|bottom_recovered|full|post_trend","Point Vicente SMCA","ROCKY_POINT_N",NA,TRUE
-"primary_years|bottom_recovered|full|post_trend","Point Vicente SMCA","ROCKY_POINT_S",NA,TRUE
-"primary_years|bottom_recovered|full|post_trend","Point Vicente SMCA","UNDERWATER_ARCH",NA,TRUE
 "primary_years|bottom_recovered|full|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",NA,TRUE
 "primary_years|bottom_recovered|full|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",NA,TRUE
 "primary_years|bottom_recovered|full|post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",NA,TRUE
@@ -1120,8 +1039,6 @@
 "primary_years|bottom_recovered|full|before_after","Campus Point SMCA","IV_REEF_W",NA,TRUE
 "primary_years|bottom_recovered|full|before_after","Campus Point SMCA","ARROYO_QUEMADO_E",NA,TRUE
 "primary_years|bottom_recovered|full|before_after","Campus Point SMCA","ARROYO_QUEMADO_W",NA,TRUE
-"primary_years|bottom_recovered|full|before_after","Campus Point SMCA","CARP_REEF",NA,TRUE
-"primary_years|bottom_recovered|full|before_after","Campus Point SMCA","LEAD_BETTER_BEACH",NA,TRUE
 "primary_years|bottom_recovered|full|before_after","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",NA,TRUE
 "primary_years|bottom_recovered|full|before_after","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",NA,TRUE
 "primary_years|bottom_recovered|full|before_after","Gull Island SMR","SCI_GULL_ISLE_E",NA,TRUE
@@ -1143,15 +1060,8 @@
 "primary_years|bottom_recovered|full|before_after","Naples SMCA","ARROYO_QUEMADO_W",NA,TRUE
 "primary_years|bottom_recovered|full|before_after","Point Vicente SMCA","LONG_POINT_E",NA,TRUE
 "primary_years|bottom_recovered|full|before_after","Point Vicente SMCA","POINT_VICENTE_W",NA,TRUE
-"primary_years|bottom_recovered|full|before_after","Point Vicente SMCA","FLAT_ROCK_N",NA,TRUE
 "primary_years|bottom_recovered|full|before_after","Point Vicente SMCA","HAWTHORNE_REEF",NA,TRUE
-"primary_years|bottom_recovered|full|before_after","Point Vicente SMCA","LUNADA_BAY",NA,TRUE
-"primary_years|bottom_recovered|full|before_after","Point Vicente SMCA","RESORT_POINT",NA,TRUE
 "primary_years|bottom_recovered|full|before_after","Point Vicente SMCA","RIDGES_N",NA,TRUE
-"primary_years|bottom_recovered|full|before_after","Point Vicente SMCA","RIDGES_S",NA,TRUE
-"primary_years|bottom_recovered|full|before_after","Point Vicente SMCA","ROCKY_POINT_N",NA,TRUE
-"primary_years|bottom_recovered|full|before_after","Point Vicente SMCA","ROCKY_POINT_S",NA,TRUE
-"primary_years|bottom_recovered|full|before_after","Point Vicente SMCA","UNDERWATER_ARCH",NA,TRUE
 "primary_years|bottom_recovered|full|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",NA,TRUE
 "primary_years|bottom_recovered|full|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",NA,TRUE
 "primary_years|bottom_recovered|full|before_after","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",NA,TRUE
@@ -1223,13 +1133,11 @@
 "primary_years|bottom_recovered|core70|post_trend","Blue Cavern Onshore SMCA","SCAI_BIRD_ROCK",1,TRUE
 "primary_years|bottom_recovered|core70|post_trend","Blue Cavern Onshore SMCA","SCAI_WEST_QUARRY",0,FALSE
 "primary_years|bottom_recovered|core70|post_trend","Blue Cavern Onshore SMCA","SCAI_RIPPERS_COVE",1,TRUE
-"primary_years|bottom_recovered|core70|post_trend","Campus Point SMCA","IV_REEF_E",0.818181818181818,TRUE
+"primary_years|bottom_recovered|core70|post_trend","Campus Point SMCA","IV_REEF_E",1,TRUE
 "primary_years|bottom_recovered|core70|post_trend","Campus Point SMCA","IV_REEF_W",1,TRUE
 "primary_years|bottom_recovered|core70|post_trend","Campus Point SMCA","a-l-07",0,FALSE
-"primary_years|bottom_recovered|core70|post_trend","Campus Point SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
+"primary_years|bottom_recovered|core70|post_trend","Campus Point SMCA","ARROYO_QUEMADO_E",1,TRUE
 "primary_years|bottom_recovered|core70|post_trend","Campus Point SMCA","ARROYO_QUEMADO_W",1,TRUE
-"primary_years|bottom_recovered|core70|post_trend","Campus Point SMCA","CARP_REEF",0,FALSE
-"primary_years|bottom_recovered|core70|post_trend","Campus Point SMCA","LEAD_BETTER_BEACH",0,FALSE
 "primary_years|bottom_recovered|core70|post_trend","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",1,TRUE
 "primary_years|bottom_recovered|core70|post_trend","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",1,TRUE
 "primary_years|bottom_recovered|core70|post_trend","Gull Island SMR","SCI_GULL_ISLE",0,FALSE
@@ -1256,19 +1164,12 @@
 "primary_years|bottom_recovered|core70|post_trend","Naples SMCA","NAPLES_E",1,TRUE
 "primary_years|bottom_recovered|core70|post_trend","Naples SMCA","NAPLES_W",1,TRUE
 "primary_years|bottom_recovered|core70|post_trend","Naples SMCA","a-l-09",0,FALSE
-"primary_years|bottom_recovered|core70|post_trend","Naples SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
+"primary_years|bottom_recovered|core70|post_trend","Naples SMCA","ARROYO_QUEMADO_E",1,TRUE
 "primary_years|bottom_recovered|core70|post_trend","Naples SMCA","ARROYO_QUEMADO_W",1,TRUE
 "primary_years|bottom_recovered|core70|post_trend","Point Vicente SMCA","LONG_POINT_E",1,TRUE
 "primary_years|bottom_recovered|core70|post_trend","Point Vicente SMCA","POINT_VICENTE_W",1,TRUE
-"primary_years|bottom_recovered|core70|post_trend","Point Vicente SMCA","FLAT_ROCK_N",0.818181818181818,TRUE
 "primary_years|bottom_recovered|core70|post_trend","Point Vicente SMCA","HAWTHORNE_REEF",1,TRUE
-"primary_years|bottom_recovered|core70|post_trend","Point Vicente SMCA","LUNADA_BAY",0.909090909090909,TRUE
-"primary_years|bottom_recovered|core70|post_trend","Point Vicente SMCA","RESORT_POINT",1,TRUE
 "primary_years|bottom_recovered|core70|post_trend","Point Vicente SMCA","RIDGES_N",1,TRUE
-"primary_years|bottom_recovered|core70|post_trend","Point Vicente SMCA","RIDGES_S",1,TRUE
-"primary_years|bottom_recovered|core70|post_trend","Point Vicente SMCA","ROCKY_POINT_N",1,TRUE
-"primary_years|bottom_recovered|core70|post_trend","Point Vicente SMCA","ROCKY_POINT_S",1,TRUE
-"primary_years|bottom_recovered|core70|post_trend","Point Vicente SMCA","UNDERWATER_ARCH",0.909090909090909,TRUE
 "primary_years|bottom_recovered|core70|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",0.5,FALSE
 "primary_years|bottom_recovered|core70|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",0.4,FALSE
 "primary_years|bottom_recovered|core70|post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",0.8,TRUE
@@ -1354,13 +1255,11 @@
 "primary_years|bottom_recovered|core70|before_after","Blue Cavern Onshore SMCA","SCAI_BIRD_ROCK",0,FALSE
 "primary_years|bottom_recovered|core70|before_after","Blue Cavern Onshore SMCA","SCAI_WEST_QUARRY",0,FALSE
 "primary_years|bottom_recovered|core70|before_after","Blue Cavern Onshore SMCA","SCAI_RIPPERS_COVE",1,TRUE
-"primary_years|bottom_recovered|core70|before_after","Campus Point SMCA","IV_REEF_E",0.818181818181818,TRUE
+"primary_years|bottom_recovered|core70|before_after","Campus Point SMCA","IV_REEF_E",1,TRUE
 "primary_years|bottom_recovered|core70|before_after","Campus Point SMCA","IV_REEF_W",1,TRUE
 "primary_years|bottom_recovered|core70|before_after","Campus Point SMCA","a-l-07",0,FALSE
-"primary_years|bottom_recovered|core70|before_after","Campus Point SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
+"primary_years|bottom_recovered|core70|before_after","Campus Point SMCA","ARROYO_QUEMADO_E",1,TRUE
 "primary_years|bottom_recovered|core70|before_after","Campus Point SMCA","ARROYO_QUEMADO_W",1,TRUE
-"primary_years|bottom_recovered|core70|before_after","Campus Point SMCA","CARP_REEF",0,FALSE
-"primary_years|bottom_recovered|core70|before_after","Campus Point SMCA","LEAD_BETTER_BEACH",0,FALSE
 "primary_years|bottom_recovered|core70|before_after","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",1,TRUE
 "primary_years|bottom_recovered|core70|before_after","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",1,TRUE
 "primary_years|bottom_recovered|core70|before_after","Gull Island SMR","SCI_GULL_ISLE",0,FALSE
@@ -1387,19 +1286,12 @@
 "primary_years|bottom_recovered|core70|before_after","Naples SMCA","NAPLES_E",1,TRUE
 "primary_years|bottom_recovered|core70|before_after","Naples SMCA","NAPLES_W",1,TRUE
 "primary_years|bottom_recovered|core70|before_after","Naples SMCA","a-l-09",0,FALSE
-"primary_years|bottom_recovered|core70|before_after","Naples SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
+"primary_years|bottom_recovered|core70|before_after","Naples SMCA","ARROYO_QUEMADO_E",1,TRUE
 "primary_years|bottom_recovered|core70|before_after","Naples SMCA","ARROYO_QUEMADO_W",1,TRUE
-"primary_years|bottom_recovered|core70|before_after","Point Vicente SMCA","LONG_POINT_E",0.666666666666667,FALSE
+"primary_years|bottom_recovered|core70|before_after","Point Vicente SMCA","LONG_POINT_E",1,TRUE
 "primary_years|bottom_recovered|core70|before_after","Point Vicente SMCA","POINT_VICENTE_W",1,TRUE
-"primary_years|bottom_recovered|core70|before_after","Point Vicente SMCA","FLAT_ROCK_N",0.333333333333333,FALSE
-"primary_years|bottom_recovered|core70|before_after","Point Vicente SMCA","HAWTHORNE_REEF",0.666666666666667,FALSE
-"primary_years|bottom_recovered|core70|before_after","Point Vicente SMCA","LUNADA_BAY",0.166666666666667,FALSE
-"primary_years|bottom_recovered|core70|before_after","Point Vicente SMCA","RESORT_POINT",0.166666666666667,FALSE
-"primary_years|bottom_recovered|core70|before_after","Point Vicente SMCA","RIDGES_N",0.833333333333333,TRUE
-"primary_years|bottom_recovered|core70|before_after","Point Vicente SMCA","RIDGES_S",0.333333333333333,FALSE
-"primary_years|bottom_recovered|core70|before_after","Point Vicente SMCA","ROCKY_POINT_N",0.833333333333333,TRUE
-"primary_years|bottom_recovered|core70|before_after","Point Vicente SMCA","ROCKY_POINT_S",0.5,FALSE
-"primary_years|bottom_recovered|core70|before_after","Point Vicente SMCA","UNDERWATER_ARCH",0.166666666666667,FALSE
+"primary_years|bottom_recovered|core70|before_after","Point Vicente SMCA","HAWTHORNE_REEF",1,TRUE
+"primary_years|bottom_recovered|core70|before_after","Point Vicente SMCA","RIDGES_N",1,TRUE
 "primary_years|bottom_recovered|core70|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",0,FALSE
 "primary_years|bottom_recovered|core70|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",0,FALSE
 "primary_years|bottom_recovered|core70|before_after","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",0,FALSE
@@ -1485,13 +1377,11 @@
 "primary_years|bottom_recovered|core80|post_trend","Blue Cavern Onshore SMCA","SCAI_BIRD_ROCK",1,TRUE
 "primary_years|bottom_recovered|core80|post_trend","Blue Cavern Onshore SMCA","SCAI_WEST_QUARRY",0,FALSE
 "primary_years|bottom_recovered|core80|post_trend","Blue Cavern Onshore SMCA","SCAI_RIPPERS_COVE",1,TRUE
-"primary_years|bottom_recovered|core80|post_trend","Campus Point SMCA","IV_REEF_E",0.818181818181818,TRUE
+"primary_years|bottom_recovered|core80|post_trend","Campus Point SMCA","IV_REEF_E",1,TRUE
 "primary_years|bottom_recovered|core80|post_trend","Campus Point SMCA","IV_REEF_W",1,TRUE
 "primary_years|bottom_recovered|core80|post_trend","Campus Point SMCA","a-l-07",0,FALSE
-"primary_years|bottom_recovered|core80|post_trend","Campus Point SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
+"primary_years|bottom_recovered|core80|post_trend","Campus Point SMCA","ARROYO_QUEMADO_E",1,TRUE
 "primary_years|bottom_recovered|core80|post_trend","Campus Point SMCA","ARROYO_QUEMADO_W",1,TRUE
-"primary_years|bottom_recovered|core80|post_trend","Campus Point SMCA","CARP_REEF",0,FALSE
-"primary_years|bottom_recovered|core80|post_trend","Campus Point SMCA","LEAD_BETTER_BEACH",0,FALSE
 "primary_years|bottom_recovered|core80|post_trend","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",1,TRUE
 "primary_years|bottom_recovered|core80|post_trend","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",1,TRUE
 "primary_years|bottom_recovered|core80|post_trend","Gull Island SMR","SCI_GULL_ISLE",0,FALSE
@@ -1518,19 +1408,12 @@
 "primary_years|bottom_recovered|core80|post_trend","Naples SMCA","NAPLES_E",1,TRUE
 "primary_years|bottom_recovered|core80|post_trend","Naples SMCA","NAPLES_W",1,TRUE
 "primary_years|bottom_recovered|core80|post_trend","Naples SMCA","a-l-09",0,FALSE
-"primary_years|bottom_recovered|core80|post_trend","Naples SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
+"primary_years|bottom_recovered|core80|post_trend","Naples SMCA","ARROYO_QUEMADO_E",1,TRUE
 "primary_years|bottom_recovered|core80|post_trend","Naples SMCA","ARROYO_QUEMADO_W",1,TRUE
 "primary_years|bottom_recovered|core80|post_trend","Point Vicente SMCA","LONG_POINT_E",1,TRUE
 "primary_years|bottom_recovered|core80|post_trend","Point Vicente SMCA","POINT_VICENTE_W",1,TRUE
-"primary_years|bottom_recovered|core80|post_trend","Point Vicente SMCA","FLAT_ROCK_N",0.818181818181818,TRUE
 "primary_years|bottom_recovered|core80|post_trend","Point Vicente SMCA","HAWTHORNE_REEF",1,TRUE
-"primary_years|bottom_recovered|core80|post_trend","Point Vicente SMCA","LUNADA_BAY",0.909090909090909,TRUE
-"primary_years|bottom_recovered|core80|post_trend","Point Vicente SMCA","RESORT_POINT",1,TRUE
 "primary_years|bottom_recovered|core80|post_trend","Point Vicente SMCA","RIDGES_N",1,TRUE
-"primary_years|bottom_recovered|core80|post_trend","Point Vicente SMCA","RIDGES_S",1,TRUE
-"primary_years|bottom_recovered|core80|post_trend","Point Vicente SMCA","ROCKY_POINT_N",1,TRUE
-"primary_years|bottom_recovered|core80|post_trend","Point Vicente SMCA","ROCKY_POINT_S",1,TRUE
-"primary_years|bottom_recovered|core80|post_trend","Point Vicente SMCA","UNDERWATER_ARCH",0.909090909090909,TRUE
 "primary_years|bottom_recovered|core80|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",0.5,FALSE
 "primary_years|bottom_recovered|core80|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",0.4,FALSE
 "primary_years|bottom_recovered|core80|post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",0.8,TRUE
@@ -1616,13 +1499,11 @@
 "primary_years|bottom_recovered|core80|before_after","Blue Cavern Onshore SMCA","SCAI_BIRD_ROCK",0,FALSE
 "primary_years|bottom_recovered|core80|before_after","Blue Cavern Onshore SMCA","SCAI_WEST_QUARRY",0,FALSE
 "primary_years|bottom_recovered|core80|before_after","Blue Cavern Onshore SMCA","SCAI_RIPPERS_COVE",1,TRUE
-"primary_years|bottom_recovered|core80|before_after","Campus Point SMCA","IV_REEF_E",0.818181818181818,TRUE
+"primary_years|bottom_recovered|core80|before_after","Campus Point SMCA","IV_REEF_E",1,TRUE
 "primary_years|bottom_recovered|core80|before_after","Campus Point SMCA","IV_REEF_W",1,TRUE
 "primary_years|bottom_recovered|core80|before_after","Campus Point SMCA","a-l-07",0,FALSE
-"primary_years|bottom_recovered|core80|before_after","Campus Point SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
+"primary_years|bottom_recovered|core80|before_after","Campus Point SMCA","ARROYO_QUEMADO_E",1,TRUE
 "primary_years|bottom_recovered|core80|before_after","Campus Point SMCA","ARROYO_QUEMADO_W",1,TRUE
-"primary_years|bottom_recovered|core80|before_after","Campus Point SMCA","CARP_REEF",0,FALSE
-"primary_years|bottom_recovered|core80|before_after","Campus Point SMCA","LEAD_BETTER_BEACH",0,FALSE
 "primary_years|bottom_recovered|core80|before_after","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",1,TRUE
 "primary_years|bottom_recovered|core80|before_after","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",1,TRUE
 "primary_years|bottom_recovered|core80|before_after","Gull Island SMR","SCI_GULL_ISLE",0,FALSE
@@ -1649,19 +1530,12 @@
 "primary_years|bottom_recovered|core80|before_after","Naples SMCA","NAPLES_E",1,TRUE
 "primary_years|bottom_recovered|core80|before_after","Naples SMCA","NAPLES_W",1,TRUE
 "primary_years|bottom_recovered|core80|before_after","Naples SMCA","a-l-09",0,FALSE
-"primary_years|bottom_recovered|core80|before_after","Naples SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
+"primary_years|bottom_recovered|core80|before_after","Naples SMCA","ARROYO_QUEMADO_E",1,TRUE
 "primary_years|bottom_recovered|core80|before_after","Naples SMCA","ARROYO_QUEMADO_W",1,TRUE
-"primary_years|bottom_recovered|core80|before_after","Point Vicente SMCA","LONG_POINT_E",0.666666666666667,FALSE
+"primary_years|bottom_recovered|core80|before_after","Point Vicente SMCA","LONG_POINT_E",1,TRUE
 "primary_years|bottom_recovered|core80|before_after","Point Vicente SMCA","POINT_VICENTE_W",1,TRUE
-"primary_years|bottom_recovered|core80|before_after","Point Vicente SMCA","FLAT_ROCK_N",0.333333333333333,FALSE
-"primary_years|bottom_recovered|core80|before_after","Point Vicente SMCA","HAWTHORNE_REEF",0.666666666666667,FALSE
-"primary_years|bottom_recovered|core80|before_after","Point Vicente SMCA","LUNADA_BAY",0.166666666666667,FALSE
-"primary_years|bottom_recovered|core80|before_after","Point Vicente SMCA","RESORT_POINT",0.166666666666667,FALSE
-"primary_years|bottom_recovered|core80|before_after","Point Vicente SMCA","RIDGES_N",0.833333333333333,TRUE
-"primary_years|bottom_recovered|core80|before_after","Point Vicente SMCA","RIDGES_S",0.333333333333333,FALSE
-"primary_years|bottom_recovered|core80|before_after","Point Vicente SMCA","ROCKY_POINT_N",0.833333333333333,TRUE
-"primary_years|bottom_recovered|core80|before_after","Point Vicente SMCA","ROCKY_POINT_S",0.5,FALSE
-"primary_years|bottom_recovered|core80|before_after","Point Vicente SMCA","UNDERWATER_ARCH",0.166666666666667,FALSE
+"primary_years|bottom_recovered|core80|before_after","Point Vicente SMCA","HAWTHORNE_REEF",1,TRUE
+"primary_years|bottom_recovered|core80|before_after","Point Vicente SMCA","RIDGES_N",1,TRUE
 "primary_years|bottom_recovered|core80|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",0,FALSE
 "primary_years|bottom_recovered|core80|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",0,FALSE
 "primary_years|bottom_recovered|core80|before_after","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",0,FALSE
@@ -1747,13 +1621,11 @@
 "primary_years|bottom_recovered|core90|post_trend","Blue Cavern Onshore SMCA","SCAI_BIRD_ROCK",1,TRUE
 "primary_years|bottom_recovered|core90|post_trend","Blue Cavern Onshore SMCA","SCAI_WEST_QUARRY",0,FALSE
 "primary_years|bottom_recovered|core90|post_trend","Blue Cavern Onshore SMCA","SCAI_RIPPERS_COVE",1,TRUE
-"primary_years|bottom_recovered|core90|post_trend","Campus Point SMCA","IV_REEF_E",0.818181818181818,FALSE
+"primary_years|bottom_recovered|core90|post_trend","Campus Point SMCA","IV_REEF_E",1,TRUE
 "primary_years|bottom_recovered|core90|post_trend","Campus Point SMCA","IV_REEF_W",1,TRUE
 "primary_years|bottom_recovered|core90|post_trend","Campus Point SMCA","a-l-07",0,FALSE
-"primary_years|bottom_recovered|core90|post_trend","Campus Point SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
+"primary_years|bottom_recovered|core90|post_trend","Campus Point SMCA","ARROYO_QUEMADO_E",1,TRUE
 "primary_years|bottom_recovered|core90|post_trend","Campus Point SMCA","ARROYO_QUEMADO_W",1,TRUE
-"primary_years|bottom_recovered|core90|post_trend","Campus Point SMCA","CARP_REEF",0,FALSE
-"primary_years|bottom_recovered|core90|post_trend","Campus Point SMCA","LEAD_BETTER_BEACH",0,FALSE
 "primary_years|bottom_recovered|core90|post_trend","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",1,TRUE
 "primary_years|bottom_recovered|core90|post_trend","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",1,TRUE
 "primary_years|bottom_recovered|core90|post_trend","Gull Island SMR","SCI_GULL_ISLE",0,FALSE
@@ -1780,19 +1652,12 @@
 "primary_years|bottom_recovered|core90|post_trend","Naples SMCA","NAPLES_E",1,TRUE
 "primary_years|bottom_recovered|core90|post_trend","Naples SMCA","NAPLES_W",1,TRUE
 "primary_years|bottom_recovered|core90|post_trend","Naples SMCA","a-l-09",0,FALSE
-"primary_years|bottom_recovered|core90|post_trend","Naples SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
+"primary_years|bottom_recovered|core90|post_trend","Naples SMCA","ARROYO_QUEMADO_E",1,TRUE
 "primary_years|bottom_recovered|core90|post_trend","Naples SMCA","ARROYO_QUEMADO_W",1,TRUE
 "primary_years|bottom_recovered|core90|post_trend","Point Vicente SMCA","LONG_POINT_E",1,TRUE
 "primary_years|bottom_recovered|core90|post_trend","Point Vicente SMCA","POINT_VICENTE_W",1,TRUE
-"primary_years|bottom_recovered|core90|post_trend","Point Vicente SMCA","FLAT_ROCK_N",0.818181818181818,FALSE
 "primary_years|bottom_recovered|core90|post_trend","Point Vicente SMCA","HAWTHORNE_REEF",1,TRUE
-"primary_years|bottom_recovered|core90|post_trend","Point Vicente SMCA","LUNADA_BAY",0.909090909090909,TRUE
-"primary_years|bottom_recovered|core90|post_trend","Point Vicente SMCA","RESORT_POINT",1,TRUE
 "primary_years|bottom_recovered|core90|post_trend","Point Vicente SMCA","RIDGES_N",1,TRUE
-"primary_years|bottom_recovered|core90|post_trend","Point Vicente SMCA","RIDGES_S",1,TRUE
-"primary_years|bottom_recovered|core90|post_trend","Point Vicente SMCA","ROCKY_POINT_N",1,TRUE
-"primary_years|bottom_recovered|core90|post_trend","Point Vicente SMCA","ROCKY_POINT_S",1,TRUE
-"primary_years|bottom_recovered|core90|post_trend","Point Vicente SMCA","UNDERWATER_ARCH",0.909090909090909,TRUE
 "primary_years|bottom_recovered|core90|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",0.5,FALSE
 "primary_years|bottom_recovered|core90|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",0.4,FALSE
 "primary_years|bottom_recovered|core90|post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",0.8,FALSE
@@ -1878,13 +1743,11 @@
 "primary_years|bottom_recovered|core90|before_after","Blue Cavern Onshore SMCA","SCAI_BIRD_ROCK",0,FALSE
 "primary_years|bottom_recovered|core90|before_after","Blue Cavern Onshore SMCA","SCAI_WEST_QUARRY",0,FALSE
 "primary_years|bottom_recovered|core90|before_after","Blue Cavern Onshore SMCA","SCAI_RIPPERS_COVE",1,TRUE
-"primary_years|bottom_recovered|core90|before_after","Campus Point SMCA","IV_REEF_E",0.818181818181818,FALSE
+"primary_years|bottom_recovered|core90|before_after","Campus Point SMCA","IV_REEF_E",1,TRUE
 "primary_years|bottom_recovered|core90|before_after","Campus Point SMCA","IV_REEF_W",1,TRUE
 "primary_years|bottom_recovered|core90|before_after","Campus Point SMCA","a-l-07",0,FALSE
-"primary_years|bottom_recovered|core90|before_after","Campus Point SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
+"primary_years|bottom_recovered|core90|before_after","Campus Point SMCA","ARROYO_QUEMADO_E",1,TRUE
 "primary_years|bottom_recovered|core90|before_after","Campus Point SMCA","ARROYO_QUEMADO_W",1,TRUE
-"primary_years|bottom_recovered|core90|before_after","Campus Point SMCA","CARP_REEF",0,FALSE
-"primary_years|bottom_recovered|core90|before_after","Campus Point SMCA","LEAD_BETTER_BEACH",0,FALSE
 "primary_years|bottom_recovered|core90|before_after","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",1,TRUE
 "primary_years|bottom_recovered|core90|before_after","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",1,TRUE
 "primary_years|bottom_recovered|core90|before_after","Gull Island SMR","SCI_GULL_ISLE",0,FALSE
@@ -1911,19 +1774,12 @@
 "primary_years|bottom_recovered|core90|before_after","Naples SMCA","NAPLES_E",1,TRUE
 "primary_years|bottom_recovered|core90|before_after","Naples SMCA","NAPLES_W",1,TRUE
 "primary_years|bottom_recovered|core90|before_after","Naples SMCA","a-l-09",0,FALSE
-"primary_years|bottom_recovered|core90|before_after","Naples SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
+"primary_years|bottom_recovered|core90|before_after","Naples SMCA","ARROYO_QUEMADO_E",1,TRUE
 "primary_years|bottom_recovered|core90|before_after","Naples SMCA","ARROYO_QUEMADO_W",1,TRUE
-"primary_years|bottom_recovered|core90|before_after","Point Vicente SMCA","LONG_POINT_E",0.666666666666667,FALSE
+"primary_years|bottom_recovered|core90|before_after","Point Vicente SMCA","LONG_POINT_E",1,TRUE
 "primary_years|bottom_recovered|core90|before_after","Point Vicente SMCA","POINT_VICENTE_W",1,TRUE
-"primary_years|bottom_recovered|core90|before_after","Point Vicente SMCA","FLAT_ROCK_N",0.333333333333333,FALSE
-"primary_years|bottom_recovered|core90|before_after","Point Vicente SMCA","HAWTHORNE_REEF",0.666666666666667,FALSE
-"primary_years|bottom_recovered|core90|before_after","Point Vicente SMCA","LUNADA_BAY",0.166666666666667,FALSE
-"primary_years|bottom_recovered|core90|before_after","Point Vicente SMCA","RESORT_POINT",0.166666666666667,FALSE
-"primary_years|bottom_recovered|core90|before_after","Point Vicente SMCA","RIDGES_N",0.833333333333333,FALSE
-"primary_years|bottom_recovered|core90|before_after","Point Vicente SMCA","RIDGES_S",0.333333333333333,FALSE
-"primary_years|bottom_recovered|core90|before_after","Point Vicente SMCA","ROCKY_POINT_N",0.833333333333333,FALSE
-"primary_years|bottom_recovered|core90|before_after","Point Vicente SMCA","ROCKY_POINT_S",0.5,FALSE
-"primary_years|bottom_recovered|core90|before_after","Point Vicente SMCA","UNDERWATER_ARCH",0.166666666666667,FALSE
+"primary_years|bottom_recovered|core90|before_after","Point Vicente SMCA","HAWTHORNE_REEF",1,TRUE
+"primary_years|bottom_recovered|core90|before_after","Point Vicente SMCA","RIDGES_N",1,TRUE
 "primary_years|bottom_recovered|core90|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",0,FALSE
 "primary_years|bottom_recovered|core90|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",0,FALSE
 "primary_years|bottom_recovered|core90|before_after","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",0,FALSE
@@ -2010,8 +1866,6 @@
 "raw_years|bottom_mid|full|post_trend","Campus Point SMCA","IV_REEF_W",NA,TRUE
 "raw_years|bottom_mid|full|post_trend","Campus Point SMCA","ARROYO_QUEMADO_E",NA,TRUE
 "raw_years|bottom_mid|full|post_trend","Campus Point SMCA","ARROYO_QUEMADO_W",NA,TRUE
-"raw_years|bottom_mid|full|post_trend","Campus Point SMCA","CARP_REEF",NA,TRUE
-"raw_years|bottom_mid|full|post_trend","Campus Point SMCA","LEAD_BETTER_BEACH",NA,TRUE
 "raw_years|bottom_mid|full|post_trend","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",NA,TRUE
 "raw_years|bottom_mid|full|post_trend","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",NA,TRUE
 "raw_years|bottom_mid|full|post_trend","Gull Island SMR","SCI_GULL_ISLE_E",NA,TRUE
@@ -2036,15 +1890,8 @@
 "raw_years|bottom_mid|full|post_trend","Naples SMCA","ARROYO_QUEMADO_W",NA,TRUE
 "raw_years|bottom_mid|full|post_trend","Point Vicente SMCA","LONG_POINT_E",NA,TRUE
 "raw_years|bottom_mid|full|post_trend","Point Vicente SMCA","POINT_VICENTE_W",NA,TRUE
-"raw_years|bottom_mid|full|post_trend","Point Vicente SMCA","FLAT_ROCK_N",NA,TRUE
 "raw_years|bottom_mid|full|post_trend","Point Vicente SMCA","HAWTHORNE_REEF",NA,TRUE
-"raw_years|bottom_mid|full|post_trend","Point Vicente SMCA","LUNADA_BAY",NA,TRUE
-"raw_years|bottom_mid|full|post_trend","Point Vicente SMCA","RESORT_POINT",NA,TRUE
 "raw_years|bottom_mid|full|post_trend","Point Vicente SMCA","RIDGES_N",NA,TRUE
-"raw_years|bottom_mid|full|post_trend","Point Vicente SMCA","RIDGES_S",NA,TRUE
-"raw_years|bottom_mid|full|post_trend","Point Vicente SMCA","ROCKY_POINT_N",NA,TRUE
-"raw_years|bottom_mid|full|post_trend","Point Vicente SMCA","ROCKY_POINT_S",NA,TRUE
-"raw_years|bottom_mid|full|post_trend","Point Vicente SMCA","UNDERWATER_ARCH",NA,TRUE
 "raw_years|bottom_mid|full|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",NA,TRUE
 "raw_years|bottom_mid|full|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",NA,TRUE
 "raw_years|bottom_mid|full|post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",NA,TRUE
@@ -2117,8 +1964,6 @@
 "raw_years|bottom_mid|full|before_after","Campus Point SMCA","IV_REEF_W",NA,TRUE
 "raw_years|bottom_mid|full|before_after","Campus Point SMCA","ARROYO_QUEMADO_E",NA,TRUE
 "raw_years|bottom_mid|full|before_after","Campus Point SMCA","ARROYO_QUEMADO_W",NA,TRUE
-"raw_years|bottom_mid|full|before_after","Campus Point SMCA","CARP_REEF",NA,TRUE
-"raw_years|bottom_mid|full|before_after","Campus Point SMCA","LEAD_BETTER_BEACH",NA,TRUE
 "raw_years|bottom_mid|full|before_after","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",NA,TRUE
 "raw_years|bottom_mid|full|before_after","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",NA,TRUE
 "raw_years|bottom_mid|full|before_after","Gull Island SMR","SCI_GULL_ISLE_E",NA,TRUE
@@ -2143,15 +1988,8 @@
 "raw_years|bottom_mid|full|before_after","Naples SMCA","ARROYO_QUEMADO_W",NA,TRUE
 "raw_years|bottom_mid|full|before_after","Point Vicente SMCA","LONG_POINT_E",NA,TRUE
 "raw_years|bottom_mid|full|before_after","Point Vicente SMCA","POINT_VICENTE_W",NA,TRUE
-"raw_years|bottom_mid|full|before_after","Point Vicente SMCA","FLAT_ROCK_N",NA,TRUE
 "raw_years|bottom_mid|full|before_after","Point Vicente SMCA","HAWTHORNE_REEF",NA,TRUE
-"raw_years|bottom_mid|full|before_after","Point Vicente SMCA","LUNADA_BAY",NA,TRUE
-"raw_years|bottom_mid|full|before_after","Point Vicente SMCA","RESORT_POINT",NA,TRUE
 "raw_years|bottom_mid|full|before_after","Point Vicente SMCA","RIDGES_N",NA,TRUE
-"raw_years|bottom_mid|full|before_after","Point Vicente SMCA","RIDGES_S",NA,TRUE
-"raw_years|bottom_mid|full|before_after","Point Vicente SMCA","ROCKY_POINT_N",NA,TRUE
-"raw_years|bottom_mid|full|before_after","Point Vicente SMCA","ROCKY_POINT_S",NA,TRUE
-"raw_years|bottom_mid|full|before_after","Point Vicente SMCA","UNDERWATER_ARCH",NA,TRUE
 "raw_years|bottom_mid|full|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",NA,TRUE
 "raw_years|bottom_mid|full|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",NA,TRUE
 "raw_years|bottom_mid|full|before_after","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",NA,TRUE
@@ -2228,8 +2066,6 @@
 "raw_years|bottom_mid|core70|post_trend","Campus Point SMCA","a-l-07",0,FALSE
 "raw_years|bottom_mid|core70|post_trend","Campus Point SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
 "raw_years|bottom_mid|core70|post_trend","Campus Point SMCA","ARROYO_QUEMADO_W",1,TRUE
-"raw_years|bottom_mid|core70|post_trend","Campus Point SMCA","CARP_REEF",0,FALSE
-"raw_years|bottom_mid|core70|post_trend","Campus Point SMCA","LEAD_BETTER_BEACH",0,FALSE
 "raw_years|bottom_mid|core70|post_trend","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",1,TRUE
 "raw_years|bottom_mid|core70|post_trend","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",1,TRUE
 "raw_years|bottom_mid|core70|post_trend","Gull Island SMR","SCI_GULL_ISLE",0,FALSE
@@ -2260,15 +2096,8 @@
 "raw_years|bottom_mid|core70|post_trend","Naples SMCA","ARROYO_QUEMADO_W",1,TRUE
 "raw_years|bottom_mid|core70|post_trend","Point Vicente SMCA","LONG_POINT_E",1,TRUE
 "raw_years|bottom_mid|core70|post_trend","Point Vicente SMCA","POINT_VICENTE_W",1,TRUE
-"raw_years|bottom_mid|core70|post_trend","Point Vicente SMCA","FLAT_ROCK_N",0.818181818181818,TRUE
 "raw_years|bottom_mid|core70|post_trend","Point Vicente SMCA","HAWTHORNE_REEF",1,TRUE
-"raw_years|bottom_mid|core70|post_trend","Point Vicente SMCA","LUNADA_BAY",0.909090909090909,TRUE
-"raw_years|bottom_mid|core70|post_trend","Point Vicente SMCA","RESORT_POINT",1,TRUE
 "raw_years|bottom_mid|core70|post_trend","Point Vicente SMCA","RIDGES_N",1,TRUE
-"raw_years|bottom_mid|core70|post_trend","Point Vicente SMCA","RIDGES_S",1,TRUE
-"raw_years|bottom_mid|core70|post_trend","Point Vicente SMCA","ROCKY_POINT_N",1,TRUE
-"raw_years|bottom_mid|core70|post_trend","Point Vicente SMCA","ROCKY_POINT_S",1,TRUE
-"raw_years|bottom_mid|core70|post_trend","Point Vicente SMCA","UNDERWATER_ARCH",0.909090909090909,TRUE
 "raw_years|bottom_mid|core70|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",0.454545454545455,FALSE
 "raw_years|bottom_mid|core70|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",0.363636363636364,FALSE
 "raw_years|bottom_mid|core70|post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",0.818181818181818,TRUE
@@ -2359,8 +2188,6 @@
 "raw_years|bottom_mid|core70|before_after","Campus Point SMCA","a-l-07",0,FALSE
 "raw_years|bottom_mid|core70|before_after","Campus Point SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
 "raw_years|bottom_mid|core70|before_after","Campus Point SMCA","ARROYO_QUEMADO_W",1,TRUE
-"raw_years|bottom_mid|core70|before_after","Campus Point SMCA","CARP_REEF",0,FALSE
-"raw_years|bottom_mid|core70|before_after","Campus Point SMCA","LEAD_BETTER_BEACH",0,FALSE
 "raw_years|bottom_mid|core70|before_after","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",1,TRUE
 "raw_years|bottom_mid|core70|before_after","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",0.5,FALSE
 "raw_years|bottom_mid|core70|before_after","Gull Island SMR","SCI_GULL_ISLE",0,FALSE
@@ -2391,15 +2218,8 @@
 "raw_years|bottom_mid|core70|before_after","Naples SMCA","ARROYO_QUEMADO_W",0.230769230769231,FALSE
 "raw_years|bottom_mid|core70|before_after","Point Vicente SMCA","LONG_POINT_E",0.666666666666667,FALSE
 "raw_years|bottom_mid|core70|before_after","Point Vicente SMCA","POINT_VICENTE_W",1,TRUE
-"raw_years|bottom_mid|core70|before_after","Point Vicente SMCA","FLAT_ROCK_N",0.333333333333333,FALSE
 "raw_years|bottom_mid|core70|before_after","Point Vicente SMCA","HAWTHORNE_REEF",0.666666666666667,FALSE
-"raw_years|bottom_mid|core70|before_after","Point Vicente SMCA","LUNADA_BAY",0.166666666666667,FALSE
-"raw_years|bottom_mid|core70|before_after","Point Vicente SMCA","RESORT_POINT",0.166666666666667,FALSE
 "raw_years|bottom_mid|core70|before_after","Point Vicente SMCA","RIDGES_N",0.666666666666667,FALSE
-"raw_years|bottom_mid|core70|before_after","Point Vicente SMCA","RIDGES_S",0.333333333333333,FALSE
-"raw_years|bottom_mid|core70|before_after","Point Vicente SMCA","ROCKY_POINT_N",0.833333333333333,TRUE
-"raw_years|bottom_mid|core70|before_after","Point Vicente SMCA","ROCKY_POINT_S",0.5,FALSE
-"raw_years|bottom_mid|core70|before_after","Point Vicente SMCA","UNDERWATER_ARCH",0.166666666666667,FALSE
 "raw_years|bottom_mid|core70|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",0,FALSE
 "raw_years|bottom_mid|core70|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",0,FALSE
 "raw_years|bottom_mid|core70|before_after","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",0,FALSE
@@ -2490,8 +2310,6 @@
 "raw_years|bottom_mid|core80|post_trend","Campus Point SMCA","a-l-07",0,FALSE
 "raw_years|bottom_mid|core80|post_trend","Campus Point SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
 "raw_years|bottom_mid|core80|post_trend","Campus Point SMCA","ARROYO_QUEMADO_W",1,TRUE
-"raw_years|bottom_mid|core80|post_trend","Campus Point SMCA","CARP_REEF",0,FALSE
-"raw_years|bottom_mid|core80|post_trend","Campus Point SMCA","LEAD_BETTER_BEACH",0,FALSE
 "raw_years|bottom_mid|core80|post_trend","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",1,TRUE
 "raw_years|bottom_mid|core80|post_trend","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",1,TRUE
 "raw_years|bottom_mid|core80|post_trend","Gull Island SMR","SCI_GULL_ISLE",0,FALSE
@@ -2522,15 +2340,8 @@
 "raw_years|bottom_mid|core80|post_trend","Naples SMCA","ARROYO_QUEMADO_W",1,TRUE
 "raw_years|bottom_mid|core80|post_trend","Point Vicente SMCA","LONG_POINT_E",1,TRUE
 "raw_years|bottom_mid|core80|post_trend","Point Vicente SMCA","POINT_VICENTE_W",1,TRUE
-"raw_years|bottom_mid|core80|post_trend","Point Vicente SMCA","FLAT_ROCK_N",0.818181818181818,TRUE
 "raw_years|bottom_mid|core80|post_trend","Point Vicente SMCA","HAWTHORNE_REEF",1,TRUE
-"raw_years|bottom_mid|core80|post_trend","Point Vicente SMCA","LUNADA_BAY",0.909090909090909,TRUE
-"raw_years|bottom_mid|core80|post_trend","Point Vicente SMCA","RESORT_POINT",1,TRUE
 "raw_years|bottom_mid|core80|post_trend","Point Vicente SMCA","RIDGES_N",1,TRUE
-"raw_years|bottom_mid|core80|post_trend","Point Vicente SMCA","RIDGES_S",1,TRUE
-"raw_years|bottom_mid|core80|post_trend","Point Vicente SMCA","ROCKY_POINT_N",1,TRUE
-"raw_years|bottom_mid|core80|post_trend","Point Vicente SMCA","ROCKY_POINT_S",1,TRUE
-"raw_years|bottom_mid|core80|post_trend","Point Vicente SMCA","UNDERWATER_ARCH",0.909090909090909,TRUE
 "raw_years|bottom_mid|core80|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",0.454545454545455,FALSE
 "raw_years|bottom_mid|core80|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",0.363636363636364,FALSE
 "raw_years|bottom_mid|core80|post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",0.818181818181818,TRUE
@@ -2621,8 +2432,6 @@
 "raw_years|bottom_mid|core80|before_after","Campus Point SMCA","a-l-07",0,FALSE
 "raw_years|bottom_mid|core80|before_after","Campus Point SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
 "raw_years|bottom_mid|core80|before_after","Campus Point SMCA","ARROYO_QUEMADO_W",1,TRUE
-"raw_years|bottom_mid|core80|before_after","Campus Point SMCA","CARP_REEF",0,FALSE
-"raw_years|bottom_mid|core80|before_after","Campus Point SMCA","LEAD_BETTER_BEACH",0,FALSE
 "raw_years|bottom_mid|core80|before_after","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",1,TRUE
 "raw_years|bottom_mid|core80|before_after","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",0.5,FALSE
 "raw_years|bottom_mid|core80|before_after","Gull Island SMR","SCI_GULL_ISLE",0,FALSE
@@ -2653,15 +2462,8 @@
 "raw_years|bottom_mid|core80|before_after","Naples SMCA","ARROYO_QUEMADO_W",0.230769230769231,FALSE
 "raw_years|bottom_mid|core80|before_after","Point Vicente SMCA","LONG_POINT_E",0.666666666666667,FALSE
 "raw_years|bottom_mid|core80|before_after","Point Vicente SMCA","POINT_VICENTE_W",1,TRUE
-"raw_years|bottom_mid|core80|before_after","Point Vicente SMCA","FLAT_ROCK_N",0.333333333333333,FALSE
 "raw_years|bottom_mid|core80|before_after","Point Vicente SMCA","HAWTHORNE_REEF",0.666666666666667,FALSE
-"raw_years|bottom_mid|core80|before_after","Point Vicente SMCA","LUNADA_BAY",0.166666666666667,FALSE
-"raw_years|bottom_mid|core80|before_after","Point Vicente SMCA","RESORT_POINT",0.166666666666667,FALSE
 "raw_years|bottom_mid|core80|before_after","Point Vicente SMCA","RIDGES_N",0.666666666666667,FALSE
-"raw_years|bottom_mid|core80|before_after","Point Vicente SMCA","RIDGES_S",0.333333333333333,FALSE
-"raw_years|bottom_mid|core80|before_after","Point Vicente SMCA","ROCKY_POINT_N",0.833333333333333,TRUE
-"raw_years|bottom_mid|core80|before_after","Point Vicente SMCA","ROCKY_POINT_S",0.5,FALSE
-"raw_years|bottom_mid|core80|before_after","Point Vicente SMCA","UNDERWATER_ARCH",0.166666666666667,FALSE
 "raw_years|bottom_mid|core80|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",0,FALSE
 "raw_years|bottom_mid|core80|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",0,FALSE
 "raw_years|bottom_mid|core80|before_after","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",0,FALSE
@@ -2752,8 +2554,6 @@
 "raw_years|bottom_mid|core90|post_trend","Campus Point SMCA","a-l-07",0,FALSE
 "raw_years|bottom_mid|core90|post_trend","Campus Point SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
 "raw_years|bottom_mid|core90|post_trend","Campus Point SMCA","ARROYO_QUEMADO_W",1,TRUE
-"raw_years|bottom_mid|core90|post_trend","Campus Point SMCA","CARP_REEF",0,FALSE
-"raw_years|bottom_mid|core90|post_trend","Campus Point SMCA","LEAD_BETTER_BEACH",0,FALSE
 "raw_years|bottom_mid|core90|post_trend","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",1,TRUE
 "raw_years|bottom_mid|core90|post_trend","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",1,TRUE
 "raw_years|bottom_mid|core90|post_trend","Gull Island SMR","SCI_GULL_ISLE",0,FALSE
@@ -2784,15 +2584,8 @@
 "raw_years|bottom_mid|core90|post_trend","Naples SMCA","ARROYO_QUEMADO_W",1,TRUE
 "raw_years|bottom_mid|core90|post_trend","Point Vicente SMCA","LONG_POINT_E",1,TRUE
 "raw_years|bottom_mid|core90|post_trend","Point Vicente SMCA","POINT_VICENTE_W",1,TRUE
-"raw_years|bottom_mid|core90|post_trend","Point Vicente SMCA","FLAT_ROCK_N",0.818181818181818,FALSE
 "raw_years|bottom_mid|core90|post_trend","Point Vicente SMCA","HAWTHORNE_REEF",1,TRUE
-"raw_years|bottom_mid|core90|post_trend","Point Vicente SMCA","LUNADA_BAY",0.909090909090909,TRUE
-"raw_years|bottom_mid|core90|post_trend","Point Vicente SMCA","RESORT_POINT",1,TRUE
 "raw_years|bottom_mid|core90|post_trend","Point Vicente SMCA","RIDGES_N",1,TRUE
-"raw_years|bottom_mid|core90|post_trend","Point Vicente SMCA","RIDGES_S",1,TRUE
-"raw_years|bottom_mid|core90|post_trend","Point Vicente SMCA","ROCKY_POINT_N",1,TRUE
-"raw_years|bottom_mid|core90|post_trend","Point Vicente SMCA","ROCKY_POINT_S",1,TRUE
-"raw_years|bottom_mid|core90|post_trend","Point Vicente SMCA","UNDERWATER_ARCH",0.909090909090909,TRUE
 "raw_years|bottom_mid|core90|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",0.454545454545455,FALSE
 "raw_years|bottom_mid|core90|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",0.363636363636364,FALSE
 "raw_years|bottom_mid|core90|post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",0.818181818181818,FALSE
@@ -2883,8 +2676,6 @@
 "raw_years|bottom_mid|core90|before_after","Campus Point SMCA","a-l-07",0,FALSE
 "raw_years|bottom_mid|core90|before_after","Campus Point SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
 "raw_years|bottom_mid|core90|before_after","Campus Point SMCA","ARROYO_QUEMADO_W",1,TRUE
-"raw_years|bottom_mid|core90|before_after","Campus Point SMCA","CARP_REEF",0,FALSE
-"raw_years|bottom_mid|core90|before_after","Campus Point SMCA","LEAD_BETTER_BEACH",0,FALSE
 "raw_years|bottom_mid|core90|before_after","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",1,TRUE
 "raw_years|bottom_mid|core90|before_after","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",0.5,FALSE
 "raw_years|bottom_mid|core90|before_after","Gull Island SMR","SCI_GULL_ISLE",0,FALSE
@@ -2915,15 +2706,8 @@
 "raw_years|bottom_mid|core90|before_after","Naples SMCA","ARROYO_QUEMADO_W",0.230769230769231,FALSE
 "raw_years|bottom_mid|core90|before_after","Point Vicente SMCA","LONG_POINT_E",0.666666666666667,FALSE
 "raw_years|bottom_mid|core90|before_after","Point Vicente SMCA","POINT_VICENTE_W",1,TRUE
-"raw_years|bottom_mid|core90|before_after","Point Vicente SMCA","FLAT_ROCK_N",0.333333333333333,FALSE
 "raw_years|bottom_mid|core90|before_after","Point Vicente SMCA","HAWTHORNE_REEF",0.666666666666667,FALSE
-"raw_years|bottom_mid|core90|before_after","Point Vicente SMCA","LUNADA_BAY",0.166666666666667,FALSE
-"raw_years|bottom_mid|core90|before_after","Point Vicente SMCA","RESORT_POINT",0.166666666666667,FALSE
 "raw_years|bottom_mid|core90|before_after","Point Vicente SMCA","RIDGES_N",0.666666666666667,FALSE
-"raw_years|bottom_mid|core90|before_after","Point Vicente SMCA","RIDGES_S",0.333333333333333,FALSE
-"raw_years|bottom_mid|core90|before_after","Point Vicente SMCA","ROCKY_POINT_N",0.833333333333333,FALSE
-"raw_years|bottom_mid|core90|before_after","Point Vicente SMCA","ROCKY_POINT_S",0.5,FALSE
-"raw_years|bottom_mid|core90|before_after","Point Vicente SMCA","UNDERWATER_ARCH",0.166666666666667,FALSE
 "raw_years|bottom_mid|core90|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",0,FALSE
 "raw_years|bottom_mid|core90|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",0,FALSE
 "raw_years|bottom_mid|core90|before_after","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",0,FALSE
@@ -3012,8 +2796,6 @@
 "raw_years|bottom_recovered|full|post_trend","Campus Point SMCA","IV_REEF_W",NA,TRUE
 "raw_years|bottom_recovered|full|post_trend","Campus Point SMCA","ARROYO_QUEMADO_E",NA,TRUE
 "raw_years|bottom_recovered|full|post_trend","Campus Point SMCA","ARROYO_QUEMADO_W",NA,TRUE
-"raw_years|bottom_recovered|full|post_trend","Campus Point SMCA","CARP_REEF",NA,TRUE
-"raw_years|bottom_recovered|full|post_trend","Campus Point SMCA","LEAD_BETTER_BEACH",NA,TRUE
 "raw_years|bottom_recovered|full|post_trend","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",NA,TRUE
 "raw_years|bottom_recovered|full|post_trend","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",NA,TRUE
 "raw_years|bottom_recovered|full|post_trend","Gull Island SMR","SCI_GULL_ISLE_E",NA,TRUE
@@ -3039,15 +2821,8 @@
 "raw_years|bottom_recovered|full|post_trend","Naples SMCA","ARROYO_QUEMADO_W",NA,TRUE
 "raw_years|bottom_recovered|full|post_trend","Point Vicente SMCA","LONG_POINT_E",NA,TRUE
 "raw_years|bottom_recovered|full|post_trend","Point Vicente SMCA","POINT_VICENTE_W",NA,TRUE
-"raw_years|bottom_recovered|full|post_trend","Point Vicente SMCA","FLAT_ROCK_N",NA,TRUE
 "raw_years|bottom_recovered|full|post_trend","Point Vicente SMCA","HAWTHORNE_REEF",NA,TRUE
-"raw_years|bottom_recovered|full|post_trend","Point Vicente SMCA","LUNADA_BAY",NA,TRUE
-"raw_years|bottom_recovered|full|post_trend","Point Vicente SMCA","RESORT_POINT",NA,TRUE
 "raw_years|bottom_recovered|full|post_trend","Point Vicente SMCA","RIDGES_N",NA,TRUE
-"raw_years|bottom_recovered|full|post_trend","Point Vicente SMCA","RIDGES_S",NA,TRUE
-"raw_years|bottom_recovered|full|post_trend","Point Vicente SMCA","ROCKY_POINT_N",NA,TRUE
-"raw_years|bottom_recovered|full|post_trend","Point Vicente SMCA","ROCKY_POINT_S",NA,TRUE
-"raw_years|bottom_recovered|full|post_trend","Point Vicente SMCA","UNDERWATER_ARCH",NA,TRUE
 "raw_years|bottom_recovered|full|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",NA,TRUE
 "raw_years|bottom_recovered|full|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",NA,TRUE
 "raw_years|bottom_recovered|full|post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",NA,TRUE
@@ -3122,8 +2897,6 @@
 "raw_years|bottom_recovered|full|before_after","Campus Point SMCA","IV_REEF_W",NA,TRUE
 "raw_years|bottom_recovered|full|before_after","Campus Point SMCA","ARROYO_QUEMADO_E",NA,TRUE
 "raw_years|bottom_recovered|full|before_after","Campus Point SMCA","ARROYO_QUEMADO_W",NA,TRUE
-"raw_years|bottom_recovered|full|before_after","Campus Point SMCA","CARP_REEF",NA,TRUE
-"raw_years|bottom_recovered|full|before_after","Campus Point SMCA","LEAD_BETTER_BEACH",NA,TRUE
 "raw_years|bottom_recovered|full|before_after","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",NA,TRUE
 "raw_years|bottom_recovered|full|before_after","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",NA,TRUE
 "raw_years|bottom_recovered|full|before_after","Gull Island SMR","SCI_GULL_ISLE_E",NA,TRUE
@@ -3149,15 +2922,8 @@
 "raw_years|bottom_recovered|full|before_after","Naples SMCA","ARROYO_QUEMADO_W",NA,TRUE
 "raw_years|bottom_recovered|full|before_after","Point Vicente SMCA","LONG_POINT_E",NA,TRUE
 "raw_years|bottom_recovered|full|before_after","Point Vicente SMCA","POINT_VICENTE_W",NA,TRUE
-"raw_years|bottom_recovered|full|before_after","Point Vicente SMCA","FLAT_ROCK_N",NA,TRUE
 "raw_years|bottom_recovered|full|before_after","Point Vicente SMCA","HAWTHORNE_REEF",NA,TRUE
-"raw_years|bottom_recovered|full|before_after","Point Vicente SMCA","LUNADA_BAY",NA,TRUE
-"raw_years|bottom_recovered|full|before_after","Point Vicente SMCA","RESORT_POINT",NA,TRUE
 "raw_years|bottom_recovered|full|before_after","Point Vicente SMCA","RIDGES_N",NA,TRUE
-"raw_years|bottom_recovered|full|before_after","Point Vicente SMCA","RIDGES_S",NA,TRUE
-"raw_years|bottom_recovered|full|before_after","Point Vicente SMCA","ROCKY_POINT_N",NA,TRUE
-"raw_years|bottom_recovered|full|before_after","Point Vicente SMCA","ROCKY_POINT_S",NA,TRUE
-"raw_years|bottom_recovered|full|before_after","Point Vicente SMCA","UNDERWATER_ARCH",NA,TRUE
 "raw_years|bottom_recovered|full|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",NA,TRUE
 "raw_years|bottom_recovered|full|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",NA,TRUE
 "raw_years|bottom_recovered|full|before_after","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",NA,TRUE
@@ -3234,8 +3000,6 @@
 "raw_years|bottom_recovered|core70|post_trend","Campus Point SMCA","a-l-07",0,FALSE
 "raw_years|bottom_recovered|core70|post_trend","Campus Point SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
 "raw_years|bottom_recovered|core70|post_trend","Campus Point SMCA","ARROYO_QUEMADO_W",1,TRUE
-"raw_years|bottom_recovered|core70|post_trend","Campus Point SMCA","CARP_REEF",0,FALSE
-"raw_years|bottom_recovered|core70|post_trend","Campus Point SMCA","LEAD_BETTER_BEACH",0,FALSE
 "raw_years|bottom_recovered|core70|post_trend","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",1,TRUE
 "raw_years|bottom_recovered|core70|post_trend","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",1,TRUE
 "raw_years|bottom_recovered|core70|post_trend","Gull Island SMR","SCI_GULL_ISLE",0,FALSE
@@ -3266,15 +3030,8 @@
 "raw_years|bottom_recovered|core70|post_trend","Naples SMCA","ARROYO_QUEMADO_W",1,TRUE
 "raw_years|bottom_recovered|core70|post_trend","Point Vicente SMCA","LONG_POINT_E",1,TRUE
 "raw_years|bottom_recovered|core70|post_trend","Point Vicente SMCA","POINT_VICENTE_W",1,TRUE
-"raw_years|bottom_recovered|core70|post_trend","Point Vicente SMCA","FLAT_ROCK_N",0.818181818181818,TRUE
 "raw_years|bottom_recovered|core70|post_trend","Point Vicente SMCA","HAWTHORNE_REEF",1,TRUE
-"raw_years|bottom_recovered|core70|post_trend","Point Vicente SMCA","LUNADA_BAY",0.909090909090909,TRUE
-"raw_years|bottom_recovered|core70|post_trend","Point Vicente SMCA","RESORT_POINT",1,TRUE
 "raw_years|bottom_recovered|core70|post_trend","Point Vicente SMCA","RIDGES_N",1,TRUE
-"raw_years|bottom_recovered|core70|post_trend","Point Vicente SMCA","RIDGES_S",1,TRUE
-"raw_years|bottom_recovered|core70|post_trend","Point Vicente SMCA","ROCKY_POINT_N",1,TRUE
-"raw_years|bottom_recovered|core70|post_trend","Point Vicente SMCA","ROCKY_POINT_S",1,TRUE
-"raw_years|bottom_recovered|core70|post_trend","Point Vicente SMCA","UNDERWATER_ARCH",0.909090909090909,TRUE
 "raw_years|bottom_recovered|core70|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",0.454545454545455,FALSE
 "raw_years|bottom_recovered|core70|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",0.363636363636364,FALSE
 "raw_years|bottom_recovered|core70|post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",0.818181818181818,TRUE
@@ -3365,8 +3122,6 @@
 "raw_years|bottom_recovered|core70|before_after","Campus Point SMCA","a-l-07",0,FALSE
 "raw_years|bottom_recovered|core70|before_after","Campus Point SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
 "raw_years|bottom_recovered|core70|before_after","Campus Point SMCA","ARROYO_QUEMADO_W",1,TRUE
-"raw_years|bottom_recovered|core70|before_after","Campus Point SMCA","CARP_REEF",0,FALSE
-"raw_years|bottom_recovered|core70|before_after","Campus Point SMCA","LEAD_BETTER_BEACH",0,FALSE
 "raw_years|bottom_recovered|core70|before_after","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",1,TRUE
 "raw_years|bottom_recovered|core70|before_after","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",0.5,FALSE
 "raw_years|bottom_recovered|core70|before_after","Gull Island SMR","SCI_GULL_ISLE",0,FALSE
@@ -3397,15 +3152,8 @@
 "raw_years|bottom_recovered|core70|before_after","Naples SMCA","ARROYO_QUEMADO_W",0.230769230769231,FALSE
 "raw_years|bottom_recovered|core70|before_after","Point Vicente SMCA","LONG_POINT_E",0.666666666666667,FALSE
 "raw_years|bottom_recovered|core70|before_after","Point Vicente SMCA","POINT_VICENTE_W",1,TRUE
-"raw_years|bottom_recovered|core70|before_after","Point Vicente SMCA","FLAT_ROCK_N",0.333333333333333,FALSE
 "raw_years|bottom_recovered|core70|before_after","Point Vicente SMCA","HAWTHORNE_REEF",0.666666666666667,FALSE
-"raw_years|bottom_recovered|core70|before_after","Point Vicente SMCA","LUNADA_BAY",0.166666666666667,FALSE
-"raw_years|bottom_recovered|core70|before_after","Point Vicente SMCA","RESORT_POINT",0.166666666666667,FALSE
 "raw_years|bottom_recovered|core70|before_after","Point Vicente SMCA","RIDGES_N",0.833333333333333,TRUE
-"raw_years|bottom_recovered|core70|before_after","Point Vicente SMCA","RIDGES_S",0.333333333333333,FALSE
-"raw_years|bottom_recovered|core70|before_after","Point Vicente SMCA","ROCKY_POINT_N",0.833333333333333,TRUE
-"raw_years|bottom_recovered|core70|before_after","Point Vicente SMCA","ROCKY_POINT_S",0.5,FALSE
-"raw_years|bottom_recovered|core70|before_after","Point Vicente SMCA","UNDERWATER_ARCH",0.166666666666667,FALSE
 "raw_years|bottom_recovered|core70|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",0,FALSE
 "raw_years|bottom_recovered|core70|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",0,FALSE
 "raw_years|bottom_recovered|core70|before_after","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",0,FALSE
@@ -3496,8 +3244,6 @@
 "raw_years|bottom_recovered|core80|post_trend","Campus Point SMCA","a-l-07",0,FALSE
 "raw_years|bottom_recovered|core80|post_trend","Campus Point SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
 "raw_years|bottom_recovered|core80|post_trend","Campus Point SMCA","ARROYO_QUEMADO_W",1,TRUE
-"raw_years|bottom_recovered|core80|post_trend","Campus Point SMCA","CARP_REEF",0,FALSE
-"raw_years|bottom_recovered|core80|post_trend","Campus Point SMCA","LEAD_BETTER_BEACH",0,FALSE
 "raw_years|bottom_recovered|core80|post_trend","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",1,TRUE
 "raw_years|bottom_recovered|core80|post_trend","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",1,TRUE
 "raw_years|bottom_recovered|core80|post_trend","Gull Island SMR","SCI_GULL_ISLE",0,FALSE
@@ -3528,15 +3274,8 @@
 "raw_years|bottom_recovered|core80|post_trend","Naples SMCA","ARROYO_QUEMADO_W",1,TRUE
 "raw_years|bottom_recovered|core80|post_trend","Point Vicente SMCA","LONG_POINT_E",1,TRUE
 "raw_years|bottom_recovered|core80|post_trend","Point Vicente SMCA","POINT_VICENTE_W",1,TRUE
-"raw_years|bottom_recovered|core80|post_trend","Point Vicente SMCA","FLAT_ROCK_N",0.818181818181818,TRUE
 "raw_years|bottom_recovered|core80|post_trend","Point Vicente SMCA","HAWTHORNE_REEF",1,TRUE
-"raw_years|bottom_recovered|core80|post_trend","Point Vicente SMCA","LUNADA_BAY",0.909090909090909,TRUE
-"raw_years|bottom_recovered|core80|post_trend","Point Vicente SMCA","RESORT_POINT",1,TRUE
 "raw_years|bottom_recovered|core80|post_trend","Point Vicente SMCA","RIDGES_N",1,TRUE
-"raw_years|bottom_recovered|core80|post_trend","Point Vicente SMCA","RIDGES_S",1,TRUE
-"raw_years|bottom_recovered|core80|post_trend","Point Vicente SMCA","ROCKY_POINT_N",1,TRUE
-"raw_years|bottom_recovered|core80|post_trend","Point Vicente SMCA","ROCKY_POINT_S",1,TRUE
-"raw_years|bottom_recovered|core80|post_trend","Point Vicente SMCA","UNDERWATER_ARCH",0.909090909090909,TRUE
 "raw_years|bottom_recovered|core80|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",0.454545454545455,FALSE
 "raw_years|bottom_recovered|core80|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",0.363636363636364,FALSE
 "raw_years|bottom_recovered|core80|post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",0.818181818181818,TRUE
@@ -3627,8 +3366,6 @@
 "raw_years|bottom_recovered|core80|before_after","Campus Point SMCA","a-l-07",0,FALSE
 "raw_years|bottom_recovered|core80|before_after","Campus Point SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
 "raw_years|bottom_recovered|core80|before_after","Campus Point SMCA","ARROYO_QUEMADO_W",1,TRUE
-"raw_years|bottom_recovered|core80|before_after","Campus Point SMCA","CARP_REEF",0,FALSE
-"raw_years|bottom_recovered|core80|before_after","Campus Point SMCA","LEAD_BETTER_BEACH",0,FALSE
 "raw_years|bottom_recovered|core80|before_after","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",1,TRUE
 "raw_years|bottom_recovered|core80|before_after","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",0.5,FALSE
 "raw_years|bottom_recovered|core80|before_after","Gull Island SMR","SCI_GULL_ISLE",0,FALSE
@@ -3659,15 +3396,8 @@
 "raw_years|bottom_recovered|core80|before_after","Naples SMCA","ARROYO_QUEMADO_W",0.230769230769231,FALSE
 "raw_years|bottom_recovered|core80|before_after","Point Vicente SMCA","LONG_POINT_E",0.666666666666667,FALSE
 "raw_years|bottom_recovered|core80|before_after","Point Vicente SMCA","POINT_VICENTE_W",1,TRUE
-"raw_years|bottom_recovered|core80|before_after","Point Vicente SMCA","FLAT_ROCK_N",0.333333333333333,FALSE
 "raw_years|bottom_recovered|core80|before_after","Point Vicente SMCA","HAWTHORNE_REEF",0.666666666666667,FALSE
-"raw_years|bottom_recovered|core80|before_after","Point Vicente SMCA","LUNADA_BAY",0.166666666666667,FALSE
-"raw_years|bottom_recovered|core80|before_after","Point Vicente SMCA","RESORT_POINT",0.166666666666667,FALSE
 "raw_years|bottom_recovered|core80|before_after","Point Vicente SMCA","RIDGES_N",0.833333333333333,TRUE
-"raw_years|bottom_recovered|core80|before_after","Point Vicente SMCA","RIDGES_S",0.333333333333333,FALSE
-"raw_years|bottom_recovered|core80|before_after","Point Vicente SMCA","ROCKY_POINT_N",0.833333333333333,TRUE
-"raw_years|bottom_recovered|core80|before_after","Point Vicente SMCA","ROCKY_POINT_S",0.5,FALSE
-"raw_years|bottom_recovered|core80|before_after","Point Vicente SMCA","UNDERWATER_ARCH",0.166666666666667,FALSE
 "raw_years|bottom_recovered|core80|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",0,FALSE
 "raw_years|bottom_recovered|core80|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",0,FALSE
 "raw_years|bottom_recovered|core80|before_after","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",0,FALSE
@@ -3758,8 +3488,6 @@
 "raw_years|bottom_recovered|core90|post_trend","Campus Point SMCA","a-l-07",0,FALSE
 "raw_years|bottom_recovered|core90|post_trend","Campus Point SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
 "raw_years|bottom_recovered|core90|post_trend","Campus Point SMCA","ARROYO_QUEMADO_W",1,TRUE
-"raw_years|bottom_recovered|core90|post_trend","Campus Point SMCA","CARP_REEF",0,FALSE
-"raw_years|bottom_recovered|core90|post_trend","Campus Point SMCA","LEAD_BETTER_BEACH",0,FALSE
 "raw_years|bottom_recovered|core90|post_trend","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",1,TRUE
 "raw_years|bottom_recovered|core90|post_trend","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",1,TRUE
 "raw_years|bottom_recovered|core90|post_trend","Gull Island SMR","SCI_GULL_ISLE",0,FALSE
@@ -3790,15 +3518,8 @@
 "raw_years|bottom_recovered|core90|post_trend","Naples SMCA","ARROYO_QUEMADO_W",1,TRUE
 "raw_years|bottom_recovered|core90|post_trend","Point Vicente SMCA","LONG_POINT_E",1,TRUE
 "raw_years|bottom_recovered|core90|post_trend","Point Vicente SMCA","POINT_VICENTE_W",1,TRUE
-"raw_years|bottom_recovered|core90|post_trend","Point Vicente SMCA","FLAT_ROCK_N",0.818181818181818,FALSE
 "raw_years|bottom_recovered|core90|post_trend","Point Vicente SMCA","HAWTHORNE_REEF",1,TRUE
-"raw_years|bottom_recovered|core90|post_trend","Point Vicente SMCA","LUNADA_BAY",0.909090909090909,TRUE
-"raw_years|bottom_recovered|core90|post_trend","Point Vicente SMCA","RESORT_POINT",1,TRUE
 "raw_years|bottom_recovered|core90|post_trend","Point Vicente SMCA","RIDGES_N",1,TRUE
-"raw_years|bottom_recovered|core90|post_trend","Point Vicente SMCA","RIDGES_S",1,TRUE
-"raw_years|bottom_recovered|core90|post_trend","Point Vicente SMCA","ROCKY_POINT_N",1,TRUE
-"raw_years|bottom_recovered|core90|post_trend","Point Vicente SMCA","ROCKY_POINT_S",1,TRUE
-"raw_years|bottom_recovered|core90|post_trend","Point Vicente SMCA","UNDERWATER_ARCH",0.909090909090909,TRUE
 "raw_years|bottom_recovered|core90|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",0.454545454545455,FALSE
 "raw_years|bottom_recovered|core90|post_trend","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",0.363636363636364,FALSE
 "raw_years|bottom_recovered|core90|post_trend","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",0.818181818181818,FALSE
@@ -3889,8 +3610,6 @@
 "raw_years|bottom_recovered|core90|before_after","Campus Point SMCA","a-l-07",0,FALSE
 "raw_years|bottom_recovered|core90|before_after","Campus Point SMCA","ARROYO_QUEMADO_E",0.909090909090909,TRUE
 "raw_years|bottom_recovered|core90|before_after","Campus Point SMCA","ARROYO_QUEMADO_W",1,TRUE
-"raw_years|bottom_recovered|core90|before_after","Campus Point SMCA","CARP_REEF",0,FALSE
-"raw_years|bottom_recovered|core90|before_after","Campus Point SMCA","LEAD_BETTER_BEACH",0,FALSE
 "raw_years|bottom_recovered|core90|before_after","Farnsworth Onshore SMCA","SCAI_CHINA_POINT",1,TRUE
 "raw_years|bottom_recovered|core90|before_after","Farnsworth Onshore SMCA","SCAI_SALTA_VERDE",0.5,FALSE
 "raw_years|bottom_recovered|core90|before_after","Gull Island SMR","SCI_GULL_ISLE",0,FALSE
@@ -3921,15 +3640,8 @@
 "raw_years|bottom_recovered|core90|before_after","Naples SMCA","ARROYO_QUEMADO_W",0.230769230769231,FALSE
 "raw_years|bottom_recovered|core90|before_after","Point Vicente SMCA","LONG_POINT_E",0.666666666666667,FALSE
 "raw_years|bottom_recovered|core90|before_after","Point Vicente SMCA","POINT_VICENTE_W",1,TRUE
-"raw_years|bottom_recovered|core90|before_after","Point Vicente SMCA","FLAT_ROCK_N",0.333333333333333,FALSE
 "raw_years|bottom_recovered|core90|before_after","Point Vicente SMCA","HAWTHORNE_REEF",0.666666666666667,FALSE
-"raw_years|bottom_recovered|core90|before_after","Point Vicente SMCA","LUNADA_BAY",0.166666666666667,FALSE
-"raw_years|bottom_recovered|core90|before_after","Point Vicente SMCA","RESORT_POINT",0.166666666666667,FALSE
 "raw_years|bottom_recovered|core90|before_after","Point Vicente SMCA","RIDGES_N",0.833333333333333,FALSE
-"raw_years|bottom_recovered|core90|before_after","Point Vicente SMCA","RIDGES_S",0.333333333333333,FALSE
-"raw_years|bottom_recovered|core90|before_after","Point Vicente SMCA","ROCKY_POINT_N",0.833333333333333,FALSE
-"raw_years|bottom_recovered|core90|before_after","Point Vicente SMCA","ROCKY_POINT_S",0.5,FALSE
-"raw_years|bottom_recovered|core90|before_after","Point Vicente SMCA","UNDERWATER_ARCH",0.166666666666667,FALSE
 "raw_years|bottom_recovered|core90|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON",0,FALSE
 "raw_years|bottom_recovered|core90|before_after","Santa Barbara Island SMR","SBI_GRAVEYARD_CANYON_N",0,FALSE
 "raw_years|bottom_recovered|core90|before_after","Santa Barbara Island SMR","SBI_SOUTHEAST_REEF",0,FALSE

@@ -1,0 +1,415 @@
+pool,series_id,year,status,n_sized,n_recorded_blocks,lacks_finer_survey_ids,singleton,sparse_lt10,shared_with_other_history,retained_paired_year
+1,Abalone Cove SMCA|P. interruptus|PISCO|Bio,2012,reference,5,1,FALSE,FALSE,TRUE,FALSE,TRUE
+2,Abalone Cove SMCA|P. interruptus|PISCO|Bio,2013,reference,1,1,FALSE,TRUE,TRUE,FALSE,TRUE
+3,Abalone Cove SMCA|P. interruptus|PISCO|Bio,2014,reference,7,1,FALSE,FALSE,TRUE,FALSE,TRUE
+4,Abalone Cove SMCA|P. interruptus|PISCO|Bio,2015,reference,42,10,FALSE,FALSE,FALSE,FALSE,TRUE
+5,Abalone Cove SMCA|P. interruptus|PISCO|Bio,2016,mpa,1,1,FALSE,TRUE,TRUE,FALSE,TRUE
+6,Abalone Cove SMCA|P. interruptus|PISCO|Bio,2016,reference,32,5,FALSE,FALSE,FALSE,FALSE,TRUE
+7,Abalone Cove SMCA|P. interruptus|PISCO|Bio,2017,mpa,1,1,FALSE,TRUE,TRUE,FALSE,TRUE
+8,Abalone Cove SMCA|P. interruptus|PISCO|Bio,2017,reference,21,6,FALSE,FALSE,FALSE,FALSE,TRUE
+9,Abalone Cove SMCA|P. interruptus|PISCO|Bio,2018,mpa,17,1,FALSE,FALSE,FALSE,FALSE,TRUE
+10,Abalone Cove SMCA|P. interruptus|PISCO|Bio,2018,reference,3,3,FALSE,FALSE,TRUE,FALSE,TRUE
+11,Abalone Cove SMCA|P. interruptus|PISCO|Bio,2019,mpa,12,3,FALSE,FALSE,FALSE,FALSE,TRUE
+12,Abalone Cove SMCA|P. interruptus|PISCO|Bio,2019,reference,53,10,FALSE,FALSE,FALSE,FALSE,TRUE
+13,Abalone Cove SMCA|P. interruptus|PISCO|Bio,2020,mpa,4,2,FALSE,FALSE,TRUE,FALSE,TRUE
+14,Abalone Cove SMCA|P. interruptus|PISCO|Bio,2020,reference,22,5,FALSE,FALSE,FALSE,FALSE,TRUE
+15,Abalone Cove SMCA|P. interruptus|PISCO|Bio,2021,mpa,8,3,FALSE,FALSE,TRUE,FALSE,TRUE
+16,Abalone Cove SMCA|P. interruptus|PISCO|Bio,2021,reference,15,5,FALSE,FALSE,FALSE,FALSE,TRUE
+17,Abalone Cove SMCA|P. interruptus|PISCO|Bio,2022,mpa,2,1,FALSE,FALSE,TRUE,FALSE,TRUE
+18,Abalone Cove SMCA|P. interruptus|PISCO|Bio,2022,reference,13,3,FALSE,FALSE,FALSE,FALSE,TRUE
+19,Abalone Cove SMCA|P. interruptus|PISCO|Bio,2023,mpa,1,1,FALSE,TRUE,TRUE,FALSE,TRUE
+20,Abalone Cove SMCA|P. interruptus|PISCO|Bio,2023,reference,26,9,FALSE,FALSE,FALSE,FALSE,TRUE
+21,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2011,mpa,74,2,FALSE,FALSE,FALSE,FALSE,TRUE
+22,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2011,reference,202,5,FALSE,FALSE,FALSE,FALSE,TRUE
+23,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2012,mpa,165,2,FALSE,FALSE,FALSE,FALSE,TRUE
+24,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2012,reference,202,6,FALSE,FALSE,FALSE,FALSE,TRUE
+25,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2013,mpa,153,2,FALSE,FALSE,FALSE,FALSE,TRUE
+26,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2013,reference,21,3,FALSE,FALSE,FALSE,FALSE,TRUE
+27,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2014,mpa,112,2,FALSE,FALSE,FALSE,FALSE,TRUE
+28,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2014,reference,65,3,FALSE,FALSE,FALSE,FALSE,TRUE
+29,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2015,mpa,32,2,FALSE,FALSE,FALSE,FALSE,TRUE
+30,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2015,reference,206,13,FALSE,FALSE,FALSE,FALSE,TRUE
+31,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2016,mpa,25,2,FALSE,FALSE,FALSE,FALSE,TRUE
+32,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2016,reference,87,7,FALSE,FALSE,FALSE,FALSE,TRUE
+33,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2017,mpa,12,1,FALSE,FALSE,FALSE,FALSE,TRUE
+34,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2017,reference,30,6,FALSE,FALSE,FALSE,FALSE,TRUE
+35,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2018,mpa,35,2,FALSE,FALSE,FALSE,FALSE,TRUE
+36,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2018,reference,21,2,FALSE,FALSE,FALSE,FALSE,TRUE
+37,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2019,mpa,67,2,FALSE,FALSE,FALSE,FALSE,TRUE
+38,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2019,reference,145,11,FALSE,FALSE,FALSE,FALSE,TRUE
+39,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2020,mpa,49,2,FALSE,FALSE,FALSE,FALSE,TRUE
+40,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2020,reference,144,12,FALSE,FALSE,FALSE,FALSE,TRUE
+41,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2021,mpa,19,1,FALSE,FALSE,FALSE,FALSE,TRUE
+42,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2021,reference,190,10,FALSE,FALSE,FALSE,FALSE,TRUE
+43,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2022,mpa,2,1,FALSE,FALSE,TRUE,FALSE,TRUE
+44,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2022,reference,153,11,FALSE,FALSE,FALSE,FALSE,TRUE
+45,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2023,mpa,4,1,FALSE,FALSE,TRUE,FALSE,TRUE
+46,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2023,reference,56,9,FALSE,FALSE,FALSE,FALSE,TRUE
+47,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2005,mpa,325,2,TRUE,FALSE,FALSE,FALSE,TRUE
+48,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2005,reference,787,3,TRUE,FALSE,FALSE,FALSE,TRUE
+49,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2006,mpa,209,2,TRUE,FALSE,FALSE,FALSE,TRUE
+50,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2006,reference,651,3,TRUE,FALSE,FALSE,FALSE,TRUE
+51,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2007,mpa,164,1,TRUE,FALSE,FALSE,FALSE,TRUE
+52,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2007,reference,826,3,TRUE,FALSE,FALSE,FALSE,TRUE
+53,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2008,mpa,203,1,TRUE,FALSE,FALSE,FALSE,TRUE
+54,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2008,reference,620,3,TRUE,FALSE,FALSE,FALSE,TRUE
+55,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2009,mpa,209,1,TRUE,FALSE,FALSE,FALSE,TRUE
+56,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2009,reference,726,3,TRUE,FALSE,FALSE,FALSE,TRUE
+57,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2010,mpa,250,1,TRUE,FALSE,FALSE,FALSE,TRUE
+58,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2010,reference,715,3,TRUE,FALSE,FALSE,FALSE,TRUE
+59,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2011,mpa,228,1,TRUE,FALSE,FALSE,FALSE,TRUE
+60,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2011,reference,991,3,TRUE,FALSE,FALSE,FALSE,TRUE
+61,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2012,mpa,211,1,TRUE,FALSE,FALSE,FALSE,TRUE
+62,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2012,reference,679,3,TRUE,FALSE,FALSE,FALSE,TRUE
+63,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2013,mpa,96,1,TRUE,FALSE,FALSE,FALSE,TRUE
+64,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2013,reference,668,3,TRUE,FALSE,FALSE,FALSE,TRUE
+65,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2014,mpa,16,1,TRUE,FALSE,FALSE,FALSE,TRUE
+66,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2014,reference,804,3,TRUE,FALSE,FALSE,FALSE,TRUE
+67,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2015,mpa,16,1,TRUE,FALSE,FALSE,FALSE,TRUE
+68,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2015,reference,617,3,TRUE,FALSE,FALSE,FALSE,TRUE
+69,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2016,reference,497,3,TRUE,FALSE,FALSE,FALSE,TRUE
+70,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2017,mpa,44,1,TRUE,FALSE,FALSE,FALSE,TRUE
+71,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2017,reference,789,3,TRUE,FALSE,FALSE,FALSE,TRUE
+72,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2018,mpa,51,1,TRUE,FALSE,FALSE,FALSE,TRUE
+73,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2018,reference,677,3,TRUE,FALSE,FALSE,FALSE,TRUE
+74,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2019,mpa,14,1,TRUE,FALSE,FALSE,FALSE,TRUE
+75,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2019,reference,881,3,TRUE,FALSE,FALSE,FALSE,TRUE
+76,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2021,mpa,11,1,TRUE,FALSE,FALSE,FALSE,TRUE
+77,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2021,reference,663,3,TRUE,FALSE,FALSE,FALSE,TRUE
+78,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2022,mpa,14,1,TRUE,FALSE,FALSE,FALSE,TRUE
+79,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2022,reference,723,3,TRUE,FALSE,FALSE,FALSE,TRUE
+80,Campus Point SMCA|S. purpuratus|PISCO|Bio,2011,mpa,463,4,TRUE,FALSE,FALSE,FALSE,TRUE
+81,Campus Point SMCA|S. purpuratus|PISCO|Bio,2011,reference,116,2,TRUE,FALSE,FALSE,FALSE,TRUE
+82,Campus Point SMCA|S. purpuratus|PISCO|Bio,2012,mpa,496,1,TRUE,FALSE,FALSE,FALSE,TRUE
+83,Campus Point SMCA|S. purpuratus|PISCO|Bio,2012,reference,104,2,TRUE,FALSE,FALSE,FALSE,TRUE
+84,Campus Point SMCA|S. purpuratus|PISCO|Bio,2013,mpa,158,1,TRUE,FALSE,FALSE,FALSE,TRUE
+85,Campus Point SMCA|S. purpuratus|PISCO|Bio,2013,reference,155,2,TRUE,FALSE,FALSE,FALSE,TRUE
+86,Campus Point SMCA|S. purpuratus|PISCO|Bio,2014,mpa,141,1,TRUE,FALSE,FALSE,FALSE,TRUE
+87,Campus Point SMCA|S. purpuratus|PISCO|Bio,2014,reference,86,2,TRUE,FALSE,FALSE,FALSE,TRUE
+88,Campus Point SMCA|S. purpuratus|PISCO|Bio,2015,mpa,62,2,TRUE,FALSE,FALSE,FALSE,TRUE
+89,Campus Point SMCA|S. purpuratus|PISCO|Bio,2015,reference,40,2,TRUE,FALSE,FALSE,FALSE,TRUE
+90,Campus Point SMCA|S. purpuratus|PISCO|Bio,2016,mpa,61,2,TRUE,FALSE,FALSE,FALSE,TRUE
+91,Campus Point SMCA|S. purpuratus|PISCO|Bio,2016,reference,22,2,TRUE,FALSE,FALSE,FALSE,TRUE
+92,Campus Point SMCA|S. purpuratus|PISCO|Bio,2017,mpa,52,2,TRUE,FALSE,FALSE,FALSE,TRUE
+93,Campus Point SMCA|S. purpuratus|PISCO|Bio,2017,reference,9,1,TRUE,FALSE,TRUE,FALSE,TRUE
+94,Campus Point SMCA|S. purpuratus|PISCO|Bio,2018,mpa,43,1,TRUE,FALSE,FALSE,FALSE,TRUE
+95,Campus Point SMCA|S. purpuratus|PISCO|Bio,2018,reference,23,2,TRUE,FALSE,FALSE,FALSE,TRUE
+96,Campus Point SMCA|S. purpuratus|PISCO|Bio,2019,mpa,191,4,TRUE,FALSE,FALSE,FALSE,TRUE
+97,Campus Point SMCA|S. purpuratus|PISCO|Bio,2019,reference,60,2,TRUE,FALSE,FALSE,FALSE,TRUE
+98,Campus Point SMCA|S. purpuratus|PISCO|Bio,2020,mpa,49,1,TRUE,FALSE,FALSE,FALSE,TRUE
+99,Campus Point SMCA|S. purpuratus|PISCO|Bio,2020,reference,200,2,TRUE,FALSE,FALSE,TRUE,TRUE
+100,Campus Point SMCA|S. purpuratus|PISCO|Bio,2021,mpa,171,2,TRUE,FALSE,FALSE,FALSE,TRUE
+101,Campus Point SMCA|S. purpuratus|PISCO|Bio,2021,reference,165,3,TRUE,FALSE,FALSE,TRUE,TRUE
+102,Campus Point SMCA|S. purpuratus|PISCO|Bio,2022,mpa,33,1,TRUE,FALSE,FALSE,FALSE,TRUE
+103,Campus Point SMCA|S. purpuratus|PISCO|Bio,2022,reference,67,2,TRUE,FALSE,FALSE,FALSE,TRUE
+104,Campus Point SMCA|S. purpuratus|PISCO|Bio,2023,mpa,4,1,TRUE,FALSE,TRUE,FALSE,TRUE
+105,Campus Point SMCA|S. purpuratus|PISCO|Bio,2023,reference,32,1,TRUE,FALSE,FALSE,FALSE,TRUE
+106,Gull Island SMR|S. purpuratus|PISCO|Bio,2004,mpa,31,1,TRUE,FALSE,FALSE,FALSE,TRUE
+107,Gull Island SMR|S. purpuratus|PISCO|Bio,2004,reference,133,1,TRUE,FALSE,FALSE,FALSE,TRUE
+108,Gull Island SMR|S. purpuratus|PISCO|Bio,2005,mpa,4,1,TRUE,FALSE,TRUE,FALSE,TRUE
+109,Gull Island SMR|S. purpuratus|PISCO|Bio,2005,reference,313,2,TRUE,FALSE,FALSE,FALSE,TRUE
+110,Gull Island SMR|S. purpuratus|PISCO|Bio,2006,mpa,26,1,TRUE,FALSE,FALSE,FALSE,TRUE
+111,Gull Island SMR|S. purpuratus|PISCO|Bio,2006,reference,132,1,TRUE,FALSE,FALSE,FALSE,TRUE
+112,Gull Island SMR|S. purpuratus|PISCO|Bio,2007,mpa,48,1,TRUE,FALSE,FALSE,FALSE,TRUE
+113,Gull Island SMR|S. purpuratus|PISCO|Bio,2007,reference,97,1,TRUE,FALSE,FALSE,FALSE,TRUE
+114,Gull Island SMR|S. purpuratus|PISCO|Bio,2008,mpa,55,1,TRUE,FALSE,FALSE,FALSE,TRUE
+115,Gull Island SMR|S. purpuratus|PISCO|Bio,2008,reference,136,1,TRUE,FALSE,FALSE,FALSE,TRUE
+116,Gull Island SMR|S. purpuratus|PISCO|Bio,2009,mpa,108,1,TRUE,FALSE,FALSE,FALSE,TRUE
+117,Gull Island SMR|S. purpuratus|PISCO|Bio,2009,reference,157,1,TRUE,FALSE,FALSE,FALSE,TRUE
+118,Gull Island SMR|S. purpuratus|PISCO|Bio,2010,mpa,119,1,TRUE,FALSE,FALSE,FALSE,TRUE
+119,Gull Island SMR|S. purpuratus|PISCO|Bio,2010,reference,102,1,TRUE,FALSE,FALSE,FALSE,TRUE
+120,Gull Island SMR|S. purpuratus|PISCO|Bio,2011,mpa,155,1,TRUE,FALSE,FALSE,FALSE,TRUE
+121,Gull Island SMR|S. purpuratus|PISCO|Bio,2011,reference,189,1,TRUE,FALSE,FALSE,FALSE,TRUE
+122,Gull Island SMR|S. purpuratus|PISCO|Bio,2012,mpa,181,1,TRUE,FALSE,FALSE,FALSE,TRUE
+123,Gull Island SMR|S. purpuratus|PISCO|Bio,2012,reference,141,1,TRUE,FALSE,FALSE,FALSE,TRUE
+124,Gull Island SMR|S. purpuratus|PISCO|Bio,2014,mpa,137,1,TRUE,FALSE,FALSE,FALSE,TRUE
+125,Gull Island SMR|S. purpuratus|PISCO|Bio,2014,reference,132,1,TRUE,FALSE,FALSE,FALSE,TRUE
+126,Gull Island SMR|S. purpuratus|PISCO|Bio,2015,mpa,63,1,TRUE,FALSE,FALSE,FALSE,TRUE
+127,Gull Island SMR|S. purpuratus|PISCO|Bio,2015,reference,156,1,TRUE,FALSE,FALSE,FALSE,TRUE
+128,Gull Island SMR|S. purpuratus|PISCO|Bio,2017,mpa,184,1,TRUE,FALSE,FALSE,FALSE,TRUE
+129,Gull Island SMR|S. purpuratus|PISCO|Bio,2017,reference,223,1,TRUE,FALSE,FALSE,FALSE,TRUE
+130,Gull Island SMR|S. purpuratus|PISCO|Bio,2018,mpa,146,1,TRUE,FALSE,FALSE,FALSE,TRUE
+131,Gull Island SMR|S. purpuratus|PISCO|Bio,2018,reference,150,1,TRUE,FALSE,FALSE,FALSE,TRUE
+132,Gull Island SMR|S. purpuratus|PISCO|Bio,2019,mpa,243,1,TRUE,FALSE,FALSE,FALSE,TRUE
+133,Gull Island SMR|S. purpuratus|PISCO|Bio,2019,reference,124,2,TRUE,FALSE,FALSE,FALSE,TRUE
+134,Gull Island SMR|S. purpuratus|PISCO|Bio,2021,mpa,172,1,TRUE,FALSE,FALSE,FALSE,TRUE
+135,Gull Island SMR|S. purpuratus|PISCO|Bio,2021,reference,141,1,TRUE,FALSE,FALSE,FALSE,TRUE
+136,Harris Point SMR|S. purpuratus|PISCO|Bio,2004,mpa,69,1,TRUE,FALSE,FALSE,FALSE,TRUE
+137,Harris Point SMR|S. purpuratus|PISCO|Bio,2004,reference,89,1,TRUE,FALSE,FALSE,FALSE,TRUE
+138,Harris Point SMR|S. purpuratus|PISCO|Bio,2005,mpa,140,1,TRUE,FALSE,FALSE,FALSE,TRUE
+139,Harris Point SMR|S. purpuratus|PISCO|Bio,2005,reference,16,1,TRUE,FALSE,FALSE,FALSE,TRUE
+140,Harris Point SMR|S. purpuratus|PISCO|Bio,2006,mpa,31,1,TRUE,FALSE,FALSE,FALSE,TRUE
+141,Harris Point SMR|S. purpuratus|PISCO|Bio,2006,reference,31,1,TRUE,FALSE,FALSE,FALSE,TRUE
+142,Harris Point SMR|S. purpuratus|PISCO|Bio,2007,mpa,139,1,TRUE,FALSE,FALSE,FALSE,TRUE
+143,Harris Point SMR|S. purpuratus|PISCO|Bio,2007,reference,50,1,TRUE,FALSE,FALSE,FALSE,TRUE
+144,Harris Point SMR|S. purpuratus|PISCO|Bio,2008,mpa,149,1,TRUE,FALSE,FALSE,FALSE,TRUE
+145,Harris Point SMR|S. purpuratus|PISCO|Bio,2008,reference,40,1,TRUE,FALSE,FALSE,FALSE,TRUE
+146,Harris Point SMR|S. purpuratus|PISCO|Bio,2009,mpa,172,1,TRUE,FALSE,FALSE,FALSE,TRUE
+147,Harris Point SMR|S. purpuratus|PISCO|Bio,2009,reference,45,1,TRUE,FALSE,FALSE,FALSE,TRUE
+148,Harris Point SMR|S. purpuratus|PISCO|Bio,2010,mpa,96,1,TRUE,FALSE,FALSE,FALSE,TRUE
+149,Harris Point SMR|S. purpuratus|PISCO|Bio,2010,reference,69,1,TRUE,FALSE,FALSE,FALSE,TRUE
+150,Harris Point SMR|S. purpuratus|PISCO|Bio,2011,mpa,123,1,TRUE,FALSE,FALSE,FALSE,TRUE
+151,Harris Point SMR|S. purpuratus|PISCO|Bio,2011,reference,161,1,TRUE,FALSE,FALSE,FALSE,TRUE
+152,Harris Point SMR|S. purpuratus|PISCO|Bio,2012,mpa,78,1,TRUE,FALSE,FALSE,FALSE,TRUE
+153,Harris Point SMR|S. purpuratus|PISCO|Bio,2012,reference,136,1,TRUE,FALSE,FALSE,FALSE,TRUE
+154,Harris Point SMR|S. purpuratus|PISCO|Bio,2014,mpa,46,1,TRUE,FALSE,FALSE,FALSE,TRUE
+155,Harris Point SMR|S. purpuratus|PISCO|Bio,2014,reference,231,1,TRUE,FALSE,FALSE,FALSE,TRUE
+156,Harris Point SMR|S. purpuratus|PISCO|Bio,2016,mpa,112,1,TRUE,FALSE,FALSE,FALSE,TRUE
+157,Harris Point SMR|S. purpuratus|PISCO|Bio,2016,reference,292,1,TRUE,FALSE,FALSE,FALSE,TRUE
+158,Harris Point SMR|S. purpuratus|PISCO|Bio,2018,mpa,46,1,TRUE,FALSE,FALSE,FALSE,TRUE
+159,Harris Point SMR|S. purpuratus|PISCO|Bio,2018,reference,419,1,TRUE,FALSE,FALSE,FALSE,TRUE
+160,Harris Point SMR|S. purpuratus|PISCO|Bio,2019,mpa,46,1,TRUE,FALSE,FALSE,FALSE,TRUE
+161,Harris Point SMR|S. purpuratus|PISCO|Bio,2019,reference,310,1,TRUE,FALSE,FALSE,FALSE,TRUE
+162,Harris Point SMR|S. purpuratus|PISCO|Bio,2021,mpa,56,1,TRUE,FALSE,FALSE,FALSE,TRUE
+163,Harris Point SMR|S. purpuratus|PISCO|Bio,2021,reference,448,2,TRUE,FALSE,FALSE,FALSE,TRUE
+164,Harris Point SMR|S. purpuratus|PISCO|Bio,2022,mpa,19,1,TRUE,FALSE,FALSE,FALSE,TRUE
+165,Harris Point SMR|S. purpuratus|PISCO|Bio,2022,reference,258,1,TRUE,FALSE,FALSE,FALSE,TRUE
+166,Matlahuayl SMR|P. interruptus|PISCO|Bio,2011,mpa,8,2,FALSE,FALSE,TRUE,FALSE,TRUE
+167,Matlahuayl SMR|P. interruptus|PISCO|Bio,2011,reference,23,3,FALSE,FALSE,FALSE,FALSE,TRUE
+168,Matlahuayl SMR|P. interruptus|PISCO|Bio,2012,mpa,24,2,FALSE,FALSE,FALSE,FALSE,TRUE
+169,Matlahuayl SMR|P. interruptus|PISCO|Bio,2012,reference,16,3,FALSE,FALSE,FALSE,FALSE,TRUE
+170,Matlahuayl SMR|P. interruptus|PISCO|Bio,2019,mpa,7,1,FALSE,FALSE,TRUE,FALSE,TRUE
+171,Matlahuayl SMR|P. interruptus|PISCO|Bio,2019,reference,32,3,FALSE,FALSE,FALSE,FALSE,TRUE
+172,Matlahuayl SMR|P. interruptus|PISCO|Bio,2020,mpa,8,2,FALSE,FALSE,TRUE,FALSE,TRUE
+173,Matlahuayl SMR|P. interruptus|PISCO|Bio,2020,reference,11,3,FALSE,FALSE,FALSE,FALSE,TRUE
+174,Matlahuayl SMR|P. interruptus|PISCO|Bio,2021,mpa,12,1,FALSE,FALSE,FALSE,FALSE,TRUE
+175,Matlahuayl SMR|P. interruptus|PISCO|Bio,2021,reference,17,3,FALSE,FALSE,FALSE,FALSE,TRUE
+176,Matlahuayl SMR|P. interruptus|PISCO|Bio,2022,mpa,39,2,FALSE,FALSE,FALSE,FALSE,TRUE
+177,Matlahuayl SMR|P. interruptus|PISCO|Bio,2022,reference,20,2,FALSE,FALSE,FALSE,FALSE,TRUE
+178,Matlahuayl SMR|P. interruptus|PISCO|Bio,2023,mpa,1,1,FALSE,TRUE,TRUE,FALSE,TRUE
+179,Matlahuayl SMR|P. interruptus|PISCO|Bio,2023,reference,11,2,FALSE,FALSE,FALSE,FALSE,TRUE
+180,Naples SMCA|S. purpuratus|PISCO|Bio,2011,mpa,334,2,TRUE,FALSE,FALSE,FALSE,TRUE
+181,Naples SMCA|S. purpuratus|PISCO|Bio,2011,reference,276,3,TRUE,FALSE,FALSE,FALSE,TRUE
+182,Naples SMCA|S. purpuratus|PISCO|Bio,2012,mpa,305,1,TRUE,FALSE,FALSE,FALSE,TRUE
+183,Naples SMCA|S. purpuratus|PISCO|Bio,2012,reference,113,1,TRUE,FALSE,FALSE,FALSE,TRUE
+184,Naples SMCA|S. purpuratus|PISCO|Bio,2013,mpa,139,2,TRUE,FALSE,FALSE,FALSE,TRUE
+185,Naples SMCA|S. purpuratus|PISCO|Bio,2013,reference,49,1,TRUE,FALSE,FALSE,FALSE,TRUE
+186,Naples SMCA|S. purpuratus|PISCO|Bio,2014,mpa,117,1,TRUE,FALSE,FALSE,FALSE,TRUE
+187,Naples SMCA|S. purpuratus|PISCO|Bio,2014,reference,105,2,TRUE,FALSE,FALSE,FALSE,TRUE
+188,Naples SMCA|S. purpuratus|PISCO|Bio,2015,mpa,76,1,TRUE,FALSE,FALSE,FALSE,TRUE
+189,Naples SMCA|S. purpuratus|PISCO|Bio,2015,reference,65,1,TRUE,FALSE,FALSE,FALSE,TRUE
+190,Naples SMCA|S. purpuratus|PISCO|Bio,2016,mpa,37,1,TRUE,FALSE,FALSE,FALSE,TRUE
+191,Naples SMCA|S. purpuratus|PISCO|Bio,2016,reference,51,1,TRUE,FALSE,FALSE,FALSE,TRUE
+192,Naples SMCA|S. purpuratus|PISCO|Bio,2017,mpa,43,2,TRUE,FALSE,FALSE,FALSE,TRUE
+193,Naples SMCA|S. purpuratus|PISCO|Bio,2017,reference,75,1,TRUE,FALSE,FALSE,FALSE,TRUE
+194,Naples SMCA|S. purpuratus|PISCO|Bio,2018,mpa,496,1,TRUE,FALSE,FALSE,FALSE,TRUE
+195,Naples SMCA|S. purpuratus|PISCO|Bio,2018,reference,128,2,TRUE,FALSE,FALSE,FALSE,TRUE
+196,Naples SMCA|S. purpuratus|PISCO|Bio,2019,mpa,535,3,TRUE,FALSE,FALSE,FALSE,TRUE
+197,Naples SMCA|S. purpuratus|PISCO|Bio,2019,reference,126,3,TRUE,FALSE,FALSE,FALSE,TRUE
+198,Naples SMCA|S. purpuratus|PISCO|Bio,2020,mpa,346,2,TRUE,FALSE,FALSE,FALSE,TRUE
+199,Naples SMCA|S. purpuratus|PISCO|Bio,2020,reference,302,2,TRUE,FALSE,FALSE,TRUE,TRUE
+200,Naples SMCA|S. purpuratus|PISCO|Bio,2021,mpa,268,3,TRUE,FALSE,FALSE,FALSE,TRUE
+201,Naples SMCA|S. purpuratus|PISCO|Bio,2021,reference,260,2,TRUE,FALSE,FALSE,TRUE,TRUE
+202,Naples SMCA|S. purpuratus|PISCO|Bio,2022,mpa,414,2,TRUE,FALSE,FALSE,FALSE,TRUE
+203,Naples SMCA|S. purpuratus|PISCO|Bio,2022,reference,183,2,TRUE,FALSE,FALSE,FALSE,TRUE
+204,Naples SMCA|S. purpuratus|PISCO|Bio,2023,mpa,528,2,TRUE,FALSE,FALSE,FALSE,TRUE
+205,Naples SMCA|S. purpuratus|PISCO|Bio,2023,reference,146,1,TRUE,FALSE,FALSE,FALSE,TRUE
+206,Point Vicente SMCA|P. interruptus|PISCO|Bio,2011,mpa,30,2,FALSE,FALSE,FALSE,FALSE,TRUE
+207,Point Vicente SMCA|P. interruptus|PISCO|Bio,2011,reference,33,7,FALSE,FALSE,FALSE,FALSE,TRUE
+208,Point Vicente SMCA|P. interruptus|PISCO|Bio,2012,mpa,1,1,FALSE,TRUE,TRUE,FALSE,TRUE
+209,Point Vicente SMCA|P. interruptus|PISCO|Bio,2012,reference,32,8,FALSE,FALSE,FALSE,FALSE,TRUE
+210,Point Vicente SMCA|P. interruptus|PISCO|Bio,2013,reference,38,8,FALSE,FALSE,FALSE,FALSE,TRUE
+211,Point Vicente SMCA|P. interruptus|PISCO|Bio,2015,mpa,84,10,FALSE,FALSE,FALSE,FALSE,TRUE
+212,Point Vicente SMCA|P. interruptus|PISCO|Bio,2015,reference,59,21,FALSE,FALSE,FALSE,FALSE,TRUE
+213,Point Vicente SMCA|P. interruptus|PISCO|Bio,2016,mpa,4,2,FALSE,FALSE,TRUE,FALSE,TRUE
+214,Point Vicente SMCA|P. interruptus|PISCO|Bio,2016,reference,26,13,FALSE,FALSE,FALSE,FALSE,TRUE
+215,Point Vicente SMCA|P. interruptus|PISCO|Bio,2017,mpa,20,7,FALSE,FALSE,FALSE,FALSE,TRUE
+216,Point Vicente SMCA|P. interruptus|PISCO|Bio,2017,reference,51,9,FALSE,FALSE,FALSE,FALSE,TRUE
+217,Point Vicente SMCA|P. interruptus|PISCO|Bio,2018,mpa,70,8,FALSE,FALSE,FALSE,FALSE,TRUE
+218,Point Vicente SMCA|P. interruptus|PISCO|Bio,2018,reference,39,13,FALSE,FALSE,FALSE,FALSE,TRUE
+219,Point Vicente SMCA|P. interruptus|PISCO|Bio,2019,mpa,17,7,FALSE,FALSE,FALSE,FALSE,TRUE
+220,Point Vicente SMCA|P. interruptus|PISCO|Bio,2019,reference,35,16,FALSE,FALSE,FALSE,FALSE,TRUE
+221,Point Vicente SMCA|P. interruptus|PISCO|Bio,2020,mpa,20,7,FALSE,FALSE,FALSE,FALSE,TRUE
+222,Point Vicente SMCA|P. interruptus|PISCO|Bio,2020,reference,30,13,FALSE,FALSE,FALSE,FALSE,TRUE
+223,Point Vicente SMCA|P. interruptus|PISCO|Bio,2021,mpa,2,2,FALSE,FALSE,TRUE,FALSE,TRUE
+224,Point Vicente SMCA|P. interruptus|PISCO|Bio,2021,reference,21,12,FALSE,FALSE,FALSE,FALSE,TRUE
+225,Point Vicente SMCA|P. interruptus|PISCO|Bio,2022,mpa,28,4,FALSE,FALSE,FALSE,FALSE,TRUE
+226,Point Vicente SMCA|P. interruptus|PISCO|Bio,2022,reference,36,10,FALSE,FALSE,FALSE,FALSE,TRUE
+227,Point Vicente SMCA|P. interruptus|PISCO|Bio,2023,mpa,19,6,FALSE,FALSE,FALSE,FALSE,TRUE
+228,Point Vicente SMCA|P. interruptus|PISCO|Bio,2023,reference,49,14,FALSE,FALSE,FALSE,FALSE,TRUE
+229,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2009,mpa,60,3,FALSE,FALSE,FALSE,FALSE,TRUE
+230,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2009,reference,149,2,FALSE,FALSE,FALSE,FALSE,TRUE
+231,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2010,mpa,121,4,FALSE,FALSE,FALSE,FALSE,TRUE
+232,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2010,reference,216,5,FALSE,FALSE,FALSE,FALSE,TRUE
+233,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2011,mpa,104,6,FALSE,FALSE,FALSE,FALSE,TRUE
+234,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2011,reference,230,8,FALSE,FALSE,FALSE,FALSE,TRUE
+235,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2012,mpa,170,6,FALSE,FALSE,FALSE,FALSE,TRUE
+236,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2012,reference,652,19,FALSE,FALSE,FALSE,FALSE,TRUE
+237,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2013,reference,477,23,FALSE,FALSE,FALSE,FALSE,TRUE
+238,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2015,mpa,67,8,FALSE,FALSE,FALSE,FALSE,TRUE
+239,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2015,reference,250,24,FALSE,FALSE,FALSE,FALSE,TRUE
+240,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2016,mpa,8,3,FALSE,FALSE,TRUE,FALSE,TRUE
+241,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2016,reference,96,18,FALSE,FALSE,FALSE,FALSE,TRUE
+242,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2017,mpa,19,5,FALSE,FALSE,FALSE,FALSE,TRUE
+243,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2017,reference,84,18,FALSE,FALSE,FALSE,FALSE,TRUE
+244,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2018,mpa,62,6,FALSE,FALSE,FALSE,FALSE,TRUE
+245,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2018,reference,300,20,FALSE,FALSE,FALSE,FALSE,TRUE
+246,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2019,mpa,193,8,FALSE,FALSE,FALSE,FALSE,TRUE
+247,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2019,reference,305,28,FALSE,FALSE,FALSE,FALSE,TRUE
+248,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2020,mpa,186,7,FALSE,FALSE,FALSE,FALSE,TRUE
+249,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2020,reference,583,28,FALSE,FALSE,FALSE,FALSE,TRUE
+250,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2021,mpa,51,5,FALSE,FALSE,FALSE,FALSE,TRUE
+251,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2021,reference,430,27,FALSE,FALSE,FALSE,FALSE,TRUE
+252,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2022,mpa,48,5,FALSE,FALSE,FALSE,FALSE,TRUE
+253,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2022,reference,358,28,FALSE,FALSE,FALSE,FALSE,TRUE
+254,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2023,mpa,14,4,FALSE,FALSE,FALSE,FALSE,TRUE
+255,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2023,reference,161,16,FALSE,FALSE,FALSE,FALSE,TRUE
+256,Scorpion SMR|S. purpuratus|PISCO|Bio,2004,mpa,445,1,TRUE,FALSE,FALSE,FALSE,TRUE
+257,Scorpion SMR|S. purpuratus|PISCO|Bio,2004,reference,623,1,TRUE,FALSE,FALSE,FALSE,TRUE
+258,Scorpion SMR|S. purpuratus|PISCO|Bio,2005,mpa,186,1,TRUE,FALSE,FALSE,FALSE,TRUE
+259,Scorpion SMR|S. purpuratus|PISCO|Bio,2005,reference,374,2,TRUE,FALSE,FALSE,FALSE,TRUE
+260,Scorpion SMR|S. purpuratus|PISCO|Bio,2006,mpa,153,1,TRUE,FALSE,FALSE,FALSE,TRUE
+261,Scorpion SMR|S. purpuratus|PISCO|Bio,2006,reference,131,1,TRUE,FALSE,FALSE,FALSE,TRUE
+262,Scorpion SMR|S. purpuratus|PISCO|Bio,2007,mpa,170,1,TRUE,FALSE,FALSE,FALSE,TRUE
+263,Scorpion SMR|S. purpuratus|PISCO|Bio,2007,reference,169,1,TRUE,FALSE,FALSE,FALSE,TRUE
+264,Scorpion SMR|S. purpuratus|PISCO|Bio,2008,mpa,173,1,TRUE,FALSE,FALSE,FALSE,TRUE
+265,Scorpion SMR|S. purpuratus|PISCO|Bio,2008,reference,155,1,TRUE,FALSE,FALSE,FALSE,TRUE
+266,Scorpion SMR|S. purpuratus|PISCO|Bio,2009,mpa,186,1,TRUE,FALSE,FALSE,FALSE,TRUE
+267,Scorpion SMR|S. purpuratus|PISCO|Bio,2009,reference,79,1,TRUE,FALSE,FALSE,FALSE,TRUE
+268,Scorpion SMR|S. purpuratus|PISCO|Bio,2010,mpa,170,1,TRUE,FALSE,FALSE,FALSE,TRUE
+269,Scorpion SMR|S. purpuratus|PISCO|Bio,2010,reference,140,1,TRUE,FALSE,FALSE,FALSE,TRUE
+270,Scorpion SMR|S. purpuratus|PISCO|Bio,2011,mpa,100,1,TRUE,FALSE,FALSE,FALSE,TRUE
+271,Scorpion SMR|S. purpuratus|PISCO|Bio,2011,reference,146,1,TRUE,FALSE,FALSE,FALSE,TRUE
+272,Scorpion SMR|S. purpuratus|PISCO|Bio,2012,mpa,127,1,TRUE,FALSE,FALSE,FALSE,TRUE
+273,Scorpion SMR|S. purpuratus|PISCO|Bio,2012,reference,137,1,TRUE,FALSE,FALSE,FALSE,TRUE
+274,Scorpion SMR|S. purpuratus|PISCO|Bio,2013,mpa,168,1,TRUE,FALSE,FALSE,FALSE,TRUE
+275,Scorpion SMR|S. purpuratus|PISCO|Bio,2013,reference,162,1,TRUE,FALSE,FALSE,FALSE,TRUE
+276,Scorpion SMR|S. purpuratus|PISCO|Bio,2014,mpa,219,1,TRUE,FALSE,FALSE,FALSE,TRUE
+277,Scorpion SMR|S. purpuratus|PISCO|Bio,2014,reference,173,1,TRUE,FALSE,FALSE,FALSE,TRUE
+278,Scorpion SMR|S. purpuratus|PISCO|Bio,2015,mpa,294,1,TRUE,FALSE,FALSE,FALSE,TRUE
+279,Scorpion SMR|S. purpuratus|PISCO|Bio,2015,reference,143,1,TRUE,FALSE,FALSE,FALSE,TRUE
+280,Scorpion SMR|S. purpuratus|PISCO|Bio,2016,mpa,199,1,TRUE,FALSE,FALSE,FALSE,TRUE
+281,Scorpion SMR|S. purpuratus|PISCO|Bio,2016,reference,258,1,TRUE,FALSE,FALSE,FALSE,TRUE
+282,Scorpion SMR|S. purpuratus|PISCO|Bio,2017,mpa,172,1,TRUE,FALSE,FALSE,FALSE,TRUE
+283,Scorpion SMR|S. purpuratus|PISCO|Bio,2017,reference,127,1,TRUE,FALSE,FALSE,FALSE,TRUE
+284,Scorpion SMR|S. purpuratus|PISCO|Bio,2018,mpa,182,1,TRUE,FALSE,FALSE,FALSE,TRUE
+285,Scorpion SMR|S. purpuratus|PISCO|Bio,2018,reference,162,1,TRUE,FALSE,FALSE,FALSE,TRUE
+286,Scorpion SMR|S. purpuratus|PISCO|Bio,2019,mpa,196,1,TRUE,FALSE,FALSE,FALSE,TRUE
+287,Scorpion SMR|S. purpuratus|PISCO|Bio,2019,reference,169,1,TRUE,FALSE,FALSE,FALSE,TRUE
+288,Scorpion SMR|S. purpuratus|PISCO|Bio,2021,mpa,165,1,TRUE,FALSE,FALSE,FALSE,TRUE
+289,Scorpion SMR|S. purpuratus|PISCO|Bio,2021,reference,167,1,TRUE,FALSE,FALSE,FALSE,TRUE
+290,Scorpion SMR|S. purpuratus|PISCO|Bio,2022,mpa,137,1,TRUE,FALSE,FALSE,FALSE,TRUE
+291,Scorpion SMR|S. purpuratus|PISCO|Bio,2022,reference,97,1,TRUE,FALSE,FALSE,FALSE,TRUE
+292,South Point SMR|S. purpuratus|KFM|Bio,2005,mpa,210,3,TRUE,FALSE,FALSE,TRUE,TRUE
+293,South Point SMR|S. purpuratus|KFM|Bio,2005,reference,383,3,TRUE,FALSE,FALSE,TRUE,TRUE
+294,South Point SMR|S. purpuratus|KFM|Bio,2006,mpa,186,3,TRUE,FALSE,FALSE,FALSE,TRUE
+295,South Point SMR|S. purpuratus|KFM|Bio,2006,reference,389,3,TRUE,FALSE,FALSE,FALSE,TRUE
+296,South Point SMR|S. purpuratus|KFM|Bio,2007,mpa,416,3,TRUE,FALSE,FALSE,TRUE,TRUE
+297,South Point SMR|S. purpuratus|KFM|Bio,2007,reference,348,3,TRUE,FALSE,FALSE,TRUE,TRUE
+298,South Point SMR|S. purpuratus|KFM|Bio,2008,mpa,559,3,TRUE,FALSE,FALSE,TRUE,TRUE
+299,South Point SMR|S. purpuratus|KFM|Bio,2008,reference,542,3,TRUE,FALSE,FALSE,TRUE,TRUE
+300,South Point SMR|S. purpuratus|KFM|Bio,2009,mpa,698,3,TRUE,FALSE,FALSE,TRUE,TRUE
+301,South Point SMR|S. purpuratus|KFM|Bio,2009,reference,701,3,TRUE,FALSE,FALSE,TRUE,TRUE
+302,South Point SMR|S. purpuratus|KFM|Bio,2010,mpa,741,3,TRUE,FALSE,FALSE,TRUE,TRUE
+303,South Point SMR|S. purpuratus|KFM|Bio,2010,reference,656,3,TRUE,FALSE,FALSE,TRUE,TRUE
+304,South Point SMR|S. purpuratus|KFM|Bio,2011,mpa,674,3,TRUE,FALSE,FALSE,TRUE,TRUE
+305,South Point SMR|S. purpuratus|KFM|Bio,2011,reference,631,3,TRUE,FALSE,FALSE,TRUE,TRUE
+306,South Point SMR|S. purpuratus|KFM|Bio,2012,mpa,673,3,TRUE,FALSE,FALSE,TRUE,TRUE
+307,South Point SMR|S. purpuratus|KFM|Bio,2012,reference,639,3,TRUE,FALSE,FALSE,TRUE,TRUE
+308,South Point SMR|S. purpuratus|KFM|Bio,2013,mpa,826,3,TRUE,FALSE,FALSE,FALSE,TRUE
+309,South Point SMR|S. purpuratus|KFM|Bio,2013,reference,626,3,TRUE,FALSE,FALSE,FALSE,TRUE
+310,South Point SMR|S. purpuratus|KFM|Bio,2014,mpa,694,3,TRUE,FALSE,FALSE,TRUE,TRUE
+311,South Point SMR|S. purpuratus|KFM|Bio,2014,reference,599,3,TRUE,FALSE,FALSE,TRUE,TRUE
+312,South Point SMR|S. purpuratus|KFM|Bio,2015,mpa,670,3,TRUE,FALSE,FALSE,TRUE,TRUE
+313,South Point SMR|S. purpuratus|KFM|Bio,2015,reference,817,3,TRUE,FALSE,FALSE,TRUE,TRUE
+314,South Point SMR|S. purpuratus|KFM|Bio,2016,mpa,638,3,TRUE,FALSE,FALSE,TRUE,TRUE
+315,South Point SMR|S. purpuratus|KFM|Bio,2016,reference,744,3,TRUE,FALSE,FALSE,TRUE,TRUE
+316,South Point SMR|S. purpuratus|KFM|Bio,2017,mpa,645,3,TRUE,FALSE,FALSE,TRUE,TRUE
+317,South Point SMR|S. purpuratus|KFM|Bio,2017,reference,801,3,TRUE,FALSE,FALSE,TRUE,TRUE
+318,South Point SMR|S. purpuratus|KFM|Bio,2018,mpa,744,3,TRUE,FALSE,FALSE,TRUE,TRUE
+319,South Point SMR|S. purpuratus|KFM|Bio,2018,reference,874,3,TRUE,FALSE,FALSE,TRUE,TRUE
+320,South Point SMR|S. purpuratus|KFM|Bio,2019,mpa,830,3,TRUE,FALSE,FALSE,TRUE,TRUE
+321,South Point SMR|S. purpuratus|KFM|Bio,2019,reference,884,3,TRUE,FALSE,FALSE,TRUE,TRUE
+322,South Point SMR|S. purpuratus|KFM|Bio,2021,mpa,733,3,TRUE,FALSE,FALSE,TRUE,TRUE
+323,South Point SMR|S. purpuratus|KFM|Bio,2021,reference,856,3,TRUE,FALSE,FALSE,TRUE,TRUE
+324,South Point SMR|S. purpuratus|KFM|Bio,2022,mpa,743,3,TRUE,FALSE,FALSE,FALSE,TRUE
+325,South Point SMR|S. purpuratus|KFM|Bio,2022,reference,843,3,TRUE,FALSE,FALSE,TRUE,TRUE
+326,South Point SMR|S. purpuratus|PISCO|Bio,2005,mpa,168,3,TRUE,FALSE,FALSE,TRUE,TRUE
+327,South Point SMR|S. purpuratus|PISCO|Bio,2005,reference,303,3,TRUE,FALSE,FALSE,TRUE,TRUE
+328,South Point SMR|S. purpuratus|PISCO|Bio,2007,mpa,260,3,TRUE,FALSE,FALSE,TRUE,TRUE
+329,South Point SMR|S. purpuratus|PISCO|Bio,2007,reference,197,3,TRUE,FALSE,FALSE,TRUE,TRUE
+330,South Point SMR|S. purpuratus|PISCO|Bio,2008,mpa,415,3,TRUE,FALSE,FALSE,TRUE,TRUE
+331,South Point SMR|S. purpuratus|PISCO|Bio,2008,reference,377,3,TRUE,FALSE,FALSE,TRUE,TRUE
+332,South Point SMR|S. purpuratus|PISCO|Bio,2009,mpa,531,3,TRUE,FALSE,FALSE,TRUE,TRUE
+333,South Point SMR|S. purpuratus|PISCO|Bio,2009,reference,551,3,TRUE,FALSE,FALSE,TRUE,TRUE
+334,South Point SMR|S. purpuratus|PISCO|Bio,2010,mpa,534,3,TRUE,FALSE,FALSE,TRUE,TRUE
+335,South Point SMR|S. purpuratus|PISCO|Bio,2010,reference,490,3,TRUE,FALSE,FALSE,TRUE,TRUE
+336,South Point SMR|S. purpuratus|PISCO|Bio,2011,mpa,493,3,TRUE,FALSE,FALSE,TRUE,TRUE
+337,South Point SMR|S. purpuratus|PISCO|Bio,2011,reference,529,3,TRUE,FALSE,FALSE,TRUE,TRUE
+338,South Point SMR|S. purpuratus|PISCO|Bio,2012,mpa,595,3,TRUE,FALSE,FALSE,TRUE,TRUE
+339,South Point SMR|S. purpuratus|PISCO|Bio,2012,reference,534,3,TRUE,FALSE,FALSE,TRUE,TRUE
+340,South Point SMR|S. purpuratus|PISCO|Bio,2014,mpa,303,3,TRUE,FALSE,FALSE,TRUE,TRUE
+341,South Point SMR|S. purpuratus|PISCO|Bio,2014,reference,399,3,TRUE,FALSE,FALSE,TRUE,TRUE
+342,South Point SMR|S. purpuratus|PISCO|Bio,2015,mpa,425,3,TRUE,FALSE,FALSE,TRUE,TRUE
+343,South Point SMR|S. purpuratus|PISCO|Bio,2015,reference,609,3,TRUE,FALSE,FALSE,TRUE,TRUE
+344,South Point SMR|S. purpuratus|PISCO|Bio,2016,mpa,480,3,TRUE,FALSE,FALSE,TRUE,TRUE
+345,South Point SMR|S. purpuratus|PISCO|Bio,2016,reference,572,3,TRUE,FALSE,FALSE,TRUE,TRUE
+346,South Point SMR|S. purpuratus|PISCO|Bio,2017,mpa,396,3,TRUE,FALSE,FALSE,TRUE,TRUE
+347,South Point SMR|S. purpuratus|PISCO|Bio,2017,reference,336,3,TRUE,FALSE,FALSE,TRUE,TRUE
+348,South Point SMR|S. purpuratus|PISCO|Bio,2018,mpa,407,3,TRUE,FALSE,FALSE,TRUE,TRUE
+349,South Point SMR|S. purpuratus|PISCO|Bio,2018,reference,246,3,TRUE,FALSE,FALSE,TRUE,TRUE
+350,South Point SMR|S. purpuratus|PISCO|Bio,2019,mpa,417,3,TRUE,FALSE,FALSE,TRUE,TRUE
+351,South Point SMR|S. purpuratus|PISCO|Bio,2019,reference,264,3,TRUE,FALSE,FALSE,TRUE,TRUE
+352,South Point SMR|S. purpuratus|PISCO|Bio,2021,mpa,493,3,TRUE,FALSE,FALSE,TRUE,TRUE
+353,South Point SMR|S. purpuratus|PISCO|Bio,2021,reference,302,3,TRUE,FALSE,FALSE,TRUE,TRUE
+354,Abalone Cove SMCA|P. interruptus|PISCO|Bio,2011,reference,3,2,FALSE,FALSE,TRUE,FALSE,FALSE
+355,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2008,reference,121,6,FALSE,FALSE,FALSE,FALSE,FALSE
+356,Abalone Cove SMCA|S. purpuratus|PISCO|Bio,2009,reference,39,1,FALSE,FALSE,FALSE,FALSE,FALSE
+357,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,1985,reference,102,1,TRUE,FALSE,FALSE,FALSE,FALSE
+358,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,1986,reference,110,1,TRUE,FALSE,FALSE,FALSE,FALSE
+359,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,1987,reference,120,1,TRUE,FALSE,FALSE,FALSE,FALSE
+360,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,1988,reference,95,1,TRUE,FALSE,FALSE,FALSE,FALSE
+361,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,1989,reference,82,1,TRUE,FALSE,FALSE,FALSE,FALSE
+362,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,1990,reference,117,1,TRUE,FALSE,FALSE,FALSE,FALSE
+363,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,1991,reference,100,1,TRUE,FALSE,FALSE,FALSE,FALSE
+364,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,1992,reference,191,1,TRUE,FALSE,FALSE,FALSE,FALSE
+365,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,1993,reference,135,1,TRUE,FALSE,FALSE,FALSE,FALSE
+366,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,1994,reference,124,1,TRUE,FALSE,FALSE,FALSE,FALSE
+367,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,1995,reference,544,1,TRUE,FALSE,FALSE,FALSE,FALSE
+368,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,1996,reference,362,1,TRUE,FALSE,FALSE,FALSE,FALSE
+369,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,1997,reference,919,1,TRUE,FALSE,FALSE,FALSE,FALSE
+370,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,1998,reference,381,1,TRUE,FALSE,FALSE,FALSE,FALSE
+371,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,1999,reference,428,1,TRUE,FALSE,FALSE,FALSE,FALSE
+372,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2000,reference,393,1,TRUE,FALSE,FALSE,FALSE,FALSE
+373,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2001,reference,225,1,TRUE,FALSE,FALSE,FALSE,FALSE
+374,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2002,reference,274,1,TRUE,FALSE,FALSE,FALSE,FALSE
+375,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2003,reference,291,1,TRUE,FALSE,FALSE,FALSE,FALSE
+376,Anacapa Island SMR 2003|S. purpuratus|KFM|Bio,2004,reference,232,1,TRUE,FALSE,FALSE,FALSE,FALSE
+377,Gull Island SMR|S. purpuratus|PISCO|Bio,2001,reference,105,1,TRUE,FALSE,FALSE,FALSE,FALSE
+378,Gull Island SMR|S. purpuratus|PISCO|Bio,2002,reference,22,1,TRUE,FALSE,FALSE,FALSE,FALSE
+379,Gull Island SMR|S. purpuratus|PISCO|Bio,2003,reference,19,1,TRUE,FALSE,FALSE,FALSE,FALSE
+380,Gull Island SMR|S. purpuratus|PISCO|Bio,2020,reference,75,1,TRUE,FALSE,FALSE,FALSE,FALSE
+381,Gull Island SMR|S. purpuratus|PISCO|Bio,2022,reference,93,1,TRUE,FALSE,FALSE,FALSE,FALSE
+382,Harris Point SMR|S. purpuratus|PISCO|Bio,2020,mpa,26,1,TRUE,FALSE,FALSE,FALSE,FALSE
+383,Point Vicente SMCA|P. interruptus|PISCO|Bio,2014,reference,30,9,FALSE,FALSE,FALSE,FALSE,FALSE
+384,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2007,reference,114,3,FALSE,FALSE,FALSE,FALSE,FALSE
+385,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2008,reference,330,6,FALSE,FALSE,FALSE,FALSE,FALSE
+386,Point Vicente SMCA|S. purpuratus|PISCO|Bio,2014,reference,302,18,FALSE,FALSE,FALSE,FALSE,FALSE
+387,Scorpion SMR|S. purpuratus|PISCO|Bio,2000,reference,121,1,TRUE,FALSE,FALSE,FALSE,FALSE
+388,Scorpion SMR|S. purpuratus|PISCO|Bio,2001,reference,121,1,TRUE,FALSE,FALSE,FALSE,FALSE
+389,Scorpion SMR|S. purpuratus|PISCO|Bio,2002,reference,105,1,TRUE,FALSE,FALSE,FALSE,FALSE
+390,Scorpion SMR|S. purpuratus|PISCO|Bio,2003,reference,124,1,TRUE,FALSE,FALSE,FALSE,FALSE
+391,Scorpion SMR|S. purpuratus|PISCO|Bio,2023,mpa,180,1,TRUE,FALSE,FALSE,FALSE,FALSE
+392,South Point SMR|S. purpuratus|KFM|Bio,1985,reference,299,2,TRUE,FALSE,FALSE,FALSE,FALSE
+393,South Point SMR|S. purpuratus|KFM|Bio,1986,reference,210,2,TRUE,FALSE,FALSE,FALSE,FALSE
+394,South Point SMR|S. purpuratus|KFM|Bio,1987,reference,227,2,TRUE,FALSE,FALSE,FALSE,FALSE
+395,South Point SMR|S. purpuratus|KFM|Bio,1988,reference,204,2,TRUE,FALSE,FALSE,FALSE,FALSE
+396,South Point SMR|S. purpuratus|KFM|Bio,1989,reference,333,2,TRUE,FALSE,FALSE,FALSE,FALSE
+397,South Point SMR|S. purpuratus|KFM|Bio,1990,reference,238,2,TRUE,FALSE,FALSE,FALSE,FALSE
+398,South Point SMR|S. purpuratus|KFM|Bio,1991,reference,146,2,TRUE,FALSE,FALSE,FALSE,FALSE
+399,South Point SMR|S. purpuratus|KFM|Bio,1992,reference,130,2,TRUE,FALSE,FALSE,FALSE,FALSE
+400,South Point SMR|S. purpuratus|KFM|Bio,1993,reference,132,2,TRUE,FALSE,FALSE,FALSE,FALSE
+401,South Point SMR|S. purpuratus|KFM|Bio,1994,reference,103,2,TRUE,FALSE,FALSE,FALSE,FALSE
+402,South Point SMR|S. purpuratus|KFM|Bio,1995,reference,111,2,TRUE,FALSE,FALSE,FALSE,FALSE
+403,South Point SMR|S. purpuratus|KFM|Bio,1996,reference,73,2,TRUE,FALSE,FALSE,FALSE,FALSE
+404,South Point SMR|S. purpuratus|KFM|Bio,1997,reference,90,2,TRUE,FALSE,FALSE,FALSE,FALSE
+405,South Point SMR|S. purpuratus|KFM|Bio,1998,reference,335,2,TRUE,FALSE,FALSE,FALSE,FALSE
+406,South Point SMR|S. purpuratus|KFM|Bio,1999,reference,332,2,TRUE,FALSE,FALSE,FALSE,FALSE
+407,South Point SMR|S. purpuratus|KFM|Bio,2000,reference,486,2,TRUE,FALSE,FALSE,FALSE,FALSE
+408,South Point SMR|S. purpuratus|KFM|Bio,2001,reference,439,2,TRUE,FALSE,FALSE,FALSE,FALSE
+409,South Point SMR|S. purpuratus|KFM|Bio,2002,reference,138,2,TRUE,FALSE,FALSE,FALSE,FALSE
+410,South Point SMR|S. purpuratus|KFM|Bio,2003,reference,26,1,TRUE,FALSE,FALSE,FALSE,FALSE
+411,South Point SMR|S. purpuratus|KFM|Bio,2004,reference,221,2,TRUE,FALSE,FALSE,FALSE,FALSE
+412,South Point SMR|S. purpuratus|PISCO|Bio,2003,mpa,16,2,TRUE,FALSE,FALSE,FALSE,FALSE
+413,South Point SMR|S. purpuratus|PISCO|Bio,2020,reference,68,1,TRUE,FALSE,FALSE,FALSE,FALSE
+414,South Point SMR|S. purpuratus|PISCO|Bio,2022,reference,296,3,TRUE,FALSE,FALSE,TRUE,FALSE

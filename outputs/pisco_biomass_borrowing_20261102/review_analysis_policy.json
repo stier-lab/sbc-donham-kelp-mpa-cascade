@@ -1,0 +1,9 @@
+{
+  "scope": "Six affected PISCO animal comparisons; existing retained sites/years",
+  "density": "All valid months, equal visits, constant shared INNER/MID zones",
+  "biomass": "Review sensitivity only: measured sizes, then calibrated same-role/zone borrowing; unsupported remains missing",
+  "uncertainty": "Empirical site-year prediction error plus local size resampling; fixed counts, calibration equations and offsets; not total confidence intervals",
+  "paper_update": false,
+  "draws": 1000,
+  "seed": 20261102
+}

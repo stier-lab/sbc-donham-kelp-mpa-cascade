@@ -10,7 +10,7 @@ local({
   primary$vi <- as.numeric(primary$SE)^2
   naples <- primary$MPA == "Naples SMCA" & primary$Source == "LTER" &
     primary$Taxa == "S. pulcher" & primary$Resp == "Bio"
-  stopifnot(nrow(primary) == 145L, sum(naples) == 1L,
+  stopifnot(nrow(primary) == 143L, sum(naples) == 1L,
     primary$Model[naples] == "Linear", primary$AnalysisType[naples] == "pBACIPS",
     primary$N[naples] == 23L, all(is.finite(primary$vi)), all(primary$vi > 0))
   write_table <- function(x, name) write.csv(x, file.path(root, "tables", paste0(name, ".csv")), row.names = FALSE)
@@ -82,6 +82,6 @@ local({
   write_table(kelp, "table_s_coauthor_kelp_density_coverage")
   stopifnot(identical(fingerprints, unname(tools::md5sum(file.path(root, input_files)))))
   write_table(data.frame(path = input_files, md5 = fingerprints), "table_s_coauthor_sensitivity_inputs")
-  cat("Coauthor checks: 145 primary keys retained; Naples biomass exclusion, Gull Island omissions and common-cohort predator checks exported.\n")
+  cat("Coauthor checks: 143 primary keys retained; Naples biomass exclusion, Gull Island omissions and common-cohort predator checks exported.\n")
   print(tests)
 })

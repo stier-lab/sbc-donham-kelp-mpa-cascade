@@ -1,0 +1,7 @@
+series_id,n_years,observed_years,mean_slope,draw_low,draw_high,scope
+Abalone Cove SMCA|M. franciscanus|PISCO|Bio,8,2013;2015;2016;2017;2018;2019;2020;2021,-0.1703505245961461,-0.27604027103459,-0.07192946185144812,Conditional uncertainty in observed-year slope; no extra temporal process CI
+Abalone Cove SMCA|P. interruptus|PISCO|Bio,10,2013;2015;2016;2017;2018;2019;2020;2021;2022;2023,0.1688362707998784,0.03192275723554538,0.28989620099685537,Conditional uncertainty in observed-year slope; no extra temporal process CI
+Abalone Cove SMCA|S. purpuratus|PISCO|Bio,7,2013;2015;2016;2017;2019;2020;2023,-0.08567302196668038,-0.2263792896407037,0.04935087957444566,Conditional uncertainty in observed-year slope; no extra temporal process CI
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,5,2013;2017;2018;2020;2023,0.007376441553141067,-0.03914381993423943,0.05306681641133803,Conditional uncertainty in observed-year slope; no extra temporal process CI
+Point Vicente SMCA|P. interruptus|PISCO|Bio,9,2013;2015;2016;2017;2018;2019;2020;2021;2023,-0.05305022966316311,-0.15035911343479122,0.04771950169853879,Conditional uncertainty in observed-year slope; no extra temporal process CI
+Point Vicente SMCA|S. purpuratus|PISCO|Bio,6,2013;2015;2018;2019;2020;2021,-0.1129599208207296,-0.16524444696786136,-0.06445900300343237,Conditional uncertainty in observed-year slope; no extra temporal process CI

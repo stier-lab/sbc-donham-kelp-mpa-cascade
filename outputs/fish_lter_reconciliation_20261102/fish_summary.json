@@ -1,0 +1,20 @@
+{
+  "file_sha256": "f70459bdbeedb157e2332fa798f3123ac06b24bc4e9b71f32b3c8b2d2be9d796",
+  "all_species_rows": 36516,
+  "sheephead_rows": 5658,
+  "sheephead_fish": 10073,
+  "first_date": "2007-05-22",
+  "last_date": "2025-08-28",
+  "legacy_rows": 1565,
+  "legacy_difference_keys": 269,
+  "current_count_site_years": 423,
+  "old_matched_site_years": 118,
+  "new_matched_site_years": 282,
+  "new_all_dates_match": 279,
+  "old_complete_pair_years": 27,
+  "new_complete_pair_years": 60,
+  "positive_count_without_size": 110,
+  "matched_pools_under10": 100,
+  "pre2003_size_records": 0,
+  "notes": "Provisional site-year mass only; roving size versus visual count footprint remains unverified. No primary biomass or new exclusions adopted."
+}

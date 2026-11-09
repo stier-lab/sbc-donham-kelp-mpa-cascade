@@ -1,0 +1,106 @@
+series_id,Source,Taxa,Resp,station_years,physical_event_uses,missing_depth_event_uses,multi_depth_event_uses,allmonth_common_zones,no_allmonth_constant_zone,depth_min,depth_max,scope
+Abalone Cove SMCA|M. franciscanus|PISCO|Bio,PISCO,M. franciscanus,Bio,50,348,1,0,INNER;MID,False,2.5,27.4,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Abalone Cove SMCA|M. franciscanus|PISCO|Den,PISCO,M. franciscanus,Den,50,348,1,0,INNER;MID,False,2.5,27.4,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Abalone Cove SMCA|M. pyrifera|PISCO|Bio,PISCO,M. pyrifera,Bio,50,348,1,0,INNER;MID,False,2.5,27.4,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Abalone Cove SMCA|P. interruptus|PISCO|Bio,PISCO,P. interruptus,Bio,46,326,1,0,INNER;MID,False,2.5,27.4,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Abalone Cove SMCA|P. interruptus|PISCO|Den,PISCO,P. interruptus,Den,50,348,1,0,INNER;MID,False,2.5,27.4,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Abalone Cove SMCA|S. pulcher|PISCO|Bio,PISCO,S. pulcher,Bio,63,827,1,95,,True,2.1,22.2,Complete approved fish units
+Abalone Cove SMCA|S. pulcher|PISCO|Den,PISCO,S. pulcher,Den,63,827,1,95,,True,2.1,22.2,Complete approved fish units
+Abalone Cove SMCA|S. purpuratus|PISCO|Bio,PISCO,S. purpuratus,Bio,50,348,1,0,INNER;MID,False,2.5,27.4,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Abalone Cove SMCA|S. purpuratus|PISCO|Den,PISCO,S. purpuratus,Den,50,348,1,0,INNER;MID,False,2.5,27.4,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Anacapa Island SMR 2003|M. franciscanus|PISCO|Den,PISCO,M. franciscanus,Den,111,444,0,282,INNER;OUTER,False,3.4,16.2,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Anacapa Island SMR 2003|M. pyrifera|PISCO|Bio,PISCO,M. pyrifera,Bio,111,444,0,282,INNER;OUTER,False,3.4,16.2,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Anacapa Island SMR 2003|P. interruptus|PISCO|Den,PISCO,P. interruptus,Den,111,444,0,282,INNER;OUTER,False,3.4,16.2,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Anacapa Island SMR 2003|S. pulcher|PISCO|Bio,PISCO,S. pulcher,Bio,137,1104,0,1104,OUTER,False,1.0,19.2,Complete approved fish units
+Anacapa Island SMR 2003|S. pulcher|PISCO|Den,PISCO,S. pulcher,Den,137,1104,0,1104,OUTER,False,1.0,19.2,Complete approved fish units
+Anacapa Island SMR 2003|S. purpuratus|PISCO|Den,PISCO,S. purpuratus,Den,111,444,0,282,INNER;OUTER,False,3.4,16.2,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio,PISCO,S. pulcher,Bio,23,288,0,0,INNER;MID,False,2.1,31.0,Complete approved fish units
+Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den,PISCO,S. pulcher,Den,23,288,0,0,INNER;MID,False,2.1,31.0,Complete approved fish units
+Campus Point SMCA|M. franciscanus|PISCO|Bio,PISCO,M. franciscanus,Bio,45,270,0,216,INNER;MID;OUTER,False,4.4,14.6,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Campus Point SMCA|M. franciscanus|PISCO|Den,PISCO,M. franciscanus,Den,53,318,0,230,INNER;MID;OUTER,False,4.4,14.6,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Campus Point SMCA|M. pyrifera|PISCO|Bio,PISCO,M. pyrifera,Bio,53,318,0,230,INNER;MID;OUTER,False,4.4,14.6,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Campus Point SMCA|P. interruptus|PISCO|Den,PISCO,P. interruptus,Den,53,318,0,230,INNER;MID;OUTER,False,4.4,14.6,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Campus Point SMCA|S. pulcher|PISCO|Bio,PISCO,S. pulcher,Bio,52,624,0,624,INMID;INNER;OUTER;OUTMID,False,1.8,14.6,Complete approved fish units
+Campus Point SMCA|S. pulcher|PISCO|Den,PISCO,S. pulcher,Den,52,624,0,624,INMID;INNER;OUTER;OUTMID,False,1.8,14.6,Complete approved fish units
+Campus Point SMCA|S. purpuratus|PISCO|Bio,PISCO,S. purpuratus,Bio,49,294,0,230,INNER;MID;OUTER,False,4.4,14.6,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Campus Point SMCA|S. purpuratus|PISCO|Den,PISCO,S. purpuratus,Den,53,318,0,230,INNER;MID;OUTER,False,4.4,14.6,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio,PISCO,S. pulcher,Bio,12,144,0,0,INNER;MID;OUTER,False,2.9,17.2,Complete approved fish units
+Farnsworth Onshore SMCA|S. pulcher|PISCO|Den,PISCO,S. pulcher,Den,12,144,0,0,INNER;MID;OUTER,False,2.9,17.2,Complete approved fish units
+Gull Island SMR|M. franciscanus|PISCO|Bio,PISCO,M. franciscanus,Bio,59,354,24,171,INNER;MID;OUTER,False,2.7,21.3,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Gull Island SMR|M. franciscanus|PISCO|Den,PISCO,M. franciscanus,Den,63,378,24,194,INNER;MID;OUTER,False,2.7,21.3,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Gull Island SMR|M. pyrifera|PISCO|Bio,PISCO,M. pyrifera,Bio,63,378,24,194,INNER;MID;OUTER,False,2.7,21.3,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Gull Island SMR|P. interruptus|PISCO|Den,PISCO,P. interruptus,Den,63,378,24,194,INNER;MID;OUTER,False,2.7,21.3,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Gull Island SMR|S. pulcher|PISCO|Bio,PISCO,S. pulcher,Bio,80,957,0,952,INMID;OUTER;OUTMID,False,1.8,22.0,Complete approved fish units
+Gull Island SMR|S. pulcher|PISCO|Den,PISCO,S. pulcher,Den,80,957,0,952,INMID;OUTER;OUTMID,False,1.8,22.0,Complete approved fish units
+Gull Island SMR|S. purpuratus|PISCO|Bio,PISCO,S. purpuratus,Bio,59,354,24,171,INNER;MID;OUTER,False,2.7,21.3,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Gull Island SMR|S. purpuratus|PISCO|Den,PISCO,S. purpuratus,Den,63,378,24,194,INNER;MID;OUTER,False,2.7,21.3,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Harris Point SMR|M. franciscanus|PISCO|Bio,PISCO,M. franciscanus,Bio,60,364,28,182,INNER;MID;OUTER,False,4.3,15.2,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Harris Point SMR|M. franciscanus|PISCO|Den,PISCO,M. franciscanus,Den,67,406,28,217,INNER;MID;OUTER,False,4.3,15.2,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Harris Point SMR|M. pyrifera|PISCO|Bio,PISCO,M. pyrifera,Bio,67,406,28,217,INNER;MID;OUTER,False,4.3,15.2,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Harris Point SMR|P. interruptus|PISCO|Den,PISCO,P. interruptus,Den,67,406,28,217,INNER;MID;OUTER,False,4.3,15.2,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Harris Point SMR|S. pulcher|PISCO|Bio,PISCO,S. pulcher,Bio,68,813,0,811,INMID;INNER;OUTER;OUTMID,False,1.5,16.8,Complete approved fish units
+Harris Point SMR|S. pulcher|PISCO|Den,PISCO,S. pulcher,Den,68,813,0,811,INMID;INNER;OUTER;OUTMID,False,1.5,16.8,Complete approved fish units
+Harris Point SMR|S. purpuratus|PISCO|Bio,PISCO,S. purpuratus,Bio,60,364,28,182,INNER;MID;OUTER,False,4.3,15.2,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Harris Point SMR|S. purpuratus|PISCO|Den,PISCO,S. purpuratus,Den,67,406,28,217,INNER;MID;OUTER,False,4.3,15.2,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Long Point SMR|S. pulcher|PISCO|Bio,PISCO,S. pulcher,Bio,16,192,0,0,INNER;MID;OUTER,False,2.0,21.0,Complete approved fish units
+Long Point SMR|S. pulcher|PISCO|Den,PISCO,S. pulcher,Den,16,192,0,0,INNER;MID;OUTER,False,2.0,21.0,Complete approved fish units
+Matlahuayl SMR|M. franciscanus|PISCO|Bio,PISCO,M. franciscanus,Bio,10,50,0,0,INNER;MID,False,5.0,15.6,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Matlahuayl SMR|M. franciscanus|PISCO|Den,PISCO,M. franciscanus,Den,14,70,0,0,INNER;MID,False,5.0,16.0,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Matlahuayl SMR|M. pyrifera|PISCO|Bio,PISCO,M. pyrifera,Bio,14,70,0,0,INNER;MID,False,5.0,16.0,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Matlahuayl SMR|P. interruptus|PISCO|Bio,PISCO,P. interruptus,Bio,14,70,0,0,INNER;MID,False,5.0,16.0,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Matlahuayl SMR|P. interruptus|PISCO|Den,PISCO,P. interruptus,Den,14,70,0,0,INNER;MID,False,5.0,16.0,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Matlahuayl SMR|S. pulcher|PISCO|Bio,PISCO,S. pulcher,Bio,14,140,0,0,INNER;MID,False,4.0,15.7,Complete approved fish units
+Matlahuayl SMR|S. pulcher|PISCO|Den,PISCO,S. pulcher,Den,14,140,0,0,INNER;MID,False,4.0,15.7,Complete approved fish units
+Matlahuayl SMR|S. purpuratus|PISCO|Bio,PISCO,S. purpuratus,Bio,10,50,0,0,INNER;MID,False,5.0,16.0,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Matlahuayl SMR|S. purpuratus|PISCO|Den,PISCO,S. purpuratus,Den,14,70,0,0,INNER;MID,False,5.0,16.0,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Naples SMCA|M. franciscanus|PISCO|Bio,PISCO,M. franciscanus,Bio,63,302,0,267,INNER;OUTER,False,4.4,16.3,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Naples SMCA|M. franciscanus|PISCO|Den,PISCO,M. franciscanus,Den,68,326,0,267,INNER;OUTER,False,4.4,16.3,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Naples SMCA|M. pyrifera|PISCO|Bio,PISCO,M. pyrifera,Bio,68,326,0,267,INNER;OUTER,False,4.4,16.3,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Naples SMCA|P. interruptus|PISCO|Den,PISCO,P. interruptus,Den,68,326,0,267,INNER;OUTER,False,4.4,16.3,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Naples SMCA|S. pulcher|PISCO|Bio,PISCO,S. pulcher,Bio,70,672,0,672,INNER;OUTER,False,1.8,16.8,Complete approved fish units
+Naples SMCA|S. pulcher|PISCO|Den,PISCO,S. pulcher,Den,70,672,0,672,INNER;OUTER,False,1.8,16.8,Complete approved fish units
+Naples SMCA|S. purpuratus|PISCO|Bio,PISCO,S. purpuratus,Bio,63,302,0,267,INNER;OUTER,False,4.4,16.3,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Naples SMCA|S. purpuratus|PISCO|Den,PISCO,S. purpuratus,Den,68,326,0,267,INNER;OUTER,False,4.4,16.3,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Point Dume SMCA|M. franciscanus|PISCO|Bio,PISCO,M. franciscanus,Bio,3,18,0,0,MID,False,5.0,14.2,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Point Dume SMCA|M. franciscanus|PISCO|Den,PISCO,M. franciscanus,Den,15,84,0,22,MID,False,4.9,15.2,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Point Dume SMCA|M. pyrifera|PISCO|Bio,PISCO,M. pyrifera,Bio,15,84,0,22,MID,False,4.9,15.2,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Point Dume SMCA|P. interruptus|PISCO|Den,PISCO,P. interruptus,Den,15,84,0,22,MID,False,4.9,15.2,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Point Dume SMCA|S. pulcher|PISCO|Bio,PISCO,S. pulcher,Bio,14,136,0,0,INNER;MID,False,4.0,19.0,Complete approved fish units
+Point Dume SMCA|S. pulcher|PISCO|Den,PISCO,S. pulcher,Den,14,136,0,0,INNER;MID,False,4.0,19.0,Complete approved fish units
+Point Dume SMCA|S. purpuratus|PISCO|Bio,PISCO,S. purpuratus,Bio,3,18,0,0,MID,False,5.0,14.2,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Point Dume SMCA|S. purpuratus|PISCO|Den,PISCO,S. purpuratus,Den,15,84,0,22,MID,False,4.9,15.2,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Point Dume SMR|M. franciscanus|PISCO|Den,PISCO,M. franciscanus,Den,3,16,0,0,INNER;MID,False,4.0,14.5,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Point Dume SMR|M. pyrifera|PISCO|Bio,PISCO,M. pyrifera,Bio,3,16,0,0,INNER;MID,False,4.0,14.5,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Point Dume SMR|P. interruptus|PISCO|Den,PISCO,P. interruptus,Den,3,16,0,0,INNER;MID,False,4.0,14.5,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Point Dume SMR|S. pulcher|PISCO|Bio,PISCO,S. pulcher,Bio,18,210,0,0,INNER;MID,False,3.0,17.5,Complete approved fish units
+Point Dume SMR|S. pulcher|PISCO|Den,PISCO,S. pulcher,Den,18,210,0,0,INNER;MID,False,3.0,17.5,Complete approved fish units
+Point Dume SMR|S. purpuratus|PISCO|Den,PISCO,S. purpuratus,Den,3,16,0,0,INNER;MID,False,4.0,14.5,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,PISCO,M. franciscanus,Bio,130,1010,26,0,INNER;MID,False,2.6,29.0,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Point Vicente SMCA|M. franciscanus|PISCO|Den,PISCO,M. franciscanus,Den,136,1058,26,0,,True,2.6,29.0,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Point Vicente SMCA|M. pyrifera|PISCO|Bio,PISCO,M. pyrifera,Bio,136,1058,26,0,,True,2.6,29.0,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Point Vicente SMCA|P. interruptus|PISCO|Bio,PISCO,P. interruptus,Bio,119,928,10,0,INNER;MID,False,3.0,29.0,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Point Vicente SMCA|P. interruptus|PISCO|Den,PISCO,P. interruptus,Den,136,1058,26,0,,True,2.6,29.0,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Point Vicente SMCA|S. pulcher|PISCO|Bio,PISCO,S. pulcher,Bio,60,967,0,8,OUTER,False,2.2,27.2,Complete approved fish units
+Point Vicente SMCA|S. pulcher|PISCO|Den,PISCO,S. pulcher,Den,60,967,0,8,OUTER,False,2.2,27.2,Complete approved fish units
+Point Vicente SMCA|S. purpuratus|PISCO|Bio,PISCO,S. purpuratus,Bio,130,1010,26,0,INNER;MID,False,2.6,29.0,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Point Vicente SMCA|S. purpuratus|PISCO|Den,PISCO,S. purpuratus,Den,136,1058,26,0,,True,2.6,29.0,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Santa Barbara Island SMR|S. pulcher|PISCO|Bio,PISCO,S. pulcher,Bio,35,432,0,220,INNER,False,1.5,31.1,Complete approved fish units
+Santa Barbara Island SMR|S. pulcher|PISCO|Den,PISCO,S. pulcher,Den,35,432,0,220,INNER,False,1.5,31.1,Complete approved fish units
+Scorpion SMR|M. franciscanus|PISCO|Bio,PISCO,M. franciscanus,Bio,173,936,38,497,INNER;OUTER,False,3.8,20.1,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Scorpion SMR|M. franciscanus|PISCO|Den,PISCO,M. franciscanus,Den,191,1032,38,583,INNER;OUTER,False,3.8,20.1,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Scorpion SMR|M. pyrifera|PISCO|Bio,PISCO,M. pyrifera,Bio,191,1032,38,583,INNER;OUTER,False,3.8,20.1,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Scorpion SMR|P. interruptus|PISCO|Den,PISCO,P. interruptus,Den,191,1032,38,583,INNER;OUTER,False,3.8,20.1,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Scorpion SMR|S. pulcher|PISCO|Bio,PISCO,S. pulcher,Bio,220,2304,0,2301,INNER;OUTER,False,1.8,20.4,Complete approved fish units
+Scorpion SMR|S. pulcher|PISCO|Den,PISCO,S. pulcher,Den,220,2304,0,2301,INNER;OUTER,False,1.8,20.4,Complete approved fish units
+Scorpion SMR|S. purpuratus|PISCO|Bio,PISCO,S. purpuratus,Bio,173,936,38,497,INNER;OUTER,False,3.8,20.1,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Scorpion SMR|S. purpuratus|PISCO|Den,PISCO,S. purpuratus,Den,191,1032,38,583,INNER;OUTER,False,3.8,20.1,Raw all-month method-filtered swath availability; not approved outside six comparisons
+South Point SMR|M. franciscanus|PISCO|Bio,PISCO,M. franciscanus,Bio,92,562,3,274,INNER;MID;OUTER,False,4.6,22.0,Raw all-month method-filtered swath availability; not approved outside six comparisons
+South Point SMR|M. franciscanus|PISCO|Den,PISCO,M. franciscanus,Den,103,628,3,327,INNER;MID;OUTER,False,4.6,22.0,Raw all-month method-filtered swath availability; not approved outside six comparisons
+South Point SMR|M. pyrifera|PISCO|Bio,PISCO,M. pyrifera,Bio,103,628,3,327,INNER;MID;OUTER,False,4.6,22.0,Raw all-month method-filtered swath availability; not approved outside six comparisons
+South Point SMR|P. interruptus|PISCO|Den,PISCO,P. interruptus,Den,103,628,3,327,INNER;MID;OUTER,False,4.6,22.0,Raw all-month method-filtered swath availability; not approved outside six comparisons
+South Point SMR|S. pulcher|PISCO|Bio,PISCO,S. pulcher,Bio,139,1690,0,1686,OUTER,False,1.5,22.6,Complete approved fish units
+South Point SMR|S. pulcher|PISCO|Den,PISCO,S. pulcher,Den,151,1834,0,1828,OUTER,False,1.5,22.6,Complete approved fish units
+South Point SMR|S. purpuratus|PISCO|Bio,PISCO,S. purpuratus,Bio,92,562,3,274,INNER;MID;OUTER,False,4.6,22.0,Raw all-month method-filtered swath availability; not approved outside six comparisons
+South Point SMR|S. purpuratus|PISCO|Den,PISCO,S. purpuratus,Den,103,628,3,327,INNER;MID;OUTER,False,4.6,22.0,Raw all-month method-filtered swath availability; not approved outside six comparisons
+Swamis SMCA|S. pulcher|PISCO|Bio,PISCO,S. pulcher,Bio,14,168,0,0,INNER;MID;OUTER,False,3.1,17.9,Complete approved fish units
+Swamis SMCA|S. pulcher|PISCO|Den,PISCO,S. pulcher,Den,14,168,0,0,INNER;MID;OUTER,False,3.1,17.9,Complete approved fish units

@@ -1,0 +1,13 @@
+series_id,status,n_samples,sites,years,singletons,converged,boundary_components,site_variance,siteyear_variance,event_variance,bootstrap_success,bootstrap_retries,standardized_residual_max_abs,sampling_variance_pool_df,scope
+Abalone Cove SMCA|M. franciscanus|PISCO|Bio,mpa,24,1,13,0,True,2,0.0,0.0,0.1398066825235465,40,0,2.0378848308655924,10.0,Conditional latent-size diagnostic; borrowing eligibility unchanged
+Abalone Cove SMCA|M. franciscanus|PISCO|Bio,reference,46,4,12,7,True,1,0.0,0.018054078217676215,0.13983070112362492,40,0,4.776841480433327,10.0,Conditional latent-size diagnostic; borrowing eligibility unchanged
+Abalone Cove SMCA|P. interruptus|PISCO|Bio,mpa,9,1,7,4,True,2,0.0,0.0532991580155828,0.0,40,0,1.7811727684882843,10.0,Conditional latent-size diagnostic; borrowing eligibility unchanged
+Abalone Cove SMCA|P. interruptus|PISCO|Bio,reference,40,4,11,10,True,0,0.010316686627833282,0.032776771034916316,0.18304823245061927,40,0,3.004021277058716,10.0,Conditional latent-size diagnostic; borrowing eligibility unchanged
+Abalone Cove SMCA|S. purpuratus|PISCO|Bio,mpa,22,1,13,2,True,1,0.0,0.0006652965074561094,0.08748198555812825,40,0,1.8725559671939365,10.0,Conditional latent-size diagnostic; borrowing eligibility unchanged
+Abalone Cove SMCA|S. purpuratus|PISCO|Bio,reference,49,4,12,4,True,0,0.0012350257779070244,0.015730905030366914,0.04442759057325508,40,0,1.9962295566849608,10.0,Conditional latent-size diagnostic; borrowing eligibility unchanged
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,mpa,40,2,14,4,True,2,0.0,0.007840818605440673,0.0,40,0,3.74551187753576,10.0,Conditional latent-size diagnostic; borrowing eligibility unchanged
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,reference,121,9,14,19,True,0,0.045165940600445834,0.013096990840597459,0.08667506818968689,40,0,3.4456751684122904,10.0,Conditional latent-size diagnostic; borrowing eligibility unchanged
+Point Vicente SMCA|P. interruptus|PISCO|Bio,mpa,34,2,12,11,True,0,0.07794907638430354,0.054421516542980566,0.06701675929033815,40,0,1.8023930295278345,10.0,Conditional latent-size diagnostic; borrowing eligibility unchanged
+Point Vicente SMCA|P. interruptus|PISCO|Bio,reference,95,9,12,29,True,1,0.0,0.08461728458749447,0.07235121503327294,40,0,3.2079318478917638,10.0,Conditional latent-size diagnostic; borrowing eligibility unchanged
+Point Vicente SMCA|S. purpuratus|PISCO|Bio,mpa,48,2,14,2,True,1,0.0,0.05112975612522013,0.0248332811834882,40,0,3.147715534676078,10.0,Conditional latent-size diagnostic; borrowing eligibility unchanged
+Point Vicente SMCA|S. purpuratus|PISCO|Bio,reference,154,9,14,8,True,0,0.05694285386255619,0.011325899019644042,0.07728862630259839,40,0,2.9665604013968156,10.0,Conditional latent-size diagnostic; borrowing eligibility unchanged

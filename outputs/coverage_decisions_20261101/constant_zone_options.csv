@@ -1,0 +1,1049 @@
+pair_id,program,MPA,taxon,method,paired_years,constant_zones_all_years,any_shared_zone_years,unknown_zone_years,years_with_measured_depth_both,years_no_shared_month,years_gap_over90
+0030590b1ebaef75,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,2,INNER,2,0,2,0,0
+0087cffdf5af33a1,PISCO,Gull Island SMR,P. interruptus,SBTL_FISH_PISCO,2,,2,0,2,1,0
+010030703d9ff2c0,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,4,INNER,4,0,4,2,0
+014d97156a9b27e7,PISCO,Anacapa Island SMR 2003,M. pyrifera,SBTL_SWATH_PISCO,13,,13,0,13,5,0
+017ab4745c322e09,PISCO,Campus Point SMCA,P. interruptus,SBTL_FISH_PISCO,2,INNER,2,0,2,0,0
+018a7a9c3a95baad,KFM,South Point SMR,S. pulcher,rdfc,16,,0,16,0,10,0
+0209b4ca12562945,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,2,INNER;OUTER,2,0,2,0,0
+024f6422288b157b,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,6,,6,0,6,3,0
+0268fcb0ec49b26a,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,2,MID,2,0,2,2,0
+02ee02f64f16ae4f,PISCO,Anacapa Island SMR 2003,M. franciscanus,SBTL_SWATH_PISCO,16,INNER;OUTER,16,0,16,5,0
+031140204eb45ad8,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,2,OUTER,2,0,2,2,0
+0387ca96f72c1cd9,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,3,,3,0,3,1,0
+03b3db0563d412d0,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,4,1
+03ee46f999f6c47f,LTER,Naples SMCA,M. franciscanus,quad,23,,0,23,0,0,0
+043142a52d35bf33,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,2,MID;OUTER,2,0,2,0,0
+04836a2664647782,KFM,Santa Barbara Island SMR,S. pulcher,visualfish,36,,0,36,0,9,0
+0543a6edb9786a9b,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,4,INNER;MID;OUTER,4,0,4,2,0
+05511c21babe8429,PISCO,South Point SMR,S. pulcher,SBTL_FISH_CRANE,1,INNER;OUTER,1,0,1,0,0
+056d231328b87609,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,19,,19,0,19,6,0
+05cf8ad5ca69d741,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,2,INMID,2,0,2,2,0
+06b357ea8d4930be,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_SWATH_PISCO,2,INNER,2,0,2,1,0
+06b59fb8d4941c7a,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,1,INNER,1,0,1,0,0
+06ec52fad17e35e4,KFM,Anacapa Island SMR 2003,M. pyrifera,1mquad,17,,0,17,0,11,0
+070bb4095aae16cf,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,2,INNER;OUTER,2,0,2,0,0
+0722a0d3636b920a,PISCO,Anacapa Island SMR 2003,M. pyrifera,SBTL_SWATH_PISCO,1,INNER,1,0,1,1,1
+0743e29c76d7f67c,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_FISH_PISCO,2,INNER,2,0,2,2,0
+07e8936b36d2c002,LTER,Campus Point SMCA,S. pulcher,fish,23,,0,23,0,0,0
+089423afe0cc938e,PISCO,Anacapa Island SMR 2003,M. franciscanus,SBTL_SWATH_PISCO,6,INNER;OUTER,6,0,6,3,1
+08b883c187fd4e4f,KFM,South Point SMR,M. pyrifera,5mquad,17,,0,17,0,11,0
+08f9930090ea0e9b,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,0,0
+095513c994c56bdb,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,3,MID;OUTER,3,0,3,2,0
+09770bf4e3f75259,LTER,Campus Point SMCA,M. pyrifera,quad,23,,0,23,0,0,0
+0a42d40ddad17a4b,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,2,INMID,2,0,2,2,0
+0a5bb81ecaf003e9,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,2,INNER;MID,2,0,2,0,0
+0a9ef5327c4f44ff,PISCO,Point Vicente SMCA,M. pyrifera,SBTL_SWATH_VRG,16,INNER;MID,16,0,16,6,2
+0afa4acb757dcf7d,PISCO,Point Vicente SMCA,S. pulcher,SBTL_FISH_VRG,12,MID,12,0,12,7,1
+0b239f554ea23af6,PISCO,Scorpion SMR,M. pyrifera,SBTL_SWATH_PISCO,10,,9,0,10,6,0
+0b3a03cac81ccd98,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,16,INNER;MID;OUTER,16,0,16,8,0
+0b3c5e55f21c8edd,KFM,Santa Barbara Island SMR,S. pulcher,visualfish,17,,0,17,0,7,0
+0b65ab952f8a2d4c,KFM,Santa Barbara Island SMR,S. pulcher,visualfish,18,,0,18,0,7,0
+0b8e7323bffcaef9,PISCO,Point Vicente SMCA,P. interruptus,SBTL_SWATH_VRG,11,,11,0,10,9,1
+0c0fcd50a4f09e5b,PISCO,Scorpion SMR,M. pyrifera,SBTL_SWATH_PISCO,4,,3,0,4,2,0
+0c1dcaab1bfb9354,PISCO,Harris Point SMR,S. purpuratus,SBTL_SWATH_PISCO,16,INNER,16,0,15,3,0
+0c38fb4c8cd2dee0,KFM,Scorpion SMR,S. pulcher,visualfish,18,,0,18,0,14,0
+0c4f931349304741,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,2,INNER;OUTER,2,0,2,0,0
+0cb21cedcbe9f461,PISCO,Anacapa Island SMR 2003,S. purpuratus,SBTL_SWATH_PISCO,16,INNER;OUTER,16,0,16,8,0
+0cb737bf66273e10,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,4,INNER;OUTER,4,0,4,0,0
+0d1c1cca4189acc8,PISCO,Scorpion SMR,P. interruptus,SBTL_FISH_PISCO,2,OUTER,2,0,2,1,0
+0d85318a95a35154,PISCO,Point Dume SMCA,S. purpuratus,SBTL_SWATH_VRG,1,INNER;MID,1,0,1,0,0
+0e33613873feb502,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_SWATH_PISCO,6,INNER,6,0,6,3,0
+0e4b5bcbba1dd22b,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,20,INNER;MID;OUTER,20,0,19,10,0
+0e8f3952a80f7f10,PISCO,Point Vicente SMCA,P. interruptus,SBTL_SWATH_VRG,9,,8,0,8,6,0
+0ecd630c38cc0100,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,2,0
+0f0a9932c6c3c9ad,KFM,South Point SMR,P. interruptus,band,17,,0,17,0,12,0
+0fc06e4f84dc4143,PISCO,Anacapa Island SMR 2003,S. purpuratus,SBTL_SWATH_PISCO,6,INNER;OUTER,6,0,6,4,1
+10207e349713b89a,PISCO,Anacapa Island SMR 2003,S. pulcher,SBTL_FISH_PISCO,18,,18,0,18,11,1
+1071b7e96e170dcf,PISCO,Anacapa Island SMR 2003,S. pulcher,SBTL_FISH_PISCO,18,,17,0,18,8,0
+1073dca5a025c817,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,4,1
+10847c6932230361,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,2,INNER;MID,2,0,2,0,0
+10e4de8d5b31714f,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,4,INNER;MID,4,0,4,2,0
+10edee0c37a376ba,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,1,INNER,1,0,1,1,0
+10f0bf5892f8d9da,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,5,0
+1103ed795d833a59,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_SWATH_PISCO,2,INNER,2,0,2,2,0
+1120d34ce5f0eb4b,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_SWATH_PISCO,2,INNER,2,0,2,1,0
+11356533e35ac3b1,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,0,0
+1176070fb2576170,KFM,Santa Barbara Island SMR,M. pyrifera,1mquad,36,,0,36,0,11,1
+11960062b4ebb16c,PISCO,Anacapa Island SMR 2003,S. pulcher,SBTL_FISH_PISCO,8,,7,0,8,5,0
+120b5d3bce1d56e0,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID,3,0,3,0,0
+1211d46ac70c6e03,PISCO,Point Dume SMR,S. pulcher,SBTL_FISH_VRG,5,,3,0,5,2,0
+125e66bf96922077,PISCO,Harris Point SMR,M. pyrifera,SBTL_SWATH_PISCO,10,INNER,10,0,9,2,0
+1264eb525a9d9cc3,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,1,MID;OUTER,1,0,1,1,0
+131ef1badc564ae3,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,1,INNER,1,0,1,1,0
+132a35191752a7eb,PISCO,Scorpion SMR,M. pyrifera,SBTL_SWATH_PISCO,1,MID,1,0,1,1,0
+1339c034c5295bc7,KFM,Santa Barbara Island SMR,S. pulcher,visualfish,17,,0,17,0,8,0
+13f24f3343c9f1c5,PISCO,Anacapa Island SMR 2003,S. purpuratus,SBTL_SWATH_PISCO,16,INNER;OUTER,16,0,16,7,0
+1426a0238e35e6c4,LTER,Campus Point SMCA,M. pyrifera,lter_kelp,23,,0,23,0,0,0
+147e0797520a8474,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_SWATH_PISCO,9,INNER,9,0,9,3,0
+14ca99c31a37a31d,PISCO,Naples SMCA,M. pyrifera,SBTL_SWATH_PISCO,12,INNER,12,0,12,6,0
+14e24794b6fd5402,LTER,Naples SMCA,S. pulcher,fish,23,,0,23,0,0,0
+14f31e31c0a7368d,PISCO,Anacapa Island SMR 2003,M. pyrifera,SBTL_SWATH_PISCO,14,,12,0,14,7,0
+151742fd696d4b76,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,,6,0,6,4,1
+1541d51352b51207,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,16,,15,0,16,5,0
+15db34a1746b0f84,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,4,INNER;MID,4,0,4,3,0
+15e75ce94fe4ad3c,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,3,,3,0,3,0,0
+164d9fff63ed372f,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,1,0
+165bfb44a788bec5,PISCO,Gull Island SMR,S. pulcher,SBTL_FISH_PISCO,20,,20,0,20,7,0
+1678383071333c45,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,2,INNER;MID,2,0,2,2,0
+1681dbb4455e297a,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,2,INMID,2,0,2,2,0
+169e3cfc6b3604d5,PISCO,Blue Cavern Onshore SMCA,S. pulcher,SBTL_FISH_VRG,3,MID,3,0,3,3,3
+16b6e71f60539ec3,KFM,Santa Barbara Island SMR,S. pulcher,rdfc,26,,0,26,0,6,0
+16ec8928e9679b1e,PISCO,South Point SMR,S. pulcher,SBTL_FISH_CRANE,1,OUTER,1,0,1,1,0
+174dd44bcdac0ff3,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,19,OUTER,19,0,19,10,1
+176314e6f8e8c9bf,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,15,INNER;OUTER,15,0,15,8,0
+176c86efd57e1582,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,2,,2,0,2,1,0
+1789224b62e4b679,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,3,MID;OUTER,3,0,3,2,0
+17e248016d06a187,PISCO,Scorpion SMR,M. pyrifera,SBTL_SWATH_PISCO,6,,5,0,6,2,0
+18ab5530d1c2ad49,PISCO,Point Dume SMR,S. pulcher,SBTL_FISH_VRG,5,MID,5,0,5,2,0
+198388580bb0cd6a,PISCO,Point Vicente SMCA,S. pulcher,SBTL_FISH_VRG,10,MID,10,0,10,8,2
+1993cb0d31574198,PISCO,Scorpion SMR,M. pyrifera,SBTL_SWATH_PISCO,1,MID,1,0,1,1,0
+19bdf1af6ec7abb1,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID,3,0,3,1,0
+19be59aedfb07bbb,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_FISH_PISCO,2,OUTER,2,0,2,2,0
+19ec1d225678d3ff,KFM,South Point SMR,M. pyrifera,1mquad,17,,0,17,0,13,0
+1a10e3f37c7aae95,LTER,Naples SMCA,M. pyrifera,quad,23,,0,23,0,0,0
+1a2dd3f297a186f4,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID,3,0,3,0,0
+1a6bc1c5acd105e2,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,4,INNER;MID;OUTER,4,0,4,0,0
+1a74836da7080a4b,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,15,INNER,15,0,15,8,0
+1a79265114644b97,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,3,MID,3,0,3,1,0
+1ae3a1547cb736fd,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,20,INNER;MID;OUTER,20,0,19,12,0
+1ae5c0d1875d1df3,KFM,Harris Point SMR,M. franciscanus,1mquad,40,,0,40,0,9,1
+1aff44b002344298,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,14,,14,0,14,6,0
+1b092d5d94f9a622,KFM,South Point SMR,S. pulcher,visualfish,17,,0,17,0,12,0
+1b27b436bbac8255,PISCO,Point Dume SMCA,P. interruptus,SBTL_SWATH_PISCO,2,INNER,2,0,2,1,0
+1bbd84d6b423ce73,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,19,,19,0,19,10,1
+1bcd56abf91b2644,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,4,INNER;MID;OUTER,4,0,4,2,0
+1bee942297d2ff08,KFM,Anacapa Island SMR 2003,M. pyrifera,5mquad,17,,0,17,0,11,0
+1c2cf4790d9ee7e3,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,1,MID;OUTER,1,0,0,1,0
+1c4cc460a1a7074f,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,4,,3,0,4,2,0
+1c62f73ca69194ed,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,16,INNER;MID,16,0,16,8,0
+1cc4272b3738f6d7,PISCO,Naples SMCA,S. pulcher,SBTL_FISH_PISCO,13,,12,0,13,7,0
+1d81e0bfbc115a80,PISCO,Point Vicente SMCA,M. pyrifera,SBTL_SWATH_VRG,16,INNER,16,0,15,10,1
+1db789bd98fe6cd2,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,2,MID;OUTER,2,0,2,0,0
+1dead8c8289cb3a0,PISCO,Point Dume SMR,M. franciscanus,SBTL_SWATH_VRG,6,,5,0,6,3,0
+1e9285a5d4a277f9,PISCO,Point Dume SMR,M. franciscanus,SBTL_SWATH_VRG,5,,4,0,5,2,0
+1f7c9d4f8f6dfa33,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,2,INNER;MID;OUTER,2,0,2,2,0
+1fa924599114b331,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,5,0
+204fc0e238b9aabe,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,INNER;OUTER,6,0,6,4,0
+20bc5fd8749bd796,KFM,Scorpion SMR,S. pulcher,visualfish,17,,0,17,0,11,0
+20f41b813f131beb,PISCO,Abalone Cove SMCA,M. pyrifera,SBTL_SWATH_VRG,12,MID,12,0,12,10,5
+2155f821838dc855,PISCO,Anacapa Island SMR 2003,M. franciscanus,SBTL_SWATH_PISCO,6,INNER;OUTER,6,0,6,3,1
+2184be6ffa99d17c,PISCO,Abalone Cove SMCA,S. purpuratus,SBTL_SWATH_VRG,13,,12,0,13,10,6
+21ccacdacfe1a71e,PISCO,Point Vicente SMCA,M. pyrifera,SBTL_SWATH_VRG,15,INNER;MID,15,0,15,8,2
+220b264c2edfd838,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,2,INNER;MID,2,0,2,0,0
+22507628c8225a0d,PISCO,Campus Point SMCA,S. purpuratus,SBTL_SWATH_PISCO,12,INNER;MID,12,0,12,3,0
+2337c6dfcd21787f,KFM,South Point SMR,S. pulcher,rdfc,16,,0,16,0,11,0
+2367e304c61a0776,PISCO,Gull Island SMR,M. pyrifera,SBTL_SWATH_PISCO,18,INNER,18,0,17,6,0
+2372e9520ae4b38e,LTER,Campus Point SMCA,S. purpuratus,quad,23,,0,23,0,1,0
+2377e846842dd7b3,KFM,South Point SMR,S. purpuratus,1mquad,17,,0,17,0,8,0
+24c002265800b18b,KFM,Scorpion SMR,S. pulcher,visualfish,17,,0,17,0,12,0
+25731699f48c3ed0,KFM,Santa Barbara Island SMR,S. pulcher,rdfc,16,,0,16,0,7,0
+2574c8e0e8992ac7,KFM,Santa Barbara Island SMR,M. pyrifera,5mquad,26,,0,26,0,10,0
+25fdf510c87008ed,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,14,INNER,14,0,14,6,0
+262e90ad89a9e024,PISCO,Anacapa Island SMR 2003,S. pulcher,SBTL_FISH_PISCO,8,,8,0,8,5,0
+2684c3f39bda5b15,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,3,,1,0,3,0,0
+26a169f5a8138b0f,KFM,Santa Barbara Island SMR,M. franciscanus,1mquad,41,,0,41,0,11,1
+26d7164cec25b5ee,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,3,INNER,3,0,3,0,0
+277c458bca78813c,PISCO,Campus Point SMCA,M. pyrifera,SBTL_SWATH_PISCO,11,,11,0,11,3,0
+279dd7215a7c783a,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,2,MID,2,0,2,1,0
+27d4f26e113aa493,LTER,Naples SMCA,P. interruptus,lter_lobster,12,,0,12,0,1,0
+27e9658be2f75240,KFM,South Point SMR,M. pyrifera,1mquad,17,,0,17,0,12,0
+2824f9780e37809d,LTER,Campus Point SMCA,M. pyrifera,lter_kelp,23,,0,23,0,1,0
+287425e2e9c6388f,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_SWATH_PISCO,3,,2,0,3,3,1
+287a537aca7f0329,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,2,INNER;MID,2,0,2,2,0
+2880ad6ef9b730da,PISCO,Scorpion SMR,M. pyrifera,SBTL_SWATH_PISCO,8,,7,0,8,5,0
+288a1aaab9cab6f7,LTER,Naples SMCA,M. pyrifera,lter_kelp,23,,0,23,0,0,0
+2964a56114c22045,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,3,OUTMID,3,0,3,1,0
+29ba92f62b67c584,PISCO,Anacapa Island SMR 2003,S. pulcher,SBTL_FISH_PISCO,18,,18,0,18,12,1
+2a08286299eed34b,LTER,Campus Point SMCA,M. pyrifera,quad,23,,0,23,0,0,0
+2a51a59740c38756,PISCO,Harris Point SMR,M. franciscanus,SBTL_SWATH_PISCO,17,INNER;MID,17,0,16,2,0
+2aac282c710dff25,PISCO,Naples SMCA,P. interruptus,SBTL_SWATH_PISCO,1,OUTER,1,0,1,0,0
+2b01dd6b63865db3,KFM,Santa Barbara Island SMR,M. pyrifera,5mquad,27,,0,27,0,6,0
+2b29a533643aed23,KFM,Scorpion SMR,S. pulcher,rdfc,17,,0,17,0,10,4
+2b6a8f2266ef06ff,PISCO,Naples SMCA,P. interruptus,SBTL_SWATH_PISCO,4,,1,0,4,2,1
+2b8c6f083c0a780a,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,3,0
+2c12be0d4bba0641,PISCO,Naples SMCA,S. pulcher,SBTL_FISH_PISCO,12,,9,0,12,6,0
+2d003d24784d0ecc,PISCO,Anacapa Island SMR 2003,M. pyrifera,SBTL_SWATH_PISCO,10,,8,0,10,4,0
+2d1c36637fe381fc,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,2,0
+2d292887fddebb28,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,19,,19,0,19,6,1
+2d2c2c73bb8e0534,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,2,,1,0,2,2,0
+2d384b9d69ddb3d0,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,1,MID;OUTER,1,0,1,1,0
+2d47eae42431b679,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,1,0
+2d599e2eb883faba,KFM,Scorpion SMR,S. purpuratus,1mquad,40,,0,40,0,27,1
+2d65f157c3758018,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,4,OUTER,4,0,4,0,0
+2debee79581ff453,PISCO,Campus Point SMCA,M. pyrifera,SBTL_SWATH_PISCO,12,INNER,12,0,12,6,0
+2e09d2d71dfa3fd8,PISCO,Harris Point SMR,S. purpuratus,SBTL_SWATH_PISCO,17,INNER,17,0,16,3,0
+2e9060630ee0b4f2,KFM,South Point SMR,M. pyrifera,5mquad,17,,0,17,0,11,0
+2f2dc09739453374,KFM,South Point SMR,M. pyrifera,1mquad,17,,0,17,0,9,0
+2fe7915c35bb605a,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,4,,4,0,4,0,0
+300ea3907f3c0c4b,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,4,INNER;OUTER,4,0,4,0,0
+3021acb0a6b1fe49,PISCO,Point Vicente SMCA,M. franciscanus,SBTL_SWATH_VRG,12,OUTER,12,0,12,9,2
+304926c8b7a76c73,KFM,Santa Barbara Island SMR,S. pulcher,rdfc,16,,0,16,0,8,0
+30d196a900d4d8b2,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,1,,0,0,1,1,0
+30dff34b3c0d2482,KFM,Scorpion SMR,S. pulcher,rdfc,17,,0,17,0,5,1
+310487b106bc865a,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,1,0
+316d32a3787ff1b6,PISCO,Point Dume SMR,S. purpuratus,SBTL_SWATH_VRG,5,,5,0,5,2,0
+31ae2b711396a808,KFM,Santa Barbara Island SMR,S. pulcher,visualfish,38,,0,38,0,6,0
+31b46367cd3bd686,PISCO,Naples SMCA,M. pyrifera,SBTL_SWATH_PISCO,11,INNER,11,0,11,4,0
+31b65b860fa5dff7,KFM,South Point SMR,S. pulcher,rdfc,16,,0,16,0,11,0
+31ed4629f60257e2,PISCO,Scorpion SMR,M. pyrifera,SBTL_SWATH_PISCO,3,INNER;OUTER,3,0,3,1,0
+322f52558fa3c547,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_SWATH_PISCO,9,INNER,9,0,9,5,0
+3367e64cfb3292e3,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,2,MID;OUTER,2,0,2,0,0
+33b4e722d7c76f35,KFM,Harris Point SMR,S. pulcher,rdfc,14,,0,14,0,10,0
+33e073994feb7aab,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,0,0
+3467660d3f7f93b1,KFM,Santa Barbara Island SMR,S. purpuratus,1mquad,36,,0,36,0,11,1
+34a7e693b4210323,PISCO,Point Vicente SMCA,S. purpuratus,SBTL_SWATH_VRG,15,,15,0,14,15,4
+34cf907c4fdc7816,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,19,,19,0,19,11,0
+354342a138d1fd34,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,4,INNER,4,0,4,2,0
+35601ae328a2a416,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,4,OUTER,4,0,4,2,0
+35985c56b8cd6704,PISCO,Point Vicente SMCA,S. pulcher,SBTL_FISH_VRG,13,MID;OUTER,13,0,13,10,1
+3599eb6d0f5ad64a,PISCO,Anacapa Island SMR 2003,M. pyrifera,SBTL_SWATH_PISCO,14,INNER,14,0,14,6,0
+35da21f767762a26,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,3,,3,0,3,1,0
+3619afa62ee57970,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,3,INNER;MID,3,0,3,1,0
+368da83cf8449357,PISCO,Gull Island SMR,M. pyrifera,SBTL_SWATH_PISCO,18,INNER,18,0,17,6,0
+36a799d6b3022e8c,PISCO,Farnsworth Onshore SMCA,S. pulcher,SBTL_FISH_VRG,6,MID;OUTER,6,0,6,1,0
+36ab47e634c4b479,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,1,,0,0,1,0,0
+36feb6acd1f38917,LTER,Naples SMCA,M. franciscanus,quad,23,,0,23,0,0,0
+37532f7813ae75c0,KFM,South Point SMR,M. pyrifera,5mquad,17,,0,17,0,12,0
+37c65bb213171fc9,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,14,MID,14,0,14,6,0
+382647ba77977321,KFM,South Point SMR,M. pyrifera,1mquad,17,,0,17,0,11,0
+38489b3e83cfc377,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,20,INNER;MID,20,0,19,5,0
+384cd8f420f7b95b,PISCO,Anacapa Island SMR 2003,S. purpuratus,SBTL_SWATH_PISCO,16,INNER;OUTER,16,0,16,5,0
+386420c2c23dbdf6,PISCO,Naples SMCA,S. pulcher,SBTL_FISH_PISCO,13,,12,0,13,7,0
+386eaf7453bc77df,KFM,South Point SMR,P. interruptus,band,17,,0,17,0,8,0
+389eb3f847d51385,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,4,,4,0,4,1,0
+393b3cc52df19dee,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,14,INNER,14,0,14,7,0
+39496fb1b6e7d4d0,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,4,OUTER,4,0,4,0,0
+398d3ceb3815e0ee,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,16,,15,0,16,8,0
+39be4a08d32d970a,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,2,INNER;OUTER,2,0,2,0,0
+39c73c86bd009e44,KFM,Scorpion SMR,S. pulcher,rdfc,17,,0,17,0,12,2
+3a33fa5ce74f9a40,LTER,Naples SMCA,M. pyrifera,swath,23,,0,23,0,0,0
+3a35bba79896b96f,PISCO,Campus Point SMCA,P. interruptus,SBTL_FISH_PISCO,2,INNER,2,0,2,0,0
+3a3ad62e19c2a697,LTER,Campus Point SMCA,S. pulcher,lter_fish,23,,0,23,0,0,0
+3a6670082e25166f,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,8,,6,0,7,5,0
+3a6f4f4866480791,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,1,0
+3ac0f712d6cad74c,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,1,0
+3b2bb0bbde9e2418,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_FISH_PISCO,1,,0,0,1,1,0
+3b49ebc24f5d8e5a,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID,3,0,3,0,0
+3bae3761d5032d8f,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,19,INNER;OUTER,19,0,18,9,0
+3bbf7f1dac846af6,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,2,MID;OUTER,2,0,2,2,0
+3c18fb81ae7999e8,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,3,,2,0,3,0,0
+3c447e7cb39fa705,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,4,OUTER,4,0,4,2,0
+3c7527b4c64ce2e9,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,19,OUTER,19,0,19,8,0
+3c7b672489194d1c,PISCO,Anacapa Island SMR 2003,S. purpuratus,SBTL_SWATH_PISCO,16,INNER;OUTER,16,0,16,7,0
+3da2820f58e570ce,PISCO,Point Dume SMR,M. pyrifera,SBTL_SWATH_VRG,1,INNER,1,0,0,1,0
+3db70b8c794c3afc,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,6,,6,0,6,0,0
+3dc548d697662b3d,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,2,0
+3de665bc059b3f45,PISCO,Point Vicente SMCA,S. purpuratus,SBTL_SWATH_VRG,12,MID,12,0,12,10,1
+3e4849c72ff0e3b8,LTER,Naples SMCA,S. purpuratus,quad,23,,0,23,0,0,0
+3e563fc6da3accb0,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,1,0
+3e74eac43ea111a2,PISCO,Point Vicente SMCA,S. pulcher,SBTL_FISH_VRG,17,OUTER,17,0,17,11,0
+3e8236ca0d65488c,PISCO,Campus Point SMCA,M. franciscanus,SBTL_SWATH_PISCO,12,,12,0,12,3,0
+3eaff56783339b1b,PISCO,Point Vicente SMCA,M. franciscanus,SBTL_SWATH_VRG,12,DEEP;MID;OUTER,12,0,12,9,1
+3ec0bb8f70422520,PISCO,Point Dume SMCA,M. pyrifera,SBTL_SWATH_VRG,6,,6,0,6,1,0
+3ee3a55c8bfcdbc3,LTER,Naples SMCA,S. pulcher,lter_fish,23,,0,23,0,0,0
+3eeb13bb0c6e0281,PISCO,Abalone Cove SMCA,M. pyrifera,SBTL_SWATH_VRG,13,,13,0,12,12,6
+3ef8b898a0f8208b,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_SWATH_PISCO,1,INNER;OUTER,1,0,1,1,0
+3fdb8a1ec3bd51bf,PISCO,South Point SMR,P. interruptus,SBTL_SWATH_PISCO,2,,2,0,2,2,0
+3feb8dfd61c0f6e4,PISCO,Anacapa Island SMR 2003,S. purpuratus,SBTL_SWATH_PISCO,6,INNER;OUTER,6,0,6,3,1
+40401b8549258a65,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_SWATH_PISCO,11,INNER,11,0,11,5,0
+40c4dabb8fd5d852,KFM,Santa Barbara Island SMR,S. pulcher,rdfc,16,,0,16,0,7,0
+40ccb6f4b7bcd004,PISCO,Gull Island SMR,M. pyrifera,SBTL_SWATH_PISCO,17,,17,0,16,7,2
+413bfee98b3212d8,PISCO,Point Vicente SMCA,P. interruptus,SBTL_SWATH_VRG,10,,9,0,10,8,1
+414bbd983c6f5490,KFM,Anacapa Island SMR 2003,M. pyrifera,5mquad,17,,0,17,0,15,3
+414c0a1870904e65,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,1,0
+419675b760806392,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,5,0
+41e5c25eae0c8aba,PISCO,Harris Point SMR,M. franciscanus,SBTL_SWATH_PISCO,17,MID,17,0,16,4,0
+4214ffac5bd75537,PISCO,South Point SMR,S. pulcher,SBTL_FISH_CRANE,1,INNER;MID;OUTER,1,0,1,1,0
+427db4d334ed9719,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_FISH_PISCO,1,INNER;OUTER,1,0,1,0,0
+42819ed48de3ff13,PISCO,Abalone Cove SMCA,P. interruptus,SBTL_SWATH_VRG,6,,6,0,6,4,4
+42a5925a5591acf4,PISCO,Anacapa Island SMR 2003,S. purpuratus,SBTL_SWATH_PISCO,16,INNER;OUTER,16,0,16,5,0
+43178b58fe696b4c,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,3,,3,0,3,1,0
+431e80b7e825910f,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,4,,4,0,4,3,0
+43873f118decc417,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,2,INNER,2,0,2,0,0
+43988061171091b2,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,2,,1,0,2,2,0
+43bde040f3e7e49d,PISCO,Abalone Cove SMCA,P. interruptus,SBTL_SWATH_VRG,10,,8,0,10,9,3
+43cd8e4c0d8ddee0,PISCO,Harris Point SMR,P. interruptus,SBTL_FISH_PISCO,2,,2,0,2,0,0
+43e6532c01710201,PISCO,Scorpion SMR,P. interruptus,SBTL_FISH_PISCO,2,INMID;INNER,2,0,2,1,0
+44192a0429bee4b2,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,2,INNER;OUTER,2,0,2,0,0
+446e5587fb3abbbd,PISCO,Point Vicente SMCA,S. purpuratus,SBTL_SWATH_VRG,15,,15,0,14,11,1
+44cbd85c46837543,PISCO,Gull Island SMR,S. purpuratus,SBTL_SWATH_PISCO,18,INNER;MID,18,0,17,7,1
+44d03f4169de2b07,PISCO,South Point SMR,S. pulcher,SBTL_FISH_CRANE,1,MID;OUTER,1,0,1,1,0
+45129b8122e0eadc,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,4,,4,0,4,3,0
+456f4911b71acc76,LTER,Campus Point SMCA,P. interruptus,swath,23,,0,23,0,0,0
+45b0f650f25b3258,PISCO,Anacapa Island SMR 2003,S. purpuratus,SBTL_SWATH_PISCO,16,INNER;OUTER,16,0,16,7,0
+45be7a94966f7539,PISCO,Scorpion SMR,P. interruptus,SBTL_FISH_PISCO,1,INNER,1,0,1,1,0
+4627313e4c4791bd,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,0,0
+4699ae4deb1ca5ad,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,6,,3,0,6,2,0
+46e556d938e1e261,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,1,MID,1,0,1,1,0
+470ba5bfebf351d2,KFM,Anacapa Island SMR 2003,S. pulcher,visualfish,17,,0,17,0,12,2
+47221b1ae42243f6,PISCO,Anacapa Island SMR 2003,M. pyrifera,SBTL_SWATH_PISCO,14,,14,0,14,4,0
+474cc5c0a7179d09,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,3,,3,0,3,2,0
+477c9f9a522747bb,PISCO,Campus Point SMCA,S. pulcher,SBTL_FISH_PISCO,13,,13,0,13,5,0
+479b67535e1ed810,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;OUTER,3,0,3,1,0
+47c9f35767e1395c,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,10,,9,0,9,5,0
+47d0405ee3da1468,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,19,OUTER,19,0,19,7,0
+47d6100ded7f4c80,PISCO,Point Dume SMCA,S. purpuratus,SBTL_SWATH_VRG,1,INNER;MID,1,0,1,0,0
+48723288aa1b8de9,PISCO,Point Vicente SMCA,M. pyrifera,SBTL_SWATH_VRG,12,INNER;MID,12,0,12,9,1
+4888e6476befb5ca,PISCO,Point Dume SMCA,S. pulcher,SBTL_FISH_VRG,6,,3,0,6,1,0
+48b60424d51b70f2,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,6,,6,0,6,4,0
+48d297086b22e7fd,PISCO,Anacapa Island SMR 2003,M. pyrifera,SBTL_SWATH_PISCO,13,,12,0,13,8,0
+48ea407f9117b0c9,PISCO,Anacapa Island SMR 2003,S. pulcher,SBTL_FISH_PISCO,18,,18,0,18,10,1
+490b2d3788f89c74,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,0,0
+4984888f56903fa2,PISCO,Anacapa Island SMR 2003,S. purpuratus,SBTL_SWATH_PISCO,6,INNER;OUTER,6,0,6,3,1
+49929614228691f5,LTER,Campus Point SMCA,M. franciscanus,quad,23,,0,23,0,0,0
+49a3b9b7be91984a,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,4,INNER;MID;OUTER,4,0,4,2,0
+49d1445044ff2a10,PISCO,Campus Point SMCA,S. pulcher,SBTL_FISH_PISCO,10,,8,0,10,4,0
+49ef2566312fdb96,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,4,INNER,4,0,4,3,0
+4a06f8bf4c511c8d,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,0,0
+4a43c8cc76a2f933,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,3,,3,0,3,3,0
+4a4b458b201dde0d,LTER,Naples SMCA,M. pyrifera,lter_kelp,23,,0,23,0,0,0
+4a6082a807ebc9f8,PISCO,Point Vicente SMCA,M. franciscanus,SBTL_SWATH_VRG,15,MID;OUTER,15,0,15,7,0
+4a8cfcc9a3a24127,PISCO,Campus Point SMCA,M. franciscanus,SBTL_SWATH_PISCO,12,MID;OUTER,12,0,12,4,0
+4ac32061de26c0e0,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,16,INNER;MID,16,0,16,5,0
+4b967b81464f1aa3,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,4,,4,0,4,0,0
+4c0cd29d733ab782,KFM,South Point SMR,P. interruptus,band,17,,0,17,0,9,0
+4c5cf1445c4cbb7e,PISCO,Point Dume SMCA,M. pyrifera,SBTL_SWATH_PISCO,4,INNER,4,0,4,0,0
+4ca91fc9691f76c5,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,19,OUTER,19,0,19,12,0
+4cfb76202e32faa7,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,17,,16,0,17,4,0
+4de2abca678df76b,PISCO,Point Vicente SMCA,P. interruptus,SBTL_SWATH_VRG,13,,12,0,13,11,0
+4dffb75d28391bd8,KFM,South Point SMR,M. franciscanus,1mquad,17,,0,17,0,12,0
+4e204d1d43dac1ef,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,16,INNER;MID,16,0,16,7,0
+4e6d5e67ca13af6c,PISCO,Campus Point SMCA,S. purpuratus,SBTL_SWATH_PISCO,12,INNER;MID;OUTER,12,0,12,4,0
+4e9cb74957d42836,PISCO,Point Dume SMCA,P. interruptus,SBTL_SWATH_VRG,1,MID,1,0,1,0,0
+4ea8a3df1a196ee5,PISCO,Campus Point SMCA,S. pulcher,SBTL_FISH_PISCO,12,,9,0,12,6,0
+4eafaaf2fa2672dd,KFM,South Point SMR,S. pulcher,visualfish,17,,0,17,0,12,0
+4eec2b10d2ca6430,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,3,,2,0,3,1,0
+4f60e83acc1b75a0,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID,3,0,3,0,0
+4f6b34aa1df56ec3,KFM,Anacapa Island SMR 2003,S. purpuratus,1mquad,17,,0,17,0,11,0
+4f765b021dd7d334,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,5,0
+4f9857c2dde65bb4,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,3,0
+4fdc133eac7d0849,PISCO,Anacapa Island SMR 2003,M. franciscanus,SBTL_SWATH_PISCO,16,OUTER,16,0,16,7,0
+4fdef12ba25dafb9,PISCO,Point Vicente SMCA,P. interruptus,SBTL_SWATH_VRG,6,,4,0,6,3,0
+502c35e2b75a23cf,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,2,,0,0,2,1,0
+50abcb095c8820f3,KFM,Santa Barbara Island SMR,S. pulcher,visualfish,17,,0,17,0,7,0
+50ffce25698e02a6,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,1,OUTER,1,0,1,0,0
+511eb8891b928917,KFM,South Point SMR,S. purpuratus,1mquad,17,,0,17,0,13,0
+516ec69a31605037,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,2,INNER;MID;OUTER,2,0,2,2,0
+527f0ac34f700470,PISCO,Point Vicente SMCA,S. purpuratus,SBTL_SWATH_VRG,12,,12,0,12,9,2
+52aa07efe5058b80,PISCO,Point Vicente SMCA,S. purpuratus,SBTL_SWATH_VRG,10,MID,10,0,10,7,1
+534097a2a5ce3fcb,KFM,Anacapa Island SMR 2003,S. pulcher,rdfc,16,,0,16,0,11,2
+53472057c65bd3b0,PISCO,Anacapa Island SMR 2003,M. franciscanus,SBTL_SWATH_PISCO,6,INNER;OUTER,6,0,6,3,1
+5352da6b9ef522ad,PISCO,Point Vicente SMCA,S. pulcher,SBTL_FISH_VRG,15,OUTER,15,0,15,15,3
+53871c31da873619,PISCO,Point Vicente SMCA,S. purpuratus,SBTL_SWATH_VRG,12,MID,12,0,12,8,2
+53ee8e58b339a473,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,4,,4,0,4,1,0
+54096723fd49c53c,PISCO,Harris Point SMR,S. purpuratus,SBTL_SWATH_PISCO,16,INNER,16,0,15,4,0
+5467d03211102af1,PISCO,Point Vicente SMCA,M. pyrifera,SBTL_SWATH_VRG,14,,13,0,14,10,1
+547876034836d013,PISCO,Anacapa Island SMR 2003,S. pulcher,SBTL_FISH_PISCO,17,,17,0,17,9,0
+548e7406e6b7f17e,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,3,MID;OUTER,3,0,3,2,0
+54b8f6d9a8e9191c,PISCO,Anacapa Island SMR 2003,S. pulcher,SBTL_FISH_PISCO,8,,8,0,8,5,0
+54c515ed2e90eeea,PISCO,Naples SMCA,M. franciscanus,SBTL_SWATH_PISCO,13,INNER;OUTER,13,0,13,5,0
+54e7e47b9af8c222,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,4,,4,0,4,0,0
+5519224c5be8cc57,PISCO,Matlahuayl SMR,M. franciscanus,SBTL_SWATH_VRG,5,,1,0,5,0,0
+556ca9e73924e1f0,PISCO,Anacapa Island SMR 2003,M. pyrifera,SBTL_SWATH_PISCO,1,INNER,1,0,1,1,1
+557f57d7232d1489,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,1,,0,0,1,0,0
+55b3676cef5f79ba,PISCO,Scorpion SMR,P. interruptus,SBTL_FISH_PISCO,2,INMID;INNER,2,0,2,1,0
+55c9be707eef2b39,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,1,INNER,1,0,1,1,0
+562efa84841edae8,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,1,INNER,1,0,1,1,0
+56dc72c2f050d50e,KFM,Harris Point SMR,P. interruptus,band,39,,0,39,0,10,1
+5708ca5dd35a4fcf,KFM,Santa Barbara Island SMR,S. pulcher,rdfc,16,,0,16,0,6,0
+571ded13aa511e23,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,2,MID,2,0,2,2,0
+5745996b59dbb80d,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_FISH_PISCO,2,OUTER,2,0,2,2,0
+5756b475fa7521af,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,4,,2,0,4,2,0
+578bac3158ac9c83,LTER,Campus Point SMCA,S. pulcher,fish,23,,0,23,0,1,0
+57c29b4d91891d1e,PISCO,Point Vicente SMCA,M. pyrifera,SBTL_SWATH_VRG,10,,10,0,10,7,1
+57f7b054554212c6,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,2,,1,0,2,2,0
+5809b5f563c02eb9,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,19,INNER;OUTER,19,0,18,7,0
+581b168deb52f780,PISCO,Anacapa Island SMR 2003,M. pyrifera,SBTL_SWATH_PISCO,9,,8,0,9,5,0
+583a37e05fee9434,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,3,,3,0,3,0,0
+58d2ec0b03f8257d,PISCO,Anacapa Island SMR 2003,M. pyrifera,SBTL_SWATH_PISCO,5,INNER,5,0,5,3,1
+58ee435041f9acf2,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,20,OUTMID,20,0,20,1,0
+5918f7078c43ed37,PISCO,Point Dume SMCA,M. pyrifera,SBTL_SWATH_VRG,2,,2,0,2,1,0
+592c8ea31557de52,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,4,INNER;OUTER,4,0,4,0,0
+593474511037718a,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_SWATH_PISCO,2,INNER,2,0,2,2,0
+5948149f1abf6426,KFM,Scorpion SMR,S. pulcher,rdfc,16,,0,16,0,13,1
+59493d1c925f1fca,PISCO,Anacapa Island SMR 2003,S. purpuratus,SBTL_SWATH_PISCO,16,INNER;OUTER,16,0,16,5,0
+5957f90cdfc422e0,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,0,0
+5968a350869d8d46,PISCO,Harris Point SMR,M. franciscanus,SBTL_SWATH_PISCO,17,MID,17,0,16,3,0
+59ae48de3729f54d,KFM,South Point SMR,M. pyrifera,5mquad,17,,0,17,0,9,0
+59b1746f5e22b442,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,2,INNER;OUTER,2,0,2,0,0
+59ea6700ccbae9de,PISCO,Gull Island SMR,P. interruptus,SBTL_SWATH_PISCO,5,,2,0,5,4,1
+5a22307abc9ecc31,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,3,,3,0,3,1,1
+5a36bdedf5f08963,PISCO,Matlahuayl SMR,S. pulcher,SBTL_FISH_VRG,6,,5,0,6,0,0
+5aa0704e68146c99,PISCO,Point Dume SMR,M. pyrifera,SBTL_SWATH_VRG,7,,6,0,7,2,0
+5b1db9a74b93cd3b,PISCO,Naples SMCA,P. interruptus,SBTL_FISH_PISCO,1,INNER,1,0,1,0,0
+5b5d0980917ddb06,KFM,Scorpion SMR,M. franciscanus,1mquad,40,,0,40,0,27,1
+5b86038dbdcd1d33,PISCO,Abalone Cove SMCA,M. pyrifera,SBTL_SWATH_VRG,10,,9,0,10,9,4
+5b8738639a119cf1,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,1,0
+5bf1e8ebc2128c8b,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,0,0
+5c01f955c93fff78,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,4,0
+5c0be89e9d2d02b7,PISCO,Point Vicente SMCA,S. pulcher,SBTL_FISH_VRG,15,OUTER,15,0,15,11,2
+5c72e07e71755d98,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,3,0
+5caba5c8db857a6a,PISCO,Point Vicente SMCA,M. franciscanus,SBTL_SWATH_VRG,13,OUTER,13,0,13,11,1
+5d1aab9233865006,PISCO,Point Vicente SMCA,M. pyrifera,SBTL_SWATH_VRG,15,,15,0,15,9,1
+5dc662f9ef246b38,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,2,OUTER,2,0,2,0,0
+5de57ccf592e5f65,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,16,OUTER,16,0,16,7,0
+5dfd959ff068cab6,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,1,0
+5e56b5fffb780f57,LTER,Naples SMCA,P. interruptus,swath,23,,0,23,0,0,0
+5ec2d84ed62d0685,LTER,Campus Point SMCA,P. interruptus,swath,23,,0,23,0,0,0
+5ee1371e4c703302,PISCO,Point Vicente SMCA,P. interruptus,SBTL_SWATH_VRG,10,,8,0,10,10,3
+5efd33d27a3bd74e,PISCO,Scorpion SMR,M. pyrifera,SBTL_SWATH_PISCO,14,,13,0,13,6,0
+5f517d9a4ad26a31,KFM,Harris Point SMR,S. purpuratus,1mquad,40,,0,40,0,9,1
+5f6561dfd5947867,KFM,South Point SMR,P. interruptus,band,17,,0,17,0,12,0
+5f8ecba0383e3b3a,KFM,South Point SMR,M. franciscanus,1mquad,17,,0,17,0,13,0
+5f95fb33321f3504,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,2,INNER;MID,2,0,2,2,0
+5fe4c05f89517eda,PISCO,Naples SMCA,P. interruptus,SBTL_SWATH_PISCO,2,,0,0,2,2,0
+5fef358166797c97,KFM,Scorpion SMR,S. pulcher,visualfish,18,,0,18,0,14,3
+609903a96ccefbd8,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_VRG,4,DEEP;INNER;MID;OUTER,4,0,4,2,0
+60b212897589e0fc,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,19,,19,0,19,8,1
+60bce435e6958bc1,PISCO,Gull Island SMR,M. franciscanus,SBTL_SWATH_PISCO,18,INNER;MID;OUTER,18,0,17,6,0
+60d1f6ba6f52c488,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_CRANE,1,MID,1,0,1,0,0
+60ee2626f22973f3,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,1,0
+61c99f175f39c3a0,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,2,0
+61e5eb1da41b2247,PISCO,Campus Point SMCA,P. interruptus,SBTL_FISH_PISCO,2,INNER,2,0,2,0,0
+622aa7b8ad4179f9,PISCO,Naples SMCA,S. purpuratus,SBTL_SWATH_PISCO,13,INNER;OUTER,13,0,13,6,0
+6240333e77ad6c4d,PISCO,Point Vicente SMCA,P. interruptus,SBTL_SWATH_VRG,4,INNER,4,0,4,3,0
+626afc91bf06277c,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,3,0
+62a44e499c4179d4,PISCO,Harris Point SMR,M. pyrifera,SBTL_SWATH_PISCO,11,,11,0,10,1,0
+62c2614d8e16afae,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,6,,6,0,6,3,0
+62d6f0f002d00a7f,PISCO,Point Vicente SMCA,P. interruptus,SBTL_SWATH_VRG,11,,8,0,10,8,1
+62f4e7fc78c70444,PISCO,Point Vicente SMCA,S. purpuratus,SBTL_SWATH_VRG,14,,13,0,14,9,1
+633ecd5f8aa173d6,PISCO,Point Vicente SMCA,M. pyrifera,SBTL_SWATH_VRG,15,,15,0,14,15,4
+635da07a475569ad,LTER,Campus Point SMCA,M. pyrifera,swath,23,,0,23,0,1,0
+6364f2c135c4c65f,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,2,0
+6395dce553c3532f,LTER,Campus Point SMCA,M. pyrifera,swath,23,,0,23,0,0,0
+640f14771eb58241,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,2,MID;OUTER,2,0,2,0,0
+641d62e8b80b934e,LTER,Campus Point SMCA,M. pyrifera,swath,23,,0,23,0,0,0
+64278a1ac242a53c,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,15,INNER,15,0,15,6,0
+643268356f960492,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_FISH_PISCO,2,INNER,2,0,2,1,0
+6466f31f9e72b988,PISCO,Scorpion SMR,P. interruptus,SBTL_FISH_PISCO,2,INNER;OUTER;OUTMID,2,0,2,0,0
+64c3494965b78a16,PISCO,Anacapa Island SMR 2003,M. pyrifera,SBTL_SWATH_PISCO,10,,9,0,10,4,0
+6502f2ba34c7792e,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,14,INNER;MID,14,0,14,7,0
+650e31083e4b0282,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,4,INNER;MID;OUTER,4,0,4,0,0
+653320b5f0b884f7,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,3,,2,0,3,1,0
+659d29d075a6672d,LTER,Naples SMCA,S. purpuratus,quad,23,,0,23,0,0,0
+65f916abdfa9176e,PISCO,Swamis SMCA,S. pulcher,SBTL_FISH_VRG,6,,6,0,6,1,0
+6640cfff687dbf74,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,4,,4,0,4,3,0
+66887e6fde191007,PISCO,Point Vicente SMCA,P. interruptus,SBTL_SWATH_VRG,8,,6,0,8,6,0
+669d332d318a2a6f,PISCO,Abalone Cove SMCA,M. pyrifera,SBTL_SWATH_VRG,13,,12,0,13,10,4
+66ad9710f7f05b21,KFM,Anacapa Island SMR 2003,M. franciscanus,1mquad,17,,0,17,0,13,2
+672381b6469609ee,PISCO,Anacapa Island SMR 2003,M. franciscanus,SBTL_SWATH_PISCO,16,OUTER,16,0,16,8,0
+6741379bf1751bb5,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,4,,4,0,4,3,0
+677b2a7a6910571d,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,1,0
+67a080d5345db28f,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,2,MID;OUTER,2,0,2,0,0
+67a4a8efa825c707,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,15,MID,15,0,15,6,0
+67d5671f24a8c999,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTMID,6,0,6,1,0
+68001570bfa1ad0f,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,3,,3,0,3,1,0
+680d1ec7fba890b6,PISCO,Point Dume SMR,S. pulcher,SBTL_FISH_VRG,2,,1,0,2,2,0
+681cb2b363b3f3dc,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTMID,6,0,6,4,0
+6830072d7eaf32e7,KFM,Santa Barbara Island SMR,M. franciscanus,1mquad,36,,0,36,0,11,1
+6849bc19ee92475c,PISCO,Point Vicente SMCA,S. pulcher,SBTL_FISH_VRG,16,MID;OUTER,16,0,16,7,1
+68cc31f59a8fc2be,PISCO,Gull Island SMR,S. pulcher,SBTL_FISH_PISCO,20,OUTMID,20,0,20,9,0
+68f75264517a69b8,KFM,Anacapa Island SMR 2003,M. pyrifera,5mquad,17,,0,17,0,13,2
+69e998ff3d0eb2b4,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,1,OUTER,1,0,0,1,0
+6a3cac5ed964705f,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,16,INNER;MID,16,0,16,7,0
+6a43e79473a660cc,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,5,0
+6acf5925a04d5dbd,KFM,South Point SMR,M. pyrifera,1mquad,17,,0,17,0,11,0
+6b21e6051ebcea87,KFM,South Point SMR,P. interruptus,band,17,,0,17,0,13,0
+6b283065952a84b1,PISCO,Scorpion SMR,M. pyrifera,SBTL_SWATH_PISCO,1,MID,1,0,1,1,0
+6b2df956efae243b,PISCO,Point Vicente SMCA,S. purpuratus,SBTL_SWATH_VRG,15,,15,0,15,13,2
+6b5bf4433f11d694,PISCO,Gull Island SMR,S. pulcher,SBTL_FISH_PISCO,20,,20,0,20,6,0
+6b5ee32f70b3b834,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,4,0
+6b5f21b5a1000a95,PISCO,South Point SMR,S. pulcher,SBTL_FISH_CRANE,1,INNER;OUTER,1,0,1,0,0
+6bbd75cd00d2ca72,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,15,INNER,15,0,15,9,0
+6c2fd2f0d3850627,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,2,0
+6c3588af3bea9996,PISCO,Scorpion SMR,M. pyrifera,SBTL_SWATH_PISCO,10,,8,0,10,3,0
+6c80ac7bc902c862,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,2,MID,2,0,2,0,0
+6d1fcc7d41df203c,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,15,INNER;OUTER,15,0,15,9,0
+6db7acf8007023ed,PISCO,Scorpion SMR,P. interruptus,SBTL_FISH_PISCO,2,OUTER,2,0,2,1,0
+6e14c4b6d950e21b,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,16,INNER;MID;OUTER,16,0,16,5,0
+6e70424d6c443c38,PISCO,Naples SMCA,S. purpuratus,SBTL_SWATH_PISCO,13,INNER;OUTER,13,0,13,5,0
+6e86c7073274c5d7,KFM,South Point SMR,S. purpuratus,1mquad,17,,0,17,0,11,0
+6f5a19508d2facc4,PISCO,Anacapa Island SMR 2003,S. pulcher,SBTL_FISH_PISCO,6,,6,0,6,4,1
+6fa2287ad16f2f0e,KFM,South Point SMR,M. franciscanus,1mquad,17,,0,17,0,12,0
+6fd7b68787d715f2,PISCO,Point Dume SMR,M. pyrifera,SBTL_SWATH_VRG,6,INNER,6,0,6,2,0
+6ff1ab5dc2ff9361,PISCO,Point Dume SMR,P. interruptus,SBTL_SWATH_VRG,2,,1,0,2,1,0
+7076af1a03af0b7b,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,3,,2,0,3,1,0
+70ae3c14170cd484,PISCO,Point Dume SMCA,S. pulcher,SBTL_FISH_VRG,2,,2,0,2,1,0
+70f31ad36b9bbfcb,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,2,INNER;OUTER,2,0,2,0,0
+71746fa4cc28cf76,PISCO,Point Vicente SMCA,M. pyrifera,SBTL_SWATH_VRG,15,,15,0,15,11,1
+7208bdd0875ef0f3,LTER,Naples SMCA,P. interruptus,swath,23,,0,23,0,0,0
+726bd0c2e8a75d68,PISCO,Anacapa Island SMR 2003,S. purpuratus,SBTL_SWATH_PISCO,16,INNER;OUTER,16,0,16,6,0
+727a7798d99069b0,PISCO,Gull Island SMR,S. purpuratus,SBTL_SWATH_PISCO,18,INNER;MID,18,0,17,7,1
+72bd5108e3508afb,PISCO,Abalone Cove SMCA,M. franciscanus,SBTL_SWATH_VRG,10,,8,0,10,8,4
+72f776ed7c2f4959,KFM,Santa Barbara Island SMR,M. pyrifera,1mquad,41,,0,41,0,11,1
+7329468f96ad3951,PISCO,Point Vicente SMCA,S. pulcher,SBTL_FISH_VRG,16,,16,0,16,11,1
+734b3d1ae868b654,PISCO,Anacapa Island SMR 2003,M. franciscanus,SBTL_SWATH_PISCO,6,INNER;OUTER,6,0,6,4,1
+736e4bb7f593b0ce,PISCO,Anacapa Island SMR 2003,S. pulcher,SBTL_FISH_PISCO,17,,17,0,17,8,0
+73c7a7ab1e46f7b7,PISCO,Abalone Cove SMCA,S. purpuratus,SBTL_SWATH_VRG,13,,13,0,12,10,4
+74012bcc4f39ab1d,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,2,MID,2,0,2,0,0
+7419f0194363b9e7,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,7,,7,0,7,4,0
+743cc5f28ba2a027,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,16,,16,0,16,8,1
+74c977cfbfab983d,PISCO,Scorpion SMR,P. interruptus,SBTL_FISH_PISCO,2,INMID;INNER,2,0,2,1,0
+7504cf26ff0fd769,KFM,South Point SMR,M. pyrifera,5mquad,17,,0,17,0,12,0
+7567e9e9498fe479,PISCO,Scorpion SMR,M. pyrifera,SBTL_SWATH_PISCO,13,,12,0,12,6,0
+75dde8214aa79fd0,PISCO,Anacapa Island SMR 2003,M. pyrifera,SBTL_SWATH_PISCO,14,,11,0,14,8,0
+75ee65f8b7e77715,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,2,INNER;OUTER,2,0,2,0,0
+75f3c150d17b6bf0,KFM,Scorpion SMR,S. pulcher,rdfc,25,,0,25,0,14,0
+7622121af775f4fe,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_SWATH_PISCO,11,,10,0,11,6,0
+76657a84815dda1d,PISCO,Anacapa Island SMR 2003,S. pulcher,SBTL_FISH_PISCO,8,,8,0,8,5,0
+7666d34de55ff7fe,PISCO,Point Vicente SMCA,P. interruptus,SBTL_SWATH_VRG,8,,7,0,8,5,0
+768563380a866ad2,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,0,0
+76bdda11e8f17711,PISCO,Naples SMCA,S. pulcher,SBTL_FISH_PISCO,12,,11,0,12,6,0
+76bf1ddbc0d27b85,KFM,Santa Barbara Island SMR,S. pulcher,visualfish,17,,0,17,0,8,0
+76e939f445510acc,PISCO,Scorpion SMR,P. interruptus,SBTL_FISH_PISCO,2,INMID;INNER,2,0,2,1,0
+770a4e05af515ee5,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,3,INNER,3,0,3,0,0
+77363daa61b4e110,PISCO,Naples SMCA,P. interruptus,SBTL_FISH_PISCO,1,INNER,1,0,1,0,0
+7749765092bc762c,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,3,OUTMID,3,0,3,1,0
+777776a30d4b0061,PISCO,Campus Point SMCA,P. interruptus,SBTL_FISH_PISCO,2,INNER,2,0,2,0,0
+788fe501dc12efc3,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,2,OUTER,2,0,2,2,0
+78b4d97313b2c421,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_SWATH_PISCO,10,INNER,10,0,10,3,0
+78d1ade2cf41c577,PISCO,Anacapa Island SMR 2003,S. purpuratus,SBTL_SWATH_PISCO,16,INNER;OUTER,16,0,16,4,0
+78f1a7dc85734ab9,KFM,South Point SMR,M. pyrifera,5mquad,17,,0,17,0,8,0
+78f3e0671cb31dd7,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,18,,18,0,18,3,0
+7907f50efc5748c8,PISCO,Anacapa Island SMR 2003,M. franciscanus,SBTL_SWATH_PISCO,16,INNER;OUTER,16,0,16,4,0
+792dee6612e7a2b2,PISCO,Anacapa Island SMR 2003,M. franciscanus,SBTL_SWATH_PISCO,16,INNER;OUTER,16,0,16,5,0
+7943934828e95b03,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,15,INNER,15,0,15,6,0
+798929395db3cfe5,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,15,MID,15,0,15,7,0
+79895dfda897be39,KFM,Scorpion SMR,S. pulcher,rdfc,16,,0,16,0,11,0
+7994d86fd3a03023,PISCO,Point Vicente SMCA,S. pulcher,SBTL_FISH_VRG,12,MID,12,0,12,10,1
+7a0e5bdd393c1c82,LTER,Campus Point SMCA,S. pulcher,fish,23,,0,23,0,0,0
+7a5a0f1d356d5ed0,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,1,MID;OUTER,1,0,0,1,0
+7abcba5ba223a65f,PISCO,Point Vicente SMCA,M. pyrifera,SBTL_SWATH_VRG,13,INNER;MID,13,0,13,10,1
+7ac2b8ffa71d6de0,PISCO,Abalone Cove SMCA,S. pulcher,SBTL_FISH_VRG,10,,9,0,10,8,3
+7ac6b06aaaa3f41e,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,2,INNER;MID;OUTER,2,0,2,2,0
+7b0868a19b357eb3,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,4,INNER,4,0,4,1,0
+7b2733503817c6a6,KFM,Anacapa Island SMR 2003,M. franciscanus,1mquad,17,,0,17,0,11,0
+7b8a08d2b8d38cdd,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,4,INNER,4,0,4,3,0
+7ba0b83a3a4a3dcc,KFM,Anacapa Island SMR 2003,M. pyrifera,1mquad,17,,0,17,0,15,3
+7bac222c2897fd7b,KFM,Harris Point SMR,S. pulcher,visualfish,37,,0,37,0,8,1
+7c65c803075c3d16,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,2,INNER;MID;OUTER,2,0,2,2,0
+7c684c09fc88aa83,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_FISH_PISCO,1,INNER;OUTER,1,0,1,0,0
+7cad4a5904a385fe,PISCO,Matlahuayl SMR,M. pyrifera,SBTL_SWATH_VRG,5,,2,0,5,0,0
+7cc3fcc37e4ec12b,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,3,OUTER,3,0,3,1,0
+7cf1cb8d4e2d627e,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,4,,3,0,4,0,0
+7d6446db99a7dd87,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,1,INNER,1,0,1,1,0
+7d9845435851a12d,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_SWATH_PISCO,8,,6,0,8,6,0
+7da05b96eeac3e15,PISCO,South Point SMR,P. interruptus,SBTL_FISH_PISCO,2,OUTMID,2,0,2,1,0
+7db6f4bc46bffc8e,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,20,,19,0,20,8,1
+7e24adc97943d22d,PISCO,Abalone Cove SMCA,P. interruptus,SBTL_SWATH_VRG,9,,8,0,9,9,5
+7e2cb3af2ed54cee,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,INNER;OUTER,6,0,6,4,1
+7e2d91c6913da023,PISCO,Abalone Cove SMCA,M. franciscanus,SBTL_SWATH_VRG,13,,11,0,13,10,6
+7e6797dab9c0bb97,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,3,0
+7e740d92bd8b2c8e,PISCO,Scorpion SMR,M. pyrifera,SBTL_SWATH_PISCO,11,,11,0,11,6,0
+7e87590cd10ee3cf,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,3,,3,0,3,0,0
+7f139bb9537c9815,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,2,INNER;OUTER,2,0,2,0,0
+7fa533846457cbc4,KFM,South Point SMR,M. pyrifera,1mquad,17,,0,17,0,12,0
+7fbae50c2198f236,KFM,South Point SMR,P. interruptus,band,17,,0,17,0,12,0
+7fbc7cf0d04e91b2,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,3,OUTER,3,0,3,2,0
+8053f3286f05d4f8,PISCO,Gull Island SMR,P. interruptus,SBTL_FISH_PISCO,1,OUTER,1,0,1,1,0
+809460e1d95374c4,PISCO,Anacapa Island SMR 2003,M. franciscanus,SBTL_SWATH_PISCO,16,OUTER,16,0,16,7,0
+811630779c2bc441,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,2,,2,0,2,0,0
+811cdb63bdf2ed18,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,3,MID,3,0,3,1,0
+814ca8b06edf7a93,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,4,0
+817ea3083f68d8cc,PISCO,Anacapa Island SMR 2003,M. franciscanus,SBTL_SWATH_PISCO,6,INNER;OUTER,6,0,6,4,1
+819cc1c23ec72c05,PISCO,Point Dume SMCA,S. pulcher,SBTL_FISH_VRG,2,,2,0,2,2,0
+82a7667c08044ceb,PISCO,Scorpion SMR,P. interruptus,SBTL_FISH_PISCO,2,INMID;INNER,2,0,2,1,0
+83330534ef7a64c1,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,6,,6,0,6,3,0
+8338fa4474f2b7f6,KFM,Santa Barbara Island SMR,S. pulcher,rdfc,25,,0,25,0,9,0
+838881fcf1c9b7fc,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,1,OUTER,1,0,1,1,0
+842d3938c537cdbc,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,4,0
+84943ec2629c0dc7,KFM,Anacapa Island SMR 2003,S. pulcher,rdfc,16,,0,16,0,10,0
+84a262f5fcf9a10f,KFM,Scorpion SMR,S. pulcher,visualfish,18,,0,18,0,11,4
+84b2882b6cf1b416,KFM,South Point SMR,M. franciscanus,1mquad,17,,0,17,0,9,0
+84dafe8b3bb7d392,PISCO,Abalone Cove SMCA,M. franciscanus,SBTL_SWATH_VRG,12,,10,0,12,9,3
+84fe6b9aa712ec3b,KFM,Harris Point SMR,S. pulcher,rdfc,25,,0,25,0,7,1
+8513dbd55656dc70,PISCO,Point Dume SMCA,M. franciscanus,SBTL_SWATH_VRG,5,MID,5,0,5,0,0
+851630b1ded513d7,PISCO,Point Vicente SMCA,S. purpuratus,SBTL_SWATH_VRG,13,,13,0,13,11,1
+855e6c1054961f41,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,16,,16,0,16,8,1
+85657d115321062c,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,3,0
+858bd981553a9e59,KFM,South Point SMR,S. pulcher,rdfc,16,,0,16,0,12,0
+862868dfce7d5d26,LTER,Campus Point SMCA,S. pulcher,lter_fish,23,,0,23,0,1,0
+864ab62d905cadb3,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,14,INNER;MID;OUTER,14,0,14,6,0
+86673eb1592b66a7,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,4,1
+8676d4fc17f3201d,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,19,OUTER,19,0,19,11,0
+868fc3e953fdb132,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,0,0
+86c9bc0aa64a78c1,PISCO,Naples SMCA,M. franciscanus,SBTL_SWATH_PISCO,14,,13,0,14,7,0
+86f8716ff064362b,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,3,0
+876478d4335cdecb,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,1,,0,0,1,0,0
+8769f680b7592ce4,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,5,0
+879fa6d0f2273bb7,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,1,INNER,1,0,1,0,0
+87f7cfbf7cf8d28b,KFM,Anacapa Island SMR 2003,S. purpuratus,1mquad,17,,0,17,0,15,3
+880a58decb68f9af,PISCO,Gull Island SMR,M. pyrifera,SBTL_SWATH_PISCO,17,,17,0,16,6,1
+880db43e7c10a292,KFM,Santa Barbara Island SMR,S. purpuratus,1mquad,41,,0,41,0,11,1
+882d5a2690f7cdfd,PISCO,Campus Point SMCA,S. pulcher,SBTL_FISH_PISCO,11,,10,0,11,4,0
+884e41d4212b24d4,KFM,Scorpion SMR,S. pulcher,rdfc,17,,0,17,0,13,3
+885800542d4e135f,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,19,OUTER,19,0,19,7,0
+886fb716f3422641,KFM,Scorpion SMR,S. pulcher,rdfc,17,,0,17,0,12,0
+8979d0d0d9004269,LTER,Campus Point SMCA,P. interruptus,lter_lobster,12,,0,12,0,0,0
+898d0960d921d429,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,19,INNER;OUTER,19,0,18,8,0
+89b5557059718b27,PISCO,Blue Cavern Onshore SMCA,S. pulcher,SBTL_FISH_VRG,6,MID,6,0,6,4,0
+89e73a7883374ecd,PISCO,Gull Island SMR,P. interruptus,SBTL_FISH_PISCO,1,,0,0,1,1,0
+89f5b83cee91ae4d,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,4,INNER;OUTER,4,0,4,0,0
+89f6196134dcb80c,PISCO,Point Vicente SMCA,S. pulcher,SBTL_FISH_VRG,13,OUTER,13,0,13,10,3
+89f84c423e8c3d56,KFM,South Point SMR,P. interruptus,band,17,,0,17,0,11,0
+8a093ce1df9720a0,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,0,0
+8a1a500442ff2b43,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,1,,0,0,1,0,0
+8a31ba65c756a67a,KFM,Scorpion SMR,M. pyrifera,5mquad,26,,0,26,0,20,0
+8a6c4bced1381f6a,KFM,Scorpion SMR,S. pulcher,visualfish,18,,0,18,0,12,2
+8a72263aa688cca8,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,19,OUTER,19,0,19,10,1
+8a7ca848bbfc05d5,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,1,0
+8ae0ee104f950742,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,2,0
+8ae5b65b08d3a3f7,KFM,Scorpion SMR,M. pyrifera,1mquad,40,,0,40,0,27,1
+8afb0038b7e1827f,PISCO,Point Dume SMCA,M. franciscanus,SBTL_SWATH_VRG,1,INNER;MID,1,0,1,0,0
+8afe62fb9edd9987,PISCO,Point Vicente SMCA,S. purpuratus,SBTL_SWATH_VRG,16,,16,0,15,11,1
+8b6f0fee694ec575,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,2,0
+8b7869ec22b60d02,KFM,Scorpion SMR,S. pulcher,visualfish,17,,0,17,0,8,0
+8b96dadae8412aa2,KFM,Santa Barbara Island SMR,S. pulcher,visualfish,17,,0,17,0,9,0
+8ba8262d548ecbcd,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,20,,20,0,20,10,0
+8baff7ce55857270,PISCO,Point Vicente SMCA,M. pyrifera,SBTL_SWATH_VRG,12,INNER,12,0,12,10,1
+8bf4265fea35cc0a,PISCO,Anacapa Island SMR 2003,M. franciscanus,SBTL_SWATH_PISCO,16,INNER;OUTER,16,0,16,6,0
+8d08b5b90028aab1,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,1,0
+8d1ff6a0b90ea7fb,KFM,Santa Barbara Island SMR,P. interruptus,band,36,,0,36,0,10,0
+8d46c07f2910e859,PISCO,Point Dume SMCA,P. interruptus,SBTL_SWATH_VRG,1,INNER,1,0,1,0,0
+8d7737d0eb8bad30,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,6,,6,0,6,2,0
+8dd509d652fd4f2d,PISCO,Naples SMCA,M. pyrifera,SBTL_SWATH_PISCO,13,,12,0,13,6,0
+8f0884abf7654bd1,PISCO,Scorpion SMR,P. interruptus,SBTL_FISH_PISCO,2,OUTER,2,0,2,2,0
+8f1bc8cb02ca0f4f,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_FISH_PISCO,1,OUTER,1,0,1,1,0
+90463bd4dae0e8d1,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,0,0
+9049bfea13218f9f,PISCO,South Point SMR,S. pulcher,SBTL_FISH_CRANE,1,MID;OUTER,1,0,1,1,0
+908f8f7d87b4adff,KFM,Scorpion SMR,S. pulcher,visualfish,18,,0,18,0,5,1
+9129dbc67aba9506,PISCO,Point Vicente SMCA,M. pyrifera,SBTL_SWATH_VRG,12,INNER,12,0,12,9,2
+912dad88e5222056,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,2,0
+91ac6200457d3d34,PISCO,Point Dume SMCA,S. purpuratus,SBTL_SWATH_VRG,1,MID,1,0,1,0,0
+91f8bae38d2de04a,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,2,0
+9238d626b1072315,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,4,,3,0,4,0,0
+92c4309a0c349c95,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,2,0
+934ef1a3945bf085,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,2,INNER,2,0,2,1,0
+93e6fb55baa127c2,PISCO,Long Point SMR,S. pulcher,SBTL_FISH_VRG,8,OUTER,8,0,8,2,0
+93f07e16c94abae4,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,0,0
+94253e6ae8c8a327,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID,3,0,3,1,0
+948b38cd30bccaf1,PISCO,Naples SMCA,M. franciscanus,SBTL_SWATH_PISCO,13,INNER;OUTER,13,0,13,6,0
+94e4af2f31abcf51,PISCO,Campus Point SMCA,M. franciscanus,SBTL_SWATH_PISCO,13,MID,13,0,13,6,0
+954712f1b6b6adf8,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,3,,3,0,3,1,0
+95b0c3025b874cc5,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,2,0
+95c2dd27d8feed5d,PISCO,Naples SMCA,S. purpuratus,SBTL_SWATH_PISCO,14,INNER,14,0,14,7,0
+95ec659384e15183,PISCO,Anacapa Island SMR 2003,S. pulcher,SBTL_FISH_PISCO,17,,17,0,17,8,0
+964e9f3d5935c214,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,2,OUTER,2,0,2,2,0
+966e85c0b824db7f,PISCO,Point Vicente SMCA,S. purpuratus,SBTL_SWATH_VRG,15,,15,0,15,9,2
+96f0b330eb95f6ca,PISCO,Point Dume SMCA,P. interruptus,SBTL_SWATH_VRG,4,,4,0,4,0,0
+97225d60b43d3d97,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,3,,3,0,3,1,0
+97290d3419a0b7f2,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,4,0
+976631a25b535b69,PISCO,Point Dume SMCA,M. franciscanus,SBTL_SWATH_PISCO,4,INNER;MID;OUTER,4,0,4,0,0
+977ea6f9f66c42aa,PISCO,Campus Point SMCA,S. purpuratus,SBTL_SWATH_PISCO,14,INNER;MID,14,0,14,6,0
+978f60e35c97551a,PISCO,Naples SMCA,M. franciscanus,SBTL_SWATH_PISCO,14,,13,0,14,9,1
+97c20c0f9b361b0c,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,3,MID;OUTER,3,0,3,2,0
+9816979bf70d47ba,PISCO,South Point SMR,S. pulcher,SBTL_FISH_CRANE,1,INNER;MID;OUTER,1,0,1,1,0
+981f241ff53c3d7a,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_SWATH_PISCO,6,,5,0,6,5,0
+9838a649f2c39082,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;OUTER,3,0,3,1,0
+987b51d6ad03864c,PISCO,Point Vicente SMCA,M. franciscanus,SBTL_SWATH_VRG,14,,13,0,14,9,1
+9885dae1a02c719d,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,4,0
+98b359b53c9aaa37,PISCO,Gull Island SMR,M. franciscanus,SBTL_SWATH_PISCO,18,INNER;MID;OUTER,18,0,17,7,1
+997dc1d23d1ab6c6,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,4,OUTER,4,0,4,2,0
+99fc3e2b06d458d1,KFM,South Point SMR,S. purpuratus,1mquad,17,,0,17,0,12,0
+9a89c64178d76ef0,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,1,0
+9aeef1f7b23b8fe2,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTMID,6,0,6,1,0
+9b16d6a847c5c11a,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,3,INNER;MID,3,0,3,2,0
+9b8730f317ce0205,KFM,South Point SMR,S. purpuratus,1mquad,17,,0,17,0,12,0
+9b9289df08295c10,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_FISH_PISCO,2,INNER,2,0,2,1,0
+9b944716bf2cdc31,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,15,INNER,15,0,15,7,0
+9bbcdf0529161768,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,2,INNER;MID;OUTER,2,0,2,2,0
+9bfba01e85cb7d97,PISCO,Point Dume SMR,M. franciscanus,SBTL_SWATH_VRG,2,,1,0,1,2,0
+9c8784b925c60b2f,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,3,,3,0,3,0,0
+9cf98590483f617d,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,1,0
+9d7dd65970a66f6e,PISCO,Point Dume SMCA,M. pyrifera,SBTL_SWATH_VRG,2,,1,0,2,0,0
+9d95f2b4bf8b890f,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,2,MID,2,0,2,2,0
+9da612ebeef61eb9,PISCO,Naples SMCA,S. pulcher,SBTL_FISH_PISCO,13,,11,0,13,7,0
+9dde94853d6dfe9d,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,6,,5,0,6,0,0
+9eeab4d381e0e105,KFM,Anacapa Island SMR 2003,S. pulcher,visualfish,17,,0,17,0,15,1
+9f214480e95f00c9,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,1,INNER,1,0,1,1,0
+9f276e48283ea8ac,PISCO,Point Vicente SMCA,M. franciscanus,SBTL_SWATH_VRG,16,OUTER,16,0,16,12,1
+9fef19092273da99,PISCO,Point Dume SMCA,M. pyrifera,SBTL_SWATH_PISCO,4,INNER,4,0,4,2,0
+a001a8a31bc903a2,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,3,0
+a075bc4a85ec1951,PISCO,Point Dume SMR,M. pyrifera,SBTL_SWATH_VRG,1,INNER;MID,1,0,1,1,0
+a0777bc9655746f7,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_FISH_PISCO,2,INNER,2,0,2,2,0
+a09b4e2a88a1e7ba,KFM,Santa Barbara Island SMR,S. pulcher,rdfc,16,,0,16,0,8,0
+a11a9f7ac3fe8a9a,PISCO,Naples SMCA,S. purpuratus,SBTL_SWATH_PISCO,14,INNER,14,0,14,8,0
+a11e08eaf88ec016,PISCO,Gull Island SMR,P. interruptus,SBTL_SWATH_PISCO,5,,4,0,5,4,1
+a1788e9559351aa5,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,2,INNER;MID,2,0,2,2,0
+a1802e253d51943b,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,1,0
+a1b0c5f8594678dc,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,2,0
+a265010eaa967cbd,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,3,OUTMID,3,0,3,1,0
+a2caeeac21900b19,PISCO,Point Vicente SMCA,P. interruptus,SBTL_SWATH_VRG,11,,9,0,11,7,1
+a3548d7e4d314996,PISCO,Anacapa Island SMR 2003,S. purpuratus,SBTL_SWATH_PISCO,6,INNER;OUTER,6,0,6,3,1
+a384387aaadd81f8,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,2,INNER;OUTER,2,0,2,0,0
+a3b192e33656c084,KFM,South Point SMR,P. interruptus,band,17,,0,17,0,11,0
+a3c701dcf5011c58,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,20,,19,0,20,8,1
+a3df8a6ad76f21fc,LTER,Campus Point SMCA,M. pyrifera,lter_kelp,23,,0,23,0,0,0
+a3f0191cb08123f4,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,4,,4,0,4,2,0
+a406b6d29b8104da,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,0,0
+a454f824ca60935f,PISCO,Anacapa Island SMR 2003,M. pyrifera,SBTL_SWATH_PISCO,5,INNER,5,0,5,3,1
+a46de4c5d295086b,LTER,Campus Point SMCA,M. pyrifera,quad,23,,0,23,0,1,0
+a56c1f0559759afb,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,9,,8,0,9,5,0
+a59780b9a16c184d,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,1,MID,1,0,1,1,0
+a5de16532ad7744f,KFM,South Point SMR,S. pulcher,visualfish,17,,0,17,0,7,0
+a61d354dd75012a0,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,6,,6,0,6,2,0
+a61d50f3e92d0efb,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,6,,6,0,6,0,0
+a6bba004e973141a,PISCO,Scorpion SMR,M. pyrifera,SBTL_SWATH_PISCO,4,OUTER,4,0,4,2,0
+a6bfb5646a23494f,PISCO,Scorpion SMR,M. pyrifera,SBTL_SWATH_PISCO,9,,9,0,9,3,0
+a6ea6d31f182ebff,KFM,Santa Barbara Island SMR,S. pulcher,rdfc,17,,0,17,0,7,0
+a706cfc88a9fe65f,PISCO,Point Vicente SMCA,S. purpuratus,SBTL_SWATH_VRG,12,MID,12,0,12,10,2
+a7482c1dc8b8dcef,PISCO,Point Vicente SMCA,P. interruptus,SBTL_SWATH_VRG,10,,9,0,10,8,2
+a7a815acdf4432b9,KFM,South Point SMR,M. franciscanus,1mquad,17,,0,17,0,11,0
+a7a9f158b0389cd0,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID,3,0,3,1,0
+a85aefa4939b2697,PISCO,Point Dume SMR,M. franciscanus,SBTL_SWATH_VRG,2,INNER,2,0,1,2,0
+a89b53361dd8e673,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,2,INMID,2,0,2,2,0
+a8b4f3025f4d0bbc,KFM,Anacapa Island SMR 2003,S. purpuratus,1mquad,17,,0,17,0,13,2
+a8f447cecf0e37f9,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID,3,0,3,1,0
+a95e7572c35941ad,PISCO,Point Dume SMCA,M. pyrifera,SBTL_SWATH_VRG,1,MID,1,0,1,1,1
+a989c4c6d17804ac,PISCO,Anacapa Island SMR 2003,S. pulcher,SBTL_FISH_PISCO,8,,8,0,8,5,0
+a9a9be406ab514b8,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,0,0
+aa0447c0279c9fbb,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,2,,1,0,2,1,0
+aa72afaaf7920f0e,PISCO,Point Vicente SMCA,M. franciscanus,SBTL_SWATH_VRG,10,MID,10,0,10,7,1
+aaead649d92aecf2,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,3,0
+ab0529041dd93bdc,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,2,MID;OUTER,2,0,2,0,0
+ab233650d5e3b5df,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,4,,3,0,4,0,0
+ab915a26a713f95f,KFM,South Point SMR,S. purpuratus,1mquad,17,,0,17,0,11,0
+aba07b5b360cee5b,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,2,0
+abf0bcb4d1a5603a,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,1,MID;OUTER,1,0,1,0,0
+ac39b7b0160f6260,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,1,MID,1,0,1,0,0
+ac4b18c73a27ece2,PISCO,Gull Island SMR,S. purpuratus,SBTL_SWATH_PISCO,18,INNER;MID,18,0,17,6,0
+ac64e25dde6a4737,PISCO,Abalone Cove SMCA,S. pulcher,SBTL_FISH_VRG,13,,12,0,13,10,5
+ac71b9b6d7b6ebdc,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,3,,3,0,3,1,0
+adc47bb09e4df3d1,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,2,INNER;MID,2,0,2,0,0
+addd80a2de00fe8b,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,3,0
+ae5837c6fbb970cb,PISCO,Point Vicente SMCA,M. franciscanus,SBTL_SWATH_VRG,17,,16,0,17,9,1
+ae9e785e368ffd4f,KFM,Santa Barbara Island SMR,S. pulcher,rdfc,16,,0,16,0,8,0
+aead2a3b8430e1a9,PISCO,Harris Point SMR,S. pulcher,SBTL_FISH_PISCO,14,,14,0,14,3,0
+aedfebc75ab1d703,LTER,Naples SMCA,M. pyrifera,swath,23,,0,23,0,0,0
+aef0afcfe292d4e1,PISCO,Point Vicente SMCA,M. pyrifera,SBTL_SWATH_VRG,13,,12,0,13,11,2
+af1334c98b611a3c,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,2,0
+afb8ef041c931c94,PISCO,South Point SMR,P. interruptus,SBTL_SWATH_PISCO,2,,1,0,2,0,0
+afd9308d63d2ba25,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,20,,20,0,20,12,0
+b087d327919cff73,PISCO,Point Vicente SMCA,S. pulcher,SBTL_FISH_VRG,14,,14,0,14,9,1
+b0a141fa2a321b87,PISCO,Naples SMCA,M. franciscanus,SBTL_SWATH_PISCO,13,INNER;OUTER,13,0,13,6,0
+b12658fe6183d4a4,PISCO,Scorpion SMR,M. pyrifera,SBTL_SWATH_PISCO,1,INNER,1,0,1,1,0
+b14fb9b3416fa83a,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,19,,19,0,19,7,0
+b17f812c1c103a7b,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,19,INNER,19,0,18,7,0
+b1a327a7b6a9a53d,KFM,Scorpion SMR,S. pulcher,rdfc,16,,0,16,0,12,4
+b1af603f19f9bc24,PISCO,Point Vicente SMCA,M. pyrifera,SBTL_SWATH_VRG,12,,12,0,12,9,2
+b1e5c476460c3241,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,3,INNER,3,0,3,0,0
+b2301080bfca777d,PISCO,Anacapa Island SMR 2003,S. purpuratus,SBTL_SWATH_PISCO,6,INNER;OUTER,6,0,6,4,1
+b288d1c02a408113,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID,3,0,3,1,0
+b2953601d755b564,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID,3,0,3,1,0
+b2b3496c215046ef,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,2,INNER;MID;OUTER,2,0,2,2,0
+b2c6d4efbe38c7c0,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;OUTER,3,0,3,1,0
+b2ddf542090e2a95,PISCO,Scorpion SMR,P. interruptus,SBTL_FISH_PISCO,2,INNER;OUTER;OUTMID,2,0,2,1,0
+b2f38fedc9e52f63,PISCO,Abalone Cove SMCA,S. pulcher,SBTL_FISH_VRG,13,,12,0,13,10,4
+b30c95528fa6cde8,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,0,0
+b331a90e2f330e91,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,3,INNER;MID,3,0,3,1,0
+b33245f8465ecade,LTER,Naples SMCA,M. pyrifera,quad,23,,0,23,0,0,0
+b3577a53013fa757,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,,6,0,6,4,0
+b3590e22c4a6c785,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,3,,2,0,3,2,0
+b36580b7c75841aa,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_FISH_PISCO,2,,1,0,2,2,0
+b3ebd32fac9b7a1a,PISCO,Naples SMCA,P. interruptus,SBTL_FISH_PISCO,2,,1,0,2,0,0
+b40bad8eec4811da,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,3,OUTER,3,0,3,2,0
+b424cd7d2e8f0855,PISCO,Gull Island SMR,P. interruptus,SBTL_SWATH_PISCO,2,INNER,2,0,2,2,0
+b4a61da3a65dc457,KFM,Harris Point SMR,M. pyrifera,1mquad,40,,0,40,0,9,1
+b4b55bd979ddf11f,PISCO,Harris Point SMR,S. pulcher,SBTL_FISH_PISCO,7,,5,0,7,2,0
+b506d0d0d4ab1ea6,PISCO,Point Vicente SMCA,M. franciscanus,SBTL_SWATH_VRG,16,,16,0,15,11,1
+b5b00894a49cadfa,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,2,0
+b5b7bc36f1448846,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,1,MID,1,0,1,0,0
+b5e462a73327059a,PISCO,Point Vicente SMCA,M. pyrifera,SBTL_SWATH_VRG,15,,15,0,15,12,2
+b653ac9885df4269,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,4,INNER;MID,4,0,4,3,0
+b67cd118784f0247,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_SWATH_PISCO,2,INNER,2,0,2,0,0
+b6e8eb0426638eee,KFM,Harris Point SMR,S. pulcher,visualfish,15,,0,15,0,11,0
+b75ff5160a9ea72f,PISCO,Anacapa Island SMR 2003,S. purpuratus,SBTL_SWATH_PISCO,6,INNER;OUTER,6,0,6,4,1
+b782224a9e465f17,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,19,,19,0,19,10,0
+b7a12902d92c20bb,PISCO,Point Vicente SMCA,M. franciscanus,SBTL_SWATH_VRG,12,MID,12,0,12,9,2
+b7ed620ecf84bc94,KFM,Santa Barbara Island SMR,S. pulcher,visualfish,17,,0,17,0,8,0
+b82ee49580e4b85a,PISCO,Naples SMCA,M. pyrifera,SBTL_SWATH_PISCO,13,,12,0,13,7,0
+b863e5ffc7d03c0b,LTER,Campus Point SMCA,M. franciscanus,quad,23,,0,23,0,1,0
+b8719706a652fdbc,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,20,,19,0,20,8,1
+b8966ad7df85bfcf,PISCO,South Point SMR,S. pulcher,SBTL_FISH_CRANE,1,MID;OUTER,1,0,1,1,0
+b8c73c16268ca271,KFM,South Point SMR,M. franciscanus,1mquad,17,,0,17,0,8,0
+b982d82769cfbd65,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,5,0
+b997f2ffdad7a927,LTER,Campus Point SMCA,S. pulcher,lter_fish,23,,0,23,0,0,0
+b9bd1346f5a52a2f,KFM,Scorpion SMR,S. pulcher,rdfc,16,,0,16,0,11,0
+ba1270deab62f06d,PISCO,Point Vicente SMCA,S. pulcher,SBTL_FISH_VRG,11,MID,11,0,11,9,1
+ba69754e83427bdf,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,2,INNER,2,0,2,1,0
+bba9f638cb4d92fd,PISCO,Point Vicente SMCA,P. interruptus,SBTL_SWATH_VRG,6,,5,0,6,5,0
+bbf51b96853662bf,PISCO,Campus Point SMCA,P. interruptus,SBTL_SWATH_PISCO,6,,5,0,6,3,0
+bc3508cf1366c547,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,16,,16,0,16,8,0
+bc83edb633a4a200,KFM,South Point SMR,M. pyrifera,5mquad,17,,0,17,0,13,0
+bcb54167f4ceda83,KFM,South Point SMR,S. purpuratus,1mquad,17,,0,17,0,12,0
+bcde06e3c614908d,KFM,South Point SMR,M. pyrifera,1mquad,17,,0,17,0,12,0
+bce0327b2b46edaf,LTER,Campus Point SMCA,M. franciscanus,quad,23,,0,23,0,0,0
+bce60c7dbe75cad6,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,0,0
+bd2ca3457e5e13db,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,2,INNER;OUTER,2,0,2,0,0
+bd3ce398849e4bb7,KFM,South Point SMR,M. pyrifera,5mquad,17,,0,17,0,12,0
+bdaca8c8fc073cd9,PISCO,Gull Island SMR,M. franciscanus,SBTL_SWATH_PISCO,18,INNER;MID;OUTER,18,0,17,7,1
+bdc2280ff1fcde12,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,16,OUTER,16,0,16,5,0
+be2184e3db4bf0b4,PISCO,South Point SMR,P. interruptus,SBTL_FISH_PISCO,2,,2,0,2,2,0
+be9fee307c4a981b,PISCO,Point Dume SMCA,S. purpuratus,SBTL_SWATH_PISCO,4,INNER;OUTER,4,0,4,2,0
+bea90eacea5118bf,KFM,South Point SMR,S. pulcher,rdfc,16,,0,16,0,10,0
+bee1014741adfc6b,PISCO,Scorpion SMR,P. interruptus,SBTL_FISH_PISCO,1,INNER,1,0,1,1,0
+bef1f2945c402430,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,3,MID;OUTER,3,0,3,2,0
+befd3c947282e89e,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,19,,19,0,19,7,0
+bf210d554efadd42,PISCO,Anacapa Island SMR 2003,M. franciscanus,SBTL_SWATH_PISCO,16,INNER;OUTER,16,0,16,5,0
+bf39c7b55e2ded8a,PISCO,Scorpion SMR,M. pyrifera,SBTL_SWATH_PISCO,8,,7,0,8,5,0
+bf3cdba694a434e9,PISCO,Point Dume SMR,S. purpuratus,SBTL_SWATH_VRG,6,,5,0,6,2,0
+bf83d0dceb786490,PISCO,Naples SMCA,S. purpuratus,SBTL_SWATH_PISCO,13,INNER;OUTER,13,0,13,6,0
+bfd2920562ec18cd,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,19,OUTER,19,0,19,8,0
+c0053df3249e793a,KFM,South Point SMR,P. interruptus,band,17,,0,17,0,12,0
+c005b72bdb0048c7,PISCO,Point Vicente SMCA,S. purpuratus,SBTL_SWATH_VRG,11,MID,11,0,11,8,1
+c00b570bc6e1127a,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,14,,14,0,14,6,0
+c0119c7ce5c430a0,LTER,Naples SMCA,S. pulcher,lter_fish,23,,0,23,0,0,0
+c044b9772064685c,PISCO,Point Vicente SMCA,M. franciscanus,SBTL_SWATH_VRG,12,MID,12,0,12,10,1
+c07b7b7f35643b37,PISCO,Swamis SMCA,S. pulcher,SBTL_FISH_VRG,1,INNER,1,0,1,1,0
+c08b5ad9d54029d9,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,2,INNER;OUTER,2,0,2,0,0
+c09333ac6d027fa9,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,16,MID,16,0,15,8,0
+c0ebe87a91181f6d,PISCO,Harris Point SMR,M. pyrifera,SBTL_SWATH_PISCO,11,INNER,11,0,10,3,0
+c109ed233b9732c9,LTER,Naples SMCA,S. pulcher,fish,23,,0,23,0,0,0
+c1553c361533c46c,PISCO,Point Dume SMCA,S. purpuratus,SBTL_SWATH_VRG,5,,4,0,5,0,0
+c17a318635d7d9f0,PISCO,Harris Point SMR,S. pulcher,SBTL_FISH_PISCO,13,,11,0,13,1,0
+c180f2b50b0c71ac,PISCO,Matlahuayl SMR,P. interruptus,SBTL_SWATH_VRG,7,,6,0,7,0,0
+c1ff353b47586dd1,KFM,Scorpion SMR,S. pulcher,visualfish,37,,0,37,0,15,0
+c21b70af9e1cbd20,KFM,Anacapa Island SMR 2003,P. interruptus,band,17,,0,17,0,11,0
+c2c77f9410c5aaf1,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,1,MID;OUTER,1,0,1,0,0
+c322cd1935221565,PISCO,Gull Island SMR,S. purpuratus,SBTL_SWATH_PISCO,18,INNER;MID,18,0,17,6,0
+c3286b4b14e52eb5,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,2,0
+c3314f97114015c9,LTER,Campus Point SMCA,S. purpuratus,quad,23,,0,23,0,0,0
+c3371d78ed67c4e3,PISCO,Point Vicente SMCA,S. purpuratus,SBTL_SWATH_VRG,12,INNER,12,0,12,9,2
+c3d56f407c261a13,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,0,0
+c3e4cecd221bfe0e,PISCO,Abalone Cove SMCA,M. franciscanus,SBTL_SWATH_VRG,13,,13,0,12,9,4
+c3e6e009f2d1ce74,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,2,INNER,2,0,2,2,0
+c477c50070161290,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,3,0
+c4dc0cf8f1e5e54c,PISCO,Campus Point SMCA,M. pyrifera,SBTL_SWATH_PISCO,11,INNER,11,0,11,4,0
+c51893ae01afa13c,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,2,0
+c53017c96d826552,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,4,INNER;MID,4,0,4,0,0
+c5cee6cae01016c7,KFM,Santa Barbara Island SMR,P. interruptus,band,40,,0,40,0,10,0
+c5f406c2c205f1f6,KFM,Anacapa Island SMR 2003,P. interruptus,band,17,,0,17,0,15,3
+c6071207d05fffe3,KFM,South Point SMR,M. franciscanus,1mquad,17,,0,17,0,12,0
+c6187096a08fe4fd,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_SWATH_PISCO,3,OUTER,3,0,3,3,1
+c66417e394800893,PISCO,Campus Point SMCA,M. franciscanus,SBTL_SWATH_PISCO,14,,14,0,14,6,0
+c6c984ece80d9def,PISCO,Point Vicente SMCA,S. purpuratus,SBTL_SWATH_VRG,13,MID,13,0,13,10,2
+c6eea3fc9bd1ec10,PISCO,Point Vicente SMCA,S. pulcher,SBTL_FISH_VRG,15,DEEP;MID;OUTER,15,0,15,8,2
+c70f1d05ad246d11,PISCO,Naples SMCA,M. pyrifera,SBTL_SWATH_PISCO,12,INNER,12,0,12,6,0
+c725d8c57ddbefb8,KFM,Anacapa Island SMR 2003,M. pyrifera,1mquad,17,,0,17,0,13,2
+c7287d23368b64e9,PISCO,Harris Point SMR,S. purpuratus,SBTL_SWATH_PISCO,17,INNER,17,0,16,2,0
+c7a64ba3098d4ba4,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,2,0
+c80531e524aaf0cf,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,16,,16,0,16,8,0
+c823ab74985dfb3c,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,1,0
+c83e71ceb2c2706d,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,20,INNER;MID;OUTER,20,0,19,10,0
+c85e48b3c40a8d6a,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;OUTER,3,0,3,1,0
+c896f28f446e05d5,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,4,INNER,4,0,4,0,0
+c8a5027c9e7bbf05,PISCO,Abalone Cove SMCA,S. pulcher,SBTL_FISH_VRG,13,,11,0,13,11,6
+c9085b49e89500ce,KFM,South Point SMR,S. pulcher,visualfish,17,,0,17,0,11,0
+c927a0c0320eea7a,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,2,0
+c94fdb29b0b37774,PISCO,Point Vicente SMCA,M. pyrifera,SBTL_SWATH_VRG,11,,11,0,11,8,1
+c95f232230f721ec,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,1,INNER,1,0,1,1,0
+c99667de72444113,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,3,0
+c998e2227809bf1b,PISCO,Harris Point SMR,M. franciscanus,SBTL_SWATH_PISCO,17,INNER;MID,17,0,16,3,0
+c9bb34b0b93ef7d6,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,20,INNER;MID;OUTER,20,0,19,12,0
+ca4b4624576e988b,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_VRG,5,OUTER,5,0,5,2,0
+ca7dc8330778079e,PISCO,Abalone Cove SMCA,S. purpuratus,SBTL_SWATH_VRG,11,,9,0,11,9,4
+ca9e0038c64b870a,PISCO,Point Vicente SMCA,P. interruptus,SBTL_SWATH_VRG,13,,13,0,12,8,1
+caeee18f9fc61dc0,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,3,MID;OUTER,3,0,3,2,0
+cb01a24477920089,PISCO,Harris Point SMR,M. pyrifera,SBTL_SWATH_PISCO,10,,9,0,9,2,0
+cb04c6856ccf634b,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,16,,16,0,16,7,0
+cb4e2f0a5fb4df0f,KFM,South Point SMR,S. pulcher,visualfish,17,,0,17,0,11,0
+cb7e8c278fd13c9d,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,16,INNER;MID,16,0,16,8,0
+cba4d7cee204c648,KFM,South Point SMR,S. pulcher,rdfc,16,,0,16,0,7,0
+cbe02711876047a5,PISCO,Anacapa Island SMR 2003,S. pulcher,SBTL_FISH_PISCO,6,,6,0,6,4,1
+cbf07d44f2f72ca8,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,19,INNER;OUTER,19,0,18,8,0
+cc1410e17b4c4554,PISCO,Matlahuayl SMR,S. purpuratus,SBTL_SWATH_VRG,2,,1,0,2,0,0
+cc32455a25a94959,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,2,,1,0,2,1,0
+cccee0d4c0152b29,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,2,MID;OUTER,2,0,2,2,0
+cdcca1fb2b1f1f33,PISCO,Anacapa Island SMR 2003,M. franciscanus,SBTL_SWATH_PISCO,6,INNER;OUTER,6,0,6,3,1
+ce56c94f94909242,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_FISH_PISCO,1,OUTER,1,0,1,1,0
+ce6c4f6af3fd643a,KFM,South Point SMR,M. pyrifera,5mquad,17,,0,17,0,12,0
+cec793d77248ab71,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,16,INNER;MID,16,0,16,8,0
+ceef24ff0c777790,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,1,0
+cef89b6e05d77d1f,PISCO,Anacapa Island SMR 2003,S. purpuratus,SBTL_SWATH_PISCO,6,INNER;OUTER,6,0,6,3,1
+cf0109143637bc80,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,17,,16,0,17,6,0
+cf1582783674c3e9,PISCO,South Point SMR,S. pulcher,SBTL_FISH_CRANE,1,MID;OUTER,1,0,1,1,0
+cf2ac541cbb98575,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,7,,6,0,7,4,0
+cf71e85021f91b99,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,3,OUTMID,3,0,3,2,0
+cf7cd54003c5b32f,PISCO,Scorpion SMR,P. interruptus,SBTL_FISH_PISCO,1,INNER,1,0,1,1,0
+d015d83b663d13bd,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_SWATH_PISCO,3,OUTER,3,0,3,2,1
+d05953d5b78caaf6,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTMID,6,0,6,4,0
+d075f80f299fc6be,PISCO,Scorpion SMR,P. interruptus,SBTL_FISH_PISCO,2,INNER;OUTER;OUTMID,2,0,2,0,0
+d121232c5d7809d6,PISCO,Gull Island SMR,M. franciscanus,SBTL_SWATH_PISCO,18,INNER;MID;OUTER,18,0,17,6,0
+d12fcb8dd95dde41,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,3,0
+d181dbc338d3e65a,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,16,INNER;MID,16,0,16,5,0
+d1b761b77c77f542,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,4,0
+d22a27f08c552266,PISCO,Naples SMCA,P. interruptus,SBTL_FISH_PISCO,2,,1,0,2,0,0
+d2c53a32d5e3678f,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,6,,6,0,6,3,0
+d3c648f6b7e5e03a,PISCO,Point Vicente SMCA,M. franciscanus,SBTL_SWATH_VRG,15,OUTER,15,0,15,12,2
+d3d483110d9da462,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,1,MID,1,0,1,0,0
+d400fef09a14810e,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;OUTER,3,0,3,1,0
+d450b476606a0bc7,KFM,South Point SMR,S. purpuratus,1mquad,17,,0,17,0,9,0
+d469653447c5bbea,KFM,Scorpion SMR,S. pulcher,rdfc,17,,0,17,0,13,0
+d4e84fb8f6844e3a,PISCO,Anacapa Island SMR 2003,M. pyrifera,SBTL_SWATH_PISCO,6,INNER,6,0,6,3,1
+d53d9638583c414a,PISCO,Point Dume SMR,S. pulcher,SBTL_FISH_VRG,2,INNER,2,0,2,2,0
+d548464736d43c03,PISCO,Anacapa Island SMR 2003,S. pulcher,SBTL_FISH_PISCO,18,,18,0,18,10,0
+d56a6f5688d22f88,PISCO,Point Vicente SMCA,M. franciscanus,SBTL_SWATH_VRG,12,MID;OUTER,12,0,12,7,1
+d583d5e884c06f21,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,15,INNER,15,0,15,7,0
+d5c98e73051af1f6,KFM,South Point SMR,S. pulcher,visualfish,17,,0,17,0,11,0
+d6c710167b265f86,PISCO,Point Vicente SMCA,P. interruptus,SBTL_SWATH_VRG,7,,6,0,7,5,0
+d76c87a16f6c2578,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_CRANE,1,MID,1,0,1,0,0
+d788c6acf28c6564,PISCO,Anacapa Island SMR 2003,M. franciscanus,SBTL_SWATH_PISCO,6,INNER;OUTER,6,0,6,3,1
+d78c81023f400ddb,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,18,,16,0,18,5,0
+d79baf6748de29af,PISCO,Point Dume SMCA,S. purpuratus,SBTL_SWATH_PISCO,4,INNER;OUTER,4,0,4,0,0
+d7d4fc605c8e00b3,LTER,Campus Point SMCA,P. interruptus,swath,23,,0,23,0,1,0
+d7fe8aa8fb72c09c,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_FISH_PISCO,1,INNER;OUTER,1,0,1,0,0
+d832df37e800f5bf,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,3,OUTER,3,0,3,2,0
+d85b34cef6215b32,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,1,0
+d86012ffdcd77fd1,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,7,,5,0,7,5,0
+d87a0c9227b1bf7e,KFM,Scorpion SMR,S. pulcher,rdfc,16,,0,16,0,8,0
+d8dfb55c874b0428,PISCO,Scorpion SMR,M. pyrifera,SBTL_SWATH_PISCO,3,INNER;OUTER,3,0,3,1,0
+d8e0d8ac1507aee4,PISCO,Point Dume SMCA,P. interruptus,SBTL_SWATH_VRG,1,,0,0,1,0,0
+d8f95e701691e6c4,PISCO,Anacapa Island SMR 2003,M. pyrifera,SBTL_SWATH_PISCO,3,INNER,3,0,3,2,1
+d9828d681d5d5e83,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_FISH_PISCO,2,INNER,2,0,2,1,0
+d98b474d0d644eef,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,20,INNER;MID;OUTER,20,0,19,5,0
+d9ee0a5911e33abd,PISCO,Anacapa Island SMR 2003,M. franciscanus,SBTL_SWATH_PISCO,6,INNER;OUTER,6,0,6,4,1
+da532f8eb0d01cd0,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,4,INNER,4,0,4,3,0
+dc0a9d6eb17529d0,PISCO,Point Vicente SMCA,M. franciscanus,SBTL_SWATH_VRG,9,MID,9,0,9,6,1
+dc26d156072eab1d,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,4,,3,0,4,0,0
+dc78cb7376649208,PISCO,Point Dume SMR,M. pyrifera,SBTL_SWATH_VRG,1,INNER,1,0,0,1,0
+dc85dc4d7b235622,PISCO,South Point SMR,S. pulcher,SBTL_FISH_CRANE,1,OUTER,1,0,1,1,0
+dc940f69177c879f,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,,6,0,6,4,1
+dc981ba1b4ebfde7,PISCO,Anacapa Island SMR 2003,S. pulcher,SBTL_FISH_PISCO,8,,8,0,8,5,0
+dc98a49ebec43090,PISCO,Point Vicente SMCA,S. pulcher,SBTL_FISH_VRG,14,DEEP;OUTER,14,0,14,8,0
+dcdca304629cad26,PISCO,Naples SMCA,S. purpuratus,SBTL_SWATH_PISCO,14,INNER,14,0,14,9,1
+dce5715dae2672e6,PISCO,Gull Island SMR,S. pulcher,SBTL_FISH_PISCO,20,OUTMID,20,0,20,8,0
+dd34654c577e7b89,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,9,,7,0,9,3,0
+dd44ea90b49107c5,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,6,INNER,6,0,6,1,0
+dd6625bcde5ee7b2,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,2,INNER;OUTER,2,0,2,0,0
+dd884912a6f61657,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_FISH_PISCO,2,,1,0,2,2,0
+dd9d144f168e6428,PISCO,Abalone Cove SMCA,P. interruptus,SBTL_SWATH_VRG,7,,5,0,6,6,5
+dddda063c35387f7,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,7,,7,0,7,2,0
+de6f7ec8c5229005,KFM,South Point SMR,S. pulcher,visualfish,17,,0,17,0,11,0
+de9d3b15c92aebcf,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,2,MID,2,0,2,0,0
+df6dd71b8ac372d4,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,2,INNER;MID,2,0,2,2,0
+dfb2caf706eef14d,KFM,South Point SMR,S. pulcher,rdfc,16,,0,16,0,10,0
+dfe4449afd5f6060,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,3,,3,0,3,2,0
+e045603c8a653936,PISCO,Point Vicente SMCA,M. pyrifera,SBTL_SWATH_VRG,15,,15,0,15,7,0
+e0ad68183544f72f,PISCO,Point Vicente SMCA,M. franciscanus,SBTL_SWATH_VRG,15,OUTER,15,0,15,9,1
+e0d1d4689e25d5d0,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,6,INNER,6,0,6,4,0
+e0fa3d4ff39c384e,PISCO,Naples SMCA,M. franciscanus,SBTL_SWATH_PISCO,14,,13,0,14,8,0
+e119f1d50f2afdad,KFM,South Point SMR,S. pulcher,rdfc,16,,0,16,0,10,0
+e121a9d1260f40eb,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_FISH_PISCO,2,OUTER,2,0,2,2,0
+e13b4da90ae7ec6a,KFM,South Point SMR,S. pulcher,visualfish,17,,0,17,0,10,0
+e166297105af97ec,KFM,Harris Point SMR,M. pyrifera,5mquad,26,,0,26,0,10,1
+e1bfefbdaa3d6c5a,PISCO,Gull Island SMR,P. interruptus,SBTL_FISH_PISCO,2,,2,0,2,1,0
+e1d076be070d4346,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,0,0
+e1d25993fd54b075,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,6,,5,0,6,0,0
+e2668d70dabc6c51,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,3,OUTER,3,0,3,2,0
+e27573de56db4000,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,3,INNER;MID,3,0,3,2,0
+e28eaa409fdefac7,KFM,Anacapa Island SMR 2003,S. pulcher,rdfc,16,,0,16,0,14,1
+e2ee05ffbdaa8851,KFM,Scorpion SMR,S. pulcher,visualfish,17,,0,17,0,13,1
+e3df6ce3c7cc4d47,PISCO,Harris Point SMR,P. interruptus,SBTL_FISH_PISCO,2,INNER,2,0,2,1,0
+e4bf19a181c9cea7,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,2,OUTER,2,0,2,2,0
+e4c8c98969b19846,PISCO,Campus Point SMCA,P. interruptus,SBTL_SWATH_PISCO,5,,5,0,5,2,0
+e4cc983250f2f16f,PISCO,Campus Point SMCA,M. pyrifera,SBTL_SWATH_PISCO,13,,13,0,13,6,0
+e52b0d81259971cc,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,2,INNER;MID,2,0,2,2,0
+e530b9500a92b68c,PISCO,Point Vicente SMCA,M. franciscanus,SBTL_SWATH_VRG,15,,15,0,15,8,2
+e5848a4f5e24080b,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,1,0
+e5afd94eebf01b4d,PISCO,Anacapa Island SMR 2003,M. franciscanus,SBTL_SWATH_PISCO,6,INNER;OUTER,6,0,6,3,1
+e614f6d5423ccadf,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,2,MID,2,0,2,0,0
+e6d10729c6edd7d8,PISCO,Anacapa Island SMR 2003,S. pulcher,SBTL_FISH_PISCO,6,,6,0,6,4,1
+e6fe411f9b5c9529,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,4,INNER;MID;OUTER,4,0,4,0,0
+e79e83edc2e903a4,PISCO,Point Vicente SMCA,S. pulcher,SBTL_FISH_VRG,17,,17,0,17,7,1
+e7b18b25ee947f26,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,3,MID;OUTER,3,0,3,2,0
+e7f22ad289fbae68,KFM,South Point SMR,M. pyrifera,1mquad,17,,0,17,0,12,0
+e857795e5f805a8b,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,4,INNER,4,0,4,1,0
+e8abd6c68e5e7933,KFM,South Point SMR,S. pulcher,visualfish,17,,0,17,0,15,0
+e8b2d36a57288cec,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,4,,4,0,4,3,0
+e8bf0fbc41094106,PISCO,Point Vicente SMCA,S. purpuratus,SBTL_SWATH_VRG,15,MID,15,0,15,10,0
+ea23ba5b45f71f88,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,14,MID,14,0,14,7,0
+ea65bd79d3825ff0,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,2,INNER;OUTER,2,0,2,0,0
+ea73592aeb8fbee2,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,3,INNER;OUTER,3,0,3,0,0
+ea83c93b6199cb73,PISCO,Scorpion SMR,M. pyrifera,SBTL_SWATH_PISCO,8,,8,0,8,4,0
+eab430faccbf1503,PISCO,Anacapa Island SMR 2003,M. pyrifera,SBTL_SWATH_PISCO,6,,5,0,6,4,1
+eb2ca5ea3c3a4d79,PISCO,Point Dume SMR,P. interruptus,SBTL_SWATH_VRG,1,MID,1,0,1,1,0
+eb5413121fa0d29e,PISCO,Point Dume SMCA,M. franciscanus,SBTL_SWATH_VRG,1,INNER;MID,1,0,1,0,0
+eb831efdf481f0b2,PISCO,Point Vicente SMCA,P. interruptus,SBTL_SWATH_VRG,4,INNER,4,0,4,2,0
+ec0d045cf7462b1a,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,16,INNER;MID;OUTER,16,0,16,5,0
+ec450e2bcf93b239,KFM,Scorpion SMR,P. interruptus,band,39,,0,39,0,27,1
+ec8615ebc0e66f98,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,6,,6,0,6,4,0
+ec86c6a7a3af46ae,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,3,MID;OUTER,3,0,3,2,0
+ecabe84ff3a1357c,KFM,South Point SMR,M. franciscanus,1mquad,17,,0,17,0,11,0
+ecf5ab416347bce9,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,2,INNER;OUTER,2,0,2,0,0
+ed0e53e424f72a6b,KFM,South Point SMR,S. purpuratus,1mquad,17,,0,17,0,12,0
+ed100e2e61b46a9b,PISCO,South Point SMR,P. interruptus,SBTL_FISH_PISCO,2,,2,0,2,1,0
+ed5af73d2184a464,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,0,0
+ed5df7429835517d,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,16,,16,0,15,9,0
+ed6818730eeaaca9,KFM,South Point SMR,S. pulcher,rdfc,16,,0,16,0,10,0
+edf215a144b215d0,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,0,0
+ef0a84fef99d658c,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_SWATH_PISCO,6,INNER,6,0,6,3,0
+ef3bfa0ac7fac696,PISCO,Point Vicente SMCA,S. purpuratus,SBTL_SWATH_VRG,16,,16,0,15,7,1
+ef3f0ef162a6877a,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,15,INNER;OUTER,15,0,15,8,0
+ef5d211ef24201b9,PISCO,Blue Cavern Onshore SMCA,S. pulcher,SBTL_FISH_VRG,7,MID,7,0,7,4,0
+efadac90d8bf8f11,PISCO,Naples SMCA,S. pulcher,SBTL_FISH_PISCO,12,,11,0,12,6,0
+f067965b050282d0,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;OUTER,3,0,3,1,0
+f07c2659882d2cd4,PISCO,Point Dume SMR,M. pyrifera,SBTL_SWATH_VRG,1,INNER;MID,1,0,1,1,0
+f0814824d1c67f9f,KFM,Scorpion SMR,S. pulcher,visualfish,17,,0,17,0,13,4
+f0d437b962177811,PISCO,South Point SMR,S. purpuratus,SBTL_SWATH_PISCO,16,,16,0,16,8,0
+f0f7854264975607,PISCO,Point Dume SMR,P. interruptus,SBTL_SWATH_VRG,1,MID,1,0,1,1,0
+f1271d3d446b1b21,KFM,Anacapa Island SMR 2003,P. interruptus,band,17,,0,17,0,13,2
+f13793e232af9644,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,4,INNER;MID;OUTER,4,0,4,0,0
+f150c91f4b8743b6,PISCO,Point Vicente SMCA,S. pulcher,SBTL_FISH_VRG,13,,13,0,13,10,1
+f16b0ce621f04052,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,15,INNER,15,0,15,7,0
+f191805c9ae70770,KFM,Scorpion SMR,S. pulcher,visualfish,18,,0,18,0,13,0
+f1c1d10be0662f1b,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,5,0
+f1e4c78ad2831ade,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,16,INNER;MID;OUTER,16,0,16,5,0
+f1ee579bfbd310d0,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,1,0
+f2269e3d2092afdd,PISCO,Anacapa Island SMR 2003,M. pyrifera,SBTL_SWATH_PISCO,3,INNER,3,0,3,2,1
+f27cc8f7d07f921c,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_FISH_PISCO,2,INNER,2,0,2,2,0
+f3841e115a397036,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,2,0
+f44354468bf00e67,PISCO,Point Dume SMCA,M. franciscanus,SBTL_SWATH_VRG,1,MID,1,0,1,0,0
+f4489a58fb92578c,PISCO,South Point SMR,M. franciscanus,SBTL_SWATH_PISCO,16,MID;OUTER,16,0,16,7,0
+f470b6bc0c620a43,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,2,,1,0,2,1,0
+f47112d4689ed7f9,PISCO,Anacapa Island SMR 2003,S. purpuratus,SBTL_SWATH_PISCO,6,INNER;OUTER,6,0,6,3,1
+f49b457acc3ee4a5,PISCO,South Point SMR,S. pulcher,SBTL_FISH_PISCO,6,,6,0,6,3,0
+f4ae29ae97ae1f9b,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,2,INNER;OUTER,2,0,2,0,0
+f4bc8fc8e7eb5706,KFM,Anacapa Island SMR 2003,M. franciscanus,1mquad,17,,0,17,0,15,3
+f5456a12894f9957,PISCO,Point Vicente SMCA,P. interruptus,SBTL_SWATH_VRG,10,,9,0,10,10,2
+f565913fef41564f,PISCO,Anacapa Island SMR 2003,S. purpuratus,SBTL_SWATH_PISCO,6,INNER;OUTER,6,0,6,3,1
+f60cb0b0142aa5d0,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,0,0
+f618dab0d185a2d5,PISCO,Campus Point SMCA,S. purpuratus,SBTL_SWATH_PISCO,13,INNER;MID;OUTER,13,0,13,6,0
+f645ce11ca5ccee3,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,15,INNER;OUTER,15,0,15,8,0
+f6988ca507106251,PISCO,Scorpion SMR,S. pulcher,SBTL_FISH_PISCO,6,OUTER,6,0,6,3,0
+f7446f254decc0e7,PISCO,Naples SMCA,M. pyrifera,SBTL_SWATH_PISCO,13,,11,0,13,8,1
+f75e6c5fda506fbd,PISCO,Anacapa Island SMR 2003,M. pyrifera,SBTL_SWATH_PISCO,1,INNER,1,0,1,1,1
+f7626d33003645e4,PISCO,Point Dume SMCA,S. pulcher,SBTL_FISH_VRG,2,,1,0,2,1,0
+f7c0075ce74ce4a5,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,1,0
+f842bff111a3244c,PISCO,Abalone Cove SMCA,S. purpuratus,SBTL_SWATH_VRG,9,,6,0,9,8,4
+f842dde436c00134,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID,3,0,3,0,0
+f8497445f03176c1,PISCO,Anacapa Island SMR 2003,M. franciscanus,SBTL_SWATH_PISCO,16,INNER;OUTER,16,0,16,7,0
+f881e5476a96b042,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,16,,16,0,16,7,1
+f891132268b11692,PISCO,Gull Island SMR,P. interruptus,SBTL_SWATH_PISCO,2,,2,0,2,2,0
+f8aee5ca37b6db36,PISCO,Point Vicente SMCA,M. franciscanus,SBTL_SWATH_VRG,13,DEEP;MID;OUTER,13,0,13,10,1
+f8d8bfa068e0dee4,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,19,INNER,19,0,18,9,0
+f9291feacced2398,PISCO,Point Vicente SMCA,M. franciscanus,SBTL_SWATH_VRG,15,,15,0,14,15,4
+f943170f6e477c8a,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,1,0
+f94f11287ee5cf33,PISCO,Point Vicente SMCA,S. pulcher,SBTL_FISH_VRG,12,MID,12,0,12,9,2
+f983b98e297fd7d0,KFM,South Point SMR,M. pyrifera,1mquad,17,,0,17,0,8,0
+f99d099824401317,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,16,INNER;MID;OUTER,16,0,16,5,0
+f9aeb0294989c918,PISCO,Scorpion SMR,P. interruptus,SBTL_FISH_PISCO,2,INMID;INNER,2,0,2,1,0
+f9f4316ad9a35d4e,PISCO,Point Vicente SMCA,S. pulcher,SBTL_FISH_VRG,12,MID,12,0,12,9,1
+fa26805daae32fa1,PISCO,Anacapa Island SMR 2003,S. pulcher,SBTL_FISH_PISCO,18,,18,0,18,8,0
+fb1259c59e2484a3,LTER,Campus Point SMCA,S. purpuratus,quad,23,,0,23,0,0,0
+fb25b64e516058cf,PISCO,Anacapa Island SMR 2003,P. interruptus,SBTL_FISH_PISCO,2,OUTER,2,0,2,2,0
+fb2daee2282437ad,KFM,Anacapa Island SMR 2003,S. pulcher,visualfish,17,,0,17,0,10,0
+fb4667fcd01fbbea,PISCO,Point Vicente SMCA,P. interruptus,SBTL_SWATH_VRG,12,,10,0,12,8,1
+fb6a668926074104,PISCO,Point Vicente SMCA,S. purpuratus,SBTL_SWATH_VRG,15,,14,0,15,9,1
+fc1544b557b1ba93,PISCO,Santa Barbara Island SMR,S. pulcher,SBTL_FISH_PISCO,3,INNER;OUTER,3,0,3,0,0
+fc2e5f751a4389ea,PISCO,South Point SMR,M. pyrifera,SBTL_SWATH_PISCO,3,INNER;MID;OUTER,3,0,3,2,0
+fc30cbe65501f51b,PISCO,Scorpion SMR,P. interruptus,SBTL_SWATH_PISCO,1,,0,0,1,0,0
+fc38f0ebdf7edd32,PISCO,Point Vicente SMCA,M. pyrifera,SBTL_SWATH_VRG,12,INNER;MID,12,0,12,7,1
+fc7a7e4a53273bed,KFM,South Point SMR,M. franciscanus,1mquad,17,,0,17,0,12,0
+fca732e869e3d3b4,PISCO,South Point SMR,P. interruptus,SBTL_FISH_PISCO,2,OUTMID,2,0,2,1,0
+fcbb2a69d3ea756b,PISCO,Point Dume SMCA,M. franciscanus,SBTL_SWATH_PISCO,4,INNER;MID;OUTER,4,0,4,2,0
+fe1957dcf6ad0ac6,PISCO,Point Dume SMR,P. interruptus,SBTL_SWATH_VRG,2,MID,2,0,2,1,0
+fe27218fb7d2e39f,PISCO,Scorpion SMR,S. purpuratus,SBTL_SWATH_PISCO,3,INNER;MID,3,0,3,0,0
+ffafbfb7b4bf72da,PISCO,Harris Point SMR,S. pulcher,SBTL_FISH_PISCO,7,,5,0,7,0,0
+ffc16a60d60f664b,PISCO,Scorpion SMR,M. franciscanus,SBTL_SWATH_PISCO,15,INNER,15,0,15,7,0
+ffea245510178256,PISCO,Scorpion SMR,M. pyrifera,SBTL_SWATH_PISCO,2,OUTER,2,0,2,1,0

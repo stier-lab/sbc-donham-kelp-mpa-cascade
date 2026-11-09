@@ -1,0 +1,7 @@
+site,taxon,source,blocked
+a-k-01,M. franciscanus,ALL_sizefreq_2024.csv,True
+a-k-14,S. purpuratus,ALL_sizefreq_2024.csv,True
+a-k-21,M. franciscanus,original,True
+a-k-37,S. purpuratus,original,True
+a-k-01,M. pyrifera,original_kelp,False
+a-k-14,M. franciscanus,original_site_specific,False

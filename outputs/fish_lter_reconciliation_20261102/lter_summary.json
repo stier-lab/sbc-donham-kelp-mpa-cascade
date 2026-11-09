@@ -1,0 +1,17 @@
+{
+  "package": "knb-lter-sbc.50.21",
+  "raw_rows": 29526,
+  "current_transects": 968,
+  "provider_mapy_transects": 1100,
+  "matched_transects": 968,
+  "current_only": 0,
+  "provider_only": 132,
+  "max_abs_density_delta": 30.833333333333297,
+  "max_abs_biomass_delta": 303.8040833333298,
+  "biomass_changed_above_1e_minus6": 494,
+  "mapped_matched_transects": 578,
+  "mapped_max_abs_biomass_delta": 303.8040833333298,
+  "older_release_max_abs_difference": 88.44637499999999,
+  "older_release_changed": 857,
+  "new_file_sha256": "01716ee3a1ab5b848a296511fe96e38ec7217bcfb268d42bc79538b5c8a84c2b"
+}

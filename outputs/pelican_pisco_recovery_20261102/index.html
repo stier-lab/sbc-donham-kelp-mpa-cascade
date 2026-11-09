@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Pelican and PISCO source repairs</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Pelican and PISCO source repairs</h1>
+</header>
+<h1 id="pelican-source-choice-and-pisco-missing-record-repairs">Pelican
+source choice and PISCO missing-record repairs</h1>
+<p>November 2, 2026. Pipeline and review tables updated; paper and
+frozen results unchanged.</p>
+<h2 id="pelican-original-140-accepted">Pelican: original 140
+accepted</h2>
+<p>The source-selection policy now includes all 140 original Pelican Bay
+red-urchin measurements from August 7, 1995, as Adrian requested. The
+combined-file version with 135 animals remains available for
+sensitivity; no original file is overwritten. The source build contains
+140 more selected rows than the preceding held build, but only five more
+animals than the older combined-file analysis.</p>
+<p>The isolated, previously verified before–after sensitivity is
+retained: Scorpion KFM red-urchin estimate 1.253 with the 135-animal
+input versus 1.270 with the original 140. Both conditional intervals
+remain positive. This is not a prediction of the result after every
+pending pipeline change or a complete uncertainty refit.</p>
+<h2 id="cavern-point-west-missing-count-recovered">Cavern Point West:
+missing count recovered</h2>
+<p>The cached PISCO 1.11 swath release passes its provider SHA256
+checksum and records <strong>219 red urchins</strong> for UCSB, Cavern
+Point West, September 16, 2013, INNER zone, transect 2. Emily’s two
+delivered swath copies have a missing count on that same keyed
+record.</p>
+<p>The builder applies this one keyed recovery to a derived swath table.
+It preserves original source row IDs and records the supporting
+newer-release row ID. The provider file and metadata are registered
+immutable snapshots. The pipeline consumes the reconciled table; it does
+not substitute the entire newer release or add years/sites. A changed
+key, missing recipient, duplicate candidate or unexpected supporting
+count stops the build.</p>
+<table>
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 36%" />
+<col style="width: 36%" />
+</colgroup>
+<thead>
+<tr>
+<th>Same station/year comparison</th>
+<th style="text-align: right;">Previously zero-filled</th>
+<th style="text-align: right;">Corrected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cavern Point West red urchins, 2013</td>
+<td style="text-align: right;">1.319/m²</td>
+<td style="text-align: right;">1.928/m²</td>
+</tr>
+<tr>
+<td>Mean of six surveyed protected Scorpion stations, 2013</td>
+<td style="text-align: right;">3.468/m²</td>
+<td style="text-align: right;">3.569/m²</td>
+</tr>
+</tbody>
+</table>
+<p>These use the inherited transect-to-zone-to-station aggregation on
+the same delivered observations. They are diagnostic density
+comparisons, not new pooled temporal-model fits. Biomass must be
+regenerated with the corrected count and its documented donor pool
+before reporting its final change.</p>
+<h2 id="kelp-records-unknown-stipes-remain-unknown">Kelp records:
+unknown stipes remain unknown</h2>
+<p>Little Dume West, September 15, 2011, OUTER transect 1 records two
+plants without stipe sizes. PISCO 1.11 retains that missing size.
+Underwater Arch, July 13, 2023, INNER transect 2 records two plants
+without sizes; the checked UCSB/UCSC provider release does not contain
+that VRG record. No replacement size was recovered. Plant counts alone
+cannot determine stipes or kelp mass.</p>
+<p>The prior production branch already marked the affected role-year
+kelp biomass unavailable, but its stipe-density output could still
+retain the zero-filled calculation. The revised branch marks stipe
+totals/density unavailable too, without averaging around missing
+stations. Whole role-year handling preserves the existing conservative
+station-weight policy.</p>
+<table>
+<colgroup>
+<col style="width: 30%" />
+<col style="width: 40%" />
+<col style="width: 30%" />
+</colgroup>
+<thead>
+<tr>
+<th>Site-year stipe-density diagnostic</th>
+<th style="text-align: right;">Previous zero-filled value</th>
+<th>Revised status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Little Dume West, 2011</td>
+<td style="text-align: right;">2.622 stipes/m²</td>
+<td>Unknown</td>
+</tr>
+<tr>
+<td>Underwater Arch, 2023</td>
+<td style="text-align: right;">0 stipes/m²</td>
+<td>Unknown, not absent kelp</td>
+</tr>
+</tbody>
+</table>
+<p>The original plant counts remain intact in the immutable source.
+These are missing measurements, not ecological site exclusions or
+grounds to remove unrelated years/species.</p>
+<h2 id="general-safeguard">General safeguard</h2>
+<p>Survey-grid rows now retain a source-presence marker. Only a
+roster-generated species absence gets zero. An explicit source row with
+unknown count or unknown stipes keeps its missing value. Before
+role-year export, affected density and biomass are protected from legacy
+intermediate zero filling and available-station averaging. This
+addresses the audited cases; it does not claim that every missing-value
+convention across all programs has been resolved.</p>
+<h2 id="current-pipeline-status">Current pipeline status</h2>
+<p>The required-source gate passes: zero required holds. Four unused
+2023 KFM groups remain deferred and cannot supply supported biomass for
+an extension. Researcher exclusions, VRG acceptance and current
+analytical scope remain intact. Next run a complete review build, verify
+donor/aggregation diagnostics and compare temporal-model results before
+updating the paper. No full harmonization/model rerun is claimed
+here.</p>
+<h2 id="evidence-and-reproduction">Evidence and reproduction</h2>
+<ul>
+<li><a href="pisco_count_recovery.csv">Recovered source count and both
+row identities</a></li>
+<li><a href="site_year_changes.csv">Site-year changes</a></li>
+<li><a href="scorpion_2013_station_density.csv">Scorpion
+station-by-station comparison</a></li>
+<li><a href="scorpion_primary_step_sensitivity.csv">Retained Pelican
+sensitivity</a></li>
+<li><a href="verification.json">Verification</a></li>
+</ul>
+<p>Run <code>make check</code> in the data repository and
+<code>python3 code/tools/review_pelican_pisco_recovery.py</code> in the
+analysis repository. The audit tests original Pelican row count,
+checksum-verified recovery, unchanged exclusions, source-grid absence
+versus explicit unknowns, and role-year missingness. Frozen manuscript
+outputs remain unchanged.</p>
+</body>
+</html>

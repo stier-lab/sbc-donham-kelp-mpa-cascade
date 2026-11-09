@@ -1,0 +1,14 @@
+{
+  "review_only": true,
+  "primary_updated": false,
+  "total_uncertainty_complete": false,
+  "output_hashes": {
+    "same_year_comparison.csv": "0fbd2b5b807b0ce76f3570948a7c01d8fdfb68af70906b74c4c0df46616158f7",
+    "calibration_summary.csv": "46676ba15805e1d1a553b71271e5276db716e9ad2b8c8f23745f1c11161bdef1",
+    "paired_bias_changes.csv": "00c0a66b39a688b7ac2a2fecc72d7a84bbadbeba03f07842cd981c10ef45f0dc",
+    "support.csv": "d7da728eb3ff8266ffd2340df3eeb23156a4a874696fa3bfccc6e765cf6e5a4f",
+    "checks.json": "25cd54ad2bf6eb7c057e7f97fcee5a36846dbc7f7b5cfc997f4cf99bb5e0c395",
+    "kfm_source_receipt.json": "3f65c7c4e79ca2201f8878922e1674404f5a44185d268f53109a61b8fc79fec3",
+    "observed_iteration.csv": "c23dcb45b326f0b50e3cc0fcccf3ca1b2c1057cfc057b16b7e5f6e86c0554684"
+  }
+}

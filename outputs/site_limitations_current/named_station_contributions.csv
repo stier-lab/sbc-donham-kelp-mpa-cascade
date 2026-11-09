@@ -1,0 +1,25 @@
+site,site_name,series_id,role,years,first_year,last_year,note
+a-k-05,Rodes Reef,,,0,,,No supported station values entering currently eligible fits
+a-k-01,Wyckoff Ledge,Harris Point SMR|M. franciscanus|KFM|Bio,reference,17,2005.0,2022.0,Supported station values in eligible model years; not independent samples
+a-k-01,Wyckoff Ledge,Harris Point SMR|M. franciscanus|KFM|Den,reference,40,1982.0,2022.0,Supported station values in eligible model years; not independent samples
+a-k-01,Wyckoff Ledge,Harris Point SMR|M. pyrifera|KFM|Bio,reference,25,1996.0,2022.0,Supported station values in eligible model years; not independent samples
+a-k-01,Wyckoff Ledge,Harris Point SMR|P. interruptus|KFM|Den,reference,39,1983.0,2022.0,Supported station values in eligible model years; not independent samples
+a-k-01,Wyckoff Ledge,Harris Point SMR|S. pulcher|KFM|Den,reference,37,1985.0,2022.0,Supported station values in eligible model years; not independent samples
+a-k-01,Wyckoff Ledge,Harris Point SMR|S. purpuratus|KFM|Bio,reference,17,2005.0,2022.0,Supported station values in eligible model years; not independent samples
+a-k-01,Wyckoff Ledge,Harris Point SMR|S. purpuratus|KFM|Den,reference,40,1982.0,2022.0,Supported station values in eligible model years; not independent samples
+a-k-02,Hare Rock,Harris Point SMR|M. franciscanus|KFM|Bio,mpa,17,2005.0,2022.0,Supported station values in eligible model years; not independent samples
+a-k-02,Hare Rock,Harris Point SMR|M. franciscanus|KFM|Den,mpa,40,1982.0,2022.0,Supported station values in eligible model years; not independent samples
+a-k-02,Hare Rock,Harris Point SMR|M. pyrifera|KFM|Bio,mpa,25,1996.0,2022.0,Supported station values in eligible model years; not independent samples
+a-k-02,Hare Rock,Harris Point SMR|P. interruptus|KFM|Den,mpa,39,1983.0,2022.0,Supported station values in eligible model years; not independent samples
+a-k-02,Hare Rock,Harris Point SMR|S. pulcher|KFM|Den,mpa,37,1985.0,2022.0,Supported station values in eligible model years; not independent samples
+a-k-02,Hare Rock,Harris Point SMR|S. purpuratus|KFM|Bio,mpa,17,2005.0,2022.0,Supported station values in eligible model years; not independent samples
+a-k-02,Hare Rock,Harris Point SMR|S. purpuratus|KFM|Den,mpa,40,1982.0,2022.0,Supported station values in eligible model years; not independent samples
+a-k-21,Miracle Mile,Harris Point SMR|S. pulcher|KFM|Den,reference,15,2006.0,2022.0,Supported station values in eligible model years; not independent samples
+a-k-35,Webster’s Arch,Santa Barbara Island SMR|S. pulcher|KFM|Den,reference,17,2005.0,2022.0,Supported station values in eligible model years; not independent samples
+LECHUZA,LECHUZA,Point Dume SMCA|M. franciscanus|PISCO|Bio,mpa,5,2019.0,2023.0,Supported station values in eligible model years; not independent samples
+LECHUZA,LECHUZA,Point Dume SMCA|M. franciscanus|PISCO|Den,mpa,10,2008.0,2023.0,Supported station values in eligible model years; not independent samples
+LECHUZA,LECHUZA,Point Dume SMCA|M. pyrifera|PISCO|Bio,mpa,10,2008.0,2023.0,Supported station values in eligible model years; not independent samples
+LECHUZA,LECHUZA,Point Dume SMCA|P. interruptus|PISCO|Den,mpa,10,2008.0,2023.0,Supported station values in eligible model years; not independent samples
+LECHUZA,LECHUZA,Point Dume SMCA|S. pulcher|PISCO|Bio,mpa,5,2019.0,2023.0,Supported station values in eligible model years; not independent samples
+LECHUZA,LECHUZA,Point Dume SMCA|S. pulcher|PISCO|Den,mpa,5,2019.0,2023.0,Supported station values in eligible model years; not independent samples
+LECHUZA,LECHUZA,Point Dume SMCA|S. purpuratus|PISCO|Den,mpa,10,2008.0,2023.0,Supported station values in eligible model years; not independent samples

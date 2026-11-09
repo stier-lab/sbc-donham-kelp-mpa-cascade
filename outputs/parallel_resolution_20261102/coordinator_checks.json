@@ -1,0 +1,15 @@
+{
+  "unsupported_uses": 38,
+  "distinct_site_dates": 24,
+  "post_unsupported_uses": 26,
+  "post_unsupported_comparison_years": 19,
+  "verified_from": "visit_biomass_support.csv joined to biomass_annual.csv",
+  "singleton_measured_uses": 84,
+  "temporal_borrowed_uses": 8,
+  "temporal_below_calibration_minimum": 7,
+  "pisco_post_reference_histories_without_common_station": 17,
+  "pisco_comparison_years_lost_fixed_post": 187,
+  "temporal_validation_rows": 8,
+  "temporal_validation_stations": 2,
+  "temporal_validation_years": 1
+}

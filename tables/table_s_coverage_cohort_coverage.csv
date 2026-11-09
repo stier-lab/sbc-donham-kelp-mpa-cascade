@@ -6,7 +6,7 @@
 "All programmes",1,"M. franciscanus","Den","With before-after coverage","Mainland",5,0,0,0
 "All programmes",1,"M. franciscanus","Den","Without sufficient before coverage","Islands",2,0,2,0
 "All programmes",1,"M. pyrifera","Bio","With before-after coverage","Islands",8,4,0,0
-"All programmes",1,"M. pyrifera","Bio","With before-after coverage","Mainland",10,0,0,0
+"All programmes",1,"M. pyrifera","Bio","With before-after coverage","Mainland",9,0,0,0
 "All programmes",1,"M. pyrifera","Bio","Without sufficient before coverage","Islands",1,0,1,0
 "All programmes",1,"P. interruptus","Bio","With before-after coverage","Mainland",5,0,0,0
 "All programmes",1,"P. interruptus","Den","With before-after coverage","Islands",3,2,0,0
@@ -32,7 +32,7 @@
 "All programmes",3,"M. franciscanus","Den","Without sufficient before coverage","Islands",2,0,2,0
 "All programmes",3,"M. franciscanus","Den","Without sufficient before coverage","Mainland",2,0,0,2
 "All programmes",3,"M. pyrifera","Bio","With before-after coverage","Islands",8,4,0,0
-"All programmes",3,"M. pyrifera","Bio","With before-after coverage","Mainland",9,1,0,0
+"All programmes",3,"M. pyrifera","Bio","With before-after coverage","Mainland",8,1,0,0
 "All programmes",3,"M. pyrifera","Bio","Without sufficient before coverage","Islands",1,0,1,0
 "All programmes",3,"M. pyrifera","Bio","Without sufficient before coverage","Mainland",1,0,0,1
 "All programmes",3,"P. interruptus","Bio","Without sufficient before coverage","Mainland",5,0,0,5
@@ -149,10 +149,10 @@
 "LTER only",3,"P. interruptus","Den","Without sufficient before coverage","Mainland",2,0,0,2
 "LTER only",3,"S. pulcher","Bio","With before-after coverage","Mainland",2,0,0,0
 "LTER only",3,"S. pulcher","Den","With before-after coverage","Mainland",1,0,0,0
-"Landsat only",1,"M. pyrifera","Bio","With before-after coverage","Islands",7,0,0,0
-"Landsat only",1,"M. pyrifera","Bio","With before-after coverage","Mainland",9,0,0,0
-"Landsat only",3,"M. pyrifera","Bio","With before-after coverage","Islands",7,0,0,0
-"Landsat only",3,"M. pyrifera","Bio","With before-after coverage","Mainland",9,0,0,0
+"Landsat only",1,"M. pyrifera","Bio","With before-after coverage","Islands",6,0,0,0
+"Landsat only",1,"M. pyrifera","Bio","With before-after coverage","Mainland",8,0,0,0
+"Landsat only",3,"M. pyrifera","Bio","With before-after coverage","Islands",6,0,0,0
+"Landsat only",3,"M. pyrifera","Bio","With before-after coverage","Mainland",8,0,0,0
 "PISCO only",1,"M. franciscanus","Bio","With before-after coverage","Mainland",4,0,0,0
 "PISCO only",1,"M. franciscanus","Bio","Without sufficient before coverage","Islands",4,0,4,0
 "PISCO only",1,"M. franciscanus","Den","With before-after coverage","Mainland",5,0,0,0

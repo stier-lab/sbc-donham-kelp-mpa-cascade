@@ -1,0 +1,13 @@
+{
+  "candidate_histories": 206,
+  "excluded": 31,
+  "retained": 175,
+  "before_after": 62,
+  "post_only": 100,
+  "insufficient_post": 13,
+  "supported_years_agree_with_models": true,
+  "all_sites_render": true,
+  "coverage_failures_distinct": true,
+  "year_selection": true,
+  "table_links": true
+}

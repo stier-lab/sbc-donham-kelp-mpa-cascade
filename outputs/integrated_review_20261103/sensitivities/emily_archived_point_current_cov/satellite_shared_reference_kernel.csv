@@ -1,0 +1,5 @@
+a,b,correlation,shared_pixels,basis
+Landsat|San Miguel Island SC|reference|1,Landsat|Harris Point SMR|reference|1,0.10039398541373513,198,verified mask-to-delivery crosswalk; iid-pixel overlap working kernel
+Landsat|San Miguel Island SC|reference|1,Landsat|Judith Rk SMR|reference|1,0.3849702774859421,1889,verified mask-to-delivery crosswalk; iid-pixel overlap working kernel
+Landsat|San Miguel Island SC|reference|2,Landsat|Judith Rk SMR|reference|2,0.9574271077563382,726,verified mask-to-delivery crosswalk; iid-pixel overlap working kernel
+Landsat|Naples SMCA|reference|2,Landsat|Campus Point SMCA|reference|2,0.7184284503658852,320,verified mask-to-delivery crosswalk; iid-pixel overlap working kernel

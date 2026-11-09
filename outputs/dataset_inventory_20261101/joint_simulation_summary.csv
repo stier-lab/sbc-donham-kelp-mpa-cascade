@@ -1,0 +1,13 @@
+series_id,scenario,simulations,covered,coverage,bias,coverage_mc_low,coverage_mc_high
+Abalone Cove SMCA|M. franciscanus|PISCO|Bio,fitted,20,20,1.0,-0.0153472446314671,0.8388698745050667,1.0
+Abalone Cove SMCA|M. franciscanus|PISCO|Bio,zero_process,20,20,1.0,0.0023856001285444,0.8388698745050667,1.0
+Abalone Cove SMCA|P. interruptus|PISCO|Bio,fitted,20,20,1.0,0.0072992736962783,0.8388698745050667,1.0
+Abalone Cove SMCA|P. interruptus|PISCO|Bio,zero_process,20,19,0.95,-0.002743801308774,0.7638641064874331,0.9911187805671268
+Abalone Cove SMCA|S. purpuratus|PISCO|Bio,fitted,20,20,1.0,0.0694096083802335,0.8388698745050667,1.0
+Abalone Cove SMCA|S. purpuratus|PISCO|Bio,zero_process,20,20,1.0,0.0213871800017168,0.8388698745050667,1.0
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,fitted,20,20,1.0,-0.0006801137883871,0.8388698745050667,1.0
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,zero_process,20,20,1.0,-0.0013478916168703,0.8388698745050667,1.0
+Point Vicente SMCA|P. interruptus|PISCO|Bio,fitted,20,20,1.0,0.0026736170324952,0.8388698745050667,1.0
+Point Vicente SMCA|P. interruptus|PISCO|Bio,zero_process,20,20,1.0,0.0038958967725793,0.8388698745050667,1.0
+Point Vicente SMCA|S. purpuratus|PISCO|Bio,fitted,20,19,0.95,0.0016132423640352,0.7638641064874331,0.9911187805671268
+Point Vicente SMCA|S. purpuratus|PISCO|Bio,zero_process,20,18,0.9,0.0068097278615511,0.6989617935882066,0.9721341060158468

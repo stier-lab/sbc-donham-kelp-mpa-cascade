@@ -1,36 +1,9 @@
-# Primary Processing Labels
+# Primary processing labels
 
-`AnalysisType` in the primary exports is a retained processing label, not a
-complete before/after eligibility audit. Do not infer that all CI series failed
-a pretrend screen or lacked before-period observations.
+The 145 retained histories comprise 103 control-impact (CI) and 42 progressive before-after (pBACIPS) contrasts. Of the CI histories, 85 have fewer than three paired baseline years and 18 have at least three. Six of the 89 PISCO histories use fixed-station before/after comparisons under the three-strictly-prior-year rule; the other 83 use CI. Fish and benthic coverage are assessed separately across retained responses within each survey group. A CI label does not by itself establish failure of a baseline-trend screen.
 
-Run `python3 code/tools/check_processing_labels.py` after the primary and matched
-coverage exports. It joins the exact retained identities and writes
-`tables/table_s_processing_routes.csv` without changing any fit, estimate,
-variance or primary membership.
+Campus Point LTER lobster biomass is a calendar-time linear CI trend, with one observation in the designation year and none strictly before designation. Its source helper exports CI, BA=N and LinearBefore=NA. The fitted-history atlas contains the 42 pBACIPS histories plus this explicitly labeled CI trend. Table S2 and the primary export use the same labels.
 
-The current 145 time series carry 108 CI and 37 pBACIPS labels. Of the CI series,
-84 have fewer than three paired before-years and 24 have at least three. All
-89 PISCO series use the direct CI route, including 22 with at least three
-before-years. The stored CI rows do not provide failed-screen P values.
+Run `python3 code/tools/check_processing_labels.py` after regenerating the primary and matched-coverage outputs. It verifies exact identities and routes. The separate matched before/after analysis has 60 qualifying histories and is distinct from primary model selection. Its coverage table records the actual before/after labels for each series; the six PISCO sheephead comparisons treat 2012 as after implementation.
 
-Campus Point LTER lobster biomass is directly constructed as a calendar-time
-linear CI trend in module 08, but its helper exports the pBACIPS label. The
-coverage table records one before-labelled year. The 37-fit display therefore
-includes this exception and must not be called 37 independently verified
-before/after-eligible fits. The matched comparison separately contains 60 time
-series with at least three paired years on each side of designation.
-
-The V30 manuscript and essential supplement report construction design:
-109 CI and 36 pBACIPS contrasts. Table S2 joins this route metadata to the
-model-selection table and assigns the Campus Point LTER lobster-biomass trend
-to CI for display (41 CI linear contrasts, 27 pBACIPS linear contrasts).
-The CI coverage summary consequently has 85 series with fewer than three
-paired before-years and 24 with at least three. This presentation change does
-not alter stored fit labels, estimates, variances or primary membership.
-
-These facts clarify the analysis actually performed. They do not approve the
-inherited routes, reconstruct every pretrend decision, or substitute a new
-before/after refit for the primary synthesis. Any future route change requires
-new primary outputs and their dependent uncertainty, display and manuscript
-checks.
+See `docs/PISCO_BASELINE_POLICY_2026-10-31.md` for the current baseline rule, station selection and four-year sensitivity. Historical dated audits describe the versions they evaluated.

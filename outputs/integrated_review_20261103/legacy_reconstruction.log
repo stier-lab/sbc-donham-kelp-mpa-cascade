@@ -1,0 +1,157 @@
+here() starts at /Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/integrated_review_20261103/stage
+Analysis constants loaded.
+Utility functions and constants loaded.
+Importing raw data files...
+  Loading raw-source-derived analysis_sizes.csv: 184539 rows x 65 cols
+  Filtered to target taxa: 184539 rows
+  After site exclusions: 184425 rows
+  Species codes standardized.
+  Loading MPAfeatures_subset.csv: 62 rows x 13 cols
+  Loading Site_List_All.csv: 34 rows x 9 cols
+  Merged site-MPA data: 34 rows
+    Note: 31 rows dropped due to missing location data
+  Loading SBCMBON_kelp_forest_site_geolocation_20210120_KFM_LTER.csv: 65 rows x 9 cols
+
+Running data validation checks...
+  [OK] SizeFreq: All sizes are positive
+  [OK] SizeFreq: All classcodes are expected values
+  [OK] Site: All MPA_Start years are valid
+  [OK] Sites2: All coordinates are within expected bounds
+  [INFO] Sites2: 6 sites without MPA assignment (may include reference sites)
+  All validation checks passed.
+
+Data import complete. Objects created:
+  - SizeFreq:        184425 rows (size frequency for biomass estimation)
+  - Site:            34 rows (site list with MPA features)
+  - Site.size:       62 rows (MPA features)
+  - sites.short.edit:34 rows (key MPA attributes)
+  - Sites2:          65 rows (MBON site coordinates)
+Processing PISCO data...
+  Loaded swath data: 329195 rows
+  Swath taxa subset: 6656 rows
+  Processing UCSB lobster biomass...
+    UCSB lobster: 830 site-year records
+  Processing VRG lobster biomass (bootstrap resampling)...
+    Loading cached VRG lobster bootstrap results...
+    Removed 19 site-years with unsized lobsters (VRG)
+    VRG lobster: 321 site-year records
+  Combined swath + lobster: 7804 rows
+  Processing urchin biomass (bootstrap resampling)...
+    Loading cached urchin bootstrap results...
+    Removed 906 site-year-species combos with unsized urchins
+  Processing PISCO fish data (sheephead)...
+  SPUL override: W(g) = 0.0144 * TL(cm)^3.04; original lookup preserved.
+  Loaded fish data: 517109 rows
+  Sheephead records: 2105 
+  Combined all PISCO taxa: 9909 rows
+  Dropped 62 sites with < 5 years; kept 136 sites
+  After exclusions: 6258 rows, 19 MPAs
+  Calculating response ratios...
+  Biomass RR: 780 rows; Density RR: 979 rows
+  PISCO.resp: 3538 rows
+PISCO processing complete.
+  Output objects: Swath.join.sub (1741 rows), PISCO.resp (3538 rows), All_PISCO.mpa (2254 rows)
+Warning messages:
+1: calculate_proportions(): MPA 'Blue Cavern Onshore SMCA' taxon 'STRPURAD' has max_val=0, setting Prop and PropCorr to NA. 
+2: calculate_proportions(): MPA 'Farnsworth Onshore SMCA' taxon 'STRPURAD' has max_val=0, setting Prop and PropCorr to NA. 
+3: calculate_proportions(): MPA 'Long Point SMR' taxon 'MESFRAAD' has max_val=0, setting Prop and PropCorr to NA. 
+4: calculate_proportions(): MPA 'Long Point SMR' taxon 'STRPURAD' has max_val=0, setting Prop and PropCorr to NA. 
+5: calculate_proportions(): MPA 'Santa Barbara Island SMR' taxon 'PANINT' has max_val=0, setting Prop and PropCorr to NA. 
+Processing KFM/MBON data...
+  MBON quad/swath data loaded: 2667360 rows, 17 columns
+  Split MBON: KFM = 534314 rows, LTER = 425082 rows
+  KFM after site filtering: 419557 rows
+  KFM target taxa rows: 63923 
+  KFM urchin bootstrap:  1484  site-year-species combinations
+    Loading cached KFM urchin bootstrap results...
+  KFM urchin bootstrap complete: 1484 rows
+  Removed 106 urchin rows with count > 0 but no biomass
+  KFM stipe data loaded: 46802 rows (after deduplication)
+  KFM Macrocystis bootstrap: 1028 site-year combinations
+    Loading cached KFM Macrocystis bootstrap results...
+  KFM Macrocystis bootstrap complete: 1028 rows
+  KFM combined taxa data: 2020 rows
+  KFM response ratios: 1505 rows (density + biomass)
+  KFM fish data loaded: 420703 rows
+  KFM fish response ratios: 323 rows
+KFM/MBON processing complete.
+  Outputs: KFM.join.ave (1505 rows), KFM.resp (2302 rows), kfm.fish (323 rows)
+Warning messages:
+1: In eval(ei, envir) : NAs introduced by coercion
+2: Merge INCREASED row count from 534314 to 619936 (+85622 rows). This may indicate a many-to-many join due to non-unique keys in Sites2. 
+3: Merge INCREASED row count from 46802 to 50818 (+4016 rows). This may indicate a many-to-many join due to non-unique keys in Sites2. 
+4: Merge INCREASED row count from 7293 to 8513 (+1220 rows). This may indicate a many-to-many join due to non-unique keys in Sites2. 
+5: In eval(ei, envir) : NAs introduced by coercion
+Processing LTER data...
+Utility functions and constants loaded.
+  LTER input from MBON: 425082 rows
+  LTER after site/MPA filtering: 253849 rows
+  LTER target taxa density averages: 417 rows
+  LTER urchin bootstrap: 1156 site-year-transect-species combinations
+    Loading cached LTER urchin bootstrap results...
+  LTER urchin bootstrap complete: 1156 rows
+  Removed 72 urchin rows with count > 0 but no biomass
+  LTER urchin response ratios: 159 rows (density + biomass)
+  LTER lobster data loaded: 8341 rows
+  LTER lobster response ratios: 48 rows
+  LTER lobster BA: 4 Before, 44 After (limited before-period expected)
+  LTER kelp frond data loaded: 29526 rows
+  LTER Macrocystis response ratios: 92 rows
+  LTER fish data loaded: 93811 rows
+  LTER sheephead: zero-filled 350 NA biomass values (NA sizes)
+  LTER fish response ratios: 90 rows
+LTER processing complete.
+  Outputs: LTER.join.ave (159 rows), LTER.lob (48 rows), Short.lter.macro (92 rows), LTER.fish (90 rows)
+Processing Landsat satellite kelp data...
+Utility functions and constants loaded.
+  Landsat data loaded: 54 rows, 38 year columns ( 1984 - 2021 )
+  Landsat long format: 2052 rows, 20 MPAs
+  Landsat MPA-year averages: 718 complete MPA-year pairs
+  Landsat log response ratios: 718 rows
+Landsat processing complete.
+  Outputs: Landsat.RR (718 rows), Landsat.resp (1436 rows)
+
+=== 07_combine_and_export.R ===
+  Response ratio rows by source:
+    KFM        1828 rows
+    LTER       249 rows
+    LTER lob surveys 48 rows
+    LTER macro surveys 92 rows
+    PISCO      1741 rows
+    TOTAL      3958 rows
+  Sheephead-only MPA exclusion: removed 740 rows (3958 -> 3218)
+  Sheephead re-inclusion: added back 412 rows from sheephead-only MPAs (135 SPUL, 277 SBI-KFM other)
+Warning: Found 260 duplicate rows in All.RR.sub (by MPA/year/taxa/resp/source). Removing duplicates, keeping first occurrence.
+
+Duplicate rows detected in All.RR.sub: 260 
+First 5 duplicates (before removal):
+            CA_MPA_Name_Short year                    y resp source
+2101  Anacapa Island SMR 2003 2005 Macrocystis pyrifera  Den    KFM
+7101  Anacapa Island SMR 2003 2006 Macrocystis pyrifera  Den    KFM
+12101 Anacapa Island SMR 2003 2007 Macrocystis pyrifera  Den    KFM
+1763  Anacapa Island SMR 2003 2008 Macrocystis pyrifera  Den    KFM
+2211  Anacapa Island SMR 2003 2009 Macrocystis pyrifera  Den    KFM
+Removed 260 duplicate rows. Rows remaining: 3370 
+  Raw response rows by source:
+    KFM        2702 rows
+    LTER       778 rows
+    PISCO      3538 rows
+    TOTAL      7018 rows
+Duplicate check passed: No duplicate rows in All.Resp.sub.
+Data provenance (response ratios) exported to: tables/table_data_provenance_rr.csv
+  Sources: KFM, LTER, PISCO 
+  Total RR observations: 3370 
+Data provenance (raw responses) exported to: tables/table_data_provenance_raw.csv
+Data filtering steps exported to: output/data_filtering_steps.csv
+Bootstrap data availability report exported to: output/bootstrap_data_availability.csv
+  harmonized_response_ratios.csv: 3370 rows x 14 cols
+  harmonized_raw_responses.csv: 6338 rows x 9 cols
+  harmonized_landsat_rr.csv: 718 rows x 14 cols
+  harmonized_site_metadata.csv: 34 rows x 9 cols
+
+Harmonized CSVs exported to: /Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/integrated_review_20261103/stage/output/harmonized 
+  harmonized_landsat_rr.csv                118.8 KB  [MD5: aa1080e0127e5cacfb357ed073fe53ee]
+  harmonized_raw_responses.csv             602.7 KB  [MD5: c5449d2cdec721b98e90dd6191a99646]
+  harmonized_response_ratios.csv           540.2 KB  [MD5: 8e9e3e3a90e231f9923d0a67152b10e8]
+  harmonized_site_metadata.csv             2.9 KB  [MD5: 2474b071b2f623c277ba46e94a03b7a1]
+Checksums written to: /Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/integrated_review_20261103/stage/output/harmonized/checksums.md5 

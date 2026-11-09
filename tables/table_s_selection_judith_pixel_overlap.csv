@@ -1,0 +1,10 @@
+site_a,label_a,group_a,site_b,label_b,group_b,pixels_a,pixels_b,shared_pixels
+1,San Miguel Island SC,MPA,17,Judith Rk SMR,MPA,1082,965,364
+1,San Miguel Island SC,MPA,17,Judith Rk SMR,Ref_1,1082,5602,0
+1,San Miguel Island SC,MPA,17,Judith Rk SMR,Ref_2,1082,726,0
+1,San Miguel Island SC,Ref_1,17,Judith Rk SMR,MPA,4298,965,0
+1,San Miguel Island SC,Ref_1,17,Judith Rk SMR,Ref_1,4298,5602,1889
+1,San Miguel Island SC,Ref_1,17,Judith Rk SMR,Ref_2,4298,726,0
+1,San Miguel Island SC,Ref_2,17,Judith Rk SMR,MPA,792,965,0
+1,San Miguel Island SC,Ref_2,17,Judith Rk SMR,Ref_1,792,5602,0
+1,San Miguel Island SC,Ref_2,17,Judith Rk SMR,Ref_2,792,726,726

@@ -7,17 +7,19 @@ remove its code, inputs, diagnostics or interpretation limits.
 | Main claim / essential support | Complete repository evidence |
 | --- | --- |
 | S1 / Table S1: measurements, coverage and exclusions | `tables/table_s_mpa_data_availability.csv`; `tables/table_s_design_reference_sites.csv`; `code/R/01_utils.R`; `data/harmonized/` |
-| S1.1 and S2.3: sheephead age definitions and small-fish sensitivity | `tables/table_s_sheephead_yoy_*`; `code/R/44_sheephead_yoy_check.R`; `code/tests/test_sheephead_yoy_check.R`; `docs/SHEEPHEAD_YOY_2026-10-19.md` |
+| S1.1 and S2.3: sheephead age definitions and small-fish sensitivity | `tables/table_s_sheephead_yoy_*`; `code/R/44_sheephead_yoy_check.R`; `code/tests/test_sheephead_yoy_check.R`; `docs/archive/2026-11-04-dated-audits/SHEEPHEAD_YOY_2026-10-19.md` |
 | S2.1 / Table S2: mixed level/change contrasts and model routing | `tables/table_model_selection.csv`; `tables/table_s_processing_routes.csv`; `docs/PRIMARY_PROCESSING_LABELS.md`; `tables/table_s_pbacips_shape_*`; `plots/fig_s_pbacips_selected_histories.pdf`; `code/R/08_effect_sizes.R`, `32_pbacips_shape_display.R`; `code/tools/check_processing_labels.py` |
 | S2.2 / Figure S1: individual estimates behind main Table 2 | `plots/fig_s02_forest_plot.png`; `data/sumstats_final.csv`; `tables/table_02_meta_analysis.csv`; `code/R/09_meta_analysis.R` |
 | S2.2: sensitivity to near-threshold kelp contrast selection | `tables/table_s_fixed_kelp_selection*.csv`; `code/R/51_kelp_selection_sensitivity.R` |
+| S2.1 / Table S2: surveyed calendar endpoints | `tables/table_s_primary_calendar_windows.csv`; `code/R/58_calendar_window_check.R`; `docs/archive/2026-11-04-dated-audits/CALENDAR_OBSERVED_WINDOWS_2026-10-30.md` |
 | S2.2 / Table S3: exact-cohort annual dependence | `tables/table_s_primary_hac_*`; `code/R/36_primary_uncertainty.R` |
 | S2.2 / Table S4: same-observation temporal AR1 | `tables/table_s_temporal_*`; `code/R/10_temporal_analysis.R`, `37_temporal_uncertainty.R` |
 | S2.3: programme differences, predator sizes and reference choice | `tables/table_s_programme_*`; `table_s_sheephead_programme_*`; `table_s_sheephead_size_*`; `table_s_lobster_size_*`; `table_s_size_refit_*`; `table_s_coauthor_gull_*`; modules 30, 38, 39 and 41 |
+| S2.3 and S3.1: sparse/shared biomass sizes and pathway precision | `tables/table_s_size_uncertainty_*`; `code/R/run_size_uncertainty.R`; `code/R/57_primary_size_uncertainty.R`; `docs/PRIMARY_SIZE_UNCERTAINTY_2026-10-30.md` |
 | S2.3: change versus post-only differences and shared references | `tables/table_s_design_*`; `code/R/27_design_geography_sensitivity.R` |
 | S3.1 / Figure S2: main Table 3 relationships | `plots/fig_s_primary_pathway.png`; `tables/table_s_primary_pathway_membership.csv`; `tables/table_03_cross_taxa_meta_regression.csv`; `tables/table_s_prereview_crosstaxa_permutation.csv` |
-| S3.2: programme-separated pathways on identical MPAs and years | `tables/table_s_programme_pathway_*`; `code/R/42_programme_pathway_refits.R`; `code/R/programme_pathway_utils.R`; `code/tests/test_programme_pathway_refits.R`; `docs/PROGRAMME_PATHWAY_REFITS_2026-10-17.md` |
-| S3.2: size-filtered predator-urchin relationships | `tables/table_s_size_refit_pathway*`; `code/R/41_predator_size_refits.R`; `docs/PREDATOR_SIZE_REFITS_2026-10-17.md` |
+| S3.2: programme-separated pathways on identical MPAs and years | `tables/table_s_programme_pathway_*`; `code/R/42_programme_pathway_refits.R`; `code/R/programme_pathway_utils.R`; `code/tests/test_programme_pathway_refits.R`; `docs/archive/2026-11-04-dated-audits/PROGRAMME_PATHWAY_REFITS_2026-10-17.md` |
+| S3.2: size-filtered predator-urchin relationships | `tables/table_s_size_refit_pathway*`; `code/R/41_predator_size_refits.R`; `docs/archive/2026-11-04-dated-audits/PREDATOR_SIZE_REFITS_2026-10-17.md` |
 | S3.2: exploratory links, summed predators and disease | `tables/table_s_extended_pathway*`; `table_s_coauthor_combined_predator_*`; `table_compound_pycnopodia_*`; `table_compound_keystone_moderation.csv`; modules 20, 30 and 38 |
 | S4.1 / Table S5: Figure 5 paired kelp responses | `tables/table_resistance_recovery_pairs.csv`; `table_resistance_recovery_sensitivity.csv`; `table_figure5_*`; `code/R/22_resistance_recovery.R` |
 | S4.2 / Table S6: historical event comparison | `tables/table_s_historical_heatwave_*`; `code/R/28_historical_heatwave_bacips.R` |
@@ -63,7 +65,7 @@ separate. Run `Rscript code/R/41_predator_size_refits.R` after modules 38/39;
 it is wired into `run_all.R`. It records unavailable inputs rather than claiming
 a fresh refit when current size inputs cannot be verified. Its tests are
 `code/tests/test_predator_size_refits.R`; methods and qualifications are in
-`docs/PREDATOR_SIZE_REFITS_2026-10-17.md`. New displays remain repository figures,
+`docs/archive/2026-11-04-dated-audits/PREDATOR_SIZE_REFITS_2026-10-17.md`. New displays remain repository figures,
 not replacements for main Figure 4 or Table 3. They are not consumption tests
 or designation-effect estimates. Conditional lobster resampling
 uses 1,000 multinomial draws of measured individuals per MPA-status-year pool.
@@ -78,19 +80,19 @@ approximately 0.850-1.568. Matching full-year size pools narrows those ratios to
 0.969-1.014. Expanded measurements remain secondary, not replacements for the
 primary harmonised release. Module 43 reproduces the primary VRG hierarchy;
 complete comparisons are in `tables/table_s_lobster_reconciliation_*` and
-`docs/BIOMASS_SINGLETON_REFIT_2026-10-18.md`.
+`docs/archive/2026-11-04-dated-audits/BIOMASS_SINGLETON_REFIT_2026-10-18.md`.
 
 ## Remaining source decisions
 
 The subsequent source audit is
-`docs/NO_TAKE_SATELLITE_SOURCE_AUDIT_2026-10-16.md`. It recovers native canopy
+`docs/archive/2026-11-04-dated-audits/NO_TAKE_SATELLITE_SOURCE_AUDIT_2026-10-16.md`. It recovers native canopy
 biomass units and pixel identities, verifies Naples/Campus Point satellite
 reference overlap, and identifies six verified empty reference slots encoded
 as zero. These six rows have now been removed before reference averaging;
 observed zeros in occupied reference slots remain. The corrected satellite
 handoff contains 718 paired MPA-years rather than 719. The release marker is
 `data/harmonized/landsat_reference_correction.json`; the before/after audit is
-`docs/LANDSAT_REFERENCE_REFIT_2026-10-16.md`. The manuscript's V10 reading pair
+`docs/archive/2026-11-04-dated-audits/LANDSAT_REFERENCE_REFIT_2026-10-16.md`. The manuscript's V10 reading pair
 incorporates this correction; V9 is preserved as a historical export.
 
 The inherited sheephead-only list is not a legal protection class. Current
@@ -114,3 +116,5 @@ Reproduce the read-only public-release comparison with
 `python3 code/tools/check_pisco_release.py`; it does not replace analysis inputs.
 
 Reference assignment evidence and remaining matching questions: `docs/REFERENCE_ASSIGNMENT_AUDIT.md`; `tables/table_s_reference_assignment_audit.csv`; rebuild with `code/audit_reference_assignments.py`.
+
+The adopted PISCO baseline rule and four-year sensitivity are documented in `docs/PISCO_BASELINE_POLICY_2026-10-31.md`; the reproducibility index includes the fixed-station reconstruction, policy marker, candidate starts and pre-policy comparator inputs.

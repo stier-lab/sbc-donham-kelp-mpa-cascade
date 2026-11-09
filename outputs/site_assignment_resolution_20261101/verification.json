@@ -1,0 +1,16 @@
+{
+  "assignments": 21,
+  "unique_group_labels": 19,
+  "resolved_group_assignments": 19,
+  "unique_resolved_groups": 17,
+  "remaining_unassigned_labels": 2,
+  "real_excluded_group_assignments": 5,
+  "not_whole_group_excluded_assignments": 14,
+  "unique_observed_pisco_child_stations": 40,
+  "child_dataset_assignment_checks": 138,
+  "all_children_already_in_inventory": true,
+  "protected_files_unchanged": 487,
+  "previous_inventory_unchanged": true,
+  "models_fitted": 0,
+  "independent_raw_station_count_year_checks": 138
+}

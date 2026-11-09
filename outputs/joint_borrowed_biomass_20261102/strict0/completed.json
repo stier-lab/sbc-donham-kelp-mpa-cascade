@@ -1,0 +1,7 @@
+{
+  "review_only": true,
+  "model": "joint first-order Gaussian likelihood",
+  "fits": 6,
+  "joint_process_with_borrowing_implemented": true,
+  "total_uncertainty_complete": false
+}

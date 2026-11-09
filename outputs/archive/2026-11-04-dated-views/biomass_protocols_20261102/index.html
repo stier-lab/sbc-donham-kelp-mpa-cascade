@@ -1,0 +1,1058 @@
+<!doctype html><meta charset="utf-8"><title>Biomass source reconciliation</title><style>body{max-width:1100px;margin:30px auto;padding:20px;font:17px/1.5 system-ui}td,th{padding:8px;text-align:left}table{font-size:13px;border-collapse:collapse}tr:nth-child(even){background:#eef4f4}</style><p># Biomass assumptions and source reconciliation</p><p>The assumptions/change ledger separates confirmed source facts, adopted corrections, diagnostic assumptions and unresolved decisions. It is maintained in docs/BIOMASS_ASSUMPTIONS_AND_CHANGES.csv. Earlier results remain archived; superseded assumptions are identified rather than silently erased.</p><p>## What the source checks resolved</p><p>The original KFM metadata confirms species11005 is red urchin,11006 is purple urchin, and legacy test diameters are in centimeters. Matching complete size-frequency distributions after conversion to millimeters gives873 exact matches among904 overlapping site/year/species groups. Dates can be recovered for58,369 frequency records representing159,963 animals. These are frequency records, not58,369 independent dives or newly collected measurements. In retained donor pools,26,015 unique original records benefit from the overlay. Raw source data remain unchanged.</p><p>Recovered dates do not prove same-visit sampling. All873 matched groups have count dates in MBON;401 have size dates that match a count date exactly. The largest nearest-date gap is219days. Among511 recovered donor-site/year/species uses in retained histories,193 have a nonzero gap. These are donor-site timing comparisons, not confirmation that borrowed sizes coincide with the target count sites. No cutoff or automatic exclusion was applied.</p><p>## Two site labels require special treatment</p><p>**Wyckoff Ledge:** all51 overlapping species/year groups labeled a-k-01 match the combined legacy distributions from Wyckoff Ledge1 and Miracle Mile21. Fifteen disagree with Wyckoff alone; the other36 predate/add no Miracle Mile measurements. Both sites are references for Harris Point. This supports a grouped source identity, not a license to assign every animal to Wyckoff or divide aggregated frequencies arbitrarily.</p><p>**Santa Barbara Island:** all14 red/purple species-year distributions labeled a-k-14 in2005–2011 exactly match Southeast Reef37. The corresponding MBON count densities match Southeast Sea Lion14 in all14checks. Thus the counts and sizes represent different sites. The previous audit correctly matched the delivered labels but its physical same-site interpretation was wrong. This finding supersedes that interpretation and qualifies the earlier count-site-only donor sensitivities. Later years have not been source-reconciled.</p><p>## What changes in an isolated same-observation test</p><p>Using original Southeast Sea Lion sizes for2005–2011, with existing offsets fixed, changes the17-year red-urchin recovery slope from−0.123 [−0.193,−0.052] to−0.006 [−0.041,0.028] log-ratio units per year. Purple changes from−0.068 [−0.202,0.066] to−0.008 [−0.160,0.145]. These intervals describe temporal model uncertainty conditional on the annual inputs, not total biomass uncertainty.</p><p>This is a partially reconciled diagnostic: only2005–2011 sizes were replaced; the remaining years retain current inputs. It is not a corrected final17-year estimate. The table also reports the seven-year matched comparison separately. The result shows that source-site identity matters and must be resolved before interpreting this biomass history. It does not justify choosing one source because of the direction of its slope. Density is unchanged.</p><p>## Protocol boundaries</p><p>The PISCO technical report supports a roughly2.5cm minimum for conspicuous benthic swath organisms. Its greater-than wording does not independently settle whether exactly25mm is included; the current&gt;=25mm implementation is retained and its boundary remains explicit. KFM size protocols include small animals and sample across the permanent transect area. Changing only the size threshold would not standardize counts. LTER-specific count/size protocol reconciliation remains open.</p><p>## Next checks</p><p>- Resolve a-k-14 and other grouped site labels in later size releases and the original harmonization code.<br>- Recover recent KFM survey dates and assess count-size timing without selecting a cutoff by outcome.<br>- Recompute physical count-site support using verified donor identities; earlier label-based percentages are not final physical-coverage estimates.<br>- Complete joint count/size uncertainty and KFM kelp plant-sampling checks.</p><p>No raw data, manuscript or frozen primary result was changed in this pass. Eight new model fits were independently verified in R; the14count identities and14size identities are exact within numerical precision. The source date overlay remains private; public tables contain aggregated checks.</p><p>## Sources</p><p>[Kushner et al. KFM metadata](https://esapubs.org/archive/ecol/E094/245/metadata.php), [size variable definitions](https://esapubs.org/archive/ecol/E094/245/Table13B_invertebrate_size_frequency_variables.html), and [PISCO technical report](https://caseagrant.ucsd.edu/sites/default/files/R_MPA-43_Kelp%20Forest%20Technical%20Report%20Narrative.pdf). Downloaded source copies and record-level overlays are retained privately with checksums.<br></p><h2>Assumptions and changes</h2><a href="assumptions_and_changes.csv">Download CSV</a><div style="overflow:auto"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>id</th>
+      <th>updated</th>
+      <th>type</th>
+      <th>assumption_or_change</th>
+      <th>status</th>
+      <th>consequence</th>
+      <th>evidence</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>B01</td>
+      <td>2026-11-02</td>
+      <td>Decision</td>
+      <td>Preserve researcher exclusions</td>
+      <td>Adopted</td>
+      <td>No new site inclusion/exclusion based on results</td>
+      <td>User decision; previous review cohort</td>
+    </tr>
+    <tr>
+      <td>B02</td>
+      <td>2026-11-02</td>
+      <td>Decision</td>
+      <td>Keep counts when biomass size support is inadequate</td>
+      <td>Adopted</td>
+      <td>Density retained separately; no missing biomass converted to zero</td>
+      <td>User decision</td>
+    </tr>
+    <tr>
+      <td>B03</td>
+      <td>2026-11-02</td>
+      <td>Correction</td>
+      <td>Missing stipes imply unknown biomass</td>
+      <td>Implemented; production rebuild pending</td>
+      <td>Point Vicente kelp2023 paired year withheld in review input; upstream safeguard tested</td>
+      <td>biomass_resolution_20261102</td>
+    </tr>
+    <tr>
+      <td>B04</td>
+      <td>2026-11-02</td>
+      <td>Assumption</td>
+      <td>One original size record retains one identity across all uses</td>
+      <td>Implemented in conditional draws</td>
+      <td>Shared donor weights preserved; frequency counts not deduplicated</td>
+      <td>resolve_biomass_support.py</td>
+    </tr>
+    <tr>
+      <td>B05</td>
+      <td>2026-11-02</td>
+      <td>Sensitivity assumption</td>
+      <td>Halve/double singleton mean mass</td>
+      <td>Diagnostic only</td>
+      <td>Not an uncertainty interval or exclusion cutoff</td>
+      <td>biomass_resolution_20261102</td>
+    </tr>
+    <tr>
+      <td>B06</td>
+      <td>2026-11-02</td>
+      <td>Assumption</td>
+      <td>Offsets remain fixed at previously verified values</td>
+      <td>Conditional review only</td>
+      <td>Size/refit checks do not fully propagate count/allometry/offset uncertainty</td>
+      <td>resolve_biomass_support.py</td>
+    </tr>
+    <tr>
+      <td>B07</td>
+      <td>2026-11-02</td>
+      <td>Source convention</td>
+      <td>KFM legacy11005red;11006purple;size in cm</td>
+      <td>Confirmed</td>
+      <td>Convert to mm before comparing frequencies or applying allometry</td>
+      <td>ESA Table13A/B; metadata</td>
+    </tr>
+    <tr>
+      <td>B08</td>
+      <td>2026-11-02</td>
+      <td>Recovery rule</td>
+      <td>Recover date only for exact full site/year/species frequency match and unambiguous bin date</td>
+      <td>Implemented as overlay</td>
+      <td>58369 frequency records recovered; source file unchanged</td>
+      <td>reconcile_kfm_urchin_dates.py</td>
+    </tr>
+    <tr>
+      <td>B09</td>
+      <td>2026-11-02</td>
+      <td>Source discrepancy</td>
+      <td>Combined a-k-01 merges Wyckoff and Miracle Mile</td>
+      <td>Exact match in all51 available overlap groups</td>
+      <td>Both reference sites; does not establish same physical count footprint; no arbitrary record splitting</td>
+      <td>kfm_label_hypotheses.csv</td>
+    </tr>
+    <tr>
+      <td>B10</td>
+      <td>2026-11-02</td>
+      <td>Source discrepancy</td>
+      <td>Combined a-k-14 sizes match Southeast Reef37, counts match Sea Lion14</td>
+      <td>Confirmed for14 species-years2005–2011</td>
+      <td>Earlier same-site support claim superseded; original Sea Lion sizes tested as separate variant</td>
+      <td>kfm_label_hypotheses.csv;sbi_count_identity_checks.csv</td>
+    </tr>
+    <tr>
+      <td>B11</td>
+      <td>2026-11-02</td>
+      <td>Model change</td>
+      <td>Replace SBI protected sizes with original count-site sizes2005–2011</td>
+      <td>Sensitivity only; not primary</td>
+      <td>Same annual observations; later size identity unresolved; variant partially reconciled</td>
+      <td>sbi_reconciliation_effects.csv</td>
+    </tr>
+    <tr>
+      <td>B12</td>
+      <td>2026-11-02</td>
+      <td>Unresolved</td>
+      <td>Annual count-size matching implies same visit</td>
+      <td>Not assumed</td>
+      <td>Recovered dates show gaps; no timing cutoff adopted</td>
+      <td>retained_count_size_date_gaps.csv</td>
+    </tr>
+    <tr>
+      <td>B13</td>
+      <td>2026-11-02</td>
+      <td>Protocol</td>
+      <td>PISCO conspicuous benthic organisms approximately2.5cm and larger</td>
+      <td>Broad protocol supported; exact boundary unresolved</td>
+      <td>Preserve current&gt;=25mm rule; do not impose on KFM/LTER sizes without compatible counts</td>
+      <td>Sea Grant technical report pp22–24</td>
+    </tr>
+    <tr>
+      <td>B14</td>
+      <td>2026-11-02</td>
+      <td>Unresolved</td>
+      <td>Borrowed sizes represent count-site animals</td>
+      <td>Not established</td>
+      <td>Keep affected biomass provisional; same program/year is insufficient proof</td>
+      <td>red_urchin_decisions.csv; new source identity checks</td>
+    </tr>
+    <tr>
+      <td>B15</td>
+      <td>2026-11-02</td>
+      <td>Unresolved</td>
+      <td>Total biomass uncertainty</td>
+      <td>Incomplete</td>
+      <td>Conditional size draws exclude count/allometry uncertainty; KFM kelp plant sampling remains</td>
+      <td>biomass_resolution_20261102</td>
+    </tr>
+    <tr>
+      <td>B16</td>
+      <td>2026-11-02</td>
+      <td>Hold</td>
+      <td>Paper and primary release</td>
+      <td>Unchanged</td>
+      <td>No manuscript update, final eligibility freeze or primary rebuild</td>
+      <td>User review hold</td>
+    </tr>
+    <tr>
+      <td>B17</td>
+      <td>2026-11-02</td>
+      <td>Source confirmation</td>
+      <td>Alias problems persist in2015</td>
+      <td>Confirmed in all4grouped-distribution checks</td>
+      <td>Do not infer individual sizes from grouped report means</td>
+      <td>biomass_exclusion_reconciliation_20261102/2015_site_identity_checks.csv</td>
+    </tr>
+    <tr>
+      <td>B18</td>
+      <td>2026-11-02</td>
+      <td>Implementation discrepancy</td>
+      <td>Intended excluded KFM sites21and37 survive under alternate size labels</td>
+      <td>Original and current code explicitly exclude them</td>
+      <td>Six retained histories affected; restore intended donor exclusions using original physical-site records</td>
+      <td>biomass_exclusion_reconciliation_20261102/affected_histories.csv</td>
+    </tr>
+    <tr>
+      <td>B19</td>
+      <td>2026-11-02</td>
+      <td>Sensitivity</td>
+      <td>Reconstruct allowed original donor pools through2011</td>
+      <td>24fits independently verified; partial only</td>
+      <td>Counts/years/offsets held fixed; recent unresolved donors unchanged; no primary promotion</td>
+      <td>biomass_exclusion_reconciliation_20261102/effects.csv</td>
+    </tr>
+    <tr>
+      <td>B20</td>
+      <td>2026-11-02</td>
+      <td>Source access</td>
+      <td>NPS1982–2025package2318436 includes site-specific size and survey tables</td>
+      <td>Catalog visible; files markedInternal/CanDownloadfalse</td>
+      <td>Need authorized source access; public processing script obtained; no restricted file download attempted</td>
+      <td>https://irma.nps.gov/DataStore/Reference/Profile/2318436</td>
+    </tr>
+    <tr>
+      <td>B21</td>
+      <td>2026-11-02</td>
+      <td>Guard</td>
+      <td>Block excluded physical sources and known misleading urchin aliases</td>
+      <td>Implemented in new review resampling; production hold</td>
+      <td>Six histories withheld from joint draws; density unchanged</td>
+      <td>biomass_joint_checks_20261102/resampling_admission.csv</td>
+    </tr>
+    <tr>
+      <td>B22</td>
+      <td>2026-11-02</td>
+      <td>Source check</td>
+      <td>KFM exact duplicate plant rows have identical site/date/marker keys</td>
+      <td>Verified:18413duplicates;46802uniqueplants</td>
+      <td>Do not deduplicate equal sizes from distinct plants</td>
+      <td>biomass_joint_checks_20261102/verification.json</td>
+    </tr>
+    <tr>
+      <td>B23</td>
+      <td>2026-11-02</td>
+      <td>Conditional sampling assumption</td>
+      <td>Spatial count weights and shared size weights propagated together</td>
+      <td>1000draws;34histories</td>
+      <td>Fixed years/offsets/calibration; draw ranges are not total confidence intervals</td>
+      <td>biomass_joint_checks_20261102/README.md</td>
+    </tr>
+    <tr>
+      <td>B24</td>
+      <td>2026-11-02</td>
+      <td>Matching audit</td>
+      <td>Compare donor locations/date/zone/depth against retained counts</td>
+      <td>1143donor-bearing role-years screened</td>
+      <td>No new cutoff;23PISCO zone flags; borrowed-size representativeness unresolved</td>
+      <td>biomass_joint_checks_20261102/count_size_matching.csv</td>
+    </tr>
+    <tr>
+      <td>B25</td>
+      <td>2026-11-02</td>
+      <td>Numerical check</td>
+      <td>Deterministic KFM kelp expected mass versus cached simulated point estimate</td>
+      <td>296station-years independently verified</td>
+      <td>Station differences up to~3percent; coordinated rebuild pending</td>
+      <td>biomass_joint_checks_20261102/kelp_expected_biomass_check.csv</td>
+    </tr>
+    <tr>
+      <td>B26</td>
+      <td>2026-11-02</td>
+      <td>Source resolution</td>
+      <td>All23PISCO zone flags arise from seasonal filtering</td>
+      <td>43station/species/zone groups have raw count surveys on size dates</td>
+      <td>Supersedes missing-zone hypothesis; March/April/November/December counts filtered but sizes retained</td>
+      <td>pisco_size_zone_resolution_20261102/source_zone_details.csv</td>
+    </tr>
+    <tr>
+      <td>B27</td>
+      <td>2026-11-02</td>
+      <td>Sensitivity</td>
+      <td>Apply existing count season to size donors on matched years</td>
+      <td>66fits verified;diagnostic only</td>
+      <td>Three paired biomass years lost; no new primary season cutoff; retain density</td>
+      <td>pisco_size_zone_resolution_20261102/summary.csv</td>
+    </tr>
+    <tr>
+      <td>B28</td>
+      <td>2026-11-02</td>
+      <td>User decision</td>
+      <td>Allow valid surveys in all months; equal-weight repeat visits</td>
+      <td>Adopted for review rerun</td>
+      <td>Six affected PISCO histories; preserve researcher exclusions and count support</td>
+      <td>pisco_all_months_20261102/README.md</td>
+    </tr>
+    <tr>
+      <td>B29</td>
+      <td>2026-11-02</td>
+      <td>Matching rule</td>
+      <td>Constant shared INNER/MID zones; raw same-visit sizes then nearest within site/zone/year</td>
+      <td>Diagnostic rerun complete; primary unchanged</td>
+      <td>624exact/24nearest/153unsupported positive uses; dates exposed; exact-only sensitivity</td>
+      <td>pisco_all_months_20261102/size_matching.csv</td>
+    </tr>
+    <tr>
+      <td>B30</td>
+      <td>2026-11-02</td>
+      <td>Coverage finding</td>
+      <td>Local biomass completeness differs from usable density coverage</td>
+      <td>63density comparison-years;25local biomass years</td>
+      <td>Do not turn missing local sizes into zero or silently drop a reference station</td>
+      <td>pisco_all_months_20261102/summary.csv</td>
+    </tr>
+    <tr>
+      <td>B31</td>
+      <td>2026-11-02</td>
+      <td>Sensitivity</td>
+      <td>Pair protected/reference dates without dropping reference stations</td>
+      <td>0/14/30/60/90/366day grid; no cutoff adopted</td>
+      <td>At90days Abalone retains2postyears,Vicente6; source campaign IDs unavailable</td>
+      <td>pisco_timing_donors_20261102/timing_coverage.csv</td>
+    </tr>
+    <tr>
+      <td>B32</td>
+      <td>2026-11-02</td>
+      <td>Validation</td>
+      <td>Predict held-out local mean body mass from other samples</td>
+      <td>624targets;5860predictions; cross-site donors exclude target site</td>
+      <td>Typical90day same-role errors1.33–1.48fold; sparse target samples and validation coverage explicit</td>
+      <td>pisco_timing_donors_20261102/donor_validation_summary.csv</td>
+    </tr>
+    <tr>
+      <td>B33</td>
+      <td>2026-11-02</td>
+      <td>Limit</td>
+      <td>Donor availability does not certify biomass recovery</td>
+      <td>120of153missing visits have same-role/zone donors within90days</td>
+      <td>No imputation; Abalone protected cross-site validation unavailable; total uncertainty pending</td>
+      <td>pisco_timing_donors_20261102/README.md</td>
+    </tr>
+    <tr>
+      <td>B34</td>
+      <td>2026-11-02</td>
+      <td>Implementation</td>
+      <td>Carry all-month density as count-led review response</td>
+      <td>63postcomparison-years unchanged</td>
+      <td>Six PISCO histories; paper and canonical results held</td>
+      <td>pisco_biomass_borrowing_20261102/selected_density_annual.csv</td>
+    </tr>
+    <tr>
+      <td>B35</td>
+      <td>2026-11-02</td>
+      <td>Uncertainty assumption</td>
+      <td>Nested outer-site donor calibration and shared site-year prediction errors</td>
+      <td>1000conditional draws; reference-only interval validation</td>
+      <td>No target-site leakage; no extra donor bootstrap; fixed counts/allometry; not totalCIs</td>
+      <td>pisco_biomass_borrowing_20261102/README.md</td>
+    </tr>
+    <tr>
+      <td>B36</td>
+      <td>2026-11-02</td>
+      <td>Conditional coverage</td>
+      <td>Borrowed biomass available for44of63years;38positive visits remain unknown</td>
+      <td>Review sensitivity implemented; no protected borrowing</td>
+      <td>Local-only prior25used different temporal-support rule; no silent station omissions</td>
+      <td>pisco_biomass_borrowing_20261102/summary.csv</td>
+    </tr>
+  </tbody>
+</table></div><h2>SBI same-observation refits</h2><a href="sbi_reconciliation_effects.csv">Download CSV</a><div style="overflow:auto"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>series_id</th>
+      <th>scope</th>
+      <th>scenario</th>
+      <th>estimate</th>
+      <th>se</th>
+      <th>low</th>
+      <th>high</th>
+      <th>n_years</th>
+      <th>n_rows</th>
+      <th>df</th>
+      <th>rank</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Santa Barbara Island SMR|M. franciscanus|KFM|Bio</td>
+      <td>all_observed_post_years</td>
+      <td>current</td>
+      <td>-0.122535</td>
+      <td>0.033015</td>
+      <td>-0.192905</td>
+      <td>-0.052165</td>
+      <td>17</td>
+      <td>17</td>
+      <td>15</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Santa Barbara Island SMR|M. franciscanus|KFM|Bio</td>
+      <td>all_observed_post_years</td>
+      <td>original_count_site_sizes</td>
+      <td>-0.006370</td>
+      <td>0.016339</td>
+      <td>-0.041197</td>
+      <td>0.028457</td>
+      <td>17</td>
+      <td>17</td>
+      <td>15</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Santa Barbara Island SMR|M. franciscanus|KFM|Bio</td>
+      <td>2005_2011_same_years</td>
+      <td>current</td>
+      <td>0.045714</td>
+      <td>0.137904</td>
+      <td>-0.308779</td>
+      <td>0.400207</td>
+      <td>7</td>
+      <td>7</td>
+      <td>5</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Santa Barbara Island SMR|M. franciscanus|KFM|Bio</td>
+      <td>2005_2011_same_years</td>
+      <td>original_count_site_sizes</td>
+      <td>-0.027726</td>
+      <td>0.036601</td>
+      <td>-0.121812</td>
+      <td>0.066360</td>
+      <td>7</td>
+      <td>7</td>
+      <td>5</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Santa Barbara Island SMR|S. purpuratus|KFM|Bio</td>
+      <td>all_observed_post_years</td>
+      <td>current</td>
+      <td>-0.068115</td>
+      <td>0.062937</td>
+      <td>-0.202263</td>
+      <td>0.066033</td>
+      <td>17</td>
+      <td>17</td>
+      <td>15</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Santa Barbara Island SMR|S. purpuratus|KFM|Bio</td>
+      <td>all_observed_post_years</td>
+      <td>original_count_site_sizes</td>
+      <td>-0.007572</td>
+      <td>0.071490</td>
+      <td>-0.159949</td>
+      <td>0.144805</td>
+      <td>17</td>
+      <td>17</td>
+      <td>15</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Santa Barbara Island SMR|S. purpuratus|KFM|Bio</td>
+      <td>2005_2011_same_years</td>
+      <td>current</td>
+      <td>0.205562</td>
+      <td>0.138713</td>
+      <td>-0.151012</td>
+      <td>0.562135</td>
+      <td>7</td>
+      <td>7</td>
+      <td>5</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Santa Barbara Island SMR|S. purpuratus|KFM|Bio</td>
+      <td>2005_2011_same_years</td>
+      <td>original_count_site_sizes</td>
+      <td>0.352074</td>
+      <td>0.063094</td>
+      <td>0.189887</td>
+      <td>0.514262</td>
+      <td>7</td>
+      <td>7</td>
+      <td>5</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table></div><h2>Retained date support</h2><a href="retained_history_date_support.csv">Download CSV</a><div style="overflow:auto"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>series_id</th>
+      <th>kfm_donor_occurrences</th>
+      <th>kfm_animals</th>
+      <th>recovered_occurrences</th>
+      <th>recovered_animals</th>
+      <th>missing_occurrences</th>
+      <th>years_recovered</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Anacapa Island SMR 2003|M. franciscanus|KFM|Bio</td>
+      <td>4903</td>
+      <td>13173</td>
+      <td>1881</td>
+      <td>6137</td>
+      <td>3022</td>
+      <td>2005;2006;2007;2008;2009;2010;2011</td>
+    </tr>
+    <tr>
+      <td>Anacapa Island SMR 2003|S. purpuratus|KFM|Bio</td>
+      <td>3471</td>
+      <td>13899</td>
+      <td>1350</td>
+      <td>6428</td>
+      <td>2121</td>
+      <td>2005;2006;2007;2008;2009;2010;2011</td>
+    </tr>
+    <tr>
+      <td>Gull Island SMR|M. franciscanus|PISCO|Bio</td>
+      <td>2672</td>
+      <td>4497</td>
+      <td>1223</td>
+      <td>2041</td>
+      <td>1449</td>
+      <td>2004;2005;2006;2007;2008;2009;2010;2011</td>
+    </tr>
+    <tr>
+      <td>Gull Island SMR|S. purpuratus|PISCO|Bio</td>
+      <td>1468</td>
+      <td>3772</td>
+      <td>741</td>
+      <td>1630</td>
+      <td>727</td>
+      <td>2004;2005;2006;2007;2008;2009;2010;2011</td>
+    </tr>
+    <tr>
+      <td>Harris Point SMR|M. franciscanus|KFM|Bio</td>
+      <td>8604</td>
+      <td>17362</td>
+      <td>3296</td>
+      <td>7392</td>
+      <td>5308</td>
+      <td>1985;1986;1987;1988;1989;1990;1991;1992;1994;1995;1996;1997;1998;1999;2000;2001;2002;2003;2004;2005;2006;2007;2008;2009;2010;2011</td>
+    </tr>
+    <tr>
+      <td>Harris Point SMR|M. franciscanus|PISCO|Bio</td>
+      <td>4571</td>
+      <td>8649</td>
+      <td>729</td>
+      <td>1510</td>
+      <td>3842</td>
+      <td>2004;2005;2006;2007;2008;2009;2010;2011</td>
+    </tr>
+    <tr>
+      <td>Harris Point SMR|S. purpuratus|KFM|Bio</td>
+      <td>4218</td>
+      <td>12716</td>
+      <td>1673</td>
+      <td>5451</td>
+      <td>2545</td>
+      <td>1985;1986;1987;1988;1989;1990;1991;1992;1994;1995;1996;1997;1998;1999;2000;2001;2002;2003;2004;2005;2006;2007;2008;2011</td>
+    </tr>
+    <tr>
+      <td>Harris Point SMR|S. purpuratus|PISCO|Bio</td>
+      <td>1569</td>
+      <td>3805</td>
+      <td>293</td>
+      <td>959</td>
+      <td>1276</td>
+      <td>2004;2005;2006;2007;2008;2009;2010;2011</td>
+    </tr>
+    <tr>
+      <td>Santa Barbara Island SMR|M. franciscanus|KFM|Bio</td>
+      <td>4958</td>
+      <td>10638</td>
+      <td>1064</td>
+      <td>3085</td>
+      <td>3894</td>
+      <td>2005;2006;2007;2008;2009;2010;2011</td>
+    </tr>
+    <tr>
+      <td>Santa Barbara Island SMR|S. purpuratus|KFM|Bio</td>
+      <td>3381</td>
+      <td>12013</td>
+      <td>631</td>
+      <td>4078</td>
+      <td>2750</td>
+      <td>2005;2006;2007;2008;2009;2010;2011</td>
+    </tr>
+    <tr>
+      <td>Scorpion SMR|M. franciscanus|KFM|Bio</td>
+      <td>5051</td>
+      <td>12708</td>
+      <td>3117</td>
+      <td>8679</td>
+      <td>1934</td>
+      <td>1985;1986;1987;1988;1989;1990;1991;1992;1993;1994;1995;1996;1997;1998;1999;2000;2001;2002;2003;2004;2005;2006;2007;2008;2009;2010;2011</td>
+    </tr>
+    <tr>
+      <td>Scorpion SMR|M. franciscanus|PISCO|Bio</td>
+      <td>2604</td>
+      <td>6245</td>
+      <td>987</td>
+      <td>2864</td>
+      <td>1617</td>
+      <td>2004;2005;2006;2007;2008;2009;2010;2011</td>
+    </tr>
+    <tr>
+      <td>Scorpion SMR|S. purpuratus|KFM|Bio</td>
+      <td>3290</td>
+      <td>16871</td>
+      <td>1978</td>
+      <td>12473</td>
+      <td>1312</td>
+      <td>1985;1986;1987;1988;1989;1990;1991;1992;1993;1994;1995;1996;1997;1998;1999;2000;2001;2002;2003;2004;2005;2006;2007;2008;2009;2010;2011</td>
+    </tr>
+    <tr>
+      <td>Scorpion SMR|S. purpuratus|PISCO|Bio</td>
+      <td>1449</td>
+      <td>6634</td>
+      <td>474</td>
+      <td>3180</td>
+      <td>975</td>
+      <td>2004;2005;2006;2007;2008;2009;2010;2011</td>
+    </tr>
+    <tr>
+      <td>South Point SMR|M. franciscanus|KFM|Bio</td>
+      <td>13164</td>
+      <td>22729</td>
+      <td>5518</td>
+      <td>9118</td>
+      <td>7646</td>
+      <td>2005;2006;2007;2008;2009;2010;2011</td>
+    </tr>
+    <tr>
+      <td>South Point SMR|M. franciscanus|PISCO|Bio</td>
+      <td>9414</td>
+      <td>16211</td>
+      <td>4233</td>
+      <td>7019</td>
+      <td>5181</td>
+      <td>2005;2007;2008;2009;2010;2011</td>
+    </tr>
+    <tr>
+      <td>South Point SMR|S. purpuratus|KFM|Bio</td>
+      <td>8643</td>
+      <td>22013</td>
+      <td>3473</td>
+      <td>7134</td>
+      <td>5170</td>
+      <td>2005;2006;2007;2008;2009;2010;2011</td>
+    </tr>
+    <tr>
+      <td>South Point SMR|S. purpuratus|PISCO|Bio</td>
+      <td>4919</td>
+      <td>11626</td>
+      <td>2311</td>
+      <td>4848</td>
+      <td>2608</td>
+      <td>2005;2007;2008;2009;2010;2011</td>
+    </tr>
+  </tbody>
+</table></div><h2>Source discrepancies</h2><a href="kfm_source_discrepancies.csv">Download CSV</a><div style="overflow:auto"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>site_number</th>
+      <th>year</th>
+      <th>species_code</th>
+      <th>histogram_equal</th>
+      <th>combined_animals</th>
+      <th>legacy_animals</th>
+      <th>size_bins</th>
+      <th>scope</th>
+      <th>site</th>
+      <th>classcode</th>
+      <th>affected_histories</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>2004</td>
+      <td>11005</td>
+      <td>False</td>
+      <td>383.0</td>
+      <td>179.0</td>
+      <td>95</td>
+      <td>overlap</td>
+      <td>a-k-01</td>
+      <td>Strongylocentrotus franciscanus</td>
+      <td>Harris Point SMR|M. franciscanus|KFM|Bio;Harris Point SMR|M. franciscanus|PISCO|Bio</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2004</td>
+      <td>11006</td>
+      <td>False</td>
+      <td>160.0</td>
+      <td>142.0</td>
+      <td>43</td>
+      <td>overlap</td>
+      <td>a-k-01</td>
+      <td>Strongylocentrotus purpuratus</td>
+      <td>Harris Point SMR|S. purpuratus|KFM|Bio;Harris Point SMR|S. purpuratus|PISCO|Bio</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2005</td>
+      <td>11005</td>
+      <td>False</td>
+      <td>379.0</td>
+      <td>222.0</td>
+      <td>94</td>
+      <td>overlap</td>
+      <td>a-k-01</td>
+      <td>Strongylocentrotus franciscanus</td>
+      <td>Harris Point SMR|M. franciscanus|KFM|Bio;Harris Point SMR|M. franciscanus|PISCO|Bio</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2005</td>
+      <td>11006</td>
+      <td>False</td>
+      <td>26.0</td>
+      <td>5.0</td>
+      <td>21</td>
+      <td>overlap</td>
+      <td>a-k-01</td>
+      <td>Strongylocentrotus purpuratus</td>
+      <td>Harris Point SMR|S. purpuratus|PISCO|Bio</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2006</td>
+      <td>11005</td>
+      <td>False</td>
+      <td>467.0</td>
+      <td>190.0</td>
+      <td>102</td>
+      <td>overlap</td>
+      <td>a-k-01</td>
+      <td>Strongylocentrotus franciscanus</td>
+      <td>Harris Point SMR|M. franciscanus|KFM|Bio;Harris Point SMR|M. franciscanus|PISCO|Bio</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2006</td>
+      <td>11006</td>
+      <td>False</td>
+      <td>36.0</td>
+      <td>7.0</td>
+      <td>27</td>
+      <td>overlap</td>
+      <td>a-k-01</td>
+      <td>Strongylocentrotus purpuratus</td>
+      <td>Harris Point SMR|S. purpuratus|KFM|Bio;Harris Point SMR|S. purpuratus|PISCO|Bio</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2007</td>
+      <td>11005</td>
+      <td>False</td>
+      <td>513.0</td>
+      <td>265.0</td>
+      <td>109</td>
+      <td>overlap</td>
+      <td>a-k-01</td>
+      <td>Strongylocentrotus franciscanus</td>
+      <td>Harris Point SMR|M. franciscanus|KFM|Bio;Harris Point SMR|M. franciscanus|PISCO|Bio</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2007</td>
+      <td>11006</td>
+      <td>False</td>
+      <td>92.0</td>
+      <td>52.0</td>
+      <td>44</td>
+      <td>overlap</td>
+      <td>a-k-01</td>
+      <td>Strongylocentrotus purpuratus</td>
+      <td>Harris Point SMR|S. purpuratus|KFM|Bio;Harris Point SMR|S. purpuratus|PISCO|Bio</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2008</td>
+      <td>11005</td>
+      <td>False</td>
+      <td>407.0</td>
+      <td>208.0</td>
+      <td>99</td>
+      <td>overlap</td>
+      <td>a-k-01</td>
+      <td>Strongylocentrotus franciscanus</td>
+      <td>Harris Point SMR|M. franciscanus|KFM|Bio;Harris Point SMR|M. franciscanus|PISCO|Bio</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2009</td>
+      <td>11005</td>
+      <td>False</td>
+      <td>449.0</td>
+      <td>222.0</td>
+      <td>109</td>
+      <td>overlap</td>
+      <td>a-k-01</td>
+      <td>Strongylocentrotus franciscanus</td>
+      <td>Harris Point SMR|M. franciscanus|KFM|Bio;Harris Point SMR|M. franciscanus|PISCO|Bio</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2009</td>
+      <td>11006</td>
+      <td>False</td>
+      <td>99.0</td>
+      <td>81.0</td>
+      <td>42</td>
+      <td>overlap</td>
+      <td>a-k-01</td>
+      <td>Strongylocentrotus purpuratus</td>
+      <td>Harris Point SMR|S. purpuratus|KFM|Bio;Harris Point SMR|S. purpuratus|PISCO|Bio</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2010</td>
+      <td>11005</td>
+      <td>False</td>
+      <td>434.0</td>
+      <td>199.0</td>
+      <td>96</td>
+      <td>overlap</td>
+      <td>a-k-01</td>
+      <td>Strongylocentrotus franciscanus</td>
+      <td>Harris Point SMR|M. franciscanus|KFM|Bio;Harris Point SMR|M. franciscanus|PISCO|Bio</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2010</td>
+      <td>11006</td>
+      <td>False</td>
+      <td>111.0</td>
+      <td>59.0</td>
+      <td>54</td>
+      <td>overlap</td>
+      <td>a-k-01</td>
+      <td>Strongylocentrotus purpuratus</td>
+      <td>Harris Point SMR|S. purpuratus|KFM|Bio;Harris Point SMR|S. purpuratus|PISCO|Bio</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2011</td>
+      <td>11005</td>
+      <td>False</td>
+      <td>415.0</td>
+      <td>207.0</td>
+      <td>108</td>
+      <td>overlap</td>
+      <td>a-k-01</td>
+      <td>Strongylocentrotus franciscanus</td>
+      <td>Harris Point SMR|M. franciscanus|KFM|Bio;Harris Point SMR|M. franciscanus|PISCO|Bio</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2011</td>
+      <td>11006</td>
+      <td>False</td>
+      <td>254.0</td>
+      <td>172.0</td>
+      <td>60</td>
+      <td>overlap</td>
+      <td>a-k-01</td>
+      <td>Strongylocentrotus purpuratus</td>
+      <td>Harris Point SMR|S. purpuratus|KFM|Bio;Harris Point SMR|S. purpuratus|PISCO|Bio</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>1987</td>
+      <td>11006</td>
+      <td>False</td>
+      <td>103.0</td>
+      <td>102.0</td>
+      <td>27</td>
+      <td>overlap</td>
+      <td>a-k-02</td>
+      <td>Strongylocentrotus purpuratus</td>
+      <td>Harris Point SMR|S. purpuratus|KFM|Bio</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>1995</td>
+      <td>11005</td>
+      <td>False</td>
+      <td>135.0</td>
+      <td>140.0</td>
+      <td>69</td>
+      <td>overlap</td>
+      <td>a-k-08</td>
+      <td>Strongylocentrotus franciscanus</td>
+      <td>Scorpion SMR|M. franciscanus|KFM|Bio</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>2005</td>
+      <td>11005</td>
+      <td>False</td>
+      <td>220.0</td>
+      <td>227.0</td>
+      <td>86</td>
+      <td>overlap</td>
+      <td>a-k-14</td>
+      <td>Strongylocentrotus franciscanus</td>
+      <td>Santa Barbara Island SMR|M. franciscanus|KFM|Bio</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>2005</td>
+      <td>11006</td>
+      <td>False</td>
+      <td>240.0</td>
+      <td>209.0</td>
+      <td>39</td>
+      <td>overlap</td>
+      <td>a-k-14</td>
+      <td>Strongylocentrotus purpuratus</td>
+      <td>Santa Barbara Island SMR|S. purpuratus|KFM|Bio</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>2006</td>
+      <td>11005</td>
+      <td>False</td>
+      <td>223.0</td>
+      <td>264.0</td>
+      <td>83</td>
+      <td>overlap</td>
+      <td>a-k-14</td>
+      <td>Strongylocentrotus franciscanus</td>
+      <td>Santa Barbara Island SMR|M. franciscanus|KFM|Bio</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>2006</td>
+      <td>11006</td>
+      <td>False</td>
+      <td>193.0</td>
+      <td>218.0</td>
+      <td>46</td>
+      <td>overlap</td>
+      <td>a-k-14</td>
+      <td>Strongylocentrotus purpuratus</td>
+      <td>Santa Barbara Island SMR|S. purpuratus|KFM|Bio</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>2007</td>
+      <td>11005</td>
+      <td>False</td>
+      <td>211.0</td>
+      <td>206.0</td>
+      <td>89</td>
+      <td>overlap</td>
+      <td>a-k-14</td>
+      <td>Strongylocentrotus franciscanus</td>
+      <td>Santa Barbara Island SMR|M. franciscanus|KFM|Bio</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>2007</td>
+      <td>11006</td>
+      <td>False</td>
+      <td>192.0</td>
+      <td>160.0</td>
+      <td>48</td>
+      <td>overlap</td>
+      <td>a-k-14</td>
+      <td>Strongylocentrotus purpuratus</td>
+      <td>Santa Barbara Island SMR|S. purpuratus|KFM|Bio</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>2008</td>
+      <td>11005</td>
+      <td>False</td>
+      <td>203.0</td>
+      <td>207.0</td>
+      <td>86</td>
+      <td>overlap</td>
+      <td>a-k-14</td>
+      <td>Strongylocentrotus franciscanus</td>
+      <td>Santa Barbara Island SMR|M. franciscanus|KFM|Bio</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>2008</td>
+      <td>11006</td>
+      <td>False</td>
+      <td>194.0</td>
+      <td>197.0</td>
+      <td>52</td>
+      <td>overlap</td>
+      <td>a-k-14</td>
+      <td>Strongylocentrotus purpuratus</td>
+      <td>Santa Barbara Island SMR|S. purpuratus|KFM|Bio</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>2009</td>
+      <td>11005</td>
+      <td>False</td>
+      <td>198.0</td>
+      <td>200.0</td>
+      <td>91</td>
+      <td>overlap</td>
+      <td>a-k-14</td>
+      <td>Strongylocentrotus franciscanus</td>
+      <td>Santa Barbara Island SMR|M. franciscanus|KFM|Bio</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>2009</td>
+      <td>11006</td>
+      <td>False</td>
+      <td>210.0</td>
+      <td>233.0</td>
+      <td>49</td>
+      <td>overlap</td>
+      <td>a-k-14</td>
+      <td>Strongylocentrotus purpuratus</td>
+      <td>Santa Barbara Island SMR|S. purpuratus|KFM|Bio</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>2010</td>
+      <td>11005</td>
+      <td>False</td>
+      <td>282.0</td>
+      <td>181.0</td>
+      <td>97</td>
+      <td>overlap</td>
+      <td>a-k-14</td>
+      <td>Strongylocentrotus franciscanus</td>
+      <td>Santa Barbara Island SMR|M. franciscanus|KFM|Bio</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>2010</td>
+      <td>11006</td>
+      <td>False</td>
+      <td>223.0</td>
+      <td>267.0</td>
+      <td>47</td>
+      <td>overlap</td>
+      <td>a-k-14</td>
+      <td>Strongylocentrotus purpuratus</td>
+      <td>Santa Barbara Island SMR|S. purpuratus|KFM|Bio</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>2011</td>
+      <td>11005</td>
+      <td>False</td>
+      <td>204.0</td>
+      <td>189.0</td>
+      <td>91</td>
+      <td>overlap</td>
+      <td>a-k-14</td>
+      <td>Strongylocentrotus franciscanus</td>
+      <td>Santa Barbara Island SMR|M. franciscanus|KFM|Bio</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>2011</td>
+      <td>11006</td>
+      <td>False</td>
+      <td>305.0</td>
+      <td>212.0</td>
+      <td>41</td>
+      <td>overlap</td>
+      <td>a-k-14</td>
+      <td>Strongylocentrotus purpuratus</td>
+      <td>Santa Barbara Island SMR|S. purpuratus|KFM|Bio</td>
+    </tr>
+  </tbody>
+</table></div>

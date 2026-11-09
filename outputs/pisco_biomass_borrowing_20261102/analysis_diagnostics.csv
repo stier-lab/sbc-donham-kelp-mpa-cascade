@@ -1,0 +1,5 @@
+analysis,role,diagnostics,status,limits
+Retained all-month density,count-led review,verified identity to preceding reviewed inputs,preserved,Survey timing imbalance still present
+Empirical donor error and prediction intervals,conditional biomass sensitivity,Nested outer-site held-out calibration; reference-only coverage reported,partial,No protected-site validation; sparse temporal calibration; empirical calibration uncertainty not fully propagated
+Local size and predictive resampling,conditional biomass sensitivity,Frequency multiplicity and shared sample/error checks,partial,Singleton variance unavailable; fixed counts and allometry; incomplete cross-year dependence
+Six biomass recovery regressions,conditional temporal inference,Calendar-gap HAC3 independently verified in R,partial,Different supported years; not causal effects or total uncertainty

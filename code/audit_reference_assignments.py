@@ -18,7 +18,7 @@ def read(path):
 
 def write(path, rows):
     with path.open('w', newline='') as f:
-        w = csv.DictWriter(f, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
+        w = csv.DictWriter(f, fieldnames=list(rows[0]), lineterminator='\n'); w.writeheader(); w.writerows(rows)
 
 def main():
     registry = ROOT / 'data/harmonized/reference_sites.csv'
@@ -40,16 +40,32 @@ def main():
             rule = 'Decadal-review site mapping; inherited suitability exclusions where better references existed'
             evidence = 'Historical pBACIPS_PISCO_V10.R lines 24-28,49,570ff; current PISCO mapping and exclusion constants'
             unresolved = 'Exact habitat/depth/exposure criterion and rejected alternatives for each assignment'
+            if mpa == 'Harris Point SMR':
+                rule = 'Cuyler retained for nearby north-side habitat; Crook Point and Tyler Bight excluded for different south-side habitats; Bay Point and Prince Island lack sustained coverage'
+                unresolved = 'Qualitative habitat rationale confirmed; quantitative habitat/depth equivalence not demonstrated'
+            elif mpa == 'South Point SMR':
+                unresolved = 'Ford Point has only 2007 fish records in supplied files; historical ecological selection rationale still partly tentative'
+            elif mpa in {'Gull Island SMR','Scorpion SMR'}:
+                rule += '; Yellowbanks excluded from local PISCO pairs because of distinctive habitat and distance from Gull; Scorpion has closer alternatives'
+            elif mpa == 'Naples SMCA':
+                rule = 'Arroyo Quemado references selected using expert diver judgment and community-composition comparisons; no close match to Naples identified'
+                unresolved = 'Qualitative basis confirmed; underlying ordination results not independently recovered and habitat equivalence not established'
+                evidence += '; docs/SELECTION_CRITERIA_AUDIT_2026-10-29.md (Naples reference basis)'
+            evidence += '; docs/REFERENCE_REPLY_INTEGRATION_2026-10-29.md (confirmed investigator rationale and supplied-file coverage)'
         elif source == 'LTER':
-            rule = 'MBON assignment; Arroyo Hondo excluded because kelp was essentially absent'
+            rule = 'MBON assignment selected through consultation with local LTER investigators; Arroyo Hondo excluded because kelp was essentially absent'
             evidence = 'Historical pBACIPS_PISCO_V10.R line 2160; current MBON mapping and both LTER exclusion lists'
-            unresolved = 'Selection criterion for retained references; excluded habitat rule does not establish retained habitat equivalence'
+            unresolved = 'Consultation confirmed, but individual retained-site reasoning not recovered; excluded habitat rule does not establish retained habitat equivalence'
         elif source == 'KFM':
-            rule = 'MBON assignment; shorter histories and wrong-island-side exclusions described at rule-class level'
+            rule = 'MBON assignment; intended continuity of stations across before/after periods; exclusions apply to benthic processing, not the sheephead branch'
             evidence = 'Historical pBACIPS_PISCO_V10.R lines 18-22,1124-1128,1459ff; current MBON mapping'
             unresolved = 'Per-site exclusion reason and ecological basis of retained pairing'
             if mpa == 'Gull Island SMR':
-                unresolved = 'Yellow Banks pairing remains contested; retain primary plus dedicated omission sensitivity'
+                rule += '; Yellowbanks identified as best available KFM reference, approximately 15 miles from Gull'
+                unresolved = 'Distance and unverified habitat/depth comparability remain limitations; retain primary plus dedicated omission sensitivity; detailed map review pending'
+            if x['Taxa'] == 'S. pulcher' and mpa in {'Harris Point SMR','Scorpion SMR'}:
+                unresolved += '; after-only fish stations confirmed; same-year persistent-site sensitivity in module 53, not promoted to primary'
+            evidence += '; docs/REFERENCE_REPLY_INTEGRATION_2026-10-29.md'
         else:
             rule = 'Supplied satellite reference footprints; geometric selection documented separately'
             evidence = 'docs/SOURCE_RECONCILIATION_2026-10-17.md; data/external/tom_bell_2026-10-20/'

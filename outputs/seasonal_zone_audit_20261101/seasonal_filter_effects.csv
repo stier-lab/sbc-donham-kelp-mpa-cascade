@@ -1,0 +1,906 @@
+MPA,site,year,any,all,partial_zone_loss,whole_station_year_removed
+Abalone Cove SMCA,3_PALMS_EAST,2014,False,False,False,True
+Abalone Cove SMCA,3_PALMS_EAST,2015,True,True,False,False
+Abalone Cove SMCA,3_PALMS_EAST,2016,True,True,False,False
+Abalone Cove SMCA,3_PALMS_EAST,2017,True,True,False,False
+Abalone Cove SMCA,3_PALMS_EAST,2018,True,False,True,False
+Abalone Cove SMCA,3_PALMS_EAST,2019,True,True,False,False
+Abalone Cove SMCA,3_PALMS_EAST,2020,True,True,False,False
+Abalone Cove SMCA,3_PALMS_EAST,2021,True,False,True,False
+Abalone Cove SMCA,3_PALMS_EAST,2022,True,True,False,False
+Abalone Cove SMCA,3_PALMS_EAST,2023,True,True,False,False
+Abalone Cove SMCA,ABALONE_COVE_KELP_W,2011,True,True,False,False
+Abalone Cove SMCA,ABALONE_COVE_KELP_W,2012,True,True,False,False
+Abalone Cove SMCA,ABALONE_COVE_KELP_W,2013,True,True,False,False
+Abalone Cove SMCA,ABALONE_COVE_KELP_W,2014,True,False,True,False
+Abalone Cove SMCA,ABALONE_COVE_KELP_W,2015,True,False,True,False
+Abalone Cove SMCA,ABALONE_COVE_KELP_W,2016,True,True,False,False
+Abalone Cove SMCA,ABALONE_COVE_KELP_W,2017,True,True,False,False
+Abalone Cove SMCA,ABALONE_COVE_KELP_W,2018,True,True,False,False
+Abalone Cove SMCA,ABALONE_COVE_KELP_W,2019,True,True,False,False
+Abalone Cove SMCA,ABALONE_COVE_KELP_W,2020,True,True,False,False
+Abalone Cove SMCA,ABALONE_COVE_KELP_W,2021,True,True,False,False
+Abalone Cove SMCA,ABALONE_COVE_KELP_W,2022,True,True,False,False
+Abalone Cove SMCA,ABALONE_COVE_KELP_W,2023,True,True,False,False
+Abalone Cove SMCA,BUNKER_POINT,2011,True,True,False,False
+Abalone Cove SMCA,BUNKER_POINT,2012,True,True,False,False
+Abalone Cove SMCA,BUNKER_POINT,2013,True,True,False,False
+Abalone Cove SMCA,BUNKER_POINT,2014,False,False,False,True
+Abalone Cove SMCA,BUNKER_POINT,2015,True,True,False,False
+Abalone Cove SMCA,BUNKER_POINT,2016,True,False,True,False
+Abalone Cove SMCA,BUNKER_POINT,2017,True,True,False,False
+Abalone Cove SMCA,BUNKER_POINT,2018,False,False,False,True
+Abalone Cove SMCA,BUNKER_POINT,2019,True,True,False,False
+Abalone Cove SMCA,BUNKER_POINT,2020,True,False,True,False
+Abalone Cove SMCA,BUNKER_POINT,2021,True,False,True,False
+Abalone Cove SMCA,BUNKER_POINT,2022,True,True,False,False
+Abalone Cove SMCA,BUNKER_POINT,2023,True,True,False,False
+Abalone Cove SMCA,POINT_FERMIN,2011,True,True,False,False
+Abalone Cove SMCA,POINT_FERMIN,2012,False,False,False,True
+Abalone Cove SMCA,POINT_FERMIN,2013,True,False,True,False
+Abalone Cove SMCA,POINT_FERMIN,2014,True,True,False,False
+Abalone Cove SMCA,POINT_FERMIN,2015,True,False,True,False
+Abalone Cove SMCA,POINT_FERMIN,2016,True,True,False,False
+Abalone Cove SMCA,POINT_FERMIN,2017,False,False,False,True
+Abalone Cove SMCA,POINT_FERMIN,2019,True,True,False,False
+Abalone Cove SMCA,POINT_FERMIN,2020,False,False,False,True
+Abalone Cove SMCA,POINT_FERMIN,2021,True,False,True,False
+Abalone Cove SMCA,POINT_FERMIN,2022,True,True,False,False
+Abalone Cove SMCA,POINT_FERMIN,2023,False,False,False,True
+Abalone Cove SMCA,WHITES_POINT,2011,True,True,False,False
+Abalone Cove SMCA,WHITES_POINT,2012,True,True,False,False
+Abalone Cove SMCA,WHITES_POINT,2013,True,False,True,False
+Abalone Cove SMCA,WHITES_POINT,2014,True,True,False,False
+Abalone Cove SMCA,WHITES_POINT,2015,True,False,True,False
+Abalone Cove SMCA,WHITES_POINT,2016,True,True,False,False
+Abalone Cove SMCA,WHITES_POINT,2017,False,False,False,True
+Abalone Cove SMCA,WHITES_POINT,2019,True,True,False,False
+Abalone Cove SMCA,WHITES_POINT,2020,False,False,False,True
+Abalone Cove SMCA,WHITES_POINT,2021,True,True,False,False
+Abalone Cove SMCA,WHITES_POINT,2022,True,True,False,False
+Abalone Cove SMCA,WHITES_POINT,2023,False,False,False,True
+Anacapa Island SMR 2003,ANACAPA_EAST_FISH_CAMP_CEN,2007,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_EAST_FISH_CAMP_CEN,2008,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_EAST_FISH_CAMP_CEN,2009,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_EAST_FISH_CAMP_CEN,2021,False,False,False,True
+Anacapa Island SMR 2003,ANACAPA_EAST_FISH_CAMP_CEN,2022,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_EAST_FISH_CAMP_CEN,2023,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_EAST_FISH_CAMP_E,2007,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_EAST_FISH_CAMP_E,2008,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_EAST_FISH_CAMP_E,2009,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_EAST_FISH_CAMP_E,2021,False,False,False,True
+Anacapa Island SMR 2003,ANACAPA_EAST_FISH_CAMP_E,2022,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_EAST_FISH_CAMP_E,2023,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_EAST_FISH_CAMP_W,2007,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_EAST_FISH_CAMP_W,2008,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_EAST_FISH_CAMP_W,2009,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_EAST_FISH_CAMP_W,2021,False,False,False,True
+Anacapa Island SMR 2003,ANACAPA_EAST_FISH_CAMP_W,2022,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_EAST_FISH_CAMP_W,2023,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_CEN,2007,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_CEN,2008,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_CEN,2009,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_CEN,2010,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_CEN,2011,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_CEN,2012,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_CEN,2014,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_CEN,2015,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_CEN,2016,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_CEN,2017,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_CEN,2018,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_CEN,2019,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_CEN,2020,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_CEN,2021,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_CEN,2022,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_CEN,2023,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_E,2007,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_E,2008,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_E,2009,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_E,2010,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_E,2011,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_E,2012,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_E,2014,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_E,2015,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_E,2016,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_E,2017,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_E,2018,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_E,2019,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_E,2020,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_E,2021,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_E,2022,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_E,2023,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_W,2007,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_W,2008,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_W,2009,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_W,2010,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_W,2011,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_W,2012,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_W,2014,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_W,2015,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_W,2016,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_W,2017,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_W,2018,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_W,2019,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_W,2020,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_W,2021,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_W,2022,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_LIGHTHOUSE_REEF_W,2023,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_CEN,2007,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_CEN,2008,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_CEN,2009,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_CEN,2010,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_CEN,2011,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_CEN,2012,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_CEN,2014,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_CEN,2015,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_CEN,2016,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_CEN,2017,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_CEN,2018,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_CEN,2019,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_CEN,2020,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_CEN,2021,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_CEN,2022,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_CEN,2023,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_E,2007,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_E,2008,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_E,2009,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_E,2010,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_E,2011,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_E,2012,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_E,2014,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_E,2015,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_E,2016,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_E,2017,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_E,2018,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_E,2019,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_E,2020,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_E,2021,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_E,2022,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_E,2023,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_W,2007,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_W,2008,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_W,2009,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_W,2010,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_W,2011,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_W,2012,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_W,2014,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_W,2015,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_W,2016,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_W,2017,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_W,2018,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_W,2019,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_W,2020,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_W,2021,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_W,2022,True,True,False,False
+Anacapa Island SMR 2003,ANACAPA_MIDDLE_ISLE_W,2023,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_E,2010,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_E,2011,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_E,2012,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_E,2013,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_E,2015,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_E,2016,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_E,2017,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_E,2018,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_E,2019,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_E,2020,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_E,2021,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_E,2022,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_E,2023,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_W,2010,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_W,2011,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_W,2012,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_W,2013,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_W,2014,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_W,2015,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_W,2016,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_W,2017,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_W,2018,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_W,2019,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_W,2020,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_W,2021,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_W,2022,True,True,False,False
+Campus Point SMCA,ARROYO_QUEMADO_W,2023,True,True,False,False
+Campus Point SMCA,IV_REEF_E,2010,True,True,False,False
+Campus Point SMCA,IV_REEF_E,2011,True,True,False,False
+Campus Point SMCA,IV_REEF_E,2012,True,True,False,False
+Campus Point SMCA,IV_REEF_E,2013,True,True,False,False
+Campus Point SMCA,IV_REEF_E,2016,True,True,False,False
+Campus Point SMCA,IV_REEF_E,2017,True,True,False,False
+Campus Point SMCA,IV_REEF_E,2018,True,True,False,False
+Campus Point SMCA,IV_REEF_E,2019,True,True,False,False
+Campus Point SMCA,IV_REEF_E,2020,True,True,False,False
+Campus Point SMCA,IV_REEF_E,2021,True,True,False,False
+Campus Point SMCA,IV_REEF_E,2022,True,True,False,False
+Campus Point SMCA,IV_REEF_E,2023,True,True,False,False
+Campus Point SMCA,IV_REEF_W,2010,True,True,False,False
+Campus Point SMCA,IV_REEF_W,2011,True,True,False,False
+Campus Point SMCA,IV_REEF_W,2012,True,True,False,False
+Campus Point SMCA,IV_REEF_W,2013,True,True,False,False
+Campus Point SMCA,IV_REEF_W,2014,True,True,False,False
+Campus Point SMCA,IV_REEF_W,2015,True,True,False,False
+Campus Point SMCA,IV_REEF_W,2016,True,True,False,False
+Campus Point SMCA,IV_REEF_W,2017,True,True,False,False
+Campus Point SMCA,IV_REEF_W,2018,True,True,False,False
+Campus Point SMCA,IV_REEF_W,2019,True,True,False,False
+Campus Point SMCA,IV_REEF_W,2020,True,True,False,False
+Campus Point SMCA,IV_REEF_W,2021,True,True,False,False
+Campus Point SMCA,IV_REEF_W,2022,True,True,False,False
+Campus Point SMCA,IV_REEF_W,2023,True,True,False,False
+Gull Island SMR,SCI_FORNEY_E,2004,True,True,False,False
+Gull Island SMR,SCI_FORNEY_E,2005,True,True,False,False
+Gull Island SMR,SCI_FORNEY_E,2006,True,True,False,False
+Gull Island SMR,SCI_FORNEY_E,2007,True,True,False,False
+Gull Island SMR,SCI_FORNEY_E,2008,True,True,False,False
+Gull Island SMR,SCI_FORNEY_E,2009,True,True,False,False
+Gull Island SMR,SCI_FORNEY_E,2010,True,True,False,False
+Gull Island SMR,SCI_FORNEY_E,2011,True,True,False,False
+Gull Island SMR,SCI_FORNEY_E,2012,True,True,False,False
+Gull Island SMR,SCI_FORNEY_E,2014,True,True,False,False
+Gull Island SMR,SCI_FORNEY_E,2015,True,True,False,False
+Gull Island SMR,SCI_FORNEY_E,2017,True,True,False,False
+Gull Island SMR,SCI_FORNEY_E,2018,True,False,True,False
+Gull Island SMR,SCI_FORNEY_E,2019,True,True,False,False
+Gull Island SMR,SCI_FORNEY_E,2021,True,True,False,False
+Gull Island SMR,SCI_FORNEY_E,2023,True,True,False,False
+Gull Island SMR,SCI_FORNEY_W,2004,True,True,False,False
+Gull Island SMR,SCI_FORNEY_W,2005,True,True,False,False
+Gull Island SMR,SCI_FORNEY_W,2006,True,True,False,False
+Gull Island SMR,SCI_FORNEY_W,2007,True,True,False,False
+Gull Island SMR,SCI_FORNEY_W,2008,True,True,False,False
+Gull Island SMR,SCI_FORNEY_W,2009,True,True,False,False
+Gull Island SMR,SCI_FORNEY_W,2010,True,True,False,False
+Gull Island SMR,SCI_FORNEY_W,2011,True,True,False,False
+Gull Island SMR,SCI_FORNEY_W,2012,True,True,False,False
+Gull Island SMR,SCI_FORNEY_W,2014,True,True,False,False
+Gull Island SMR,SCI_FORNEY_W,2015,True,True,False,False
+Gull Island SMR,SCI_FORNEY_W,2017,True,True,False,False
+Gull Island SMR,SCI_FORNEY_W,2018,True,False,True,False
+Gull Island SMR,SCI_FORNEY_W,2019,True,True,False,False
+Gull Island SMR,SCI_FORNEY_W,2021,True,False,True,False
+Gull Island SMR,SCI_FORNEY_W,2023,True,False,True,False
+Gull Island SMR,SCI_GULL_ISLE_E,2004,True,True,False,False
+Gull Island SMR,SCI_GULL_ISLE_E,2005,True,True,False,False
+Gull Island SMR,SCI_GULL_ISLE_E,2006,True,True,False,False
+Gull Island SMR,SCI_GULL_ISLE_E,2007,True,True,False,False
+Gull Island SMR,SCI_GULL_ISLE_E,2008,True,True,False,False
+Gull Island SMR,SCI_GULL_ISLE_E,2009,True,True,False,False
+Gull Island SMR,SCI_GULL_ISLE_E,2010,True,True,False,False
+Gull Island SMR,SCI_GULL_ISLE_E,2011,True,False,True,False
+Gull Island SMR,SCI_GULL_ISLE_E,2012,True,False,True,False
+Gull Island SMR,SCI_GULL_ISLE_E,2014,True,False,True,False
+Gull Island SMR,SCI_GULL_ISLE_E,2015,True,True,False,False
+Gull Island SMR,SCI_GULL_ISLE_E,2017,True,False,True,False
+Gull Island SMR,SCI_GULL_ISLE_E,2018,True,True,False,False
+Gull Island SMR,SCI_GULL_ISLE_E,2019,True,True,False,False
+Gull Island SMR,SCI_GULL_ISLE_E,2021,True,False,True,False
+Gull Island SMR,SCI_GULL_ISLE_E,2023,True,True,False,False
+Gull Island SMR,SCI_GULL_ISLE_W,2004,True,True,False,False
+Gull Island SMR,SCI_GULL_ISLE_W,2005,True,True,False,False
+Gull Island SMR,SCI_GULL_ISLE_W,2006,True,True,False,False
+Gull Island SMR,SCI_GULL_ISLE_W,2007,True,True,False,False
+Gull Island SMR,SCI_GULL_ISLE_W,2008,True,True,False,False
+Gull Island SMR,SCI_GULL_ISLE_W,2009,True,True,False,False
+Gull Island SMR,SCI_GULL_ISLE_W,2010,True,True,False,False
+Gull Island SMR,SCI_GULL_ISLE_W,2011,True,True,False,False
+Gull Island SMR,SCI_GULL_ISLE_W,2012,True,True,False,False
+Gull Island SMR,SCI_GULL_ISLE_W,2014,True,True,False,False
+Gull Island SMR,SCI_GULL_ISLE_W,2015,True,False,True,False
+Gull Island SMR,SCI_GULL_ISLE_W,2017,False,False,False,True
+Gull Island SMR,SCI_GULL_ISLE_W,2018,True,True,False,False
+Gull Island SMR,SCI_GULL_ISLE_W,2019,True,True,False,False
+Gull Island SMR,SCI_GULL_ISLE_W,2021,True,False,True,False
+Gull Island SMR,SCI_GULL_ISLE_W,2023,True,True,False,False
+Harris Point SMR,SMI_CUYLER_E,2004,True,True,False,False
+Harris Point SMR,SMI_CUYLER_E,2005,True,True,False,False
+Harris Point SMR,SMI_CUYLER_E,2006,True,True,False,False
+Harris Point SMR,SMI_CUYLER_E,2007,True,True,False,False
+Harris Point SMR,SMI_CUYLER_E,2008,True,True,False,False
+Harris Point SMR,SMI_CUYLER_E,2009,True,True,False,False
+Harris Point SMR,SMI_CUYLER_E,2010,True,True,False,False
+Harris Point SMR,SMI_CUYLER_E,2011,True,True,False,False
+Harris Point SMR,SMI_CUYLER_E,2012,True,True,False,False
+Harris Point SMR,SMI_CUYLER_E,2014,True,True,False,False
+Harris Point SMR,SMI_CUYLER_E,2016,True,True,False,False
+Harris Point SMR,SMI_CUYLER_E,2018,True,True,False,False
+Harris Point SMR,SMI_CUYLER_E,2019,True,True,False,False
+Harris Point SMR,SMI_CUYLER_E,2020,False,False,False,True
+Harris Point SMR,SMI_CUYLER_E,2021,True,True,False,False
+Harris Point SMR,SMI_CUYLER_E,2022,True,True,False,False
+Harris Point SMR,SMI_CUYLER_E,2023,True,True,False,False
+Harris Point SMR,SMI_CUYLER_W,2004,True,True,False,False
+Harris Point SMR,SMI_CUYLER_W,2005,True,True,False,False
+Harris Point SMR,SMI_CUYLER_W,2006,True,True,False,False
+Harris Point SMR,SMI_CUYLER_W,2007,True,True,False,False
+Harris Point SMR,SMI_CUYLER_W,2008,True,True,False,False
+Harris Point SMR,SMI_CUYLER_W,2009,True,True,False,False
+Harris Point SMR,SMI_CUYLER_W,2010,True,True,False,False
+Harris Point SMR,SMI_CUYLER_W,2011,True,True,False,False
+Harris Point SMR,SMI_CUYLER_W,2012,True,True,False,False
+Harris Point SMR,SMI_CUYLER_W,2014,True,True,False,False
+Harris Point SMR,SMI_CUYLER_W,2016,True,True,False,False
+Harris Point SMR,SMI_CUYLER_W,2018,True,True,False,False
+Harris Point SMR,SMI_CUYLER_W,2019,True,True,False,False
+Harris Point SMR,SMI_CUYLER_W,2020,True,True,False,False
+Harris Point SMR,SMI_CUYLER_W,2021,True,True,False,False
+Harris Point SMR,SMI_CUYLER_W,2022,True,True,False,False
+Harris Point SMR,SMI_CUYLER_W,2023,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_E,2004,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_E,2005,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_E,2006,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_E,2007,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_E,2008,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_E,2009,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_E,2010,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_E,2011,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_E,2012,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_E,2014,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_E,2016,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_E,2018,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_E,2019,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_E,2020,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_E,2021,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_E,2022,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_E,2023,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_W,2004,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_W,2005,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_W,2006,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_W,2007,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_W,2008,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_W,2009,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_W,2010,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_W,2011,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_W,2012,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_W,2014,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_W,2016,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_W,2018,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_W,2019,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_W,2020,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_W,2021,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_W,2022,True,True,False,False
+Harris Point SMR,SMI_HARRIS_PT_RESERVE_W,2023,True,True,False,False
+Matlahuayl SMR,CHILDRENS_POOL,2011,True,True,False,False
+Matlahuayl SMR,CHILDRENS_POOL,2012,True,True,False,False
+Matlahuayl SMR,CHILDRENS_POOL,2019,True,True,False,False
+Matlahuayl SMR,CHILDRENS_POOL,2020,True,True,False,False
+Matlahuayl SMR,CHILDRENS_POOL,2021,True,True,False,False
+Matlahuayl SMR,CHILDRENS_POOL,2022,True,True,False,False
+Matlahuayl SMR,CHILDRENS_POOL,2023,True,True,False,False
+Matlahuayl SMR,MATLAHUAYL,2011,True,True,False,False
+Matlahuayl SMR,MATLAHUAYL,2012,True,True,False,False
+Matlahuayl SMR,MATLAHUAYL,2019,True,True,False,False
+Matlahuayl SMR,MATLAHUAYL,2020,True,True,False,False
+Matlahuayl SMR,MATLAHUAYL,2021,True,True,False,False
+Matlahuayl SMR,MATLAHUAYL,2022,True,True,False,False
+Matlahuayl SMR,MATLAHUAYL,2023,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_E,2010,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_E,2011,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_E,2012,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_E,2013,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_E,2015,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_E,2016,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_E,2017,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_E,2018,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_E,2019,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_E,2020,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_E,2021,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_E,2022,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_E,2023,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_W,2010,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_W,2011,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_W,2012,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_W,2013,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_W,2014,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_W,2015,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_W,2016,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_W,2017,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_W,2018,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_W,2019,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_W,2020,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_W,2021,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_W,2022,True,True,False,False
+Naples SMCA,ARROYO_QUEMADO_W,2023,True,True,False,False
+Naples SMCA,NAPLES_CEN,2010,True,True,False,False
+Naples SMCA,NAPLES_CEN,2011,True,True,False,False
+Naples SMCA,NAPLES_CEN,2012,True,True,False,False
+Naples SMCA,NAPLES_CEN,2013,True,True,False,False
+Naples SMCA,NAPLES_CEN,2014,True,True,False,False
+Naples SMCA,NAPLES_CEN,2015,False,False,False,True
+Naples SMCA,NAPLES_CEN,2016,True,True,False,False
+Naples SMCA,NAPLES_CEN,2017,True,True,False,False
+Naples SMCA,NAPLES_CEN,2018,True,True,False,False
+Naples SMCA,NAPLES_CEN,2019,True,True,False,False
+Naples SMCA,NAPLES_CEN,2020,True,True,False,False
+Naples SMCA,NAPLES_CEN,2021,True,True,False,False
+Naples SMCA,NAPLES_CEN,2022,True,True,False,False
+Naples SMCA,NAPLES_CEN,2023,True,True,False,False
+Naples SMCA,NAPLES_E,2010,True,True,False,False
+Naples SMCA,NAPLES_E,2011,True,True,False,False
+Naples SMCA,NAPLES_E,2012,True,True,False,False
+Naples SMCA,NAPLES_E,2013,True,True,False,False
+Naples SMCA,NAPLES_E,2014,True,True,False,False
+Naples SMCA,NAPLES_E,2015,True,True,False,False
+Naples SMCA,NAPLES_E,2016,True,True,False,False
+Naples SMCA,NAPLES_E,2017,True,True,False,False
+Naples SMCA,NAPLES_E,2018,True,True,False,False
+Naples SMCA,NAPLES_E,2019,True,True,False,False
+Naples SMCA,NAPLES_E,2020,True,True,False,False
+Naples SMCA,NAPLES_E,2021,True,True,False,False
+Naples SMCA,NAPLES_E,2022,True,True,False,False
+Naples SMCA,NAPLES_E,2023,True,True,False,False
+Naples SMCA,NAPLES_W,2010,True,True,False,False
+Naples SMCA,NAPLES_W,2011,True,True,False,False
+Naples SMCA,NAPLES_W,2012,True,True,False,False
+Naples SMCA,NAPLES_W,2013,True,True,False,False
+Naples SMCA,NAPLES_W,2014,True,True,False,False
+Naples SMCA,NAPLES_W,2015,True,True,False,False
+Naples SMCA,NAPLES_W,2016,True,True,False,False
+Naples SMCA,NAPLES_W,2017,True,True,False,False
+Naples SMCA,NAPLES_W,2018,True,True,False,False
+Naples SMCA,NAPLES_W,2019,True,True,False,False
+Naples SMCA,NAPLES_W,2020,True,True,False,False
+Naples SMCA,NAPLES_W,2021,True,True,False,False
+Naples SMCA,NAPLES_W,2022,True,True,False,False
+Naples SMCA,NAPLES_W,2023,True,True,False,False
+Point Dume SMCA,LECHUZA,2008,True,True,False,False
+Point Dume SMCA,LECHUZA,2010,True,False,True,False
+Point Dume SMCA,LECHUZA,2011,True,True,False,False
+Point Dume SMCA,LECHUZA,2012,True,True,False,False
+Point Dume SMCA,LECHUZA,2021,True,True,False,False
+Point Dume SMCA,LECHUZA,2022,True,True,False,False
+Point Dume SMCA,LECHUZA,2023,True,False,True,False
+Point Dume SMCA,LEO_CARRILLO,2008,True,True,False,False
+Point Dume SMCA,LEO_CARRILLO,2023,False,False,False,True
+Point Dume SMCA,NICHOLAS_CANYON_W,2008,True,True,False,False
+Point Dume SMCA,NICHOLAS_CANYON_W,2010,True,False,True,False
+Point Dume SMCA,NICHOLAS_CANYON_W,2011,True,True,False,False
+Point Dume SMCA,NICHOLAS_CANYON_W,2012,True,True,False,False
+Point Dume SMCA,NICHOLAS_CANYON_W,2021,True,True,False,False
+Point Dume SMCA,NICHOLAS_CANYON_W,2022,True,True,False,False
+Point Dume SMCA,NICHOLAS_CANYON_W,2023,True,False,True,False
+Point Dume SMR,ESCONDIDO_W,2022,True,True,False,False
+Point Dume SMR,LITTLE_DUME_W,2022,True,True,False,False
+Point Dume SMR,POINT_DUME,2022,True,True,False,False
+Point Vicente SMCA,FLAT_ROCK_N,2008,True,True,False,False
+Point Vicente SMCA,FLAT_ROCK_N,2015,False,False,False,True
+Point Vicente SMCA,FLAT_ROCK_N,2016,False,False,False,True
+Point Vicente SMCA,FLAT_ROCK_N,2017,True,True,False,False
+Point Vicente SMCA,FLAT_ROCK_N,2018,True,True,False,False
+Point Vicente SMCA,FLAT_ROCK_N,2019,True,True,False,False
+Point Vicente SMCA,FLAT_ROCK_N,2020,True,True,False,False
+Point Vicente SMCA,FLAT_ROCK_N,2021,True,True,False,False
+Point Vicente SMCA,FLAT_ROCK_N,2022,True,True,False,False
+Point Vicente SMCA,FLAT_ROCK_N,2023,True,True,False,False
+Point Vicente SMCA,HAWTHORNE_REEF,2009,True,True,False,False
+Point Vicente SMCA,HAWTHORNE_REEF,2010,True,True,False,False
+Point Vicente SMCA,HAWTHORNE_REEF,2011,True,False,True,False
+Point Vicente SMCA,HAWTHORNE_REEF,2012,True,True,False,False
+Point Vicente SMCA,HAWTHORNE_REEF,2013,True,True,False,False
+Point Vicente SMCA,HAWTHORNE_REEF,2015,True,True,False,False
+Point Vicente SMCA,HAWTHORNE_REEF,2016,True,True,False,False
+Point Vicente SMCA,HAWTHORNE_REEF,2017,True,True,False,False
+Point Vicente SMCA,HAWTHORNE_REEF,2018,True,True,False,False
+Point Vicente SMCA,HAWTHORNE_REEF,2019,True,True,False,False
+Point Vicente SMCA,HAWTHORNE_REEF,2020,True,True,False,False
+Point Vicente SMCA,HAWTHORNE_REEF,2021,True,True,False,False
+Point Vicente SMCA,HAWTHORNE_REEF,2022,True,True,False,False
+Point Vicente SMCA,HAWTHORNE_REEF,2023,False,False,False,True
+Point Vicente SMCA,LONG_POINT_E,2009,True,True,False,False
+Point Vicente SMCA,LONG_POINT_E,2010,True,True,False,False
+Point Vicente SMCA,LONG_POINT_E,2011,True,True,False,False
+Point Vicente SMCA,LONG_POINT_E,2012,True,True,False,False
+Point Vicente SMCA,LONG_POINT_E,2013,False,False,False,True
+Point Vicente SMCA,LONG_POINT_E,2015,True,True,False,False
+Point Vicente SMCA,LONG_POINT_E,2016,True,True,False,False
+Point Vicente SMCA,LONG_POINT_E,2017,True,True,False,False
+Point Vicente SMCA,LONG_POINT_E,2018,True,True,False,False
+Point Vicente SMCA,LONG_POINT_E,2019,True,True,False,False
+Point Vicente SMCA,LONG_POINT_E,2020,True,True,False,False
+Point Vicente SMCA,LONG_POINT_E,2021,True,True,False,False
+Point Vicente SMCA,LONG_POINT_E,2022,True,True,False,False
+Point Vicente SMCA,LONG_POINT_E,2023,True,False,True,False
+Point Vicente SMCA,LUNADA_BAY,2011,True,True,False,False
+Point Vicente SMCA,LUNADA_BAY,2012,True,True,False,False
+Point Vicente SMCA,LUNADA_BAY,2013,True,True,False,False
+Point Vicente SMCA,LUNADA_BAY,2015,True,False,True,False
+Point Vicente SMCA,LUNADA_BAY,2016,True,True,False,False
+Point Vicente SMCA,LUNADA_BAY,2017,True,True,False,False
+Point Vicente SMCA,LUNADA_BAY,2018,True,True,False,False
+Point Vicente SMCA,LUNADA_BAY,2019,True,True,False,False
+Point Vicente SMCA,LUNADA_BAY,2020,True,True,False,False
+Point Vicente SMCA,LUNADA_BAY,2021,True,True,False,False
+Point Vicente SMCA,LUNADA_BAY,2022,True,True,False,False
+Point Vicente SMCA,LUNADA_BAY,2023,True,True,False,False
+Point Vicente SMCA,POINT_VICENTE_W,2008,True,False,True,False
+Point Vicente SMCA,POINT_VICENTE_W,2009,True,False,True,False
+Point Vicente SMCA,POINT_VICENTE_W,2010,True,True,False,False
+Point Vicente SMCA,POINT_VICENTE_W,2011,True,True,False,False
+Point Vicente SMCA,POINT_VICENTE_W,2012,True,True,False,False
+Point Vicente SMCA,POINT_VICENTE_W,2013,True,False,True,False
+Point Vicente SMCA,POINT_VICENTE_W,2015,True,True,False,False
+Point Vicente SMCA,POINT_VICENTE_W,2016,True,True,False,False
+Point Vicente SMCA,POINT_VICENTE_W,2017,True,True,False,False
+Point Vicente SMCA,POINT_VICENTE_W,2018,True,True,False,False
+Point Vicente SMCA,POINT_VICENTE_W,2019,True,True,False,False
+Point Vicente SMCA,POINT_VICENTE_W,2020,True,True,False,False
+Point Vicente SMCA,POINT_VICENTE_W,2021,True,True,False,False
+Point Vicente SMCA,POINT_VICENTE_W,2022,True,True,False,False
+Point Vicente SMCA,POINT_VICENTE_W,2023,True,True,False,False
+Point Vicente SMCA,RESORT_POINT,2008,True,True,False,False
+Point Vicente SMCA,RESORT_POINT,2012,True,False,True,False
+Point Vicente SMCA,RESORT_POINT,2013,True,True,False,False
+Point Vicente SMCA,RESORT_POINT,2015,True,True,False,False
+Point Vicente SMCA,RESORT_POINT,2016,True,True,False,False
+Point Vicente SMCA,RESORT_POINT,2017,True,True,False,False
+Point Vicente SMCA,RESORT_POINT,2018,True,True,False,False
+Point Vicente SMCA,RESORT_POINT,2019,True,True,False,False
+Point Vicente SMCA,RESORT_POINT,2020,True,True,False,False
+Point Vicente SMCA,RESORT_POINT,2021,True,True,False,False
+Point Vicente SMCA,RESORT_POINT,2022,True,True,False,False
+Point Vicente SMCA,RESORT_POINT,2023,True,True,False,False
+Point Vicente SMCA,RIDGES_N,2008,False,False,False,True
+Point Vicente SMCA,RIDGES_N,2009,True,True,False,False
+Point Vicente SMCA,RIDGES_N,2010,True,True,False,False
+Point Vicente SMCA,RIDGES_N,2011,True,True,False,False
+Point Vicente SMCA,RIDGES_N,2012,True,True,False,False
+Point Vicente SMCA,RIDGES_N,2013,False,False,False,True
+Point Vicente SMCA,RIDGES_N,2015,True,True,False,False
+Point Vicente SMCA,RIDGES_N,2016,True,True,False,False
+Point Vicente SMCA,RIDGES_N,2017,True,True,False,False
+Point Vicente SMCA,RIDGES_N,2018,True,True,False,False
+Point Vicente SMCA,RIDGES_N,2019,True,True,False,False
+Point Vicente SMCA,RIDGES_N,2020,True,True,False,False
+Point Vicente SMCA,RIDGES_N,2021,True,True,False,False
+Point Vicente SMCA,RIDGES_N,2022,True,True,False,False
+Point Vicente SMCA,RIDGES_N,2023,True,True,False,False
+Point Vicente SMCA,RIDGES_S,2008,True,True,False,False
+Point Vicente SMCA,RIDGES_S,2012,True,True,False,False
+Point Vicente SMCA,RIDGES_S,2013,True,True,False,False
+Point Vicente SMCA,RIDGES_S,2015,True,True,False,False
+Point Vicente SMCA,RIDGES_S,2016,True,True,False,False
+Point Vicente SMCA,RIDGES_S,2017,True,True,False,False
+Point Vicente SMCA,RIDGES_S,2018,True,True,False,False
+Point Vicente SMCA,RIDGES_S,2019,True,True,False,False
+Point Vicente SMCA,RIDGES_S,2020,True,True,False,False
+Point Vicente SMCA,RIDGES_S,2021,True,True,False,False
+Point Vicente SMCA,RIDGES_S,2022,True,True,False,False
+Point Vicente SMCA,RIDGES_S,2023,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_N,2008,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_N,2009,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_N,2011,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_N,2012,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_N,2013,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_N,2015,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_N,2016,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_N,2017,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_N,2018,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_N,2019,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_N,2020,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_N,2021,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_N,2022,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_N,2023,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_S,2008,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_S,2010,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_S,2011,True,False,True,False
+Point Vicente SMCA,ROCKY_POINT_S,2012,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_S,2013,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_S,2015,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_S,2016,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_S,2017,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_S,2018,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_S,2019,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_S,2020,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_S,2021,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_S,2022,True,True,False,False
+Point Vicente SMCA,ROCKY_POINT_S,2023,True,True,False,False
+Point Vicente SMCA,UNDERWATER_ARCH,2010,True,True,False,False
+Point Vicente SMCA,UNDERWATER_ARCH,2012,True,True,False,False
+Point Vicente SMCA,UNDERWATER_ARCH,2013,True,True,False,False
+Point Vicente SMCA,UNDERWATER_ARCH,2015,False,False,False,True
+Point Vicente SMCA,UNDERWATER_ARCH,2016,False,False,False,True
+Point Vicente SMCA,UNDERWATER_ARCH,2017,True,True,False,False
+Point Vicente SMCA,UNDERWATER_ARCH,2018,True,True,False,False
+Point Vicente SMCA,UNDERWATER_ARCH,2019,True,True,False,False
+Point Vicente SMCA,UNDERWATER_ARCH,2020,True,True,False,False
+Point Vicente SMCA,UNDERWATER_ARCH,2021,True,True,False,False
+Point Vicente SMCA,UNDERWATER_ARCH,2022,True,True,False,False
+Point Vicente SMCA,UNDERWATER_ARCH,2023,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_E,2007,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_E,2009,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_E,2010,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_E,2011,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_E,2012,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_E,2013,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_E,2014,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_E,2015,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_E,2016,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_E,2017,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_E,2018,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_E,2019,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_E,2020,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_E,2021,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_E,2022,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_E,2023,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_W,2007,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_W,2009,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_W,2010,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_W,2011,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_W,2012,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_W,2013,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_W,2014,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_W,2015,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_W,2016,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_W,2017,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_W,2018,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_W,2019,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_W,2020,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_W,2021,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_W,2022,True,True,False,False
+Scorpion SMR,SCI_CAVERN_POINT_W,2023,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_E,2004,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_E,2005,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_E,2006,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_E,2007,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_E,2008,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_E,2009,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_E,2010,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_E,2011,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_E,2012,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_E,2013,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_E,2014,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_E,2015,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_E,2016,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_E,2017,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_E,2018,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_E,2019,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_E,2020,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_E,2021,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_E,2022,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_E,2023,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_W,2004,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_W,2005,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_W,2006,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_W,2007,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_W,2008,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_W,2009,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_W,2010,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_W,2011,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_W,2012,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_W,2013,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_W,2014,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_W,2015,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_W,2016,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_W,2017,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_W,2018,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_W,2019,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_W,2020,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_W,2021,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_W,2022,True,True,False,False
+Scorpion SMR,SCI_COCHE_POINT_W,2023,True,True,False,False
+Scorpion SMR,SCI_LITTLE_SCORPION_E,2007,True,True,False,False
+Scorpion SMR,SCI_LITTLE_SCORPION_E,2009,True,True,False,False
+Scorpion SMR,SCI_LITTLE_SCORPION_E,2013,True,True,False,False
+Scorpion SMR,SCI_LITTLE_SCORPION_W,2007,True,True,False,False
+Scorpion SMR,SCI_LITTLE_SCORPION_W,2009,True,True,False,False
+Scorpion SMR,SCI_LITTLE_SCORPION_W,2013,True,True,False,False
+Scorpion SMR,SCI_PELICAN_CEN,2004,True,True,False,False
+Scorpion SMR,SCI_PELICAN_CEN,2005,True,True,False,False
+Scorpion SMR,SCI_PELICAN_CEN,2006,True,True,False,False
+Scorpion SMR,SCI_PELICAN_CEN,2007,True,True,False,False
+Scorpion SMR,SCI_PELICAN_CEN,2008,True,True,False,False
+Scorpion SMR,SCI_PELICAN_CEN,2009,True,True,False,False
+Scorpion SMR,SCI_PELICAN_CEN,2010,True,True,False,False
+Scorpion SMR,SCI_PELICAN_CEN,2011,True,True,False,False
+Scorpion SMR,SCI_PELICAN_CEN,2012,True,True,False,False
+Scorpion SMR,SCI_PELICAN_CEN,2014,True,True,False,False
+Scorpion SMR,SCI_PELICAN_CEN,2015,True,True,False,False
+Scorpion SMR,SCI_PELICAN_CEN,2016,True,True,False,False
+Scorpion SMR,SCI_PELICAN_CEN,2017,True,True,False,False
+Scorpion SMR,SCI_PELICAN_CEN,2018,True,True,False,False
+Scorpion SMR,SCI_PELICAN_CEN,2019,True,True,False,False
+Scorpion SMR,SCI_PELICAN_CEN,2020,True,True,False,False
+Scorpion SMR,SCI_PELICAN_CEN,2021,True,True,False,False
+Scorpion SMR,SCI_PELICAN_CEN,2022,True,True,False,False
+Scorpion SMR,SCI_PELICAN_CEN,2023,True,True,False,False
+Scorpion SMR,SCI_PELICAN_E,2004,True,True,False,False
+Scorpion SMR,SCI_PELICAN_E,2005,True,True,False,False
+Scorpion SMR,SCI_PELICAN_E,2006,True,True,False,False
+Scorpion SMR,SCI_PELICAN_E,2007,True,True,False,False
+Scorpion SMR,SCI_PELICAN_E,2008,True,True,False,False
+Scorpion SMR,SCI_PELICAN_E,2009,True,True,False,False
+Scorpion SMR,SCI_PELICAN_E,2010,True,True,False,False
+Scorpion SMR,SCI_PELICAN_E,2011,True,True,False,False
+Scorpion SMR,SCI_PELICAN_E,2012,True,True,False,False
+Scorpion SMR,SCI_PELICAN_E,2014,True,True,False,False
+Scorpion SMR,SCI_PELICAN_E,2015,True,True,False,False
+Scorpion SMR,SCI_PELICAN_E,2016,True,True,False,False
+Scorpion SMR,SCI_PELICAN_E,2017,True,True,False,False
+Scorpion SMR,SCI_PELICAN_E,2018,True,True,False,False
+Scorpion SMR,SCI_PELICAN_E,2019,True,True,False,False
+Scorpion SMR,SCI_PELICAN_E,2020,True,True,False,False
+Scorpion SMR,SCI_PELICAN_E,2021,True,True,False,False
+Scorpion SMR,SCI_PELICAN_E,2022,True,True,False,False
+Scorpion SMR,SCI_PELICAN_E,2023,True,True,False,False
+Scorpion SMR,SCI_PELICAN_W,2004,True,True,False,False
+Scorpion SMR,SCI_PELICAN_W,2005,True,True,False,False
+Scorpion SMR,SCI_PELICAN_W,2006,True,True,False,False
+Scorpion SMR,SCI_PELICAN_W,2007,True,True,False,False
+Scorpion SMR,SCI_PELICAN_W,2008,True,True,False,False
+Scorpion SMR,SCI_PELICAN_W,2009,True,True,False,False
+Scorpion SMR,SCI_PELICAN_W,2010,True,True,False,False
+Scorpion SMR,SCI_PELICAN_W,2011,True,True,False,False
+Scorpion SMR,SCI_PELICAN_W,2012,True,True,False,False
+Scorpion SMR,SCI_PELICAN_W,2014,True,True,False,False
+Scorpion SMR,SCI_PELICAN_W,2015,True,True,False,False
+Scorpion SMR,SCI_PELICAN_W,2016,True,True,False,False
+Scorpion SMR,SCI_PELICAN_W,2017,True,True,False,False
+Scorpion SMR,SCI_PELICAN_W,2018,True,True,False,False
+Scorpion SMR,SCI_PELICAN_W,2019,True,True,False,False
+Scorpion SMR,SCI_PELICAN_W,2020,True,True,False,False
+Scorpion SMR,SCI_PELICAN_W,2021,True,True,False,False
+Scorpion SMR,SCI_PELICAN_W,2022,True,True,False,False
+Scorpion SMR,SCI_PELICAN_W,2023,True,True,False,False
+Scorpion SMR,SCI_POTATO_PASTURE_E,2007,True,True,False,False
+Scorpion SMR,SCI_POTATO_PASTURE_E,2009,True,True,False,False
+Scorpion SMR,SCI_POTATO_PASTURE_E,2013,True,True,False,False
+Scorpion SMR,SCI_POTATO_PASTURE_W,2007,True,True,False,False
+Scorpion SMR,SCI_POTATO_PASTURE_W,2009,True,True,False,False
+Scorpion SMR,SCI_POTATO_PASTURE_W,2013,True,True,False,False
+Scorpion SMR,SCI_SAN_PEDRO_POINT_E,2007,True,True,False,False
+Scorpion SMR,SCI_SAN_PEDRO_POINT_E,2009,True,True,False,False
+Scorpion SMR,SCI_SAN_PEDRO_POINT_E,2013,True,True,False,False
+Scorpion SMR,SCI_SAN_PEDRO_POINT_W,2007,True,True,False,False
+Scorpion SMR,SCI_SAN_PEDRO_POINT_W,2009,True,True,False,False
+Scorpion SMR,SCI_SAN_PEDRO_POINT_W,2013,True,True,False,False
+Scorpion SMR,SCI_SCORPION_ANCHORAGE,2007,True,True,False,False
+Scorpion SMR,SCI_SCORPION_ANCHORAGE,2008,True,True,False,False
+Scorpion SMR,SCI_SCORPION_ANCHORAGE,2009,True,True,False,False
+Scorpion SMR,SCI_SCORPION_ANCHORAGE,2013,True,True,False,False
+Scorpion SMR,SCI_SCORPION_E,2004,True,True,False,False
+Scorpion SMR,SCI_SCORPION_E,2005,True,True,False,False
+Scorpion SMR,SCI_SCORPION_E,2006,True,True,False,False
+Scorpion SMR,SCI_SCORPION_E,2007,True,True,False,False
+Scorpion SMR,SCI_SCORPION_E,2008,True,True,False,False
+Scorpion SMR,SCI_SCORPION_E,2009,True,True,False,False
+Scorpion SMR,SCI_SCORPION_E,2010,True,True,False,False
+Scorpion SMR,SCI_SCORPION_E,2011,True,True,False,False
+Scorpion SMR,SCI_SCORPION_E,2012,True,True,False,False
+Scorpion SMR,SCI_SCORPION_E,2013,True,True,False,False
+Scorpion SMR,SCI_SCORPION_E,2014,True,True,False,False
+Scorpion SMR,SCI_SCORPION_E,2015,True,True,False,False
+Scorpion SMR,SCI_SCORPION_E,2016,True,True,False,False
+Scorpion SMR,SCI_SCORPION_E,2017,True,True,False,False
+Scorpion SMR,SCI_SCORPION_E,2018,True,True,False,False
+Scorpion SMR,SCI_SCORPION_E,2019,True,True,False,False
+Scorpion SMR,SCI_SCORPION_E,2020,True,True,False,False
+Scorpion SMR,SCI_SCORPION_E,2021,True,True,False,False
+Scorpion SMR,SCI_SCORPION_E,2022,True,True,False,False
+Scorpion SMR,SCI_SCORPION_E,2023,True,True,False,False
+Scorpion SMR,SCI_SCORPION_W,2004,True,True,False,False
+Scorpion SMR,SCI_SCORPION_W,2005,True,True,False,False
+Scorpion SMR,SCI_SCORPION_W,2006,True,True,False,False
+Scorpion SMR,SCI_SCORPION_W,2007,True,True,False,False
+Scorpion SMR,SCI_SCORPION_W,2008,True,True,False,False
+Scorpion SMR,SCI_SCORPION_W,2009,True,True,False,False
+Scorpion SMR,SCI_SCORPION_W,2010,True,True,False,False
+Scorpion SMR,SCI_SCORPION_W,2011,True,True,False,False
+Scorpion SMR,SCI_SCORPION_W,2012,True,True,False,False
+Scorpion SMR,SCI_SCORPION_W,2013,True,True,False,False
+Scorpion SMR,SCI_SCORPION_W,2014,True,True,False,False
+Scorpion SMR,SCI_SCORPION_W,2015,True,True,False,False
+Scorpion SMR,SCI_SCORPION_W,2016,True,True,False,False
+Scorpion SMR,SCI_SCORPION_W,2017,True,True,False,False
+Scorpion SMR,SCI_SCORPION_W,2018,True,True,False,False
+Scorpion SMR,SCI_SCORPION_W,2019,True,True,False,False
+Scorpion SMR,SCI_SCORPION_W,2020,True,True,False,False
+Scorpion SMR,SCI_SCORPION_W,2021,True,True,False,False
+Scorpion SMR,SCI_SCORPION_W,2022,True,True,False,False
+Scorpion SMR,SCI_SCORPION_W,2023,True,True,False,False
+South Point SMR,SRI_CHICKASAW_E,2005,True,True,False,False
+South Point SMR,SRI_CHICKASAW_E,2007,True,True,False,False
+South Point SMR,SRI_CHICKASAW_E,2008,True,True,False,False
+South Point SMR,SRI_CHICKASAW_E,2009,True,True,False,False
+South Point SMR,SRI_CHICKASAW_W,2005,True,True,False,False
+South Point SMR,SRI_CHICKASAW_W,2007,True,True,False,False
+South Point SMR,SRI_CHICKASAW_W,2008,True,True,False,False
+South Point SMR,SRI_CHICKASAW_W,2009,True,True,False,False
+South Point SMR,SRI_CLUSTER_POINT_N,2007,True,True,False,False
+South Point SMR,SRI_CLUSTER_POINT_N,2008,True,True,False,False
+South Point SMR,SRI_CLUSTER_POINT_N,2009,True,True,False,False
+South Point SMR,SRI_CLUSTER_POINT_N,2010,True,True,False,False
+South Point SMR,SRI_CLUSTER_POINT_N,2011,False,False,False,True
+South Point SMR,SRI_CLUSTER_POINT_N,2012,True,True,False,False
+South Point SMR,SRI_CLUSTER_POINT_N,2014,True,False,True,False
+South Point SMR,SRI_CLUSTER_POINT_N,2015,True,True,False,False
+South Point SMR,SRI_CLUSTER_POINT_N,2016,True,True,False,False
+South Point SMR,SRI_CLUSTER_POINT_N,2017,True,True,False,False
+South Point SMR,SRI_CLUSTER_POINT_N,2018,True,True,False,False
+South Point SMR,SRI_CLUSTER_POINT_N,2019,True,False,True,False
+South Point SMR,SRI_CLUSTER_POINT_N,2020,True,True,False,False
+South Point SMR,SRI_CLUSTER_POINT_N,2021,True,False,True,False
+South Point SMR,SRI_CLUSTER_POINT_S,2007,True,True,False,False
+South Point SMR,SRI_CLUSTER_POINT_S,2008,True,True,False,False
+South Point SMR,SRI_CLUSTER_POINT_S,2009,True,True,False,False
+South Point SMR,SRI_CLUSTER_POINT_S,2010,True,True,False,False
+South Point SMR,SRI_CLUSTER_POINT_S,2011,False,False,False,True
+South Point SMR,SRI_CLUSTER_POINT_S,2012,True,True,False,False
+South Point SMR,SRI_CLUSTER_POINT_S,2014,False,False,False,True
+South Point SMR,SRI_CLUSTER_POINT_S,2015,True,True,False,False
+South Point SMR,SRI_CLUSTER_POINT_S,2016,True,True,False,False
+South Point SMR,SRI_CLUSTER_POINT_S,2017,True,True,False,False
+South Point SMR,SRI_CLUSTER_POINT_S,2018,True,True,False,False
+South Point SMR,SRI_CLUSTER_POINT_S,2019,True,False,True,False
+South Point SMR,SRI_CLUSTER_POINT_S,2020,True,True,False,False
+South Point SMR,SRI_CLUSTER_POINT_S,2021,True,False,True,False
+South Point SMR,SRI_CLUSTER_POINT_S,2023,True,False,True,False
+South Point SMR,SRI_JOHNSONS_LEE_NORTH_E,2005,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_NORTH_E,2007,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_NORTH_E,2008,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_NORTH_E,2009,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_NORTH_W,2005,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_NORTH_W,2007,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_NORTH_W,2008,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_NORTH_W,2009,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_E,2007,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_E,2008,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_E,2009,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_E,2010,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_E,2011,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_E,2012,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_E,2014,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_E,2015,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_E,2016,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_E,2017,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_E,2018,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_E,2019,True,False,True,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_E,2020,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_E,2021,True,False,True,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_E,2023,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_W,2007,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_W,2008,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_W,2009,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_W,2010,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_W,2011,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_W,2012,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_W,2014,False,False,False,True
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_W,2015,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_W,2016,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_W,2017,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_W,2018,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_W,2019,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_W,2020,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_W,2021,True,True,False,False
+South Point SMR,SRI_JOHNSONS_LEE_SOUTH_W,2023,True,False,True,False
+South Point SMR,SRI_SOUTH_POINT_E,2007,True,True,False,False
+South Point SMR,SRI_SOUTH_POINT_E,2008,True,True,False,False
+South Point SMR,SRI_SOUTH_POINT_E,2009,True,True,False,False
+South Point SMR,SRI_SOUTH_POINT_E,2010,True,True,False,False
+South Point SMR,SRI_SOUTH_POINT_E,2011,True,False,True,False
+South Point SMR,SRI_SOUTH_POINT_E,2012,True,True,False,False
+South Point SMR,SRI_SOUTH_POINT_E,2014,False,False,False,True
+South Point SMR,SRI_SOUTH_POINT_E,2015,True,True,False,False
+South Point SMR,SRI_SOUTH_POINT_E,2016,True,True,False,False
+South Point SMR,SRI_SOUTH_POINT_E,2017,True,True,False,False
+South Point SMR,SRI_SOUTH_POINT_E,2018,True,True,False,False
+South Point SMR,SRI_SOUTH_POINT_E,2019,False,False,False,True
+South Point SMR,SRI_SOUTH_POINT_E,2020,True,True,False,False
+South Point SMR,SRI_SOUTH_POINT_E,2021,True,False,True,False
+South Point SMR,SRI_SOUTH_POINT_E,2023,True,False,True,False
+South Point SMR,SRI_SOUTH_POINT_W,2007,True,True,False,False
+South Point SMR,SRI_SOUTH_POINT_W,2008,True,True,False,False
+South Point SMR,SRI_SOUTH_POINT_W,2009,True,True,False,False
+South Point SMR,SRI_SOUTH_POINT_W,2010,True,True,False,False
+South Point SMR,SRI_SOUTH_POINT_W,2011,True,False,True,False
+South Point SMR,SRI_SOUTH_POINT_W,2012,True,True,False,False
+South Point SMR,SRI_SOUTH_POINT_W,2014,True,False,True,False
+South Point SMR,SRI_SOUTH_POINT_W,2015,True,True,False,False
+South Point SMR,SRI_SOUTH_POINT_W,2016,True,True,False,False
+South Point SMR,SRI_SOUTH_POINT_W,2017,True,True,False,False
+South Point SMR,SRI_SOUTH_POINT_W,2018,True,True,False,False
+South Point SMR,SRI_SOUTH_POINT_W,2019,True,False,True,False
+South Point SMR,SRI_SOUTH_POINT_W,2020,True,True,False,False
+South Point SMR,SRI_SOUTH_POINT_W,2021,True,False,True,False
+South Point SMR,SRI_SOUTH_POINT_W,2023,True,False,True,False
+South Point SMR,SRI_TRANCION_CANYON_E,2007,True,True,False,False
+South Point SMR,SRI_TRANCION_CANYON_E,2009,True,True,False,False
+South Point SMR,SRI_TRANCION_CANYON_W,2007,True,True,False,False
+South Point SMR,SRI_TRANCION_CANYON_W,2009,True,True,False,False

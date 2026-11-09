@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "strict_visit_identity": 1086,
+  "strict_annual_identity": 78,
+  "strict_model_estimate_se_interval_identity": 6,
+  "calibration_predictions_reproduced": 3208,
+  "source_samples_reproduced": 682,
+  "all_scenario_visits": 4344,
+  "lossless_donor_attempts": 1416,
+  "protected_files_unchanged": 487,
+  "input_files_unchanged": 10,
+  "complete_reference_poison_test": true,
+  "zero_unknown_test": true,
+  "all_month_density_byte_identity": true,
+  "no_cross_species_mpa_role_zone_year": true,
+  "outer_site_exclusion": true,
+  "minimum_two_groups": true,
+  "uniform_tolerance_actual_allcases": true,
+  "singleton_measured_uses": 84
+}

@@ -1,0 +1,17 @@
+from pathlib import Path
+import pandas as pd,numpy as np,json
+A=Path(__file__).resolve().parents[2];P=A.parent/'sbc-donham-kelp-mpa-data/data/source_archive/fish_lter_reconciliation_20261102';O=A/'outputs/fish_lter_reconciliation_20261102';keys=['YEAR','SITE','TRANSECT']
+z=pd.read_csv(O/'lter_transect_comparison.csv');z=z[z._merge.eq('both')].copy()
+j=pd.read_csv(P/'lter_juvenile_source.csv');j['den']=j.COUNT.replace(-99999,np.nan)/j.AREA
+# Source quadrats: unavailable counts remain unavailable; no biological absence inferred.
+q=j.groupby(keys+['QUAD','SIDE'],dropna=False).den.sum(min_count=1).reset_index();q['unknown']=q.den.isna();j=q.groupby(keys).agg(juvenile_density=('den','mean'),unknown_quads=('unknown','sum')).reset_index();j.loc[j.unknown_quads.gt(0),'juvenile_density']=np.nan
+z=z.merge(j,on=keys,how='left',validate='one_to_one');z['adult_july_mass']=z.current_density*102.34;z['predicted_with_juveniles']=z.adult_july_mass+1.16*z.juvenile_density;z['provider_minus_prediction']=z.provider_dry_g_m2-z.predicted_with_juveniles;z['provider_minus_adult_density']=z.provider_density-z.current_density;z['density_residual']=z.provider_minus_adult_density-z.juvenile_density;z.to_csv(O/'lter_formula_decomposition.csv',index=False)
+print('all matched finite biomass residual max',z.provider_minus_prediction.abs().max(),'exact',sum(z.provider_minus_prediction.abs()<1e-6),'of',z.provider_minus_prediction.notna().sum());print(z[z.provider_minus_prediction.abs()>1e-6][keys+['MONTH','juvenile_density','provider_minus_prediction']].head(8).to_string(index=False))
+m=pd.read_csv(A/'data/MBON/SBCMBON_kelp_forest_site_geolocation_20210120_KFM_LTER.csv');m=m[(m.data_source=='lter')&m.CA_MPA_Name_Short.isin(['Campus Point SMCA','Naples SMCA'])&m.site_id.ne('AHND')];z=z.merge(m[['site_id','CA_MPA_Name_Short','status']],left_on='SITE',right_on='site_id',validate='many_to_one');z['provider_missing']=z.provider_dry_g_m2.isna()
+s=z.groupby(['CA_MPA_Name_Short','status','YEAR','SITE']).agg(current=('current_biomass','mean'),adult_fixed_july=('adult_july_mass','mean'),provider=('provider_dry_g_m2','mean'),missing=('provider_missing','sum')).reset_index();s.loc[s.missing>0,'provider']=np.nan
+r=s.groupby(['CA_MPA_Name_Short','status','YEAR']).agg(current=('current','mean'),adult_fixed_july=('adult_fixed_july','mean'),provider=('provider','mean'),missing=('missing','sum')).reset_index();r.loc[r.missing>0,'provider']=np.nan;r.to_csv(O/'lter_role_year_comparison.csv',index=False)
+w=r.pivot(index=['CA_MPA_Name_Short','YEAR'],columns='status',values=['current','adult_fixed_july','provider']);out=w.index.to_frame(index=False)
+for k in ['current','adult_fixed_july','provider']:
+ ratio=w[k]['mpa']/w[k]['reference'];out[k+'_ratio']=np.where(w[k].min(axis=1,skipna=False)>0,ratio,np.nan)
+out['fixed_july_log_change']=np.log(out.adult_fixed_july_ratio/out.current_ratio);out['provider_log_change']=np.log(out.provider_ratio/out.current_ratio);out.to_csv(O/'lter_positive_pair_ratio_comparison.csv',index=False)
+summary=out.groupby('CA_MPA_Name_Short').agg(positive_current_years=('current_ratio','count'),positive_provider_years=('provider_ratio','count'),median_abs_log_change=('provider_log_change',lambda x:x.abs().median()),max_abs_log_change=('provider_log_change',lambda x:x.abs().max()),max_abs_calibration_log_change=('fixed_july_log_change',lambda x:x.abs().max()));summary.to_csv(O/'lter_ratio_change_summary.csv');print(summary.to_string())

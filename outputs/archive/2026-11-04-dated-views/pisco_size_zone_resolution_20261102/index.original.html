@@ -1,0 +1,2020 @@
+<!doctype html><meta charset="utf-8"><title>PISCO size-zone resolution</title><style>body{font:16px/1.5 system-ui;margin:30px}td,th{padding:6px;border-bottom:1px solid #ddd;text-align:left}table{font-size:13px;border-collapse:collapse}</style><h1>PISCO size-zone check</h1><p>All 23 flags trace to inconsistent seasonal filtering: matching count surveys are present in the raw files.</p><p>Paper unchanged. No new seasonal rule adopted.</p><p><a href="README.md">Findings, methods and recommendation</a></p><img style="max-width:100%" src="seasonal_size_comparison.png"><p>A: current full history. B: current values on supported years. C: season-matched sizes on those same years. Lines show conditional temporal uncertainty, not total biomass uncertainty.</p><h2>Summary</h2><div style="overflow:auto"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>series_id</th>
+      <th>current_all_years</th>
+      <th>current_same_years</th>
+      <th>revised_same_years</th>
+      <th>coverage_change</th>
+      <th>size_change</th>
+      <th>original_years</th>
+      <th>retained_years</th>
+      <th>lost_years</th>
+      <th>conditional_low</th>
+      <th>conditional_high</th>
+      <th>source_resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>-0.18413</td>
+      <td>-0.18413</td>
+      <td>-0.19323</td>
+      <td>0</td>
+      <td>-0.0090974</td>
+      <td>11</td>
+      <td>11</td>
+      <td>NaN</td>
+      <td>-0.26652</td>
+      <td>-0.11994</td>
+      <td>All flagged zone surveys present in raw counts; inconsistent seasonal filtering</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|P. interruptus|PISCO|Bio</td>
+      <td>0.23203</td>
+      <td>0.19024</td>
+      <td>0.18388</td>
+      <td>-0.041783</td>
+      <td>-0.0063624</td>
+      <td>11</td>
+      <td>10</td>
+      <td>2014</td>
+      <td>-0.037844</td>
+      <td>0.40561</td>
+      <td>All flagged zone surveys present in raw counts; inconsistent seasonal filtering</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>-0.2213</td>
+      <td>-0.2213</td>
+      <td>-0.22109</td>
+      <td>-1.1102e-16</td>
+      <td>0.00020737</td>
+      <td>11</td>
+      <td>10</td>
+      <td>2018</td>
+      <td>-0.36348</td>
+      <td>-0.078697</td>
+      <td>All flagged zone surveys present in raw counts; inconsistent seasonal filtering</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>0.015546</td>
+      <td>-0.061138</td>
+      <td>-0.063488</td>
+      <td>-0.076685</td>
+      <td>-0.0023494</td>
+      <td>10</td>
+      <td>9</td>
+      <td>2013</td>
+      <td>-0.15685</td>
+      <td>0.029879</td>
+      <td>All flagged zone surveys present in raw counts; inconsistent seasonal filtering</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|P. interruptus|PISCO|Bio</td>
+      <td>0.13111</td>
+      <td>0.13111</td>
+      <td>0.13146</td>
+      <td>0</td>
+      <td>0.00034871</td>
+      <td>10</td>
+      <td>10</td>
+      <td>NaN</td>
+      <td>-0.13682</td>
+      <td>0.39973</td>
+      <td>All flagged zone surveys present in raw counts; inconsistent seasonal filtering</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>0.088283</td>
+      <td>0.088283</td>
+      <td>0.083403</td>
+      <td>0</td>
+      <td>-0.00488</td>
+      <td>10</td>
+      <td>10</td>
+      <td>NaN</td>
+      <td>-0.32133</td>
+      <td>0.48814</td>
+      <td>All flagged zone surveys present in raw counts; inconsistent seasonal filtering</td>
+    </tr>
+  </tbody>
+</table></div><h2>Source records</h2><div style="overflow:auto"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>series_id</th>
+      <th>year</th>
+      <th>status</th>
+      <th>site</th>
+      <th>size_zone</th>
+      <th>n_animals</th>
+      <th>retained_count_zones</th>
+      <th>all_raw_count_zones</th>
+      <th>size_dates</th>
+      <th>retained_count_dates</th>
+      <th>raw_zone_dates</th>
+      <th>size_depths</th>
+      <th>count_depth_min</th>
+      <th>count_depth_max</th>
+      <th>fish_has_zone</th>
+      <th>all_size_dates_have_raw_same_zone_count</th>
+      <th>raw_zone_months</th>
+      <th>reason</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>2014</td>
+      <td>mpa</td>
+      <td>ABALONE_COVE_KELP_W</td>
+      <td>MID</td>
+      <td>41</td>
+      <td>INNER</td>
+      <td>INNER;MID</td>
+      <td>2014-12-22</td>
+      <td>2014-07-25</td>
+      <td>2014-12-22</td>
+      <td>NaN</td>
+      <td>2.5</td>
+      <td>2.5</td>
+      <td>True</td>
+      <td>True</td>
+      <td>12</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>2015</td>
+      <td>mpa</td>
+      <td>ABALONE_COVE_KELP_W</td>
+      <td>OUTER</td>
+      <td>1</td>
+      <td>INNER;MID</td>
+      <td>INNER;MID;OUTER</td>
+      <td>2015-03-27</td>
+      <td>2015-09-02</td>
+      <td>2015-03-27</td>
+      <td>NaN</td>
+      <td>5</td>
+      <td>9</td>
+      <td>True</td>
+      <td>True</td>
+      <td>3</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>2020</td>
+      <td>reference</td>
+      <td>BUNKER_POINT</td>
+      <td>OUTER</td>
+      <td>3</td>
+      <td>INNER;MID</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2020-11-06</td>
+      <td>2020-10-02</td>
+      <td>2020-11-06</td>
+      <td>NaN</td>
+      <td>5</td>
+      <td>9</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>2021</td>
+      <td>reference</td>
+      <td>3_PALMS_EAST</td>
+      <td>INNER</td>
+      <td>10</td>
+      <td>DEEP</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2021-11-02</td>
+      <td>2021-10-21</td>
+      <td>2021-11-02</td>
+      <td>NaN</td>
+      <td>22.6</td>
+      <td>22.6</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>2021</td>
+      <td>reference</td>
+      <td>3_PALMS_EAST</td>
+      <td>MID</td>
+      <td>6</td>
+      <td>DEEP</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2021-11-02</td>
+      <td>2021-10-21</td>
+      <td>2021-11-02</td>
+      <td>NaN</td>
+      <td>22.6</td>
+      <td>22.6</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>2021</td>
+      <td>reference</td>
+      <td>3_PALMS_EAST</td>
+      <td>OUTER</td>
+      <td>6</td>
+      <td>DEEP</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2021-11-02</td>
+      <td>2021-10-21</td>
+      <td>2021-11-02</td>
+      <td>NaN</td>
+      <td>22.6</td>
+      <td>22.6</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>2021</td>
+      <td>reference</td>
+      <td>BUNKER_POINT</td>
+      <td>INNER</td>
+      <td>3</td>
+      <td>DEEP;OUTER</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2021-11-09</td>
+      <td>2021-10-21</td>
+      <td>2021-11-09</td>
+      <td>NaN</td>
+      <td>13.7</td>
+      <td>21.6</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>2021</td>
+      <td>reference</td>
+      <td>BUNKER_POINT</td>
+      <td>MID</td>
+      <td>16</td>
+      <td>DEEP;OUTER</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2021-11-02</td>
+      <td>2021-10-21</td>
+      <td>2021-11-02</td>
+      <td>NaN</td>
+      <td>13.7</td>
+      <td>21.6</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>2021</td>
+      <td>reference</td>
+      <td>POINT_FERMIN</td>
+      <td>INNER</td>
+      <td>12</td>
+      <td>MID;OUTER</td>
+      <td>INNER;MID;OUTER</td>
+      <td>2021-11-23</td>
+      <td>2021-06-29;2021-07-01</td>
+      <td>2021-11-23</td>
+      <td>NaN</td>
+      <td>10.4</td>
+      <td>14.3</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|P. interruptus|PISCO|Bio</td>
+      <td>2015</td>
+      <td>reference</td>
+      <td>POINT_FERMIN</td>
+      <td>INNER</td>
+      <td>5</td>
+      <td>MID;OUTER</td>
+      <td>INNER;MID;OUTER</td>
+      <td>2015-11-13</td>
+      <td>2015-07-28</td>
+      <td>2015-11-13</td>
+      <td>NaN</td>
+      <td>11</td>
+      <td>14</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|P. interruptus|PISCO|Bio</td>
+      <td>2018</td>
+      <td>reference</td>
+      <td>3_PALMS_EAST</td>
+      <td>INNER</td>
+      <td>1</td>
+      <td>DEEP;OUTER</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2018-11-16</td>
+      <td>2018-10-09;2018-10-19</td>
+      <td>2018-11-16</td>
+      <td>NaN</td>
+      <td>14.9</td>
+      <td>22</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|P. interruptus|PISCO|Bio</td>
+      <td>2021</td>
+      <td>reference</td>
+      <td>3_PALMS_EAST</td>
+      <td>INNER</td>
+      <td>1</td>
+      <td>DEEP</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2021-11-02</td>
+      <td>2021-10-21</td>
+      <td>2021-11-02</td>
+      <td>NaN</td>
+      <td>22.6</td>
+      <td>22.6</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|P. interruptus|PISCO|Bio</td>
+      <td>2021</td>
+      <td>reference</td>
+      <td>BUNKER_POINT</td>
+      <td>INNER</td>
+      <td>8</td>
+      <td>DEEP;OUTER</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2021-11-09</td>
+      <td>2021-10-21</td>
+      <td>2021-11-09</td>
+      <td>NaN</td>
+      <td>13.7</td>
+      <td>21.6</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|P. interruptus|PISCO|Bio</td>
+      <td>2021</td>
+      <td>reference</td>
+      <td>BUNKER_POINT</td>
+      <td>MID</td>
+      <td>2</td>
+      <td>DEEP;OUTER</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2021-11-02</td>
+      <td>2021-10-21</td>
+      <td>2021-11-02</td>
+      <td>NaN</td>
+      <td>13.7</td>
+      <td>21.6</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>2014</td>
+      <td>mpa</td>
+      <td>ABALONE_COVE_KELP_W</td>
+      <td>MID</td>
+      <td>12</td>
+      <td>INNER</td>
+      <td>INNER;MID</td>
+      <td>2014-12-22</td>
+      <td>2014-07-25</td>
+      <td>2014-12-22</td>
+      <td>NaN</td>
+      <td>2.5</td>
+      <td>2.5</td>
+      <td>True</td>
+      <td>True</td>
+      <td>12</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>2015</td>
+      <td>reference</td>
+      <td>POINT_FERMIN</td>
+      <td>INNER</td>
+      <td>30</td>
+      <td>MID;OUTER</td>
+      <td>INNER;MID;OUTER</td>
+      <td>2015-11-13</td>
+      <td>2015-07-28</td>
+      <td>2015-11-13</td>
+      <td>NaN</td>
+      <td>11</td>
+      <td>14</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>2015</td>
+      <td>reference</td>
+      <td>WHITES_POINT</td>
+      <td>INNER</td>
+      <td>3</td>
+      <td>MID;OUTER</td>
+      <td>INNER;MID;OUTER</td>
+      <td>2015-11-13</td>
+      <td>2015-05-21</td>
+      <td>2015-11-13</td>
+      <td>NaN</td>
+      <td>9.5</td>
+      <td>13.7</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>2020</td>
+      <td>reference</td>
+      <td>BUNKER_POINT</td>
+      <td>OUTER</td>
+      <td>3</td>
+      <td>INNER;MID</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2020-11-06</td>
+      <td>2020-10-02</td>
+      <td>2020-11-06</td>
+      <td>NaN</td>
+      <td>5</td>
+      <td>9</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>2021</td>
+      <td>reference</td>
+      <td>3_PALMS_EAST</td>
+      <td>INNER</td>
+      <td>36</td>
+      <td>DEEP</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2021-11-02</td>
+      <td>2021-10-21</td>
+      <td>2021-11-02</td>
+      <td>NaN</td>
+      <td>22.6</td>
+      <td>22.6</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>2021</td>
+      <td>reference</td>
+      <td>3_PALMS_EAST</td>
+      <td>MID</td>
+      <td>14</td>
+      <td>DEEP</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2021-11-02</td>
+      <td>2021-10-21</td>
+      <td>2021-11-02</td>
+      <td>NaN</td>
+      <td>22.6</td>
+      <td>22.6</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>2021</td>
+      <td>reference</td>
+      <td>3_PALMS_EAST</td>
+      <td>OUTER</td>
+      <td>4</td>
+      <td>DEEP</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2021-11-02</td>
+      <td>2021-10-21</td>
+      <td>2021-11-02</td>
+      <td>NaN</td>
+      <td>22.6</td>
+      <td>22.6</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>2021</td>
+      <td>reference</td>
+      <td>BUNKER_POINT</td>
+      <td>INNER</td>
+      <td>30</td>
+      <td>DEEP;OUTER</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2021-11-09</td>
+      <td>2021-10-21</td>
+      <td>2021-11-09</td>
+      <td>NaN</td>
+      <td>13.7</td>
+      <td>21.6</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>2021</td>
+      <td>reference</td>
+      <td>BUNKER_POINT</td>
+      <td>MID</td>
+      <td>30</td>
+      <td>DEEP;OUTER</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2021-11-02</td>
+      <td>2021-10-21</td>
+      <td>2021-11-02</td>
+      <td>NaN</td>
+      <td>13.7</td>
+      <td>21.6</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>2021</td>
+      <td>reference</td>
+      <td>POINT_FERMIN</td>
+      <td>INNER</td>
+      <td>46</td>
+      <td>MID;OUTER</td>
+      <td>INNER;MID;OUTER</td>
+      <td>2021-11-23</td>
+      <td>2021-06-29;2021-07-01</td>
+      <td>2021-11-23</td>
+      <td>NaN</td>
+      <td>10.4</td>
+      <td>14.3</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>2011</td>
+      <td>reference</td>
+      <td>HAWTHORNE_REEF</td>
+      <td>MID</td>
+      <td>14</td>
+      <td>DEEP;INNER;OUTER</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2011-03-04</td>
+      <td>2011-05-13;2011-05-20;2011-05-25;2011-06-10</td>
+      <td>2011-03-04</td>
+      <td>NaN</td>
+      <td>3.5</td>
+      <td>23</td>
+      <td>True</td>
+      <td>True</td>
+      <td>3</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>2011</td>
+      <td>reference</td>
+      <td>ROCKY_POINT_S</td>
+      <td>MID</td>
+      <td>2</td>
+      <td>DEEP;INNER;OUTER</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2011-12-16</td>
+      <td>2011-09-30;2011-10-12</td>
+      <td>2011-12-16</td>
+      <td>NaN</td>
+      <td>5</td>
+      <td>24.1</td>
+      <td>True</td>
+      <td>True</td>
+      <td>12</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>2012</td>
+      <td>reference</td>
+      <td>RESORT_POINT</td>
+      <td>DEEP</td>
+      <td>33</td>
+      <td>INNER;MID;OUTER</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2012-03-23</td>
+      <td>2012-05-17;2012-05-22;2012-05-29</td>
+      <td>2012-03-23</td>
+      <td>NaN</td>
+      <td>5</td>
+      <td>15</td>
+      <td>True</td>
+      <td>True</td>
+      <td>3</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>2013</td>
+      <td>mpa</td>
+      <td>POINT_VICENTE_W</td>
+      <td>INNER</td>
+      <td>16</td>
+      <td>DEEP</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2013-04-24</td>
+      <td>2013-06-11</td>
+      <td>2013-04-24</td>
+      <td>NaN</td>
+      <td>21</td>
+      <td>22</td>
+      <td>True</td>
+      <td>True</td>
+      <td>4</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>2013</td>
+      <td>mpa</td>
+      <td>POINT_VICENTE_W</td>
+      <td>MID</td>
+      <td>18</td>
+      <td>DEEP</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2013-04-24</td>
+      <td>2013-06-11</td>
+      <td>2013-04-24</td>
+      <td>NaN</td>
+      <td>21</td>
+      <td>22</td>
+      <td>True</td>
+      <td>True</td>
+      <td>4</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>2013</td>
+      <td>mpa</td>
+      <td>POINT_VICENTE_W</td>
+      <td>OUTER</td>
+      <td>23</td>
+      <td>DEEP</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2013-04-24</td>
+      <td>2013-06-11</td>
+      <td>2013-04-24</td>
+      <td>NaN</td>
+      <td>21</td>
+      <td>22</td>
+      <td>True</td>
+      <td>True</td>
+      <td>4</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>2015</td>
+      <td>reference</td>
+      <td>LUNADA_BAY</td>
+      <td>DEEP</td>
+      <td>10</td>
+      <td>OUTER</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2015-11-18</td>
+      <td>2015-10-28</td>
+      <td>2015-11-18</td>
+      <td>NaN</td>
+      <td>15.8</td>
+      <td>16</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>2015</td>
+      <td>reference</td>
+      <td>LUNADA_BAY</td>
+      <td>MID</td>
+      <td>27</td>
+      <td>OUTER</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2015-11-18</td>
+      <td>2015-10-28</td>
+      <td>2015-11-18</td>
+      <td>NaN</td>
+      <td>15.8</td>
+      <td>16</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>2023</td>
+      <td>mpa</td>
+      <td>LONG_POINT_E</td>
+      <td>INNER</td>
+      <td>1</td>
+      <td>DEEP;MID;OUTER</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2023-11-03</td>
+      <td>2023-09-29;2023-10-03</td>
+      <td>2023-11-03</td>
+      <td>NaN</td>
+      <td>9.8</td>
+      <td>23.2</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|P. interruptus|PISCO|Bio</td>
+      <td>2011</td>
+      <td>reference</td>
+      <td>ROCKY_POINT_S</td>
+      <td>MID</td>
+      <td>4</td>
+      <td>DEEP;INNER;OUTER</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2011-12-16</td>
+      <td>2011-09-30;2011-10-12</td>
+      <td>2011-12-16</td>
+      <td>NaN</td>
+      <td>5</td>
+      <td>24.1</td>
+      <td>True</td>
+      <td>True</td>
+      <td>12</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|P. interruptus|PISCO|Bio</td>
+      <td>2012</td>
+      <td>reference</td>
+      <td>RESORT_POINT</td>
+      <td>DEEP</td>
+      <td>1</td>
+      <td>INNER;MID;OUTER</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2012-03-23</td>
+      <td>2012-05-17;2012-05-22;2012-05-29</td>
+      <td>2012-03-23</td>
+      <td>NaN</td>
+      <td>5</td>
+      <td>15</td>
+      <td>True</td>
+      <td>True</td>
+      <td>3</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|P. interruptus|PISCO|Bio</td>
+      <td>2015</td>
+      <td>reference</td>
+      <td>LUNADA_BAY</td>
+      <td>DEEP</td>
+      <td>1</td>
+      <td>OUTER</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2015-11-18</td>
+      <td>2015-10-28</td>
+      <td>2015-11-18</td>
+      <td>NaN</td>
+      <td>15.8</td>
+      <td>16</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|P. interruptus|PISCO|Bio</td>
+      <td>2015</td>
+      <td>reference</td>
+      <td>LUNADA_BAY</td>
+      <td>INNER</td>
+      <td>2</td>
+      <td>OUTER</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2015-11-18</td>
+      <td>2015-10-28</td>
+      <td>2015-11-18</td>
+      <td>NaN</td>
+      <td>15.8</td>
+      <td>16</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|P. interruptus|PISCO|Bio</td>
+      <td>2023</td>
+      <td>mpa</td>
+      <td>LONG_POINT_E</td>
+      <td>INNER</td>
+      <td>9</td>
+      <td>DEEP;MID;OUTER</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2023-11-03</td>
+      <td>2023-09-29;2023-10-03</td>
+      <td>2023-11-03</td>
+      <td>NaN</td>
+      <td>9.8</td>
+      <td>23.2</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>2011</td>
+      <td>reference</td>
+      <td>HAWTHORNE_REEF</td>
+      <td>MID</td>
+      <td>94</td>
+      <td>DEEP;INNER;OUTER</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2011-03-04</td>
+      <td>2011-05-13;2011-05-20;2011-05-25;2011-06-10</td>
+      <td>2011-03-04</td>
+      <td>NaN</td>
+      <td>3.5</td>
+      <td>23</td>
+      <td>True</td>
+      <td>True</td>
+      <td>3</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>2011</td>
+      <td>reference</td>
+      <td>ROCKY_POINT_S</td>
+      <td>MID</td>
+      <td>12</td>
+      <td>DEEP;INNER;OUTER</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2011-12-16</td>
+      <td>2011-09-30;2011-10-12</td>
+      <td>2011-12-16</td>
+      <td>NaN</td>
+      <td>5</td>
+      <td>24.1</td>
+      <td>True</td>
+      <td>True</td>
+      <td>12</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>2015</td>
+      <td>reference</td>
+      <td>LUNADA_BAY</td>
+      <td>INNER</td>
+      <td>4</td>
+      <td>OUTER</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2015-11-18</td>
+      <td>2015-10-28</td>
+      <td>2015-11-18</td>
+      <td>NaN</td>
+      <td>15.8</td>
+      <td>16</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>2015</td>
+      <td>reference</td>
+      <td>LUNADA_BAY</td>
+      <td>MID</td>
+      <td>14</td>
+      <td>OUTER</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2015-11-18</td>
+      <td>2015-10-28</td>
+      <td>2015-11-18</td>
+      <td>NaN</td>
+      <td>15.8</td>
+      <td>16</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>2023</td>
+      <td>mpa</td>
+      <td>LONG_POINT_E</td>
+      <td>INNER</td>
+      <td>5</td>
+      <td>DEEP;MID;OUTER</td>
+      <td>DEEP;INNER;MID;OUTER</td>
+      <td>2023-11-03</td>
+      <td>2023-09-29;2023-10-03</td>
+      <td>2023-11-03</td>
+      <td>NaN</td>
+      <td>9.8</td>
+      <td>23.2</td>
+      <td>True</td>
+      <td>True</td>
+      <td>11</td>
+      <td>Zone present in raw swath but removed by retained month/program filters</td>
+    </tr>
+  </tbody>
+</table></div><h2>Coverage</h2><div style="overflow:auto"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>series_id</th>
+      <th>scenario</th>
+      <th>original_years</th>
+      <th>retained_years</th>
+      <th>lost_years</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>remove_known_zone_mismatch</td>
+      <td>11</td>
+      <td>11</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>same_site_only</td>
+      <td>11</td>
+      <td>11</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>same_site_and_zone</td>
+      <td>11</td>
+      <td>11</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>same_season</td>
+      <td>11</td>
+      <td>11</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>same_site_zone_season</td>
+      <td>11</td>
+      <td>11</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|P. interruptus|PISCO|Bio</td>
+      <td>remove_known_zone_mismatch</td>
+      <td>11</td>
+      <td>11</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|P. interruptus|PISCO|Bio</td>
+      <td>same_site_only</td>
+      <td>11</td>
+      <td>10</td>
+      <td>2014</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|P. interruptus|PISCO|Bio</td>
+      <td>same_site_and_zone</td>
+      <td>11</td>
+      <td>10</td>
+      <td>2014</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|P. interruptus|PISCO|Bio</td>
+      <td>same_season</td>
+      <td>11</td>
+      <td>10</td>
+      <td>2014</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|P. interruptus|PISCO|Bio</td>
+      <td>same_site_zone_season</td>
+      <td>11</td>
+      <td>10</td>
+      <td>2014</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>remove_known_zone_mismatch</td>
+      <td>11</td>
+      <td>11</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>same_site_only</td>
+      <td>11</td>
+      <td>10</td>
+      <td>2018</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>same_site_and_zone</td>
+      <td>11</td>
+      <td>10</td>
+      <td>2018</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>same_season</td>
+      <td>11</td>
+      <td>10</td>
+      <td>2018</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>same_site_zone_season</td>
+      <td>11</td>
+      <td>10</td>
+      <td>2018</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>remove_known_zone_mismatch</td>
+      <td>10</td>
+      <td>10</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>same_site_only</td>
+      <td>10</td>
+      <td>10</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>same_site_and_zone</td>
+      <td>10</td>
+      <td>9</td>
+      <td>2013</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>same_season</td>
+      <td>10</td>
+      <td>9</td>
+      <td>2013</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>same_site_zone_season</td>
+      <td>10</td>
+      <td>9</td>
+      <td>2013</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|P. interruptus|PISCO|Bio</td>
+      <td>remove_known_zone_mismatch</td>
+      <td>10</td>
+      <td>10</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|P. interruptus|PISCO|Bio</td>
+      <td>same_site_only</td>
+      <td>10</td>
+      <td>10</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|P. interruptus|PISCO|Bio</td>
+      <td>same_site_and_zone</td>
+      <td>10</td>
+      <td>10</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|P. interruptus|PISCO|Bio</td>
+      <td>same_season</td>
+      <td>10</td>
+      <td>10</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|P. interruptus|PISCO|Bio</td>
+      <td>same_site_zone_season</td>
+      <td>10</td>
+      <td>10</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>remove_known_zone_mismatch</td>
+      <td>10</td>
+      <td>10</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>same_site_only</td>
+      <td>10</td>
+      <td>10</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>same_site_and_zone</td>
+      <td>10</td>
+      <td>10</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>same_season</td>
+      <td>10</td>
+      <td>10</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>same_site_zone_season</td>
+      <td>10</td>
+      <td>10</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table></div><h2>All fits</h2><div style="overflow:auto"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>series_id</th>
+      <th>scenario</th>
+      <th>estimate</th>
+      <th>se</th>
+      <th>low</th>
+      <th>high</th>
+      <th>n_years</th>
+      <th>n_rows</th>
+      <th>df</th>
+      <th>rank</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>current_all_years</td>
+      <td>-0.18413</td>
+      <td>0.031697</td>
+      <td>-0.25584</td>
+      <td>-0.11243</td>
+      <td>11</td>
+      <td>11</td>
+      <td>9</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>remove_known_zone_mismatch__current_matched_years</td>
+      <td>-0.18413</td>
+      <td>0.031697</td>
+      <td>-0.25584</td>
+      <td>-0.11243</td>
+      <td>11</td>
+      <td>11</td>
+      <td>9</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>remove_known_zone_mismatch__revised_matched_years</td>
+      <td>-0.18569</td>
+      <td>0.031551</td>
+      <td>-0.25707</td>
+      <td>-0.11432</td>
+      <td>11</td>
+      <td>11</td>
+      <td>9</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>same_site_only__current_matched_years</td>
+      <td>-0.18413</td>
+      <td>0.031697</td>
+      <td>-0.25584</td>
+      <td>-0.11243</td>
+      <td>11</td>
+      <td>11</td>
+      <td>9</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>same_site_only__revised_matched_years</td>
+      <td>-0.19003</td>
+      <td>0.031283</td>
+      <td>-0.2608</td>
+      <td>-0.11926</td>
+      <td>11</td>
+      <td>11</td>
+      <td>9</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>same_site_and_zone__current_matched_years</td>
+      <td>-0.18413</td>
+      <td>0.031697</td>
+      <td>-0.25584</td>
+      <td>-0.11243</td>
+      <td>11</td>
+      <td>11</td>
+      <td>9</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>same_site_and_zone__revised_matched_years</td>
+      <td>-0.19015</td>
+      <td>0.030402</td>
+      <td>-0.25893</td>
+      <td>-0.12138</td>
+      <td>11</td>
+      <td>11</td>
+      <td>9</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>same_season__current_matched_years</td>
+      <td>-0.18413</td>
+      <td>0.031697</td>
+      <td>-0.25584</td>
+      <td>-0.11243</td>
+      <td>11</td>
+      <td>11</td>
+      <td>9</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>same_season__revised_matched_years</td>
+      <td>-0.19323</td>
+      <td>0.032397</td>
+      <td>-0.26652</td>
+      <td>-0.11994</td>
+      <td>11</td>
+      <td>11</td>
+      <td>9</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>same_site_zone_season__current_matched_years</td>
+      <td>-0.18413</td>
+      <td>0.031697</td>
+      <td>-0.25584</td>
+      <td>-0.11243</td>
+      <td>11</td>
+      <td>11</td>
+      <td>9</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>same_site_zone_season__revised_matched_years</td>
+      <td>-0.19323</td>
+      <td>0.032397</td>
+      <td>-0.26652</td>
+      <td>-0.11994</td>
+      <td>11</td>
+      <td>11</td>
+      <td>9</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|P. interruptus|PISCO|Bio</td>
+      <td>current_all_years</td>
+      <td>0.23203</td>
+      <td>0.099275</td>
+      <td>0.0074529</td>
+      <td>0.4566</td>
+      <td>11</td>
+      <td>11</td>
+      <td>9</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|P. interruptus|PISCO|Bio</td>
+      <td>remove_known_zone_mismatch__current_matched_years</td>
+      <td>0.23203</td>
+      <td>0.099275</td>
+      <td>0.0074529</td>
+      <td>0.4566</td>
+      <td>11</td>
+      <td>11</td>
+      <td>9</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|P. interruptus|PISCO|Bio</td>
+      <td>remove_known_zone_mismatch__revised_matched_years</td>
+      <td>0.22203</td>
+      <td>0.09583</td>
+      <td>0.0052509</td>
+      <td>0.43882</td>
+      <td>11</td>
+      <td>11</td>
+      <td>9</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|P. interruptus|PISCO|Bio</td>
+      <td>same_site_only__current_matched_years</td>
+      <td>0.19024</td>
+      <td>0.1075</td>
+      <td>-0.057658</td>
+      <td>0.43815</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|P. interruptus|PISCO|Bio</td>
+      <td>same_site_only__revised_matched_years</td>
+      <td>0.19571</td>
+      <td>0.10369</td>
+      <td>-0.04339</td>
+      <td>0.43481</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|P. interruptus|PISCO|Bio</td>
+      <td>same_site_and_zone__current_matched_years</td>
+      <td>0.19024</td>
+      <td>0.1075</td>
+      <td>-0.057658</td>
+      <td>0.43815</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|P. interruptus|PISCO|Bio</td>
+      <td>same_site_and_zone__revised_matched_years</td>
+      <td>0.18618</td>
+      <td>0.099118</td>
+      <td>-0.042387</td>
+      <td>0.41475</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|P. interruptus|PISCO|Bio</td>
+      <td>same_season__current_matched_years</td>
+      <td>0.19024</td>
+      <td>0.1075</td>
+      <td>-0.057658</td>
+      <td>0.43815</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|P. interruptus|PISCO|Bio</td>
+      <td>same_season__revised_matched_years</td>
+      <td>0.18388</td>
+      <td>0.096152</td>
+      <td>-0.037844</td>
+      <td>0.40561</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|P. interruptus|PISCO|Bio</td>
+      <td>same_site_zone_season__current_matched_years</td>
+      <td>0.19024</td>
+      <td>0.1075</td>
+      <td>-0.057658</td>
+      <td>0.43815</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|P. interruptus|PISCO|Bio</td>
+      <td>same_site_zone_season__revised_matched_years</td>
+      <td>0.18388</td>
+      <td>0.096152</td>
+      <td>-0.037844</td>
+      <td>0.40561</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>current_all_years</td>
+      <td>-0.2213</td>
+      <td>0.093687</td>
+      <td>-0.43323</td>
+      <td>-0.0093629</td>
+      <td>11</td>
+      <td>11</td>
+      <td>9</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>remove_known_zone_mismatch__current_matched_years</td>
+      <td>-0.2213</td>
+      <td>0.093687</td>
+      <td>-0.43323</td>
+      <td>-0.0093629</td>
+      <td>11</td>
+      <td>11</td>
+      <td>9</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>remove_known_zone_mismatch__revised_matched_years</td>
+      <td>-0.2238</td>
+      <td>0.093432</td>
+      <td>-0.43516</td>
+      <td>-0.012439</td>
+      <td>11</td>
+      <td>11</td>
+      <td>9</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>same_site_only__current_matched_years</td>
+      <td>-0.2213</td>
+      <td>0.061769</td>
+      <td>-0.36374</td>
+      <td>-0.078858</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>same_site_only__revised_matched_years</td>
+      <td>-0.21719</td>
+      <td>0.061759</td>
+      <td>-0.35961</td>
+      <td>-0.074776</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>same_site_and_zone__current_matched_years</td>
+      <td>-0.2213</td>
+      <td>0.061769</td>
+      <td>-0.36374</td>
+      <td>-0.078858</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>same_site_and_zone__revised_matched_years</td>
+      <td>-0.21967</td>
+      <td>0.062137</td>
+      <td>-0.36296</td>
+      <td>-0.076379</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>same_season__current_matched_years</td>
+      <td>-0.2213</td>
+      <td>0.061769</td>
+      <td>-0.36374</td>
+      <td>-0.078858</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>same_season__revised_matched_years</td>
+      <td>-0.22109</td>
+      <td>0.061749</td>
+      <td>-0.36348</td>
+      <td>-0.078697</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>same_site_zone_season__current_matched_years</td>
+      <td>-0.2213</td>
+      <td>0.061769</td>
+      <td>-0.36374</td>
+      <td>-0.078858</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Abalone Cove SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>same_site_zone_season__revised_matched_years</td>
+      <td>-0.22109</td>
+      <td>0.061749</td>
+      <td>-0.36348</td>
+      <td>-0.078697</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>current_all_years</td>
+      <td>0.015546</td>
+      <td>0.060299</td>
+      <td>-0.1235</td>
+      <td>0.1546</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>remove_known_zone_mismatch__current_matched_years</td>
+      <td>0.015546</td>
+      <td>0.060299</td>
+      <td>-0.1235</td>
+      <td>0.1546</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>remove_known_zone_mismatch__revised_matched_years</td>
+      <td>-0.025295</td>
+      <td>0.037423</td>
+      <td>-0.11159</td>
+      <td>0.061002</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>same_site_only__current_matched_years</td>
+      <td>0.015546</td>
+      <td>0.060299</td>
+      <td>-0.1235</td>
+      <td>0.1546</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>same_site_only__revised_matched_years</td>
+      <td>0.023919</td>
+      <td>0.066043</td>
+      <td>-0.12838</td>
+      <td>0.17621</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>same_site_and_zone__current_matched_years</td>
+      <td>-0.061138</td>
+      <td>0.038271</td>
+      <td>-0.15163</td>
+      <td>0.029357</td>
+      <td>9</td>
+      <td>9</td>
+      <td>7</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>same_site_and_zone__revised_matched_years</td>
+      <td>-0.060225</td>
+      <td>0.040421</td>
+      <td>-0.15581</td>
+      <td>0.035356</td>
+      <td>9</td>
+      <td>9</td>
+      <td>7</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>same_season__current_matched_years</td>
+      <td>-0.061138</td>
+      <td>0.038271</td>
+      <td>-0.15163</td>
+      <td>0.029357</td>
+      <td>9</td>
+      <td>9</td>
+      <td>7</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>same_season__revised_matched_years</td>
+      <td>-0.063488</td>
+      <td>0.039485</td>
+      <td>-0.15685</td>
+      <td>0.029879</td>
+      <td>9</td>
+      <td>9</td>
+      <td>7</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>same_site_zone_season__current_matched_years</td>
+      <td>-0.061138</td>
+      <td>0.038271</td>
+      <td>-0.15163</td>
+      <td>0.029357</td>
+      <td>9</td>
+      <td>9</td>
+      <td>7</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|M. franciscanus|PISCO|Bio</td>
+      <td>same_site_zone_season__revised_matched_years</td>
+      <td>-0.063488</td>
+      <td>0.039485</td>
+      <td>-0.15685</td>
+      <td>0.029879</td>
+      <td>9</td>
+      <td>9</td>
+      <td>7</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|P. interruptus|PISCO|Bio</td>
+      <td>current_all_years</td>
+      <td>0.13111</td>
+      <td>0.12366</td>
+      <td>-0.15405</td>
+      <td>0.41626</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|P. interruptus|PISCO|Bio</td>
+      <td>remove_known_zone_mismatch__current_matched_years</td>
+      <td>0.13111</td>
+      <td>0.12366</td>
+      <td>-0.15405</td>
+      <td>0.41626</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|P. interruptus|PISCO|Bio</td>
+      <td>remove_known_zone_mismatch__revised_matched_years</td>
+      <td>0.13983</td>
+      <td>0.12113</td>
+      <td>-0.1395</td>
+      <td>0.41916</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|P. interruptus|PISCO|Bio</td>
+      <td>same_site_only__current_matched_years</td>
+      <td>0.13111</td>
+      <td>0.12366</td>
+      <td>-0.15405</td>
+      <td>0.41626</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|P. interruptus|PISCO|Bio</td>
+      <td>same_site_only__revised_matched_years</td>
+      <td>0.12477</td>
+      <td>0.11805</td>
+      <td>-0.14746</td>
+      <td>0.397</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|P. interruptus|PISCO|Bio</td>
+      <td>same_site_and_zone__current_matched_years</td>
+      <td>0.13111</td>
+      <td>0.12366</td>
+      <td>-0.15405</td>
+      <td>0.41626</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|P. interruptus|PISCO|Bio</td>
+      <td>same_site_and_zone__revised_matched_years</td>
+      <td>0.13358</td>
+      <td>0.11549</td>
+      <td>-0.13274</td>
+      <td>0.39989</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|P. interruptus|PISCO|Bio</td>
+      <td>same_season__current_matched_years</td>
+      <td>0.13111</td>
+      <td>0.12366</td>
+      <td>-0.15405</td>
+      <td>0.41626</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|P. interruptus|PISCO|Bio</td>
+      <td>same_season__revised_matched_years</td>
+      <td>0.13146</td>
+      <td>0.11634</td>
+      <td>-0.13682</td>
+      <td>0.39973</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|P. interruptus|PISCO|Bio</td>
+      <td>same_site_zone_season__current_matched_years</td>
+      <td>0.13111</td>
+      <td>0.12366</td>
+      <td>-0.15405</td>
+      <td>0.41626</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|P. interruptus|PISCO|Bio</td>
+      <td>same_site_zone_season__revised_matched_years</td>
+      <td>0.13146</td>
+      <td>0.11634</td>
+      <td>-0.13682</td>
+      <td>0.39973</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>current_all_years</td>
+      <td>0.088283</td>
+      <td>0.17384</td>
+      <td>-0.3126</td>
+      <td>0.48917</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>remove_known_zone_mismatch__current_matched_years</td>
+      <td>0.088283</td>
+      <td>0.17384</td>
+      <td>-0.3126</td>
+      <td>0.48917</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>remove_known_zone_mismatch__revised_matched_years</td>
+      <td>0.081179</td>
+      <td>0.17664</td>
+      <td>-0.32615</td>
+      <td>0.48851</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>same_site_only__current_matched_years</td>
+      <td>0.088283</td>
+      <td>0.17384</td>
+      <td>-0.3126</td>
+      <td>0.48917</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>same_site_only__revised_matched_years</td>
+      <td>0.088903</td>
+      <td>0.17317</td>
+      <td>-0.31043</td>
+      <td>0.48824</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>same_site_and_zone__current_matched_years</td>
+      <td>0.088283</td>
+      <td>0.17384</td>
+      <td>-0.3126</td>
+      <td>0.48917</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>same_site_and_zone__revised_matched_years</td>
+      <td>0.081736</td>
+      <td>0.176</td>
+      <td>-0.32411</td>
+      <td>0.48758</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>same_season__current_matched_years</td>
+      <td>0.088283</td>
+      <td>0.17384</td>
+      <td>-0.3126</td>
+      <td>0.48917</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>same_season__revised_matched_years</td>
+      <td>0.083403</td>
+      <td>0.17551</td>
+      <td>-0.32133</td>
+      <td>0.48814</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>same_site_zone_season__current_matched_years</td>
+      <td>0.088283</td>
+      <td>0.17384</td>
+      <td>-0.3126</td>
+      <td>0.48917</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Point Vicente SMCA|S. purpuratus|PISCO|Bio</td>
+      <td>same_site_zone_season__revised_matched_years</td>
+      <td>0.083403</td>
+      <td>0.17551</td>
+      <td>-0.32133</td>
+      <td>0.48814</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table></div>

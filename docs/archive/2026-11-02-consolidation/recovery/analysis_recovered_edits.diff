@@ -1,0 +1,55 @@
+--- analysis/README_at_committed_base.md
++++ analysis/README_before_cleanup.md
+@@ -1,4 +1,20 @@
++Current audit decisions and reproducibility guide: [consolidated tables](outputs/dataset_inventory_20261101/README.md). These describe review analyses; primary integration remains on hold.
++
+ # Kelp Resilience and Trophic Responses in California MPAs
++
++**Ongoing audit record:** [Findings, decisions and unresolved questions](docs/AUDIT_FINDINGS_REGISTER.md). Recent review analyses are separate from the existing manuscript/canonical results summarized below; read the register for superseding review decisions and current limitations.
++
++November 1 satellite screening: the primary synthesis includes 143 histories (103 CI,40 pBACIPS). Santa Barbara Island and Swamis satellite histories fail the common baseline-trend screen; Naples passes. Naples LTER sheephead biomass remains included. Three population contrasts meet the primary adjusted threshold; three additional responses depend on uncertainty specification. [Current policy and results](docs/SATELLITE_BASELINE_POLICY_2026-11-01.md) supersede earlier numerical summaries below.
++
++October 30 calendar-window update: primary trends now use elapsed calendar years and compare actual post-designation surveys no more than 11 years apart. All 145 histories and their selected models are retained; 42 estimates change. Kelp, sheephead biomass and purple-urchin conclusions persist; red-urchin biomass is sensitive to uncertainty assumptions. See [the observed-window audit](docs/CALENDAR_OBSERVED_WINDOWS_2026-10-30.md).
++
++October 30 size-uncertainty check: shared lobster/purple-urchin size perturbations preserve the pooled conclusions, but the four-MPA lobster–urchin relationship's nominal interval often includes zero. These are conditional diagnostics, not replacement confidence intervals. See [methods, findings and limits](docs/PRIMARY_SIZE_UNCERTAINTY_2026-10-30.md); reproduce with `Rscript code/R/run_size_uncertainty.R` when the source files and caches are available.
++
++October 30 lobster correction: five retained antennae-only LTER sightings now receive mean individual mass from measured lobsters at the same site and survey date, with raw missing lengths and counts preserved. Only two annual biomass estimates change; pooled and predator–urchin conclusions remain unchanged. See [the treatment and reconstruction checks](docs/LOBSTER_MISSING_LENGTHS_2026-10-30.md).
++
++Selection criteria are audited against all 143 histories and exact PISCO station-year coverage in [the selection audit](docs/SELECTION_CRITERIA_AUDIT_2026-10-29.md). It separates program routing from coverage, confirms Judith/San Miguel mask overlap, and records remaining selection limitations. Run `python3 code/tests/check_selection_criteria.py /path/to/sbc-donham-kelp-mpa-data` to verify current inputs and reported coverage claims.
++
++October 29 reference-selection update: confirmed program-specific reasons are recorded in [the selection and continuity audit](docs/REFERENCE_REPLY_INTEGRATION_2026-10-29.md). Module 53 checks KFM sheephead station membership on matched years. Restricting to stations sampled before and after designation weakens Scorpion's estimated increase, but preserves all nine pooled directions and the same four adjusted conclusions. Primary estimates are unchanged; final station/routing policy and remaining source permissions are unresolved.
+ 
+ [![R](https://img.shields.io/badge/R-%3E%3D4.0-blue.svg)](https://www.r-project.org/)
+ [![Status](https://img.shields.io/badge/Status-In%20Preparation-yellow.svg)]()
+@@ -7,7 +23,7 @@
+ >
+ > **Target journal:** Journal of Applied Ecology (Research Article)
+ >
+-> *Scientific overview updated: 2026-10-20. The primary synthesis retains 145 histories from 21 MPAs. Population patterns, trophic links and designation-related disturbance responses are separate questions; current framing is in `docs/SCIENTIFIC_APPROACH.md`.*
++> *Scientific overview updated: 2026-10-20. The primary synthesis retains 143 histories from 21 MPAs. Population patterns, trophic links and designation-related disturbance responses are separate questions; current framing is in `docs/SCIENTIFIC_APPROACH.md`.*
+ 
+ ---
+ 
+@@ -108,7 +124,7 @@
+ │       ├── 26_pisco_control_sensitivity.R # PISCO reference-control dependence check
+ │       ├── 27_design_geography_sensitivity.R # Same-history change versus level; source/region checks
+ │       ├── 28_historical_heatwave_bacips.R # 1997-1998 versus 2014-2016 at the same Landsat pairs
+-│       ├── 29_pair_history_atlas.R    # All 145 primary histories, kept source-specific
++│       ├── 29_pair_history_atlas.R    # All 143 primary histories, kept source-specific
+ │       ├── 30_review_concern_checks.R # Coverage, arithmetic and integration assertions
+ │       ├── 31_primary_pathway_display.R # Primary consumer-prey fits and membership
+ │       ├── 32_pbacips_shape_display.R # Verified selected fits and nonlinear comparison
+@@ -499,3 +515,13 @@
+ </p>
+ 
+ Reference-selection history and remaining evidence gaps: [assignment audit](docs/REFERENCE_ASSIGNMENT_AUDIT.md), with one ledger row per primary history.
++
++Recorded survey-month coverage for retained histories and separate size samples is audited by `code/R/54_seasonal_coverage.R`; see `docs/SEASONAL_COVERAGE_2026-10-30.md`. This audits seasonal matching without changing primary estimates.
++
++### Primary size-pool inventory (October 30)
++
++See [the focused lobster/purple-urchin inventory](docs/PRIMARY_SIZE_POOL_INVENTORY_2026-10-30.md) for retained-pool sample sizes, exact shared measurements, missing LTER lobster lengths and recommended follow-up. Inventory only; current estimates are unchanged.
++
++### Antennae-only lobster lengths (October 30)
++
++[Source verification and treatment comparisons](docs/LOBSTER_MISSING_LENGTHS_2026-10-30.md) confirm five retained animals were counted without measurable bodies. Five alternative treatments preserve the tested conclusions. Recommended expected-mass correction is not yet primary; module56 is diagnostic only.

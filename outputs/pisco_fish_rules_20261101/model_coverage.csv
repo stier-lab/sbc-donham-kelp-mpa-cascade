@@ -1,0 +1,2101 @@
+"series_id","scenario","metric","nb","na","eligible"
+"Naples SMCA|M. franciscanus|LTER|Den","Total__Before","Change",11,11,TRUE
+"Naples SMCA|M. franciscanus|LTER|Den","Total__Before","Post_slope",11,11,TRUE
+"Naples SMCA|M. franciscanus|LTER|Bio","Total__Before","Change",2,11,FALSE
+"Naples SMCA|M. franciscanus|LTER|Bio","Total__Before","Post_slope",2,11,TRUE
+"Abalone Cove SMCA|S. pulcher|PISCO|Bio","Total__Before","Change",2,11,FALSE
+"Abalone Cove SMCA|S. pulcher|PISCO|Bio","Total__Before","Post_slope",2,11,TRUE
+"Abalone Cove SMCA|S. pulcher|PISCO|Den","Total__Before","Change",2,11,FALSE
+"Abalone Cove SMCA|S. pulcher|PISCO|Den","Total__Before","Post_slope",2,11,TRUE
+"Abalone Cove SMCA|M. pyrifera|PISCO|Bio","Total__Before","Change",1,11,FALSE
+"Abalone Cove SMCA|M. pyrifera|PISCO|Bio","Total__Before","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|M. franciscanus|PISCO|Bio","Total__Before","Change",1,11,FALSE
+"Abalone Cove SMCA|M. franciscanus|PISCO|Bio","Total__Before","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|S. purpuratus|PISCO|Bio","Total__Before","Change",1,11,FALSE
+"Abalone Cove SMCA|S. purpuratus|PISCO|Bio","Total__Before","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|M. franciscanus|PISCO|Den","Total__Before","Change",1,11,FALSE
+"Abalone Cove SMCA|M. franciscanus|PISCO|Den","Total__Before","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|P. interruptus|PISCO|Den","Total__Before","Change",1,11,FALSE
+"Abalone Cove SMCA|P. interruptus|PISCO|Den","Total__Before","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|S. purpuratus|PISCO|Den","Total__Before","Change",1,11,FALSE
+"Abalone Cove SMCA|S. purpuratus|PISCO|Den","Total__Before","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|P. interruptus|PISCO|Bio","Total__Before","Change",0,11,FALSE
+"Abalone Cove SMCA|P. interruptus|PISCO|Bio","Total__Before","Post_slope",0,11,TRUE
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Bio","Total__Before","Change",0,19,FALSE
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Bio","Total__Before","Post_slope",0,19,TRUE
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Den","Total__Before","Change",0,19,FALSE
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Den","Total__Before","Post_slope",0,19,TRUE
+"Anacapa Island SMR 2003|M. pyrifera|PISCO|Bio","Total__Before","Change",0,16,FALSE
+"Anacapa Island SMR 2003|M. pyrifera|PISCO|Bio","Total__Before","Post_slope",0,16,TRUE
+"Anacapa Island SMR 2003|M. franciscanus|PISCO|Den","Total__Before","Change",0,16,FALSE
+"Anacapa Island SMR 2003|M. franciscanus|PISCO|Den","Total__Before","Post_slope",0,16,TRUE
+"Anacapa Island SMR 2003|P. interruptus|PISCO|Den","Total__Before","Change",0,16,FALSE
+"Anacapa Island SMR 2003|P. interruptus|PISCO|Den","Total__Before","Post_slope",0,16,TRUE
+"Anacapa Island SMR 2003|S. purpuratus|PISCO|Den","Total__Before","Change",0,16,FALSE
+"Anacapa Island SMR 2003|S. purpuratus|PISCO|Den","Total__Before","Post_slope",0,16,TRUE
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Total__Before","Change",3,9,TRUE
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Total__Before","Post_slope",3,9,TRUE
+"Campus Point SMCA|S. pulcher|PISCO|Den","Total__Before","Change",3,9,TRUE
+"Campus Point SMCA|S. pulcher|PISCO|Den","Total__Before","Post_slope",3,9,TRUE
+"Campus Point SMCA|M. pyrifera|PISCO|Bio","Total__Before","Change",2,11,FALSE
+"Campus Point SMCA|M. pyrifera|PISCO|Bio","Total__Before","Post_slope",2,11,TRUE
+"Campus Point SMCA|M. franciscanus|PISCO|Den","Total__Before","Change",2,11,FALSE
+"Campus Point SMCA|M. franciscanus|PISCO|Den","Total__Before","Post_slope",2,11,TRUE
+"Campus Point SMCA|P. interruptus|PISCO|Den","Total__Before","Change",2,11,FALSE
+"Campus Point SMCA|P. interruptus|PISCO|Den","Total__Before","Post_slope",2,11,TRUE
+"Campus Point SMCA|S. purpuratus|PISCO|Den","Total__Before","Change",2,11,FALSE
+"Campus Point SMCA|S. purpuratus|PISCO|Den","Total__Before","Post_slope",2,11,TRUE
+"Campus Point SMCA|M. franciscanus|PISCO|Bio","Total__Before","Change",1,10,FALSE
+"Campus Point SMCA|M. franciscanus|PISCO|Bio","Total__Before","Post_slope",1,10,TRUE
+"Campus Point SMCA|S. purpuratus|PISCO|Bio","Total__Before","Change",1,11,FALSE
+"Campus Point SMCA|S. purpuratus|PISCO|Bio","Total__Before","Post_slope",1,11,TRUE
+"Gull Island SMR|S. pulcher|PISCO|Bio","Total__Before","Change",0,19,FALSE
+"Gull Island SMR|S. pulcher|PISCO|Bio","Total__Before","Post_slope",0,19,TRUE
+"Gull Island SMR|S. pulcher|PISCO|Den","Total__Before","Change",0,19,FALSE
+"Gull Island SMR|S. pulcher|PISCO|Den","Total__Before","Post_slope",0,19,TRUE
+"Gull Island SMR|M. pyrifera|PISCO|Bio","Total__Before","Change",0,16,FALSE
+"Gull Island SMR|M. pyrifera|PISCO|Bio","Total__Before","Post_slope",0,16,TRUE
+"Gull Island SMR|M. franciscanus|PISCO|Bio","Total__Before","Change",0,15,FALSE
+"Gull Island SMR|M. franciscanus|PISCO|Bio","Total__Before","Post_slope",0,15,TRUE
+"Gull Island SMR|S. purpuratus|PISCO|Bio","Total__Before","Change",0,15,FALSE
+"Gull Island SMR|S. purpuratus|PISCO|Bio","Total__Before","Post_slope",0,15,TRUE
+"Gull Island SMR|M. franciscanus|PISCO|Den","Total__Before","Change",0,16,FALSE
+"Gull Island SMR|M. franciscanus|PISCO|Den","Total__Before","Post_slope",0,16,TRUE
+"Gull Island SMR|P. interruptus|PISCO|Den","Total__Before","Change",0,16,FALSE
+"Gull Island SMR|P. interruptus|PISCO|Den","Total__Before","Post_slope",0,16,TRUE
+"Gull Island SMR|S. purpuratus|PISCO|Den","Total__Before","Change",0,16,FALSE
+"Gull Island SMR|S. purpuratus|PISCO|Den","Total__Before","Post_slope",0,16,TRUE
+"Harris Point SMR|M. pyrifera|PISCO|Bio","Total__Before","Change",0,17,FALSE
+"Harris Point SMR|M. pyrifera|PISCO|Bio","Total__Before","Post_slope",0,17,TRUE
+"Harris Point SMR|M. franciscanus|PISCO|Bio","Total__Before","Change",0,15,FALSE
+"Harris Point SMR|M. franciscanus|PISCO|Bio","Total__Before","Post_slope",0,15,TRUE
+"Harris Point SMR|S. pulcher|PISCO|Bio","Total__Before","Change",0,17,FALSE
+"Harris Point SMR|S. pulcher|PISCO|Bio","Total__Before","Post_slope",0,17,TRUE
+"Harris Point SMR|S. purpuratus|PISCO|Bio","Total__Before","Change",0,15,FALSE
+"Harris Point SMR|S. purpuratus|PISCO|Bio","Total__Before","Post_slope",0,15,TRUE
+"Harris Point SMR|M. franciscanus|PISCO|Den","Total__Before","Change",0,17,FALSE
+"Harris Point SMR|M. franciscanus|PISCO|Den","Total__Before","Post_slope",0,17,TRUE
+"Harris Point SMR|P. interruptus|PISCO|Den","Total__Before","Change",0,17,FALSE
+"Harris Point SMR|P. interruptus|PISCO|Den","Total__Before","Post_slope",0,17,TRUE
+"Harris Point SMR|S. pulcher|PISCO|Den","Total__Before","Change",0,17,FALSE
+"Harris Point SMR|S. pulcher|PISCO|Den","Total__Before","Post_slope",0,17,TRUE
+"Harris Point SMR|S. purpuratus|PISCO|Den","Total__Before","Change",0,17,FALSE
+"Harris Point SMR|S. purpuratus|PISCO|Den","Total__Before","Post_slope",0,17,TRUE
+"Matlahuayl SMR|M. pyrifera|PISCO|Bio","Total__Before","Change",1,5,FALSE
+"Matlahuayl SMR|M. pyrifera|PISCO|Bio","Total__Before","Post_slope",1,5,TRUE
+"Matlahuayl SMR|P. interruptus|PISCO|Bio","Total__Before","Change",1,5,FALSE
+"Matlahuayl SMR|P. interruptus|PISCO|Bio","Total__Before","Post_slope",1,5,TRUE
+"Matlahuayl SMR|S. pulcher|PISCO|Bio","Total__Before","Change",1,5,FALSE
+"Matlahuayl SMR|S. pulcher|PISCO|Bio","Total__Before","Post_slope",1,5,TRUE
+"Matlahuayl SMR|M. franciscanus|PISCO|Den","Total__Before","Change",1,5,FALSE
+"Matlahuayl SMR|M. franciscanus|PISCO|Den","Total__Before","Post_slope",1,5,TRUE
+"Matlahuayl SMR|P. interruptus|PISCO|Den","Total__Before","Change",1,5,FALSE
+"Matlahuayl SMR|P. interruptus|PISCO|Den","Total__Before","Post_slope",1,5,TRUE
+"Matlahuayl SMR|S. pulcher|PISCO|Den","Total__Before","Change",1,5,FALSE
+"Matlahuayl SMR|S. pulcher|PISCO|Den","Total__Before","Post_slope",1,5,TRUE
+"Matlahuayl SMR|S. purpuratus|PISCO|Den","Total__Before","Change",1,5,FALSE
+"Matlahuayl SMR|S. purpuratus|PISCO|Den","Total__Before","Post_slope",1,5,TRUE
+"Naples SMCA|S. pulcher|PISCO|Bio","Total__Before","Change",3,10,TRUE
+"Naples SMCA|S. pulcher|PISCO|Bio","Total__Before","Post_slope",3,10,TRUE
+"Naples SMCA|S. pulcher|PISCO|Den","Total__Before","Change",3,10,TRUE
+"Naples SMCA|S. pulcher|PISCO|Den","Total__Before","Post_slope",3,10,TRUE
+"Naples SMCA|M. pyrifera|PISCO|Bio","Total__Before","Change",2,11,FALSE
+"Naples SMCA|M. pyrifera|PISCO|Bio","Total__Before","Post_slope",2,11,TRUE
+"Naples SMCA|M. franciscanus|PISCO|Den","Total__Before","Change",2,11,FALSE
+"Naples SMCA|M. franciscanus|PISCO|Den","Total__Before","Post_slope",2,11,TRUE
+"Naples SMCA|P. interruptus|PISCO|Den","Total__Before","Change",2,11,FALSE
+"Naples SMCA|P. interruptus|PISCO|Den","Total__Before","Post_slope",2,11,TRUE
+"Naples SMCA|S. purpuratus|PISCO|Den","Total__Before","Change",2,11,FALSE
+"Naples SMCA|S. purpuratus|PISCO|Den","Total__Before","Post_slope",2,11,TRUE
+"Naples SMCA|M. franciscanus|PISCO|Bio","Total__Before","Change",1,11,FALSE
+"Naples SMCA|M. franciscanus|PISCO|Bio","Total__Before","Post_slope",1,11,TRUE
+"Naples SMCA|S. purpuratus|PISCO|Bio","Total__Before","Change",1,11,FALSE
+"Naples SMCA|S. purpuratus|PISCO|Bio","Total__Before","Post_slope",1,11,TRUE
+"Point Vicente SMCA|M. pyrifera|PISCO|Bio","Total__Before","Change",4,10,FALSE
+"Point Vicente SMCA|M. pyrifera|PISCO|Bio","Total__Before","Post_slope",4,10,TRUE
+"Point Vicente SMCA|M. franciscanus|PISCO|Den","Total__Before","Change",4,10,FALSE
+"Point Vicente SMCA|M. franciscanus|PISCO|Den","Total__Before","Post_slope",4,10,TRUE
+"Point Vicente SMCA|P. interruptus|PISCO|Den","Total__Before","Change",4,10,FALSE
+"Point Vicente SMCA|P. interruptus|PISCO|Den","Total__Before","Post_slope",4,10,TRUE
+"Point Vicente SMCA|S. purpuratus|PISCO|Den","Total__Before","Change",4,10,FALSE
+"Point Vicente SMCA|S. purpuratus|PISCO|Den","Total__Before","Post_slope",4,10,TRUE
+"Point Vicente SMCA|M. franciscanus|PISCO|Bio","Total__Before","Change",3,10,FALSE
+"Point Vicente SMCA|M. franciscanus|PISCO|Bio","Total__Before","Post_slope",3,10,TRUE
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Total__Before","Change",3,11,TRUE
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Total__Before","Post_slope",3,11,TRUE
+"Point Vicente SMCA|S. purpuratus|PISCO|Bio","Total__Before","Change",3,10,FALSE
+"Point Vicente SMCA|S. purpuratus|PISCO|Bio","Total__Before","Post_slope",3,10,TRUE
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Total__Before","Change",3,11,TRUE
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Total__Before","Post_slope",3,11,TRUE
+"Point Vicente SMCA|P. interruptus|PISCO|Bio","Total__Before","Change",1,10,FALSE
+"Point Vicente SMCA|P. interruptus|PISCO|Bio","Total__Before","Post_slope",1,10,TRUE
+"Scorpion SMR|M. pyrifera|PISCO|Bio","Total__Before","Change",0,20,FALSE
+"Scorpion SMR|M. pyrifera|PISCO|Bio","Total__Before","Post_slope",0,20,TRUE
+"Scorpion SMR|M. franciscanus|PISCO|Bio","Total__Before","Change",0,18,FALSE
+"Scorpion SMR|M. franciscanus|PISCO|Bio","Total__Before","Post_slope",0,18,TRUE
+"Scorpion SMR|S. pulcher|PISCO|Bio","Total__Before","Change",0,20,FALSE
+"Scorpion SMR|S. pulcher|PISCO|Bio","Total__Before","Post_slope",0,20,TRUE
+"Scorpion SMR|S. purpuratus|PISCO|Bio","Total__Before","Change",0,18,FALSE
+"Scorpion SMR|S. purpuratus|PISCO|Bio","Total__Before","Post_slope",0,18,TRUE
+"Scorpion SMR|M. franciscanus|PISCO|Den","Total__Before","Change",0,20,FALSE
+"Scorpion SMR|M. franciscanus|PISCO|Den","Total__Before","Post_slope",0,20,TRUE
+"Scorpion SMR|P. interruptus|PISCO|Den","Total__Before","Change",0,20,FALSE
+"Scorpion SMR|P. interruptus|PISCO|Den","Total__Before","Post_slope",0,20,TRUE
+"Scorpion SMR|S. pulcher|PISCO|Den","Total__Before","Change",0,20,FALSE
+"Scorpion SMR|S. pulcher|PISCO|Den","Total__Before","Post_slope",0,20,TRUE
+"Scorpion SMR|S. purpuratus|PISCO|Den","Total__Before","Change",0,20,FALSE
+"Scorpion SMR|S. purpuratus|PISCO|Den","Total__Before","Post_slope",0,20,TRUE
+"South Point SMR|S. pulcher|PISCO|Bio","Total__Before","Change",0,20,FALSE
+"South Point SMR|S. pulcher|PISCO|Bio","Total__Before","Post_slope",0,20,TRUE
+"South Point SMR|S. pulcher|PISCO|Den","Total__Before","Change",0,20,FALSE
+"South Point SMR|S. pulcher|PISCO|Den","Total__Before","Post_slope",0,20,TRUE
+"South Point SMR|M. pyrifera|PISCO|Bio","Total__Before","Change",0,16,FALSE
+"South Point SMR|M. pyrifera|PISCO|Bio","Total__Before","Post_slope",0,16,TRUE
+"South Point SMR|M. franciscanus|PISCO|Bio","Total__Before","Change",0,14,FALSE
+"South Point SMR|M. franciscanus|PISCO|Bio","Total__Before","Post_slope",0,14,TRUE
+"South Point SMR|S. purpuratus|PISCO|Bio","Total__Before","Change",0,14,FALSE
+"South Point SMR|S. purpuratus|PISCO|Bio","Total__Before","Post_slope",0,14,TRUE
+"South Point SMR|M. franciscanus|PISCO|Den","Total__Before","Change",0,16,FALSE
+"South Point SMR|M. franciscanus|PISCO|Den","Total__Before","Post_slope",0,16,TRUE
+"South Point SMR|P. interruptus|PISCO|Den","Total__Before","Change",0,16,FALSE
+"South Point SMR|P. interruptus|PISCO|Den","Total__Before","Post_slope",0,16,TRUE
+"South Point SMR|S. purpuratus|PISCO|Den","Total__Before","Change",0,16,FALSE
+"South Point SMR|S. purpuratus|PISCO|Den","Total__Before","Post_slope",0,16,TRUE
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Den","Total__Before","Change",0,17,FALSE
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Den","Total__Before","Post_slope",0,17,TRUE
+"Anacapa Island SMR 2003|P. interruptus|KFM|Den","Total__Before","Change",0,17,FALSE
+"Anacapa Island SMR 2003|P. interruptus|KFM|Den","Total__Before","Post_slope",0,17,TRUE
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Den","Total__Before","Change",0,17,FALSE
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Den","Total__Before","Post_slope",0,17,TRUE
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Bio","Total__Before","Change",0,17,FALSE
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Bio","Total__Before","Post_slope",0,17,TRUE
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Bio","Total__Before","Change",0,17,FALSE
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Bio","Total__Before","Post_slope",0,17,TRUE
+"Harris Point SMR|M. franciscanus|KFM|Den","Total__Before","Change",21,18,TRUE
+"Harris Point SMR|M. franciscanus|KFM|Den","Total__Before","Post_slope",21,18,TRUE
+"Harris Point SMR|M. franciscanus|KFM|Bio","Total__Before","Change",17,18,TRUE
+"Harris Point SMR|M. franciscanus|KFM|Bio","Total__Before","Post_slope",17,18,TRUE
+"Scorpion SMR|P. interruptus|KFM|Den","Total__Before","Change",20,18,TRUE
+"Scorpion SMR|P. interruptus|KFM|Den","Total__Before","Post_slope",20,18,TRUE
+"Scorpion SMR|M. franciscanus|KFM|Den","Total__Before","Change",21,18,TRUE
+"Scorpion SMR|M. franciscanus|KFM|Den","Total__Before","Post_slope",21,18,TRUE
+"Scorpion SMR|M. franciscanus|KFM|Bio","Total__Before","Change",18,18,TRUE
+"Scorpion SMR|M. franciscanus|KFM|Bio","Total__Before","Post_slope",18,18,TRUE
+"South Point SMR|S. purpuratus|KFM|Den","Total__Before","Change",0,17,FALSE
+"South Point SMR|S. purpuratus|KFM|Den","Total__Before","Post_slope",0,17,TRUE
+"South Point SMR|M. franciscanus|KFM|Den","Total__Before","Change",0,17,FALSE
+"South Point SMR|M. franciscanus|KFM|Den","Total__Before","Post_slope",0,17,TRUE
+"South Point SMR|P. interruptus|KFM|Den","Total__Before","Change",0,17,FALSE
+"South Point SMR|P. interruptus|KFM|Den","Total__Before","Post_slope",0,17,TRUE
+"South Point SMR|M. franciscanus|KFM|Bio","Total__Before","Change",0,17,FALSE
+"South Point SMR|M. franciscanus|KFM|Bio","Total__Before","Post_slope",0,17,TRUE
+"South Point SMR|S. purpuratus|KFM|Bio","Total__Before","Change",0,17,FALSE
+"South Point SMR|S. purpuratus|KFM|Bio","Total__Before","Post_slope",0,17,TRUE
+"Campus Point SMCA|P. interruptus|LTER|Bio","Total__Before","Change",0,11,FALSE
+"Campus Point SMCA|P. interruptus|LTER|Bio","Total__Before","Post_slope",0,11,TRUE
+"Campus Point SMCA|P. interruptus|LTER|Den","Total__Before","Change",0,11,FALSE
+"Campus Point SMCA|P. interruptus|LTER|Den","Total__Before","Post_slope",0,11,TRUE
+"Naples SMCA|P. interruptus|LTER|Bio","Total__Before","Change",0,11,FALSE
+"Naples SMCA|P. interruptus|LTER|Bio","Total__Before","Post_slope",0,11,TRUE
+"Naples SMCA|P. interruptus|LTER|Den","Total__Before","Change",0,11,FALSE
+"Naples SMCA|P. interruptus|LTER|Den","Total__Before","Post_slope",0,11,TRUE
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Total__Before","Change",11,11,TRUE
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Total__Before","Post_slope",11,11,TRUE
+"Naples SMCA|M. pyrifera|LTER|Bio","Total__Before","Change",11,11,TRUE
+"Naples SMCA|M. pyrifera|LTER|Bio","Total__Before","Post_slope",11,11,TRUE
+"Campus Point SMCA|S. pulcher|LTER|Den","Total__Before","Change",10,11,TRUE
+"Campus Point SMCA|S. pulcher|LTER|Den","Total__Before","Post_slope",10,11,TRUE
+"Campus Point SMCA|S. pulcher|LTER|Bio","Total__Before","Change",10,11,TRUE
+"Campus Point SMCA|S. pulcher|LTER|Bio","Total__Before","Post_slope",10,11,TRUE
+"Naples SMCA|S. pulcher|LTER|Bio","Total__Before","Change",11,11,TRUE
+"Naples SMCA|S. pulcher|LTER|Bio","Total__Before","Post_slope",11,11,TRUE
+"Anacapa Island SMR 2003|S. pulcher|KFM|Den","Total__Before","Change",0,17,FALSE
+"Anacapa Island SMR 2003|S. pulcher|KFM|Den","Total__Before","Post_slope",0,17,TRUE
+"Harris Point SMR|S. pulcher|KFM|Den","Total__Before","Change",18,18,TRUE
+"Harris Point SMR|S. pulcher|KFM|Den","Total__Before","Post_slope",18,18,TRUE
+"Scorpion SMR|S. pulcher|KFM|Den","Total__Before","Change",18,19,TRUE
+"Scorpion SMR|S. pulcher|KFM|Den","Total__Before","Post_slope",18,19,TRUE
+"South Point SMR|S. pulcher|KFM|Den","Total__Before","Change",0,17,FALSE
+"South Point SMR|S. pulcher|KFM|Den","Total__Before","Post_slope",0,17,TRUE
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio","Total__Before","Change",1,6,FALSE
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio","Total__Before","Post_slope",1,6,TRUE
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den","Total__Before","Change",1,6,FALSE
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den","Total__Before","Post_slope",1,6,TRUE
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio","Total__Before","Change",1,4,FALSE
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio","Total__Before","Post_slope",1,4,TRUE
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Den","Total__Before","Change",1,4,FALSE
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Den","Total__Before","Post_slope",1,4,TRUE
+"Long Point SMR|S. pulcher|PISCO|Bio","Total__Before","Change",1,6,FALSE
+"Long Point SMR|S. pulcher|PISCO|Bio","Total__Before","Post_slope",1,6,TRUE
+"Long Point SMR|S. pulcher|PISCO|Den","Total__Before","Change",1,6,FALSE
+"Long Point SMR|S. pulcher|PISCO|Den","Total__Before","Post_slope",1,6,TRUE
+"Santa Barbara Island SMR|S. pulcher|PISCO|Bio","Total__Before","Change",0,10,FALSE
+"Santa Barbara Island SMR|S. pulcher|PISCO|Bio","Total__Before","Post_slope",0,10,TRUE
+"Santa Barbara Island SMR|S. pulcher|PISCO|Den","Total__Before","Change",0,10,FALSE
+"Santa Barbara Island SMR|S. pulcher|PISCO|Den","Total__Before","Post_slope",0,10,TRUE
+"Swamis SMCA|S. pulcher|PISCO|Bio","Total__Before","Change",1,5,FALSE
+"Swamis SMCA|S. pulcher|PISCO|Bio","Total__Before","Post_slope",1,5,TRUE
+"Swamis SMCA|S. pulcher|PISCO|Den","Total__Before","Change",1,5,FALSE
+"Swamis SMCA|S. pulcher|PISCO|Den","Total__Before","Post_slope",1,5,TRUE
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Total__Before","Change",20,19,TRUE
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Total__Before","Post_slope",20,19,TRUE
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Total__Before","Change",21,19,TRUE
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Total__Before","Post_slope",21,19,TRUE
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Total__Before","Change",26,9,TRUE
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Total__Before","Post_slope",26,9,TRUE
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Total__Before","Change",24,9,TRUE
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Total__Before","Post_slope",24,9,TRUE
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Total__Before","Change",27,9,TRUE
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Total__Before","Post_slope",27,9,TRUE
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Total__Before","Change",18,18,TRUE
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Total__Before","Post_slope",18,18,TRUE
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Total__Before","Change",15,9,TRUE
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Total__Before","Post_slope",15,9,TRUE
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Total__Before","Change",18,18,TRUE
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Total__Before","Post_slope",18,18,TRUE
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Total__Before","Change",17,18,TRUE
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Total__Before","Post_slope",17,18,TRUE
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Total__Before","Change",18,18,TRUE
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Total__Before","Post_slope",18,18,TRUE
+"Naples SMCA|M. pyrifera|Landsat|Bio","Total__Before","Change",27,9,TRUE
+"Naples SMCA|M. pyrifera|Landsat|Bio","Total__Before","Post_slope",27,9,TRUE
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Total__Before","Change",27,9,TRUE
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Total__Before","Post_slope",27,9,TRUE
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Total__Before","Change",27,9,TRUE
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Total__Before","Post_slope",27,9,TRUE
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Total__Before","Change",25,9,TRUE
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Total__Before","Post_slope",25,9,TRUE
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Total__Before","Change",18,18,TRUE
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Total__Before","Post_slope",18,18,TRUE
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Total__Before","Change",17,18,TRUE
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Total__Before","Post_slope",17,18,TRUE
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Total__Before","Change",25,9,TRUE
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Total__Before","Post_slope",25,9,TRUE
+"South Point SMR|M. pyrifera|Landsat|Bio","Total__Before","Change",18,18,TRUE
+"South Point SMR|M. pyrifera|Landsat|Bio","Total__Before","Post_slope",18,18,TRUE
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Total__Before","Change",27,9,TRUE
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Total__Before","Post_slope",27,9,TRUE
+"Campus Point SMCA|M. franciscanus|LTER|Den","Total__Before","Change",11,11,TRUE
+"Campus Point SMCA|M. franciscanus|LTER|Den","Total__Before","Post_slope",11,11,TRUE
+"Campus Point SMCA|S. purpuratus|LTER|Den","Total__Before","Change",11,11,TRUE
+"Campus Point SMCA|S. purpuratus|LTER|Den","Total__Before","Post_slope",11,11,TRUE
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Total__Before","Change",5,11,TRUE
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Total__Before","Post_slope",5,11,TRUE
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Total__Before","Change",3,11,TRUE
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Total__Before","Post_slope",3,11,TRUE
+"Naples SMCA|S. purpuratus|LTER|Den","Total__Before","Change",11,11,TRUE
+"Naples SMCA|S. purpuratus|LTER|Den","Total__Before","Post_slope",11,11,TRUE
+"Naples SMCA|S. purpuratus|LTER|Bio","Total__Before","Change",9,11,TRUE
+"Naples SMCA|S. purpuratus|LTER|Bio","Total__Before","Post_slope",9,11,TRUE
+"Matlahuayl SMR|S. purpuratus|PISCO|Bio","Total__Before","Change",1,4,FALSE
+"Matlahuayl SMR|S. purpuratus|PISCO|Bio","Total__Before","Post_slope",1,4,TRUE
+"Matlahuayl SMR|M. franciscanus|PISCO|Bio","Total__Before","Change",0,4,FALSE
+"Matlahuayl SMR|M. franciscanus|PISCO|Bio","Total__Before","Post_slope",0,4,TRUE
+"Harris Point SMR|P. interruptus|KFM|Den","Total__Before","Change",20,18,TRUE
+"Harris Point SMR|P. interruptus|KFM|Den","Total__Before","Post_slope",20,18,TRUE
+"Harris Point SMR|S. purpuratus|KFM|Den","Total__Before","Change",21,18,TRUE
+"Harris Point SMR|S. purpuratus|KFM|Den","Total__Before","Post_slope",21,18,TRUE
+"Harris Point SMR|S. purpuratus|KFM|Bio","Total__Before","Change",17,18,TRUE
+"Harris Point SMR|S. purpuratus|KFM|Bio","Total__Before","Post_slope",17,18,TRUE
+"Scorpion SMR|S. purpuratus|KFM|Den","Total__Before","Change",21,18,TRUE
+"Scorpion SMR|S. purpuratus|KFM|Den","Total__Before","Post_slope",21,18,TRUE
+"Scorpion SMR|S. purpuratus|KFM|Bio","Total__Before","Change",18,18,TRUE
+"Scorpion SMR|S. purpuratus|KFM|Bio","Total__Before","Post_slope",18,18,TRUE
+"Naples SMCA|S. pulcher|LTER|Den","Total__Before","Change",11,11,TRUE
+"Naples SMCA|S. pulcher|LTER|Den","Total__Before","Post_slope",11,11,TRUE
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Total__Before","Change",21,19,TRUE
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Total__Before","Post_slope",21,19,TRUE
+"Santa Barbara Island SMR|M. franciscanus|KFM|Bio","Total__Before","Change",0,17,FALSE
+"Santa Barbara Island SMR|M. franciscanus|KFM|Bio","Total__Before","Post_slope",0,17,TRUE
+"Santa Barbara Island SMR|S. purpuratus|KFM|Bio","Total__Before","Change",0,17,FALSE
+"Santa Barbara Island SMR|S. purpuratus|KFM|Bio","Total__Before","Post_slope",0,17,TRUE
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Total__Before","Change",18,19,TRUE
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Total__Before","Post_slope",18,19,TRUE
+"Anacapa Island SMR 2003|M. pyrifera|KFM|Bio","Total__Before","Change",0,17,FALSE
+"Anacapa Island SMR 2003|M. pyrifera|KFM|Bio","Total__Before","Post_slope",0,17,TRUE
+"Harris Point SMR|M. pyrifera|KFM|Bio","Total__Before","Change",6,18,TRUE
+"Harris Point SMR|M. pyrifera|KFM|Bio","Total__Before","Post_slope",6,18,TRUE
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Total__Before","Change",3,19,TRUE
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Total__Before","Post_slope",3,19,TRUE
+"Scorpion SMR|M. pyrifera|KFM|Bio","Total__Before","Change",6,17,TRUE
+"Scorpion SMR|M. pyrifera|KFM|Bio","Total__Before","Post_slope",6,17,TRUE
+"South Point SMR|M. pyrifera|KFM|Bio","Total__Before","Change",0,17,FALSE
+"South Point SMR|M. pyrifera|KFM|Bio","Total__Before","Post_slope",0,17,TRUE
+"Point Dume SMCA|M. franciscanus|PISCO|Bio","Total__Before","Change",1,0,FALSE
+"Point Dume SMCA|M. franciscanus|PISCO|Bio","Total__Before","Post_slope",1,0,FALSE
+"Point Dume SMCA|M. franciscanus|PISCO|Den","Total__Before","Change",3,3,FALSE
+"Point Dume SMCA|M. franciscanus|PISCO|Den","Total__Before","Post_slope",3,3,TRUE
+"Point Dume SMCA|M. pyrifera|PISCO|Bio","Total__Before","Change",3,3,FALSE
+"Point Dume SMCA|M. pyrifera|PISCO|Bio","Total__Before","Post_slope",3,3,TRUE
+"Point Dume SMCA|P. interruptus|PISCO|Den","Total__Before","Change",3,3,FALSE
+"Point Dume SMCA|P. interruptus|PISCO|Den","Total__Before","Post_slope",3,3,TRUE
+"Point Dume SMCA|S. pulcher|PISCO|Bio","Total__Before","Change",1,5,FALSE
+"Point Dume SMCA|S. pulcher|PISCO|Bio","Total__Before","Post_slope",1,5,TRUE
+"Point Dume SMCA|S. pulcher|PISCO|Den","Total__Before","Change",1,5,FALSE
+"Point Dume SMCA|S. pulcher|PISCO|Den","Total__Before","Post_slope",1,5,TRUE
+"Point Dume SMCA|S. purpuratus|PISCO|Bio","Total__Before","Change",1,0,FALSE
+"Point Dume SMCA|S. purpuratus|PISCO|Bio","Total__Before","Post_slope",1,0,FALSE
+"Point Dume SMCA|S. purpuratus|PISCO|Den","Total__Before","Change",3,3,FALSE
+"Point Dume SMCA|S. purpuratus|PISCO|Den","Total__Before","Post_slope",3,3,TRUE
+"Point Dume SMR|M. franciscanus|PISCO|Den","Total__Before","Change",0,1,FALSE
+"Point Dume SMR|M. franciscanus|PISCO|Den","Total__Before","Post_slope",0,1,FALSE
+"Point Dume SMR|M. pyrifera|PISCO|Bio","Total__Before","Change",0,1,FALSE
+"Point Dume SMR|M. pyrifera|PISCO|Bio","Total__Before","Post_slope",0,1,FALSE
+"Point Dume SMR|P. interruptus|PISCO|Den","Total__Before","Change",0,1,FALSE
+"Point Dume SMR|P. interruptus|PISCO|Den","Total__Before","Post_slope",0,1,FALSE
+"Point Dume SMR|S. pulcher|PISCO|Bio","Total__Before","Change",1,5,FALSE
+"Point Dume SMR|S. pulcher|PISCO|Bio","Total__Before","Post_slope",1,5,TRUE
+"Point Dume SMR|S. pulcher|PISCO|Den","Total__Before","Change",1,5,FALSE
+"Point Dume SMR|S. pulcher|PISCO|Den","Total__Before","Post_slope",1,5,TRUE
+"Point Dume SMR|S. purpuratus|PISCO|Den","Total__Before","Change",0,1,FALSE
+"Point Dume SMR|S. purpuratus|PISCO|Den","Total__Before","Post_slope",0,1,FALSE
+"Naples SMCA|M. franciscanus|LTER|Den","Total__After","Change",11,11,TRUE
+"Naples SMCA|M. franciscanus|LTER|Den","Total__After","Post_slope",11,11,TRUE
+"Naples SMCA|M. franciscanus|LTER|Bio","Total__After","Change",2,11,FALSE
+"Naples SMCA|M. franciscanus|LTER|Bio","Total__After","Post_slope",2,11,TRUE
+"Abalone Cove SMCA|S. pulcher|PISCO|Bio","Total__After","Change",2,11,FALSE
+"Abalone Cove SMCA|S. pulcher|PISCO|Bio","Total__After","Post_slope",2,11,TRUE
+"Abalone Cove SMCA|S. pulcher|PISCO|Den","Total__After","Change",2,11,FALSE
+"Abalone Cove SMCA|S. pulcher|PISCO|Den","Total__After","Post_slope",2,11,TRUE
+"Abalone Cove SMCA|M. pyrifera|PISCO|Bio","Total__After","Change",1,11,FALSE
+"Abalone Cove SMCA|M. pyrifera|PISCO|Bio","Total__After","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|M. franciscanus|PISCO|Bio","Total__After","Change",1,11,FALSE
+"Abalone Cove SMCA|M. franciscanus|PISCO|Bio","Total__After","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|S. purpuratus|PISCO|Bio","Total__After","Change",1,11,FALSE
+"Abalone Cove SMCA|S. purpuratus|PISCO|Bio","Total__After","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|M. franciscanus|PISCO|Den","Total__After","Change",1,11,FALSE
+"Abalone Cove SMCA|M. franciscanus|PISCO|Den","Total__After","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|P. interruptus|PISCO|Den","Total__After","Change",1,11,FALSE
+"Abalone Cove SMCA|P. interruptus|PISCO|Den","Total__After","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|S. purpuratus|PISCO|Den","Total__After","Change",1,11,FALSE
+"Abalone Cove SMCA|S. purpuratus|PISCO|Den","Total__After","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|P. interruptus|PISCO|Bio","Total__After","Change",0,11,FALSE
+"Abalone Cove SMCA|P. interruptus|PISCO|Bio","Total__After","Post_slope",0,11,TRUE
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Bio","Total__After","Change",0,19,FALSE
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Bio","Total__After","Post_slope",0,19,TRUE
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Den","Total__After","Change",0,19,FALSE
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Den","Total__After","Post_slope",0,19,TRUE
+"Anacapa Island SMR 2003|M. pyrifera|PISCO|Bio","Total__After","Change",0,16,FALSE
+"Anacapa Island SMR 2003|M. pyrifera|PISCO|Bio","Total__After","Post_slope",0,16,TRUE
+"Anacapa Island SMR 2003|M. franciscanus|PISCO|Den","Total__After","Change",0,16,FALSE
+"Anacapa Island SMR 2003|M. franciscanus|PISCO|Den","Total__After","Post_slope",0,16,TRUE
+"Anacapa Island SMR 2003|P. interruptus|PISCO|Den","Total__After","Change",0,16,FALSE
+"Anacapa Island SMR 2003|P. interruptus|PISCO|Den","Total__After","Post_slope",0,16,TRUE
+"Anacapa Island SMR 2003|S. purpuratus|PISCO|Den","Total__After","Change",0,16,FALSE
+"Anacapa Island SMR 2003|S. purpuratus|PISCO|Den","Total__After","Post_slope",0,16,TRUE
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Total__After","Change",3,9,TRUE
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Total__After","Post_slope",3,9,TRUE
+"Campus Point SMCA|S. pulcher|PISCO|Den","Total__After","Change",3,9,TRUE
+"Campus Point SMCA|S. pulcher|PISCO|Den","Total__After","Post_slope",3,9,TRUE
+"Campus Point SMCA|M. pyrifera|PISCO|Bio","Total__After","Change",2,11,FALSE
+"Campus Point SMCA|M. pyrifera|PISCO|Bio","Total__After","Post_slope",2,11,TRUE
+"Campus Point SMCA|M. franciscanus|PISCO|Den","Total__After","Change",2,11,FALSE
+"Campus Point SMCA|M. franciscanus|PISCO|Den","Total__After","Post_slope",2,11,TRUE
+"Campus Point SMCA|P. interruptus|PISCO|Den","Total__After","Change",2,11,FALSE
+"Campus Point SMCA|P. interruptus|PISCO|Den","Total__After","Post_slope",2,11,TRUE
+"Campus Point SMCA|S. purpuratus|PISCO|Den","Total__After","Change",2,11,FALSE
+"Campus Point SMCA|S. purpuratus|PISCO|Den","Total__After","Post_slope",2,11,TRUE
+"Campus Point SMCA|M. franciscanus|PISCO|Bio","Total__After","Change",1,10,FALSE
+"Campus Point SMCA|M. franciscanus|PISCO|Bio","Total__After","Post_slope",1,10,TRUE
+"Campus Point SMCA|S. purpuratus|PISCO|Bio","Total__After","Change",1,11,FALSE
+"Campus Point SMCA|S. purpuratus|PISCO|Bio","Total__After","Post_slope",1,11,TRUE
+"Gull Island SMR|S. pulcher|PISCO|Bio","Total__After","Change",0,19,FALSE
+"Gull Island SMR|S. pulcher|PISCO|Bio","Total__After","Post_slope",0,19,TRUE
+"Gull Island SMR|S. pulcher|PISCO|Den","Total__After","Change",0,19,FALSE
+"Gull Island SMR|S. pulcher|PISCO|Den","Total__After","Post_slope",0,19,TRUE
+"Gull Island SMR|M. pyrifera|PISCO|Bio","Total__After","Change",0,16,FALSE
+"Gull Island SMR|M. pyrifera|PISCO|Bio","Total__After","Post_slope",0,16,TRUE
+"Gull Island SMR|M. franciscanus|PISCO|Bio","Total__After","Change",0,15,FALSE
+"Gull Island SMR|M. franciscanus|PISCO|Bio","Total__After","Post_slope",0,15,TRUE
+"Gull Island SMR|S. purpuratus|PISCO|Bio","Total__After","Change",0,15,FALSE
+"Gull Island SMR|S. purpuratus|PISCO|Bio","Total__After","Post_slope",0,15,TRUE
+"Gull Island SMR|M. franciscanus|PISCO|Den","Total__After","Change",0,16,FALSE
+"Gull Island SMR|M. franciscanus|PISCO|Den","Total__After","Post_slope",0,16,TRUE
+"Gull Island SMR|P. interruptus|PISCO|Den","Total__After","Change",0,16,FALSE
+"Gull Island SMR|P. interruptus|PISCO|Den","Total__After","Post_slope",0,16,TRUE
+"Gull Island SMR|S. purpuratus|PISCO|Den","Total__After","Change",0,16,FALSE
+"Gull Island SMR|S. purpuratus|PISCO|Den","Total__After","Post_slope",0,16,TRUE
+"Harris Point SMR|M. pyrifera|PISCO|Bio","Total__After","Change",0,17,FALSE
+"Harris Point SMR|M. pyrifera|PISCO|Bio","Total__After","Post_slope",0,17,TRUE
+"Harris Point SMR|M. franciscanus|PISCO|Bio","Total__After","Change",0,15,FALSE
+"Harris Point SMR|M. franciscanus|PISCO|Bio","Total__After","Post_slope",0,15,TRUE
+"Harris Point SMR|S. pulcher|PISCO|Bio","Total__After","Change",0,17,FALSE
+"Harris Point SMR|S. pulcher|PISCO|Bio","Total__After","Post_slope",0,17,TRUE
+"Harris Point SMR|S. purpuratus|PISCO|Bio","Total__After","Change",0,15,FALSE
+"Harris Point SMR|S. purpuratus|PISCO|Bio","Total__After","Post_slope",0,15,TRUE
+"Harris Point SMR|M. franciscanus|PISCO|Den","Total__After","Change",0,17,FALSE
+"Harris Point SMR|M. franciscanus|PISCO|Den","Total__After","Post_slope",0,17,TRUE
+"Harris Point SMR|P. interruptus|PISCO|Den","Total__After","Change",0,17,FALSE
+"Harris Point SMR|P. interruptus|PISCO|Den","Total__After","Post_slope",0,17,TRUE
+"Harris Point SMR|S. pulcher|PISCO|Den","Total__After","Change",0,17,FALSE
+"Harris Point SMR|S. pulcher|PISCO|Den","Total__After","Post_slope",0,17,TRUE
+"Harris Point SMR|S. purpuratus|PISCO|Den","Total__After","Change",0,17,FALSE
+"Harris Point SMR|S. purpuratus|PISCO|Den","Total__After","Post_slope",0,17,TRUE
+"Matlahuayl SMR|M. pyrifera|PISCO|Bio","Total__After","Change",1,5,FALSE
+"Matlahuayl SMR|M. pyrifera|PISCO|Bio","Total__After","Post_slope",1,5,TRUE
+"Matlahuayl SMR|P. interruptus|PISCO|Bio","Total__After","Change",1,5,FALSE
+"Matlahuayl SMR|P. interruptus|PISCO|Bio","Total__After","Post_slope",1,5,TRUE
+"Matlahuayl SMR|S. pulcher|PISCO|Bio","Total__After","Change",1,5,FALSE
+"Matlahuayl SMR|S. pulcher|PISCO|Bio","Total__After","Post_slope",1,5,TRUE
+"Matlahuayl SMR|M. franciscanus|PISCO|Den","Total__After","Change",1,5,FALSE
+"Matlahuayl SMR|M. franciscanus|PISCO|Den","Total__After","Post_slope",1,5,TRUE
+"Matlahuayl SMR|P. interruptus|PISCO|Den","Total__After","Change",1,5,FALSE
+"Matlahuayl SMR|P. interruptus|PISCO|Den","Total__After","Post_slope",1,5,TRUE
+"Matlahuayl SMR|S. pulcher|PISCO|Den","Total__After","Change",1,5,FALSE
+"Matlahuayl SMR|S. pulcher|PISCO|Den","Total__After","Post_slope",1,5,TRUE
+"Matlahuayl SMR|S. purpuratus|PISCO|Den","Total__After","Change",1,5,FALSE
+"Matlahuayl SMR|S. purpuratus|PISCO|Den","Total__After","Post_slope",1,5,TRUE
+"Naples SMCA|S. pulcher|PISCO|Bio","Total__After","Change",3,10,TRUE
+"Naples SMCA|S. pulcher|PISCO|Bio","Total__After","Post_slope",3,10,TRUE
+"Naples SMCA|S. pulcher|PISCO|Den","Total__After","Change",3,10,TRUE
+"Naples SMCA|S. pulcher|PISCO|Den","Total__After","Post_slope",3,10,TRUE
+"Naples SMCA|M. pyrifera|PISCO|Bio","Total__After","Change",2,11,FALSE
+"Naples SMCA|M. pyrifera|PISCO|Bio","Total__After","Post_slope",2,11,TRUE
+"Naples SMCA|M. franciscanus|PISCO|Den","Total__After","Change",2,11,FALSE
+"Naples SMCA|M. franciscanus|PISCO|Den","Total__After","Post_slope",2,11,TRUE
+"Naples SMCA|P. interruptus|PISCO|Den","Total__After","Change",2,11,FALSE
+"Naples SMCA|P. interruptus|PISCO|Den","Total__After","Post_slope",2,11,TRUE
+"Naples SMCA|S. purpuratus|PISCO|Den","Total__After","Change",2,11,FALSE
+"Naples SMCA|S. purpuratus|PISCO|Den","Total__After","Post_slope",2,11,TRUE
+"Naples SMCA|M. franciscanus|PISCO|Bio","Total__After","Change",1,11,FALSE
+"Naples SMCA|M. franciscanus|PISCO|Bio","Total__After","Post_slope",1,11,TRUE
+"Naples SMCA|S. purpuratus|PISCO|Bio","Total__After","Change",1,11,FALSE
+"Naples SMCA|S. purpuratus|PISCO|Bio","Total__After","Post_slope",1,11,TRUE
+"Point Vicente SMCA|M. pyrifera|PISCO|Bio","Total__After","Change",4,10,FALSE
+"Point Vicente SMCA|M. pyrifera|PISCO|Bio","Total__After","Post_slope",4,10,TRUE
+"Point Vicente SMCA|M. franciscanus|PISCO|Den","Total__After","Change",4,10,FALSE
+"Point Vicente SMCA|M. franciscanus|PISCO|Den","Total__After","Post_slope",4,10,TRUE
+"Point Vicente SMCA|P. interruptus|PISCO|Den","Total__After","Change",4,10,FALSE
+"Point Vicente SMCA|P. interruptus|PISCO|Den","Total__After","Post_slope",4,10,TRUE
+"Point Vicente SMCA|S. purpuratus|PISCO|Den","Total__After","Change",4,10,FALSE
+"Point Vicente SMCA|S. purpuratus|PISCO|Den","Total__After","Post_slope",4,10,TRUE
+"Point Vicente SMCA|M. franciscanus|PISCO|Bio","Total__After","Change",3,10,FALSE
+"Point Vicente SMCA|M. franciscanus|PISCO|Bio","Total__After","Post_slope",3,10,TRUE
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Total__After","Change",3,11,TRUE
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Total__After","Post_slope",3,11,TRUE
+"Point Vicente SMCA|S. purpuratus|PISCO|Bio","Total__After","Change",3,10,FALSE
+"Point Vicente SMCA|S. purpuratus|PISCO|Bio","Total__After","Post_slope",3,10,TRUE
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Total__After","Change",3,11,TRUE
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Total__After","Post_slope",3,11,TRUE
+"Point Vicente SMCA|P. interruptus|PISCO|Bio","Total__After","Change",1,10,FALSE
+"Point Vicente SMCA|P. interruptus|PISCO|Bio","Total__After","Post_slope",1,10,TRUE
+"Scorpion SMR|M. pyrifera|PISCO|Bio","Total__After","Change",0,20,FALSE
+"Scorpion SMR|M. pyrifera|PISCO|Bio","Total__After","Post_slope",0,20,TRUE
+"Scorpion SMR|M. franciscanus|PISCO|Bio","Total__After","Change",0,18,FALSE
+"Scorpion SMR|M. franciscanus|PISCO|Bio","Total__After","Post_slope",0,18,TRUE
+"Scorpion SMR|S. pulcher|PISCO|Bio","Total__After","Change",0,20,FALSE
+"Scorpion SMR|S. pulcher|PISCO|Bio","Total__After","Post_slope",0,20,TRUE
+"Scorpion SMR|S. purpuratus|PISCO|Bio","Total__After","Change",0,18,FALSE
+"Scorpion SMR|S. purpuratus|PISCO|Bio","Total__After","Post_slope",0,18,TRUE
+"Scorpion SMR|M. franciscanus|PISCO|Den","Total__After","Change",0,20,FALSE
+"Scorpion SMR|M. franciscanus|PISCO|Den","Total__After","Post_slope",0,20,TRUE
+"Scorpion SMR|P. interruptus|PISCO|Den","Total__After","Change",0,20,FALSE
+"Scorpion SMR|P. interruptus|PISCO|Den","Total__After","Post_slope",0,20,TRUE
+"Scorpion SMR|S. pulcher|PISCO|Den","Total__After","Change",0,20,FALSE
+"Scorpion SMR|S. pulcher|PISCO|Den","Total__After","Post_slope",0,20,TRUE
+"Scorpion SMR|S. purpuratus|PISCO|Den","Total__After","Change",0,20,FALSE
+"Scorpion SMR|S. purpuratus|PISCO|Den","Total__After","Post_slope",0,20,TRUE
+"South Point SMR|S. pulcher|PISCO|Bio","Total__After","Change",0,19,FALSE
+"South Point SMR|S. pulcher|PISCO|Bio","Total__After","Post_slope",0,19,TRUE
+"South Point SMR|S. pulcher|PISCO|Den","Total__After","Change",0,20,FALSE
+"South Point SMR|S. pulcher|PISCO|Den","Total__After","Post_slope",0,20,TRUE
+"South Point SMR|M. pyrifera|PISCO|Bio","Total__After","Change",0,16,FALSE
+"South Point SMR|M. pyrifera|PISCO|Bio","Total__After","Post_slope",0,16,TRUE
+"South Point SMR|M. franciscanus|PISCO|Bio","Total__After","Change",0,14,FALSE
+"South Point SMR|M. franciscanus|PISCO|Bio","Total__After","Post_slope",0,14,TRUE
+"South Point SMR|S. purpuratus|PISCO|Bio","Total__After","Change",0,14,FALSE
+"South Point SMR|S. purpuratus|PISCO|Bio","Total__After","Post_slope",0,14,TRUE
+"South Point SMR|M. franciscanus|PISCO|Den","Total__After","Change",0,16,FALSE
+"South Point SMR|M. franciscanus|PISCO|Den","Total__After","Post_slope",0,16,TRUE
+"South Point SMR|P. interruptus|PISCO|Den","Total__After","Change",0,16,FALSE
+"South Point SMR|P. interruptus|PISCO|Den","Total__After","Post_slope",0,16,TRUE
+"South Point SMR|S. purpuratus|PISCO|Den","Total__After","Change",0,16,FALSE
+"South Point SMR|S. purpuratus|PISCO|Den","Total__After","Post_slope",0,16,TRUE
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Den","Total__After","Change",0,17,FALSE
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Den","Total__After","Post_slope",0,17,TRUE
+"Anacapa Island SMR 2003|P. interruptus|KFM|Den","Total__After","Change",0,17,FALSE
+"Anacapa Island SMR 2003|P. interruptus|KFM|Den","Total__After","Post_slope",0,17,TRUE
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Den","Total__After","Change",0,17,FALSE
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Den","Total__After","Post_slope",0,17,TRUE
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Bio","Total__After","Change",0,17,FALSE
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Bio","Total__After","Post_slope",0,17,TRUE
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Bio","Total__After","Change",0,17,FALSE
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Bio","Total__After","Post_slope",0,17,TRUE
+"Harris Point SMR|M. franciscanus|KFM|Den","Total__After","Change",21,18,TRUE
+"Harris Point SMR|M. franciscanus|KFM|Den","Total__After","Post_slope",21,18,TRUE
+"Harris Point SMR|M. franciscanus|KFM|Bio","Total__After","Change",17,18,TRUE
+"Harris Point SMR|M. franciscanus|KFM|Bio","Total__After","Post_slope",17,18,TRUE
+"Scorpion SMR|P. interruptus|KFM|Den","Total__After","Change",20,18,TRUE
+"Scorpion SMR|P. interruptus|KFM|Den","Total__After","Post_slope",20,18,TRUE
+"Scorpion SMR|M. franciscanus|KFM|Den","Total__After","Change",21,18,TRUE
+"Scorpion SMR|M. franciscanus|KFM|Den","Total__After","Post_slope",21,18,TRUE
+"Scorpion SMR|M. franciscanus|KFM|Bio","Total__After","Change",18,18,TRUE
+"Scorpion SMR|M. franciscanus|KFM|Bio","Total__After","Post_slope",18,18,TRUE
+"South Point SMR|S. purpuratus|KFM|Den","Total__After","Change",0,17,FALSE
+"South Point SMR|S. purpuratus|KFM|Den","Total__After","Post_slope",0,17,TRUE
+"South Point SMR|M. franciscanus|KFM|Den","Total__After","Change",0,17,FALSE
+"South Point SMR|M. franciscanus|KFM|Den","Total__After","Post_slope",0,17,TRUE
+"South Point SMR|P. interruptus|KFM|Den","Total__After","Change",0,17,FALSE
+"South Point SMR|P. interruptus|KFM|Den","Total__After","Post_slope",0,17,TRUE
+"South Point SMR|M. franciscanus|KFM|Bio","Total__After","Change",0,17,FALSE
+"South Point SMR|M. franciscanus|KFM|Bio","Total__After","Post_slope",0,17,TRUE
+"South Point SMR|S. purpuratus|KFM|Bio","Total__After","Change",0,17,FALSE
+"South Point SMR|S. purpuratus|KFM|Bio","Total__After","Post_slope",0,17,TRUE
+"Campus Point SMCA|P. interruptus|LTER|Bio","Total__After","Change",0,11,FALSE
+"Campus Point SMCA|P. interruptus|LTER|Bio","Total__After","Post_slope",0,11,TRUE
+"Campus Point SMCA|P. interruptus|LTER|Den","Total__After","Change",0,11,FALSE
+"Campus Point SMCA|P. interruptus|LTER|Den","Total__After","Post_slope",0,11,TRUE
+"Naples SMCA|P. interruptus|LTER|Bio","Total__After","Change",0,11,FALSE
+"Naples SMCA|P. interruptus|LTER|Bio","Total__After","Post_slope",0,11,TRUE
+"Naples SMCA|P. interruptus|LTER|Den","Total__After","Change",0,11,FALSE
+"Naples SMCA|P. interruptus|LTER|Den","Total__After","Post_slope",0,11,TRUE
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Total__After","Change",11,11,TRUE
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Total__After","Post_slope",11,11,TRUE
+"Naples SMCA|M. pyrifera|LTER|Bio","Total__After","Change",11,11,TRUE
+"Naples SMCA|M. pyrifera|LTER|Bio","Total__After","Post_slope",11,11,TRUE
+"Campus Point SMCA|S. pulcher|LTER|Den","Total__After","Change",10,11,TRUE
+"Campus Point SMCA|S. pulcher|LTER|Den","Total__After","Post_slope",10,11,TRUE
+"Campus Point SMCA|S. pulcher|LTER|Bio","Total__After","Change",10,11,TRUE
+"Campus Point SMCA|S. pulcher|LTER|Bio","Total__After","Post_slope",10,11,TRUE
+"Naples SMCA|S. pulcher|LTER|Bio","Total__After","Change",11,11,TRUE
+"Naples SMCA|S. pulcher|LTER|Bio","Total__After","Post_slope",11,11,TRUE
+"Anacapa Island SMR 2003|S. pulcher|KFM|Den","Total__After","Change",0,17,FALSE
+"Anacapa Island SMR 2003|S. pulcher|KFM|Den","Total__After","Post_slope",0,17,TRUE
+"Harris Point SMR|S. pulcher|KFM|Den","Total__After","Change",18,18,TRUE
+"Harris Point SMR|S. pulcher|KFM|Den","Total__After","Post_slope",18,18,TRUE
+"Scorpion SMR|S. pulcher|KFM|Den","Total__After","Change",18,19,TRUE
+"Scorpion SMR|S. pulcher|KFM|Den","Total__After","Post_slope",18,19,TRUE
+"South Point SMR|S. pulcher|KFM|Den","Total__After","Change",0,17,FALSE
+"South Point SMR|S. pulcher|KFM|Den","Total__After","Post_slope",0,17,TRUE
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio","Total__After","Change",1,6,FALSE
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio","Total__After","Post_slope",1,6,TRUE
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den","Total__After","Change",1,6,FALSE
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den","Total__After","Post_slope",1,6,TRUE
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio","Total__After","Change",1,4,FALSE
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio","Total__After","Post_slope",1,4,TRUE
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Den","Total__After","Change",1,4,FALSE
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Den","Total__After","Post_slope",1,4,TRUE
+"Long Point SMR|S. pulcher|PISCO|Bio","Total__After","Change",1,6,FALSE
+"Long Point SMR|S. pulcher|PISCO|Bio","Total__After","Post_slope",1,6,TRUE
+"Long Point SMR|S. pulcher|PISCO|Den","Total__After","Change",1,6,FALSE
+"Long Point SMR|S. pulcher|PISCO|Den","Total__After","Post_slope",1,6,TRUE
+"Santa Barbara Island SMR|S. pulcher|PISCO|Bio","Total__After","Change",0,9,FALSE
+"Santa Barbara Island SMR|S. pulcher|PISCO|Bio","Total__After","Post_slope",0,9,TRUE
+"Santa Barbara Island SMR|S. pulcher|PISCO|Den","Total__After","Change",0,9,FALSE
+"Santa Barbara Island SMR|S. pulcher|PISCO|Den","Total__After","Post_slope",0,9,TRUE
+"Swamis SMCA|S. pulcher|PISCO|Bio","Total__After","Change",1,5,FALSE
+"Swamis SMCA|S. pulcher|PISCO|Bio","Total__After","Post_slope",1,5,TRUE
+"Swamis SMCA|S. pulcher|PISCO|Den","Total__After","Change",1,5,FALSE
+"Swamis SMCA|S. pulcher|PISCO|Den","Total__After","Post_slope",1,5,TRUE
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Total__After","Change",20,19,TRUE
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Total__After","Post_slope",20,19,TRUE
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Total__After","Change",21,19,TRUE
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Total__After","Post_slope",21,19,TRUE
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Total__After","Change",26,9,TRUE
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Total__After","Post_slope",26,9,TRUE
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Total__After","Change",24,9,TRUE
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Total__After","Post_slope",24,9,TRUE
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Total__After","Change",27,9,TRUE
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Total__After","Post_slope",27,9,TRUE
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Total__After","Change",18,18,TRUE
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Total__After","Post_slope",18,18,TRUE
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Total__After","Change",15,9,TRUE
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Total__After","Post_slope",15,9,TRUE
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Total__After","Change",18,18,TRUE
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Total__After","Post_slope",18,18,TRUE
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Total__After","Change",17,18,TRUE
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Total__After","Post_slope",17,18,TRUE
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Total__After","Change",18,18,TRUE
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Total__After","Post_slope",18,18,TRUE
+"Naples SMCA|M. pyrifera|Landsat|Bio","Total__After","Change",27,9,TRUE
+"Naples SMCA|M. pyrifera|Landsat|Bio","Total__After","Post_slope",27,9,TRUE
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Total__After","Change",27,9,TRUE
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Total__After","Post_slope",27,9,TRUE
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Total__After","Change",27,9,TRUE
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Total__After","Post_slope",27,9,TRUE
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Total__After","Change",25,9,TRUE
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Total__After","Post_slope",25,9,TRUE
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Total__After","Change",18,18,TRUE
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Total__After","Post_slope",18,18,TRUE
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Total__After","Change",17,18,TRUE
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Total__After","Post_slope",17,18,TRUE
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Total__After","Change",25,9,TRUE
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Total__After","Post_slope",25,9,TRUE
+"South Point SMR|M. pyrifera|Landsat|Bio","Total__After","Change",18,18,TRUE
+"South Point SMR|M. pyrifera|Landsat|Bio","Total__After","Post_slope",18,18,TRUE
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Total__After","Change",27,9,TRUE
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Total__After","Post_slope",27,9,TRUE
+"Campus Point SMCA|M. franciscanus|LTER|Den","Total__After","Change",11,11,TRUE
+"Campus Point SMCA|M. franciscanus|LTER|Den","Total__After","Post_slope",11,11,TRUE
+"Campus Point SMCA|S. purpuratus|LTER|Den","Total__After","Change",11,11,TRUE
+"Campus Point SMCA|S. purpuratus|LTER|Den","Total__After","Post_slope",11,11,TRUE
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Total__After","Change",5,11,TRUE
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Total__After","Post_slope",5,11,TRUE
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Total__After","Change",3,11,TRUE
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Total__After","Post_slope",3,11,TRUE
+"Naples SMCA|S. purpuratus|LTER|Den","Total__After","Change",11,11,TRUE
+"Naples SMCA|S. purpuratus|LTER|Den","Total__After","Post_slope",11,11,TRUE
+"Naples SMCA|S. purpuratus|LTER|Bio","Total__After","Change",9,11,TRUE
+"Naples SMCA|S. purpuratus|LTER|Bio","Total__After","Post_slope",9,11,TRUE
+"Matlahuayl SMR|S. purpuratus|PISCO|Bio","Total__After","Change",1,4,FALSE
+"Matlahuayl SMR|S. purpuratus|PISCO|Bio","Total__After","Post_slope",1,4,TRUE
+"Matlahuayl SMR|M. franciscanus|PISCO|Bio","Total__After","Change",0,4,FALSE
+"Matlahuayl SMR|M. franciscanus|PISCO|Bio","Total__After","Post_slope",0,4,TRUE
+"Harris Point SMR|P. interruptus|KFM|Den","Total__After","Change",20,18,TRUE
+"Harris Point SMR|P. interruptus|KFM|Den","Total__After","Post_slope",20,18,TRUE
+"Harris Point SMR|S. purpuratus|KFM|Den","Total__After","Change",21,18,TRUE
+"Harris Point SMR|S. purpuratus|KFM|Den","Total__After","Post_slope",21,18,TRUE
+"Harris Point SMR|S. purpuratus|KFM|Bio","Total__After","Change",17,18,TRUE
+"Harris Point SMR|S. purpuratus|KFM|Bio","Total__After","Post_slope",17,18,TRUE
+"Scorpion SMR|S. purpuratus|KFM|Den","Total__After","Change",21,18,TRUE
+"Scorpion SMR|S. purpuratus|KFM|Den","Total__After","Post_slope",21,18,TRUE
+"Scorpion SMR|S. purpuratus|KFM|Bio","Total__After","Change",18,18,TRUE
+"Scorpion SMR|S. purpuratus|KFM|Bio","Total__After","Post_slope",18,18,TRUE
+"Naples SMCA|S. pulcher|LTER|Den","Total__After","Change",11,11,TRUE
+"Naples SMCA|S. pulcher|LTER|Den","Total__After","Post_slope",11,11,TRUE
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Total__After","Change",21,19,TRUE
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Total__After","Post_slope",21,19,TRUE
+"Santa Barbara Island SMR|M. franciscanus|KFM|Bio","Total__After","Change",0,17,FALSE
+"Santa Barbara Island SMR|M. franciscanus|KFM|Bio","Total__After","Post_slope",0,17,TRUE
+"Santa Barbara Island SMR|S. purpuratus|KFM|Bio","Total__After","Change",0,17,FALSE
+"Santa Barbara Island SMR|S. purpuratus|KFM|Bio","Total__After","Post_slope",0,17,TRUE
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Total__After","Change",18,19,TRUE
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Total__After","Post_slope",18,19,TRUE
+"Anacapa Island SMR 2003|M. pyrifera|KFM|Bio","Total__After","Change",0,17,FALSE
+"Anacapa Island SMR 2003|M. pyrifera|KFM|Bio","Total__After","Post_slope",0,17,TRUE
+"Harris Point SMR|M. pyrifera|KFM|Bio","Total__After","Change",6,18,TRUE
+"Harris Point SMR|M. pyrifera|KFM|Bio","Total__After","Post_slope",6,18,TRUE
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Total__After","Change",3,19,TRUE
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Total__After","Post_slope",3,19,TRUE
+"Scorpion SMR|M. pyrifera|KFM|Bio","Total__After","Change",6,17,TRUE
+"Scorpion SMR|M. pyrifera|KFM|Bio","Total__After","Post_slope",6,17,TRUE
+"South Point SMR|M. pyrifera|KFM|Bio","Total__After","Change",0,17,FALSE
+"South Point SMR|M. pyrifera|KFM|Bio","Total__After","Post_slope",0,17,TRUE
+"Point Dume SMCA|M. franciscanus|PISCO|Bio","Total__After","Change",1,0,FALSE
+"Point Dume SMCA|M. franciscanus|PISCO|Bio","Total__After","Post_slope",1,0,FALSE
+"Point Dume SMCA|M. franciscanus|PISCO|Den","Total__After","Change",3,3,FALSE
+"Point Dume SMCA|M. franciscanus|PISCO|Den","Total__After","Post_slope",3,3,TRUE
+"Point Dume SMCA|M. pyrifera|PISCO|Bio","Total__After","Change",3,3,FALSE
+"Point Dume SMCA|M. pyrifera|PISCO|Bio","Total__After","Post_slope",3,3,TRUE
+"Point Dume SMCA|P. interruptus|PISCO|Den","Total__After","Change",3,3,FALSE
+"Point Dume SMCA|P. interruptus|PISCO|Den","Total__After","Post_slope",3,3,TRUE
+"Point Dume SMCA|S. pulcher|PISCO|Bio","Total__After","Change",1,5,FALSE
+"Point Dume SMCA|S. pulcher|PISCO|Bio","Total__After","Post_slope",1,5,TRUE
+"Point Dume SMCA|S. pulcher|PISCO|Den","Total__After","Change",1,5,FALSE
+"Point Dume SMCA|S. pulcher|PISCO|Den","Total__After","Post_slope",1,5,TRUE
+"Point Dume SMCA|S. purpuratus|PISCO|Bio","Total__After","Change",1,0,FALSE
+"Point Dume SMCA|S. purpuratus|PISCO|Bio","Total__After","Post_slope",1,0,FALSE
+"Point Dume SMCA|S. purpuratus|PISCO|Den","Total__After","Change",3,3,FALSE
+"Point Dume SMCA|S. purpuratus|PISCO|Den","Total__After","Post_slope",3,3,TRUE
+"Point Dume SMR|M. franciscanus|PISCO|Den","Total__After","Change",0,1,FALSE
+"Point Dume SMR|M. franciscanus|PISCO|Den","Total__After","Post_slope",0,1,FALSE
+"Point Dume SMR|M. pyrifera|PISCO|Bio","Total__After","Change",0,1,FALSE
+"Point Dume SMR|M. pyrifera|PISCO|Bio","Total__After","Post_slope",0,1,FALSE
+"Point Dume SMR|P. interruptus|PISCO|Den","Total__After","Change",0,1,FALSE
+"Point Dume SMR|P. interruptus|PISCO|Den","Total__After","Post_slope",0,1,FALSE
+"Point Dume SMR|S. pulcher|PISCO|Bio","Total__After","Change",1,5,FALSE
+"Point Dume SMR|S. pulcher|PISCO|Bio","Total__After","Post_slope",1,5,TRUE
+"Point Dume SMR|S. pulcher|PISCO|Den","Total__After","Change",1,5,FALSE
+"Point Dume SMR|S. pulcher|PISCO|Den","Total__After","Post_slope",1,5,TRUE
+"Point Dume SMR|S. purpuratus|PISCO|Den","Total__After","Change",0,1,FALSE
+"Point Dume SMR|S. purpuratus|PISCO|Den","Total__After","Post_slope",0,1,FALSE
+"Naples SMCA|M. franciscanus|LTER|Den","Same_years__Before","Change",11,11,TRUE
+"Naples SMCA|M. franciscanus|LTER|Den","Same_years__Before","Post_slope",11,11,TRUE
+"Naples SMCA|M. franciscanus|LTER|Bio","Same_years__Before","Change",2,11,FALSE
+"Naples SMCA|M. franciscanus|LTER|Bio","Same_years__Before","Post_slope",2,11,TRUE
+"Abalone Cove SMCA|S. pulcher|PISCO|Bio","Same_years__Before","Change",2,11,FALSE
+"Abalone Cove SMCA|S. pulcher|PISCO|Bio","Same_years__Before","Post_slope",2,11,TRUE
+"Abalone Cove SMCA|S. pulcher|PISCO|Den","Same_years__Before","Change",2,11,FALSE
+"Abalone Cove SMCA|S. pulcher|PISCO|Den","Same_years__Before","Post_slope",2,11,TRUE
+"Abalone Cove SMCA|M. pyrifera|PISCO|Bio","Same_years__Before","Change",1,11,FALSE
+"Abalone Cove SMCA|M. pyrifera|PISCO|Bio","Same_years__Before","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|M. franciscanus|PISCO|Bio","Same_years__Before","Change",1,11,FALSE
+"Abalone Cove SMCA|M. franciscanus|PISCO|Bio","Same_years__Before","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|S. purpuratus|PISCO|Bio","Same_years__Before","Change",1,11,FALSE
+"Abalone Cove SMCA|S. purpuratus|PISCO|Bio","Same_years__Before","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|M. franciscanus|PISCO|Den","Same_years__Before","Change",1,11,FALSE
+"Abalone Cove SMCA|M. franciscanus|PISCO|Den","Same_years__Before","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|P. interruptus|PISCO|Den","Same_years__Before","Change",1,11,FALSE
+"Abalone Cove SMCA|P. interruptus|PISCO|Den","Same_years__Before","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|S. purpuratus|PISCO|Den","Same_years__Before","Change",1,11,FALSE
+"Abalone Cove SMCA|S. purpuratus|PISCO|Den","Same_years__Before","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|P. interruptus|PISCO|Bio","Same_years__Before","Change",0,11,FALSE
+"Abalone Cove SMCA|P. interruptus|PISCO|Bio","Same_years__Before","Post_slope",0,11,TRUE
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Bio","Same_years__Before","Change",0,19,FALSE
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Bio","Same_years__Before","Post_slope",0,19,TRUE
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Den","Same_years__Before","Change",0,19,FALSE
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Den","Same_years__Before","Post_slope",0,19,TRUE
+"Anacapa Island SMR 2003|M. pyrifera|PISCO|Bio","Same_years__Before","Change",0,16,FALSE
+"Anacapa Island SMR 2003|M. pyrifera|PISCO|Bio","Same_years__Before","Post_slope",0,16,TRUE
+"Anacapa Island SMR 2003|M. franciscanus|PISCO|Den","Same_years__Before","Change",0,16,FALSE
+"Anacapa Island SMR 2003|M. franciscanus|PISCO|Den","Same_years__Before","Post_slope",0,16,TRUE
+"Anacapa Island SMR 2003|P. interruptus|PISCO|Den","Same_years__Before","Change",0,16,FALSE
+"Anacapa Island SMR 2003|P. interruptus|PISCO|Den","Same_years__Before","Post_slope",0,16,TRUE
+"Anacapa Island SMR 2003|S. purpuratus|PISCO|Den","Same_years__Before","Change",0,16,FALSE
+"Anacapa Island SMR 2003|S. purpuratus|PISCO|Den","Same_years__Before","Post_slope",0,16,TRUE
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Same_years__Before","Change",3,9,TRUE
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Same_years__Before","Post_slope",3,9,TRUE
+"Campus Point SMCA|S. pulcher|PISCO|Den","Same_years__Before","Change",3,9,TRUE
+"Campus Point SMCA|S. pulcher|PISCO|Den","Same_years__Before","Post_slope",3,9,TRUE
+"Campus Point SMCA|M. pyrifera|PISCO|Bio","Same_years__Before","Change",2,11,FALSE
+"Campus Point SMCA|M. pyrifera|PISCO|Bio","Same_years__Before","Post_slope",2,11,TRUE
+"Campus Point SMCA|M. franciscanus|PISCO|Den","Same_years__Before","Change",2,11,FALSE
+"Campus Point SMCA|M. franciscanus|PISCO|Den","Same_years__Before","Post_slope",2,11,TRUE
+"Campus Point SMCA|P. interruptus|PISCO|Den","Same_years__Before","Change",2,11,FALSE
+"Campus Point SMCA|P. interruptus|PISCO|Den","Same_years__Before","Post_slope",2,11,TRUE
+"Campus Point SMCA|S. purpuratus|PISCO|Den","Same_years__Before","Change",2,11,FALSE
+"Campus Point SMCA|S. purpuratus|PISCO|Den","Same_years__Before","Post_slope",2,11,TRUE
+"Campus Point SMCA|M. franciscanus|PISCO|Bio","Same_years__Before","Change",1,10,FALSE
+"Campus Point SMCA|M. franciscanus|PISCO|Bio","Same_years__Before","Post_slope",1,10,TRUE
+"Campus Point SMCA|S. purpuratus|PISCO|Bio","Same_years__Before","Change",1,11,FALSE
+"Campus Point SMCA|S. purpuratus|PISCO|Bio","Same_years__Before","Post_slope",1,11,TRUE
+"Gull Island SMR|S. pulcher|PISCO|Bio","Same_years__Before","Change",0,19,FALSE
+"Gull Island SMR|S. pulcher|PISCO|Bio","Same_years__Before","Post_slope",0,19,TRUE
+"Gull Island SMR|S. pulcher|PISCO|Den","Same_years__Before","Change",0,19,FALSE
+"Gull Island SMR|S. pulcher|PISCO|Den","Same_years__Before","Post_slope",0,19,TRUE
+"Gull Island SMR|M. pyrifera|PISCO|Bio","Same_years__Before","Change",0,16,FALSE
+"Gull Island SMR|M. pyrifera|PISCO|Bio","Same_years__Before","Post_slope",0,16,TRUE
+"Gull Island SMR|M. franciscanus|PISCO|Bio","Same_years__Before","Change",0,15,FALSE
+"Gull Island SMR|M. franciscanus|PISCO|Bio","Same_years__Before","Post_slope",0,15,TRUE
+"Gull Island SMR|S. purpuratus|PISCO|Bio","Same_years__Before","Change",0,15,FALSE
+"Gull Island SMR|S. purpuratus|PISCO|Bio","Same_years__Before","Post_slope",0,15,TRUE
+"Gull Island SMR|M. franciscanus|PISCO|Den","Same_years__Before","Change",0,16,FALSE
+"Gull Island SMR|M. franciscanus|PISCO|Den","Same_years__Before","Post_slope",0,16,TRUE
+"Gull Island SMR|P. interruptus|PISCO|Den","Same_years__Before","Change",0,16,FALSE
+"Gull Island SMR|P. interruptus|PISCO|Den","Same_years__Before","Post_slope",0,16,TRUE
+"Gull Island SMR|S. purpuratus|PISCO|Den","Same_years__Before","Change",0,16,FALSE
+"Gull Island SMR|S. purpuratus|PISCO|Den","Same_years__Before","Post_slope",0,16,TRUE
+"Harris Point SMR|M. pyrifera|PISCO|Bio","Same_years__Before","Change",0,17,FALSE
+"Harris Point SMR|M. pyrifera|PISCO|Bio","Same_years__Before","Post_slope",0,17,TRUE
+"Harris Point SMR|M. franciscanus|PISCO|Bio","Same_years__Before","Change",0,15,FALSE
+"Harris Point SMR|M. franciscanus|PISCO|Bio","Same_years__Before","Post_slope",0,15,TRUE
+"Harris Point SMR|S. pulcher|PISCO|Bio","Same_years__Before","Change",0,17,FALSE
+"Harris Point SMR|S. pulcher|PISCO|Bio","Same_years__Before","Post_slope",0,17,TRUE
+"Harris Point SMR|S. purpuratus|PISCO|Bio","Same_years__Before","Change",0,15,FALSE
+"Harris Point SMR|S. purpuratus|PISCO|Bio","Same_years__Before","Post_slope",0,15,TRUE
+"Harris Point SMR|M. franciscanus|PISCO|Den","Same_years__Before","Change",0,17,FALSE
+"Harris Point SMR|M. franciscanus|PISCO|Den","Same_years__Before","Post_slope",0,17,TRUE
+"Harris Point SMR|P. interruptus|PISCO|Den","Same_years__Before","Change",0,17,FALSE
+"Harris Point SMR|P. interruptus|PISCO|Den","Same_years__Before","Post_slope",0,17,TRUE
+"Harris Point SMR|S. pulcher|PISCO|Den","Same_years__Before","Change",0,17,FALSE
+"Harris Point SMR|S. pulcher|PISCO|Den","Same_years__Before","Post_slope",0,17,TRUE
+"Harris Point SMR|S. purpuratus|PISCO|Den","Same_years__Before","Change",0,17,FALSE
+"Harris Point SMR|S. purpuratus|PISCO|Den","Same_years__Before","Post_slope",0,17,TRUE
+"Matlahuayl SMR|M. pyrifera|PISCO|Bio","Same_years__Before","Change",1,5,FALSE
+"Matlahuayl SMR|M. pyrifera|PISCO|Bio","Same_years__Before","Post_slope",1,5,TRUE
+"Matlahuayl SMR|P. interruptus|PISCO|Bio","Same_years__Before","Change",1,5,FALSE
+"Matlahuayl SMR|P. interruptus|PISCO|Bio","Same_years__Before","Post_slope",1,5,TRUE
+"Matlahuayl SMR|S. pulcher|PISCO|Bio","Same_years__Before","Change",1,5,FALSE
+"Matlahuayl SMR|S. pulcher|PISCO|Bio","Same_years__Before","Post_slope",1,5,TRUE
+"Matlahuayl SMR|M. franciscanus|PISCO|Den","Same_years__Before","Change",1,5,FALSE
+"Matlahuayl SMR|M. franciscanus|PISCO|Den","Same_years__Before","Post_slope",1,5,TRUE
+"Matlahuayl SMR|P. interruptus|PISCO|Den","Same_years__Before","Change",1,5,FALSE
+"Matlahuayl SMR|P. interruptus|PISCO|Den","Same_years__Before","Post_slope",1,5,TRUE
+"Matlahuayl SMR|S. pulcher|PISCO|Den","Same_years__Before","Change",1,5,FALSE
+"Matlahuayl SMR|S. pulcher|PISCO|Den","Same_years__Before","Post_slope",1,5,TRUE
+"Matlahuayl SMR|S. purpuratus|PISCO|Den","Same_years__Before","Change",1,5,FALSE
+"Matlahuayl SMR|S. purpuratus|PISCO|Den","Same_years__Before","Post_slope",1,5,TRUE
+"Naples SMCA|S. pulcher|PISCO|Bio","Same_years__Before","Change",3,10,TRUE
+"Naples SMCA|S. pulcher|PISCO|Bio","Same_years__Before","Post_slope",3,10,TRUE
+"Naples SMCA|S. pulcher|PISCO|Den","Same_years__Before","Change",3,10,TRUE
+"Naples SMCA|S. pulcher|PISCO|Den","Same_years__Before","Post_slope",3,10,TRUE
+"Naples SMCA|M. pyrifera|PISCO|Bio","Same_years__Before","Change",2,11,FALSE
+"Naples SMCA|M. pyrifera|PISCO|Bio","Same_years__Before","Post_slope",2,11,TRUE
+"Naples SMCA|M. franciscanus|PISCO|Den","Same_years__Before","Change",2,11,FALSE
+"Naples SMCA|M. franciscanus|PISCO|Den","Same_years__Before","Post_slope",2,11,TRUE
+"Naples SMCA|P. interruptus|PISCO|Den","Same_years__Before","Change",2,11,FALSE
+"Naples SMCA|P. interruptus|PISCO|Den","Same_years__Before","Post_slope",2,11,TRUE
+"Naples SMCA|S. purpuratus|PISCO|Den","Same_years__Before","Change",2,11,FALSE
+"Naples SMCA|S. purpuratus|PISCO|Den","Same_years__Before","Post_slope",2,11,TRUE
+"Naples SMCA|M. franciscanus|PISCO|Bio","Same_years__Before","Change",1,11,FALSE
+"Naples SMCA|M. franciscanus|PISCO|Bio","Same_years__Before","Post_slope",1,11,TRUE
+"Naples SMCA|S. purpuratus|PISCO|Bio","Same_years__Before","Change",1,11,FALSE
+"Naples SMCA|S. purpuratus|PISCO|Bio","Same_years__Before","Post_slope",1,11,TRUE
+"Point Vicente SMCA|M. pyrifera|PISCO|Bio","Same_years__Before","Change",4,10,FALSE
+"Point Vicente SMCA|M. pyrifera|PISCO|Bio","Same_years__Before","Post_slope",4,10,TRUE
+"Point Vicente SMCA|M. franciscanus|PISCO|Den","Same_years__Before","Change",4,10,FALSE
+"Point Vicente SMCA|M. franciscanus|PISCO|Den","Same_years__Before","Post_slope",4,10,TRUE
+"Point Vicente SMCA|P. interruptus|PISCO|Den","Same_years__Before","Change",4,10,FALSE
+"Point Vicente SMCA|P. interruptus|PISCO|Den","Same_years__Before","Post_slope",4,10,TRUE
+"Point Vicente SMCA|S. purpuratus|PISCO|Den","Same_years__Before","Change",4,10,FALSE
+"Point Vicente SMCA|S. purpuratus|PISCO|Den","Same_years__Before","Post_slope",4,10,TRUE
+"Point Vicente SMCA|M. franciscanus|PISCO|Bio","Same_years__Before","Change",3,10,FALSE
+"Point Vicente SMCA|M. franciscanus|PISCO|Bio","Same_years__Before","Post_slope",3,10,TRUE
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Same_years__Before","Change",3,11,TRUE
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Same_years__Before","Post_slope",3,11,TRUE
+"Point Vicente SMCA|S. purpuratus|PISCO|Bio","Same_years__Before","Change",3,10,FALSE
+"Point Vicente SMCA|S. purpuratus|PISCO|Bio","Same_years__Before","Post_slope",3,10,TRUE
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Same_years__Before","Change",3,11,TRUE
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Same_years__Before","Post_slope",3,11,TRUE
+"Point Vicente SMCA|P. interruptus|PISCO|Bio","Same_years__Before","Change",1,10,FALSE
+"Point Vicente SMCA|P. interruptus|PISCO|Bio","Same_years__Before","Post_slope",1,10,TRUE
+"Scorpion SMR|M. pyrifera|PISCO|Bio","Same_years__Before","Change",0,20,FALSE
+"Scorpion SMR|M. pyrifera|PISCO|Bio","Same_years__Before","Post_slope",0,20,TRUE
+"Scorpion SMR|M. franciscanus|PISCO|Bio","Same_years__Before","Change",0,18,FALSE
+"Scorpion SMR|M. franciscanus|PISCO|Bio","Same_years__Before","Post_slope",0,18,TRUE
+"Scorpion SMR|S. pulcher|PISCO|Bio","Same_years__Before","Change",0,20,FALSE
+"Scorpion SMR|S. pulcher|PISCO|Bio","Same_years__Before","Post_slope",0,20,TRUE
+"Scorpion SMR|S. purpuratus|PISCO|Bio","Same_years__Before","Change",0,18,FALSE
+"Scorpion SMR|S. purpuratus|PISCO|Bio","Same_years__Before","Post_slope",0,18,TRUE
+"Scorpion SMR|M. franciscanus|PISCO|Den","Same_years__Before","Change",0,20,FALSE
+"Scorpion SMR|M. franciscanus|PISCO|Den","Same_years__Before","Post_slope",0,20,TRUE
+"Scorpion SMR|P. interruptus|PISCO|Den","Same_years__Before","Change",0,20,FALSE
+"Scorpion SMR|P. interruptus|PISCO|Den","Same_years__Before","Post_slope",0,20,TRUE
+"Scorpion SMR|S. pulcher|PISCO|Den","Same_years__Before","Change",0,20,FALSE
+"Scorpion SMR|S. pulcher|PISCO|Den","Same_years__Before","Post_slope",0,20,TRUE
+"Scorpion SMR|S. purpuratus|PISCO|Den","Same_years__Before","Change",0,20,FALSE
+"Scorpion SMR|S. purpuratus|PISCO|Den","Same_years__Before","Post_slope",0,20,TRUE
+"South Point SMR|S. pulcher|PISCO|Bio","Same_years__Before","Change",0,19,FALSE
+"South Point SMR|S. pulcher|PISCO|Bio","Same_years__Before","Post_slope",0,19,TRUE
+"South Point SMR|S. pulcher|PISCO|Den","Same_years__Before","Change",0,20,FALSE
+"South Point SMR|S. pulcher|PISCO|Den","Same_years__Before","Post_slope",0,20,TRUE
+"South Point SMR|M. pyrifera|PISCO|Bio","Same_years__Before","Change",0,16,FALSE
+"South Point SMR|M. pyrifera|PISCO|Bio","Same_years__Before","Post_slope",0,16,TRUE
+"South Point SMR|M. franciscanus|PISCO|Bio","Same_years__Before","Change",0,14,FALSE
+"South Point SMR|M. franciscanus|PISCO|Bio","Same_years__Before","Post_slope",0,14,TRUE
+"South Point SMR|S. purpuratus|PISCO|Bio","Same_years__Before","Change",0,14,FALSE
+"South Point SMR|S. purpuratus|PISCO|Bio","Same_years__Before","Post_slope",0,14,TRUE
+"South Point SMR|M. franciscanus|PISCO|Den","Same_years__Before","Change",0,16,FALSE
+"South Point SMR|M. franciscanus|PISCO|Den","Same_years__Before","Post_slope",0,16,TRUE
+"South Point SMR|P. interruptus|PISCO|Den","Same_years__Before","Change",0,16,FALSE
+"South Point SMR|P. interruptus|PISCO|Den","Same_years__Before","Post_slope",0,16,TRUE
+"South Point SMR|S. purpuratus|PISCO|Den","Same_years__Before","Change",0,16,FALSE
+"South Point SMR|S. purpuratus|PISCO|Den","Same_years__Before","Post_slope",0,16,TRUE
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Den","Same_years__Before","Change",0,17,FALSE
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Den","Same_years__Before","Post_slope",0,17,TRUE
+"Anacapa Island SMR 2003|P. interruptus|KFM|Den","Same_years__Before","Change",0,17,FALSE
+"Anacapa Island SMR 2003|P. interruptus|KFM|Den","Same_years__Before","Post_slope",0,17,TRUE
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Den","Same_years__Before","Change",0,17,FALSE
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Den","Same_years__Before","Post_slope",0,17,TRUE
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Bio","Same_years__Before","Change",0,17,FALSE
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Bio","Same_years__Before","Post_slope",0,17,TRUE
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Bio","Same_years__Before","Change",0,17,FALSE
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Bio","Same_years__Before","Post_slope",0,17,TRUE
+"Harris Point SMR|M. franciscanus|KFM|Den","Same_years__Before","Change",21,18,TRUE
+"Harris Point SMR|M. franciscanus|KFM|Den","Same_years__Before","Post_slope",21,18,TRUE
+"Harris Point SMR|M. franciscanus|KFM|Bio","Same_years__Before","Change",17,18,TRUE
+"Harris Point SMR|M. franciscanus|KFM|Bio","Same_years__Before","Post_slope",17,18,TRUE
+"Scorpion SMR|P. interruptus|KFM|Den","Same_years__Before","Change",20,18,TRUE
+"Scorpion SMR|P. interruptus|KFM|Den","Same_years__Before","Post_slope",20,18,TRUE
+"Scorpion SMR|M. franciscanus|KFM|Den","Same_years__Before","Change",21,18,TRUE
+"Scorpion SMR|M. franciscanus|KFM|Den","Same_years__Before","Post_slope",21,18,TRUE
+"Scorpion SMR|M. franciscanus|KFM|Bio","Same_years__Before","Change",18,18,TRUE
+"Scorpion SMR|M. franciscanus|KFM|Bio","Same_years__Before","Post_slope",18,18,TRUE
+"South Point SMR|S. purpuratus|KFM|Den","Same_years__Before","Change",0,17,FALSE
+"South Point SMR|S. purpuratus|KFM|Den","Same_years__Before","Post_slope",0,17,TRUE
+"South Point SMR|M. franciscanus|KFM|Den","Same_years__Before","Change",0,17,FALSE
+"South Point SMR|M. franciscanus|KFM|Den","Same_years__Before","Post_slope",0,17,TRUE
+"South Point SMR|P. interruptus|KFM|Den","Same_years__Before","Change",0,17,FALSE
+"South Point SMR|P. interruptus|KFM|Den","Same_years__Before","Post_slope",0,17,TRUE
+"South Point SMR|M. franciscanus|KFM|Bio","Same_years__Before","Change",0,17,FALSE
+"South Point SMR|M. franciscanus|KFM|Bio","Same_years__Before","Post_slope",0,17,TRUE
+"South Point SMR|S. purpuratus|KFM|Bio","Same_years__Before","Change",0,17,FALSE
+"South Point SMR|S. purpuratus|KFM|Bio","Same_years__Before","Post_slope",0,17,TRUE
+"Campus Point SMCA|P. interruptus|LTER|Bio","Same_years__Before","Change",0,11,FALSE
+"Campus Point SMCA|P. interruptus|LTER|Bio","Same_years__Before","Post_slope",0,11,TRUE
+"Campus Point SMCA|P. interruptus|LTER|Den","Same_years__Before","Change",0,11,FALSE
+"Campus Point SMCA|P. interruptus|LTER|Den","Same_years__Before","Post_slope",0,11,TRUE
+"Naples SMCA|P. interruptus|LTER|Bio","Same_years__Before","Change",0,11,FALSE
+"Naples SMCA|P. interruptus|LTER|Bio","Same_years__Before","Post_slope",0,11,TRUE
+"Naples SMCA|P. interruptus|LTER|Den","Same_years__Before","Change",0,11,FALSE
+"Naples SMCA|P. interruptus|LTER|Den","Same_years__Before","Post_slope",0,11,TRUE
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Same_years__Before","Change",11,11,TRUE
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Same_years__Before","Post_slope",11,11,TRUE
+"Naples SMCA|M. pyrifera|LTER|Bio","Same_years__Before","Change",11,11,TRUE
+"Naples SMCA|M. pyrifera|LTER|Bio","Same_years__Before","Post_slope",11,11,TRUE
+"Campus Point SMCA|S. pulcher|LTER|Den","Same_years__Before","Change",10,11,TRUE
+"Campus Point SMCA|S. pulcher|LTER|Den","Same_years__Before","Post_slope",10,11,TRUE
+"Campus Point SMCA|S. pulcher|LTER|Bio","Same_years__Before","Change",10,11,TRUE
+"Campus Point SMCA|S. pulcher|LTER|Bio","Same_years__Before","Post_slope",10,11,TRUE
+"Naples SMCA|S. pulcher|LTER|Bio","Same_years__Before","Change",11,11,TRUE
+"Naples SMCA|S. pulcher|LTER|Bio","Same_years__Before","Post_slope",11,11,TRUE
+"Anacapa Island SMR 2003|S. pulcher|KFM|Den","Same_years__Before","Change",0,17,FALSE
+"Anacapa Island SMR 2003|S. pulcher|KFM|Den","Same_years__Before","Post_slope",0,17,TRUE
+"Harris Point SMR|S. pulcher|KFM|Den","Same_years__Before","Change",18,18,TRUE
+"Harris Point SMR|S. pulcher|KFM|Den","Same_years__Before","Post_slope",18,18,TRUE
+"Scorpion SMR|S. pulcher|KFM|Den","Same_years__Before","Change",18,19,TRUE
+"Scorpion SMR|S. pulcher|KFM|Den","Same_years__Before","Post_slope",18,19,TRUE
+"South Point SMR|S. pulcher|KFM|Den","Same_years__Before","Change",0,17,FALSE
+"South Point SMR|S. pulcher|KFM|Den","Same_years__Before","Post_slope",0,17,TRUE
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio","Same_years__Before","Change",1,6,FALSE
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio","Same_years__Before","Post_slope",1,6,TRUE
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den","Same_years__Before","Change",1,6,FALSE
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den","Same_years__Before","Post_slope",1,6,TRUE
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio","Same_years__Before","Change",1,4,FALSE
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio","Same_years__Before","Post_slope",1,4,TRUE
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Den","Same_years__Before","Change",1,4,FALSE
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Den","Same_years__Before","Post_slope",1,4,TRUE
+"Long Point SMR|S. pulcher|PISCO|Bio","Same_years__Before","Change",1,6,FALSE
+"Long Point SMR|S. pulcher|PISCO|Bio","Same_years__Before","Post_slope",1,6,TRUE
+"Long Point SMR|S. pulcher|PISCO|Den","Same_years__Before","Change",1,6,FALSE
+"Long Point SMR|S. pulcher|PISCO|Den","Same_years__Before","Post_slope",1,6,TRUE
+"Santa Barbara Island SMR|S. pulcher|PISCO|Bio","Same_years__Before","Change",0,9,FALSE
+"Santa Barbara Island SMR|S. pulcher|PISCO|Bio","Same_years__Before","Post_slope",0,9,TRUE
+"Santa Barbara Island SMR|S. pulcher|PISCO|Den","Same_years__Before","Change",0,9,FALSE
+"Santa Barbara Island SMR|S. pulcher|PISCO|Den","Same_years__Before","Post_slope",0,9,TRUE
+"Swamis SMCA|S. pulcher|PISCO|Bio","Same_years__Before","Change",1,5,FALSE
+"Swamis SMCA|S. pulcher|PISCO|Bio","Same_years__Before","Post_slope",1,5,TRUE
+"Swamis SMCA|S. pulcher|PISCO|Den","Same_years__Before","Change",1,5,FALSE
+"Swamis SMCA|S. pulcher|PISCO|Den","Same_years__Before","Post_slope",1,5,TRUE
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Same_years__Before","Change",20,19,TRUE
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Same_years__Before","Post_slope",20,19,TRUE
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Same_years__Before","Change",21,19,TRUE
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Same_years__Before","Post_slope",21,19,TRUE
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Same_years__Before","Change",26,9,TRUE
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Same_years__Before","Post_slope",26,9,TRUE
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Same_years__Before","Change",24,9,TRUE
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Same_years__Before","Post_slope",24,9,TRUE
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Same_years__Before","Change",27,9,TRUE
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Same_years__Before","Post_slope",27,9,TRUE
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Same_years__Before","Change",18,18,TRUE
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Same_years__Before","Post_slope",18,18,TRUE
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Same_years__Before","Change",15,9,TRUE
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Same_years__Before","Post_slope",15,9,TRUE
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Same_years__Before","Change",18,18,TRUE
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Same_years__Before","Post_slope",18,18,TRUE
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Same_years__Before","Change",17,18,TRUE
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Same_years__Before","Post_slope",17,18,TRUE
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Same_years__Before","Change",18,18,TRUE
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Same_years__Before","Post_slope",18,18,TRUE
+"Naples SMCA|M. pyrifera|Landsat|Bio","Same_years__Before","Change",27,9,TRUE
+"Naples SMCA|M. pyrifera|Landsat|Bio","Same_years__Before","Post_slope",27,9,TRUE
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Same_years__Before","Change",27,9,TRUE
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Same_years__Before","Post_slope",27,9,TRUE
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Same_years__Before","Change",27,9,TRUE
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Same_years__Before","Post_slope",27,9,TRUE
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Same_years__Before","Change",25,9,TRUE
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Same_years__Before","Post_slope",25,9,TRUE
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Same_years__Before","Change",18,18,TRUE
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Same_years__Before","Post_slope",18,18,TRUE
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Same_years__Before","Change",17,18,TRUE
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Same_years__Before","Post_slope",17,18,TRUE
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Same_years__Before","Change",25,9,TRUE
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Same_years__Before","Post_slope",25,9,TRUE
+"South Point SMR|M. pyrifera|Landsat|Bio","Same_years__Before","Change",18,18,TRUE
+"South Point SMR|M. pyrifera|Landsat|Bio","Same_years__Before","Post_slope",18,18,TRUE
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Same_years__Before","Change",27,9,TRUE
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Same_years__Before","Post_slope",27,9,TRUE
+"Campus Point SMCA|M. franciscanus|LTER|Den","Same_years__Before","Change",11,11,TRUE
+"Campus Point SMCA|M. franciscanus|LTER|Den","Same_years__Before","Post_slope",11,11,TRUE
+"Campus Point SMCA|S. purpuratus|LTER|Den","Same_years__Before","Change",11,11,TRUE
+"Campus Point SMCA|S. purpuratus|LTER|Den","Same_years__Before","Post_slope",11,11,TRUE
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Same_years__Before","Change",5,11,TRUE
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Same_years__Before","Post_slope",5,11,TRUE
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Same_years__Before","Change",3,11,TRUE
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Same_years__Before","Post_slope",3,11,TRUE
+"Naples SMCA|S. purpuratus|LTER|Den","Same_years__Before","Change",11,11,TRUE
+"Naples SMCA|S. purpuratus|LTER|Den","Same_years__Before","Post_slope",11,11,TRUE
+"Naples SMCA|S. purpuratus|LTER|Bio","Same_years__Before","Change",9,11,TRUE
+"Naples SMCA|S. purpuratus|LTER|Bio","Same_years__Before","Post_slope",9,11,TRUE
+"Matlahuayl SMR|S. purpuratus|PISCO|Bio","Same_years__Before","Change",1,4,FALSE
+"Matlahuayl SMR|S. purpuratus|PISCO|Bio","Same_years__Before","Post_slope",1,4,TRUE
+"Matlahuayl SMR|M. franciscanus|PISCO|Bio","Same_years__Before","Change",0,4,FALSE
+"Matlahuayl SMR|M. franciscanus|PISCO|Bio","Same_years__Before","Post_slope",0,4,TRUE
+"Harris Point SMR|P. interruptus|KFM|Den","Same_years__Before","Change",20,18,TRUE
+"Harris Point SMR|P. interruptus|KFM|Den","Same_years__Before","Post_slope",20,18,TRUE
+"Harris Point SMR|S. purpuratus|KFM|Den","Same_years__Before","Change",21,18,TRUE
+"Harris Point SMR|S. purpuratus|KFM|Den","Same_years__Before","Post_slope",21,18,TRUE
+"Harris Point SMR|S. purpuratus|KFM|Bio","Same_years__Before","Change",17,18,TRUE
+"Harris Point SMR|S. purpuratus|KFM|Bio","Same_years__Before","Post_slope",17,18,TRUE
+"Scorpion SMR|S. purpuratus|KFM|Den","Same_years__Before","Change",21,18,TRUE
+"Scorpion SMR|S. purpuratus|KFM|Den","Same_years__Before","Post_slope",21,18,TRUE
+"Scorpion SMR|S. purpuratus|KFM|Bio","Same_years__Before","Change",18,18,TRUE
+"Scorpion SMR|S. purpuratus|KFM|Bio","Same_years__Before","Post_slope",18,18,TRUE
+"Naples SMCA|S. pulcher|LTER|Den","Same_years__Before","Change",11,11,TRUE
+"Naples SMCA|S. pulcher|LTER|Den","Same_years__Before","Post_slope",11,11,TRUE
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Same_years__Before","Change",21,19,TRUE
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Same_years__Before","Post_slope",21,19,TRUE
+"Santa Barbara Island SMR|M. franciscanus|KFM|Bio","Same_years__Before","Change",0,17,FALSE
+"Santa Barbara Island SMR|M. franciscanus|KFM|Bio","Same_years__Before","Post_slope",0,17,TRUE
+"Santa Barbara Island SMR|S. purpuratus|KFM|Bio","Same_years__Before","Change",0,17,FALSE
+"Santa Barbara Island SMR|S. purpuratus|KFM|Bio","Same_years__Before","Post_slope",0,17,TRUE
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Same_years__Before","Change",18,19,TRUE
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Same_years__Before","Post_slope",18,19,TRUE
+"Anacapa Island SMR 2003|M. pyrifera|KFM|Bio","Same_years__Before","Change",0,17,FALSE
+"Anacapa Island SMR 2003|M. pyrifera|KFM|Bio","Same_years__Before","Post_slope",0,17,TRUE
+"Harris Point SMR|M. pyrifera|KFM|Bio","Same_years__Before","Change",6,18,TRUE
+"Harris Point SMR|M. pyrifera|KFM|Bio","Same_years__Before","Post_slope",6,18,TRUE
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Same_years__Before","Change",3,19,TRUE
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Same_years__Before","Post_slope",3,19,TRUE
+"Scorpion SMR|M. pyrifera|KFM|Bio","Same_years__Before","Change",6,17,TRUE
+"Scorpion SMR|M. pyrifera|KFM|Bio","Same_years__Before","Post_slope",6,17,TRUE
+"South Point SMR|M. pyrifera|KFM|Bio","Same_years__Before","Change",0,17,FALSE
+"South Point SMR|M. pyrifera|KFM|Bio","Same_years__Before","Post_slope",0,17,TRUE
+"Point Dume SMCA|M. franciscanus|PISCO|Bio","Same_years__Before","Change",1,0,FALSE
+"Point Dume SMCA|M. franciscanus|PISCO|Bio","Same_years__Before","Post_slope",1,0,FALSE
+"Point Dume SMCA|M. franciscanus|PISCO|Den","Same_years__Before","Change",3,3,FALSE
+"Point Dume SMCA|M. franciscanus|PISCO|Den","Same_years__Before","Post_slope",3,3,TRUE
+"Point Dume SMCA|M. pyrifera|PISCO|Bio","Same_years__Before","Change",3,3,FALSE
+"Point Dume SMCA|M. pyrifera|PISCO|Bio","Same_years__Before","Post_slope",3,3,TRUE
+"Point Dume SMCA|P. interruptus|PISCO|Den","Same_years__Before","Change",3,3,FALSE
+"Point Dume SMCA|P. interruptus|PISCO|Den","Same_years__Before","Post_slope",3,3,TRUE
+"Point Dume SMCA|S. pulcher|PISCO|Bio","Same_years__Before","Change",1,5,FALSE
+"Point Dume SMCA|S. pulcher|PISCO|Bio","Same_years__Before","Post_slope",1,5,TRUE
+"Point Dume SMCA|S. pulcher|PISCO|Den","Same_years__Before","Change",1,5,FALSE
+"Point Dume SMCA|S. pulcher|PISCO|Den","Same_years__Before","Post_slope",1,5,TRUE
+"Point Dume SMCA|S. purpuratus|PISCO|Bio","Same_years__Before","Change",1,0,FALSE
+"Point Dume SMCA|S. purpuratus|PISCO|Bio","Same_years__Before","Post_slope",1,0,FALSE
+"Point Dume SMCA|S. purpuratus|PISCO|Den","Same_years__Before","Change",3,3,FALSE
+"Point Dume SMCA|S. purpuratus|PISCO|Den","Same_years__Before","Post_slope",3,3,TRUE
+"Point Dume SMR|M. franciscanus|PISCO|Den","Same_years__Before","Change",0,1,FALSE
+"Point Dume SMR|M. franciscanus|PISCO|Den","Same_years__Before","Post_slope",0,1,FALSE
+"Point Dume SMR|M. pyrifera|PISCO|Bio","Same_years__Before","Change",0,1,FALSE
+"Point Dume SMR|M. pyrifera|PISCO|Bio","Same_years__Before","Post_slope",0,1,FALSE
+"Point Dume SMR|P. interruptus|PISCO|Den","Same_years__Before","Change",0,1,FALSE
+"Point Dume SMR|P. interruptus|PISCO|Den","Same_years__Before","Post_slope",0,1,FALSE
+"Point Dume SMR|S. pulcher|PISCO|Bio","Same_years__Before","Change",1,5,FALSE
+"Point Dume SMR|S. pulcher|PISCO|Bio","Same_years__Before","Post_slope",1,5,TRUE
+"Point Dume SMR|S. pulcher|PISCO|Den","Same_years__Before","Change",1,5,FALSE
+"Point Dume SMR|S. pulcher|PISCO|Den","Same_years__Before","Post_slope",1,5,TRUE
+"Point Dume SMR|S. purpuratus|PISCO|Den","Same_years__Before","Change",0,1,FALSE
+"Point Dume SMR|S. purpuratus|PISCO|Den","Same_years__Before","Post_slope",0,1,FALSE
+"Naples SMCA|M. franciscanus|LTER|Den","Same_years__After","Change",11,11,TRUE
+"Naples SMCA|M. franciscanus|LTER|Den","Same_years__After","Post_slope",11,11,TRUE
+"Naples SMCA|M. franciscanus|LTER|Bio","Same_years__After","Change",2,11,FALSE
+"Naples SMCA|M. franciscanus|LTER|Bio","Same_years__After","Post_slope",2,11,TRUE
+"Abalone Cove SMCA|S. pulcher|PISCO|Bio","Same_years__After","Change",2,11,FALSE
+"Abalone Cove SMCA|S. pulcher|PISCO|Bio","Same_years__After","Post_slope",2,11,TRUE
+"Abalone Cove SMCA|S. pulcher|PISCO|Den","Same_years__After","Change",2,11,FALSE
+"Abalone Cove SMCA|S. pulcher|PISCO|Den","Same_years__After","Post_slope",2,11,TRUE
+"Abalone Cove SMCA|M. pyrifera|PISCO|Bio","Same_years__After","Change",1,11,FALSE
+"Abalone Cove SMCA|M. pyrifera|PISCO|Bio","Same_years__After","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|M. franciscanus|PISCO|Bio","Same_years__After","Change",1,11,FALSE
+"Abalone Cove SMCA|M. franciscanus|PISCO|Bio","Same_years__After","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|S. purpuratus|PISCO|Bio","Same_years__After","Change",1,11,FALSE
+"Abalone Cove SMCA|S. purpuratus|PISCO|Bio","Same_years__After","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|M. franciscanus|PISCO|Den","Same_years__After","Change",1,11,FALSE
+"Abalone Cove SMCA|M. franciscanus|PISCO|Den","Same_years__After","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|P. interruptus|PISCO|Den","Same_years__After","Change",1,11,FALSE
+"Abalone Cove SMCA|P. interruptus|PISCO|Den","Same_years__After","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|S. purpuratus|PISCO|Den","Same_years__After","Change",1,11,FALSE
+"Abalone Cove SMCA|S. purpuratus|PISCO|Den","Same_years__After","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|P. interruptus|PISCO|Bio","Same_years__After","Change",0,11,FALSE
+"Abalone Cove SMCA|P. interruptus|PISCO|Bio","Same_years__After","Post_slope",0,11,TRUE
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Bio","Same_years__After","Change",0,19,FALSE
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Bio","Same_years__After","Post_slope",0,19,TRUE
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Den","Same_years__After","Change",0,19,FALSE
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Den","Same_years__After","Post_slope",0,19,TRUE
+"Anacapa Island SMR 2003|M. pyrifera|PISCO|Bio","Same_years__After","Change",0,16,FALSE
+"Anacapa Island SMR 2003|M. pyrifera|PISCO|Bio","Same_years__After","Post_slope",0,16,TRUE
+"Anacapa Island SMR 2003|M. franciscanus|PISCO|Den","Same_years__After","Change",0,16,FALSE
+"Anacapa Island SMR 2003|M. franciscanus|PISCO|Den","Same_years__After","Post_slope",0,16,TRUE
+"Anacapa Island SMR 2003|P. interruptus|PISCO|Den","Same_years__After","Change",0,16,FALSE
+"Anacapa Island SMR 2003|P. interruptus|PISCO|Den","Same_years__After","Post_slope",0,16,TRUE
+"Anacapa Island SMR 2003|S. purpuratus|PISCO|Den","Same_years__After","Change",0,16,FALSE
+"Anacapa Island SMR 2003|S. purpuratus|PISCO|Den","Same_years__After","Post_slope",0,16,TRUE
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Same_years__After","Change",3,9,TRUE
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Same_years__After","Post_slope",3,9,TRUE
+"Campus Point SMCA|S. pulcher|PISCO|Den","Same_years__After","Change",3,9,TRUE
+"Campus Point SMCA|S. pulcher|PISCO|Den","Same_years__After","Post_slope",3,9,TRUE
+"Campus Point SMCA|M. pyrifera|PISCO|Bio","Same_years__After","Change",2,11,FALSE
+"Campus Point SMCA|M. pyrifera|PISCO|Bio","Same_years__After","Post_slope",2,11,TRUE
+"Campus Point SMCA|M. franciscanus|PISCO|Den","Same_years__After","Change",2,11,FALSE
+"Campus Point SMCA|M. franciscanus|PISCO|Den","Same_years__After","Post_slope",2,11,TRUE
+"Campus Point SMCA|P. interruptus|PISCO|Den","Same_years__After","Change",2,11,FALSE
+"Campus Point SMCA|P. interruptus|PISCO|Den","Same_years__After","Post_slope",2,11,TRUE
+"Campus Point SMCA|S. purpuratus|PISCO|Den","Same_years__After","Change",2,11,FALSE
+"Campus Point SMCA|S. purpuratus|PISCO|Den","Same_years__After","Post_slope",2,11,TRUE
+"Campus Point SMCA|M. franciscanus|PISCO|Bio","Same_years__After","Change",1,10,FALSE
+"Campus Point SMCA|M. franciscanus|PISCO|Bio","Same_years__After","Post_slope",1,10,TRUE
+"Campus Point SMCA|S. purpuratus|PISCO|Bio","Same_years__After","Change",1,11,FALSE
+"Campus Point SMCA|S. purpuratus|PISCO|Bio","Same_years__After","Post_slope",1,11,TRUE
+"Gull Island SMR|S. pulcher|PISCO|Bio","Same_years__After","Change",0,19,FALSE
+"Gull Island SMR|S. pulcher|PISCO|Bio","Same_years__After","Post_slope",0,19,TRUE
+"Gull Island SMR|S. pulcher|PISCO|Den","Same_years__After","Change",0,19,FALSE
+"Gull Island SMR|S. pulcher|PISCO|Den","Same_years__After","Post_slope",0,19,TRUE
+"Gull Island SMR|M. pyrifera|PISCO|Bio","Same_years__After","Change",0,16,FALSE
+"Gull Island SMR|M. pyrifera|PISCO|Bio","Same_years__After","Post_slope",0,16,TRUE
+"Gull Island SMR|M. franciscanus|PISCO|Bio","Same_years__After","Change",0,15,FALSE
+"Gull Island SMR|M. franciscanus|PISCO|Bio","Same_years__After","Post_slope",0,15,TRUE
+"Gull Island SMR|S. purpuratus|PISCO|Bio","Same_years__After","Change",0,15,FALSE
+"Gull Island SMR|S. purpuratus|PISCO|Bio","Same_years__After","Post_slope",0,15,TRUE
+"Gull Island SMR|M. franciscanus|PISCO|Den","Same_years__After","Change",0,16,FALSE
+"Gull Island SMR|M. franciscanus|PISCO|Den","Same_years__After","Post_slope",0,16,TRUE
+"Gull Island SMR|P. interruptus|PISCO|Den","Same_years__After","Change",0,16,FALSE
+"Gull Island SMR|P. interruptus|PISCO|Den","Same_years__After","Post_slope",0,16,TRUE
+"Gull Island SMR|S. purpuratus|PISCO|Den","Same_years__After","Change",0,16,FALSE
+"Gull Island SMR|S. purpuratus|PISCO|Den","Same_years__After","Post_slope",0,16,TRUE
+"Harris Point SMR|M. pyrifera|PISCO|Bio","Same_years__After","Change",0,17,FALSE
+"Harris Point SMR|M. pyrifera|PISCO|Bio","Same_years__After","Post_slope",0,17,TRUE
+"Harris Point SMR|M. franciscanus|PISCO|Bio","Same_years__After","Change",0,15,FALSE
+"Harris Point SMR|M. franciscanus|PISCO|Bio","Same_years__After","Post_slope",0,15,TRUE
+"Harris Point SMR|S. pulcher|PISCO|Bio","Same_years__After","Change",0,17,FALSE
+"Harris Point SMR|S. pulcher|PISCO|Bio","Same_years__After","Post_slope",0,17,TRUE
+"Harris Point SMR|S. purpuratus|PISCO|Bio","Same_years__After","Change",0,15,FALSE
+"Harris Point SMR|S. purpuratus|PISCO|Bio","Same_years__After","Post_slope",0,15,TRUE
+"Harris Point SMR|M. franciscanus|PISCO|Den","Same_years__After","Change",0,17,FALSE
+"Harris Point SMR|M. franciscanus|PISCO|Den","Same_years__After","Post_slope",0,17,TRUE
+"Harris Point SMR|P. interruptus|PISCO|Den","Same_years__After","Change",0,17,FALSE
+"Harris Point SMR|P. interruptus|PISCO|Den","Same_years__After","Post_slope",0,17,TRUE
+"Harris Point SMR|S. pulcher|PISCO|Den","Same_years__After","Change",0,17,FALSE
+"Harris Point SMR|S. pulcher|PISCO|Den","Same_years__After","Post_slope",0,17,TRUE
+"Harris Point SMR|S. purpuratus|PISCO|Den","Same_years__After","Change",0,17,FALSE
+"Harris Point SMR|S. purpuratus|PISCO|Den","Same_years__After","Post_slope",0,17,TRUE
+"Matlahuayl SMR|M. pyrifera|PISCO|Bio","Same_years__After","Change",1,5,FALSE
+"Matlahuayl SMR|M. pyrifera|PISCO|Bio","Same_years__After","Post_slope",1,5,TRUE
+"Matlahuayl SMR|P. interruptus|PISCO|Bio","Same_years__After","Change",1,5,FALSE
+"Matlahuayl SMR|P. interruptus|PISCO|Bio","Same_years__After","Post_slope",1,5,TRUE
+"Matlahuayl SMR|S. pulcher|PISCO|Bio","Same_years__After","Change",1,5,FALSE
+"Matlahuayl SMR|S. pulcher|PISCO|Bio","Same_years__After","Post_slope",1,5,TRUE
+"Matlahuayl SMR|M. franciscanus|PISCO|Den","Same_years__After","Change",1,5,FALSE
+"Matlahuayl SMR|M. franciscanus|PISCO|Den","Same_years__After","Post_slope",1,5,TRUE
+"Matlahuayl SMR|P. interruptus|PISCO|Den","Same_years__After","Change",1,5,FALSE
+"Matlahuayl SMR|P. interruptus|PISCO|Den","Same_years__After","Post_slope",1,5,TRUE
+"Matlahuayl SMR|S. pulcher|PISCO|Den","Same_years__After","Change",1,5,FALSE
+"Matlahuayl SMR|S. pulcher|PISCO|Den","Same_years__After","Post_slope",1,5,TRUE
+"Matlahuayl SMR|S. purpuratus|PISCO|Den","Same_years__After","Change",1,5,FALSE
+"Matlahuayl SMR|S. purpuratus|PISCO|Den","Same_years__After","Post_slope",1,5,TRUE
+"Naples SMCA|S. pulcher|PISCO|Bio","Same_years__After","Change",3,10,TRUE
+"Naples SMCA|S. pulcher|PISCO|Bio","Same_years__After","Post_slope",3,10,TRUE
+"Naples SMCA|S. pulcher|PISCO|Den","Same_years__After","Change",3,10,TRUE
+"Naples SMCA|S. pulcher|PISCO|Den","Same_years__After","Post_slope",3,10,TRUE
+"Naples SMCA|M. pyrifera|PISCO|Bio","Same_years__After","Change",2,11,FALSE
+"Naples SMCA|M. pyrifera|PISCO|Bio","Same_years__After","Post_slope",2,11,TRUE
+"Naples SMCA|M. franciscanus|PISCO|Den","Same_years__After","Change",2,11,FALSE
+"Naples SMCA|M. franciscanus|PISCO|Den","Same_years__After","Post_slope",2,11,TRUE
+"Naples SMCA|P. interruptus|PISCO|Den","Same_years__After","Change",2,11,FALSE
+"Naples SMCA|P. interruptus|PISCO|Den","Same_years__After","Post_slope",2,11,TRUE
+"Naples SMCA|S. purpuratus|PISCO|Den","Same_years__After","Change",2,11,FALSE
+"Naples SMCA|S. purpuratus|PISCO|Den","Same_years__After","Post_slope",2,11,TRUE
+"Naples SMCA|M. franciscanus|PISCO|Bio","Same_years__After","Change",1,11,FALSE
+"Naples SMCA|M. franciscanus|PISCO|Bio","Same_years__After","Post_slope",1,11,TRUE
+"Naples SMCA|S. purpuratus|PISCO|Bio","Same_years__After","Change",1,11,FALSE
+"Naples SMCA|S. purpuratus|PISCO|Bio","Same_years__After","Post_slope",1,11,TRUE
+"Point Vicente SMCA|M. pyrifera|PISCO|Bio","Same_years__After","Change",4,10,FALSE
+"Point Vicente SMCA|M. pyrifera|PISCO|Bio","Same_years__After","Post_slope",4,10,TRUE
+"Point Vicente SMCA|M. franciscanus|PISCO|Den","Same_years__After","Change",4,10,FALSE
+"Point Vicente SMCA|M. franciscanus|PISCO|Den","Same_years__After","Post_slope",4,10,TRUE
+"Point Vicente SMCA|P. interruptus|PISCO|Den","Same_years__After","Change",4,10,FALSE
+"Point Vicente SMCA|P. interruptus|PISCO|Den","Same_years__After","Post_slope",4,10,TRUE
+"Point Vicente SMCA|S. purpuratus|PISCO|Den","Same_years__After","Change",4,10,FALSE
+"Point Vicente SMCA|S. purpuratus|PISCO|Den","Same_years__After","Post_slope",4,10,TRUE
+"Point Vicente SMCA|M. franciscanus|PISCO|Bio","Same_years__After","Change",3,10,FALSE
+"Point Vicente SMCA|M. franciscanus|PISCO|Bio","Same_years__After","Post_slope",3,10,TRUE
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Same_years__After","Change",3,11,TRUE
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Same_years__After","Post_slope",3,11,TRUE
+"Point Vicente SMCA|S. purpuratus|PISCO|Bio","Same_years__After","Change",3,10,FALSE
+"Point Vicente SMCA|S. purpuratus|PISCO|Bio","Same_years__After","Post_slope",3,10,TRUE
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Same_years__After","Change",3,11,TRUE
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Same_years__After","Post_slope",3,11,TRUE
+"Point Vicente SMCA|P. interruptus|PISCO|Bio","Same_years__After","Change",1,10,FALSE
+"Point Vicente SMCA|P. interruptus|PISCO|Bio","Same_years__After","Post_slope",1,10,TRUE
+"Scorpion SMR|M. pyrifera|PISCO|Bio","Same_years__After","Change",0,20,FALSE
+"Scorpion SMR|M. pyrifera|PISCO|Bio","Same_years__After","Post_slope",0,20,TRUE
+"Scorpion SMR|M. franciscanus|PISCO|Bio","Same_years__After","Change",0,18,FALSE
+"Scorpion SMR|M. franciscanus|PISCO|Bio","Same_years__After","Post_slope",0,18,TRUE
+"Scorpion SMR|S. pulcher|PISCO|Bio","Same_years__After","Change",0,20,FALSE
+"Scorpion SMR|S. pulcher|PISCO|Bio","Same_years__After","Post_slope",0,20,TRUE
+"Scorpion SMR|S. purpuratus|PISCO|Bio","Same_years__After","Change",0,18,FALSE
+"Scorpion SMR|S. purpuratus|PISCO|Bio","Same_years__After","Post_slope",0,18,TRUE
+"Scorpion SMR|M. franciscanus|PISCO|Den","Same_years__After","Change",0,20,FALSE
+"Scorpion SMR|M. franciscanus|PISCO|Den","Same_years__After","Post_slope",0,20,TRUE
+"Scorpion SMR|P. interruptus|PISCO|Den","Same_years__After","Change",0,20,FALSE
+"Scorpion SMR|P. interruptus|PISCO|Den","Same_years__After","Post_slope",0,20,TRUE
+"Scorpion SMR|S. pulcher|PISCO|Den","Same_years__After","Change",0,20,FALSE
+"Scorpion SMR|S. pulcher|PISCO|Den","Same_years__After","Post_slope",0,20,TRUE
+"Scorpion SMR|S. purpuratus|PISCO|Den","Same_years__After","Change",0,20,FALSE
+"Scorpion SMR|S. purpuratus|PISCO|Den","Same_years__After","Post_slope",0,20,TRUE
+"South Point SMR|S. pulcher|PISCO|Bio","Same_years__After","Change",0,19,FALSE
+"South Point SMR|S. pulcher|PISCO|Bio","Same_years__After","Post_slope",0,19,TRUE
+"South Point SMR|S. pulcher|PISCO|Den","Same_years__After","Change",0,20,FALSE
+"South Point SMR|S. pulcher|PISCO|Den","Same_years__After","Post_slope",0,20,TRUE
+"South Point SMR|M. pyrifera|PISCO|Bio","Same_years__After","Change",0,16,FALSE
+"South Point SMR|M. pyrifera|PISCO|Bio","Same_years__After","Post_slope",0,16,TRUE
+"South Point SMR|M. franciscanus|PISCO|Bio","Same_years__After","Change",0,14,FALSE
+"South Point SMR|M. franciscanus|PISCO|Bio","Same_years__After","Post_slope",0,14,TRUE
+"South Point SMR|S. purpuratus|PISCO|Bio","Same_years__After","Change",0,14,FALSE
+"South Point SMR|S. purpuratus|PISCO|Bio","Same_years__After","Post_slope",0,14,TRUE
+"South Point SMR|M. franciscanus|PISCO|Den","Same_years__After","Change",0,16,FALSE
+"South Point SMR|M. franciscanus|PISCO|Den","Same_years__After","Post_slope",0,16,TRUE
+"South Point SMR|P. interruptus|PISCO|Den","Same_years__After","Change",0,16,FALSE
+"South Point SMR|P. interruptus|PISCO|Den","Same_years__After","Post_slope",0,16,TRUE
+"South Point SMR|S. purpuratus|PISCO|Den","Same_years__After","Change",0,16,FALSE
+"South Point SMR|S. purpuratus|PISCO|Den","Same_years__After","Post_slope",0,16,TRUE
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Den","Same_years__After","Change",0,17,FALSE
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Den","Same_years__After","Post_slope",0,17,TRUE
+"Anacapa Island SMR 2003|P. interruptus|KFM|Den","Same_years__After","Change",0,17,FALSE
+"Anacapa Island SMR 2003|P. interruptus|KFM|Den","Same_years__After","Post_slope",0,17,TRUE
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Den","Same_years__After","Change",0,17,FALSE
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Den","Same_years__After","Post_slope",0,17,TRUE
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Bio","Same_years__After","Change",0,17,FALSE
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Bio","Same_years__After","Post_slope",0,17,TRUE
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Bio","Same_years__After","Change",0,17,FALSE
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Bio","Same_years__After","Post_slope",0,17,TRUE
+"Harris Point SMR|M. franciscanus|KFM|Den","Same_years__After","Change",21,18,TRUE
+"Harris Point SMR|M. franciscanus|KFM|Den","Same_years__After","Post_slope",21,18,TRUE
+"Harris Point SMR|M. franciscanus|KFM|Bio","Same_years__After","Change",17,18,TRUE
+"Harris Point SMR|M. franciscanus|KFM|Bio","Same_years__After","Post_slope",17,18,TRUE
+"Scorpion SMR|P. interruptus|KFM|Den","Same_years__After","Change",20,18,TRUE
+"Scorpion SMR|P. interruptus|KFM|Den","Same_years__After","Post_slope",20,18,TRUE
+"Scorpion SMR|M. franciscanus|KFM|Den","Same_years__After","Change",21,18,TRUE
+"Scorpion SMR|M. franciscanus|KFM|Den","Same_years__After","Post_slope",21,18,TRUE
+"Scorpion SMR|M. franciscanus|KFM|Bio","Same_years__After","Change",18,18,TRUE
+"Scorpion SMR|M. franciscanus|KFM|Bio","Same_years__After","Post_slope",18,18,TRUE
+"South Point SMR|S. purpuratus|KFM|Den","Same_years__After","Change",0,17,FALSE
+"South Point SMR|S. purpuratus|KFM|Den","Same_years__After","Post_slope",0,17,TRUE
+"South Point SMR|M. franciscanus|KFM|Den","Same_years__After","Change",0,17,FALSE
+"South Point SMR|M. franciscanus|KFM|Den","Same_years__After","Post_slope",0,17,TRUE
+"South Point SMR|P. interruptus|KFM|Den","Same_years__After","Change",0,17,FALSE
+"South Point SMR|P. interruptus|KFM|Den","Same_years__After","Post_slope",0,17,TRUE
+"South Point SMR|M. franciscanus|KFM|Bio","Same_years__After","Change",0,17,FALSE
+"South Point SMR|M. franciscanus|KFM|Bio","Same_years__After","Post_slope",0,17,TRUE
+"South Point SMR|S. purpuratus|KFM|Bio","Same_years__After","Change",0,17,FALSE
+"South Point SMR|S. purpuratus|KFM|Bio","Same_years__After","Post_slope",0,17,TRUE
+"Campus Point SMCA|P. interruptus|LTER|Bio","Same_years__After","Change",0,11,FALSE
+"Campus Point SMCA|P. interruptus|LTER|Bio","Same_years__After","Post_slope",0,11,TRUE
+"Campus Point SMCA|P. interruptus|LTER|Den","Same_years__After","Change",0,11,FALSE
+"Campus Point SMCA|P. interruptus|LTER|Den","Same_years__After","Post_slope",0,11,TRUE
+"Naples SMCA|P. interruptus|LTER|Bio","Same_years__After","Change",0,11,FALSE
+"Naples SMCA|P. interruptus|LTER|Bio","Same_years__After","Post_slope",0,11,TRUE
+"Naples SMCA|P. interruptus|LTER|Den","Same_years__After","Change",0,11,FALSE
+"Naples SMCA|P. interruptus|LTER|Den","Same_years__After","Post_slope",0,11,TRUE
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Same_years__After","Change",11,11,TRUE
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Same_years__After","Post_slope",11,11,TRUE
+"Naples SMCA|M. pyrifera|LTER|Bio","Same_years__After","Change",11,11,TRUE
+"Naples SMCA|M. pyrifera|LTER|Bio","Same_years__After","Post_slope",11,11,TRUE
+"Campus Point SMCA|S. pulcher|LTER|Den","Same_years__After","Change",10,11,TRUE
+"Campus Point SMCA|S. pulcher|LTER|Den","Same_years__After","Post_slope",10,11,TRUE
+"Campus Point SMCA|S. pulcher|LTER|Bio","Same_years__After","Change",10,11,TRUE
+"Campus Point SMCA|S. pulcher|LTER|Bio","Same_years__After","Post_slope",10,11,TRUE
+"Naples SMCA|S. pulcher|LTER|Bio","Same_years__After","Change",11,11,TRUE
+"Naples SMCA|S. pulcher|LTER|Bio","Same_years__After","Post_slope",11,11,TRUE
+"Anacapa Island SMR 2003|S. pulcher|KFM|Den","Same_years__After","Change",0,17,FALSE
+"Anacapa Island SMR 2003|S. pulcher|KFM|Den","Same_years__After","Post_slope",0,17,TRUE
+"Harris Point SMR|S. pulcher|KFM|Den","Same_years__After","Change",18,18,TRUE
+"Harris Point SMR|S. pulcher|KFM|Den","Same_years__After","Post_slope",18,18,TRUE
+"Scorpion SMR|S. pulcher|KFM|Den","Same_years__After","Change",18,19,TRUE
+"Scorpion SMR|S. pulcher|KFM|Den","Same_years__After","Post_slope",18,19,TRUE
+"South Point SMR|S. pulcher|KFM|Den","Same_years__After","Change",0,17,FALSE
+"South Point SMR|S. pulcher|KFM|Den","Same_years__After","Post_slope",0,17,TRUE
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio","Same_years__After","Change",1,6,FALSE
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio","Same_years__After","Post_slope",1,6,TRUE
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den","Same_years__After","Change",1,6,FALSE
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den","Same_years__After","Post_slope",1,6,TRUE
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio","Same_years__After","Change",1,4,FALSE
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio","Same_years__After","Post_slope",1,4,TRUE
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Den","Same_years__After","Change",1,4,FALSE
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Den","Same_years__After","Post_slope",1,4,TRUE
+"Long Point SMR|S. pulcher|PISCO|Bio","Same_years__After","Change",1,6,FALSE
+"Long Point SMR|S. pulcher|PISCO|Bio","Same_years__After","Post_slope",1,6,TRUE
+"Long Point SMR|S. pulcher|PISCO|Den","Same_years__After","Change",1,6,FALSE
+"Long Point SMR|S. pulcher|PISCO|Den","Same_years__After","Post_slope",1,6,TRUE
+"Santa Barbara Island SMR|S. pulcher|PISCO|Bio","Same_years__After","Change",0,9,FALSE
+"Santa Barbara Island SMR|S. pulcher|PISCO|Bio","Same_years__After","Post_slope",0,9,TRUE
+"Santa Barbara Island SMR|S. pulcher|PISCO|Den","Same_years__After","Change",0,9,FALSE
+"Santa Barbara Island SMR|S. pulcher|PISCO|Den","Same_years__After","Post_slope",0,9,TRUE
+"Swamis SMCA|S. pulcher|PISCO|Bio","Same_years__After","Change",1,5,FALSE
+"Swamis SMCA|S. pulcher|PISCO|Bio","Same_years__After","Post_slope",1,5,TRUE
+"Swamis SMCA|S. pulcher|PISCO|Den","Same_years__After","Change",1,5,FALSE
+"Swamis SMCA|S. pulcher|PISCO|Den","Same_years__After","Post_slope",1,5,TRUE
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Same_years__After","Change",20,19,TRUE
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Same_years__After","Post_slope",20,19,TRUE
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Same_years__After","Change",21,19,TRUE
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Same_years__After","Post_slope",21,19,TRUE
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Same_years__After","Change",26,9,TRUE
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Same_years__After","Post_slope",26,9,TRUE
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Same_years__After","Change",24,9,TRUE
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Same_years__After","Post_slope",24,9,TRUE
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Same_years__After","Change",27,9,TRUE
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Same_years__After","Post_slope",27,9,TRUE
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Same_years__After","Change",18,18,TRUE
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Same_years__After","Post_slope",18,18,TRUE
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Same_years__After","Change",15,9,TRUE
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Same_years__After","Post_slope",15,9,TRUE
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Same_years__After","Change",18,18,TRUE
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Same_years__After","Post_slope",18,18,TRUE
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Same_years__After","Change",17,18,TRUE
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Same_years__After","Post_slope",17,18,TRUE
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Same_years__After","Change",18,18,TRUE
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Same_years__After","Post_slope",18,18,TRUE
+"Naples SMCA|M. pyrifera|Landsat|Bio","Same_years__After","Change",27,9,TRUE
+"Naples SMCA|M. pyrifera|Landsat|Bio","Same_years__After","Post_slope",27,9,TRUE
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Same_years__After","Change",27,9,TRUE
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Same_years__After","Post_slope",27,9,TRUE
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Same_years__After","Change",27,9,TRUE
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Same_years__After","Post_slope",27,9,TRUE
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Same_years__After","Change",25,9,TRUE
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Same_years__After","Post_slope",25,9,TRUE
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Same_years__After","Change",18,18,TRUE
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Same_years__After","Post_slope",18,18,TRUE
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Same_years__After","Change",17,18,TRUE
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Same_years__After","Post_slope",17,18,TRUE
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Same_years__After","Change",25,9,TRUE
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Same_years__After","Post_slope",25,9,TRUE
+"South Point SMR|M. pyrifera|Landsat|Bio","Same_years__After","Change",18,18,TRUE
+"South Point SMR|M. pyrifera|Landsat|Bio","Same_years__After","Post_slope",18,18,TRUE
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Same_years__After","Change",27,9,TRUE
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Same_years__After","Post_slope",27,9,TRUE
+"Campus Point SMCA|M. franciscanus|LTER|Den","Same_years__After","Change",11,11,TRUE
+"Campus Point SMCA|M. franciscanus|LTER|Den","Same_years__After","Post_slope",11,11,TRUE
+"Campus Point SMCA|S. purpuratus|LTER|Den","Same_years__After","Change",11,11,TRUE
+"Campus Point SMCA|S. purpuratus|LTER|Den","Same_years__After","Post_slope",11,11,TRUE
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Same_years__After","Change",5,11,TRUE
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Same_years__After","Post_slope",5,11,TRUE
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Same_years__After","Change",3,11,TRUE
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Same_years__After","Post_slope",3,11,TRUE
+"Naples SMCA|S. purpuratus|LTER|Den","Same_years__After","Change",11,11,TRUE
+"Naples SMCA|S. purpuratus|LTER|Den","Same_years__After","Post_slope",11,11,TRUE
+"Naples SMCA|S. purpuratus|LTER|Bio","Same_years__After","Change",9,11,TRUE
+"Naples SMCA|S. purpuratus|LTER|Bio","Same_years__After","Post_slope",9,11,TRUE
+"Matlahuayl SMR|S. purpuratus|PISCO|Bio","Same_years__After","Change",1,4,FALSE
+"Matlahuayl SMR|S. purpuratus|PISCO|Bio","Same_years__After","Post_slope",1,4,TRUE
+"Matlahuayl SMR|M. franciscanus|PISCO|Bio","Same_years__After","Change",0,4,FALSE
+"Matlahuayl SMR|M. franciscanus|PISCO|Bio","Same_years__After","Post_slope",0,4,TRUE
+"Harris Point SMR|P. interruptus|KFM|Den","Same_years__After","Change",20,18,TRUE
+"Harris Point SMR|P. interruptus|KFM|Den","Same_years__After","Post_slope",20,18,TRUE
+"Harris Point SMR|S. purpuratus|KFM|Den","Same_years__After","Change",21,18,TRUE
+"Harris Point SMR|S. purpuratus|KFM|Den","Same_years__After","Post_slope",21,18,TRUE
+"Harris Point SMR|S. purpuratus|KFM|Bio","Same_years__After","Change",17,18,TRUE
+"Harris Point SMR|S. purpuratus|KFM|Bio","Same_years__After","Post_slope",17,18,TRUE
+"Scorpion SMR|S. purpuratus|KFM|Den","Same_years__After","Change",21,18,TRUE
+"Scorpion SMR|S. purpuratus|KFM|Den","Same_years__After","Post_slope",21,18,TRUE
+"Scorpion SMR|S. purpuratus|KFM|Bio","Same_years__After","Change",18,18,TRUE
+"Scorpion SMR|S. purpuratus|KFM|Bio","Same_years__After","Post_slope",18,18,TRUE
+"Naples SMCA|S. pulcher|LTER|Den","Same_years__After","Change",11,11,TRUE
+"Naples SMCA|S. pulcher|LTER|Den","Same_years__After","Post_slope",11,11,TRUE
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Same_years__After","Change",21,19,TRUE
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Same_years__After","Post_slope",21,19,TRUE
+"Santa Barbara Island SMR|M. franciscanus|KFM|Bio","Same_years__After","Change",0,17,FALSE
+"Santa Barbara Island SMR|M. franciscanus|KFM|Bio","Same_years__After","Post_slope",0,17,TRUE
+"Santa Barbara Island SMR|S. purpuratus|KFM|Bio","Same_years__After","Change",0,17,FALSE
+"Santa Barbara Island SMR|S. purpuratus|KFM|Bio","Same_years__After","Post_slope",0,17,TRUE
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Same_years__After","Change",18,19,TRUE
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Same_years__After","Post_slope",18,19,TRUE
+"Anacapa Island SMR 2003|M. pyrifera|KFM|Bio","Same_years__After","Change",0,17,FALSE
+"Anacapa Island SMR 2003|M. pyrifera|KFM|Bio","Same_years__After","Post_slope",0,17,TRUE
+"Harris Point SMR|M. pyrifera|KFM|Bio","Same_years__After","Change",6,18,TRUE
+"Harris Point SMR|M. pyrifera|KFM|Bio","Same_years__After","Post_slope",6,18,TRUE
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Same_years__After","Change",3,19,TRUE
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Same_years__After","Post_slope",3,19,TRUE
+"Scorpion SMR|M. pyrifera|KFM|Bio","Same_years__After","Change",6,17,TRUE
+"Scorpion SMR|M. pyrifera|KFM|Bio","Same_years__After","Post_slope",6,17,TRUE
+"South Point SMR|M. pyrifera|KFM|Bio","Same_years__After","Change",0,17,FALSE
+"South Point SMR|M. pyrifera|KFM|Bio","Same_years__After","Post_slope",0,17,TRUE
+"Point Dume SMCA|M. franciscanus|PISCO|Bio","Same_years__After","Change",1,0,FALSE
+"Point Dume SMCA|M. franciscanus|PISCO|Bio","Same_years__After","Post_slope",1,0,FALSE
+"Point Dume SMCA|M. franciscanus|PISCO|Den","Same_years__After","Change",3,3,FALSE
+"Point Dume SMCA|M. franciscanus|PISCO|Den","Same_years__After","Post_slope",3,3,TRUE
+"Point Dume SMCA|M. pyrifera|PISCO|Bio","Same_years__After","Change",3,3,FALSE
+"Point Dume SMCA|M. pyrifera|PISCO|Bio","Same_years__After","Post_slope",3,3,TRUE
+"Point Dume SMCA|P. interruptus|PISCO|Den","Same_years__After","Change",3,3,FALSE
+"Point Dume SMCA|P. interruptus|PISCO|Den","Same_years__After","Post_slope",3,3,TRUE
+"Point Dume SMCA|S. pulcher|PISCO|Bio","Same_years__After","Change",1,5,FALSE
+"Point Dume SMCA|S. pulcher|PISCO|Bio","Same_years__After","Post_slope",1,5,TRUE
+"Point Dume SMCA|S. pulcher|PISCO|Den","Same_years__After","Change",1,5,FALSE
+"Point Dume SMCA|S. pulcher|PISCO|Den","Same_years__After","Post_slope",1,5,TRUE
+"Point Dume SMCA|S. purpuratus|PISCO|Bio","Same_years__After","Change",1,0,FALSE
+"Point Dume SMCA|S. purpuratus|PISCO|Bio","Same_years__After","Post_slope",1,0,FALSE
+"Point Dume SMCA|S. purpuratus|PISCO|Den","Same_years__After","Change",3,3,FALSE
+"Point Dume SMCA|S. purpuratus|PISCO|Den","Same_years__After","Post_slope",3,3,TRUE
+"Point Dume SMR|M. franciscanus|PISCO|Den","Same_years__After","Change",0,1,FALSE
+"Point Dume SMR|M. franciscanus|PISCO|Den","Same_years__After","Post_slope",0,1,FALSE
+"Point Dume SMR|M. pyrifera|PISCO|Bio","Same_years__After","Change",0,1,FALSE
+"Point Dume SMR|M. pyrifera|PISCO|Bio","Same_years__After","Post_slope",0,1,FALSE
+"Point Dume SMR|P. interruptus|PISCO|Den","Same_years__After","Change",0,1,FALSE
+"Point Dume SMR|P. interruptus|PISCO|Den","Same_years__After","Post_slope",0,1,FALSE
+"Point Dume SMR|S. pulcher|PISCO|Bio","Same_years__After","Change",1,5,FALSE
+"Point Dume SMR|S. pulcher|PISCO|Bio","Same_years__After","Post_slope",1,5,TRUE
+"Point Dume SMR|S. pulcher|PISCO|Den","Same_years__After","Change",1,5,FALSE
+"Point Dume SMR|S. pulcher|PISCO|Den","Same_years__After","Post_slope",1,5,TRUE
+"Point Dume SMR|S. purpuratus|PISCO|Den","Same_years__After","Change",0,1,FALSE
+"Point Dume SMR|S. purpuratus|PISCO|Den","Same_years__After","Post_slope",0,1,FALSE
+"Naples SMCA|M. franciscanus|LTER|Den","Coverage_only__Before","Change",11,11,TRUE
+"Naples SMCA|M. franciscanus|LTER|Den","Coverage_only__Before","Post_slope",11,11,TRUE
+"Naples SMCA|M. franciscanus|LTER|Bio","Coverage_only__Before","Change",2,11,FALSE
+"Naples SMCA|M. franciscanus|LTER|Bio","Coverage_only__Before","Post_slope",2,11,TRUE
+"Abalone Cove SMCA|S. pulcher|PISCO|Bio","Coverage_only__Before","Change",2,11,FALSE
+"Abalone Cove SMCA|S. pulcher|PISCO|Bio","Coverage_only__Before","Post_slope",2,11,TRUE
+"Abalone Cove SMCA|S. pulcher|PISCO|Den","Coverage_only__Before","Change",2,11,FALSE
+"Abalone Cove SMCA|S. pulcher|PISCO|Den","Coverage_only__Before","Post_slope",2,11,TRUE
+"Abalone Cove SMCA|M. pyrifera|PISCO|Bio","Coverage_only__Before","Change",1,11,FALSE
+"Abalone Cove SMCA|M. pyrifera|PISCO|Bio","Coverage_only__Before","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|M. franciscanus|PISCO|Bio","Coverage_only__Before","Change",1,11,FALSE
+"Abalone Cove SMCA|M. franciscanus|PISCO|Bio","Coverage_only__Before","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|S. purpuratus|PISCO|Bio","Coverage_only__Before","Change",1,11,FALSE
+"Abalone Cove SMCA|S. purpuratus|PISCO|Bio","Coverage_only__Before","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|M. franciscanus|PISCO|Den","Coverage_only__Before","Change",1,11,FALSE
+"Abalone Cove SMCA|M. franciscanus|PISCO|Den","Coverage_only__Before","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|P. interruptus|PISCO|Den","Coverage_only__Before","Change",1,11,FALSE
+"Abalone Cove SMCA|P. interruptus|PISCO|Den","Coverage_only__Before","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|S. purpuratus|PISCO|Den","Coverage_only__Before","Change",1,11,FALSE
+"Abalone Cove SMCA|S. purpuratus|PISCO|Den","Coverage_only__Before","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|P. interruptus|PISCO|Bio","Coverage_only__Before","Change",0,11,FALSE
+"Abalone Cove SMCA|P. interruptus|PISCO|Bio","Coverage_only__Before","Post_slope",0,11,TRUE
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Bio","Coverage_only__Before","Change",0,19,FALSE
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Bio","Coverage_only__Before","Post_slope",0,19,TRUE
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Den","Coverage_only__Before","Change",0,19,FALSE
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Den","Coverage_only__Before","Post_slope",0,19,TRUE
+"Anacapa Island SMR 2003|M. pyrifera|PISCO|Bio","Coverage_only__Before","Change",0,16,FALSE
+"Anacapa Island SMR 2003|M. pyrifera|PISCO|Bio","Coverage_only__Before","Post_slope",0,16,TRUE
+"Anacapa Island SMR 2003|M. franciscanus|PISCO|Den","Coverage_only__Before","Change",0,16,FALSE
+"Anacapa Island SMR 2003|M. franciscanus|PISCO|Den","Coverage_only__Before","Post_slope",0,16,TRUE
+"Anacapa Island SMR 2003|P. interruptus|PISCO|Den","Coverage_only__Before","Change",0,16,FALSE
+"Anacapa Island SMR 2003|P. interruptus|PISCO|Den","Coverage_only__Before","Post_slope",0,16,TRUE
+"Anacapa Island SMR 2003|S. purpuratus|PISCO|Den","Coverage_only__Before","Change",0,16,FALSE
+"Anacapa Island SMR 2003|S. purpuratus|PISCO|Den","Coverage_only__Before","Post_slope",0,16,TRUE
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Coverage_only__Before","Change",3,9,TRUE
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Coverage_only__Before","Post_slope",3,9,TRUE
+"Campus Point SMCA|S. pulcher|PISCO|Den","Coverage_only__Before","Change",3,9,TRUE
+"Campus Point SMCA|S. pulcher|PISCO|Den","Coverage_only__Before","Post_slope",3,9,TRUE
+"Campus Point SMCA|M. pyrifera|PISCO|Bio","Coverage_only__Before","Change",2,11,FALSE
+"Campus Point SMCA|M. pyrifera|PISCO|Bio","Coverage_only__Before","Post_slope",2,11,TRUE
+"Campus Point SMCA|M. franciscanus|PISCO|Den","Coverage_only__Before","Change",2,11,FALSE
+"Campus Point SMCA|M. franciscanus|PISCO|Den","Coverage_only__Before","Post_slope",2,11,TRUE
+"Campus Point SMCA|P. interruptus|PISCO|Den","Coverage_only__Before","Change",2,11,FALSE
+"Campus Point SMCA|P. interruptus|PISCO|Den","Coverage_only__Before","Post_slope",2,11,TRUE
+"Campus Point SMCA|S. purpuratus|PISCO|Den","Coverage_only__Before","Change",2,11,FALSE
+"Campus Point SMCA|S. purpuratus|PISCO|Den","Coverage_only__Before","Post_slope",2,11,TRUE
+"Campus Point SMCA|M. franciscanus|PISCO|Bio","Coverage_only__Before","Change",1,10,FALSE
+"Campus Point SMCA|M. franciscanus|PISCO|Bio","Coverage_only__Before","Post_slope",1,10,TRUE
+"Campus Point SMCA|S. purpuratus|PISCO|Bio","Coverage_only__Before","Change",1,11,FALSE
+"Campus Point SMCA|S. purpuratus|PISCO|Bio","Coverage_only__Before","Post_slope",1,11,TRUE
+"Gull Island SMR|S. pulcher|PISCO|Bio","Coverage_only__Before","Change",0,19,FALSE
+"Gull Island SMR|S. pulcher|PISCO|Bio","Coverage_only__Before","Post_slope",0,19,TRUE
+"Gull Island SMR|S. pulcher|PISCO|Den","Coverage_only__Before","Change",0,19,FALSE
+"Gull Island SMR|S. pulcher|PISCO|Den","Coverage_only__Before","Post_slope",0,19,TRUE
+"Gull Island SMR|M. pyrifera|PISCO|Bio","Coverage_only__Before","Change",0,16,FALSE
+"Gull Island SMR|M. pyrifera|PISCO|Bio","Coverage_only__Before","Post_slope",0,16,TRUE
+"Gull Island SMR|M. franciscanus|PISCO|Bio","Coverage_only__Before","Change",0,15,FALSE
+"Gull Island SMR|M. franciscanus|PISCO|Bio","Coverage_only__Before","Post_slope",0,15,TRUE
+"Gull Island SMR|S. purpuratus|PISCO|Bio","Coverage_only__Before","Change",0,15,FALSE
+"Gull Island SMR|S. purpuratus|PISCO|Bio","Coverage_only__Before","Post_slope",0,15,TRUE
+"Gull Island SMR|M. franciscanus|PISCO|Den","Coverage_only__Before","Change",0,16,FALSE
+"Gull Island SMR|M. franciscanus|PISCO|Den","Coverage_only__Before","Post_slope",0,16,TRUE
+"Gull Island SMR|P. interruptus|PISCO|Den","Coverage_only__Before","Change",0,16,FALSE
+"Gull Island SMR|P. interruptus|PISCO|Den","Coverage_only__Before","Post_slope",0,16,TRUE
+"Gull Island SMR|S. purpuratus|PISCO|Den","Coverage_only__Before","Change",0,16,FALSE
+"Gull Island SMR|S. purpuratus|PISCO|Den","Coverage_only__Before","Post_slope",0,16,TRUE
+"Harris Point SMR|M. pyrifera|PISCO|Bio","Coverage_only__Before","Change",0,17,FALSE
+"Harris Point SMR|M. pyrifera|PISCO|Bio","Coverage_only__Before","Post_slope",0,17,TRUE
+"Harris Point SMR|M. franciscanus|PISCO|Bio","Coverage_only__Before","Change",0,15,FALSE
+"Harris Point SMR|M. franciscanus|PISCO|Bio","Coverage_only__Before","Post_slope",0,15,TRUE
+"Harris Point SMR|S. pulcher|PISCO|Bio","Coverage_only__Before","Change",0,17,FALSE
+"Harris Point SMR|S. pulcher|PISCO|Bio","Coverage_only__Before","Post_slope",0,17,TRUE
+"Harris Point SMR|S. purpuratus|PISCO|Bio","Coverage_only__Before","Change",0,15,FALSE
+"Harris Point SMR|S. purpuratus|PISCO|Bio","Coverage_only__Before","Post_slope",0,15,TRUE
+"Harris Point SMR|M. franciscanus|PISCO|Den","Coverage_only__Before","Change",0,17,FALSE
+"Harris Point SMR|M. franciscanus|PISCO|Den","Coverage_only__Before","Post_slope",0,17,TRUE
+"Harris Point SMR|P. interruptus|PISCO|Den","Coverage_only__Before","Change",0,17,FALSE
+"Harris Point SMR|P. interruptus|PISCO|Den","Coverage_only__Before","Post_slope",0,17,TRUE
+"Harris Point SMR|S. pulcher|PISCO|Den","Coverage_only__Before","Change",0,17,FALSE
+"Harris Point SMR|S. pulcher|PISCO|Den","Coverage_only__Before","Post_slope",0,17,TRUE
+"Harris Point SMR|S. purpuratus|PISCO|Den","Coverage_only__Before","Change",0,17,FALSE
+"Harris Point SMR|S. purpuratus|PISCO|Den","Coverage_only__Before","Post_slope",0,17,TRUE
+"Matlahuayl SMR|M. pyrifera|PISCO|Bio","Coverage_only__Before","Change",1,5,FALSE
+"Matlahuayl SMR|M. pyrifera|PISCO|Bio","Coverage_only__Before","Post_slope",1,5,TRUE
+"Matlahuayl SMR|P. interruptus|PISCO|Bio","Coverage_only__Before","Change",1,5,FALSE
+"Matlahuayl SMR|P. interruptus|PISCO|Bio","Coverage_only__Before","Post_slope",1,5,TRUE
+"Matlahuayl SMR|S. pulcher|PISCO|Bio","Coverage_only__Before","Change",1,5,FALSE
+"Matlahuayl SMR|S. pulcher|PISCO|Bio","Coverage_only__Before","Post_slope",1,5,TRUE
+"Matlahuayl SMR|M. franciscanus|PISCO|Den","Coverage_only__Before","Change",1,5,FALSE
+"Matlahuayl SMR|M. franciscanus|PISCO|Den","Coverage_only__Before","Post_slope",1,5,TRUE
+"Matlahuayl SMR|P. interruptus|PISCO|Den","Coverage_only__Before","Change",1,5,FALSE
+"Matlahuayl SMR|P. interruptus|PISCO|Den","Coverage_only__Before","Post_slope",1,5,TRUE
+"Matlahuayl SMR|S. pulcher|PISCO|Den","Coverage_only__Before","Change",1,5,FALSE
+"Matlahuayl SMR|S. pulcher|PISCO|Den","Coverage_only__Before","Post_slope",1,5,TRUE
+"Matlahuayl SMR|S. purpuratus|PISCO|Den","Coverage_only__Before","Change",1,5,FALSE
+"Matlahuayl SMR|S. purpuratus|PISCO|Den","Coverage_only__Before","Post_slope",1,5,TRUE
+"Naples SMCA|S. pulcher|PISCO|Bio","Coverage_only__Before","Change",3,10,TRUE
+"Naples SMCA|S. pulcher|PISCO|Bio","Coverage_only__Before","Post_slope",3,10,TRUE
+"Naples SMCA|S. pulcher|PISCO|Den","Coverage_only__Before","Change",3,10,TRUE
+"Naples SMCA|S. pulcher|PISCO|Den","Coverage_only__Before","Post_slope",3,10,TRUE
+"Naples SMCA|M. pyrifera|PISCO|Bio","Coverage_only__Before","Change",2,11,FALSE
+"Naples SMCA|M. pyrifera|PISCO|Bio","Coverage_only__Before","Post_slope",2,11,TRUE
+"Naples SMCA|M. franciscanus|PISCO|Den","Coverage_only__Before","Change",2,11,FALSE
+"Naples SMCA|M. franciscanus|PISCO|Den","Coverage_only__Before","Post_slope",2,11,TRUE
+"Naples SMCA|P. interruptus|PISCO|Den","Coverage_only__Before","Change",2,11,FALSE
+"Naples SMCA|P. interruptus|PISCO|Den","Coverage_only__Before","Post_slope",2,11,TRUE
+"Naples SMCA|S. purpuratus|PISCO|Den","Coverage_only__Before","Change",2,11,FALSE
+"Naples SMCA|S. purpuratus|PISCO|Den","Coverage_only__Before","Post_slope",2,11,TRUE
+"Naples SMCA|M. franciscanus|PISCO|Bio","Coverage_only__Before","Change",1,11,FALSE
+"Naples SMCA|M. franciscanus|PISCO|Bio","Coverage_only__Before","Post_slope",1,11,TRUE
+"Naples SMCA|S. purpuratus|PISCO|Bio","Coverage_only__Before","Change",1,11,FALSE
+"Naples SMCA|S. purpuratus|PISCO|Bio","Coverage_only__Before","Post_slope",1,11,TRUE
+"Point Vicente SMCA|M. pyrifera|PISCO|Bio","Coverage_only__Before","Change",4,10,FALSE
+"Point Vicente SMCA|M. pyrifera|PISCO|Bio","Coverage_only__Before","Post_slope",4,10,TRUE
+"Point Vicente SMCA|M. franciscanus|PISCO|Den","Coverage_only__Before","Change",4,10,FALSE
+"Point Vicente SMCA|M. franciscanus|PISCO|Den","Coverage_only__Before","Post_slope",4,10,TRUE
+"Point Vicente SMCA|P. interruptus|PISCO|Den","Coverage_only__Before","Change",4,10,FALSE
+"Point Vicente SMCA|P. interruptus|PISCO|Den","Coverage_only__Before","Post_slope",4,10,TRUE
+"Point Vicente SMCA|S. purpuratus|PISCO|Den","Coverage_only__Before","Change",4,10,FALSE
+"Point Vicente SMCA|S. purpuratus|PISCO|Den","Coverage_only__Before","Post_slope",4,10,TRUE
+"Point Vicente SMCA|M. franciscanus|PISCO|Bio","Coverage_only__Before","Change",3,10,FALSE
+"Point Vicente SMCA|M. franciscanus|PISCO|Bio","Coverage_only__Before","Post_slope",3,10,TRUE
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Coverage_only__Before","Change",3,11,TRUE
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Coverage_only__Before","Post_slope",3,11,TRUE
+"Point Vicente SMCA|S. purpuratus|PISCO|Bio","Coverage_only__Before","Change",3,10,FALSE
+"Point Vicente SMCA|S. purpuratus|PISCO|Bio","Coverage_only__Before","Post_slope",3,10,TRUE
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Coverage_only__Before","Change",3,11,TRUE
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Coverage_only__Before","Post_slope",3,11,TRUE
+"Point Vicente SMCA|P. interruptus|PISCO|Bio","Coverage_only__Before","Change",1,10,FALSE
+"Point Vicente SMCA|P. interruptus|PISCO|Bio","Coverage_only__Before","Post_slope",1,10,TRUE
+"Scorpion SMR|M. pyrifera|PISCO|Bio","Coverage_only__Before","Change",0,20,FALSE
+"Scorpion SMR|M. pyrifera|PISCO|Bio","Coverage_only__Before","Post_slope",0,20,TRUE
+"Scorpion SMR|M. franciscanus|PISCO|Bio","Coverage_only__Before","Change",0,18,FALSE
+"Scorpion SMR|M. franciscanus|PISCO|Bio","Coverage_only__Before","Post_slope",0,18,TRUE
+"Scorpion SMR|S. pulcher|PISCO|Bio","Coverage_only__Before","Change",0,20,FALSE
+"Scorpion SMR|S. pulcher|PISCO|Bio","Coverage_only__Before","Post_slope",0,20,TRUE
+"Scorpion SMR|S. purpuratus|PISCO|Bio","Coverage_only__Before","Change",0,18,FALSE
+"Scorpion SMR|S. purpuratus|PISCO|Bio","Coverage_only__Before","Post_slope",0,18,TRUE
+"Scorpion SMR|M. franciscanus|PISCO|Den","Coverage_only__Before","Change",0,20,FALSE
+"Scorpion SMR|M. franciscanus|PISCO|Den","Coverage_only__Before","Post_slope",0,20,TRUE
+"Scorpion SMR|P. interruptus|PISCO|Den","Coverage_only__Before","Change",0,20,FALSE
+"Scorpion SMR|P. interruptus|PISCO|Den","Coverage_only__Before","Post_slope",0,20,TRUE
+"Scorpion SMR|S. pulcher|PISCO|Den","Coverage_only__Before","Change",0,20,FALSE
+"Scorpion SMR|S. pulcher|PISCO|Den","Coverage_only__Before","Post_slope",0,20,TRUE
+"Scorpion SMR|S. purpuratus|PISCO|Den","Coverage_only__Before","Change",0,20,FALSE
+"Scorpion SMR|S. purpuratus|PISCO|Den","Coverage_only__Before","Post_slope",0,20,TRUE
+"South Point SMR|S. pulcher|PISCO|Bio","Coverage_only__Before","Change",0,20,FALSE
+"South Point SMR|S. pulcher|PISCO|Bio","Coverage_only__Before","Post_slope",0,20,TRUE
+"South Point SMR|S. pulcher|PISCO|Den","Coverage_only__Before","Change",0,20,FALSE
+"South Point SMR|S. pulcher|PISCO|Den","Coverage_only__Before","Post_slope",0,20,TRUE
+"South Point SMR|M. pyrifera|PISCO|Bio","Coverage_only__Before","Change",0,16,FALSE
+"South Point SMR|M. pyrifera|PISCO|Bio","Coverage_only__Before","Post_slope",0,16,TRUE
+"South Point SMR|M. franciscanus|PISCO|Bio","Coverage_only__Before","Change",0,14,FALSE
+"South Point SMR|M. franciscanus|PISCO|Bio","Coverage_only__Before","Post_slope",0,14,TRUE
+"South Point SMR|S. purpuratus|PISCO|Bio","Coverage_only__Before","Change",0,14,FALSE
+"South Point SMR|S. purpuratus|PISCO|Bio","Coverage_only__Before","Post_slope",0,14,TRUE
+"South Point SMR|M. franciscanus|PISCO|Den","Coverage_only__Before","Change",0,16,FALSE
+"South Point SMR|M. franciscanus|PISCO|Den","Coverage_only__Before","Post_slope",0,16,TRUE
+"South Point SMR|P. interruptus|PISCO|Den","Coverage_only__Before","Change",0,16,FALSE
+"South Point SMR|P. interruptus|PISCO|Den","Coverage_only__Before","Post_slope",0,16,TRUE
+"South Point SMR|S. purpuratus|PISCO|Den","Coverage_only__Before","Change",0,16,FALSE
+"South Point SMR|S. purpuratus|PISCO|Den","Coverage_only__Before","Post_slope",0,16,TRUE
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Den","Coverage_only__Before","Change",0,17,FALSE
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Den","Coverage_only__Before","Post_slope",0,17,TRUE
+"Anacapa Island SMR 2003|P. interruptus|KFM|Den","Coverage_only__Before","Change",0,17,FALSE
+"Anacapa Island SMR 2003|P. interruptus|KFM|Den","Coverage_only__Before","Post_slope",0,17,TRUE
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Den","Coverage_only__Before","Change",0,17,FALSE
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Den","Coverage_only__Before","Post_slope",0,17,TRUE
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Bio","Coverage_only__Before","Change",0,17,FALSE
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Bio","Coverage_only__Before","Post_slope",0,17,TRUE
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Bio","Coverage_only__Before","Change",0,17,FALSE
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Bio","Coverage_only__Before","Post_slope",0,17,TRUE
+"Harris Point SMR|M. franciscanus|KFM|Den","Coverage_only__Before","Change",21,18,TRUE
+"Harris Point SMR|M. franciscanus|KFM|Den","Coverage_only__Before","Post_slope",21,18,TRUE
+"Harris Point SMR|M. franciscanus|KFM|Bio","Coverage_only__Before","Change",17,18,TRUE
+"Harris Point SMR|M. franciscanus|KFM|Bio","Coverage_only__Before","Post_slope",17,18,TRUE
+"Scorpion SMR|P. interruptus|KFM|Den","Coverage_only__Before","Change",20,18,TRUE
+"Scorpion SMR|P. interruptus|KFM|Den","Coverage_only__Before","Post_slope",20,18,TRUE
+"Scorpion SMR|M. franciscanus|KFM|Den","Coverage_only__Before","Change",21,18,TRUE
+"Scorpion SMR|M. franciscanus|KFM|Den","Coverage_only__Before","Post_slope",21,18,TRUE
+"Scorpion SMR|M. franciscanus|KFM|Bio","Coverage_only__Before","Change",18,18,TRUE
+"Scorpion SMR|M. franciscanus|KFM|Bio","Coverage_only__Before","Post_slope",18,18,TRUE
+"South Point SMR|S. purpuratus|KFM|Den","Coverage_only__Before","Change",0,17,FALSE
+"South Point SMR|S. purpuratus|KFM|Den","Coverage_only__Before","Post_slope",0,17,TRUE
+"South Point SMR|M. franciscanus|KFM|Den","Coverage_only__Before","Change",0,17,FALSE
+"South Point SMR|M. franciscanus|KFM|Den","Coverage_only__Before","Post_slope",0,17,TRUE
+"South Point SMR|P. interruptus|KFM|Den","Coverage_only__Before","Change",0,17,FALSE
+"South Point SMR|P. interruptus|KFM|Den","Coverage_only__Before","Post_slope",0,17,TRUE
+"South Point SMR|M. franciscanus|KFM|Bio","Coverage_only__Before","Change",0,17,FALSE
+"South Point SMR|M. franciscanus|KFM|Bio","Coverage_only__Before","Post_slope",0,17,TRUE
+"South Point SMR|S. purpuratus|KFM|Bio","Coverage_only__Before","Change",0,17,FALSE
+"South Point SMR|S. purpuratus|KFM|Bio","Coverage_only__Before","Post_slope",0,17,TRUE
+"Campus Point SMCA|P. interruptus|LTER|Bio","Coverage_only__Before","Change",0,11,FALSE
+"Campus Point SMCA|P. interruptus|LTER|Bio","Coverage_only__Before","Post_slope",0,11,TRUE
+"Campus Point SMCA|P. interruptus|LTER|Den","Coverage_only__Before","Change",0,11,FALSE
+"Campus Point SMCA|P. interruptus|LTER|Den","Coverage_only__Before","Post_slope",0,11,TRUE
+"Naples SMCA|P. interruptus|LTER|Bio","Coverage_only__Before","Change",0,11,FALSE
+"Naples SMCA|P. interruptus|LTER|Bio","Coverage_only__Before","Post_slope",0,11,TRUE
+"Naples SMCA|P. interruptus|LTER|Den","Coverage_only__Before","Change",0,11,FALSE
+"Naples SMCA|P. interruptus|LTER|Den","Coverage_only__Before","Post_slope",0,11,TRUE
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Coverage_only__Before","Change",11,11,TRUE
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Coverage_only__Before","Post_slope",11,11,TRUE
+"Naples SMCA|M. pyrifera|LTER|Bio","Coverage_only__Before","Change",11,11,TRUE
+"Naples SMCA|M. pyrifera|LTER|Bio","Coverage_only__Before","Post_slope",11,11,TRUE
+"Campus Point SMCA|S. pulcher|LTER|Den","Coverage_only__Before","Change",10,11,TRUE
+"Campus Point SMCA|S. pulcher|LTER|Den","Coverage_only__Before","Post_slope",10,11,TRUE
+"Campus Point SMCA|S. pulcher|LTER|Bio","Coverage_only__Before","Change",10,11,TRUE
+"Campus Point SMCA|S. pulcher|LTER|Bio","Coverage_only__Before","Post_slope",10,11,TRUE
+"Naples SMCA|S. pulcher|LTER|Bio","Coverage_only__Before","Change",11,11,TRUE
+"Naples SMCA|S. pulcher|LTER|Bio","Coverage_only__Before","Post_slope",11,11,TRUE
+"Anacapa Island SMR 2003|S. pulcher|KFM|Den","Coverage_only__Before","Change",0,17,FALSE
+"Anacapa Island SMR 2003|S. pulcher|KFM|Den","Coverage_only__Before","Post_slope",0,17,TRUE
+"Harris Point SMR|S. pulcher|KFM|Den","Coverage_only__Before","Change",18,18,TRUE
+"Harris Point SMR|S. pulcher|KFM|Den","Coverage_only__Before","Post_slope",18,18,TRUE
+"Scorpion SMR|S. pulcher|KFM|Den","Coverage_only__Before","Change",18,19,TRUE
+"Scorpion SMR|S. pulcher|KFM|Den","Coverage_only__Before","Post_slope",18,19,TRUE
+"South Point SMR|S. pulcher|KFM|Den","Coverage_only__Before","Change",0,17,FALSE
+"South Point SMR|S. pulcher|KFM|Den","Coverage_only__Before","Post_slope",0,17,TRUE
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio","Coverage_only__Before","Change",1,6,FALSE
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio","Coverage_only__Before","Post_slope",1,6,TRUE
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den","Coverage_only__Before","Change",1,6,FALSE
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den","Coverage_only__Before","Post_slope",1,6,TRUE
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio","Coverage_only__Before","Change",1,4,FALSE
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio","Coverage_only__Before","Post_slope",1,4,TRUE
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Den","Coverage_only__Before","Change",1,4,FALSE
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Den","Coverage_only__Before","Post_slope",1,4,TRUE
+"Long Point SMR|S. pulcher|PISCO|Bio","Coverage_only__Before","Change",1,6,FALSE
+"Long Point SMR|S. pulcher|PISCO|Bio","Coverage_only__Before","Post_slope",1,6,TRUE
+"Long Point SMR|S. pulcher|PISCO|Den","Coverage_only__Before","Change",1,6,FALSE
+"Long Point SMR|S. pulcher|PISCO|Den","Coverage_only__Before","Post_slope",1,6,TRUE
+"Santa Barbara Island SMR|S. pulcher|PISCO|Bio","Coverage_only__Before","Change",0,10,FALSE
+"Santa Barbara Island SMR|S. pulcher|PISCO|Bio","Coverage_only__Before","Post_slope",0,10,TRUE
+"Santa Barbara Island SMR|S. pulcher|PISCO|Den","Coverage_only__Before","Change",0,10,FALSE
+"Santa Barbara Island SMR|S. pulcher|PISCO|Den","Coverage_only__Before","Post_slope",0,10,TRUE
+"Swamis SMCA|S. pulcher|PISCO|Bio","Coverage_only__Before","Change",1,5,FALSE
+"Swamis SMCA|S. pulcher|PISCO|Bio","Coverage_only__Before","Post_slope",1,5,TRUE
+"Swamis SMCA|S. pulcher|PISCO|Den","Coverage_only__Before","Change",1,5,FALSE
+"Swamis SMCA|S. pulcher|PISCO|Den","Coverage_only__Before","Post_slope",1,5,TRUE
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Coverage_only__Before","Change",20,19,TRUE
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Coverage_only__Before","Post_slope",20,19,TRUE
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Coverage_only__Before","Change",21,19,TRUE
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Coverage_only__Before","Post_slope",21,19,TRUE
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Coverage_only__Before","Change",26,9,TRUE
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Coverage_only__Before","Post_slope",26,9,TRUE
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Coverage_only__Before","Change",24,9,TRUE
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Coverage_only__Before","Post_slope",24,9,TRUE
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Coverage_only__Before","Change",27,9,TRUE
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Coverage_only__Before","Post_slope",27,9,TRUE
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Coverage_only__Before","Change",18,18,TRUE
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Coverage_only__Before","Post_slope",18,18,TRUE
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Coverage_only__Before","Change",15,9,TRUE
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Coverage_only__Before","Post_slope",15,9,TRUE
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Coverage_only__Before","Change",18,18,TRUE
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Coverage_only__Before","Post_slope",18,18,TRUE
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Coverage_only__Before","Change",17,18,TRUE
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Coverage_only__Before","Post_slope",17,18,TRUE
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Coverage_only__Before","Change",18,18,TRUE
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Coverage_only__Before","Post_slope",18,18,TRUE
+"Naples SMCA|M. pyrifera|Landsat|Bio","Coverage_only__Before","Change",27,9,TRUE
+"Naples SMCA|M. pyrifera|Landsat|Bio","Coverage_only__Before","Post_slope",27,9,TRUE
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Coverage_only__Before","Change",27,9,TRUE
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Coverage_only__Before","Post_slope",27,9,TRUE
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Coverage_only__Before","Change",27,9,TRUE
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Coverage_only__Before","Post_slope",27,9,TRUE
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Coverage_only__Before","Change",25,9,TRUE
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Coverage_only__Before","Post_slope",25,9,TRUE
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Coverage_only__Before","Change",18,18,TRUE
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Coverage_only__Before","Post_slope",18,18,TRUE
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Coverage_only__Before","Change",17,18,TRUE
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Coverage_only__Before","Post_slope",17,18,TRUE
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Coverage_only__Before","Change",25,9,TRUE
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Coverage_only__Before","Post_slope",25,9,TRUE
+"South Point SMR|M. pyrifera|Landsat|Bio","Coverage_only__Before","Change",18,18,TRUE
+"South Point SMR|M. pyrifera|Landsat|Bio","Coverage_only__Before","Post_slope",18,18,TRUE
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Coverage_only__Before","Change",27,9,TRUE
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Coverage_only__Before","Post_slope",27,9,TRUE
+"Campus Point SMCA|M. franciscanus|LTER|Den","Coverage_only__Before","Change",11,11,TRUE
+"Campus Point SMCA|M. franciscanus|LTER|Den","Coverage_only__Before","Post_slope",11,11,TRUE
+"Campus Point SMCA|S. purpuratus|LTER|Den","Coverage_only__Before","Change",11,11,TRUE
+"Campus Point SMCA|S. purpuratus|LTER|Den","Coverage_only__Before","Post_slope",11,11,TRUE
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Coverage_only__Before","Change",5,11,TRUE
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Coverage_only__Before","Post_slope",5,11,TRUE
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Coverage_only__Before","Change",3,11,TRUE
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Coverage_only__Before","Post_slope",3,11,TRUE
+"Naples SMCA|S. purpuratus|LTER|Den","Coverage_only__Before","Change",11,11,TRUE
+"Naples SMCA|S. purpuratus|LTER|Den","Coverage_only__Before","Post_slope",11,11,TRUE
+"Naples SMCA|S. purpuratus|LTER|Bio","Coverage_only__Before","Change",9,11,TRUE
+"Naples SMCA|S. purpuratus|LTER|Bio","Coverage_only__Before","Post_slope",9,11,TRUE
+"Matlahuayl SMR|S. purpuratus|PISCO|Bio","Coverage_only__Before","Change",1,4,FALSE
+"Matlahuayl SMR|S. purpuratus|PISCO|Bio","Coverage_only__Before","Post_slope",1,4,TRUE
+"Matlahuayl SMR|M. franciscanus|PISCO|Bio","Coverage_only__Before","Change",0,4,FALSE
+"Matlahuayl SMR|M. franciscanus|PISCO|Bio","Coverage_only__Before","Post_slope",0,4,TRUE
+"Harris Point SMR|P. interruptus|KFM|Den","Coverage_only__Before","Change",20,18,TRUE
+"Harris Point SMR|P. interruptus|KFM|Den","Coverage_only__Before","Post_slope",20,18,TRUE
+"Harris Point SMR|S. purpuratus|KFM|Den","Coverage_only__Before","Change",21,18,TRUE
+"Harris Point SMR|S. purpuratus|KFM|Den","Coverage_only__Before","Post_slope",21,18,TRUE
+"Harris Point SMR|S. purpuratus|KFM|Bio","Coverage_only__Before","Change",17,18,TRUE
+"Harris Point SMR|S. purpuratus|KFM|Bio","Coverage_only__Before","Post_slope",17,18,TRUE
+"Scorpion SMR|S. purpuratus|KFM|Den","Coverage_only__Before","Change",21,18,TRUE
+"Scorpion SMR|S. purpuratus|KFM|Den","Coverage_only__Before","Post_slope",21,18,TRUE
+"Scorpion SMR|S. purpuratus|KFM|Bio","Coverage_only__Before","Change",18,18,TRUE
+"Scorpion SMR|S. purpuratus|KFM|Bio","Coverage_only__Before","Post_slope",18,18,TRUE
+"Naples SMCA|S. pulcher|LTER|Den","Coverage_only__Before","Change",11,11,TRUE
+"Naples SMCA|S. pulcher|LTER|Den","Coverage_only__Before","Post_slope",11,11,TRUE
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Coverage_only__Before","Change",21,19,TRUE
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Coverage_only__Before","Post_slope",21,19,TRUE
+"Santa Barbara Island SMR|M. franciscanus|KFM|Bio","Coverage_only__Before","Change",0,17,FALSE
+"Santa Barbara Island SMR|M. franciscanus|KFM|Bio","Coverage_only__Before","Post_slope",0,17,TRUE
+"Santa Barbara Island SMR|S. purpuratus|KFM|Bio","Coverage_only__Before","Change",0,17,FALSE
+"Santa Barbara Island SMR|S. purpuratus|KFM|Bio","Coverage_only__Before","Post_slope",0,17,TRUE
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Coverage_only__Before","Change",18,19,TRUE
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Coverage_only__Before","Post_slope",18,19,TRUE
+"Anacapa Island SMR 2003|M. pyrifera|KFM|Bio","Coverage_only__Before","Change",0,17,FALSE
+"Anacapa Island SMR 2003|M. pyrifera|KFM|Bio","Coverage_only__Before","Post_slope",0,17,TRUE
+"Harris Point SMR|M. pyrifera|KFM|Bio","Coverage_only__Before","Change",6,18,TRUE
+"Harris Point SMR|M. pyrifera|KFM|Bio","Coverage_only__Before","Post_slope",6,18,TRUE
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Coverage_only__Before","Change",3,19,TRUE
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Coverage_only__Before","Post_slope",3,19,TRUE
+"Scorpion SMR|M. pyrifera|KFM|Bio","Coverage_only__Before","Change",6,17,TRUE
+"Scorpion SMR|M. pyrifera|KFM|Bio","Coverage_only__Before","Post_slope",6,17,TRUE
+"South Point SMR|M. pyrifera|KFM|Bio","Coverage_only__Before","Change",0,17,FALSE
+"South Point SMR|M. pyrifera|KFM|Bio","Coverage_only__Before","Post_slope",0,17,TRUE
+"Point Dume SMCA|M. franciscanus|PISCO|Bio","Coverage_only__Before","Change",1,0,FALSE
+"Point Dume SMCA|M. franciscanus|PISCO|Bio","Coverage_only__Before","Post_slope",1,0,FALSE
+"Point Dume SMCA|M. franciscanus|PISCO|Den","Coverage_only__Before","Change",3,3,FALSE
+"Point Dume SMCA|M. franciscanus|PISCO|Den","Coverage_only__Before","Post_slope",3,3,TRUE
+"Point Dume SMCA|M. pyrifera|PISCO|Bio","Coverage_only__Before","Change",3,3,FALSE
+"Point Dume SMCA|M. pyrifera|PISCO|Bio","Coverage_only__Before","Post_slope",3,3,TRUE
+"Point Dume SMCA|P. interruptus|PISCO|Den","Coverage_only__Before","Change",3,3,FALSE
+"Point Dume SMCA|P. interruptus|PISCO|Den","Coverage_only__Before","Post_slope",3,3,TRUE
+"Point Dume SMCA|S. pulcher|PISCO|Bio","Coverage_only__Before","Change",1,5,FALSE
+"Point Dume SMCA|S. pulcher|PISCO|Bio","Coverage_only__Before","Post_slope",1,5,TRUE
+"Point Dume SMCA|S. pulcher|PISCO|Den","Coverage_only__Before","Change",1,5,FALSE
+"Point Dume SMCA|S. pulcher|PISCO|Den","Coverage_only__Before","Post_slope",1,5,TRUE
+"Point Dume SMCA|S. purpuratus|PISCO|Bio","Coverage_only__Before","Change",1,0,FALSE
+"Point Dume SMCA|S. purpuratus|PISCO|Bio","Coverage_only__Before","Post_slope",1,0,FALSE
+"Point Dume SMCA|S. purpuratus|PISCO|Den","Coverage_only__Before","Change",3,3,FALSE
+"Point Dume SMCA|S. purpuratus|PISCO|Den","Coverage_only__Before","Post_slope",3,3,TRUE
+"Point Dume SMR|M. franciscanus|PISCO|Den","Coverage_only__Before","Change",0,1,FALSE
+"Point Dume SMR|M. franciscanus|PISCO|Den","Coverage_only__Before","Post_slope",0,1,FALSE
+"Point Dume SMR|M. pyrifera|PISCO|Bio","Coverage_only__Before","Change",0,1,FALSE
+"Point Dume SMR|M. pyrifera|PISCO|Bio","Coverage_only__Before","Post_slope",0,1,FALSE
+"Point Dume SMR|P. interruptus|PISCO|Den","Coverage_only__Before","Change",0,1,FALSE
+"Point Dume SMR|P. interruptus|PISCO|Den","Coverage_only__Before","Post_slope",0,1,FALSE
+"Point Dume SMR|S. pulcher|PISCO|Bio","Coverage_only__Before","Change",1,5,FALSE
+"Point Dume SMR|S. pulcher|PISCO|Bio","Coverage_only__Before","Post_slope",1,5,TRUE
+"Point Dume SMR|S. pulcher|PISCO|Den","Coverage_only__Before","Change",1,5,FALSE
+"Point Dume SMR|S. pulcher|PISCO|Den","Coverage_only__Before","Post_slope",1,5,TRUE
+"Point Dume SMR|S. purpuratus|PISCO|Den","Coverage_only__Before","Change",0,1,FALSE
+"Point Dume SMR|S. purpuratus|PISCO|Den","Coverage_only__Before","Post_slope",0,1,FALSE
+"Naples SMCA|M. franciscanus|LTER|Den","Coverage_only__After","Change",11,11,TRUE
+"Naples SMCA|M. franciscanus|LTER|Den","Coverage_only__After","Post_slope",11,11,TRUE
+"Naples SMCA|M. franciscanus|LTER|Bio","Coverage_only__After","Change",2,11,FALSE
+"Naples SMCA|M. franciscanus|LTER|Bio","Coverage_only__After","Post_slope",2,11,TRUE
+"Abalone Cove SMCA|S. pulcher|PISCO|Bio","Coverage_only__After","Change",2,11,FALSE
+"Abalone Cove SMCA|S. pulcher|PISCO|Bio","Coverage_only__After","Post_slope",2,11,TRUE
+"Abalone Cove SMCA|S. pulcher|PISCO|Den","Coverage_only__After","Change",2,11,FALSE
+"Abalone Cove SMCA|S. pulcher|PISCO|Den","Coverage_only__After","Post_slope",2,11,TRUE
+"Abalone Cove SMCA|M. pyrifera|PISCO|Bio","Coverage_only__After","Change",1,11,FALSE
+"Abalone Cove SMCA|M. pyrifera|PISCO|Bio","Coverage_only__After","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|M. franciscanus|PISCO|Bio","Coverage_only__After","Change",1,11,FALSE
+"Abalone Cove SMCA|M. franciscanus|PISCO|Bio","Coverage_only__After","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|S. purpuratus|PISCO|Bio","Coverage_only__After","Change",1,11,FALSE
+"Abalone Cove SMCA|S. purpuratus|PISCO|Bio","Coverage_only__After","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|M. franciscanus|PISCO|Den","Coverage_only__After","Change",1,11,FALSE
+"Abalone Cove SMCA|M. franciscanus|PISCO|Den","Coverage_only__After","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|P. interruptus|PISCO|Den","Coverage_only__After","Change",1,11,FALSE
+"Abalone Cove SMCA|P. interruptus|PISCO|Den","Coverage_only__After","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|S. purpuratus|PISCO|Den","Coverage_only__After","Change",1,11,FALSE
+"Abalone Cove SMCA|S. purpuratus|PISCO|Den","Coverage_only__After","Post_slope",1,11,TRUE
+"Abalone Cove SMCA|P. interruptus|PISCO|Bio","Coverage_only__After","Change",0,11,FALSE
+"Abalone Cove SMCA|P. interruptus|PISCO|Bio","Coverage_only__After","Post_slope",0,11,TRUE
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Bio","Coverage_only__After","Change",0,19,FALSE
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Bio","Coverage_only__After","Post_slope",0,19,TRUE
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Den","Coverage_only__After","Change",0,19,FALSE
+"Anacapa Island SMR 2003|S. pulcher|PISCO|Den","Coverage_only__After","Post_slope",0,19,TRUE
+"Anacapa Island SMR 2003|M. pyrifera|PISCO|Bio","Coverage_only__After","Change",0,16,FALSE
+"Anacapa Island SMR 2003|M. pyrifera|PISCO|Bio","Coverage_only__After","Post_slope",0,16,TRUE
+"Anacapa Island SMR 2003|M. franciscanus|PISCO|Den","Coverage_only__After","Change",0,16,FALSE
+"Anacapa Island SMR 2003|M. franciscanus|PISCO|Den","Coverage_only__After","Post_slope",0,16,TRUE
+"Anacapa Island SMR 2003|P. interruptus|PISCO|Den","Coverage_only__After","Change",0,16,FALSE
+"Anacapa Island SMR 2003|P. interruptus|PISCO|Den","Coverage_only__After","Post_slope",0,16,TRUE
+"Anacapa Island SMR 2003|S. purpuratus|PISCO|Den","Coverage_only__After","Change",0,16,FALSE
+"Anacapa Island SMR 2003|S. purpuratus|PISCO|Den","Coverage_only__After","Post_slope",0,16,TRUE
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Coverage_only__After","Change",3,9,TRUE
+"Campus Point SMCA|S. pulcher|PISCO|Bio","Coverage_only__After","Post_slope",3,9,TRUE
+"Campus Point SMCA|S. pulcher|PISCO|Den","Coverage_only__After","Change",3,9,TRUE
+"Campus Point SMCA|S. pulcher|PISCO|Den","Coverage_only__After","Post_slope",3,9,TRUE
+"Campus Point SMCA|M. pyrifera|PISCO|Bio","Coverage_only__After","Change",2,11,FALSE
+"Campus Point SMCA|M. pyrifera|PISCO|Bio","Coverage_only__After","Post_slope",2,11,TRUE
+"Campus Point SMCA|M. franciscanus|PISCO|Den","Coverage_only__After","Change",2,11,FALSE
+"Campus Point SMCA|M. franciscanus|PISCO|Den","Coverage_only__After","Post_slope",2,11,TRUE
+"Campus Point SMCA|P. interruptus|PISCO|Den","Coverage_only__After","Change",2,11,FALSE
+"Campus Point SMCA|P. interruptus|PISCO|Den","Coverage_only__After","Post_slope",2,11,TRUE
+"Campus Point SMCA|S. purpuratus|PISCO|Den","Coverage_only__After","Change",2,11,FALSE
+"Campus Point SMCA|S. purpuratus|PISCO|Den","Coverage_only__After","Post_slope",2,11,TRUE
+"Campus Point SMCA|M. franciscanus|PISCO|Bio","Coverage_only__After","Change",1,10,FALSE
+"Campus Point SMCA|M. franciscanus|PISCO|Bio","Coverage_only__After","Post_slope",1,10,TRUE
+"Campus Point SMCA|S. purpuratus|PISCO|Bio","Coverage_only__After","Change",1,11,FALSE
+"Campus Point SMCA|S. purpuratus|PISCO|Bio","Coverage_only__After","Post_slope",1,11,TRUE
+"Gull Island SMR|S. pulcher|PISCO|Bio","Coverage_only__After","Change",0,19,FALSE
+"Gull Island SMR|S. pulcher|PISCO|Bio","Coverage_only__After","Post_slope",0,19,TRUE
+"Gull Island SMR|S. pulcher|PISCO|Den","Coverage_only__After","Change",0,19,FALSE
+"Gull Island SMR|S. pulcher|PISCO|Den","Coverage_only__After","Post_slope",0,19,TRUE
+"Gull Island SMR|M. pyrifera|PISCO|Bio","Coverage_only__After","Change",0,16,FALSE
+"Gull Island SMR|M. pyrifera|PISCO|Bio","Coverage_only__After","Post_slope",0,16,TRUE
+"Gull Island SMR|M. franciscanus|PISCO|Bio","Coverage_only__After","Change",0,15,FALSE
+"Gull Island SMR|M. franciscanus|PISCO|Bio","Coverage_only__After","Post_slope",0,15,TRUE
+"Gull Island SMR|S. purpuratus|PISCO|Bio","Coverage_only__After","Change",0,15,FALSE
+"Gull Island SMR|S. purpuratus|PISCO|Bio","Coverage_only__After","Post_slope",0,15,TRUE
+"Gull Island SMR|M. franciscanus|PISCO|Den","Coverage_only__After","Change",0,16,FALSE
+"Gull Island SMR|M. franciscanus|PISCO|Den","Coverage_only__After","Post_slope",0,16,TRUE
+"Gull Island SMR|P. interruptus|PISCO|Den","Coverage_only__After","Change",0,16,FALSE
+"Gull Island SMR|P. interruptus|PISCO|Den","Coverage_only__After","Post_slope",0,16,TRUE
+"Gull Island SMR|S. purpuratus|PISCO|Den","Coverage_only__After","Change",0,16,FALSE
+"Gull Island SMR|S. purpuratus|PISCO|Den","Coverage_only__After","Post_slope",0,16,TRUE
+"Harris Point SMR|M. pyrifera|PISCO|Bio","Coverage_only__After","Change",0,17,FALSE
+"Harris Point SMR|M. pyrifera|PISCO|Bio","Coverage_only__After","Post_slope",0,17,TRUE
+"Harris Point SMR|M. franciscanus|PISCO|Bio","Coverage_only__After","Change",0,15,FALSE
+"Harris Point SMR|M. franciscanus|PISCO|Bio","Coverage_only__After","Post_slope",0,15,TRUE
+"Harris Point SMR|S. pulcher|PISCO|Bio","Coverage_only__After","Change",0,17,FALSE
+"Harris Point SMR|S. pulcher|PISCO|Bio","Coverage_only__After","Post_slope",0,17,TRUE
+"Harris Point SMR|S. purpuratus|PISCO|Bio","Coverage_only__After","Change",0,15,FALSE
+"Harris Point SMR|S. purpuratus|PISCO|Bio","Coverage_only__After","Post_slope",0,15,TRUE
+"Harris Point SMR|M. franciscanus|PISCO|Den","Coverage_only__After","Change",0,17,FALSE
+"Harris Point SMR|M. franciscanus|PISCO|Den","Coverage_only__After","Post_slope",0,17,TRUE
+"Harris Point SMR|P. interruptus|PISCO|Den","Coverage_only__After","Change",0,17,FALSE
+"Harris Point SMR|P. interruptus|PISCO|Den","Coverage_only__After","Post_slope",0,17,TRUE
+"Harris Point SMR|S. pulcher|PISCO|Den","Coverage_only__After","Change",0,17,FALSE
+"Harris Point SMR|S. pulcher|PISCO|Den","Coverage_only__After","Post_slope",0,17,TRUE
+"Harris Point SMR|S. purpuratus|PISCO|Den","Coverage_only__After","Change",0,17,FALSE
+"Harris Point SMR|S. purpuratus|PISCO|Den","Coverage_only__After","Post_slope",0,17,TRUE
+"Matlahuayl SMR|M. pyrifera|PISCO|Bio","Coverage_only__After","Change",1,5,FALSE
+"Matlahuayl SMR|M. pyrifera|PISCO|Bio","Coverage_only__After","Post_slope",1,5,TRUE
+"Matlahuayl SMR|P. interruptus|PISCO|Bio","Coverage_only__After","Change",1,5,FALSE
+"Matlahuayl SMR|P. interruptus|PISCO|Bio","Coverage_only__After","Post_slope",1,5,TRUE
+"Matlahuayl SMR|S. pulcher|PISCO|Bio","Coverage_only__After","Change",1,5,FALSE
+"Matlahuayl SMR|S. pulcher|PISCO|Bio","Coverage_only__After","Post_slope",1,5,TRUE
+"Matlahuayl SMR|M. franciscanus|PISCO|Den","Coverage_only__After","Change",1,5,FALSE
+"Matlahuayl SMR|M. franciscanus|PISCO|Den","Coverage_only__After","Post_slope",1,5,TRUE
+"Matlahuayl SMR|P. interruptus|PISCO|Den","Coverage_only__After","Change",1,5,FALSE
+"Matlahuayl SMR|P. interruptus|PISCO|Den","Coverage_only__After","Post_slope",1,5,TRUE
+"Matlahuayl SMR|S. pulcher|PISCO|Den","Coverage_only__After","Change",1,5,FALSE
+"Matlahuayl SMR|S. pulcher|PISCO|Den","Coverage_only__After","Post_slope",1,5,TRUE
+"Matlahuayl SMR|S. purpuratus|PISCO|Den","Coverage_only__After","Change",1,5,FALSE
+"Matlahuayl SMR|S. purpuratus|PISCO|Den","Coverage_only__After","Post_slope",1,5,TRUE
+"Naples SMCA|S. pulcher|PISCO|Bio","Coverage_only__After","Change",3,10,TRUE
+"Naples SMCA|S. pulcher|PISCO|Bio","Coverage_only__After","Post_slope",3,10,TRUE
+"Naples SMCA|S. pulcher|PISCO|Den","Coverage_only__After","Change",3,10,TRUE
+"Naples SMCA|S. pulcher|PISCO|Den","Coverage_only__After","Post_slope",3,10,TRUE
+"Naples SMCA|M. pyrifera|PISCO|Bio","Coverage_only__After","Change",2,11,FALSE
+"Naples SMCA|M. pyrifera|PISCO|Bio","Coverage_only__After","Post_slope",2,11,TRUE
+"Naples SMCA|M. franciscanus|PISCO|Den","Coverage_only__After","Change",2,11,FALSE
+"Naples SMCA|M. franciscanus|PISCO|Den","Coverage_only__After","Post_slope",2,11,TRUE
+"Naples SMCA|P. interruptus|PISCO|Den","Coverage_only__After","Change",2,11,FALSE
+"Naples SMCA|P. interruptus|PISCO|Den","Coverage_only__After","Post_slope",2,11,TRUE
+"Naples SMCA|S. purpuratus|PISCO|Den","Coverage_only__After","Change",2,11,FALSE
+"Naples SMCA|S. purpuratus|PISCO|Den","Coverage_only__After","Post_slope",2,11,TRUE
+"Naples SMCA|M. franciscanus|PISCO|Bio","Coverage_only__After","Change",1,11,FALSE
+"Naples SMCA|M. franciscanus|PISCO|Bio","Coverage_only__After","Post_slope",1,11,TRUE
+"Naples SMCA|S. purpuratus|PISCO|Bio","Coverage_only__After","Change",1,11,FALSE
+"Naples SMCA|S. purpuratus|PISCO|Bio","Coverage_only__After","Post_slope",1,11,TRUE
+"Point Vicente SMCA|M. pyrifera|PISCO|Bio","Coverage_only__After","Change",4,10,FALSE
+"Point Vicente SMCA|M. pyrifera|PISCO|Bio","Coverage_only__After","Post_slope",4,10,TRUE
+"Point Vicente SMCA|M. franciscanus|PISCO|Den","Coverage_only__After","Change",4,10,FALSE
+"Point Vicente SMCA|M. franciscanus|PISCO|Den","Coverage_only__After","Post_slope",4,10,TRUE
+"Point Vicente SMCA|P. interruptus|PISCO|Den","Coverage_only__After","Change",4,10,FALSE
+"Point Vicente SMCA|P. interruptus|PISCO|Den","Coverage_only__After","Post_slope",4,10,TRUE
+"Point Vicente SMCA|S. purpuratus|PISCO|Den","Coverage_only__After","Change",4,10,FALSE
+"Point Vicente SMCA|S. purpuratus|PISCO|Den","Coverage_only__After","Post_slope",4,10,TRUE
+"Point Vicente SMCA|M. franciscanus|PISCO|Bio","Coverage_only__After","Change",3,10,FALSE
+"Point Vicente SMCA|M. franciscanus|PISCO|Bio","Coverage_only__After","Post_slope",3,10,TRUE
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Coverage_only__After","Change",3,11,TRUE
+"Point Vicente SMCA|S. pulcher|PISCO|Bio","Coverage_only__After","Post_slope",3,11,TRUE
+"Point Vicente SMCA|S. purpuratus|PISCO|Bio","Coverage_only__After","Change",3,10,FALSE
+"Point Vicente SMCA|S. purpuratus|PISCO|Bio","Coverage_only__After","Post_slope",3,10,TRUE
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Coverage_only__After","Change",3,11,TRUE
+"Point Vicente SMCA|S. pulcher|PISCO|Den","Coverage_only__After","Post_slope",3,11,TRUE
+"Point Vicente SMCA|P. interruptus|PISCO|Bio","Coverage_only__After","Change",1,10,FALSE
+"Point Vicente SMCA|P. interruptus|PISCO|Bio","Coverage_only__After","Post_slope",1,10,TRUE
+"Scorpion SMR|M. pyrifera|PISCO|Bio","Coverage_only__After","Change",0,20,FALSE
+"Scorpion SMR|M. pyrifera|PISCO|Bio","Coverage_only__After","Post_slope",0,20,TRUE
+"Scorpion SMR|M. franciscanus|PISCO|Bio","Coverage_only__After","Change",0,18,FALSE
+"Scorpion SMR|M. franciscanus|PISCO|Bio","Coverage_only__After","Post_slope",0,18,TRUE
+"Scorpion SMR|S. pulcher|PISCO|Bio","Coverage_only__After","Change",0,20,FALSE
+"Scorpion SMR|S. pulcher|PISCO|Bio","Coverage_only__After","Post_slope",0,20,TRUE
+"Scorpion SMR|S. purpuratus|PISCO|Bio","Coverage_only__After","Change",0,18,FALSE
+"Scorpion SMR|S. purpuratus|PISCO|Bio","Coverage_only__After","Post_slope",0,18,TRUE
+"Scorpion SMR|M. franciscanus|PISCO|Den","Coverage_only__After","Change",0,20,FALSE
+"Scorpion SMR|M. franciscanus|PISCO|Den","Coverage_only__After","Post_slope",0,20,TRUE
+"Scorpion SMR|P. interruptus|PISCO|Den","Coverage_only__After","Change",0,20,FALSE
+"Scorpion SMR|P. interruptus|PISCO|Den","Coverage_only__After","Post_slope",0,20,TRUE
+"Scorpion SMR|S. pulcher|PISCO|Den","Coverage_only__After","Change",0,20,FALSE
+"Scorpion SMR|S. pulcher|PISCO|Den","Coverage_only__After","Post_slope",0,20,TRUE
+"Scorpion SMR|S. purpuratus|PISCO|Den","Coverage_only__After","Change",0,20,FALSE
+"Scorpion SMR|S. purpuratus|PISCO|Den","Coverage_only__After","Post_slope",0,20,TRUE
+"South Point SMR|S. pulcher|PISCO|Bio","Coverage_only__After","Change",0,19,FALSE
+"South Point SMR|S. pulcher|PISCO|Bio","Coverage_only__After","Post_slope",0,19,TRUE
+"South Point SMR|S. pulcher|PISCO|Den","Coverage_only__After","Change",0,20,FALSE
+"South Point SMR|S. pulcher|PISCO|Den","Coverage_only__After","Post_slope",0,20,TRUE
+"South Point SMR|M. pyrifera|PISCO|Bio","Coverage_only__After","Change",0,16,FALSE
+"South Point SMR|M. pyrifera|PISCO|Bio","Coverage_only__After","Post_slope",0,16,TRUE
+"South Point SMR|M. franciscanus|PISCO|Bio","Coverage_only__After","Change",0,14,FALSE
+"South Point SMR|M. franciscanus|PISCO|Bio","Coverage_only__After","Post_slope",0,14,TRUE
+"South Point SMR|S. purpuratus|PISCO|Bio","Coverage_only__After","Change",0,14,FALSE
+"South Point SMR|S. purpuratus|PISCO|Bio","Coverage_only__After","Post_slope",0,14,TRUE
+"South Point SMR|M. franciscanus|PISCO|Den","Coverage_only__After","Change",0,16,FALSE
+"South Point SMR|M. franciscanus|PISCO|Den","Coverage_only__After","Post_slope",0,16,TRUE
+"South Point SMR|P. interruptus|PISCO|Den","Coverage_only__After","Change",0,16,FALSE
+"South Point SMR|P. interruptus|PISCO|Den","Coverage_only__After","Post_slope",0,16,TRUE
+"South Point SMR|S. purpuratus|PISCO|Den","Coverage_only__After","Change",0,16,FALSE
+"South Point SMR|S. purpuratus|PISCO|Den","Coverage_only__After","Post_slope",0,16,TRUE
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Den","Coverage_only__After","Change",0,17,FALSE
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Den","Coverage_only__After","Post_slope",0,17,TRUE
+"Anacapa Island SMR 2003|P. interruptus|KFM|Den","Coverage_only__After","Change",0,17,FALSE
+"Anacapa Island SMR 2003|P. interruptus|KFM|Den","Coverage_only__After","Post_slope",0,17,TRUE
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Den","Coverage_only__After","Change",0,17,FALSE
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Den","Coverage_only__After","Post_slope",0,17,TRUE
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Bio","Coverage_only__After","Change",0,17,FALSE
+"Anacapa Island SMR 2003|M. franciscanus|KFM|Bio","Coverage_only__After","Post_slope",0,17,TRUE
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Bio","Coverage_only__After","Change",0,17,FALSE
+"Anacapa Island SMR 2003|S. purpuratus|KFM|Bio","Coverage_only__After","Post_slope",0,17,TRUE
+"Harris Point SMR|M. franciscanus|KFM|Den","Coverage_only__After","Change",21,18,TRUE
+"Harris Point SMR|M. franciscanus|KFM|Den","Coverage_only__After","Post_slope",21,18,TRUE
+"Harris Point SMR|M. franciscanus|KFM|Bio","Coverage_only__After","Change",17,18,TRUE
+"Harris Point SMR|M. franciscanus|KFM|Bio","Coverage_only__After","Post_slope",17,18,TRUE
+"Scorpion SMR|P. interruptus|KFM|Den","Coverage_only__After","Change",20,18,TRUE
+"Scorpion SMR|P. interruptus|KFM|Den","Coverage_only__After","Post_slope",20,18,TRUE
+"Scorpion SMR|M. franciscanus|KFM|Den","Coverage_only__After","Change",21,18,TRUE
+"Scorpion SMR|M. franciscanus|KFM|Den","Coverage_only__After","Post_slope",21,18,TRUE
+"Scorpion SMR|M. franciscanus|KFM|Bio","Coverage_only__After","Change",18,18,TRUE
+"Scorpion SMR|M. franciscanus|KFM|Bio","Coverage_only__After","Post_slope",18,18,TRUE
+"South Point SMR|S. purpuratus|KFM|Den","Coverage_only__After","Change",0,17,FALSE
+"South Point SMR|S. purpuratus|KFM|Den","Coverage_only__After","Post_slope",0,17,TRUE
+"South Point SMR|M. franciscanus|KFM|Den","Coverage_only__After","Change",0,17,FALSE
+"South Point SMR|M. franciscanus|KFM|Den","Coverage_only__After","Post_slope",0,17,TRUE
+"South Point SMR|P. interruptus|KFM|Den","Coverage_only__After","Change",0,17,FALSE
+"South Point SMR|P. interruptus|KFM|Den","Coverage_only__After","Post_slope",0,17,TRUE
+"South Point SMR|M. franciscanus|KFM|Bio","Coverage_only__After","Change",0,17,FALSE
+"South Point SMR|M. franciscanus|KFM|Bio","Coverage_only__After","Post_slope",0,17,TRUE
+"South Point SMR|S. purpuratus|KFM|Bio","Coverage_only__After","Change",0,17,FALSE
+"South Point SMR|S. purpuratus|KFM|Bio","Coverage_only__After","Post_slope",0,17,TRUE
+"Campus Point SMCA|P. interruptus|LTER|Bio","Coverage_only__After","Change",0,11,FALSE
+"Campus Point SMCA|P. interruptus|LTER|Bio","Coverage_only__After","Post_slope",0,11,TRUE
+"Campus Point SMCA|P. interruptus|LTER|Den","Coverage_only__After","Change",0,11,FALSE
+"Campus Point SMCA|P. interruptus|LTER|Den","Coverage_only__After","Post_slope",0,11,TRUE
+"Naples SMCA|P. interruptus|LTER|Bio","Coverage_only__After","Change",0,11,FALSE
+"Naples SMCA|P. interruptus|LTER|Bio","Coverage_only__After","Post_slope",0,11,TRUE
+"Naples SMCA|P. interruptus|LTER|Den","Coverage_only__After","Change",0,11,FALSE
+"Naples SMCA|P. interruptus|LTER|Den","Coverage_only__After","Post_slope",0,11,TRUE
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Coverage_only__After","Change",11,11,TRUE
+"Campus Point SMCA|M. pyrifera|LTER|Bio","Coverage_only__After","Post_slope",11,11,TRUE
+"Naples SMCA|M. pyrifera|LTER|Bio","Coverage_only__After","Change",11,11,TRUE
+"Naples SMCA|M. pyrifera|LTER|Bio","Coverage_only__After","Post_slope",11,11,TRUE
+"Campus Point SMCA|S. pulcher|LTER|Den","Coverage_only__After","Change",10,11,TRUE
+"Campus Point SMCA|S. pulcher|LTER|Den","Coverage_only__After","Post_slope",10,11,TRUE
+"Campus Point SMCA|S. pulcher|LTER|Bio","Coverage_only__After","Change",10,11,TRUE
+"Campus Point SMCA|S. pulcher|LTER|Bio","Coverage_only__After","Post_slope",10,11,TRUE
+"Naples SMCA|S. pulcher|LTER|Bio","Coverage_only__After","Change",11,11,TRUE
+"Naples SMCA|S. pulcher|LTER|Bio","Coverage_only__After","Post_slope",11,11,TRUE
+"Anacapa Island SMR 2003|S. pulcher|KFM|Den","Coverage_only__After","Change",0,17,FALSE
+"Anacapa Island SMR 2003|S. pulcher|KFM|Den","Coverage_only__After","Post_slope",0,17,TRUE
+"Harris Point SMR|S. pulcher|KFM|Den","Coverage_only__After","Change",18,18,TRUE
+"Harris Point SMR|S. pulcher|KFM|Den","Coverage_only__After","Post_slope",18,18,TRUE
+"Scorpion SMR|S. pulcher|KFM|Den","Coverage_only__After","Change",18,19,TRUE
+"Scorpion SMR|S. pulcher|KFM|Den","Coverage_only__After","Post_slope",18,19,TRUE
+"South Point SMR|S. pulcher|KFM|Den","Coverage_only__After","Change",0,17,FALSE
+"South Point SMR|S. pulcher|KFM|Den","Coverage_only__After","Post_slope",0,17,TRUE
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio","Coverage_only__After","Change",1,6,FALSE
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Bio","Coverage_only__After","Post_slope",1,6,TRUE
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den","Coverage_only__After","Change",1,6,FALSE
+"Blue Cavern Onshore SMCA|S. pulcher|PISCO|Den","Coverage_only__After","Post_slope",1,6,TRUE
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio","Coverage_only__After","Change",1,4,FALSE
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Bio","Coverage_only__After","Post_slope",1,4,TRUE
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Den","Coverage_only__After","Change",1,4,FALSE
+"Farnsworth Onshore SMCA|S. pulcher|PISCO|Den","Coverage_only__After","Post_slope",1,4,TRUE
+"Long Point SMR|S. pulcher|PISCO|Bio","Coverage_only__After","Change",1,6,FALSE
+"Long Point SMR|S. pulcher|PISCO|Bio","Coverage_only__After","Post_slope",1,6,TRUE
+"Long Point SMR|S. pulcher|PISCO|Den","Coverage_only__After","Change",1,6,FALSE
+"Long Point SMR|S. pulcher|PISCO|Den","Coverage_only__After","Post_slope",1,6,TRUE
+"Santa Barbara Island SMR|S. pulcher|PISCO|Bio","Coverage_only__After","Change",0,9,FALSE
+"Santa Barbara Island SMR|S. pulcher|PISCO|Bio","Coverage_only__After","Post_slope",0,9,TRUE
+"Santa Barbara Island SMR|S. pulcher|PISCO|Den","Coverage_only__After","Change",0,9,FALSE
+"Santa Barbara Island SMR|S. pulcher|PISCO|Den","Coverage_only__After","Post_slope",0,9,TRUE
+"Swamis SMCA|S. pulcher|PISCO|Bio","Coverage_only__After","Change",1,5,FALSE
+"Swamis SMCA|S. pulcher|PISCO|Bio","Coverage_only__After","Post_slope",1,5,TRUE
+"Swamis SMCA|S. pulcher|PISCO|Den","Coverage_only__After","Change",1,5,FALSE
+"Swamis SMCA|S. pulcher|PISCO|Den","Coverage_only__After","Post_slope",1,5,TRUE
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Coverage_only__After","Change",20,19,TRUE
+"Santa Barbara Island SMR|P. interruptus|KFM|Den","Coverage_only__After","Post_slope",20,19,TRUE
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Coverage_only__After","Change",21,19,TRUE
+"Santa Barbara Island SMR|S. purpuratus|KFM|Den","Coverage_only__After","Post_slope",21,19,TRUE
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Coverage_only__After","Change",26,9,TRUE
+"Abalone Cove SMCA|M. pyrifera|Landsat|Bio","Coverage_only__After","Post_slope",26,9,TRUE
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Coverage_only__After","Change",24,9,TRUE
+"Cabrillo SMR|M. pyrifera|Landsat|Bio","Coverage_only__After","Post_slope",24,9,TRUE
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Coverage_only__After","Change",27,9,TRUE
+"Campus Point SMCA|M. pyrifera|Landsat|Bio","Coverage_only__After","Post_slope",27,9,TRUE
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Coverage_only__After","Change",18,18,TRUE
+"Carrington Pt SMR|M. pyrifera|Landsat|Bio","Coverage_only__After","Post_slope",18,18,TRUE
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Coverage_only__After","Change",15,9,TRUE
+"Farnsworth Onshore SMCA|M. pyrifera|Landsat|Bio","Coverage_only__After","Post_slope",15,9,TRUE
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Coverage_only__After","Change",18,18,TRUE
+"Gull Island SMR|M. pyrifera|Landsat|Bio","Coverage_only__After","Post_slope",18,18,TRUE
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Coverage_only__After","Change",17,18,TRUE
+"Harris Point SMR|M. pyrifera|Landsat|Bio","Coverage_only__After","Post_slope",17,18,TRUE
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Coverage_only__After","Change",18,18,TRUE
+"Judith Rk SMR|M. pyrifera|Landsat|Bio","Coverage_only__After","Post_slope",18,18,TRUE
+"Naples SMCA|M. pyrifera|Landsat|Bio","Coverage_only__After","Change",27,9,TRUE
+"Naples SMCA|M. pyrifera|Landsat|Bio","Coverage_only__After","Post_slope",27,9,TRUE
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Coverage_only__After","Change",27,9,TRUE
+"Point Dume SMCA|M. pyrifera|Landsat|Bio","Coverage_only__After","Post_slope",27,9,TRUE
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Coverage_only__After","Change",27,9,TRUE
+"Point Dume SMR|M. pyrifera|Landsat|Bio","Coverage_only__After","Post_slope",27,9,TRUE
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Coverage_only__After","Change",25,9,TRUE
+"Point Vicente SMCA|M. pyrifera|Landsat|Bio","Coverage_only__After","Post_slope",25,9,TRUE
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Coverage_only__After","Change",18,18,TRUE
+"Santa Barbara Island SMR|M. pyrifera|Landsat|Bio","Coverage_only__After","Post_slope",18,18,TRUE
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Coverage_only__After","Change",17,18,TRUE
+"Skunk Pt SMR|M. pyrifera|Landsat|Bio","Coverage_only__After","Post_slope",17,18,TRUE
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Coverage_only__After","Change",25,9,TRUE
+"South La Jolla SMR|M. pyrifera|Landsat|Bio","Coverage_only__After","Post_slope",25,9,TRUE
+"South Point SMR|M. pyrifera|Landsat|Bio","Coverage_only__After","Change",18,18,TRUE
+"South Point SMR|M. pyrifera|Landsat|Bio","Coverage_only__After","Post_slope",18,18,TRUE
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Coverage_only__After","Change",27,9,TRUE
+"Swamis SMCA|M. pyrifera|Landsat|Bio","Coverage_only__After","Post_slope",27,9,TRUE
+"Campus Point SMCA|M. franciscanus|LTER|Den","Coverage_only__After","Change",11,11,TRUE
+"Campus Point SMCA|M. franciscanus|LTER|Den","Coverage_only__After","Post_slope",11,11,TRUE
+"Campus Point SMCA|S. purpuratus|LTER|Den","Coverage_only__After","Change",11,11,TRUE
+"Campus Point SMCA|S. purpuratus|LTER|Den","Coverage_only__After","Post_slope",11,11,TRUE
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Coverage_only__After","Change",5,11,TRUE
+"Campus Point SMCA|S. purpuratus|LTER|Bio","Coverage_only__After","Post_slope",5,11,TRUE
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Coverage_only__After","Change",3,11,TRUE
+"Campus Point SMCA|M. franciscanus|LTER|Bio","Coverage_only__After","Post_slope",3,11,TRUE
+"Naples SMCA|S. purpuratus|LTER|Den","Coverage_only__After","Change",11,11,TRUE
+"Naples SMCA|S. purpuratus|LTER|Den","Coverage_only__After","Post_slope",11,11,TRUE
+"Naples SMCA|S. purpuratus|LTER|Bio","Coverage_only__After","Change",9,11,TRUE
+"Naples SMCA|S. purpuratus|LTER|Bio","Coverage_only__After","Post_slope",9,11,TRUE
+"Matlahuayl SMR|S. purpuratus|PISCO|Bio","Coverage_only__After","Change",1,4,FALSE
+"Matlahuayl SMR|S. purpuratus|PISCO|Bio","Coverage_only__After","Post_slope",1,4,TRUE
+"Matlahuayl SMR|M. franciscanus|PISCO|Bio","Coverage_only__After","Change",0,4,FALSE
+"Matlahuayl SMR|M. franciscanus|PISCO|Bio","Coverage_only__After","Post_slope",0,4,TRUE
+"Harris Point SMR|P. interruptus|KFM|Den","Coverage_only__After","Change",20,18,TRUE
+"Harris Point SMR|P. interruptus|KFM|Den","Coverage_only__After","Post_slope",20,18,TRUE
+"Harris Point SMR|S. purpuratus|KFM|Den","Coverage_only__After","Change",21,18,TRUE
+"Harris Point SMR|S. purpuratus|KFM|Den","Coverage_only__After","Post_slope",21,18,TRUE
+"Harris Point SMR|S. purpuratus|KFM|Bio","Coverage_only__After","Change",17,18,TRUE
+"Harris Point SMR|S. purpuratus|KFM|Bio","Coverage_only__After","Post_slope",17,18,TRUE
+"Scorpion SMR|S. purpuratus|KFM|Den","Coverage_only__After","Change",21,18,TRUE
+"Scorpion SMR|S. purpuratus|KFM|Den","Coverage_only__After","Post_slope",21,18,TRUE
+"Scorpion SMR|S. purpuratus|KFM|Bio","Coverage_only__After","Change",18,18,TRUE
+"Scorpion SMR|S. purpuratus|KFM|Bio","Coverage_only__After","Post_slope",18,18,TRUE
+"Naples SMCA|S. pulcher|LTER|Den","Coverage_only__After","Change",11,11,TRUE
+"Naples SMCA|S. pulcher|LTER|Den","Coverage_only__After","Post_slope",11,11,TRUE
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Coverage_only__After","Change",21,19,TRUE
+"Santa Barbara Island SMR|M. franciscanus|KFM|Den","Coverage_only__After","Post_slope",21,19,TRUE
+"Santa Barbara Island SMR|M. franciscanus|KFM|Bio","Coverage_only__After","Change",0,17,FALSE
+"Santa Barbara Island SMR|M. franciscanus|KFM|Bio","Coverage_only__After","Post_slope",0,17,TRUE
+"Santa Barbara Island SMR|S. purpuratus|KFM|Bio","Coverage_only__After","Change",0,17,FALSE
+"Santa Barbara Island SMR|S. purpuratus|KFM|Bio","Coverage_only__After","Post_slope",0,17,TRUE
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Coverage_only__After","Change",18,19,TRUE
+"Santa Barbara Island SMR|S. pulcher|KFM|Den","Coverage_only__After","Post_slope",18,19,TRUE
+"Anacapa Island SMR 2003|M. pyrifera|KFM|Bio","Coverage_only__After","Change",0,17,FALSE
+"Anacapa Island SMR 2003|M. pyrifera|KFM|Bio","Coverage_only__After","Post_slope",0,17,TRUE
+"Harris Point SMR|M. pyrifera|KFM|Bio","Coverage_only__After","Change",6,18,TRUE
+"Harris Point SMR|M. pyrifera|KFM|Bio","Coverage_only__After","Post_slope",6,18,TRUE
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Coverage_only__After","Change",3,19,TRUE
+"Santa Barbara Island SMR|M. pyrifera|KFM|Bio","Coverage_only__After","Post_slope",3,19,TRUE
+"Scorpion SMR|M. pyrifera|KFM|Bio","Coverage_only__After","Change",6,17,TRUE
+"Scorpion SMR|M. pyrifera|KFM|Bio","Coverage_only__After","Post_slope",6,17,TRUE
+"South Point SMR|M. pyrifera|KFM|Bio","Coverage_only__After","Change",0,17,FALSE
+"South Point SMR|M. pyrifera|KFM|Bio","Coverage_only__After","Post_slope",0,17,TRUE
+"Point Dume SMCA|M. franciscanus|PISCO|Bio","Coverage_only__After","Change",1,0,FALSE
+"Point Dume SMCA|M. franciscanus|PISCO|Bio","Coverage_only__After","Post_slope",1,0,FALSE
+"Point Dume SMCA|M. franciscanus|PISCO|Den","Coverage_only__After","Change",3,3,FALSE
+"Point Dume SMCA|M. franciscanus|PISCO|Den","Coverage_only__After","Post_slope",3,3,TRUE
+"Point Dume SMCA|M. pyrifera|PISCO|Bio","Coverage_only__After","Change",3,3,FALSE
+"Point Dume SMCA|M. pyrifera|PISCO|Bio","Coverage_only__After","Post_slope",3,3,TRUE
+"Point Dume SMCA|P. interruptus|PISCO|Den","Coverage_only__After","Change",3,3,FALSE
+"Point Dume SMCA|P. interruptus|PISCO|Den","Coverage_only__After","Post_slope",3,3,TRUE
+"Point Dume SMCA|S. pulcher|PISCO|Bio","Coverage_only__After","Change",1,5,FALSE
+"Point Dume SMCA|S. pulcher|PISCO|Bio","Coverage_only__After","Post_slope",1,5,TRUE
+"Point Dume SMCA|S. pulcher|PISCO|Den","Coverage_only__After","Change",1,5,FALSE
+"Point Dume SMCA|S. pulcher|PISCO|Den","Coverage_only__After","Post_slope",1,5,TRUE
+"Point Dume SMCA|S. purpuratus|PISCO|Bio","Coverage_only__After","Change",1,0,FALSE
+"Point Dume SMCA|S. purpuratus|PISCO|Bio","Coverage_only__After","Post_slope",1,0,FALSE
+"Point Dume SMCA|S. purpuratus|PISCO|Den","Coverage_only__After","Change",3,3,FALSE
+"Point Dume SMCA|S. purpuratus|PISCO|Den","Coverage_only__After","Post_slope",3,3,TRUE
+"Point Dume SMR|M. franciscanus|PISCO|Den","Coverage_only__After","Change",0,1,FALSE
+"Point Dume SMR|M. franciscanus|PISCO|Den","Coverage_only__After","Post_slope",0,1,FALSE
+"Point Dume SMR|M. pyrifera|PISCO|Bio","Coverage_only__After","Change",0,1,FALSE
+"Point Dume SMR|M. pyrifera|PISCO|Bio","Coverage_only__After","Post_slope",0,1,FALSE
+"Point Dume SMR|P. interruptus|PISCO|Den","Coverage_only__After","Change",0,1,FALSE
+"Point Dume SMR|P. interruptus|PISCO|Den","Coverage_only__After","Post_slope",0,1,FALSE
+"Point Dume SMR|S. pulcher|PISCO|Bio","Coverage_only__After","Change",1,5,FALSE
+"Point Dume SMR|S. pulcher|PISCO|Bio","Coverage_only__After","Post_slope",1,5,TRUE
+"Point Dume SMR|S. pulcher|PISCO|Den","Coverage_only__After","Change",1,5,FALSE
+"Point Dume SMR|S. pulcher|PISCO|Den","Coverage_only__After","Post_slope",1,5,TRUE
+"Point Dume SMR|S. purpuratus|PISCO|Den","Coverage_only__After","Change",0,1,FALSE
+"Point Dume SMR|S. purpuratus|PISCO|Den","Coverage_only__After","Post_slope",0,1,FALSE

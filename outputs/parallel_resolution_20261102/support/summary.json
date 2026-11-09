@@ -1,0 +1,23 @@
+{
+  "unsupported_uses": 38,
+  "distinct_site_dates": 24,
+  "distinct_site_zone_dates": 29,
+  "distinct_species_site_dates": 34,
+  "post_uses": 26,
+  "post_blocked_comparison_years": 19,
+  "all_blocked_comparison_years": 26,
+  "same_visit_recoverable": 0,
+  "local_other_date_available": 5,
+  "raw_inventory_rows_reproduced": 682,
+  "root_reasons": {
+    "no eligible local or same-role donor data": 20,
+    "calibration guard": 17,
+    "date-gap guard": 1
+  },
+  "post_root_reasons": {
+    "no eligible local or same-role donor data": 19,
+    "calibration guard": 6,
+    "date-gap guard": 1
+  },
+  "alternate_site_key_rows": 0
+}

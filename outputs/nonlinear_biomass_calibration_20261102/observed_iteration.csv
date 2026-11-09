@@ -1,0 +1,13 @@
+series_id,rho,original,iterated,change,converged,iterations,interval_claim
+Abalone Cove SMCA|M. franciscanus|PISCO|Bio,0.0,-0.16517156909986064,-0.16458639650298212,0.0005851725968785138,True,10,No new interval; iterated expansion diagnostic only
+Abalone Cove SMCA|M. franciscanus|PISCO|Bio,0.6,-0.14567154422835266,-0.1450288202690511,0.0006427239593015666,True,10,No new interval; iterated expansion diagnostic only
+Abalone Cove SMCA|P. interruptus|PISCO|Bio,0.0,0.20840196388241605,0.2074453455680616,-0.0009566183143544515,True,10,No new interval; iterated expansion diagnostic only
+Abalone Cove SMCA|P. interruptus|PISCO|Bio,0.6,0.13615212598165916,0.13474769312018003,-0.0014044328614791213,True,10,No new interval; iterated expansion diagnostic only
+Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.0,-0.08130126690578299,-0.08202821915806287,-0.0007269522522798805,True,10,No new interval; iterated expansion diagnostic only
+Abalone Cove SMCA|S. purpuratus|PISCO|Bio,0.6,-0.03269415242220314,-0.0328586721681956,-0.0001645197459924641,True,10,No new interval; iterated expansion diagnostic only
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,0.0,0.0016861102077747447,0.010292652411874548,0.008606542204099803,True,11,No new interval; iterated expansion diagnostic only
+Point Vicente SMCA|M. franciscanus|PISCO|Bio,0.6,0.0019040315456542879,0.010705612024510314,0.008801580478856026,True,11,No new interval; iterated expansion diagnostic only
+Point Vicente SMCA|P. interruptus|PISCO|Bio,0.0,-0.06783534982244589,-0.0654799299789848,0.00235541984346109,True,10,No new interval; iterated expansion diagnostic only
+Point Vicente SMCA|P. interruptus|PISCO|Bio,0.6,-0.020468258897975558,-0.01853265840987095,0.001935600488104608,True,10,No new interval; iterated expansion diagnostic only
+Point Vicente SMCA|S. purpuratus|PISCO|Bio,0.0,-0.11434091293725648,-0.11293780488484183,0.001403108052414656,True,10,No new interval; iterated expansion diagnostic only
+Point Vicente SMCA|S. purpuratus|PISCO|Bio,0.6,-0.058094585850203904,-0.05580528578696266,0.0022893000632412466,True,10,No new interval; iterated expansion diagnostic only

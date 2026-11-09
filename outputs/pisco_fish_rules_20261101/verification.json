@@ -1,0 +1,14 @@
+{
+  "individual_effects_independently_checked": 1344,
+  "max_estimate_error": 1.021405182655144e-14,
+  "max_se_error": 3.8968828164342995e-14,
+  "previous_full_followup_effects_reproduced": 224,
+  "approved_histories": 175,
+  "approved_annual_rows": 3225,
+  "protected_files_unchanged": 487,
+  "preceding_audits_unchanged": true,
+  "nonfish_effects_unchanged": true,
+  "pooled_fits": 168,
+  "optimizer_fallbacks": 2,
+  "limits": "Pooled REML not independently reimplemented; pathways/resilience not refitted; paper not updated."
+}

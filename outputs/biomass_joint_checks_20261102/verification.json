@@ -1,0 +1,14 @@
+{
+  "draws": 1000,
+  "seed": 20261102,
+  "admitted_histories": 34,
+  "held_histories": 8,
+  "blocked_alias_histories": 6,
+  "raw_kelp_rows": 65215,
+  "exact_duplicate_kelp_rows": 18413,
+  "unique_plant_keys": 46802,
+  "count_checks": 4236,
+  "count_check_failures": 0,
+  "shared_size_rows": 55977,
+  "protected_files_unchanged": 487
+}

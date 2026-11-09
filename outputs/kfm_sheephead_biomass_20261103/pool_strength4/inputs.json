@@ -1,0 +1,18 @@
+[
+  {
+    "path": "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/outputs/fish_lter_reconciliation_20261102/fish_count_size_matches.csv",
+    "sha256": "106d1f8036a0ad4d84ec5083c89cd7bdefb749440b1f0852ae8bd3cd8b276936"
+  },
+  {
+    "path": "/Users/adrianstier/sbc-donham-kelp-mpa-data/data/source_archive/fish_lter_reconciliation_20261102/chis_kelp_forest_fish_size.csv",
+    "sha256": "f70459bdbeedb157e2332fa798f3123ac06b24bc4e9b71f32b3c8b2d2be9d796"
+  },
+  {
+    "path": "/Users/adrianstier/sbc-donham-kelp-mpa-cascade/data/MBON/SBCMBON_kelp_forest_integrated_fish_20231022.csv",
+    "sha256": "2624834748b8cfbeb44aeeb3b4ff9faca3b7b91d5da0f9369f511d3c0898eb91"
+  },
+  {
+    "path": "/Users/adrianstier/sbc-donham-kelp-mpa-data/config/kfm_physical_sites.csv",
+    "sha256": "fce9e9c887fe155e5152095191582716e957551e45bf6552029bad41f8d0acc5"
+  }
+]

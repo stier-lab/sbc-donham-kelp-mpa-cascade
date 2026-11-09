@@ -1,0 +1,6 @@
+data_source,sample_method,date,site_id,subsite_id,transect_id,replicate_id,proj_taxon_id,area,count,auth_taxon_id,auth_name,taxon_name,site_name,subsite_name,latitude,longitude,count_num,area_num,invalid_area
+lter,swath,2000-09-22,a-l-09,b-l-09,c-l-00042,6,t-l-151,40,.,232231,WORMS,Macrocystis pyrifera,NAPL,,34.42210741,-119.9517074,,40,False
+lter,swath,2004-08-30,a-l-10,b-l-10,c-l-00047,1,t-l-151,20,.,232231,WORMS,Macrocystis pyrifera,SCDI,,34.0588,-119.7575,,20,False
+lter,swath,2004-08-30,a-l-10,b-l-10,c-l-00047,2,t-l-151,20,.,232231,WORMS,Macrocystis pyrifera,SCDI,,34.0588,-119.7575,,20,False
+lter,swath,2004-08-30,a-l-10,b-l-10,c-l-00047,3,t-l-151,20,.,232231,WORMS,Macrocystis pyrifera,SCDI,,34.0588,-119.7575,,20,False
+lter,swath,2004-08-30,a-l-10,b-l-10,c-l-00047,4,t-l-151,20,.,232231,WORMS,Macrocystis pyrifera,SCDI,,34.0588,-119.7575,,20,False

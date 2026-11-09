@@ -1,0 +1,10 @@
+Taxa,strategy,tolerance_days,n_common_targets,median_absolute_fold_error
+M. franciscanus,other_role_other_site,366,8,1.356177129183484
+M. franciscanus,same_role_other_site,366,8,1.5722765087293393
+M. franciscanus,same_site_other_visit,366,8,1.6230068655373924
+P. interruptus,other_role_other_site,366,6,1.6461162450300886
+P. interruptus,same_role_other_site,366,6,2.101635748231204
+P. interruptus,same_site_other_visit,366,6,2.062383518367879
+S. purpuratus,other_role_other_site,366,8,1.7505021317477534
+S. purpuratus,same_role_other_site,366,8,1.2458874886084517
+S. purpuratus,same_site_other_visit,366,8,1.2295265570757559

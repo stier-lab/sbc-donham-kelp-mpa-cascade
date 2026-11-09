@@ -1,0 +1,122 @@
+<!doctype html><html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Integrated pipeline review</title><style>body{font:16px/1.5 system-ui;max-width:1100px;margin:32px auto;padding:16px}table{border-collapse:collapse;width:100%;font-size:14px}td,th{padding:8px;border-bottom:1px solid #ccc;text-align:left}img{max-width:100%}a{color:#146574}</style><h1>Integrated pipeline review</h1><p>November 3, 2026 · Review only. Paper and frozen results unchanged.</p><p>3,483 comparison-years; 2,939 supported responses; 162 fitted histories.</p><p><a href="README.md">Methods, limits and rebuild instructions</a></p><h2>Coverage</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Source</th>
+      <th>Resp</th>
+      <th>comparison_years</th>
+      <th>supported_years</th>
+      <th>histories</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KFM</td>
+      <td>Bio</td>
+      <td>423</td>
+      <td>246</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>KFM</td>
+      <td>Den</td>
+      <td>609</td>
+      <td>609</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>LTER</td>
+      <td>Bio</td>
+      <td>208</td>
+      <td>162</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>LTER</td>
+      <td>Den</td>
+      <td>162</td>
+      <td>159</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>Landsat</td>
+      <td>Bio</td>
+      <td>646</td>
+      <td>595</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>PISCO</td>
+      <td>Bio</td>
+      <td>713</td>
+      <td>446</td>
+      <td>52</td>
+    </tr>
+    <tr>
+      <td>PISCO</td>
+      <td>Den</td>
+      <td>722</td>
+      <td>722</td>
+      <td>53</td>
+    </tr>
+  </tbody>
+</table><h2>Post-protection trends</h2><img src="recovery.png" alt="Pooled post-protection trends"><p>Conditional joint estimates and 95% intervals. Positive values mean the protected/reference ratio increased through time; this is not a before–after effect of protection.</p><h2>Before–after changes</h2><img src="before_after.png" alt="Pooled average before-after changes"><p>Flat-baseline model evaluated only across observed post-protection years. The pre-trend sensitivity is separate. Neither panel establishes an unconfounded causal effect.</p><h2>Tables</h2><ul><li><a href="coverage_summary.csv">coverage summary</a></li><li><a href="station_assignments.csv">station assignments</a></li><li><a href="comparison_year_roster.csv">comparison year roster</a></li><li><a href="model_eligibility.csv">model eligibility</a></li><li><a href="visit_biomass_support.csv">visit biomass support</a></li><li><a href="size_pool_inventory.csv">size pool inventory</a></li><li><a href="donor_attempts.csv">donor attempts</a></li><li><a href="borrowing_variance.csv">borrowing variance</a></li><li><a href="joint_model_results.csv">joint model results</a></li><li><a href="joint_model_diagnostics.csv">joint model diagnostics</a></li><li><a href="pooled_results.csv">pooled results</a></li><li><a href="pooled_coverage_sensitivities.csv">pooled coverage sensitivities</a></li><li><a href="input_change_decomposition.csv">input change decomposition</a></li><li><a href="uncertainty_limits.csv">uncertainty limits</a></li><li><a href="validation_checks.csv">validation checks</a></li></ul><h2>What remains uncertain</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Component</th>
+      <th>Included</th>
+      <th>Limit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Observed sizes</td>
+      <td>Empirical size uncertainty is estimable within replicated samples. A singleton has no empirical within-sample variance.</td>
+      <td>Same-program/taxon sparse-size variance sensitivity; intervals remain conditional on that assumption.</td>
+    </tr>
+    <tr>
+      <td>LTER urchin group means</td>
+      <td>Original measurements give a mean diameter for a size class, not every individual diameter.</td>
+      <td>Within-group variation and the bias from applying a nonlinear equation to a mean cannot be recovered from these files.</td>
+    </tr>
+    <tr>
+      <td>Count sampling</td>
+      <td>Shared physical-unit resampling represents observed sampling variation. All-zero or unreplicated units cannot reveal their full sampling variance.</td>
+      <td>Residual process uncertainty remains; this is not a complete detection/count-observation likelihood.</td>
+    </tr>
+    <tr>
+      <td>Count–size association</td>
+      <td>Direct measurements stay with their count unit; separate size surveys have no individual links to counted animals.</td>
+      <td>Their unobserved count–size covariance cannot be estimated; do not describe the intervals as total uncertainty.</td>
+    </tr>
+    <tr>
+      <td>Borrowing</td>
+      <td>Reviewed PISCO target and calibration scope is enforced; size-sampling scatter is removed from residual prediction scatter before adding donor draws.</td>
+      <td>Prediction variance is conditional on estimated calibration and a lognormal working approximation; sparse calibration remains weak evidence.</td>
+    </tr>
+    <tr>
+      <td>KFM matching</td>
+      <td>Same physical site and declared date rule; no borrowing across years or unrelated sites.</td>
+      <td>Unsupported biomass remains missing, with density retained. No new KFM lobster biomass is inferred.</td>
+    </tr>
+    <tr>
+      <td>Shared references</td>
+      <td>Joint process terms and shared measurement draws connect documented physical stations.</td>
+      <td>Verified shared satellite pixels inform an overlap-weighted process kernel. Their spatial covariance and cross-program overlap remain unestimated; geometry alone is not a complete sampling covariance.</td>
+    </tr>
+    <tr>
+      <td>Time</td>
+      <td>Joint models estimate AR1 dependence using actual calendar gaps; fixed-dependence sensitivities remain available.</td>
+      <td>Variance and AR-boundary fits require attention. Confidence limits condition on nuisance covariance estimates.</td>
+    </tr>
+    <tr>
+      <td>Conversion equations</td>
+      <td>Point coefficients and observed monthly kelp coefficients are used consistently.</td>
+      <td>Coefficient covariance, detection bias, habitat mismatch and causal counterfactual validity are not measured by these intervals.</td>
+    </tr>
+    <tr>
+      <td>Publication</td>
+      <td>This is a coordinated review build, not a manuscript release.</td>
+      <td>Pathway/resilience/figure outputs in the paper must be regenerated and checked against an approved cohort before publication; no paper files changed.</td>
+    </tr>
+  </tbody>
+</table></html>

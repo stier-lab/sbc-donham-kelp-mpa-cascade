@@ -1,0 +1,559 @@
+site,year,taxon,expected_name,matched_source,match_type,n_matches,n_animals,identity_status
+a-k-01,2012,Strongylocentrotus franciscanus,Wyckoff Ledge,Miracle Mile + Wyckoff Ledge,combined,1,480,known source identity error
+a-k-01,2012,Strongylocentrotus purpuratus,Wyckoff Ledge,Miracle Mile + Wyckoff Ledge,combined,1,178,known source identity error
+a-k-01,2013,Strongylocentrotus franciscanus,Wyckoff Ledge,Miracle Mile + Wyckoff Ledge,combined,1,421,known source identity error
+a-k-01,2013,Strongylocentrotus purpuratus,Wyckoff Ledge,Miracle Mile + Wyckoff Ledge,combined,1,234,known source identity error
+a-k-01,2014,Strongylocentrotus franciscanus,Wyckoff Ledge,Miracle Mile + Wyckoff Ledge,combined,1,409,known source identity error
+a-k-01,2014,Strongylocentrotus purpuratus,Wyckoff Ledge,Miracle Mile + Wyckoff Ledge,combined,1,428,known source identity error
+a-k-01,2015,Strongylocentrotus franciscanus,Wyckoff Ledge,Miracle Mile + Wyckoff Ledge,combined,1,394,known source identity error
+a-k-01,2015,Strongylocentrotus purpuratus,Wyckoff Ledge,Miracle Mile + Wyckoff Ledge,combined,1,411,known source identity error
+a-k-01,2016,Strongylocentrotus franciscanus,Wyckoff Ledge,Miracle Mile + Wyckoff Ledge,combined,1,455,known source identity error
+a-k-01,2016,Strongylocentrotus purpuratus,Wyckoff Ledge,Miracle Mile + Wyckoff Ledge,combined,1,413,known source identity error
+a-k-01,2017,Strongylocentrotus franciscanus,Wyckoff Ledge,Miracle Mile + Wyckoff Ledge,combined,1,410,known source identity error
+a-k-01,2017,Strongylocentrotus purpuratus,Wyckoff Ledge,Miracle Mile + Wyckoff Ledge,combined,1,385,known source identity error
+a-k-01,2018,Strongylocentrotus franciscanus,Wyckoff Ledge,Miracle Mile + Wyckoff Ledge,combined,1,471,known source identity error
+a-k-01,2018,Strongylocentrotus purpuratus,Wyckoff Ledge,Miracle Mile + Wyckoff Ledge,combined,1,481,known source identity error
+a-k-01,2019,Strongylocentrotus franciscanus,Wyckoff Ledge,Miracle Mile + Wyckoff Ledge,combined,1,426,known source identity error
+a-k-01,2019,Strongylocentrotus purpuratus,Wyckoff Ledge,Miracle Mile + Wyckoff Ledge,combined,1,430,known source identity error
+a-k-01,2021,Strongylocentrotus franciscanus,Wyckoff Ledge,Miracle Mile + Wyckoff Ledge,combined,1,448,known source identity error
+a-k-01,2021,Strongylocentrotus purpuratus,Wyckoff Ledge,Miracle Mile + Wyckoff Ledge,combined,1,541,known source identity error
+a-k-01,2022,Strongylocentrotus franciscanus,Wyckoff Ledge,Miracle Mile + Wyckoff Ledge,combined,1,420,known source identity error
+a-k-01,2022,Strongylocentrotus purpuratus,Wyckoff Ledge,Miracle Mile + Wyckoff Ledge,combined,1,504,known source identity error
+a-k-02,2012,Strongylocentrotus franciscanus,Hare Rock,Hare Rock,single,1,201,verified matching physical site
+a-k-02,2012,Strongylocentrotus purpuratus,Hare Rock,Hare Rock,single,1,176,verified matching physical site
+a-k-02,2013,Strongylocentrotus franciscanus,Hare Rock,Hare Rock,single,1,219,verified matching physical site
+a-k-02,2013,Strongylocentrotus purpuratus,Hare Rock,Hare Rock,single,1,226,verified matching physical site
+a-k-02,2014,Strongylocentrotus franciscanus,Hare Rock,Hare Rock,single,1,220,verified matching physical site
+a-k-02,2014,Strongylocentrotus purpuratus,Hare Rock,Hare Rock,single,1,265,verified matching physical site
+a-k-02,2015,Strongylocentrotus franciscanus,Hare Rock,Hare Rock,single,1,214,verified matching physical site
+a-k-02,2015,Strongylocentrotus purpuratus,Hare Rock,Hare Rock,single,1,237,verified matching physical site
+a-k-02,2016,Strongylocentrotus franciscanus,Hare Rock,Hare Rock,single,1,225,verified matching physical site
+a-k-02,2016,Strongylocentrotus purpuratus,Hare Rock,Hare Rock,single,1,250,verified matching physical site
+a-k-02,2017,Strongylocentrotus franciscanus,Hare Rock,Hare Rock,single,1,243,verified matching physical site
+a-k-02,2017,Strongylocentrotus purpuratus,Hare Rock,Hare Rock,single,1,271,verified matching physical site
+a-k-02,2018,Strongylocentrotus franciscanus,Hare Rock,Hare Rock,single,1,231,verified matching physical site
+a-k-02,2018,Strongylocentrotus purpuratus,Hare Rock,Hare Rock,single,1,287,verified matching physical site
+a-k-02,2019,Strongylocentrotus franciscanus,Hare Rock,Hare Rock,single,1,227,verified matching physical site
+a-k-02,2019,Strongylocentrotus purpuratus,Hare Rock,Hare Rock,single,1,269,verified matching physical site
+a-k-02,2021,Strongylocentrotus franciscanus,Hare Rock,Hare Rock,single,1,206,verified matching physical site
+a-k-02,2021,Strongylocentrotus purpuratus,Hare Rock,Hare Rock,single,1,213,verified matching physical site
+a-k-02,2022,Strongylocentrotus franciscanus,Hare Rock,Hare Rock,single,1,203,verified matching physical site
+a-k-02,2022,Strongylocentrotus purpuratus,Hare Rock,Hare Rock,single,1,211,verified matching physical site
+a-k-03,2012,Strongylocentrotus franciscanus,Johnson's Lee North,Johnson's Lee North,single,1,239,verified matching physical site
+a-k-03,2012,Strongylocentrotus purpuratus,Johnson's Lee North,Johnson's Lee North,single,1,212,verified matching physical site
+a-k-03,2013,Strongylocentrotus franciscanus,Johnson's Lee North,Johnson's Lee North,single,1,209,verified matching physical site
+a-k-03,2013,Strongylocentrotus purpuratus,Johnson's Lee North,Johnson's Lee North,single,1,213,verified matching physical site
+a-k-03,2014,Strongylocentrotus franciscanus,Johnson's Lee North,Johnson's Lee North,single,1,203,verified matching physical site
+a-k-03,2014,Strongylocentrotus purpuratus,Johnson's Lee North,Johnson's Lee North,single,1,217,verified matching physical site
+a-k-03,2015,Strongylocentrotus franciscanus,Johnson's Lee North,Johnson's Lee North,single,1,231,verified matching physical site
+a-k-03,2015,Strongylocentrotus purpuratus,Johnson's Lee North,Johnson's Lee North,single,1,345,verified matching physical site
+a-k-03,2016,Strongylocentrotus franciscanus,Johnson's Lee North,Johnson's Lee North,single,1,220,verified matching physical site
+a-k-03,2016,Strongylocentrotus purpuratus,Johnson's Lee North,Johnson's Lee North,single,1,320,verified matching physical site
+a-k-03,2017,Strongylocentrotus franciscanus,Johnson's Lee North,Johnson's Lee North,single,1,202,verified matching physical site
+a-k-03,2017,Strongylocentrotus purpuratus,Johnson's Lee North,Johnson's Lee North,single,1,258,verified matching physical site
+a-k-03,2018,Strongylocentrotus franciscanus,Johnson's Lee North,Johnson's Lee North,single,1,175,verified matching physical site
+a-k-03,2018,Strongylocentrotus purpuratus,Johnson's Lee North,Johnson's Lee North,single,1,335,verified matching physical site
+a-k-03,2019,Strongylocentrotus franciscanus,Johnson's Lee North,Johnson's Lee North,single,1,213,verified matching physical site
+a-k-03,2019,Strongylocentrotus purpuratus,Johnson's Lee North,Johnson's Lee North,single,1,242,verified matching physical site
+a-k-03,2021,Strongylocentrotus franciscanus,Johnson's Lee North,Johnson's Lee North,single,1,222,verified matching physical site
+a-k-03,2021,Strongylocentrotus purpuratus,Johnson's Lee North,Johnson's Lee North,single,1,295,verified matching physical site
+a-k-03,2022,Strongylocentrotus franciscanus,Johnson's Lee North,Johnson's Lee North,single,1,216,verified matching physical site
+a-k-03,2022,Strongylocentrotus purpuratus,Johnson's Lee North,Johnson's Lee North,single,1,256,verified matching physical site
+a-k-04,2012,Strongylocentrotus franciscanus,Johnson's Lee South,Johnson's Lee South,single,1,212,verified matching physical site
+a-k-04,2012,Strongylocentrotus purpuratus,Johnson's Lee South,Johnson's Lee South,single,1,205,verified matching physical site
+a-k-04,2013,Strongylocentrotus franciscanus,Johnson's Lee South,Johnson's Lee South,single,1,265,verified matching physical site
+a-k-04,2013,Strongylocentrotus purpuratus,Johnson's Lee South,Johnson's Lee South,single,1,211,verified matching physical site
+a-k-04,2014,Strongylocentrotus franciscanus,Johnson's Lee South,Johnson's Lee South,single,1,202,verified matching physical site
+a-k-04,2014,Strongylocentrotus purpuratus,Johnson's Lee South,Johnson's Lee South,single,1,189,verified matching physical site
+a-k-04,2015,Strongylocentrotus franciscanus,Johnson's Lee South,Johnson's Lee South,single,1,250,verified matching physical site
+a-k-04,2015,Strongylocentrotus purpuratus,Johnson's Lee South,Johnson's Lee South,single,1,250,verified matching physical site
+a-k-04,2016,Strongylocentrotus franciscanus,Johnson's Lee South,Johnson's Lee South,single,1,201,verified matching physical site
+a-k-04,2016,Strongylocentrotus purpuratus,Johnson's Lee South,Johnson's Lee South,single,1,203,verified matching physical site
+a-k-04,2017,Strongylocentrotus franciscanus,Johnson's Lee South,Johnson's Lee South,single,1,221,verified matching physical site
+a-k-04,2017,Strongylocentrotus purpuratus,Johnson's Lee South,Johnson's Lee South,single,1,255,verified matching physical site
+a-k-04,2018,Strongylocentrotus franciscanus,Johnson's Lee South,Johnson's Lee South,single,1,224,verified matching physical site
+a-k-04,2018,Strongylocentrotus purpuratus,Johnson's Lee South,Johnson's Lee South,single,1,230,verified matching physical site
+a-k-04,2019,Strongylocentrotus franciscanus,Johnson's Lee South,Johnson's Lee South,single,1,260,verified matching physical site
+a-k-04,2019,Strongylocentrotus purpuratus,Johnson's Lee South,Johnson's Lee South,single,1,355,verified matching physical site
+a-k-04,2021,Strongylocentrotus franciscanus,Johnson's Lee South,Johnson's Lee South,single,1,232,verified matching physical site
+a-k-04,2021,Strongylocentrotus purpuratus,Johnson's Lee South,Johnson's Lee South,single,1,264,verified matching physical site
+a-k-04,2022,Strongylocentrotus franciscanus,Johnson's Lee South,Johnson's Lee South,single,1,215,verified matching physical site
+a-k-04,2022,Strongylocentrotus purpuratus,Johnson's Lee South,Johnson's Lee South,single,1,304,verified matching physical site
+a-k-06,2012,Strongylocentrotus franciscanus,Gull Island,Gull Island South,single,1,239,verified matching physical site
+a-k-06,2012,Strongylocentrotus purpuratus,Gull Island,Gull Island South,single,1,245,verified matching physical site
+a-k-06,2013,Strongylocentrotus franciscanus,Gull Island,Gull Island South,single,1,234,verified matching physical site
+a-k-06,2013,Strongylocentrotus purpuratus,Gull Island,Gull Island South,single,1,237,verified matching physical site
+a-k-06,2014,Strongylocentrotus franciscanus,Gull Island,Gull Island South,single,1,228,verified matching physical site
+a-k-06,2014,Strongylocentrotus purpuratus,Gull Island,Gull Island South,single,1,241,verified matching physical site
+a-k-06,2015,Strongylocentrotus franciscanus,Gull Island,Gull Island South,single,1,205,verified matching physical site
+a-k-06,2015,Strongylocentrotus purpuratus,Gull Island,Gull Island South,single,1,216,verified matching physical site
+a-k-06,2016,Strongylocentrotus franciscanus,Gull Island,Gull Island South,single,1,248,verified matching physical site
+a-k-06,2016,Strongylocentrotus purpuratus,Gull Island,Gull Island South,single,1,238,verified matching physical site
+a-k-06,2017,Strongylocentrotus franciscanus,Gull Island,Gull Island South,single,1,210,verified matching physical site
+a-k-06,2017,Strongylocentrotus purpuratus,Gull Island,Gull Island South,single,1,230,verified matching physical site
+a-k-06,2018,Strongylocentrotus franciscanus,Gull Island,Gull Island South,single,1,228,verified matching physical site
+a-k-06,2018,Strongylocentrotus purpuratus,Gull Island,Gull Island South,single,1,216,verified matching physical site
+a-k-06,2019,Strongylocentrotus franciscanus,Gull Island,Gull Island South,single,1,268,verified matching physical site
+a-k-06,2019,Strongylocentrotus purpuratus,Gull Island,Gull Island South,single,1,270,verified matching physical site
+a-k-06,2021,Strongylocentrotus franciscanus,Gull Island,Gull Island South,single,1,230,verified matching physical site
+a-k-06,2021,Strongylocentrotus purpuratus,Gull Island,Gull Island South,single,1,210,verified matching physical site
+a-k-06,2022,Strongylocentrotus franciscanus,Gull Island,Gull Island South,single,1,207,verified matching physical site
+a-k-06,2022,Strongylocentrotus purpuratus,Gull Island,Gull Island South,single,1,196,verified matching physical site
+a-k-08,2012,Strongylocentrotus franciscanus,Pelican Bay,Pelican Bay,single,1,206,verified matching physical site
+a-k-08,2012,Strongylocentrotus purpuratus,Pelican Bay,Pelican Bay,single,1,203,verified matching physical site
+a-k-08,2013,Strongylocentrotus franciscanus,Pelican Bay,Pelican Bay,single,1,209,verified matching physical site
+a-k-08,2013,Strongylocentrotus purpuratus,Pelican Bay,Pelican Bay,single,1,233,verified matching physical site
+a-k-08,2014,Strongylocentrotus franciscanus,Pelican Bay,Pelican Bay,single,1,202,verified matching physical site
+a-k-08,2014,Strongylocentrotus purpuratus,Pelican Bay,Pelican Bay,single,1,206,verified matching physical site
+a-k-08,2015,Strongylocentrotus franciscanus,Pelican Bay,Pelican Bay,single,1,211,verified matching physical site
+a-k-08,2015,Strongylocentrotus purpuratus,Pelican Bay,Pelican Bay,single,1,207,verified matching physical site
+a-k-08,2016,Strongylocentrotus franciscanus,Pelican Bay,Pelican Bay,single,1,203,verified matching physical site
+a-k-08,2016,Strongylocentrotus purpuratus,Pelican Bay,Pelican Bay,single,1,279,verified matching physical site
+a-k-08,2017,Strongylocentrotus franciscanus,Pelican Bay,Pelican Bay,single,1,213,verified matching physical site
+a-k-08,2017,Strongylocentrotus purpuratus,Pelican Bay,Pelican Bay,single,1,214,verified matching physical site
+a-k-08,2018,Strongylocentrotus franciscanus,Pelican Bay,Pelican Bay,single,1,217,verified matching physical site
+a-k-08,2018,Strongylocentrotus purpuratus,Pelican Bay,Pelican Bay,single,1,213,verified matching physical site
+a-k-08,2019,Strongylocentrotus franciscanus,Pelican Bay,Pelican Bay,single,1,226,verified matching physical site
+a-k-08,2019,Strongylocentrotus purpuratus,Pelican Bay,Pelican Bay,single,1,204,verified matching physical site
+a-k-08,2021,Strongylocentrotus franciscanus,Pelican Bay,Pelican Bay,single,1,228,verified matching physical site
+a-k-08,2021,Strongylocentrotus purpuratus,Pelican Bay,Pelican Bay,single,1,219,verified matching physical site
+a-k-08,2022,Strongylocentrotus franciscanus,Pelican Bay,Pelican Bay,single,1,214,verified matching physical site
+a-k-08,2022,Strongylocentrotus purpuratus,Pelican Bay,Pelican Bay,single,1,222,verified matching physical site
+a-k-09,2012,Strongylocentrotus franciscanus,Scorpion Anchorage,Scorpion Anchorage,single,1,214,verified matching physical site
+a-k-09,2012,Strongylocentrotus purpuratus,Scorpion Anchorage,Scorpion Anchorage,single,1,224,verified matching physical site
+a-k-09,2013,Strongylocentrotus franciscanus,Scorpion Anchorage,Scorpion Anchorage,single,1,202,verified matching physical site
+a-k-09,2013,Strongylocentrotus purpuratus,Scorpion Anchorage,Scorpion Anchorage,single,1,219,verified matching physical site
+a-k-09,2014,Strongylocentrotus franciscanus,Scorpion Anchorage,Scorpion Anchorage,single,1,207,verified matching physical site
+a-k-09,2014,Strongylocentrotus purpuratus,Scorpion Anchorage,Scorpion Anchorage,single,1,249,verified matching physical site
+a-k-09,2015,Strongylocentrotus franciscanus,Scorpion Anchorage,Scorpion Anchorage,single,1,240,verified matching physical site
+a-k-09,2015,Strongylocentrotus purpuratus,Scorpion Anchorage,Scorpion Anchorage,single,1,311,verified matching physical site
+a-k-09,2016,Strongylocentrotus franciscanus,Scorpion Anchorage,Scorpion Anchorage,single,1,89,verified matching physical site
+a-k-09,2016,Strongylocentrotus purpuratus,Scorpion Anchorage,Scorpion Anchorage,single,1,208,verified matching physical site
+a-k-09,2017,Strongylocentrotus franciscanus,Scorpion Anchorage,Scorpion Anchorage,single,1,180,verified matching physical site
+a-k-09,2017,Strongylocentrotus purpuratus,Scorpion Anchorage,Scorpion Anchorage,single,1,201,verified matching physical site
+a-k-09,2018,Strongylocentrotus franciscanus,Scorpion Anchorage,Scorpion Anchorage,single,1,139,verified matching physical site
+a-k-09,2018,Strongylocentrotus purpuratus,Scorpion Anchorage,Scorpion Anchorage,single,1,207,verified matching physical site
+a-k-09,2019,Strongylocentrotus franciscanus,Scorpion Anchorage,Scorpion Anchorage,single,1,146,verified matching physical site
+a-k-09,2019,Strongylocentrotus purpuratus,Scorpion Anchorage,Scorpion Anchorage,single,1,209,verified matching physical site
+a-k-09,2021,Strongylocentrotus franciscanus,Scorpion Anchorage,Scorpion Anchorage,single,1,206,verified matching physical site
+a-k-09,2021,Strongylocentrotus purpuratus,Scorpion Anchorage,Scorpion Anchorage,single,1,200,verified matching physical site
+a-k-09,2022,Strongylocentrotus franciscanus,Scorpion Anchorage,Scorpion Anchorage,single,1,142,verified matching physical site
+a-k-09,2022,Strongylocentrotus purpuratus,Scorpion Anchorage,Scorpion Anchorage,single,1,170,verified matching physical site
+a-k-10,2012,Strongylocentrotus franciscanus,Yellow Banks,Yellow Banks,single,1,203,verified matching physical site
+a-k-10,2012,Strongylocentrotus purpuratus,Yellow Banks,Yellow Banks,single,1,225,verified matching physical site
+a-k-10,2013,Strongylocentrotus franciscanus,Yellow Banks,Yellow Banks,single,1,217,verified matching physical site
+a-k-10,2013,Strongylocentrotus purpuratus,Yellow Banks,Yellow Banks,single,1,262,verified matching physical site
+a-k-10,2014,Strongylocentrotus franciscanus,Yellow Banks,Yellow Banks,single,1,212,verified matching physical site
+a-k-10,2014,Strongylocentrotus purpuratus,Yellow Banks,Yellow Banks,single,1,204,verified matching physical site
+a-k-10,2015,Strongylocentrotus franciscanus,Yellow Banks,Yellow Banks,single,1,241,verified matching physical site
+a-k-10,2015,Strongylocentrotus purpuratus,Yellow Banks,Yellow Banks,single,1,224,verified matching physical site
+a-k-10,2016,Strongylocentrotus franciscanus,Yellow Banks,Yellow Banks,single,1,282,verified matching physical site
+a-k-10,2016,Strongylocentrotus purpuratus,Yellow Banks,Yellow Banks,single,1,215,verified matching physical site
+a-k-10,2017,Strongylocentrotus franciscanus,Yellow Banks,Yellow Banks,single,1,223,verified matching physical site
+a-k-10,2017,Strongylocentrotus purpuratus,Yellow Banks,Yellow Banks,single,1,279,verified matching physical site
+a-k-10,2018,Strongylocentrotus franciscanus,Yellow Banks,Yellow Banks,single,1,256,verified matching physical site
+a-k-10,2018,Strongylocentrotus purpuratus,Yellow Banks,Yellow Banks,single,1,251,verified matching physical site
+a-k-10,2019,Strongylocentrotus franciscanus,Yellow Banks,Yellow Banks,single,1,209,verified matching physical site
+a-k-10,2019,Strongylocentrotus purpuratus,Yellow Banks,Yellow Banks,single,1,215,verified matching physical site
+a-k-10,2021,Strongylocentrotus franciscanus,Yellow Banks,Yellow Banks,single,1,196,verified matching physical site
+a-k-10,2021,Strongylocentrotus purpuratus,Yellow Banks,Yellow Banks,single,1,226,verified matching physical site
+a-k-10,2022,Strongylocentrotus franciscanus,Yellow Banks,Yellow Banks,single,1,199,verified matching physical site
+a-k-10,2022,Strongylocentrotus purpuratus,Yellow Banks,Yellow Banks,single,1,216,verified matching physical site
+a-k-11,2012,Strongylocentrotus franciscanus,Admiral's Reef,Admiral's Reef,single,1,201,verified matching physical site
+a-k-11,2012,Strongylocentrotus purpuratus,Admiral's Reef,Admiral's Reef,single,1,219,verified matching physical site
+a-k-11,2013,Strongylocentrotus franciscanus,Admiral's Reef,Admiral's Reef,single,1,201,verified matching physical site
+a-k-11,2013,Strongylocentrotus purpuratus,Admiral's Reef,Admiral's Reef,single,1,201,verified matching physical site
+a-k-11,2014,Strongylocentrotus franciscanus,Admiral's Reef,Admiral's Reef,single,1,251,verified matching physical site
+a-k-11,2014,Strongylocentrotus purpuratus,Admiral's Reef,Admiral's Reef,single,1,291,verified matching physical site
+a-k-11,2015,Strongylocentrotus franciscanus,Admiral's Reef,Admiral's Reef,single,1,178,verified matching physical site
+a-k-11,2015,Strongylocentrotus purpuratus,Admiral's Reef,Admiral's Reef,single,1,23,verified matching physical site
+a-k-11,2016,Strongylocentrotus franciscanus,Admiral's Reef,Admiral's Reef,single,1,244,verified matching physical site
+a-k-11,2016,Strongylocentrotus purpuratus,Admiral's Reef,Admiral's Reef,single,1,72,verified matching physical site
+a-k-11,2017,Strongylocentrotus franciscanus,Admiral's Reef,Admiral's Reef,single,1,221,verified matching physical site
+a-k-11,2017,Strongylocentrotus purpuratus,Admiral's Reef,Admiral's Reef,single,1,239,verified matching physical site
+a-k-11,2018,Strongylocentrotus franciscanus,Admiral's Reef,Admiral's Reef,single,1,235,verified matching physical site
+a-k-11,2018,Strongylocentrotus purpuratus,Admiral's Reef,Admiral's Reef,single,1,244,verified matching physical site
+a-k-11,2019,Strongylocentrotus franciscanus,Admiral's Reef,Admiral's Reef,single,1,269,verified matching physical site
+a-k-11,2019,Strongylocentrotus purpuratus,Admiral's Reef,Admiral's Reef,single,1,319,verified matching physical site
+a-k-11,2021,Strongylocentrotus franciscanus,Admiral's Reef,Admiral's Reef,single,1,230,verified matching physical site
+a-k-11,2021,Strongylocentrotus purpuratus,Admiral's Reef,Admiral's Reef,single,1,220,verified matching physical site
+a-k-11,2022,Strongylocentrotus franciscanus,Admiral's Reef,Admiral's Reef,single,1,201,verified matching physical site
+a-k-11,2022,Strongylocentrotus purpuratus,Admiral's Reef,Admiral's Reef,single,1,213,verified matching physical site
+a-k-12,2012,Strongylocentrotus franciscanus,Cathedral Cove,Cathedral Cove,single,1,250,verified matching physical site
+a-k-12,2012,Strongylocentrotus purpuratus,Cathedral Cove,Cathedral Cove,single,1,224,verified matching physical site
+a-k-12,2013,Strongylocentrotus franciscanus,Cathedral Cove,Cathedral Cove,single,1,210,verified matching physical site
+a-k-12,2013,Strongylocentrotus purpuratus,Cathedral Cove,Cathedral Cove,single,1,206,verified matching physical site
+a-k-12,2014,Strongylocentrotus franciscanus,Cathedral Cove,Cathedral Cove,single,1,214,verified matching physical site
+a-k-12,2014,Strongylocentrotus purpuratus,Cathedral Cove,Cathedral Cove,single,1,211,verified matching physical site
+a-k-12,2015,Strongylocentrotus franciscanus,Cathedral Cove,Cathedral Cove,single,1,207,verified matching physical site
+a-k-12,2015,Strongylocentrotus purpuratus,Cathedral Cove,Cathedral Cove,single,1,88,verified matching physical site
+a-k-12,2016,Strongylocentrotus franciscanus,Cathedral Cove,Cathedral Cove,single,1,54,verified matching physical site
+a-k-12,2016,Strongylocentrotus purpuratus,Cathedral Cove,Cathedral Cove,single,1,11,verified matching physical site
+a-k-12,2017,Strongylocentrotus franciscanus,Cathedral Cove,Cathedral Cove,single,1,100,verified matching physical site
+a-k-12,2017,Strongylocentrotus purpuratus,Cathedral Cove,Cathedral Cove,single,1,47,verified matching physical site
+a-k-12,2018,Strongylocentrotus franciscanus,Cathedral Cove,Cathedral Cove,single,1,56,verified matching physical site
+a-k-12,2018,Strongylocentrotus purpuratus,Cathedral Cove,Cathedral Cove,single,1,17,verified matching physical site
+a-k-12,2019,Strongylocentrotus franciscanus,Cathedral Cove,Cathedral Cove,single,1,50,verified matching physical site
+a-k-12,2019,Strongylocentrotus purpuratus,Cathedral Cove,Cathedral Cove,single,1,24,verified matching physical site
+a-k-12,2021,Strongylocentrotus franciscanus,Cathedral Cove,Cathedral Cove,single,1,51,verified matching physical site
+a-k-12,2021,Strongylocentrotus purpuratus,Cathedral Cove,Cathedral Cove,single,1,21,verified matching physical site
+a-k-12,2022,Strongylocentrotus franciscanus,Cathedral Cove,Cathedral Cove,single,1,65,verified matching physical site
+a-k-12,2022,Strongylocentrotus purpuratus,Cathedral Cove,Cathedral Cove,single,1,29,verified matching physical site
+a-k-13,2012,Strongylocentrotus franciscanus,Landing Cove,Landing Cove,single,1,213,verified matching physical site
+a-k-13,2012,Strongylocentrotus purpuratus,Landing Cove,Landing Cove,single,1,217,verified matching physical site
+a-k-13,2013,Strongylocentrotus franciscanus,Landing Cove,Landing Cove,single,1,217,verified matching physical site
+a-k-13,2013,Strongylocentrotus purpuratus,Landing Cove,Landing Cove,single,1,203,verified matching physical site
+a-k-13,2014,Strongylocentrotus franciscanus,Landing Cove,Landing Cove,single,1,229,verified matching physical site
+a-k-13,2014,Strongylocentrotus purpuratus,Landing Cove,Landing Cove,single,1,228,verified matching physical site
+a-k-13,2015,Strongylocentrotus franciscanus,Landing Cove,Landing Cove,single,1,242,verified matching physical site
+a-k-13,2015,Strongylocentrotus purpuratus,Landing Cove,Landing Cove,single,1,203,verified matching physical site
+a-k-13,2016,Strongylocentrotus franciscanus,Landing Cove,Landing Cove,single,1,124,verified matching physical site
+a-k-13,2016,Strongylocentrotus purpuratus,Landing Cove,Landing Cove,single,1,71,verified matching physical site
+a-k-13,2017,Strongylocentrotus franciscanus,Landing Cove,Landing Cove,single,1,26,verified matching physical site
+a-k-13,2017,Strongylocentrotus purpuratus,Landing Cove,Landing Cove,single,1,44,verified matching physical site
+a-k-13,2018,Strongylocentrotus franciscanus,Landing Cove,Landing Cove,single,1,161,verified matching physical site
+a-k-13,2018,Strongylocentrotus purpuratus,Landing Cove,Landing Cove,single,1,193,verified matching physical site
+a-k-13,2019,Strongylocentrotus franciscanus,Landing Cove,Landing Cove,single,1,60,verified matching physical site
+a-k-13,2019,Strongylocentrotus purpuratus,Landing Cove,Landing Cove,single,1,72,verified matching physical site
+a-k-13,2021,Strongylocentrotus franciscanus,Landing Cove,Landing Cove,single,1,89,verified matching physical site
+a-k-13,2021,Strongylocentrotus purpuratus,Landing Cove,Landing Cove,single,1,124,verified matching physical site
+a-k-13,2022,Strongylocentrotus franciscanus,Landing Cove,Landing Cove,single,1,98,verified matching physical site
+a-k-13,2022,Strongylocentrotus purpuratus,Landing Cove,Landing Cove,single,1,47,verified matching physical site
+a-k-14,2012,Strongylocentrotus franciscanus,Southeast Sea Lion,Southeast Reef,single,1,207,known source identity error
+a-k-14,2012,Strongylocentrotus purpuratus,Southeast Sea Lion,Southeast Reef,single,1,207,known source identity error
+a-k-14,2013,Strongylocentrotus franciscanus,Southeast Sea Lion,Southeast Reef,single,1,203,known source identity error
+a-k-14,2013,Strongylocentrotus purpuratus,Southeast Sea Lion,Southeast Reef,single,1,221,known source identity error
+a-k-14,2014,Strongylocentrotus franciscanus,Southeast Sea Lion,Southeast Reef,single,1,206,known source identity error
+a-k-14,2014,Strongylocentrotus purpuratus,Southeast Sea Lion,Southeast Reef,single,1,227,known source identity error
+a-k-14,2015,Strongylocentrotus franciscanus,Southeast Sea Lion,Southeast Reef,single,1,203,known source identity error
+a-k-14,2015,Strongylocentrotus purpuratus,Southeast Sea Lion,Southeast Reef,single,1,208,known source identity error
+a-k-14,2016,Strongylocentrotus franciscanus,Southeast Sea Lion,Southeast Reef,single,1,209,known source identity error
+a-k-14,2016,Strongylocentrotus purpuratus,Southeast Sea Lion,Southeast Reef,single,1,140,known source identity error
+a-k-14,2017,Strongylocentrotus franciscanus,Southeast Sea Lion,Southeast Reef,single,1,178,known source identity error
+a-k-14,2017,Strongylocentrotus purpuratus,Southeast Sea Lion,Southeast Reef,single,1,137,known source identity error
+a-k-14,2018,Strongylocentrotus franciscanus,Southeast Sea Lion,Southeast Reef,single,1,215,known source identity error
+a-k-14,2018,Strongylocentrotus purpuratus,Southeast Sea Lion,Southeast Reef,single,1,255,known source identity error
+a-k-14,2019,Strongylocentrotus franciscanus,Southeast Sea Lion,Southeast Reef,single,1,210,known source identity error
+a-k-14,2019,Strongylocentrotus purpuratus,Southeast Sea Lion,Southeast Reef,single,1,201,known source identity error
+a-k-14,2021,Strongylocentrotus franciscanus,Southeast Sea Lion,Southeast Reef,single,1,167,known source identity error
+a-k-14,2021,Strongylocentrotus purpuratus,Southeast Sea Lion,Southeast Reef,single,1,149,known source identity error
+a-k-14,2022,Strongylocentrotus franciscanus,Southeast Sea Lion,Southeast Reef,single,1,62,known source identity error
+a-k-14,2022,Strongylocentrotus purpuratus,Southeast Sea Lion,Southeast Reef,single,1,60,known source identity error
+a-k-15,2012,Strongylocentrotus franciscanus,Arch Point,Arch Point,single,1,214,verified matching physical site
+a-k-15,2012,Strongylocentrotus purpuratus,Arch Point,Arch Point,single,1,233,verified matching physical site
+a-k-15,2013,Strongylocentrotus franciscanus,Arch Point,Arch Point,single,1,218,verified matching physical site
+a-k-15,2013,Strongylocentrotus purpuratus,Arch Point,Arch Point,single,1,230,verified matching physical site
+a-k-15,2014,Strongylocentrotus franciscanus,Arch Point,Arch Point,single,1,203,verified matching physical site
+a-k-15,2014,Strongylocentrotus purpuratus,Arch Point,Arch Point,single,1,335,verified matching physical site
+a-k-15,2015,Strongylocentrotus franciscanus,Arch Point,Arch Point,single,1,232,verified matching physical site
+a-k-15,2015,Strongylocentrotus purpuratus,Arch Point,Arch Point,single,1,249,verified matching physical site
+a-k-15,2016,Strongylocentrotus franciscanus,Arch Point,Arch Point,single,1,77,verified matching physical site
+a-k-15,2016,Strongylocentrotus purpuratus,Arch Point,Arch Point,single,1,154,verified matching physical site
+a-k-15,2017,Strongylocentrotus franciscanus,Arch Point,Arch Point,single,1,295,verified matching physical site
+a-k-15,2017,Strongylocentrotus purpuratus,Arch Point,Arch Point,single,1,207,verified matching physical site
+a-k-15,2018,Strongylocentrotus franciscanus,Arch Point,Arch Point,single,1,256,verified matching physical site
+a-k-15,2018,Strongylocentrotus purpuratus,Arch Point,Arch Point,single,1,309,verified matching physical site
+a-k-15,2019,Strongylocentrotus franciscanus,Arch Point,Arch Point,single,1,219,verified matching physical site
+a-k-15,2019,Strongylocentrotus purpuratus,Arch Point,Arch Point,single,1,210,verified matching physical site
+a-k-15,2021,Strongylocentrotus franciscanus,Arch Point,Arch Point,single,1,200,verified matching physical site
+a-k-15,2021,Strongylocentrotus purpuratus,Arch Point,Arch Point,single,1,268,verified matching physical site
+a-k-15,2022,Strongylocentrotus franciscanus,Arch Point,Arch Point,single,1,287,verified matching physical site
+a-k-15,2022,Strongylocentrotus purpuratus,Arch Point,Arch Point,single,1,402,verified matching physical site
+a-k-16,2012,Strongylocentrotus franciscanus,Cat Canyon,Cat Canyon,single,1,219,verified matching physical site
+a-k-16,2012,Strongylocentrotus purpuratus,Cat Canyon,Cat Canyon,single,1,231,verified matching physical site
+a-k-16,2013,Strongylocentrotus franciscanus,Cat Canyon,Cat Canyon,single,1,216,verified matching physical site
+a-k-16,2013,Strongylocentrotus purpuratus,Cat Canyon,Cat Canyon,single,1,216,verified matching physical site
+a-k-16,2014,Strongylocentrotus franciscanus,Cat Canyon,Cat Canyon,single,1,211,verified matching physical site
+a-k-16,2014,Strongylocentrotus purpuratus,Cat Canyon,Cat Canyon,single,1,209,verified matching physical site
+a-k-16,2015,Strongylocentrotus franciscanus,Cat Canyon,Cat Canyon,single,1,207,verified matching physical site
+a-k-16,2015,Strongylocentrotus purpuratus,Cat Canyon,Cat Canyon,single,1,211,verified matching physical site
+a-k-16,2016,Strongylocentrotus franciscanus,Cat Canyon,Cat Canyon,single,1,173,verified matching physical site
+a-k-16,2016,Strongylocentrotus purpuratus,Cat Canyon,Cat Canyon,single,1,132,verified matching physical site
+a-k-16,2017,Strongylocentrotus franciscanus,Cat Canyon,Cat Canyon,single,1,203,verified matching physical site
+a-k-16,2017,Strongylocentrotus purpuratus,Cat Canyon,Cat Canyon,single,1,206,verified matching physical site
+a-k-16,2018,Strongylocentrotus franciscanus,Cat Canyon,Cat Canyon,single,1,237,verified matching physical site
+a-k-16,2018,Strongylocentrotus purpuratus,Cat Canyon,Cat Canyon,single,1,235,verified matching physical site
+a-k-16,2019,Strongylocentrotus franciscanus,Cat Canyon,Cat Canyon,single,1,200,verified matching physical site
+a-k-16,2019,Strongylocentrotus purpuratus,Cat Canyon,Cat Canyon,single,1,204,verified matching physical site
+a-k-16,2021,Strongylocentrotus franciscanus,Cat Canyon,Cat Canyon,single,1,143,verified matching physical site
+a-k-16,2021,Strongylocentrotus purpuratus,Cat Canyon,Cat Canyon,single,1,198,verified matching physical site
+a-k-16,2022,Strongylocentrotus franciscanus,Cat Canyon,Cat Canyon,single,1,142,verified matching physical site
+a-k-16,2022,Strongylocentrotus purpuratus,Cat Canyon,Cat Canyon,single,1,134,verified matching physical site
+a-k-22,2012,Strongylocentrotus franciscanus,Cluster Point,Cluster Point,single,1,229,verified matching physical site
+a-k-22,2012,Strongylocentrotus purpuratus,Cluster Point,Cluster Point,single,1,222,verified matching physical site
+a-k-22,2013,Strongylocentrotus franciscanus,Cluster Point,Cluster Point,single,1,200,verified matching physical site
+a-k-22,2013,Strongylocentrotus purpuratus,Cluster Point,Cluster Point,single,1,202,verified matching physical site
+a-k-22,2014,Strongylocentrotus franciscanus,Cluster Point,Cluster Point,single,1,195,verified matching physical site
+a-k-22,2014,Strongylocentrotus purpuratus,Cluster Point,Cluster Point,single,1,193,verified matching physical site
+a-k-22,2015,Strongylocentrotus franciscanus,Cluster Point,Cluster Point,single,1,219,verified matching physical site
+a-k-22,2015,Strongylocentrotus purpuratus,Cluster Point,Cluster Point,single,1,222,verified matching physical site
+a-k-22,2016,Strongylocentrotus franciscanus,Cluster Point,Cluster Point,single,1,235,verified matching physical site
+a-k-22,2016,Strongylocentrotus purpuratus,Cluster Point,Cluster Point,single,1,221,verified matching physical site
+a-k-22,2017,Strongylocentrotus franciscanus,Cluster Point,Cluster Point,single,1,241,verified matching physical site
+a-k-22,2017,Strongylocentrotus purpuratus,Cluster Point,Cluster Point,single,1,288,verified matching physical site
+a-k-22,2018,Strongylocentrotus franciscanus,Cluster Point,Cluster Point,single,1,226,verified matching physical site
+a-k-22,2018,Strongylocentrotus purpuratus,Cluster Point,Cluster Point,single,1,309,verified matching physical site
+a-k-22,2019,Strongylocentrotus franciscanus,Cluster Point,Cluster Point,single,1,228,verified matching physical site
+a-k-22,2019,Strongylocentrotus purpuratus,Cluster Point,Cluster Point,single,1,287,verified matching physical site
+a-k-22,2021,Strongylocentrotus franciscanus,Cluster Point,Cluster Point,single,1,246,verified matching physical site
+a-k-22,2021,Strongylocentrotus purpuratus,Cluster Point,Cluster Point,single,1,297,verified matching physical site
+a-k-22,2022,Strongylocentrotus franciscanus,Cluster Point,Cluster Point,single,1,215,verified matching physical site
+a-k-22,2022,Strongylocentrotus purpuratus,Cluster Point,Cluster Point,single,1,283,verified matching physical site
+a-k-23,2012,Strongylocentrotus franciscanus,Trancion Canyon,Trancion Canyon,single,1,225,verified matching physical site
+a-k-23,2012,Strongylocentrotus purpuratus,Trancion Canyon,Trancion Canyon,single,1,219,verified matching physical site
+a-k-23,2013,Strongylocentrotus franciscanus,Trancion Canyon,Trancion Canyon,single,1,241,verified matching physical site
+a-k-23,2013,Strongylocentrotus purpuratus,Trancion Canyon,Trancion Canyon,single,1,394,verified matching physical site
+a-k-23,2014,Strongylocentrotus franciscanus,Trancion Canyon,Trancion Canyon,single,1,208,verified matching physical site
+a-k-23,2014,Strongylocentrotus purpuratus,Trancion Canyon,Trancion Canyon,single,1,251,verified matching physical site
+a-k-23,2015,Strongylocentrotus franciscanus,Trancion Canyon,Trancion Canyon,single,1,228,verified matching physical site
+a-k-23,2015,Strongylocentrotus purpuratus,Trancion Canyon,Trancion Canyon,single,1,227,verified matching physical site
+a-k-23,2016,Strongylocentrotus franciscanus,Trancion Canyon,Trancion Canyon,single,1,202,verified matching physical site
+a-k-23,2016,Strongylocentrotus purpuratus,Trancion Canyon,Trancion Canyon,single,1,206,verified matching physical site
+a-k-23,2017,Strongylocentrotus franciscanus,Trancion Canyon,Trancion Canyon,single,1,275,verified matching physical site
+a-k-23,2017,Strongylocentrotus purpuratus,Trancion Canyon,Trancion Canyon,single,1,210,verified matching physical site
+a-k-23,2018,Strongylocentrotus franciscanus,Trancion Canyon,Trancion Canyon,single,1,262,verified matching physical site
+a-k-23,2018,Strongylocentrotus purpuratus,Trancion Canyon,Trancion Canyon,single,1,274,verified matching physical site
+a-k-23,2019,Strongylocentrotus franciscanus,Trancion Canyon,Trancion Canyon,single,1,248,verified matching physical site
+a-k-23,2019,Strongylocentrotus purpuratus,Trancion Canyon,Trancion Canyon,single,1,320,verified matching physical site
+a-k-23,2021,Strongylocentrotus franciscanus,Trancion Canyon,Trancion Canyon,single,1,247,verified matching physical site
+a-k-23,2021,Strongylocentrotus purpuratus,Trancion Canyon,Trancion Canyon,single,1,221,verified matching physical site
+a-k-23,2022,Strongylocentrotus franciscanus,Trancion Canyon,Trancion Canyon,single,1,204,verified matching physical site
+a-k-23,2022,Strongylocentrotus purpuratus,Trancion Canyon,Trancion Canyon,single,1,205,verified matching physical site
+a-k-24,2012,Strongylocentrotus franciscanus,Chickasaw,Chickasaw,single,1,237,verified matching physical site
+a-k-24,2012,Strongylocentrotus purpuratus,Chickasaw,Chickasaw,single,1,234,verified matching physical site
+a-k-24,2013,Strongylocentrotus franciscanus,Chickasaw,Chickasaw,single,1,217,verified matching physical site
+a-k-24,2013,Strongylocentrotus purpuratus,Chickasaw,Chickasaw,single,1,228,verified matching physical site
+a-k-24,2014,Strongylocentrotus franciscanus,Chickasaw,Chickasaw,single,1,228,verified matching physical site
+a-k-24,2014,Strongylocentrotus purpuratus,Chickasaw,Chickasaw,single,1,203,verified matching physical site
+a-k-24,2015,Strongylocentrotus franciscanus,Chickasaw,Chickasaw,single,1,218,verified matching physical site
+a-k-24,2015,Strongylocentrotus purpuratus,Chickasaw,Chickasaw,single,1,215,verified matching physical site
+a-k-24,2016,Strongylocentrotus franciscanus,Chickasaw,Chickasaw,single,1,210,verified matching physical site
+a-k-24,2016,Strongylocentrotus purpuratus,Chickasaw,Chickasaw,single,1,203,verified matching physical site
+a-k-24,2017,Strongylocentrotus franciscanus,Chickasaw,Chickasaw,single,1,208,verified matching physical site
+a-k-24,2017,Strongylocentrotus purpuratus,Chickasaw,Chickasaw,single,1,210,verified matching physical site
+a-k-24,2018,Strongylocentrotus franciscanus,Chickasaw,Chickasaw,single,1,252,verified matching physical site
+a-k-24,2018,Strongylocentrotus purpuratus,Chickasaw,Chickasaw,single,1,260,verified matching physical site
+a-k-24,2019,Strongylocentrotus franciscanus,Chickasaw,Chickasaw,single,1,327,verified matching physical site
+a-k-24,2019,Strongylocentrotus purpuratus,Chickasaw,Chickasaw,single,1,310,verified matching physical site
+a-k-24,2021,Strongylocentrotus franciscanus,Chickasaw,Chickasaw,single,1,222,verified matching physical site
+a-k-24,2021,Strongylocentrotus purpuratus,Chickasaw,Chickasaw,single,1,288,verified matching physical site
+a-k-24,2022,Strongylocentrotus franciscanus,Chickasaw,Chickasaw,single,1,261,verified matching physical site
+a-k-24,2022,Strongylocentrotus purpuratus,Chickasaw,Chickasaw,single,1,289,verified matching physical site
+a-k-25,2012,Strongylocentrotus franciscanus,South Point,South Point,single,1,225,verified matching physical site
+a-k-25,2012,Strongylocentrotus purpuratus,South Point,South Point,single,1,220,verified matching physical site
+a-k-25,2013,Strongylocentrotus franciscanus,South Point,South Point,single,1,201,verified matching physical site
+a-k-25,2013,Strongylocentrotus purpuratus,South Point,South Point,single,1,204,verified matching physical site
+a-k-25,2014,Strongylocentrotus franciscanus,South Point,South Point,single,1,255,verified matching physical site
+a-k-25,2014,Strongylocentrotus purpuratus,South Point,South Point,single,1,240,verified matching physical site
+a-k-25,2015,Strongylocentrotus franciscanus,South Point,South Point,single,1,230,verified matching physical site
+a-k-25,2015,Strongylocentrotus purpuratus,South Point,South Point,single,1,228,verified matching physical site
+a-k-25,2016,Strongylocentrotus franciscanus,South Point,South Point,single,1,210,verified matching physical site
+a-k-25,2016,Strongylocentrotus purpuratus,South Point,South Point,single,1,229,verified matching physical site
+a-k-25,2017,Strongylocentrotus franciscanus,South Point,South Point,single,1,244,verified matching physical site
+a-k-25,2017,Strongylocentrotus purpuratus,South Point,South Point,single,1,225,verified matching physical site
+a-k-25,2018,Strongylocentrotus franciscanus,South Point,South Point,single,1,211,verified matching physical site
+a-k-25,2018,Strongylocentrotus purpuratus,South Point,South Point,single,1,210,verified matching physical site
+a-k-25,2019,Strongylocentrotus franciscanus,South Point,South Point,single,1,200,verified matching physical site
+a-k-25,2019,Strongylocentrotus purpuratus,South Point,South Point,single,1,200,verified matching physical site
+a-k-25,2021,Strongylocentrotus franciscanus,South Point,South Point,single,1,216,verified matching physical site
+a-k-25,2021,Strongylocentrotus purpuratus,South Point,South Point,single,1,224,verified matching physical site
+a-k-25,2022,Strongylocentrotus franciscanus,South Point,South Point,single,1,253,verified matching physical site
+a-k-25,2022,Strongylocentrotus purpuratus,South Point,South Point,single,1,249,verified matching physical site
+a-k-26,2012,Strongylocentrotus franciscanus,Devil's Peak Member,Devil's Peak Member,single,1,240,verified matching physical site
+a-k-26,2012,Strongylocentrotus purpuratus,Devil's Peak Member,Devil's Peak Member,single,1,268,verified matching physical site
+a-k-26,2013,Strongylocentrotus franciscanus,Devil's Peak Member,Devil's Peak Member,single,1,203,verified matching physical site
+a-k-26,2013,Strongylocentrotus purpuratus,Devil's Peak Member,Devil's Peak Member,single,1,208,verified matching physical site
+a-k-26,2014,Strongylocentrotus franciscanus,Devil's Peak Member,Devil's Peak Member,single,1,205,verified matching physical site
+a-k-26,2014,Strongylocentrotus purpuratus,Devil's Peak Member,Devil's Peak Member,single,1,226,verified matching physical site
+a-k-26,2015,Strongylocentrotus franciscanus,Devil's Peak Member,Devil's Peak Member,single,1,211,verified matching physical site
+a-k-26,2015,Strongylocentrotus purpuratus,Devil's Peak Member,Devil's Peak Member,single,1,221,verified matching physical site
+a-k-26,2016,Strongylocentrotus franciscanus,Devil's Peak Member,Devil's Peak Member,single,1,200,verified matching physical site
+a-k-26,2016,Strongylocentrotus purpuratus,Devil's Peak Member,Devil's Peak Member,single,1,203,verified matching physical site
+a-k-26,2017,Strongylocentrotus franciscanus,Devil's Peak Member,Devil's Peak Member,single,1,202,verified matching physical site
+a-k-26,2017,Strongylocentrotus purpuratus,Devil's Peak Member,Devil's Peak Member,single,1,236,verified matching physical site
+a-k-26,2018,Strongylocentrotus franciscanus,Devil's Peak Member,Devil's Peak Member,single,1,218,verified matching physical site
+a-k-26,2018,Strongylocentrotus purpuratus,Devil's Peak Member,Devil's Peak Member,single,1,229,verified matching physical site
+a-k-26,2019,Strongylocentrotus franciscanus,Devil's Peak Member,Devil's Peak Member,single,1,212,verified matching physical site
+a-k-26,2019,Strongylocentrotus purpuratus,Devil's Peak Member,Devil's Peak Member,single,1,237,verified matching physical site
+a-k-26,2021,Strongylocentrotus franciscanus,Devil's Peak Member,Devil's Peak Member,single,1,202,verified matching physical site
+a-k-26,2021,Strongylocentrotus purpuratus,Devil's Peak Member,Devil's Peak Member,single,1,203,verified matching physical site
+a-k-26,2022,Strongylocentrotus franciscanus,Devil's Peak Member,Devil's Peak Member,single,1,270,verified matching physical site
+a-k-26,2022,Strongylocentrotus purpuratus,Devil's Peak Member,Devil's Peak Member,single,1,255,verified matching physical site
+a-k-27,2012,Strongylocentrotus franciscanus,Potato Pasture,Potato Pasture,single,1,211,verified matching physical site
+a-k-27,2012,Strongylocentrotus purpuratus,Potato Pasture,Potato Pasture,single,1,311,verified matching physical site
+a-k-27,2013,Strongylocentrotus franciscanus,Potato Pasture,Potato Pasture,single,1,206,verified matching physical site
+a-k-27,2013,Strongylocentrotus purpuratus,Potato Pasture,Potato Pasture,single,1,205,verified matching physical site
+a-k-27,2014,Strongylocentrotus franciscanus,Potato Pasture,Potato Pasture,single,1,211,verified matching physical site
+a-k-27,2014,Strongylocentrotus purpuratus,Potato Pasture,Potato Pasture,single,1,246,verified matching physical site
+a-k-27,2015,Strongylocentrotus franciscanus,Potato Pasture,Potato Pasture,single,1,213,verified matching physical site
+a-k-27,2015,Strongylocentrotus purpuratus,Potato Pasture,Potato Pasture,single,1,227,verified matching physical site
+a-k-27,2016,Strongylocentrotus franciscanus,Potato Pasture,Potato Pasture,single,1,67,verified matching physical site
+a-k-27,2016,Strongylocentrotus purpuratus,Potato Pasture,Potato Pasture,single,1,89,verified matching physical site
+a-k-27,2017,Strongylocentrotus franciscanus,Potato Pasture,Potato Pasture,single,1,190,verified matching physical site
+a-k-27,2017,Strongylocentrotus purpuratus,Potato Pasture,Potato Pasture,single,1,200,verified matching physical site
+a-k-27,2018,Strongylocentrotus franciscanus,Potato Pasture,Potato Pasture,single,1,159,verified matching physical site
+a-k-27,2018,Strongylocentrotus purpuratus,Potato Pasture,Potato Pasture,single,1,189,verified matching physical site
+a-k-27,2019,Strongylocentrotus franciscanus,Potato Pasture,Potato Pasture,single,1,168,verified matching physical site
+a-k-27,2019,Strongylocentrotus purpuratus,Potato Pasture,Potato Pasture,single,1,163,verified matching physical site
+a-k-27,2021,Strongylocentrotus franciscanus,Potato Pasture,Potato Pasture,single,1,193,verified matching physical site
+a-k-27,2021,Strongylocentrotus purpuratus,Potato Pasture,Potato Pasture,single,1,113,verified matching physical site
+a-k-27,2022,Strongylocentrotus franciscanus,Potato Pasture,Potato Pasture,single,1,146,verified matching physical site
+a-k-27,2022,Strongylocentrotus purpuratus,Potato Pasture,Potato Pasture,single,1,117,verified matching physical site
+a-k-28,2012,Strongylocentrotus franciscanus,Cavern Point,Cavern Point,single,1,201,verified matching physical site
+a-k-28,2012,Strongylocentrotus purpuratus,Cavern Point,Cavern Point,single,1,299,verified matching physical site
+a-k-28,2013,Strongylocentrotus franciscanus,Cavern Point,Cavern Point,single,1,218,verified matching physical site
+a-k-28,2013,Strongylocentrotus purpuratus,Cavern Point,Cavern Point,single,1,237,verified matching physical site
+a-k-28,2014,Strongylocentrotus franciscanus,Cavern Point,Cavern Point,single,1,231,verified matching physical site
+a-k-28,2014,Strongylocentrotus purpuratus,Cavern Point,Cavern Point,single,1,223,verified matching physical site
+a-k-28,2015,Strongylocentrotus franciscanus,Cavern Point,Cavern Point,single,1,202,verified matching physical site
+a-k-28,2015,Strongylocentrotus purpuratus,Cavern Point,Cavern Point,single,1,211,verified matching physical site
+a-k-28,2016,Strongylocentrotus franciscanus,Cavern Point,Cavern Point,single,1,222,verified matching physical site
+a-k-28,2016,Strongylocentrotus purpuratus,Cavern Point,Cavern Point,single,1,207,verified matching physical site
+a-k-28,2017,Strongylocentrotus franciscanus,Cavern Point,Cavern Point,single,1,259,verified matching physical site
+a-k-28,2017,Strongylocentrotus purpuratus,Cavern Point,Cavern Point,single,1,145,verified matching physical site
+a-k-28,2018,Strongylocentrotus franciscanus,Cavern Point,Cavern Point,single,1,192,verified matching physical site
+a-k-28,2018,Strongylocentrotus purpuratus,Cavern Point,Cavern Point,single,1,162,verified matching physical site
+a-k-28,2019,Strongylocentrotus franciscanus,Cavern Point,Cavern Point,single,1,142,verified matching physical site
+a-k-28,2019,Strongylocentrotus purpuratus,Cavern Point,Cavern Point,single,1,72,verified matching physical site
+a-k-28,2021,Strongylocentrotus franciscanus,Cavern Point,Cavern Point,single,1,209,verified matching physical site
+a-k-28,2021,Strongylocentrotus purpuratus,Cavern Point,Cavern Point,single,1,122,verified matching physical site
+a-k-28,2022,Strongylocentrotus franciscanus,Cavern Point,Cavern Point,single,1,114,verified matching physical site
+a-k-28,2022,Strongylocentrotus purpuratus,Cavern Point,Cavern Point,single,1,51,verified matching physical site
+a-k-29,2012,Strongylocentrotus franciscanus,Little Scorpion,Little Scorpion,single,1,194,verified matching physical site
+a-k-29,2012,Strongylocentrotus purpuratus,Little Scorpion,Little Scorpion,single,1,229,verified matching physical site
+a-k-29,2013,Strongylocentrotus franciscanus,Little Scorpion,Little Scorpion,single,1,202,verified matching physical site
+a-k-29,2013,Strongylocentrotus purpuratus,Little Scorpion,Little Scorpion,single,1,206,verified matching physical site
+a-k-29,2014,Strongylocentrotus franciscanus,Little Scorpion,Little Scorpion,single,1,215,verified matching physical site
+a-k-29,2014,Strongylocentrotus purpuratus,Little Scorpion,Little Scorpion,single,1,228,verified matching physical site
+a-k-29,2015,Strongylocentrotus franciscanus,Little Scorpion,Little Scorpion,single,1,207,verified matching physical site
+a-k-29,2015,Strongylocentrotus purpuratus,Little Scorpion,Little Scorpion,single,1,217,verified matching physical site
+a-k-29,2016,Strongylocentrotus franciscanus,Little Scorpion,Little Scorpion,single,1,191,verified matching physical site
+a-k-29,2016,Strongylocentrotus purpuratus,Little Scorpion,Little Scorpion,single,1,200,verified matching physical site
+a-k-29,2017,Strongylocentrotus franciscanus,Little Scorpion,Little Scorpion,single,1,208,verified matching physical site
+a-k-29,2017,Strongylocentrotus purpuratus,Little Scorpion,Little Scorpion,single,1,231,verified matching physical site
+a-k-29,2018,Strongylocentrotus franciscanus,Little Scorpion,Little Scorpion,single,1,270,verified matching physical site
+a-k-29,2018,Strongylocentrotus purpuratus,Little Scorpion,Little Scorpion,single,1,299,verified matching physical site
+a-k-29,2019,Strongylocentrotus franciscanus,Little Scorpion,Little Scorpion,single,1,219,verified matching physical site
+a-k-29,2019,Strongylocentrotus purpuratus,Little Scorpion,Little Scorpion,single,1,197,verified matching physical site
+a-k-29,2021,Strongylocentrotus franciscanus,Little Scorpion,Little Scorpion,single,1,213,verified matching physical site
+a-k-29,2021,Strongylocentrotus purpuratus,Little Scorpion,Little Scorpion,single,1,206,verified matching physical site
+a-k-29,2022,Strongylocentrotus franciscanus,Little Scorpion,Little Scorpion,single,1,162,verified matching physical site
+a-k-29,2022,Strongylocentrotus purpuratus,Little Scorpion,Little Scorpion,single,1,212,verified matching physical site
+a-k-30,2012,Strongylocentrotus franciscanus,Pedro Reef,Pedro Reef,single,1,320,verified matching physical site
+a-k-30,2012,Strongylocentrotus purpuratus,Pedro Reef,Pedro Reef,single,1,394,verified matching physical site
+a-k-30,2013,Strongylocentrotus franciscanus,Pedro Reef,Pedro Reef,single,1,258,verified matching physical site
+a-k-30,2013,Strongylocentrotus purpuratus,Pedro Reef,Pedro Reef,single,1,303,verified matching physical site
+a-k-30,2014,Strongylocentrotus franciscanus,Pedro Reef,Pedro Reef,single,1,218,verified matching physical site
+a-k-30,2014,Strongylocentrotus purpuratus,Pedro Reef,Pedro Reef,single,1,220,verified matching physical site
+a-k-30,2015,Strongylocentrotus franciscanus,Pedro Reef,Pedro Reef,single,1,217,verified matching physical site
+a-k-30,2015,Strongylocentrotus purpuratus,Pedro Reef,Pedro Reef,single,1,298,verified matching physical site
+a-k-30,2016,Strongylocentrotus franciscanus,Pedro Reef,Pedro Reef,single,1,220,verified matching physical site
+a-k-30,2016,Strongylocentrotus purpuratus,Pedro Reef,Pedro Reef,single,1,317,verified matching physical site
+a-k-30,2017,Strongylocentrotus franciscanus,Pedro Reef,Pedro Reef,single,1,203,verified matching physical site
+a-k-30,2017,Strongylocentrotus purpuratus,Pedro Reef,Pedro Reef,single,1,204,verified matching physical site
+a-k-30,2018,Strongylocentrotus franciscanus,Pedro Reef,Pedro Reef,single,1,235,verified matching physical site
+a-k-30,2018,Strongylocentrotus purpuratus,Pedro Reef,Pedro Reef,single,1,251,verified matching physical site
+a-k-30,2019,Strongylocentrotus franciscanus,Pedro Reef,Pedro Reef,single,1,200,verified matching physical site
+a-k-30,2019,Strongylocentrotus purpuratus,Pedro Reef,Pedro Reef,single,1,208,verified matching physical site
+a-k-30,2021,Strongylocentrotus franciscanus,Pedro Reef,Pedro Reef,single,1,191,verified matching physical site
+a-k-30,2021,Strongylocentrotus purpuratus,Pedro Reef,Pedro Reef,single,1,206,verified matching physical site
+a-k-30,2022,Strongylocentrotus franciscanus,Pedro Reef,Pedro Reef,single,1,195,verified matching physical site
+a-k-30,2022,Strongylocentrotus purpuratus,Pedro Reef,Pedro Reef,single,1,246,verified matching physical site
+a-k-31,2012,Strongylocentrotus franciscanus,Keyhole,Keyhole,single,1,211,verified matching physical site
+a-k-31,2012,Strongylocentrotus purpuratus,Keyhole,Keyhole,single,1,352,verified matching physical site
+a-k-31,2013,Strongylocentrotus franciscanus,Keyhole,Keyhole,single,1,203,verified matching physical site
+a-k-31,2013,Strongylocentrotus purpuratus,Keyhole,Keyhole,single,1,210,verified matching physical site
+a-k-31,2014,Strongylocentrotus franciscanus,Keyhole,Keyhole,single,1,217,verified matching physical site
+a-k-31,2014,Strongylocentrotus purpuratus,Keyhole,Keyhole,single,1,208,verified matching physical site
+a-k-31,2015,Strongylocentrotus franciscanus,Keyhole,Keyhole,single,1,202,verified matching physical site
+a-k-31,2015,Strongylocentrotus purpuratus,Keyhole,Keyhole,single,1,204,verified matching physical site
+a-k-31,2016,Strongylocentrotus franciscanus,Keyhole,Keyhole,single,1,199,verified matching physical site
+a-k-31,2016,Strongylocentrotus purpuratus,Keyhole,Keyhole,single,1,226,verified matching physical site
+a-k-31,2017,Strongylocentrotus franciscanus,Keyhole,Keyhole,single,1,140,verified matching physical site
+a-k-31,2017,Strongylocentrotus purpuratus,Keyhole,Keyhole,single,1,231,verified matching physical site
+a-k-31,2018,Strongylocentrotus franciscanus,Keyhole,Keyhole,single,1,215,verified matching physical site
+a-k-31,2018,Strongylocentrotus purpuratus,Keyhole,Keyhole,single,1,213,verified matching physical site
+a-k-31,2019,Strongylocentrotus franciscanus,Keyhole,Keyhole,single,1,115,verified matching physical site
+a-k-31,2019,Strongylocentrotus purpuratus,Keyhole,Keyhole,single,1,199,verified matching physical site
+a-k-31,2021,Strongylocentrotus franciscanus,Keyhole,Keyhole,single,1,200,verified matching physical site
+a-k-31,2021,Strongylocentrotus purpuratus,Keyhole,Keyhole,single,1,207,verified matching physical site
+a-k-31,2022,Strongylocentrotus franciscanus,Keyhole,Keyhole,single,1,69,verified matching physical site
+a-k-31,2022,Strongylocentrotus purpuratus,Keyhole,Keyhole,single,1,210,verified matching physical site
+a-k-32,2012,Strongylocentrotus franciscanus,East Fish Camp,East Fish Camp,single,1,192,verified matching physical site
+a-k-32,2012,Strongylocentrotus purpuratus,East Fish Camp,East Fish Camp,single,1,216,verified matching physical site
+a-k-32,2013,Strongylocentrotus franciscanus,East Fish Camp,East Fish Camp,single,1,230,verified matching physical site
+a-k-32,2013,Strongylocentrotus purpuratus,East Fish Camp,East Fish Camp,single,1,240,verified matching physical site
+a-k-32,2014,Strongylocentrotus franciscanus,East Fish Camp,East Fish Camp,single,1,210,verified matching physical site
+a-k-32,2014,Strongylocentrotus purpuratus,East Fish Camp,East Fish Camp,single,1,215,verified matching physical site
+a-k-32,2015,Strongylocentrotus franciscanus,East Fish Camp,East Fish Camp,single,1,210,verified matching physical site
+a-k-32,2015,Strongylocentrotus purpuratus,East Fish Camp,East Fish Camp,single,1,367,verified matching physical site
+a-k-32,2016,Strongylocentrotus franciscanus,East Fish Camp,East Fish Camp,single,1,205,verified matching physical site
+a-k-32,2016,Strongylocentrotus purpuratus,East Fish Camp,East Fish Camp,single,1,214,verified matching physical site
+a-k-32,2017,Strongylocentrotus franciscanus,East Fish Camp,East Fish Camp,single,1,230,verified matching physical site
+a-k-32,2017,Strongylocentrotus purpuratus,East Fish Camp,East Fish Camp,single,1,231,verified matching physical site
+a-k-32,2018,Strongylocentrotus franciscanus,East Fish Camp,East Fish Camp,single,1,189,verified matching physical site
+a-k-32,2018,Strongylocentrotus purpuratus,East Fish Camp,East Fish Camp,single,1,228,verified matching physical site
+a-k-32,2019,Strongylocentrotus franciscanus,East Fish Camp,East Fish Camp,single,1,211,verified matching physical site
+a-k-32,2019,Strongylocentrotus purpuratus,East Fish Camp,East Fish Camp,single,1,215,verified matching physical site
+a-k-32,2021,Strongylocentrotus franciscanus,East Fish Camp,East Fish Camp,single,1,206,verified matching physical site
+a-k-32,2021,Strongylocentrotus purpuratus,East Fish Camp,East Fish Camp,single,1,225,verified matching physical site
+a-k-32,2022,Strongylocentrotus franciscanus,East Fish Camp,East Fish Camp,single,1,216,verified matching physical site
+a-k-32,2022,Strongylocentrotus purpuratus,East Fish Camp,East Fish Camp,single,1,249,verified matching physical site
+a-k-33,2012,Strongylocentrotus franciscanus,Black Seabass Reef,Black Sea Bass Reef,single,1,134,verified matching physical site
+a-k-33,2012,Strongylocentrotus purpuratus,Black Seabass Reef,Black Sea Bass Reef,single,1,211,verified matching physical site
+a-k-33,2013,Strongylocentrotus franciscanus,Black Seabass Reef,Black Sea Bass Reef,single,1,85,verified matching physical site
+a-k-33,2013,Strongylocentrotus purpuratus,Black Seabass Reef,Black Sea Bass Reef,single,1,96,verified matching physical site
+a-k-33,2014,Strongylocentrotus franciscanus,Black Seabass Reef,Black Sea Bass Reef,single,1,68,verified matching physical site
+a-k-33,2014,Strongylocentrotus purpuratus,Black Seabass Reef,Black Sea Bass Reef,single,1,16,verified matching physical site
+a-k-33,2015,Strongylocentrotus franciscanus,Black Seabass Reef,Black Sea Bass Reef,single,1,59,verified matching physical site
+a-k-33,2015,Strongylocentrotus purpuratus,Black Seabass Reef,Black Sea Bass Reef,single,1,16,verified matching physical site
+a-k-33,2016,Strongylocentrotus franciscanus,Black Seabass Reef,Black Sea Bass Reef,single,1,27,verified matching physical site
+a-k-33,2016,Strongylocentrotus purpuratus,Black Seabass Reef,Black Sea Bass Reef,single,1,15,verified matching physical site
+a-k-33,2017,Strongylocentrotus franciscanus,Black Seabass Reef,Black Sea Bass Reef,single,1,75,verified matching physical site
+a-k-33,2017,Strongylocentrotus purpuratus,Black Seabass Reef,Black Sea Bass Reef,single,1,44,verified matching physical site
+a-k-33,2018,Strongylocentrotus franciscanus,Black Seabass Reef,Black Sea Bass Reef,single,1,25,verified matching physical site
+a-k-33,2018,Strongylocentrotus purpuratus,Black Seabass Reef,Black Sea Bass Reef,single,1,51,verified matching physical site
+a-k-33,2019,Strongylocentrotus franciscanus,Black Seabass Reef,Black Sea Bass Reef,single,1,23,verified matching physical site
+a-k-33,2019,Strongylocentrotus purpuratus,Black Seabass Reef,Black Sea Bass Reef,single,1,14,verified matching physical site
+a-k-33,2021,Strongylocentrotus franciscanus,Black Seabass Reef,Black Sea Bass Reef,single,1,2,verified matching physical site
+a-k-33,2021,Strongylocentrotus purpuratus,Black Seabass Reef,Black Sea Bass Reef,single,1,11,verified matching physical site
+a-k-33,2022,Strongylocentrotus franciscanus,Black Seabass Reef,Black Sea Bass Reef,single,1,4,verified matching physical site
+a-k-33,2022,Strongylocentrotus purpuratus,Black Seabass Reef,Black Sea Bass Reef,single,1,14,verified matching physical site
+a-k-34,2012,Strongylocentrotus franciscanus,Lighthouse,Lighthouse,single,1,228,verified matching physical site
+a-k-34,2012,Strongylocentrotus purpuratus,Lighthouse,Lighthouse,single,1,244,verified matching physical site
+a-k-34,2013,Strongylocentrotus franciscanus,Lighthouse,Lighthouse,single,1,210,verified matching physical site
+a-k-34,2013,Strongylocentrotus purpuratus,Lighthouse,Lighthouse,single,1,227,verified matching physical site
+a-k-34,2014,Strongylocentrotus franciscanus,Lighthouse,Lighthouse,single,1,230,verified matching physical site
+a-k-34,2014,Strongylocentrotus purpuratus,Lighthouse,Lighthouse,single,1,298,verified matching physical site
+a-k-34,2015,Strongylocentrotus franciscanus,Lighthouse,Lighthouse,single,1,201,verified matching physical site
+a-k-34,2015,Strongylocentrotus purpuratus,Lighthouse,Lighthouse,single,1,227,verified matching physical site
+a-k-34,2016,Strongylocentrotus franciscanus,Lighthouse,Lighthouse,single,1,216,verified matching physical site
+a-k-34,2016,Strongylocentrotus purpuratus,Lighthouse,Lighthouse,single,1,211,verified matching physical site
+a-k-34,2017,Strongylocentrotus franciscanus,Lighthouse,Lighthouse,single,1,219,verified matching physical site
+a-k-34,2017,Strongylocentrotus purpuratus,Lighthouse,Lighthouse,single,1,319,verified matching physical site
+a-k-34,2018,Strongylocentrotus franciscanus,Lighthouse,Lighthouse,single,1,211,verified matching physical site
+a-k-34,2018,Strongylocentrotus purpuratus,Lighthouse,Lighthouse,single,1,205,verified matching physical site
+a-k-34,2019,Strongylocentrotus franciscanus,Lighthouse,Lighthouse,single,1,291,verified matching physical site
+a-k-34,2019,Strongylocentrotus purpuratus,Lighthouse,Lighthouse,single,1,347,verified matching physical site
+a-k-34,2021,Strongylocentrotus franciscanus,Lighthouse,Lighthouse,single,1,197,verified matching physical site
+a-k-34,2021,Strongylocentrotus purpuratus,Lighthouse,Lighthouse,single,1,218,verified matching physical site
+a-k-34,2022,Strongylocentrotus franciscanus,Lighthouse,Lighthouse,single,1,266,verified matching physical site
+a-k-34,2022,Strongylocentrotus purpuratus,Lighthouse,Lighthouse,single,1,261,verified matching physical site
+a-k-36,2012,Strongylocentrotus franciscanus,Graveyard Canyon,Graveyard Canyon,single,1,197,verified matching physical site
+a-k-36,2012,Strongylocentrotus purpuratus,Graveyard Canyon,Graveyard Canyon,single,1,249,verified matching physical site
+a-k-36,2013,Strongylocentrotus franciscanus,Graveyard Canyon,Graveyard Canyon,single,1,200,verified matching physical site
+a-k-36,2013,Strongylocentrotus purpuratus,Graveyard Canyon,Graveyard Canyon,single,1,216,verified matching physical site
+a-k-36,2014,Strongylocentrotus franciscanus,Graveyard Canyon,Graveyard Canyon,single,1,216,verified matching physical site
+a-k-36,2014,Strongylocentrotus purpuratus,Graveyard Canyon,Graveyard Canyon,single,1,216,verified matching physical site
+a-k-36,2015,Strongylocentrotus franciscanus,Graveyard Canyon,Graveyard Canyon,single,1,134,verified matching physical site
+a-k-36,2015,Strongylocentrotus purpuratus,Graveyard Canyon,Graveyard Canyon,single,1,215,verified matching physical site
+a-k-36,2016,Strongylocentrotus franciscanus,Graveyard Canyon,Graveyard Canyon,single,1,5,verified matching physical site
+a-k-36,2016,Strongylocentrotus purpuratus,Graveyard Canyon,Graveyard Canyon,single,1,54,verified matching physical site
+a-k-36,2017,Strongylocentrotus purpuratus,Graveyard Canyon,Graveyard Canyon,single,1,28,verified matching physical site
+a-k-36,2018,Strongylocentrotus purpuratus,Graveyard Canyon,Graveyard Canyon,single,1,99,verified matching physical site
+a-k-36,2019,Strongylocentrotus franciscanus,Graveyard Canyon,Graveyard Canyon,single,1,1,verified matching physical site
+a-k-36,2019,Strongylocentrotus purpuratus,Graveyard Canyon,Graveyard Canyon,single,1,128,verified matching physical site
+a-k-36,2021,Strongylocentrotus franciscanus,Graveyard Canyon,Graveyard Canyon,single,1,1,verified matching physical site
+a-k-36,2021,Strongylocentrotus purpuratus,Graveyard Canyon,Graveyard Canyon,single,1,116,verified matching physical site
+a-k-36,2022,Strongylocentrotus franciscanus,Graveyard Canyon,Graveyard Canyon,single,1,2,verified matching physical site
+a-k-36,2022,Strongylocentrotus purpuratus,Graveyard Canyon,Graveyard Canyon,single,1,186,verified matching physical site

@@ -1,0 +1,8 @@
+scenario,supported_years,lost_supported_years,new_supported_years,fitted_histories,before_after,post_only
+main,2939,0,0,162,62,100
+without_webster,2939,0,0,162,62,100
+without_miracle,2939,0,0,162,62,100
+without_wyckoff,2737,202,0,156,57,99
+matched_main_without_wyckoff,2737,202,0,156,57,99
+without_flagged,2722,217,0,155,57,98
+matched_main_without_flagged,2722,217,0,155,57,98

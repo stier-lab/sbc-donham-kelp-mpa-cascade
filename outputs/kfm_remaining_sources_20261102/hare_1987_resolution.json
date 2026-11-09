@@ -1,0 +1,14 @@
+{
+  "status": "Use original legacy measurements; independently supported by published frequency table",
+  "site": "a-k-02",
+  "year": 1987,
+  "classcode": "Strongylocentrotus purpuratus",
+  "n": 102,
+  "source_file": "/Users/adrianstier/sbc-donham-kelp-mpa-data/data/source_archive/kfm_size_feasibility_2026-10-29/legacy/Invertebrate Size Frequency.csv",
+  "source_sha256": "d9bfeaf4fb40711e9654da6e20822aaa9dbb68c6a0c522796fcf7a90951f278a",
+  "published_url": "https://irma.nps.gov/DataStore/DownloadFile/640174",
+  "pdf_page": 274,
+  "printed_page": "Appx.5-26",
+  "bin_checks": 20,
+  "scope": "Frequency table corroborates totals and bins; exact sizes come from original legacy records, not reconstructed bin midpoints."
+}

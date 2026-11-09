@@ -1,0 +1,7 @@
+Warning messages:
+1: In nls(foSIG, start = parStart, algorithm = "port", lower = c(M = -50,  ... :
+  Convergence failure: singular convergence (7)
+2: In nls(foSIG, start = parStart, algorithm = "port", lower = c(M = -50,  ... :
+  Convergence failure: false convergence (8)
+3: In nls(foSIG, start = parStart, algorithm = "port", lower = c(M = -50,  ... :
+  Convergence failure: false convergence (8)
