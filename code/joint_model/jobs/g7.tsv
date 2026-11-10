@@ -1,0 +1,8 @@
+g7_purp_rw_cap90.json	fit --taxon "S. purpuratus" --curve rw --marg-b --step0 0.01 --accept 0.99 --pisco-cap 90 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g7_purp_rw_cap30.json	fit --taxon "S. purpuratus" --curve rw --marg-b --step0 0.01 --accept 0.99 --pisco-cap 30 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g7_purp_piecewise_cap90.json	fit --taxon "S. purpuratus" --curve piecewise --marg-b --step0 0.01 --accept 0.99 --pisco-cap 90 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g7_purp_piecewise_cap30.json	fit --taxon "S. purpuratus" --curve piecewise --marg-b --step0 0.01 --accept 0.99 --pisco-cap 30 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g7_red_rw_cap90.json	fit --taxon "M. franciscanus" --curve rw --marg-b --step0 0.01 --accept 0.99 --pisco-cap 90 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g7_red_rw_cap30.json	fit --taxon "M. franciscanus" --curve rw --marg-b --step0 0.01 --accept 0.99 --pisco-cap 30 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g7_red_piecewise_cap90.json	fit --taxon "M. franciscanus" --curve piecewise --marg-b --step0 0.01 --accept 0.99 --pisco-cap 90 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g7_red_piecewise_cap30.json	fit --taxon "M. franciscanus" --curve piecewise --marg-b --step0 0.01 --accept 0.99 --pisco-cap 30 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4

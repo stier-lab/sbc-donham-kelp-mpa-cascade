@@ -1,0 +1,41 @@
+{
+ "ok": true,
+ "not_applicable": true,
+ "reason": "station or MPA not in this taxon's data",
+ "taxon": "M. franciscanus",
+ "mode": "fit",
+ "n_obs": 14429,
+ "cells": 2921,
+ "stations": 107,
+ "n_mpas": 13,
+ "programs": [
+  "KFM",
+  "LTER",
+  "PISCO"
+ ],
+ "stations_removed": 0,
+ "relabelled": [],
+ "units_capped": 0,
+ "placebo_year": null,
+ "omit_mpa": [],
+ "omit_station": [
+  "KFM|a-k-35"
+ ],
+ "pisco_cap": null,
+ "curve": "piecewise",
+ "shock": true,
+ "warmup": 2000,
+ "samples": 2000,
+ "chains": 4,
+ "seed": 1,
+ "depth": 10,
+ "centered": true,
+ "level_dev": false,
+ "tau_d_scale": 1.0,
+ "center_b": false,
+ "init": "tight",
+ "dense": false,
+ "marg_b": true,
+ "step0": 0.01,
+ "accept": 0.99
+}

@@ -1,0 +1,16 @@
+g4_purp_rw_margb99.json	fit --taxon "S. purpuratus" --curve rw --marg-b --seed 1 --warmup 3000 --samples 6000 --chains 4 --cpus 4 --step0 0.01 --accept 0.99 --ppc 200
+g4_purp_rw_margbdense99.json	fit --taxon "S. purpuratus" --curve rw --marg-b --dense --seed 1 --warmup 3000 --samples 6000 --chains 4 --cpus 4 --step0 0.01 --accept 0.99 --ppc 200
+g4_purp_piecewise_margb99.json	fit --taxon "S. purpuratus" --curve piecewise --marg-b --seed 1 --warmup 3000 --samples 6000 --chains 4 --cpus 4 --step0 0.01 --accept 0.99 --ppc 200
+g4_purp_piecewise_margbdense99.json	fit --taxon "S. purpuratus" --curve piecewise --marg-b --dense --seed 1 --warmup 3000 --samples 6000 --chains 4 --cpus 4 --step0 0.01 --accept 0.99 --ppc 200
+g4_red_rw_margb99.json	fit --taxon "M. franciscanus" --curve rw --marg-b --seed 1 --warmup 3000 --samples 6000 --chains 4 --cpus 4 --step0 0.01 --accept 0.99 --ppc 200
+g4_red_rw_margbdense99.json	fit --taxon "M. franciscanus" --curve rw --marg-b --dense --seed 1 --warmup 3000 --samples 6000 --chains 4 --cpus 4 --step0 0.01 --accept 0.99 --ppc 200
+g4_red_piecewise_margb99.json	fit --taxon "M. franciscanus" --curve piecewise --marg-b --seed 1 --warmup 3000 --samples 6000 --chains 4 --cpus 4 --step0 0.01 --accept 0.99 --ppc 200
+g4_red_piecewise_margbdense99.json	fit --taxon "M. franciscanus" --curve piecewise --marg-b --dense --seed 1 --warmup 3000 --samples 6000 --chains 4 --cpus 4 --step0 0.01 --accept 0.99 --ppc 200
+g4_lob_rw_base99.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve rw --seed 1 --warmup 3000 --samples 6000 --chains 4 --cpus 4 --step0 0.01 --accept 0.99 --ppc 200
+g4_lob_rw_cb99.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve rw --center-b --seed 1 --warmup 3000 --samples 6000 --chains 4 --cpus 4 --step0 0.01 --accept 0.99 --ppc 200
+g4_lob_piecewise_base99.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve piecewise --seed 1 --warmup 3000 --samples 6000 --chains 4 --cpus 4 --step0 0.01 --accept 0.99 --ppc 200
+g4_lob_piecewise_cb99.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve piecewise --center-b --seed 1 --warmup 3000 --samples 6000 --chains 4 --cpus 4 --step0 0.01 --accept 0.99 --ppc 200
+g4_sheep_rw_base99.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve rw --seed 1 --warmup 3000 --samples 6000 --chains 4 --cpus 4 --step0 0.01 --accept 0.99 --ppc 200
+g4_sheep_rw_cb99.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve rw --center-b --seed 1 --warmup 3000 --samples 6000 --chains 4 --cpus 4 --step0 0.01 --accept 0.99 --ppc 200
+g4_sheep_piecewise_base99.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve piecewise --seed 1 --warmup 3000 --samples 6000 --chains 4 --cpus 4 --step0 0.01 --accept 0.99 --ppc 200
+g4_sheep_piecewise_cb99.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve piecewise --center-b --seed 1 --warmup 3000 --samples 6000 --chains 4 --cpus 4 --step0 0.01 --accept 0.99 --ppc 200

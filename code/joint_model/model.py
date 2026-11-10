@@ -12,14 +12,28 @@ import numpyro
 import numpyro.distributions as dist
 
 
-def model(D, B, curve="piecewise", shock=True, y=None, centered=True, level_dev=False):
+def model(D, B, curve="piecewise", shock=True, y=None, centered=True, level_dev=False,
+          tau_d_scale=1.0, center_b=False, expose=False, marg_b=False):
+    """tau_d_scale: prior scale of the between-MPA SD of the decade rate (sensitivity).
+    center_b: sample station baselines directly (same model; better mixing when stations are data-rich).
+    marg_b: integrate the station baselines out analytically (same model, centered station process only). The
+        sampled state is then x = baseline + AR(1) deviation, and the Gaussian baseline enters as a rank-one term in
+        the covariance of each station's states. Removes the ridge between a station's baseline and the mean of its
+        persistent AR(1) deviations, which is what slows sigma_b and rho.
+    expose: record the linear predictor without visit noise, for posterior predictive checks."""
     S, M, P, R, T = len(D["stations"]), len(D["mpas"]), len(D["programs"]), len(D["regions"]), len(D["years"])
     V = len(D["visit_prog"]); J = B.shape[1]
     HN = dist.HalfNormal
     # station baselines
     mu_b = numpyro.sample("mu_b", dist.Normal(D["log_mean_density"], 3.0).expand([P]))
     sigma_b = numpyro.sample("sigma_b", HN(1.5).expand([P]))
-    z_b = numpyro.sample("z_b", dist.Normal(0, 1).expand([S]))
+    marg_b = marg_b and centered
+    if marg_b:
+        b0 = mu_b[D["st_prog"]]           # prior mean only; the random part is integrated out below
+    elif center_b:
+        b0 = numpyro.sample("b_station", dist.Normal(mu_b[D["st_prog"]], sigma_b[D["st_prog"]]))
+    else:
+        b0 = mu_b[D["st_prog"]] + sigma_b[D["st_prog"]] * numpyro.sample("z_b", dist.Normal(0, 1).expand([S]))
     # siting difference
     mu_lam = numpyro.sample("mu_lambda", dist.Normal(0, 1.0))
     sigma_lam = numpyro.sample("sigma_lambda", HN(1.0))
@@ -27,7 +41,7 @@ def model(D, B, curve="piecewise", shock=True, y=None, centered=True, level_dev=
     ba = jnp.asarray(D["mpa_ba"])
     lam = jnp.where(ba == 1, mu_lam + sigma_lam * z_lam, 3.0 * z_lam)
     numpyro.deterministic("lambda", lam)
-    b = mu_b[D["st_prog"]] + sigma_b[D["st_prog"]] * z_b + D["st_prot"] * lam[D["st_mpa"]]
+    b = b0 + D["st_prot"] * lam[D["st_mpa"]]
     # region-year
     sigma_g = numpyro.sample("sigma_region_year", HN(1.0))
     gam = sigma_g * numpyro.sample("z_region_year", dist.Normal(0, 1).expand([R, T]))
@@ -42,7 +56,20 @@ def model(D, B, curve="piecewise", shock=True, y=None, centered=True, level_dev=
         lp_first = dist.Normal(0.0, sigma_d / jnp.sqrt(1 - rho ** 2)).log_prob(delta)
         lp_next = dist.Normal(rho * prev, sigma_d).log_prob(delta)
         lp_out = dist.Normal(0.0, 1.0).log_prob(delta)
-        numpyro.factor("ar1", jnp.sum(first * lp_first + inside * lp_next + (1 - first - inside) * lp_out))
+        if marg_b:
+            # delta holds x - log_mean_density (x = baseline + deviation); r = x - prior mean of the baseline
+            r = delta + D["log_mean_density"] - b[None, :]
+            prev_r = jnp.concatenate([jnp.zeros((1, S)), r[:-1]], 0)
+            lp_first = dist.Normal(0.0, sigma_d / jnp.sqrt(1 - rho ** 2)).log_prob(r)
+            lp_next = dist.Normal(rho * prev_r, sigma_d).log_prob(r)
+            has_next = jnp.concatenate([inside[1:], jnp.zeros((1, S))], 0)
+            w = (first + inside) * ((1 - rho ** 2 * first) + rho ** 2 * has_next - rho * (inside + has_next)) / sigma_d ** 2
+            a = jnp.sum(w, 0); c = jnp.sum(w * r, 0); sb2 = sigma_b[D["st_prog"]] ** 2
+            rank_one = jnp.sum(-0.5 * jnp.log1p(sb2 * a) + 0.5 * sb2 * c ** 2 / (1 + sb2 * a))
+            numpyro.factor("ar1", jnp.sum(first * lp_first + inside * lp_next + (1 - first - inside) * lp_out) + rank_one)
+            state = delta + D["log_mean_density"]     # replaces baseline + deviation in the linear predictor
+        else:
+            numpyro.factor("ar1", jnp.sum(first * lp_first + inside * lp_next + (1 - first - inside) * lp_out))
     else:          # innovations parameterization: needed when the process SD is near zero (lobster, sheephead)
         z = numpyro.sample("delta", dist.Normal(0, 1).expand([T, S]))
         def step(prev, x):
@@ -67,7 +94,7 @@ def model(D, B, curve="piecewise", shock=True, y=None, centered=True, level_dev=
     else:
         e10 = numpyro.sample("E10", dist.Normal(0, 1.5))
         g_obs = e10 * D["age"] / 10.0
-    tau_D = numpyro.sample("tau_D", HN(1.0))
+    tau_D = numpyro.sample("tau_D", HN(1.0 * tau_d_scale))
     Dm = tau_D * numpyro.sample("z_D", dist.Normal(0, 1).expand([M]))
     numpyro.deterministic("D_mpa", Dm)
     if level_dev:  # MPA-specific shift in the level of the response (needed when the response is step-like)
@@ -92,13 +119,22 @@ def model(D, B, curve="piecewise", shock=True, y=None, centered=True, level_dev=
     mon = numpyro.sample("month_raw", dist.Normal(0, 0.5).expand([12]))
     mon = mon - mon.mean()
     inv_sqrt_phi = numpyro.sample("inv_sqrt_phi", HN(1.0).expand([P]))
-    phi = 1.0 / inv_sqrt_phi ** 2
-    eta = b[s] + gam[D["st_region"][s], t] + delta[t, s] + F + nu[D["v"]] + zeta[D["zone"]] + mon[D["month"]]
+    # Numerical guard. As inv_sqrt_phi -> 0 the counts become Poisson and the likelihood is flat in this parameter.
+    # A chain that coasts far along that flat direction in early warm-up makes phi astronomically large; the lgamma
+    # terms below then cancel catastrophically, the log density turns into rounding noise, every proposal is rejected,
+    # the step size adapts to zero and the chain is frozen for the rest of the run (the sheephead failure). Capping
+    # phi at 1e8 (where the negative binomial equals the Poisson to about 1e-8) keeps the density smooth, so the chain
+    # can come back. The prior on inv_sqrt_phi is unchanged.
+    phi = 1.0 / jnp.clip(inv_sqrt_phi, 1e-4, None) ** 2
+    level = state[t, s] if marg_b else b[s] + delta[t, s]
+    eta = level + gam[D["st_region"][s], t] + F + nu[D["v"]] + zeta[D["zone"]] + mon[D["month"]]
     mean = jnp.exp(eta + D["log_area"])
+    if expose:
+        numpyro.deterministic("eta_novisit", eta - nu[D["v"]])
     # Negative binomial log likelihood, exact, in two parts: cell totals carry the mean; unit counts carry the
     # dispersion (lgamma evaluated once per distinct count and program). Constant lgamma(y + 1) is dropped.
     ph = phi[D["obs_prog"]]
     lpm = jnp.log(ph + mean)
-    ll_cells = D["n_units"] * ph * (jnp.log(ph) - lpm) + D["cell_y"] * (eta + D["log_area"] - lpm)
+    ll_cells = -D["n_units"] * ph * jnp.log1p(mean / ph) + D["cell_y"] * (eta + D["log_area"] - lpm)
     ll_disp = jnp.sum(D["uniq_mult"] * gammaln(D["uniq_y"] + phi[D["uniq_prog"]])) - jnp.sum(D["prog_units"] * gammaln(phi))
     numpyro.factor("y", jnp.sum(ll_cells) + ll_disp)

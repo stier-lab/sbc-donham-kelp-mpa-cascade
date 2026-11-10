@@ -1,0 +1,38 @@
+{
+ "1": [
+  "PASS",
+  "E10 -1.07 [-1.95, -0.17] against the target -1.07 [-1.95, -0.17]"
+ ],
+ "2": [
+  "PASS",
+  "commit bf5cea2 on local branch joint-model/stage1-validation, made before any change"
+ ],
+ "3": [
+  "PASS",
+  "cause found; frozen chains 14/124 before the fix, 0/92 after"
+ ],
+ "4": [
+  "PASS",
+  "8 of 8 taxon-by-prior fits meet all three thresholds"
+ ],
+ "5": [
+  "FAIL",
+  "12 of 12 scenario-by-prior cells, at least 200 replicates each; coverage outside 0.85 to 0.96 in at least one cell"
+ ],
+ "6": [
+  "FAIL",
+  "time placebo: 1 of 8 main intervals exclude zero; space placebo: 6 of 8 taxon-by-prior cells off-centre"
+ ],
+ "7": [
+  "PASS (bounded)",
+  "subsampling is present for urchins; searched area is not in the delivered files; capping counts moves E10 by at most 0.02"
+ ],
+ "8": [
+  "FAIL",
+  "33 of 88 statistics flagged"
+ ],
+ "9": [
+  "PASS",
+  "50 fits; largest shift in the E10 mean 0.26; 0 fits change whether the 90% interval excludes zero"
+ ]
+}

@@ -1,0 +1,8 @@
+g3_sheep_rw_legacy_s1.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve rw --init legacy --depth 9 --seed 1 --warmup 600 --samples 600 --chains 4 --cpus 4
+g3_sheep_rw_legacy_s2.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve rw --init legacy --depth 9 --seed 2 --warmup 600 --samples 600 --chains 4 --cpus 4
+g3_sheep_rw_legacy_s3.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve rw --init legacy --depth 9 --seed 3 --warmup 600 --samples 600 --chains 4 --cpus 4
+g3_sheep_linear_legacy_s1.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve linear --init legacy --depth 9 --seed 1 --warmup 600 --samples 600 --chains 4 --cpus 4
+g3_sheep_rw_tight_s1.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve rw --init tight --depth 9 --seed 1 --warmup 600 --samples 600 --chains 4 --cpus 4
+g3_sheep_rw_tight_s2.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve rw --init tight --depth 9 --seed 2 --warmup 600 --samples 600 --chains 4 --cpus 4
+g3_sheep_rw_tight_s3.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve rw --init tight --depth 9 --seed 3 --warmup 600 --samples 600 --chains 4 --cpus 4
+g3_sheep_linear_tight_s1.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve linear --init tight --depth 9 --seed 1 --warmup 600 --samples 600 --chains 4 --cpus 4

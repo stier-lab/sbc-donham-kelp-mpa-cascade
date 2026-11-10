@@ -1,0 +1,56 @@
+g9_purp_rw_tauDhalf.json	fit --taxon "S. purpuratus" --curve rw --marg-b --step0 0.01 --accept 0.99 --tau-d-scale 0.5 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_purp_rw_tauDdouble.json	fit --taxon "S. purpuratus" --curve rw --marg-b --step0 0.01 --accept 0.99 --tau-d-scale 2.0 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_purp_rw_noshock.json	fit --taxon "S. purpuratus" --curve rw --marg-b --step0 0.01 --accept 0.99 --no-shock --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_purp_rw_level.json	fit --taxon "S. purpuratus" --curve rw --marg-b --step0 0.01 --accept 0.99 --level-dev --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_purp_rw_noHarris.json	fit --taxon "S. purpuratus" --curve rw --marg-b --step0 0.01 --accept 0.99 --omit-mpa "Harris Point SMR" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_purp_rw_noWebster.json	fit --taxon "S. purpuratus" --curve rw --marg-b --step0 0.01 --accept 0.99 --omit-station "KFM|a-k-35" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_purp_rw_noWyckoff.json	fit --taxon "S. purpuratus" --curve rw --marg-b --step0 0.01 --accept 0.99 --omit-station "KFM|a-k-01" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_purp_piecewise_tauDhalf.json	fit --taxon "S. purpuratus" --curve piecewise --marg-b --step0 0.01 --accept 0.99 --tau-d-scale 0.5 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_purp_piecewise_tauDdouble.json	fit --taxon "S. purpuratus" --curve piecewise --marg-b --step0 0.01 --accept 0.99 --tau-d-scale 2.0 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_purp_piecewise_noshock.json	fit --taxon "S. purpuratus" --curve piecewise --marg-b --step0 0.01 --accept 0.99 --no-shock --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_purp_piecewise_level.json	fit --taxon "S. purpuratus" --curve piecewise --marg-b --step0 0.01 --accept 0.99 --level-dev --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_purp_piecewise_noHarris.json	fit --taxon "S. purpuratus" --curve piecewise --marg-b --step0 0.01 --accept 0.99 --omit-mpa "Harris Point SMR" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_purp_piecewise_noWebster.json	fit --taxon "S. purpuratus" --curve piecewise --marg-b --step0 0.01 --accept 0.99 --omit-station "KFM|a-k-35" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_purp_piecewise_noWyckoff.json	fit --taxon "S. purpuratus" --curve piecewise --marg-b --step0 0.01 --accept 0.99 --omit-station "KFM|a-k-01" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_red_rw_tauDhalf.json	fit --taxon "M. franciscanus" --curve rw --marg-b --step0 0.01 --accept 0.99 --tau-d-scale 0.5 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_red_rw_tauDdouble.json	fit --taxon "M. franciscanus" --curve rw --marg-b --step0 0.01 --accept 0.99 --tau-d-scale 2.0 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_red_rw_noshock.json	fit --taxon "M. franciscanus" --curve rw --marg-b --step0 0.01 --accept 0.99 --no-shock --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_red_rw_level.json	fit --taxon "M. franciscanus" --curve rw --marg-b --step0 0.01 --accept 0.99 --level-dev --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_red_rw_noHarris.json	fit --taxon "M. franciscanus" --curve rw --marg-b --step0 0.01 --accept 0.99 --omit-mpa "Harris Point SMR" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_red_rw_noWebster.json	fit --taxon "M. franciscanus" --curve rw --marg-b --step0 0.01 --accept 0.99 --omit-station "KFM|a-k-35" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_red_rw_noWyckoff.json	fit --taxon "M. franciscanus" --curve rw --marg-b --step0 0.01 --accept 0.99 --omit-station "KFM|a-k-01" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_red_piecewise_tauDhalf.json	fit --taxon "M. franciscanus" --curve piecewise --marg-b --step0 0.01 --accept 0.99 --tau-d-scale 0.5 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_red_piecewise_tauDdouble.json	fit --taxon "M. franciscanus" --curve piecewise --marg-b --step0 0.01 --accept 0.99 --tau-d-scale 2.0 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_red_piecewise_noshock.json	fit --taxon "M. franciscanus" --curve piecewise --marg-b --step0 0.01 --accept 0.99 --no-shock --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_red_piecewise_level.json	fit --taxon "M. franciscanus" --curve piecewise --marg-b --step0 0.01 --accept 0.99 --level-dev --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_red_piecewise_noHarris.json	fit --taxon "M. franciscanus" --curve piecewise --marg-b --step0 0.01 --accept 0.99 --omit-mpa "Harris Point SMR" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_red_piecewise_noWebster.json	fit --taxon "M. franciscanus" --curve piecewise --marg-b --step0 0.01 --accept 0.99 --omit-station "KFM|a-k-35" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_red_piecewise_noWyckoff.json	fit --taxon "M. franciscanus" --curve piecewise --marg-b --step0 0.01 --accept 0.99 --omit-station "KFM|a-k-01" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_lob_rw_tauDhalf.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve rw --step0 0.01 --accept 0.99 --tau-d-scale 0.5 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_lob_rw_tauDdouble.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve rw --step0 0.01 --accept 0.99 --tau-d-scale 2.0 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_lob_rw_noshock.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve rw --step0 0.01 --accept 0.99 --no-shock --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_lob_rw_nolevel.json	fit --taxon "P. interruptus" --noncentered --curve rw --step0 0.01 --accept 0.99 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_lob_rw_noHarris.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve rw --step0 0.01 --accept 0.99 --omit-mpa "Harris Point SMR" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_lob_rw_noWebster.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve rw --step0 0.01 --accept 0.99 --omit-station "KFM|a-k-35" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_lob_rw_noWyckoff.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve rw --step0 0.01 --accept 0.99 --omit-station "KFM|a-k-01" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_lob_piecewise_tauDhalf.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve piecewise --step0 0.01 --accept 0.99 --tau-d-scale 0.5 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_lob_piecewise_tauDdouble.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve piecewise --step0 0.01 --accept 0.99 --tau-d-scale 2.0 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_lob_piecewise_noshock.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve piecewise --step0 0.01 --accept 0.99 --no-shock --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_lob_piecewise_nolevel.json	fit --taxon "P. interruptus" --noncentered --curve piecewise --step0 0.01 --accept 0.99 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_lob_piecewise_noHarris.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve piecewise --step0 0.01 --accept 0.99 --omit-mpa "Harris Point SMR" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_lob_piecewise_noWebster.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve piecewise --step0 0.01 --accept 0.99 --omit-station "KFM|a-k-35" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_lob_piecewise_noWyckoff.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve piecewise --step0 0.01 --accept 0.99 --omit-station "KFM|a-k-01" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_sheep_rw_tauDhalf.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve rw --step0 0.01 --accept 0.99 --tau-d-scale 0.5 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_sheep_rw_tauDdouble.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve rw --step0 0.01 --accept 0.99 --tau-d-scale 2.0 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_sheep_rw_noshock.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve rw --step0 0.01 --accept 0.99 --no-shock --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_sheep_rw_nolevel.json	fit --taxon "S. pulcher" --noncentered --curve rw --step0 0.01 --accept 0.99 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_sheep_rw_noHarris.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve rw --step0 0.01 --accept 0.99 --omit-mpa "Harris Point SMR" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_sheep_rw_noWebster.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve rw --step0 0.01 --accept 0.99 --omit-station "KFM|a-k-35" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_sheep_rw_noWyckoff.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve rw --step0 0.01 --accept 0.99 --omit-station "KFM|a-k-01" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_sheep_piecewise_tauDhalf.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve piecewise --step0 0.01 --accept 0.99 --tau-d-scale 0.5 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_sheep_piecewise_tauDdouble.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve piecewise --step0 0.01 --accept 0.99 --tau-d-scale 2.0 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_sheep_piecewise_noshock.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve piecewise --step0 0.01 --accept 0.99 --no-shock --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_sheep_piecewise_nolevel.json	fit --taxon "S. pulcher" --noncentered --curve piecewise --step0 0.01 --accept 0.99 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_sheep_piecewise_noHarris.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve piecewise --step0 0.01 --accept 0.99 --omit-mpa "Harris Point SMR" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_sheep_piecewise_noWebster.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve piecewise --step0 0.01 --accept 0.99 --omit-station "KFM|a-k-35" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g9_sheep_piecewise_noWyckoff.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve piecewise --step0 0.01 --accept 0.99 --omit-station "KFM|a-k-01" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4

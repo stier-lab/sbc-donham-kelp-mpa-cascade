@@ -1,0 +1,32 @@
+g4_purp_rw_base.json	fit --taxon "S. purpuratus" --curve rw  --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_purp_rw_cb.json	fit --taxon "S. purpuratus" --curve rw --center-b --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_purp_rw_dense.json	fit --taxon "S. purpuratus" --curve rw --dense --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_purp_rw_cbdense.json	fit --taxon "S. purpuratus" --curve rw --center-b --dense --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_purp_piecewise_base.json	fit --taxon "S. purpuratus" --curve piecewise  --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_purp_piecewise_cb.json	fit --taxon "S. purpuratus" --curve piecewise --center-b --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_purp_piecewise_dense.json	fit --taxon "S. purpuratus" --curve piecewise --dense --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_purp_piecewise_cbdense.json	fit --taxon "S. purpuratus" --curve piecewise --center-b --dense --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_red_rw_base.json	fit --taxon "M. franciscanus" --curve rw  --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_red_rw_cb.json	fit --taxon "M. franciscanus" --curve rw --center-b --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_red_rw_dense.json	fit --taxon "M. franciscanus" --curve rw --dense --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_red_rw_cbdense.json	fit --taxon "M. franciscanus" --curve rw --center-b --dense --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_red_piecewise_base.json	fit --taxon "M. franciscanus" --curve piecewise  --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_red_piecewise_cb.json	fit --taxon "M. franciscanus" --curve piecewise --center-b --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_red_piecewise_dense.json	fit --taxon "M. franciscanus" --curve piecewise --dense --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_red_piecewise_cbdense.json	fit --taxon "M. franciscanus" --curve piecewise --center-b --dense --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_lob_rw_base.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve rw  --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_lob_rw_cb.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve rw --center-b --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_lob_rw_dense.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve rw --dense --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_lob_rw_cbdense.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve rw --center-b --dense --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_lob_piecewise_base.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve piecewise  --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_lob_piecewise_cb.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve piecewise --center-b --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_lob_piecewise_dense.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve piecewise --dense --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_lob_piecewise_cbdense.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve piecewise --center-b --dense --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_sheep_rw_base.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve rw  --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_sheep_rw_cb.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve rw --center-b --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_sheep_rw_dense.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve rw --dense --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_sheep_rw_cbdense.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve rw --center-b --dense --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_sheep_piecewise_base.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve piecewise  --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_sheep_piecewise_cb.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve piecewise --center-b --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_sheep_piecewise_dense.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve piecewise --dense --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200
+g4_sheep_piecewise_cbdense.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve piecewise --center-b --dense --seed 1 --warmup 1000 --samples 1000 --chains 4 --cpus 4 --ppc 200

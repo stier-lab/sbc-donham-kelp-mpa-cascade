@@ -1,0 +1,1 @@
+fit_S_purpuratus_rw.json	fit --taxon "S. purpuratus" --curve rw --warmup 600 --samples 600 --chains 4

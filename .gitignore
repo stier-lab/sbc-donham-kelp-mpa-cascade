@@ -93,3 +93,9 @@ outputs/integrated_review_20261103/stage/
 *email_draft*
 *SCOTT_DRAFT*
 draft_source_request_*
+
+# joint-model validation: cluster logs and posterior draws stay out of git
+outputs/joint_model_20261109/validation/logs/
+outputs/joint_model_20261109/validation/draws/
+outputs/joint_model_20261109/validation/g5/
+outputs/joint_model_20261109/validation/g6trend/

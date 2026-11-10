@@ -1,0 +1,320 @@
+simtrend_urchin_up_rw_s1.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 1 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s2.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 2 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s3.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 3 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s4.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 4 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s5.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 5 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s6.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 6 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s7.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 7 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s8.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 8 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s9.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 9 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s10.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 10 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s11.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 11 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s12.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 12 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s13.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 13 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s14.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 14 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s15.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 15 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s16.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 16 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s17.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 17 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s18.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 18 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s19.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 19 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s20.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 20 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s21.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 21 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s22.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 22 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s23.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 23 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s24.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 24 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s25.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 25 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s26.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 26 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s27.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 27 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s28.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 28 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s29.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 29 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s30.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 30 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s31.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 31 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s32.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 32 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s33.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 33 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s34.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 34 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s35.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 35 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s36.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 36 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s37.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 37 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s38.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 38 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s39.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 39 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_rw_s40.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve rw --seed 40 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s1.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 1 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s2.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 2 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s3.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 3 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s4.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 4 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s5.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 5 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s6.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 6 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s7.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 7 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s8.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 8 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s9.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 9 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s10.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 10 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s11.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 11 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s12.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 12 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s13.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 13 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s14.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 14 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s15.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 15 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s16.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 16 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s17.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 17 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s18.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 18 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s19.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 19 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s20.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 20 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s21.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 21 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s22.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 22 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s23.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 23 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s24.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 24 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s25.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 25 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s26.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 26 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s27.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 27 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s28.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 28 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s29.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 29 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s30.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 30 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s31.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 31 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s32.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 32 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s33.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 33 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s34.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 34 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s35.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 35 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s36.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 36 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s37.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 37 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s38.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 38 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s39.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 39 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_rw_s40.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve rw --noncentered --level-dev --seed 40 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s1.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 1 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s2.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 2 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s3.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 3 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s4.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 4 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s5.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 5 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s6.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 6 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s7.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 7 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s8.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 8 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s9.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 9 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s10.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 10 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s11.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 11 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s12.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 12 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s13.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 13 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s14.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 14 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s15.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 15 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s16.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 16 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s17.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 17 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s18.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 18 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s19.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 19 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s20.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 20 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s21.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 21 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s22.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 22 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s23.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 23 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s24.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 24 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s25.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 25 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s26.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 26 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s27.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 27 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s28.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 28 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s29.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 29 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s30.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 30 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s31.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 31 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s32.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 32 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s33.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 33 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s34.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 34 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s35.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 35 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s36.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 36 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s37.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 37 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s38.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 38 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s39.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 39 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_rw_s40.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve rw --seed 40 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s1.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 1 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s2.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 2 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s3.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 3 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s4.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 4 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s5.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 5 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s6.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 6 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s7.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 7 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s8.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 8 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s9.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 9 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s10.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 10 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s11.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 11 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s12.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 12 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s13.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 13 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s14.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 14 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s15.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 15 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s16.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 16 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s17.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 17 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s18.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 18 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s19.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 19 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s20.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 20 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s21.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 21 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s22.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 22 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s23.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 23 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s24.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 24 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s25.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 25 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s26.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 26 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s27.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 27 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s28.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 28 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s29.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 29 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s30.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 30 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s31.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 31 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s32.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 32 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s33.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 33 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s34.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 34 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s35.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 35 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s36.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 36 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s37.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 37 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s38.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 38 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s39.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 39 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_rw_s40.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve rw --noncentered --level-dev --seed 40 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s1.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 1 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s2.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 2 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s3.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 3 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s4.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 4 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s5.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 5 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s6.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 6 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s7.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 7 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s8.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 8 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s9.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 9 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s10.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 10 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s11.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 11 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s12.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 12 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s13.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 13 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s14.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 14 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s15.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 15 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s16.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 16 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s17.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 17 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s18.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 18 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s19.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 19 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s20.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 20 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s21.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 21 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s22.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 22 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s23.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 23 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s24.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 24 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s25.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 25 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s26.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 26 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s27.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 27 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s28.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 28 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s29.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 29 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s30.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 30 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s31.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 31 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s32.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 32 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s33.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 33 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s34.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 34 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s35.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 35 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s36.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 36 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s37.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 37 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s38.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 38 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s39.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 39 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_up_piecewise_s40.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend 0.08 --curve piecewise --seed 40 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s1.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 1 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s2.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 2 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s3.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 3 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s4.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 4 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s5.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 5 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s6.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 6 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s7.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 7 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s8.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 8 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s9.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 9 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s10.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 10 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s11.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 11 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s12.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 12 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s13.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 13 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s14.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 14 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s15.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 15 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s16.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 16 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s17.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 17 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s18.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 18 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s19.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 19 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s20.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 20 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s21.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 21 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s22.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 22 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s23.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 23 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s24.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 24 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s25.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 25 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s26.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 26 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s27.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 27 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s28.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 28 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s29.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 29 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s30.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 30 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s31.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 31 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s32.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 32 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s33.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 33 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s34.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 34 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s35.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 35 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s36.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 36 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s37.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 37 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s38.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 38 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s39.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 39 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_up_piecewise_s40.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend 0.08 --curve piecewise --noncentered --level-dev --seed 40 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s1.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 1 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s2.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 2 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s3.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 3 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s4.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 4 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s5.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 5 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s6.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 6 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s7.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 7 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s8.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 8 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s9.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 9 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s10.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 10 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s11.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 11 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s12.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 12 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s13.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 13 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s14.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 14 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s15.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 15 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s16.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 16 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s17.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 17 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s18.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 18 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s19.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 19 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s20.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 20 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s21.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 21 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s22.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 22 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s23.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 23 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s24.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 24 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s25.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 25 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s26.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 26 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s27.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 27 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s28.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 28 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s29.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 29 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s30.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 30 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s31.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 31 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s32.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 32 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s33.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 33 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s34.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 34 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s35.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 35 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s36.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 36 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s37.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 37 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s38.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 38 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s39.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 39 --warmup 500 --samples 500 --chains 2
+simtrend_urchin_down_piecewise_s40.json	simulate --taxon "S. purpuratus" --truth urchin --scenario null --trend -0.08 --curve piecewise --seed 40 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s1.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 1 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s2.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 2 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s3.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 3 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s4.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 4 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s5.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 5 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s6.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 6 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s7.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 7 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s8.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 8 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s9.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 9 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s10.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 10 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s11.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 11 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s12.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 12 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s13.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 13 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s14.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 14 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s15.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 15 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s16.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 16 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s17.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 17 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s18.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 18 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s19.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 19 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s20.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 20 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s21.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 21 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s22.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 22 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s23.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 23 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s24.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 24 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s25.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 25 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s26.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 26 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s27.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 27 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s28.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 28 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s29.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 29 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s30.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 30 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s31.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 31 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s32.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 32 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s33.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 33 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s34.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 34 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s35.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 35 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s36.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 36 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s37.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 37 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s38.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 38 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s39.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 39 --warmup 500 --samples 500 --chains 2
+simtrend_lobster_down_piecewise_s40.json	simulate --taxon "P. interruptus" --truth lobster --scenario null --trend -0.08 --curve piecewise --noncentered --level-dev --seed 40 --warmup 500 --samples 500 --chains 2

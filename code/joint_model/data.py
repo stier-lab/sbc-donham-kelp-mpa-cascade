@@ -19,7 +19,19 @@ KNOTS = np.array([0, 4, 8, 12, 16, 20], dtype=float)
 ZONES = ["INNER", "MID", "OUTER", "DEEP"]
 
 
-def build(uses_path, taxon, min_before=3, placebo_year=None):
+def build(uses_path, taxon, min_before=3, placebo_year=None, omit_mpas=(), omit_stations=(),
+          space_placebo_seed=None, pisco_cap=None):
+    """Model inputs for one taxon.
+
+    placebo_year: time placebo (KFM years before the real designation, fake designation year).
+    omit_mpas / omit_stations: leave-out sensitivities ("KFM|a-k-01" style station names).
+    space_placebo_seed: drop every protected station, then relabel one randomly chosen reference
+        station (with at least five post-designation survey years) as protected in each MPA with at
+        least three reference stations.
+    pisco_cap: PISCO subsamples dense urchins in the field and extrapolates (delivered files do not
+        record the area searched). With a cap, a PISCO unit count above it is treated as `cap`
+        animals counted on a proportionally smaller area, which bounds the information in the count.
+    """
     u = pd.read_parquet(uses_path)
     u = u[(u.Resp == "Den") & (u.Taxa == taxon) & (u.Source != "Landsat") & u.density.notna()].copy()
     u["MPA"] = u.series_id.str.split("|").str[0]
@@ -31,6 +43,23 @@ def build(uses_path, taxon, min_before=3, placebo_year=None):
     u["zone"] = u.zone.replace({"OUTER MIDDLE": "OUTER", "INMID": "MID", "OUTMID": "OUTER"})
     u.loc[~u.zone.isin(ZONES), "zone"] = "none"
     u["station"] = u.Source + "|" + u.site
+    n_before_omit = u.station.nunique()
+    u = u[~u.MPA.isin(list(omit_mpas)) & ~u.station.isin(list(omit_stations))].copy()
+    removed = n_before_omit - u.station.nunique()
+    relabelled = []
+    if space_placebo_seed is not None:
+        start = u.groupby("MPA").MPA_Start.first()
+        u = u[u.status == "reference"].copy()
+        hm = u.sort_values("MPA").groupby("station").MPA.first()
+        u["MPA"] = u.station.map(hm); u["MPA_Start"] = u.MPA.map(start)
+        rng = np.random.default_rng(space_placebo_seed)
+        post_years = u[u.year >= u.MPA_Start].groupby("station").year.nunique()
+        for m in sorted(hm.unique()):
+            sts = sorted(hm.index[hm == m])
+            ok = [s for s in sts if post_years.get(s, 0) >= 5]      # a fake protected station needs a usable history
+            if len(sts) >= 3 and ok:
+                pick = ok[int(rng.integers(len(ok)))]
+                u.loc[u.station == pick, "status"] = "mpa"; relabelled.append(pick)
     # one MPA per station: protected stations have exactly one; shared references take the first alphabetically
     assert u[u.status == "mpa"].groupby("station").MPA.nunique().max() == 1
     assert u.groupby("station").status.nunique().max() == 1
@@ -39,6 +68,11 @@ def build(uses_path, taxon, min_before=3, placebo_year=None):
     units = u.drop_duplicates("unit_id").copy()
     units["count"] = np.round(units.density * units.area)
     units["month"] = pd.to_datetime(units.date).dt.month
+    capped = 0
+    if pisco_cap:
+        m = (units.Source == "PISCO") & (units["count"] > pisco_cap)
+        units.loc[m, "area"] = units.loc[m, "area"] * pisco_cap / units.loc[m, "count"]
+        units.loc[m, "count"] = pisco_cap; capped = int(m.sum())
     # cells = units sharing a visit, zone and unit area (identical expected count). The likelihood uses cell
     # totals for the mean and every unit count for the dispersion, which is exact for the negative binomial.
     key = ["station", "year", "date", "zone", "month", "area"]
@@ -69,7 +103,8 @@ def build(uses_path, taxon, min_before=3, placebo_year=None):
     span_first = (yy == span["min"].values[None, :]).astype(float)
     span_inside = ((yy > span["min"].values[None, :]) & (yy <= span["max"].values[None, :])).astype(float)
     D = dict(
-        span_first=span_first, span_inside=span_inside,
+        span_first=span_first, span_inside=span_inside, stations_removed=int(removed), relabelled=relabelled, units_capped=capped,
+        unit_station=units.station.map(s_ix).values, unit_year=units.year.values.astype(int), unit_area=units.area.values.astype(float),
         taxon=taxon, stations=stations, mpas=mpas, programs=programs, regions=regions, years=years, knots=KNOTS,
         y=units["count"].values.astype(int), unit_cell=units.cell.values, unit_prog=units.Source.map(p_ix).values,
         log_area=np.log(cells.area.values), n_units=cells.n.values.astype(float),

@@ -1,0 +1,24 @@
+g4_purp_rw_margb.json	fit --taxon "S. purpuratus" --curve rw --marg-b --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4 --step0 0.01 --ppc 200
+g4_purp_rw_margb98.json	fit --taxon "S. purpuratus" --curve rw --marg-b --accept 0.98 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4 --step0 0.01 --ppc 200
+g4_purp_rw_margbdense.json	fit --taxon "S. purpuratus" --curve rw --marg-b --dense --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4 --step0 0.01 --ppc 200
+g4_purp_piecewise_margb.json	fit --taxon "S. purpuratus" --curve piecewise --marg-b --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4 --step0 0.01 --ppc 200
+g4_purp_piecewise_margb98.json	fit --taxon "S. purpuratus" --curve piecewise --marg-b --accept 0.98 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4 --step0 0.01 --ppc 200
+g4_purp_piecewise_margbdense.json	fit --taxon "S. purpuratus" --curve piecewise --marg-b --dense --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4 --step0 0.01 --ppc 200
+g4_red_rw_margb.json	fit --taxon "M. franciscanus" --curve rw --marg-b --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4 --step0 0.01 --ppc 200
+g4_red_rw_margb98.json	fit --taxon "M. franciscanus" --curve rw --marg-b --accept 0.98 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4 --step0 0.01 --ppc 200
+g4_red_rw_margbdense.json	fit --taxon "M. franciscanus" --curve rw --marg-b --dense --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4 --step0 0.01 --ppc 200
+g4_red_piecewise_margb.json	fit --taxon "M. franciscanus" --curve piecewise --marg-b --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4 --step0 0.01 --ppc 200
+g4_red_piecewise_margb98.json	fit --taxon "M. franciscanus" --curve piecewise --marg-b --accept 0.98 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4 --step0 0.01 --ppc 200
+g4_red_piecewise_margbdense.json	fit --taxon "M. franciscanus" --curve piecewise --marg-b --dense --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4 --step0 0.01 --ppc 200
+g4_lob_rw_base98.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve rw --accept 0.98 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4 --step0 0.01 --ppc 200
+g4_lob_rw_cb98.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve rw --center-b --accept 0.98 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4 --step0 0.01 --ppc 200
+g4_lob_rw_margb98.json	fit --taxon "P. interruptus" --level-dev --curve rw --marg-b --accept 0.98 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4 --step0 0.01 --ppc 200
+g4_lob_piecewise_base98.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve piecewise --accept 0.98 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4 --step0 0.01 --ppc 200
+g4_lob_piecewise_cb98.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve piecewise --center-b --accept 0.98 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4 --step0 0.01 --ppc 200
+g4_lob_piecewise_margb98.json	fit --taxon "P. interruptus" --level-dev --curve piecewise --marg-b --accept 0.98 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4 --step0 0.01 --ppc 200
+g4_sheep_rw_base98.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve rw --accept 0.98 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4 --step0 0.01 --ppc 200
+g4_sheep_rw_cb98.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve rw --center-b --accept 0.98 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4 --step0 0.01 --ppc 200
+g4_sheep_rw_margb98.json	fit --taxon "S. pulcher" --level-dev --curve rw --marg-b --accept 0.98 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4 --step0 0.01 --ppc 200
+g4_sheep_piecewise_base98.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve piecewise --accept 0.98 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4 --step0 0.01 --ppc 200
+g4_sheep_piecewise_cb98.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve piecewise --center-b --accept 0.98 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4 --step0 0.01 --ppc 200
+g4_sheep_piecewise_margb98.json	fit --taxon "S. pulcher" --level-dev --curve piecewise --marg-b --accept 0.98 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4 --step0 0.01 --ppc 200

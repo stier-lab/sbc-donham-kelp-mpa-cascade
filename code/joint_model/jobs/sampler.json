@@ -1,0 +1,18 @@
+{
+ "purp": {
+  "rw": "--marg-b --step0 0.01 --accept 0.99",
+  "piecewise": "--marg-b --step0 0.01 --accept 0.99"
+ },
+ "red": {
+  "rw": "--marg-b --step0 0.01 --accept 0.99",
+  "piecewise": "--marg-b --step0 0.01 --accept 0.99"
+ },
+ "lob": {
+  "rw": "--step0 0.01 --accept 0.99",
+  "piecewise": "--step0 0.01 --accept 0.99"
+ },
+ "sheep": {
+  "rw": "--step0 0.01 --accept 0.99",
+  "piecewise": "--step0 0.01 --accept 0.99"
+ }
+}

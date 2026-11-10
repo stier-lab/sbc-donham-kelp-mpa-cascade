@@ -1,0 +1,26 @@
+g6_time_purp_rw.json	fit --taxon "S. purpuratus"  --curve rw --marg-b --step0 0.01 --accept 0.99 --placebo-year 1992 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g6_time_purp_piecewise.json	fit --taxon "S. purpuratus"  --curve piecewise --marg-b --step0 0.01 --accept 0.99 --placebo-year 1992 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g6_time_red_rw.json	fit --taxon "M. franciscanus"  --curve rw --marg-b --step0 0.01 --accept 0.99 --placebo-year 1992 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g6_time_red_piecewise.json	fit --taxon "M. franciscanus"  --curve piecewise --marg-b --step0 0.01 --accept 0.99 --placebo-year 1992 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g6_time_lob_rw.json	fit --taxon "P. interruptus" --noncentered --curve rw --step0 0.01 --accept 0.99 --placebo-year 1992 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g6_time_lob_piecewise.json	fit --taxon "P. interruptus" --noncentered --curve piecewise --step0 0.01 --accept 0.99 --placebo-year 1992 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g6_time_sheep_rw.json	fit --taxon "S. pulcher" --noncentered --curve rw --step0 0.01 --accept 0.99 --placebo-year 1993 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g6_time_sheep_piecewise.json	fit --taxon "S. pulcher" --noncentered --curve piecewise --step0 0.01 --accept 0.99 --placebo-year 1993 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g6_time_sheep_rw_y1990.json	fit --taxon "S. pulcher" --noncentered --step0 0.01 --accept 0.99 --curve rw --placebo-year 1990 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g6_time_sheep_rw_y1991.json	fit --taxon "S. pulcher" --noncentered --step0 0.01 --accept 0.99 --curve rw --placebo-year 1991 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g6_time_sheep_rw_y1992.json	fit --taxon "S. pulcher" --noncentered --step0 0.01 --accept 0.99 --curve rw --placebo-year 1992 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g6_time_sheep_rw_y1994.json	fit --taxon "S. pulcher" --noncentered --step0 0.01 --accept 0.99 --curve rw --placebo-year 1994 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g6_time_sheep_rw_y1995.json	fit --taxon "S. pulcher" --noncentered --step0 0.01 --accept 0.99 --curve rw --placebo-year 1995 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g6_time_sheep_rw_noHarris.json	fit --taxon "S. pulcher" --noncentered --step0 0.01 --accept 0.99 --curve rw --placebo-year 1993 --omit-mpa "Harris Point SMR" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g6_time_sheep_rw_noSBI.json	fit --taxon "S. pulcher" --noncentered --step0 0.01 --accept 0.99 --curve rw --placebo-year 1993 --omit-mpa "Santa Barbara Island SMR" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g6_time_sheep_rw_noScorpion.json	fit --taxon "S. pulcher" --noncentered --step0 0.01 --accept 0.99 --curve rw --placebo-year 1993 --omit-mpa "Scorpion SMR" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g6_time_sheep_rw_leveldev.json	fit --taxon "S. pulcher" --noncentered --step0 0.01 --accept 0.99 --level-dev --curve rw --placebo-year 1993 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g6_time_sheep_piecewise_y1990.json	fit --taxon "S. pulcher" --noncentered --step0 0.01 --accept 0.99 --curve piecewise --placebo-year 1990 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g6_time_sheep_piecewise_y1991.json	fit --taxon "S. pulcher" --noncentered --step0 0.01 --accept 0.99 --curve piecewise --placebo-year 1991 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g6_time_sheep_piecewise_y1992.json	fit --taxon "S. pulcher" --noncentered --step0 0.01 --accept 0.99 --curve piecewise --placebo-year 1992 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g6_time_sheep_piecewise_y1994.json	fit --taxon "S. pulcher" --noncentered --step0 0.01 --accept 0.99 --curve piecewise --placebo-year 1994 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g6_time_sheep_piecewise_y1995.json	fit --taxon "S. pulcher" --noncentered --step0 0.01 --accept 0.99 --curve piecewise --placebo-year 1995 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g6_time_sheep_piecewise_noHarris.json	fit --taxon "S. pulcher" --noncentered --step0 0.01 --accept 0.99 --curve piecewise --placebo-year 1993 --omit-mpa "Harris Point SMR" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g6_time_sheep_piecewise_noSBI.json	fit --taxon "S. pulcher" --noncentered --step0 0.01 --accept 0.99 --curve piecewise --placebo-year 1993 --omit-mpa "Santa Barbara Island SMR" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g6_time_sheep_piecewise_noScorpion.json	fit --taxon "S. pulcher" --noncentered --step0 0.01 --accept 0.99 --curve piecewise --placebo-year 1993 --omit-mpa "Scorpion SMR" --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+g6_time_sheep_piecewise_leveldev.json	fit --taxon "S. pulcher" --noncentered --step0 0.01 --accept 0.99 --level-dev --curve piecewise --placebo-year 1993 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
