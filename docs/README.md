@@ -2,6 +2,7 @@
 
 Read the [current analysis guide](ANALYSIS_GUIDE.md) for the pipeline, inclusion and exclusion rules, site characteristics, biomass estimation, missing data and size borrowing. Its linked tables are the detailed decision record.
 
+- [Joint hierarchical model design](JOINT_MODEL_DESIGN.md) (proposed; not fitted)
 - [Searchable inventory](../outputs/dataset_inventory_20261101/index.html)
 - [Document catalog](DOCUMENT_CATALOG.csv): current references, archived reports and evidence retained in place
 - [Output folder status](../outputs/README.md) and [script index](../code/README.md)

@@ -1,0 +1,212 @@
+{
+  "autocorrelation_by_taxon": {
+    "M. franciscanus": {
+      "r1": 0.25,
+      "r2": 0.04,
+      "r3": -0.06
+    },
+    "P. interruptus": {
+      "r1": -0.12,
+      "r2": -0.02,
+      "r3": -0.0
+    },
+    "S. pulcher": {
+      "r1": 0.07,
+      "r2": -0.02,
+      "r3": -0.16
+    },
+    "S. purpuratus": {
+      "r1": 0.49,
+      "r2": 0.21,
+      "r3": -0.01
+    }
+  },
+  "autocorrelation_by_program": {
+    "KFM": {
+      "r1": 0.32,
+      "r2": 0.08,
+      "r3": 0.04
+    },
+    "LTER": {
+      "r1": 0.31,
+      "r2": 0.13,
+      "r3": -0.09
+    },
+    "PISCO": {
+      "r1": 0.02,
+      "r2": 0.01,
+      "r3": -0.07
+    }
+  },
+  "series_used": 55,
+  "cross_mpa_residual_correlation": {
+    "M. franciscanus": {
+      "size": 114,
+      "mean": 0.05
+    },
+    "P. interruptus": {
+      "size": 114,
+      "mean": 0.07
+    },
+    "S. pulcher": {
+      "size": 123,
+      "mean": 0.096
+    },
+    "S. purpuratus": {
+      "size": 114,
+      "mean": -0.021
+    }
+  },
+  "change_by_age": {
+    "M. franciscanus": {
+      "0-3": {
+        "change": 0.0,
+        "histories": 15
+      },
+      "4-7": {
+        "change": 0.08,
+        "histories": 15
+      },
+      "8-11": {
+        "change": -0.54,
+        "histories": 15
+      },
+      "12-15": {
+        "change": -0.62,
+        "histories": 9
+      },
+      "16-20": {
+        "change": -0.83,
+        "histories": 9
+      }
+    },
+    "P. interruptus": {
+      "0-3": {
+        "change": 0.0,
+        "histories": 15
+      },
+      "4-7": {
+        "change": 0.41,
+        "histories": 15
+      },
+      "8-11": {
+        "change": 0.83,
+        "histories": 15
+      },
+      "12-15": {
+        "change": 1.54,
+        "histories": 9
+      },
+      "16-20": {
+        "change": 1.18,
+        "histories": 9
+      }
+    },
+    "S. pulcher": {
+      "0-3": {
+        "change": 0.0,
+        "histories": 17
+      },
+      "4-7": {
+        "change": -0.27,
+        "histories": 17
+      },
+      "8-11": {
+        "change": -0.03,
+        "histories": 17
+      },
+      "12-15": {
+        "change": -0.62,
+        "histories": 10
+      },
+      "16-20": {
+        "change": -0.28,
+        "histories": 11
+      }
+    },
+    "S. purpuratus": {
+      "0-3": {
+        "change": 0.0,
+        "histories": 15
+      },
+      "4-7": {
+        "change": -0.11,
+        "histories": 15
+      },
+      "8-11": {
+        "change": -0.63,
+        "histories": 15
+      },
+      "12-15": {
+        "change": -0.94,
+        "histories": 9
+      },
+      "16-20": {
+        "change": -1.43,
+        "histories": 9
+      }
+    }
+  },
+  "kfm_before_years": {
+    "Harris Point SMR|M. franciscanus|KFM|Den": {
+      "min": 1982,
+      "max": 2002,
+      "size": 21
+    },
+    "Harris Point SMR|P. interruptus|KFM|Den": {
+      "min": 1983,
+      "max": 2002,
+      "size": 20
+    },
+    "Harris Point SMR|S. pulcher|KFM|Den": {
+      "min": 1985,
+      "max": 2002,
+      "size": 18
+    },
+    "Harris Point SMR|S. purpuratus|KFM|Den": {
+      "min": 1982,
+      "max": 2002,
+      "size": 21
+    },
+    "Santa Barbara Island SMR|M. franciscanus|KFM|Den": {
+      "min": 1982,
+      "max": 2002,
+      "size": 21
+    },
+    "Santa Barbara Island SMR|P. interruptus|KFM|Den": {
+      "min": 1983,
+      "max": 2002,
+      "size": 20
+    },
+    "Santa Barbara Island SMR|S. pulcher|KFM|Den": {
+      "min": 1985,
+      "max": 2002,
+      "size": 18
+    },
+    "Santa Barbara Island SMR|S. purpuratus|KFM|Den": {
+      "min": 1982,
+      "max": 2002,
+      "size": 21
+    },
+    "Scorpion SMR|M. franciscanus|KFM|Den": {
+      "min": 1982,
+      "max": 2002,
+      "size": 21
+    },
+    "Scorpion SMR|P. interruptus|KFM|Den": {
+      "min": 1983,
+      "max": 2002,
+      "size": 20
+    },
+    "Scorpion SMR|S. pulcher|KFM|Den": {
+      "min": 1985,
+      "max": 2002,
+      "size": 18
+    },
+    "Scorpion SMR|S. purpuratus|KFM|Den": {
+      "min": 1982,
+      "max": 2002,
+      "size": 21
+    }
+  }
+}

@@ -1,0 +1,8 @@
+Source,Taxa,pools,median_n,q10_n,singleton_fraction,under10_fraction,between_pool_sd_log_mean_mass,median_within_pool_sd_log_mass
+KFM,M. franciscanus,550,202.0,92.9,0.0,0.007,0.829,1.414
+KFM,M. pyrifera,403,97.0,11.0,0.017,0.089,0.597,0.837
+KFM,S. purpuratus,549,208.0,63.4,0.002,0.011,0.756,1.127
+LTER,P. interruptus,3,159.0,94.2,0.0,0.0,0.135,
+PISCO,M. franciscanus,875,7.0,1.0,0.126,0.569,0.657,0.707
+PISCO,P. interruptus,1335,3.0,1.0,0.343,0.864,0.794,0.651
+PISCO,S. purpuratus,726,10.0,1.0,0.121,0.494,0.547,0.616

@@ -12,6 +12,7 @@ Generated 2026-11-09. Paths are stable because dated reports cite scripts by pat
 | `code/tools/report_dataset_inventory.py` | Regenerate the current decision inventory and viewer (no model reruns). |
 | `code/tools/check_current_decisions.py` | Verify current decision tables against their sources. |
 | `code/tools/check_documentation_consolidation.py` | Check guide links, archive manifests and status assertions. |
+| `code/tools/profile_joint_model_data.py` | Data profile and prior predictive check for the joint hierarchical model design. |
 | `code/R/run_all.R` | Frozen manuscript pipeline (current paper results). |
 | `code/R/run_figures_only.R` | Regenerate paper figures from the cached snapshot. |
 | `code/R/run_resilience.R` | Resilience suite; membership in code/R/resilience_modules.R. |

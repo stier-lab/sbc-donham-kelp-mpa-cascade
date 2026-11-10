@@ -1,0 +1,26 @@
+Source,Taxa,Resp,series,stations,between_station_sd,within_station_residual_sd,role_year_sd,log_ratio_detrended_sd,log_ratio_lag1,protected_reference_year_correlation
+KFM,M. franciscanus,Bio,5,17,0.528,0.457,0.984,0.932,0.162,0.645
+KFM,M. franciscanus,Den,5,17,0.496,0.388,1.003,0.754,0.479,0.758
+KFM,M. pyrifera,Bio,5,17,0.75,0.992,2.587,2.355,0.403,0.259
+KFM,P. interruptus,Den,5,17,0.2,0.439,0.883,0.943,0.014,0.337
+KFM,S. pulcher,Den,5,26,0.457,0.615,1.02,0.914,0.328,0.536
+KFM,S. purpuratus,Bio,5,17,0.555,0.632,1.792,1.209,0.587,0.699
+KFM,S. purpuratus,Den,5,17,0.795,0.572,1.674,1.059,0.513,0.746
+LTER,M. franciscanus,Bio,2,6,2.388,1.124,1.717,1.236,0.115,0.802
+LTER,M. franciscanus,Den,2,6,1.966,0.88,1.18,1.282,0.393,0.413
+LTER,M. pyrifera,Bio,2,6,1.314,0.617,1.209,1.27,0.124,-0.015
+LTER,P. interruptus,Bio,2,4,,0.0,0.932,0.977,-0.03,0.313
+LTER,P. interruptus,Den,2,4,,0.0,0.918,0.958,0.019,0.369
+LTER,S. pulcher,Bio,2,6,1.956,1.185,2.072,2.603,0.178,0.4
+LTER,S. pulcher,Den,2,6,0.903,0.505,0.836,0.814,0.17,0.476
+LTER,S. purpuratus,Bio,2,6,3.099,0.632,1.662,0.767,0.374,0.874
+LTER,S. purpuratus,Den,2,6,2.634,0.477,1.272,1.445,0.576,0.234
+PISCO,M. franciscanus,Bio,6,27,1.095,0.833,1.634,1.435,0.137,0.606
+PISCO,M. franciscanus,Den,12,84,0.424,0.55,1.057,0.767,0.249,0.62
+PISCO,M. pyrifera,Bio,12,84,0.74,1.2,1.667,1.559,0.207,0.38
+PISCO,P. interruptus,Bio,3,18,1.059,1.35,1.66,1.92,-0.134,0.401
+PISCO,P. interruptus,Den,12,84,0.386,0.77,0.995,1.064,-0.18,0.415
+PISCO,S. pulcher,Bio,17,109,0.659,0.993,1.28,1.016,-0.114,0.309
+PISCO,S. pulcher,Den,17,109,0.449,0.536,0.801,0.788,-0.121,0.498
+PISCO,S. purpuratus,Bio,8,28,0.947,0.758,1.589,1.524,-0.128,0.654
+PISCO,S. purpuratus,Den,12,84,0.713,0.711,1.617,0.97,0.293,0.688

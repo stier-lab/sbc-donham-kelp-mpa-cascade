@@ -1,0 +1,15 @@
+{
+  "observed_density_series_within_prior_90pct": {
+    "log_ratio_detrended_sd": 1.0,
+    "log_ratio_lag1": 1.0,
+    "protected_reference_year_correlation": 1.0
+  },
+  "observed_post_slope_q05_q95": [
+    -0.5,
+    0.383
+  ],
+  "prior_post_slope_q05_q95": [
+    -0.356583529886071,
+    0.3496484694648509
+  ]
+}

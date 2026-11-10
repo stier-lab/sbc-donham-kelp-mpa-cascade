@@ -12,6 +12,7 @@ Updated 2026-11-09. Folders keep their original paths because code and hash chec
 | [`main_figure_preview_20261106/`](main_figure_preview_20261106/) | Five review-only main-figure previews (not yet in the paper) |
 | [`methods_results_reference_20261104/`](methods_results_reference_20261104/) | Response-history and site decision rows for writing methods and results (the summary note was merged into `docs/ANALYSIS_GUIDE.md` on Nov 4) |
 | [`site_limitations_current/`](site_limitations_current/) | Remaining site limitations, classified |
+| [`joint_model_design_20261109/`](joint_model_design_20261109/) | Data profile and prior checks for the joint hierarchical model design (`docs/JOINT_MODEL_DESIGN.md`); no model fitted |
 | [`coauthor_decision_review_20261104/`](coauthor_decision_review_20261104/) | Current analysis decisions (review page; decisions not yet adopted) |
 
 ## Supporting evidence
