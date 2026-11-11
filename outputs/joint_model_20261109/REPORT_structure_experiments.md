@@ -61,19 +61,19 @@ Protected stations dropped; one reference station per MPA relabelled as protecte
 | Purple urchin | rw | regional | 20 | +0.01 | -0.37 to +0.38 | 0/20 | 1.93 |
 | Purple urchin | piecewise | none | 20 | -0.05 | -0.23 to +0.04 | 0/20 | 1.16 |
 | Purple urchin | piecewise | global | 20 | -0.07 | -0.23 to +0.05 | 0/20 | 1.19 |
-| Purple urchin | piecewise | regional | 19 | -0.02 | -0.16 to +0.07 | 0/19 | 1.11 |
+| Purple urchin | piecewise | regional | 20 | -0.02 | -0.16 to +0.08 | 0/20 | 1.11 |
 | Red urchin | rw | none | 20 | -0.54 | -0.83 to -0.30 | 3/20 | 1.42 |
 | Red urchin | rw | global | 20 | -0.17 | -0.49 to +0.11 | 0/20 | 1.43 |
-| Red urchin | rw | regional | 17 | -0.08 | -0.38 to +0.25 | 0/17 | 1.35 |
+| Red urchin | rw | regional | 20 | -0.08 | -0.38 to +0.25 | 0/20 | 1.35 |
 | Red urchin | piecewise | none | 20 | -0.32 | -0.92 to -0.10 | 0/20 | 1.13 |
 | Red urchin | piecewise | global | 20 | -0.16 | -0.62 to +0.01 | 0/20 | 0.97 |
-| Red urchin | piecewise | regional | 18 | -0.05 | -0.36 to +0.11 | 0/18 | 0.87 |
+| Red urchin | piecewise | regional | 20 | -0.06 | -0.36 to +0.11 | 0/20 | 0.87 |
 | Lobster | rw | none | 20 | +0.77 | +0.19 to +1.22 | 5/20 | 2.03 |
-| Lobster | rw | global | 19 | +0.23 | -0.38 to +0.72 | 0/19 | 2.01 |
+| Lobster | rw | global | 20 | +0.22 | -0.38 to +0.72 | 0/20 | 2.00 |
 | Lobster | rw | regional | 20 | +0.27 | -0.37 to +0.78 | 0/20 | 2.01 |
 | Lobster | piecewise | none | 20 | +0.37 | +0.04 to +1.05 | 0/20 | 1.56 |
 | Lobster | piecewise | global | 20 | +0.10 | -0.12 to +0.45 | 0/20 | 1.28 |
-| Lobster | piecewise | regional | 18 | +0.20 | -0.03 to +0.76 | 0/18 | 1.36 |
+| Lobster | piecewise | regional | 20 | +0.18 | -0.11 to +0.76 | 0/20 | 1.34 |
 | Sheephead | rw | none | 20 | +0.43 | +0.06 to +0.63 | 4/20 | 1.06 |
 | Sheephead | rw | global | 20 | +0.27 | -0.06 to +0.51 | 1/20 | 1.06 |
 | Sheephead | rw | regional | 20 | +0.31 | -0.11 to +0.55 | 3/20 | 1.05 |
@@ -124,13 +124,13 @@ E10 [90% interval]; converged = R-hat < 1.01, ESS > 400, no divergences (worst R
 | Red urchin | rw | regional drift | -0.62 [-1.16, -0.06] | no (1.014 / 363 / 0) | -0.08 | 6 |
 | Red urchin | piecewise | stage 1 (no drift) | -0.55 [-1.21, +0.10] | yes (1.004 / 1071 / 0) | -0.32 | 6 |
 | Red urchin | piecewise | global drift | -0.30 [-0.82, +0.14] | no (1.021 / 297 / 0) | -0.16 | 6 |
-| Red urchin | piecewise | regional drift | -0.21 [-0.67, +0.20] | no (1.013 / 413 / 0) | -0.05 | 6 |
+| Red urchin | piecewise | regional drift | -0.21 [-0.67, +0.20] | no (1.013 / 413 / 0) | -0.06 | 6 |
 | Lobster | rw | stage 1 (no drift) | +1.90 [+1.27, +2.53] | yes (1.002 / 1904 / 0) | +0.77 | 1 |
-| Lobster | rw | global drift | +1.18 [+0.55, +1.83] | yes (1.003 / 1370 / 0) | +0.23 | 1 |
+| Lobster | rw | global drift | +1.18 [+0.55, +1.83] | yes (1.003 / 1370 / 0) | +0.22 | 1 |
 | Lobster | rw | regional drift | +1.53 [+0.88, +2.20] | yes (1.002 / 1433 / 0) | +0.27 | 1 |
 | Lobster | piecewise | stage 1 (no drift) | +2.09 [+1.40, +2.79] | yes (1.002 / 2059 / 0) | +0.37 | 1 |
 | Lobster | piecewise | global drift | +1.27 [+0.58, +1.96] | yes (1.002 / 1800 / 0) | +0.10 | 1 |
-| Lobster | piecewise | regional drift | +1.67 [+0.96, +2.40] | yes (1.002 / 1412 / 0) | +0.20 | 1 |
+| Lobster | piecewise | regional drift | +1.67 [+0.96, +2.40] | yes (1.002 / 1412 / 0) | +0.18 | 1 |
 | Sheephead | rw | stage 1 (no drift) | +0.31 [+0.03, +0.60] | yes (1.002 / 1049 / 0) | +0.43 | 2 |
 | Sheephead | rw | global drift | +0.15 [-0.12, +0.41] | yes (1.004 / 972 / 0) | +0.27 | 2 |
 | Sheephead | rw | regional drift | +0.11 [-0.17, +0.38] | yes (1.004 / 1270 / 0) | +0.31 | 2 |
@@ -242,14 +242,18 @@ E10 [90% interval]; converged = R-hat < 1.01, ESS > 400, no divergences (worst R
 
 Regional drift, three regions, first-increment prior doubled, `rw` prior, negative-binomial counts; 3,000 warm-up + 6,000 draws x 4 chains. Space placebo: 10 relabellings under the same structure.
 
-Submitted to GRIT at 17:00 on 2026-11-10 (jobs `xF`, `xG`); not finished when this report was written. Rerun `report_x.py` after pulling `xF` and `xG`.
+| Taxon | E10 [90% interval] | Change per decade | Pr(E10<0) | Converged | Space placebo mean (range) | Placebo intervals excluding zero |
+|---|---|---|---|---|---|---|
+| Purple urchin | -0.95 [-1.86, -0.01] | -61% (-84% to -1%) | 0.96 | yes (1.008 / 852 / 0) | -0.03 (-0.50 to +0.32) | 0/10 |
+| Red urchin | -0.63 [-1.23, -0.06] | -47% (-71% to -6%) | 0.96 | yes (1.006 / 987 / 0) | -0.12 (-0.40 to +0.03) | 0/10 |
+| Lobster | +1.74 [+1.05, +2.44] | +471% (+185% to +1050%) | 0.00 | yes (1.003 / 2011 / 0) | +0.43 (+0.08 to +1.08) | 0/10 |
+| Sheephead | +0.21 [-0.08, +0.50] | +23% (-8% to +65%) | 0.12 | yes (1.003 / 1536 / 0) | +0.30 (+0.00 to +0.43) | 0/10 |
 
-
-The space placebo for this exact structure finished (10 relabellings per taxon): purple urchin -0.03 (-0.50 to +0.32), red urchin -0.12 (-0.40 to +0.03), lobster +0.43 (+0.08 to +1.08), sheephead +0.30 (0.00 to +0.43); none of the 40 intervals excludes zero. Lobster and sheephead still lean positive. For lobster the lean is about a quarter of the real estimate and 0.7 of a posterior standard deviation; for sheephead it is larger than the real estimate. I do not know whether this is noise shared across relabellings (two Point Dume reference stations are relabelled every time) or a remaining asymmetry; leaving Point Dume out of the placebo would tell. If the table above is missing, the four long fits had not finished when this was written (submitted 17:00, expected by about 18:15); pull `xF` and rerun `report_x.py`.
+**Reading.** All four fits meet the convergence thresholds. The numbers match what the separate variants predicted: purple urchin and red urchin decline (both intervals only just exclude zero), lobster rises strongly, and the sheephead interval spans zero. The count-layer flags for urchins are unchanged (8 and 6), as expected with negative-binomial counts. The space placebo for this exact structure finished (10 relabellings per taxon): purple urchin -0.03 (-0.50 to +0.32), red urchin -0.12 (-0.40 to +0.03), lobster +0.43 (+0.08 to +1.08), sheephead +0.30 (0.00 to +0.43); none of the 40 intervals excludes zero. Lobster and sheephead still lean positive. For lobster the lean is about a quarter of the real estimate and 0.7 of a posterior standard deviation; for sheephead it is larger than the real estimate. I do not know whether this is noise shared across relabellings (two Point Dume reference stations are relabelled every time) or a remaining asymmetry; leaving Point Dume out of the placebo would tell.
 
 ## Not verified
 
-- The recommended combination (regional drift, three regions, doubled prior) was submitted as one long-chain fit per taxon; see section 7 for whether it had finished. Its space placebo did finish.
+- The recommended combination was run for the `rw` prior only, with one seed. The stage-1 gates (time placebo, sensitivities, calibration at 200 replicates) were not rerun under it.
 - Urchin fits with drift at 2,000 + 4,000 draws did not meet the convergence thresholds. E10 is stable across variants, the intervals are provisional.
 - Trend-leak and calibration cells have 25 to 40 replicates (the cluster's scratch file system filled during these runs and many results had to be rerun). Differences of 0.1 between cells are not resolved.
 - Global against regional drift cannot be separated by any test here; lobster and red urchin depend on it.
