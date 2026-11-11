@@ -1,0 +1,20 @@
+ms_paths_s1.json	simulate --scenario paths --seed 1 --curve rw --cpus 4 --chains 4 --warmup 1500 --samples 1500
+ms_paths_s2.json	simulate --scenario paths --seed 2 --curve rw --cpus 4 --chains 4 --warmup 1500 --samples 1500
+ms_paths_s3.json	simulate --scenario paths --seed 3 --curve rw --cpus 4 --chains 4 --warmup 1500 --samples 1500
+ms_paths_s4.json	simulate --scenario paths --seed 4 --curve rw --cpus 4 --chains 4 --warmup 1500 --samples 1500
+ms_paths_s5.json	simulate --scenario paths --seed 5 --curve rw --cpus 4 --chains 4 --warmup 1500 --samples 1500
+ms_paths_s6.json	simulate --scenario paths --seed 6 --curve rw --cpus 4 --chains 4 --warmup 1500 --samples 1500
+ms_paths_s7.json	simulate --scenario paths --seed 7 --curve rw --cpus 4 --chains 4 --warmup 1500 --samples 1500
+ms_paths_s8.json	simulate --scenario paths --seed 8 --curve rw --cpus 4 --chains 4 --warmup 1500 --samples 1500
+ms_nopaths_s1.json	simulate --scenario nopaths --seed 1 --curve rw --cpus 4 --chains 4 --warmup 1500 --samples 1500
+ms_nopaths_s2.json	simulate --scenario nopaths --seed 2 --curve rw --cpus 4 --chains 4 --warmup 1500 --samples 1500
+ms_nopaths_s3.json	simulate --scenario nopaths --seed 3 --curve rw --cpus 4 --chains 4 --warmup 1500 --samples 1500
+ms_nopaths_s4.json	simulate --scenario nopaths --seed 4 --curve rw --cpus 4 --chains 4 --warmup 1500 --samples 1500
+ms_nopaths_s5.json	simulate --scenario nopaths --seed 5 --curve rw --cpus 4 --chains 4 --warmup 1500 --samples 1500
+ms_nopaths_s6.json	simulate --scenario nopaths --seed 6 --curve rw --cpus 4 --chains 4 --warmup 1500 --samples 1500
+ms_nopaths_s7.json	simulate --scenario nopaths --seed 7 --curve rw --cpus 4 --chains 4 --warmup 1500 --samples 1500
+ms_nopaths_s8.json	simulate --scenario nopaths --seed 8 --curve rw --cpus 4 --chains 4 --warmup 1500 --samples 1500
+ms_confounded_s1.json	simulate --scenario confounded --common-sd 0.5 --seed 1 --curve rw --cpus 4 --chains 4 --warmup 1500 --samples 1500
+ms_confounded_s2.json	simulate --scenario confounded --common-sd 0.5 --seed 2 --curve rw --cpus 4 --chains 4 --warmup 1500 --samples 1500
+ms_confounded_s3.json	simulate --scenario confounded --common-sd 0.5 --seed 3 --curve rw --cpus 4 --chains 4 --warmup 1500 --samples 1500
+ms_confounded_s4.json	simulate --scenario confounded --common-sd 0.5 --seed 4 --curve rw --cpus 4 --chains 4 --warmup 1500 --samples 1500

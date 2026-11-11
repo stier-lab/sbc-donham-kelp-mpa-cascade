@@ -8,6 +8,7 @@
 # n * (cores per fit) with --cpus-per-task. GRIT caps RUNNING JOBS per user (150, and the ssh gateway counts as one),
 # so pack single-core fits instead of running one job each, and keep the total of all array throttles under about 130.
 # A fit whose result exists and validates is skipped; the task exits non-zero if any of its results is missing or invalid.
+# SCRIPT=run_multi.py (in --export) runs the multi-taxon model instead of run.py.
 # hpc-13 has an older CPU on which NumPy 2.x wheels refuse to load: always exclude it.
 #SBATCH --partition=grit_nodes
 #SBATCH --cpus-per-task=1
@@ -23,7 +24,7 @@ mkdir -p "$OUT"
 # Fallback for result JSON when scratch refuses writes (scratch was 100% full on 2026-11-10). Adrian approved up to
 # 30 MB of JSON under his home directory; run.py enforces the cap. Results found there count as done.
 export MPA_JOINT_FALLBACK=/home/astier/mpa-joint-out
-valid() { [ -s "$1" ] && python3 -c "import json,sys; r=json.load(open(sys.argv[1])); sys.exit(0 if ('E10' in r or r.get('ok')) else 1)" "$1" 2>/dev/null; }
+valid() { [ -s "$1" ] && python3 -c "import json,sys; r=json.load(open(sys.argv[1])); sys.exit(0 if ('E10' in r or 'worst_rhat' in r or r.get('ok')) else 1)" "$1" 2>/dev/null; }
 one() {
   local LINE NAME ARGS
   LINE=$(sed -n "$(($1 + 1))p" "$JOBLIST")
@@ -31,7 +32,7 @@ one() {
   [ -n "$NAME" ] || return 0
   if valid "$OUT/$NAME" || valid "$MPA_JOINT_FALLBACK/$NAME"; then echo "SKIP $NAME (valid result exists)"; return 0; fi
   echo "RUN $(hostname) $(date -Is) :: $NAME :: $ARGS"
-  ( cd "$B/code" && eval "python3 joint_model/run.py $ARGS --name ${NAME%.json} --uses $B/data/supported_measurement_uses.parquet --out $OUT" )
+  ( cd "$B/code" && eval "python3 joint_model/${SCRIPT:-run.py} $ARGS --name ${NAME%.json} --uses $B/data/supported_measurement_uses.parquet --out $OUT" )
   if valid "$OUT/$NAME" || valid "$MPA_JOINT_FALLBACK/$NAME"; then echo "DONE $NAME $(date -Is)"; return 0; fi
   echo "FAILED $NAME: result missing or invalid"; return 1
 }

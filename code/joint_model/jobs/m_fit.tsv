@@ -1,0 +1,11 @@
+m_quick_rw.json	fit --curve rw --seed 1 --cpus 4 --chains 4 --warmup 1000 --samples 1500
+m_rw_s1.json	fit --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 4 --save-draws
+m_rw_s2.json	fit --curve rw --seed 2 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 4 --save-draws
+m_pw_s1.json	fit --curve piecewise --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 4 --save-draws
+m_rw_nopaths.json	fit --curve rw --seed 1 --no-paths --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 4 --save-draws
+m_pw_nopaths.json	fit --curve piecewise --seed 1 --no-paths --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 4 --save-draws
+m_rw_lag0.json	fit --curve rw --seed 1 --lag 0 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 4 --save-draws
+m_rw_lag2.json	fit --curve rw --seed 1 --lag 2 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 4 --save-draws
+m_rw_beta1.json	fit --curve rw --seed 1 --beta-scale 1.0 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 4 --save-draws
+m_rw_noPD.json	fit --curve rw --seed 1 --omit-mpa 'Point Dume SMCA' --omit-mpa 'Point Dume SMR' --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 4 --save-draws
+m_rw_reverse.json	fit --curve rw --seed 1 --taxa kelp,pur,red,lob,shp --edges 'pur<kelp,red<kelp,lob<pur,lob<red,shp<pur,shp<red' --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 4 --save-draws

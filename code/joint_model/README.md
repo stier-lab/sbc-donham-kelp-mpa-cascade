@@ -26,5 +26,18 @@ structural choices are Adrian's.
   `fetch.sh` (results back over sftp), `pull.sh` (results back over rsync), `put.sh` (single files up, safe on a full
   file system), `g.sh` (ssh with a hard timeout). `hpc/GRIT_NOTES.md` lists what went wrong.
 
+## Stage 2: all five taxa in one model (experimental, started 2026-11-11)
+
+- `data_multi.py` builds the single-taxon inputs for lobster, sheephead, purple urchin, red urchin and kelp, plus index
+  maps from each target station-year to the same station in a source taxon one year earlier.
+- `model_multi.py` keeps each taxon's single-taxon model (recommended structure) and adds six lagged links between
+  latent states at the same station: predators -> urchins, urchins -> kelp. Reports direct, link-carried and total
+  protection effects at ten years.
+- `run_multi.py fit|simulate` fits or simulates-and-refits. Each chain runs as its own process: NumPyro's parallel
+  chains in one process leak memory with five taxa (20 GB in 25 minutes).
+- `test_multi.py` checks that, with links off, each taxon's log density equals `model.py`'s, and checks the link maps.
+- `report_m.py` writes `outputs/joint_model_20261109/REPORT_multi_taxon.md` from `validation/{m_sim,m_fit}`.
+- On GRIT: `--export=ALL,SCRIPT=run_multi.py,...` with `array.slurm`; 4 cores and 24G per fit; task lists `jobs/m_*.tsv`.
+
 Requires Python with `numpyro`, `jax`, `pandas`, `pyarrow`, `scipy`. A converged fit takes 25 to 40 minutes on four cores.
 Set `XLA_FLAGS="--xla_cpu_multi_thread_eigen=false intra_op_parallelism_threads=1"` to keep each chain on one core.

@@ -1,0 +1,186 @@
+"""Multi-taxon joint density model (stage 2 of docs/JOINT_MODEL_DESIGN.md, section 4.5 test 2), in NumPyro.
+
+EXPERIMENTAL, review only. Every taxon keeps the single-taxon model of model.py (same sites, same priors, same
+likelihood; sites are prefixed "<tag>:"). The taxa are linked by lagged paths between latent states at the same station:
+
+    latent log density of target k at station s, year t
+        = [single-taxon terms for k]  +  sum over sources j of  beta_kj * c_j[s, t - lag]
+
+    c_j[s, t] = (station level + station AR(1) deviation + protection function + paths into j) for source j,
+                minus that station's own mean over its surveyed span.
+
+So c_j is the source taxon's log density at that station relative to the station's usual level, with the region-year
+effect of the source removed (regional swings such as a heatwave do not count as predictor variation). beta_kj is an
+elasticity: the change in log density of k that follows a one-unit change in log density of j a year earlier.
+
+Because the protection function of the source is part of c_j, a protection effect on predators carries through to
+urchins, and from urchins to kelp. The response curve g_k of a target is then the DIRECT effect of protection (what is
+not carried by the measured sources), and
+
+    total_k(age) = g_k(age) + sum_j beta_kj * total_j(age - lag)
+
+is the total. Both are reported (E10_direct, E10_total, E10_via:<source>).
+
+Reading the paths as causal assumes the elasticity seen in station-level fluctuations and in differences between MPAs
+also applies to the average change caused by protection, and that no unmeasured local driver moves both taxa.
+"""
+import numpy as np
+import jax.numpy as jnp
+from jax.scipy.special import gammaln
+from jax import lax
+import numpyro
+import numpyro.distributions as dist
+from numpyro.handlers import scope
+
+HN = dist.HalfNormal
+KNOTS = np.array([0, 4, 8, 12, 16, 20], dtype=float)
+
+
+def basis_row(age):
+    return np.clip((age - KNOTS[:-1]) / np.diff(KNOTS), 0.0, 1.0)
+
+
+def latent(D, curve="rw", shock=True, centered=True, level_dev=False, marg_b=True, drift="regional", inc_scale=2.0,
+           tau_d_scale=1.0):
+    """Single-taxon latent terms on the year x station grid. Mirrors model.py line for line (checked numerically by
+    test_multi.py); returns level (station baseline + AR(1) deviation), region-year effects, protection function."""
+    S, M, P, R, T = len(D["stations"]), len(D["mpas"]), len(D["programs"]), len(D["regions"]), len(D["years"])
+    J = D["grid_B"].shape[-1]
+    mu_b = numpyro.sample("mu_b", dist.Normal(D["log_mean_density"], 3.0).expand([P]))
+    sigma_b = numpyro.sample("sigma_b", HN(1.5).expand([P]))
+    marg_b = marg_b and centered
+    if marg_b:
+        b0 = mu_b[D["st_prog"]]
+    else:
+        b0 = mu_b[D["st_prog"]] + sigma_b[D["st_prog"]] * numpyro.sample("z_b", dist.Normal(0, 1).expand([S]))
+    mu_lam = numpyro.sample("mu_lambda", dist.Normal(0, 1.0))
+    sigma_lam = numpyro.sample("sigma_lambda", HN(1.0))
+    z_lam = numpyro.sample("z_lambda", dist.Normal(0, 1).expand([M]))
+    lam = jnp.where(jnp.asarray(D["mpa_ba"]) == 1, mu_lam + sigma_lam * z_lam, 3.0 * z_lam)
+    numpyro.deterministic("lambda", lam)
+    b = b0 + D["st_prot"] * lam[D["st_mpa"]]
+    sigma_g = numpyro.sample("sigma_region_year", HN(1.0))
+    gam = sigma_g * numpyro.sample("z_region_year", dist.Normal(0, 1).expand([R, T]))
+    if drift != "none":
+        s_a = numpyro.sample("sigma_drift", HN(0.3))
+        alpha = jnp.cumsum(s_a * numpyro.sample("z_drift", dist.Normal(0, 1).expand([T])))
+        alpha = alpha - alpha.mean()
+        numpyro.deterministic("drift", alpha)
+        gam = gam + alpha[None, :]
+        if drift == "regional":
+            s_r = numpyro.sample("sigma_drift_region", HN(0.3))
+            beta = jnp.cumsum(s_r * numpyro.sample("z_drift_region", dist.Normal(0, 1).expand([R, T])), axis=1)
+            gam = gam + beta - beta.mean(1, keepdims=True)
+    rho = 0.95 * numpyro.sample("rho_raw", dist.Beta(2.0, 2.0))
+    numpyro.deterministic("rho", rho)
+    sigma_d = numpyro.sample("sigma_process", HN(1.0))
+    first, inside = D["span_first"], D["span_inside"]
+    if centered:
+        delta = numpyro.sample("delta", dist.ImproperUniform(dist.constraints.real, (), (T, S)))
+        lp_out = dist.Normal(0.0, 1.0).log_prob(delta)
+        if marg_b:
+            r = delta + D["log_mean_density"] - b[None, :]
+            prev_r = jnp.concatenate([jnp.zeros((1, S)), r[:-1]], 0)
+            lp_first = dist.Normal(0.0, sigma_d / jnp.sqrt(1 - rho ** 2)).log_prob(r)
+            lp_next = dist.Normal(rho * prev_r, sigma_d).log_prob(r)
+            has_next = jnp.concatenate([inside[1:], jnp.zeros((1, S))], 0)
+            w = (first + inside) * ((1 - rho ** 2 * first) + rho ** 2 * has_next - rho * (inside + has_next)) / sigma_d ** 2
+            a = jnp.sum(w, 0); c = jnp.sum(w * r, 0); sb2 = sigma_b[D["st_prog"]] ** 2
+            rank_one = jnp.sum(-0.5 * jnp.log1p(sb2 * a) + 0.5 * sb2 * c ** 2 / (1 + sb2 * a))
+            numpyro.factor("ar1", jnp.sum(first * lp_first + inside * lp_next + (1 - first - inside) * lp_out) + rank_one)
+            level = delta + D["log_mean_density"]
+        else:
+            prev = jnp.concatenate([jnp.zeros((1, S)), delta[:-1]], 0)
+            lp_first = dist.Normal(0.0, sigma_d / jnp.sqrt(1 - rho ** 2)).log_prob(delta)
+            lp_next = dist.Normal(rho * prev, sigma_d).log_prob(delta)
+            numpyro.factor("ar1", jnp.sum(first * lp_first + inside * lp_next + (1 - first - inside) * lp_out))
+            level = b[None, :] + delta
+    else:
+        z = numpyro.sample("delta", dist.Normal(0, 1).expand([T, S]))
+        def step(prev, x):
+            zt, f, i = x
+            cur = f * sigma_d * zt / jnp.sqrt(1 - rho ** 2) + i * (rho * prev + sigma_d * zt)
+            return cur, cur
+        _, delta = lax.scan(step, jnp.zeros(S), (z, first, inside))
+        level = b[None, :] + delta
+    if curve == "piecewise":
+        s_inc = numpyro.sample("sigma_curve", HN(0.4 * inc_scale))
+        inc = s_inc * numpyro.sample("z_curve", dist.Normal(0, 1).expand([J]))
+    else:
+        first_inc = numpyro.sample("inc_first", dist.Normal(0, 0.6 * inc_scale))
+        s_inc = numpyro.sample("sigma_curve", HN(0.3))
+        steps = s_inc * numpyro.sample("z_curve", dist.Normal(0, 1).expand([J - 1]))
+        inc = first_inc + jnp.concatenate([jnp.zeros(1), jnp.cumsum(steps)])
+    numpyro.deterministic("increments", inc)
+    numpyro.deterministic("g_knots", jnp.cumsum(inc))
+    tau_D = numpyro.sample("tau_D", HN(1.0 * tau_d_scale))
+    Dm = tau_D * numpyro.sample("z_D", dist.Normal(0, 1).expand([M]))
+    numpyro.deterministic("D_mpa", Dm)
+    if level_dev:
+        tau_L = numpyro.sample("tau_L", HN(1.0))
+        Lm = tau_L * numpyro.sample("z_L", dist.Normal(0, 1).expand([M]))
+        numpyro.deterministic("L_mpa", Lm)
+    else:
+        Lm = jnp.zeros(M)
+    if shock:
+        sigma_w = numpyro.sample("sigma_shock", HN(0.5))
+        omega = sigma_w * numpyro.sample("z_shock", dist.Normal(0, 1).expand([T]))
+        numpyro.deterministic("shock", omega)
+    else:
+        omega = jnp.zeros(T)
+    m = D["st_mpa"]
+    F = D["grid_after"] * (D["grid_B"] @ inc + Lm[m][None, :] + Dm[m][None, :] * D["grid_age"] / 10.0 + omega[:, None])
+    return dict(level=level, gam=gam, F=F, inc=inc)
+
+
+def observe(D, state):
+    """Count likelihood for one taxon given its latent log density on the grid (region-year effect included)."""
+    P, V = len(D["programs"]), len(D["visit_prog"])
+    s, t = D["s"], D["t"]
+    sigma_v = numpyro.sample("sigma_visit", HN(1.0).expand([P]))
+    nu = sigma_v[D["visit_prog"]] * numpyro.sample("z_visit", dist.Normal(0, 1).expand([V]))
+    zeta = jnp.concatenate([jnp.zeros(1), numpyro.sample("zone", dist.Normal(0, 1.0).expand([3]))])
+    mon = numpyro.sample("month_raw", dist.Normal(0, 0.5).expand([12]))
+    mon = mon - mon.mean()
+    inv_sqrt_phi = numpyro.sample("inv_sqrt_phi", HN(1.0).expand([P]))
+    phi = 1.0 / jnp.clip(inv_sqrt_phi, 1e-4, None) ** 2      # numerical guard, see model.py
+    eta = state[t, s] + nu[D["v"]] + zeta[D["zone"]] + mon[D["month"]]
+    mean = jnp.exp(eta + D["log_area"])
+    ph = phi[D["obs_prog"]]
+    lpm = jnp.log(ph + mean)
+    log_nb0 = -ph * jnp.log1p(mean / ph)
+    ll_cells = D["n_units"] * log_nb0 + D["cell_y"] * (eta + D["log_area"] - lpm)
+    ll_disp = jnp.sum(D["uniq_mult"] * gammaln(D["uniq_y"] + phi[D["uniq_prog"]])) - jnp.sum(D["prog_units"] * gammaln(phi))
+    numpyro.factor("y", jnp.sum(ll_cells) + ll_disp)
+
+
+def model(data, edges, config, curve="rw", lag=1, beta_scale=0.5, paths=True, **common):
+    """data: {tag: inputs}; edges: [(target, source, link)]; config: {tag: dict(centered=, level_dev=)}.
+    paths=False fits the taxa side by side with no links (must reproduce the single-taxon fits)."""
+    dev, inc, total = {}, {}, {}
+    E = len(edges)
+    if paths and E:
+        beta = numpyro.sample("beta", dist.Normal(0, beta_scale).expand([E]))
+    for g, D in data.items():
+        with scope(prefix=g, divider=":"):
+            L = latent(D, curve=curve, **config[g], **common)
+        path = jnp.zeros_like(L["F"]); via = {}
+        if paths:
+            for e, (k, j, lk) in enumerate(edges):
+                if k == g:
+                    path = path + beta[e] * lk["valid"] * dev[j][lk["src_t"]][:, lk["src_s"]]
+                    via[j] = beta[e]
+        d = L["level"] + L["F"] + path
+        n = jnp.sum(D["span"], 0)
+        dev[g] = D["span"] * (d - jnp.sum(D["span"] * d, 0) / jnp.where(n > 0, n, 1.0))
+        inc[g] = L["inc"]
+        # regional mean effect of protection at a given age: direct curve plus what the sources carry
+        def tot(age, g=g, via=via):
+            return jnp.asarray(basis_row(age)) @ inc[g] + sum(bj * total[j](max(age - lag, 0.0)) for j, bj in via.items())
+        total[g] = tot
+        with scope(prefix=g, divider=":"):
+            numpyro.deterministic("E10_direct", jnp.asarray(basis_row(10.0)) @ L["inc"])
+            numpyro.deterministic("E10_total", tot(10.0))
+            for j, bj in via.items():
+                numpyro.deterministic(f"E10_via_{j}", bj * total[j](10.0 - lag))
+            observe(D, d + L["gam"][D["st_region"]].T)

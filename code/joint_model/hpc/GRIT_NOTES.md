@@ -67,3 +67,7 @@ For Adrian to fold into the `grit-cluster` skill. Verified on this project's run
   checksum on the Mac after every copy.
 - The Mac bridge drops any command that runs longer than about 80 seconds: run long ssh or rsync calls in the background
   and read a log file.
+- A JAX/NumPyro run with parallel chains in one process can leak memory steadily (five-taxon model, 2026-11-11: about
+  3.4 MB per second per chain, out-of-memory kill at 24G after 25 minutes; smaller models did not leak, and
+  MALLOC_ARENA_MAX did not help). One process per chain fixed it. `sstat` on running array tasks returned a
+  communication error, so memory growth was only visible after the kill (`sacct ... MaxRSS`): test memory locally first.
