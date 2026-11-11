@@ -35,6 +35,13 @@ structural choices are Adrian's.
   protection effects at ten years.
 - `run_multi.py fit|simulate` fits or simulates-and-refits. Each chain runs as its own process: NumPyro's parallel
   chains in one process leak memory with five taxa (20 GB in 25 minutes).
+- `--split` gives each link two coefficients (station-level fluctuation; protection function). Added after the first
+  real-data fit showed one coefficient forces the two kinds of evidence to agree and distorts the lobster estimate.
+- **Mean mass and biomass (design 4.2):** `data_mass.py` builds mass groups (pool means from the tracked
+  `size_pool_inventory.csv`; same-record unit means from the survey-unit table; only animals measured at the station).
+  `--mass` adds a mean-mass layer per taxon to the same fit: group mean ~ Gamma(n k, mean M), log M with station,
+  region-year, AR(1) and its own response curve. Reported: `E10_mass` and `E10_biomass` = density effect + mass effect.
+  `--taxa pur --mass` runs one taxon with density and mass together.
 - `test_multi.py` checks that, with links off, each taxon's log density equals `model.py`'s, and checks the link maps.
 - `report_m.py` writes `outputs/joint_model_20261109/REPORT_multi_taxon.md` from `validation/{m_sim,m_fit}`.
 - On GRIT: `--export=ALL,SCRIPT=run_multi.py,...` with `array.slurm`; 4 cores and 24G per fit; task lists `jobs/m_*.tsv`.

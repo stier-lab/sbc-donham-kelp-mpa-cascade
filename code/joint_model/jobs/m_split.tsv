@@ -1,0 +1,4 @@
+m_split_quick_rw.json	fit --curve rw --split --seed 1 --cpus 4 --chains 4 --warmup 1000 --samples 1500
+m_split_rw_s1.json	fit --curve rw --split --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 4 --save-draws
+m_split_rw_s2.json	fit --curve rw --split --seed 2 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 4 --save-draws
+m_split_pw_s1.json	fit --curve piecewise --split --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 4 --save-draws

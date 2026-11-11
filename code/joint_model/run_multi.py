@@ -16,9 +16,12 @@ import jax
 import numpyro
 from numpyro.infer import MCMC, NUTS, init_to_uniform
 from data_multi import build_multi, TAXA, EDGES, CONFIG
+from data_mass import build_mass
 from model_multi import model, basis_row
 
-SITES = ["E10_direct", "E10_total", "g_knots", "rho", "sigma_process", "sigma_region_year", "sigma_drift", "sigma_drift_region",
+SITES = ["E10_mass", "E10_biomass", "m_g_knots", "m_rho", "m_sigma_process", "m_sigma_region_year", "m_sigma_drift", "m_sigma_drift_region",
+         "m_sigma_station", "m_shape", "m_tau_D", "m_mu_lambda", "m_sigma_lambda", "m_sigma_curve", "m_zone", "m_theta",
+         "E10_direct", "E10_total", "g_knots", "rho", "sigma_process", "sigma_region_year", "sigma_drift", "sigma_drift_region",
          "sigma_visit", "sigma_b", "inv_sqrt_phi", "tau_D", "tau_L", "sigma_shock", "mu_lambda", "sigma_lambda", "sigma_curve"]
 
 # Simulation truths. Direct response increments per knot interval (0-4, 4-8, 8-12, 12-16, 16-20 years).
@@ -87,10 +90,42 @@ def simulate(data, edges, scenario, seed, lag=1, direct=True, common_sd=0.0):
     return ys, truth
 
 
-def fit(data, edges, ys, config, curve="rw", lag=1, beta_scale=0.5, paths=True, warmup=600, samples=600, chains=4, seed=0,
+SIM_MASS = {"lob": [0.10, 0.08, 0.04, 0.0, 0.0], "shp": [0.08, 0.06, 0.02, 0.0, 0.0], "pur": [-0.05, -0.05, 0.0, 0.0, 0.0],
+            "red": [0.05, 0.05, 0.04, 0.0, 0.0], "kelp": [0.0, 0.0, 0.0, 0.0, 0.0]}
+MASS_TRUTH = dict(shape=1.5, sigma_station=0.4, mu_lambda=0.1, sigma_lambda=0.2, sigma_region_year=0.10, sigma_drift=0.04,
+                  sigma_drift_region=0.04, rho=0.7, sigma_process=0.2, tau_D=0.2, zone=[0.0, 0.05, 0.10, 0.15])
+
+
+def simulate_mass(mass, truth, seed):
+    """Simulate group mean masses on the real measurement design from the mass layer at known values."""
+    rng = np.random.default_rng(seed + 7919); tr = MASS_TRUTH; out = {}
+    for g, M in mass.items():
+        if M is None:
+            out[g] = None; continue
+        S, Mn = len(M["mass_stations"]), len(M["mpa_ba"]); T = M["span"].shape[0]; R = int(M["st_region"].max()) + 1
+        inc = np.array(SIM_MASS[g], dtype=float)
+        lam = np.where(M["mpa_ba"] == 1, tr["mu_lambda"] + tr["sigma_lambda"] * rng.normal(size=Mn), rng.normal(0, 0.3, size=Mn))
+        c = M["log_mean_mass"] + tr["sigma_station"] * rng.normal(size=S) + M["st_prot"] * lam[M["st_mpa"]]
+        gam = tr["sigma_region_year"] * rng.normal(size=(R, T))
+        al = np.cumsum(tr["sigma_drift"] * rng.normal(size=T)); br = np.cumsum(tr["sigma_drift_region"] * rng.normal(size=(R, T)), axis=1)
+        gam = gam + (al - al.mean())[None, :] + br - br.mean(1, keepdims=True)
+        e = np.zeros((T, S)); e[0] = rng.normal(0, tr["sigma_process"] / np.sqrt(1 - tr["rho"] ** 2), size=S)
+        for t in range(1, T):
+            e[t] = tr["rho"] * e[t - 1] + tr["sigma_process"] * rng.normal(size=S)
+        Dm = tr["tau_D"] * rng.normal(size=Mn)
+        logM = c[None, :] + gam[M["st_region"]].T + e + M["grid_after"] * (M["grid_B"] @ inc + Dm[M["st_mpa"]][None, :] * M["grid_age"] / 10.0)
+        mean = np.exp(logM[M["g_t"], M["g_s"]] + np.array(tr["zone"])[M["g_zone"]])
+        conc = M["g_n"] * tr["shape"]
+        M2 = dict(M); M2["g_mean"] = np.maximum(rng.gamma(conc, mean / conc), 1e-9); out[g] = M2
+        e10m = float(basis_row(10.0) @ inc)
+        truth[g].update(E10_mass=e10m, E10_biomass=truth[g]["E10_total"] + e10m)
+    return out
+
+
+def fit(data, edges, ys, config, curve="rw", lag=1, beta_scale=0.5, paths=True, split=False, mass=None, warmup=600, samples=600, chains=4, seed=0,
         depth=10, accept=0.99, step0=0.01, thin=1, **common):
     data = {g: attach_counts(dict(D), ys[g]) for g, D in data.items()}
-    kw = dict(curve=curve, lag=lag, beta_scale=beta_scale, paths=paths, **common)
+    kw = dict(curve=curve, lag=lag, beta_scale=beta_scale, paths=paths, split=split, mass=mass, **common)
     kern = NUTS(model, init_strategy=init_to_uniform(radius=0.5), target_accept_prob=accept, max_tree_depth=depth, step_size=step0)
     mc = MCMC(kern, num_warmup=warmup, num_samples=samples, num_chains=chains, thinning=thin,
               chain_method="parallel" if CPUS > 1 else "sequential", progress_bar=False)
@@ -105,7 +140,7 @@ def keep_sites(mc):
     grouped = mc.get_samples(group_by_chain=True)
     ex = mc.get_extra_fields(group_by_chain=True)
     keep = {k: np.asarray(v) for k, v in grouped.items()
-            if k == "beta" or k.split(":")[-1] in SITES or k.split(":")[-1].startswith("E10_via") or k.split(":")[-1] == "increments"}
+            if k in ("beta", "beta_prot") or k.split(":")[-1] in SITES or k.split(":")[-1].startswith("E10_via") or k.split(":")[-1] == "increments"}
     extra = dict(diverging=np.asarray(ex["diverging"]), num_steps=np.asarray(ex["num_steps"]),
                  potential_energy=np.asarray(ex["potential_energy"]), step_size=np.asarray(ex["adapt_state.step_size"])[:, -1])
     return keep, extra
@@ -125,14 +160,14 @@ def summarize(keep, ex, edges):
     out["divergences"] = int(ex["diverging"].sum())
     q = {}
     for k, v in keep.items():
-        if k == "beta" or k.split(":")[-1].startswith("E10"):
+        if k in ("beta", "beta_prot") or k.split(":")[-1].startswith("E10"):
             v2 = v.reshape(v.shape[0] * v.shape[1], -1)
             q[k] = dict(median=np.median(v2, 0).round(4).tolist(), q025=np.quantile(v2, .025, 0).round(4).tolist(),
                         q975=np.quantile(v2, .975, 0).round(4).tolist(), prob_negative=(v2 < 0).mean(0).round(4).tolist())
     out["intervals95"] = q
     out["edges"] = [f"{k}<-{j}" for k, j, _ in edges]
     pc = {k: v.reshape(v.shape[0], v.shape[1], -1).mean(1).round(3).tolist()
-          for k, v in keep.items() if k == "beta" or k.split(":")[-1] in ("E10_total", "E10_direct", "sigma_process", "rho", "inv_sqrt_phi")}
+          for k, v in keep.items() if k in ("beta", "beta_prot") or k.split(":")[-1] in ("E10_total", "E10_direct", "sigma_process", "rho", "inv_sqrt_phi")}
     pc["potential_energy"] = ex["potential_energy"].mean(1).round(1).tolist()
     pc["step_size"] = ex["step_size"].round(5).tolist()
     pc["mean_leapfrog_steps"] = ex["num_steps"].mean(1).round(0).tolist()
@@ -172,6 +207,10 @@ def main():
     ap.add_argument("--taxa", default="lob,shp,pur,red,kelp", help="tags, sources before targets: " + ", ".join(f"{k}={v}" for k, v in TAXA.items()))
     ap.add_argument("--edges", default=None, help='links as "target<source,...", default: ' + ",".join(f"{k}<{j}" for k, j in EDGES))
     ap.add_argument("--no-paths", action="store_true", help="fit the taxa side by side with no links")
+    ap.add_argument("--split", action="store_true", help="separate link coefficients for station-level fluctuation and for the protection function")
+    ap.add_argument("--mass", action="store_true", help="add the mean individual mass layer (biomass = density x mean mass)")
+    ap.add_argument("--mass-scale", type=float, default=1.0, help="multiplier on the prior scale of the mass response increments")
+    ap.add_argument("--mass-link", action="store_true", help="let mean mass depend on the same-year fluctuation of the taxon's density")
     ap.add_argument("--lag", type=int, default=1, choices=[0, 1, 2])
     ap.add_argument("--beta-scale", type=float, default=0.5, help="prior SD of the path coefficients")
     ap.add_argument("--curve", default="rw", choices=["piecewise", "rw"])
@@ -202,30 +241,38 @@ def main():
     tags = a.taxa.split(",")
     ed = None if a.edges is None else [tuple(e.split("<")) for e in a.edges.split(",") if e]
     data, edges = build_multi(a.uses, tags, ed, lag=a.lag, regions=a.regions, omit_mpas=a.omit_mpa)
+    mass = {g: build_mass(a.uses, data[g], TAXA[g]) for g in tags} if a.mass else None
     for D in data.values():
         D.pop("cells")
     config = {g: CONFIG[g] for g in tags}
-    opts = dict(curve=a.curve, lag=a.lag, beta_scale=a.beta_scale, paths=not a.no_paths, warmup=a.warmup, samples=a.samples,
+    opts = dict(curve=a.curve, lag=a.lag, beta_scale=a.beta_scale, paths=not a.no_paths, split=a.split, warmup=a.warmup, samples=a.samples,
                 chains=a.chains, seed=a.seed, depth=a.depth, accept=a.accept, step0=a.step0, thin=a.thin, drift=a.drift, inc_scale=a.inc_scale)
+    if mass is not None:
+        opts.update(mass_scale=a.mass_scale, mass_link=a.mass_link)
     meta = dict(mode=a.mode, chain_processes=(a.chains > 1 and not a.one_process), taxa={g: TAXA[g] for g in tags}, regions=a.regions, omit_mpa=a.omit_mpa,
                 links={f"{k}<-{j}": {x: lk[x] for x in ("n_target_station_years", "n_linked", "n_stations_linked")} for k, j, lk in edges},
                 n_units={g: int(len(D["y"])) for g, D in data.items()}, stations={g: len(D["stations"]) for g, D in data.items()}, **opts)
+    if mass is not None:
+        meta["mass_data"] = {g: (None if M is None else {k: M[k] for k in ("n_groups", "animals", "station_years_with_mass", "density_station_years", "kinds")}
+                                 | dict(stations=len(M["mass_stations"]), mpas_before_after=int(M["mpa_ba"].sum()))) for g, M in mass.items()}
     if a.mode == "simulate":
         name = a.name or f"msim_{a.scenario}_{a.curve}_seed{a.seed}"
         ys, truth = simulate(data, edges, a.scenario, a.seed, lag=a.lag, direct=not a.no_direct, common_sd=a.common_sd)
+        if mass is not None:
+            mass = simulate_mass(mass, truth, a.seed)
     else:
         name = a.name or f"mfit_{a.curve}{'_nopaths' if a.no_paths else ''}"
         ys = {g: D["y"] for g, D in data.items()}
     if a.worker is not None:          # one chain, own seed; hand the kept draws back to the parent process
         opts.update(chains=1, seed=a.seed * 1000 + a.worker)
-        mc, secs = fit(data, edges, ys, config, **opts)
+        mc, secs = fit(data, edges, ys, config, mass=mass, **opts)
         keep, ex = keep_sites(mc)
         np.savez(Path(a.worker_dir) / f"chain{a.worker}.npz", **keep, **{f"__{k}": v for k, v in ex.items()}, __seconds=np.array([secs]))
         return
     if a.chains > 1 and not a.one_process:
         keep, ex, secs = run_chains(a, data, edges, ys, config, opts)
     else:
-        mc, secs = fit(data, edges, ys, config, **opts)
+        mc, secs = fit(data, edges, ys, config, mass=mass, **opts)
         keep, ex = keep_sites(mc)
     res = summarize(keep, ex, edges)
     if a.mode == "simulate":
@@ -235,7 +282,7 @@ def main():
         if a.save_draws:
             try:
                 np.savez_compressed(Path(a.out) / f"draws_{name}.npz", **{k.replace(":", "__"): v for k, v in keep.items()
-                                    if k == "beta" or k.split(":")[-1].startswith("E10") or k.split(":")[-1] in ("g_knots", "increments")})
+                                    if k in ("beta", "beta_prot") or k.split(":")[-1].startswith("E10") or k.split(":")[-1] in ("g_knots", "increments")})
             except OSError as e:
                 print(f"draws not saved ({e})", flush=True)
     res.update(meta, seconds=round(secs))
@@ -246,7 +293,7 @@ def main():
         pass
     write_retry(out / f"{name}.json", json.dumps(res, indent=1))
     print(name, "seconds", round(secs), "div", res["divergences"], "worst_rhat", res["worst_rhat"], res["worst_rhat_site"],
-          "min_neff", res["min_neff"], "beta", res.get("beta", {}).get("mean"))
+          "min_neff", res["min_neff"], "beta", res.get("beta", {}).get("mean"), "beta_prot", res.get("beta_prot", {}).get("mean"))
 
 
 if __name__ == "__main__":

@@ -1,0 +1,25 @@
+mm_lob_rw_s1.json	fit --taxa lob --mass --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mm_lob_pw_s1.json	fit --taxa lob --mass --curve piecewise --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mm_shp_rw_s1.json	fit --taxa shp --mass --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mm_shp_pw_s1.json	fit --taxa shp --mass --curve piecewise --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mm_pur_rw_s1.json	fit --taxa pur --mass --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mm_pur_pw_s1.json	fit --taxa pur --mass --curve piecewise --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mm_red_rw_s1.json	fit --taxa red --mass --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mm_red_pw_s1.json	fit --taxa red --mass --curve piecewise --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mm_kelp_rw_s1.json	fit --taxa kelp --mass --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mm_kelp_pw_s1.json	fit --taxa kelp --mass --curve piecewise --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mm_lob_rw_s2.json	fit --taxa lob --mass --curve rw --seed 2 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mm_lob_rw_link.json	fit --taxa lob --mass --mass-link --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mm_lob_rw_wide.json	fit --taxa lob --mass --mass-scale 2 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mm_shp_rw_s2.json	fit --taxa shp --mass --curve rw --seed 2 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mm_shp_rw_link.json	fit --taxa shp --mass --mass-link --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mm_shp_rw_wide.json	fit --taxa shp --mass --mass-scale 2 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mm_pur_rw_s2.json	fit --taxa pur --mass --curve rw --seed 2 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mm_pur_rw_link.json	fit --taxa pur --mass --mass-link --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mm_pur_rw_wide.json	fit --taxa pur --mass --mass-scale 2 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mm_red_rw_s2.json	fit --taxa red --mass --curve rw --seed 2 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mm_red_rw_link.json	fit --taxa red --mass --mass-link --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mm_red_rw_wide.json	fit --taxa red --mass --mass-scale 2 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mm_kelp_rw_s2.json	fit --taxa kelp --mass --curve rw --seed 2 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mm_kelp_rw_link.json	fit --taxa kelp --mass --mass-link --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mm_kelp_rw_wide.json	fit --taxa kelp --mass --mass-scale 2 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws

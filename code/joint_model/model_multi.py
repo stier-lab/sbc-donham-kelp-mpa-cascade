@@ -154,25 +154,101 @@ def observe(D, state):
     numpyro.factor("y", jnp.sum(ll_cells) + ll_disp)
 
 
-def model(data, edges, config, curve="rw", lag=1, beta_scale=0.5, paths=True, **common):
+def mass_layer(M, curve="rw", mass_scale=1.0, fluct=None, mass_link=False):
+    """Mean individual mass on the year x station grid of the stations that have measured animals (design 4.2).
+
+        log M[s, t] = station level + siting difference (protected stations) + region-year effect (independent part,
+                      shared random walk, regional random walk) + station AR(1) deviation
+                      + after * (response curve by years since designation + MPA rate deviation * age / 10)
+                      [+ theta * same-year fluctuation of the taxon's own density at that station, if mass_link]
+        mean mass of a group of n animals ~ Gamma(n * k[program], mean M * zone effect)
+
+    Same response-curve machinery as density, with priors half as wide (a decade's change in mean mass beyond about
+    x2.7 is implausible for slow-growing animals). Returns the response increments."""
+    S, Mn, P, R, T = len(M["mass_stations"]), len(M["mpa_ba"]), int(M["st_prog"].max()) + 1, int(M["st_region"].max()) + 1, M["span"].shape[0]
+    P = max(P, int(M["g_prog"].max()) + 1); J = M["grid_B"].shape[-1]
+    mu_c = numpyro.sample("m_mu", dist.Normal(M["log_mean_mass"], 2.0).expand([P]))
+    sigma_c = numpyro.sample("m_sigma_station", HN(1.0).expand([P]))
+    c = mu_c[M["st_prog"]] + sigma_c[M["st_prog"]] * numpyro.sample("m_z_station", dist.Normal(0, 1).expand([S]))
+    mu_lam = numpyro.sample("m_mu_lambda", dist.Normal(0, 0.5))
+    sigma_lam = numpyro.sample("m_sigma_lambda", HN(0.5))
+    z_lam = numpyro.sample("m_z_lambda", dist.Normal(0, 1).expand([Mn]))
+    lam = jnp.where(jnp.asarray(M["mpa_ba"]) == 1, mu_lam + sigma_lam * z_lam, 1.5 * z_lam)
+    c = c + M["st_prot"] * lam[M["st_mpa"]]
+    gam = numpyro.sample("m_sigma_region_year", HN(0.5)) * numpyro.sample("m_z_region_year", dist.Normal(0, 1).expand([R, T]))
+    alpha = jnp.cumsum(numpyro.sample("m_sigma_drift", HN(0.15)) * numpyro.sample("m_z_drift", dist.Normal(0, 1).expand([T])))
+    beta = jnp.cumsum(numpyro.sample("m_sigma_drift_region", HN(0.15)) * numpyro.sample("m_z_drift_region", dist.Normal(0, 1).expand([R, T])), axis=1)
+    gam = gam + (alpha - alpha.mean())[None, :] + beta - beta.mean(1, keepdims=True)
+    rho = 0.95 * numpyro.sample("m_rho_raw", dist.Beta(2.0, 2.0))
+    numpyro.deterministic("m_rho", rho)
+    sigma_e = numpyro.sample("m_sigma_process", HN(0.5))
+    z = numpyro.sample("m_delta", dist.Normal(0, 1).expand([T, S]))
+    def step(prev, x):
+        zt, f, i = x
+        cur = f * sigma_e * zt / jnp.sqrt(1 - rho ** 2) + i * (rho * prev + sigma_e * zt)
+        return cur, cur
+    _, e = lax.scan(step, jnp.zeros(S), (z, M["span_first"], M["span_inside"]))
+    if curve == "piecewise":
+        s_inc = numpyro.sample("m_sigma_curve", HN(0.2 * mass_scale))
+        inc = s_inc * numpyro.sample("m_z_curve", dist.Normal(0, 1).expand([J]))
+    else:
+        first_inc = numpyro.sample("m_inc_first", dist.Normal(0, 0.3 * mass_scale))
+        s_inc = numpyro.sample("m_sigma_curve", HN(0.15 * mass_scale))
+        inc = first_inc + jnp.concatenate([jnp.zeros(1), jnp.cumsum(s_inc * numpyro.sample("m_z_curve", dist.Normal(0, 1).expand([J - 1])))])
+    numpyro.deterministic("m_increments", inc)
+    numpyro.deterministic("m_g_knots", jnp.cumsum(inc))
+    tau_D = numpyro.sample("m_tau_D", HN(0.5))
+    Dm = tau_D * numpyro.sample("m_z_D", dist.Normal(0, 1).expand([Mn]))
+    numpyro.deterministic("m_D_mpa", Dm)
+    m = M["st_mpa"]
+    logM = c[None, :] + gam[M["st_region"]].T + e + M["grid_after"] * (M["grid_B"] @ inc + Dm[m][None, :] * M["grid_age"] / 10.0)
+    if mass_link and fluct is not None:
+        theta = numpyro.sample("m_theta", dist.Normal(0, 0.5))
+        logM = logM + theta * fluct[:, M["dens_index"]]
+    zeta = jnp.concatenate([jnp.zeros(1), numpyro.sample("m_zone", dist.Normal(0, 0.5).expand([3]))])
+    k = numpyro.sample("m_shape", dist.LogNormal(0.0, 1.0).expand([P]))
+    conc = M["g_n"] * k[M["g_prog"]]
+    mean = jnp.exp(logM[M["g_t"], M["g_s"]] + zeta[M["g_zone"]])
+    numpyro.sample("m_obs", dist.Gamma(conc, conc / mean), obs=M["g_mean"])
+    return inc
+
+
+def model(data, edges, config, curve="rw", lag=1, beta_scale=0.5, paths=True, split=False, mass=None, mass_scale=1.0, mass_link=False, **common):
     """data: {tag: inputs}; edges: [(target, source, link)]; config: {tag: dict(centered=, level_dev=)}.
-    paths=False fits the taxa side by side with no links (must reproduce the single-taxon fits)."""
-    dev, inc, total = {}, {}, {}
+    paths=False fits the taxa side by side with no links (must reproduce the single-taxon fits).
+    split=True gives every link two coefficients instead of one:
+        beta      on the source's station-level fluctuation (baseline + AR(1) deviation + what its own sources'
+                  fluctuations carry), centred within station. This is year-to-year co-variation at a station.
+        beta_prot on the source's protection function (plus what its own sources' protection functions carry).
+                  This is learned from how much the source responded to protection, MPA by MPA and year by year.
+      Only beta_prot carries a protection effect downstream. With one coefficient (split=False) the two kinds of
+      evidence are forced to agree; in the first real-data fit (2026-11-11) they did not, and the model bent the
+      lobster protection estimate to reconcile them."""
+    dev, prot, inc, total = {}, {}, {}, {}
     E = len(edges)
     if paths and E:
         beta = numpyro.sample("beta", dist.Normal(0, beta_scale).expand([E]))
+        beta_p = numpyro.sample("beta_prot", dist.Normal(0, beta_scale).expand([E])) if split else beta
     for g, D in data.items():
         with scope(prefix=g, divider=":"):
             L = latent(D, curve=curve, **config[g], **common)
-        path = jnp.zeros_like(L["F"]); via = {}
+        path = jnp.zeros_like(L["F"]); path_p = jnp.zeros_like(L["F"]); via = {}
         if paths:
             for e, (k, j, lk) in enumerate(edges):
                 if k == g:
                     path = path + beta[e] * lk["valid"] * dev[j][lk["src_t"]][:, lk["src_s"]]
-                    via[j] = beta[e]
-        d = L["level"] + L["F"] + path
+                    if split:
+                        path_p = path_p + beta_p[e] * lk["valid"] * prot[j][lk["src_t"]][:, lk["src_s"]]
+                    via[j] = beta_p[e]
         n = jnp.sum(D["span"], 0)
-        dev[g] = D["span"] * (d - jnp.sum(D["span"] * d, 0) / jnp.where(n > 0, n, 1.0))
+        if split:
+            prot[g] = L["F"] + path_p
+            d = L["level"] + path
+            dev[g] = D["span"] * (d - jnp.sum(D["span"] * d, 0) / jnp.where(n > 0, n, 1.0))
+            d = d + prot[g]
+        else:
+            d = L["level"] + L["F"] + path
+            dev[g] = D["span"] * (d - jnp.sum(D["span"] * d, 0) / jnp.where(n > 0, n, 1.0))
         inc[g] = L["inc"]
         # regional mean effect of protection at a given age: direct curve plus what the sources carry
         def tot(age, g=g, via=via):
@@ -184,3 +260,11 @@ def model(data, edges, config, curve="rw", lag=1, beta_scale=0.5, paths=True, **
             for j, bj in via.items():
                 numpyro.deterministic(f"E10_via_{j}", bj * total[j](10.0 - lag))
             observe(D, d + L["gam"][D["st_region"]].T)
+            # mean individual mass and biomass (design 4.2): log biomass effect = log density effect + log mass effect
+            if mass is not None and mass.get(g) is not None:
+                lv = L["level"]
+                fl = D["span"] * (lv - jnp.sum(D["span"] * lv, 0) / jnp.where(n > 0, n, 1.0)) if mass_link else None
+                minc = mass_layer(mass[g], curve=curve, mass_scale=mass_scale, fluct=fl, mass_link=mass_link)
+                e10m = jnp.asarray(basis_row(10.0)) @ minc
+                numpyro.deterministic("E10_mass", e10m)
+                numpyro.deterministic("E10_biomass", tot(10.0) + e10m)
