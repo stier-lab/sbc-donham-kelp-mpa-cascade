@@ -140,3 +140,46 @@ if sampler.exists():
             rows.append((f"g9_{t}_{c}_noWebster", f'fit {b} --omit-station "KFM|a-k-35" --seed 1 {MID}'))
             rows.append((f"g9_{t}_{c}_noWyckoff", f'fit {b} --omit-station "KFM|a-k-01" --seed 1 {MID}'))
     write("g9", rows)
+
+    # ------------------------------------------------------------------------------------------------------------
+    # Structure experiments, 2026-11-10 (review only; nothing adopted). x = experimental options in model.py.
+    DR = ("global", "regional")
+    SIMX = {"urchin": '--taxon "S. purpuratus" --truth urchin --marg-b --step0 0.01', "lobster": '--taxon "P. interruptus" --truth lobster --noncentered --level-dev --step0 0.01'}
+    TREND = {"up": "--trend 0.08", "down": "--trend -0.08", "regvar": "--trend 0.0 --trend-sd 0.08"}
+    rows = []
+    for lay in SIMX:
+        for d in DR:
+            for ty in TREND:
+                rows += [(f"xA_{lay}_{ty}_rw_{d}_s{s}", f"simulate {SIMX[lay]} --scenario null {TREND[ty]} --curve rw --drift {d} --seed {s} {SHORT}") for s in range(1, 41)]
+            rows += [(f"xA_{lay}_up_piecewise_{d}_s{s}", f"simulate {SIMX[lay]} --scenario null {TREND['up']} --curve piecewise --drift {d} --seed {s} {SHORT}") for s in range(1, 41)]
+    write("xA", rows)
+    rows = []
+    for lay, scs in (("urchin", ("null", "effect", "large")), ("lobster", ("null", "lobster_effect"))):
+        for sc in scs:
+            for d, k in (("global", 1), ("regional", 1), ("regional", 2)):
+                rows += [(f"xB_{lay}_{sc}_{d}_inc{k}_s{s}", f"simulate {SIMX[lay]} --scenario {sc} --curve rw --drift {d} --inc-scale {k} --seed {s} {SHORT}") for s in range(1, 101)]
+    write("xB", rows)
+    write("xC", [(f"xC_{t}_{c}_{d}_s{s}", f"fit {base(t, c)} --drift {d} --space-placebo-seed {s} --seed 1 {SPACE}")
+                 for t in TAXA for c in CURVES for d in DR for s in range(1, 21)])
+    rows = []
+    for t in TAXA:
+        yr = 1993 if t == "sheep" else 1992
+        nc = "--noncentered" if t in ("lob", "sheep") else ""
+        for c in CURVES:
+            for d in DR:
+                rows.append((f"xD_{t}_{c}_{d}", f'fit {TAXA[t].split(" --")[0]} {nc} --curve {c} {S[t][c]} --drift {d} --placebo-year {yr} --seed 1 {MID}'))
+    write("xD", rows)
+    XLX = "--warmup 2000 --samples 4000 --chains 4 --cpus 4 --ppc 200 --seed 1"
+    rows = []
+    for t in TAXA:
+        for c in CURVES:
+            for d in DR:
+                rows.append((f"xE_{t}_{c}_{d}", f"fit {base(t, c)} --drift {d} {XLX}"))
+        rows.append((f"xE_{t}_rw_regional_inc2", f"fit {base(t, 'rw')} --drift regional --inc-scale 2 {XLX}"))
+        rows.append((f"xE_{t}_rw_regional_three", f"fit {base(t, 'rw')} --drift regional --regions three {XLX}"))
+        rows.append((f"xE_{t}_rw_regional_one", f"fit {base(t, 'rw')} --drift regional --regions one {XLX}"))
+        rows.append((f"xE_{t}_rw_regional_zi", f"fit {base(t, 'rw')} --drift regional --zi {XLX}"))
+        rows.append((f"xE_{t}_rw_none_zi", f"fit {base(t, 'rw')} --zi {XLX}"))
+    for t in ("purp", "red"):
+        rows.append((f"xE_{t}_piecewise_regional_zi", f"fit {base(t, 'piecewise')} --drift regional --zi {XLX}"))
+    write("xE", rows)

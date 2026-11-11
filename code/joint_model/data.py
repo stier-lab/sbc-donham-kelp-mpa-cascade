@@ -15,12 +15,14 @@ REGION = {  # proposed regions (docs/JOINT_MODEL_DESIGN.md section 9, decision 2
     "Abalone Cove SMCA": "Palos Verdes", "Point Vicente SMCA": "Palos Verdes", "Blue Cavern Onshore SMCA": "Catalina",
     "Long Point SMR": "Catalina", "Farnsworth Onshore SMCA": "Catalina", "Matlahuayl SMR": "San Diego",
     "South La Jolla SMR": "San Diego", "Cabrillo SMR": "San Diego", "Swamis SMCA": "San Diego"}
+COARSE = {"three": {"N Channel Islands": "Northern islands", "Santa Barbara Island": "Southern islands", "Catalina": "Southern islands",
+                    "SB mainland": "Mainland", "Malibu": "Mainland", "Palos Verdes": "Mainland", "San Diego": "Mainland"}}
 KNOTS = np.array([0, 4, 8, 12, 16, 20], dtype=float)
 ZONES = ["INNER", "MID", "OUTER", "DEEP"]
 
 
 def build(uses_path, taxon, min_before=3, placebo_year=None, omit_mpas=(), omit_stations=(),
-          space_placebo_seed=None, pisco_cap=None):
+          space_placebo_seed=None, pisco_cap=None, regions="seven"):
     """Model inputs for one taxon.
 
     placebo_year: time placebo (KFM years before the real designation, fake designation year).
@@ -83,7 +85,9 @@ def build(uses_path, taxon, min_before=3, placebo_year=None, omit_mpas=(), omit_
     stations = sorted(cells.station.unique()); s_ix = {s: i for i, s in enumerate(stations)}
     mpas = sorted(cells.MPA.unique()); m_ix = {m: i for i, m in enumerate(mpas)}
     programs = sorted(cells.Source.unique()); p_ix = {p: i for i, p in enumerate(programs)}
-    regions = sorted({REGION[m] for m in mpas}); r_ix = {r: i for i, r in enumerate(regions)}
+    # region sets: "seven" (proposed), "three" (northern islands, southern islands, mainland), "one"
+    reg = {m: (REGION[m] if regions == "seven" else COARSE["three"][REGION[m]] if regions == "three" else "All") for m in REGION}
+    regions = sorted({reg[m] for m in mpas}); r_ix = {r: i for i, r in enumerate(regions)}
     y0, y1 = int(cells.year.min()), int(cells.year.max()); years = np.arange(y0, y1 + 1)
     cells["visit"] = cells.station + "|" + cells.date.astype(str)
     visits = sorted(cells.visit.unique()); v_ix = {v: i for i, v in enumerate(visits)}
@@ -112,7 +116,7 @@ def build(uses_path, taxon, min_before=3, placebo_year=None, omit_mpas=(), omit_
         zone=zone_ix, month=(cells.month - 1).values.astype(int),
         obs_prog=cells.Source.map(p_ix).values,
         st_prog=st.Source.map(p_ix).values, st_mpa=st.MPA.map(m_ix).values,
-        st_region=st.MPA.map(REGION).map(r_ix).values, st_prot=(st.status == "mpa").values.astype(float),
+        st_region=st.MPA.map(reg).map(r_ix).values, st_prot=(st.status == "mpa").values.astype(float),
         after=(cells.year >= cells["T"]).values.astype(float) * (cells.status == "mpa").values.astype(float),
         prot=(cells.status == "mpa").values.astype(float), age=age,
         mpa_ba=np.array([ba[m] for m in mpas]), mpa_T=np.array([int(cells[cells.MPA == m]["T"].iloc[0]) for m in mpas]),

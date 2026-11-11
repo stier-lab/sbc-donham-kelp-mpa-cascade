@@ -43,6 +43,25 @@ For Adrian to fold into the `grit-cluster` skill. Verified on this project's run
 - Make every task exit non-zero when its result file is missing or fails to parse; `sacct` state alone hid nothing then.
 - Slurm `MaxArraySize` is 5001.
 
+## When scratch fills up (it did, 2026-11-10 about 13:50 to at least 17:00)
+- `/home/hpc-scratch` is one shared 53 TB BeeGFS volume. When it reaches 100%, writes fail at random with
+  `No space left on device` even though `df` still shows a few GB free. Symptoms: empty Slurm logs, zero-byte or
+  truncated result files, jobs failing in one second with exit code `0:53`, `sbatch: Batch script is empty`.
+- **A file is pinned to a storage target when it is created.** Rewriting the same file retries the same full target and
+  fails forever. Retry by writing a NEW file name each attempt, check its size, then rename it into place
+  (`write_retry` in `run.py`; `hpc/put.sh` does the same for uploads over sftp).
+- Save the small result (JSON) before any large optional output. My first experiment batch lost 27 finished fits because
+  the posterior-draw `.npz` was written first and its failure raised before the JSON was saved.
+- Never extract a tarball over the live code directory: a partial extract left an empty `array.slurm` and one bad
+  staging run could have removed the code under running arrays. `stage.sh` now extracts beside the live copy, checks
+  checksums and sizes, then swaps.
+- Fallback that Adrian approved for this project: result JSON only, capped at 30 MB, to `/home/astier/mpa-joint-out`
+  after five failed scratch attempts (`MPA_JOINT_FALLBACK` in `array.slurm`). In the end it was not needed once the
+  retry used fresh file names.
+- sftp to the login node can itself hang for a minute or more while the file systems are in this state.
+- Other sessions under the same account share the 300-core and 150-job limits (jobs named `dafl-dd` appeared during
+  these runs). Leave headroom for them and for the ssh gateway.
+
 ## Not GRIT, but it cost time
 - Copying files from the Claude cloud sandbox to the Mac right after writing them delivered stale versions twice. Check the
   checksum on the Mac after every copy.

@@ -1,0 +1,4 @@
+xF_purp_rw_rec.json	fit --taxon "S. purpuratus" --curve rw --marg-b --step0 0.01 --accept 0.99 --drift regional --regions three --inc-scale 2 --warmup 3000 --samples 6000 --chains 4 --cpus 4 --ppc 200 --seed 1
+xF_red_rw_rec.json	fit --taxon "M. franciscanus" --curve rw --marg-b --step0 0.01 --accept 0.99 --drift regional --regions three --inc-scale 2 --warmup 3000 --samples 6000 --chains 4 --cpus 4 --ppc 200 --seed 1
+xF_lob_rw_rec.json	fit --taxon "P. interruptus" --noncentered --level-dev --curve rw --step0 0.01 --accept 0.99 --drift regional --regions three --inc-scale 2 --warmup 3000 --samples 6000 --chains 4 --cpus 4 --ppc 200 --seed 1
+xF_sheep_rw_rec.json	fit --taxon "S. pulcher" --noncentered --level-dev --curve rw --step0 0.01 --accept 0.99 --drift regional --regions three --inc-scale 2 --warmup 3000 --samples 6000 --chains 4 --cpus 4 --ppc 200 --seed 1

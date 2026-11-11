@@ -13,14 +13,20 @@ import numpyro.distributions as dist
 
 
 def model(D, B, curve="piecewise", shock=True, y=None, centered=True, level_dev=False,
-          tau_d_scale=1.0, center_b=False, expose=False, marg_b=False):
+          tau_d_scale=1.0, center_b=False, expose=False, marg_b=False, drift="none", zi=False, inc_scale=1.0):
     """tau_d_scale: prior scale of the between-MPA SD of the decade rate (sensitivity).
     center_b: sample station baselines directly (same model; better mixing when stations are data-rich).
     marg_b: integrate the station baselines out analytically (same model, centered station process only). The
         sampled state is then x = baseline + AR(1) deviation, and the Gaussian baseline enters as a rank-one term in
         the covariance of each station's states. Removes the ridge between a station's baseline and the mean of its
         persistent AR(1) deviations, which is what slows sigma_b and rho.
-    expose: record the linear predictor without visit noise, for posterior predictive checks."""
+    expose: record the linear predictor without visit noise, for posterior predictive checks.
+    EXPERIMENTAL structure options (2026-11-10, not adopted; see REPORT_structure_experiments.md):
+    drift: "none" (stage-1 model), "global" (random-walk year effect shared by every station) or "regional" (global
+        random walk plus a random-walk deviation per region). Gives reference stations the same capacity for smooth
+        common change that protected stations have through the response curve.
+    zi: zero-inflated negative binomial counts (one zero-inflation probability per program).
+    inc_scale: multiplies the prior scale of the first response increment (rw) or of all increments (piecewise)."""
     S, M, P, R, T = len(D["stations"]), len(D["mpas"]), len(D["programs"]), len(D["regions"]), len(D["years"])
     V = len(D["visit_prog"]); J = B.shape[1]
     HN = dist.HalfNormal
@@ -45,6 +51,16 @@ def model(D, B, curve="piecewise", shock=True, y=None, centered=True, level_dev=
     # region-year
     sigma_g = numpyro.sample("sigma_region_year", HN(1.0))
     gam = sigma_g * numpyro.sample("z_region_year", dist.Normal(0, 1).expand([R, T]))
+    if drift != "none":
+        s_a = numpyro.sample("sigma_drift", HN(0.3))
+        alpha = jnp.cumsum(s_a * numpyro.sample("z_drift", dist.Normal(0, 1).expand([T])))
+        alpha = alpha - alpha.mean()
+        numpyro.deterministic("drift", alpha)
+        gam = gam + alpha[None, :]
+        if drift == "regional":
+            s_r = numpyro.sample("sigma_drift_region", HN(0.3))
+            beta = jnp.cumsum(s_r * numpyro.sample("z_drift_region", dist.Normal(0, 1).expand([R, T])), axis=1)
+            gam = gam + beta - beta.mean(1, keepdims=True)
     # station AR(1): states sampled directly over each station's observed span (centered parameterization)
     rho = 0.95 * numpyro.sample("rho_raw", dist.Beta(2.0, 2.0))
     numpyro.deterministic("rho", rho)
@@ -80,10 +96,10 @@ def model(D, B, curve="piecewise", shock=True, y=None, centered=True, level_dev=
     # response
     if curve in ("piecewise", "rw"):
         if curve == "piecewise":   # independent increments: shrinks the curve toward zero
-            s_inc = numpyro.sample("sigma_curve", HN(0.4))
+            s_inc = numpyro.sample("sigma_curve", HN(0.4 * inc_scale))
             inc = s_inc * numpyro.sample("z_curve", dist.Normal(0, 1).expand([J]))
         else:                      # random-walk increments: shrinks the curve toward a straight line (design v2)
-            first_inc = numpyro.sample("inc_first", dist.Normal(0, 0.6))
+            first_inc = numpyro.sample("inc_first", dist.Normal(0, 0.6 * inc_scale))
             s_inc = numpyro.sample("sigma_curve", HN(0.3))
             steps = s_inc * numpyro.sample("z_curve", dist.Normal(0, 1).expand([J - 1]))
             inc = first_inc + jnp.concatenate([jnp.zeros(1), jnp.cumsum(steps)])
@@ -135,6 +151,12 @@ def model(D, B, curve="piecewise", shock=True, y=None, centered=True, level_dev=
     # dispersion (lgamma evaluated once per distinct count and program). Constant lgamma(y + 1) is dropped.
     ph = phi[D["obs_prog"]]
     lpm = jnp.log(ph + mean)
-    ll_cells = -D["n_units"] * ph * jnp.log1p(mean / ph) + D["cell_y"] * (eta + D["log_area"] - lpm)
+    log_nb0 = -ph * jnp.log1p(mean / ph)                       # log P(count = 0) for one unit
+    if zi:   # a unit is a structural zero with probability zi_prob; otherwise negative binomial
+        pz = numpyro.sample("zi_prob", dist.Beta(1.0, 4.0).expand([P]))[D["obs_prog"]]
+        ll_cells = (D["cell_nzero"] * jnp.logaddexp(jnp.log(pz), jnp.log1p(-pz) + log_nb0)
+                    + D["cell_npos"] * (jnp.log1p(-pz) + log_nb0) + D["cell_y"] * (eta + D["log_area"] - lpm))
+    else:
+        ll_cells = D["n_units"] * log_nb0 + D["cell_y"] * (eta + D["log_area"] - lpm)
     ll_disp = jnp.sum(D["uniq_mult"] * gammaln(D["uniq_y"] + phi[D["uniq_prog"]])) - jnp.sum(D["prog_units"] * gammaln(phi))
     numpyro.factor("y", jnp.sum(ll_cells) + ll_disp)

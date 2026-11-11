@@ -20,16 +20,19 @@ source "$B/venv/bin/activate"
 export XLA_FLAGS="--xla_cpu_multi_thread_eigen=false intra_op_parallelism_threads=1" OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1
 PACK=${PACK:-1}
 mkdir -p "$OUT"
+# Fallback for result JSON when scratch refuses writes (scratch was 100% full on 2026-11-10). Adrian approved up to
+# 30 MB of JSON under his home directory; run.py enforces the cap. Results found there count as done.
+export MPA_JOINT_FALLBACK=/home/astier/mpa-joint-out
 valid() { [ -s "$1" ] && python3 -c "import json,sys; r=json.load(open(sys.argv[1])); sys.exit(0 if ('E10' in r or r.get('ok')) else 1)" "$1" 2>/dev/null; }
 one() {
   local LINE NAME ARGS
   LINE=$(sed -n "$(($1 + 1))p" "$JOBLIST")
   NAME=$(printf '%s' "$LINE" | cut -f1); ARGS=$(printf '%s' "$LINE" | cut -f2-)
   [ -n "$NAME" ] || return 0
-  if valid "$OUT/$NAME"; then echo "SKIP $NAME (valid result exists)"; return 0; fi
+  if valid "$OUT/$NAME" || valid "$MPA_JOINT_FALLBACK/$NAME"; then echo "SKIP $NAME (valid result exists)"; return 0; fi
   echo "RUN $(hostname) $(date -Is) :: $NAME :: $ARGS"
   ( cd "$B/code" && eval "python3 joint_model/run.py $ARGS --name ${NAME%.json} --uses $B/data/supported_measurement_uses.parquet --out $OUT" )
-  if valid "$OUT/$NAME"; then echo "DONE $NAME $(date -Is)"; return 0; fi
+  if valid "$OUT/$NAME" || valid "$MPA_JOINT_FALLBACK/$NAME"; then echo "DONE $NAME $(date -Is)"; return 0; fi
   echo "FAILED $NAME: result missing or invalid"; return 1
 }
 FAIL=0; PIDS=()

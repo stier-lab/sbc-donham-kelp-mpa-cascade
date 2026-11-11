@@ -1,0 +1,16 @@
+xD_purp_rw_global.json	fit --taxon "S. purpuratus"  --curve rw --marg-b --step0 0.01 --accept 0.99 --drift global --placebo-year 1992 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+xD_purp_rw_regional.json	fit --taxon "S. purpuratus"  --curve rw --marg-b --step0 0.01 --accept 0.99 --drift regional --placebo-year 1992 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+xD_purp_piecewise_global.json	fit --taxon "S. purpuratus"  --curve piecewise --marg-b --step0 0.01 --accept 0.99 --drift global --placebo-year 1992 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+xD_purp_piecewise_regional.json	fit --taxon "S. purpuratus"  --curve piecewise --marg-b --step0 0.01 --accept 0.99 --drift regional --placebo-year 1992 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+xD_red_rw_global.json	fit --taxon "M. franciscanus"  --curve rw --marg-b --step0 0.01 --accept 0.99 --drift global --placebo-year 1992 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+xD_red_rw_regional.json	fit --taxon "M. franciscanus"  --curve rw --marg-b --step0 0.01 --accept 0.99 --drift regional --placebo-year 1992 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+xD_red_piecewise_global.json	fit --taxon "M. franciscanus"  --curve piecewise --marg-b --step0 0.01 --accept 0.99 --drift global --placebo-year 1992 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+xD_red_piecewise_regional.json	fit --taxon "M. franciscanus"  --curve piecewise --marg-b --step0 0.01 --accept 0.99 --drift regional --placebo-year 1992 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+xD_lob_rw_global.json	fit --taxon "P. interruptus" --noncentered --curve rw --step0 0.01 --accept 0.99 --drift global --placebo-year 1992 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+xD_lob_rw_regional.json	fit --taxon "P. interruptus" --noncentered --curve rw --step0 0.01 --accept 0.99 --drift regional --placebo-year 1992 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+xD_lob_piecewise_global.json	fit --taxon "P. interruptus" --noncentered --curve piecewise --step0 0.01 --accept 0.99 --drift global --placebo-year 1992 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+xD_lob_piecewise_regional.json	fit --taxon "P. interruptus" --noncentered --curve piecewise --step0 0.01 --accept 0.99 --drift regional --placebo-year 1992 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+xD_sheep_rw_global.json	fit --taxon "S. pulcher" --noncentered --curve rw --step0 0.01 --accept 0.99 --drift global --placebo-year 1993 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+xD_sheep_rw_regional.json	fit --taxon "S. pulcher" --noncentered --curve rw --step0 0.01 --accept 0.99 --drift regional --placebo-year 1993 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+xD_sheep_piecewise_global.json	fit --taxon "S. pulcher" --noncentered --curve piecewise --step0 0.01 --accept 0.99 --drift global --placebo-year 1993 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
+xD_sheep_piecewise_regional.json	fit --taxon "S. pulcher" --noncentered --curve piecewise --step0 0.01 --accept 0.99 --drift regional --placebo-year 1993 --seed 1 --warmup 2000 --samples 2000 --chains 4 --cpus 4
