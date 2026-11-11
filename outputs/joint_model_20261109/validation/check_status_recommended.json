@@ -1,0 +1,32 @@
+{
+ "A": [
+  "Convergence",
+  "PASS",
+  "12 of 12 fits converged; largest change in the E10 mean between seeds 0.02"
+ ],
+ "B": [
+  "Simulation calibration (rw)",
+  "FAIL",
+  "coverage outside 0.85 to 0.96: urchin large 0.84; trend coverage low: lobster up 0.84"
+ ],
+ "C": [
+  "Placebos",
+  "FAIL",
+  "time placebo excludes zero: Sheephead rw; space placebo off-centre: Sheephead"
+ ],
+ "D": [
+  "PISCO subsampling bound",
+  "PASS (bounded)",
+  "capping counts moves E10 by at most 0.03"
+ ],
+ "E": [
+  "Posterior predictive checks",
+  "FAIL",
+  "18 of 44 statistics flagged (Purple urchin 8; Red urchin 6; Lobster 2; Sheephead 2)"
+ ],
+ "F": [
+  "Sensitivities",
+  "MIXED",
+  "25 fits; largest shift in the E10 mean 0.11; interval status changes in: Purple urchin: without harris point smr"
+ ]
+}

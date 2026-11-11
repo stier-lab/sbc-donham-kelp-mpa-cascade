@@ -1,0 +1,4 @@
+R7_purp_rw_cap90.json	fit --taxon "S. purpuratus" --marg-b --curve rw --step0 0.01 --accept 0.99 --drift regional --regions three --inc-scale 2 --pisco-cap 90 --seed 1 --warmup 2000 --samples 4000 --chains 4 --cpus 4
+R7_purp_rw_cap30.json	fit --taxon "S. purpuratus" --marg-b --curve rw --step0 0.01 --accept 0.99 --drift regional --regions three --inc-scale 2 --pisco-cap 30 --seed 1 --warmup 2000 --samples 4000 --chains 4 --cpus 4
+R7_red_rw_cap90.json	fit --taxon "M. franciscanus" --marg-b --curve rw --step0 0.01 --accept 0.99 --drift regional --regions three --inc-scale 2 --pisco-cap 90 --seed 1 --warmup 2000 --samples 4000 --chains 4 --cpus 4
+R7_red_rw_cap30.json	fit --taxon "M. franciscanus" --marg-b --curve rw --step0 0.01 --accept 0.99 --drift regional --regions three --inc-scale 2 --pisco-cap 30 --seed 1 --warmup 2000 --samples 4000 --chains 4 --cpus 4
