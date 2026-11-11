@@ -251,6 +251,29 @@ Regional drift, three regions, first-increment prior doubled, `rw` prior, negati
 
 **Reading.** All four fits meet the convergence thresholds. The numbers match what the separate variants predicted: purple urchin and red urchin decline (both intervals only just exclude zero), lobster rises strongly, and the sheephead interval spans zero. The count-layer flags for urchins are unchanged (8 and 6), as expected with negative-binomial counts. The space placebo for this exact structure finished (10 relabellings per taxon): purple urchin -0.03 (-0.50 to +0.32), red urchin -0.12 (-0.40 to +0.03), lobster +0.43 (+0.08 to +1.08), sheephead +0.30 (0.00 to +0.43); none of the 40 intervals excludes zero. Lobster and sheephead still lean positive. For lobster the lean is about a quarter of the real estimate and 0.7 of a posterior standard deviation; for sheephead it is larger than the real estimate. I do not know whether this is noise shared across relabellings (two Point Dume reference stations are relabelled every time) or a remaining asymmetry; leaving Point Dume out of the placebo would tell.
 
+## 8. Kelp (exploratory): diver counts only
+
+Same count model on giant kelp diver counts from the biomass rows of the review table: KFM and PISCO count plants, LTER counts stipes. Not biomass, no Landsat canopy. 107 stations, 13 MPAs, 1996 to 2023. 4 chains x (2,000 + 4,000).
+
+| Structure | Curve prior | Station process | E10 [90% interval] | Change per decade | Pr(E10>0) | Converged | Predictive-check flags |
+|---|---|---|---|---|---|---|---|
+| recommended (regional drift, three regions, prior doubled) | rw | baselines integrated out | +0.93 [-0.01, +1.87] | +154% (-0% to +546%) | 0.95 | yes (1.006 / 1179 / 0) | 7 |
+| recommended | rw | innovations | +0.95 [-0.05, +1.88] | +157% (-5% to +553%) | 0.95 | yes (1.003 / 811 / 0) | 6 |
+| recommended + MPA level shift | rw | baselines integrated out | +0.89 [-0.08, +1.87] | +144% (-7% to +549%) | 0.93 | yes (1.007 / 554 / 0) | 7 |
+| global drift, three regions, prior doubled | rw | baselines integrated out | +0.80 [-0.15, +1.76] | +124% (-14% to +483%) | 0.92 | no (1.012 / 702 / 0) | 7 |
+| recommended | piecewise | baselines integrated out | +0.60 [-0.25, +1.51] | +83% (-22% to +352%) | 0.87 | yes (1.005 / 1130 / 0) | 7 |
+| stage 1 (no drift, seven regions) | rw | baselines integrated out | +0.34 [-0.54, +1.17] | +41% (-42% to +221%) | 0.75 | yes (1.004 / 1355 / 0) | 7 |
+| stage 1 | rw | innovations | +0.35 [-0.52, +1.22] | +42% (-41% to +239%) | 0.75 | yes (1.004 / 954 / 0) | 6 |
+
+Space placebo (10 relabellings each):
+
+| Structure | Mean placebo E10 | Range | 90% intervals excluding zero | Mean interval width |
+|---|---|---|---|---|
+| stage 1 | -0.96 | -1.20 to -0.63 | 1/10 | 2.24 |
+| recommended | -0.65 | -1.11 to -0.16 | 0/10 | 2.66 |
+
+**Reading.** Under the recommended structure kelp counts rise inside reserves by about +0.93 log units per decade (roughly 2.5 times), with 95% of the posterior above zero and a 90% interval that just reaches zero. Both sampler forms converge and agree (+0.93 and +0.95). The stage-1 structure gave +0.34: for kelp the trend leak pushed the estimate down, not up, because reference stations lost kelp over the period. Global drift (+0.80), an MPA level shift (+0.89) and the `piecewise` prior (+0.60) all point the same way. **Two reasons not to lean on this.** (1) The space placebo does not centre: -0.96 under stage 1 and -0.65 under the recommended structure, negative in every relabelling, although only one of 20 intervals excludes zero and each placebo fit is very wide (90% interval width 2.2 to 2.7). The same two Point Dume reference stations are relabelled every time. If the placebo reflects a real remaining bias, it runs against the estimate, so the real effect would be larger, not smaller; I have not established which. (2) The count layer fits kelp poorly (6 to 7 predictive-check flags in every fit), and the response mixes plants (KFM, PISCO) with stipes (LTER). This is a check on direction only. The paper's kelp result is biomass with the satellite series; that needs the stage-3 observation model.
+
 ## Not verified
 
 - The recommended combination was run for the `rw` prior only, with one seed. The stage-1 gates (time placebo, sensitivities, calibration at 200 replicates) were not rerun under it.
@@ -261,4 +284,5 @@ Regional drift, three regions, first-increment prior doubled, `rw` prior, negati
 - The urchin count-layer misfit is unresolved; the evidence that it does not affect E10 is indirect (zero inflation and count caps leave E10 unchanged).
 - The paper's pipeline was not rerun or compared number for number. Its sheephead density result was not re-examined.
 - No stage 2, biomass or kelp work. Nothing here is adopted; the default model in `model.py` is still stage 1.
+- Kelp: exploratory counts only; no biomass, no Landsat, no time placebo, no sensitivities, one seed. The negative space placebo is unexplained.
 

@@ -35,7 +35,10 @@ def build(uses_path, taxon, min_before=3, placebo_year=None, omit_mpas=(), omit_
         animals counted on a proportionally smaller area, which bounds the information in the count.
     """
     u = pd.read_parquet(uses_path)
-    u = u[(u.Resp == "Den") & (u.Taxa == taxon) & (u.Source != "Landsat") & u.density.notna()].copy()
+    # Kelp has no density series in the review table: its diver counts sit on the biomass rows (KFM and PISCO count
+    # plants, LTER counts stipes; program baselines absorb the difference in level). Exploratory use only.
+    resp = "Bio" if taxon == "M. pyrifera" else "Den"
+    u = u[(u.Resp == resp) & (u.Taxa == taxon) & (u.Source != "Landsat") & u.density.notna()].copy()
     u["MPA"] = u.series_id.str.split("|").str[0]
     if placebo_year is not None:
         # placebo in time: KFM years before the real designation only, with a fake designation year

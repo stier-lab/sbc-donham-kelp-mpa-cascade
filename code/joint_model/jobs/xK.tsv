@@ -1,0 +1,7 @@
+xK_kelp_rw_rec_margb.json	fit --taxon "M. pyrifera" --curve rw --marg-b --step0 0.01 --accept 0.99 --drift regional --regions three --inc-scale 2 --warmup 2000 --samples 4000 --chains 4 --cpus 4 --ppc 200 --seed 1
+xK_kelp_rw_rec_nc.json	fit --taxon "M. pyrifera" --curve rw --noncentered --step0 0.01 --accept 0.99 --drift regional --regions three --inc-scale 2 --warmup 2000 --samples 4000 --chains 4 --cpus 4 --ppc 200 --seed 1
+xK_kelp_rw_stage1_margb.json	fit --taxon "M. pyrifera" --curve rw --marg-b --step0 0.01 --accept 0.99 --warmup 2000 --samples 4000 --chains 4 --cpus 4 --ppc 200 --seed 1
+xK_kelp_rw_stage1_nc.json	fit --taxon "M. pyrifera" --curve rw --noncentered --step0 0.01 --accept 0.99 --warmup 2000 --samples 4000 --chains 4 --cpus 4 --ppc 200 --seed 1
+xK_kelp_piecewise_rec_margb.json	fit --taxon "M. pyrifera" --curve piecewise --marg-b --step0 0.01 --accept 0.99 --drift regional --regions three --inc-scale 2 --warmup 2000 --samples 4000 --chains 4 --cpus 4 --ppc 200 --seed 1
+xK_kelp_rw_reclevel_margb.json	fit --taxon "M. pyrifera" --curve rw --marg-b --level-dev --step0 0.01 --accept 0.99 --drift regional --regions three --inc-scale 2 --warmup 2000 --samples 4000 --chains 4 --cpus 4 --ppc 200 --seed 1
+xK_kelp_rw_global_margb.json	fit --taxon "M. pyrifera" --curve rw --marg-b --step0 0.01 --accept 0.99 --drift global --regions three --inc-scale 2 --warmup 2000 --samples 4000 --chains 4 --cpus 4 --ppc 200 --seed 1

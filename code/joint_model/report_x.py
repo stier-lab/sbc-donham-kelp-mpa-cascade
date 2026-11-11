@@ -212,6 +212,35 @@ else:
     P("Submitted to GRIT at 17:00 on 2026-11-10 (jobs `xF`, `xG`); not finished when this report was written. Rerun `report_x.py` after pulling `xF` and `xG`.\n")
 P("\n" + NOTES.get("F", "") + "\n")
 
+P("## 8. Kelp (exploratory): diver counts only\n")
+P("Same count model on giant kelp diver counts from the biomass rows of the review table: KFM and PISCO count plants, LTER counts stipes. Not biomass, no Landsat canopy. 107 stations, 13 MPAs, 1996 to 2023. 4 chains x (2,000 + 4,000).\n")
+xk = loads("xK", "xK_*")
+if xk:
+    P("| Structure | Curve prior | Station process | E10 [90% interval] | Change per decade | Pr(E10>0) | Converged | Predictive-check flags |")
+    P("|---|---|---|---|---|---|---|---|")
+    lab = {"rw_rec_margb": ("recommended (regional drift, three regions, prior doubled)", "rw", "baselines integrated out"),
+           "rw_rec_nc": ("recommended", "rw", "innovations"), "rw_reclevel_margb": ("recommended + MPA level shift", "rw", "baselines integrated out"),
+           "rw_global_margb": ("global drift, three regions, prior doubled", "rw", "baselines integrated out"),
+           "piecewise_rec_margb": ("recommended", "piecewise", "baselines integrated out"),
+           "rw_stage1_margb": ("stage 1 (no drift, seven regions)", "rw", "baselines integrated out"), "rw_stage1_nc": ("stage 1", "rw", "innovations")}
+    for key, (a, b, c) in lab.items():
+        r = xk.get(f"xK_kelp_{key}")
+        if r:
+            e = r["E10"]
+            P(f"| {a} | {b} | {c} | {e10(r)} | {100 * (np.exp(e['mean']) - 1):+.0f}% ({100 * (np.exp(e['5.0%']) - 1):+.0f}% to {100 * (np.exp(e['95.0%']) - 1):+.0f}%) | {1 - r['E10_prob_negative']:.2f} | {conv(r)} | {len(ppc_flags(r))} |")
+    kp = {}
+    for k, r in loads("xKp", "xKp_*").items():
+        kp.setdefault(k.split("_")[3], []).append(r)
+    P("\nSpace placebo (10 relabellings each):\n")
+    P("| Structure | Mean placebo E10 | Range | 90% intervals excluding zero | Mean interval width |")
+    P("|---|---|---|---|---|")
+    for key, a in (("stage1", "stage 1"), ("rec", "recommended")):
+        rs = kp.get(key, [])
+        if rs:
+            m = np.array([x["E10"]["mean"] for x in rs]); lo = np.array([x["E10"]["5.0%"] for x in rs]); hi = np.array([x["E10"]["95.0%"] for x in rs])
+            P(f"| {a} | {m.mean():+.2f} | {m.min():+.2f} to {m.max():+.2f} | {int(((lo > 0) | (hi < 0)).sum())}/{len(rs)} | {(hi - lo).mean():.2f} |")
+P("\n" + NOTES.get("K", "") + "\n")
+
 P("## Not verified\n")
 P(NOTES.get("unverified", "") + "\n")
 (ROOT / "REPORT_structure_experiments.md").write_text("\n".join(L) + "\n")
