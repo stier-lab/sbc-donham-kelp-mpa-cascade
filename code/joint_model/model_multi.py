@@ -180,14 +180,19 @@ def observe(D, state):
     numpyro.factor("y", jnp.sum(ll_cells) + ll_disp)
 
 
-def mass_layer(M, curve="rw", mass_scale=1.0, fluct=None, mass_link=False, expose=False):
+def mass_layer(M, curve="rw", mass_scale=1.0, fluct=None, mass_link=False, expose=False, mass_obs="gamma"):
     """Mean individual mass on the year x station grid of the stations that have measured animals (design 4.2).
 
         log M[s, t] = station level + siting difference (protected stations) + region-year effect (independent part,
                       shared random walk, regional random walk) + station AR(1) deviation
                       + after * (response curve by years since designation + MPA rate deviation * age / 10)
                       [+ theta * same-year fluctuation of the taxon's own density at that station, if mass_link]
-        mean mass of a group of n animals ~ Gamma(n * k[program], mean M * zone effect)
+        mean mass of a group of n animals ~ Gamma(n * k[program], mean M * zone effect)                 (mass_obs="gamma")
+        or, mass_obs="lognormal": individual masses lognormal with log-SD s[program] and mean M * zone effect; the mean of
+        n of them is taken as lognormal with the same mean and variance (exact for n = 1; Fenton-Wilkinson otherwise):
+            s_n^2 = log(1 + (exp(s^2) - 1) / n),   log(group mean) ~ Normal(log(M * zone) - s_n^2 / 2, s_n)
+        Added 2026-11-12 after the predictive check (M7): Gamma replicates of small groups have a much longer lower
+        tail than the data. Off by default.
 
     Same response-curve machinery as density, with priors half as wide (a decade's change in mean mass beyond about
     x2.7 is implausible for slow-growing animals). Returns the response increments."""
@@ -232,10 +237,15 @@ def mass_layer(M, curve="rw", mass_scale=1.0, fluct=None, mass_link=False, expos
         theta = numpyro.sample("m_theta", dist.Normal(0, 0.5))
         logM = logM + theta * fluct[:, M["dens_index"]]
     zeta = jnp.concatenate([jnp.zeros(1), numpyro.sample("m_zone", dist.Normal(0, 0.5).expand([3]))])
-    k = numpyro.sample("m_shape", dist.LogNormal(0.0, 1.0).expand([P]))
-    conc = M["g_n"] * k[M["g_prog"]]
     mean = jnp.exp(logM[M["g_t"], M["g_s"]] + zeta[M["g_zone"]])
-    numpyro.sample("m_obs", dist.Gamma(conc, conc / mean), obs=M["g_mean"])
+    if mass_obs == "lognormal":
+        sd = numpyro.sample("m_sd_log", HN(1.0).expand([P]))
+        s2n = jnp.log1p(jnp.expm1(sd[M["g_prog"]] ** 2) / M["g_n"])
+        numpyro.sample("m_obs", dist.LogNormal(jnp.log(mean) - 0.5 * s2n, jnp.sqrt(s2n)), obs=M["g_mean"])
+    else:
+        k = numpyro.sample("m_shape", dist.LogNormal(0.0, 1.0).expand([P]))
+        conc = M["g_n"] * k[M["g_prog"]]
+        numpyro.sample("m_obs", dist.Gamma(conc, conc / mean), obs=M["g_mean"])
     if expose:   # for predictive checks: expected mean mass of every fitted group and of every held-out group
         numpyro.deterministic("m_mu_groups", mean)
         if "h_s" in M and len(M["h_s"]):
@@ -243,7 +253,7 @@ def mass_layer(M, curve="rw", mass_scale=1.0, fluct=None, mass_link=False, expos
     return inc
 
 
-def model(data, edges, config, curve="rw", lag=1, beta_scale=0.5, paths=True, split=False, mass=None, mass_scale=1.0, mass_link=False, expose=False, **common):
+def model(data, edges, config, curve="rw", lag=1, beta_scale=0.5, paths=True, split=False, mass=None, mass_scale=1.0, mass_link=False, expose=False, mass_obs="gamma", **common):
     """data: {tag: inputs}; edges: [(target, source, link)]; config: {tag: dict(centered=, level_dev=)}.
     paths=False fits the taxa side by side with no links (must reproduce the single-taxon fits).
     split=True gives every link two coefficients instead of one:
@@ -294,7 +304,7 @@ def model(data, edges, config, curve="rw", lag=1, beta_scale=0.5, paths=True, sp
             if mass is not None and mass.get(g) is not None:
                 lv = L["level"]
                 fl = D["span"] * (lv - jnp.sum(D["span"] * lv, 0) / jnp.where(n > 0, n, 1.0)) if mass_link else None
-                minc = mass_layer(mass[g], curve=curve, mass_scale=mass_scale, fluct=fl, mass_link=mass_link, expose=expose)
+                minc = mass_layer(mass[g], curve=curve, mass_scale=mass_scale, fluct=fl, mass_link=mass_link, expose=expose, mass_obs=mass_obs)
                 e10m = jnp.asarray(basis_row(10.0)) @ minc
                 numpyro.deterministic("E10_mass", e10m)
                 numpyro.deterministic("E10_biomass", tot(10.0) + e10m)

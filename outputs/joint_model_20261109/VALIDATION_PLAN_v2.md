@@ -78,3 +78,26 @@ This is the model-based version of the Nov 3 policy ("flat-baseline recovery mai
 - Urchin count misfit in the posterior checks; the dependence of urchin and kelp effects on the curve prior.
 - The lobster → urchin fluctuation link is not identified (sign flips between chains).
 - Landsat canopy and the controlled comparison against the paper's numbers are separate pieces of work.
+
+## Addendum, 2026-11-12 11:45 PST — written after the first round-2 results, before the runs it describes
+
+Seen when this was written: lobster shuffles (both priors, 40 each), sheephead shuffles (random walk, 40), the evidence
+split for four taxa, pre-trend fits and placebos for lobster and urchins, and the round-1 predictive check (M7).
+
+**A1. Size distribution of the mass part (`--mass-obs lognormal`).** M7 failed because Gamma replicates of small groups
+have a far longer lower tail than the data (observed 5% quantiles well above the replicate range at LTER and PISCO); the
+protected-versus-reference contrasts were reproduced. The alternative treats individual masses as lognormal and a group
+mean as lognormal with matched mean and variance. It is checked against an independent calculation in `test_multi.py`.
+Runs (`v3_logn`, `v3_lsim`): main fits for five taxa under both curve priors, the predictive check, two hold-out splits,
+and ten simulated data sets per taxon generated from the Gamma model and fitted with the lognormal one.
+- The same rules apply as written for the Gamma family: M7 (no contrast statistic outside; at most 10% of statistics
+  outside), M8 (85–95% hold-out coverage per taxon), M3 (coverage ≥ 0.84 on simulated data).
+- Both families are reported side by side for every effect. The family is not chosen by the effect it gives; if the
+  lognormal passes M7 and M8 and the Gamma does not, that is the stated reason to prefer it. Adrian decides.
+
+**A2. Sheephead shuffles with a local trend (`v3_clus`).** The sheephead shuffled effects centre on +0.14 (6 standard
+errors from zero), most of the size of the real density effect (+0.20). One explanation is that a whole MPA cluster
+(protected stations and their references) rose after designation relative to the region, which the model can only put
+into the protection term. Diagnostic: the same 40 shuffles with `--cluster-drift`, plus the real labels with and without
+it at the same sampler settings. R1a and R1b apply as written. This option was tested on two other placebos on Nov 11
+and not adopted; it is not adopted here either unless it passes R1 and Adrian decides.

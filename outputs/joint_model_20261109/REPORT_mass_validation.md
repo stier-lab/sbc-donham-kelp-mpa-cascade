@@ -12,7 +12,7 @@ Rules were fixed in `MASS_VALIDATION_PLAN.md` before the runs. Review only; noth
 | M3 calibration | PASS |
 | M4 robust to bimodal | PASS |
 | M4 robust to visitnoise | FAIL |
-| M4 robust to coupled | INCOMPLETE |
+| M4 robust to coupled | PASS |
 | M5 time placebo | INCOMPLETE |
 | M6 space placebo (mass, biomass) | FAIL |
 | M7 predictive check of mass | FAIL |
@@ -93,14 +93,16 @@ Simulated on each taxon's real survey and measurement design, then refitted (2 c
 | visitnoise | Red urchin | 20 | 11 | +0.12 | +0.01 | 18/20 | 5/20 | -0.13 | +0.01 | 17/20 | 2/20 |
 | visitnoise | Kelp | 20 | 20 | +0.00 | -0.04 | 19/20 | 1/20 | +0.70 | -0.22 | 14/20 | 6/20 |
 | coupled | Lobster | 20 | 20 | +0.20 | -0.09 | 18/20 | 3/20 | +2.12 | -0.19 | 17/20 | 20/20 |
-| coupled | Sheephead | 3 | 3 | +0.15 | -0.09 | 3/3 | 0/3 | +0.38 | -0.16 | 3/3 | 0/3 |
-| coupled | Purple urchin | 10 | 0 | -0.10 | +0.01 | 10/10 | 0/10 | -0.75 | +0.09 | 9/10 | 2/10 |
+| coupled | Sheephead | 20 | 20 | +0.15 | -0.06 | 19/20 | 2/20 | +0.38 | -0.00 | 19/20 | 7/20 |
+| coupled | Purple urchin | 20 | 1 | -0.10 | +0.03 | 19/20 | 2/20 | -0.75 | +0.11 | 19/20 | 5/20 |
+| coupled | Red urchin | 20 | 8 | +0.12 | -0.01 | 18/20 | 4/20 | -0.13 | -0.02 | 18/20 | 2/20 |
+| coupled | Kelp | 20 | 10 | +0.00 | -0.03 | 18/20 | 2/20 | +0.70 | -0.20 | 15/20 | 6/20 |
 
 `bimodal` — mass: coverage 0.95 of 100 (rule ≥ 0.84); biomass: coverage 0.88 of 100 (rule ≥ 0.84). **PASS.**
 
 `visitnoise` — mass: coverage 0.91 of 100 (rule ≥ 0.84); biomass: coverage 0.83 of 100 (rule ≥ 0.84). **FAIL.**
 
-`coupled` — mass: coverage 0.94 of 33 (rule ≥ 0.80); biomass: coverage 0.88 of 33 (rule ≥ 0.80). **INCOMPLETE.**
+`coupled` — mass: coverage 0.92 of 100 (rule ≥ 0.84); biomass: coverage 0.88 of 100 (rule ≥ 0.84). **PASS.**
 
 ## M5. Placebo in time
 
@@ -171,8 +173,8 @@ Mean sizes replicated from the fitted model, compared with the data: spread and 
 | Taxon | Runs | Largest shift: density | mean mass | biomass | Sign reversals of clear main effects | Shifts above 0.25 |
 |---|---|---|---|---|---|---|
 | Lobster | 13 of 13 | -0.21 (Santa Barbara Island SMR) | +0.07 (Matlahuayl SMR) | +0.22 (Matlahuayl SMR) | none | none |
-| Sheephead | 12 of 17 | +0.09 (Harris Point SMR) | +0.06 (Blue Cavern Onshore SMCA) | +0.12 (Blue Cavern Onshore SMCA) | none | none |
-| Purple urchin | 0 | | | | | |
+| Sheephead | 14 of 17 | +0.09 (Harris Point SMR) | -0.07 (Santa Barbara Island SMR) | +0.12 (Blue Cavern Onshore SMCA) | none | none |
+| Purple urchin | 13 of 13 | -0.22 (Naples SMCA) | -0.07 (Scorpion SMR) | -0.24 (Scorpion SMR) | none | none |
 | Red urchin | 0 | | | | | |
 | Kelp | 0 | | | | | |
 

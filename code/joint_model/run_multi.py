@@ -20,7 +20,7 @@ from data_mass import build_mass, find_beside
 from model_multi import model, basis_row
 
 SITES = ["sigma_cluster", "sigma_trend", "mu_pretrend", "sigma_pretrend", "pretrend", "E10_mass", "E10_biomass", "m_g_knots", "m_rho", "m_sigma_process", "m_sigma_region_year", "m_sigma_drift", "m_sigma_drift_region",
-         "m_sigma_station", "m_shape", "m_tau_D", "m_mu_lambda", "m_sigma_lambda", "m_sigma_curve", "m_zone", "m_theta",
+         "m_sigma_station", "m_shape", "m_sd_log", "m_tau_D", "m_mu_lambda", "m_sigma_lambda", "m_sigma_curve", "m_zone", "m_theta",
          "E10_direct", "E10_total", "g_knots", "rho", "sigma_process", "sigma_region_year", "sigma_drift", "sigma_drift_region",
          "sigma_visit", "sigma_b", "inv_sqrt_phi", "tau_D", "tau_L", "sigma_shock", "mu_lambda", "sigma_lambda", "sigma_curve"]
 
@@ -180,7 +180,15 @@ def mass_checks(mc, data, edges, config, kw, n_draws, seed):
     pred = Predictive(model, posterior_samples=thin, return_sites=sites)(jax.random.PRNGKey(seed + 11), data, edges, config, **{**kw, "expose": True})
     rng = np.random.default_rng(seed + 13); out = {}
     for g in tags:
-        M = mass[g]; k = np.asarray(thin[f"{g}:m_shape"]); mu = np.asarray(pred[f"{g}:m_mu_groups"])
+        M = mass[g]; mu = np.asarray(pred[f"{g}:m_mu_groups"]); logn = kw.get("mass_obs", "gamma") == "lognormal"
+        k = np.asarray(thin[f"{g}:m_sd_log" if logn else f"{g}:m_shape"])
+
+        def draw(mu_, n_, prog_):          # replicate group means from the fitted observation model
+            if logn:
+                s2 = np.log1p(np.expm1(k[:, prog_] ** 2) / n_[None, :])
+                return np.exp(np.log(mu_) - 0.5 * s2 + np.sqrt(s2) * rng.normal(size=mu_.shape))
+            c_ = n_[None, :] * k[:, prog_]
+            return np.maximum(rng.gamma(c_, mu_ / c_), 1e-12)
         progs = sorted(set(M["g_prog"].tolist())); w = M["g_n"]; prot = M["g_prot"] > 0; post_ = M["g_post"] > 0; age = M["g_age"]
 
         def stats(y):
@@ -196,12 +204,12 @@ def mass_checks(mc, data, edges, config, kw, n_draws, seed):
             o += [lr(post_) - lr(~post_), lr(age >= 10) - lr((age >= 0) & (age <= 5))]
             return o
         names = [f"{s_}|prog{p_}" for p_ in progs for s_ in ("sd_log", "q05_log", "q95_log")] + ["contrast_after_minus_before", "contrast_age10plus_minus_age0to5"]
-        conc = w[None, :] * k[:, M["g_prog"]]
-        reps = np.array([stats(np.maximum(rng.gamma(conc[d], mu[d] / conc[d]), 1e-12)) for d in range(len(idx))])
+        yrep = draw(mu, w, M["g_prog"])
+        reps = np.array([stats(yrep[d]) for d in range(len(idx))])
         out[f"{g}|names"] = np.array(names); out[f"{g}|obs"] = np.array(stats(M["g_mean"])); out[f"{g}|reps"] = reps
         if "h_s" in M:
-            mh = np.asarray(pred[f"{g}:m_mu_holdout"]); ch = M["h_n"][None, :] * k[:, M["h_prog"]]
-            yh = rng.gamma(ch, mh / ch)
+            mh = np.asarray(pred[f"{g}:m_mu_holdout"])
+            yh = draw(mh, M["h_n"], M["h_prog"])
             out[f"{g}|h_below"] = (yh < M["h_mean"][None, :]).sum(0).astype(float); out[f"{g}|h_draws"] = np.array([float(len(idx))])
             out[f"{g}|h_prog"] = M["h_prog"].astype(float)
     return out
@@ -331,6 +339,7 @@ def main():
     ap.add_argument("--permute-seed", type=int, default=None, help="randomization placebo: deal the protected labels out at random within each MPA and its references")
     ap.add_argument("--space-placebo-seed", type=int, default=None, help="space placebo: reference stations only, one relabelled as protected per MPA")
     ap.add_argument("--mass-scale", type=float, default=1.0, help="multiplier on the prior scale of the mass response increments")
+    ap.add_argument("--mass-obs", default="gamma", choices=["gamma", "lognormal"], help="distribution of a group's mean mass (lognormal: test option, 2026-11-12)")
     ap.add_argument("--mass-link", action="store_true", help="let mean mass depend on the same-year fluctuation of the taxon's density")
     ap.add_argument("--lag", type=int, default=1, choices=[0, 1, 2])
     ap.add_argument("--beta-scale", type=float, default=0.5, help="prior SD of the path coefficients")
@@ -386,7 +395,7 @@ def main():
     opts = dict(curve=a.curve, lag=a.lag, beta_scale=a.beta_scale, paths=not a.no_paths, split=a.split, warmup=a.warmup, samples=a.samples,
                 chains=a.chains, seed=a.seed, depth=a.depth, accept=a.accept, step0=a.step0, thin=a.thin, drift=a.drift, inc_scale=a.inc_scale, cluster_drift=a.cluster_drift, station_trend=a.station_trend, pretrend=a.pretrend)
     if mass is not None:
-        opts.update(mass_scale=a.mass_scale, mass_link=a.mass_link)
+        opts.update(mass_scale=a.mass_scale, mass_link=a.mass_link, mass_obs=a.mass_obs)
     meta = dict(mode=a.mode, evidence=a.evidence, permute_seed=a.permute_seed, placebo_year=a.placebo_year, space_placebo_seed=a.space_placebo_seed, relabelled={g: D["relabelled"] for g, D in data.items()},
                 mass_holdout_seed=a.mass_holdout, omit_station=a.omit_station, size25=bool(a.size25), stations_removed={g: D["stations_removed"] for g, D in data.items()},
                 units_size25_adjusted={g: D.get("units_size25_adjusted", 0) for g, D in data.items()}, chain_processes=(a.chains > 1 and not a.one_process), taxa={g: TAXA[g] for g in tags}, regions=a.regions, omit_mpa=a.omit_mpa,

@@ -64,7 +64,7 @@ from data_mass import build_mass
 from model_multi import basis_row
 
 
-def mass_logp(M, P_, curve, mass_scale=1.0):
+def mass_logp(M, P_, curve, mass_scale=1.0, obs="gamma"):
     v = lambda k: np.asarray(P_[k], dtype=float)
     S, T = len(M["mass_stations"]), M["span"].shape[0]
     lp = st.norm(M["log_mean_mass"], 2.0).logpdf(v("m_mu")).sum() + st.halfnorm(scale=1.0).logpdf(v("m_sigma_station")).sum()
@@ -80,7 +80,7 @@ def mass_logp(M, P_, curve, mass_scale=1.0):
         lp += st.norm(0, 0.3 * mass_scale).logpdf(v("m_inc_first")) + st.halfnorm(scale=0.15 * mass_scale).logpdf(v("m_sigma_curve")) + st.norm.logpdf(v("m_z_curve")).sum()
         inc = v("m_inc_first") + np.concatenate([[0.0], np.cumsum(v("m_sigma_curve") * v("m_z_curve"))])
     lp += st.halfnorm(scale=0.5).logpdf(v("m_tau_D")) + st.norm.logpdf(v("m_z_D")).sum() + st.norm(0, 0.5).logpdf(v("m_zone")).sum()
-    lp += st.lognorm(s=1.0, scale=1.0).logpdf(v("m_shape")).sum()
+    lp += (st.halfnorm(scale=1.0).logpdf(v("m_sd_log")).sum() if obs == "lognormal" else st.lognorm(s=1.0, scale=1.0).logpdf(v("m_shape")).sum())
     c = v("m_mu")[M["st_prog"]] + v("m_sigma_station")[M["st_prog"]] * v("m_z_station")
     lam = np.where(M["mpa_ba"] == 1, v("m_mu_lambda") + v("m_sigma_lambda") * v("m_z_lambda"), 1.5 * v("m_z_lambda"))
     c = c + M["st_prot"] * lam[M["st_mpa"]]
@@ -105,8 +105,14 @@ def mass_logp(M, P_, curve, mass_scale=1.0):
         t_, s_ = M["g_t"][i], M["g_s"][i]
         age = M["grid_age"][t_, s_]
         logM = c[s_] + gam[M["st_region"][s_], t_] + e[t_, s_] + M["grid_after"][t_, s_] * (basis_row(age) @ inc + Dm[M["st_mpa"][s_]] * age / 10.0)
-        mean = np.exp(logM + zeta[M["g_zone"][i]]); k = M["g_n"][i] * v("m_shape")[M["g_prog"][i]]
-        lik += st.gamma(a=k, scale=mean / k).logpdf(M["g_mean"][i])
+        mean = np.exp(logM + zeta[M["g_zone"][i]])
+        if obs == "lognormal":                # mean of n lognormal animals, matched on mean and variance
+            var_one = np.exp(v("m_sd_log")[M["g_prog"][i]] ** 2) - 1.0
+            s2 = np.log(1.0 + var_one / M["g_n"][i])
+            lik += st.lognorm(s=np.sqrt(s2), scale=mean * np.exp(-0.5 * s2)).logpdf(M["g_mean"][i])
+        else:
+            k = M["g_n"][i] * v("m_shape")[M["g_prog"][i]]
+            lik += st.gamma(a=k, scale=mean / k).logpdf(M["g_mean"][i])
     return float(lp + lik)
 
 
@@ -114,17 +120,18 @@ worst = 0.0
 for g in ("lob", "pur", "shp"):
     D = attach_counts(dict(data[g]), data[g]["y"]); D.pop("cells")
     M = build_mass(uses, data[g], TAXA[g])
-    for curve in ("rw", "piecewise"):
+    for curve, obs in (("rw", "gamma"), ("piecewise", "gamma"), ("rw", "lognormal")):
         args = ({g: D}, [], {g: CONFIG[g]}); kw = dict(curve=curve, paths=False, drift="regional", inc_scale=2.0)
-        i2 = initialize_model(jax.random.PRNGKey(5), mm.model, init_strategy=init_to_uniform(radius=0.5), model_args=args, model_kwargs=dict(mass={g: M}, **kw))
+        mk = dict(mass={g: M}, mass_obs=obs, **kw)
+        i2 = initialize_model(jax.random.PRNGKey(5), mm.model, init_strategy=init_to_uniform(radius=0.5), model_args=args, model_kwargs=mk)
         rng = np.random.default_rng(11)
         z = {k: 0.3 * rng.normal(size=np.shape(v_)) for k, v_ in sorted(i2.param_info.z.items())}
-        con = constrain_fn(mm.model, args, dict(mass={g: M}, **kw), z)
-        with_mass = float(log_density(mm.model, args, dict(mass={g: M}, **kw), con)[0])
+        con = constrain_fn(mm.model, args, mk, z)
+        with_mass = float(log_density(mm.model, args, mk, con)[0])
         without = float(log_density(mm.model, args, kw, {k: v_ for k, v_ in con.items() if ":m_" not in k})[0])
-        ind = mass_logp(M, {k.split(":")[1]: v_ for k, v_ in con.items() if ":m_" in k}, curve)
+        ind = mass_logp(M, {k.split(":")[1]: v_ for k, v_ in con.items() if ":m_" in k}, curve, obs=obs)
         d = abs((with_mass - without) - ind) / abs(ind); worst = max(worst, d)
-        print(f"3. {g:4s} {curve:9s} mass layer log density: model {with_mass - without:.6f}  independent {ind:.6f}  ({M['n_groups']} groups)")
+        print(f"3. {g:4s} {curve:9s} {obs:9s} mass layer log density: model {with_mass - without:.6f}  independent {ind:.6f}  ({M['n_groups']} groups)")
         assert d < 1e-9, d
 print("3. mass layer matches the independent calculation; worst relative difference", worst)
 print("ALL CHECKS PASSED (1-3)")

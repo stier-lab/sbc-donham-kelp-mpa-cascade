@@ -1,0 +1,271 @@
+{
+ "status": {
+  "R1a bias": "FAIL",
+  "R1b calibration": "FAIL",
+  "R2 evidence split": "INCOMPLETE",
+  "R3a sheephead time placebo with pre-trend": "PASS",
+  "R3b flat vs pre-trend": "INCOMPLETE",
+  "R3 simulation (pre-trend option recovers the effect)": "INCOMPLETE"
+ },
+ "R1": {
+  "lob_rw": {
+   "n": 40,
+   "fitted": 40,
+   "mean": -0.1046225,
+   "sd": 0.26930604693668997,
+   "se": 0.042581024798807585,
+   "cover_zero": 0.975,
+   "real": 1.7453,
+   "as_extreme": 0,
+   "p": 0.024390243902439025,
+   "R1a": "FAIL",
+   "R1b": "FAIL",
+   "complete": true
+  },
+  "lob_pw": {
+   "n": 40,
+   "fitted": 40,
+   "mean": -0.0655725,
+   "sd": 0.16727017449515927,
+   "se": 0.026447736800925437,
+   "cover_zero": 1.0,
+   "real": 1.8208,
+   "as_extreme": 0,
+   "p": 0.024390243902439025,
+   "R1a": "FAIL",
+   "R1b": "FAIL",
+   "complete": true
+  },
+  "shp_rw": {
+   "n": 40,
+   "fitted": 40,
+   "mean": 0.1385475,
+   "sd": 0.14213391299883,
+   "se": 0.022473344891425804,
+   "cover_zero": 0.825,
+   "real": 0.2034,
+   "as_extreme": 13,
+   "p": 0.34146341463414637,
+   "R1a": "FAIL",
+   "R1b": "PASS",
+   "complete": true
+  },
+  "shp_pw": {
+   "n": 6,
+   "fitted": 6,
+   "mean": 0.031516666666666665,
+   "sd": 0.057021764850508326,
+   "se": 0.02327903801945242,
+   "cover_zero": 1.0,
+   "real": 0.1494,
+   "as_extreme": 0,
+   "p": 0.14285714285714285,
+   "R1a": "PASS",
+   "R1b": "FAIL",
+   "complete": false
+  },
+  "pur_rw": "INCOMPLETE",
+  "pur_pw": "INCOMPLETE",
+  "red_rw": "INCOMPLETE",
+  "red_pw": "INCOMPLETE",
+  "kelp_rw": "INCOMPLETE",
+  "kelp_pw": "INCOMPLETE"
+ },
+ "R3_placebo": {
+  "shp_1990": {
+   "flat": [
+    -1.5118,
+    -2.9432,
+    -0.2097
+   ],
+   "pre": [
+    -0.7528,
+    -2.8363,
+    1.2326
+   ],
+   "pre_covers": true,
+   "flat_covers": false
+  },
+  "shp_1993": {
+   "flat": [
+    -2.4337,
+    -4.4358,
+    -0.5257
+   ],
+   "pre": [
+    -1.849,
+    -4.347,
+    0.3686
+   ],
+   "pre_covers": true,
+   "flat_covers": false
+  },
+  "shp_1996": {
+   "flat": [
+    -3.2144,
+    -5.821,
+    -0.6845
+   ],
+   "pre": [
+    -2.5712,
+    -5.2793,
+    0.361
+   ],
+   "pre_covers": true,
+   "flat_covers": false
+  },
+  "shp_1999": {
+   "flat": [
+    -3.8216,
+    -7.8514,
+    0.0685
+   ],
+   "pre": [
+    -3.0933,
+    -6.9953,
+    0.9585
+   ],
+   "pre_covers": true,
+   "flat_covers": true
+  },
+  "pur_1990": {
+   "flat": [
+    -0.9695,
+    -2.3917,
+    0.4441
+   ],
+   "pre": [
+    -0.8484,
+    -2.8754,
+    1.1096
+   ],
+   "pre_covers": true,
+   "flat_covers": true
+  },
+  "pur_1993": {
+   "flat": [
+    -1.266,
+    -3.0599,
+    0.3837
+   ],
+   "pre": [
+    -0.9706,
+    -3.2728,
+    1.1509
+   ],
+   "pre_covers": true,
+   "flat_covers": true
+  },
+  "pur_1996": {
+   "flat": [
+    -1.2074,
+    -3.6497,
+    1.1957
+   ],
+   "pre": [
+    -0.5894,
+    -3.1829,
+    2.2195
+   ],
+   "pre_covers": true,
+   "flat_covers": true
+  },
+  "pur_1999": {
+   "flat": [
+    -1.9197,
+    -5.4664,
+    1.6186
+   ],
+   "pre": [
+    -1.339,
+    -4.957,
+    2.3205
+   ],
+   "pre_covers": true,
+   "flat_covers": true
+  },
+  "red_1990": {
+   "flat": [
+    -0.3485,
+    -1.3215,
+    0.5982
+   ],
+   "pre": [
+    0.617,
+    -0.9268,
+    2.0007
+   ],
+   "pre_covers": true,
+   "flat_covers": true
+  },
+  "red_1993": {
+   "flat": [
+    -0.4191,
+    -1.6519,
+    0.7841
+   ],
+   "pre": [
+    0.4248,
+    -1.2013,
+    1.9806
+   ],
+   "pre_covers": true,
+   "flat_covers": true
+  },
+  "red_1996": {
+   "flat": [
+    -0.7571,
+    -2.2905,
+    0.9199
+   ],
+   "pre": [
+    -0.0263,
+    -1.9571,
+    1.9357
+   ],
+   "pre_covers": true,
+   "flat_covers": true
+  },
+  "red_1999": {
+   "flat": [
+    -1.1952,
+    -3.8208,
+    1.4166
+   ],
+   "pre": [
+    -0.451,
+    -3.4316,
+    2.2478
+   ],
+   "pre_covers": true,
+   "flat_covers": true
+  }
+ },
+ "simulation": {
+  "shp": {
+   "n": 20,
+   "fitted": 20,
+   "bias": 0.20698500000000003,
+   "coverage": 0.85
+  },
+  "shp_pre": {
+   "n": 20,
+   "fitted": 20,
+   "bias": -0.08178,
+   "coverage": 0.9
+  },
+  "pur": {
+   "n": 12,
+   "fitted": 12,
+   "bias": 0.5738416666666667,
+   "coverage": 0.75
+  },
+  "pur_pre": {
+   "n": 11,
+   "fitted": 11,
+   "bias": 0.25511818181818186,
+   "coverage": 1.0
+  }
+ },
+ "baseline_dependent": []
+}
