@@ -1,0 +1,2 @@
+v_full_rw.json	fit --mass --split --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 4 --save-draws
+v_full_pw.json	fit --mass --split --curve piecewise --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 4 --save-draws

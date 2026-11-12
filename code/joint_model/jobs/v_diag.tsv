@@ -1,0 +1,7 @@
+v_shptime_1990.json	fit --taxa shp --placebo-year 1990 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_shptime_1993.json	fit --taxa shp --placebo-year 1993 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_shptime_1996.json	fit --taxa shp --placebo-year 1996 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_shptime_1999.json	fit --taxa shp --placebo-year 1999 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_shptime_1993_no0.json	fit --taxa shp --placebo-year 1993 --omit-mpa 'Harris Point SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_shptime_1993_no1.json	fit --taxa shp --placebo-year 1993 --omit-mpa 'Santa Barbara Island SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_shptime_1993_no2.json	fit --taxa shp --placebo-year 1993 --omit-mpa 'Scorpion SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
