@@ -134,4 +134,33 @@ for g in ("lob", "pur", "shp"):
         print(f"3. {g:4s} {curve:9s} {obs:9s} mass layer log density: model {with_mass - without:.6f}  independent {ind:.6f}  ({M['n_groups']} groups)")
         assert d < 1e-9, d
 print("3. mass layer matches the independent calculation; worst relative difference", worst)
-print("ALL CHECKS PASSED (1-3)")
+
+# 4. Canopy (Landsat) likelihood: the model's observation term at random parameter values equals a separate SciPy
+#    calculation, one polygon-quarter at a time. Skipped with a note when the canopy table is not available.
+from data_canopy import build_canopy, find_canopy, attach_canopy
+from numpyro.handlers import substitute, trace
+cpath = find_canopy(uses)
+if cpath is None:
+    print("4. canopy table not found: canopy check SKIPPED")
+    print("ALL CHECKS PASSED (1-3)")
+else:
+    from data_multi import grid
+    for season in ("spring", "all", "max"):
+        Dc = grid(build_canopy(cpath, season=season)); Dc.pop("cells"); Dc = attach_canopy(Dc, Dc["y"])
+        args = ({"can": Dc}, [], {"can": CONFIG["can"]}); kw = dict(curve="rw", paths=False, drift="regional", inc_scale=2.0)
+        i4 = initialize_model(jax.random.PRNGKey(7), mm.model, init_strategy=init_to_uniform(radius=0.5), model_args=args, model_kwargs=kw)
+        rng = np.random.default_rng(13)
+        con = constrain_fn(mm.model, args, kw, {k: 0.3 * rng.normal(size=np.shape(v_)) for k, v_ in sorted(i4.param_info.z.items())})
+        full = float(log_density(mm.model, args, kw, con)[0])
+        empty = dict(Dc, c_s=Dc["c_s"][:0], c_t=Dc["c_t"][:0], c_q=Dc["c_q"][:0], c_logpix=Dc["c_logpix"][:0], c_pos=Dc["c_pos"][:0], c_logy=Dc["c_logy"][:0])
+        none = float(log_density(mm.model, ({"can": empty}, [], {"can": CONFIG["can"]}), kw, con)[0])
+        mu = np.asarray(trace(substitute(mm.model, data=con)).get_trace(*args, **dict(kw, expose=True))["can:c_mu"]["value"], dtype=float)
+        a_, b_, sd_ = float(con["can:c_det0"]), float(con["can:c_det_slope"]), float(con["can:c_sd"])
+        ind = 0.0
+        for i in range(len(mu)):
+            p_det = 1.0 / (1.0 + np.exp(-(a_ + b_ * (mu[i] + Dc["c_logpix"][i] - Dc["c_centre"]))))
+            ind += (np.log(p_det) + st.t(df=5, loc=mu[i], scale=sd_).logpdf(Dc["c_logy"][i])) if Dc["c_pos"][i] else np.log1p(-p_det)
+        d = abs((full - none) - ind) / abs(ind)
+        print(f"4. canopy {season:6s} observation term: model {full - none:.6f}  independent {ind:.6f}  ({len(mu)} polygon-quarters, {int((1 - Dc['c_pos']).sum())} without canopy)")
+        assert d < 1e-9, d
+    print("ALL CHECKS PASSED (1-4)")

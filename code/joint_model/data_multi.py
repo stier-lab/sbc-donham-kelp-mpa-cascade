@@ -7,20 +7,23 @@ earlier, with a mask that is 1 only where the source taxon has a latent state th
 import numpy as np
 from data import build, age_basis
 
-TAXA = {"lob": "P. interruptus", "shp": "S. pulcher", "pur": "S. purpuratus", "red": "M. franciscanus", "kelp": "M. pyrifera"}
+from data_canopy import build_canopy, find_canopy
+TAXA = {"lob": "P. interruptus", "shp": "S. pulcher", "pur": "S. purpuratus", "red": "M. franciscanus", "kelp": "M. pyrifera",
+        "can": "Kelp canopy (Landsat)"}
 # target <- source. Predators last year -> urchins this year; urchins last year -> kelp this year.
 EDGES = [("pur", "lob"), ("pur", "shp"), ("red", "lob"), ("red", "shp"), ("kelp", "pur"), ("kelp", "red")]
 # Sampler parameterisation that converged for each taxon in the single-taxon checks (REPORT_recommended_structure.md).
 CONFIG = {"lob": dict(centered=False, level_dev=True), "shp": dict(centered=False, level_dev=True),
           "pur": dict(centered=True, level_dev=False), "red": dict(centered=True, level_dev=False),
-          "kelp": dict(centered=True, level_dev=False)}
+          "kelp": dict(centered=True, level_dev=False), "can": dict(centered=True, level_dev=False)}
 
 
 def grid(D):
     """Protection function inputs on the full year x station grid (the single-taxon model has them per cell only)."""
     T_st = np.asarray(D["mpa_T"])[D["st_mpa"]]
     yy = np.asarray(D["years"])[:, None]
-    D["grid_after"] = ((yy >= T_st[None, :]) * D["st_prot"][None, :]).astype(float)
+    # after_shift = 1 (canopy, optional): the designation year counts as before; age is still years since designation
+    D["grid_after"] = ((yy >= T_st[None, :] + D.get("after_shift", 0)) * D["st_prot"][None, :]).astype(float)
     D["grid_age"] = np.clip(yy - T_st[None, :], 0, None).astype(float)
     D["grid_B"] = age_basis(D["grid_age"].ravel()).reshape(D["grid_age"].shape + (-1,))
     D["span"] = D["span_first"] + D["span_inside"]
@@ -46,7 +49,17 @@ def link(Dk, Dj, lag):
 def build_multi(uses_path, tags=("lob", "shp", "pur", "red", "kelp"), edges=None, lag=1, regions="three", **kw):
     """Returns (data, edges): data[tag] is the single-taxon input plus grid arrays; edges is a list of
     (target, source, link) in an order in which every source is computed before its target."""
-    data = {g: grid(build(uses_path, TAXA[g], regions=regions, **kw)) for g in tags}
+    can = kw.pop("canopy", None) or {}
+    data = {}
+    for g in tags:
+        if g == "can":      # Landsat canopy: its own table and builder; shares regions, omissions and placebo options
+            path = can.get("path") or find_canopy(uses_path)
+            if path is None:
+                raise SystemExit("canopy_quarterly.parquet (from prep_canopy.py) not found")
+            data[g] = grid(build_canopy(path, regions=regions, permute_seed=kw.get("permute_seed"), placebo_year=kw.get("placebo_year"),
+                                        omit_mpas=kw.get("omit_mpas", ()), **{k: v for k, v in can.items() if k in ("season", "after", "depth_band")}))
+        else:
+            data[g] = grid(build(uses_path, TAXA[g], regions=regions, **kw))
     edges = [e for e in (EDGES if edges is None else edges) if e[0] in tags and e[1] in tags]
     order = list(tags)
     assert all(order.index(j) < order.index(k) for k, j in edges), "list source taxa before their targets"

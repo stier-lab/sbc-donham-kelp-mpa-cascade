@@ -17,9 +17,10 @@ import numpyro
 from numpyro.infer import MCMC, NUTS, init_to_uniform
 from data_multi import build_multi, TAXA, EDGES, CONFIG
 from data_mass import build_mass, find_beside
+from data_canopy import attach_canopy
 from model_multi import model, basis_row
 
-SITES = ["sigma_cluster", "sigma_trend", "mu_pretrend", "sigma_pretrend", "pretrend", "E10_mass", "E10_biomass", "m_g_knots", "m_rho", "m_sigma_process", "m_sigma_region_year", "m_sigma_drift", "m_sigma_drift_region",
+SITES = ["c_quarter", "c_det0", "c_det_slope", "c_sd", "sigma_cluster", "sigma_trend", "mu_pretrend", "sigma_pretrend", "pretrend", "E10_mass", "E10_biomass", "m_g_knots", "m_rho", "m_sigma_process", "m_sigma_region_year", "m_sigma_drift", "m_sigma_drift_region",
          "m_sigma_station", "m_shape", "m_sd_log", "m_tau_D", "m_mu_lambda", "m_sigma_lambda", "m_sigma_curve", "m_zone", "m_theta",
          "E10_direct", "E10_total", "g_knots", "rho", "sigma_process", "sigma_region_year", "sigma_drift", "sigma_drift_region",
          "sigma_visit", "sigma_b", "inv_sqrt_phi", "tau_D", "tau_L", "sigma_shock", "mu_lambda", "sigma_lambda", "sigma_curve"]
@@ -98,6 +99,39 @@ def simulate(data, edges, scenario, seed, lag=1, direct=True, common_sd=0.0, sta
     truth["common_sd"] = common_sd
     truth["station_trend_sd"] = station_trend_sd; truth["cluster_trend_sd"] = cluster_trend_sd; truth["pretrend"] = list(pretrend)
     return ys, truth
+
+
+# Simulation truths for the canopy response: nuisance values rounded from the first fit to the real spring data
+# (2026-11-12), so that the calibration test is as hard as the real problem; the protection curve is chosen, not fitted.
+SIM_CANOPY = dict(inc=[0.30, 0.20, 0.10, 0.0, 0.0], sigma_b=0.8, mu_lambda=0.1, sigma_lambda=0.3, sigma_region_year=0.9, rho=0.55, sigma_process=0.9,
+                  tau_D=0.5, sigma_shock=0.2, quarter=0.5, det0=4.5, det_slope=1.0, sd=1.0)
+
+
+def simulate_canopy(D, seed, null=False, pretrend=(0.0, 0.0)):
+    """Independent NumPy simulator of the canopy response on the real polygon-quarter design (same generative steps as
+    observe_canopy and latent, written separately). null=True: no protection effect."""
+    rng = np.random.default_rng(seed); tr = SIM_CANOPY
+    S, M, R, T = len(D["stations"]), len(D["mpas"]), len(D["regions"]), len(D["years"])
+    inc = np.array(tr["inc"]) * (0.0 if null else 1.0)
+    lam = tr["mu_lambda"] + tr["sigma_lambda"] * rng.normal(size=M)
+    b = D["log_mean_density"] + tr["sigma_b"] * rng.normal(size=S) + D["st_prot"] * lam[D["st_mpa"]]
+    gam = tr["sigma_region_year"] * rng.normal(size=(R, T))
+    a_ = np.cumsum(SIM_DRIFT["sigma_drift"] * rng.normal(size=T)); gam = gam + (a_ - a_.mean())[None, :]
+    br = np.cumsum(SIM_DRIFT["sigma_drift_region"] * rng.normal(size=(R, T)), axis=1); gam = gam + br - br.mean(1, keepdims=True)
+    delta = np.zeros((T, S)); delta[0] = rng.normal(0, tr["sigma_process"] / np.sqrt(1 - tr["rho"] ** 2), size=S)
+    for t in range(1, T):
+        delta[t] = tr["rho"] * delta[t - 1] + tr["sigma_process"] * rng.normal(size=S)
+    Dm = tr["tau_D"] * rng.normal(size=M) * (0.0 if null else 1.0); omega = tr["sigma_shock"] * rng.normal(size=T) * (0.0 if null else 1.0)
+    m = D["st_mpa"]
+    F = D["grid_after"] * (D["grid_B"] @ inc + Dm[m][None, :] * D["grid_age"] / 10.0 + omega[:, None])
+    pre = (pretrend[0] + pretrend[1] * rng.normal(size=M))[m][None, :] * D["grid_rel"] if any(pretrend) else 0.0
+    eta = b[None, :] + delta + F + pre + gam[D["st_region"]].T
+    kq = tr["quarter"] * rng.normal(size=len(D["quarters"])); kq = kq - kq.mean()
+    mu = eta[D["c_t"], D["c_s"]] + kq[D["c_q"]]
+    p = 1.0 / (1.0 + np.exp(-(tr["det0"] + tr["det_slope"] * (mu + D["c_logpix"] - D["c_centre"]))))
+    y = np.where(rng.random(len(mu)) < p, np.exp(mu + tr["sd"] * rng.standard_t(5, size=len(mu))), 0.0)
+    e10 = float(basis_row(10.0) @ inc)
+    return y, dict(inc=inc.tolist(), E10_direct=e10, E10_total=e10, zero_fraction=float((y == 0).mean()), pretrend=list(pretrend))
 
 
 SIM_MASS = {"lob": [0.10, 0.08, 0.04, 0.0, 0.0], "shp": [0.08, 0.06, 0.02, 0.0, 0.0], "pur": [-0.05, -0.05, 0.0, 0.0, 0.0],
@@ -238,7 +272,7 @@ def merge_checks(parts, programs):
 
 def fit(data, edges, ys, config, curve="rw", lag=1, beta_scale=0.5, paths=True, split=False, mass=None, warmup=600, samples=600, chains=4, seed=0,
         depth=10, accept=0.99, step0=0.01, thin=1, **common):
-    data = {g: attach_counts(dict(D), ys[g]) for g, D in data.items()}
+    data = {g: (attach_canopy if D.get("canopy") else attach_counts)(dict(D), ys[g]) for g, D in data.items()}
     kw = dict(curve=curve, lag=lag, beta_scale=beta_scale, paths=paths, split=split, mass=mass, **common)
     kern = NUTS(model, init_strategy=init_to_uniform(radius=0.5), target_accept_prob=accept, max_tree_depth=depth, step_size=step0)
     mc = MCMC(kern, num_warmup=warmup, num_samples=samples, num_chains=chains, thinning=thin,
@@ -333,6 +367,11 @@ def main():
     ap.add_argument("--mass-ppc", type=int, default=0, help="posterior draws per chain for predictive checks of the mass layer")
     ap.add_argument("--mass-holdout", type=int, default=None, help="seed: hold out 20%% of interior station-years of mass data and predict them")
     ap.add_argument("--placebo-year", type=int, default=None, help="time placebo: KFM years before the real designation, fake designation year")
+    ap.add_argument("--canopy", default=None, help="canopy_quarterly.parquet from prep_canopy.py (default: beside the uses parquet or in outputs/.../private)")
+    ap.add_argument("--canopy-season", default="spring", choices=["spring", "autumn", "all", "q2", "max"], help="quarters used for the canopy response (tag can)")
+    ap.add_argument("--canopy-after", default="designation", choices=["designation", "next"], help="canopy: is the designation year after (designation) or before (next)")
+    ap.add_argument("--canopy-depth", default="all", choices=["all", "to10m", "over10m"], help="canopy: pixels of this depth band only")
+    ap.add_argument("--sim-null", action="store_true", help="simulate (canopy): no protection effect")
     ap.add_argument("--pretrend", action="store_true", help="sensitivity: differential linear trend at protected stations of before-and-after MPAs, extended through the after years")
     ap.add_argument("--evidence", default="all", choices=["all", "ba", "post"],
                     help="one taxon only: keep MPAs with before-and-after surveys (ba) or without (post); the split is fixed by the survey record")
@@ -387,8 +426,9 @@ def main():
         drop = [m for m, f in zip(D0["mpas"], D0["mpa_ba"]) if (f == 1) != (a.evidence == "ba")]
         a.omit_mpa = list(a.omit_mpa) + drop
     data, edges = build_multi(a.uses, tags, ed, lag=a.lag, regions=a.regions, omit_mpas=a.omit_mpa, omit_stations=a.omit_station, size25=s25,
-                              placebo_year=a.placebo_year, space_placebo_seed=a.space_placebo_seed, permute_seed=a.permute_seed)
-    mass = {g: build_mass(a.uses, data[g], TAXA[g], variant=a.mass_variant, drop=a.mass_drop, holdout_seed=a.mass_holdout) for g in tags} if a.mass else None
+                              placebo_year=a.placebo_year, space_placebo_seed=a.space_placebo_seed, permute_seed=a.permute_seed,
+                              canopy=dict(path=a.canopy, season=a.canopy_season, after=a.canopy_after, depth_band=a.canopy_depth))
+    mass = {g: (None if data[g].get("canopy") else build_mass(a.uses, data[g], TAXA[g], variant=a.mass_variant, drop=a.mass_drop, holdout_seed=a.mass_holdout)) for g in tags} if a.mass else None
     for D in data.values():
         D.pop("cells")
     config = {g: CONFIG[g] for g in tags}
@@ -396,7 +436,7 @@ def main():
                 chains=a.chains, seed=a.seed, depth=a.depth, accept=a.accept, step0=a.step0, thin=a.thin, drift=a.drift, inc_scale=a.inc_scale, cluster_drift=a.cluster_drift, station_trend=a.station_trend, pretrend=a.pretrend)
     if mass is not None:
         opts.update(mass_scale=a.mass_scale, mass_link=a.mass_link, mass_obs=a.mass_obs)
-    meta = dict(mode=a.mode, evidence=a.evidence, permute_seed=a.permute_seed, placebo_year=a.placebo_year, space_placebo_seed=a.space_placebo_seed, relabelled={g: D["relabelled"] for g, D in data.items()},
+    meta = dict(mode=a.mode, canopy={g: {k: D[k] for k in ("season", "after", "depth_band", "quarters")} | dict(zero_fraction=float((D["y"] == 0).mean())) for g, D in data.items() if D.get("canopy")}, evidence=a.evidence, permute_seed=a.permute_seed, placebo_year=a.placebo_year, space_placebo_seed=a.space_placebo_seed, relabelled={g: D["relabelled"] for g, D in data.items()},
                 mass_holdout_seed=a.mass_holdout, omit_station=a.omit_station, size25=bool(a.size25), stations_removed={g: D["stations_removed"] for g, D in data.items()},
                 units_size25_adjusted={g: D.get("units_size25_adjusted", 0) for g, D in data.items()}, chain_processes=(a.chains > 1 and not a.one_process), taxa={g: TAXA[g] for g in tags}, regions=a.regions, omit_mpa=a.omit_mpa,
                 links={f"{k}<-{j}": {x: lk[x] for x in ("n_target_station_years", "n_linked", "n_stations_linked")} for k, j, lk in edges},
@@ -406,8 +446,12 @@ def main():
                                  | dict(stations=len(M["mass_stations"]), mpas_before_after=int(M["mpa_ba"].sum()), n_heldout=M["n_heldout"])) for g, M in mass.items()}
     if a.mode == "simulate":
         name = a.name or f"msim_{a.scenario}_{a.curve}_seed{a.seed}"
-        ys, truth = simulate(data, edges, a.scenario, a.seed, lag=a.lag, direct=not a.no_direct, common_sd=a.common_sd,
-                             station_trend_sd=a.sim_station_trend, cluster_trend_sd=a.sim_cluster_trend, pretrend=tuple(a.sim_pretrend))
+        if tags == ["can"]:
+            yc, tc = simulate_canopy(data["can"], a.seed, null=a.sim_null, pretrend=tuple(a.sim_pretrend))
+            ys, truth = {"can": yc}, {"can": tc}
+        else:
+            ys, truth = simulate(data, edges, a.scenario, a.seed, lag=a.lag, direct=not a.no_direct, common_sd=a.common_sd,
+                                 station_trend_sd=a.sim_station_trend, cluster_trend_sd=a.sim_cluster_trend, pretrend=tuple(a.sim_pretrend))
         if mass is not None:
             mass = simulate_mass(mass, truth, a.seed, a.mass_scenario)
     else:

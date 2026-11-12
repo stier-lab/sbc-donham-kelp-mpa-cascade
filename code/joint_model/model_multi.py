@@ -25,6 +25,7 @@ Reading the paths as causal assumes the elasticity seen in station-level fluctua
 also applies to the average change caused by protection, and that no unmeasured local driver moves both taxa.
 """
 import numpy as np
+import jax
 import jax.numpy as jnp
 from jax.scipy.special import gammaln
 from jax import lax
@@ -253,6 +254,34 @@ def mass_layer(M, curve="rw", mass_scale=1.0, fluct=None, mass_link=False, expos
     return inc
 
 
+def observe_canopy(D, state, expose=False):
+    """Landsat canopy likelihood for one polygon-quarter given the latent log canopy density (kg wet per m2) of that
+    polygon and year (region-year effect included).
+
+        mu = latent level + quarter offset (offsets sum to zero over the quarters used)
+        canopy detected  ~ Bernoulli(logistic(a + b * (mu + log observed pixels - centre))),  b > 0
+        log density | detected ~ Student-t(5 d.f., mu, s)
+
+    A quarter without canopy is a detection event, not a biomass of zero: it pulls the latent level down by an amount
+    the data decide (through b) and never to minus infinity. The latent level therefore describes canopy when present
+    and how often it is present, on one scale. Heavy tails because quarterly canopy has occasional extreme values."""
+    Q = len(D["quarters"])
+    if Q > 1:      # Q - 1 free offsets; the last is minus their sum
+        raw = numpyro.sample("c_quarter", dist.Normal(0, 1.0).expand([Q - 1]))
+        kq = jnp.concatenate([raw, -jnp.sum(raw, keepdims=True)])
+    else:
+        kq = jnp.zeros(1)
+    a = numpyro.sample("c_det0", dist.Normal(0, 5.0))
+    b = numpyro.sample("c_det_slope", HN(2.0))
+    sd = numpyro.sample("c_sd", HN(1.5))
+    mu = state[D["c_t"], D["c_s"]] + kq[D["c_q"]]
+    if expose:
+        numpyro.deterministic("c_mu", mu)
+    logit = a + b * (mu + D["c_logpix"] - D["c_centre"])
+    ll = D["c_pos"] * (jax.nn.log_sigmoid(logit) + dist.StudentT(5.0, mu, sd).log_prob(D["c_logy"])) + (1 - D["c_pos"]) * jax.nn.log_sigmoid(-logit)
+    numpyro.factor("y", jnp.sum(ll))
+
+
 def model(data, edges, config, curve="rw", lag=1, beta_scale=0.5, paths=True, split=False, mass=None, mass_scale=1.0, mass_link=False, expose=False, mass_obs="gamma", **common):
     """data: {tag: inputs}; edges: [(target, source, link)]; config: {tag: dict(centered=, level_dev=)}.
     paths=False fits the taxa side by side with no links (must reproduce the single-taxon fits).
@@ -299,7 +328,10 @@ def model(data, edges, config, curve="rw", lag=1, beta_scale=0.5, paths=True, sp
             numpyro.deterministic("E10_total", tot(10.0))
             for j, bj in via.items():
                 numpyro.deterministic(f"E10_via_{j}", bj * total[j](10.0 - lag))
-            observe(D, d + L["local"] + L["gam"][D["st_region"]].T)
+            if D.get("canopy"):
+                observe_canopy(D, d + L["local"] + L["gam"][D["st_region"]].T, expose=expose)
+            else:
+                observe(D, d + L["local"] + L["gam"][D["st_region"]].T)
             # mean individual mass and biomass (design 4.2): log biomass effect = log density effect + log mass effect
             if mass is not None and mass.get(g) is not None:
                 lv = L["level"]

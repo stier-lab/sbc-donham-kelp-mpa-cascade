@@ -1,0 +1,18 @@
+can_loo_00.json	fit --taxa can --omit-mpa 'Abalone Cove SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_loo_01.json	fit --taxa can --omit-mpa 'Cabrillo SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_loo_02.json	fit --taxa can --omit-mpa 'Campus Point SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_loo_03.json	fit --taxa can --omit-mpa 'Carrington Pt SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_loo_04.json	fit --taxa can --omit-mpa 'Farnsworth Onshore SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_loo_05.json	fit --taxa can --omit-mpa 'Gull Island SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_loo_06.json	fit --taxa can --omit-mpa 'Harris Point SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_loo_07.json	fit --taxa can --omit-mpa 'Judith Rk SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_loo_08.json	fit --taxa can --omit-mpa 'Naples SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_loo_09.json	fit --taxa can --omit-mpa 'Point Conception SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_loo_10.json	fit --taxa can --omit-mpa 'Point Dume SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_loo_11.json	fit --taxa can --omit-mpa 'Point Dume SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_loo_12.json	fit --taxa can --omit-mpa 'Point Vicente SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_loo_13.json	fit --taxa can --omit-mpa 'Santa Barbara Island SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_loo_14.json	fit --taxa can --omit-mpa 'Skunk Pt SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_loo_15.json	fit --taxa can --omit-mpa 'South La Jolla SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_loo_16.json	fit --taxa can --omit-mpa 'South Point SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_loo_17.json	fit --taxa can --omit-mpa 'Swamis SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2

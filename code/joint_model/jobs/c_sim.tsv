@@ -1,0 +1,40 @@
+can_sim_std_s201.json	simulate --taxa can --curve rw --seed 201 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_std_s202.json	simulate --taxa can --curve rw --seed 202 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_std_s203.json	simulate --taxa can --curve rw --seed 203 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_std_s204.json	simulate --taxa can --curve rw --seed 204 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_std_s205.json	simulate --taxa can --curve rw --seed 205 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_std_s206.json	simulate --taxa can --curve rw --seed 206 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_std_s207.json	simulate --taxa can --curve rw --seed 207 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_std_s208.json	simulate --taxa can --curve rw --seed 208 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_std_s209.json	simulate --taxa can --curve rw --seed 209 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_std_s210.json	simulate --taxa can --curve rw --seed 210 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_std_s211.json	simulate --taxa can --curve rw --seed 211 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_std_s212.json	simulate --taxa can --curve rw --seed 212 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_std_s213.json	simulate --taxa can --curve rw --seed 213 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_std_s214.json	simulate --taxa can --curve rw --seed 214 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_std_s215.json	simulate --taxa can --curve rw --seed 215 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_std_s216.json	simulate --taxa can --curve rw --seed 216 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_std_s217.json	simulate --taxa can --curve rw --seed 217 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_std_s218.json	simulate --taxa can --curve rw --seed 218 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_std_s219.json	simulate --taxa can --curve rw --seed 219 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_std_s220.json	simulate --taxa can --curve rw --seed 220 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_null_s201.json	simulate --taxa can --sim-null --curve rw --seed 201 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_null_s202.json	simulate --taxa can --sim-null --curve rw --seed 202 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_null_s203.json	simulate --taxa can --sim-null --curve rw --seed 203 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_null_s204.json	simulate --taxa can --sim-null --curve rw --seed 204 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_null_s205.json	simulate --taxa can --sim-null --curve rw --seed 205 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_null_s206.json	simulate --taxa can --sim-null --curve rw --seed 206 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_null_s207.json	simulate --taxa can --sim-null --curve rw --seed 207 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_null_s208.json	simulate --taxa can --sim-null --curve rw --seed 208 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_null_s209.json	simulate --taxa can --sim-null --curve rw --seed 209 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_null_s210.json	simulate --taxa can --sim-null --curve rw --seed 210 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_null_s211.json	simulate --taxa can --sim-null --curve rw --seed 211 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_null_s212.json	simulate --taxa can --sim-null --curve rw --seed 212 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_null_s213.json	simulate --taxa can --sim-null --curve rw --seed 213 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_null_s214.json	simulate --taxa can --sim-null --curve rw --seed 214 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_null_s215.json	simulate --taxa can --sim-null --curve rw --seed 215 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_null_s216.json	simulate --taxa can --sim-null --curve rw --seed 216 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_null_s217.json	simulate --taxa can --sim-null --curve rw --seed 217 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_null_s218.json	simulate --taxa can --sim-null --curve rw --seed 218 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_null_s219.json	simulate --taxa can --sim-null --curve rw --seed 219 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_sim_null_s220.json	simulate --taxa can --sim-null --curve rw --seed 220 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2

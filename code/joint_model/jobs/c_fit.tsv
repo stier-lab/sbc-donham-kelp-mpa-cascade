@@ -1,0 +1,25 @@
+can_spring_rw.json	fit --taxa can --canopy-season spring --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+can_spring_pw.json	fit --taxa can --canopy-season spring --curve piecewise --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+can_max_rw.json	fit --taxa can --canopy-season max --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+can_max_pw.json	fit --taxa can --canopy-season max --curve piecewise --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+can_autumn_rw.json	fit --taxa can --canopy-season autumn --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+can_autumn_pw.json	fit --taxa can --canopy-season autumn --curve piecewise --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+can_all_rw.json	fit --taxa can --canopy-season all --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+can_all_pw.json	fit --taxa can --canopy-season all --curve piecewise --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+can_spring_rw_next.json	fit --taxa can --canopy-after next --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+can_spring_pw_next.json	fit --taxa can --canopy-after next --curve piecewise --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+can_spring_rw_to10m.json	fit --taxa can --canopy-depth to10m --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+can_spring_rw_over10m.json	fit --taxa can --canopy-depth over10m --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+can_spring_pw_to10m.json	fit --taxa can --canopy-depth to10m --curve piecewise --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+can_spring_pw_over10m.json	fit --taxa can --canopy-depth over10m --curve piecewise --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+can_spring_rw_pre.json	fit --taxa can --pretrend --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+can_spring_pw_pre.json	fit --taxa can --pretrend --curve piecewise --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+can_spring_rw_s2.json	fit --taxa can --curve rw --seed 2 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+can_time_rw_y1990.json	fit --taxa can --placebo-year 1990 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_time_rw_y1993.json	fit --taxa can --placebo-year 1993 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_time_rw_y1996.json	fit --taxa can --placebo-year 1996 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_time_rw_y1999.json	fit --taxa can --placebo-year 1999 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_time_pw_y1990.json	fit --taxa can --placebo-year 1990 --curve piecewise --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_time_pw_y1993.json	fit --taxa can --placebo-year 1993 --curve piecewise --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_time_pw_y1996.json	fit --taxa can --placebo-year 1996 --curve piecewise --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+can_time_pw_y1999.json	fit --taxa can --placebo-year 1999 --curve piecewise --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
