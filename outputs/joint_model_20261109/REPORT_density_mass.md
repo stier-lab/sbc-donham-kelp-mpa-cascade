@@ -46,9 +46,9 @@ Counts and group mean masses were simulated on each taxon's real survey and meas
 | Sheephead | 5 | 5 | +0.15 | -0.04, 5/5 | +0.38 | -0.09, 5/5 |
 | Purple urchin | 4 | 3 | -0.10 | +0.10, 3/4 | -0.75 | +0.32, 4/4 |
 | Red urchin | 4 | 4 | +0.12 | -0.01, 3/4 | -0.13 | +0.21, 4/4 |
-| Kelp | 2 | 2 | +0.00 | +0.09, 2/2 | +0.70 | -0.27, 2/2 |
+| Kelp | 4 | 3 | +0.00 | +0.01, 4/4 | +0.70 | -0.47, 3/4 |
 
-**PASS.** Coverage 0.95 over 38 intervals (rule: at least 0.80).
+**PASS.** Coverage 0.93 over 42 intervals (rule: at least 0.81).
 
 ## 4. Real data: effect of protection at ten years
 
@@ -58,7 +58,7 @@ Counts and group mean masses were simulated on each taxon's real survey and meas
 |---|---|---|---|---|---|
 | Lobster | +1.75 [+1.04, +2.43] | +0.38 [+0.15, +0.64] | +2.13 [+1.43, +2.88] | +740% [+318%, +1687%] | yes (1.002 / 2696 / 0) |
 | Sheephead | not finished | | | | |
-| Purple urchin | not finished | | | | |
+| Purple urchin | -0.91 [-1.80, +0.02] | +0.25 [-0.05, +0.53] | -0.66 [-1.66, +0.25] | -48% [-81%, +28%] | yes (1.004 / 1341 / 0) |
 | Red urchin | -0.63 [-1.23, -0.05] | +0.41 [+0.08, +0.73] | -0.22 [-0.90, +0.44] | -20% [-59%, +56%] | yes (1.004 / 1448 / 0) |
 | Kelp | +0.96 [+0.00, +1.91] | +0.01 [-0.20, +0.22] | +0.96 [+0.01, +1.95] | +162% [+1%, +602%] | yes (1.002 / 1474 / 0) |
 
@@ -77,6 +77,7 @@ Mass data behind each estimate (model stations only):
 | Taxon | Station-years with measured animals | Station-years with density | Groups by program | MPAs with before-and-after mass data |
 |---|---|---|---|---|
 | Lobster | 489 | 1,419 |  | 0 |
+| Purple urchin | 812 | 1,515 |  | 4 |
 | Red urchin | 804 | 1,515 |  | 3 |
 | Kelp | 1,032 | 1,421 |  | 3 |
 
@@ -137,7 +138,7 @@ These fits let mean mass at a station move with that year's density fluctuation 
 |---|---|---|---|---|---|---|
 | Lobster | mass linked to density fluctuation | +1.76 [+1.04, +2.42] | +0.39 [+0.14, +0.63] | +2.15 [+1.43, +2.92] | +0.02 | yes (1.002 / 1820 / 0) |
 | Sheephead | mass linked to density fluctuation | not finished | | | | |
-| Purple urchin | mass linked to density fluctuation | not finished | | | | |
+| Purple urchin | mass linked to density fluctuation | -0.92 [-1.81, -0.04] | +0.25 [-0.02, +0.51] | -0.67 [-1.62, +0.17] | -0.01 | yes (1.006 / 1221 / 0) |
 | Red urchin | mass linked to density fluctuation | -0.64 [-1.20, -0.05] | +0.40 [+0.09, +0.72] | -0.23 [-0.89, +0.39] | -0.01 | yes (1.006 / 1241 / 0) |
 | Kelp | mass linked to density fluctuation | +0.96 [+0.01, +1.94] | -0.02 [-0.23, +0.19] | +0.94 [-0.02, +1.91] | -0.02 | yes (1.003 / 1273 / 0) |
 
@@ -162,7 +163,7 @@ Prior scale of the mass response doubled.
 |---|---|---|---|---|---|---|
 | Lobster | mass prior ×2 | +1.75 [+1.03, +2.42] | +0.40 [+0.15, +0.66] | +2.15 [+1.42, +2.90] | +0.02 | NO (1.002 / 2752 / 2) |
 | Sheephead | mass prior ×2 | not finished | | | | |
-| Purple urchin | mass prior ×2 | not finished | | | | |
+| Purple urchin | mass prior ×2 | -0.91 [-1.82, -0.00] | +0.27 [-0.03, +0.58] | -0.65 [-1.63, +0.29] | +0.01 | yes (1.004 / 1375 / 0) |
 | Red urchin | mass prior ×2 | -0.63 [-1.23, -0.06] | +0.44 [+0.10, +0.78] | -0.18 [-0.86, +0.50] | +0.04 | yes (1.004 / 1398 / 0) |
 | Kelp | mass prior ×2 | not finished | | | | |
 
