@@ -16,7 +16,7 @@ import jax
 import numpyro
 from numpyro.infer import MCMC, NUTS, init_to_uniform
 from data_multi import build_multi, TAXA, EDGES, CONFIG
-from data_mass import build_mass
+from data_mass import build_mass, find_beside
 from model_multi import model, basis_row
 
 SITES = ["E10_mass", "E10_biomass", "m_g_knots", "m_rho", "m_sigma_process", "m_sigma_region_year", "m_sigma_drift", "m_sigma_drift_region",
@@ -209,6 +209,11 @@ def main():
     ap.add_argument("--no-paths", action="store_true", help="fit the taxa side by side with no links")
     ap.add_argument("--split", action="store_true", help="separate link coefficients for station-level fluctuation and for the protection function")
     ap.add_argument("--mass", action="store_true", help="add the mean individual mass layer (biomass = density x mean mass)")
+    ap.add_argument("--mass-variant", default="main", choices=["main", "b_lo", "b_hi", "ge25"],
+                    help="b_lo/b_hi: allometric exponent -0.1/+0.1; ge25: urchin mass from animals >= 25 mm only (KFM, LTER)")
+    ap.add_argument("--mass-drop", action="append", default=[], help="leave out a program's mass groups (KFM, LTER, PISCO, KFM-roving)")
+    ap.add_argument("--size25", action="store_true", help="urchins: density on the >= 25 mm definition for KFM and LTER (use with --mass-variant ge25)")
+    ap.add_argument("--omit-station", action="append", default=[], help='leave out a station, e.g. "KFM|a-k-01"')
     ap.add_argument("--mass-scale", type=float, default=1.0, help="multiplier on the prior scale of the mass response increments")
     ap.add_argument("--mass-link", action="store_true", help="let mean mass depend on the same-year fluctuation of the taxon's density")
     ap.add_argument("--lag", type=int, default=1, choices=[0, 1, 2])
@@ -240,8 +245,13 @@ def main():
     a = ap.parse_args()
     tags = a.taxa.split(",")
     ed = None if a.edges is None else [tuple(e.split("<")) for e in a.edges.split(",") if e]
-    data, edges = build_multi(a.uses, tags, ed, lag=a.lag, regions=a.regions, omit_mpas=a.omit_mpa)
-    mass = {g: build_mass(a.uses, data[g], TAXA[g]) for g in tags} if a.mass else None
+    s25 = None
+    if a.size25:
+        s25 = find_beside(a.uses, "size25_share.csv")
+        if s25 is None:
+            raise SystemExit("size25_share.csv (from prep_mass.py) not found")
+    data, edges = build_multi(a.uses, tags, ed, lag=a.lag, regions=a.regions, omit_mpas=a.omit_mpa, omit_stations=a.omit_station, size25=s25)
+    mass = {g: build_mass(a.uses, data[g], TAXA[g], variant=a.mass_variant, drop=a.mass_drop) for g in tags} if a.mass else None
     for D in data.values():
         D.pop("cells")
     config = {g: CONFIG[g] for g in tags}
@@ -249,11 +259,12 @@ def main():
                 chains=a.chains, seed=a.seed, depth=a.depth, accept=a.accept, step0=a.step0, thin=a.thin, drift=a.drift, inc_scale=a.inc_scale)
     if mass is not None:
         opts.update(mass_scale=a.mass_scale, mass_link=a.mass_link)
-    meta = dict(mode=a.mode, chain_processes=(a.chains > 1 and not a.one_process), taxa={g: TAXA[g] for g in tags}, regions=a.regions, omit_mpa=a.omit_mpa,
+    meta = dict(mode=a.mode, omit_station=a.omit_station, size25=bool(a.size25), stations_removed={g: D["stations_removed"] for g, D in data.items()},
+                units_size25_adjusted={g: D.get("units_size25_adjusted", 0) for g, D in data.items()}, chain_processes=(a.chains > 1 and not a.one_process), taxa={g: TAXA[g] for g in tags}, regions=a.regions, omit_mpa=a.omit_mpa,
                 links={f"{k}<-{j}": {x: lk[x] for x in ("n_target_station_years", "n_linked", "n_stations_linked")} for k, j, lk in edges},
                 n_units={g: int(len(D["y"])) for g, D in data.items()}, stations={g: len(D["stations"]) for g, D in data.items()}, **opts)
     if mass is not None:
-        meta["mass_data"] = {g: (None if M is None else {k: M[k] for k in ("n_groups", "animals", "station_years_with_mass", "density_station_years", "kinds")}
+        meta["mass_data"] = {g: (None if M is None else {k: M[k] for k in ("n_groups", "animals", "station_years_with_mass", "density_station_years", "kinds", "source", "variant", "dropped", "by_program")}
                                  | dict(stations=len(M["mass_stations"]), mpas_before_after=int(M["mpa_ba"].sum()))) for g, M in mass.items()}
     if a.mode == "simulate":
         name = a.name or f"msim_{a.scenario}_{a.curve}_seed{a.seed}"

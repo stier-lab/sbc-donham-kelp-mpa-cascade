@@ -22,7 +22,7 @@ ZONES = ["INNER", "MID", "OUTER", "DEEP"]
 
 
 def build(uses_path, taxon, min_before=3, placebo_year=None, omit_mpas=(), omit_stations=(),
-          space_placebo_seed=None, pisco_cap=None, regions="seven"):
+          space_placebo_seed=None, pisco_cap=None, regions="seven", size25=None):
     """Model inputs for one taxon.
 
     placebo_year: time placebo (KFM years before the real designation, fake designation year).
@@ -78,6 +78,20 @@ def build(uses_path, taxon, min_before=3, placebo_year=None, omit_mpas=(), omit_
         m = (units.Source == "PISCO") & (units["count"] > pisco_cap)
         units.loc[m, "area"] = units.loc[m, "area"] * pisco_cap / units.loc[m, "count"]
         units.loc[m, "count"] = pisco_cap; capped = int(m.sum())
+    adjusted = 0
+    if size25 is not None and taxon in ("S. purpuratus", "M. franciscanus"):
+        # Common density definition (design 4.2, sensitivity): PISCO counts urchins >= 25 mm only, KFM and LTER count
+        # all sizes. A KFM or LTER count of all sizes has mean (density >= 25 mm) * area / q, where q is the share of
+        # measured animals >= 25 mm, so the unit's area is divided by q. q comes from the station-year when at least
+        # 30 animals were measured there, otherwise from all years at that station, otherwise from the program.
+        q = pd.read_csv(size25); q = q[q.Taxa == taxon].copy(); q["station"] = q.Source + "|" + q.site
+        sy = q[q.n >= 30].set_index(["station", "year"]).share25
+        stq = q.groupby("station")[["n25", "n"]].sum(); stq = (stq.n25 / stq.n)[stq.n >= 30]
+        prq = q.groupby("Source")[["n25", "n"]].sum(); prq = prq.n25 / prq.n
+        m = units.Source.isin(["KFM", "LTER"])
+        share = pd.Series(pd.MultiIndex.from_frame(units[["station", "year"]]).map(sy), index=units.index)
+        share = share.fillna(units.station.map(stq)).fillna(units.Source.map(prq)).clip(0.05, 1.0)
+        units.loc[m, "area"] = units.loc[m, "area"] / share[m]; adjusted = int(m.sum())
     # cells = units sharing a visit, zone and unit area (identical expected count). The likelihood uses cell
     # totals for the mean and every unit count for the dispersion, which is exact for the negative binomial.
     key = ["station", "year", "date", "zone", "month", "area"]
@@ -110,7 +124,7 @@ def build(uses_path, taxon, min_before=3, placebo_year=None, omit_mpas=(), omit_
     span_first = (yy == span["min"].values[None, :]).astype(float)
     span_inside = ((yy > span["min"].values[None, :]) & (yy <= span["max"].values[None, :])).astype(float)
     D = dict(
-        span_first=span_first, span_inside=span_inside, stations_removed=int(removed), relabelled=relabelled, units_capped=capped,
+        span_first=span_first, span_inside=span_inside, stations_removed=int(removed), relabelled=relabelled, units_capped=capped, units_size25_adjusted=adjusted,
         unit_station=units.station.map(s_ix).values, unit_year=units.year.values.astype(int), unit_area=units.area.values.astype(float),
         taxon=taxon, stations=stations, mpas=mpas, programs=programs, regions=regions, years=years, knots=KNOTS,
         y=units["count"].values.astype(int), unit_cell=units.cell.values, unit_prog=units.Source.map(p_ix).values,

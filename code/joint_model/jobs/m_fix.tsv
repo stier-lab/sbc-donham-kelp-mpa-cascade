@@ -1,0 +1,22 @@
+mx_shp_rw_s1.json	fit --mass --taxa shp --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mx_shp_pw_s1.json	fit --mass --taxa shp --curve piecewise --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mx_shp_rw_s2.json	fit --mass --taxa shp --curve rw --seed 2 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mx_shp_rw_link.json	fit --mass --taxa shp --curve rw --seed 1 --mass-link --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mx_shp_rw_noWebster.json	fit --mass --taxa shp --curve rw --seed 1 --omit-station 'KFM|a-k-35' --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mx_shp_rw_noMiracle.json	fit --mass --taxa shp --curve rw --seed 1 --omit-station 'KFM|a-k-21' --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mx_shp_rw_noWyckoff.json	fit --mass --taxa shp --curve rw --seed 1 --omit-station 'KFM|a-k-01' --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mx_shp_rw_noAll3.json	fit --mass --taxa shp --curve rw --seed 1 --omit-station 'KFM|a-k-35' --omit-station 'KFM|a-k-21' --omit-station 'KFM|a-k-01' --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mx_shp_rw_blo.json	fit --mass --taxa shp --curve rw --seed 1 --mass-variant b_lo --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mx_shp_rw_bhi.json	fit --mass --taxa shp --curve rw --seed 1 --mass-variant b_hi --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mx_lob_rw_blo.json	fit --mass --taxa lob --curve rw --seed 1 --mass-variant b_lo --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mx_lob_rw_bhi.json	fit --mass --taxa lob --curve rw --seed 1 --mass-variant b_hi --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mx_pur_rw_blo.json	fit --mass --taxa pur --curve rw --seed 1 --mass-variant b_lo --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mx_pur_rw_bhi.json	fit --mass --taxa pur --curve rw --seed 1 --mass-variant b_hi --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mx_red_rw_blo.json	fit --mass --taxa red --curve rw --seed 1 --mass-variant b_lo --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mx_red_rw_bhi.json	fit --mass --taxa red --curve rw --seed 1 --mass-variant b_hi --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mx_pur_rw_ge25.json	fit --mass --taxa pur --curve rw --seed 1 --size25 --mass-variant ge25 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mx_pur_pw_ge25.json	fit --mass --taxa pur --curve piecewise --seed 1 --size25 --mass-variant ge25 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mx_pur_rw_noLTERmass.json	fit --mass --taxa pur --curve rw --seed 1 --mass-drop LTER --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mx_red_rw_ge25.json	fit --mass --taxa red --curve rw --seed 1 --size25 --mass-variant ge25 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mx_red_pw_ge25.json	fit --mass --taxa red --curve piecewise --seed 1 --size25 --mass-variant ge25 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws
+mx_red_rw_noLTERmass.json	fit --mass --taxa red --curve rw --seed 1 --mass-drop LTER --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2 --save-draws

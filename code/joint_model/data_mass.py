@@ -29,8 +29,40 @@ def inventory_path(uses_path):
     raise FileNotFoundError("size_pool_inventory.csv not found beside or above " + str(p))
 
 
-def mass_groups(uses_path, taxon, inv_path=None):
-    """All mass groups for one taxon: station, year, zone, n, mean mass, kind."""
+def find_beside(uses_path, name):
+    """Private prepared inputs sit beside the survey-unit table (GRIT) or in the joint model's private folder (Mac)."""
+    p = Path(uses_path)
+    for c in (p.parent / name, p.parents[2] / "joint_model_20261109/private" / name if len(p.parents) > 2 else p.parent / name):
+        if c.exists():
+            return c
+    return None
+
+
+def mass_groups(uses_path, taxon, inv_path=None, variant="main", drop=()):
+    """All mass groups for one taxon: station, year, zone, n, mean mass, kind.
+
+    Preferred source: mass_groups.parquet from prep_mass.py (recomputed from source rows and checked against the
+    integrated review; adds KFM sheephead roving-diver sizes, allometry-exponent variants and the >= 25 mm subset).
+    variant: "main"; "b_lo" / "b_hi" (allometric exponent - 0.1 / + 0.1); "ge25" (urchins: only animals >= 25 mm
+    test diameter in KFM and LTER groups, the size range PISCO measures).
+    drop: programs, or "KFM-roving", whose mass groups are left out (sensitivities).
+    Fallback when that file is absent: pool means from size_pool_inventory.csv and unit means from the survey-unit
+    table (same values for every group both sources hold; no KFM sheephead, no variants)."""
+    f = find_beside(uses_path, "mass_groups.parquet")
+    if f is not None:
+        g = pd.read_parquet(f); g = g[g.Taxa == taxon].copy()
+        col = {"main": "mean", "ge25": "mean", "b_lo": "mean_blo", "b_hi": "mean_bhi"}[variant]
+        g["mean"] = g[col]
+        if variant == "ge25" and taxon in ("S. purpuratus", "M. franciscanus"):
+            k = g.Source.isin(["KFM", "LTER"])
+            g.loc[k, "n"] = g.loc[k, "n25"]; g.loc[k, "mean"] = g.loc[k, "mean25"]
+        g = g.assign(station=g.Source + "|" + g.site, year=g.year.astype(int))
+        for d in drop:
+            g = g[~((g.Source == "KFM") & (g.kind == "roving"))] if d == "KFM-roving" else g[g.Source != d]
+        g = g[["station", "year", "zone", "n", "mean", "kind"]]
+        return g[(g.n > 0) & (g["mean"] > 0)], str(f.name)
+    if variant != "main":
+        raise FileNotFoundError("mass_groups.parquet (from prep_mass.py) is needed for variant " + variant)
     u = pd.read_parquet(uses_path)
     b = u[(u.Resp == "Bio") & (u.Taxa == taxon) & (u.Source != "Landsat")].drop_duplicates("unit_id")
     b = b[b.size_basis.isin(SAME_RECORD) & b.biomass.notna() & (b.density > 0)]
@@ -43,12 +75,14 @@ def mass_groups(uses_path, taxon, inv_path=None):
     p = pd.DataFrame(dict(station=inv.Source + "|" + inv.site, year=inv.year.astype(int), zone=inv.zone, n=inv.n_sized.astype(float),
                           mean=inv.mean_mass, kind="pool"))
     g = pd.concat([a, p], ignore_index=True)
-    return g[(g.n > 0) & (g["mean"] > 0)]
+    for d in drop:
+        g = g[~g.station.str.startswith(d + "|")]
+    return g[(g.n > 0) & (g["mean"] > 0)], "size_pool_inventory.csv + survey-unit table"
 
 
-def build_mass(uses_path, D, taxon, min_before=3, inv_path=None):
+def build_mass(uses_path, D, taxon, min_before=3, inv_path=None, variant="main", drop=()):
     """Mass inputs aligned to the density inputs D of the same taxon. Returns None if there are no groups."""
-    g = mass_groups(uses_path, taxon, inv_path)
+    g, source = mass_groups(uses_path, taxon, inv_path, variant, drop)
     s_ix = {s: i for i, s in enumerate(D["stations"])}
     y0, y1 = int(D["years"][0]), int(D["years"][-1])
     g = g[g.station.isin(s_ix) & (g.year >= y0) & (g.year <= y1)].copy()
@@ -82,4 +116,6 @@ def build_mass(uses_path, D, taxon, min_before=3, inv_path=None):
         log_mean_mass=float(np.log(np.average(g["mean"], weights=g.n))),
         station_years_with_mass=int(len(sy)), density_station_years=int(len(set(zip(D["s"], D["t"])))),
         animals=float(g.n.sum()), kinds=g.kind.value_counts().to_dict(),
+        source=source, variant=variant, dropped=list(drop),
+        by_program={k: int(v) for k, v in g.station.str.split("|").str[0].value_counts().items()},
     )

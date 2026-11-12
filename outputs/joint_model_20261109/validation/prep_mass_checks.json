@@ -1,0 +1,151 @@
+{
+ "pools": {
+  "pools": 4035,
+  "inventory_animal_pools": 4035,
+  "unmatched": 0,
+  "max_rel_diff_mean": 1.1102230246251565e-15,
+  "max_diff_n": 0.0
+ },
+ "same_record_units": {
+  "pisco_fish": {
+   "units": 5944,
+   "max_rel_diff_mean": 4.440892098500626e-16,
+   "max_diff_n": 7.105427357601002e-15
+  },
+  "lter_fish": {
+   "units": 214,
+   "max_rel_diff_mean": 5.551115123125783e-16,
+   "max_diff_n": 1.7763568394002505e-15
+  },
+  "lter_lobster": {
+   "units": 802,
+   "max_rel_diff_mean": 6.661338147750939e-16,
+   "max_diff_n": 2.842170943040401e-14
+  },
+  "lter_benthic_19_33": {
+   "units": 1300,
+   "max_rel_diff_mean": 0.0,
+   "max_diff_n": 0.0
+  }
+ },
+ "kfm_sheephead": {
+  "size_surveys": 522,
+  "sites": 33,
+  "fish": 9533.0,
+  "review_exact_visits": 305,
+  "unmatched": 0,
+  "max_rel_diff_mean": 2.220446049250313e-16,
+  "max_diff_n": 0.0
+ },
+ "groups": {
+  "M. franciscanus|KFM|pool": {
+   "groups": 550,
+   "animals": 99312.0,
+   "station_years": 540
+  },
+  "M. franciscanus|LTER|unit": {
+   "groups": 409,
+   "animals": 1809.0,
+   "station_years": 56
+  },
+  "M. franciscanus|PISCO|pool": {
+   "groups": 875,
+   "animals": 14712.0,
+   "station_years": 416
+  },
+  "M. pyrifera|KFM|pool": {
+   "groups": 403,
+   "animals": 31247.0,
+   "station_years": 397
+  },
+  "M. pyrifera|PISCO|unit": {
+   "groups": 3153,
+   "animals": 87158.0,
+   "station_years": 777
+  },
+  "P. interruptus|LTER|unit": {
+   "groups": 802,
+   "animals": 8436.0,
+   "station_years": 48
+  },
+  "P. interruptus|PISCO|pool": {
+   "groups": 1335,
+   "animals": 6697.0,
+   "station_years": 712
+  },
+  "S. pulcher|KFM|roving": {
+   "groups": 522,
+   "animals": 9533.0,
+   "station_years": 487
+  },
+  "S. pulcher|LTER|unit": {
+   "groups": 214,
+   "animals": 761.0,
+   "station_years": 60
+  },
+  "S. pulcher|PISCO|unit": {
+   "groups": 5944,
+   "animals": 17199.0,
+   "station_years": 1111
+  },
+  "S. purpuratus|KFM|pool": {
+   "groups": 549,
+   "animals": 106856.0,
+   "station_years": 538
+  },
+  "S. purpuratus|LTER|unit": {
+   "groups": 891,
+   "animals": 8332.0,
+   "station_years": 80
+  },
+  "S. purpuratus|PISCO|pool": {
+   "groups": 726,
+   "animals": 15727.0,
+   "station_years": 368
+  }
+ },
+ "exponent_shift_log_mean": {
+  "M. franciscanus": {
+   "minus": -0.423245522169407,
+   "plus": 0.42393709791279444
+  },
+  "P. interruptus": {
+   "minus": -0.439862580468133,
+   "plus": 0.44015582360400035
+  },
+  "S. pulcher": {
+   "minus": -0.3489891750230869,
+   "plus": 0.3495907540921461
+  },
+  "S. purpuratus": {
+   "minus": -0.35649588345765476,
+   "plus": 0.3571310213604849
+  }
+ },
+ "share25": {
+  "M. franciscanus|KFM": {
+   "station_years": 540,
+   "animal_weighted_share": 0.8272313516996939,
+   "q10": 0.6323883928571429,
+   "median": 0.8799038461538462
+  },
+  "M. franciscanus|LTER": {
+   "station_years": 56,
+   "animal_weighted_share": 0.9712548369264787,
+   "q10": 0.8918490783410138,
+   "median": 1.0
+  },
+  "S. purpuratus|KFM": {
+   "station_years": 538,
+   "animal_weighted_share": 0.56373998652392,
+   "q10": 0.21460150375939852,
+   "median": 0.662381264330167
+  },
+  "S. purpuratus|LTER": {
+   "station_years": 80,
+   "animal_weighted_share": 0.8827412385981757,
+   "q10": 0.0,
+   "median": 0.959348048054572
+  }
+ }
+}
