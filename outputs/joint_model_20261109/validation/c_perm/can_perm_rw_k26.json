@@ -1,0 +1,398 @@
+{
+ "can:E10_direct": {
+  "mean": -0.1281,
+  "5.0%": -0.7272,
+  "95.0%": 0.4204,
+  "n_eff": 2271.7481,
+  "r_hat": 1.0019
+ },
+ "can:E10_total": {
+  "mean": -0.1281,
+  "5.0%": -0.7272,
+  "95.0%": 0.4204,
+  "n_eff": 2271.7481,
+  "r_hat": 1.0019
+ },
+ "can:c_det0": {
+  "mean": 4.7302,
+  "5.0%": 4.3637,
+  "95.0%": 5.0795,
+  "n_eff": 4346.58,
+  "r_hat": 1.0002
+ },
+ "can:c_det_slope": {
+  "mean": 1.0778,
+  "5.0%": 0.9789,
+  "95.0%": 1.1668,
+  "n_eff": 4691.205,
+  "r_hat": 1.0004
+ },
+ "can:c_quarter": {
+  "mean": [
+   -0.5254
+  ],
+  "5.0%": [
+   -0.5625
+  ],
+  "95.0%": [
+   -0.4904
+  ],
+  "n_eff": [
+   4470.2472
+  ],
+  "r_hat": [
+   0.9999
+  ]
+ },
+ "can:c_sd": {
+  "mean": 0.9938,
+  "5.0%": 0.9561,
+  "95.0%": 1.0299,
+  "n_eff": 3238.6846,
+  "r_hat": 1.0012
+ },
+ "can:g_knots": {
+  "mean": [
+   -0.0854,
+   -0.116,
+   -0.1401,
+   -0.253,
+   -0.4108
+  ],
+  "5.0%": [
+   -0.4055,
+   -0.5839,
+   -0.8451,
+   -1.1687,
+   -1.7239
+  ],
+  "95.0%": [
+   0.2034,
+   0.3826,
+   0.5421,
+   0.6874,
+   0.8771
+  ],
+  "n_eff": [
+   2488.0502,
+   2204.3271,
+   2397.2753,
+   2620.079,
+   3137.4841
+  ],
+  "r_hat": [
+   1.0032,
+   1.0021,
+   1.0016,
+   1.0016,
+   1.0009
+  ]
+ },
+ "can:mu_lambda": {
+  "mean": -0.1965,
+  "5.0%": -0.7761,
+  "95.0%": 0.3746,
+  "n_eff": 4208.8684,
+  "r_hat": 1.0001
+ },
+ "can:rho": {
+  "mean": 0.6036,
+  "5.0%": 0.5342,
+  "95.0%": 0.6724,
+  "n_eff": 1631.8353,
+  "r_hat": 1.0038
+ },
+ "can:sigma_b": {
+  "mean": [
+   0.9739
+  ],
+  "5.0%": [
+   0.721
+  ],
+  "95.0%": [
+   1.2002
+  ],
+  "n_eff": [
+   3664.0635
+  ],
+  "r_hat": [
+   1.0005
+  ]
+ },
+ "can:sigma_curve": {
+  "mean": 0.2047,
+  "5.0%": 0.0,
+  "95.0%": 0.4288,
+  "n_eff": 5112.4948,
+  "r_hat": 1.0002
+ },
+ "can:sigma_drift": {
+  "mean": 0.3824,
+  "5.0%": 0.0001,
+  "95.0%": 0.7514,
+  "n_eff": 460.6117,
+  "r_hat": 1.0037
+ },
+ "can:sigma_drift_region": {
+  "mean": 0.1226,
+  "5.0%": 0.0001,
+  "95.0%": 0.2342,
+  "n_eff": 1362.862,
+  "r_hat": 1.0009
+ },
+ "can:sigma_lambda": {
+  "mean": 0.6945,
+  "5.0%": 0.0073,
+  "95.0%": 1.2029,
+  "n_eff": 2670.0485,
+  "r_hat": 1.001
+ },
+ "can:sigma_process": {
+  "mean": 0.909,
+  "5.0%": 0.8293,
+  "95.0%": 0.99,
+  "n_eff": 1173.5904,
+  "r_hat": 1.0055
+ },
+ "can:sigma_region_year": {
+  "mean": 0.978,
+  "5.0%": 0.7588,
+  "95.0%": 1.2146,
+  "n_eff": 614.119,
+  "r_hat": 1.0017
+ },
+ "can:sigma_shock": {
+  "mean": 0.1375,
+  "5.0%": 0.0,
+  "95.0%": 0.2827,
+  "n_eff": 4029.247,
+  "r_hat": 1.0
+ },
+ "can:tau_D": {
+  "mean": 0.7001,
+  "5.0%": 0.019,
+  "95.0%": 1.2269,
+  "n_eff": 930.1067,
+  "r_hat": 1.0021
+ },
+ "worst_rhat": 1.0055,
+ "worst_rhat_site": "can:sigma_process",
+ "min_neff": 460.6,
+ "divergences": 0,
+ "intervals95": {
+  "can:E10_direct": {
+   "median": [
+    -0.1312
+   ],
+   "q025": [
+    -0.8252
+   ],
+   "q975": [
+    0.5617
+   ],
+   "prob_negative": [
+    0.6447
+   ]
+  },
+  "can:E10_total": {
+   "median": [
+    -0.1312
+   ],
+   "q025": [
+    -0.8252
+   ],
+   "q975": [
+    0.5617
+   ],
+   "prob_negative": [
+    0.6447
+   ]
+  }
+ },
+ "edges": [],
+ "per_chain": {
+  "can:E10_direct": [
+   [
+    -0.155
+   ],
+   [
+    -0.106
+   ],
+   [
+    -0.129
+   ],
+   [
+    -0.122
+   ]
+  ],
+  "can:E10_total": [
+   [
+    -0.155
+   ],
+   [
+    -0.106
+   ],
+   [
+    -0.129
+   ],
+   [
+    -0.122
+   ]
+  ],
+  "can:rho": [
+   [
+    0.6
+   ],
+   [
+    0.604
+   ],
+   [
+    0.605
+   ],
+   [
+    0.606
+   ]
+  ],
+  "can:sigma_process": [
+   [
+    0.915
+   ],
+   [
+    0.909
+   ],
+   [
+    0.905
+   ],
+   [
+    0.907
+   ]
+  ],
+  "potential_energy": [
+   8433.7,
+   8427.2,
+   8421.9,
+   8423.1
+  ],
+  "step_size": [
+   0.00717,
+   0.01121,
+   0.01027,
+   0.00989
+  ],
+  "mean_leapfrog_steps": [
+   511.0,
+   494.0,
+   511.0,
+   511.0
+  ],
+  "divergences": [
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "placebo": true,
+ "mpas": {
+  "can": [
+   "Abalone Cove SMCA",
+   "Cabrillo SMR",
+   "Campus Point SMCA",
+   "Carrington Pt SMR",
+   "Farnsworth Onshore SMCA",
+   "Gull Island SMR",
+   "Harris Point SMR",
+   "Judith Rk SMR",
+   "Naples SMCA",
+   "Point Conception SMR",
+   "Point Dume SMCA",
+   "Point Dume SMR",
+   "Point Vicente SMCA",
+   "Santa Barbara Island SMR",
+   "Skunk Pt SMR",
+   "South La Jolla SMR",
+   "South Point SMR",
+   "Swamis SMCA"
+  ]
+ },
+ "mode": "fit",
+ "canopy": {
+  "can": {
+   "season": "spring",
+   "after": "designation",
+   "depth_band": "all",
+   "quarters": [
+    1,
+    2
+   ],
+   "zero_fraction": 0.1733372572101236
+  }
+ },
+ "evidence": "all",
+ "permute_seed": 26,
+ "placebo_year": null,
+ "space_placebo_seed": null,
+ "relabelled": {
+  "can": [
+   "Abalone Cove SMCA|Ref_2",
+   "Cabrillo SMR|MPA",
+   "Campus Point SMCA|Ref_1",
+   "Carrington Pt SMR|MPA",
+   "Farnsworth Onshore SMCA|Ref_1",
+   "Gull Island SMR|MPA",
+   "Harris Point SMR|Ref_1",
+   "Judith Rk SMR|Ref_2",
+   "Naples SMCA|Ref_2",
+   "Point Conception SMR|Ref_2",
+   "Point Dume SMCA|MPA",
+   "Point Dume SMR|Ref_1",
+   "Point Vicente SMCA|Ref_2",
+   "Santa Barbara Island SMR|Ref_1",
+   "Skunk Pt SMR|Ref_1",
+   "South La Jolla SMR|MPA",
+   "South Point SMR|Ref_2",
+   "Swamis SMCA|Ref_1"
+  ]
+ },
+ "mass_holdout_seed": null,
+ "omit_station": [],
+ "size25": false,
+ "stations_removed": {
+  "can": 0
+ },
+ "units_size25_adjusted": {
+  "can": 0
+ },
+ "chain_processes": true,
+ "taxa": {
+  "can": "Kelp canopy (Landsat)"
+ },
+ "regions": "three",
+ "omit_mpa": [],
+ "links": {},
+ "n_units": {
+  "can": 3398
+ },
+ "stations": {
+  "can": 48
+ },
+ "curve": "rw",
+ "lag": 1,
+ "beta_scale": 0.5,
+ "paths": true,
+ "split": false,
+ "warmup": 1500,
+ "samples": 3000,
+ "chains": 4,
+ "seed": 1,
+ "depth": 10,
+ "accept": 0.99,
+ "step0": 0.01,
+ "thin": 2,
+ "drift": "regional",
+ "inc_scale": 2.0,
+ "cluster_drift": false,
+ "station_trend": false,
+ "pretrend": false,
+ "seconds": 534
+}

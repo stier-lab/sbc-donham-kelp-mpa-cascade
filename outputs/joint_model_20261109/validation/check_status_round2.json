@@ -2,10 +2,16 @@
  "status": {
   "R1a bias": "FAIL",
   "R1b calibration": "FAIL",
-  "R2 evidence split": "INCOMPLETE",
+  "R2 evidence split": "REPORTED",
   "R3a sheephead time placebo with pre-trend": "PASS",
-  "R3b flat vs pre-trend": "INCOMPLETE",
-  "R3 simulation (pre-trend option recovers the effect)": "INCOMPLETE"
+  "R3b flat vs pre-trend": "REPORTED",
+  "R3 simulation (pre-trend option recovers the effect)": "PASS",
+  "A1 Gamma: predictive check (M7)": "FAIL",
+  "A1 Gamma: hold-out (M8)": "FAIL",
+  "A1 lognormal: predictive check (M7)": "FAIL",
+  "A1 lognormal: hold-out (M8)": "INCOMPLETE",
+  "A1 lognormal: calibration on Gamma-generated data": "INCOMPLETE",
+  "A2 sheephead shuffles with local trend (R1a, R1b)": "INCOMPLETE"
  },
  "R1": {
   "lob_rw": {
@@ -51,25 +57,103 @@
    "complete": true
   },
   "shp_pw": {
-   "n": 6,
-   "fitted": 6,
-   "mean": 0.031516666666666665,
-   "sd": 0.057021764850508326,
-   "se": 0.02327903801945242,
+   "n": 40,
+   "fitted": 40,
+   "mean": 0.090235,
+   "sd": 0.10675087113077572,
+   "se": 0.01687879474901828,
    "cover_zero": 1.0,
    "real": 0.1494,
+   "as_extreme": 8,
+   "p": 0.21951219512195122,
+   "R1a": "FAIL",
+   "R1b": "FAIL",
+   "complete": true
+  },
+  "pur_rw": {
+   "n": 40,
+   "fitted": 40,
+   "mean": 0.25143750000000004,
+   "sd": 0.21821447070338615,
+   "se": 0.034502737291539264,
+   "cover_zero": 1.0,
+   "real": -0.9147,
    "as_extreme": 0,
-   "p": 0.14285714285714285,
+   "p": 0.024390243902439025,
+   "R1a": "FAIL",
+   "R1b": "FAIL",
+   "complete": true
+  },
+  "pur_pw": {
+   "n": 40,
+   "fitted": 40,
+   "mean": 0.10900250000000003,
+   "sd": 0.12118083644617607,
+   "se": 0.019160372596713035,
+   "cover_zero": 1.0,
+   "real": -0.2847,
+   "as_extreme": 2,
+   "p": 0.07317073170731707,
+   "R1a": "FAIL",
+   "R1b": "FAIL",
+   "complete": true
+  },
+  "red_rw": {
+   "n": 40,
+   "fitted": 40,
+   "mean": 0.044485,
+   "sd": 0.1579746840315618,
+   "se": 0.024977990709258314,
+   "cover_zero": 1.0,
+   "real": -0.6297,
+   "as_extreme": 0,
+   "p": 0.024390243902439025,
+   "R1a": "PASS",
+   "R1b": "FAIL",
+   "complete": true
+  },
+  "red_pw": {
+   "n": 40,
+   "fitted": 40,
+   "mean": 0.032850000000000004,
+   "sd": 0.08312739990751915,
+   "se": 0.01314359598377154,
+   "cover_zero": 1.0,
+   "real": -0.271,
+   "as_extreme": 0,
+   "p": 0.024390243902439025,
+   "R1a": "FAIL",
+   "R1b": "FAIL",
+   "complete": true
+  },
+  "kelp_rw": {
+   "n": 40,
+   "fitted": 40,
+   "mean": -0.27120749999999993,
+   "sd": 0.2989943918413255,
+   "se": 0.04727516429177271,
+   "cover_zero": 1.0,
+   "real": 0.9554,
+   "as_extreme": 0,
+   "p": 0.024390243902439025,
+   "R1a": "FAIL",
+   "R1b": "FAIL",
+   "complete": true
+  },
+  "kelp_pw": {
+   "n": 12,
+   "fitted": 12,
+   "mean": -0.024900000000000002,
+   "sd": 0.19840267135298353,
+   "se": 0.05727391785679295,
+   "cover_zero": 1.0,
+   "real": 0.6009,
+   "as_extreme": 0,
+   "p": 0.07692307692307693,
    "R1a": "PASS",
    "R1b": "FAIL",
    "complete": false
-  },
-  "pur_rw": "INCOMPLETE",
-  "pur_pw": "INCOMPLETE",
-  "red_rw": "INCOMPLETE",
-  "red_pw": "INCOMPLETE",
-  "kelp_rw": "INCOMPLETE",
-  "kelp_pw": "INCOMPLETE"
+  }
  },
  "R3_placebo": {
   "shp_1990": {
@@ -255,17 +339,128 @@
    "coverage": 0.9
   },
   "pur": {
-   "n": 12,
-   "fitted": 12,
-   "bias": 0.5738416666666667,
-   "coverage": 0.75
+   "n": 20,
+   "fitted": 20,
+   "bias": 0.6465250000000001,
+   "coverage": 0.7
   },
   "pur_pre": {
-   "n": 11,
-   "fitted": 11,
-   "bias": 0.25511818181818186,
-   "coverage": 1.0
+   "n": 20,
+   "fitted": 20,
+   "bias": 0.38777500000000004,
+   "coverage": 0.9
   }
  },
- "baseline_dependent": []
+ "baseline_dependent": [],
+ "A1": {
+  "lob_Gamma": {
+   "M7": false,
+   "M8": true,
+   "outside": 5,
+   "stats": 8,
+   "holdout": [
+    0.924,
+    0.949
+   ]
+  },
+  "lob_lognormal": {
+   "M7": false,
+   "M8": null,
+   "outside": 6,
+   "stats": 8,
+   "holdout": []
+  },
+  "shp_Gamma": {
+   "M7": false,
+   "M8": true,
+   "outside": 5,
+   "stats": 11,
+   "holdout": [
+    0.916,
+    0.911
+   ]
+  },
+  "shp_lognormal": {
+   "M7": false,
+   "M8": null,
+   "outside": 3,
+   "stats": 11,
+   "holdout": []
+  },
+  "pur_Gamma": {
+   "M7": false,
+   "M8": false,
+   "outside": 5,
+   "stats": 11,
+   "holdout": [
+    0.905,
+    0.959
+   ]
+  },
+  "pur_lognormal": {
+   "M7": false,
+   "M8": null,
+   "outside": 5,
+   "stats": 11,
+   "holdout": []
+  },
+  "red_Gamma": {
+   "M7": false,
+   "M8": true,
+   "outside": 6,
+   "stats": 11,
+   "holdout": [
+    0.905,
+    0.895
+   ]
+  },
+  "red_lognormal": {
+   "M7": false,
+   "M8": null,
+   "outside": 5,
+   "stats": 11,
+   "holdout": []
+  },
+  "kelp_Gamma": {
+   "M7": false,
+   "M8": true,
+   "outside": 3,
+   "stats": 8,
+   "holdout": [
+    0.909,
+    0.907
+   ]
+  },
+  "kelp_lognormal": {
+   "M7": null,
+   "M8": null,
+   "outside": null,
+   "stats": null,
+   "holdout": []
+  }
+ },
+ "A2": {
+  "without local trend": {
+   "n": 40,
+   "fitted": 40,
+   "mean": 0.1385475,
+   "se": 0.022473344891425804,
+   "cover_zero": 0.825,
+   "R1a": false,
+   "R1b": true,
+   "real": null,
+   "as_extreme": null
+  },
+  "with local trend": {
+   "n": 26,
+   "fitted": 26,
+   "mean": 0.03954615384615385,
+   "se": 0.03199512137367159,
+   "cover_zero": 0.8846153846153846,
+   "R1a": true,
+   "R1b": true,
+   "real": null,
+   "as_extreme": null
+  }
+ }
 }

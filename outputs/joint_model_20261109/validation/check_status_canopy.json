@@ -1,0 +1,71 @@
+{
+ "status": {
+  "C1 independent arithmetic": "PASS",
+  "C2 convergence of the main fits": "PASS",
+  "C6 seeds agree": "PASS",
+  "C3 calibration": "INCOMPLETE",
+  "C4 shuffled labels: bias (R1a)": "INCOMPLETE",
+  "C4 shuffled labels: interval calibration (R1b)": "INCOMPLETE",
+  "C5 time placebo": "PASS",
+  "C7 leave one MPA out": "INCOMPLETE"
+ },
+ "C3": {
+  "std": {
+   "n": 20,
+   "fitted": 20,
+   "covered": 16,
+   "bias": -0.09795000000000002,
+   "passed": true,
+   "complete": true
+  },
+  "null": {
+   "n": 9,
+   "fitted": 9,
+   "covered": 8,
+   "bias": 0.046066666666666665,
+   "passed": true,
+   "complete": false
+  }
+ },
+ "C4": {
+  "rw": {
+   "n": 26,
+   "fitted": 26,
+   "mean": -0.05265769230769231,
+   "se": 0.04190614170998985,
+   "cover_zero": 1.0,
+   "R1a": true,
+   "R1b": false,
+   "as_extreme": 0
+  },
+  "pw": null
+ },
+ "C5": {
+  "rw": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "pw": [
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ "loo_shifts": [
+  -0.019500000000000017,
+  0.07119999999999999,
+  0.021600000000000008,
+  -0.015600000000000003,
+  0.0030999999999999917,
+  -0.0031999999999999806,
+  0.0368,
+  -0.009099999999999997,
+  -0.010199999999999987,
+  0.10210000000000002,
+  0.03309999999999996,
+  0.01940000000000003
+ ]
+}

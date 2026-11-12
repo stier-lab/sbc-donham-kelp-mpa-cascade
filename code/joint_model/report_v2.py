@@ -176,9 +176,84 @@ status["R3 simulation (pre-trend option recovers the effect)"] = ("INCOMPLETE" i
                                                                  "PASS" if all(0.80 <= v["coverage"] <= 0.99 for v in pre) else "FAIL")
 L += ["", f"Rule: coverage with the pre-trend option between 80% and 99%. **{status['R3 simulation (pre-trend option recovers the effect)']}.**", ""]
 
+# ---------------------------------------------------------------- A1 lognormal size distribution
+L += ["## A1. Size distribution of the mass part: Gamma against lognormal", "",
+      "Rules as written for the Gamma family (M7: no contrast statistic outside its 90% replicate interval and at most 10% of all "
+      "statistics outside; M8: 85-95% of held-out group means inside the 90% predictive interval; M3: coverage on simulated data at least 0.84).", "",
+      "| Taxon | Family | Density | Mean mass | Biomass | Predictive statistics outside | Contrast statistics outside | Hold-out coverage (2 splits) | Converged |",
+      "|---|---|---|---|---|---|---|---|---|"]
+
+
+def ppc_out(r, g):
+    p = (r or {}).get("mass_ppc", {}).get(g)
+    if not p: return None
+    st_ = {k: v for k, v in p.items() if isinstance(v, dict) and "observed" in v}
+    out = [k for k, v in st_.items() if not (v["rep_q05"] <= v["observed"] <= v["rep_q95"])]
+    return len(out), len(st_), [k for k in out if k.startswith("contrast")]
+
+
+def hold(files, g):
+    c = []
+    for f_ in files:
+        h = (load(f_) or {}).get("mass_holdout", {})
+        h = h.get(g, h) if isinstance(h, dict) else {}
+        v = h.get("cover90", h.get("coverage90")) if isinstance(h, dict) else None
+        if v is not None: c.append(v)
+    return c
+
+
+a1 = {}
+for g, name in TAXA.items():
+    for fam, r, hf in (("Gamma", load(V / "v_chk" / f"v_ppc_{g}.json"), [V / "v_chk" / f"v_hold_{g}_s{k}.json" for k in (1, 2)]),
+                       ("lognormal", load(V / "v3_logn" / f"l3_{g}_rw_ppc.json"), [V / "v3_logn" / f"l3_{g}_hold_s{k}.json" for k in (1, 2)])):
+        po = ppc_out(r, g); hc = hold(hf, g)
+        m7 = None if po is None else (not po[2] and po[0] <= 0.10 * po[1]); m8 = None if len(hc) < 2 else all(0.85 <= x <= 0.95 for x in hc)
+        a1[f"{g}_{fam}"] = dict(M7=m7, M8=m8, outside=po[0] if po else None, stats=po[1] if po else None, holdout=hc)
+        L.append(f"| {name} | {fam} | {f(e(r, g))} | {f(e(r, g, 'E10_mass'))} | {f(e(r, g, 'E10_biomass'))} | "
+                 f"{'not finished' if po is None else f'{po[0]} of {po[1]}' + ('' if m7 else ' ✗')} | {'' if po is None else (', '.join(po[2]) or 'none')} | "
+                 f"{'not finished' if len(hc) < 2 else ', '.join(f'{x:.0%}' for x in hc) + ('' if m8 else ' ✗')} | {conv(r)} |")
+ls = {}
+for g in TAXA:
+    fits = [r for r in (load(p_) for p_ in sorted((V / "v3_lsim").glob(f"l3_sim_std_{g}_s*.json"))) if r and ok(r)]
+    for k in ("E10_mass", "E10_biomass"):
+        if fits:
+            ls[f"{g}_{k}"] = [bool(e(r, g, k)[1] <= r["truth"][g][k] <= e(r, g, k)[2]) for r in fits]
+tot = sum(len(v) for v in ls.values()); cov = sum(sum(v) for v in ls.values()) / tot if tot else None
+L += ["", f"Simulated data generated from the Gamma model and fitted with the lognormal one: {tot} intervals (mass and biomass) from "
+      f"{sum(len(v) for k, v in ls.items() if k.endswith('E10_mass'))} data sets, coverage {'not finished' if cov is None else f'{cov:.0%}'} (rule: at least 84%; 50 data sets planned).", ""]
+for fam in ("Gamma", "lognormal"):
+    v7 = [a1[f"{g}_{fam}"]["M7"] for g in TAXA]; v8 = [a1[f"{g}_{fam}"]["M8"] for g in TAXA]
+    status[f"A1 {fam}: predictive check (M7)"] = "INCOMPLETE" if None in v7 and all(x in (None, True) for x in v7) else "PASS" if all(v7) else "FAIL"
+    status[f"A1 {fam}: hold-out (M8)"] = "INCOMPLETE" if None in v8 and all(x in (None, True) for x in v8) else "PASS" if all(v8) else "FAIL"
+status["A1 lognormal: calibration on Gamma-generated data"] = "INCOMPLETE" if tot < 100 else "PASS" if cov >= 0.84 else "FAIL"
+
+# ---------------------------------------------------------------- A2 sheephead local trend
+L += ["## A2. Sheephead shuffles with a local trend per MPA cluster", "",
+      "The same shuffles as R1 with `--cluster-drift` (a random walk shared by an MPA's protected and reference stations). "
+      "Diagnostic; the option is not adopted.", "",
+      "| Model | Shuffles (usable) | Mean of shuffled effects | SD | Mean ÷ SE | 90% intervals covering zero | Real effect (same sampler settings) | Shuffles at least as extreme | Randomization p |",
+      "|---|---|---|---|---|---|---|---|---|"]
+a2 = {}
+for lab, pat, real_f in (("without local trend", "v2_perm/p2_shp_rw_k*.json", "v3_clus/c3_shp_rw_real_base.json"),
+                         ("with local trend", "v3_clus/c3_shp_rw_k*.json", "v3_clus/c3_shp_rw_real_cluster.json")):
+    fits = [r for r in (load(p_) for p_ in sorted(V.glob(pat))) if r]; use = [r for r in fits if ok(r)]
+    real = e(load(V / real_f), "shp")
+    if not use:
+        L.append(f"| {lab} | not finished | | | | | {f(real)} | | |"); continue
+    m = np.array([e(r, "shp")[0] for r in use]); lo = np.array([e(r, "shp")[1] for r in use]); hi = np.array([e(r, "shp")[2] for r in use])
+    n = len(m); se = m.std(ddof=1) / np.sqrt(n); cv = float(((lo <= 0) & (hi >= 0)).mean())
+    ext = int((np.abs(m) >= abs(real[0])).sum()) if real else None
+    a2[lab] = dict(n=n, fitted=len(fits), mean=float(m.mean()), se=float(se), cover_zero=cv, R1a=bool(abs(m.mean()) <= 2 * se), R1b=bool(0.80 <= cv <= 0.97),
+                   real=real[0] if real else None, as_extreme=ext)
+    L.append(f"| {lab} | {len(fits)}{'' if len(fits) >= 40 else ' of 40'} ({n}) | {m.mean():+.2f}{'' if a2[lab]['R1a'] else ' ✗'} | {m.std(ddof=1):.2f} | {m.mean() / se:+.1f} | "
+             f"{cv:.0%}{'' if a2[lab]['R1b'] else ' ✗'} | {f(real)} | {'—' if ext is None else f'{ext} of {n}'} | {'—' if ext is None else f'{(1 + ext) / (n + 1):.3f}'} |")
+w = a2.get("with local trend")
+status["A2 sheephead shuffles with local trend (R1a, R1b)"] = "INCOMPLETE" if (not w or w["fitted"] < 40) else "PASS" if (w["R1a"] and w["R1b"]) else "FAIL"
+L += [""]
+
 head = ["## Scorecard", "", "| Check | Result |", "|---|---|"] + [f"| {k} | {v} |" for k, v in status.items()] + [""]
 L[4:4] = head
 (O / "REPORT_validation_round2.md").write_text("\n".join(L) + "\n")
-(V / "check_status_round2.json").write_text(json.dumps(dict(status=status, R1=r1, R3_placebo=r3, simulation=sim, baseline_dependent=dep), indent=1, default=str))
+(V / "check_status_round2.json").write_text(json.dumps(dict(status=status, R1=r1, R3_placebo=r3, simulation=sim, baseline_dependent=dep, A1=a1, A2=a2), indent=1, default=str))
 for k, v in status.items():
     print(f"{v:<11}{k}")

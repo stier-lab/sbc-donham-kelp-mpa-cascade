@@ -1,0 +1,435 @@
+{
+ "red:E10_direct": {
+  "mean": 0.2337,
+  "5.0%": -0.2556,
+  "95.0%": 0.7664,
+  "n_eff": 438.7022,
+  "r_hat": 1.004
+ },
+ "red:E10_total": {
+  "mean": 0.2337,
+  "5.0%": -0.2556,
+  "95.0%": 0.7664,
+  "n_eff": 438.7022,
+  "r_hat": 1.004
+ },
+ "red:g_knots": {
+  "mean": [
+   0.1138,
+   0.2067,
+   0.2606,
+   0.2546,
+   0.2702
+  ],
+  "5.0%": [
+   -0.1602,
+   -0.2571,
+   -0.3368,
+   -0.4871,
+   -0.7213
+  ],
+  "95.0%": [
+   0.3684,
+   0.626,
+   0.8527,
+   1.0298,
+   1.1977
+  ],
+  "n_eff": [
+   414.6681,
+   409.3861,
+   484.3028,
+   642.7731,
+   833.8762
+  ],
+  "r_hat": [
+   1.0053,
+   1.0051,
+   1.0032,
+   1.0017,
+   1.0011
+  ]
+ },
+ "red:inv_sqrt_phi": {
+  "mean": [
+   1.0037,
+   2.2318,
+   1.1232
+  ],
+  "5.0%": [
+   0.9819,
+   2.1256,
+   1.1026
+  ],
+  "95.0%": [
+   1.0237,
+   2.3346,
+   1.1458
+  ],
+  "n_eff": [
+   4865.1708,
+   4788.7063,
+   3744.8481
+  ],
+  "r_hat": [
+   0.9997,
+   1.0005,
+   1.0003
+  ]
+ },
+ "red:mu_lambda": {
+  "mean": 0.3815,
+  "5.0%": -0.3412,
+  "95.0%": 1.0893,
+  "n_eff": 1651.6896,
+  "r_hat": 1.0005
+ },
+ "red:rho": {
+  "mean": 0.9054,
+  "5.0%": 0.8797,
+  "95.0%": 0.9335,
+  "n_eff": 1430.1542,
+  "r_hat": 1.0008
+ },
+ "red:sigma_b": {
+  "mean": [
+   0.7257,
+   1.9853,
+   0.2728
+  ],
+  "5.0%": [
+   0.233,
+   0.8911,
+   0.0008
+  ],
+  "95.0%": [
+   1.2235,
+   3.0754,
+   0.5189
+  ],
+  "n_eff": [
+   3372.8931,
+   832.9258,
+   3680.3987
+  ],
+  "r_hat": [
+   1.0009,
+   1.0024,
+   1.0012
+  ]
+ },
+ "red:sigma_curve": {
+  "mean": 0.1512,
+  "5.0%": 0.0001,
+  "95.0%": 0.3109,
+  "n_eff": 2801.6417,
+  "r_hat": 1.001
+ },
+ "red:sigma_drift": {
+  "mean": 0.1549,
+  "5.0%": 0.0226,
+  "95.0%": 0.2576,
+  "n_eff": 966.4435,
+  "r_hat": 1.0048
+ },
+ "red:sigma_drift_region": {
+  "mean": 0.3211,
+  "5.0%": 0.2437,
+  "95.0%": 0.3961,
+  "n_eff": 598.2529,
+  "r_hat": 1.0122
+ },
+ "red:sigma_lambda": {
+  "mean": 0.7838,
+  "5.0%": 0.1316,
+  "95.0%": 1.4012,
+  "n_eff": 2660.5205,
+  "r_hat": 1.0017
+ },
+ "red:sigma_process": {
+  "mean": 0.4041,
+  "5.0%": 0.37,
+  "95.0%": 0.4371,
+  "n_eff": 787.9914,
+  "r_hat": 1.0048
+ },
+ "red:sigma_region_year": {
+  "mean": 0.0497,
+  "5.0%": 0.0,
+  "95.0%": 0.1009,
+  "n_eff": 2388.5355,
+  "r_hat": 1.0012
+ },
+ "red:sigma_shock": {
+  "mean": 0.0554,
+  "5.0%": 0.0,
+  "95.0%": 0.1125,
+  "n_eff": 4220.6894,
+  "r_hat": 1.0004
+ },
+ "red:sigma_visit": {
+  "mean": [
+   0.1184,
+   0.3655,
+   0.1052
+  ],
+  "5.0%": [
+   0.0002,
+   0.1181,
+   0.0001
+  ],
+  "95.0%": [
+   0.2071,
+   0.5743,
+   0.1965
+  ],
+  "n_eff": [
+   553.8221,
+   1223.6631,
+   675.5189
+  ],
+  "r_hat": [
+   1.0065,
+   1.0019,
+   1.0044
+  ]
+ },
+ "red:tau_D": {
+  "mean": 0.6843,
+  "5.0%": 0.3058,
+  "95.0%": 1.0512,
+  "n_eff": 574.5914,
+  "r_hat": 1.0149
+ },
+ "worst_rhat": 1.0149,
+ "worst_rhat_site": "red:tau_D",
+ "min_neff": 409.4,
+ "divergences": 0,
+ "intervals95": {
+  "red:E10_direct": {
+   "median": [
+    0.2283
+   ],
+   "q025": [
+    -0.3683
+   ],
+   "q975": [
+    0.852
+   ],
+   "prob_negative": [
+    0.2183
+   ]
+  },
+  "red:E10_total": {
+   "median": [
+    0.2283
+   ],
+   "q025": [
+    -0.3683
+   ],
+   "q975": [
+    0.852
+   ],
+   "prob_negative": [
+    0.2183
+   ]
+  }
+ },
+ "edges": [],
+ "per_chain": {
+  "red:E10_direct": [
+   [
+    0.197
+   ],
+   [
+    0.231
+   ],
+   [
+    0.254
+   ],
+   [
+    0.253
+   ]
+  ],
+  "red:E10_total": [
+   [
+    0.197
+   ],
+   [
+    0.231
+   ],
+   [
+    0.254
+   ],
+   [
+    0.253
+   ]
+  ],
+  "red:inv_sqrt_phi": [
+   [
+    1.004,
+    2.228,
+    1.123
+   ],
+   [
+    1.004,
+    2.231,
+    1.123
+   ],
+   [
+    1.004,
+    2.233,
+    1.123
+   ],
+   [
+    1.004,
+    2.234,
+    1.123
+   ]
+  ],
+  "red:rho": [
+   [
+    0.906
+   ],
+   [
+    0.905
+   ],
+   [
+    0.905
+   ],
+   [
+    0.906
+   ]
+  ],
+  "red:sigma_process": [
+   [
+    0.403
+   ],
+   [
+    0.406
+   ],
+   [
+    0.405
+   ],
+   [
+    0.403
+   ]
+  ],
+  "potential_energy": [
+   -2520371.6,
+   -2520354.0,
+   -2520359.1,
+   -2520371.1
+  ],
+  "step_size": [
+   0.00748,
+   0.00676,
+   0.00761,
+   0.00784
+  ],
+  "mean_leapfrog_steps": [
+   511.0,
+   511.0,
+   511.0,
+   511.0
+  ],
+  "divergences": [
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "placebo": true,
+ "mpas": {
+  "red": [
+   "Abalone Cove SMCA",
+   "Anacapa Island SMR 2003",
+   "Campus Point SMCA",
+   "Gull Island SMR",
+   "Harris Point SMR",
+   "Matlahuayl SMR",
+   "Naples SMCA",
+   "Point Dume SMCA",
+   "Point Dume SMR",
+   "Point Vicente SMCA",
+   "Santa Barbara Island SMR",
+   "Scorpion SMR",
+   "South Point SMR"
+  ]
+ },
+ "mode": "fit",
+ "canopy": {},
+ "evidence": "all",
+ "permute_seed": 32,
+ "placebo_year": null,
+ "space_placebo_seed": null,
+ "relabelled": {
+  "red": [
+   "KFM|a-k-04",
+   "KFM|a-k-08",
+   "KFM|a-k-16",
+   "KFM|a-k-22",
+   "KFM|a-k-32",
+   "LTER|MOHK",
+   "PISCO|ANACAPA_EAST_FISH_CAMP_E",
+   "PISCO|ANACAPA_EAST_FISH_CAMP_W",
+   "PISCO|ANACAPA_LIGHTHOUSE_REEF_W",
+   "PISCO|ARROYO_QUEMADO_W",
+   "PISCO|BIG_ROCK",
+   "PISCO|CARP_REEF",
+   "PISCO|CHILDRENS_POOL",
+   "PISCO|RIDGES_N",
+   "PISCO|SCI_COCHE_POINT_W",
+   "PISCO|SCI_PELICAN_E",
+   "PISCO|SCI_SAN_PEDRO_POINT_W",
+   "PISCO|SCI_SCORPION_E",
+   "PISCO|SMI_CUYLER_E",
+   "PISCO|SRI_BEE_ROCK_W",
+   "PISCO|SRI_JOHNSONS_LEE_NORTH_E",
+   "PISCO|SRI_JOHNSONS_LEE_SOUTH_W",
+   "PISCO|WHITES_POINT"
+  ]
+ },
+ "mass_holdout_seed": null,
+ "omit_station": [],
+ "size25": false,
+ "stations_removed": {
+  "red": 0
+ },
+ "units_size25_adjusted": {
+  "red": 0
+ },
+ "chain_processes": true,
+ "taxa": {
+  "red": "M. franciscanus"
+ },
+ "regions": "three",
+ "omit_mpa": [],
+ "links": {},
+ "n_units": {
+  "red": 14429
+ },
+ "stations": {
+  "red": 107
+ },
+ "curve": "rw",
+ "lag": 1,
+ "beta_scale": 0.5,
+ "paths": true,
+ "split": false,
+ "warmup": 1500,
+ "samples": 3000,
+ "chains": 4,
+ "seed": 1,
+ "depth": 10,
+ "accept": 0.99,
+ "step0": 0.01,
+ "thin": 2,
+ "drift": "regional",
+ "inc_scale": 2.0,
+ "cluster_drift": false,
+ "station_trend": false,
+ "pretrend": false,
+ "seconds": 984
+}

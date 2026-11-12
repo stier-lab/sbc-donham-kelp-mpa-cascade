@@ -1,0 +1,430 @@
+{
+ "red:E10_direct": {
+  "mean": 0.0294,
+  "5.0%": -0.5801,
+  "95.0%": 0.6117,
+  "n_eff": 746.7938,
+  "r_hat": 1.0021
+ },
+ "red:E10_total": {
+  "mean": 0.0294,
+  "5.0%": -0.5801,
+  "95.0%": 0.6117,
+  "n_eff": 746.7938,
+  "r_hat": 1.0021
+ },
+ "red:g_knots": {
+  "mean": [
+   0.0972,
+   0.0813,
+   -0.0225,
+   -0.1161,
+   -0.2136
+  ],
+  "5.0%": [
+   -0.2095,
+   -0.422,
+   -0.7194,
+   -1.0212,
+   -1.3564
+  ],
+  "95.0%": [
+   0.4515,
+   0.6113,
+   0.6591,
+   0.7559,
+   0.9027
+  ],
+  "n_eff": [
+   529.4341,
+   620.2927,
+   907.9763,
+   1260.8468,
+   1643.3617
+  ],
+  "r_hat": [
+   1.0038,
+   1.0027,
+   1.0016,
+   1.0013,
+   1.001
+  ]
+ },
+ "red:inv_sqrt_phi": {
+  "mean": [
+   1.0038,
+   2.2303,
+   1.123
+  ],
+  "5.0%": [
+   0.9822,
+   2.121,
+   1.1028
+  ],
+  "95.0%": [
+   1.024,
+   2.3306,
+   1.1465
+  ],
+  "n_eff": [
+   4727.2463,
+   4629.1829,
+   3840.0799
+  ],
+  "r_hat": [
+   0.9996,
+   1.0002,
+   1.0009
+  ]
+ },
+ "red:mu_lambda": {
+  "mean": 0.3263,
+  "5.0%": -0.3486,
+  "95.0%": 0.9931,
+  "n_eff": 1950.7636,
+  "r_hat": 1.0016
+ },
+ "red:rho": {
+  "mean": 0.906,
+  "5.0%": 0.8764,
+  "95.0%": 0.9328,
+  "n_eff": 1559.2222,
+  "r_hat": 1.0022
+ },
+ "red:sigma_b": {
+  "mean": [
+   0.6032,
+   1.8698,
+   0.3212
+  ],
+  "5.0%": [
+   0.0647,
+   0.7502,
+   0.0003
+  ],
+  "95.0%": [
+   1.0383,
+   2.871,
+   0.5801
+  ],
+  "n_eff": [
+   3873.0078,
+   1424.6029,
+   3616.6114
+  ],
+  "r_hat": [
+   1.0001,
+   1.0006,
+   1.0001
+  ]
+ },
+ "red:sigma_curve": {
+  "mean": 0.1837,
+  "5.0%": 0.0001,
+  "95.0%": 0.3666,
+  "n_eff": 1368.732,
+  "r_hat": 1.0014
+ },
+ "red:sigma_drift": {
+  "mean": 0.1494,
+  "5.0%": 0.0147,
+  "95.0%": 0.2544,
+  "n_eff": 1074.731,
+  "r_hat": 1.006
+ },
+ "red:sigma_drift_region": {
+  "mean": 0.3285,
+  "5.0%": 0.2462,
+  "95.0%": 0.4009,
+  "n_eff": 437.8124,
+  "r_hat": 1.0142
+ },
+ "red:sigma_lambda": {
+  "mean": 0.6296,
+  "5.0%": 0.0009,
+  "95.0%": 1.1648,
+  "n_eff": 1693.1928,
+  "r_hat": 1.0026
+ },
+ "red:sigma_process": {
+  "mean": 0.4007,
+  "5.0%": 0.3646,
+  "95.0%": 0.4318,
+  "n_eff": 859.8954,
+  "r_hat": 1.0077
+ },
+ "red:sigma_region_year": {
+  "mean": 0.0491,
+  "5.0%": 0.0,
+  "95.0%": 0.1008,
+  "n_eff": 2386.1974,
+  "r_hat": 1.0021
+ },
+ "red:sigma_shock": {
+  "mean": 0.0523,
+  "5.0%": 0.0,
+  "95.0%": 0.1087,
+  "n_eff": 4178.9323,
+  "r_hat": 1.0007
+ },
+ "red:sigma_visit": {
+  "mean": [
+   0.1211,
+   0.3733,
+   0.1026
+  ],
+  "5.0%": [
+   0.0011,
+   0.151,
+   0.0003
+  ],
+  "95.0%": [
+   0.2113,
+   0.6012,
+   0.1923
+  ],
+  "n_eff": [
+   636.9361,
+   1310.4396,
+   731.5684
+  ],
+  "r_hat": [
+   1.0088,
+   1.0003,
+   1.0067
+  ]
+ },
+ "red:tau_D": {
+  "mean": 0.8742,
+  "5.0%": 0.4167,
+  "95.0%": 1.3431,
+  "n_eff": 955.4841,
+  "r_hat": 1.0013
+ },
+ "worst_rhat": 1.0142,
+ "worst_rhat_site": "red:sigma_drift_region",
+ "min_neff": 437.8,
+ "divergences": 0,
+ "intervals95": {
+  "red:E10_direct": {
+   "median": [
+    0.0397
+   ],
+   "q025": [
+    -0.737
+   ],
+   "q975": [
+    0.722
+   ],
+   "prob_negative": [
+    0.4572
+   ]
+  },
+  "red:E10_total": {
+   "median": [
+    0.0397
+   ],
+   "q025": [
+    -0.737
+   ],
+   "q975": [
+    0.722
+   ],
+   "prob_negative": [
+    0.4572
+   ]
+  }
+ },
+ "edges": [],
+ "per_chain": {
+  "red:E10_direct": [
+   [
+    0.031
+   ],
+   [
+    0.055
+   ],
+   [
+    0.01
+   ],
+   [
+    0.022
+   ]
+  ],
+  "red:E10_total": [
+   [
+    0.031
+   ],
+   [
+    0.055
+   ],
+   [
+    0.01
+   ],
+   [
+    0.022
+   ]
+  ],
+  "red:inv_sqrt_phi": [
+   [
+    1.004,
+    2.228,
+    1.123
+   ],
+   [
+    1.004,
+    2.23,
+    1.123
+   ],
+   [
+    1.004,
+    2.231,
+    1.122
+   ],
+   [
+    1.004,
+    2.233,
+    1.123
+   ]
+  ],
+  "red:rho": [
+   [
+    0.907
+   ],
+   [
+    0.905
+   ],
+   [
+    0.905
+   ],
+   [
+    0.907
+   ]
+  ],
+  "red:sigma_process": [
+   [
+    0.398
+   ],
+   [
+    0.403
+   ],
+   [
+    0.403
+   ],
+   [
+    0.399
+   ]
+  ],
+  "potential_energy": [
+   -2520390.8,
+   -2520366.8,
+   -2520368.1,
+   -2520386.3
+  ],
+  "step_size": [
+   0.00682,
+   0.00668,
+   0.0058,
+   0.00767
+  ],
+  "mean_leapfrog_steps": [
+   511.0,
+   511.0,
+   1023.0,
+   511.0
+  ],
+  "divergences": [
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "placebo": true,
+ "mpas": {
+  "red": [
+   "Abalone Cove SMCA",
+   "Anacapa Island SMR 2003",
+   "Campus Point SMCA",
+   "Gull Island SMR",
+   "Harris Point SMR",
+   "Matlahuayl SMR",
+   "Naples SMCA",
+   "Point Dume SMCA",
+   "Point Dume SMR",
+   "Point Vicente SMCA",
+   "Santa Barbara Island SMR",
+   "Scorpion SMR",
+   "South Point SMR"
+  ]
+ },
+ "mode": "fit",
+ "canopy": {},
+ "evidence": "all",
+ "permute_seed": 33,
+ "placebo_year": null,
+ "space_placebo_seed": null,
+ "relabelled": {
+  "red": [
+   "KFM|a-k-04",
+   "KFM|a-k-22",
+   "LTER|AQUE",
+   "PISCO|ANACAPA_EAST_FISH_CAMP_CEN",
+   "PISCO|ANACAPA_EAST_FISH_CAMP_W",
+   "PISCO|ARROYO_QUEMADO_E",
+   "PISCO|ARROYO_QUEMADO_W",
+   "PISCO|CHILDRENS_POOL",
+   "PISCO|COUNTY_LINE",
+   "PISCO|MALIBU_BLUFFS",
+   "PISCO|RIDGES_N",
+   "PISCO|ROCKY_POINT_N",
+   "PISCO|SCI_LITTLE_SCORPION_E",
+   "PISCO|SCI_PELICAN_E",
+   "PISCO|SCI_SAN_PEDRO_POINT_E",
+   "PISCO|SCI_SAN_PEDRO_POINT_W",
+   "PISCO|SRI_BEE_ROCK_W",
+   "PISCO|WHITES_POINT"
+  ]
+ },
+ "mass_holdout_seed": null,
+ "omit_station": [],
+ "size25": false,
+ "stations_removed": {
+  "red": 0
+ },
+ "units_size25_adjusted": {
+  "red": 0
+ },
+ "chain_processes": true,
+ "taxa": {
+  "red": "M. franciscanus"
+ },
+ "regions": "three",
+ "omit_mpa": [],
+ "links": {},
+ "n_units": {
+  "red": 14429
+ },
+ "stations": {
+  "red": 107
+ },
+ "curve": "rw",
+ "lag": 1,
+ "beta_scale": 0.5,
+ "paths": true,
+ "split": false,
+ "warmup": 1500,
+ "samples": 3000,
+ "chains": 4,
+ "seed": 1,
+ "depth": 10,
+ "accept": 0.99,
+ "step0": 0.01,
+ "thin": 2,
+ "drift": "regional",
+ "inc_scale": 2.0,
+ "cluster_drift": false,
+ "station_trend": false,
+ "pretrend": false,
+ "seconds": 1779
+}

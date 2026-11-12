@@ -1,0 +1,375 @@
+{
+ "can:E10_direct": {
+  "mean": 0.5114,
+  "5.0%": 0.0423,
+  "95.0%": 1.0192,
+  "n_eff": 1821.2266,
+  "r_hat": 1.0018
+ },
+ "can:E10_total": {
+  "mean": 0.5114,
+  "5.0%": 0.0423,
+  "95.0%": 1.0192,
+  "n_eff": 1821.2266,
+  "r_hat": 1.0018
+ },
+ "can:c_det0": {
+  "mean": 4.5139,
+  "5.0%": 4.171,
+  "95.0%": 4.8495,
+  "n_eff": 4804.9591,
+  "r_hat": 1.0004
+ },
+ "can:c_det_slope": {
+  "mean": 1.0206,
+  "5.0%": 0.8914,
+  "95.0%": 1.1326,
+  "n_eff": 4265.3306,
+  "r_hat": 1.0011
+ },
+ "can:c_quarter": {
+  "mean": [
+   -0.0099
+  ],
+  "5.0%": [
+   -0.0461
+  ],
+  "95.0%": [
+   0.0242
+  ],
+  "n_eff": [
+   5395.9977
+  ],
+  "r_hat": [
+   1.0002
+  ]
+ },
+ "can:c_sd": {
+  "mean": 1.011,
+  "5.0%": 0.9776,
+  "95.0%": 1.0473,
+  "n_eff": 3094.4319,
+  "r_hat": 1.0003
+ },
+ "can:g_knots": {
+  "mean": [
+   0.242,
+   0.4414,
+   0.5814,
+   0.6703,
+   0.7236
+  ],
+  "5.0%": [
+   -0.0287,
+   0.016,
+   0.0241,
+   -0.1488,
+   -0.3543
+  ],
+  "95.0%": [
+   0.5283,
+   0.8673,
+   1.2018,
+   1.4389,
+   1.9584
+  ],
+  "n_eff": [
+   1841.038,
+   1738.1319,
+   2002.7079,
+   2534.6178,
+   3031.3925
+  ],
+  "r_hat": [
+   1.0014,
+   1.0024,
+   1.0013,
+   1.0011,
+   1.0013
+  ]
+ },
+ "can:mu_lambda": {
+  "mean": 0.343,
+  "5.0%": -0.1111,
+  "95.0%": 0.8596,
+  "n_eff": 4323.6384,
+  "r_hat": 1.0004
+ },
+ "can:rho": {
+  "mean": 0.5099,
+  "5.0%": 0.4447,
+  "95.0%": 0.5726,
+  "n_eff": 1882.8875,
+  "r_hat": 1.0028
+ },
+ "can:sigma_b": {
+  "mean": [
+   0.9233
+  ],
+  "5.0%": [
+   0.7302
+  ],
+  "95.0%": [
+   1.0955
+  ],
+  "n_eff": [
+   4863.6672
+  ],
+  "r_hat": [
+   1.0001
+  ]
+ },
+ "can:sigma_curve": {
+  "mean": 0.1971,
+  "5.0%": 0.0,
+  "95.0%": 0.4086,
+  "n_eff": 4406.1331,
+  "r_hat": 0.9999
+ },
+ "can:sigma_drift": {
+  "mean": 0.11,
+  "5.0%": 0.0003,
+  "95.0%": 0.2209,
+  "n_eff": 1283.408,
+  "r_hat": 1.0054
+ },
+ "can:sigma_drift_region": {
+  "mean": 0.1635,
+  "5.0%": 0.0409,
+  "95.0%": 0.2819,
+  "n_eff": 1005.1115,
+  "r_hat": 1.0039
+ },
+ "can:sigma_lambda": {
+  "mean": 0.265,
+  "5.0%": 0.0,
+  "95.0%": 0.556,
+  "n_eff": 4748.3431,
+  "r_hat": 0.9998
+ },
+ "can:sigma_process": {
+  "mean": 0.8924,
+  "5.0%": 0.8324,
+  "95.0%": 0.9523,
+  "n_eff": 1668.0526,
+  "r_hat": 1.0039
+ },
+ "can:sigma_region_year": {
+  "mean": 0.7981,
+  "5.0%": 0.6681,
+  "95.0%": 0.9137,
+  "n_eff": 2205.1698,
+  "r_hat": 1.0026
+ },
+ "can:sigma_shock": {
+  "mean": 0.1763,
+  "5.0%": 0.0,
+  "95.0%": 0.3402,
+  "n_eff": 2748.7565,
+  "r_hat": 1.0005
+ },
+ "can:tau_D": {
+  "mean": 0.5726,
+  "5.0%": 0.0073,
+  "95.0%": 0.976,
+  "n_eff": 707.7686,
+  "r_hat": 1.0131
+ },
+ "worst_rhat": 1.0131,
+ "worst_rhat_site": "can:tau_D",
+ "min_neff": 707.8,
+ "divergences": 0,
+ "intervals95": {
+  "can:E10_direct": {
+   "median": [
+    0.5126
+   ],
+   "q025": [
+    -0.0828
+   ],
+   "q975": [
+    1.1035
+   ],
+   "prob_negative": [
+    0.0422
+   ]
+  },
+  "can:E10_total": {
+   "median": [
+    0.5126
+   ],
+   "q025": [
+    -0.0828
+   ],
+   "q975": [
+    1.1035
+   ],
+   "prob_negative": [
+    0.0422
+   ]
+  }
+ },
+ "edges": [],
+ "per_chain": {
+  "can:E10_direct": [
+   [
+    0.5
+   ],
+   [
+    0.498
+   ],
+   [
+    0.531
+   ],
+   [
+    0.516
+   ]
+  ],
+  "can:E10_total": [
+   [
+    0.5
+   ],
+   [
+    0.498
+   ],
+   [
+    0.531
+   ],
+   [
+    0.516
+   ]
+  ],
+  "can:rho": [
+   [
+    0.514
+   ],
+   [
+    0.507
+   ],
+   [
+    0.511
+   ],
+   [
+    0.508
+   ]
+  ],
+  "can:sigma_process": [
+   [
+    0.89
+   ],
+   [
+    0.896
+   ],
+   [
+    0.892
+   ],
+   [
+    0.891
+   ]
+  ],
+  "potential_energy": [
+   8704.1,
+   8711.2,
+   8709.1,
+   8707.5
+  ],
+  "step_size": [
+   0.01228,
+   0.01653,
+   0.01297,
+   0.01546
+  ],
+  "mean_leapfrog_steps": [
+   258.0,
+   255.0,
+   255.0,
+   255.0
+  ],
+  "divergences": [
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "truth": {
+  "can": {
+   "inc": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "E10_direct": 0.0,
+   "E10_total": 0.0,
+   "zero_fraction": 0.05179517363154797,
+   "pretrend": [
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "scenario": "paths",
+ "mode": "simulate",
+ "canopy": {
+  "can": {
+   "season": "spring",
+   "after": "designation",
+   "depth_band": "all",
+   "quarters": [
+    1,
+    2
+   ],
+   "zero_fraction": 0.1733372572101236
+  }
+ },
+ "evidence": "all",
+ "permute_seed": null,
+ "placebo_year": null,
+ "space_placebo_seed": null,
+ "relabelled": {
+  "can": []
+ },
+ "mass_holdout_seed": null,
+ "omit_station": [],
+ "size25": false,
+ "stations_removed": {
+  "can": 0
+ },
+ "units_size25_adjusted": {
+  "can": 0
+ },
+ "chain_processes": true,
+ "taxa": {
+  "can": "Kelp canopy (Landsat)"
+ },
+ "regions": "three",
+ "omit_mpa": [],
+ "links": {},
+ "n_units": {
+  "can": 3398
+ },
+ "stations": {
+  "can": 48
+ },
+ "curve": "rw",
+ "lag": 1,
+ "beta_scale": 0.5,
+ "paths": true,
+ "split": false,
+ "warmup": 1500,
+ "samples": 3000,
+ "chains": 4,
+ "seed": 205,
+ "depth": 10,
+ "accept": 0.99,
+ "step0": 0.01,
+ "thin": 2,
+ "drift": "regional",
+ "inc_scale": 2.0,
+ "cluster_drift": false,
+ "station_trend": false,
+ "pretrend": false,
+ "seconds": 296
+}

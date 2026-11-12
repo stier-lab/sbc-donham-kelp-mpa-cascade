@@ -173,10 +173,10 @@ Mean sizes replicated from the fitted model, compared with the data: spread and 
 | Taxon | Runs | Largest shift: density | mean mass | biomass | Sign reversals of clear main effects | Shifts above 0.25 |
 |---|---|---|---|---|---|---|
 | Lobster | 13 of 13 | -0.21 (Santa Barbara Island SMR) | +0.07 (Matlahuayl SMR) | +0.22 (Matlahuayl SMR) | none | none |
-| Sheephead | 14 of 17 | +0.09 (Harris Point SMR) | -0.07 (Santa Barbara Island SMR) | +0.12 (Blue Cavern Onshore SMCA) | none | none |
+| Sheephead | 17 of 17 | -0.19 (Point Vicente SMCA) | -0.07 (Santa Barbara Island SMR) | -0.20 (Point Vicente SMCA) | none | none |
 | Purple urchin | 13 of 13 | -0.22 (Naples SMCA) | -0.07 (Scorpion SMR) | -0.24 (Scorpion SMR) | none | none |
-| Red urchin | 0 | | | | | |
-| Kelp | 0 | | | | | |
+| Red urchin | 13 of 13 | -0.15 (Point Vicente SMCA) | +0.06 (Harris Point SMR) | +0.17 (Anacapa Island SMR 2003) | none | none |
+| Kelp | 6 of 13 | +0.37 (Harris Point SMR) | -0.07 (Campus Point SMCA) | +0.40 (Harris Point SMR) | none | density: Harris Point SMR +0.37; biomass: Harris Point SMR +0.40 |
 
 **INCOMPLETE.**
 
