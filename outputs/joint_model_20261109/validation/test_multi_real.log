@@ -1,0 +1,26 @@
+lob   rw        potential single 31134.640915 multi 31134.640915 diff 0.00e+00
+lob   piecewise potential single 34134.265363 multi 34134.265363 diff 0.00e+00
+shp   rw        potential single 84507.879561 multi 84507.879561 diff 0.00e+00
+shp   piecewise potential single 83632.625524 multi 83632.625524 diff -1.46e-11
+pur   rw        potential single -10431364.810807 multi -10431364.810807 diff 0.00e+00
+pur   piecewise potential single -10370146.713718 multi -10370146.713718 diff 0.00e+00
+red   rw        potential single -2192081.341380 multi -2192081.341380 diff 0.00e+00
+red   piecewise potential single -2147490.265628 multi -2147490.265628 diff 0.00e+00
+kelp  rw        potential single -976252.963540 multi -976252.963540 diff 0.00e+00
+kelp  piecewise potential single -965335.040026 multi -965335.040026 diff 0.00e+00
+1. log density matches the single-taxon model; worst relative difference 1.7399806758674255e-16
+2. pur<-lob: 1567 of 1768 target station-years linked, 101 stations; 1466 sampled links checked
+2. pur<-shp: 1678 of 1768 target station-years linked, 102 stations; 1622 sampled links checked
+2. red<-lob: 1567 of 1768 target station-years linked, 101 stations; 1466 sampled links checked
+2. red<-shp: 1678 of 1768 target station-years linked, 102 stations; 1622 sampled links checked
+2. kelp<-pur: 1574 of 1674 target station-years linked, 103 stations; 2150 sampled links checked
+2. kelp<-red: 1574 of 1674 target station-years linked, 103 stations; 2150 sampled links checked
+ALL CHECKS PASSED
+3. lob  rw        mass layer log density: model -8656685.592805  independent -8656685.592805  (1621 groups)
+3. lob  piecewise mass layer log density: model -8460272.906103  independent -8460272.906103  (1621 groups)
+3. pur  rw        mass layer log density: model -5694027.188889  independent -5694027.188889  (1941 groups)
+3. pur  piecewise mass layer log density: model -4084472.820527  independent -4084472.820527  (1941 groups)
+3. shp  rw        mass layer log density: model -28009735.215175  independent -28009735.215175  (6571 groups)
+3. shp  piecewise mass layer log density: model -14404145.229315  independent -14404145.229315  (6571 groups)
+3. mass layer matches the independent calculation; worst relative difference 3.3062228408178182e-15
+ALL CHECKS PASSED (1-3)

@@ -1,0 +1,15 @@
+{
+ "M1 convergence": "INCOMPLETE",
+ "M2 seeds agree": "INCOMPLETE",
+ "M3 calibration": "INCOMPLETE",
+ "M4 robust to bimodal": "INCOMPLETE",
+ "M4 robust to visitnoise": "INCOMPLETE",
+ "M4 robust to coupled": "INCOMPLETE",
+ "M5 time placebo": "INCOMPLETE",
+ "M6 space placebo (mass, biomass)": "INCOMPLETE",
+ "M7 predictive check of mass": "INCOMPLETE",
+ "M8 hold-out prediction": "INCOMPLETE",
+ "M9 leave one MPA out": "INCOMPLETE",
+ "M10 independent arithmetic": "PASS",
+ "M11 input integrity": "PASS"
+}
