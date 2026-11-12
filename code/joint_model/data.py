@@ -22,7 +22,7 @@ ZONES = ["INNER", "MID", "OUTER", "DEEP"]
 
 
 def build(uses_path, taxon, min_before=3, placebo_year=None, omit_mpas=(), omit_stations=(),
-          space_placebo_seed=None, pisco_cap=None, regions="seven", size25=None):
+          space_placebo_seed=None, pisco_cap=None, regions="seven", size25=None, permute_seed=None):
     """Model inputs for one taxon.
 
     placebo_year: time placebo (KFM years before the real designation, fake designation year).
@@ -52,6 +52,23 @@ def build(uses_path, taxon, min_before=3, placebo_year=None, omit_mpas=(), omit_
     u = u[~u.MPA.isin(list(omit_mpas)) & ~u.station.isin(list(omit_stations))].copy()
     removed = n_before_omit - u.station.nunique()
     relabelled = []
+    if permute_seed is not None:
+        # Label permutation (randomization placebo): every station stays in the data. Within each MPA and the reference
+        # stations assigned to it, the "protected" label is dealt out at random to the same number of stations as are
+        # really protected. Unlike space_placebo_seed, successive seeds give nearly independent relabellings, so the
+        # estimates from many seeds form a reference distribution for the real estimate under "labels do not matter".
+        start = u.groupby("MPA").MPA_Start.first()
+        hm = u.sort_values("MPA").groupby("station").MPA.first()
+        real = u.groupby("station").status.first()
+        u["MPA"] = u.station.map(hm); u["MPA_Start"] = u.MPA.map(start)
+        rng = np.random.default_rng(permute_seed); new = {}
+        for m in sorted(hm.unique()):
+            sts = sorted(hm.index[hm == m]); k = int((real[sts] == "mpa").sum())
+            if 0 < k < len(sts):
+                pick = set(rng.choice(sts, size=k, replace=False).tolist())
+                new.update({s_: ("mpa" if s_ in pick else "reference") for s_ in sts})
+        u["status"] = u.station.map(new).fillna(u.status)
+        relabelled = sorted(s_ for s_, v in new.items() if v == "mpa" and real[s_] != "mpa")
     if space_placebo_seed is not None:
         start = u.groupby("MPA").MPA_Start.first()
         u = u[u.status == "reference"].copy()

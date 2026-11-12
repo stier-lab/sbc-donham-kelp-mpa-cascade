@@ -24,6 +24,8 @@ def grid(D):
     D["grid_age"] = np.clip(yy - T_st[None, :], 0, None).astype(float)
     D["grid_B"] = age_basis(D["grid_age"].ravel()).reshape(D["grid_age"].shape + (-1,))
     D["span"] = D["span_first"] + D["span_inside"]
+    # years since designation (negative before), protected stations at before-and-after MPAs only: the --pretrend option
+    D["grid_rel"] = ((yy - T_st[None, :]) / 10.0 * D["st_prot"][None, :] * np.asarray(D["mpa_ba"])[D["st_mpa"]][None, :]).astype(float)
     return D
 
 

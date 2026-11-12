@@ -1,0 +1,34 @@
+t2_lob_rw_pre.json	fit --taxa lob --curve rw --pretrend --mass --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+t2_lob_pw_pre.json	fit --taxa lob --curve piecewise --pretrend --mass --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+t2_shp_rw_pre.json	fit --taxa shp --curve rw --pretrend --mass --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+t2_shp_pw_pre.json	fit --taxa shp --curve piecewise --pretrend --mass --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+t2_pur_rw_pre.json	fit --taxa pur --curve rw --pretrend --mass --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+t2_pur_pw_pre.json	fit --taxa pur --curve piecewise --pretrend --mass --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+t2_red_rw_pre.json	fit --taxa red --curve rw --pretrend --mass --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+t2_red_pw_pre.json	fit --taxa red --curve piecewise --pretrend --mass --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+t2_kelp_rw_pre.json	fit --taxa kelp --curve rw --pretrend --mass --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+t2_kelp_pw_pre.json	fit --taxa kelp --curve piecewise --pretrend --mass --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+t2_shp_rw_y1990.json	fit --taxa shp --curve rw --placebo-year 1990 --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+t2_shp_rw_y1990_pre.json	fit --taxa shp --curve rw --placebo-year 1990 --pretrend --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+t2_shp_rw_y1993.json	fit --taxa shp --curve rw --placebo-year 1993 --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+t2_shp_rw_y1993_pre.json	fit --taxa shp --curve rw --placebo-year 1993 --pretrend --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+t2_shp_rw_y1996.json	fit --taxa shp --curve rw --placebo-year 1996 --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+t2_shp_rw_y1996_pre.json	fit --taxa shp --curve rw --placebo-year 1996 --pretrend --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+t2_shp_rw_y1999.json	fit --taxa shp --curve rw --placebo-year 1999 --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+t2_shp_rw_y1999_pre.json	fit --taxa shp --curve rw --placebo-year 1999 --pretrend --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+t2_pur_rw_y1990.json	fit --taxa pur --curve rw --placebo-year 1990 --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+t2_pur_rw_y1990_pre.json	fit --taxa pur --curve rw --placebo-year 1990 --pretrend --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+t2_pur_rw_y1993.json	fit --taxa pur --curve rw --placebo-year 1993 --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+t2_pur_rw_y1993_pre.json	fit --taxa pur --curve rw --placebo-year 1993 --pretrend --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+t2_pur_rw_y1996.json	fit --taxa pur --curve rw --placebo-year 1996 --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+t2_pur_rw_y1996_pre.json	fit --taxa pur --curve rw --placebo-year 1996 --pretrend --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+t2_pur_rw_y1999.json	fit --taxa pur --curve rw --placebo-year 1999 --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+t2_pur_rw_y1999_pre.json	fit --taxa pur --curve rw --placebo-year 1999 --pretrend --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+t2_red_rw_y1990.json	fit --taxa red --curve rw --placebo-year 1990 --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+t2_red_rw_y1990_pre.json	fit --taxa red --curve rw --placebo-year 1990 --pretrend --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+t2_red_rw_y1993.json	fit --taxa red --curve rw --placebo-year 1993 --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+t2_red_rw_y1993_pre.json	fit --taxa red --curve rw --placebo-year 1993 --pretrend --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+t2_red_rw_y1996.json	fit --taxa red --curve rw --placebo-year 1996 --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+t2_red_rw_y1996_pre.json	fit --taxa red --curve rw --placebo-year 1996 --pretrend --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+t2_red_rw_y1999.json	fit --taxa red --curve rw --placebo-year 1999 --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+t2_red_rw_y1999_pre.json	fit --taxa red --curve rw --placebo-year 1999 --pretrend --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2

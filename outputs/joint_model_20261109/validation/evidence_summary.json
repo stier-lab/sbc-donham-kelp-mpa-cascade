@@ -1,0 +1,47 @@
+{
+ "lob": {
+  "mpas": 13,
+  "before_after_mpas": 6,
+  "post_only_mpas": 7,
+  "protected_counted_before_at_before_after_mpas": 48,
+  "largest_single_mpa_share_of_that": 0.83,
+  "before_after_mpas_with_under_20_counted_before": 5,
+  "mpas_with_no_reference_station": 0
+ },
+ "shp": {
+  "mpas": 17,
+  "before_after_mpas": 7,
+  "post_only_mpas": 10,
+  "protected_counted_before_at_before_after_mpas": 884,
+  "largest_single_mpa_share_of_that": 0.33,
+  "before_after_mpas_with_under_20_counted_before": 1,
+  "mpas_with_no_reference_station": 0
+ },
+ "pur": {
+  "mpas": 13,
+  "before_after_mpas": 7,
+  "post_only_mpas": 6,
+  "protected_counted_before_at_before_after_mpas": 118944,
+  "largest_single_mpa_share_of_that": 0.32,
+  "before_after_mpas_with_under_20_counted_before": 0,
+  "mpas_with_no_reference_station": 0
+ },
+ "red": {
+  "mpas": 13,
+  "before_after_mpas": 7,
+  "post_only_mpas": 6,
+  "protected_counted_before_at_before_after_mpas": 21819,
+  "largest_single_mpa_share_of_that": 0.35,
+  "before_after_mpas_with_under_20_counted_before": 0,
+  "mpas_with_no_reference_station": 0
+ },
+ "kelp": {
+  "mpas": 13,
+  "before_after_mpas": 7,
+  "post_only_mpas": 6,
+  "protected_counted_before_at_before_after_mpas": 28594,
+  "largest_single_mpa_share_of_that": 0.64,
+  "before_after_mpas_with_under_20_counted_before": 3,
+  "mpas_with_no_reference_station": 0
+ }
+}

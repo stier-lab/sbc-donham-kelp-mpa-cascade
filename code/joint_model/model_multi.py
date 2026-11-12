@@ -41,7 +41,7 @@ def basis_row(age):
 
 
 def latent(D, curve="rw", shock=True, centered=True, level_dev=False, marg_b=True, drift="regional", inc_scale=2.0,
-           tau_d_scale=1.0):
+           tau_d_scale=1.0, cluster_drift=False, station_trend=False, pretrend=False):
     """Single-taxon latent terms on the year x station grid. Mirrors model.py line for line (checked numerically by
     test_multi.py); returns level (station baseline + AR(1) deviation), region-year effects, protection function."""
     S, M, P, R, T = len(D["stations"]), len(D["mpas"]), len(D["programs"]), len(D["regions"]), len(D["years"])
@@ -130,7 +130,33 @@ def latent(D, curve="rw", shock=True, centered=True, level_dev=False, marg_b=Tru
         omega = jnp.zeros(T)
     m = D["st_mpa"]
     F = D["grid_after"] * (D["grid_B"] @ inc + Lm[m][None, :] + Dm[m][None, :] * D["grid_age"] / 10.0 + omega[:, None])
-    return dict(level=level, gam=gam, F=F, inc=inc)
+    # Structure options added 2026-11-11 after the placebo failures (see STRUCTURE_PLAN_v3.md). Both are off by default.
+    local = jnp.zeros_like(F); trend = jnp.zeros_like(F)
+    if cluster_drift:
+        # Local trend: a random-walk year effect shared by one MPA's protected stations and the reference stations
+        # assigned to it (design 4.3, the cluster-year term). The regional trend then only has to describe the region;
+        # protection is judged against that MPA's own references.
+        s_c = numpyro.sample("sigma_cluster", HN(0.3))
+        chi = jnp.cumsum(s_c * numpyro.sample("z_cluster", dist.Normal(0, 1).expand([M, T])), axis=1)
+        chi = chi - chi.mean(1, keepdims=True)
+        local = chi[m].T
+    if station_trend:
+        # Station slope: every station may drift on its own (log units per decade), so that one station's long-run
+        # drift is not read as a protection effect unless protected stations depart from the spread of all stations.
+        s_k = numpyro.sample("sigma_trend", HN(0.5))
+        kap = s_k * numpyro.sample("z_trend", dist.Normal(0, 1).expand([S]))
+        yrs = jnp.asarray(D["years"], dtype=float)
+        trend = kap[None, :] * ((yrs - yrs.mean()) / 10.0)[:, None]
+    if pretrend:
+        # Pre-trend sensitivity (the Nov 3 policy's alternative to the flat baseline): at MPAs with before data, the
+        # protected stations may already be diverging from their references before designation (log units per decade).
+        # That line is extended through the after years, so the protection function measures departure from it.
+        mu_p = numpyro.sample("mu_pretrend", dist.Normal(0, 1.0))
+        s_p = numpyro.sample("sigma_pretrend", HN(0.5))
+        phi = mu_p + s_p * numpyro.sample("z_pretrend", dist.Normal(0, 1).expand([M]))
+        numpyro.deterministic("pretrend", phi * jnp.asarray(D["mpa_ba"]))
+        trend = trend + phi[m][None, :] * D["grid_rel"]
+    return dict(level=level, gam=gam, F=F, inc=inc, local=local, trend=trend)
 
 
 def observe(D, state):
@@ -247,11 +273,11 @@ def model(data, edges, config, curve="rw", lag=1, beta_scale=0.5, paths=True, sp
         n = jnp.sum(D["span"], 0)
         if split:
             prot[g] = L["F"] + path_p
-            d = L["level"] + path
+            d = L["level"] + L["trend"] + path
             dev[g] = D["span"] * (d - jnp.sum(D["span"] * d, 0) / jnp.where(n > 0, n, 1.0))
             d = d + prot[g]
         else:
-            d = L["level"] + L["F"] + path
+            d = L["level"] + L["trend"] + L["F"] + path
             dev[g] = D["span"] * (d - jnp.sum(D["span"] * d, 0) / jnp.where(n > 0, n, 1.0))
         inc[g] = L["inc"]
         # regional mean effect of protection at a given age: direct curve plus what the sources carry
@@ -263,7 +289,7 @@ def model(data, edges, config, curve="rw", lag=1, beta_scale=0.5, paths=True, sp
             numpyro.deterministic("E10_total", tot(10.0))
             for j, bj in via.items():
                 numpyro.deterministic(f"E10_via_{j}", bj * total[j](10.0 - lag))
-            observe(D, d + L["gam"][D["st_region"]].T)
+            observe(D, d + L["local"] + L["gam"][D["st_region"]].T)
             # mean individual mass and biomass (design 4.2): log biomass effect = log density effect + log mass effect
             if mass is not None and mass.get(g) is not None:
                 lv = L["level"]

@@ -7,16 +7,16 @@ Rules were fixed in `MASS_VALIDATION_PLAN.md` before the runs. Review only; noth
 
 | Check | Result |
 |---|---|
-| M1 convergence | INCOMPLETE |
-| M2 seeds agree | INCOMPLETE |
-| M3 calibration | INCOMPLETE |
-| M4 robust to bimodal | INCOMPLETE |
-| M4 robust to visitnoise | INCOMPLETE |
+| M1 convergence | FAIL |
+| M2 seeds agree | PASS |
+| M3 calibration | PASS |
+| M4 robust to bimodal | PASS |
+| M4 robust to visitnoise | FAIL |
 | M4 robust to coupled | INCOMPLETE |
 | M5 time placebo | INCOMPLETE |
-| M6 space placebo (mass, biomass) | INCOMPLETE |
-| M7 predictive check of mass | INCOMPLETE |
-| M8 hold-out prediction | INCOMPLETE |
+| M6 space placebo (mass, biomass) | FAIL |
+| M7 predictive check of mass | FAIL |
+| M8 hold-out prediction | FAIL |
 | M9 leave one MPA out | INCOMPLETE |
 | M10 independent arithmetic | PASS |
 | M11 input integrity | PASS |
@@ -28,20 +28,20 @@ Known failures of the density part from 2026-11-10 that this battery does not re
 | Taxon | Random-walk prior, seed 1 | seed 2 | Independent-increment prior |
 |---|---|---|---|
 | Lobster | yes (1.002 / 2696 / 0) | yes (1.008 / 619 / 0) | NO (1.001 / 3124 / 1) |
-| Sheephead | not finished | not finished | not finished |
+| Sheephead | yes (1.002 / 1512 / 0) | yes (1.002 / 1859 / 0) | yes (1.002 / 2210 / 0) |
 | Purple urchin | yes (1.004 / 1341 / 0) | yes (1.003 / 1601 / 0) | yes (1.002 / 1626 / 0) |
 | Red urchin | yes (1.004 / 1448 / 0) | yes (1.002 / 1518 / 0) | yes (1.005 / 1171 / 0) |
 | Kelp | yes (1.002 / 1474 / 0) | yes (1.004 / 1360 / 0) | yes (1.004 / 1197 / 0) |
 
 (R-hat / effective draws / divergent transitions.)
 
-**INCOMPLETE.**
+**FAIL.**
 
 ## M2. Reproducibility
 
-Largest difference between two independent fits: Lobster 0.003; Purple urchin 0.030; Red urchin 0.008; Kelp 0.018.
+Largest difference between two independent fits: Lobster 0.003; Sheephead 0.002; Purple urchin 0.030; Red urchin 0.008; Kelp 0.018.
 
-**INCOMPLETE.**
+**PASS.**
 
 ## M3. Calibration when the model is right
 
@@ -50,12 +50,31 @@ Simulated on each taxon's real survey and measurement design, then refitted (2 c
 | Scenario | Taxon | Data sets | R-hat < 1.05 | Mass: truth | mean error | covered | excludes zero | Biomass: truth | mean error | covered | excludes zero |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | std | Lobster | 20 | 20 | +0.20 | -0.06 | 18/20 | 5/20 | +2.12 | -0.16 | 17/20 | 20/20 |
-| std | Purple urchin | 6 | 3 | -0.10 | -0.04 | 6/6 | 2/6 | -0.75 | +0.10 | 5/6 | 2/6 |
+| std | Sheephead | 20 | 19 | +0.15 | -0.06 | 18/20 | 4/20 | +0.38 | +0.01 | 19/20 | 8/20 |
+| std | Purple urchin | 20 | 6 | -0.10 | +0.01 | 18/20 | 4/20 | -0.75 | +0.10 | 18/20 | 7/20 |
+| std | Red urchin | 20 | 9 | +0.12 | -0.01 | 18/20 | 6/20 | -0.13 | -0.01 | 18/20 | 2/20 |
+| std | Kelp | 20 | 17 | +0.00 | -0.04 | 20/20 | 0/20 | +0.70 | -0.21 | 15/20 | 6/20 |
+| null | Lobster | 20 | 19 | +0.00 | -0.01 | 19/20 | 1/20 | +0.00 | +0.03 | 18/20 | 2/20 |
+| null | Sheephead | 20 | 18 | +0.00 | -0.03 | 19/20 | 1/20 | +0.00 | +0.03 | 19/20 | 1/20 |
+| null | Purple urchin | 20 | 8 | +0.00 | -0.00 | 19/20 | 1/20 | +0.00 | -0.02 | 18/20 | 2/20 |
+| null | Red urchin | 20 | 9 | +0.00 | +0.01 | 18/20 | 2/20 | +0.00 | +0.02 | 18/20 | 2/20 |
+| null | Kelp | 20 | 16 | +0.00 | -0.04 | 20/20 | 0/20 | +0.00 | -0.08 | 14/20 | 6/20 |
+| trend | Lobster | 20 | 19 | +0.00 | +0.01 | 20/20 | 0/20 | +1.92 | -0.09 | 17/20 | 20/20 |
+| trend | Sheephead | 20 | 19 | +0.00 | -0.00 | 18/20 | 2/20 | +0.22 | +0.06 | 18/20 | 4/20 |
+| trend | Purple urchin | 20 | 7 | +0.00 | -0.04 | 18/20 | 2/20 | -0.65 | +0.05 | 18/20 | 6/20 |
+| trend | Red urchin | 20 | 11 | +0.00 | -0.00 | 20/20 | 0/20 | -0.25 | +0.00 | 18/20 | 2/20 |
+| trend | Kelp | 20 | 16 | +0.00 | +0.01 | 20/20 | 0/20 | +0.70 | -0.17 | 16/20 | 6/20 |
 
-- std, mass: coverage 0.92 of 26 (rule ≥ 0.78)
-- std, biomass: coverage 0.85 of 26 (rule ≥ 0.78)
+- std, mass: coverage 0.92 of 100 (rule ≥ 0.84)
+- std, biomass: coverage 0.87 of 100 (rule ≥ 0.84)
+- null, mass: coverage 0.95 of 100 (rule ≥ 0.84)
+- null, biomass: coverage 0.87 of 100 (rule ≥ 0.84)
+- null: 5% of mass intervals exclude zero (rule ≤ 16%)
+- trend, mass: coverage 0.96 of 100 (rule ≥ 0.84)
+- trend, biomass: coverage 0.87 of 100 (rule ≥ 0.84)
+- trend: 4% of mass intervals exclude zero (rule ≤ 16%)
 
-**INCOMPLETE.**
+**PASS.**
 
 ## M4. Robustness when an assumption is wrong
 
@@ -63,12 +82,25 @@ Simulated on each taxon's real survey and measurement design, then refitted (2 c
 
 | Scenario | Taxon | Data sets | R-hat < 1.05 | Mass: truth | mean error | covered | excludes zero | Biomass: truth | mean error | covered | excludes zero |
 |---|---|---|---|---|---|---|---|---|---|---|---|
+| bimodal | Lobster | 20 | 19 | +0.20 | -0.04 | 19/20 | 3/20 | +2.12 | -0.15 | 18/20 | 20/20 |
+| bimodal | Sheephead | 20 | 20 | +0.15 | -0.03 | 19/20 | 6/20 | +0.38 | +0.03 | 19/20 | 8/20 |
+| bimodal | Purple urchin | 20 | 4 | -0.10 | +0.01 | 19/20 | 4/20 | -0.75 | +0.10 | 18/20 | 7/20 |
+| bimodal | Red urchin | 20 | 7 | +0.12 | -0.02 | 18/20 | 5/20 | -0.13 | -0.02 | 18/20 | 2/20 |
+| bimodal | Kelp | 20 | 10 | +0.00 | -0.03 | 20/20 | 0/20 | +0.70 | -0.21 | 15/20 | 6/20 |
+| visitnoise | Lobster | 20 | 19 | +0.20 | -0.08 | 19/20 | 3/20 | +2.12 | -0.18 | 16/20 | 20/20 |
+| visitnoise | Sheephead | 20 | 20 | +0.15 | -0.06 | 17/20 | 3/20 | +0.38 | +0.01 | 19/20 | 8/20 |
+| visitnoise | Purple urchin | 20 | 18 | -0.10 | +0.02 | 18/20 | 5/20 | -0.75 | +0.12 | 17/20 | 8/20 |
+| visitnoise | Red urchin | 20 | 11 | +0.12 | +0.01 | 18/20 | 5/20 | -0.13 | +0.01 | 17/20 | 2/20 |
+| visitnoise | Kelp | 20 | 20 | +0.00 | -0.04 | 19/20 | 1/20 | +0.70 | -0.22 | 14/20 | 6/20 |
+| coupled | Lobster | 20 | 20 | +0.20 | -0.09 | 18/20 | 3/20 | +2.12 | -0.19 | 17/20 | 20/20 |
+| coupled | Sheephead | 3 | 3 | +0.15 | -0.09 | 3/3 | 0/3 | +0.38 | -0.16 | 3/3 | 0/3 |
+| coupled | Purple urchin | 10 | 0 | -0.10 | +0.01 | 10/10 | 0/10 | -0.75 | +0.09 | 9/10 | 2/10 |
 
-`bimodal` — . **INCOMPLETE.**
+`bimodal` — mass: coverage 0.95 of 100 (rule ≥ 0.84); biomass: coverage 0.88 of 100 (rule ≥ 0.84). **PASS.**
 
-`visitnoise` — . **INCOMPLETE.**
+`visitnoise` — mass: coverage 0.91 of 100 (rule ≥ 0.84); biomass: coverage 0.83 of 100 (rule ≥ 0.84). **FAIL.**
 
-`coupled` — . **INCOMPLETE.**
+`coupled` — mass: coverage 0.94 of 33 (rule ≥ 0.80); biomass: coverage 0.88 of 33 (rule ≥ 0.80). **INCOMPLETE.**
 
 ## M5. Placebo in time
 
@@ -91,15 +123,15 @@ Protected stations dropped; one reference station per MPA relabelled as protecte
 
 | Taxon | Runs | Density: mean, excluding zero | Mean mass: mean, excluding zero | Biomass: mean, excluding zero |
 |---|---|---|---|---|
-| Lobster | 7 | +0.46, 0/7 ✗ | +0.06, 0/7 | +0.52, 0/7 ✗ |
-| Sheephead | 0 | | | |
-| Purple urchin | 0 | | | |
-| Red urchin | 0 | | | |
-| Kelp | 0 | | | |
+| Lobster | 10 | +0.41, 0/10 ✗ | +0.04, 0/10 | +0.46, 0/10 ✗ |
+| Sheephead | 10 | +0.31, 0/10 ✗ | +0.06, 0/10 | +0.37, 0/10 |
+| Purple urchin | 10 | -0.01, 0/10 | +0.01, 0/10 | -0.00, 0/10 |
+| Red urchin | 10 | -0.14, 0/10 | +0.04, 0/10 | -0.10, 0/10 |
+| Kelp | 10 | -0.67, 0/10 ✗ | -0.20, 1/10 | -0.87, 0/10 ✗ |
 
 ✗ marks a failure of the rule. The rule is applied to mass and biomass; the density column repeats yesterday's density placebo under today's fits.
 
-**INCOMPLETE.**
+**FAIL.**
 
 ## M7. Predictive check of the mass part
 
@@ -107,39 +139,39 @@ Mean sizes replicated from the fitted model, compared with the data: spread and 
 
 | Taxon | Statistics outside their 90% replicate interval | Contrast statistics |
 |---|---|---|
-| Lobster | not finished | |
-| Sheephead | not finished | |
-| Purple urchin | not finished | |
-| Red urchin | not finished | |
-| Kelp | not finished | |
+| Lobster | 5: sd_log|LTER, q05_log|LTER, q95_log|LTER, sd_log|PISCO, q05_log|PISCO | after_minus_before: observed +0.76, replicates [+0.13, +0.84]; age10plus_minus_age0to5: observed +0.34, replicates [+0.28, +0.47] |
+| Sheephead | 5: q05_log|KFM, sd_log|LTER, sd_log|PISCO, q05_log|PISCO, q95_log|PISCO | after_minus_before: observed +0.52, replicates [+0.34, +0.68]; age10plus_minus_age0to5: observed +0.54, replicates [+0.37, +0.58] |
+| Purple urchin | 5: sd_log|LTER, q05_log|LTER, sd_log|PISCO, q05_log|PISCO, q95_log|PISCO | after_minus_before: observed +0.52, replicates [+0.42, +0.58]; age10plus_minus_age0to5: observed -0.04, replicates [-0.11, +0.07] |
+| Red urchin | 6: sd_log|LTER, q05_log|LTER, q95_log|LTER, sd_log|PISCO, q05_log|PISCO, q95_log|PISCO | after_minus_before: observed +0.94, replicates [+0.82, +1.02]; age10plus_minus_age0to5: observed +0.32, replicates [+0.23, +0.45] |
+| Kelp | 3: sd_log|PISCO, q05_log|PISCO, q95_log|PISCO | after_minus_before: observed -0.06, replicates [-0.22, +0.02]; age10plus_minus_age0to5: observed -0.20, replicates [-0.24, -0.10] |
 
-0 of 0 statistics outside (rule: at most 10%, and no contrast statistic outside).
+24 of 49 statistics outside (rule: at most 10%, and no contrast statistic outside).
 
-**INCOMPLETE.**
+**FAIL.**
 
 ## M8. Predicting size data the model was not shown
 
 | Taxon | Split | Held-out groups | 90% intervals cover | 50% intervals cover | By program |
 |---|---|---|---|---|---|
-| Lobster | 1 | not finished | | | |
-| Lobster | 2 | not finished | | | |
-| Sheephead | 1 | not finished | | | |
-| Sheephead | 2 | not finished | | | |
-| Purple urchin | 1 | not finished | | | |
-| Purple urchin | 2 | not finished | | | |
-| Red urchin | 1 | not finished | | | |
-| Red urchin | 2 | not finished | | | |
-| Kelp | 1 | not finished | | | |
-| Kelp | 2 | not finished | | | |
+| Lobster | 1 | 211 | 0.92 | 0.65 | LTER 0.94 (n=79); PISCO 0.92 (n=132) |
+| Lobster | 2 | 215 | 0.95 | 0.63 | LTER 0.99 (n=80); PISCO 0.93 (n=135) |
+| Sheephead | 1 | 1,142 | 0.92 | 0.58 | KFM 0.90 (n=69); LTER 0.95 (n=59); PISCO 0.92 (n=1014) |
+| Sheephead | 2 | 994 | 0.91 | 0.58 | KFM 0.93 (n=85); LTER 0.89 (n=36); PISCO 0.91 (n=873) |
+| Purple urchin | 1 | 402 | 0.91 | 0.58 | KFM 0.91 (n=88); LTER 0.89 (n=217); PISCO 0.95 (n=97) |
+| Purple urchin | 2 | 267 | 0.96 | 0.61 | KFM 0.95 (n=94); LTER 0.97 (n=74); PISCO 0.96 (n=99) |
+| Red urchin | 1 | 264 | 0.91 | 0.57 | KFM 0.91 (n=88); LTER 0.89 (n=78); PISCO 0.92 (n=98) |
+| Red urchin | 2 | 287 | 0.90 | 0.57 | KFM 0.89 (n=90); LTER 0.87 (n=84); PISCO 0.92 (n=113) |
+| Kelp | 1 | 583 | 0.91 | 0.49 | KFM 0.87 (n=45); PISCO 0.91 (n=538) |
+| Kelp | 2 | 570 | 0.91 | 0.48 | KFM 0.92 (n=50); PISCO 0.91 (n=520) |
 
-**INCOMPLETE.**
+**FAIL.**
 
 ## M9. Leave one MPA out
 
 | Taxon | Runs | Largest shift: density | mean mass | biomass | Sign reversals of clear main effects | Shifts above 0.25 |
 |---|---|---|---|---|---|---|
-| Lobster | 0 | | | | | |
-| Sheephead | 0 | | | | | |
+| Lobster | 13 of 13 | -0.21 (Santa Barbara Island SMR) | +0.07 (Matlahuayl SMR) | +0.22 (Matlahuayl SMR) | none | none |
+| Sheephead | 12 of 17 | +0.09 (Harris Point SMR) | +0.06 (Blue Cavern Onshore SMCA) | +0.12 (Blue Cavern Onshore SMCA) | none | none |
 | Purple urchin | 0 | | | | | |
 | Red urchin | 0 | | | | | |
 | Kelp | 0 | | | | | |

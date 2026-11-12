@@ -1,0 +1,80 @@
+s2_shp_s01.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s01_pre.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s02.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 2 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s02_pre.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 2 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s03.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 3 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s03_pre.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 3 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s04.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 4 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s04_pre.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 4 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s05.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 5 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s05_pre.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 5 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s06.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 6 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s06_pre.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 6 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s07.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 7 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s07_pre.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 7 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s08.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 8 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s08_pre.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 8 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s09.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 9 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s09_pre.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 9 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s10.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 10 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s10_pre.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 10 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s11.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 11 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s11_pre.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 11 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s12.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 12 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s12_pre.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 12 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s13.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 13 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s13_pre.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 13 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s14.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 14 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s14_pre.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 14 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s15.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 15 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s15_pre.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 15 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s16.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 16 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s16_pre.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 16 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s17.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 17 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s17_pre.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 17 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s18.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 18 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s18_pre.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 18 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s19.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 19 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s19_pre.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 19 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s20.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 20 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_shp_s20_pre.json	simulate --taxa shp --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 20 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s01.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s01_pre.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 1 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s02.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 2 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s02_pre.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 2 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s03.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 3 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s03_pre.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 3 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s04.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 4 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s04_pre.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 4 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s05.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 5 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s05_pre.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 5 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s06.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 6 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s06_pre.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 6 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s07.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 7 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s07_pre.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 7 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s08.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 8 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s08_pre.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 8 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s09.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 9 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s09_pre.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 9 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s10.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 10 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s10_pre.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 10 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s11.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 11 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s11_pre.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 11 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s12.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 12 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s12_pre.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 12 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s13.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 13 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s13_pre.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 13 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s14.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 14 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s14_pre.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 14 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s15.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 15 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s15_pre.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 15 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s16.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 16 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s16_pre.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 16 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s17.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 17 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s17_pre.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 17 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s18.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 18 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s18_pre.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 18 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s19.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 19 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s19_pre.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 19 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s20.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --seed 20 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2
+s2_pur_s20_pre.json	simulate --taxa pur --scenario nopaths --curve rw --sim-pretrend 0.5 0.3 --pretrend --seed 20 --cpus 4 --chains 4 --warmup 1500 --samples 3000 --thin 2

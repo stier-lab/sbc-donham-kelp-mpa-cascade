@@ -19,7 +19,7 @@ from data_multi import build_multi, TAXA, EDGES, CONFIG
 from data_mass import build_mass, find_beside
 from model_multi import model, basis_row
 
-SITES = ["E10_mass", "E10_biomass", "m_g_knots", "m_rho", "m_sigma_process", "m_sigma_region_year", "m_sigma_drift", "m_sigma_drift_region",
+SITES = ["sigma_cluster", "sigma_trend", "mu_pretrend", "sigma_pretrend", "pretrend", "E10_mass", "E10_biomass", "m_g_knots", "m_rho", "m_sigma_process", "m_sigma_region_year", "m_sigma_drift", "m_sigma_drift_region",
          "m_sigma_station", "m_shape", "m_tau_D", "m_mu_lambda", "m_sigma_lambda", "m_sigma_curve", "m_zone", "m_theta",
          "E10_direct", "E10_total", "g_knots", "rho", "sigma_process", "sigma_region_year", "sigma_drift", "sigma_drift_region",
          "sigma_visit", "sigma_b", "inv_sqrt_phi", "tau_D", "tau_L", "sigma_shock", "mu_lambda", "sigma_lambda", "sigma_curve"]
@@ -37,7 +37,7 @@ SIM_DRIFT = dict(sigma_drift=0.10, sigma_drift_region=0.10)
 FLUCT = {}      # simulated station-level density fluctuation per taxon (for the coupled mass scenario)
 
 
-def simulate(data, edges, scenario, seed, lag=1, direct=True, common_sd=0.0):
+def simulate(data, edges, scenario, seed, lag=1, direct=True, common_sd=0.0, station_trend_sd=0.0, cluster_trend_sd=0.0, pretrend=(0.0, 0.0)):
     """Independent NumPy simulator of the linked model on the real survey designs.
     common_sd > 0 adds a station-level AR(1) driver shared by every taxon (enters each taxon's log density with a
     loading 1); the fitted model has no such term."""
@@ -72,7 +72,13 @@ def simulate(data, edges, scenario, seed, lag=1, direct=True, common_sd=0.0):
             if k == g:
                 path += betas.get((k, j), 0.0) * lk["valid"] * dev[j][lk["src_t"]][:, lk["src_s"]]
         cm = common[int(D["years"][0]) - y0: int(D["years"][0]) - y0 + T][:, [c_ix[s] for s in D["stations"]]]
-        d = b[None, :] + delta + F + path + cm
+        # heterogeneity the recommended structure has no term for (tests of the v3 structure options)
+        yrs = np.asarray(D["years"], dtype=float)
+        st_tr = station_trend_sd * rng.normal(size=S)[None, :] * ((yrs - yrs.mean()) / 10.0)[:, None]
+        chi = np.cumsum(cluster_trend_sd * rng.normal(size=(M, T)), axis=1); chi = (chi - chi.mean(1, keepdims=True))[D["st_mpa"]].T
+        # differential linear trend at protected stations of before-and-after MPAs (mean, SD across MPAs; per decade)
+        pre = (pretrend[0] + pretrend[1] * rng.normal(size=M))[D["st_mpa"]][None, :] * D["grid_rel"] if any(pretrend) else 0.0
+        d = b[None, :] + delta + F + path + cm + st_tr + chi + pre
         n = D["span"].sum(0)
         dev[g] = D["span"] * (d - (D["span"] * d).sum(0) / np.where(n > 0, n, 1.0))
         lv = b[None, :] + delta
@@ -90,6 +96,7 @@ def simulate(data, edges, scenario, seed, lag=1, direct=True, common_sd=0.0):
         truth[g].update(E10_direct=float(basis_row(10.0) @ np.array(truth[g]["inc"])), E10_total=tot(g, 10.0))
     truth["beta"] = [betas.get((k, j), 0.0) for k, j, _ in edges]
     truth["common_sd"] = common_sd
+    truth["station_trend_sd"] = station_trend_sd; truth["cluster_trend_sd"] = cluster_trend_sd; truth["pretrend"] = list(pretrend)
     return ys, truth
 
 
@@ -318,12 +325,21 @@ def main():
     ap.add_argument("--mass-ppc", type=int, default=0, help="posterior draws per chain for predictive checks of the mass layer")
     ap.add_argument("--mass-holdout", type=int, default=None, help="seed: hold out 20%% of interior station-years of mass data and predict them")
     ap.add_argument("--placebo-year", type=int, default=None, help="time placebo: KFM years before the real designation, fake designation year")
+    ap.add_argument("--pretrend", action="store_true", help="sensitivity: differential linear trend at protected stations of before-and-after MPAs, extended through the after years")
+    ap.add_argument("--evidence", default="all", choices=["all", "ba", "post"],
+                    help="one taxon only: keep MPAs with before-and-after surveys (ba) or without (post); the split is fixed by the survey record")
+    ap.add_argument("--permute-seed", type=int, default=None, help="randomization placebo: deal the protected labels out at random within each MPA and its references")
     ap.add_argument("--space-placebo-seed", type=int, default=None, help="space placebo: reference stations only, one relabelled as protected per MPA")
     ap.add_argument("--mass-scale", type=float, default=1.0, help="multiplier on the prior scale of the mass response increments")
     ap.add_argument("--mass-link", action="store_true", help="let mean mass depend on the same-year fluctuation of the taxon's density")
     ap.add_argument("--lag", type=int, default=1, choices=[0, 1, 2])
     ap.add_argument("--beta-scale", type=float, default=0.5, help="prior SD of the path coefficients")
     ap.add_argument("--curve", default="rw", choices=["piecewise", "rw"])
+    ap.add_argument("--cluster-drift", action="store_true", help="local random-walk trend shared by each MPA's protected and reference stations")
+    ap.add_argument("--station-trend", action="store_true", help="a slope of its own for every station")
+    ap.add_argument("--sim-station-trend", type=float, default=0.0, help="simulate: SD of station slopes (log units per decade)")
+    ap.add_argument("--sim-pretrend", type=float, nargs=2, default=[0.0, 0.0], metavar=("MEAN", "SD"), help="simulate: protected-minus-reference trend per decade at before-and-after MPAs, extended through the after years")
+    ap.add_argument("--sim-cluster-trend", type=float, default=0.0, help="simulate: SD of yearly steps of a local random walk per MPA cluster")
     ap.add_argument("--drift", default="regional", choices=["none", "global", "regional"])
     ap.add_argument("--inc-scale", type=float, default=2.0)
     ap.add_argument("--regions", default="three", choices=["seven", "three", "one"])
@@ -355,17 +371,23 @@ def main():
         s25 = find_beside(a.uses, "size25_share.csv")
         if s25 is None:
             raise SystemExit("size25_share.csv (from prep_mass.py) not found")
+    if a.evidence != "all":
+        if len(tags) != 1:
+            raise SystemExit("--evidence ba/post is for one taxon at a time")
+        D0 = build_multi(a.uses, tags, ed, lag=a.lag, regions=a.regions, omit_mpas=a.omit_mpa, omit_stations=a.omit_station, size25=s25)[0][tags[0]]
+        drop = [m for m, f in zip(D0["mpas"], D0["mpa_ba"]) if (f == 1) != (a.evidence == "ba")]
+        a.omit_mpa = list(a.omit_mpa) + drop
     data, edges = build_multi(a.uses, tags, ed, lag=a.lag, regions=a.regions, omit_mpas=a.omit_mpa, omit_stations=a.omit_station, size25=s25,
-                              placebo_year=a.placebo_year, space_placebo_seed=a.space_placebo_seed)
+                              placebo_year=a.placebo_year, space_placebo_seed=a.space_placebo_seed, permute_seed=a.permute_seed)
     mass = {g: build_mass(a.uses, data[g], TAXA[g], variant=a.mass_variant, drop=a.mass_drop, holdout_seed=a.mass_holdout) for g in tags} if a.mass else None
     for D in data.values():
         D.pop("cells")
     config = {g: CONFIG[g] for g in tags}
     opts = dict(curve=a.curve, lag=a.lag, beta_scale=a.beta_scale, paths=not a.no_paths, split=a.split, warmup=a.warmup, samples=a.samples,
-                chains=a.chains, seed=a.seed, depth=a.depth, accept=a.accept, step0=a.step0, thin=a.thin, drift=a.drift, inc_scale=a.inc_scale)
+                chains=a.chains, seed=a.seed, depth=a.depth, accept=a.accept, step0=a.step0, thin=a.thin, drift=a.drift, inc_scale=a.inc_scale, cluster_drift=a.cluster_drift, station_trend=a.station_trend, pretrend=a.pretrend)
     if mass is not None:
         opts.update(mass_scale=a.mass_scale, mass_link=a.mass_link)
-    meta = dict(mode=a.mode, placebo_year=a.placebo_year, space_placebo_seed=a.space_placebo_seed, relabelled={g: D["relabelled"] for g, D in data.items()},
+    meta = dict(mode=a.mode, evidence=a.evidence, permute_seed=a.permute_seed, placebo_year=a.placebo_year, space_placebo_seed=a.space_placebo_seed, relabelled={g: D["relabelled"] for g, D in data.items()},
                 mass_holdout_seed=a.mass_holdout, omit_station=a.omit_station, size25=bool(a.size25), stations_removed={g: D["stations_removed"] for g, D in data.items()},
                 units_size25_adjusted={g: D.get("units_size25_adjusted", 0) for g, D in data.items()}, chain_processes=(a.chains > 1 and not a.one_process), taxa={g: TAXA[g] for g in tags}, regions=a.regions, omit_mpa=a.omit_mpa,
                 links={f"{k}<-{j}": {x: lk[x] for x in ("n_target_station_years", "n_linked", "n_stations_linked")} for k, j, lk in edges},
@@ -375,7 +397,8 @@ def main():
                                  | dict(stations=len(M["mass_stations"]), mpas_before_after=int(M["mpa_ba"].sum()), n_heldout=M["n_heldout"])) for g, M in mass.items()}
     if a.mode == "simulate":
         name = a.name or f"msim_{a.scenario}_{a.curve}_seed{a.seed}"
-        ys, truth = simulate(data, edges, a.scenario, a.seed, lag=a.lag, direct=not a.no_direct, common_sd=a.common_sd)
+        ys, truth = simulate(data, edges, a.scenario, a.seed, lag=a.lag, direct=not a.no_direct, common_sd=a.common_sd,
+                             station_trend_sd=a.sim_station_trend, cluster_trend_sd=a.sim_cluster_trend, pretrend=tuple(a.sim_pretrend))
         if mass is not None:
             mass = simulate_mass(mass, truth, a.seed, a.mass_scenario)
     else:
@@ -400,7 +423,7 @@ def main():
     res = summarize(keep, ex, edges)
     if checks and checks[0]:
         res["mass_ppc"], res["mass_holdout"] = merge_checks(checks, {g: D["programs"] for g, D in data.items()})
-    if a.placebo_year is not None or a.space_placebo_seed is not None:
+    if a.placebo_year is not None or a.space_placebo_seed is not None or a.permute_seed is not None:
         res["placebo"] = True
     if a.mode == "simulate":
         res["truth"] = truth; res["scenario"] = a.scenario
