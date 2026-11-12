@@ -55,3 +55,76 @@ for k, j, lk in edges:
     print(f"2. {k}<-{j}: {lk['n_linked']} of {lk['n_target_station_years']} target station-years linked, "
           f"{lk['n_stations_linked']} stations; {n} sampled links checked")
 print("ALL CHECKS PASSED")
+
+# 3. Mass layer: its contribution to the joint log density (priors + likelihood) equals an independent
+#    NumPy / SciPy calculation at the same parameter values, for both curve priors.
+from scipy import stats as st
+from numpyro.infer.util import log_density, constrain_fn
+from data_mass import build_mass
+from model_multi import basis_row
+
+
+def mass_logp(M, P_, curve, mass_scale=1.0):
+    v = lambda k: np.asarray(P_[k], dtype=float)
+    S, T = len(M["mass_stations"]), M["span"].shape[0]
+    lp = st.norm(M["log_mean_mass"], 2.0).logpdf(v("m_mu")).sum() + st.halfnorm(scale=1.0).logpdf(v("m_sigma_station")).sum()
+    lp += st.norm.logpdf(v("m_z_station")).sum() + st.norm(0, 0.5).logpdf(v("m_mu_lambda")) + st.halfnorm(scale=0.5).logpdf(v("m_sigma_lambda"))
+    lp += st.norm.logpdf(v("m_z_lambda")).sum() + st.halfnorm(scale=0.5).logpdf(v("m_sigma_region_year")) + st.norm.logpdf(v("m_z_region_year")).sum()
+    lp += st.halfnorm(scale=0.15).logpdf(v("m_sigma_drift")) + st.norm.logpdf(v("m_z_drift")).sum()
+    lp += st.halfnorm(scale=0.15).logpdf(v("m_sigma_drift_region")) + st.norm.logpdf(v("m_z_drift_region")).sum()
+    lp += st.beta(2, 2).logpdf(v("m_rho_raw")) + st.halfnorm(scale=0.5).logpdf(v("m_sigma_process")) + st.norm.logpdf(v("m_delta")).sum()
+    if curve == "piecewise":
+        lp += st.halfnorm(scale=0.2 * mass_scale).logpdf(v("m_sigma_curve")) + st.norm.logpdf(v("m_z_curve")).sum()
+        inc = v("m_sigma_curve") * v("m_z_curve")
+    else:
+        lp += st.norm(0, 0.3 * mass_scale).logpdf(v("m_inc_first")) + st.halfnorm(scale=0.15 * mass_scale).logpdf(v("m_sigma_curve")) + st.norm.logpdf(v("m_z_curve")).sum()
+        inc = v("m_inc_first") + np.concatenate([[0.0], np.cumsum(v("m_sigma_curve") * v("m_z_curve"))])
+    lp += st.halfnorm(scale=0.5).logpdf(v("m_tau_D")) + st.norm.logpdf(v("m_z_D")).sum() + st.norm(0, 0.5).logpdf(v("m_zone")).sum()
+    lp += st.lognorm(s=1.0, scale=1.0).logpdf(v("m_shape")).sum()
+    c = v("m_mu")[M["st_prog"]] + v("m_sigma_station")[M["st_prog"]] * v("m_z_station")
+    lam = np.where(M["mpa_ba"] == 1, v("m_mu_lambda") + v("m_sigma_lambda") * v("m_z_lambda"), 1.5 * v("m_z_lambda"))
+    c = c + M["st_prot"] * lam[M["st_mpa"]]
+    al = np.cumsum(v("m_sigma_drift") * v("m_z_drift")); br = np.cumsum(v("m_sigma_drift_region") * v("m_z_drift_region"), axis=1)
+    gam = v("m_sigma_region_year") * v("m_z_region_year") + (al - al.mean())[None, :] + br - br.mean(1, keepdims=True)
+    rho, sig, z = 0.95 * v("m_rho_raw"), v("m_sigma_process"), v("m_delta")
+    e = np.zeros((T, S))
+    for s_ in range(S):                       # AR(1) over each station's own span, written out as a loop
+        prev = 0.0
+        for t_ in range(T):
+            if M["span_first"][t_, s_]:
+                prev = sig * z[t_, s_] / np.sqrt(1 - rho ** 2)
+            elif M["span_inside"][t_, s_]:
+                prev = rho * prev + sig * z[t_, s_]
+            else:
+                prev = 0.0
+            e[t_, s_] = prev
+    Dm = v("m_tau_D") * v("m_z_D")
+    zeta = np.concatenate([[0.0], v("m_zone")])
+    lik = 0.0
+    for i in range(len(M["g_n"])):            # one group at a time
+        t_, s_ = M["g_t"][i], M["g_s"][i]
+        age = M["grid_age"][t_, s_]
+        logM = c[s_] + gam[M["st_region"][s_], t_] + e[t_, s_] + M["grid_after"][t_, s_] * (basis_row(age) @ inc + Dm[M["st_mpa"][s_]] * age / 10.0)
+        mean = np.exp(logM + zeta[M["g_zone"][i]]); k = M["g_n"][i] * v("m_shape")[M["g_prog"][i]]
+        lik += st.gamma(a=k, scale=mean / k).logpdf(M["g_mean"][i])
+    return float(lp + lik)
+
+
+worst = 0.0
+for g in ("lob", "pur", "shp"):
+    D = attach_counts(dict(data[g]), data[g]["y"]); D.pop("cells")
+    M = build_mass(uses, data[g], TAXA[g])
+    for curve in ("rw", "piecewise"):
+        args = ({g: D}, [], {g: CONFIG[g]}); kw = dict(curve=curve, paths=False, drift="regional", inc_scale=2.0)
+        i2 = initialize_model(jax.random.PRNGKey(5), mm.model, init_strategy=init_to_uniform(radius=0.5), model_args=args, model_kwargs=dict(mass={g: M}, **kw))
+        rng = np.random.default_rng(11)
+        z = {k: 0.3 * rng.normal(size=np.shape(v_)) for k, v_ in sorted(i2.param_info.z.items())}
+        con = constrain_fn(mm.model, args, dict(mass={g: M}, **kw), z)
+        with_mass = float(log_density(mm.model, args, dict(mass={g: M}, **kw), con)[0])
+        without = float(log_density(mm.model, args, kw, {k: v_ for k, v_ in con.items() if ":m_" not in k})[0])
+        ind = mass_logp(M, {k.split(":")[1]: v_ for k, v_ in con.items() if ":m_" in k}, curve)
+        d = abs((with_mass - without) - ind) / abs(ind); worst = max(worst, d)
+        print(f"3. {g:4s} {curve:9s} mass layer log density: model {with_mass - without:.6f}  independent {ind:.6f}  ({M['n_groups']} groups)")
+        assert d < 1e-9, d
+print("3. mass layer matches the independent calculation; worst relative difference", worst)
+print("ALL CHECKS PASSED (1-3)")

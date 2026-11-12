@@ -1,0 +1,600 @@
+v_sim_std_lob_s101.json	simulate --taxa lob --mass --mass-scenario std --scenario nopaths --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_lob_s102.json	simulate --taxa lob --mass --mass-scenario std --scenario nopaths --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_lob_s103.json	simulate --taxa lob --mass --mass-scenario std --scenario nopaths --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_lob_s104.json	simulate --taxa lob --mass --mass-scenario std --scenario nopaths --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_lob_s105.json	simulate --taxa lob --mass --mass-scenario std --scenario nopaths --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_lob_s106.json	simulate --taxa lob --mass --mass-scenario std --scenario nopaths --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_lob_s107.json	simulate --taxa lob --mass --mass-scenario std --scenario nopaths --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_lob_s108.json	simulate --taxa lob --mass --mass-scenario std --scenario nopaths --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_lob_s109.json	simulate --taxa lob --mass --mass-scenario std --scenario nopaths --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_lob_s110.json	simulate --taxa lob --mass --mass-scenario std --scenario nopaths --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_lob_s111.json	simulate --taxa lob --mass --mass-scenario std --scenario nopaths --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_lob_s112.json	simulate --taxa lob --mass --mass-scenario std --scenario nopaths --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_lob_s113.json	simulate --taxa lob --mass --mass-scenario std --scenario nopaths --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_lob_s114.json	simulate --taxa lob --mass --mass-scenario std --scenario nopaths --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_lob_s115.json	simulate --taxa lob --mass --mass-scenario std --scenario nopaths --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_lob_s116.json	simulate --taxa lob --mass --mass-scenario std --scenario nopaths --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_lob_s117.json	simulate --taxa lob --mass --mass-scenario std --scenario nopaths --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_lob_s118.json	simulate --taxa lob --mass --mass-scenario std --scenario nopaths --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_lob_s119.json	simulate --taxa lob --mass --mass-scenario std --scenario nopaths --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_lob_s120.json	simulate --taxa lob --mass --mass-scenario std --scenario nopaths --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_shp_s101.json	simulate --taxa shp --mass --mass-scenario std --scenario nopaths --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_shp_s102.json	simulate --taxa shp --mass --mass-scenario std --scenario nopaths --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_shp_s103.json	simulate --taxa shp --mass --mass-scenario std --scenario nopaths --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_shp_s104.json	simulate --taxa shp --mass --mass-scenario std --scenario nopaths --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_shp_s105.json	simulate --taxa shp --mass --mass-scenario std --scenario nopaths --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_shp_s106.json	simulate --taxa shp --mass --mass-scenario std --scenario nopaths --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_shp_s107.json	simulate --taxa shp --mass --mass-scenario std --scenario nopaths --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_shp_s108.json	simulate --taxa shp --mass --mass-scenario std --scenario nopaths --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_shp_s109.json	simulate --taxa shp --mass --mass-scenario std --scenario nopaths --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_shp_s110.json	simulate --taxa shp --mass --mass-scenario std --scenario nopaths --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_shp_s111.json	simulate --taxa shp --mass --mass-scenario std --scenario nopaths --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_shp_s112.json	simulate --taxa shp --mass --mass-scenario std --scenario nopaths --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_shp_s113.json	simulate --taxa shp --mass --mass-scenario std --scenario nopaths --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_shp_s114.json	simulate --taxa shp --mass --mass-scenario std --scenario nopaths --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_shp_s115.json	simulate --taxa shp --mass --mass-scenario std --scenario nopaths --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_shp_s116.json	simulate --taxa shp --mass --mass-scenario std --scenario nopaths --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_shp_s117.json	simulate --taxa shp --mass --mass-scenario std --scenario nopaths --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_shp_s118.json	simulate --taxa shp --mass --mass-scenario std --scenario nopaths --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_shp_s119.json	simulate --taxa shp --mass --mass-scenario std --scenario nopaths --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_shp_s120.json	simulate --taxa shp --mass --mass-scenario std --scenario nopaths --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_pur_s101.json	simulate --taxa pur --mass --mass-scenario std --scenario nopaths --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_pur_s102.json	simulate --taxa pur --mass --mass-scenario std --scenario nopaths --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_pur_s103.json	simulate --taxa pur --mass --mass-scenario std --scenario nopaths --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_pur_s104.json	simulate --taxa pur --mass --mass-scenario std --scenario nopaths --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_pur_s105.json	simulate --taxa pur --mass --mass-scenario std --scenario nopaths --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_pur_s106.json	simulate --taxa pur --mass --mass-scenario std --scenario nopaths --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_pur_s107.json	simulate --taxa pur --mass --mass-scenario std --scenario nopaths --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_pur_s108.json	simulate --taxa pur --mass --mass-scenario std --scenario nopaths --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_pur_s109.json	simulate --taxa pur --mass --mass-scenario std --scenario nopaths --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_pur_s110.json	simulate --taxa pur --mass --mass-scenario std --scenario nopaths --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_pur_s111.json	simulate --taxa pur --mass --mass-scenario std --scenario nopaths --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_pur_s112.json	simulate --taxa pur --mass --mass-scenario std --scenario nopaths --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_pur_s113.json	simulate --taxa pur --mass --mass-scenario std --scenario nopaths --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_pur_s114.json	simulate --taxa pur --mass --mass-scenario std --scenario nopaths --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_pur_s115.json	simulate --taxa pur --mass --mass-scenario std --scenario nopaths --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_pur_s116.json	simulate --taxa pur --mass --mass-scenario std --scenario nopaths --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_pur_s117.json	simulate --taxa pur --mass --mass-scenario std --scenario nopaths --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_pur_s118.json	simulate --taxa pur --mass --mass-scenario std --scenario nopaths --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_pur_s119.json	simulate --taxa pur --mass --mass-scenario std --scenario nopaths --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_pur_s120.json	simulate --taxa pur --mass --mass-scenario std --scenario nopaths --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_red_s101.json	simulate --taxa red --mass --mass-scenario std --scenario nopaths --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_red_s102.json	simulate --taxa red --mass --mass-scenario std --scenario nopaths --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_red_s103.json	simulate --taxa red --mass --mass-scenario std --scenario nopaths --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_red_s104.json	simulate --taxa red --mass --mass-scenario std --scenario nopaths --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_red_s105.json	simulate --taxa red --mass --mass-scenario std --scenario nopaths --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_red_s106.json	simulate --taxa red --mass --mass-scenario std --scenario nopaths --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_red_s107.json	simulate --taxa red --mass --mass-scenario std --scenario nopaths --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_red_s108.json	simulate --taxa red --mass --mass-scenario std --scenario nopaths --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_red_s109.json	simulate --taxa red --mass --mass-scenario std --scenario nopaths --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_red_s110.json	simulate --taxa red --mass --mass-scenario std --scenario nopaths --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_red_s111.json	simulate --taxa red --mass --mass-scenario std --scenario nopaths --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_red_s112.json	simulate --taxa red --mass --mass-scenario std --scenario nopaths --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_red_s113.json	simulate --taxa red --mass --mass-scenario std --scenario nopaths --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_red_s114.json	simulate --taxa red --mass --mass-scenario std --scenario nopaths --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_red_s115.json	simulate --taxa red --mass --mass-scenario std --scenario nopaths --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_red_s116.json	simulate --taxa red --mass --mass-scenario std --scenario nopaths --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_red_s117.json	simulate --taxa red --mass --mass-scenario std --scenario nopaths --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_red_s118.json	simulate --taxa red --mass --mass-scenario std --scenario nopaths --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_red_s119.json	simulate --taxa red --mass --mass-scenario std --scenario nopaths --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_red_s120.json	simulate --taxa red --mass --mass-scenario std --scenario nopaths --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_kelp_s101.json	simulate --taxa kelp --mass --mass-scenario std --scenario nopaths --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_kelp_s102.json	simulate --taxa kelp --mass --mass-scenario std --scenario nopaths --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_kelp_s103.json	simulate --taxa kelp --mass --mass-scenario std --scenario nopaths --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_kelp_s104.json	simulate --taxa kelp --mass --mass-scenario std --scenario nopaths --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_kelp_s105.json	simulate --taxa kelp --mass --mass-scenario std --scenario nopaths --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_kelp_s106.json	simulate --taxa kelp --mass --mass-scenario std --scenario nopaths --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_kelp_s107.json	simulate --taxa kelp --mass --mass-scenario std --scenario nopaths --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_kelp_s108.json	simulate --taxa kelp --mass --mass-scenario std --scenario nopaths --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_kelp_s109.json	simulate --taxa kelp --mass --mass-scenario std --scenario nopaths --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_kelp_s110.json	simulate --taxa kelp --mass --mass-scenario std --scenario nopaths --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_kelp_s111.json	simulate --taxa kelp --mass --mass-scenario std --scenario nopaths --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_kelp_s112.json	simulate --taxa kelp --mass --mass-scenario std --scenario nopaths --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_kelp_s113.json	simulate --taxa kelp --mass --mass-scenario std --scenario nopaths --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_kelp_s114.json	simulate --taxa kelp --mass --mass-scenario std --scenario nopaths --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_kelp_s115.json	simulate --taxa kelp --mass --mass-scenario std --scenario nopaths --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_kelp_s116.json	simulate --taxa kelp --mass --mass-scenario std --scenario nopaths --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_kelp_s117.json	simulate --taxa kelp --mass --mass-scenario std --scenario nopaths --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_kelp_s118.json	simulate --taxa kelp --mass --mass-scenario std --scenario nopaths --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_kelp_s119.json	simulate --taxa kelp --mass --mass-scenario std --scenario nopaths --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_std_kelp_s120.json	simulate --taxa kelp --mass --mass-scenario std --scenario nopaths --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_lob_s101.json	simulate --taxa lob --mass --mass-scenario null --scenario nopaths --no-direct --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_lob_s102.json	simulate --taxa lob --mass --mass-scenario null --scenario nopaths --no-direct --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_lob_s103.json	simulate --taxa lob --mass --mass-scenario null --scenario nopaths --no-direct --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_lob_s104.json	simulate --taxa lob --mass --mass-scenario null --scenario nopaths --no-direct --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_lob_s105.json	simulate --taxa lob --mass --mass-scenario null --scenario nopaths --no-direct --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_lob_s106.json	simulate --taxa lob --mass --mass-scenario null --scenario nopaths --no-direct --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_lob_s107.json	simulate --taxa lob --mass --mass-scenario null --scenario nopaths --no-direct --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_lob_s108.json	simulate --taxa lob --mass --mass-scenario null --scenario nopaths --no-direct --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_lob_s109.json	simulate --taxa lob --mass --mass-scenario null --scenario nopaths --no-direct --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_lob_s110.json	simulate --taxa lob --mass --mass-scenario null --scenario nopaths --no-direct --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_lob_s111.json	simulate --taxa lob --mass --mass-scenario null --scenario nopaths --no-direct --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_lob_s112.json	simulate --taxa lob --mass --mass-scenario null --scenario nopaths --no-direct --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_lob_s113.json	simulate --taxa lob --mass --mass-scenario null --scenario nopaths --no-direct --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_lob_s114.json	simulate --taxa lob --mass --mass-scenario null --scenario nopaths --no-direct --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_lob_s115.json	simulate --taxa lob --mass --mass-scenario null --scenario nopaths --no-direct --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_lob_s116.json	simulate --taxa lob --mass --mass-scenario null --scenario nopaths --no-direct --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_lob_s117.json	simulate --taxa lob --mass --mass-scenario null --scenario nopaths --no-direct --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_lob_s118.json	simulate --taxa lob --mass --mass-scenario null --scenario nopaths --no-direct --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_lob_s119.json	simulate --taxa lob --mass --mass-scenario null --scenario nopaths --no-direct --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_lob_s120.json	simulate --taxa lob --mass --mass-scenario null --scenario nopaths --no-direct --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_shp_s101.json	simulate --taxa shp --mass --mass-scenario null --scenario nopaths --no-direct --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_shp_s102.json	simulate --taxa shp --mass --mass-scenario null --scenario nopaths --no-direct --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_shp_s103.json	simulate --taxa shp --mass --mass-scenario null --scenario nopaths --no-direct --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_shp_s104.json	simulate --taxa shp --mass --mass-scenario null --scenario nopaths --no-direct --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_shp_s105.json	simulate --taxa shp --mass --mass-scenario null --scenario nopaths --no-direct --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_shp_s106.json	simulate --taxa shp --mass --mass-scenario null --scenario nopaths --no-direct --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_shp_s107.json	simulate --taxa shp --mass --mass-scenario null --scenario nopaths --no-direct --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_shp_s108.json	simulate --taxa shp --mass --mass-scenario null --scenario nopaths --no-direct --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_shp_s109.json	simulate --taxa shp --mass --mass-scenario null --scenario nopaths --no-direct --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_shp_s110.json	simulate --taxa shp --mass --mass-scenario null --scenario nopaths --no-direct --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_shp_s111.json	simulate --taxa shp --mass --mass-scenario null --scenario nopaths --no-direct --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_shp_s112.json	simulate --taxa shp --mass --mass-scenario null --scenario nopaths --no-direct --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_shp_s113.json	simulate --taxa shp --mass --mass-scenario null --scenario nopaths --no-direct --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_shp_s114.json	simulate --taxa shp --mass --mass-scenario null --scenario nopaths --no-direct --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_shp_s115.json	simulate --taxa shp --mass --mass-scenario null --scenario nopaths --no-direct --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_shp_s116.json	simulate --taxa shp --mass --mass-scenario null --scenario nopaths --no-direct --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_shp_s117.json	simulate --taxa shp --mass --mass-scenario null --scenario nopaths --no-direct --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_shp_s118.json	simulate --taxa shp --mass --mass-scenario null --scenario nopaths --no-direct --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_shp_s119.json	simulate --taxa shp --mass --mass-scenario null --scenario nopaths --no-direct --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_shp_s120.json	simulate --taxa shp --mass --mass-scenario null --scenario nopaths --no-direct --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_pur_s101.json	simulate --taxa pur --mass --mass-scenario null --scenario nopaths --no-direct --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_pur_s102.json	simulate --taxa pur --mass --mass-scenario null --scenario nopaths --no-direct --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_pur_s103.json	simulate --taxa pur --mass --mass-scenario null --scenario nopaths --no-direct --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_pur_s104.json	simulate --taxa pur --mass --mass-scenario null --scenario nopaths --no-direct --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_pur_s105.json	simulate --taxa pur --mass --mass-scenario null --scenario nopaths --no-direct --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_pur_s106.json	simulate --taxa pur --mass --mass-scenario null --scenario nopaths --no-direct --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_pur_s107.json	simulate --taxa pur --mass --mass-scenario null --scenario nopaths --no-direct --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_pur_s108.json	simulate --taxa pur --mass --mass-scenario null --scenario nopaths --no-direct --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_pur_s109.json	simulate --taxa pur --mass --mass-scenario null --scenario nopaths --no-direct --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_pur_s110.json	simulate --taxa pur --mass --mass-scenario null --scenario nopaths --no-direct --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_pur_s111.json	simulate --taxa pur --mass --mass-scenario null --scenario nopaths --no-direct --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_pur_s112.json	simulate --taxa pur --mass --mass-scenario null --scenario nopaths --no-direct --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_pur_s113.json	simulate --taxa pur --mass --mass-scenario null --scenario nopaths --no-direct --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_pur_s114.json	simulate --taxa pur --mass --mass-scenario null --scenario nopaths --no-direct --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_pur_s115.json	simulate --taxa pur --mass --mass-scenario null --scenario nopaths --no-direct --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_pur_s116.json	simulate --taxa pur --mass --mass-scenario null --scenario nopaths --no-direct --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_pur_s117.json	simulate --taxa pur --mass --mass-scenario null --scenario nopaths --no-direct --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_pur_s118.json	simulate --taxa pur --mass --mass-scenario null --scenario nopaths --no-direct --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_pur_s119.json	simulate --taxa pur --mass --mass-scenario null --scenario nopaths --no-direct --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_pur_s120.json	simulate --taxa pur --mass --mass-scenario null --scenario nopaths --no-direct --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_red_s101.json	simulate --taxa red --mass --mass-scenario null --scenario nopaths --no-direct --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_red_s102.json	simulate --taxa red --mass --mass-scenario null --scenario nopaths --no-direct --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_red_s103.json	simulate --taxa red --mass --mass-scenario null --scenario nopaths --no-direct --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_red_s104.json	simulate --taxa red --mass --mass-scenario null --scenario nopaths --no-direct --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_red_s105.json	simulate --taxa red --mass --mass-scenario null --scenario nopaths --no-direct --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_red_s106.json	simulate --taxa red --mass --mass-scenario null --scenario nopaths --no-direct --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_red_s107.json	simulate --taxa red --mass --mass-scenario null --scenario nopaths --no-direct --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_red_s108.json	simulate --taxa red --mass --mass-scenario null --scenario nopaths --no-direct --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_red_s109.json	simulate --taxa red --mass --mass-scenario null --scenario nopaths --no-direct --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_red_s110.json	simulate --taxa red --mass --mass-scenario null --scenario nopaths --no-direct --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_red_s111.json	simulate --taxa red --mass --mass-scenario null --scenario nopaths --no-direct --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_red_s112.json	simulate --taxa red --mass --mass-scenario null --scenario nopaths --no-direct --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_red_s113.json	simulate --taxa red --mass --mass-scenario null --scenario nopaths --no-direct --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_red_s114.json	simulate --taxa red --mass --mass-scenario null --scenario nopaths --no-direct --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_red_s115.json	simulate --taxa red --mass --mass-scenario null --scenario nopaths --no-direct --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_red_s116.json	simulate --taxa red --mass --mass-scenario null --scenario nopaths --no-direct --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_red_s117.json	simulate --taxa red --mass --mass-scenario null --scenario nopaths --no-direct --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_red_s118.json	simulate --taxa red --mass --mass-scenario null --scenario nopaths --no-direct --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_red_s119.json	simulate --taxa red --mass --mass-scenario null --scenario nopaths --no-direct --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_red_s120.json	simulate --taxa red --mass --mass-scenario null --scenario nopaths --no-direct --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_kelp_s101.json	simulate --taxa kelp --mass --mass-scenario null --scenario nopaths --no-direct --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_kelp_s102.json	simulate --taxa kelp --mass --mass-scenario null --scenario nopaths --no-direct --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_kelp_s103.json	simulate --taxa kelp --mass --mass-scenario null --scenario nopaths --no-direct --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_kelp_s104.json	simulate --taxa kelp --mass --mass-scenario null --scenario nopaths --no-direct --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_kelp_s105.json	simulate --taxa kelp --mass --mass-scenario null --scenario nopaths --no-direct --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_kelp_s106.json	simulate --taxa kelp --mass --mass-scenario null --scenario nopaths --no-direct --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_kelp_s107.json	simulate --taxa kelp --mass --mass-scenario null --scenario nopaths --no-direct --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_kelp_s108.json	simulate --taxa kelp --mass --mass-scenario null --scenario nopaths --no-direct --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_kelp_s109.json	simulate --taxa kelp --mass --mass-scenario null --scenario nopaths --no-direct --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_kelp_s110.json	simulate --taxa kelp --mass --mass-scenario null --scenario nopaths --no-direct --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_kelp_s111.json	simulate --taxa kelp --mass --mass-scenario null --scenario nopaths --no-direct --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_kelp_s112.json	simulate --taxa kelp --mass --mass-scenario null --scenario nopaths --no-direct --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_kelp_s113.json	simulate --taxa kelp --mass --mass-scenario null --scenario nopaths --no-direct --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_kelp_s114.json	simulate --taxa kelp --mass --mass-scenario null --scenario nopaths --no-direct --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_kelp_s115.json	simulate --taxa kelp --mass --mass-scenario null --scenario nopaths --no-direct --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_kelp_s116.json	simulate --taxa kelp --mass --mass-scenario null --scenario nopaths --no-direct --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_kelp_s117.json	simulate --taxa kelp --mass --mass-scenario null --scenario nopaths --no-direct --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_kelp_s118.json	simulate --taxa kelp --mass --mass-scenario null --scenario nopaths --no-direct --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_kelp_s119.json	simulate --taxa kelp --mass --mass-scenario null --scenario nopaths --no-direct --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_null_kelp_s120.json	simulate --taxa kelp --mass --mass-scenario null --scenario nopaths --no-direct --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_lob_s101.json	simulate --taxa lob --mass --mass-scenario trend --scenario nopaths --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_lob_s102.json	simulate --taxa lob --mass --mass-scenario trend --scenario nopaths --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_lob_s103.json	simulate --taxa lob --mass --mass-scenario trend --scenario nopaths --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_lob_s104.json	simulate --taxa lob --mass --mass-scenario trend --scenario nopaths --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_lob_s105.json	simulate --taxa lob --mass --mass-scenario trend --scenario nopaths --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_lob_s106.json	simulate --taxa lob --mass --mass-scenario trend --scenario nopaths --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_lob_s107.json	simulate --taxa lob --mass --mass-scenario trend --scenario nopaths --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_lob_s108.json	simulate --taxa lob --mass --mass-scenario trend --scenario nopaths --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_lob_s109.json	simulate --taxa lob --mass --mass-scenario trend --scenario nopaths --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_lob_s110.json	simulate --taxa lob --mass --mass-scenario trend --scenario nopaths --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_lob_s111.json	simulate --taxa lob --mass --mass-scenario trend --scenario nopaths --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_lob_s112.json	simulate --taxa lob --mass --mass-scenario trend --scenario nopaths --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_lob_s113.json	simulate --taxa lob --mass --mass-scenario trend --scenario nopaths --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_lob_s114.json	simulate --taxa lob --mass --mass-scenario trend --scenario nopaths --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_lob_s115.json	simulate --taxa lob --mass --mass-scenario trend --scenario nopaths --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_lob_s116.json	simulate --taxa lob --mass --mass-scenario trend --scenario nopaths --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_lob_s117.json	simulate --taxa lob --mass --mass-scenario trend --scenario nopaths --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_lob_s118.json	simulate --taxa lob --mass --mass-scenario trend --scenario nopaths --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_lob_s119.json	simulate --taxa lob --mass --mass-scenario trend --scenario nopaths --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_lob_s120.json	simulate --taxa lob --mass --mass-scenario trend --scenario nopaths --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_shp_s101.json	simulate --taxa shp --mass --mass-scenario trend --scenario nopaths --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_shp_s102.json	simulate --taxa shp --mass --mass-scenario trend --scenario nopaths --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_shp_s103.json	simulate --taxa shp --mass --mass-scenario trend --scenario nopaths --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_shp_s104.json	simulate --taxa shp --mass --mass-scenario trend --scenario nopaths --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_shp_s105.json	simulate --taxa shp --mass --mass-scenario trend --scenario nopaths --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_shp_s106.json	simulate --taxa shp --mass --mass-scenario trend --scenario nopaths --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_shp_s107.json	simulate --taxa shp --mass --mass-scenario trend --scenario nopaths --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_shp_s108.json	simulate --taxa shp --mass --mass-scenario trend --scenario nopaths --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_shp_s109.json	simulate --taxa shp --mass --mass-scenario trend --scenario nopaths --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_shp_s110.json	simulate --taxa shp --mass --mass-scenario trend --scenario nopaths --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_shp_s111.json	simulate --taxa shp --mass --mass-scenario trend --scenario nopaths --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_shp_s112.json	simulate --taxa shp --mass --mass-scenario trend --scenario nopaths --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_shp_s113.json	simulate --taxa shp --mass --mass-scenario trend --scenario nopaths --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_shp_s114.json	simulate --taxa shp --mass --mass-scenario trend --scenario nopaths --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_shp_s115.json	simulate --taxa shp --mass --mass-scenario trend --scenario nopaths --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_shp_s116.json	simulate --taxa shp --mass --mass-scenario trend --scenario nopaths --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_shp_s117.json	simulate --taxa shp --mass --mass-scenario trend --scenario nopaths --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_shp_s118.json	simulate --taxa shp --mass --mass-scenario trend --scenario nopaths --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_shp_s119.json	simulate --taxa shp --mass --mass-scenario trend --scenario nopaths --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_shp_s120.json	simulate --taxa shp --mass --mass-scenario trend --scenario nopaths --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_pur_s101.json	simulate --taxa pur --mass --mass-scenario trend --scenario nopaths --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_pur_s102.json	simulate --taxa pur --mass --mass-scenario trend --scenario nopaths --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_pur_s103.json	simulate --taxa pur --mass --mass-scenario trend --scenario nopaths --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_pur_s104.json	simulate --taxa pur --mass --mass-scenario trend --scenario nopaths --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_pur_s105.json	simulate --taxa pur --mass --mass-scenario trend --scenario nopaths --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_pur_s106.json	simulate --taxa pur --mass --mass-scenario trend --scenario nopaths --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_pur_s107.json	simulate --taxa pur --mass --mass-scenario trend --scenario nopaths --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_pur_s108.json	simulate --taxa pur --mass --mass-scenario trend --scenario nopaths --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_pur_s109.json	simulate --taxa pur --mass --mass-scenario trend --scenario nopaths --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_pur_s110.json	simulate --taxa pur --mass --mass-scenario trend --scenario nopaths --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_pur_s111.json	simulate --taxa pur --mass --mass-scenario trend --scenario nopaths --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_pur_s112.json	simulate --taxa pur --mass --mass-scenario trend --scenario nopaths --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_pur_s113.json	simulate --taxa pur --mass --mass-scenario trend --scenario nopaths --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_pur_s114.json	simulate --taxa pur --mass --mass-scenario trend --scenario nopaths --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_pur_s115.json	simulate --taxa pur --mass --mass-scenario trend --scenario nopaths --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_pur_s116.json	simulate --taxa pur --mass --mass-scenario trend --scenario nopaths --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_pur_s117.json	simulate --taxa pur --mass --mass-scenario trend --scenario nopaths --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_pur_s118.json	simulate --taxa pur --mass --mass-scenario trend --scenario nopaths --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_pur_s119.json	simulate --taxa pur --mass --mass-scenario trend --scenario nopaths --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_pur_s120.json	simulate --taxa pur --mass --mass-scenario trend --scenario nopaths --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_red_s101.json	simulate --taxa red --mass --mass-scenario trend --scenario nopaths --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_red_s102.json	simulate --taxa red --mass --mass-scenario trend --scenario nopaths --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_red_s103.json	simulate --taxa red --mass --mass-scenario trend --scenario nopaths --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_red_s104.json	simulate --taxa red --mass --mass-scenario trend --scenario nopaths --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_red_s105.json	simulate --taxa red --mass --mass-scenario trend --scenario nopaths --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_red_s106.json	simulate --taxa red --mass --mass-scenario trend --scenario nopaths --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_red_s107.json	simulate --taxa red --mass --mass-scenario trend --scenario nopaths --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_red_s108.json	simulate --taxa red --mass --mass-scenario trend --scenario nopaths --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_red_s109.json	simulate --taxa red --mass --mass-scenario trend --scenario nopaths --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_red_s110.json	simulate --taxa red --mass --mass-scenario trend --scenario nopaths --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_red_s111.json	simulate --taxa red --mass --mass-scenario trend --scenario nopaths --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_red_s112.json	simulate --taxa red --mass --mass-scenario trend --scenario nopaths --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_red_s113.json	simulate --taxa red --mass --mass-scenario trend --scenario nopaths --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_red_s114.json	simulate --taxa red --mass --mass-scenario trend --scenario nopaths --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_red_s115.json	simulate --taxa red --mass --mass-scenario trend --scenario nopaths --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_red_s116.json	simulate --taxa red --mass --mass-scenario trend --scenario nopaths --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_red_s117.json	simulate --taxa red --mass --mass-scenario trend --scenario nopaths --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_red_s118.json	simulate --taxa red --mass --mass-scenario trend --scenario nopaths --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_red_s119.json	simulate --taxa red --mass --mass-scenario trend --scenario nopaths --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_red_s120.json	simulate --taxa red --mass --mass-scenario trend --scenario nopaths --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_kelp_s101.json	simulate --taxa kelp --mass --mass-scenario trend --scenario nopaths --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_kelp_s102.json	simulate --taxa kelp --mass --mass-scenario trend --scenario nopaths --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_kelp_s103.json	simulate --taxa kelp --mass --mass-scenario trend --scenario nopaths --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_kelp_s104.json	simulate --taxa kelp --mass --mass-scenario trend --scenario nopaths --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_kelp_s105.json	simulate --taxa kelp --mass --mass-scenario trend --scenario nopaths --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_kelp_s106.json	simulate --taxa kelp --mass --mass-scenario trend --scenario nopaths --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_kelp_s107.json	simulate --taxa kelp --mass --mass-scenario trend --scenario nopaths --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_kelp_s108.json	simulate --taxa kelp --mass --mass-scenario trend --scenario nopaths --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_kelp_s109.json	simulate --taxa kelp --mass --mass-scenario trend --scenario nopaths --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_kelp_s110.json	simulate --taxa kelp --mass --mass-scenario trend --scenario nopaths --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_kelp_s111.json	simulate --taxa kelp --mass --mass-scenario trend --scenario nopaths --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_kelp_s112.json	simulate --taxa kelp --mass --mass-scenario trend --scenario nopaths --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_kelp_s113.json	simulate --taxa kelp --mass --mass-scenario trend --scenario nopaths --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_kelp_s114.json	simulate --taxa kelp --mass --mass-scenario trend --scenario nopaths --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_kelp_s115.json	simulate --taxa kelp --mass --mass-scenario trend --scenario nopaths --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_kelp_s116.json	simulate --taxa kelp --mass --mass-scenario trend --scenario nopaths --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_kelp_s117.json	simulate --taxa kelp --mass --mass-scenario trend --scenario nopaths --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_kelp_s118.json	simulate --taxa kelp --mass --mass-scenario trend --scenario nopaths --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_kelp_s119.json	simulate --taxa kelp --mass --mass-scenario trend --scenario nopaths --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_trend_kelp_s120.json	simulate --taxa kelp --mass --mass-scenario trend --scenario nopaths --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_lob_s101.json	simulate --taxa lob --mass --mass-scenario bimodal --scenario nopaths --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_lob_s102.json	simulate --taxa lob --mass --mass-scenario bimodal --scenario nopaths --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_lob_s103.json	simulate --taxa lob --mass --mass-scenario bimodal --scenario nopaths --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_lob_s104.json	simulate --taxa lob --mass --mass-scenario bimodal --scenario nopaths --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_lob_s105.json	simulate --taxa lob --mass --mass-scenario bimodal --scenario nopaths --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_lob_s106.json	simulate --taxa lob --mass --mass-scenario bimodal --scenario nopaths --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_lob_s107.json	simulate --taxa lob --mass --mass-scenario bimodal --scenario nopaths --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_lob_s108.json	simulate --taxa lob --mass --mass-scenario bimodal --scenario nopaths --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_lob_s109.json	simulate --taxa lob --mass --mass-scenario bimodal --scenario nopaths --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_lob_s110.json	simulate --taxa lob --mass --mass-scenario bimodal --scenario nopaths --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_lob_s111.json	simulate --taxa lob --mass --mass-scenario bimodal --scenario nopaths --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_lob_s112.json	simulate --taxa lob --mass --mass-scenario bimodal --scenario nopaths --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_lob_s113.json	simulate --taxa lob --mass --mass-scenario bimodal --scenario nopaths --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_lob_s114.json	simulate --taxa lob --mass --mass-scenario bimodal --scenario nopaths --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_lob_s115.json	simulate --taxa lob --mass --mass-scenario bimodal --scenario nopaths --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_lob_s116.json	simulate --taxa lob --mass --mass-scenario bimodal --scenario nopaths --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_lob_s117.json	simulate --taxa lob --mass --mass-scenario bimodal --scenario nopaths --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_lob_s118.json	simulate --taxa lob --mass --mass-scenario bimodal --scenario nopaths --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_lob_s119.json	simulate --taxa lob --mass --mass-scenario bimodal --scenario nopaths --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_lob_s120.json	simulate --taxa lob --mass --mass-scenario bimodal --scenario nopaths --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_shp_s101.json	simulate --taxa shp --mass --mass-scenario bimodal --scenario nopaths --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_shp_s102.json	simulate --taxa shp --mass --mass-scenario bimodal --scenario nopaths --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_shp_s103.json	simulate --taxa shp --mass --mass-scenario bimodal --scenario nopaths --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_shp_s104.json	simulate --taxa shp --mass --mass-scenario bimodal --scenario nopaths --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_shp_s105.json	simulate --taxa shp --mass --mass-scenario bimodal --scenario nopaths --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_shp_s106.json	simulate --taxa shp --mass --mass-scenario bimodal --scenario nopaths --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_shp_s107.json	simulate --taxa shp --mass --mass-scenario bimodal --scenario nopaths --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_shp_s108.json	simulate --taxa shp --mass --mass-scenario bimodal --scenario nopaths --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_shp_s109.json	simulate --taxa shp --mass --mass-scenario bimodal --scenario nopaths --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_shp_s110.json	simulate --taxa shp --mass --mass-scenario bimodal --scenario nopaths --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_shp_s111.json	simulate --taxa shp --mass --mass-scenario bimodal --scenario nopaths --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_shp_s112.json	simulate --taxa shp --mass --mass-scenario bimodal --scenario nopaths --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_shp_s113.json	simulate --taxa shp --mass --mass-scenario bimodal --scenario nopaths --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_shp_s114.json	simulate --taxa shp --mass --mass-scenario bimodal --scenario nopaths --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_shp_s115.json	simulate --taxa shp --mass --mass-scenario bimodal --scenario nopaths --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_shp_s116.json	simulate --taxa shp --mass --mass-scenario bimodal --scenario nopaths --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_shp_s117.json	simulate --taxa shp --mass --mass-scenario bimodal --scenario nopaths --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_shp_s118.json	simulate --taxa shp --mass --mass-scenario bimodal --scenario nopaths --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_shp_s119.json	simulate --taxa shp --mass --mass-scenario bimodal --scenario nopaths --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_shp_s120.json	simulate --taxa shp --mass --mass-scenario bimodal --scenario nopaths --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_pur_s101.json	simulate --taxa pur --mass --mass-scenario bimodal --scenario nopaths --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_pur_s102.json	simulate --taxa pur --mass --mass-scenario bimodal --scenario nopaths --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_pur_s103.json	simulate --taxa pur --mass --mass-scenario bimodal --scenario nopaths --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_pur_s104.json	simulate --taxa pur --mass --mass-scenario bimodal --scenario nopaths --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_pur_s105.json	simulate --taxa pur --mass --mass-scenario bimodal --scenario nopaths --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_pur_s106.json	simulate --taxa pur --mass --mass-scenario bimodal --scenario nopaths --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_pur_s107.json	simulate --taxa pur --mass --mass-scenario bimodal --scenario nopaths --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_pur_s108.json	simulate --taxa pur --mass --mass-scenario bimodal --scenario nopaths --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_pur_s109.json	simulate --taxa pur --mass --mass-scenario bimodal --scenario nopaths --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_pur_s110.json	simulate --taxa pur --mass --mass-scenario bimodal --scenario nopaths --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_pur_s111.json	simulate --taxa pur --mass --mass-scenario bimodal --scenario nopaths --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_pur_s112.json	simulate --taxa pur --mass --mass-scenario bimodal --scenario nopaths --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_pur_s113.json	simulate --taxa pur --mass --mass-scenario bimodal --scenario nopaths --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_pur_s114.json	simulate --taxa pur --mass --mass-scenario bimodal --scenario nopaths --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_pur_s115.json	simulate --taxa pur --mass --mass-scenario bimodal --scenario nopaths --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_pur_s116.json	simulate --taxa pur --mass --mass-scenario bimodal --scenario nopaths --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_pur_s117.json	simulate --taxa pur --mass --mass-scenario bimodal --scenario nopaths --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_pur_s118.json	simulate --taxa pur --mass --mass-scenario bimodal --scenario nopaths --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_pur_s119.json	simulate --taxa pur --mass --mass-scenario bimodal --scenario nopaths --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_pur_s120.json	simulate --taxa pur --mass --mass-scenario bimodal --scenario nopaths --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_red_s101.json	simulate --taxa red --mass --mass-scenario bimodal --scenario nopaths --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_red_s102.json	simulate --taxa red --mass --mass-scenario bimodal --scenario nopaths --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_red_s103.json	simulate --taxa red --mass --mass-scenario bimodal --scenario nopaths --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_red_s104.json	simulate --taxa red --mass --mass-scenario bimodal --scenario nopaths --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_red_s105.json	simulate --taxa red --mass --mass-scenario bimodal --scenario nopaths --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_red_s106.json	simulate --taxa red --mass --mass-scenario bimodal --scenario nopaths --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_red_s107.json	simulate --taxa red --mass --mass-scenario bimodal --scenario nopaths --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_red_s108.json	simulate --taxa red --mass --mass-scenario bimodal --scenario nopaths --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_red_s109.json	simulate --taxa red --mass --mass-scenario bimodal --scenario nopaths --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_red_s110.json	simulate --taxa red --mass --mass-scenario bimodal --scenario nopaths --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_red_s111.json	simulate --taxa red --mass --mass-scenario bimodal --scenario nopaths --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_red_s112.json	simulate --taxa red --mass --mass-scenario bimodal --scenario nopaths --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_red_s113.json	simulate --taxa red --mass --mass-scenario bimodal --scenario nopaths --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_red_s114.json	simulate --taxa red --mass --mass-scenario bimodal --scenario nopaths --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_red_s115.json	simulate --taxa red --mass --mass-scenario bimodal --scenario nopaths --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_red_s116.json	simulate --taxa red --mass --mass-scenario bimodal --scenario nopaths --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_red_s117.json	simulate --taxa red --mass --mass-scenario bimodal --scenario nopaths --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_red_s118.json	simulate --taxa red --mass --mass-scenario bimodal --scenario nopaths --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_red_s119.json	simulate --taxa red --mass --mass-scenario bimodal --scenario nopaths --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_red_s120.json	simulate --taxa red --mass --mass-scenario bimodal --scenario nopaths --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_kelp_s101.json	simulate --taxa kelp --mass --mass-scenario bimodal --scenario nopaths --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_kelp_s102.json	simulate --taxa kelp --mass --mass-scenario bimodal --scenario nopaths --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_kelp_s103.json	simulate --taxa kelp --mass --mass-scenario bimodal --scenario nopaths --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_kelp_s104.json	simulate --taxa kelp --mass --mass-scenario bimodal --scenario nopaths --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_kelp_s105.json	simulate --taxa kelp --mass --mass-scenario bimodal --scenario nopaths --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_kelp_s106.json	simulate --taxa kelp --mass --mass-scenario bimodal --scenario nopaths --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_kelp_s107.json	simulate --taxa kelp --mass --mass-scenario bimodal --scenario nopaths --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_kelp_s108.json	simulate --taxa kelp --mass --mass-scenario bimodal --scenario nopaths --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_kelp_s109.json	simulate --taxa kelp --mass --mass-scenario bimodal --scenario nopaths --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_kelp_s110.json	simulate --taxa kelp --mass --mass-scenario bimodal --scenario nopaths --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_kelp_s111.json	simulate --taxa kelp --mass --mass-scenario bimodal --scenario nopaths --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_kelp_s112.json	simulate --taxa kelp --mass --mass-scenario bimodal --scenario nopaths --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_kelp_s113.json	simulate --taxa kelp --mass --mass-scenario bimodal --scenario nopaths --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_kelp_s114.json	simulate --taxa kelp --mass --mass-scenario bimodal --scenario nopaths --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_kelp_s115.json	simulate --taxa kelp --mass --mass-scenario bimodal --scenario nopaths --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_kelp_s116.json	simulate --taxa kelp --mass --mass-scenario bimodal --scenario nopaths --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_kelp_s117.json	simulate --taxa kelp --mass --mass-scenario bimodal --scenario nopaths --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_kelp_s118.json	simulate --taxa kelp --mass --mass-scenario bimodal --scenario nopaths --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_kelp_s119.json	simulate --taxa kelp --mass --mass-scenario bimodal --scenario nopaths --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_bimodal_kelp_s120.json	simulate --taxa kelp --mass --mass-scenario bimodal --scenario nopaths --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_lob_s101.json	simulate --taxa lob --mass --mass-scenario visitnoise --scenario nopaths --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_lob_s102.json	simulate --taxa lob --mass --mass-scenario visitnoise --scenario nopaths --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_lob_s103.json	simulate --taxa lob --mass --mass-scenario visitnoise --scenario nopaths --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_lob_s104.json	simulate --taxa lob --mass --mass-scenario visitnoise --scenario nopaths --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_lob_s105.json	simulate --taxa lob --mass --mass-scenario visitnoise --scenario nopaths --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_lob_s106.json	simulate --taxa lob --mass --mass-scenario visitnoise --scenario nopaths --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_lob_s107.json	simulate --taxa lob --mass --mass-scenario visitnoise --scenario nopaths --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_lob_s108.json	simulate --taxa lob --mass --mass-scenario visitnoise --scenario nopaths --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_lob_s109.json	simulate --taxa lob --mass --mass-scenario visitnoise --scenario nopaths --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_lob_s110.json	simulate --taxa lob --mass --mass-scenario visitnoise --scenario nopaths --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_lob_s111.json	simulate --taxa lob --mass --mass-scenario visitnoise --scenario nopaths --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_lob_s112.json	simulate --taxa lob --mass --mass-scenario visitnoise --scenario nopaths --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_lob_s113.json	simulate --taxa lob --mass --mass-scenario visitnoise --scenario nopaths --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_lob_s114.json	simulate --taxa lob --mass --mass-scenario visitnoise --scenario nopaths --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_lob_s115.json	simulate --taxa lob --mass --mass-scenario visitnoise --scenario nopaths --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_lob_s116.json	simulate --taxa lob --mass --mass-scenario visitnoise --scenario nopaths --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_lob_s117.json	simulate --taxa lob --mass --mass-scenario visitnoise --scenario nopaths --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_lob_s118.json	simulate --taxa lob --mass --mass-scenario visitnoise --scenario nopaths --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_lob_s119.json	simulate --taxa lob --mass --mass-scenario visitnoise --scenario nopaths --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_lob_s120.json	simulate --taxa lob --mass --mass-scenario visitnoise --scenario nopaths --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_shp_s101.json	simulate --taxa shp --mass --mass-scenario visitnoise --scenario nopaths --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_shp_s102.json	simulate --taxa shp --mass --mass-scenario visitnoise --scenario nopaths --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_shp_s103.json	simulate --taxa shp --mass --mass-scenario visitnoise --scenario nopaths --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_shp_s104.json	simulate --taxa shp --mass --mass-scenario visitnoise --scenario nopaths --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_shp_s105.json	simulate --taxa shp --mass --mass-scenario visitnoise --scenario nopaths --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_shp_s106.json	simulate --taxa shp --mass --mass-scenario visitnoise --scenario nopaths --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_shp_s107.json	simulate --taxa shp --mass --mass-scenario visitnoise --scenario nopaths --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_shp_s108.json	simulate --taxa shp --mass --mass-scenario visitnoise --scenario nopaths --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_shp_s109.json	simulate --taxa shp --mass --mass-scenario visitnoise --scenario nopaths --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_shp_s110.json	simulate --taxa shp --mass --mass-scenario visitnoise --scenario nopaths --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_shp_s111.json	simulate --taxa shp --mass --mass-scenario visitnoise --scenario nopaths --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_shp_s112.json	simulate --taxa shp --mass --mass-scenario visitnoise --scenario nopaths --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_shp_s113.json	simulate --taxa shp --mass --mass-scenario visitnoise --scenario nopaths --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_shp_s114.json	simulate --taxa shp --mass --mass-scenario visitnoise --scenario nopaths --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_shp_s115.json	simulate --taxa shp --mass --mass-scenario visitnoise --scenario nopaths --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_shp_s116.json	simulate --taxa shp --mass --mass-scenario visitnoise --scenario nopaths --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_shp_s117.json	simulate --taxa shp --mass --mass-scenario visitnoise --scenario nopaths --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_shp_s118.json	simulate --taxa shp --mass --mass-scenario visitnoise --scenario nopaths --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_shp_s119.json	simulate --taxa shp --mass --mass-scenario visitnoise --scenario nopaths --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_shp_s120.json	simulate --taxa shp --mass --mass-scenario visitnoise --scenario nopaths --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_pur_s101.json	simulate --taxa pur --mass --mass-scenario visitnoise --scenario nopaths --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_pur_s102.json	simulate --taxa pur --mass --mass-scenario visitnoise --scenario nopaths --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_pur_s103.json	simulate --taxa pur --mass --mass-scenario visitnoise --scenario nopaths --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_pur_s104.json	simulate --taxa pur --mass --mass-scenario visitnoise --scenario nopaths --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_pur_s105.json	simulate --taxa pur --mass --mass-scenario visitnoise --scenario nopaths --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_pur_s106.json	simulate --taxa pur --mass --mass-scenario visitnoise --scenario nopaths --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_pur_s107.json	simulate --taxa pur --mass --mass-scenario visitnoise --scenario nopaths --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_pur_s108.json	simulate --taxa pur --mass --mass-scenario visitnoise --scenario nopaths --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_pur_s109.json	simulate --taxa pur --mass --mass-scenario visitnoise --scenario nopaths --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_pur_s110.json	simulate --taxa pur --mass --mass-scenario visitnoise --scenario nopaths --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_pur_s111.json	simulate --taxa pur --mass --mass-scenario visitnoise --scenario nopaths --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_pur_s112.json	simulate --taxa pur --mass --mass-scenario visitnoise --scenario nopaths --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_pur_s113.json	simulate --taxa pur --mass --mass-scenario visitnoise --scenario nopaths --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_pur_s114.json	simulate --taxa pur --mass --mass-scenario visitnoise --scenario nopaths --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_pur_s115.json	simulate --taxa pur --mass --mass-scenario visitnoise --scenario nopaths --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_pur_s116.json	simulate --taxa pur --mass --mass-scenario visitnoise --scenario nopaths --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_pur_s117.json	simulate --taxa pur --mass --mass-scenario visitnoise --scenario nopaths --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_pur_s118.json	simulate --taxa pur --mass --mass-scenario visitnoise --scenario nopaths --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_pur_s119.json	simulate --taxa pur --mass --mass-scenario visitnoise --scenario nopaths --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_pur_s120.json	simulate --taxa pur --mass --mass-scenario visitnoise --scenario nopaths --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_red_s101.json	simulate --taxa red --mass --mass-scenario visitnoise --scenario nopaths --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_red_s102.json	simulate --taxa red --mass --mass-scenario visitnoise --scenario nopaths --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_red_s103.json	simulate --taxa red --mass --mass-scenario visitnoise --scenario nopaths --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_red_s104.json	simulate --taxa red --mass --mass-scenario visitnoise --scenario nopaths --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_red_s105.json	simulate --taxa red --mass --mass-scenario visitnoise --scenario nopaths --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_red_s106.json	simulate --taxa red --mass --mass-scenario visitnoise --scenario nopaths --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_red_s107.json	simulate --taxa red --mass --mass-scenario visitnoise --scenario nopaths --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_red_s108.json	simulate --taxa red --mass --mass-scenario visitnoise --scenario nopaths --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_red_s109.json	simulate --taxa red --mass --mass-scenario visitnoise --scenario nopaths --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_red_s110.json	simulate --taxa red --mass --mass-scenario visitnoise --scenario nopaths --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_red_s111.json	simulate --taxa red --mass --mass-scenario visitnoise --scenario nopaths --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_red_s112.json	simulate --taxa red --mass --mass-scenario visitnoise --scenario nopaths --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_red_s113.json	simulate --taxa red --mass --mass-scenario visitnoise --scenario nopaths --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_red_s114.json	simulate --taxa red --mass --mass-scenario visitnoise --scenario nopaths --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_red_s115.json	simulate --taxa red --mass --mass-scenario visitnoise --scenario nopaths --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_red_s116.json	simulate --taxa red --mass --mass-scenario visitnoise --scenario nopaths --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_red_s117.json	simulate --taxa red --mass --mass-scenario visitnoise --scenario nopaths --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_red_s118.json	simulate --taxa red --mass --mass-scenario visitnoise --scenario nopaths --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_red_s119.json	simulate --taxa red --mass --mass-scenario visitnoise --scenario nopaths --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_red_s120.json	simulate --taxa red --mass --mass-scenario visitnoise --scenario nopaths --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_kelp_s101.json	simulate --taxa kelp --mass --mass-scenario visitnoise --scenario nopaths --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_kelp_s102.json	simulate --taxa kelp --mass --mass-scenario visitnoise --scenario nopaths --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_kelp_s103.json	simulate --taxa kelp --mass --mass-scenario visitnoise --scenario nopaths --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_kelp_s104.json	simulate --taxa kelp --mass --mass-scenario visitnoise --scenario nopaths --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_kelp_s105.json	simulate --taxa kelp --mass --mass-scenario visitnoise --scenario nopaths --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_kelp_s106.json	simulate --taxa kelp --mass --mass-scenario visitnoise --scenario nopaths --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_kelp_s107.json	simulate --taxa kelp --mass --mass-scenario visitnoise --scenario nopaths --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_kelp_s108.json	simulate --taxa kelp --mass --mass-scenario visitnoise --scenario nopaths --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_kelp_s109.json	simulate --taxa kelp --mass --mass-scenario visitnoise --scenario nopaths --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_kelp_s110.json	simulate --taxa kelp --mass --mass-scenario visitnoise --scenario nopaths --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_kelp_s111.json	simulate --taxa kelp --mass --mass-scenario visitnoise --scenario nopaths --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_kelp_s112.json	simulate --taxa kelp --mass --mass-scenario visitnoise --scenario nopaths --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_kelp_s113.json	simulate --taxa kelp --mass --mass-scenario visitnoise --scenario nopaths --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_kelp_s114.json	simulate --taxa kelp --mass --mass-scenario visitnoise --scenario nopaths --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_kelp_s115.json	simulate --taxa kelp --mass --mass-scenario visitnoise --scenario nopaths --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_kelp_s116.json	simulate --taxa kelp --mass --mass-scenario visitnoise --scenario nopaths --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_kelp_s117.json	simulate --taxa kelp --mass --mass-scenario visitnoise --scenario nopaths --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_kelp_s118.json	simulate --taxa kelp --mass --mass-scenario visitnoise --scenario nopaths --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_kelp_s119.json	simulate --taxa kelp --mass --mass-scenario visitnoise --scenario nopaths --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_visitnoise_kelp_s120.json	simulate --taxa kelp --mass --mass-scenario visitnoise --scenario nopaths --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_lob_s101.json	simulate --taxa lob --mass --mass-scenario coupled --scenario nopaths --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_lob_s102.json	simulate --taxa lob --mass --mass-scenario coupled --scenario nopaths --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_lob_s103.json	simulate --taxa lob --mass --mass-scenario coupled --scenario nopaths --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_lob_s104.json	simulate --taxa lob --mass --mass-scenario coupled --scenario nopaths --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_lob_s105.json	simulate --taxa lob --mass --mass-scenario coupled --scenario nopaths --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_lob_s106.json	simulate --taxa lob --mass --mass-scenario coupled --scenario nopaths --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_lob_s107.json	simulate --taxa lob --mass --mass-scenario coupled --scenario nopaths --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_lob_s108.json	simulate --taxa lob --mass --mass-scenario coupled --scenario nopaths --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_lob_s109.json	simulate --taxa lob --mass --mass-scenario coupled --scenario nopaths --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_lob_s110.json	simulate --taxa lob --mass --mass-scenario coupled --scenario nopaths --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_lob_s111.json	simulate --taxa lob --mass --mass-scenario coupled --scenario nopaths --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_lob_s112.json	simulate --taxa lob --mass --mass-scenario coupled --scenario nopaths --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_lob_s113.json	simulate --taxa lob --mass --mass-scenario coupled --scenario nopaths --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_lob_s114.json	simulate --taxa lob --mass --mass-scenario coupled --scenario nopaths --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_lob_s115.json	simulate --taxa lob --mass --mass-scenario coupled --scenario nopaths --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_lob_s116.json	simulate --taxa lob --mass --mass-scenario coupled --scenario nopaths --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_lob_s117.json	simulate --taxa lob --mass --mass-scenario coupled --scenario nopaths --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_lob_s118.json	simulate --taxa lob --mass --mass-scenario coupled --scenario nopaths --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_lob_s119.json	simulate --taxa lob --mass --mass-scenario coupled --scenario nopaths --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_lob_s120.json	simulate --taxa lob --mass --mass-scenario coupled --scenario nopaths --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_shp_s101.json	simulate --taxa shp --mass --mass-scenario coupled --scenario nopaths --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_shp_s102.json	simulate --taxa shp --mass --mass-scenario coupled --scenario nopaths --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_shp_s103.json	simulate --taxa shp --mass --mass-scenario coupled --scenario nopaths --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_shp_s104.json	simulate --taxa shp --mass --mass-scenario coupled --scenario nopaths --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_shp_s105.json	simulate --taxa shp --mass --mass-scenario coupled --scenario nopaths --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_shp_s106.json	simulate --taxa shp --mass --mass-scenario coupled --scenario nopaths --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_shp_s107.json	simulate --taxa shp --mass --mass-scenario coupled --scenario nopaths --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_shp_s108.json	simulate --taxa shp --mass --mass-scenario coupled --scenario nopaths --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_shp_s109.json	simulate --taxa shp --mass --mass-scenario coupled --scenario nopaths --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_shp_s110.json	simulate --taxa shp --mass --mass-scenario coupled --scenario nopaths --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_shp_s111.json	simulate --taxa shp --mass --mass-scenario coupled --scenario nopaths --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_shp_s112.json	simulate --taxa shp --mass --mass-scenario coupled --scenario nopaths --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_shp_s113.json	simulate --taxa shp --mass --mass-scenario coupled --scenario nopaths --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_shp_s114.json	simulate --taxa shp --mass --mass-scenario coupled --scenario nopaths --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_shp_s115.json	simulate --taxa shp --mass --mass-scenario coupled --scenario nopaths --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_shp_s116.json	simulate --taxa shp --mass --mass-scenario coupled --scenario nopaths --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_shp_s117.json	simulate --taxa shp --mass --mass-scenario coupled --scenario nopaths --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_shp_s118.json	simulate --taxa shp --mass --mass-scenario coupled --scenario nopaths --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_shp_s119.json	simulate --taxa shp --mass --mass-scenario coupled --scenario nopaths --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_shp_s120.json	simulate --taxa shp --mass --mass-scenario coupled --scenario nopaths --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_pur_s101.json	simulate --taxa pur --mass --mass-scenario coupled --scenario nopaths --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_pur_s102.json	simulate --taxa pur --mass --mass-scenario coupled --scenario nopaths --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_pur_s103.json	simulate --taxa pur --mass --mass-scenario coupled --scenario nopaths --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_pur_s104.json	simulate --taxa pur --mass --mass-scenario coupled --scenario nopaths --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_pur_s105.json	simulate --taxa pur --mass --mass-scenario coupled --scenario nopaths --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_pur_s106.json	simulate --taxa pur --mass --mass-scenario coupled --scenario nopaths --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_pur_s107.json	simulate --taxa pur --mass --mass-scenario coupled --scenario nopaths --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_pur_s108.json	simulate --taxa pur --mass --mass-scenario coupled --scenario nopaths --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_pur_s109.json	simulate --taxa pur --mass --mass-scenario coupled --scenario nopaths --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_pur_s110.json	simulate --taxa pur --mass --mass-scenario coupled --scenario nopaths --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_pur_s111.json	simulate --taxa pur --mass --mass-scenario coupled --scenario nopaths --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_pur_s112.json	simulate --taxa pur --mass --mass-scenario coupled --scenario nopaths --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_pur_s113.json	simulate --taxa pur --mass --mass-scenario coupled --scenario nopaths --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_pur_s114.json	simulate --taxa pur --mass --mass-scenario coupled --scenario nopaths --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_pur_s115.json	simulate --taxa pur --mass --mass-scenario coupled --scenario nopaths --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_pur_s116.json	simulate --taxa pur --mass --mass-scenario coupled --scenario nopaths --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_pur_s117.json	simulate --taxa pur --mass --mass-scenario coupled --scenario nopaths --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_pur_s118.json	simulate --taxa pur --mass --mass-scenario coupled --scenario nopaths --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_pur_s119.json	simulate --taxa pur --mass --mass-scenario coupled --scenario nopaths --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_pur_s120.json	simulate --taxa pur --mass --mass-scenario coupled --scenario nopaths --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_red_s101.json	simulate --taxa red --mass --mass-scenario coupled --scenario nopaths --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_red_s102.json	simulate --taxa red --mass --mass-scenario coupled --scenario nopaths --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_red_s103.json	simulate --taxa red --mass --mass-scenario coupled --scenario nopaths --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_red_s104.json	simulate --taxa red --mass --mass-scenario coupled --scenario nopaths --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_red_s105.json	simulate --taxa red --mass --mass-scenario coupled --scenario nopaths --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_red_s106.json	simulate --taxa red --mass --mass-scenario coupled --scenario nopaths --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_red_s107.json	simulate --taxa red --mass --mass-scenario coupled --scenario nopaths --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_red_s108.json	simulate --taxa red --mass --mass-scenario coupled --scenario nopaths --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_red_s109.json	simulate --taxa red --mass --mass-scenario coupled --scenario nopaths --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_red_s110.json	simulate --taxa red --mass --mass-scenario coupled --scenario nopaths --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_red_s111.json	simulate --taxa red --mass --mass-scenario coupled --scenario nopaths --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_red_s112.json	simulate --taxa red --mass --mass-scenario coupled --scenario nopaths --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_red_s113.json	simulate --taxa red --mass --mass-scenario coupled --scenario nopaths --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_red_s114.json	simulate --taxa red --mass --mass-scenario coupled --scenario nopaths --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_red_s115.json	simulate --taxa red --mass --mass-scenario coupled --scenario nopaths --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_red_s116.json	simulate --taxa red --mass --mass-scenario coupled --scenario nopaths --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_red_s117.json	simulate --taxa red --mass --mass-scenario coupled --scenario nopaths --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_red_s118.json	simulate --taxa red --mass --mass-scenario coupled --scenario nopaths --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_red_s119.json	simulate --taxa red --mass --mass-scenario coupled --scenario nopaths --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_red_s120.json	simulate --taxa red --mass --mass-scenario coupled --scenario nopaths --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_kelp_s101.json	simulate --taxa kelp --mass --mass-scenario coupled --scenario nopaths --seed 101 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_kelp_s102.json	simulate --taxa kelp --mass --mass-scenario coupled --scenario nopaths --seed 102 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_kelp_s103.json	simulate --taxa kelp --mass --mass-scenario coupled --scenario nopaths --seed 103 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_kelp_s104.json	simulate --taxa kelp --mass --mass-scenario coupled --scenario nopaths --seed 104 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_kelp_s105.json	simulate --taxa kelp --mass --mass-scenario coupled --scenario nopaths --seed 105 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_kelp_s106.json	simulate --taxa kelp --mass --mass-scenario coupled --scenario nopaths --seed 106 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_kelp_s107.json	simulate --taxa kelp --mass --mass-scenario coupled --scenario nopaths --seed 107 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_kelp_s108.json	simulate --taxa kelp --mass --mass-scenario coupled --scenario nopaths --seed 108 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_kelp_s109.json	simulate --taxa kelp --mass --mass-scenario coupled --scenario nopaths --seed 109 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_kelp_s110.json	simulate --taxa kelp --mass --mass-scenario coupled --scenario nopaths --seed 110 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_kelp_s111.json	simulate --taxa kelp --mass --mass-scenario coupled --scenario nopaths --seed 111 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_kelp_s112.json	simulate --taxa kelp --mass --mass-scenario coupled --scenario nopaths --seed 112 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_kelp_s113.json	simulate --taxa kelp --mass --mass-scenario coupled --scenario nopaths --seed 113 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_kelp_s114.json	simulate --taxa kelp --mass --mass-scenario coupled --scenario nopaths --seed 114 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_kelp_s115.json	simulate --taxa kelp --mass --mass-scenario coupled --scenario nopaths --seed 115 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_kelp_s116.json	simulate --taxa kelp --mass --mass-scenario coupled --scenario nopaths --seed 116 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_kelp_s117.json	simulate --taxa kelp --mass --mass-scenario coupled --scenario nopaths --seed 117 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_kelp_s118.json	simulate --taxa kelp --mass --mass-scenario coupled --scenario nopaths --seed 118 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_kelp_s119.json	simulate --taxa kelp --mass --mass-scenario coupled --scenario nopaths --seed 119 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500
+v_sim_coupled_kelp_s120.json	simulate --taxa kelp --mass --mass-scenario coupled --scenario nopaths --seed 120 --curve rw --cpus 2 --chains 2 --warmup 1500 --samples 1500

@@ -80,7 +80,7 @@ def mass_groups(uses_path, taxon, inv_path=None, variant="main", drop=()):
     return g[(g.n > 0) & (g["mean"] > 0)], "size_pool_inventory.csv + survey-unit table"
 
 
-def build_mass(uses_path, D, taxon, min_before=3, inv_path=None, variant="main", drop=()):
+def build_mass(uses_path, D, taxon, min_before=3, inv_path=None, variant="main", drop=(), holdout_seed=None, holdout_frac=0.2):
     """Mass inputs aligned to the density inputs D of the same taxon. Returns None if there are no groups."""
     g, source = mass_groups(uses_path, taxon, inv_path, variant, drop)
     s_ix = {s: i for i, s in enumerate(D["stations"])}
@@ -94,6 +94,18 @@ def build_mass(uses_path, D, taxon, min_before=3, inv_path=None, variant="main",
     g["s"] = g.sd.map(m_ix); g["t"] = g.year - y0
     T = len(D["years"]); yy = np.asarray(D["years"])[:, None]
     span = g.groupby("s").year.agg(["min", "max"]).sort_index()
+    held = g.iloc[:0]
+    if holdout_seed is not None:
+        # Hold out every group of a random share of station-years, for out-of-sample prediction. Only station-years
+        # strictly inside a station's surveyed span are eligible, so each held-out year still has a latent state
+        # informed by the years on both sides.
+        sy0 = g[["s", "year"]].drop_duplicates()
+        lo, hi = sy0.s.map(span["min"]), sy0.s.map(span["max"])
+        inner = sy0[(sy0.year > lo) & (sy0.year < hi)]
+        pick = inner.sample(frac=holdout_frac, random_state=int(holdout_seed))
+        key = g.s.astype(str) + "|" + g.year.astype(str)
+        m = key.isin(set(pick.s.astype(str) + "|" + pick.year.astype(str)))
+        held, g = g[m].copy(), g[~m].copy()
     first = (yy == span["min"].values[None, :]).astype(float)
     inside = ((yy > span["min"].values[None, :]) & (yy <= span["max"].values[None, :])).astype(float)
     st_mpa = np.asarray(D["st_mpa"])[keep]; st_prot = np.asarray(D["st_prot"])[keep]
@@ -105,7 +117,12 @@ def build_mass(uses_path, D, taxon, min_before=3, inv_path=None, variant="main",
         d = sy[(sy.mpa == m) & (sy.year < sy["T"])]
         ba[m] = int((d.groupby("year").prot.nunique() == 2).sum() >= min_before)
     prog = np.asarray(D["st_prog"])[keep]
-    return dict(
+    g_year = g.year.values
+    extra = dict(g_post=(g_year >= T_st[g.s.values]).astype(float), g_prot=st_prot[g.s.values], g_age=(g_year - T_st[g.s.values]).astype(float))
+    if len(held):
+        extra.update(h_s=held.s.values.astype(int), h_t=held.t.values.astype(int), h_n=held.n.values.astype(float),
+                     h_mean=held["mean"].values.astype(float), h_prog=prog[held.s.values], h_zone=held.zone.map(ZMAP).fillna(0).values.astype(int))
+    return dict(**extra, n_heldout=int(len(held)),
         mass_stations=[D["stations"][i] for i in keep], dens_index=keep, n_groups=int(len(g)),
         g_s=g.s.values.astype(int), g_t=g.t.values.astype(int), g_n=g.n.values.astype(float), g_mean=g["mean"].values.astype(float),
         g_prog=prog[g.s.values], g_zone=g.zone.map(ZMAP).fillna(0).values.astype(int),

@@ -1,0 +1,119 @@
+v_space_lob_s1.json	fit --taxa lob --mass --space-placebo-seed 1 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_lob_s2.json	fit --taxa lob --mass --space-placebo-seed 2 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_lob_s3.json	fit --taxa lob --mass --space-placebo-seed 3 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_lob_s4.json	fit --taxa lob --mass --space-placebo-seed 4 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_lob_s5.json	fit --taxa lob --mass --space-placebo-seed 5 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_lob_s6.json	fit --taxa lob --mass --space-placebo-seed 6 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_lob_s7.json	fit --taxa lob --mass --space-placebo-seed 7 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_lob_s8.json	fit --taxa lob --mass --space-placebo-seed 8 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_lob_s9.json	fit --taxa lob --mass --space-placebo-seed 9 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_lob_s10.json	fit --taxa lob --mass --space-placebo-seed 10 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_shp_s1.json	fit --taxa shp --mass --space-placebo-seed 1 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_shp_s2.json	fit --taxa shp --mass --space-placebo-seed 2 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_shp_s3.json	fit --taxa shp --mass --space-placebo-seed 3 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_shp_s4.json	fit --taxa shp --mass --space-placebo-seed 4 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_shp_s5.json	fit --taxa shp --mass --space-placebo-seed 5 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_shp_s6.json	fit --taxa shp --mass --space-placebo-seed 6 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_shp_s7.json	fit --taxa shp --mass --space-placebo-seed 7 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_shp_s8.json	fit --taxa shp --mass --space-placebo-seed 8 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_shp_s9.json	fit --taxa shp --mass --space-placebo-seed 9 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_shp_s10.json	fit --taxa shp --mass --space-placebo-seed 10 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_pur_s1.json	fit --taxa pur --mass --space-placebo-seed 1 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_pur_s2.json	fit --taxa pur --mass --space-placebo-seed 2 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_pur_s3.json	fit --taxa pur --mass --space-placebo-seed 3 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_pur_s4.json	fit --taxa pur --mass --space-placebo-seed 4 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_pur_s5.json	fit --taxa pur --mass --space-placebo-seed 5 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_pur_s6.json	fit --taxa pur --mass --space-placebo-seed 6 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_pur_s7.json	fit --taxa pur --mass --space-placebo-seed 7 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_pur_s8.json	fit --taxa pur --mass --space-placebo-seed 8 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_pur_s9.json	fit --taxa pur --mass --space-placebo-seed 9 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_pur_s10.json	fit --taxa pur --mass --space-placebo-seed 10 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_red_s1.json	fit --taxa red --mass --space-placebo-seed 1 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_red_s2.json	fit --taxa red --mass --space-placebo-seed 2 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_red_s3.json	fit --taxa red --mass --space-placebo-seed 3 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_red_s4.json	fit --taxa red --mass --space-placebo-seed 4 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_red_s5.json	fit --taxa red --mass --space-placebo-seed 5 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_red_s6.json	fit --taxa red --mass --space-placebo-seed 6 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_red_s7.json	fit --taxa red --mass --space-placebo-seed 7 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_red_s8.json	fit --taxa red --mass --space-placebo-seed 8 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_red_s9.json	fit --taxa red --mass --space-placebo-seed 9 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_red_s10.json	fit --taxa red --mass --space-placebo-seed 10 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_kelp_s1.json	fit --taxa kelp --mass --space-placebo-seed 1 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_kelp_s2.json	fit --taxa kelp --mass --space-placebo-seed 2 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_kelp_s3.json	fit --taxa kelp --mass --space-placebo-seed 3 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_kelp_s4.json	fit --taxa kelp --mass --space-placebo-seed 4 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_kelp_s5.json	fit --taxa kelp --mass --space-placebo-seed 5 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_kelp_s6.json	fit --taxa kelp --mass --space-placebo-seed 6 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_kelp_s7.json	fit --taxa kelp --mass --space-placebo-seed 7 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_kelp_s8.json	fit --taxa kelp --mass --space-placebo-seed 8 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_kelp_s9.json	fit --taxa kelp --mass --space-placebo-seed 9 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_space_kelp_s10.json	fit --taxa kelp --mass --space-placebo-seed 10 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_lob_00.json	fit --taxa lob --mass --omit-mpa 'Abalone Cove SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_lob_01.json	fit --taxa lob --mass --omit-mpa 'Anacapa Island SMR 2003' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_lob_02.json	fit --taxa lob --mass --omit-mpa 'Campus Point SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_lob_03.json	fit --taxa lob --mass --omit-mpa 'Gull Island SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_lob_04.json	fit --taxa lob --mass --omit-mpa 'Harris Point SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_lob_05.json	fit --taxa lob --mass --omit-mpa 'Matlahuayl SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_lob_06.json	fit --taxa lob --mass --omit-mpa 'Naples SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_lob_07.json	fit --taxa lob --mass --omit-mpa 'Point Dume SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_lob_08.json	fit --taxa lob --mass --omit-mpa 'Point Dume SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_lob_09.json	fit --taxa lob --mass --omit-mpa 'Point Vicente SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_lob_10.json	fit --taxa lob --mass --omit-mpa 'Santa Barbara Island SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_lob_11.json	fit --taxa lob --mass --omit-mpa 'Scorpion SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_lob_12.json	fit --taxa lob --mass --omit-mpa 'South Point SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_shp_00.json	fit --taxa shp --mass --omit-mpa 'Abalone Cove SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_shp_01.json	fit --taxa shp --mass --omit-mpa 'Anacapa Island SMR 2003' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_shp_02.json	fit --taxa shp --mass --omit-mpa 'Blue Cavern Onshore SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_shp_03.json	fit --taxa shp --mass --omit-mpa 'Campus Point SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_shp_04.json	fit --taxa shp --mass --omit-mpa 'Farnsworth Onshore SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_shp_05.json	fit --taxa shp --mass --omit-mpa 'Gull Island SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_shp_06.json	fit --taxa shp --mass --omit-mpa 'Harris Point SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_shp_07.json	fit --taxa shp --mass --omit-mpa 'Long Point SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_shp_08.json	fit --taxa shp --mass --omit-mpa 'Matlahuayl SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_shp_09.json	fit --taxa shp --mass --omit-mpa 'Naples SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_shp_10.json	fit --taxa shp --mass --omit-mpa 'Point Dume SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_shp_11.json	fit --taxa shp --mass --omit-mpa 'Point Dume SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_shp_12.json	fit --taxa shp --mass --omit-mpa 'Point Vicente SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_shp_13.json	fit --taxa shp --mass --omit-mpa 'Santa Barbara Island SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_shp_14.json	fit --taxa shp --mass --omit-mpa 'Scorpion SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_shp_15.json	fit --taxa shp --mass --omit-mpa 'South Point SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_shp_16.json	fit --taxa shp --mass --omit-mpa 'Swamis SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_pur_00.json	fit --taxa pur --mass --omit-mpa 'Abalone Cove SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_pur_01.json	fit --taxa pur --mass --omit-mpa 'Anacapa Island SMR 2003' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_pur_02.json	fit --taxa pur --mass --omit-mpa 'Campus Point SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_pur_03.json	fit --taxa pur --mass --omit-mpa 'Gull Island SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_pur_04.json	fit --taxa pur --mass --omit-mpa 'Harris Point SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_pur_05.json	fit --taxa pur --mass --omit-mpa 'Matlahuayl SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_pur_06.json	fit --taxa pur --mass --omit-mpa 'Naples SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_pur_07.json	fit --taxa pur --mass --omit-mpa 'Point Dume SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_pur_08.json	fit --taxa pur --mass --omit-mpa 'Point Dume SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_pur_09.json	fit --taxa pur --mass --omit-mpa 'Point Vicente SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_pur_10.json	fit --taxa pur --mass --omit-mpa 'Santa Barbara Island SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_pur_11.json	fit --taxa pur --mass --omit-mpa 'Scorpion SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_pur_12.json	fit --taxa pur --mass --omit-mpa 'South Point SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_red_00.json	fit --taxa red --mass --omit-mpa 'Abalone Cove SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_red_01.json	fit --taxa red --mass --omit-mpa 'Anacapa Island SMR 2003' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_red_02.json	fit --taxa red --mass --omit-mpa 'Campus Point SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_red_03.json	fit --taxa red --mass --omit-mpa 'Gull Island SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_red_04.json	fit --taxa red --mass --omit-mpa 'Harris Point SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_red_05.json	fit --taxa red --mass --omit-mpa 'Matlahuayl SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_red_06.json	fit --taxa red --mass --omit-mpa 'Naples SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_red_07.json	fit --taxa red --mass --omit-mpa 'Point Dume SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_red_08.json	fit --taxa red --mass --omit-mpa 'Point Dume SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_red_09.json	fit --taxa red --mass --omit-mpa 'Point Vicente SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_red_10.json	fit --taxa red --mass --omit-mpa 'Santa Barbara Island SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_red_11.json	fit --taxa red --mass --omit-mpa 'Scorpion SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_red_12.json	fit --taxa red --mass --omit-mpa 'South Point SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_kelp_00.json	fit --taxa kelp --mass --omit-mpa 'Abalone Cove SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_kelp_01.json	fit --taxa kelp --mass --omit-mpa 'Anacapa Island SMR 2003' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_kelp_02.json	fit --taxa kelp --mass --omit-mpa 'Campus Point SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_kelp_03.json	fit --taxa kelp --mass --omit-mpa 'Gull Island SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_kelp_04.json	fit --taxa kelp --mass --omit-mpa 'Harris Point SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_kelp_05.json	fit --taxa kelp --mass --omit-mpa 'Matlahuayl SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_kelp_06.json	fit --taxa kelp --mass --omit-mpa 'Naples SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_kelp_07.json	fit --taxa kelp --mass --omit-mpa 'Point Dume SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_kelp_08.json	fit --taxa kelp --mass --omit-mpa 'Point Dume SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_kelp_09.json	fit --taxa kelp --mass --omit-mpa 'Point Vicente SMCA' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_kelp_10.json	fit --taxa kelp --mass --omit-mpa 'Santa Barbara Island SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_kelp_11.json	fit --taxa kelp --mass --omit-mpa 'Scorpion SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_loo_kelp_12.json	fit --taxa kelp --mass --omit-mpa 'South Point SMR' --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2

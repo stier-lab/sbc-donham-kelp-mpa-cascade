@@ -1,0 +1,21 @@
+v_time_pur_rw.json	fit --taxa pur --mass --placebo-year 1992 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_time_pur_pw.json	fit --taxa pur --mass --placebo-year 1992 --curve piecewise --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_time_red_rw.json	fit --taxa red --mass --placebo-year 1992 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_time_red_pw.json	fit --taxa red --mass --placebo-year 1992 --curve piecewise --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_time_kelp_rw.json	fit --taxa kelp --mass --placebo-year 1992 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_time_kelp_pw.json	fit --taxa kelp --mass --placebo-year 1992 --curve piecewise --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_ppc_lob.json	fit --taxa lob --mass --curve rw --seed 1 --mass-ppc 200 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_hold_lob_s1.json	fit --taxa lob --mass --curve rw --seed 1 --mass-holdout 1 --mass-ppc 200 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_hold_lob_s2.json	fit --taxa lob --mass --curve rw --seed 1 --mass-holdout 2 --mass-ppc 200 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_ppc_shp.json	fit --taxa shp --mass --curve rw --seed 1 --mass-ppc 200 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_hold_shp_s1.json	fit --taxa shp --mass --curve rw --seed 1 --mass-holdout 1 --mass-ppc 200 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_hold_shp_s2.json	fit --taxa shp --mass --curve rw --seed 1 --mass-holdout 2 --mass-ppc 200 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_ppc_pur.json	fit --taxa pur --mass --curve rw --seed 1 --mass-ppc 200 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_hold_pur_s1.json	fit --taxa pur --mass --curve rw --seed 1 --mass-holdout 1 --mass-ppc 200 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_hold_pur_s2.json	fit --taxa pur --mass --curve rw --seed 1 --mass-holdout 2 --mass-ppc 200 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_ppc_red.json	fit --taxa red --mass --curve rw --seed 1 --mass-ppc 200 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_hold_red_s1.json	fit --taxa red --mass --curve rw --seed 1 --mass-holdout 1 --mass-ppc 200 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_hold_red_s2.json	fit --taxa red --mass --curve rw --seed 1 --mass-holdout 2 --mass-ppc 200 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_ppc_kelp.json	fit --taxa kelp --mass --curve rw --seed 1 --mass-ppc 200 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_hold_kelp_s1.json	fit --taxa kelp --mass --curve rw --seed 1 --mass-holdout 1 --mass-ppc 200 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_hold_kelp_s2.json	fit --taxa kelp --mass --curve rw --seed 1 --mass-holdout 2 --mass-ppc 200 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2

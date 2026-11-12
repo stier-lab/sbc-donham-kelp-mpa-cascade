@@ -34,6 +34,7 @@ SIM_BETA = {"paths": {("pur", "lob"): -0.30, ("pur", "shp"): -0.20, ("red", "lob
             # no paths, but a local driver shared by taxa at a station (tests whether a common cause fakes a path)
             "confounded": {}}
 SIM_DRIFT = dict(sigma_drift=0.10, sigma_drift_region=0.10)
+FLUCT = {}      # simulated station-level density fluctuation per taxon (for the coupled mass scenario)
 
 
 def simulate(data, edges, scenario, seed, lag=1, direct=True, common_sd=0.0):
@@ -74,6 +75,8 @@ def simulate(data, edges, scenario, seed, lag=1, direct=True, common_sd=0.0):
         d = b[None, :] + delta + F + path + cm
         n = D["span"].sum(0)
         dev[g] = D["span"] * (d - (D["span"] * d).sum(0) / np.where(n > 0, n, 1.0))
+        lv = b[None, :] + delta
+        FLUCT[g] = D["span"] * (lv - (D["span"] * lv).sum(0) / np.where(n > 0, n, 1.0))
         nu = tr["sigma_visit"] * rng.normal(size=len(D["visit_prog"]))
         eta = d[D["t"], D["s"]] + gam[D["st_region"][D["s"]], D["t"]] + nu[D["v"]] + np.array(tr["zeta"])[D["zone"]]
         mu = np.exp(eta + D["log_area"])[D["unit_cell"]]; phi = 1.0 / tr["inv_sqrt_phi"] ** 2
@@ -96,30 +99,126 @@ MASS_TRUTH = dict(shape=1.5, sigma_station=0.4, mu_lambda=0.1, sigma_lambda=0.2,
                   sigma_drift_region=0.04, rho=0.7, sigma_process=0.2, tau_D=0.2, zone=[0.0, 0.05, 0.10, 0.15])
 
 
-def simulate_mass(mass, truth, seed):
-    """Simulate group mean masses on the real measurement design from the mass layer at known values."""
+MASS_SCENARIOS = ["std", "null", "trend", "bimodal", "visitnoise", "coupled"]
+
+
+def simulate_mass(mass, truth, seed, scenario="std"):
+    """Simulate group mean masses on the real measurement design at known values.
+    std: from the fitted mass model. null: same with no protection effect on mass.
+    trend: no protection effect, but a secular trend in mean mass shared by protected and reference stations
+        (+2% a year, regions differing by SD 1% a year).
+    Scenarios that break an assumption of the fitted model (protection effect as in std):
+    bimodal: individual masses come from two cohorts (40% small, 60% about 4.5 times heavier) instead of a Gamma;
+    visitnoise: every group's mean carries extra multiplicative noise (SD 0.25 on the log scale), as if the animals
+        measured on a visit were not a random sample of the station;
+    coupled: mean mass falls when that station's density is above its usual level (coefficient -0.3), as with a
+        recruitment pulse; the fitted model treats density and mass as independent."""
     rng = np.random.default_rng(seed + 7919); tr = MASS_TRUTH; out = {}
     for g, M in mass.items():
         if M is None:
             out[g] = None; continue
         S, Mn = len(M["mass_stations"]), len(M["mpa_ba"]); T = M["span"].shape[0]; R = int(M["st_region"].max()) + 1
-        inc = np.array(SIM_MASS[g], dtype=float)
+        inc = np.array(SIM_MASS[g], dtype=float) * (0.0 if scenario in ("null", "trend") else 1.0)
         lam = np.where(M["mpa_ba"] == 1, tr["mu_lambda"] + tr["sigma_lambda"] * rng.normal(size=Mn), rng.normal(0, 0.3, size=Mn))
         c = M["log_mean_mass"] + tr["sigma_station"] * rng.normal(size=S) + M["st_prot"] * lam[M["st_mpa"]]
         gam = tr["sigma_region_year"] * rng.normal(size=(R, T))
         al = np.cumsum(tr["sigma_drift"] * rng.normal(size=T)); br = np.cumsum(tr["sigma_drift_region"] * rng.normal(size=(R, T)), axis=1)
         gam = gam + (al - al.mean())[None, :] + br - br.mean(1, keepdims=True)
+        if scenario == "trend":
+            gam = gam + (0.02 + 0.01 * rng.normal(size=R))[:, None] * (np.arange(T) - (T - 1) / 2)[None, :]
         e = np.zeros((T, S)); e[0] = rng.normal(0, tr["sigma_process"] / np.sqrt(1 - tr["rho"] ** 2), size=S)
         for t in range(1, T):
             e[t] = tr["rho"] * e[t - 1] + tr["sigma_process"] * rng.normal(size=S)
         Dm = tr["tau_D"] * rng.normal(size=Mn)
         logM = c[None, :] + gam[M["st_region"]].T + e + M["grid_after"] * (M["grid_B"] @ inc + Dm[M["st_mpa"]][None, :] * M["grid_age"] / 10.0)
-        mean = np.exp(logM[M["g_t"], M["g_s"]] + np.array(tr["zone"])[M["g_zone"]])
-        conc = M["g_n"] * tr["shape"]
-        M2 = dict(M); M2["g_mean"] = np.maximum(rng.gamma(conc, mean / conc), 1e-9); out[g] = M2
+        if scenario == "coupled":
+            logM = logM - 0.3 * FLUCT[g][:, M["dens_index"]]
+
+        def draw(t_ix, s_ix, zone, n):
+            mean = np.exp(logM[t_ix, s_ix] + np.array(tr["zone"])[zone])
+            if scenario == "bimodal":
+                sd = 0.3; mu = np.array([0.0, 1.5]); pr = np.array([0.4, 0.6]); norm = float(pr @ np.exp(mu + sd ** 2 / 2))
+                y = np.empty(len(n))
+                for i, k in enumerate(n.astype(int)):
+                    comp = rng.random(k) < pr[1]
+                    y[i] = np.exp(mu[comp.astype(int)] + sd * rng.normal(size=k)).mean() * mean[i] / norm
+                return y
+            conc = n * tr["shape"]
+            y = rng.gamma(conc, mean / conc)
+            if scenario == "visitnoise":
+                y = y * np.exp(rng.normal(-0.25 ** 2 / 2, 0.25, size=len(y)))
+            return np.maximum(y, 1e-9)
+
+        M2 = dict(M); M2["g_mean"] = draw(M["g_t"], M["g_s"], M["g_zone"], M["g_n"])
+        if "h_s" in M:
+            M2["h_mean"] = draw(M["h_t"], M["h_s"], M["h_zone"], M["h_n"])
+        out[g] = M2
         e10m = float(basis_row(10.0) @ inc)
-        truth[g].update(E10_mass=e10m, E10_biomass=truth[g]["E10_total"] + e10m)
+        truth[g].update(E10_mass=e10m, E10_biomass=truth[g]["E10_total"] + e10m, mass_scenario=scenario)
     return out
+
+
+def mass_checks(mc, data, edges, config, kw, n_draws, seed):
+    """Predictive checks of the mass layer from one chain's draws (arrays; the parent process merges chains).
+    Replicates every fitted group's mean mass from the posterior and compares summary statistics with the data;
+    for held-out groups, counts how many replicates fall below the observed mean (their predictive rank)."""
+    from numpyro.infer import Predictive
+    mass = kw.get("mass") or {}
+    tags = [g for g, M in mass.items() if M is not None]
+    if not tags:
+        return {}
+    post = mc.get_samples(); n = len(next(iter(post.values()))); idx = np.linspace(0, n - 1, min(n_draws, n)).astype(int)
+    thin = {k: v[idx] for k, v in post.items()}
+    sites = [f"{g}:m_mu_groups" for g in tags] + [f"{g}:m_mu_holdout" for g in tags if "h_s" in mass[g]]
+    pred = Predictive(model, posterior_samples=thin, return_sites=sites)(jax.random.PRNGKey(seed + 11), data, edges, config, **{**kw, "expose": True})
+    rng = np.random.default_rng(seed + 13); out = {}
+    for g in tags:
+        M = mass[g]; k = np.asarray(thin[f"{g}:m_shape"]); mu = np.asarray(pred[f"{g}:m_mu_groups"])
+        progs = sorted(set(M["g_prog"].tolist())); w = M["g_n"]; prot = M["g_prot"] > 0; post_ = M["g_post"] > 0; age = M["g_age"]
+
+        def stats(y):
+            ly = np.log(y); o = []
+            for p_ in progs:
+                m = M["g_prog"] == p_
+                o += [ly[m].std(), np.quantile(ly[m], .05), np.quantile(ly[m], .95)]
+            def lr(mask):
+                a_, b_ = mask & prot, mask & ~prot
+                if a_.sum() == 0 or b_.sum() == 0:
+                    return np.nan
+                return np.average(ly[a_], weights=w[a_]) - np.average(ly[b_], weights=w[b_])
+            o += [lr(post_) - lr(~post_), lr(age >= 10) - lr((age >= 0) & (age <= 5))]
+            return o
+        names = [f"{s_}|prog{p_}" for p_ in progs for s_ in ("sd_log", "q05_log", "q95_log")] + ["contrast_after_minus_before", "contrast_age10plus_minus_age0to5"]
+        conc = w[None, :] * k[:, M["g_prog"]]
+        reps = np.array([stats(np.maximum(rng.gamma(conc[d], mu[d] / conc[d]), 1e-12)) for d in range(len(idx))])
+        out[f"{g}|names"] = np.array(names); out[f"{g}|obs"] = np.array(stats(M["g_mean"])); out[f"{g}|reps"] = reps
+        if "h_s" in M:
+            mh = np.asarray(pred[f"{g}:m_mu_holdout"]); ch = M["h_n"][None, :] * k[:, M["h_prog"]]
+            yh = rng.gamma(ch, mh / ch)
+            out[f"{g}|h_below"] = (yh < M["h_mean"][None, :]).sum(0).astype(float); out[f"{g}|h_draws"] = np.array([float(len(idx))])
+            out[f"{g}|h_prog"] = M["h_prog"].astype(float)
+    return out
+
+
+def merge_checks(parts, programs):
+    """Combine per-chain predictive checks into the tables stored in the result file."""
+    ppc, hold = {}, {}
+    tags = sorted({k.split("|")[0] for k in parts[0]})
+    for g in tags:
+        names = [str(x) for x in parts[0][f"{g}|names"]]; obs = parts[0][f"{g}|obs"]; reps = np.concatenate([p[f"{g}|reps"] for p in parts], 0)
+        ppc[g] = {}
+        for i, nm in enumerate(names):
+            if "|prog" in nm:
+                st, pi = nm.split("|prog"); nm = f"{st}|{programs[g][int(pi)]}"
+            r = reps[:, i]
+            ppc[g][nm] = dict(observed=round(float(obs[i]), 4), rep_q05=round(float(np.nanquantile(r, .05)), 4), rep_median=round(float(np.nanmedian(r)), 4),
+                              rep_q95=round(float(np.nanquantile(r, .95)), 4), p_rep_ge_obs=round(float(np.nanmean(r >= obs[i])), 3))
+        if f"{g}|h_below" in parts[0]:
+            pit = sum(p[f"{g}|h_below"] for p in parts) / sum(float(p[f"{g}|h_draws"][0]) for p in parts); hp = parts[0][f"{g}|h_prog"].astype(int)
+            hold[g] = dict(n_groups=int(len(pit)), coverage90=round(float(((pit >= .05) & (pit <= .95)).mean()), 3), coverage50=round(float(((pit >= .25) & (pit <= .75)).mean()), 3),
+                           mean_rank=round(float(pit.mean()), 3),
+                           by_program={programs[g][int(q)]: dict(n=int((hp == q).sum()), coverage90=round(float(((pit[hp == q] >= .05) & (pit[hp == q] <= .95)).mean()), 3)) for q in sorted(set(hp.tolist()))})
+    return ppc, hold
 
 
 def fit(data, edges, ys, config, curve="rw", lag=1, beta_scale=0.5, paths=True, split=False, mass=None, warmup=600, samples=600, chains=4, seed=0,
@@ -132,7 +231,7 @@ def fit(data, edges, ys, config, curve="rw", lag=1, beta_scale=0.5, paths=True, 
     t0 = time.time()
     mc.run(jax.random.PRNGKey(seed), data, edges, config, **kw,
            extra_fields=("diverging", "num_steps", "potential_energy", "adapt_state.step_size"))
-    return mc, time.time() - t0
+    return mc, time.time() - t0, data, kw
 
 
 def keep_sites(mc):
@@ -195,10 +294,11 @@ def run_chains(a, data, edges, ys, config, opts):
     keep = {k: np.concatenate([p[k] for p in parts], 0) for k in parts[0].files if not k.startswith("__")}
     ex = {k[2:]: np.concatenate([p[k] for p in parts], 0) for k in parts[0].files if k.startswith("__")}
     secs = float(max(p["__seconds"][0] for p in parts)); ex.pop("seconds")
+    checks = [dict(np.load(tmp / f"checks{k}.npz", allow_pickle=False)) for k in range(a.chains) if (tmp / f"checks{k}.npz").exists()]
     for f in tmp.iterdir():
         f.unlink()
     tmp.rmdir()
-    return keep, ex, secs
+    return keep, ex, secs, checks
 
 
 def main():
@@ -214,6 +314,11 @@ def main():
     ap.add_argument("--mass-drop", action="append", default=[], help="leave out a program's mass groups (KFM, LTER, PISCO, KFM-roving)")
     ap.add_argument("--size25", action="store_true", help="urchins: density on the >= 25 mm definition for KFM and LTER (use with --mass-variant ge25)")
     ap.add_argument("--omit-station", action="append", default=[], help='leave out a station, e.g. "KFM|a-k-01"')
+    ap.add_argument("--mass-scenario", default="std", choices=MASS_SCENARIOS, help="simulate: how group mean masses are generated")
+    ap.add_argument("--mass-ppc", type=int, default=0, help="posterior draws per chain for predictive checks of the mass layer")
+    ap.add_argument("--mass-holdout", type=int, default=None, help="seed: hold out 20%% of interior station-years of mass data and predict them")
+    ap.add_argument("--placebo-year", type=int, default=None, help="time placebo: KFM years before the real designation, fake designation year")
+    ap.add_argument("--space-placebo-seed", type=int, default=None, help="space placebo: reference stations only, one relabelled as protected per MPA")
     ap.add_argument("--mass-scale", type=float, default=1.0, help="multiplier on the prior scale of the mass response increments")
     ap.add_argument("--mass-link", action="store_true", help="let mean mass depend on the same-year fluctuation of the taxon's density")
     ap.add_argument("--lag", type=int, default=1, choices=[0, 1, 2])
@@ -250,8 +355,9 @@ def main():
         s25 = find_beside(a.uses, "size25_share.csv")
         if s25 is None:
             raise SystemExit("size25_share.csv (from prep_mass.py) not found")
-    data, edges = build_multi(a.uses, tags, ed, lag=a.lag, regions=a.regions, omit_mpas=a.omit_mpa, omit_stations=a.omit_station, size25=s25)
-    mass = {g: build_mass(a.uses, data[g], TAXA[g], variant=a.mass_variant, drop=a.mass_drop) for g in tags} if a.mass else None
+    data, edges = build_multi(a.uses, tags, ed, lag=a.lag, regions=a.regions, omit_mpas=a.omit_mpa, omit_stations=a.omit_station, size25=s25,
+                              placebo_year=a.placebo_year, space_placebo_seed=a.space_placebo_seed)
+    mass = {g: build_mass(a.uses, data[g], TAXA[g], variant=a.mass_variant, drop=a.mass_drop, holdout_seed=a.mass_holdout) for g in tags} if a.mass else None
     for D in data.values():
         D.pop("cells")
     config = {g: CONFIG[g] for g in tags}
@@ -259,33 +365,43 @@ def main():
                 chains=a.chains, seed=a.seed, depth=a.depth, accept=a.accept, step0=a.step0, thin=a.thin, drift=a.drift, inc_scale=a.inc_scale)
     if mass is not None:
         opts.update(mass_scale=a.mass_scale, mass_link=a.mass_link)
-    meta = dict(mode=a.mode, omit_station=a.omit_station, size25=bool(a.size25), stations_removed={g: D["stations_removed"] for g, D in data.items()},
+    meta = dict(mode=a.mode, placebo_year=a.placebo_year, space_placebo_seed=a.space_placebo_seed, relabelled={g: D["relabelled"] for g, D in data.items()},
+                mass_holdout_seed=a.mass_holdout, omit_station=a.omit_station, size25=bool(a.size25), stations_removed={g: D["stations_removed"] for g, D in data.items()},
                 units_size25_adjusted={g: D.get("units_size25_adjusted", 0) for g, D in data.items()}, chain_processes=(a.chains > 1 and not a.one_process), taxa={g: TAXA[g] for g in tags}, regions=a.regions, omit_mpa=a.omit_mpa,
                 links={f"{k}<-{j}": {x: lk[x] for x in ("n_target_station_years", "n_linked", "n_stations_linked")} for k, j, lk in edges},
                 n_units={g: int(len(D["y"])) for g, D in data.items()}, stations={g: len(D["stations"]) for g, D in data.items()}, **opts)
     if mass is not None:
         meta["mass_data"] = {g: (None if M is None else {k: M[k] for k in ("n_groups", "animals", "station_years_with_mass", "density_station_years", "kinds", "source", "variant", "dropped", "by_program")}
-                                 | dict(stations=len(M["mass_stations"]), mpas_before_after=int(M["mpa_ba"].sum()))) for g, M in mass.items()}
+                                 | dict(stations=len(M["mass_stations"]), mpas_before_after=int(M["mpa_ba"].sum()), n_heldout=M["n_heldout"])) for g, M in mass.items()}
     if a.mode == "simulate":
         name = a.name or f"msim_{a.scenario}_{a.curve}_seed{a.seed}"
         ys, truth = simulate(data, edges, a.scenario, a.seed, lag=a.lag, direct=not a.no_direct, common_sd=a.common_sd)
         if mass is not None:
-            mass = simulate_mass(mass, truth, a.seed)
+            mass = simulate_mass(mass, truth, a.seed, a.mass_scenario)
     else:
         name = a.name or f"mfit_{a.curve}{'_nopaths' if a.no_paths else ''}"
         ys = {g: D["y"] for g, D in data.items()}
+    want_checks = mass is not None and (a.mass_ppc > 0 or a.mass_holdout is not None)
+    nd = a.mass_ppc or 200
     if a.worker is not None:          # one chain, own seed; hand the kept draws back to the parent process
         opts.update(chains=1, seed=a.seed * 1000 + a.worker)
-        mc, secs = fit(data, edges, ys, config, mass=mass, **opts)
+        mc, secs, data2, kw = fit(data, edges, ys, config, mass=mass, **opts)
         keep, ex = keep_sites(mc)
         np.savez(Path(a.worker_dir) / f"chain{a.worker}.npz", **keep, **{f"__{k}": v for k, v in ex.items()}, __seconds=np.array([secs]))
+        if want_checks:
+            np.savez(Path(a.worker_dir) / f"checks{a.worker}.npz", **mass_checks(mc, data2, edges, config, kw, nd, a.seed * 1000 + a.worker))
         return
     if a.chains > 1 and not a.one_process:
-        keep, ex, secs = run_chains(a, data, edges, ys, config, opts)
+        keep, ex, secs, checks = run_chains(a, data, edges, ys, config, opts)
     else:
-        mc, secs = fit(data, edges, ys, config, mass=mass, **opts)
+        mc, secs, data2, kw = fit(data, edges, ys, config, mass=mass, **opts)
         keep, ex = keep_sites(mc)
+        checks = [mass_checks(mc, data2, edges, config, kw, nd, a.seed)] if want_checks else []
     res = summarize(keep, ex, edges)
+    if checks and checks[0]:
+        res["mass_ppc"], res["mass_holdout"] = merge_checks(checks, {g: D["programs"] for g, D in data.items()})
+    if a.placebo_year is not None or a.space_placebo_seed is not None:
+        res["placebo"] = True
     if a.mode == "simulate":
         res["truth"] = truth; res["scenario"] = a.scenario
     else:
