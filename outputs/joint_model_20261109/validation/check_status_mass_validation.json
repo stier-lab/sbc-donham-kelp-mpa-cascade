@@ -5,7 +5,7 @@
  "M4 robust to bimodal": "PASS",
  "M4 robust to visitnoise": "FAIL",
  "M4 robust to coupled": "PASS",
- "M5 time placebo": "INCOMPLETE",
+ "M5 time placebo": "PASS",
  "M6 space placebo (mass, biomass)": "FAIL",
  "M7 predictive check of mass": "FAIL",
  "M8 hold-out prediction": "FAIL",

@@ -9,7 +9,7 @@
   "A1 Gamma: predictive check (M7)": "FAIL",
   "A1 Gamma: hold-out (M8)": "FAIL",
   "A1 lognormal: predictive check (M7)": "FAIL",
-  "A1 lognormal: hold-out (M8)": "INCOMPLETE",
+  "A1 lognormal: hold-out (M8)": "FAIL",
   "A1 lognormal: calibration on Gamma-generated data": "INCOMPLETE",
   "A2 sheephead shuffles with local trend (R1a, R1b)": "FAIL"
  },
@@ -365,10 +365,13 @@
   },
   "lob_lognormal": {
    "M7": false,
-   "M8": null,
+   "M8": true,
    "outside": 6,
    "stats": 8,
-   "holdout": []
+   "holdout": [
+    0.929,
+    0.944
+   ]
   },
   "shp_Gamma": {
    "M7": false,
@@ -382,10 +385,13 @@
   },
   "shp_lognormal": {
    "M7": false,
-   "M8": null,
+   "M8": true,
    "outside": 3,
    "stats": 11,
-   "holdout": []
+   "holdout": [
+    0.916,
+    0.91
+   ]
   },
   "pur_Gamma": {
    "M7": false,
@@ -399,10 +405,13 @@
   },
   "pur_lognormal": {
    "M7": false,
-   "M8": null,
+   "M8": false,
    "outside": 5,
    "stats": 11,
-   "holdout": []
+   "holdout": [
+    0.915,
+    0.955
+   ]
   },
   "red_Gamma": {
    "M7": false,
@@ -416,10 +425,13 @@
   },
   "red_lognormal": {
    "M7": false,
-   "M8": null,
+   "M8": true,
    "outside": 5,
    "stats": 11,
-   "holdout": []
+   "holdout": [
+    0.917,
+    0.895
+   ]
   },
   "kelp_Gamma": {
    "M7": false,
@@ -433,10 +445,13 @@
   },
   "kelp_lognormal": {
    "M7": false,
-   "M8": null,
+   "M8": true,
    "outside": 3,
    "stats": 8,
-   "holdout": []
+   "holdout": [
+    0.926,
+    0.918
+   ]
   }
  },
  "A2": {

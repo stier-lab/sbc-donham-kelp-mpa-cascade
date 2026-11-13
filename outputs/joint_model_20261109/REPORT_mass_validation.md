@@ -13,7 +13,7 @@ Rules were fixed in `MASS_VALIDATION_PLAN.md` before the runs. Review only; noth
 | M4 robust to bimodal | PASS |
 | M4 robust to visitnoise | FAIL |
 | M4 robust to coupled | PASS |
-| M5 time placebo | INCOMPLETE |
+| M5 time placebo | PASS |
 | M6 space placebo (mass, biomass) | FAIL |
 | M7 predictive check of mass | FAIL |
 | M8 hold-out prediction | FAIL |
@@ -106,7 +106,7 @@ Simulated on each taxon's real survey and measurement design, then refitted (2 c
 
 ## M5. Placebo in time
 
-KFM surveys before the real designation with a fake designation in 1992. A sound model finds nothing.
+KFM surveys before the real designation with a fake designation in 1992. A sound model finds nothing. Kelp uses 1999: the KFM kelp counts in the model start in 1996, so 1992 leaves no before years and the planned runs could not be built (changed 2026-11-12, before any kelp placebo result was seen).
 
 | Taxon | Prior | Density | Mean mass | Biomass | Converged |
 |---|---|---|---|---|---|
@@ -114,10 +114,10 @@ KFM surveys before the real designation with a fake designation in 1992. A sound
 | Purple urchin | pw | -0.46 [-1.80, +0.58] | -0.23 [-0.75, +0.20] | -0.69 [-2.06, +0.46] | NO (1.019 / 356 / 9) |
 | Red urchin | rw | -0.41 [-1.48, +0.71] | +0.05 [-0.68, +0.79] | -0.36 [-1.65, +1.03] | NO (1.012 / 312 / 3) |
 | Red urchin | pw | -0.15 [-0.87, +0.46] | +0.01 [-0.31, +0.35] | -0.14 [-0.91, +0.58] | NO (1.013 / 476 / 10) |
-| Kelp | rw | not finished | | | |
-| Kelp | pw | not finished | | | |
+| Kelp | rw | -0.14 [-4.94, +4.46] | -0.01 [-1.30, +1.26] | -0.15 [-5.02, +4.76] | NO (1.012 / 405 / 122) |
+| Kelp | pw | -0.01 [-1.83, +1.84] | -0.00 [-0.48, +0.48] | -0.01 [-1.86, +1.91] | NO (1.010 / 343 / 45) |
 
-**INCOMPLETE.**
+**PASS.**
 
 ## M6. Placebo in space
 

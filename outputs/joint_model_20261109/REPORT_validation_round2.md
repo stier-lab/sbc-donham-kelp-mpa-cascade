@@ -15,7 +15,7 @@ Rules were fixed in `VALIDATION_PLAN_v2.md` before the runs. Review only; nothin
 | A1 Gamma: predictive check (M7) | FAIL |
 | A1 Gamma: hold-out (M8) | FAIL |
 | A1 lognormal: predictive check (M7) | FAIL |
-| A1 lognormal: hold-out (M8) | INCOMPLETE |
+| A1 lognormal: hold-out (M8) | FAIL |
 | A1 lognormal: calibration on Gamma-generated data | INCOMPLETE |
 | A2 sheephead shuffles with local trend (R1a, R1b) | FAIL |
 
@@ -146,17 +146,17 @@ Rules as written for the Gamma family (M7: no contrast statistic outside its 90%
 | Taxon | Family | Density | Mean mass | Biomass | Predictive statistics outside | Contrast statistics outside | Hold-out coverage (2 splits) | Converged |
 |---|---|---|---|---|---|---|---|---|
 | Lobster | Gamma | +1.74 [+1.01, +2.39] | +0.38 [+0.15, +0.64] | +2.13 [+1.39, +2.85] | 5 of 8 ✗ | none | 92%, 95% | yes (1.002 / 0) |
-| Lobster | lognormal | +1.75 [+1.02, +2.43] | +0.30 [+0.07, +0.52] | +2.05 [+1.32, +2.78] | 6 of 8 ✗ | contrast_after_minus_before | not finished | yes (1.002 / 0) |
+| Lobster | lognormal | +1.75 [+1.02, +2.43] | +0.30 [+0.07, +0.52] | +2.05 [+1.32, +2.78] | 6 of 8 ✗ | contrast_after_minus_before | 93%, 94% | yes (1.002 / 0) |
 | Sheephead | Gamma | +0.20 [-0.09, +0.50] | +0.33 [+0.10, +0.56] | +0.53 [+0.14, +0.89] | 5 of 11 ✗ | none | 92%, 91% | yes (1.002 / 0) |
-| Sheephead | lognormal | +0.20 [-0.09, +0.50] | +0.24 [-0.00, +0.50] | +0.44 [+0.07, +0.84] | 3 of 11 ✗ | none | not finished | yes (1.002 / 0) |
+| Sheephead | lognormal | +0.20 [-0.09, +0.50] | +0.24 [-0.00, +0.50] | +0.44 [+0.07, +0.84] | 3 of 11 ✗ | none | 92%, 91% | yes (1.002 / 0) |
 | Purple urchin | Gamma | -0.91 [-1.82, -0.02] | +0.25 [-0.03, +0.54] | -0.66 [-1.67, +0.24] | 5 of 11 ✗ | none | 90%, 96% ✗ | yes (1.004 / 0) |
-| Purple urchin | lognormal | -0.92 [-1.80, +0.00] | +0.25 [-0.03, +0.54] | -0.66 [-1.64, +0.26] | 5 of 11 ✗ | none | not finished | yes (1.004 / 0) |
+| Purple urchin | lognormal | -0.92 [-1.80, +0.00] | +0.25 [-0.03, +0.54] | -0.66 [-1.64, +0.26] | 5 of 11 ✗ | none | 92%, 96% ✗ | yes (1.004 / 0) |
 | Red urchin | Gamma | -0.63 [-1.26, -0.08] | +0.41 [+0.08, +0.72] | -0.22 [-0.89, +0.45] | 6 of 11 ✗ | none | 90%, 90% | yes (1.004 / 0) |
-| Red urchin | lognormal | -0.62 [-1.20, -0.03] | +0.46 [+0.12, +0.78] | -0.16 [-0.86, +0.49] | 5 of 11 ✗ | none | not finished | yes (1.008 / 0) |
+| Red urchin | lognormal | -0.62 [-1.20, -0.03] | +0.46 [+0.12, +0.78] | -0.16 [-0.86, +0.49] | 5 of 11 ✗ | none | 92%, 90% | yes (1.008 / 0) |
 | Kelp | Gamma | +0.96 [+0.00, +1.91] | +0.01 [-0.21, +0.22] | +0.96 [-0.00, +1.92] | 3 of 8 ✗ | none | 91%, 91% | yes (1.003 / 0) |
-| Kelp | lognormal | +0.96 [-0.03, +1.88] | +0.02 [-0.19, +0.22] | +0.97 [+0.03, +1.97] | 3 of 8 ✗ | none | not finished | yes (1.002 / 0) |
+| Kelp | lognormal | +0.96 [-0.03, +1.88] | +0.02 [-0.19, +0.22] | +0.97 [+0.03, +1.97] | 3 of 8 ✗ | none | 93%, 92% | yes (1.002 / 0) |
 
-Simulated data generated from the Gamma model and fitted with the lognormal one: 48 intervals (mass and biomass) from 24 data sets, coverage 94% (rule: at least 84%; 50 data sets planned).
+Simulated data generated from the Gamma model and fitted with the lognormal one: 64 intervals (mass and biomass) from 32 data sets, coverage 91% (rule: at least 84%; 50 data sets planned).
 
 ## A2. Sheephead shuffles with a local trend per MPA cluster
 
