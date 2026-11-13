@@ -17,7 +17,7 @@ Rules were fixed in `VALIDATION_PLAN_v2.md` before the runs. Review only; nothin
 | A1 lognormal: predictive check (M7) | FAIL |
 | A1 lognormal: hold-out (M8) | INCOMPLETE |
 | A1 lognormal: calibration on Gamma-generated data | INCOMPLETE |
-| A2 sheephead shuffles with local trend (R1a, R1b) | INCOMPLETE |
+| A2 sheephead shuffles with local trend (R1a, R1b) | FAIL |
 
 ## R1. Shuffled-label placebo
 
@@ -34,11 +34,11 @@ Within each MPA and its reference stations the protected label is dealt at rando
 | Red urchin | random walk | 40 (40) | +0.04 | 0.16 | +1.8 | 100% ✗ | -0.63 [-1.23, -0.05] | 0 of 40 | 0.024 |
 | Red urchin | independent increments | 40 (40) | +0.03 ✗ | 0.08 | +2.5 | 100% ✗ | -0.27 [-0.76, +0.20] | 0 of 40 | 0.024 |
 | Kelp | random walk | 40 (40) | -0.27 ✗ | 0.30 | -5.7 | 100% ✗ | +0.96 [+0.00, +1.91] | 0 of 40 | 0.024 |
-| Kelp | independent increments | 12 of 40 (12) | -0.02 | 0.20 | -0.4 | 100% ✗ | +0.60 [-0.23, +1.53] | 0 of 12 | 0.077 |
+| Kelp | independent increments | 40 (40) | -0.04 | 0.16 | -1.6 | 100% ✗ | +0.60 [-0.23, +1.53] | 0 of 40 | 0.024 |
 
 ✗ marks a failed rule: R1a, the mean of the shuffled effects is within 2 standard errors of zero; R1b, between 80% and 97% of the shuffled 90% intervals cover zero. The randomization p is reported, not gated.
 
-**R1a: FAIL** (fails: lob_rw, lob_pw, shp_rw, shp_pw, pur_rw, pur_pw, red_pw, kelp_rw). **R1b: FAIL** (fails: lob_rw, lob_pw, shp_pw, pur_rw, pur_pw, red_rw, red_pw, kelp_rw). 9 of 10 taxon-prior sets complete.
+**R1a: FAIL** (fails: lob_rw, lob_pw, shp_rw, shp_pw, pur_rw, pur_pw, red_pw, kelp_rw). **R1b: FAIL** (fails: lob_rw, lob_pw, shp_pw, pur_rw, pur_pw, red_rw, red_pw, kelp_rw, kelp_pw). 10 of 10 taxon-prior sets complete.
 
 ## R2. Effects by kind of evidence
 
@@ -154,9 +154,9 @@ Rules as written for the Gamma family (M7: no contrast statistic outside its 90%
 | Red urchin | Gamma | -0.63 [-1.26, -0.08] | +0.41 [+0.08, +0.72] | -0.22 [-0.89, +0.45] | 6 of 11 ✗ | none | 90%, 90% | yes (1.004 / 0) |
 | Red urchin | lognormal | -0.62 [-1.20, -0.03] | +0.46 [+0.12, +0.78] | -0.16 [-0.86, +0.49] | 5 of 11 ✗ | none | not finished | yes (1.008 / 0) |
 | Kelp | Gamma | +0.96 [+0.00, +1.91] | +0.01 [-0.21, +0.22] | +0.96 [-0.00, +1.92] | 3 of 8 ✗ | none | 91%, 91% | yes (1.003 / 0) |
-| Kelp | lognormal | — | — | — | not finished |  | not finished | — |
+| Kelp | lognormal | +0.96 [-0.03, +1.88] | +0.02 [-0.19, +0.22] | +0.97 [+0.03, +1.97] | 3 of 8 ✗ | none | not finished | yes (1.002 / 0) |
 
-Simulated data generated from the Gamma model and fitted with the lognormal one: 24 intervals (mass and biomass) from 12 data sets, coverage 96% (rule: at least 84%; 50 data sets planned).
+Simulated data generated from the Gamma model and fitted with the lognormal one: 48 intervals (mass and biomass) from 24 data sets, coverage 94% (rule: at least 84%; 50 data sets planned).
 
 ## A2. Sheephead shuffles with a local trend per MPA cluster
 
@@ -164,6 +164,6 @@ The same shuffles as R1 with `--cluster-drift` (a random walk shared by an MPA's
 
 | Model | Shuffles (usable) | Mean of shuffled effects | SD | Mean ÷ SE | 90% intervals covering zero | Real effect (same sampler settings) | Shuffles at least as extreme | Randomization p |
 |---|---|---|---|---|---|---|---|---|
-| without local trend | 40 (40) | +0.14 ✗ | 0.14 | +6.2 | 82% | — | — | — |
-| with local trend | 26 of 40 (26) | +0.04 | 0.16 | +1.2 | 88% | — | — | — |
+| without local trend | 40 (40) | +0.14 ✗ | 0.14 | +6.2 | 82% | +0.20 [-0.08, +0.49] | 13 of 40 | 0.341 |
+| with local trend | 40 (40) | +0.06 ✗ | 0.16 | +2.3 | 88% | +0.14 [-0.12, +0.41] | 13 of 40 | 0.341 |
 

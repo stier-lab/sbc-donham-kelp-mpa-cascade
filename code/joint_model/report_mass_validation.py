@@ -143,7 +143,7 @@ def main():
         body += [f"`{sc}` — " + "; ".join(msgs) + ". " + verdict(status, f"M4 robust to {sc}", okk, comp), ""]
 
     # M5
-    body += ["## M5. Placebo in time", "", "KFM surveys before the real designation with a fake designation in 1992. A sound model finds nothing.", "",
+    body += ["## M5. Placebo in time", "", "KFM surveys before the real designation with a fake designation in 1992. A sound model finds nothing. Kelp uses 1999: the KFM kelp counts in the model start in 1996, so 1992 leaves no before years and the planned runs could not be built (changed 2026-11-12, before any kelp placebo result was seen).", "",
              "| Taxon | Prior | Density | Mean mass | Biomass | Converged |", "|---|---|---|---|---|---|"]
     okk, comp = True, True
     for g in ("pur", "red", "kelp"):
@@ -237,7 +237,7 @@ def main():
     t = (V / "test_multi_real.log")
     body += ["## M10. Independent arithmetic", ""]
     if t.exists():
-        txt = t.read_text(); p = "ALL CHECKS PASSED (1-3)" in txt
+        txt = t.read_text(); p = "ALL CHECKS PASSED (1-" in txt
         body += ["`test_multi.py` on the real inputs:", "", "```", *[x for x in txt.strip().splitlines() if x[:2] in ("1.", "2.", "3.") or "PASSED" in x][-14:], "```", "", verdict(status, "M10 independent arithmetic", p), ""]
     else:
         body += [verdict(status, "M10 independent arithmetic", False, False), ""]

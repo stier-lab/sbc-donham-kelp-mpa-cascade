@@ -1,0 +1,2 @@
+v_time_kelp_rw.json	fit --taxa kelp --mass --placebo-year 1999 --curve rw --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2
+v_time_kelp_pw.json	fit --taxa kelp --mass --placebo-year 1999 --curve piecewise --seed 1 --cpus 4 --chains 4 --warmup 3000 --samples 6000 --thin 2

@@ -13,11 +13,11 @@ Input check: the quarterly table reproduces Tom Bell's delivered annual-maximum 
 | C1 independent arithmetic | PASS |
 | C2 convergence of the main fits | PASS |
 | C6 seeds agree | PASS |
-| C3 calibration | INCOMPLETE |
-| C4 shuffled labels: bias (R1a) | INCOMPLETE |
-| C4 shuffled labels: interval calibration (R1b) | INCOMPLETE |
+| C3 calibration | PASS |
+| C4 shuffled labels: bias (R1a) | PASS |
+| C4 shuffled labels: interval calibration (R1b) | FAIL |
 | C5 time placebo | PASS |
-| C7 leave one MPA out | INCOMPLETE |
+| C7 leave one MPA out | PASS |
 
 ## Main result: spring canopy (January-June quarters), all depths, flat baseline
 
@@ -52,9 +52,9 @@ Seed 1 +0.49 [-0.22, +1.15]; seed 2 +0.50 [-0.18, +1.16]. **PASS.**
 | Scenario | Data sets (usable) | True effect | Mean error | Rule | Result |
 |---|---|---|---|---|---|
 | effect present | 20 (20) | +0.55 | -0.10 | at least 16 of 20 intervals cover the truth | 16 of 20 cover |
-| no effect | 9 (9) | +0.00 | +0.05 | at most 4 of 20 intervals exclude zero | 8 of 9 cover |
+| no effect | 20 (20) | +0.00 | -0.01 | at most 4 of 20 intervals exclude zero | 18 of 20 cover |
 
-**INCOMPLETE.**
+**PASS.**
 
 ## C4. Shuffled labels
 
@@ -62,10 +62,10 @@ The protected label is given at random to one polygon of each comparison (the MP
 
 | Prior | Shuffles (usable) | Mean of shuffled effects | SD | Mean ÷ SE | 90% intervals covering zero | Real effect | Shuffles at least as extreme | Randomization p |
 |---|---|---|---|---|---|---|---|---|
-| random walk | 26 of 40 (26) | -0.05 | 0.21 | -1.3 | 100% ✗ | +0.49 [-0.22, +1.15] | 0 of 26 | 0.037 |
-| independent increments | not finished | | | | | +0.20 [-0.25, +0.80] | | |
+| random walk | 40 (40) | -0.02 | 0.26 | -0.5 | 100% ✗ | +0.49 [-0.22, +1.15] | 2 of 40 | 0.073 |
+| independent increments | 40 (40) | +0.02 | 0.14 | +1.0 | 100% ✗ | +0.20 [-0.25, +0.80] | 7 of 40 | 0.195 |
 
-✗ marks a failed rule (mean within 2 standard errors of zero; 80-97% of intervals cover zero). **Bias: INCOMPLETE. Interval calibration: INCOMPLETE.**
+✗ marks a failed rule (mean within 2 standard errors of zero; 80-97% of intervals cover zero). **Bias: PASS. Interval calibration: FAIL.**
 
 ## C5. Time placebo (years before designation only, fake designation year)
 
@@ -94,6 +94,12 @@ Intervals covering zero: random walk 4 of 4, independent increments 4 of 4 (rule
 | Point Conception SMR | +0.60 [-0.10, +1.30] | +0.10 |
 | Point Dume SMCA | +0.53 [-0.22, +1.21] | +0.03 |
 | Point Dume SMR | +0.51 [-0.18, +1.22] | +0.02 |
+| Point Vicente SMCA | +0.46 [-0.18, +1.08] | -0.03 |
+| Santa Barbara Island SMR | +0.36 [-0.32, +1.14] | -0.14 |
+| Skunk Pt SMR | +0.44 [-0.30, +1.15] | -0.06 |
+| South La Jolla SMR | +0.42 [-0.31, +1.17] | -0.07 |
+| South Point SMR | +0.50 [-0.21, +1.23] | +0.01 |
+| Swamis SMCA | +0.58 [+0.04, +1.15] | +0.09 |
 
-12 of 18 done; largest shift 0.10. **INCOMPLETE.**
+18 of 18 done; largest shift 0.14. **PASS.**
 

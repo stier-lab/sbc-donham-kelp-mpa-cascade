@@ -3,11 +3,11 @@
   "C1 independent arithmetic": "PASS",
   "C2 convergence of the main fits": "PASS",
   "C6 seeds agree": "PASS",
-  "C3 calibration": "INCOMPLETE",
-  "C4 shuffled labels: bias (R1a)": "INCOMPLETE",
-  "C4 shuffled labels: interval calibration (R1b)": "INCOMPLETE",
+  "C3 calibration": "PASS",
+  "C4 shuffled labels: bias (R1a)": "PASS",
+  "C4 shuffled labels: interval calibration (R1b)": "FAIL",
   "C5 time placebo": "PASS",
-  "C7 leave one MPA out": "INCOMPLETE"
+  "C7 leave one MPA out": "PASS"
  },
  "C3": {
   "std": {
@@ -19,26 +19,35 @@
    "complete": true
   },
   "null": {
-   "n": 9,
-   "fitted": 9,
-   "covered": 8,
-   "bias": 0.046066666666666665,
+   "n": 20,
+   "fitted": 20,
+   "covered": 18,
+   "bias": -0.007584999999999997,
    "passed": true,
-   "complete": false
+   "complete": true
   }
  },
  "C4": {
   "rw": {
-   "n": 26,
-   "fitted": 26,
-   "mean": -0.05265769230769231,
-   "se": 0.04190614170998985,
+   "n": 40,
+   "fitted": 40,
+   "mean": -0.018654999999999998,
+   "se": 0.04085680371266681,
    "cover_zero": 1.0,
    "R1a": true,
    "R1b": false,
-   "as_extreme": 0
+   "as_extreme": 2
   },
-  "pw": null
+  "pw": {
+   "n": 40,
+   "fitted": 40,
+   "mean": 0.022685,
+   "se": 0.021661427833114574,
+   "cover_zero": 1.0,
+   "R1a": true,
+   "R1b": false,
+   "as_extreme": 7
+  }
  },
  "C5": {
   "rw": [
@@ -66,6 +75,12 @@
   -0.010199999999999987,
   0.10210000000000002,
   0.03309999999999996,
-  0.01940000000000003
+  0.01940000000000003,
+  -0.02899999999999997,
+  -0.1376,
+  -0.05790000000000001,
+  -0.0716,
+  0.00820000000000004,
+  0.08729999999999999
  ]
 }

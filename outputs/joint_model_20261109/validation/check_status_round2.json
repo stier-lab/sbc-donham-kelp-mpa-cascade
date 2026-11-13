@@ -11,7 +11,7 @@
   "A1 lognormal: predictive check (M7)": "FAIL",
   "A1 lognormal: hold-out (M8)": "INCOMPLETE",
   "A1 lognormal: calibration on Gamma-generated data": "INCOMPLETE",
-  "A2 sheephead shuffles with local trend (R1a, R1b)": "INCOMPLETE"
+  "A2 sheephead shuffles with local trend (R1a, R1b)": "FAIL"
  },
  "R1": {
   "lob_rw": {
@@ -141,18 +141,18 @@
    "complete": true
   },
   "kelp_pw": {
-   "n": 12,
-   "fitted": 12,
-   "mean": -0.024900000000000002,
-   "sd": 0.19840267135298353,
-   "se": 0.05727391785679295,
+   "n": 40,
+   "fitted": 40,
+   "mean": -0.039217499999999995,
+   "sd": 0.15999696934229082,
+   "se": 0.025297742092288567,
    "cover_zero": 1.0,
    "real": 0.6009,
    "as_extreme": 0,
-   "p": 0.07692307692307693,
+   "p": 0.024390243902439025,
    "R1a": "PASS",
    "R1b": "FAIL",
-   "complete": false
+   "complete": true
   }
  },
  "R3_placebo": {
@@ -432,10 +432,10 @@
    ]
   },
   "kelp_lognormal": {
-   "M7": null,
+   "M7": false,
    "M8": null,
-   "outside": null,
-   "stats": null,
+   "outside": 3,
+   "stats": 8,
    "holdout": []
   }
  },
@@ -448,19 +448,19 @@
    "cover_zero": 0.825,
    "R1a": false,
    "R1b": true,
-   "real": null,
-   "as_extreme": null
+   "real": 0.2045,
+   "as_extreme": 13
   },
   "with local trend": {
-   "n": 26,
-   "fitted": 26,
-   "mean": 0.03954615384615385,
-   "se": 0.03199512137367159,
-   "cover_zero": 0.8846153846153846,
-   "R1a": true,
+   "n": 40,
+   "fitted": 40,
+   "mean": 0.055917499999999995,
+   "se": 0.02455755377222334,
+   "cover_zero": 0.875,
+   "R1a": false,
    "R1b": true,
-   "real": null,
-   "as_extreme": null
+   "real": 0.1381,
+   "as_extreme": 13
   }
  }
 }

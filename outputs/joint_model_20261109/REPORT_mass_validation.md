@@ -17,7 +17,7 @@ Rules were fixed in `MASS_VALIDATION_PLAN.md` before the runs. Review only; noth
 | M6 space placebo (mass, biomass) | FAIL |
 | M7 predictive check of mass | FAIL |
 | M8 hold-out prediction | FAIL |
-| M9 leave one MPA out | INCOMPLETE |
+| M9 leave one MPA out | PASS |
 | M10 independent arithmetic | PASS |
 | M11 input integrity | PASS |
 
@@ -176,29 +176,29 @@ Mean sizes replicated from the fitted model, compared with the data: spread and 
 | Sheephead | 17 of 17 | -0.19 (Point Vicente SMCA) | -0.07 (Santa Barbara Island SMR) | -0.20 (Point Vicente SMCA) | none | none |
 | Purple urchin | 13 of 13 | -0.22 (Naples SMCA) | -0.07 (Scorpion SMR) | -0.24 (Scorpion SMR) | none | none |
 | Red urchin | 13 of 13 | -0.15 (Point Vicente SMCA) | +0.06 (Harris Point SMR) | +0.17 (Anacapa Island SMR 2003) | none | none |
-| Kelp | 6 of 13 | +0.37 (Harris Point SMR) | -0.07 (Campus Point SMCA) | +0.40 (Harris Point SMR) | none | density: Harris Point SMR +0.37; biomass: Harris Point SMR +0.40 |
+| Kelp | 13 of 13 | +0.37 (Harris Point SMR) | -0.07 (Campus Point SMCA) | +0.40 (Harris Point SMR) | none | density: Harris Point SMR +0.37; biomass: Harris Point SMR +0.40 |
 
-**INCOMPLETE.**
+**PASS.**
 
 ## M10. Independent arithmetic
 
 `test_multi.py` on the real inputs:
 
 ```
-2. pur<-shp: 1678 of 1768 target station-years linked, 102 stations; 1622 sampled links checked
-2. red<-lob: 1567 of 1768 target station-years linked, 101 stations; 1466 sampled links checked
-2. red<-shp: 1678 of 1768 target station-years linked, 102 stations; 1622 sampled links checked
 2. kelp<-pur: 1574 of 1674 target station-years linked, 103 stations; 2150 sampled links checked
 2. kelp<-red: 1574 of 1674 target station-years linked, 103 stations; 2150 sampled links checked
 ALL CHECKS PASSED
-3. lob  rw        mass layer log density: model -8656685.592805  independent -8656685.592805  (1621 groups)
-3. lob  piecewise mass layer log density: model -8460272.906103  independent -8460272.906103  (1621 groups)
-3. pur  rw        mass layer log density: model -5694027.188889  independent -5694027.188889  (1941 groups)
-3. pur  piecewise mass layer log density: model -4084472.820527  independent -4084472.820527  (1941 groups)
-3. shp  rw        mass layer log density: model -28009735.215175  independent -28009735.215175  (6571 groups)
-3. shp  piecewise mass layer log density: model -14404145.229315  independent -14404145.229315  (6571 groups)
-3. mass layer matches the independent calculation; worst relative difference 3.3062228408178182e-15
-ALL CHECKS PASSED (1-3)
+3. lob  rw        gamma     mass layer log density: model -8656685.592805  independent -8656685.592805  (1621 groups)
+3. lob  piecewise gamma     mass layer log density: model -8460272.906103  independent -8460272.906103  (1621 groups)
+3. lob  rw        lognormal mass layer log density: model -144616.880614  independent -144616.880614  (1621 groups)
+3. pur  rw        gamma     mass layer log density: model -5694027.188889  independent -5694027.188889  (1941 groups)
+3. pur  piecewise gamma     mass layer log density: model -4084472.820527  independent -4084472.820527  (1941 groups)
+3. pur  rw        lognormal mass layer log density: model -250993.040969  independent -250993.040969  (1941 groups)
+3. shp  rw        gamma     mass layer log density: model -28009735.215175  independent -28009735.215175  (6571 groups)
+3. shp  piecewise gamma     mass layer log density: model -14404145.229315  independent -14404145.229315  (6571 groups)
+3. shp  rw        lognormal mass layer log density: model -742714.090899  independent -742714.090899  (6571 groups)
+3. mass layer matches the independent calculation; worst relative difference 7.537057491258459e-15
+ALL CHECKS PASSED (1-4)
 ```
 
 **PASS.**
